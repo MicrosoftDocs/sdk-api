@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptorValue, BluetoothGATTGetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptorvalue, bluetoothleapis/BluetoothGATTGetDescriptorValue
 ms.topic: function
-f1_keywords: ["bluetoothleapis/BluetoothGATTGetDescriptorValue"]
+f1_keywords: 
+ - "bluetoothleapis/BluetoothGATTGetDescriptorValue"
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

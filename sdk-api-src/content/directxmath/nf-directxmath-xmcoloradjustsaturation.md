@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorAdjustSaturation, XMColorAdjustSaturation, XMColorAdjustSaturation method [DirectX Math Support APIs], dxmath.xmcoloradjustsaturation
 ms.topic: function
-f1_keywords: ["directxmath/XMColorAdjustSaturation"]
+f1_keywords: 
+ - "directxmath/XMColorAdjustSaturation"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

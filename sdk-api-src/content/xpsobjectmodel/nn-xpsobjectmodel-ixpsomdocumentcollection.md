@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], IXpsOMDocumentCollection interface [XPS Documents and Packaging],described, xps.ixpsomdocumentcollection, xpsobjectmodel/IXpsOMDocumentCollection
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMDocumentCollection"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDocumentCollection"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

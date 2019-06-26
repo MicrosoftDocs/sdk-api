@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.GetHost"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.GetHost"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

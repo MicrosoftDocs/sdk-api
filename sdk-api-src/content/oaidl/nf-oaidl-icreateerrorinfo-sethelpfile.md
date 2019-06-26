@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreateErrorInfo.SetHelpFile, ICreateErrorInfo::SetHelpFile, SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
 ms.topic: method
-f1_keywords: ["oaidl/ICreateErrorInfo.SetHelpFile"]
+f1_keywords: 
+ - "oaidl/ICreateErrorInfo.SetHelpFile"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

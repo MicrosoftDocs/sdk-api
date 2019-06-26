@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEREQMAKECALL, LINEREQMAKECALL, LINEREQMAKECALL structure [TAPI 2.2], LPLINEREQMAKECALL, LPLINEREQMAKECALL structure pointer [TAPI 2.2], _tapi2_linereqmakecall_str, tapi/LINEREQMAKECALL, tapi/LPLINEREQMAKECALL, tapi2.linereqmakecall_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEREQMAKECALL"]
+f1_keywords: 
+ - "tapi/LINEREQMAKECALL"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

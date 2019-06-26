@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
 ms.topic: function
-f1_keywords: ["winbase/LocateXStateFeature"]
+f1_keywords: 
+ - "winbase/LocateXStateFeature"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

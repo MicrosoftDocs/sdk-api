@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
 ms.topic: method
-f1_keywords: ["xamlom/IBitmapData.GetStride"]
+f1_keywords: 
+ - "xamlom/IBitmapData.GetStride"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

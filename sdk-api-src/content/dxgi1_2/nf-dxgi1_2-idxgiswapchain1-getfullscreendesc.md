@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFullscreenDesc, GetFullscreenDesc method [DXGI], GetFullscreenDesc method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetFullscreenDesc method, IDXGISwapChain1.GetFullscreenDesc, IDXGISwapChain1::GetFullscreenDesc, direct3ddxgi.idxgiswapchain1_getfullscreendesc, dxgi1_2/IDXGISwapChain1::GetFullscreenDesc
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGISwapChain1.GetFullscreenDesc"]
+f1_keywords: 
+ - "dxgi1_2/IDXGISwapChain1.GetFullscreenDesc"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

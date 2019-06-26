@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMCanvas.GetAccessibilityLongDescription, IXpsOMCanvas::GetAccessibilityLongDescription, xps.ixpsomcanvas_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityLongDescription
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas.GetAccessibilityLongDescription"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas.GetAccessibilityLongDescription"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

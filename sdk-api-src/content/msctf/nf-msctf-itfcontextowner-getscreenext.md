@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetScreenExt method, ITfContextOwner.GetScreenExt, ITfContextOwner::GetScreenExt, _tsf_itfcontextowner_getscreenext_ref, msctf/ITfContextOwner::GetScreenExt, tsf.itfcontextowner_getscreenext
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwner.GetScreenExt"]
+f1_keywords: 
+ - "msctf/ITfContextOwner.GetScreenExt"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

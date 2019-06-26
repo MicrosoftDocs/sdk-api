@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongPtrToIntPtr, LongPtrToIntPtr function [Windows Shell], SSIZETToIntPtr, _shell_LongPtrToIntPtr, intsafe/LongPtrToIntPtr, shell.LongPtrToIntPtr
 ms.topic: function
-f1_keywords: ["intsafe/LongPtrToIntPtr"]
+f1_keywords: 
+ - "intsafe/LongPtrToIntPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method, IASetVertexBuffers method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetVertexBuffers method, ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.IASetVertexBuffers"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.IASetVertexBuffers"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

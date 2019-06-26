@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.topic: method
-f1_keywords: ["oaidl/IDispatch.GetIDsOfNames"]
+f1_keywords: 
+ - "oaidl/IDispatch.GetIDsOfNames"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

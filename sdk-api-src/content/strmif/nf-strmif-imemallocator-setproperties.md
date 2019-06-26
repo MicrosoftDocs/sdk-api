@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties
 ms.topic: method
-f1_keywords: ["strmif/IMemAllocator.SetProperties"]
+f1_keywords: 
+ - "strmif/IMemAllocator.SetProperties"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

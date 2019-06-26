@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
 ms.topic: method
-f1_keywords: ["mdhcp/IMcastScope.get_ScopeDescription"]
+f1_keywords: 
+ - "mdhcp/IMcastScope.get_ScopeDescription"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

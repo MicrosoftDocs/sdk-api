@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],ILog interface, ILog interface [COM],AppendRecord method, ILog.AppendRecord, ILog::AppendRecord, _com_ilog_appendrecord, com.ilog_appendrecord, txlogpub/ILog::AppendRecord
 ms.topic: method
-f1_keywords: ["txlogpub/ILog.AppendRecord"]
+f1_keywords: 
+ - "txlogpub/ILog.AppendRecord"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
 ms.topic: method
-f1_keywords: ["ctffunc/ITfCandidateList.SetResult"]
+f1_keywords: 
+ - "ctffunc/ITfCandidateList.SetResult"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

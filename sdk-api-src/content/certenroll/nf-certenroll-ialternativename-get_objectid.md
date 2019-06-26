@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],ObjectId property, IAlternativeName.ObjectId, IAlternativeName.get_ObjectId, IAlternativeName::ObjectId, IAlternativeName::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IAlternativeName interface, certenroll/IAlternativeName::ObjectId, certenroll/IAlternativeName::get_ObjectId, get_ObjectId, security.ialternativename_objectid_property
 ms.topic: method
-f1_keywords: ["certenroll/IAlternativeName.ObjectId"]
+f1_keywords: 
+ - "certenroll/IAlternativeName.ObjectId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldOptions, GetFieldOptions method [Windows Shell], GetFieldOptions method [Windows Shell],ICredentialProviderCredentialWithFieldOptions interface, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],GetFieldOptions method, ICredentialProviderCredentialWithFieldOptions.GetFieldOptions, ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, credentialprovider/ICredentialProviderCredentialWithFieldOptions::GetFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions_GetFieldOptions
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialWithFieldOptions.GetFieldOptions"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialWithFieldOptions.GetFieldOptions"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

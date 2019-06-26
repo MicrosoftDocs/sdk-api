@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_SOURCE_TYPE, VSS_SOURCE_TYPE enumeration [VSS], VSS_ST_NONTRANSACTEDDB, VSS_ST_OTHER, VSS_ST_TRANSACTEDDB, VSS_ST_UNDEFINED, _win32_vss_source_type, base.vss_source_type, enumeration [VSS], vswriter/VSS_SOURCE_TYPE, vswriter/VSS_ST_NONTRANSACTEDDB, vswriter/VSS_ST_OTHER, vswriter/VSS_ST_TRANSACTEDDB, vswriter/VSS_ST_UNDEFINED
 ms.topic: enum
-f1_keywords: ["vswriter/VSS_SOURCE_TYPE"]
+f1_keywords: 
+ - "vswriter/VSS_SOURCE_TYPE"
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

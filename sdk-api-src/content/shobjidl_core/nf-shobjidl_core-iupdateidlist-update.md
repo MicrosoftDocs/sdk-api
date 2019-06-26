@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateIDList interface [Windows Shell],Update method, IUpdateIDList.Update, IUpdateIDList::Update, Update, Update method [Windows Shell], Update method [Windows Shell],IUpdateIDList interface, _shell_IUpdateIDList_Update, shell.IUpdateIDList_Update, shobjidl_core/IUpdateIDList::Update
 ms.topic: method
-f1_keywords: ["shobjidl_core/IUpdateIDList.Update"]
+f1_keywords: 
+ - "shobjidl_core/IUpdateIDList.Update"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA, EAP_INTERACTIVE_UI_DATA structure [EAPHost], EAP_INTERACTIVE_UI_DATA_VERSION, eaphost.eap_interactive_ui_data, eaptypes/EAP_INTERACTIVE_UI_DATA
 ms.topic: struct
-f1_keywords: ["eaptypes/EAP_INTERACTIVE_UI_DATA"]
+f1_keywords: 
+ - "eaptypes/EAP_INTERACTIVE_UI_DATA"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

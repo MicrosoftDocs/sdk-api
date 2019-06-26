@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
 ms.topic: function
-f1_keywords: ["wincrypt/CertCompareCertificateName"]
+f1_keywords: 
+ - "wincrypt/CertCompareCertificateName"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwrhibernateallowed, base.ispwrhibernateallowed, powrprof/IsPwrHibernateAllowed
 ms.topic: function
-f1_keywords: ["powrprof/IsPwrHibernateAllowed"]
+f1_keywords: 
+ - "powrprof/IsPwrHibernateAllowed"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

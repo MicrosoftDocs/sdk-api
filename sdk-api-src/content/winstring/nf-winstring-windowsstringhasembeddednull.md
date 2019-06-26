@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsStringHasEmbeddedNull, WindowsStringHasEmbeddedNull function [Windows Runtime], winrt.windowsstringhasembeddednull, winstring/WindowsStringHasEmbeddedNull
 ms.topic: function
-f1_keywords: ["winstring/WindowsStringHasEmbeddedNull"]
+f1_keywords: 
+ - "winstring/WindowsStringHasEmbeddedNull"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

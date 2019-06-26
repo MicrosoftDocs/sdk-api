@@ -181,4 +181,5 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
  
 
 
-
+f1_keywords: 
+ - "ntdef/FIELD_OFFSET"

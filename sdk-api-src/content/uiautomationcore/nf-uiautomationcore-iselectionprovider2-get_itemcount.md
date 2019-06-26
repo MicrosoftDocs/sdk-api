@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider2 interface [Windows Accessibility],ItemCount property, ISelectionProvider2.ItemCount, ISelectionProvider2.get_ItemCount, ISelectionProvider2::ItemCount, ISelectionProvider2::get_ItemCount, ItemCount property [Windows Accessibility], ItemCount property [Windows Accessibility],ISelectionProvider2 interface, get_ItemCount, uiautomationcore/ISelectionProvider2::ItemCount, uiautomationcore/ISelectionProvider2::get_ItemCount, winauto.uiauto_ISelectionProvider2_ItemCount
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISelectionProvider2.ItemCount"]
+f1_keywords: 
+ - "uiautomationcore/ISelectionProvider2.ItemCount"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

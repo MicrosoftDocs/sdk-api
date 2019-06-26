@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
 ms.topic: method
-f1_keywords: ["imapi2/IDiscMaster2.get_Item"]
+f1_keywords: 
+ - "imapi2/IDiscMaster2.get_Item"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

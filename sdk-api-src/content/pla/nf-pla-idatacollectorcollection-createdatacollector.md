@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorCollection.CreateDataCollector"]
+f1_keywords: 
+ - "pla/IDataCollectorCollection.CreateDataCollector"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

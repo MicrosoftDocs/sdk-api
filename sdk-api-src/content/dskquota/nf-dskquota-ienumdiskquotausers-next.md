@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Next method, IEnumDiskQuotaUsers.Next, IEnumDiskQuotaUsers::Next, Next, Next method [Files], Next method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_next, base.ienumdiskquotausers_next, dskquota/IEnumDiskQuotaUsers::Next, fs.ienumdiskquotausers_next
 ms.topic: method
-f1_keywords: ["dskquota/IEnumDiskQuotaUsers.Next"]
+f1_keywords: 
+ - "dskquota/IEnumDiskQuotaUsers.Next"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

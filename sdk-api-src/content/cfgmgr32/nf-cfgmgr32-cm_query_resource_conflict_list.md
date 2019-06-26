@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Query_Resource_Conflict_List, CM_Query_Resource_Conflict_List function [Device and Driver Installation], cfgmgr32/CM_Query_Resource_Conflict_List, cfgmgrfn_1d52e544-49ce-4c1a-acc1-b59b7aaec790.xml, devinst.cm_query_resource_conflict_list
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Query_Resource_Conflict_List"]
+f1_keywords: 
+ - "cfgmgr32/CM_Query_Resource_Conflict_List"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

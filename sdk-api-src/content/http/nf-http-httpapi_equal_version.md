@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
 ms.topic: macro
-f1_keywords: ["http/HTTP_EQUAL_VERSION"]
+f1_keywords: 
+ - "http/HTTP_EQUAL_VERSION"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonesetvolume, phoneSetVolume, phoneSetVolume function [TAPI 2.2], tapi/phoneSetVolume, tapi2.phonesetvolume"
 ms.topic: function
-f1_keywords: ["tapi/phoneSetVolume"]
+f1_keywords: 
+ - "tapi/phoneSetVolume"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

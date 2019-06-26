@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedDescription property [Windows Accessibility], CachedDescription property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedDescription property, IUIAutomationLegacyIAccessiblePattern.CachedDescription, IUIAutomationLegacyIAccessiblePattern.get_CachedDescription, IUIAutomationLegacyIAccessiblePattern::CachedDescription, IUIAutomationLegacyIAccessiblePattern::get_CachedDescription, get_CachedDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDescription
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDescription"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDescription"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

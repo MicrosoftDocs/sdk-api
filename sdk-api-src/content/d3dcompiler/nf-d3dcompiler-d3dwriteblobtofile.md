@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DWriteBlobToFile, D3DWriteBlobToFile function [HLSL], d3dcompiler/D3DWriteBlobToFile, direct3dhlsl.d3dwriteblobtofile
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DWriteBlobToFile"]
+f1_keywords: 
+ - "d3dcompiler/D3DWriteBlobToFile"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

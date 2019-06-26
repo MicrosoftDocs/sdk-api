@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetMetaData, rm.drmgetmetadata
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetMetaData"]
+f1_keywords: 
+ - "msdrm/DRMGetMetaData"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

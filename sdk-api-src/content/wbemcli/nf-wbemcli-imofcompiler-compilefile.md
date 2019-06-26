@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompileFile, CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileFile method, IMofCompiler.CompileFile, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
 ms.topic: method
-f1_keywords: ["wbemcli/IMofCompiler.CompileFile"]
+f1_keywords: 
+ - "wbemcli/IMofCompiler.CompileFile"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

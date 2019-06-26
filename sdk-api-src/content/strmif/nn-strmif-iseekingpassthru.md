@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
 ms.topic: interface
-f1_keywords: ["strmif/ISeekingPassThru"]
+f1_keywords: 
+ - "strmif/ISeekingPassThru"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

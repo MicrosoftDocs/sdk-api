@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
 ms.topic: struct
-f1_keywords: ["webservices/WS_XML_DICTIONARY"]
+f1_keywords: 
+ - "webservices/WS_XML_DICTIONARY"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

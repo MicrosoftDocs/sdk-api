@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICRect, WICRect structure [Windows Imaging Component], _wic_codec_wicrect, wic._wic_codec_wicrect, wincodec/WICRect
 ms.topic: struct
-f1_keywords: ["wincodec/WICRect"]
+f1_keywords: 
+ - "wincodec/WICRect"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceViewToPosition, GetSourceViewToPosition method [Windows Shell], GetSourceViewToPosition method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewToPosition method, ILaunchSourceViewSizePreference.GetSourceViewToPosition, ILaunchSourceViewSizePreference::GetSourceViewToPosition, shell.ILaunchSourceViewSizePreference_GetSourceViewToPosition, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition
 ms.topic: method
-f1_keywords: ["shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewToPosition"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewToPosition"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

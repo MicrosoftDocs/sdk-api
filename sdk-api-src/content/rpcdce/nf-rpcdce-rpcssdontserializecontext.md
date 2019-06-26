@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsDontSerializeContext, RpcSsDontSerializeContext function [RPC], _rpc_rpcssdontserializecontext, rpc.rpcssdontserializecontext, rpcdce/RpcSsDontSerializeContext
 ms.topic: function
-f1_keywords: ["rpcdce/RpcSsDontSerializeContext"]
+f1_keywords: 
+ - "rpcdce/RpcSsDontSerializeContext"
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextBeforePosition, GetTextBeforePosition method [Direct Write], GetTextBeforePosition method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetTextBeforePosition method, IDWriteTextAnalysisSource.GetTextBeforePosition, IDWriteTextAnalysisSource::GetTextBeforePosition, directwrite.idwritetextanalysissource_gettextbeforeposition, dwrite/IDWriteTextAnalysisSource::GetTextBeforePosition
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalysisSource.GetTextBeforePosition"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSource.GetTextBeforePosition"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

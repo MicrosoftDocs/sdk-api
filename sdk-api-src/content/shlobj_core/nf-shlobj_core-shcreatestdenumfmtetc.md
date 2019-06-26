@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
 ms.topic: function
-f1_keywords: ["shlobj_core/SHCreateStdEnumFmtEtc"]
+f1_keywords: 
+ - "shlobj_core/SHCreateStdEnumFmtEtc"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY, EAP_METHOD_PROPERTY structure [EAPHost], PEAP_METHOD_PROPERTY, PEAP_METHOD_PROPERTY structure pointer [EAPHost], eaphost.eap_method_property, eaptypes/EAP_METHOD_PROPERTY, eaptypes/PEAP_METHOD_PROPERTY
 ms.topic: struct
-f1_keywords: ["eaptypes/EAP_METHOD_PROPERTY"]
+f1_keywords: 
+ - "eaptypes/EAP_METHOD_PROPERTY"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Security], SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Security], _SYSTEM_SCOPED_POLICY_ID_ACE, security.system_scoped_policy_id_ace, winnt/PSYSTEM_SCOPED_POLICY_ID_ACE, winnt/SYSTEM_SCOPED_POLICY_ID_ACE"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_SCOPED_POLICY_ID_ACE"]
+f1_keywords: 
+ - "winnt/SYSTEM_SCOPED_POLICY_ID_ACE"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

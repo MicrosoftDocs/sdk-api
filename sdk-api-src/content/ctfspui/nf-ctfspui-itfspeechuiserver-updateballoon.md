@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],UpdateBalloon method, ITfSpeechUIServer.UpdateBalloon, ITfSpeechUIServer::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::UpdateBalloon, tsf.itfspeechuiserver_updateballoon
 ms.topic: method
-f1_keywords: ["ctfspui/ITfSpeechUIServer.UpdateBalloon"]
+f1_keywords: 
+ - "ctfspui/ITfSpeechUIServer.UpdateBalloon"
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 ms.topic: function
-f1_keywords: ["synchapi/TryAcquireSRWLockShared"]
+f1_keywords: 
+ - "synchapi/TryAcquireSRWLockShared"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
 ms.topic: function
-f1_keywords: ["userenv/UnloadUserProfile"]
+f1_keywords: 
+ - "userenv/UnloadUserProfile"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGamutBoundaryMesh, GetGamutBoundaryMesh method [Windows Color System], GetGamutBoundaryMesh method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMesh method, IDeviceModelPlugIn.GetGamutBoundaryMesh, IDeviceModelPlugIn::GetGamutBoundaryMesh, _color_IDeviceModelPlugIn::GetGamutBoundaryMesh, wcs.IDeviceModelPlugIn_GetGamutBoundaryMesh, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMesh
 ms.topic: method
-f1_keywords: ["wcsplugin/IDeviceModelPlugIn.GetGamutBoundaryMesh"]
+f1_keywords: 
+ - "wcsplugin/IDeviceModelPlugIn.GetGamutBoundaryMesh"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

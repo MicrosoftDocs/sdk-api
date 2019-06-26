@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT, EMREMRTRANSPARENTBLT structure [Windows GDI], EMRTRANSPARENTBLT, EMRTRANSPARENTBLT structure [Windows GDI], PEMREMRTRANSPARENTBLT, PEMREMRTRANSPARENTBLT structure pointer [Windows GDI], _win32_EMRTRANSPARENTBLT_str, gdi.emrtransparentblt, wingdi/EMRTRANSPARENTBLT, wingdi/PEMREMRTRANSPARENTBLT"
 ms.topic: struct
-f1_keywords: ["wingdi/EMREMRTRANSPARENTBLT"]
+f1_keywords: 
+ - "wingdi/EMREMRTRANSPARENTBLT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

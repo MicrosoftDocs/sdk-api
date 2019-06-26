@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO"
 ms.topic: struct
-f1_keywords: ["vptype/AMVPDATAINFO"]
+f1_keywords: 
+ - "vptype/AMVPDATAINFO"
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

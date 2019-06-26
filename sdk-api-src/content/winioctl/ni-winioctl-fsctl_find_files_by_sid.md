@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FIND_FILES_BY_SID, FSCTL_FIND_FILES_BY_SID control, FSCTL_FIND_FILES_BY_SID control code [Files], base.fsctl_find_files_by_sid, fs.fsctl_find_files_by_sid, winioctl/FSCTL_FIND_FILES_BY_SID
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_FIND_FILES_BY_SID"]
+f1_keywords: 
+ - "winioctl/FSCTL_FIND_FILES_BY_SID"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

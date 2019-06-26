@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager, IAudioSessionManager interface [Core Audio], IAudioSessionManager interface [Core Audio],described, audiopolicy/IAudioSessionManager, coreaudio.iaudiosessionmanager
 ms.topic: interface
-f1_keywords: ["audiopolicy/IAudioSessionManager"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionManager"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

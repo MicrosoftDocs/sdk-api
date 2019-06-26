@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_GetStateImageList, Header_GetStateImageList macro [Windows Controls], _win32_Header_GetStateImageList, _win32_Header_GetStateImageList_cpp, commctrl/Header_GetStateImageList, controls.Header_GetStateImageList, controls._win32_Header_GetStateImageList
 ms.topic: macro
-f1_keywords: ["commctrl/Header_GetStateImageList"]
+f1_keywords: 
+ - "commctrl/Header_GetStateImageList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

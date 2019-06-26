@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRowHeaders, GetRowHeaders method [Windows Accessibility], GetRowHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetRowHeaders method, ITableProvider.GetRowHeaders, ITableProvider::GetRowHeaders, uiauto.uiauto_ITableProvider_GetRowHeaders, uiauto_ITableProvider_GetRowHeaders, uiautomationcore/ITableProvider::GetRowHeaders, winauto.uiauto_ITableProvider_GetRowHeaders
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITableProvider.GetRowHeaders"]
+f1_keywords: 
+ - "uiautomationcore/ITableProvider.GetRowHeaders"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

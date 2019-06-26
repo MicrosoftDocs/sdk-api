@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetTag method, IPBDAEntitlementDescriptor.GetTag, IPBDAEntitlementDescriptor::GetTag, dvbsiparser/IPBDAEntitlementDescriptor::GetTag, mstv.ipbdaentitlementdescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IPBDAEntitlementDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IPBDAEntitlementDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

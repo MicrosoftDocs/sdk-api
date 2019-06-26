@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingNavigationAsync method, IBrowserService2._CancelPendingNavigationAsync, IBrowserService2::_CancelPendingNavigationAsync, _CancelPendingNavigationAsync, _CancelPendingNavigationAsync method [Windows Shell], _CancelPendingNavigationAsync method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingNavigationAsync, shell.IBrowserService2__CancelPendingNavigationAsync, zone_IBrowserService2__CancelPendingNavigationAsync
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._CancelPendingNavigationAsync"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._CancelPendingNavigationAsync"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

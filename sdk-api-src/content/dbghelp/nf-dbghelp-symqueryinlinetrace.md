@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
 ms.topic: function
-f1_keywords: ["dbghelp/SymQueryInlineTrace"]
+f1_keywords: 
+ - "dbghelp/SymQueryInlineTrace"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptRetrieveTimeStamp, CryptRetrieveTimeStamp function [Security], TIMESTAMP_DONT_HASH_DATA, TIMESTAMP_NO_AUTH_RETRIEVAL, TIMESTAMP_VERIFY_CONTEXT_SIGNATURE, security.cryptretrievetimestamp, wincrypt/CryptRetrieveTimeStamp
 ms.topic: function
-f1_keywords: ["wincrypt/CryptRetrieveTimeStamp"]
+f1_keywords: 
+ - "wincrypt/CryptRetrieveTimeStamp"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

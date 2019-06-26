@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],DeleteSubrange method, ITextRange2.DeleteSubrange, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.DeleteSubrange"]
+f1_keywords: 
+ - "tom/ITextRange2.DeleteSubrange"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

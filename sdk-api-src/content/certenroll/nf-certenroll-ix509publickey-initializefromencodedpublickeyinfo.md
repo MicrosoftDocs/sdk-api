@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509PublicKey.InitializeFromEncodedPublicKeyInfo"]
+f1_keywords: 
+ - "certenroll/IX509PublicKey.InitializeFromEncodedPublicKeyInfo"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

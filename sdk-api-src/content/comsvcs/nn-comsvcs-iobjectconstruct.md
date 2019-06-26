@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectConstruct, IObjectConstruct interface [COM+], IObjectConstruct interface [COM+],described, _cos_IObjectConstruct, comsvcs/IObjectConstruct, cos.iobjectconstruct
 ms.topic: interface
-f1_keywords: ["comsvcs/IObjectConstruct"]
+f1_keywords: 
+ - "comsvcs/IObjectConstruct"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
 ms.topic: function
-f1_keywords: ["synchapi/WaitOnAddress"]
+f1_keywords: 
+ - "synchapi/WaitOnAddress"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

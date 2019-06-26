@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDS_RAWMODE, EDS_ROTATEDMODE, ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettingsEx, EnumDisplaySettingsEx function [Windows GDI], EnumDisplaySettingsExA, EnumDisplaySettingsExW, _win32_EnumDisplaySettingsEx, gdi.enumdisplaysettingsex, winuser/EnumDisplaySettingsEx, winuser/EnumDisplaySettingsExA, winuser/EnumDisplaySettingsExW
 ms.topic: function
-f1_keywords: ["winuser/EnumDisplaySettingsEx"]
+f1_keywords: 
+ - "winuser/EnumDisplaySettingsEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

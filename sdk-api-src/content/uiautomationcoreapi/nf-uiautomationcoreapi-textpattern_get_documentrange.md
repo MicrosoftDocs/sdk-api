@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextPattern_get_DocumentRange, TextPattern_get_DocumentRange function [Windows Accessibility], uiauto.uiauto_TextPattern_get_DocumentRangeConPat, uiauto_TextPattern_get_DocumentRangeConPat, uiautomationcoreapi/TextPattern_get_DocumentRange, winauto.uiauto_TextPattern_get_DocumentRangeConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextPattern_get_DocumentRange"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextPattern_get_DocumentRange"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

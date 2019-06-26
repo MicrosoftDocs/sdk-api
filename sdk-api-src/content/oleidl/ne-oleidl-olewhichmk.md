@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLEWHICHMK, OLEWHICHMK enumeration [COM], OLEWHICHMK_CONTAINER, OLEWHICHMK_OBJFULL, OLEWHICHMK_OBJREL, _ole_OLEWHICHMK, com.olewhichmk, oleidl/OLEWHICHMK, oleidl/OLEWHICHMK_CONTAINER, oleidl/OLEWHICHMK_OBJFULL, oleidl/OLEWHICHMK_OBJREL
 ms.topic: enum
-f1_keywords: ["oleidl/OLEWHICHMK"]
+f1_keywords: 
+ - "oleidl/OLEWHICHMK"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

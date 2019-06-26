@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH structure [Display Devices], ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml, display.ddvideoportbandwidth, dvp/DDVIDEOPORTBANDWIDTH"
 ms.topic: struct
-f1_keywords: ["dvp/DDVIDEOPORTBANDWIDTH"]
+f1_keywords: 
+ - "dvp/DDVIDEOPORTBANDWIDTH"
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

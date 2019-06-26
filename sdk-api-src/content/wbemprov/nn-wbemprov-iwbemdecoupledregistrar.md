@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar
 ms.topic: interface
-f1_keywords: ["wbemprov/IWbemDecoupledRegistrar"]
+f1_keywords: 
+ - "wbemprov/IWbemDecoupledRegistrar"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
 ms.topic: method
-f1_keywords: ["mstask/ITask.SetTaskFlags"]
+f1_keywords: 
+ - "mstask/ITask.SetTaskFlags"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_MREQ_SOURCE, IP_MREQ_SOURCE, IP_MREQ_SOURCE [Winsock], IP_MREQ_SOURCE structure [Winsock], PIP_MREQ_SOURCE, PIP_MREQ_SOURCE structure pointer [Winsock], ip_mreq_source, ip_mreq_source structure [Winsock], winsock.ip_mreq_source, ws2ipdef/PIP_MREQ_SOURCE, ws2ipdef/ip_mreq_source, ws2tcpip/PIP_MREQ_SOURCE, ws2tcpip/ip_mreq_source"
 ms.topic: struct
-f1_keywords: ["ws2ipdef/IP_MREQ_SOURCE"]
+f1_keywords: 
+ - "ws2ipdef/IP_MREQ_SOURCE"
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

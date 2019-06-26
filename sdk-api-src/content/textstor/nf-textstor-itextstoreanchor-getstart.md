@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.GetStart"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.GetStart"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

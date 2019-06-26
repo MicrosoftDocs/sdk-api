@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongToUChar, LongToUChar function [Windows Shell], _shell_LongToUChar, intsafe/LongToUChar, shell.LongToUChar
 ms.topic: function
-f1_keywords: ["intsafe/LongToUChar"]
+f1_keywords: 
+ - "intsafe/LongToUChar"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

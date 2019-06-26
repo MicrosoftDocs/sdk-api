@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE enumeration [HTTP], HTTP_QOS_SETTING_TYPE, HTTP_QOS_SETTING_TYPE enumeration [HTTP], HttpQosSettingTypeBandwidth, HttpQosSettingTypeConnectionLimit, HttpQosSettingTypeFlowRate, http.http_qos_setting_type, http/*PHTTP_QOS_SETTING_TYPE, http/HTTP_QOS_SETTING_TYPE, http/HttpQosSettingTypeBandwidth, http/HttpQosSettingTypeConnectionLimit, http/HttpQosSettingTypeFlowRate"
 ms.topic: enum
-f1_keywords: ["http/HTTP_QOS_SETTING_TYPE"]
+f1_keywords: 
+ - "http/HTTP_QOS_SETTING_TYPE"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

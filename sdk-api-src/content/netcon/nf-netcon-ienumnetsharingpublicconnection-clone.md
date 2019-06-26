@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingPublicConnection.Clone"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPublicConnection.Clone"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

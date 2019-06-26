@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Move method, ITextRangeProvider.Move, ITextRangeProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Move, uiauto_ITextRangeProvider_Move, uiautomationcore/ITextRangeProvider::Move, winauto.uiauto_ITextRangeProvider_Move
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextRangeProvider.Move"]
+f1_keywords: 
+ - "uiautomationcore/ITextRangeProvider.Move"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

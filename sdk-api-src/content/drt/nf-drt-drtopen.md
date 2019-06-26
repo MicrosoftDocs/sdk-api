@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
 ms.topic: function
-f1_keywords: ["drt/DrtOpen"]
+f1_keywords: 
+ - "drt/DrtOpen"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

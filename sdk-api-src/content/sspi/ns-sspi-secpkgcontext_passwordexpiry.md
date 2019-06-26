@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry structure pointer [Security], SecPkgContext_PasswordExpiry, SecPkgContext_PasswordExpiry structure [Security], security.secpkgcontext_passwordexpiry, sspi/PSecPkgContext_PasswordExpiry, sspi/SecPkgContext_PasswordExpiry"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_PasswordExpiry"]
+f1_keywords: 
+ - "sspi/SecPkgContext_PasswordExpiry"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

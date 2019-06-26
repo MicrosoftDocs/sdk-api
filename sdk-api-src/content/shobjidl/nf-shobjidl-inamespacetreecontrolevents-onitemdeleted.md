@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnItemDeleted"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnItemDeleted"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

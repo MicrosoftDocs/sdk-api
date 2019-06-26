@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], IMFSpatialAudioSample interface [Media Foundation],described, mf.imfspatialaudiosample, mfspatialaudio/IMFSpatialAudioSample
 ms.topic: interface
-f1_keywords: ["mfspatialaudio/IMFSpatialAudioSample"]
+f1_keywords: 
+ - "mfspatialaudio/IMFSpatialAudioSample"
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

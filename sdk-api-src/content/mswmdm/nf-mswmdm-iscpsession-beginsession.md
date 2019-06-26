@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],BeginSession method, ISCPSession.BeginSession, ISCPSession::BeginSession, ISCPSessionBeginSession, mswmdm/ISCPSession::BeginSession, wmdm.iscpsession_beginsession
 ms.topic: method
-f1_keywords: ["mswmdm/ISCPSession.BeginSession"]
+f1_keywords: 
+ - "mswmdm/ISCPSession.BeginSession"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

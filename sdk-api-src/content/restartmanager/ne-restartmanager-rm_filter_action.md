@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInvalidFilterAction, RmNoRestart, RmNoShutdown, restartmanager/RM_FILTER_ACTION, restartmanager/RmInvalidFilterAction, restartmanager/RmNoRestart, restartmanager/RmNoShutdown, rstmgr.rm_filter_action
 ms.topic: enum
-f1_keywords: ["restartmanager/RM_FILTER_ACTION"]
+f1_keywords: 
+ - "restartmanager/RM_FILTER_ACTION"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoProps, GetNativeVideoProps method [DirectShow], GetNativeVideoProps method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetNativeVideoProps method, IDDrawExclModeVideo.GetNativeVideoProps, IDDrawExclModeVideo::GetNativeVideoProps, IDDrawExclModeVideoGetNativeVideoProps, dshow.iddrawexclmodevideo_getnativevideoprops, strmif/IDDrawExclModeVideo::GetNativeVideoProps
 ms.topic: method
-f1_keywords: ["strmif/IDDrawExclModeVideo.GetNativeVideoProps"]
+f1_keywords: 
+ - "strmif/IDDrawExclModeVideo.GetNativeVideoProps"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

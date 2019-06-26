@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ChangePoint method, IFileSystemImage.get_ChangePoint, IFileSystemImage::get_ChangePoint, get_ChangePoint, get_ChangePoint method [IMAPI], get_ChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_changepoint, imapi2fs/IFileSystemImage::get_ChangePoint
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_ChangePoint"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_ChangePoint"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

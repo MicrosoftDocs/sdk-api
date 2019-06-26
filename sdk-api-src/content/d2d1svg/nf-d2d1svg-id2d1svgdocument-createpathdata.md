@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePathData, CreatePathData method [Direct2D], CreatePathData method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePathData method, ID2D1SvgDocument.CreatePathData, ID2D1SvgDocument::CreatePathData, d2d1svg/ID2D1SvgDocument::CreatePathData, direct2d.id2d1svgdocument_createpathdata
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgDocument.CreatePathData"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgDocument.CreatePathData"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

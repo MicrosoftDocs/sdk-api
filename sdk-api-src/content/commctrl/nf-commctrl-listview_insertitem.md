@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_InsertItem, ListView_InsertItem macro [Windows Controls], _win32_ListView_InsertItem, _win32_ListView_InsertItem_cpp, commctrl/ListView_InsertItem, controls.ListView_InsertItem, controls._win32_ListView_InsertItem
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_InsertItem"]
+f1_keywords: 
+ - "commctrl/ListView_InsertItem"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

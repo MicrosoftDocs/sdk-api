@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsCmp, SnmpUtilOctetsCmp function [SNMP], _snmp_snmputiloctetscmp, snmp.snmputiloctetscmp, snmp/SnmpUtilOctetsCmp
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilOctetsCmp"]
+f1_keywords: 
+ - "snmp/SnmpUtilOctetsCmp"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwndWithTitle, ADsPropSetHwndWithTitle function [Active Directory], ad.adspropsethwndwithtitle, adsprop/ADsPropSetHwndWithTitle
 ms.topic: function
-f1_keywords: ["adsprop/ADsPropSetHwndWithTitle"]
+f1_keywords: 
+ - "adsprop/ADsPropSetHwndWithTitle"
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

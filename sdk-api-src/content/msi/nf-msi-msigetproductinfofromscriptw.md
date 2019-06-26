@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
 ms.topic: function
-f1_keywords: ["msi/MsiGetProductInfoFromScript"]
+f1_keywords: 
+ - "msi/MsiGetProductInfoFromScript"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

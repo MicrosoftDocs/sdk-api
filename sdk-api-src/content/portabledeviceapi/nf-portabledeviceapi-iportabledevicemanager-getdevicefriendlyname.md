@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceFriendlyName method, IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

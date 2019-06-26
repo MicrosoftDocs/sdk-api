@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],SetPixel method, Bitmap.SetPixel, Bitmap::SetPixel, SetPixel, SetPixel method [GDI+], SetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_SetPixel_x_y_color_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.SetPixel"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.SetPixel"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

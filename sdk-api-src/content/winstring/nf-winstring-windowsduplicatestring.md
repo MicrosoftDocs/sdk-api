@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Runtime], winrt.windowsduplicatestring, winstring/WindowsDuplicateString
 ms.topic: function
-f1_keywords: ["winstring/WindowsDuplicateString"]
+f1_keywords: 
+ - "winstring/WindowsDuplicateString"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

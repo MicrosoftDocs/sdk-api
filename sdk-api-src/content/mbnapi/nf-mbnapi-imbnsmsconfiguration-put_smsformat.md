@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],SmsFormat property, IMbnSmsConfiguration.SmsFormat, IMbnSmsConfiguration.put_SmsFormat, IMbnSmsConfiguration::SmsFormat, IMbnSmsConfiguration::get_SmsFormat, IMbnSmsConfiguration::put_SmsFormat, SmsFormat property [Microsoft Broadband Networks], SmsFormat property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_smsformat, mbnapi/IMbnSmsConfiguration::SmsFormat, mbnapi/IMbnSmsConfiguration::get_SmsFormat, mbnapi/IMbnSmsConfiguration::put_SmsFormat, put_SmsFormat
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSmsConfiguration.SmsFormat"]
+f1_keywords: 
+ - "mbnapi/IMbnSmsConfiguration.SmsFormat"
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
 ms.topic: function
-f1_keywords: ["winwlx/WlxGetStatusMessage"]
+f1_keywords: 
+ - "winwlx/WlxGetStatusMessage"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

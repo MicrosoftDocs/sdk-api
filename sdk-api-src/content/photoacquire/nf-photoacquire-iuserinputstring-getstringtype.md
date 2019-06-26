@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringType, GetStringType method [Picture Acquisition], GetStringType method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetStringType method, IUserInputString.GetStringType, IUserInputString::GetStringType, IUserInputStringGetStringType, photoacquire/IUserInputString::GetStringType, picacq.iuserinputstring_getstringtype
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetStringType"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetStringType"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

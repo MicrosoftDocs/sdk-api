@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawInputDeviceList, GetRawInputDeviceList function [Keyboard and Mouse Input], _win32_GetRawInputDeviceList, _win32_getrawinputdevicelist_cpp, inputdev.getrawinputdevicelist, winui._win32_getrawinputdevicelist, winuser/GetRawInputDeviceList
 ms.topic: function
-f1_keywords: ["winuser/GetRawInputDeviceList"]
+f1_keywords: 
+ - "winuser/GetRawInputDeviceList"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

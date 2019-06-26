@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RtmAddNextHop, RtmAddNextHop function [RAS], _rtmv2ref_rtmaddnexthop, rras.rtmaddnexthop, rtmv2/RtmAddNextHop
 ms.topic: function
-f1_keywords: ["rtmv2/RtmAddNextHop"]
+f1_keywords: 
+ - "rtmv2/RtmAddNextHop"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMeteringChannelCount, GetMeteringChannelCount method [Core Audio], GetMeteringChannelCount method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetMeteringChannelCount method, IAudioMeterInformation.GetMeteringChannelCount, IAudioMeterInformation::GetMeteringChannelCount, IAudioMeterInformationGetMeteringChannelCount, coreaudio.iaudiometerinformation_getmeteringchannelcount, endpointvolume/IAudioMeterInformation::GetMeteringChannelCount
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioMeterInformation.GetMeteringChannelCount"]
+f1_keywords: 
+ - "endpointvolume/IAudioMeterInformation.GetMeteringChannelCount"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

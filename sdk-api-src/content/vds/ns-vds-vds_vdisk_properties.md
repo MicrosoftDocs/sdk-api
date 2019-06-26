@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES"
 ms.topic: struct
-f1_keywords: ["vds/VDS_VDISK_PROPERTIES"]
+f1_keywords: 
+ - "vds/VDS_VDISK_PROPERTIES"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

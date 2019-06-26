@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList"
 ms.topic: struct
-f1_keywords: ["shlobj/SHChangeProductKeyAsIDList"]
+f1_keywords: 
+ - "shlobj/SHChangeProductKeyAsIDList"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

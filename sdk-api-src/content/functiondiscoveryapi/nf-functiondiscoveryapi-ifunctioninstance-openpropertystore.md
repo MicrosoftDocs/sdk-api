@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionInstance.OpenPropertyStore"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionInstance.OpenPropertyStore"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

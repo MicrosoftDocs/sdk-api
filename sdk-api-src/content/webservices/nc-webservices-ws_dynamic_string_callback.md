@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DYNAMIC_STRING_CALLBACK, WS_DYNAMIC_STRING_CALLBACK callback, WS_DYNAMIC_STRING_CALLBACK callback function [Web Services for Windows], webservices/WS_DYNAMIC_STRING_CALLBACK, wsw.ws_dynamic_string_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_DYNAMIC_STRING_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_DYNAMIC_STRING_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

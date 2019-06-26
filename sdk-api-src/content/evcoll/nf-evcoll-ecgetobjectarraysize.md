@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
 ms.topic: function
-f1_keywords: ["evcoll/EcGetObjectArraySize"]
+f1_keywords: 
+ - "evcoll/EcGetObjectArraySize"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName function [Failover Cluster], SetClusterName, SetClusterName function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, clusapi/SetClusterName, mscs.setclustername
 ms.topic: function
-f1_keywords: ["clusapi/SetClusterName"]
+f1_keywords: 
+ - "clusapi/SetClusterName"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_OPERATION, WS_ASYNC_OPERATION structure [Web Services for Windows], webservices/WS_ASYNC_OPERATION, wsw.ws_async_operation
 ms.topic: struct
-f1_keywords: ["webservices/WS_ASYNC_OPERATION"]
+f1_keywords: 
+ - "webservices/WS_ASYNC_OPERATION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

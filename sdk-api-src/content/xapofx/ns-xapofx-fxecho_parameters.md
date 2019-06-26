@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
 ms.topic: struct
-f1_keywords: ["xapofx/FXECHO_PARAMETERS"]
+f1_keywords: 
+ - "xapofx/FXECHO_PARAMETERS"
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

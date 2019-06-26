@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetStyles, MCIWndGetStyles macro [Windows Multimedia], _win32_MCIWndGetStyles, multimedia.mciwndgetstyles, vfw/MCIWndGetStyles
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndGetStyles"]
+f1_keywords: 
+ - "vfw/MCIWndGetStyles"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

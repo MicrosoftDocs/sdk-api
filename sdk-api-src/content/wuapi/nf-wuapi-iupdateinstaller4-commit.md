@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Update Agent], Commit method [Windows Update Agent],IUpdateInstaller4 interface, IUpdateInstaller4 interface [Windows Update Agent],Commit method, IUpdateInstaller4.Commit, IUpdateInstaller4::Commit, wua.iupdateinstaller4_commit, wuapi/IUpdateInstaller4::Commit
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller4.Commit"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller4.Commit"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster], PCREATE_CLUSTER_NAME_ACCOUNT, PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_NAME_ACCOUNT, clusapi/PCREATE_CLUSTER_NAME_ACCOUNT, mscs.create_cluster_name_account"
 ms.topic: struct
-f1_keywords: ["clusapi/CREATE_CLUSTER_NAME_ACCOUNT"]
+f1_keywords: 
+ - "clusapi/CREATE_CLUSTER_NAME_ACCOUNT"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

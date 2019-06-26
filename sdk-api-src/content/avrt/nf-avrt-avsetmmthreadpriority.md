@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT_PRIORITY_NORMAL, AvSetMmThreadPriority, AvSetMmThreadPriority function, avrt/AvSetMmThreadPriority, base.avsetmmthreadpriority
 ms.topic: function
-f1_keywords: ["avrt/AvSetMmThreadPriority"]
+f1_keywords: 
+ - "avrt/AvSetMmThreadPriority"
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

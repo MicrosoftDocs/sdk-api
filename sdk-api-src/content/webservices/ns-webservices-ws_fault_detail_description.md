@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_DETAIL_DESCRIPTION, WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows], webservices/WS_FAULT_DETAIL_DESCRIPTION, wsw.ws_fault_detail_description
 ms.topic: struct
-f1_keywords: ["webservices/WS_FAULT_DETAIL_DESCRIPTION"]
+f1_keywords: 
+ - "webservices/WS_FAULT_DETAIL_DESCRIPTION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

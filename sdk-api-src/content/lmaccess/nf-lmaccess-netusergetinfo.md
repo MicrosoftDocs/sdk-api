@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
 ms.topic: function
-f1_keywords: ["lmaccess/NetUserGetInfo"]
+f1_keywords: 
+ - "lmaccess/NetUserGetInfo"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

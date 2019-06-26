@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaximumSupportedFeatureLevel, GetMaximumSupportedFeatureLevel method [Direct2D], GetMaximumSupportedFeatureLevel method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetMaximumSupportedFeatureLevel method, ID2D1EffectContext.GetMaximumSupportedFeatureLevel, ID2D1EffectContext::GetMaximumSupportedFeatureLevel, d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel, direct2d.id2d1contextinternal_getfeaturelevel
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.GetMaximumSupportedFeatureLevel"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1EffectContext.GetMaximumSupportedFeatureLevel"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

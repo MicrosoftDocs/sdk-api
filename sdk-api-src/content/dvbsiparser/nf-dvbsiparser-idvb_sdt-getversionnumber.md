@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_SDT.GetVersionNumber, IDVB_SDT::GetVersionNumber, IDVB_SDTGetVersionNumber, dvbsiparser/IDVB_SDT::GetVersionNumber, mstv.idvb_sdt_getversionnumber
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_SDT.GetVersionNumber"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_SDT.GetVersionNumber"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

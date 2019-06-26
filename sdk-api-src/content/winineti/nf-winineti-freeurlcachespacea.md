@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCacheSpaceA, FreeUrlCacheSpaceW, wininet.freeurlcachespace, winineti/FreeUrlCacheSpace, winineti/FreeUrlCacheSpaceA, winineti/FreeUrlCacheSpaceW
 ms.topic: function
-f1_keywords: ["winineti/FreeUrlCacheSpace"]
+f1_keywords: 
+ - "winineti/FreeUrlCacheSpace"
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

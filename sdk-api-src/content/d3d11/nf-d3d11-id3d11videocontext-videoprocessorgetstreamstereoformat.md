@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorGetStreamStereoFormat, ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, TRUE, VideoProcessorGetStreamStereoFormat, VideoProcessorGetStreamStereoFormat method [Media Foundation], VideoProcessorGetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, mf.id3d11videocontext_videoprocessorgetstreamstereoformat
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetStreamStereoFormat"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamStereoFormat"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

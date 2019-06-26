@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
 ms.topic: method
-f1_keywords: ["vds/IVdsMaintenance.PulseMaintenance"]
+f1_keywords: 
+ - "vds/IVdsMaintenance.PulseMaintenance"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_FindString"]
+f1_keywords: 
+ - "windowsx/ComboBox_FindString"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

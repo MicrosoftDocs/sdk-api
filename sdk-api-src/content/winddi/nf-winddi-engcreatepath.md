@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreatePath, EngCreatePath function [Display Devices], display.engcreatepath, gdifncs_73e7c8ea-ed9f-4479-bd8a-86a5d07e5d33.xml, winddi/EngCreatePath
 ms.topic: function
-f1_keywords: ["winddi/EngCreatePath"]
+f1_keywords: 
+ - "winddi/EngCreatePath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

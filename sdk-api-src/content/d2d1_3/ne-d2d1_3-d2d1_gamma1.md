@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_GAMMA1, D2D1_GAMMA1 enumeration [Direct2D], D2D1_GAMMA1_FORCE_DWORD, D2D1_GAMMA1_G10, D2D1_GAMMA1_G2084, D2D1_GAMMA1_G22, d2d1_3/D2D1_GAMMA1, d2d1_3/D2D1_GAMMA1_FORCE_DWORD, d2d1_3/D2D1_GAMMA1_G10, d2d1_3/D2D1_GAMMA1_G2084, d2d1_3/D2D1_GAMMA1_G22, direct2d.d2d1_gamma1
 ms.topic: enum
-f1_keywords: ["d2d1_3/D2D1_GAMMA1"]
+f1_keywords: 
+ - "d2d1_3/D2D1_GAMMA1"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyCount method, IWMPropertyVault.GetPropertyCount, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMPropertyVault.GetPropertyCount"]
+f1_keywords: 
+ - "wmsdkidl/IWMPropertyVault.GetPropertyCount"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

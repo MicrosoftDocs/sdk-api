@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.topic: method
-f1_keywords: ["shobjidl/IDesktopGadget.RunGadget"]
+f1_keywords: 
+ - "shobjidl/IDesktopGadget.RunGadget"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

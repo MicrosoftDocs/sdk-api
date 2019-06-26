@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataBlockSize, GetDataBlockSize method [IMAPI], GetDataBlockSize method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetDataBlockSize method, IJolietDiscMaster.GetDataBlockSize, IJolietDiscMaster::GetDataBlockSize, _win32_ijolietdiscmaster_getdatablocksize, base.ijolietdiscmaster_getdatablocksize, imapi.ijolietdiscmaster_getdatablocksize, imapi/IJolietDiscMaster::GetDataBlockSize
 ms.topic: method
-f1_keywords: ["imapi/IJolietDiscMaster.GetDataBlockSize"]
+f1_keywords: 
+ - "imapi/IJolietDiscMaster.GetDataBlockSize"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7f99dca9-036c-f8a6-79ea-5316af7e1124, D3D10_EFFECT_SHADER_DESC, D3D10_EFFECT_SHADER_DESC structure [Direct3D 10], d3d10effect/D3D10_EFFECT_SHADER_DESC, direct3d10.d3d10_effect_shader_desc
 ms.topic: struct
-f1_keywords: ["d3d10effect/D3D10_EFFECT_SHADER_DESC"]
+f1_keywords: 
+ - "d3d10effect/D3D10_EFFECT_SHADER_DESC"
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

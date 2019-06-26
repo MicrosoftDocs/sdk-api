@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPRESOURCE_CALLBACK, LPRESOURCE_CALLBACK callback function [Failover Cluster], ResourceCallback, ResourceCallback callback, ResourceCallback callback function [Failover Cluster], mscs.lpresource_callback, resapi/LPRESOURCE_CALLBACK, resapi/ResourceCallback
 ms.topic: callback
-f1_keywords: ["resapi/ResourceCallback"]
+f1_keywords: 
+ - "resapi/ResourceCallback"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

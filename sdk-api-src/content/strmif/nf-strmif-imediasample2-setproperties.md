@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2 interface [DirectShow],SetProperties method, IMediaSample2.SetProperties, IMediaSample2::SetProperties, IMediaSample2SetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMediaSample2 interface, dshow.imediasample2_setproperties, strmif/IMediaSample2::SetProperties
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample2.SetProperties"]
+f1_keywords: 
+ - "strmif/IMediaSample2.SetProperties"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

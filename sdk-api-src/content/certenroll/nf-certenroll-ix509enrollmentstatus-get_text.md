@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.get_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, get_Text, security.ix509enrollmentstatus_text_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentStatus.Text"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentStatus.Text"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

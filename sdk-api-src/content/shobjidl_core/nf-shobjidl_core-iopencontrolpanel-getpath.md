@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOpenControlPanel.GetPath"]
+f1_keywords: 
+ - "shobjidl_core/IOpenControlPanel.GetPath"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

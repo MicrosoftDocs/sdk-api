@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
 ms.topic: interface
-f1_keywords: ["dsadmin/IDsAdminNewObjExt"]
+f1_keywords: 
+ - "dsadmin/IDsAdminNewObjExt"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

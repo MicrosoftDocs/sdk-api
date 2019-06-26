@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileCustomUserData, WlanSetProfileCustomUserData function [NativeWIFI], nwifi.wlansetuserdata, wlanapi/WlanSetProfileCustomUserData
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetProfileCustomUserData"]
+f1_keywords: 
+ - "wlanapi/WlanSetProfileCustomUserData"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

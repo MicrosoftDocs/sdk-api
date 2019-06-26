@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExecAction interface [Task Scheduler],WorkingDirectory property, IExecAction.WorkingDirectory, IExecAction.get_WorkingDirectory, IExecAction::WorkingDirectory, IExecAction::get_WorkingDirectory, IExecAction::put_WorkingDirectory, WorkingDirectory property [Task Scheduler], WorkingDirectory property [Task Scheduler],IExecAction interface, get_WorkingDirectory, taskschd.iexecaction_workingdirectory, taskschd/IExecAction::WorkingDirectory, taskschd/IExecAction::get_WorkingDirectory, taskschd/IExecAction::put_WorkingDirectory
 ms.topic: method
-f1_keywords: ["taskschd/IExecAction.WorkingDirectory"]
+f1_keywords: 
+ - "taskschd/IExecAction.WorkingDirectory"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

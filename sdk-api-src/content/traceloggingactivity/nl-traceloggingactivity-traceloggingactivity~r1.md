@@ -8,7 +8,8 @@ ms.assetid: b5fb71bf-1906-4b9d-a845-b8bd92e8042d
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: class
-f1_keywords: ["traceloggingactivity/TraceLoggingActivity"]
+f1_keywords: 
+ - "traceloggingactivity/TraceLoggingActivity"
 req.header: traceloggingactivity.h
 req.include-header:
 req.redist:

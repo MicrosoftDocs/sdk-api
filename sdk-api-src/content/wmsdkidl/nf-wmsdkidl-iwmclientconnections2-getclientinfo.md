@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMClientConnections2.GetClientInfo"]
+f1_keywords: 
+ - "wmsdkidl/IWMClientConnections2.GetClientInfo"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

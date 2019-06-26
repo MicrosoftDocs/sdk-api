@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteGlobalPwrPolicy, WriteGlobalPwrPolicy function, _win32_writeglobalpwrpolicy, base.writeglobalpwrpolicy, powrprof/WriteGlobalPwrPolicy
 ms.topic: function
-f1_keywords: ["powrprof/WriteGlobalPwrPolicy"]
+f1_keywords: 
+ - "powrprof/WriteGlobalPwrPolicy"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

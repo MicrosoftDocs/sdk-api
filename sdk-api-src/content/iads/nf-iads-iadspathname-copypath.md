@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyPath, CopyPath method [ADSI], CopyPath method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],CopyPath method, IADsPathname.CopyPath, IADsPathname::CopyPath, _ds_iadspathname_copypath, adsi.iadspathname__copypath, adsi.iadspathname_copypath, iads/IADsPathname::CopyPath
 ms.topic: method
-f1_keywords: ["iads/IADsPathname.CopyPath"]
+f1_keywords: 
+ - "iads/IADsPathname.CopyPath"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
 ms.topic: interface
-f1_keywords: ["imapi2fs/IIsoImageManager"]
+f1_keywords: 
+ - "imapi2fs/IIsoImageManager"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

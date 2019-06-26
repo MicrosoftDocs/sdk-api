@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.get_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, get_Formats
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.Formats"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.Formats"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

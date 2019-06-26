@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetProperty method, ITextFont2.SetProperty, ITextFont2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextFont2 interface, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetProperty"]
+f1_keywords: 
+ - "tom/ITextFont2.SetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

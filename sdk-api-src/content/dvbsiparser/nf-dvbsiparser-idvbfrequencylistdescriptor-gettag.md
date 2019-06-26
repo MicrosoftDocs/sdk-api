@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbFrequencyListDescriptor.GetTag, IDvbFrequencyListDescriptor::GetTag, IDvbFrequencyListDescriptorGetTag, dvbsiparser/IDvbFrequencyListDescriptor::GetTag, mstv.idvbfrequencylistdescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbFrequencyListDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IDvbFrequencyListDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

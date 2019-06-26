@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDataByteCount, GetPrivateDataByteCount method [Media Foundation], GetPrivateDataByteCount method [Media Foundation],IMFContentProtectionDevice interface, IMFContentProtectionDevice interface [Media Foundation],GetPrivateDataByteCount method, IMFContentProtectionDevice.GetPrivateDataByteCount, IMFContentProtectionDevice::GetPrivateDataByteCount, mf.imfcontentprotectiondevice_getprivatedatabytecount, mfidl/IMFContentProtectionDevice::GetPrivateDataByteCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFContentProtectionDevice.GetPrivateDataByteCount"]
+f1_keywords: 
+ - "mfidl/IMFContentProtectionDevice.GetPrivateDataByteCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

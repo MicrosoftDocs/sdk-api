@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir object [GPMC],GetBackup method, GetBackup, GetBackup method [GPMC], GetBackup method [GPMC],GPMBackupDir object, GetBackup method [GPMC],IGPMBackupDir interface, IGPMBackupDir interface [GPMC],GetBackup method, IGPMBackupDir.GetBackup, IGPMBackupDir::GetBackup, _win32_igpmbackupdir_getbackup, gpmc.igpmbackupdir_getbackup, gpmgmt/IGPMBackupDir::GetBackup
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMBackupDir.GetBackup"]
+f1_keywords: 
+ - "gpmgmt/IGPMBackupDir.GetBackup"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

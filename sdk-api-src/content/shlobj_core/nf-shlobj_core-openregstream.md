@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenRegStream, OpenRegStream function [Windows Shell], STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_OpenRegStream, shell.OpenRegStream, shlobj_core/OpenRegStream
 ms.topic: function
-f1_keywords: ["shlobj_core/OpenRegStream"]
+f1_keywords: 
+ - "shlobj_core/OpenRegStream"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

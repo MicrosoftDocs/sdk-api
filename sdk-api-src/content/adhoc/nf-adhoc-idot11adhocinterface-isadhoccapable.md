@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsAdHocCapable method, IDot11AdHocInterface.IsAdHocCapable, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterface.IsAdHocCapable"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterface.IsAdHocCapable"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

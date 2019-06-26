@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array"
 ms.topic: struct
-f1_keywords: ["ntsecapi/POLICY_AUDIT_SID_ARRAY"]
+f1_keywords: 
+ - "ntsecapi/POLICY_AUDIT_SID_ARRAY"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

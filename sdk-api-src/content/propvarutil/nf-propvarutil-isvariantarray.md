@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVariantArray, IsVariantArray function [Windows Properties], _shell_IsVariantArray, properties.IsVariantArray, propvarutil/IsVariantArray, shell.IsVariantArray
 ms.topic: function
-f1_keywords: ["propvarutil/IsVariantArray"]
+f1_keywords: 
+ - "propvarutil/IsVariantArray"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

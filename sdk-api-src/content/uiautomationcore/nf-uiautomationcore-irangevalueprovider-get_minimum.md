@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Minimum property, IRangeValueProvider.Minimum, IRangeValueProvider.get_Minimum, IRangeValueProvider::Minimum, IRangeValueProvider::get_Minimum, Minimum property [Windows Accessibility], Minimum property [Windows Accessibility],IRangeValueProvider interface, get_Minimum, uiauto.uiauto_IRangeValueProvider_Minimum, uiauto_IRangeValueProvider_Minimum, uiautomationcore/IRangeValueProvider::Minimum, uiautomationcore/IRangeValueProvider::get_Minimum, winauto.uiauto_IRangeValueProvider_Minimum
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRangeValueProvider.Minimum"]
+f1_keywords: 
+ - "uiautomationcore/IRangeValueProvider.Minimum"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

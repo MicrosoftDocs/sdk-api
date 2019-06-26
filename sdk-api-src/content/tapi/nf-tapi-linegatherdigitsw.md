@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits"
 ms.topic: function
-f1_keywords: ["tapi/lineGatherDigits"]
+f1_keywords: 
+ - "tapi/lineGatherDigits"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

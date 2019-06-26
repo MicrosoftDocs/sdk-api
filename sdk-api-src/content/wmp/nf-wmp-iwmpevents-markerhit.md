@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MarkerHit method, IWMPEvents.MarkerHit, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.MarkerHit"]
+f1_keywords: 
+ - "wmp/IWMPEvents.MarkerHit"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_KCC_DSA_FAILURE, DS_REPL_KCC_DSA_FAILURE structure [Active Directory], DS_REPL_KCC_DSA_FAILUREW, DS_REPL_KCC_DSA_FAILUREW structure [Active Directory], _glines_ds_repl_kcc_dsa_failure, ad.ds__repl__kcc__dsa__failure, ad.ds_repl_kcc_dsa_failure, ntdsapi/DS_REPL_KCC_DSA_FAILURE
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_REPL_KCC_DSA_FAILUREW"]
+f1_keywords: 
+ - "ntdsapi/DS_REPL_KCC_DSA_FAILUREW"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

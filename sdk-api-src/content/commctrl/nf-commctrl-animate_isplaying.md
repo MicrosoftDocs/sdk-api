@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Animate_IsPlaying, Animate_IsPlaying macro [Windows Controls], _shell_Animate_IsPlaying, _shell_Animate_IsPlaying_cpp, commctrl/Animate_IsPlaying, controls.Animate_IsPlaying, controls._shell_Animate_IsPlaying
 ms.topic: macro
-f1_keywords: ["commctrl/Animate_IsPlaying"]
+f1_keywords: 
+ - "commctrl/Animate_IsPlaying"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

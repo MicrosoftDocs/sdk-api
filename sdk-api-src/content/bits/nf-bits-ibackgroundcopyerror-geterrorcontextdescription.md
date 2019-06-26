@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyError.GetErrorContextDescription"]
+f1_keywords: 
+ - "bits/IBackgroundCopyError.GetErrorContextDescription"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

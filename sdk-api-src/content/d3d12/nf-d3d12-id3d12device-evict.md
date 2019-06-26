@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Evict, Evict method, Evict method,ID3D12Device interface, ID3D12Device interface,Evict method, ID3D12Device.Evict, ID3D12Device::Evict, d3d12/ID3D12Device::Evict, direct3d12.id3d12device_evict
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.Evict"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.Evict"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

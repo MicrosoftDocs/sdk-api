@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.IsRenewalSuccessful"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.IsRenewalSuccessful"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemDirectory, GetSystemDirectory function, GetSystemDirectoryA, GetSystemDirectoryW, _win32_getsystemdirectory, base.getsystemdirectory, sysinfoapi/GetSystemDirectory, sysinfoapi/GetSystemDirectoryA, sysinfoapi/GetSystemDirectoryW
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetSystemDirectory"]
+f1_keywords: 
+ - "sysinfoapi/GetSystemDirectory"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

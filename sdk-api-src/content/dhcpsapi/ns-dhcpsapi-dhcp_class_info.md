@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLASS_INFO, DHCP_CLASS_INFO, DHCP_CLASS_INFO structure [DHCP], DHCP_FLAGS_OPTION_IS_VENDOR, LPDHCP_CLASS_INFO, LPDHCP_CLASS_INFO structure pointer [DHCP], dhcp.dhcp_class_info, dhcpsapi/LPDHCP_CLASS_INFO, dhcpsapi/_DHCP_CLASS_INFO"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_CLASS_INFO"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_CLASS_INFO"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

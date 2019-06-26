@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+], PathGradientBrush class [GDI+],described, _gdiplus_CLASS_PathGradientBrush_Class, gdiplus._gdiplus_CLASS_PathGradientBrush_Class, gdipluspath/PathGradientBrush
 ms.topic: class
-f1_keywords: ["gdipluspath/PathGradientBrush"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush"
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows

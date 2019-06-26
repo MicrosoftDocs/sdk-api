@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetTimePerFrame method, IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
 ms.topic: method
-f1_keywords: ["ddstream/IDirectDrawMediaStream.GetTimePerFrame"]
+f1_keywords: 
+ - "ddstream/IDirectDrawMediaStream.GetTimePerFrame"
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
 ms.topic: function
-f1_keywords: ["wincrypt/CryptHashCertificate2"]
+f1_keywords: 
+ - "wincrypt/CryptHashCertificate2"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

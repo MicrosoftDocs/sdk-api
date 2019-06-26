@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime], winrt.windowsgetstringlen, winstring/WindowsGetStringLen
 ms.topic: function
-f1_keywords: ["winstring/WindowsGetStringLen"]
+f1_keywords: 
+ - "winstring/WindowsGetStringLen"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

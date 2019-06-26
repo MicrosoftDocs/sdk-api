@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT
 ms.topic: macro
-f1_keywords: ["mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT"]
+f1_keywords: 
+ - "mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],IsAvailable method, Font.IsAvailable, Font::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],Font class, _gdiplus_CLASS_Font_IsAvailable_, gdiplus._gdiplus_CLASS_Font_IsAvailable_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Font.IsAvailable"]
+f1_keywords: 
+ - "gdiplusheaders/Font.IsAvailable"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

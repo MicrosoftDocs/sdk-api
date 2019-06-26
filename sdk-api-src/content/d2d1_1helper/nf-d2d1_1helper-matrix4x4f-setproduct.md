@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SetProduct method, Matrix4x4F.SetProduct, Matrix4x4F::SetProduct, SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SetProduct, direct2d.matrix4x4f_setproduct
 ms.topic: method
-f1_keywords: ["d2d1_1helper/Matrix4x4F.SetProduct"]
+f1_keywords: 
+ - "d2d1_1helper/Matrix4x4F.SetProduct"
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

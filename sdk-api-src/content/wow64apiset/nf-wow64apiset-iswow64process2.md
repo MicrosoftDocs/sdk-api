@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWow64Process2, IsWow64Process2 function, base.iswow64process2, wow64apiset/IsWow64Process2
 ms.topic: function
-f1_keywords: ["wow64apiset/IsWow64Process2"]
+f1_keywords: 
+ - "wow64apiset/IsWow64Process2"
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows

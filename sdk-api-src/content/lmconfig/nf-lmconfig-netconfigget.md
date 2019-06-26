@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetConfigGet, NetConfigGet function [Network Management], _win32_netconfigget, lmconfig/NetConfigGet, netmgmt.netconfigget
 ms.topic: function
-f1_keywords: ["lmconfig/NetConfigGet"]
+f1_keywords: 
+ - "lmconfig/NetConfigGet"
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows

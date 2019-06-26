@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTES_ARRAY, FILE_ATTRIBUTES_ARRAY structure [Windows Shell], _shell_FILE_ATTRIBUTES_ARRAY, shell.FILE_ATTRIBUTES_ARRAY, shlobj_core/FILE_ATTRIBUTES_ARRAY
 ms.topic: struct
-f1_keywords: ["shlobj_core/FILE_ATTRIBUTES_ARRAY"]
+f1_keywords: 
+ - "shlobj_core/FILE_ATTRIBUTES_ARRAY"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

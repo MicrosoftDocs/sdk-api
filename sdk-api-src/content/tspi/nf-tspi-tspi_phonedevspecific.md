@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _tspi_tspi_phonedevspecific, tspi.tspi_phonedevspecific, tspi/TSPI_phoneDevSpecific
 ms.topic: function
-f1_keywords: ["tspi/TSPI_phoneDevSpecific"]
+f1_keywords: 
+ - "tspi/TSPI_phoneDevSpecific"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

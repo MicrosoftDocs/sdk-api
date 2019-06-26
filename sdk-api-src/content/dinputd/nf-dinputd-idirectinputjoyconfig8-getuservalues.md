@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserValues, GetUserValues method [Human Input Devices], GetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetUserValues method, IDirectInputJoyConfig8.GetUserValues, IDirectInputJoyConfig8::GetUserValues, di_ref_91a06462-3eaf-4c52-b6e3-c8598719f048.xml, dinputd/IDirectInputJoyConfig8::GetUserValues, hid.idirectinputjoyconfig8_getuservalues
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputJoyConfig8.GetUserValues"]
+f1_keywords: 
+ - "dinputd/IDirectInputJoyConfig8.GetUserValues"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

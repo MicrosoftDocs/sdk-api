@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
 ms.topic: function
-f1_keywords: ["npapi/CancelConnectNotify"]
+f1_keywords: 
+ - "npapi/CancelConnectNotify"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

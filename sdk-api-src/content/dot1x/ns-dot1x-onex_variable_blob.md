@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB structure [NativeWIFI], PONEX_VARIABLE_BLOB, PONEX_VARIABLE_BLOB structure pointer [NativeWIFI], dot1x/ONEX_VARIABLE_BLOB, dot1x/PONEX_VARIABLE_BLOB, nwifi.onex_variable_blob"
 ms.topic: struct
-f1_keywords: ["dot1x/ONEX_VARIABLE_BLOB"]
+f1_keywords: 
+ - "dot1x/ONEX_VARIABLE_BLOB"
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

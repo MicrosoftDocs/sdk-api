@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUniDirectionalAdapterInfo, GetUniDirectionalAdapterInfo function [IP Helper], _iphlp_getunidirectionaladapterinfo, iphlp.getunidirectionaladapterinfo, iphlpapi/GetUniDirectionalAdapterInfo
 ms.topic: function
-f1_keywords: ["iphlpapi/GetUniDirectionalAdapterInfo"]
+f1_keywords: 
+ - "iphlpapi/GetUniDirectionalAdapterInfo"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

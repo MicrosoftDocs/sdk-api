@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM
 ms.topic: struct
-f1_keywords: ["rpcasync/RPC_EE_INFO_PARAM"]
+f1_keywords: 
+ - "rpcasync/RPC_EE_INFO_PARAM"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

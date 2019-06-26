@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_GroupID method, IBackgroundCopyGroup.get_GroupID, IBackgroundCopyGroup::get_GroupID, bits.ibackgroundcopygroup_get_groupid, get_GroupID, get_GroupID method [BITS], get_GroupID method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_GroupID
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyGroup.get_GroupID"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyGroup.get_GroupID"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

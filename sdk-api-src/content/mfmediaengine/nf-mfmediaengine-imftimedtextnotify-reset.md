@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],Reset method, IMFTimedTextNotify.Reset, IMFTimedTextNotify::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_reset, mfmediaengine/IMFTimedTextNotify::Reset
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextNotify.Reset"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextNotify.Reset"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

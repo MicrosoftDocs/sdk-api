@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
 ms.topic: method
-f1_keywords: ["ctffunc/ITfCandidateString.GetString"]
+f1_keywords: 
+ - "ctffunc/ITfCandidateString.GetString"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

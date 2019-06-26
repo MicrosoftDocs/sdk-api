@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.Create"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.Create"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

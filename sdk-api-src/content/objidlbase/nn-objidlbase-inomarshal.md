@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INoMarshal, INoMarshal interface [COM], INoMarshal interface [COM],described, com.inomarshal, objidl/INoMarshal
 ms.topic: interface
-f1_keywords: ["objidlbase/INoMarshal"]
+f1_keywords: 
+ - "objidlbase/INoMarshal"
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

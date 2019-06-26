@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInstanceId, SetupDiGetDeviceInstanceId function [Device and Driver Installation], SetupDiGetDeviceInstanceIdA, SetupDiGetDeviceInstanceIdW, devinst.setupdigetdeviceinstanceid, di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml, setupapi/SetupDiGetDeviceInstanceId
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetDeviceInstanceId"]
+f1_keywords: 
+ - "setupapi/SetupDiGetDeviceInstanceId"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

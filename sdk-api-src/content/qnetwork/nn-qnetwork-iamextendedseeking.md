@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
 ms.topic: interface
-f1_keywords: ["qnetwork/IAMExtendedSeeking"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedSeeking"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

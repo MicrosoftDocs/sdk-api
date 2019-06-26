@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IATSC_EIT.GetRecordDuration, IATSC_EIT::GetRecordDuration, IATSC_EITGetRecordDuration, atscpsipparser/IATSC_EIT::GetRecordDuration, mstv.iatsc_eit_getrecordduration
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_EIT.GetRecordDuration"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_EIT.GetRecordDuration"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

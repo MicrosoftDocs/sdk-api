@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],StopRenderFilter method, ITTerminalControl.StopRenderFilter, ITTerminalControl::StopRenderFilter, StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
 ms.topic: method
-f1_keywords: ["termmgr/ITTerminalControl.StopRenderFilter"]
+f1_keywords: 
+ - "termmgr/ITTerminalControl.StopRenderFilter"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

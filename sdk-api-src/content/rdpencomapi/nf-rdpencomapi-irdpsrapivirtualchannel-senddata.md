@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannel.SendData"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIVirtualChannel.SendData"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

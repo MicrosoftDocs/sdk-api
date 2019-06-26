@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],OnCurveChanged method, IUIAnimationVariableCurveChangeHandler2.OnCurveChanged, IUIAnimationVariableCurveChangeHandler2::OnCurveChanged, OnCurveChanged, OnCurveChanged method [Windows Animation], OnCurveChanged method [Windows Animation],IUIAnimationVariableCurveChangeHandler2 interface, uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged, uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariableCurveChangeHandler2.OnCurveChanged"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariableCurveChangeHandler2.OnCurveChanged"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

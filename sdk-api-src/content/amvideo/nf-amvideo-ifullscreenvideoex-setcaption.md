@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.SetCaption"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.SetCaption"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

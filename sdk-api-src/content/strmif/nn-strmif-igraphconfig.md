@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig
 ms.topic: interface
-f1_keywords: ["strmif/IGraphConfig"]
+f1_keywords: 
+ - "strmif/IGraphConfig"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

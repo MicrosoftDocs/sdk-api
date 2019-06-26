@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetIntegratedDisplaySize"]
+f1_keywords: 
+ - "sysinfoapi/GetIntegratedDisplaySize"
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows

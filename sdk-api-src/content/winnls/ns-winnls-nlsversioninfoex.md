@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX"
 ms.topic: struct
-f1_keywords: ["winnls/NLSVERSIONINFOEX"]
+f1_keywords: 
+ - "winnls/NLSVERSIONINFOEX"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

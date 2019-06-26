@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_OleSetMenuDescriptor, com.olesetmenudescriptor, ole2/OleSetMenuDescriptor
 ms.topic: function
-f1_keywords: ["ole2/OleSetMenuDescriptor"]
+f1_keywords: 
+ - "ole2/OleSetMenuDescriptor"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

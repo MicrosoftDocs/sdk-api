@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
 ms.topic: function
-f1_keywords: ["adshlp/ADsFreeEnumerator"]
+f1_keywords: 
+ - "adshlp/ADsFreeEnumerator"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

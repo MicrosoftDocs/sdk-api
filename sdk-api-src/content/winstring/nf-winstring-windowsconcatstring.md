@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime], winrt.windowsconcatstring, winstring/WindowsConcatString
 ms.topic: function
-f1_keywords: ["winstring/WindowsConcatString"]
+f1_keywords: 
+ - "winstring/WindowsConcatString"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

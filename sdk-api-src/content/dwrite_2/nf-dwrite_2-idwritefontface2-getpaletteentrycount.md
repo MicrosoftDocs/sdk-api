@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPaletteEntryCount, GetPaletteEntryCount method [Direct Write], GetPaletteEntryCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntryCount method, IDWriteFontFace2.GetPaletteEntryCount, IDWriteFontFace2::GetPaletteEntryCount, directwrite.idwritefontface2_getpaletteentrycount, dwrite_2/IDWriteFontFace2::GetPaletteEntryCount
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteFontFace2.GetPaletteEntryCount"]
+f1_keywords: 
+ - "dwrite_2/IDWriteFontFace2.GetPaletteEntryCount"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

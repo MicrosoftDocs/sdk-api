@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
 ms.topic: method
-f1_keywords: ["mftransform/IMFTransform.GetStreamIDs"]
+f1_keywords: 
+ - "mftransform/IMFTransform.GetStreamIDs"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

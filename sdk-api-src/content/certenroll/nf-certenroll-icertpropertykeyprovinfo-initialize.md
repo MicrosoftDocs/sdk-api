@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],Initialize method, ICertPropertyKeyProvInfo.Initialize, ICertPropertyKeyProvInfo::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::Initialize, security.icertpropertykeyprovinfo_initialize_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyKeyProvInfo.Initialize"]
+f1_keywords: 
+ - "certenroll/ICertPropertyKeyProvInfo.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

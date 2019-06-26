@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],ExpandToEnclosingUnit method, ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextRangeProvider.ExpandToEnclosingUnit"]
+f1_keywords: 
+ - "uiautomationcore/ITextRangeProvider.ExpandToEnclosingUnit"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

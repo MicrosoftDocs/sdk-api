@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAddBackslashA, PathAddBackslashW, _win32_PathAddBackslash, shell.PathAddBackslash, shlwapi/PathAddBackslash, shlwapi/PathAddBackslashA, shlwapi/PathAddBackslashW
 ms.topic: function
-f1_keywords: ["shlwapi/PathAddBackslash"]
+f1_keywords: 
+ - "shlwapi/PathAddBackslash"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

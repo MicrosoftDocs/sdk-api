@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerProcessReceivedPacket"]
+f1_keywords: 
+ - "eappapis/EapHostPeerProcessReceivedPacket"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapClipper, CreateBitmapClipper method [Windows Imaging Component], CreateBitmapClipper method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapClipper method, IWICImagingFactory.CreateBitmapClipper, IWICImagingFactory::CreateBitmapClipper, _wic_codec_iwicimagingfactory_createbitmapclipper, wic._wic_codec_iwicimagingfactory_createbitmapclipper, wincodec/IWICImagingFactory::CreateBitmapClipper
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateBitmapClipper"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateBitmapClipper"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

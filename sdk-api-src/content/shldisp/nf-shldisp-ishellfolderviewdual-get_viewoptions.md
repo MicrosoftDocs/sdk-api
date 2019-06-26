@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_ViewOptions method, IShellFolderViewDual.get_ViewOptions, IShellFolderViewDual::get_ViewOptions, _shell_IShellFolderViewDual_get_ViewOptions, get_ViewOptions, get_ViewOptions method [Windows Shell], get_ViewOptions method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_ViewOptions, shldisp/IShellFolderViewDual::get_ViewOptions
 ms.topic: method
-f1_keywords: ["shldisp/IShellFolderViewDual.get_ViewOptions"]
+f1_keywords: 
+ - "shldisp/IShellFolderViewDual.get_ViewOptions"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

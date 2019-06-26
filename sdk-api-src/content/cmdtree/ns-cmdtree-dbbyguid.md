@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBBYGUID, DBBYGUID structure [Indexing Service], _idxs_DBBYGUID, cmdtree/DBBYGUID, indexsrv.dbbyguid, tagDBBYGUID
 ms.topic: struct
-f1_keywords: ["cmdtree/DBBYGUID"]
+f1_keywords: 
+ - "cmdtree/DBBYGUID"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

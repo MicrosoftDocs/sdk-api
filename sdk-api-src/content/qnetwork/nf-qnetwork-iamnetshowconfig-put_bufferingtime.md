@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.put_BufferingTime"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.put_BufferingTime"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

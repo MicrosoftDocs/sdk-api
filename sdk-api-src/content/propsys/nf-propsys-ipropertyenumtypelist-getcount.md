@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetCount method, IPropertyEnumTypeList.GetCount, IPropertyEnumTypeList::GetCount, _shell_IPropertyEnumTypeList_GetCount, properties.IPropertyEnumTypeList_GetCount, propsys/IPropertyEnumTypeList::GetCount, shell.IPropertyEnumTypeList_GetCount
 ms.topic: method
-f1_keywords: ["propsys/IPropertyEnumTypeList.GetCount"]
+f1_keywords: 
+ - "propsys/IPropertyEnumTypeList.GetCount"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

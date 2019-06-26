@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.topic: function
-f1_keywords: ["scrnsave/ScreenSaverProc"]
+f1_keywords: 
+ - "scrnsave/ScreenSaverProc"
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewportExtEx, GetViewportExtEx function [Windows GDI], _win32_GetViewportExtEx, gdi.getviewportextex, wingdi/GetViewportExtEx
 ms.topic: function
-f1_keywords: ["wingdi/GetViewportExtEx"]
+f1_keywords: 
+ - "wingdi/GetViewportExtEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponent interface, IComponent interface [MMC],Destroy method, IComponent.Destroy, IComponent::Destroy, _slate_icomponent_destroy, mmc.icomponent_destroy, mmc/IComponent::Destroy
 ms.topic: method
-f1_keywords: ["mmc/IComponent.Destroy"]
+f1_keywords: 
+ - "mmc/IComponent.Destroy"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

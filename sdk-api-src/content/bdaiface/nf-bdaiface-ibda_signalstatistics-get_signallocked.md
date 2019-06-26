@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalLocked method, IBDA_SignalStatistics.get_SignalLocked, IBDA_SignalStatistics::get_SignalLocked, IBDA_SignalStatisticsget_SignalLocked, bdaiface/IBDA_SignalStatistics::get_SignalLocked, get_SignalLocked, get_SignalLocked method [Microsoft TV Technologies], get_SignalLocked method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signallocked
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalStatistics.get_SignalLocked"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalStatistics.get_SignalLocked"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

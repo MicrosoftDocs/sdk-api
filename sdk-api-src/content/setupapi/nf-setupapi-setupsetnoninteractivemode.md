@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupSetNonInteractiveMode, SetupSetNonInteractiveMode function [Device and Driver Installation], devinst.setupsetnoninteractivemode, setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml, setupapi/SetupSetNonInteractiveMode
 ms.topic: function
-f1_keywords: ["setupapi/SetupSetNonInteractiveMode"]
+f1_keywords: 
+ - "setupapi/SetupSetNonInteractiveMode"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchGetsEx, StringCchGetsEx function [Menus and Other Resources], StringCchGetsExA, StringCchGetsExW, _shell_StringCchGetsEx, _shell_stringcchgetsex_cpp, menurc.stringcchgetsex, strsafe/StringCchGetsEx, strsafe/StringCchGetsExA, strsafe/StringCchGetsExW, winui._shell_stringcchgetsex
 ms.topic: function
-f1_keywords: ["strsafe/StringCchGetsEx"]
+f1_keywords: 
+ - "strsafe/StringCchGetsEx"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

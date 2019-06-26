@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
 ms.topic: method
-f1_keywords: ["shappmgr/IShellApp.IsInstalled"]
+f1_keywords: 
+ - "shappmgr/IShellApp.IsInstalled"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

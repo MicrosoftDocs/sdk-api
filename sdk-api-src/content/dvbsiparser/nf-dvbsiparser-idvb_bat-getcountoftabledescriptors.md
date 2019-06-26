@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_BAT.GetCountOfTableDescriptors, IDVB_BAT::GetCountOfTableDescriptors, IDVB_BATGetCountOfTableDescriptors, dvbsiparser/IDVB_BAT::GetCountOfTableDescriptors, mstv.idvb_bat_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_BAT.GetCountOfTableDescriptors"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_BAT.GetCountOfTableDescriptors"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

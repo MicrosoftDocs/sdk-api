@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection2, GetSelection2 method [Windows Controls], GetSelection2 method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetSelection2 method, ITextDocument2.GetSelection2, ITextDocument2::GetSelection2, controls.itextdocument2_getselection2, tom/ITextDocument2::GetSelection2
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetSelection2"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetSelection2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

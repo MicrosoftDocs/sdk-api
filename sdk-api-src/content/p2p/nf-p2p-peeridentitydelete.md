@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
 ms.topic: function
-f1_keywords: ["p2p/PeerIdentityDelete"]
+f1_keywords: 
+ - "p2p/PeerIdentityDelete"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

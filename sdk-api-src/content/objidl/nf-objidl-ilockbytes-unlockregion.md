@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
 ms.topic: method
-f1_keywords: ["objidl/ILockBytes.UnlockRegion"]
+f1_keywords: 
+ - "objidl/ILockBytes.UnlockRegion"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

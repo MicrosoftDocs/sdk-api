@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],DisconnectWebAudio method, IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineWebSupport.DisconnectWebAudio"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineWebSupport.DisconnectWebAudio"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

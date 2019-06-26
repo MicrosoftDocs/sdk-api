@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Stop method, IMDSPDeviceControl.Stop, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDeviceControl.Stop"]
+f1_keywords: 
+ - "mswmdm/IMDSPDeviceControl.Stop"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

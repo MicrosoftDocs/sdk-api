@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_AvgBytesPerSec method, ITScriptableAudioFormat.get_AvgBytesPerSec, ITScriptableAudioFormat::get_AvgBytesPerSec, _tapi3_itscriptableaudioformat_get_avgbytespersec, get_AvgBytesPerSec, get_AvgBytesPerSec method [TAPI 2.2], get_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_avgbytespersec, tapi3if/ITScriptableAudioFormat::get_AvgBytesPerSec
 ms.topic: method
-f1_keywords: ["tapi3if/ITScriptableAudioFormat.get_AvgBytesPerSec"]
+f1_keywords: 
+ - "tapi3if/ITScriptableAudioFormat.get_AvgBytesPerSec"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

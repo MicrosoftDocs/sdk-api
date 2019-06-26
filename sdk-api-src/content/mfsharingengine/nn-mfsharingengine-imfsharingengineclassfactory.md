@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSharingEngineClassFactory, IMFSharingEngineClassFactory interface [Media Foundation], IMFSharingEngineClassFactory interface [Media Foundation],described, mf.imfsharingengineclassfactory, mfsharingengine/IMFSharingEngineClassFactory
 ms.topic: interface
-f1_keywords: ["mfsharingengine/IMFSharingEngineClassFactory"]
+f1_keywords: 
+ - "mfsharingengine/IMFSharingEngineClassFactory"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

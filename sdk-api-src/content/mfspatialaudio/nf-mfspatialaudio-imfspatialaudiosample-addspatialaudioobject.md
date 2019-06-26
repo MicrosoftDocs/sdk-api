@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
 ms.topic: method
-f1_keywords: ["mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject"]
+f1_keywords: 
+ - "mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject"
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBaseBrowserData, GetBaseBrowserData method [Windows Shell], GetBaseBrowserData method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetBaseBrowserData method, IBrowserService2.GetBaseBrowserData, IBrowserService2::GetBaseBrowserData, shdeprecated/IBrowserService2::GetBaseBrowserData, shell.IBrowserService2_GetBaseBrowserData, zone_IBrowserService2_GetBaseBrowserData
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.GetBaseBrowserData"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.GetBaseBrowserData"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

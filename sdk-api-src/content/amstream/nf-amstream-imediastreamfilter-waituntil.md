@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],WaitUntil method, IMediaStreamFilter.WaitUntil, IMediaStreamFilter::WaitUntil, IMediaStreamFilterWaitUntil, WaitUntil, WaitUntil method [DirectShow], WaitUntil method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::WaitUntil, dshow.imediastreamfilter_waituntil
 ms.topic: method
-f1_keywords: ["amstream/IMediaStreamFilter.WaitUntil"]
+f1_keywords: 
+ - "amstream/IMediaStreamFilter.WaitUntil"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

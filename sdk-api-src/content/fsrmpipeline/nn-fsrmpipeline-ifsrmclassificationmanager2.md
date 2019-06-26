@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
 ms.topic: interface
-f1_keywords: ["fsrmpipeline/IFsrmClassificationManager2"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmClassificationManager2"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

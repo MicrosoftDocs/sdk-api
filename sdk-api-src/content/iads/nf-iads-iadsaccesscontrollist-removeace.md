@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccessControlList.RemoveAce, IADsAccessControlList::RemoveAce, RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI],IADsAccessControlList interface, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
 ms.topic: method
-f1_keywords: ["iads/IADsAccessControlList.RemoveAce"]
+f1_keywords: 
+ - "iads/IADsAccessControlList.RemoveAce"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

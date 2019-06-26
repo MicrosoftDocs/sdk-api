@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngFilterAdaptive, WICPngFilterAverage, WICPngFilterNone, WICPngFilterOption, WICPngFilterOption enumeration [Windows Imaging Component], WICPngFilterPaeth, WICPngFilterSub, WICPngFilterUnspecified, WICPngFilterUp, _wic_codec_wicpngfilteroption, wic._wic_codec_wicpngfilteroption, wincodec/WICPngFilterAdaptive, wincodec/WICPngFilterAverage, wincodec/WICPngFilterNone, wincodec/WICPngFilterOption, wincodec/WICPngFilterPaeth, wincodec/WICPngFilterSub, wincodec/WICPngFilterUnspecified, wincodec/WICPngFilterUp
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngFilterOption"]
+f1_keywords: 
+ - "wincodec/WICPngFilterOption"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

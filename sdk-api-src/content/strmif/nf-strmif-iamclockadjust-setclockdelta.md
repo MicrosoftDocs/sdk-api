@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust interface [DirectShow],SetClockDelta method, IAMClockAdjust.SetClockDelta, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow],IAMClockAdjust interface, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
 ms.topic: method
-f1_keywords: ["strmif/IAMClockAdjust.SetClockDelta"]
+f1_keywords: 
+ - "strmif/IAMClockAdjust.SetClockDelta"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

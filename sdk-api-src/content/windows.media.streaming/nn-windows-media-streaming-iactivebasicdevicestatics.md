@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Media Streaming API], IActiveBasicDeviceStatics interface [Media Streaming API],described, mediastreaming.iactivebasicdevicestatics, windows/IActiveBasicDeviceStatics
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/IActiveBasicDeviceStatics"]
+f1_keywords: 
+ - "windows.media.streaming/IActiveBasicDeviceStatics"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

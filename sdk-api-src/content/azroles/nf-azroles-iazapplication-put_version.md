@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Version property, IAzApplication interface [Security],Version property, IAzApplication.Version, IAzApplication.put_Version, IAzApplication::Version, IAzApplication::get_Version, IAzApplication::put_Version, Version property [Security], Version property [Security],AzApplication object, Version property [Security],IAzApplication interface, azroles/IAzApplication::Version, azroles/IAzApplication::get_Version, azroles/IAzApplication::put_Version, put_Version, security.iazapplication_version
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.Version"]
+f1_keywords: 
+ - "azroles/IAzApplication.Version"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

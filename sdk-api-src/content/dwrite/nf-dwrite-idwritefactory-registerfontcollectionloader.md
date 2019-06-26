@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],RegisterFontCollectionLoader method, IDWriteFactory.RegisterFontCollectionLoader, IDWriteFactory::RegisterFontCollectionLoader, RegisterFontCollectionLoader, RegisterFontCollectionLoader method [Direct Write], RegisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_RegisterFontCollectionLoader, dwrite/IDWriteFactory::RegisterFontCollectionLoader
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFactory.RegisterFontCollectionLoader"]
+f1_keywords: 
+ - "dwrite/IDWriteFactory.RegisterFontCollectionLoader"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

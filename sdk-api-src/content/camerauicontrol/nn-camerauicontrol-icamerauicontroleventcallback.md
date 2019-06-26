@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback
 ms.topic: interface
-f1_keywords: ["camerauicontrol/ICameraUIControlEventCallback"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControlEventCallback"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_SCROLL_MODE, MF_TIMED_TEXT_SCROLL_MODE enumeration [Media Foundation], MF_TIMED_TEXT_SCROLL_MODE_POP_ON, MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP, mf.mf_timed_text_scroll_mode, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE_POP_ON, mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE_ROLL_UP
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE"]
+f1_keywords: 
+ - "mfmediaengine/MF_TIMED_TEXT_SCROLL_MODE"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

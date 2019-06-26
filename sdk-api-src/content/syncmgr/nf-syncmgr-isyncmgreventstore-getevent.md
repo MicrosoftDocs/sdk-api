@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrEventStore.GetEvent"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEventStore.GetEvent"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

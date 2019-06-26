@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], ISyncChangeBatchWithPrerequisite interface [Windows Sync],described, winsync.isyncchangebatchwithprerequisite, winsync/ISyncChangeBatchWithPrerequisite
 ms.topic: interface
-f1_keywords: ["winsync/ISyncChangeBatchWithPrerequisite"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchWithPrerequisite"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

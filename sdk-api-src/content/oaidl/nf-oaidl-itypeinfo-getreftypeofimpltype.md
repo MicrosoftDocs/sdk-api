@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRefTypeOfImplType, GetRefTypeOfImplType method [Automation], GetRefTypeOfImplType method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeOfImplType method, ITypeInfo.GetRefTypeOfImplType, ITypeInfo::GetRefTypeOfImplType, _oa96_ITypeInfo_GetRefTypeOfImplType, automat.itypeinfo_getreftypeofimpltype, oaidl/ITypeInfo::GetRefTypeOfImplType
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetRefTypeOfImplType"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetRefTypeOfImplType"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

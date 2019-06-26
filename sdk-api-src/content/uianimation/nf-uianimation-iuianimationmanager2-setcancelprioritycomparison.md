@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager2.SetCancelPriorityComparison, IUIAnimationManager2::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setcancelprioritycomparison, uianimation/IUIAnimationManager2::SetCancelPriorityComparison
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager2.SetCancelPriorityComparison"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2.SetCancelPriorityComparison"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE enumeration [Security], AuditEventDirectoryServiceAccess, AuditEventObjectAccess, PAUDIT_EVENT_TYPE, PAUDIT_EVENT_TYPE enumeration pointer [Security], _win32_audit_event_type_str, security.audit_event_type, winnt/AUDIT_EVENT_TYPE, winnt/AuditEventDirectoryServiceAccess, winnt/AuditEventObjectAccess, winnt/PAUDIT_EVENT_TYPE"
 ms.topic: enum
-f1_keywords: ["winnt/AUDIT_EVENT_TYPE"]
+f1_keywords: 
+ - "winnt/AUDIT_EVENT_TYPE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],UseLibrary method, ID3D11Linker.UseLibrary, ID3D11Linker::UseLibrary, UseLibrary, UseLibrary method [Direct3D 11], UseLibrary method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::UseLibrary, direct3d11.id3d11linker_uselibrary
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11Linker.UseLibrary"]
+f1_keywords: 
+ - "d3d11shader/ID3D11Linker.UseLibrary"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],Save method, IFaxIncomingArchive.Save, IFaxIncomingArchive::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.save, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp, fax._mfax_faxincomingarchive_save, faxcomex/IFaxIncomingArchive::Save
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingArchive.Save"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingArchive.Save"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

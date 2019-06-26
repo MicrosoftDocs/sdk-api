@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug interface [Direct3D 11],described, b037763f-251a-579c-a6cb-8e5097410d05, d3d11sdklayers/ID3D11Debug, direct3d11.id3d11debug
 ms.topic: interface
-f1_keywords: ["d3d11sdklayers/ID3D11Debug"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11Debug"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

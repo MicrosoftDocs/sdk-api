@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
 ms.topic: method
-f1_keywords: ["bdatif/ITuneRequestInfo.GetLocatorData"]
+f1_keywords: 
+ - "bdatif/ITuneRequestInfo.GetLocatorData"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

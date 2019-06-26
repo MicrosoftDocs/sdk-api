@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_INTERFACE_CLSID, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AzApplication object [Security],SetProperty method, IAzApplication interface [Security],SetProperty method, IAzApplication.SetProperty, IAzApplication::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplication object, SetProperty method [Security],IAzApplication interface, azroles/IAzApplication::SetProperty, security.iazapplication_setproperty
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.SetProperty"]
+f1_keywords: 
+ - "azroles/IAzApplication.SetProperty"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

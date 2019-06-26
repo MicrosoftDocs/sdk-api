@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],Delete method, IMbnConnectionProfile.Delete, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnectionProfile.Delete"]
+f1_keywords: 
+ - "mbnapi/IMbnConnectionProfile.Delete"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

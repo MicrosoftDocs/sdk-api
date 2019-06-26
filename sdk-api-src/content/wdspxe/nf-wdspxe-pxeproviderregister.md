@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
 ms.topic: function
-f1_keywords: ["wdspxe/PxeProviderRegister"]
+f1_keywords: 
+ - "wdspxe/PxeProviderRegister"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

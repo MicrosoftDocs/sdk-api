@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
 ms.topic: function
-f1_keywords: ["mfapi/MFGetAttributeSize"]
+f1_keywords: 
+ - "mfapi/MFGetAttributeSize"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

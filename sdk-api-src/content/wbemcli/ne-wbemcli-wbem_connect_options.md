@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEM_CONNECT_OPTIONS, WBEM_CONNECT_OPTIONS enumeration [Windows Management Instrumentation], WBEM_FLAG_CONNECT_PROVIDERS, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, wbemcli/WBEM_CONNECT_OPTIONS, wbemcli/WBEM_FLAG_CONNECT_PROVIDERS, wbemcli/WBEM_FLAG_CONNECT_REPOSITORY_ONLY, wbemcli/WBEM_FLAG_CONNECT_USE_MAX_WAIT, wmi.wbem_connect_options
 ms.topic: enum
-f1_keywords: ["wbemcli/WBEM_CONNECT_OPTIONS"]
+f1_keywords: 
+ - "wbemcli/WBEM_CONNECT_OPTIONS"
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

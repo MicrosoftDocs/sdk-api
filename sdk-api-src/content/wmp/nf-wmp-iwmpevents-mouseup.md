@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseUp method, IWMPEvents.MouseUp, IWMPEvents::MouseUp, IWMPEventsMouseUp, MouseUp, MouseUp method [Windows Media Player], MouseUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mouseup, wmp/IWMPEvents::MouseUp
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.MouseUp"]
+f1_keywords: 
+ - "wmp/IWMPEvents.MouseUp"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

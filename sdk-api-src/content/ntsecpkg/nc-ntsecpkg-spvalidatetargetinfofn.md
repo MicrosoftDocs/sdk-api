@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidateTargetInfoFn callback function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpValidateTargetInfoFn"]
+f1_keywords: 
+ - "ntsecpkg/SpValidateTargetInfoFn"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

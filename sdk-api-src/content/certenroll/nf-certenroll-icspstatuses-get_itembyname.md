@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatuses.ItemByName"]
+f1_keywords: 
+ - "certenroll/ICspStatuses.ItemByName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

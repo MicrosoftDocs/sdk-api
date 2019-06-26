@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDigitalCopyControlDescriptor, mstv.iisdbdigitalcopycontroldescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbDigitalCopyControlDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbDigitalCopyControlDescriptor"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

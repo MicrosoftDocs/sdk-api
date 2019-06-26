@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputProps method, IWMSyncReader.GetOutputProps, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.GetOutputProps"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.GetOutputProps"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetFolder method, INewShortcutHook::SetFolder, INewShortcutHookA, INewShortcutHookA.SetFolder, INewShortcutHookA::SetFolder, INewShortcutHookW, INewShortcutHookW::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],INewShortcutHook interface, _win32_INewShortcutHook_SetFolder, shell.INewShortcutHook_SetFolder, shlobj/INewShortcutHook::SetFolder
 ms.topic: method
-f1_keywords: ["shlobj/INewShortcutHook.SetFolder"]
+f1_keywords: 
+ - "shlobj/INewShortcutHook.SetFolder"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

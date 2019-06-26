@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRasterizerState, CreateRasterizerState method [Direct3D 10], CreateRasterizerState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateRasterizerState method, ID3D10Device.CreateRasterizerState, ID3D10Device::CreateRasterizerState, b5877d5f-3976-076e-eb6a-ddf73c6f4995, d3d10/ID3D10Device::CreateRasterizerState, direct3d10.id3d10device_createrasterizerstate
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CreateRasterizerState"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CreateRasterizerState"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

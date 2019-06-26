@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylist.appendItem"]
+f1_keywords: 
+ - "wmp/IWMPPlaylist.appendItem"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

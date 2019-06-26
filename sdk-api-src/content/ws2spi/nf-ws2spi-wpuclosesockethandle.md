@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCloseSocketHandle, WPUCloseSocketHandle function [Winsock], _win32_wpuclosesockethandle_2, winsock.wpuclosesockethandle_2, ws2spi/WPUCloseSocketHandle
 ms.topic: function
-f1_keywords: ["ws2spi/WPUCloseSocketHandle"]
+f1_keywords: 
+ - "ws2spi/WPUCloseSocketHandle"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

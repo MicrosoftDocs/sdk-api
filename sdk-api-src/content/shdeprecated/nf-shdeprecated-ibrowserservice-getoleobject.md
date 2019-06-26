@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOleObject, GetOleObject method [Windows Shell], GetOleObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetOleObject method, IBrowserService.GetOleObject, IBrowserService::GetOleObject, shdeprecated/IBrowserService::GetOleObject, shell.IBrowserService_GetOleObject, zone_IBrowserService_GetOleObject
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetOleObject"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetOleObject"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendSyncEvent method, IRDPViewerInputSink.SendSyncEvent, IRDPViewerInputSink::SendSyncEvent, SendSyncEvent, SendSyncEvent method [RDP], SendSyncEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendsyncevent, rdpencomapi/IRDPViewerInputSink::SendSyncEvent
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPViewerInputSink.SendSyncEvent"]
+f1_keywords: 
+ - "rdpencomapi/IRDPViewerInputSink.SendSyncEvent"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

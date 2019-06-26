@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIScsiIKEInfoA, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
 ms.topic: function
-f1_keywords: ["iscsidsc/SetIscsiIKEInfo"]
+f1_keywords: 
+ - "iscsidsc/SetIscsiIKEInfo"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

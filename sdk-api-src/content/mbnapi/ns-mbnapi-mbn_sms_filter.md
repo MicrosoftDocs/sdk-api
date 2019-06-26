@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FILTER, MBN_SMS_FILTER structure [Microsoft Broadband Networks], mbn.mbn_sms_filter, mbnapi/MBN_SMS_FILTER
 ms.topic: struct
-f1_keywords: ["mbnapi/MBN_SMS_FILTER"]
+f1_keywords: 
+ - "mbnapi/MBN_SMS_FILTER"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

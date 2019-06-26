@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_IsRoutedTo method, IAMCrossbar.get_IsRoutedTo, IAMCrossbar::get_IsRoutedTo, IAMCrossbarget_IsRoutedTo, dshow.iamcrossbar_get_isroutedto, get_IsRoutedTo, get_IsRoutedTo method [DirectShow], get_IsRoutedTo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_IsRoutedTo
 ms.topic: method
-f1_keywords: ["strmif/IAMCrossbar.get_IsRoutedTo"]
+f1_keywords: 
+ - "strmif/IAMCrossbar.get_IsRoutedTo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SSA_BREAK, SSA_CLIP, SSA_DZWG, SSA_FALLBACK, SSA_FIT, SSA_GCP, SSA_GLYPHS, SSA_HIDEHOTKEY, SSA_HOTKEY, SSA_HOTKEYONLY, SSA_LINK, SSA_METAFILE, SSA_PASSWORD, SSA_RTL, SSA_TAB, ScriptStringAnalyse, ScriptStringAnalyse function [Internationalization for Windows Applications], _win32_ScriptStringAnalyse, intl.scriptstringanalyse, usp10/ScriptStringAnalyse
 ms.topic: function
-f1_keywords: ["usp10/ScriptStringAnalyse"]
+f1_keywords: 
+ - "usp10/ScriptStringAnalyse"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

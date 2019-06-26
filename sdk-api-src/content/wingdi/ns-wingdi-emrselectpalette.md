@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSELECTPALETTE, EMRSELECTPALETTE, EMRSELECTPALETTE structure [Windows GDI], PEMRSELECTPALETTE, PEMRSELECTPALETTE structure pointer [Windows GDI], _win32_EMRSELECTPALETTE_str, gdi.emrselectpalette, wingdi/EMRSELECTPALETTE, wingdi/PEMRSELECTPALETTE"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSELECTPALETTE"]
+f1_keywords: 
+ - "wingdi/EMRSELECTPALETTE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

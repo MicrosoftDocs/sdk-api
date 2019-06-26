@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe, rras.mgmgetmfe
 ms.topic: function
-f1_keywords: ["mgm/MgmGetMfe"]
+f1_keywords: 
+ - "mgm/MgmGetMfe"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

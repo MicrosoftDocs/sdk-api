@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
 ms.topic: method
-f1_keywords: ["dsadmin/IDsAdminCreateObj.Initialize"]
+f1_keywords: 
+ - "dsadmin/IDsAdminCreateObj.Initialize"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

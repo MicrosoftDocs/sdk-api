@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 271e783f-4a0f-1453-c22a-244b5f091171, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), GetEvictionPriority, GetEvictionPriority method [DXGI], GetEvictionPriority method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetEvictionPriority method, IDXGIResource.GetEvictionPriority, IDXGIResource::GetEvictionPriority, direct3ddxgi.idxgiresource_getevictionpriority, dxgi/IDXGIResource::GetEvictionPriority
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIResource.GetEvictionPriority"]
+f1_keywords: 
+ - "dxgi/IDXGIResource.GetEvictionPriority"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

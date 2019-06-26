@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreAnchor.RetrieveRequestedAttrs, ITextStoreAnchor::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RetrieveRequestedAttrs, tsf.itextstoreanchor_retrieverequestedattrs
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.RetrieveRequestedAttrs"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.RetrieveRequestedAttrs"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -4,7 +4,8 @@ title: WLAN_AUTOCONF_OPCODE
 ms.date: 01/30/19
 ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
 ms.topic: language-reference
-f1_keywords: ["wlanapi/_WLAN_AUTOCONF_OPCODE"]
+f1_keywords: 
+ - "wlanapi/_WLAN_AUTOCONF_OPCODE"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

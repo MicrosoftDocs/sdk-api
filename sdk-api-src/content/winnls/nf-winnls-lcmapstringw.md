@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LCMapString, LCMapString function [Internationalization for Windows Applications], LCMapStringA, LCMapStringW, _win32_LCMapString, intl.lcmapstring, winnls/LCMapString, winnls/LCMapStringA, winnls/LCMapStringW
 ms.topic: function
-f1_keywords: ["winnls/LCMapString"]
+f1_keywords: 
+ - "winnls/LCMapString"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

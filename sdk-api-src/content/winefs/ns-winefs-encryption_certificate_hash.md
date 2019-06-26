@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE_HASH, ENCRYPTION_CERTIFICATE_HASH, ENCRYPTION_CERTIFICATE_HASH structure [Files], PENCRYPTION_CERTIFICATE_HASH, PENCRYPTION_CERTIFICATE_HASH structure pointer [Files], _win32_encryption_certificate_hash_str, base.encryption_certificate_hash_str, fs.encryption_certificate_hash_str, winefs/ENCRYPTION_CERTIFICATE_HASH, winefs/PENCRYPTION_CERTIFICATE_HASH"
 ms.topic: struct
-f1_keywords: ["winefs/ENCRYPTION_CERTIFICATE_HASH"]
+f1_keywords: 
+ - "winefs/ENCRYPTION_CERTIFICATE_HASH"
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

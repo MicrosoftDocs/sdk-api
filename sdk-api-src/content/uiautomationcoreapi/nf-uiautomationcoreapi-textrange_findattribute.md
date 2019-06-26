@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_FindAttribute, TextRange_FindAttribute function [Windows Accessibility], uiauto.uiauto_TextRange_FindAttributeConPat, uiauto_TextRange_FindAttributeConPat, uiautomationcoreapi/TextRange_FindAttribute, winauto.uiauto_TextRange_FindAttributeConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_FindAttribute"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_FindAttribute"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

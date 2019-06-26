@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContrast, GetContrast method [Windows Imaging Component], GetContrast method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetContrast method, IWICDevelopRaw.GetContrast, IWICDevelopRaw::GetContrast, _wic_codec_iwicdevelopraw_getcontrast, wic._wic_codec_iwicdevelopraw_getcontrast, wincodec/IWICDevelopRaw::GetContrast
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetContrast"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetContrast"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

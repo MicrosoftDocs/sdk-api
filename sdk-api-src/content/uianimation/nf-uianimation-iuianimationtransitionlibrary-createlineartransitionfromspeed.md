@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

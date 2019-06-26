@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatPartitionEx2, FormatPartitionEx2 method, FormatPartitionEx2 method,IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,FormatPartitionEx2 method, IVdsDiskPartitionMF2.FormatPartitionEx2, IVdsDiskPartitionMF2::FormatPartitionEx2, base.ivdsdiskpartitionmf2_formatpartitionex2, vds/IVdsDiskPartitionMF2::FormatPartitionEx2
 ms.topic: method
-f1_keywords: ["vds/IVdsDiskPartitionMF2.FormatPartitionEx2"]
+f1_keywords: 
+ - "vds/IVdsDiskPartitionMF2.FormatPartitionEx2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

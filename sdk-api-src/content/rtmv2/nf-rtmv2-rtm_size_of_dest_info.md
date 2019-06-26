@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
 ms.topic: macro
-f1_keywords: ["rtmv2/RTM_SIZE_OF_DEST_INFO"]
+f1_keywords: 
+ - "rtmv2/RTM_SIZE_OF_DEST_INFO"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_BUFFER_SRV, D3D11_BUFFER_SRV structure [Direct3D 11], d3d11/D3D11_BUFFER_SRV, direct3d11.d3d11_buffer_srv, f51a8ea2-ef96-9fea-a1b6-75c15fd9f42e
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_BUFFER_SRV"]
+f1_keywords: 
+ - "d3d11/D3D11_BUFFER_SRV"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsOutlineVisible
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPath::IsOutlineVisible"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath::IsOutlineVisible"
 targetos: Windows
 product: Windows
 req.assembly: 

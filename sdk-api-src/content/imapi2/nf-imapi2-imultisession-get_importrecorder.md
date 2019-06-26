@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_ImportRecorder method, IMultisession.get_ImportRecorder, IMultisession::get_ImportRecorder, get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI],IMultisession interface, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
 ms.topic: method
-f1_keywords: ["imapi2/IMultisession.get_ImportRecorder"]
+f1_keywords: 
+ - "imapi2/IMultisession.get_ImportRecorder"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

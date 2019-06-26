@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionary method, IXpsOMPage.GetDictionary, IXpsOMPage::GetDictionary, xps.ixpsompage_getdictionary, xpsobjectmodel/IXpsOMPage::GetDictionary
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPage.GetDictionary"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPage.GetDictionary"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

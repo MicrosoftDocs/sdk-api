@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
 ms.topic: macro
-f1_keywords: ["winuser/POINTTOPOINTS"]
+f1_keywords: 
+ - "winuser/POINTTOPOINTS"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

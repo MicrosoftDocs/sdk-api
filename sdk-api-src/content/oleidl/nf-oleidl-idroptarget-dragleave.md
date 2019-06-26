@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [COM], DragLeave method [COM],IDropTarget interface, IDropTarget interface [COM],DragLeave method, IDropTarget.DragLeave, IDropTarget::DragLeave, _ole_idroptarget_dragleave, com.idroptarget_dragleave, oleidl/IDropTarget::DragLeave
 ms.topic: method
-f1_keywords: ["oleidl/IDropTarget.DragLeave"]
+f1_keywords: 
+ - "oleidl/IDropTarget.DragLeave"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration, IESEventServiceConfiguration interface [Microsoft TV Technologies], IESEventServiceConfiguration interface [Microsoft TV Technologies],described, mstv.ieseventserviceconfiguration, tuner/IESEventServiceConfiguration
 ms.topic: interface
-f1_keywords: ["tuner/IESEventServiceConfiguration"]
+f1_keywords: 
+ - "tuner/IESEventServiceConfiguration"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

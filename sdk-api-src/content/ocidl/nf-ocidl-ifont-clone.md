@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IFont interface, IFont interface [COM],Clone method, IFont.Clone, IFont::Clone, _ctrl_ifont_clone, com.ifont_clone, ocidl/IFont::Clone
 ms.topic: method
-f1_keywords: ["ocidl/IFont.Clone"]
+f1_keywords: 
+ - "ocidl/IFont.Clone"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

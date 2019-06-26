@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent
 ms.topic: function
-f1_keywords: ["winscard/SCardAccessStartedEvent"]
+f1_keywords: 
+ - "winscard/SCardAccessStartedEvent"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

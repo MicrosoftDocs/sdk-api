@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
 ms.topic: callback
-f1_keywords: ["winbio_adapter/StorageAdapterQueryBySubject"]
+f1_keywords: 
+ - "winbio_adapter/StorageAdapterQueryBySubject"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

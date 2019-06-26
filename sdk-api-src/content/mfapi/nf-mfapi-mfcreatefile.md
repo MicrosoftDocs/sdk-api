@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateFile"]
+f1_keywords: 
+ - "mfapi/MFCreateFile"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

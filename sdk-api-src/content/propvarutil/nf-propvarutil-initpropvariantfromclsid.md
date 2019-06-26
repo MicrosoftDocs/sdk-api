@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromCLSID, InitPropVariantFromCLSID function [Windows Properties], properties.InitPropVariantFromCLSID, propvarutil/InitPropVariantFromCLSID, shell.InitPropVariantFromCLSID, shell_InitPropVariantFromCLSID
 ms.topic: function
-f1_keywords: ["propvarutil/InitPropVariantFromCLSID"]
+f1_keywords: 
+ - "propvarutil/InitPropVariantFromCLSID"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

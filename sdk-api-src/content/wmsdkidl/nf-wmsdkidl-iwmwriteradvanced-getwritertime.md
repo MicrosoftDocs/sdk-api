@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.GetWriterTime"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.GetWriterTime"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

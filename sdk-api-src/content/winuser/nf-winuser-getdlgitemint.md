@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.topic: function
-f1_keywords: ["winuser/GetDlgItemInt"]
+f1_keywords: 
+ - "winuser/GetDlgItemInt"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

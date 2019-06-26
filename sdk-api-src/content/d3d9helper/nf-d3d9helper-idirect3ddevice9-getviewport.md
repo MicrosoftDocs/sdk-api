@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5804c163-148c-f385-7d81-0260f741a050, GetViewport, GetViewport method [Direct3D 9], GetViewport method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetViewport method, IDirect3DDevice9.GetViewport, IDirect3DDevice9::GetViewport, d3d9helper/IDirect3DDevice9::GetViewport, direct3d9.idirect3ddevice9__getviewport
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.GetViewport"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.GetViewport"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

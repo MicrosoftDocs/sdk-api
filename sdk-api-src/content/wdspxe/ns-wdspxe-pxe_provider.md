@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPXE_PROVIDER, PPXE_PROVIDER, PPXE_PROVIDER structure pointer [Windows Deployment Services], PXE_PROVIDER, PXE_PROVIDER structure [Windows Deployment Services], wds.pxe_provider, wdspxe/PPXE_PROVIDER, wdspxe/PXE_PROVIDER"
 ms.topic: struct
-f1_keywords: ["wdspxe/PXE_PROVIDER"]
+f1_keywords: 
+ - "wdspxe/PXE_PROVIDER"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

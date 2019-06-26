@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetSource method, ICreateErrorInfo.SetSource, ICreateErrorInfo::SetSource, SetSource, SetSource method [Automation], SetSource method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetSource, automat.icreateerrorinfo_setsource, oaidl/ICreateErrorInfo::SetSource
 ms.topic: method
-f1_keywords: ["oaidl/ICreateErrorInfo.SetSource"]
+f1_keywords: 
+ - "oaidl/ICreateErrorInfo.SetSource"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

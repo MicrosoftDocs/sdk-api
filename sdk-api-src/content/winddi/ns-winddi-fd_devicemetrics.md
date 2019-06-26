@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS"
 ms.topic: struct
-f1_keywords: ["winddi/FD_DEVICEMETRICS"]
+f1_keywords: 
+ - "winddi/FD_DEVICEMETRICS"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

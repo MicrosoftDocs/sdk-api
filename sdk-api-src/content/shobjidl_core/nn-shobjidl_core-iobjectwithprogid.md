@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IObjectWithProgID"]
+f1_keywords: 
+ - "shobjidl_core/IObjectWithProgID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509PolicyServerUrl.Url, IX509PolicyServerUrl.get_Url, IX509PolicyServerUrl::Url, IX509PolicyServerUrl::get_Url, IX509PolicyServerUrl::put_Url, Url property [Security], Url property [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Url, certenroll/IX509PolicyServerUrl::get_Url, certenroll/IX509PolicyServerUrl::put_Url, get_Url, security.ix509policyserverurl_url
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.Url"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.Url"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

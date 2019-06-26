@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StartedMonitoringScope method, ISearchPersistentItemsChangedSink.StartedMonitoringScope, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
 ms.topic: method
-f1_keywords: ["searchapi/ISearchPersistentItemsChangedSink.StartedMonitoringScope"]
+f1_keywords: 
+ - "searchapi/ISearchPersistentItemsChangedSink.StartedMonitoringScope"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

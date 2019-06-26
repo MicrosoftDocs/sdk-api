@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSYSTEM_INFO, PROCESSOR_AMD_X8664, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_ARM64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, PROCESSOR_ARM, PROCESSOR_INTEL_386, PROCESSOR_INTEL_486, PROCESSOR_INTEL_IA64, PROCESSOR_INTEL_PENTIUM, SYSTEM_INFO, SYSTEM_INFO structure, _SYSTEM_INFO, _win32_system_info_str, base.system_info_str, sysinfoapi/_SYSTEM_INFO"
 ms.topic: struct
-f1_keywords: ["sysinfoapi/SYSTEM_INFO"]
+f1_keywords: 
+ - "sysinfoapi/SYSTEM_INFO"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

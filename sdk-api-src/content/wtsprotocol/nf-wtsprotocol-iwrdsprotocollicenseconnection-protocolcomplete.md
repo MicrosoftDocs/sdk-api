@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolLicenseConnection.ProtocolComplete"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolLicenseConnection.ProtocolComplete"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

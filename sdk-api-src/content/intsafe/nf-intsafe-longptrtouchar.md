@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongPtrToUChar, LongPtrToUChar function [Windows Shell], intsafe/LongPtrToUChar, shell.LongPtrToUChar
 ms.topic: function
-f1_keywords: ["intsafe/LongPtrToUChar"]
+f1_keywords: 
+ - "intsafe/LongPtrToUChar"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

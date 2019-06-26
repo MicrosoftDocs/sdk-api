@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
 ms.topic: function
-f1_keywords: ["ntquery/LocateCatalogs"]
+f1_keywords: 
+ - "ntquery/LocateCatalogs"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

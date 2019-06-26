@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseFuncDesc method, ITypeInfo.ReleaseFuncDesc, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.ReleaseFuncDesc"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.ReleaseFuncDesc"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

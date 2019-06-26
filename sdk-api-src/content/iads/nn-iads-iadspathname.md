@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface [ADSI],described, Pathname, _ds_iadspathname, adsi.iadspathname, iads/IADsPathname
 ms.topic: interface
-f1_keywords: ["iads/IADsPathname"]
+f1_keywords: 
+ - "iads/IADsPathname"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT, CRYPT_XML_DOC_CTXT structure [Security], PCRYPT_XML_DOC_CTXT, PCRYPT_XML_DOC_CTXT structure pointer [Security], cryptxml/CRYPT_XML_DOC_CTXT, cryptxml/PCRYPT_XML_DOC_CTXT, security.crypt_xml_doc_ctxt"
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_DOC_CTXT"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_DOC_CTXT"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

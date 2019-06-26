@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession function [Windows Deployment Services], wds.wdstransportclientcancelsession, wdstci/WdsTransportClientCancelSession
 ms.topic: function
-f1_keywords: ["wdstci/WdsTransportClientCancelSession"]
+f1_keywords: 
+ - "wdstci/WdsTransportClientCancelSession"
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

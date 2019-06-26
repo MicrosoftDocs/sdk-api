@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
 ms.topic: method
-f1_keywords: ["msctf/ITfClientId.GetClientId"]
+f1_keywords: 
+ - "msctf/ITfClientId.GetClientId"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

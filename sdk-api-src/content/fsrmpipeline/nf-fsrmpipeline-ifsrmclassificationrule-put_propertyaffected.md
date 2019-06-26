@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],PropertyAffected property, IFsrmClassificationRule.PropertyAffected, IFsrmClassificationRule.put_PropertyAffected, IFsrmClassificationRule::PropertyAffected, IFsrmClassificationRule::get_PropertyAffected, IFsrmClassificationRule::put_PropertyAffected, PropertyAffected property [File Server Resource Manager], PropertyAffected property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_propertyaffected, fsrm.ifsrmclassificationrule_propertyaffected, fsrmpipeline/IFsrmClassificationRule::PropertyAffected, fsrmpipeline/IFsrmClassificationRule::get_PropertyAffected, fsrmpipeline/IFsrmClassificationRule::put_PropertyAffected, put_PropertyAffected
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmClassificationRule.PropertyAffected"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmClassificationRule.PropertyAffected"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

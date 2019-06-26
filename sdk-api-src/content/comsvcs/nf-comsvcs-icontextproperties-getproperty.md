@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty
 ms.topic: method
-f1_keywords: ["comsvcs/IContextProperties.GetProperty"]
+f1_keywords: 
+ - "comsvcs/IContextProperties.GetProperty"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

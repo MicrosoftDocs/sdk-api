@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],PropertyBagFlags property, IFsrmPropertyBag.PropertyBagFlags, IFsrmPropertyBag.get_PropertyBagFlags, IFsrmPropertyBag::PropertyBagFlags, IFsrmPropertyBag::get_PropertyBagFlags, PropertyBagFlags property [File Server Resource Manager], PropertyBagFlags property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_propertybagflags, fsrm.ifsrmpropertybag_propertybagflags, fsrmpipeline/IFsrmPropertyBag::PropertyBagFlags, fsrmpipeline/IFsrmPropertyBag::get_PropertyBagFlags, get_PropertyBagFlags
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.PropertyBagFlags"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.PropertyBagFlags"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
 ms.topic: function
-f1_keywords: ["mssip/CryptSIPGetSignedDataMsg"]
+f1_keywords: 
+ - "mssip/CryptSIPGetSignedDataMsg"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetBkImage"]
+f1_keywords: 
+ - "commctrl/ListView_SetBkImage"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

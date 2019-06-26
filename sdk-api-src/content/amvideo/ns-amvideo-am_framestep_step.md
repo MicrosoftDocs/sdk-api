@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_FRAMESTEP_STEP, AM_FRAMESTEP_STEP structure [DirectShow], AM_PROPERTY_FRAMESTEPStructure, _AM_FRAMESTEP_STEP, amvideo/AM_FRAMESTEP_STEP, dshow.am_property_framestep
 ms.topic: struct
-f1_keywords: ["amvideo/AM_FRAMESTEP_STEP"]
+f1_keywords: 
+ - "amvideo/AM_FRAMESTEP_STEP"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.SetDashStyle"]
+f1_keywords: 
+ - "gdipluspen/Pen.SetDashStyle"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

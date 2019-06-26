@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_DragLeave, ImageList_DragLeave function [Windows Controls], _win32_ImageList_DragLeave, _win32_ImageList_DragLeave_cpp, commctrl/ImageList_DragLeave, controls.ImageList_DragLeave, controls._win32_ImageList_DragLeave
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_DragLeave"]
+f1_keywords: 
+ - "commctrl/ImageList_DragLeave"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

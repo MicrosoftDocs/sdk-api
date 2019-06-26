@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDCTABLE_Existing, RDCTABLE_InvalidOrUnknown, RDCTABLE_New, RdcCreatedTables, RdcCreatedTables enumeration [Remote Differential Compression], fs.rdccreatedtables, msrdc/RDCTABLE_Existing, msrdc/RDCTABLE_InvalidOrUnknown, msrdc/RDCTABLE_New, msrdc/RdcCreatedTables, rdc.rdccreatedtables
 ms.topic: enum
-f1_keywords: ["msrdc/RdcCreatedTables"]
+f1_keywords: 
+ - "msrdc/RdcCreatedTables"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

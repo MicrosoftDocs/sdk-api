@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIScsiGroupPresharedKey, SetIscsiGroupPresharedKey, SetIscsiGroupPresharedKey function [iSCSI Discovery Library API], iscsidisc.setiscsigrouppresharedkey, iscsidsc/SetIscsiGroupPresharedKey
 ms.topic: function
-f1_keywords: ["iscsidsc/SetIscsiGroupPresharedKey"]
+f1_keywords: 
+ - "iscsidsc/SetIscsiGroupPresharedKey"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfLists, GetCountOfLists method [Microsoft TV Technologies], GetCountOfLists method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetCountOfLists method, IDvbLogicalChannel2Descriptor.GetCountOfLists, IDvbLogicalChannel2Descriptor::GetCountOfLists, dvbsiparser/IDvbLogicalChannel2Descriptor::GetCountOfLists, mstv.idvblogicalchannel2descriptor_getcountoflists
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLogicalChannel2Descriptor.GetCountOfLists"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetCountOfLists"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

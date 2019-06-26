@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],PolicyServer property, IX509CertificateRequestCmc2.PolicyServer, IX509CertificateRequestCmc2.get_PolicyServer, IX509CertificateRequestCmc2::PolicyServer, IX509CertificateRequestCmc2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::PolicyServer, certenroll/IX509CertificateRequestCmc2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestcmc2_policyserver
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestCmc2.PolicyServer"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestCmc2.PolicyServer"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

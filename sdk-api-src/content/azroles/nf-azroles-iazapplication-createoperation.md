@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.CreateOperation"]
+f1_keywords: 
+ - "azroles/IAzApplication.CreateOperation"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

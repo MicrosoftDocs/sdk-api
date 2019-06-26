@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
 ms.topic: macro
-f1_keywords: ["webservices/WsCountOf"]
+f1_keywords: 
+ - "webservices/WsCountOf"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

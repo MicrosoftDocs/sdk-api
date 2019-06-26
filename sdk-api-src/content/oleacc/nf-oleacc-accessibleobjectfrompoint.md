@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromPoint, AccessibleObjectFromPoint function [Windows Accessibility], _msaa_AccessibleObjectFromPoint, msaa.accessibleobjectfrompoint, oleacc/AccessibleObjectFromPoint, winauto.accessibleobjectfrompoint
 ms.topic: function
-f1_keywords: ["oleacc/AccessibleObjectFromPoint"]
+f1_keywords: 
+ - "oleacc/AccessibleObjectFromPoint"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

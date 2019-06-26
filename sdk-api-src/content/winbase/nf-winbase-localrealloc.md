@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
 ms.topic: function
-f1_keywords: ["winbase/LocalReAlloc"]
+f1_keywords: 
+ - "winbase/LocalReAlloc"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

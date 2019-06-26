@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS structure pointer [Security], TOKEN_DEVICE_CLAIMS, TOKEN_DEVICE_CLAIMS structure [Security], _TOKEN_DEVICE_CLAIMS, security.token_device_claims, winnt/PTOKEN_DEVICE_CLAIMS, winnt/TOKEN_DEVICE_CLAIMS"
 ms.topic: struct
-f1_keywords: ["winnt/TOKEN_DEVICE_CLAIMS"]
+f1_keywords: 
+ - "winnt/TOKEN_DEVICE_CLAIMS"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

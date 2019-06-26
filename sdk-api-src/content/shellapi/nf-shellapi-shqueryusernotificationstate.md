@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
 ms.topic: function
-f1_keywords: ["shellapi/SHQueryUserNotificationState"]
+f1_keywords: 
+ - "shellapi/SHQueryUserNotificationState"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionAppliesTo, FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager], FsrmPropertyDefinitionAppliesTo_Files, FsrmPropertyDefinitionAppliesTo_Folders, fs.fsrmpropertydefinitionappliesto, fsrm.fsrmpropertydefinitionappliesto, fsrmenums/FsrmPropertyDefinitionAppliesTo, fsrmenums/FsrmPropertyDefinitionAppliesTo_Files, fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmPropertyDefinitionAppliesTo"]
+f1_keywords: 
+ - "fsrmenums/FsrmPropertyDefinitionAppliesTo"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

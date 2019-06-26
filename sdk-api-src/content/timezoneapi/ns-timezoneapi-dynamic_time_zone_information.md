@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDYNAMIC_TIME_ZONE_INFORMATION, DYNAMIC_TIME_ZONE_INFORMATION, DYNAMIC_TIME_ZONE_INFORMATION structure, PDYNAMIC_TIME_ZONE_INFORMATION, PDYNAMIC_TIME_ZONE_INFORMATION structure pointer, _TIME_DYNAMIC_ZONE_INFORMATION, _TIME_DYNAMIC_ZONE_INFORMATION structure, base.dynamic_time_zone_information, winbase/PDYNAMIC_TIME_ZONE_INFORMATION, winbase/_DYNAMIC_TIME_ZONE_INFORMATION"
 ms.topic: struct
-f1_keywords: ["timezoneapi/DYNAMIC_TIME_ZONE_INFORMATION"]
+f1_keywords: 
+ - "timezoneapi/DYNAMIC_TIME_ZONE_INFORMATION"
 req.header: timezoneapi.h
 req.include-header: Timezoneapi.h, Windows.h
 req.target-type: Windows

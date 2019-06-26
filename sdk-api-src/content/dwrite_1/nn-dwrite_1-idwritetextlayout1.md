@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1, IDWriteTextLayout1 interface [Direct Write], IDWriteTextLayout1 interface [Direct Write],described, directwrite.idwritetextlayout1, dwrite_1/IDWriteTextLayout1
 ms.topic: interface
-f1_keywords: ["dwrite_1/IDWriteTextLayout1"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextLayout1"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

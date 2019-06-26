@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
 ms.topic: function
-f1_keywords: ["cscapi/OfflineFilesStart"]
+f1_keywords: 
+ - "cscapi/OfflineFilesStart"
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

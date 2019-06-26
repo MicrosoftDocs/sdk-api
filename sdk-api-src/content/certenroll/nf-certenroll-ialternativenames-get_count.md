@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Count property, IAlternativeNames.Count, IAlternativeNames.get_Count, IAlternativeNames::Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count, security.ialternativenames_count_property
 ms.topic: method
-f1_keywords: ["certenroll/IAlternativeNames.Count"]
+f1_keywords: 
+ - "certenroll/IAlternativeNames.Count"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

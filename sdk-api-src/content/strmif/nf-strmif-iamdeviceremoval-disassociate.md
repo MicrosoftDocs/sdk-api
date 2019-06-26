@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disassociate, Disassociate method [DirectShow], Disassociate method [DirectShow],IAMDeviceRemoval interface, IAMDeviceRemoval interface [DirectShow],Disassociate method, IAMDeviceRemoval.Disassociate, IAMDeviceRemoval::Disassociate, IAMDeviceRemovalDisassociate, dshow.iamdeviceremoval_disassociate, strmif/IAMDeviceRemoval::Disassociate
 ms.topic: method
-f1_keywords: ["strmif/IAMDeviceRemoval.Disassociate"]
+f1_keywords: 
+ - "strmif/IAMDeviceRemoval.Disassociate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

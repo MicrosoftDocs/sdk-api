@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Shell], EnumerateBackgroundTasks method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shell.IPackageDebugSettings_EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

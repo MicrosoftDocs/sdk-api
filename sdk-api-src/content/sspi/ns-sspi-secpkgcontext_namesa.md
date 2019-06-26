@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_NamesA, SecPkgContext_Names, SecPkgContext_Names structure [Security], SecPkgContext_NamesA, SecPkgContext_NamesW, _ssp_secpkgcontext_names, pSecPkgContext_Names, pSecPkgContext_Names structure pointer [Security], security.secpkgcontext_names, sspi/SecPkgContext_Names, sspi/SecPkgContext_NamesA, sspi/SecPkgContext_NamesW, sspi/pSecPkgContext_Names"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_Names"]
+f1_keywords: 
+ - "sspi/SecPkgContext_Names"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

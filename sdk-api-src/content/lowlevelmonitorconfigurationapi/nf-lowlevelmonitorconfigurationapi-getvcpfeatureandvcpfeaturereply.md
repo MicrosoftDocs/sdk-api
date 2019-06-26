@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
 ms.topic: function
-f1_keywords: ["lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply"]
+f1_keywords: 
+ - "lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply"
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

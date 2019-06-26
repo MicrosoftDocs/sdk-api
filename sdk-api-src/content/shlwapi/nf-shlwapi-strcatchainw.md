@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCatChainW, StrCatChainW function [Windows Shell], _shell_StrCatChainW, shell.StrCatChainW, shlwapi/StrCatChainW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCatChainW"]
+f1_keywords: 
+ - "shlwapi/StrCatChainW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow],described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
 ms.topic: interface
-f1_keywords: ["strmif/IVMRImagePresenter"]
+f1_keywords: 
+ - "strmif/IVMRImagePresenter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

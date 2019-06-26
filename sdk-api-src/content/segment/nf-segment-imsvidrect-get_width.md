@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
 ms.topic: method
-f1_keywords: ["segment/IMSVidRect.get_Width"]
+f1_keywords: 
+ - "segment/IMSVidRect.get_Width"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

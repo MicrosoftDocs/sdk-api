@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateAddress method, ITAddressTranslation.TranslateAddress, ITAddressTranslation::TranslateAddress, TranslateAddress, TranslateAddress method [TAPI 2.2], TranslateAddress method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translateaddress, tapi3.itaddresstranslation_translateaddress, tapi3if/ITAddressTranslation::TranslateAddress
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressTranslation.TranslateAddress"]
+f1_keywords: 
+ - "tapi3if/ITAddressTranslation.TranslateAddress"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

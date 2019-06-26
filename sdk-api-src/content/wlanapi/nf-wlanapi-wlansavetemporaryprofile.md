@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_CONNECTION_MODE_AUTO, WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT, WLAN_PROFILE_USER, WlanSaveTemporaryProfile, WlanSaveTemporaryProfile function [NativeWIFI], nwifi.wlansavetemporaryprofile, wlanapi/WlanSaveTemporaryProfile
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSaveTemporaryProfile"]
+f1_keywords: 
+ - "wlanapi/WlanSaveTemporaryProfile"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

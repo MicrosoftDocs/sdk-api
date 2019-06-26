@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
 ms.topic: function
-f1_keywords: ["dbghelp/SymRegisterCallback64"]
+f1_keywords: 
+ - "dbghelp/SymRegisterCallback64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWRdsProtocolShadowCallback.StopShadow, IWRdsProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolShadowCallback.StopShadow"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolShadowCallback.StopShadow"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

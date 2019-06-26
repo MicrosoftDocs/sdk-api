@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecurityInformation.MapGeneric, ISecurityInformation::MapGeneric, MapGeneric, MapGeneric method [Security], MapGeneric method [Security],ISecurityInformation interface, _win32_isecurityinformation_mapgeneric, aclui/ISecurityInformation::MapGeneric, security.isecurityinformation_mapgeneric
 ms.topic: method
-f1_keywords: ["aclui/ISecurityInformation.MapGeneric"]
+f1_keywords: 
+ - "aclui/ISecurityInformation.MapGeneric"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/IWMResizerProps::SetInterlaceMode
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMResizerProps.SetInterlaceMode"]
+f1_keywords: 
+ - "wmcodecdsp/IWMResizerProps.SetInterlaceMode"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

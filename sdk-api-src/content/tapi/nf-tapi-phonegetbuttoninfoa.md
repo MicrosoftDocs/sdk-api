@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo"
 ms.topic: function
-f1_keywords: ["tapi/phoneGetButtonInfo"]
+f1_keywords: 
+ - "tapi/phoneGetButtonInfo"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

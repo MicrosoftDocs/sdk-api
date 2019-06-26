@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorCurve class [GDI+],SetParameters method, ColorCurve.SetParameters, ColorCurve::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorCurve class, _gdiplus_CLASS_ColorCurve_SetParameters_, gdiplus._gdiplus_CLASS_ColorCurve_SetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/ColorCurve.SetParameters"]
+f1_keywords: 
+ - "gdipluseffects/ColorCurve.SetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

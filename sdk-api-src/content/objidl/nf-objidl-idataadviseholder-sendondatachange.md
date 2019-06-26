@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
 ms.topic: method
-f1_keywords: ["objidl/IDataAdviseHolder.SendOnDataChange"]
+f1_keywords: 
+ - "objidl/IDataAdviseHolder.SendOnDataChange"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

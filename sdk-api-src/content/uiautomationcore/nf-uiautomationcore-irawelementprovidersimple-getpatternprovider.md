@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPatternProvider, GetPatternProvider method [Windows Accessibility], GetPatternProvider method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPatternProvider method, IRawElementProviderSimple.GetPatternProvider, IRawElementProviderSimple::GetPatternProvider, uiauto.uiauto_IRawElementProviderSimple_GetPatternProvider, uiauto_IRawElementProviderSimple_GetPatternProvider, uiautomationcore/IRawElementProviderSimple::GetPatternProvider, winauto.uiauto_IRawElementProviderSimple_GetPatternProvider
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderSimple.GetPatternProvider"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderSimple.GetPatternProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

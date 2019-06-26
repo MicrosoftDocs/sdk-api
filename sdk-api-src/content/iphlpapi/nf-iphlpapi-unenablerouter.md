@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
 ms.topic: function
-f1_keywords: ["iphlpapi/UnenableRouter"]
+f1_keywords: 
+ - "iphlpapi/UnenableRouter"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

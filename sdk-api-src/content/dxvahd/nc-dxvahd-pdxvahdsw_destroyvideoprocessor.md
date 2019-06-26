@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_DestroyVideoProcessor, PDXVAHDSW_DestroyVideoProcessor callback, PDXVAHDSW_DestroyVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyVideoProcessor, mf.pdxvahdsw_destroyvideoprocessor
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_DestroyVideoProcessor"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_DestroyVideoProcessor"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

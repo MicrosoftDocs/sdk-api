@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequest method, IWSDEndpointProxy.SendTwoWayRequest, IWSDEndpointProxy::SendTwoWayRequest, SendTwoWayRequest, SendTwoWayRequest method, SendTwoWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequest, wsdclient/IWSDEndpointProxy::SendTwoWayRequest
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.SendTwoWayRequest"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.SendTwoWayRequest"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

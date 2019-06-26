@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueType, GetValueType method [search], GetValueType method [search],ICondition interface, ICondition interface [search],GetValueType method, ICondition.GetValueType, ICondition::GetValueType, _search_ICondition_GetValueType, search._search_ICondition_GetValueType, structuredquerycondition/ICondition::GetValueType
 ms.topic: method
-f1_keywords: ["structuredquerycondition/ICondition.GetValueType"]
+f1_keywords: 
+ - "structuredquerycondition/ICondition.GetValueType"
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

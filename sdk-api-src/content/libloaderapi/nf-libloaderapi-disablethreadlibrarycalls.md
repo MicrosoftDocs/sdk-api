@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableThreadLibraryCalls, DisableThreadLibraryCalls function, _win32_disablethreadlibrarycalls, base.disablethreadlibrarycalls, libloaderapi/DisableThreadLibraryCalls, winbase/DisableThreadLibraryCalls
 ms.topic: function
-f1_keywords: ["libloaderapi/DisableThreadLibraryCalls"]
+f1_keywords: 
+ - "libloaderapi/DisableThreadLibraryCalls"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

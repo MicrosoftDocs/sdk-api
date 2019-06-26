@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls], _win32_Edit_SetPasswordChar, _win32_Edit_SetPasswordChar_cpp, controls.Edit_SetPasswordChar, controls._win32_Edit_SetPasswordChar, windowsx/Edit_SetPasswordChar
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_SetPasswordChar"]
+f1_keywords: 
+ - "windowsx/Edit_SetPasswordChar"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

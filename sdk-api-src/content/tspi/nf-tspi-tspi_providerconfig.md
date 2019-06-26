@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
 ms.topic: function
-f1_keywords: ["tspi/TSPI_providerConfig"]
+f1_keywords: 
+ - "tspi/TSPI_providerConfig"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

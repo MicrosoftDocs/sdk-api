@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetTreatAsClass"]
+f1_keywords: 
+ - "combaseapi/CoGetTreatAsClass"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

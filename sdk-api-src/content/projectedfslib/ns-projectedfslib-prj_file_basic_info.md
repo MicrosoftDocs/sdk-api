@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_FILE_BASIC_INFO, PRJ_FILE_BASIC_INFO structure, ProjFS.prj_file_basic_info, projectedfslib/PRJ_FILE_BASIC_INFO
 ms.topic: struct
-f1_keywords: ["projectedfslib/PRJ_FILE_BASIC_INFO"]
+f1_keywords: 
+ - "projectedfslib/PRJ_FILE_BASIC_INFO"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

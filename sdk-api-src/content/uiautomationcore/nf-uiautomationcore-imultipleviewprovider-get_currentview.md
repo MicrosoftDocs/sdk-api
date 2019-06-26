@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentView property [Windows Accessibility], CurrentView property [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],CurrentView property, IMultipleViewProvider.CurrentView, IMultipleViewProvider.get_CurrentView, IMultipleViewProvider::CurrentView, IMultipleViewProvider::get_CurrentView, get_CurrentView, uiauto.uiauto_IMultipleViewProvider_CurrentView, uiauto_IMultipleViewProvider_CurrentView, uiautomationcore/IMultipleViewProvider::CurrentView, uiautomationcore/IMultipleViewProvider::get_CurrentView, winauto.uiauto_IMultipleViewProvider_CurrentView
 ms.topic: method
-f1_keywords: ["uiautomationcore/IMultipleViewProvider.CurrentView"]
+f1_keywords: 
+ - "uiautomationcore/IMultipleViewProvider.CurrentView"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFileSystemImage.get_FreeMediaBlocks, IFileSystemImage::get_FreeMediaBlocks, get_FreeMediaBlocks, get_FreeMediaBlocks method [IMAPI], get_FreeMediaBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_freemediablocks, imapi2fs/IFileSystemImage::get_FreeMediaBlocks
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_FreeMediaBlocks"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_FreeMediaBlocks"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumStorage interface, IMDSPEnumStorage interface [windows Media Device Manager],Clone method, IMDSPEnumStorage.Clone, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPEnumStorage.Clone"]
+f1_keywords: 
+ - "mswmdm/IMDSPEnumStorage.Clone"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

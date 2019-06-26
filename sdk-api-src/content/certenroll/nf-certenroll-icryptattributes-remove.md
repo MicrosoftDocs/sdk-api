@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],Remove method, ICryptAttributes.Remove, ICryptAttributes::Remove, Remove, Remove method [Security], Remove method [Security],ICryptAttributes interface, certenroll/ICryptAttributes::Remove, security.icryptattributes_remove_method
 ms.topic: method
-f1_keywords: ["certenroll/ICryptAttributes.Remove"]
+f1_keywords: 
+ - "certenroll/ICryptAttributes.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

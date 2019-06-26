@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextServices2 interface [Windows Controls],TxGetNaturalSize2 method, ITextServices2.TxGetNaturalSize2, ITextServices2::TxGetNaturalSize2, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize2, TxGetNaturalSize2 method [Windows Controls], TxGetNaturalSize2 method [Windows Controls],ITextServices2 interface, controls.itextservices2_txgetnaturalsize2, textserv/ITextServices2::TxGetNaturalSize2
 ms.topic: method
-f1_keywords: ["textserv/ITextServices2.TxGetNaturalSize2"]
+f1_keywords: 
+ - "textserv/ITextServices2.TxGetNaturalSize2"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPin, GetPin method [Microsoft Broadband Networks], GetPin method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPin method, IMbnPinManager.GetPin, IMbnPinManager::GetPin, mbn.imbnpinmanager_getpin, mbnapi/IMbnPinManager::GetPin
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPinManager.GetPin"]
+f1_keywords: 
+ - "mbnapi/IMbnPinManager.GetPin"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

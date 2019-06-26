@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_RECT_U, D2D_RECT_U, D2D_RECT_U structure [Direct2D], dcommon/D2D_RECT_U, direct2d.D2D_RECT_U
 ms.topic: struct
-f1_keywords: ["dcommon/D2D_RECT_U"]
+f1_keywords: 
+ - "dcommon/D2D_RECT_U"
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

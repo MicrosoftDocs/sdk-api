@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
 ms.topic: struct
-f1_keywords: ["winddi/CIECHROMA"]
+f1_keywords: 
+ - "winddi/CIECHROMA"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

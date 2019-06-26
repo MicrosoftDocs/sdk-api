@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnFinalizeProcessTrace method, ITraceEventCallback.OnFinalizeProcessTrace, ITraceEventCallback::OnFinalizeProcessTrace, OnFinalizeProcessTrace, OnFinalizeProcessTrace method [ETW], OnFinalizeProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onfinalizeprocesstrace, relogger/ITraceEventCallback::OnFinalizeProcessTrace
 ms.topic: method
-f1_keywords: ["relogger/ITraceEventCallback.OnFinalizeProcessTrace"]
+f1_keywords: 
+ - "relogger/ITraceEventCallback.OnFinalizeProcessTrace"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

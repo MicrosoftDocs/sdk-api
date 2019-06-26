@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawGetTime, ICDrawGetTime macro [Windows Multimedia], _win32_ICDrawGetTime, multimedia.icdrawgettime, vfw/ICDrawGetTime
 ms.topic: macro
-f1_keywords: ["vfw/ICDrawGetTime"]
+f1_keywords: 
+ - "vfw/ICDrawGetTime"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

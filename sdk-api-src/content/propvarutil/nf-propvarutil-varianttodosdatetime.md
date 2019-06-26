@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToDosDateTime"]
+f1_keywords: 
+ - "propvarutil/VariantToDosDateTime"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

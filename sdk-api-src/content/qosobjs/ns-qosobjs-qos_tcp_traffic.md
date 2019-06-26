@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPQOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC structure [QOS], QOS_TCP_TRAFFIC, QOS_TCP_TRAFFIC structure [QOS], qos.qos_tcp_traffic, qosobjs/*LPQOS_TCP_TRAFFIC, qosobjs/QOS_TCP_TRAFFIC"
 ms.topic: struct
-f1_keywords: ["qosobjs/QOS_TCP_TRAFFIC"]
+f1_keywords: 
+ - "qosobjs/QOS_TCP_TRAFFIC"
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

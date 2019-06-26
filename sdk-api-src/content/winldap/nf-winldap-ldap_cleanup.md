@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_cleanup, ldap_cleanup, ldap_cleanup function [LDAP], winldap/ldap_cleanup
 ms.topic: function
-f1_keywords: ["winldap/ldap_cleanup"]
+f1_keywords: 
+ - "winldap/ldap_cleanup"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

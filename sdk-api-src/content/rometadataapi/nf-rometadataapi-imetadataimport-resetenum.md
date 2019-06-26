@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResetEnum method, IMetaDataImport.ResetEnum, IMetaDataImport::ResetEnum, ResetEnum, ResetEnum method [Windows Runtime], ResetEnum method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResetEnum, winrt.imetadataimport_resetenum
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.ResetEnum"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.ResetEnum"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

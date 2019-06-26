@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock
 ms.topic: function
-f1_keywords: ["heapapi/HeapLock"]
+f1_keywords: 
+ - "heapapi/HeapLock"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

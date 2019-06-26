@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
 ms.topic: function
-f1_keywords: ["shlobj/SHChangeNotifyRegisterThread"]
+f1_keywords: 
+ - "shlobj/SHChangeNotifyRegisterThread"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

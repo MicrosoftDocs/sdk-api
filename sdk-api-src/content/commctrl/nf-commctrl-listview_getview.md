@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetView, ListView_GetView macro [Windows Controls], _win32_ListView_GetView, _win32_ListView_GetView_cpp, commctrl/ListView_GetView, controls.ListView_GetView, controls._win32_ListView_GetView
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetView"]
+f1_keywords: 
+ - "commctrl/ListView_GetView"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

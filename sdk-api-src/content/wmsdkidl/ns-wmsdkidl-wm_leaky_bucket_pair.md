@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_LEAKY_BUCKET_PAIR, WM_LEAKY_BUCKET_PAIR structure [windows Media Format], wmformat.wm_leaky_bucket_pair, wmsdkidl/WM_LEAKY_BUCKET_PAIR
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_LEAKY_BUCKET_PAIR"]
+f1_keywords: 
+ - "wmsdkidl/WM_LEAKY_BUCKET_PAIR"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

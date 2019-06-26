@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateManifestProviderEvents, TdhEnumerateManifestProviderEvents function [ETW], etw.tdhenumeratemanifestproviderevents, tdh/TdhEnumerateManifestProviderEvents
 ms.topic: function
-f1_keywords: ["tdh/TdhEnumerateManifestProviderEvents"]
+f1_keywords: 
+ - "tdh/TdhEnumerateManifestProviderEvents"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

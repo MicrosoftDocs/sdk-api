@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveFontMemResourceEx, RemoveFontMemResourceEx function [Windows GDI], _win32_RemoveFontMemResourceEx, gdi.removefontmemresourceex, wingdi/RemoveFontMemResourceEx
 ms.topic: function
-f1_keywords: ["wingdi/RemoveFontMemResourceEx"]
+f1_keywords: 
+ - "wingdi/RemoveFontMemResourceEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

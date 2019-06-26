@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [DirectComposition], EndDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],EndDraw method, IDCompositionSurface.EndDraw, IDCompositionSurface::EndDraw, dcomp/IDCompositionSurface::EndDraw, directcomp.idcompositionsurface_enddraw
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSurface.EndDraw"]
+f1_keywords: 
+ - "dcomp/IDCompositionSurface.EndDraw"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

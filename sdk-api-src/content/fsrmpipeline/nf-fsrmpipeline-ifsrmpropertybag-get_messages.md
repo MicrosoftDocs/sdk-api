@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag.get_Messages, IFsrmPropertyBag::Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.Messages"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.Messages"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

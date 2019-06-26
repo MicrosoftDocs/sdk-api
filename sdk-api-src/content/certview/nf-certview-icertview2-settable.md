@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable
 ms.topic: method
-f1_keywords: ["certview/ICertView2.SetTable"]
+f1_keywords: 
+ - "certview/ICertView2.SetTable"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

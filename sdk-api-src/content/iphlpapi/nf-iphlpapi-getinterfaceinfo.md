@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
 ms.topic: function
-f1_keywords: ["iphlpapi/GetInterfaceInfo"]
+f1_keywords: 
+ - "iphlpapi/GetInterfaceInfo"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

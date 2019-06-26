@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRTCaps, GetRTCaps method [Remote Desktop Services], GetRTCaps method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetRTCaps method, IAudioDeviceEndpoint.GetRTCaps, IAudioDeviceEndpoint::GetRTCaps, audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps, termserv.iaudiodeviceendpoint_getrtcaps
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioDeviceEndpoint.GetRTCaps"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioDeviceEndpoint.GetRTCaps"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

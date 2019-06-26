@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6ce3365b-f9f8-dd10-e1a5-c17ea631f175, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetDesc method, IDirect3DVolume9.GetDesc, IDirect3DVolume9::GetDesc, d3d9helper/IDirect3DVolume9::GetDesc, direct3d9.idirect3dvolume9__getdesc
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DVolume9.GetDesc"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DVolume9.GetDesc"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

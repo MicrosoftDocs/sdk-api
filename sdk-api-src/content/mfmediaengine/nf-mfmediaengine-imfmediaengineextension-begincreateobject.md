@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],BeginCreateObject method, IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineExtension.BeginCreateObject"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineExtension.BeginCreateObject"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

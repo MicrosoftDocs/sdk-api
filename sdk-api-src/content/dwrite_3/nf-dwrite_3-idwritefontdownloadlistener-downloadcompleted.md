@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DownloadCompleted, DownloadCompleted method [Direct Write], DownloadCompleted method [Direct Write],IDWriteFontDownloadListener interface, IDWriteFontDownloadListener interface [Direct Write],DownloadCompleted method, IDWriteFontDownloadListener.DownloadCompleted, IDWriteFontDownloadListener::DownloadCompleted, directwrite.idwritefontdownloadlistener_downloadcompleted, dwrite_3/IDWriteFontDownloadListener::DownloadCompleted
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontDownloadListener.DownloadCompleted"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontDownloadListener.DownloadCompleted"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

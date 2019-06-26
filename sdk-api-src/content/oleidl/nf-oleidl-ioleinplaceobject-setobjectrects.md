@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],SetObjectRects method, IOleInPlaceObject.SetObjectRects, IOleInPlaceObject::SetObjectRects, SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceObject.SetObjectRects"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceObject.SetObjectRects"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

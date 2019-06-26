@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamAttributesManager.GetStreamCount, IMFMuxStreamAttributesManager::GetStreamCount, mf.imfmuxstreamattributesmanager_getstreamcount, mfobjects/IMFMuxStreamAttributesManager::GetStreamCount
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMuxStreamAttributesManager.GetStreamCount"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamAttributesManager.GetStreamCount"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

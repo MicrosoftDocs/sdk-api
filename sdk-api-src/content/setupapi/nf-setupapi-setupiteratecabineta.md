@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
 ms.topic: function
-f1_keywords: ["setupapi/SetupIterateCabinet"]
+f1_keywords: 
+ - "setupapi/SetupIterateCabinet"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

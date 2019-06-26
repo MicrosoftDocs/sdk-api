@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmTaskCreate, mmTaskCreate function [Windows Multimedia], mmddk/mmTaskCreate, multimedia.mmtaskcreate
 ms.topic: function
-f1_keywords: ["mmddk/mmTaskCreate"]
+f1_keywords: 
+ - "mmddk/mmTaskCreate"
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

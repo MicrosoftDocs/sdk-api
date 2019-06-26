@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList
 ms.topic: function
-f1_keywords: ["dbghelp/SymRefreshModuleList"]
+f1_keywords: 
+ - "dbghelp/SymRefreshModuleList"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

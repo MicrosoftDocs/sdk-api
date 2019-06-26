@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterScaleChangeEvent, UnregisterScaleChangeEvent function [Windows Shell], shell.UnregisterScaleChangeEvent, shellscalingapi/UnregisterScaleChangeEvent
 ms.topic: function
-f1_keywords: ["shellscalingapi/UnregisterScaleChangeEvent"]
+f1_keywords: 
+ - "shellscalingapi/UnregisterScaleChangeEvent"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

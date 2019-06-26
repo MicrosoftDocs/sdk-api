@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8103a62e-6d1a-4dcd-af91-cedb30523004, ASF_INDEX_IDENTIFIER, ASF_INDEX_IDENTIFIER structure [Media Foundation], mf.asf_index_identifier, wmcontainer/ASF_INDEX_IDENTIFIER
 ms.topic: struct
-f1_keywords: ["wmcontainer/ASF_INDEX_IDENTIFIER"]
+f1_keywords: 
+ - "wmcontainer/ASF_INDEX_IDENTIFIER"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

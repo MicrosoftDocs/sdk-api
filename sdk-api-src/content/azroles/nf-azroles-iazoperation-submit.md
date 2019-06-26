@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Submit method, IAzOperation interface [Security],Submit method, IAzOperation.Submit, IAzOperation::Submit, Submit, Submit method [Security], Submit method [Security],AzOperation object, Submit method [Security],IAzOperation interface, azroles/IAzOperation::Submit, security.iazoperation_submit
 ms.topic: method
-f1_keywords: ["azroles/IAzOperation.Submit"]
+f1_keywords: 
+ - "azroles/IAzOperation.Submit"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

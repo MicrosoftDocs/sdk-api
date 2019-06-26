@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommandLine property [Windows Remote Management], CommandLine property [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CommandLine property, IWSMan.CommandLine, IWSMan.get_CommandLine, IWSMan::CommandLine, IWSMan::get_CommandLine, get_CommandLine, winrm.iwsman_commandline, wsmandisp/IWSMan::CommandLine, wsmandisp/IWSMan::get_CommandLine
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSMan.CommandLine"]
+f1_keywords: 
+ - "wsmandisp/IWSMan.CommandLine"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLOD, GetLOD method [DirectDraw], GetLOD method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetLOD method, IDirectDrawSurface7.GetLOD, IDirectDrawSurface7::GetLOD, ddraw/IDirectDrawSurface7::GetLOD, directdraw.idirectdrawsurface7_getlod
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.GetLOD"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.GetLOD"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

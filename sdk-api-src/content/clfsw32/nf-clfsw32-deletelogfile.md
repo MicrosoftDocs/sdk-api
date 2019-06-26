@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile
 ms.topic: function
-f1_keywords: ["clfsw32/DeleteLogFile"]
+f1_keywords: 
+ - "clfsw32/DeleteLogFile"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

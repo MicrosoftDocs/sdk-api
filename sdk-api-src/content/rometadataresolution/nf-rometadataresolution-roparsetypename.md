@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
 ms.topic: function
-f1_keywords: ["rometadataresolution/RoParseTypeName"]
+f1_keywords: 
+ - "rometadataresolution/RoParseTypeName"
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteNullSecurityProvider, DrtDeleteNullSecurityProvider function [Distributed Routing Tables], drt/DrtDeleteNullSecurityProvider, p2p.drtdeletenullsecurityprovider
 ms.topic: function
-f1_keywords: ["drt/DrtDeleteNullSecurityProvider"]
+f1_keywords: 
+ - "drt/DrtDeleteNullSecurityProvider"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

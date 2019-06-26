@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS, D3D11_FEATURE_DATA_D3D11_OPTIONS structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS, direct3d11.d3d11_feature_data_d3d11_options
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS"]
+f1_keywords: 
+ - "d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

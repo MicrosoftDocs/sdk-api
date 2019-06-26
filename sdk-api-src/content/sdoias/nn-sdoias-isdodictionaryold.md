@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server],described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
 ms.topic: interface
-f1_keywords: ["sdoias/ISdoDictionaryOld"]
+f1_keywords: 
+ - "sdoias/ISdoDictionaryOld"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

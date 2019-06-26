@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellVerticalText, GetCellVerticalText method [Windows Controls], GetCellVerticalText method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellVerticalText method, ITextRow.GetCellVerticalText, ITextRow::GetCellVerticalText, controls.itextrow_getcellverticaltext, tom/ITextRow::GetCellVerticalText
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellVerticalText"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellVerticalText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

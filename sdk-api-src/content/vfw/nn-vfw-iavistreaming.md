@@ -11,7 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
 ms.topic: interface
-f1_keywords: ["vfw/IAVIStreaming"]
+f1_keywords: 
+ - "vfw/IAVIStreaming"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

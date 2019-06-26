@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

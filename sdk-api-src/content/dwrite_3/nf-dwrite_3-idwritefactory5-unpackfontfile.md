@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory5 interface [Direct Write],UnpackFontFile method, IDWriteFactory5.UnpackFontFile, IDWriteFactory5::UnpackFontFile, UnpackFontFile, UnpackFontFile method [Direct Write], UnpackFontFile method [Direct Write],IDWriteFactory5 interface, directwrite.idwritefactory5_unpackfontfile, dwrite_3/IDWriteFactory5::UnpackFontFile
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFactory5.UnpackFontFile"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFactory5.UnpackFontFile"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

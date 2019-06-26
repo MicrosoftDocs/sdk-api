@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzScope object, DeletePolicyAdministrator method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyAdministrator method, IAzScope.DeletePolicyAdministrator, IAzScope::DeletePolicyAdministrator, azroles/IAzScope::DeletePolicyAdministrator, security.iazscope_deletepolicyadministrator
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.DeletePolicyAdministrator"]
+f1_keywords: 
+ - "azroles/IAzScope.DeletePolicyAdministrator"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

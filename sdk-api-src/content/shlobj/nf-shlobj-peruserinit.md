@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerUserInit, PerUserInit function [Windows Shell], _win32_PerUserInit, shell.PerUserInit, shlobj/PerUserInit
 ms.topic: function
-f1_keywords: ["shlobj/PerUserInit"]
+f1_keywords: 
+ - "shlobj/PerUserInit"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

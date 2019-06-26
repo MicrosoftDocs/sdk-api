@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMSignatureBlockResource.GetOwner, IXpsOMSignatureBlockResource::GetOwner, xps.ixpsomsignatureblockresource_getowner, xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResource.GetOwner"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSignatureBlockResource.GetOwner"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

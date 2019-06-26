@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Windows Biometric Framework API], secbiomet.wbioqueryengineinterface, winbio_adapter/WbioQueryEngineInterface
 ms.topic: function
-f1_keywords: ["winbio_adapter/WbioQueryEngineInterface"]
+f1_keywords: 
+ - "winbio_adapter/WbioQueryEngineInterface"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateOrCondition, CreateOrCondition method [Windows Accessibility], CreateOrCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrCondition method, IUIAutomation.CreateOrCondition, IUIAutomation::CreateOrCondition, uiauto.uiauto_IUIAutomation_CreateOrCondition, uiauto_IUIAutomation_CreateOrCondition, uiautomationclient/IUIAutomation::CreateOrCondition, winauto.uiauto_IUIAutomation_CreateOrCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateOrCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateOrCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

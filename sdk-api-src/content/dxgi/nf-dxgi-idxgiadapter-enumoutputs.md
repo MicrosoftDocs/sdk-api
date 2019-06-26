@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs method [DXGI], EnumOutputs method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],EnumOutputs method, IDXGIAdapter.EnumOutputs, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIAdapter.EnumOutputs"]
+f1_keywords: 
+ - "dxgi/IDXGIAdapter.EnumOutputs"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

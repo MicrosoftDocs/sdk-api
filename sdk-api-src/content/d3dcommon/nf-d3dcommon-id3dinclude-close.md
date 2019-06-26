@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
 ms.topic: method
-f1_keywords: ["d3dcommon/ID3DInclude.Close"]
+f1_keywords: 
+ - "d3dcommon/ID3DInclude.Close"
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

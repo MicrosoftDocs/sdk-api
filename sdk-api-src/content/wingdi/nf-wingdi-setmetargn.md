@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMetaRgn, SetMetaRgn function [Windows GDI], _win32_SetMetaRgn, gdi.setmetargn, wingdi/SetMetaRgn
 ms.topic: function
-f1_keywords: ["wingdi/SetMetaRgn"]
+f1_keywords: 
+ - "wingdi/SetMetaRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

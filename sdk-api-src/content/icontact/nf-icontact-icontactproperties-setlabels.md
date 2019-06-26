@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetLabels method, IContactProperties.SetLabels, IContactProperties::SetLabels, SetLabels, SetLabels method [Windows Contacts], SetLabels method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetLabels, icontact/IContactProperties::SetLabels, wincontacts._wincontacts_IContactProperties_SetLabels
 ms.topic: method
-f1_keywords: ["icontact/IContactProperties.SetLabels"]
+f1_keywords: 
+ - "icontact/IContactProperties.SetLabels"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

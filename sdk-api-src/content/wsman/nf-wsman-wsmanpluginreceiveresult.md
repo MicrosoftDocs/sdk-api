@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION, WSMAN_RECEIVE_STATE_INPUT_REQUIRED, WSMAN_RECEIVE_STATE_NONE, WSMAN_RECEIVE_STATE_NORMAL_TERMINATION, WSMAN_RECEIVE_STATE_WAITING, WSManPluginReceiveResult, WSManPluginReceiveResult function [Windows Remote Management], winrm.wsmanpluginreceiveresult, wsman/WSManPluginReceiveResult
 ms.topic: function
-f1_keywords: ["wsman/WSManPluginReceiveResult"]
+f1_keywords: 
+ - "wsman/WSManPluginReceiveResult"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

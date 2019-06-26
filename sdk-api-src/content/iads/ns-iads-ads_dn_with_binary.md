@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
 ms.topic: struct
-f1_keywords: ["iads/ADS_DN_WITH_BINARY"]
+f1_keywords: 
+ - "iads/ADS_DN_WITH_BINARY"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

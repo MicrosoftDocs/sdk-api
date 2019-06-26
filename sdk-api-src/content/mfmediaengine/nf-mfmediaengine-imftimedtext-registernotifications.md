@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RegisterNotifications method, IMFTimedText.RegisterNotifications, IMFTimedText::RegisterNotifications, RegisterNotifications, RegisterNotifications method [Media Foundation], RegisterNotifications method [Media Foundation],IMFTimedText interface, mf.imftimedtext_registernotifications, mfmediaengine/IMFTimedText::RegisterNotifications
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedText.RegisterNotifications"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText.RegisterNotifications"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

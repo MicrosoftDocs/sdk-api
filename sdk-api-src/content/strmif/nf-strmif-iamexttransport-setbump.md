@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetBump method, IAMExtTransport.SetBump, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump, SetBump method [DirectShow], SetBump method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
 ms.topic: method
-f1_keywords: ["strmif/IAMExtTransport.SetBump"]
+f1_keywords: 
+ - "strmif/IAMExtTransport.SetBump"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

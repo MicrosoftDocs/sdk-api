@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetMostSuitableServer method, IWTSSBPlugin.WTSSBX_GetMostSuitableServer, IWTSSBPlugin::WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer method [Remote Desktop Services], WTSSBX_GetMostSuitableServer method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getmostsuitableserver, tssbx/IWTSSBPlugin::WTSSBX_GetMostSuitableServer
 ms.topic: method
-f1_keywords: ["tssbx/IWTSSBPlugin.WTSSBX_GetMostSuitableServer"]
+f1_keywords: 
+ - "tssbx/IWTSSBPlugin.WTSSBX_GetMostSuitableServer"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

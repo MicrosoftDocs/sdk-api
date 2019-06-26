@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DD_NTPRIVATEDRIVERCAPS, DD_NTPRIVATEDRIVERCAPS structure [Display Devices], ddrawint/DD_NTPRIVATEDRIVERCAPS, ddstrcts_37e03d8c-1dc6-44d4-afe7-1f92acb58898.xml, display.dd_ntprivatedrivercaps
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_NTPRIVATEDRIVERCAPS"]
+f1_keywords: 
+ - "ddrawint/DD_NTPRIVATEDRIVERCAPS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

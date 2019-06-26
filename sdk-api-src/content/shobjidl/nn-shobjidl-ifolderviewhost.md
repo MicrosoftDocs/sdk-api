@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell],described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
 ms.topic: interface
-f1_keywords: ["shobjidl/IFolderViewHost"]
+f1_keywords: 
+ - "shobjidl/IFolderViewHost"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

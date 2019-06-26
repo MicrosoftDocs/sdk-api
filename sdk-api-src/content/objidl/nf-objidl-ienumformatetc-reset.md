@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC interface [COM],Reset method, IEnumFORMATETC.Reset, IEnumFORMATETC::Reset, Reset, Reset method [COM], Reset method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_reset, com.ienumformatetc_reset, objidl/IEnumFORMATETC::Reset
 ms.topic: method
-f1_keywords: ["objidl/IEnumFORMATETC.Reset"]
+f1_keywords: 
+ - "objidl/IEnumFORMATETC.Reset"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

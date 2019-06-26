@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12ProtectedResourceSession, ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,described, d3d12/ID3D12ProtectedResourceSession, direct3d12.id3d12protectedresourcesession
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12ProtectedResourceSession"]
+f1_keywords: 
+ - "d3d12/ID3D12ProtectedResourceSession"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

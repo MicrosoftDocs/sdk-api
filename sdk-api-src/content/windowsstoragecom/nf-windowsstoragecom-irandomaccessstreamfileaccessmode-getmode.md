@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [Windows Runtime], GetMode method [Windows Runtime],IRandomAccessStreamFileAccessMode interface, IRandomAccessStreamFileAccessMode interface [Windows Runtime],GetMode method, IRandomAccessStreamFileAccessMode.GetMode, IRandomAccessStreamFileAccessMode::GetMode, windowsstoragecom/IRandomAccessStreamFileAccessMode::GetMode, winrt.irandomaccessstreamfileaccessmode_getmode
 ms.topic: method
-f1_keywords: ["windowsstoragecom/IRandomAccessStreamFileAccessMode.GetMode"]
+f1_keywords: 
+ - "windowsstoragecom/IRandomAccessStreamFileAccessMode.GetMode"
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

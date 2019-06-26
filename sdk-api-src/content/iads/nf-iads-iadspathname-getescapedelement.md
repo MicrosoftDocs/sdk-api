@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
 ms.topic: method
-f1_keywords: ["iads/IADsPathname.GetEscapedElement"]
+f1_keywords: 
+ - "iads/IADsPathname.GetEscapedElement"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

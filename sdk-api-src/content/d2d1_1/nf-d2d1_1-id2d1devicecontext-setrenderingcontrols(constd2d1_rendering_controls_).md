@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetRenderingControls method, ID2D1DeviceContext.SetRenderingControls, ID2D1DeviceContext.SetRenderingControls(const D2D1_RENDERING_CONTROLS &), ID2D1DeviceContext::SetRenderingControls, ID2D1DeviceContext::SetRenderingControls(const D2D1_RENDERING_CONTROLS &), SetRenderingControls, SetRenderingControls method [Direct2D], SetRenderingControls method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetRenderingControls, direct2d.id2d1devicecontext_setrenderingcontrols
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.SetRenderingControls"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.SetRenderingControls"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

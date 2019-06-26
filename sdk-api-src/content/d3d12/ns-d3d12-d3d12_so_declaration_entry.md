@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_SO_DECLARATION_ENTRY, D3D12_SO_DECLARATION_ENTRY structure, d3d12/D3D12_SO_DECLARATION_ENTRY, direct3d12.d3d12_so_declaration_entry
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_SO_DECLARATION_ENTRY"]
+f1_keywords: 
+ - "d3d12/D3D12_SO_DECLARATION_ENTRY"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

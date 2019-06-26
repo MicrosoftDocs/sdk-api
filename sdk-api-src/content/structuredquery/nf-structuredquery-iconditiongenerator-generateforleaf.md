@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
 ms.topic: method
-f1_keywords: ["structuredquery/IConditionGenerator.GenerateForLeaf"]
+f1_keywords: 
+ - "structuredquery/IConditionGenerator.GenerateForLeaf"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

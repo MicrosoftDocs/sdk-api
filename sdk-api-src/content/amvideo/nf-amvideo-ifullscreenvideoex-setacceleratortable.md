@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.SetAcceleratorTable"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.SetAcceleratorTable"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

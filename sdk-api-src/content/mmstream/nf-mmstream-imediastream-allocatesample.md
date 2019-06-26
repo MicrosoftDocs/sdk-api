@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
 ms.topic: method
-f1_keywords: ["mmstream/IMediaStream.AllocateSample"]
+f1_keywords: 
+ - "mmstream/IMediaStream.AllocateSample"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

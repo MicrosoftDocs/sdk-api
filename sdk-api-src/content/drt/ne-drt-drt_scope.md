@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRT_GLOBAL_SCOPE, DRT_LINK_LOCAL_SCOPE, DRT_SCOPE, DRT_SCOPE enumeration [Peer Networking], DRT_SITE_LOCAL_SCOPE, drt/DRT_GLOBAL_SCOPE, drt/DRT_LINK_LOCAL_SCOPE, drt/DRT_SCOPE, drt/DRT_SITE_LOCAL_SCOPE, p2p.drt_scope
 ms.topic: enum
-f1_keywords: ["drt/DRT_SCOPE"]
+f1_keywords: 
+ - "drt/DRT_SCOPE"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

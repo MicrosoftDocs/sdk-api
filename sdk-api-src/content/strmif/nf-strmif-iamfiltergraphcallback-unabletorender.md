@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
 ms.topic: method
-f1_keywords: ["strmif/IAMFilterGraphCallback.UnableToRender"]
+f1_keywords: 
+ - "strmif/IAMFilterGraphCallback.UnableToRender"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

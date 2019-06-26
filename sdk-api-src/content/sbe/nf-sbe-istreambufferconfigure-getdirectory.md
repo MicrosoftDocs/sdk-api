@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Microsoft TV Technologies], GetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetDirectory method, IStreamBufferConfigure.GetDirectory, IStreamBufferConfigure::GetDirectory, IStreamBufferConfigureGetDirectory, mstv.istreambufferconfigure_getdirectory, sbe/IStreamBufferConfigure::GetDirectory
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure.GetDirectory"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure.GetDirectory"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

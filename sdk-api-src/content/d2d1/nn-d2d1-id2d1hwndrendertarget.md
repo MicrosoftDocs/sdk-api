@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1HwndRenderTarget, ID2D1HwndRenderTarget interface [Direct2D], ID2D1HwndRenderTarget interface [Direct2D],described, d2d1/ID2D1HwndRenderTarget, direct2d.ID2D1HwndRenderTarget
 ms.topic: interface
-f1_keywords: ["d2d1/ID2D1HwndRenderTarget"]
+f1_keywords: 
+ - "d2d1/ID2D1HwndRenderTarget"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA structure [Display Devices], ddrawint/DD_BEGINMOCOMPFRAMEDATA, ddstrcts_6e61d707-7245-4d0d-aaa5-f63bb610d2e5.xml, display.dd_beginmocompframedata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_BEGINMOCOMPFRAMEDATA"]
+f1_keywords: 
+ - "ddrawint/DD_BEGINMOCOMPFRAMEDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

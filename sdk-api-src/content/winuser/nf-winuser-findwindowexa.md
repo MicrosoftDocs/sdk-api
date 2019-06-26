@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindWindowEx, FindWindowEx function [Windows and Messages], FindWindowExA, FindWindowExW, _win32_FindWindowEx, _win32_findwindowex_cpp, winmsg.findwindowex, winui._win32_findwindowex, winuser/FindWindowEx, winuser/FindWindowExA, winuser/FindWindowExW
 ms.topic: function
-f1_keywords: ["winuser/FindWindowEx"]
+f1_keywords: 
+ - "winuser/FindWindowEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

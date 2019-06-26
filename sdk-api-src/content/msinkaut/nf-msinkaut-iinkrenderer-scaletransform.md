@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 63a7d5f7-2c93-4f45-ad8d-aa3f75f78eff, IInkRenderer interface [Tablet PC],ScaleTransform method, IInkRenderer.ScaleTransform, IInkRenderer::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::ScaleTransform, tablet.inkrenderer_scaletransform
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRenderer.ScaleTransform"]
+f1_keywords: 
+ - "msinkaut/IInkRenderer.ScaleTransform"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

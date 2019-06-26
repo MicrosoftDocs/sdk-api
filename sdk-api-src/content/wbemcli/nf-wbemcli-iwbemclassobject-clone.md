@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Clone method, IWbemClassObject.Clone, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.Clone"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.Clone"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFaultEx, WSDGenerateFaultEx function, ncd.wsdgeneratefaultex, wsdutil/WSDGenerateFaultEx
 ms.topic: function
-f1_keywords: ["wsdutil/WSDGenerateFaultEx"]
+f1_keywords: 
+ - "wsdutil/WSDGenerateFaultEx"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

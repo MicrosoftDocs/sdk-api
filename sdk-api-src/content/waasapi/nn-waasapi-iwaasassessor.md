@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWaaSAssessor, IWaaSAssessor interface, IWaaSAssessor interface,described, base.iwaasassessor, waasapi/IWaaSAssessor
 ms.topic: interface
-f1_keywords: ["waasapi/IWaaSAssessor"]
+f1_keywords: 
+ - "waasapi/IWaaSAssessor"
 req.header: waasapi.h
 req.include-header: 
 req.target-type: Windows

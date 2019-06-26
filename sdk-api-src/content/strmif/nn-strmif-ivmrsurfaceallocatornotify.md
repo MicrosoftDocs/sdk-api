@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
 ms.topic: interface
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

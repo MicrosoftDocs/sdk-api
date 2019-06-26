@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE"
 ms.topic: struct
-f1_keywords: ["tcpmib/MIB_TCPTABLE"]
+f1_keywords: 
+ - "tcpmib/MIB_TCPTABLE"
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

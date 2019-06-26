@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
 ms.topic: callback
-f1_keywords: ["stm/BlockConvertServicesToStatic"]
+f1_keywords: 
+ - "stm/BlockConvertServicesToStatic"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

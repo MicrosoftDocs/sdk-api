@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeText, DrawThemeText function [Windows Controls], controls.DrawThemeText, controls.inet_DrawThemeText, inet_DrawThemeText, inet_DrawThemeText_cpp, uxtheme/DrawThemeText
 ms.topic: function
-f1_keywords: ["uxtheme/DrawThemeText"]
+f1_keywords: 
+ - "uxtheme/DrawThemeText"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

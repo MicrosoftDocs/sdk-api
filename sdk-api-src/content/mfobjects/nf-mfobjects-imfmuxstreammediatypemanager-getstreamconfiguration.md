@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamMediaTypeManager.GetStreamConfiguration, IMFMuxStreamMediaTypeManager::GetStreamConfiguration, mf.imfmuxstreammediatypemanager_getstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMuxStreamMediaTypeManager.GetStreamConfiguration"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamMediaTypeManager.GetStreamConfiguration"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

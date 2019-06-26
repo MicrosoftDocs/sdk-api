@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetStartTime"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetStartTime"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

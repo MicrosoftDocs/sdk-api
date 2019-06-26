@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_ROLE_INITIATOR, IKEEXT_SA_ROLE_MAX, IKEEXT_SA_ROLE_RESPONDER, fwp.ikeext_sa_role, iketypes/IKEEXT_SA_ROLE, iketypes/IKEEXT_SA_ROLE_INITIATOR, iketypes/IKEEXT_SA_ROLE_MAX, iketypes/IKEEXT_SA_ROLE_RESPONDER
 ms.topic: enum
-f1_keywords: ["iketypes/IKEEXT_SA_ROLE"]
+f1_keywords: 
+ - "iketypes/IKEEXT_SA_ROLE"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

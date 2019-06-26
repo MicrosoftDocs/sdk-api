@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NavigateDirection, NavigateDirection enumeration [Windows Accessibility], NavigateDirection_FirstChild, NavigateDirection_LastChild, NavigateDirection_NextSibling, NavigateDirection_Parent, NavigateDirection_PreviousSibling, uiauto.uiauto_NavDirEnum, uiauto_NavDirEnum, uiautomationcore/NavigateDirection, uiautomationcore/NavigateDirection_FirstChild, uiautomationcore/NavigateDirection_LastChild, uiautomationcore/NavigateDirection_NextSibling, uiautomationcore/NavigateDirection_Parent, uiautomationcore/NavigateDirection_PreviousSibling, winauto.uiauto_NavDirEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/NavigateDirection"]
+f1_keywords: 
+ - "uiautomationcore/NavigateDirection"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

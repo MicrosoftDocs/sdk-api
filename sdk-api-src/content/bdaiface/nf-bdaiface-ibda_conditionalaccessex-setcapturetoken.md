@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],SetCaptureToken method, IBDA_ConditionalAccessEx.SetCaptureToken, IBDA_ConditionalAccessEx::SetCaptureToken, SetCaptureToken, SetCaptureToken method [Microsoft TV Technologies], SetCaptureToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken, mstv.ibda_conditionalaccessex_setcapturetoken
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccessEx.SetCaptureToken"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccessEx.SetCaptureToken"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

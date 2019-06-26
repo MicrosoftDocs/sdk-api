@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Arbitrate, Arbitrate callback, Arbitrate callback function [Failover Cluster], PARBITRATE_ROUTINE, PARBITRATE_ROUTINE callback function [Failover Cluster], _wolf_arbitrate, mscs.arbitrate, resapi/Arbitrate, resapi/PARBITRATE_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/Arbitrate"]
+f1_keywords: 
+ - "resapi/Arbitrate"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

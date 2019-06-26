@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technologies], IESCloseMmiEvent interface [Microsoft TV Technologies],described, mstv.iesclosemmievent, tuner/IESCloseMmiEvent
 ms.topic: interface
-f1_keywords: ["tuner/IESCloseMmiEvent"]
+f1_keywords: 
+ - "tuner/IESCloseMmiEvent"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

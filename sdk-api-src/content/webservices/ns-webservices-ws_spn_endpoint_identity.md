@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SPN_ENDPOINT_IDENTITY, WS_SPN_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_SPN_ENDPOINT_IDENTITY, wsw.ws_spn_endpoint_identity
 ms.topic: struct
-f1_keywords: ["webservices/WS_SPN_ENDPOINT_IDENTITY"]
+f1_keywords: 
+ - "webservices/WS_SPN_ENDPOINT_IDENTITY"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

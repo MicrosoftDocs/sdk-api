@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],GetSupportedKeySpec method, GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],CEnroll object, GetSupportedKeySpec method [Security],ICEnroll3 interface, GetSupportedKeySpec method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetSupportedKeySpec method, ICEnroll3.GetSupportedKeySpec, ICEnroll3::GetSupportedKeySpec, ICEnroll4 interface [Security],GetSupportedKeySpec method, ICEnroll4::GetSupportedKeySpec, security.icenroll4_getsupportedkeyspec, xenroll/ICEnroll3::GetSupportedKeySpec, xenroll/ICEnroll4::GetSupportedKeySpec
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.GetSupportedKeySpec"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.GetSupportedKeySpec"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

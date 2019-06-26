@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMGPO class, Delete method [GPMC],IGPMGPO interface, GPMGPO class [GPMC],Delete method, IGPMGPO interface [GPMC],Delete method, IGPMGPO.Delete, IGPMGPO::Delete, _win32_igpmgpo_delete, gpmc.igpmgpo_delete, gpmgmt/IGPMGPO::Delete
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.Delete"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.Delete"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

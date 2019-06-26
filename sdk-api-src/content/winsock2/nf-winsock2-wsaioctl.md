@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
 ms.topic: function
-f1_keywords: ["winsock2/WSAIoctl"]
+f1_keywords: 
+ - "winsock2/WSAIoctl"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

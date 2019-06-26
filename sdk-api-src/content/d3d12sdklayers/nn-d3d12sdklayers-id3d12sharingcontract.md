@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
 ms.topic: interface
-f1_keywords: ["d3d12sdklayers/ID3D12SharingContract"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12SharingContract"
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.Clone"]
+f1_keywords: 
+ - "gdipluspen/Pen.Clone"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

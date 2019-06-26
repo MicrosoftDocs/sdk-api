@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetValueNormalization method [search],ICondition interface, ICondition interface [search],GetValueNormalization method, ICondition.GetValueNormalization, ICondition::GetValueNormalization, _search_ICondition_GetValueNormalization, search._search_ICondition_GetValueNormalization, structuredquerycondition/ICondition::GetValueNormalization
 ms.topic: method
-f1_keywords: ["structuredquerycondition/ICondition.GetValueNormalization"]
+f1_keywords: 
+ - "structuredquerycondition/ICondition.GetValueNormalization"
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

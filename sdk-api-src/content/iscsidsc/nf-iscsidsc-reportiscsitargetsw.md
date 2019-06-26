@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiTargetsW, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportIscsiTargets"]
+f1_keywords: 
+ - "iscsidsc/ReportIscsiTargets"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

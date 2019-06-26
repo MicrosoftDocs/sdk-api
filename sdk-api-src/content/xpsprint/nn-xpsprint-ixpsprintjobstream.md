@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
 ms.topic: interface
-f1_keywords: ["xpsprint/IXpsPrintJobStream"]
+f1_keywords: 
+ - "xpsprint/IXpsPrintJobStream"
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

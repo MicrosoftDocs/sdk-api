@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],InitializeFromCertificate method, ICertProperties.InitializeFromCertificate, ICertProperties::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperties interface, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperties.InitializeFromCertificate"]
+f1_keywords: 
+ - "certenroll/ICertProperties.InitializeFromCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

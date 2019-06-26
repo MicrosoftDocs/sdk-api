@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI, ITTAPI interface [TAPI 2.2], ITTAPI interface [TAPI 2.2],described, _tapi3_ittapi, tapi3.ittapi, tapi3if/ITTAPI
 ms.topic: interface
-f1_keywords: ["tapi3if/ITTAPI"]
+f1_keywords: 
+ - "tapi3if/ITTAPI"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

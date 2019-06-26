@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OCR_APPSTARTING, OCR_CROSS, OCR_HAND, OCR_HELP, OCR_IBEAM, OCR_NO, OCR_NORMAL, OCR_SIZEALL, OCR_SIZENESW, OCR_SIZENS, OCR_SIZENWSE, OCR_SIZEWE, OCR_UP, OCR_WAIT, SetSystemCursor, SetSystemCursor function [Menus and Other Resources], _win32_SetSystemCursor, _win32_setsystemcursor_cpp, menurc.setsystemcursor, winui._win32_setsystemcursor, winuser/SetSystemCursor
 ms.topic: function
-f1_keywords: ["winuser/SetSystemCursor"]
+f1_keywords: 
+ - "winuser/SetSystemCursor"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

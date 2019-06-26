@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCAPDRIVERCAPS, *PCAPDRIVERCAPS, CAPDRIVERCAPS, CAPDRIVERCAPS structure [Windows Multimedia], _win32_CAPDRIVERCAPS_str, multimedia.capdrivercaps, vfw/CAPDRIVERCAPS"
 ms.topic: struct
-f1_keywords: ["vfw/CAPDRIVERCAPS"]
+f1_keywords: 
+ - "vfw/CAPDRIVERCAPS"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

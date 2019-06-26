@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportEnum, MprConfigTransportEnum function [RAS], _mpr_mprconfigtransportenum, mprapi/MprConfigTransportEnum, rras.mprconfigtransportenum
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigTransportEnum"]
+f1_keywords: 
+ - "mprapi/MprConfigTransportEnum"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

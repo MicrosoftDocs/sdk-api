@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMMetaData.QueryByIndex"]
+f1_keywords: 
+ - "mswmdm/IWMDMMetaData.QueryByIndex"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

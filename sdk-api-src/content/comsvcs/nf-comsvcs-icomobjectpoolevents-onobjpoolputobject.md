@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectPoolEvents.OnObjPoolPutObject"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents.OnObjPoolPutObject"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.topic: function
-f1_keywords: ["resapi/ClusWorkerCheckTerminate"]
+f1_keywords: 
+ - "resapi/ClusWorkerCheckTerminate"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

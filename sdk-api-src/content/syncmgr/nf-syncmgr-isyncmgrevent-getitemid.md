@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetItemID method, ISyncMgrEvent.GetItemID, ISyncMgrEvent::GetItemID, _shell_ISyncMgrEvent_GetItemID, shell.ISyncMgrEvent_GetItemID, syncmgr/ISyncMgrEvent::GetItemID
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrEvent.GetItemID"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEvent.GetItemID"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], AssociateControllerPorts method [VDS],IVdsLunControllerPorts interface, IVdsLunControllerPorts interface [VDS],AssociateControllerPorts method, IVdsLunControllerPorts.AssociateControllerPorts, IVdsLunControllerPorts::AssociateControllerPorts, base.ivdsluncontrollerports_associatecontrollerports, vds/IVdsLunControllerPorts::AssociateControllerPorts, vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
 ms.topic: method
-f1_keywords: ["vds/IVdsLunControllerPorts.AssociateControllerPorts"]
+f1_keywords: 
+ - "vds/IVdsLunControllerPorts.AssociateControllerPorts"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

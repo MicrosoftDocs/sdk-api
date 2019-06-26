@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHELLSTATEW, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE"
 ms.topic: struct
-f1_keywords: ["shlobj_core/SHELLSTATE"]
+f1_keywords: 
+ - "shlobj_core/SHELLSTATE"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

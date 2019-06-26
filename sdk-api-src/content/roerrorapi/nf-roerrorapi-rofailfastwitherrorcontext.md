@@ -12,7 +12,8 @@ ms.keywords: RoFailFastWithErrorContext, RoFailFastWithErrorContext function [Wi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/RoFailFastWithErrorContext"]
+f1_keywords: 
+ - "roerrorapi/RoFailFastWithErrorContext"
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get__NewEnum method, IProgressItems.get__NewEnum, IProgressItems::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IProgressItems interface, imapi.iprogressitems_get__newenum, imapi2fs/IProgressItems::get__NewEnum
 ms.topic: method
-f1_keywords: ["imapi2fs/IProgressItems.get__NewEnum"]
+f1_keywords: 
+ - "imapi2fs/IProgressItems.get__NewEnum"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

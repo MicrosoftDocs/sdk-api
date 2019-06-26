@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCustomUIMode, GetCustomUIMode method [Windows Media Player], GetCustomUIMode method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetCustomUIMode method, IWMPRemoteMediaServices.GetCustomUIMode, IWMPRemoteMediaServices::GetCustomUIMode, IWMPRemoteMediaServicesGetCustomUIMode, wmp.iwmpremotemediaservices_getcustomuimode, wmp/IWMPRemoteMediaServices::GetCustomUIMode
 ms.topic: method
-f1_keywords: ["wmp/IWMPRemoteMediaServices.GetCustomUIMode"]
+f1_keywords: 
+ - "wmp/IWMPRemoteMediaServices.GetCustomUIMode"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

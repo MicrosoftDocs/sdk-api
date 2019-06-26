@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO structure [Security], PCERT_QC_STATEMENTS_EXT_INFO, PCERT_QC_STATEMENTS_EXT_INFO structure pointer [Security], security.cert_qc_statements_ext_info, wincrypt/CERT_QC_STATEMENTS_EXT_INFO, wincrypt/PCERT_QC_STATEMENTS_EXT_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_QC_STATEMENTS_EXT_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_QC_STATEMENTS_EXT_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

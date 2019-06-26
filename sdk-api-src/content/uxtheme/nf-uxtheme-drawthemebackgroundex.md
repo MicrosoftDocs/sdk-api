@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeBackgroundEx, DrawThemeBackgroundEx function [Windows Controls], controls.DrawThemeBackgroundEx, controls.inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx_cpp, uxtheme/DrawThemeBackgroundEx
 ms.topic: function
-f1_keywords: ["uxtheme/DrawThemeBackgroundEx"]
+f1_keywords: 
+ - "uxtheme/DrawThemeBackgroundEx"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

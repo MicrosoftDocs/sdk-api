@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCheckboxValue, GetCheckboxValue method [Windows Shell], GetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetCheckboxValue method, ICredentialProviderCredential.GetCheckboxValue, ICredentialProviderCredential::GetCheckboxValue, _shell_ICredentialProviderCredential_GetCheckboxValue, credentialprovider/ICredentialProviderCredential::GetCheckboxValue, shell.ICredentialProviderCredential_GetCheckboxValue
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredential.GetCheckboxValue"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredential.GetCheckboxValue"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

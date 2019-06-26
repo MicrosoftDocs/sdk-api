@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetValidUsages"]
+f1_keywords: 
+ - "wincrypt/CertGetValidUsages"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

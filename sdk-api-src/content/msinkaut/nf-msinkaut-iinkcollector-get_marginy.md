@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6cba076e-6392-4f0a-a80d-3df903d0ba13, IInkCollector interface [Tablet PC],MarginY property, IInkCollector.MarginY, IInkCollector.get_MarginY, IInkCollector::MarginY, IInkCollector::get_MarginY, IInkCollector::put_MarginY, InkCollector.get_MarginY, InkCollector.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkCollector interface, get_MarginY, msinkaut/IInkCollector::MarginY, msinkaut/IInkCollector::get_MarginY, msinkaut/IInkCollector::put_MarginY, tablet.inkcollector_marginy
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCollector.MarginY"]
+f1_keywords: 
+ - "msinkaut/IInkCollector.MarginY"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

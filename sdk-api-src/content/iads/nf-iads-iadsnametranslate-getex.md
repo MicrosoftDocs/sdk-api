@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
 ms.topic: method
-f1_keywords: ["iads/IADsNameTranslate.GetEx"]
+f1_keywords: 
+ - "iads/IADsNameTranslate.GetEx"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
 ms.topic: function
-f1_keywords: ["http/HttpRemoveUrlFromUrlGroup"]
+f1_keywords: 
+ - "http/HttpRemoveUrlFromUrlGroup"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DCubeTexture9 interface [Direct3D 9],UnlockRect method, IDirect3DCubeTexture9.UnlockRect, IDirect3DCubeTexture9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::UnlockRect, direct3d9.idirect3dcubetexture9__unlockrect, f5fb42b3-5c6a-7e4c-83fd-575e49595447
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DCubeTexture9.UnlockRect"]
+f1_keywords: 
+ - "d3d9/IDirect3DCubeTexture9.UnlockRect"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Windows Properties], properties.PSPropertyBag_ReadStrAlloc, propsys/PSPropertyBag_ReadStrAlloc, shell.PSPropertyBag_ReadStrAlloc, shell_PSPropertyBag_ReadStrAlloc
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_ReadStrAlloc"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_ReadStrAlloc"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

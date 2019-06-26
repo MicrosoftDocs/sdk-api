@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
 ms.topic: method
-f1_keywords: ["shobjidl/ICDBurn.Burn"]
+f1_keywords: 
+ - "shobjidl/ICDBurn.Burn"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMSignatureBlockResourceCollection.GetCount, IXpsOMSignatureBlockResourceCollection::GetCount, xps.ixpsomsignatureblockresourcecollection_getcount, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

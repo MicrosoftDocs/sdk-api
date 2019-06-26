@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER, NTFS_FILE_RECORD_INPUT_BUFFER structure [Files], PNTFS_FILE_RECORD_INPUT_BUFFER, PNTFS_FILE_RECORD_INPUT_BUFFER structure pointer [Files], _win32_ntfs_file_record_input_buffer_str, base.ntfs_file_record_input_buffer_str, fs.ntfs_file_record_input_buffer_str, winioctl/NTFS_FILE_RECORD_INPUT_BUFFER, winioctl/PNTFS_FILE_RECORD_INPUT_BUFFER"
 ms.topic: struct
-f1_keywords: ["winioctl/NTFS_FILE_RECORD_INPUT_BUFFER"]
+f1_keywords: 
+ - "winioctl/NTFS_FILE_RECORD_INPUT_BUFFER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

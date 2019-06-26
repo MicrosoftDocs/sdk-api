@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBTHNS_RESTRICTIONBLOB, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, BTH_QUERY_SERVICE, BTH_QUERY_SERVICE structure [Bluetooth], PBTH_QUERY_SERVICE, PBTH_QUERY_SERVICE structure pointer [Bluetooth], _bth_bth_query_service, bluetooth.bth_query_service, ws2bth/BTH_QUERY_SERVICE, ws2bth/PBTH_QUERY_SERVICE"
 ms.topic: struct
-f1_keywords: ["ws2bth/BTH_QUERY_SERVICE"]
+f1_keywords: 
+ - "ws2bth/BTH_QUERY_SERVICE"
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],WriteExclusiveModeParametersToSharedMemory method, IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory, IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory, WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services], WriteExclusiveModeParametersToSharedMemory method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory, termserv.iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

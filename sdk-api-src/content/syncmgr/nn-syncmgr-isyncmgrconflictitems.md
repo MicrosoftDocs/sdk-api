@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows Shell], ISyncMgrConflictItems interface [Windows Shell],described, _shell_ISyncMgrConflictItems, shell.ISyncMgrConflictItems, syncmgr/ISyncMgrConflictItems
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrConflictItems"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictItems"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

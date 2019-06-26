@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInUnprepareHeader, mmeapi/waveInUnprepareHeader, multimedia.waveinunprepareheader, waveInUnprepareHeader, waveInUnprepareHeader function [Windows Multimedia]"
 ms.topic: function
-f1_keywords: ["mmeapi/waveInUnprepareHeader"]
+f1_keywords: 
+ - "mmeapi/waveInUnprepareHeader"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

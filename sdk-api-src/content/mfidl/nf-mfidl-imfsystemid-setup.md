@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.Setup, IMFSystemId::Setup, Setup, Setup method [Media Foundation], Setup method [Media Foundation],IMFSystemId interface, mf.imfsystemid_setup, mfidl/IMFSystemId::Setup
 ms.topic: method
-f1_keywords: ["mfidl/IMFSystemId.Setup"]
+f1_keywords: 
+ - "mfidl/IMFSystemId.Setup"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

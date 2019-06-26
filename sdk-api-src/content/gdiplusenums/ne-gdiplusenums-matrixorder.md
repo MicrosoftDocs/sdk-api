@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MatrixOrder, MatrixOrder enumeration [GDI+], MatrixOrderAppend, MatrixOrderPrepend, _gdiplus_ENUM_MatrixOrder, gdiplus._gdiplus_ENUM_MatrixOrder, gdiplusenums/MatrixOrder, gdiplusenums/MatrixOrderAppend, gdiplusenums/MatrixOrderPrepend
 ms.topic: enum
-f1_keywords: ["gdiplusenums/MatrixOrder"]
+f1_keywords: 
+ - "gdiplusenums/MatrixOrder"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLogicalThreadId, GetCurrentLogicalThreadId method [COM], GetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentLogicalThreadId method, IComThreadingInfo.GetCurrentLogicalThreadId, IComThreadingInfo::GetCurrentLogicalThreadId, _com_icomthreadinginfo_getcurrentlogicalthreadid, com.icomthreadinginfo_getcurrentlogicalthreadid, objidlbase/IComThreadingInfo::GetCurrentLogicalThreadId
 ms.topic: method
-f1_keywords: ["objidlbase/IComThreadingInfo.GetCurrentLogicalThreadId"]
+f1_keywords: 
+ - "objidlbase/IComThreadingInfo.GetCurrentLogicalThreadId"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

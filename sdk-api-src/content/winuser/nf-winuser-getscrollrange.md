@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollRange, _win32_GetScrollRange_cpp, controls.GetScrollRange, controls._win32_GetScrollRange, winuser/GetScrollRange
 ms.topic: function
-f1_keywords: ["winuser/GetScrollRange"]
+f1_keywords: 
+ - "winuser/GetScrollRange"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

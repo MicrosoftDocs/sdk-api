@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
 ms.topic: struct
-f1_keywords: ["lpmapi/QualTspecParms"]
+f1_keywords: 
+ - "lpmapi/QualTspecParms"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

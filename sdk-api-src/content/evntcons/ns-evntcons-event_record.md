@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVENT_RECORD, PEVENT_RECORD, PEVENT_RECORD structure pointer [ETW], _EVENT_RECORD, base.event_record, etw.event_record, relogger/EVENT_RECORD, relogger/PEVENT_RECORD"
 ms.topic: struct
-f1_keywords: ["evntcons/EVENT_RECORD"]
+f1_keywords: 
+ - "evntcons/EVENT_RECORD"
 req.header: evntcons.h
 req.include-header: Evntcons.h
 req.target-type: Windows

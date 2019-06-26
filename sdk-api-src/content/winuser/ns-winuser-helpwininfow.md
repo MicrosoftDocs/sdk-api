@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHELPWININFOW, *PHELPWININFOW, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOW, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
 ms.topic: struct
-f1_keywords: ["winuser/HELPWININFO"]
+f1_keywords: 
+ - "winuser/HELPWININFO"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

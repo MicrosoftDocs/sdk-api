@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accState"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accState"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

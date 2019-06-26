@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetWrapMode method, PathGradientBrush.SetWrapMode, PathGradientBrush::SetWrapMode, SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetWrapMode_wrapMode_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.SetWrapMode"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.SetWrapMode"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

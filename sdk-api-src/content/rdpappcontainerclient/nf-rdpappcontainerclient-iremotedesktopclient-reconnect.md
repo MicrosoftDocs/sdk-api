@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],Reconnect method, IRemoteDesktopClient.Reconnect, IRemoteDesktopClient::Reconnect, Reconnect, Reconnect method [Remote Desktop Services], Reconnect method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::Reconnect, termserv.iremotedesktopclient_reconnect
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.Reconnect"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClient.Reconnect"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

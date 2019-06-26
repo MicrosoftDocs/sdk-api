@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.topic: method
-f1_keywords: ["bdatif/ITuneRequestInfo.GetPreviousLocator"]
+f1_keywords: 
+ - "bdatif/ITuneRequestInfo.GetPreviousLocator"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

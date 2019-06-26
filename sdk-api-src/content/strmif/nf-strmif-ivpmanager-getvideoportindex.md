@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoPortIndex, GetVideoPortIndex method [DirectShow], GetVideoPortIndex method [DirectShow],IVPManager interface, IVPManager interface [DirectShow],GetVideoPortIndex method, IVPManager.GetVideoPortIndex, IVPManager::GetVideoPortIndex, IVPManagerGetVideoPortIndex, dshow.ivpmanager_getvideoportindex, strmif/IVPManager::GetVideoPortIndex
 ms.topic: method
-f1_keywords: ["strmif/IVPManager.GetVideoPortIndex"]
+f1_keywords: 
+ - "strmif/IVPManager.GetVideoPortIndex"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

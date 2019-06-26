@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessStreamState, PDXVAHDSW_SetVideoProcessStreamState callback, PDXVAHDSW_SetVideoProcessStreamState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessStreamState, mf.pdxvahdsw_setvideoprocessstreamstate
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_SetVideoProcessStreamState"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_SetVideoProcessStreamState"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

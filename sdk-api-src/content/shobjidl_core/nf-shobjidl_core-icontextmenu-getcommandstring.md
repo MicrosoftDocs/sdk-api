@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GCS_HELPTEXTA, GCS_HELPTEXTW, GCS_VALIDATEA, GCS_VALIDATEW, GCS_VERBA, GCS_VERBW, GetCommandString, GetCommandString method [Windows Shell], GetCommandString method [Windows Shell],IContextMenu interface, IContextMenu interface [Windows Shell],GetCommandString method, IContextMenu.GetCommandString, IContextMenu::GetCommandString, _win32_IContextMenu_GetCommandString, _win32_icontextmenu_win32_icontextmenu_getcommandstring_cpp, shell.IContextMenu_GetCommandString, shobjidl_core/IContextMenu::GetCommandString
 ms.topic: method
-f1_keywords: ["shobjidl_core/IContextMenu.GetCommandString"]
+f1_keywords: 
+ - "shobjidl_core/IContextMenu.GetCommandString"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

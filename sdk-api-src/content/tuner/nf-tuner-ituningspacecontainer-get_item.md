@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaceContainer.get_Item"]
+f1_keywords: 
+ - "tuner/ITuningSpaceContainer.get_Item"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

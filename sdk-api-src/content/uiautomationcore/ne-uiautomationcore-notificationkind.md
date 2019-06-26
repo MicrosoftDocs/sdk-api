@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotificationKind, NotificationKind enumeration [Windows Accessibility], NotificationKind_ActionAborted, NotificationKind_ActionCompleted, NotificationKind_ItemAdded, NotificationKind_ItemRemoved, NotificationKind_Other, uiautomationclient/ NotificationKind_ActionCompleted, uiautomationclient/ NotificationKind_ItemAdded, uiautomationclient/ NotificationKind_ItemRemoved, uiautomationclient/NotificationKind, uiautomationclient/NotificationKind_ActionAborted, uiautomationclient/NotificationKind_Other, winauto.uiauto_NotificationKind
 ms.topic: enum
-f1_keywords: ["uiautomationcore/NotificationKind"]
+f1_keywords: 
+ - "uiautomationcore/NotificationKind"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows

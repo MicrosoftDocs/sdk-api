@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetSharpness method, IDCompositionAffineTransform2DEffect.SetSharpness, IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation), IDCompositionAffineTransform2DEffect::SetSharpness, IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation), SetSharpness, SetSharpness method [DirectComposition], SetSharpness method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetSharpness, directcomp.idcompositionaffinetransform2deffect_setsharpness_2
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionAffineTransform2DEffect.SetSharpness"]
+f1_keywords: 
+ - "dcomp/IDCompositionAffineTransform2DEffect.SetSharpness"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothSdpEnumAttributes, BluetoothSdpEnumAttributes function [Bluetooth], bluetooth.bluetoothsdpenumattributes, bluetoothapis/BluetoothSdpEnumAttributes
 ms.topic: function
-f1_keywords: ["bluetoothapis/BluetoothSdpEnumAttributes"]
+f1_keywords: 
+ - "bluetoothapis/BluetoothSdpEnumAttributes"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 21f542e7-4e2f-9c36-ae64-12c0d23732a8, D3D10_TEX2D_RTV, D3D10_TEX2D_RTV structure [Direct3D 10], d3d10/D3D10_TEX2D_RTV, direct3d10.d3d10_tex2d_rtv
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_TEX2D_RTV"]
+f1_keywords: 
+ - "d3d10/D3D10_TEX2D_RTV"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

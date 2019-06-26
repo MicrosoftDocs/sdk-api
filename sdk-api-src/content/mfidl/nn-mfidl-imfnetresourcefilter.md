@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], IMFNetResourceFilter interface [Media Foundation],described, mf.imfnetresourcefilter, mfidl/IMFNetResourceFilter
 ms.topic: interface
-f1_keywords: ["mfidl/IMFNetResourceFilter"]
+f1_keywords: 
+ - "mfidl/IMFNetResourceFilter"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

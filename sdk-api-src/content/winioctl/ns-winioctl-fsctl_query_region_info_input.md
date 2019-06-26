@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT"
 ms.topic: struct
-f1_keywords: ["winioctl/FSCTL_QUERY_REGION_INFO_INPUT"]
+f1_keywords: 
+ - "winioctl/FSCTL_QUERY_REGION_INFO_INPUT"
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

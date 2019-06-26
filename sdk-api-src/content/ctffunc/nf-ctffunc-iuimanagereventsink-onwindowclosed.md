@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosed method, IUIManagerEventSink.OnWindowClosed, IUIManagerEventSink::OnWindowClosed, OnWindowClosed, OnWindowClosed method [Text Services Framework], OnWindowClosed method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosed, tsf.iuimanagereventsink_onwindowclosed
 ms.topic: method
-f1_keywords: ["ctffunc/IUIManagerEventSink.OnWindowClosed"]
+f1_keywords: 
+ - "ctffunc/IUIManagerEventSink.OnWindowClosed"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontFamilyName method, IDWriteTextLayout.SetFontFamilyName, IDWriteTextLayout::SetFontFamilyName, SetFontFamilyName, SetFontFamilyName method [Direct Write], SetFontFamilyName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontFamilyName, dwrite/IDWriteTextLayout::SetFontFamilyName
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.SetFontFamilyName"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.SetFontFamilyName"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

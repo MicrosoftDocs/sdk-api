@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve method [GDI+], DrawClosedCurve method [GDI+],Graphics class, Graphics class [GDI+],DrawClosedCurve method, Graphics.DrawClosedCurve, Graphics.DrawClosedCurve(IN const Pen,IN const Point,IN INT), Graphics.DrawClosedCurve(const Pen*,const Point*,INT), Graphics::DrawClosedCurve, Graphics::DrawClosedCurve(IN const Pen,IN const Point,IN INT), _gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_Point_points_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Pen_pen_Point_points_INT_count_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.DrawClosedCurve"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.DrawClosedCurve"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetEffects method, ITextPara2.SetEffects, ITextPara2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextPara2 interface, controls.itextpara2_seteffects, tom/ITextPara2::SetEffects
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.SetEffects"]
+f1_keywords: 
+ - "tom/ITextPara2.SetEffects"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

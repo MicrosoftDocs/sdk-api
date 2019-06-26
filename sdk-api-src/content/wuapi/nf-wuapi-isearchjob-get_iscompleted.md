@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchJob interface [Windows Update Agent],IsCompleted property, ISearchJob.IsCompleted, ISearchJob.get_IsCompleted, ISearchJob::IsCompleted, ISearchJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],ISearchJob interface, get_IsCompleted, wua.isearchjob_iscompleted, wuapi/ISearchJob::IsCompleted, wuapi/ISearchJob::get_IsCompleted
 ms.topic: method
-f1_keywords: ["wuapi/ISearchJob.IsCompleted"]
+f1_keywords: 
+ - "wuapi/ISearchJob.IsCompleted"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

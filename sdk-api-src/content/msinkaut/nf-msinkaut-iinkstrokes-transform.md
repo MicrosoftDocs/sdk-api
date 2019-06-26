@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Transform method, IInkStrokes.Transform, IInkStrokes::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokes interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokes::Transform, tablet.inkstrokes_transform
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.Transform"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.Transform"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

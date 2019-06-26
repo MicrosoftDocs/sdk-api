@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SupportsResource method, IShellItemResources.SupportsResource, IShellItemResources::SupportsResource, SupportsResource, SupportsResource method [Windows Shell], SupportsResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SupportsResource, shell.IShellItemResources_SupportsResource, shobjidl_core/IShellItemResources::SupportsResource
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemResources.SupportsResource"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources.SupportsResource"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

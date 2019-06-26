@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [Automation],described, _oa96_ITypeComp_Interface, automat.itypecomp, oaidl/ITypeComp
 ms.topic: interface
-f1_keywords: ["oaidl/ITypeComp"]
+f1_keywords: 
+ - "oaidl/ITypeComp"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

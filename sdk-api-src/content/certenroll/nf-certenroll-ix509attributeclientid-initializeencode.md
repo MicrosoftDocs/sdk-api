@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509AttributeClientId.InitializeEncode"]
+f1_keywords: 
+ - "certenroll/IX509AttributeClientId.InitializeEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

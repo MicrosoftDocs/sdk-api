@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST, FILESHARE_CHANGE_LIST structure [Failover Cluster], PFILESHARE_CHANGE_LIST, PFILESHARE_CHANGE_LIST structure pointer [Failover Cluster], clusapi/FILESHARE_CHANGE_LIST, clusapi/PFILESHARE_CHANGE_LIST, mscs.fileshare_change_list"
 ms.topic: struct
-f1_keywords: ["clusapi/FILESHARE_CHANGE_LIST"]
+f1_keywords: 
+ - "clusapi/FILESHARE_CHANGE_LIST"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

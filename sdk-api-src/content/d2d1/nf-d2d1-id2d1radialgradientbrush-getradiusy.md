@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRadiusY, GetRadiusY method [Direct2D], GetRadiusY method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetRadiusY method, ID2D1RadialGradientBrush.GetRadiusY, ID2D1RadialGradientBrush::GetRadiusY, d2d1/ID2D1RadialGradientBrush::GetRadiusY, direct2d.ID2D1RadialGradientBrush_GetRadiusY
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RadialGradientBrush.GetRadiusY"]
+f1_keywords: 
+ - "d2d1/ID2D1RadialGradientBrush.GetRadiusY"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

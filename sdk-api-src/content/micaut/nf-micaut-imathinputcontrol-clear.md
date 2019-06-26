@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.Clear"]
+f1_keywords: 
+ - "micaut/IMathInputControl.Clear"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_ANYCAST_ADDRESS, *PIP_ADAPTER_ANYCAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_ANYCAST_ADDRESS, IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper], IP_ADAPTER_ANYCAST_ADDRESS_XP, PIP_ADAPTER_ANYCAST_ADDRESS, PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_anycast_address, iphlp.ip_adapter_anycast_address, iptypes/IP_ADAPTER_ANYCAST_ADDRESS, iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"
 ms.topic: struct
-f1_keywords: ["iptypes/IP_ADAPTER_ANYCAST_ADDRESS"]
+f1_keywords: 
+ - "iptypes/IP_ADAPTER_ANYCAST_ADDRESS"
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

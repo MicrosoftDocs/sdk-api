@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromKnownFolder method, IShellLibrary.LoadLibraryFromKnownFolder, IShellLibrary::LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder method [Windows Shell], LoadLibraryFromKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromKnownFolder, shell.IShellLibrary_LoadLibraryFromKnownFolder, shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.LoadLibraryFromKnownFolder"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.LoadLibraryFromKnownFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

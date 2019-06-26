@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetStrokeCaps method, CustomLineCap.SetStrokeCaps, CustomLineCap::SetStrokeCaps, SetStrokeCaps, SetStrokeCaps method [GDI+], SetStrokeCaps method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetStrokeCaps_startCap_endCap_, gdiplus._gdiplus_CLASS_CustomLineCap_SetStrokeCaps_startCap_endCap_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/CustomLineCap.SetStrokeCaps"]
+f1_keywords: 
+ - "gdiplusheaders/CustomLineCap.SetStrokeCaps"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

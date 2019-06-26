@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification function [RAS], _rtmv2ref_rtmmarkdestforchangenotification, rras.rtmmarkdestforchangenotification, rtmv2/RtmMarkDestForChangeNotification
 ms.topic: function
-f1_keywords: ["rtmv2/RtmMarkDestForChangeNotification"]
+f1_keywords: 
+ - "rtmv2/RtmMarkDestForChangeNotification"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformRect method, IMILBitmapEffectPrimitive.TransformRect, IMILBitmapEffectPrimitive::TransformRect, TransformRect, TransformRect method [WPF Bitmap Effects], TransformRect method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformrect, mileffects/IMILBitmapEffectPrimitive::TransformRect, wibe._wibe_imilbitmapeffectprimitive_transformrect
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectPrimitive.TransformRect"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectPrimitive.TransformRect"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

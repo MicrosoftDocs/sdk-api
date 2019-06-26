@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_ISDBConditionalAccess"]
+f1_keywords: 
+ - "bdaiface/IBDA_ISDBConditionalAccess"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

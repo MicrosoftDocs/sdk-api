@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
 ms.topic: interface
-f1_keywords: ["uiribbon/IUIEventLogger"]
+f1_keywords: 
+ - "uiribbon/IUIEventLogger"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetControlInterfaceCount, GetControlInterfaceCount method [Core Audio], GetControlInterfaceCount method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterfaceCount method, IPart.GetControlInterfaceCount, IPart::GetControlInterfaceCount, IPartGetControlInterfaceCount, coreaudio.ipart_getcontrolinterfacecount, devicetopology/IPart::GetControlInterfaceCount
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.GetControlInterfaceCount"]
+f1_keywords: 
+ - "devicetopology/IPart.GetControlInterfaceCount"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

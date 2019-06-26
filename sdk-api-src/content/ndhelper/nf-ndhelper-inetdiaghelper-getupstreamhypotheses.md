@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.GetUpStreamHypotheses"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.GetUpStreamHypotheses"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

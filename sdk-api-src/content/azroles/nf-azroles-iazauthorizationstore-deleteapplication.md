@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteApplication method, DeleteApplication, DeleteApplication method [Security], DeleteApplication method [Security],AzAuthorizationStore object, DeleteApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteApplication method, IAzAuthorizationStore.DeleteApplication, IAzAuthorizationStore::DeleteApplication, azroles/IAzAuthorizationStore::DeleteApplication, security.azauthorizationstore_deleteapplication
 ms.topic: method
-f1_keywords: ["azroles/AzAuthorizationStore.DeleteApplication"]
+f1_keywords: 
+ - "azroles/AzAuthorizationStore.DeleteApplication"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

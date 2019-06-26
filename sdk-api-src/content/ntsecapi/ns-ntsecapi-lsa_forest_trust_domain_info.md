@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO, LSA_FOREST_TRUST_DOMAIN_INFO structure [Security], PLSA_FOREST_TRUST_DOMAIN_INFO, PLSA_FOREST_TRUST_DOMAIN_INFO structure pointer [Security], _LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO, ntsecapi/PLSA_FOREST_TRUST_DOMAIN_INFO, security.lsa_forest_trust_domain_info"
 ms.topic: struct
-f1_keywords: ["ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO"]
+f1_keywords: 
+ - "ntsecapi/LSA_FOREST_TRUST_DOMAIN_INFO"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxSize, GetMaxSize method [Windows Properties], GetMaxSize method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetMaxSize method, IPropertyDescriptionSearchInfo.GetMaxSize, IPropertyDescriptionSearchInfo::GetMaxSize, _shell_IPropertyDescriptionSearchInfo_GetMaxSize, properties.IPropertyDescriptionSearchInfo_GetMaxSize, propsys/IPropertyDescriptionSearchInfo::GetMaxSize, shell.IPropertyDescriptionSearchInfo_GetMaxSize
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescriptionSearchInfo.GetMaxSize"]
+f1_keywords: 
+ - "propsys/IPropertyDescriptionSearchInfo.GetMaxSize"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

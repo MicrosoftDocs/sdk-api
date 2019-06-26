@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostRenameItem method, IFileOperationProgressSink.PostRenameItem, IFileOperationProgressSink::PostRenameItem, PostRenameItem, PostRenameItem method [Windows Shell], PostRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostRenameItem, shell.IFileOperationProgressSink_PostRenameItem, shobjidl_core/IFileOperationProgressSink::PostRenameItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperationProgressSink.PostRenameItem"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperationProgressSink.PostRenameItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

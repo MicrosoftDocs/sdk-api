@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,GetDebugParameter method, ID3D12DebugCommandList1.GetDebugParameter, ID3D12DebugCommandList1::GetDebugParameter, d3d12sdklayers/ID3D12DebugCommandList1::GetDebugParameter, direct3d12.id3d12debugcommandlist1_getdebugparameter
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12DebugCommandList1.GetDebugParameter"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12DebugCommandList1.GetDebugParameter"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

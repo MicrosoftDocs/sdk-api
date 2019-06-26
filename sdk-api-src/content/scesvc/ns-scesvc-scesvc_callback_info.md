@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO, PSCESVC_CALLBACK_INFO structure pointer [Security], SCESVC_CALLBACK_INFO, SCESVC_CALLBACK_INFO structure [Security], _config_scesvc_callback_info, scesvc/PSCESVC_CALLBACK_INFO, scesvc/SCESVC_CALLBACK_INFO, security.scesvc_callback_info"
 ms.topic: struct
-f1_keywords: ["scesvc/SCESVC_CALLBACK_INFO"]
+f1_keywords: 
+ - "scesvc/SCESVC_CALLBACK_INFO"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

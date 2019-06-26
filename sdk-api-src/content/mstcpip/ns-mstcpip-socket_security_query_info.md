@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
 ms.topic: struct
-f1_keywords: ["mstcpip/SOCKET_SECURITY_QUERY_INFO"]
+f1_keywords: 
+ - "mstcpip/SOCKET_SECURITY_QUERY_INFO"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

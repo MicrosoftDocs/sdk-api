@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaError, IMFMediaError interface [Media Foundation], IMFMediaError interface [Media Foundation],described, mf.imfmediaerror, mfmediaengine/IMFMediaError
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFMediaError"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaError"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
 ms.topic: function
-f1_keywords: ["resourceindexer/IndexFilePath"]
+f1_keywords: 
+ - "resourceindexer/IndexFilePath"
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

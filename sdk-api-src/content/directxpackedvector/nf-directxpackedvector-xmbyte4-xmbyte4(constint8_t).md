@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 constructor [DirectX Math Support APIs],XMBYTE4 structure, XMBYTE4 structure [DirectX Math Support APIs],XMBYTE4 constructor, XMBYTE4.XMBYTE4, XMBYTE4.XMBYTE4(), XMBYTE4.XMBYTE4(const int8_t), XMBYTE4::XMBYTE4, XMBYTE4::XMBYTE4(const int8_t), dxmath.xmbyte4_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMBYTE4.XMBYTE4"]
+f1_keywords: 
+ - "directxpackedvector/XMBYTE4.XMBYTE4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

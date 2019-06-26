@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FLOW_DIRECTION, DWRITE_FLOW_DIRECTION enumeration [Direct Write], DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_flow_direction, dwrite/DWRITE_FLOW_DIRECTION, dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_FLOW_DIRECTION"]
+f1_keywords: 
+ - "dwrite/DWRITE_FLOW_DIRECTION"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

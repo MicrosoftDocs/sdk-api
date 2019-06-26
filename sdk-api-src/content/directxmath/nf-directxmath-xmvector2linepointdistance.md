@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2LinePointDistance, XMVector2LinePointDistance, XMVector2LinePointDistance method [DirectX Math Support APIs], dxmath.xmvector2linepointdistance
 ms.topic: function
-f1_keywords: ["directxmath/XMVector2LinePointDistance"]
+f1_keywords: 
+ - "directxmath/XMVector2LinePointDistance"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW], etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
 ms.topic: function
-f1_keywords: ["evntrace/QueryTraceProcessingHandle"]
+f1_keywords: 
+ - "evntrace/QueryTraceProcessingHandle"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIConvert"]
+f1_keywords: 
+ - "oledlg/OleUIConvert"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

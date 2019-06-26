@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetFooterInfo, ListView_GetFooterInfo macro [Windows Controls], _shell_ListView_GetFooterInfo, _shell_ListView_GetFooterInfo_cpp, commctrl/ListView_GetFooterInfo, controls.ListView_GetFooterInfo, controls._shell_ListView_GetFooterInfo
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetFooterInfo"]
+f1_keywords: 
+ - "commctrl/ListView_GetFooterInfo"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

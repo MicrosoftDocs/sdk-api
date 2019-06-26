@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
 ms.topic: interface
-f1_keywords: ["iads/IADsHold"]
+f1_keywords: 
+ - "iads/IADsHold"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceEnumEx, ClusterResourceEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
 ms.topic: function
-f1_keywords: ["clusapi/ClusterResourceEnumEx"]
+f1_keywords: 
+ - "clusapi/ClusterResourceEnumEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileRangesTransferred, FileRangesTransferred method [BITS], FileRangesTransferred method [BITS],IBackgroundCopyCallback3 interface, IBackgroundCopyCallback3 interface [BITS],FileRangesTransferred method, IBackgroundCopyCallback3.FileRangesTransferred, IBackgroundCopyCallback3::FileRangesTransferred, bits.ibackgroundcopycallback3_filerangestransferred, bits10_1/IBackgroundCopyCallback3::FileRangesTransferred
 ms.topic: method
-f1_keywords: ["bits10_1/IBackgroundCopyCallback3.FileRangesTransferred"]
+f1_keywords: 
+ - "bits10_1/IBackgroundCopyCallback3.FileRangesTransferred"
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_TrackInfo method, IRawCDImageCreator.get_TrackInfo, IRawCDImageCreator::get_TrackInfo, get_TrackInfo, get_TrackInfo method [IMAPI], get_TrackInfo method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_trackinfo, imapi2/IRawCDImageCreator::get_TrackInfo
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.get_TrackInfo"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.get_TrackInfo"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

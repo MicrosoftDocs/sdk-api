@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAnnotationObjects, GetCurrentAnnotationObjects method [Windows Accessibility], GetCurrentAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

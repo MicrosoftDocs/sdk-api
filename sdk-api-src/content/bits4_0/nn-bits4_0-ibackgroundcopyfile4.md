@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile4, IBackgroundCopyFile4 interface [BITS], IBackgroundCopyFile4 interface [BITS],described, bits.ibackgroundcopyfile4, bits4_0/IBackgroundCopyFile4
 ms.topic: interface
-f1_keywords: ["bits4_0/IBackgroundCopyFile4"]
+f1_keywords: 
+ - "bits4_0/IBackgroundCopyFile4"
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

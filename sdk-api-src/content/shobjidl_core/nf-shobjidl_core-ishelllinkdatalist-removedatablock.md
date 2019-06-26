@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],RemoveDataBlock method, IShellLinkDataList.RemoveDataBlock, IShellLinkDataList::RemoveDataBlock, RemoveDataBlock, RemoveDataBlock method [Windows Shell], RemoveDataBlock method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_RemoveDataBlock, shell.IShellLinkDataList_RemoveDataBlock, shobjidl_core/IShellLinkDataList::RemoveDataBlock
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLinkDataList.RemoveDataBlock"]
+f1_keywords: 
+ - "shobjidl_core/IShellLinkDataList.RemoveDataBlock"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

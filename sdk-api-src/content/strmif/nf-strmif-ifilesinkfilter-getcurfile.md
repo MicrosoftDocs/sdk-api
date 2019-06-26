@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSinkFilter interface, IFileSinkFilter interface [DirectShow],GetCurFile method, IFileSinkFilter.GetCurFile, IFileSinkFilter::GetCurFile, IFileSinkFilterGetCurFile, dshow.ifilesinkfilter_getcurfile, strmif/IFileSinkFilter::GetCurFile
 ms.topic: method
-f1_keywords: ["strmif/IFileSinkFilter.GetCurFile"]
+f1_keywords: 
+ - "strmif/IFileSinkFilter.GetCurFile"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpQueryAuthSchemes, WinHttpQueryAuthSchemes function [WinHTTP], http.winhttpqueryauthschemes, winhttp.winhttpqueryauthschemes_function, winhttp/WinHttpQueryAuthSchemes
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpQueryAuthSchemes"]
+f1_keywords: 
+ - "winhttp/WinHttpQueryAuthSchemes"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

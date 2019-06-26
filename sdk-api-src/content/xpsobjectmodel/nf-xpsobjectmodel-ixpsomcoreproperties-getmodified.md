@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.GetModified"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.GetModified"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

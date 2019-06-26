@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMImageResourceCollection.RemoveAt, IXpsOMImageResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_removeat, xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMImageResourceCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMImageResourceCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

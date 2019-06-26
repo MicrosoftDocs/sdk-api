@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Title property, IUpdate.Title, IUpdate.get_Title, IUpdate::Title, IUpdate::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdate interface, get_Title, wua.iupdate_title, wuapi/IUpdate::Title, wuapi/IUpdate::get_Title
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.Title"]
+f1_keywords: 
+ - "wuapi/IUpdate.Title"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

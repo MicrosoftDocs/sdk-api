@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContentProviders property [Windows Deployment Services], ContentProviders property [Windows Deployment Services],IWdsTransportSetupManager2 interface, IWdsTransportSetupManager2 interface [Windows Deployment Services],ContentProviders property, IWdsTransportSetupManager2.ContentProviders, IWdsTransportSetupManager2.get_ContentProviders, IWdsTransportSetupManager2::ContentProviders, IWdsTransportSetupManager2::get_ContentProviders, get_ContentProviders, wds.iwdstransportsetupmanager2_contentproviders, wdstptmgmt/IWdsTransportSetupManager2::ContentProviders, wdstptmgmt/IWdsTransportSetupManager2::get_ContentProviders
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager2.ContentProviders"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager2.ContentProviders"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows], webservices/WsResetListener, wsw.wsresetlistener
 ms.topic: function
-f1_keywords: ["webservices/WsResetListener"]
+f1_keywords: 
+ - "webservices/WsResetListener"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

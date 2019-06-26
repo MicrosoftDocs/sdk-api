@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentDefaultAction property [Windows Accessibility], CurrentDefaultAction property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, get_CurrentDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

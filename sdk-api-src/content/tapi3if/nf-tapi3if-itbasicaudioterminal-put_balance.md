@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Balance method, ITBasicAudioTerminal.put_Balance, ITBasicAudioTerminal::put_Balance, _tapi3_itbasicaudioterminal_put_balance, put_Balance, put_Balance method [TAPI 2.2], put_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_balance, tapi3if/ITBasicAudioTerminal::put_Balance
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicAudioTerminal.put_Balance"]
+f1_keywords: 
+ - "tapi3if/ITBasicAudioTerminal.put_Balance"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
 ms.topic: function
-f1_keywords: ["dwmapi/DwmTetherContact"]
+f1_keywords: 
+ - "dwmapi/DwmTetherContact"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

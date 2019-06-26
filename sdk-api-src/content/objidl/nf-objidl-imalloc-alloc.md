@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.topic: method
-f1_keywords: ["objidl/IMalloc.Alloc"]
+f1_keywords: 
+ - "objidl/IMalloc.Alloc"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

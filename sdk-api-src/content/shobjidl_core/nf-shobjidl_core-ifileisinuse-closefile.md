@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseFile, CloseFile method [Windows Shell], CloseFile method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],CloseFile method, IFileIsInUse.CloseFile, IFileIsInUse::CloseFile, _shell_IFileIsInUse_CloseFile, shell.IFileIsInUse_CloseFile, shobjidl_core/IFileIsInUse::CloseFile
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileIsInUse.CloseFile"]
+f1_keywords: 
+ - "shobjidl_core/IFileIsInUse.CloseFile"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

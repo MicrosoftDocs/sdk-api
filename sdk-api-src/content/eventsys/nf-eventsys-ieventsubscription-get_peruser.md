@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PerUser property, IEventSubscription.PerUser, IEventSubscription.get_PerUser, IEventSubscription::PerUser, IEventSubscription::get_PerUser, IEventSubscription::put_PerUser, PerUser property [COM+], PerUser property [COM+],IEventSubscription interface, cos.ieventsubscription_peruser, eventsys/IEventSubscription::PerUser, eventsys/IEventSubscription::get_PerUser, eventsys/IEventSubscription::put_PerUser, get_PerUser
 ms.topic: method
-f1_keywords: ["eventsys/IEventSubscription.PerUser"]
+f1_keywords: 
+ - "eventsys/IEventSubscription.PerUser"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

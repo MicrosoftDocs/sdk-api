@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_PARA structure [Security], PCTL_FIND_SUBJECT_PARA, PCTL_FIND_SUBJECT_PARA structure pointer [Security], _crypto2_ctl_find_subject_para, security.ctl_find_subject_para, wincrypt/CTL_FIND_SUBJECT_PARA, wincrypt/PCTL_FIND_SUBJECT_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CTL_FIND_SUBJECT_PARA"]
+f1_keywords: 
+ - "wincrypt/CTL_FIND_SUBJECT_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

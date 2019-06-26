@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_CommandLine method, IExeServerRegistration.get_CommandLine, IExeServerRegistration::get_CommandLine, activationregistration/IExeServerRegistration::get_CommandLine, get_CommandLine, get_CommandLine method [Windows Runtime], get_CommandLine method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_commandline
 ms.topic: method
-f1_keywords: ["activationregistration/IExeServerRegistration.get_CommandLine"]
+f1_keywords: 
+ - "activationregistration/IExeServerRegistration.get_CommandLine"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

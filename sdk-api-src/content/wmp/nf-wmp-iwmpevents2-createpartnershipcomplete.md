@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePartnershipComplete, CreatePartnershipComplete method [Windows Media Player], CreatePartnershipComplete method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],CreatePartnershipComplete method, IWMPEvents2.CreatePartnershipComplete, IWMPEvents2::CreatePartnershipComplete, IWMPEvents2CreatePartnershipComplete, wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete, wmp/IWMPEvents2::CreatePartnershipComplete
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents2.CreatePartnershipComplete"]
+f1_keywords: 
+ - "wmp/IWMPEvents2.CreatePartnershipComplete"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

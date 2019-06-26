@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [DirectShow], GetPreferredClsid method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsid method, IAMPluginControl.GetPreferredClsid, IAMPluginControl::GetPreferredClsid, dshow.iamplugincontrol_getpreferredclsid, strmif/IAMPluginControl::GetPreferredClsid
 ms.topic: method
-f1_keywords: ["strmif/IAMPluginControl.GetPreferredClsid"]
+f1_keywords: 
+ - "strmif/IAMPluginControl.GetPreferredClsid"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

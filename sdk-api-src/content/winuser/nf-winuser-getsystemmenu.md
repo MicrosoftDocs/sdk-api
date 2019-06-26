@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemMenu, GetSystemMenu function [Menus and Other Resources], _win32_GetSystemMenu, _win32_getsystemmenu_cpp, menurc.getsystemmenu, winui._win32_getsystemmenu, winuser/GetSystemMenu
 ms.topic: function
-f1_keywords: ["winuser/GetSystemMenu"]
+f1_keywords: 
+ - "winuser/GetSystemMenu"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

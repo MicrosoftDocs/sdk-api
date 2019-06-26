@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields"
 ms.topic: enum
-f1_keywords: ["http/HTTP_LOG_DATA_TYPE"]
+f1_keywords: 
+ - "http/HTTP_LOG_DATA_TYPE"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

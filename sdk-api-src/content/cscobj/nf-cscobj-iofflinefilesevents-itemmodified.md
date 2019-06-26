@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemModified method, IOfflineFilesEvents.ItemModified, IOfflineFilesEvents::ItemModified, ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemModified"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemModified"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

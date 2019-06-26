@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent, ITAgentSessionEvent interface [TAPI 2.2], ITAgentSessionEvent interface [TAPI 2.2],described, _tapi3_itagentsessionevent, tapi3.itagentsessionevent, tapi3cc/ITAgentSessionEvent
 ms.topic: interface
-f1_keywords: ["tapi3cc/ITAgentSessionEvent"]
+f1_keywords: 
+ - "tapi3cc/ITAgentSessionEvent"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

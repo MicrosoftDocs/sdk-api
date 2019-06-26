@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngMultiByteToWideChar, EngMultiByteToWideChar function [Display Devices], display.engmultibytetowidechar, gdifncs_217d1045-3661-401b-af6e-148668ed97e4.xml, winddi/EngMultiByteToWideChar
 ms.topic: function
-f1_keywords: ["winddi/EngMultiByteToWideChar"]
+f1_keywords: 
+ - "winddi/EngMultiByteToWideChar"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

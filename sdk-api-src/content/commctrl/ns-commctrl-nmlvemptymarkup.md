@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp
 ms.topic: struct
-f1_keywords: ["commctrl/NMLVEMPTYMARKUP"]
+f1_keywords: 
+ - "commctrl/NMLVEMPTYMARKUP"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

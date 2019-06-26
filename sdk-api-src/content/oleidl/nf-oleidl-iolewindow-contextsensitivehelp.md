@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [COM], ContextSensitiveHelp method [COM],IOleWindow interface, IOleInPlaceSiteWindowless.ContextSensitiveHelp, IOleWindow interface [COM],ContextSensitiveHelp method, IOleWindow.ContextSensitiveHelp, IOleWindow::ContextSensitiveHelp, _ole_iolewindow_contextsensitivehelp, com.iolewindow_contextsensitivehelp, oleidl/IOleWindow::ContextSensitiveHelp
 ms.topic: method
-f1_keywords: ["oleidl/IOleWindow.ContextSensitiveHelp"]
+f1_keywords: 
+ - "oleidl/IOleWindow.ContextSensitiveHelp"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

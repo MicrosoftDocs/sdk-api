@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
 ms.topic: function
-f1_keywords: ["intsafe/SSIZETAdd"]
+f1_keywords: 
+ - "intsafe/SSIZETAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

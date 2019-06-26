@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST structure [Security], PCMC_TAGGED_REQUEST, PCMC_TAGGED_REQUEST structure pointer [Security], _crypto2_cmc_tagged_request, security.cmc_tagged_request, wincrypt/CMC_TAGGED_REQUEST, wincrypt/PCMC_TAGGED_REQUEST"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMC_TAGGED_REQUEST"]
+f1_keywords: 
+ - "wincrypt/CMC_TAGGED_REQUEST"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition2.IsDurationKnown, IUIAnimationTransition2::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_isdurationknown, uianimation/IUIAnimationTransition2::IsDurationKnown
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransition2.IsDurationKnown"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransition2.IsDurationKnown"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetOutputPixelFormat method, IMILBitmapEffectRenderContext.SetOutputPixelFormat, IMILBitmapEffectRenderContext::SetOutputPixelFormat, SetOutputPixelFormat, SetOutputPixelFormat method [WPF Bitmap Effects], SetOutputPixelFormat method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setoutputpixelformat, mileffects/IMILBitmapEffectRenderContext::SetOutputPixelFormat, wibe._wibe_imilbitmapeffectrendercontext_setoutputpixelformat
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectRenderContext.SetOutputPixelFormat"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectRenderContext.SetOutputPixelFormat"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

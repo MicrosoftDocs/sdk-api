@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaceRectInfo, FaceRectInfo structure [Streaming Media Devices], mfapi/FaceRectInfo, stream.facerectinfo
 ms.topic: struct
-f1_keywords: ["mfapi/FaceRectInfo"]
+f1_keywords: 
+ - "mfapi/FaceRectInfo"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

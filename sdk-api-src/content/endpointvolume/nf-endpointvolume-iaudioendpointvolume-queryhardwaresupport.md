@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.QueryHardwareSupport"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.QueryHardwareSupport"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.topic: method
-f1_keywords: ["upnp/IUPnPAsyncResult.AsyncOperationComplete"]
+f1_keywords: 
+ - "upnp/IUPnPAsyncResult.AsyncOperationComplete"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

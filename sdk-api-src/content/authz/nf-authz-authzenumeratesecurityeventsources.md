@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
 ms.topic: function
-f1_keywords: ["authz/AuthzEnumerateSecurityEventSources"]
+f1_keywords: 
+ - "authz/AuthzEnumerateSecurityEventSources"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

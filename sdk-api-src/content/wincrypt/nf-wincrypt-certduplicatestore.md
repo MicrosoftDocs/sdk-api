@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertDuplicateStore"]
+f1_keywords: 
+ - "wincrypt/CertDuplicateStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

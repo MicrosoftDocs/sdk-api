@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
 ms.topic: function
-f1_keywords: ["rpcasync/RpcBindingBind"]
+f1_keywords: 
+ - "rpcasync/RpcBindingBind"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

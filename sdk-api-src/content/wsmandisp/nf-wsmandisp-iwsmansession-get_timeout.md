@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Timeout property, IWSManSession.Timeout, IWSManSession.get_Timeout, IWSManSession::Timeout, IWSManSession::get_Timeout, IWSManSession::put_Timeout, Timeout property [Windows Remote Management], Timeout property [Windows Remote Management],IWSManSession interface, get_Timeout, winrm.iwsmansession_timeout, wsmandisp/IWSManSession::Timeout, wsmandisp/IWSManSession::get_Timeout, wsmandisp/IWSManSession::put_Timeout
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManSession.Timeout"]
+f1_keywords: 
+ - "wsmandisp/IWSManSession.Timeout"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

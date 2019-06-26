@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern.get_CachedDateTime, IUIAutomationAnnotationPattern::CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationAnnotationPattern.CachedDateTime"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationAnnotationPattern.CachedDateTime"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

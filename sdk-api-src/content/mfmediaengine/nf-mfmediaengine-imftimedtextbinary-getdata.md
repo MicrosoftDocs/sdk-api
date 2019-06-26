@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextBinary interface, IMFTimedTextBinary interface [Media Foundation],GetData method, IMFTimedTextBinary.GetData, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextBinary.GetData"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextBinary.GetData"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

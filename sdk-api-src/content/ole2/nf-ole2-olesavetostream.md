@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
 ms.topic: function
-f1_keywords: ["ole2/OleSaveToStream"]
+f1_keywords: 
+ - "ole2/OleSaveToStream"
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows

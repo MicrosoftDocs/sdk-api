@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Reset method, IEnumPublishedApps.Reset, IEnumPublishedApps::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Reset, shappmgr/IEnumPublishedApps::Reset, shell.IEnumPublishedApps_Reset
 ms.topic: method
-f1_keywords: ["shappmgr/IEnumPublishedApps.Reset"]
+f1_keywords: 
+ - "shappmgr/IEnumPublishedApps.Reset"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

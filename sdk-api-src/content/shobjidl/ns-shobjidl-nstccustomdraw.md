@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.topic: struct
-f1_keywords: ["shobjidl/NSTCCUSTOMDRAW"]
+f1_keywords: 
+ - "shobjidl/NSTCCUSTOMDRAW"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],ClientApplicationID property, IUpdateInstaller.ClientApplicationID, IUpdateInstaller.put_ClientApplicationID, IUpdateInstaller::ClientApplicationID, IUpdateInstaller::get_ClientApplicationID, IUpdateInstaller::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateinstaller_clientapplicationid, wuapi/IUpdateInstaller::ClientApplicationID, wuapi/IUpdateInstaller::get_ClientApplicationID, wuapi/IUpdateInstaller::put_ClientApplicationID
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.ClientApplicationID"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.ClientApplicationID"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

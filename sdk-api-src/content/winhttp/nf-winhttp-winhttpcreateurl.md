@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpCreateUrl"]
+f1_keywords: 
+ - "winhttp/WinHttpCreateUrl"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

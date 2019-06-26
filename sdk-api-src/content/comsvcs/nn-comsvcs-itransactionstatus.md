@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
 ms.topic: interface
-f1_keywords: ["comsvcs/ITransactionStatus"]
+f1_keywords: 
+ - "comsvcs/ITransactionStatus"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

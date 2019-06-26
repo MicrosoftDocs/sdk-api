@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, IMFPluginControl.SetDisabled, IMFPluginControl::SetDisabled, SetDisabled, SetDisabled method [Media Foundation], SetDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setdisabled, mfobjects/IMFPluginControl::SetDisabled
 ms.topic: method
-f1_keywords: ["mfobjects/IMFPluginControl.SetDisabled"]
+f1_keywords: 
+ - "mfobjects/IMFPluginControl.SetDisabled"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

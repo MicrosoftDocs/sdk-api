@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetQuota method, GetQuota, GetQuota method [File Server Resource Manager], GetQuota method [File Server Resource Manager],FsrmQuotaManager class, GetQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManager.GetQuota, IFsrmQuotaManager::GetQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManagerEx::GetQuota, fs.ifsrmquotamanager_getquota, fsrm.ifsrmquotamanager_getquota, fsrmquota/IFsrmQuotaManager::GetQuota, fsrmquota/IFsrmQuotaManagerEx::GetQuota
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaManager.GetQuota"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaManager.GetQuota"
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

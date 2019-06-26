@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capControlCallback, capControlCallback, capControlCallback callback, capControlCallback callback function [Windows Multimedia], multimedia.capcontrolcallback, vfw/capControlCallback"
 ms.topic: callback
-f1_keywords: ["vfw/capControlCallback"]
+f1_keywords: 
+ - "vfw/capControlCallback"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

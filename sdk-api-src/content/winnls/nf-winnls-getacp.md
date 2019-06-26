@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetACP, GetACP function [Internationalization for Windows Applications], _win32_GetACP, intl.getacp, winnls/GetACP
 ms.topic: function
-f1_keywords: ["winnls/GetACP"]
+f1_keywords: 
+ - "winnls/GetACP"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

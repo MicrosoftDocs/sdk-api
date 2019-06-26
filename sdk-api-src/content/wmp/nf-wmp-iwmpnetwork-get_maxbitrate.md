@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBitRate method, IWMPNetwork.get_maxBitRate, IWMPNetwork::get_maxBitRate, IWMPNetworkget_maxBitRate, get_maxBitRate, get_maxBitRate method [Windows Media Player], get_maxBitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbitrate, wmp/IWMPNetwork::get_maxBitRate
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.get_maxBitRate"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.get_maxBitRate"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

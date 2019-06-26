@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],Leave method, ID3D11Multithread.Leave, ID3D11Multithread::Leave, Leave, Leave method [Direct3D 11], Leave method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::Leave, direct3d11.id3d11multithread_leave
 ms.topic: method
-f1_keywords: ["d3d11_4/ID3D11Multithread.Leave"]
+f1_keywords: 
+ - "d3d11_4/ID3D11Multithread.Leave"
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

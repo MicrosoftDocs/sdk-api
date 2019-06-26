@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Next method, IEnumNetworks.Next, IEnumNetworks::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Next, nla.ienumnetworks_next
 ms.topic: method
-f1_keywords: ["netlistmgr/IEnumNetworks.Next"]
+f1_keywords: 
+ - "netlistmgr/IEnumNetworks.Next"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

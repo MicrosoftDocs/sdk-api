@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExitLoop, ExitLoop method [XAudio2 Audio Mixing APIs], ExitLoop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],ExitLoop method, IXAudio2SourceVoice.ExitLoop, IXAudio2SourceVoice::ExitLoop, xaudio2.ixaudio2sourcevoice_interface_exitloop, xaudio2/IXAudio2SourceVoice::ExitLoop
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2SourceVoice.ExitLoop"]
+f1_keywords: 
+ - "xaudio2/IXAudio2SourceVoice.ExitLoop"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

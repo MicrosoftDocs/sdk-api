@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedNotSupportedValue property, IUIAutomation.ReservedNotSupportedValue, IUIAutomation.get_ReservedNotSupportedValue, IUIAutomation::ReservedNotSupportedValue, IUIAutomation::get_ReservedNotSupportedValue, ReservedNotSupportedValue property [Windows Accessibility], ReservedNotSupportedValue property [Windows Accessibility],IUIAutomation interface, get_ReservedNotSupportedValue, uiauto.uiauto_IUIAutomation_ReservedNotSupportedValue, uiauto_IUIAutomation_ReservedNotSupportedValue, uiautomationclient/IUIAutomation::ReservedNotSupportedValue, uiautomationclient/IUIAutomation::get_ReservedNotSupportedValue, winauto.uiauto_IUIAutomation_ReservedNotSupportedValue
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.ReservedNotSupportedValue"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.ReservedNotSupportedValue"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

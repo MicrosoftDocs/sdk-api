@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHARE_INFO_501, *PSHARE_INFO_501, LPSHARE_INFO_501, LPSHARE_INFO_501 structure pointer [Files], PSHARE_INFO_501, PSHARE_INFO_501 structure pointer [Files], SHARE_INFO_501, SHARE_INFO_501 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_501_str, fs.share_info_501_str, lmshare/LPSHARE_INFO_501, lmshare/PSHARE_INFO_501, lmshare/SHARE_INFO_501, netmgmt.share_info_501_str"
 ms.topic: struct
-f1_keywords: ["lmshare/SHARE_INFO_501"]
+f1_keywords: 
+ - "lmshare/SHARE_INFO_501"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

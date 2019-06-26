@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
 ms.topic: macro
-f1_keywords: ["propkeydef/DEFINE_PROPERTYKEY"]
+f1_keywords: 
+ - "propkeydef/DEFINE_PROPERTYKEY"
 req.header: propkeydef.h
 req.include-header: 
 req.target-type: Windows

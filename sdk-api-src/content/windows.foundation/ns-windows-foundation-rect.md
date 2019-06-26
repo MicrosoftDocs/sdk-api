@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect structure [Windows Runtime], windows/Rect, winrt.rect
 ms.topic: struct
-f1_keywords: ["windows.foundation/Rect"]
+f1_keywords: 
+ - "windows.foundation/Rect"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

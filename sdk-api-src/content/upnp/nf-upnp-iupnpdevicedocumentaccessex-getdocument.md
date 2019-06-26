@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPDeviceDocumentAccessEx interface, IUPnPDeviceDocumentAccessEx interface [UPnP APIs],GetDocument method, IUPnPDeviceDocumentAccessEx.GetDocument, IUPnPDeviceDocumentAccessEx::GetDocument, upnp.iupnpdevicedocumentex_getdocument, upnp/IUPnPDeviceDocumentAccessEx::GetDocument
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceDocumentAccessEx.GetDocument"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceDocumentAccessEx.GetDocument"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

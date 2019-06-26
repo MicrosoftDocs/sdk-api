@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],Next method, IWbemContext.Next, IWbemContext::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemContext.Next"]
+f1_keywords: 
+ - "wbemcli/IWbemContext.Next"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

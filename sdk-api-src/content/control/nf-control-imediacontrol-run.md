@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Run method, IMediaControl.Run, IMediaControl::Run, IMediaControlRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaControl interface, control/IMediaControl::Run, dshow.imediacontrol_run
 ms.topic: method
-f1_keywords: ["control/IMediaControl.Run"]
+f1_keywords: 
+ - "control/IMediaControl.Run"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

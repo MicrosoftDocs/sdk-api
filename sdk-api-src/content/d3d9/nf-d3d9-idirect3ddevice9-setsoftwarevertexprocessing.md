@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetSoftwareVertexProcessing method, IDirect3DDevice9.SetSoftwareVertexProcessing, IDirect3DDevice9::SetSoftwareVertexProcessing, SetSoftwareVertexProcessing, SetSoftwareVertexProcessing method [Direct3D 9], SetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__setsoftwarevertexprocessing, f140124d-0bf1-92be-8e64-ee7d8f661302
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.SetSoftwareVertexProcessing"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.SetSoftwareVertexProcessing"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

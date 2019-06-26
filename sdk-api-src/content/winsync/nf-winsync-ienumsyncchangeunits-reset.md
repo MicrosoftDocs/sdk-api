@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
 ms.topic: method
-f1_keywords: ["winsync/IEnumSyncChangeUnits.Reset"]
+f1_keywords: 
+ - "winsync/IEnumSyncChangeUnits.Reset"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

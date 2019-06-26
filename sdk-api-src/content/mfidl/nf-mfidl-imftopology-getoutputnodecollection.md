@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
 ms.topic: method
-f1_keywords: ["mfidl/IMFTopology.GetOutputNodeCollection"]
+f1_keywords: 
+ - "mfidl/IMFTopology.GetOutputNodeCollection"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

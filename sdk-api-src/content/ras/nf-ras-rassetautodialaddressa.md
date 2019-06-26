@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
 ms.topic: function
-f1_keywords: ["ras/RasSetAutodialAddress"]
+f1_keywords: 
+ - "ras/RasSetAutodialAddress"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_MaxCount method, ITuningSpaceContainer.put_MaxCount, ITuningSpaceContainer::put_MaxCount, ITuningSpaceContainerput_MaxCount, mstv.ituningspacecontainer_put_maxcount, put_MaxCount, put_MaxCount method [Microsoft TV Technologies], put_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_MaxCount
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaceContainer.put_MaxCount"]
+f1_keywords: 
+ - "tuner/ITuningSpaceContainer.put_MaxCount"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_DESCRIPTOR_HANDLE, D3D12_GPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_GPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_gpu_descriptor_handle
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_GPU_DESCRIPTOR_HANDLE"]
+f1_keywords: 
+ - "d3d12/D3D12_GPU_DESCRIPTOR_HANDLE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

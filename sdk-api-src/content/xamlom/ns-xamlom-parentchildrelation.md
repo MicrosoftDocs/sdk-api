@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PParentChildRelation, PParentChildRelation structure pointer, ParentChildRelation, ParentChildRelation structure, xaml_diagnostics.parentchildrelation, xamlom/PParentChildRelation, xamlom/ParentChildRelation
 ms.topic: struct
-f1_keywords: ["xamlom/ParentChildRelation"]
+f1_keywords: 
+ - "xamlom/ParentChildRelation"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

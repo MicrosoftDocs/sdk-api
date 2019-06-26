@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommentStreamA, CommentStreamW, ExceptionStream, FunctionTableStream, HandleDataStream, HandleOperationListStream, LastReservedStream, MINIDUMP_STREAM_TYPE, MINIDUMP_STREAM_TYPE enumeration, Memory64ListStream, MemoryInfoListStream, MemoryListStream, MiscInfoStream, ModuleListStream, ReservedStream0, ReservedStream1, SystemInfoStream, ThreadExListStream, ThreadInfoListStream, ThreadListStream, UnloadedModuleListStream, UnusedStream, _win32_minidump_stream_type, base.minidump_stream_type, minidumpapiset/CommentStreamA, minidumpapiset/CommentStreamW, minidumpapiset/ExceptionStream, minidumpapiset/FunctionTableStream, minidumpapiset/HandleDataStream, minidumpapiset/HandleOperationListStream, minidumpapiset/LastReservedStream, minidumpapiset/MINIDUMP_STREAM_TYPE, minidumpapiset/Memory64ListStream, minidumpapiset/MemoryInfoListStream, minidumpapiset/MemoryListStream, minidumpapiset/MiscInfoStream, minidumpapiset/ModuleListStream, minidumpapiset/ReservedStream0, minidumpapiset/ReservedStream1, minidumpapiset/SystemInfoStream, minidumpapiset/ThreadExListStream, minidumpapiset/ThreadInfoListStream, minidumpapiset/ThreadListStream, minidumpapiset/UnloadedModuleListStream, minidumpapiset/UnusedStream
 ms.topic: enum
-f1_keywords: ["minidumpapiset/MINIDUMP_STREAM_TYPE"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_STREAM_TYPE"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

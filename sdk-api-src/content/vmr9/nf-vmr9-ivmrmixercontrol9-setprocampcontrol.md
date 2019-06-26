@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetProcAmpControl method, IVMRMixerControl9.SetProcAmpControl, IVMRMixerControl9::SetProcAmpControl, IVMRMixerControl9SetProcAmpControl, SetProcAmpControl, SetProcAmpControl method [DirectShow], SetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setprocampcontrol, vmr9/IVMRMixerControl9::SetProcAmpControl
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.SetProcAmpControl"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.SetProcAmpControl"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

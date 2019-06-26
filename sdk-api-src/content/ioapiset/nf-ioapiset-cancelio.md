@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio, fs.cancelio, ioapiset/CancelIo, winbase/CancelIo
 ms.topic: function
-f1_keywords: ["ioapiset/CancelIo"]
+f1_keywords: 
+ - "ioapiset/CancelIo"
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

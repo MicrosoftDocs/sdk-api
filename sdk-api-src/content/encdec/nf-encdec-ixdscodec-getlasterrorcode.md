@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetLastErrorCode method, IXDSCodec.GetLastErrorCode, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
 ms.topic: method
-f1_keywords: ["encdec/IXDSCodec.GetLastErrorCode"]
+f1_keywords: 
+ - "encdec/IXDSCodec.GetLastErrorCode"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

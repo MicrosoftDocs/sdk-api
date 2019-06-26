@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMTranscryptor.Close"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMTranscryptor.Close"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

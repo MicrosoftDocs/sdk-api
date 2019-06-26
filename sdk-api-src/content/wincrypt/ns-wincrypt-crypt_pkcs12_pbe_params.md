@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_PKCS12_PBE_PARAMS, CRYPT_PKCS12_PBE_PARAMS structure [Security], security.crypt_pkcs12_pbe_params, wincrypt/CRYPT_PKCS12_PBE_PARAMS
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_PKCS12_PBE_PARAMS"]
+f1_keywords: 
+ - "wincrypt/CRYPT_PKCS12_PBE_PARAMS"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

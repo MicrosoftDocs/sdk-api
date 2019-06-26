@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddExtensionsToRequest, AddExtensionsToRequest method [Security], AddExtensionsToRequest method [Security],IEnroll interface, IEnroll interface [Security],AddExtensionsToRequest method, IEnroll.AddExtensionsToRequest, IEnroll::AddExtensionsToRequest, security.ienroll4_addextensionstorequest, xenroll/IEnroll::AddExtensionsToRequest
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.AddExtensionsToRequest"]
+f1_keywords: 
+ - "xenroll/IEnroll.AddExtensionsToRequest"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

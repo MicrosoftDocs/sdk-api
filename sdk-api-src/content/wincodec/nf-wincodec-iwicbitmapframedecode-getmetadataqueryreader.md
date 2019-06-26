@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryReader, GetMetadataQueryReader method [Windows Imaging Component], GetMetadataQueryReader method [Windows Imaging Component],IWICBitmapFrameDecode interface, IWICBitmapFrameDecode interface [Windows Imaging Component],GetMetadataQueryReader method, IWICBitmapFrameDecode.GetMetadataQueryReader, IWICBitmapFrameDecode::GetMetadataQueryReader, _wic_codec_iwicbitmapframedecode_getmetadataqueryreader, wic._wic_codec_iwicbitmapframedecode_getmetadataqueryreader, wincodec/IWICBitmapFrameDecode::GetMetadataQueryReader
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameDecode.GetMetadataQueryReader"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameDecode.GetMetadataQueryReader"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

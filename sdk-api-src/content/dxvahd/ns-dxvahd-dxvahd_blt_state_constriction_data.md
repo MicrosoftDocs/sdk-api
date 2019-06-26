@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA, mf.dxvahd_blt_state_constriction_data
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

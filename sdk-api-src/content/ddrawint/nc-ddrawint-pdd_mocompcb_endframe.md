@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompEndFrame, DdMoCompEndFrame callback function [Display Devices], PDD_MOCOMPCB_ENDFRAME, PDD_MOCOMPCB_ENDFRAME callback, ddfncs_24cad2ef-0770-46d5-a3f3-a4565ec66626.xml, ddrawint/DdMoCompEndFrame, display.ddmocompendframe
 ms.topic: callback
-f1_keywords: ["ddrawint/DdMoCompEndFrame"]
+f1_keywords: 
+ - "ddrawint/DdMoCompEndFrame"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

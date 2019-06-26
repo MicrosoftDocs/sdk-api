@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBitmapData, IBitmapData interface, IBitmapData interface,described, xaml_diagnostics.ibitmapdata, xamlom/IBitmapData
 ms.topic: interface
-f1_keywords: ["xamlom/IBitmapData"]
+f1_keywords: 
+ - "xamlom/IBitmapData"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

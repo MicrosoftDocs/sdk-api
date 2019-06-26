@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_cldap_open, cldap_open, cldap_open function [LDAP], cldap_openA, cldap_openW, ldap.cldap__open, ldap.cldap_open, winldap/cldap_open, winldap/cldap_openA, winldap/cldap_openW"
 ms.topic: function
-f1_keywords: ["winldap/cldap_open"]
+f1_keywords: 
+ - "winldap/cldap_open"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

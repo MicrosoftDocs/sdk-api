@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSOCKADDR_IRDA, *PSOCKADDR_IRDA, LPSOCKADDR_IRDA, LPSOCKADDR_IRDA structure pointer [Winsock], PSOCKADDR_IRDA, PSOCKADDR_IRDA structure pointer [Winsock], SOCKADDR_IRDA, SOCKADDR_IRDA structure [Winsock], _win32_sockaddr_irda_2, af_irda/LPSOCKADDR_IRDA, af_irda/PSOCKADDR_IRDA, af_irda/SOCKADDR_IRDA, winsock.sockaddr_irda_2"
 ms.topic: struct
-f1_keywords: ["af_irda/SOCKADDR_IRDA"]
+f1_keywords: 
+ - "af_irda/SOCKADDR_IRDA"
 req.header: af_irda.h
 req.include-header: 
 req.target-type: Windows

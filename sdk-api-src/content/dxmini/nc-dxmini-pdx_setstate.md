@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxSetState, DxSetState callback function [Display Devices], PDX_SETSTATE, PDX_SETSTATE callback, VideoMiniPort_DxApiFunctions_f9872ae5-7be7-4a13-bcb1-01353b3eb793.xml, display.dxsetstate, dxmini/DxSetState
 ms.topic: callback
-f1_keywords: ["dxmini/DxSetState"]
+f1_keywords: 
+ - "dxmini/DxSetState"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

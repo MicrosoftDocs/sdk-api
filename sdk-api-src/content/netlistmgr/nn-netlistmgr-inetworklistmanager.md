@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
 ms.topic: interface
-f1_keywords: ["netlistmgr/INetworkListManager"]
+f1_keywords: 
+ - "netlistmgr/INetworkListManager"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

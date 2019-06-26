@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Roll method, ICameraControl.put_Roll, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll, put_Roll method [DirectShow], put_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Roll
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_Roll"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_Roll"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

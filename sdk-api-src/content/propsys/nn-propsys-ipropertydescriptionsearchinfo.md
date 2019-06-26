@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], IPropertyDescriptionSearchInfo interface [Windows Properties],described, _shell_IPropertyDescriptionSearchInfo, properties.IPropertyDescriptionSearchInfo, propsys/IPropertyDescriptionSearchInfo, shell.IPropertyDescriptionSearchInfo
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyDescriptionSearchInfo"]
+f1_keywords: 
+ - "propsys/IPropertyDescriptionSearchInfo"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

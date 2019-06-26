@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],TestDevice method, IMFDXGIDeviceManager.TestDevice, IMFDXGIDeviceManager::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
 ms.topic: method
-f1_keywords: ["mfobjects/IMFDXGIDeviceManager.TestDevice"]
+f1_keywords: 
+ - "mfobjects/IMFDXGIDeviceManager.TestDevice"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

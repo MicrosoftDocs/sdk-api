@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],RepaintVideo method, IVMRWindowlessControl.RepaintVideo, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
 ms.topic: method
-f1_keywords: ["strmif/IVMRWindowlessControl.RepaintVideo"]
+f1_keywords: 
+ - "strmif/IVMRWindowlessControl.RepaintVideo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

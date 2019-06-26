@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_CANCEL_FLAGS, CF_CALLBACK_CANCEL_FLAGS enumeration, CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, CF_CALLBACK_CANCEL_FLAG_NONE, cfapi/CF_CALLBACK_CANCEL_FLAGS, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, cfapi/CF_CALLBACK_CANCEL_FLAG_NONE, cloudApi.cf_callback_cancel_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_CALLBACK_CANCEL_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_CALLBACK_CANCEL_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

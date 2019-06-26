@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanEject, MCIWndCanEject macro [Windows Multimedia], _win32_MCIWndCanEject, multimedia.mciwndcaneject, vfw/MCIWndCanEject
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndCanEject"]
+f1_keywords: 
+ - "vfw/MCIWndCanEject"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

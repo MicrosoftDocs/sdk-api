@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClassName, GetClassName method [Windows Management Instrumentation], GetClassName method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetClassName method, IWbemPath.GetClassName, IWbemPath::GetClassName, _hmm_iwbempath_getclassname, wmi.iwbempath_getclassname, wmiutils/IWbemPath::GetClassName
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.GetClassName"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.GetClassName"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

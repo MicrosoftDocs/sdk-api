@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedBitrateMeasurement method, IActiveBasicDevice.SetCachedBitrateMeasurement, IActiveBasicDevice.streaming, IActiveBasicDevice::SetCachedBitrateMeasurement, IActiveBasicDevice::streaming, SetCachedBitrateMeasurement, SetCachedBitrateMeasurement method [Media Streaming API], SetCachedBitrateMeasurement method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_setcachedbitratemeasurement, windows/IActiveBasicDevice::SetCachedBitrateMeasurement
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IActiveBasicDevice.SetCachedBitrateMeasurement"]
+f1_keywords: 
+ - "windows.media.streaming/IActiveBasicDevice.SetCachedBitrateMeasurement"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

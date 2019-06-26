@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule2, INetFwRule2 interface [ICS/ICF], INetFwRule2 interface [ICS/ICF],described, ics.inetfwrule2, netfw/INetFwRule2
 ms.topic: interface
-f1_keywords: ["netfw/INetFwRule2"]
+f1_keywords: 
+ - "netfw/INetFwRule2"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
 ms.topic: method
-f1_keywords: ["pla/IScheduleCollection.Clear"]
+f1_keywords: 
+ - "pla/IScheduleCollection.Clear"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

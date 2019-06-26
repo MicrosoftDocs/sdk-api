@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory, wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
 ms.topic: method
-f1_keywords: ["wbemglue/CWbemGlueFactory.CWbemGlueFactory"]
+f1_keywords: 
+ - "wbemglue/CWbemGlueFactory.CWbemGlueFactory"
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], IWorkspace3 interface [Remote Desktop Services],described, termserv.iworkspace3, workspaceruntime/IWorkspace3
 ms.topic: interface
-f1_keywords: ["workspaceruntime/IWorkspace3"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspace3"
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

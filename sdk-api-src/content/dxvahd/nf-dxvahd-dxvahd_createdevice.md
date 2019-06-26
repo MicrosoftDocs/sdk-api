@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
 ms.topic: function
-f1_keywords: ["dxvahd/DXVAHD_CreateDevice"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_CreateDevice"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

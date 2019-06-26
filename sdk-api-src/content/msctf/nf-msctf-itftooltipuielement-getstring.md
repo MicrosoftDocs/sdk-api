@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfToolTipUIElement interface, ITfToolTipUIElement interface [Text Services Framework],GetString method, ITfToolTipUIElement.GetString, ITfToolTipUIElement::GetString, msctf/ITfToolTipUIElement::GetString, tsf.itftooltipuielement_getstring
 ms.topic: method
-f1_keywords: ["msctf/ITfToolTipUIElement.GetString"]
+f1_keywords: 
+ - "msctf/ITfToolTipUIElement.GetString"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

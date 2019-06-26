@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
 ms.topic: function
-f1_keywords: ["wsdattachment/WSDCreateOutboundAttachment"]
+f1_keywords: 
+ - "wsdattachment/WSDCreateOutboundAttachment"
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsThemeActive, IsThemeActive function [Windows Controls], controls.IsThemeActive, controls.inet_IsThemeActive, inet_IsThemeActive, inet_IsThemeActive_cpp, uxtheme/IsThemeActive
 ms.topic: function
-f1_keywords: ["uxtheme/IsThemeActive"]
+f1_keywords: 
+ - "uxtheme/IsThemeActive"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

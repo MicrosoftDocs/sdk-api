@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],AddElement method, IMFMediaEngineSrcElements.AddElement, IMFMediaEngineSrcElements::AddElement, mf.imfmediaenginesrcelements_addelement, mfmediaengine/IMFMediaEngineSrcElements::AddElement
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineSrcElements.AddElement"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineSrcElements.AddElement"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

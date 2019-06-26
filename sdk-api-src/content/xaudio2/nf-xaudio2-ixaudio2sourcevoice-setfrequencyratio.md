@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetFrequencyRatio method, IXAudio2SourceVoice.SetFrequencyRatio, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2SourceVoice.SetFrequencyRatio"]
+f1_keywords: 
+ - "xaudio2/IXAudio2SourceVoice.SetFrequencyRatio"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

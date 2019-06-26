@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMPClientApp, IMFPMPClientApp interface [Media Foundation], IMFPMPClientApp interface [Media Foundation],described, mf.imfpmpclientapp, mfidl/IMFPMPClientApp
 ms.topic: interface
-f1_keywords: ["mfidl/IMFPMPClientApp"]
+f1_keywords: 
+ - "mfidl/IMFPMPClientApp"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

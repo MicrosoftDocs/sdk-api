@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertVectorIntToFloat, XMConvertVectorIntToFloat, XMConvertVectorIntToFloat method [DirectX Math Support APIs], dxmath.xmconvertvectorinttofloat
 ms.topic: function
-f1_keywords: ["directxmath/XMConvertVectorIntToFloat"]
+f1_keywords: 
+ - "directxmath/XMConvertVectorIntToFloat"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

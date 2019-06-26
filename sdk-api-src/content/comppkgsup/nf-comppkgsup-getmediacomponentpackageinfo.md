@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function [Windows API], comppkgsup/GetMediaComponentPackageInfo, winprog.getmediacomponentpackageinfo
 ms.topic: function
-f1_keywords: ["comppkgsup/GetMediaComponentPackageInfo"]
+f1_keywords: 
+ - "comppkgsup/GetMediaComponentPackageInfo"
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrowseTo, BrowseTo method [Active Directory], BrowseTo method [Active Directory],IDsBrowseDomainTree interface, DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, IDsBrowseDomainTree interface [Active Directory],BrowseTo method, IDsBrowseDomainTree.BrowseTo, IDsBrowseDomainTree::BrowseTo, _glines_idsbrowsedomaintree_browseto, ad.idsbrowsedomaintree__browseto, ad.idsbrowsedomaintree_browseto, dsclient/IDsBrowseDomainTree::BrowseTo
 ms.topic: method
-f1_keywords: ["dsclient/IDsBrowseDomainTree.BrowseTo"]
+f1_keywords: 
+ - "dsclient/IDsBrowseDomainTree.BrowseTo"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

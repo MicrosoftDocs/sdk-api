@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.GetStringProperty"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.GetStringProperty"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

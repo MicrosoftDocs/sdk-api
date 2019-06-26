@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.topic: method
-f1_keywords: ["vds/IVdsLun.SetMask"]
+f1_keywords: 
+ - "vds/IVdsLun.SetMask"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

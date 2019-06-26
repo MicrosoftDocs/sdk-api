@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cluster], _wolf_clusctl_get_access_mode, clusapi/CLUSCTL_GET_ACCESS_MODE, mscs.clusctl_get_access_mode
 ms.topic: macro
-f1_keywords: ["clusapi/CLUSCTL_GET_ACCESS_MODE"]
+f1_keywords: 
+ - "clusapi/CLUSCTL_GET_ACCESS_MODE"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

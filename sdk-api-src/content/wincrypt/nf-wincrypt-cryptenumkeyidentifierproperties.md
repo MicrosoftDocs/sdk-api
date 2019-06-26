@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptEnumKeyIdentifierProperties, CryptEnumKeyIdentifierProperties function [Security], _crypto2_cryptenumkeyidentifierproperties, security.cryptenumkeyidentifierproperties, wincrypt/CryptEnumKeyIdentifierProperties
 ms.topic: function
-f1_keywords: ["wincrypt/CryptEnumKeyIdentifierProperties"]
+f1_keywords: 
+ - "wincrypt/CryptEnumKeyIdentifierProperties"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPPTP_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, PPPTP_CONFIG_PARAMS, PPPTP_CONFIG_PARAMS structure pointer [RAS], PPTP_CONFIG_PARAMS, PPTP_CONFIG_PARAMS structure [RAS], mprapi/PPPTP_CONFIG_PARAMS, mprapi/PPTP_CONFIG_PARAMS, rras.pptp_config_params"
 ms.topic: struct
-f1_keywords: ["mprapi/PPTP_CONFIG_PARAMS"]
+f1_keywords: 
+ - "mprapi/PPTP_CONFIG_PARAMS"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

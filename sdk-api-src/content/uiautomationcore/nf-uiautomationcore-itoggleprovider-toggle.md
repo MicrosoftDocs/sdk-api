@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider interface [Windows Accessibility],Toggle method, IToggleProvider.Toggle, IToggleProvider::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IToggleProvider interface, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
 ms.topic: method
-f1_keywords: ["uiautomationcore/IToggleProvider.Toggle"]
+f1_keywords: 
+ - "uiautomationcore/IToggleProvider.Toggle"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetClipOverflow method, IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextRegion.GetClipOverflow"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextRegion.GetClipOverflow"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

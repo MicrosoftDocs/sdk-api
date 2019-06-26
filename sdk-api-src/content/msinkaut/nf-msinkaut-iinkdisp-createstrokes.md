@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 21e68151-38c9-414f-840c-c2687a05aea4, CreateStrokes, CreateStrokes method [Tablet PC], CreateStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStrokes method, IInkDisp.CreateStrokes, IInkDisp::CreateStrokes, msinkaut/IInkDisp::CreateStrokes, tablet.inkdisp_createstrokes
 ms.topic: method
-f1_keywords: ["msinkaut/IInkDisp.CreateStrokes"]
+f1_keywords: 
+ - "msinkaut/IInkDisp.CreateStrokes"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

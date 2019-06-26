@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], INameSpaceTreeControlEvents interface [Windows Shell],described, _shell_INameSpaceTreeControlEvents, shell.INameSpaceTreeControlEvents, shobjidl/INameSpaceTreeControlEvents
 ms.topic: interface
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

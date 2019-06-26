@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IPin interface, IPin interface [DirectShow],EndFlush method, IPin.EndFlush, IPin::EndFlush, IPinEndFlush, dshow.ipin_endflush, strmif/IPin::EndFlush
 ms.topic: method
-f1_keywords: ["strmif/IPin.EndFlush"]
+f1_keywords: 
+ - "strmif/IPin.EndFlush"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

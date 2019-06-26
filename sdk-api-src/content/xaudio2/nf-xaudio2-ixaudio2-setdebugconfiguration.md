@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],SetDebugConfiguration method, IXAudio2.SetDebugConfiguration, IXAudio2::SetDebugConfiguration, SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2.SetDebugConfiguration"]
+f1_keywords: 
+ - "xaudio2/IXAudio2.SetDebugConfiguration"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

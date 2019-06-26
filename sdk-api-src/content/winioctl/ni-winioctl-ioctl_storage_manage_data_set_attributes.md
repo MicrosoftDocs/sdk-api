@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code, base.ioctl_storage_manage_data_set_attributes, winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

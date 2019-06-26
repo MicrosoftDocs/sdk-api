@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_REPLY_PROGRESS, BG_JOB_REPLY_PROGRESS structure [BITS], _drz_bg_job_reply_progress, bits.bg_job_reply_progress, bits1_5/BG_JOB_REPLY_PROGRESS
 ms.topic: struct
-f1_keywords: ["bits1_5/BG_JOB_REPLY_PROGRESS"]
+f1_keywords: 
+ - "bits1_5/BG_JOB_REPLY_PROGRESS"
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

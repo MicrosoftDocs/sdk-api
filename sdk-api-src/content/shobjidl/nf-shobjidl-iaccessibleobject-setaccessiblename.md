@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject interface [Windows Shell],SetAccessibleName method, IAccessibleObject.SetAccessibleName, IAccessibleObject::SetAccessibleName, SetAccessibleName, SetAccessibleName method [Windows Shell], SetAccessibleName method [Windows Shell],IAccessibleObject interface, _shell_IAccessibleObject_SetAccessibleName, shell.IAccessibleObject_SetAccessibleName, shobjidl/IAccessibleObject::SetAccessibleName
 ms.topic: method
-f1_keywords: ["shobjidl/IAccessibleObject.SetAccessibleName"]
+f1_keywords: 
+ - "shobjidl/IAccessibleObject.SetAccessibleName"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

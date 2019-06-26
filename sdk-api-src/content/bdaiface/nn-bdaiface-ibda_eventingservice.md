@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_EventingService"]
+f1_keywords: 
+ - "bdaiface/IBDA_EventingService"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

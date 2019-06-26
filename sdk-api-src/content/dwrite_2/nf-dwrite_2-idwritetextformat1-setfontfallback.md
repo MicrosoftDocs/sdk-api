@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetFontFallback method, IDWriteTextFormat1.SetFontFallback, IDWriteTextFormat1::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setfontfallback, dwrite_2/IDWriteTextFormat1::SetFontFallback
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteTextFormat1.SetFontFallback"]
+f1_keywords: 
+ - "dwrite_2/IDWriteTextFormat1.SetFontFallback"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

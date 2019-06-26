@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerBitmap.SetAlphaBitmap"]
+f1_keywords: 
+ - "strmif/IVMRMixerBitmap.SetAlphaBitmap"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

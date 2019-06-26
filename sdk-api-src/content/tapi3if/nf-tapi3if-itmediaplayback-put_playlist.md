@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],put_PlayList method, ITMediaPlayback.put_PlayList, ITMediaPlayback::put_PlayList, _tapi3_itmediaplayback_put_playlist, put_PlayList, put_PlayList method [TAPI 2.2], put_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_put_playlist, tapi3if/ITMediaPlayback::put_PlayList
 ms.topic: method
-f1_keywords: ["tapi3if/ITMediaPlayback.put_PlayList"]
+f1_keywords: 
+ - "tapi3if/ITMediaPlayback.put_PlayList"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

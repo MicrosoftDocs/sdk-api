@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure [Windows Media Player], WMP_WMDM_PC2DEVICE, wmp.wmp_wmdm_metadata_round_trip_pc2device, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 ms.topic: struct
-f1_keywords: ["wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE"]
+f1_keywords: 
+ - "wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE"
 req.header: wmpdevices.h
 req.include-header: 
 req.target-type: Windows

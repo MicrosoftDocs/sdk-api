@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PreUnInstall method, ICertSrvSetup.PreUnInstall, ICertSrvSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PreUnInstall, security.icertsrvsetup_preuninstall
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.PreUnInstall"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.PreUnInstall"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Rotate method, IUIAutomationTransformPattern.Rotate, IUIAutomationTransformPattern::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Rotate, uiauto_IUIAutomationTransformPattern_Rotate, uiautomationclient/IUIAutomationTransformPattern::Rotate, winauto.uiauto_IUIAutomationTransformPattern_Rotate
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.Rotate"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.Rotate"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream
 ms.topic: function
-f1_keywords: ["mfobjects/MFDeserializeAttributesFromStream"]
+f1_keywords: 
+ - "mfobjects/MFDeserializeAttributesFromStream"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink2.IsClosed"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink2.IsClosed"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

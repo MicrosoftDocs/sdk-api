@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
 ms.topic: struct
-f1_keywords: ["mmeapi/MIDIEVENT"]
+f1_keywords: 
+ - "mmeapi/MIDIEVENT"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

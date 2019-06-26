@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.topic: function
-f1_keywords: ["comsvcs/CoEnterServiceDomain"]
+f1_keywords: 
+ - "comsvcs/CoEnterServiceDomain"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.Pause"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.Pause"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

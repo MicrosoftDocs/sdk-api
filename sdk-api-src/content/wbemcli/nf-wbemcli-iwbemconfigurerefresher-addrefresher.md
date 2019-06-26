@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRefresher, AddRefresher method [Windows Management Instrumentation], AddRefresher method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddRefresher method, IWbemConfigureRefresher.AddRefresher, IWbemConfigureRefresher::AddRefresher, _hmm_iwbemconfigurerefresher_addrefresher, wbemcli/IWbemConfigureRefresher::AddRefresher, wmi.iwbemconfigurerefresher_addrefresher
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemConfigureRefresher.AddRefresher"]
+f1_keywords: 
+ - "wbemcli/IWbemConfigureRefresher.AddRefresher"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

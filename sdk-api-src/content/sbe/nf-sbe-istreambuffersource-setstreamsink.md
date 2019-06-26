@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSource interface [Microsoft TV Technologies],SetStreamSink method, IStreamBufferSource.SetStreamSink, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies],IStreamBufferSource interface, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferSource.SetStreamSink"]
+f1_keywords: 
+ - "sbe/IStreamBufferSource.SetStreamSink"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

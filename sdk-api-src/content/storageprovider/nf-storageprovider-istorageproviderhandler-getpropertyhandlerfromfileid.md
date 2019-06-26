@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [Windows Shell], GetPropertyHandlerFromFileId method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromFileId method, IStorageProviderHandler.GetPropertyHandlerFromFileId, IStorageProviderHandler::GetPropertyHandlerFromFileId, shell.istorageproviderhandler_getpropertyhandlerfromfileid, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromFileId
 ms.topic: method
-f1_keywords: ["storageprovider/IStorageProviderHandler.GetPropertyHandlerFromFileId"]
+f1_keywords: 
+ - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromFileId"
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

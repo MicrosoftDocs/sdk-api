@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Equal, XMVector2Equal, XMVector2Equal method [DirectX Math Support APIs], dxmath.xmvector2equal
 ms.topic: function
-f1_keywords: ["directxmath/XMVector2Equal"]
+f1_keywords: 
+ - "directxmath/XMVector2Equal"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

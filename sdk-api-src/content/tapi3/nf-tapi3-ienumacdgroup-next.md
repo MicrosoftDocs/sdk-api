@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Next method, IEnumACDGroup.Next, IEnumACDGroup::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_next, tapi3.ienumacdgroup_next, tapi3cc/IEnumACDGroup::Next
 ms.topic: method
-f1_keywords: ["tapi3/IEnumACDGroup.Next"]
+f1_keywords: 
+ - "tapi3/IEnumACDGroup.Next"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

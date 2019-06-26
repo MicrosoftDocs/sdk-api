@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdviseKeyEventSink, AdviseKeyEventSink method [Text Services Framework], AdviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],AdviseKeyEventSink method, ITfKeystrokeMgr.AdviseKeyEventSink, ITfKeystrokeMgr::AdviseKeyEventSink, _tsf_itfkeystrokemgr_advisekeyeventsink_ref, msctf/ITfKeystrokeMgr::AdviseKeyEventSink, tsf.itfkeystrokemgr_advisekeyeventsink
 ms.topic: method
-f1_keywords: ["msctf/ITfKeystrokeMgr.AdviseKeyEventSink"]
+f1_keywords: 
+ - "msctf/ITfKeystrokeMgr.AdviseKeyEventSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

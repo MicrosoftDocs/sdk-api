@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],RootDevice method, IUPnPDescriptionDocument.RootDevice, IUPnPDescriptionDocument::RootDevice, RootDevice, RootDevice method [UPnP APIs], RootDevice method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_rootdevice, upnp.iupnpdescriptiondocument_rootdevice, upnp/IUPnPDescriptionDocument::RootDevice
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDescriptionDocument.RootDevice"]
+f1_keywords: 
+ - "upnp/IUPnPDescriptionDocument.RootDevice"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

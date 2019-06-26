@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
 ms.topic: interface
-f1_keywords: ["shobjidl/ICommDlgBrowser3"]
+f1_keywords: 
+ - "shobjidl/ICommDlgBrowser3"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

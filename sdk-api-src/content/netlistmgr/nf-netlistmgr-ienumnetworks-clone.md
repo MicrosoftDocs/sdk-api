@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
 ms.topic: method
-f1_keywords: ["netlistmgr/IEnumNetworks.Clone"]
+f1_keywords: 
+ - "netlistmgr/IEnumNetworks.Clone"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

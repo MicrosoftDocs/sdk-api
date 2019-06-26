@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedHeadingLevel property [Windows Accessibility], CachedHeadingLevel property [Windows Accessibility],IUIAutomationElement8 interface, IUIAutomationElement8 interface [Windows Accessibility],CachedHeadingLevel property, IUIAutomationElement8.CachedHeadingLevel, IUIAutomationElement8.get_CachedHeadingLevel, IUIAutomationElement8::CachedHeadingLevel, IUIAutomationElement8::get_CachedHeadingLevel, get_CachedHeadingLevel, uiautomationclient/IUIAutomationElement8::CachedHeadingLevel, uiautomationclient/IUIAutomationElement8::get_CachedHeadingLevel, winauto.uiauto_IUIAutomationElement8_CachedHeadingLevel
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement8.CachedHeadingLevel"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement8.CachedHeadingLevel"
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

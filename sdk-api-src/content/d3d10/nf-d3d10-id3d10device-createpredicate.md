@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2b30a615-97cf-d010-fc84-3802da398aee, CreatePredicate, CreatePredicate method [Direct3D 10], CreatePredicate method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreatePredicate method, ID3D10Device.CreatePredicate, ID3D10Device::CreatePredicate, d3d10/ID3D10Device::CreatePredicate, direct3d10.id3d10device_createpredicate
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CreatePredicate"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CreatePredicate"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

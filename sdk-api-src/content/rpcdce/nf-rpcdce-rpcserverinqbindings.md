@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqBindings, RpcServerInqBindings function [RPC], _rpc_rpcserverinqbindings, rpc.rpcserverinqbindings, rpcdce/RpcServerInqBindings
 ms.topic: function
-f1_keywords: ["rpcdce/RpcServerInqBindings"]
+f1_keywords: 
+ - "rpcdce/RpcServerInqBindings"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

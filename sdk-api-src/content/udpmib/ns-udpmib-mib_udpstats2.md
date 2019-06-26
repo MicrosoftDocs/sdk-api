@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMIB_UDPSTATS2, PMIB_UDPSTATS2 structure pointer [MIB], mib.mib_udpstats2, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS2"
 ms.topic: struct
-f1_keywords: ["udpmib/MIB_UDPSTATS2"]
+f1_keywords: 
+ - "udpmib/MIB_UDPSTATS2"
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], IAppxEncryptedBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter2, appxpkg.iappxencryptedbundlewriter2
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxEncryptedBundleWriter2"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptedBundleWriter2"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

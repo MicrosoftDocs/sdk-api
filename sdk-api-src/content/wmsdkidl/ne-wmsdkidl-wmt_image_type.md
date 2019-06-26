@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_IMAGE_TYPE, WMT_IMAGE_TYPE enumeration [windows Media Format], WMT_IT_BITMAP, WMT_IT_GIF, WMT_IT_JPEG, WMT_IT_NONE, wmformat.wmt_image_type, wmsdkidl/WMT_IMAGE_TYPE, wmsdkidl/WMT_IT_BITMAP, wmsdkidl/WMT_IT_GIF, wmsdkidl/WMT_IT_JPEG, wmsdkidl/WMT_IT_NONE
 ms.topic: enum
-f1_keywords: ["wmsdkidl/WMT_IMAGE_TYPE"]
+f1_keywords: 
+ - "wmsdkidl/WMT_IMAGE_TYPE"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

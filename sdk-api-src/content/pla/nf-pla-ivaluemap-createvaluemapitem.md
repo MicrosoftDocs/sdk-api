@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMapItem method [PLA],IValueMap interface, IValueMap interface [PLA],CreateValueMapItem method, IValueMap.CreateValueMapItem, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
 ms.topic: method
-f1_keywords: ["pla/IValueMap.CreateValueMapItem"]
+f1_keywords: 
+ - "pla/IValueMap.CreateValueMapItem"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

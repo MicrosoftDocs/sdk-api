@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Image class, Image class [GDI+],GetBounds method, Image.GetBounds, Image::GetBounds, _gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_, gdiplus._gdiplus_CLASS_Image_GetBounds_srcRect_srcUnit_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetBounds"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetBounds"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

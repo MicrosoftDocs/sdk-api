@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO structure [Network Management], LPERRLOG_OTHER_INFO, LPERRLOG_OTHER_INFO structure pointer [Network Management], PERRLOG_OTHER_INFO, PERRLOG_OTHER_INFO structure pointer [Network Management], _win32_errlog_other_info_str, lmalert/ERRLOG_OTHER_INFO, lmalert/LPERRLOG_OTHER_INFO, lmalert/PERRLOG_OTHER_INFO, netmgmt.errlog_other_info_str"
 ms.topic: struct
-f1_keywords: ["lmalert/ERRLOG_OTHER_INFO"]
+f1_keywords: 
+ - "lmalert/ERRLOG_OTHER_INFO"
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

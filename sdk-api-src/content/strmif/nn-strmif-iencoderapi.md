@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
 ms.topic: interface
-f1_keywords: ["strmif/IEncoderAPI"]
+f1_keywords: 
+ - "strmif/IEncoderAPI"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsNetAddress, IADsNetAddress interface [ADSI], IADsNetAddress interface [ADSI],described, NetAddress, _ds_iadsnetaddress, adsi.iadsnetaddress, iads/IADsNetAddress
 ms.topic: interface
-f1_keywords: ["iads/IADsNetAddress"]
+f1_keywords: 
+ - "iads/IADsNetAddress"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

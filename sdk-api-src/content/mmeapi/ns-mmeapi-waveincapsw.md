@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEINCAPSW, *NPWAVEINCAPSW, *PWAVEINCAPSW, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSW, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag"
 ms.topic: struct
-f1_keywords: ["mmeapi/WAVEINCAPS"]
+f1_keywords: 
+ - "mmeapi/WAVEINCAPS"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

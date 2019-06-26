@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRITE_THROUGH, WRITE_THROUGH enumeration [Files], WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, fs.write_through, winioctl/WRITE_THROUGH, winioctl/WriteThroughNotSupported, winioctl/WriteThroughSupported, winioctl/WriteThroughUnknown
 ms.topic: enum
-f1_keywords: ["winioctl/WRITE_THROUGH"]
+f1_keywords: 
+ - "winioctl/WRITE_THROUGH"
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

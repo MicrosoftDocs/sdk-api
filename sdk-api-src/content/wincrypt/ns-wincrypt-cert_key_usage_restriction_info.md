@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO structure [Security], PCERT_KEY_USAGE_RESTRICTION_INFO, PCERT_KEY_USAGE_RESTRICTION_INFO structure pointer [Security], _crypto2_cert_key_usage_restriction_info, security.cert_key_usage_restriction_info, wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO, wincrypt/PCERT_KEY_USAGE_RESTRICTION_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

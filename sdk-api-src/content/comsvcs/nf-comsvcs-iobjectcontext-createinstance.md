@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],IObjectContext interface, IObjectContext interface [COM+],CreateInstance method, IObjectContext.CreateInstance, IObjectContext::CreateInstance, _cos_IObjectContext_CreateInstance, comsvcs/IObjectContext::CreateInstance, cos.iobjectcontext_createinstance
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectContext.CreateInstance"]
+f1_keywords: 
+ - "comsvcs/IObjectContext.CreateInstance"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

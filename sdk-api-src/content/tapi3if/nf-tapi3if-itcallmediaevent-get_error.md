@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Error method, ITCallMediaEvent.get_Error, ITCallMediaEvent::get_Error, _tapi3_itcallmediaevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_error, tapi3if/ITCallMediaEvent::get_Error
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallMediaEvent.get_Error"]
+f1_keywords: 
+ - "tapi3if/ITCallMediaEvent.get_Error"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

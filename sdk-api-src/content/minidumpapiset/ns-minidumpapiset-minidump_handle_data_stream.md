@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM structure, PMINIDUMP_HANDLE_DATA_STREAM, PMINIDUMP_HANDLE_DATA_STREAM structure pointer, _MINIDUMP_HANDLE_DATA_STREAM, _win32_minidump_handle_data_stream_str, base.minidump_handle_data_stream_str, minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM, minidumpapiset/PMINIDUMP_HANDLE_DATA_STREAM"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

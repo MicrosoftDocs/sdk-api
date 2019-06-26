@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLunNumber, GetLunNumber method, GetLunNumber method,IVdsLunNumber interface, IVdsLunNumber interface,GetLunNumber method, IVdsLunNumber.GetLunNumber, IVdsLunNumber::GetLunNumber, base.ivdslunnumber_getlunnumber, vds/IVdsLunNumber::GetLunNumber, vdshwprv/IVdsLunNumber::GetLunNumber
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLunNumber.GetLunNumber"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunNumber.GetLunNumber"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnitMode, GetUnitMode method [Direct2D], GetUnitMode method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetUnitMode method, ID2D1DeviceContext.GetUnitMode, ID2D1DeviceContext::GetUnitMode, d2d1_1/ID2D1DeviceContext::GetUnitMode, direct2d.id2d1devicecontext_getunitmode
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.GetUnitMode"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.GetUnitMode"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

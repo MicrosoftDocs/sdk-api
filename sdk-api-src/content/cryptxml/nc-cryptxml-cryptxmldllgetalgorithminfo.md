@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo callback, CryptXmlDllGetAlgorithmInfo callback function [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
 ms.topic: callback
-f1_keywords: ["cryptxml/CryptXmlDllGetAlgorithmInfo"]
+f1_keywords: 
+ - "cryptxml/CryptXmlDllGetAlgorithmInfo"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

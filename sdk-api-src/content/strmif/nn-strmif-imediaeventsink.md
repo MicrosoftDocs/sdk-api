@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow],described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
 ms.topic: interface
-f1_keywords: ["strmif/IMediaEventSink"]
+f1_keywords: 
+ - "strmif/IMediaEventSink"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMute method, IMFPMediaPlayer.GetMute, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetMute"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetMute"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

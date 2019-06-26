@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_NextWritableAddress method, IMultisessionSequential.get_NextWritableAddress, IMultisessionSequential::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_nextwritableaddress, imapi2/IMultisessionSequential::get_NextWritableAddress
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionSequential.get_NextWritableAddress"]
+f1_keywords: 
+ - "imapi2/IMultisessionSequential.get_NextWritableAddress"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

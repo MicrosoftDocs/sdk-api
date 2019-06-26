@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchManager.get_BypassList, ISearchManager::get_BypassList, _search_ISearchManager_get_BypassList, get_BypassList, get_BypassList method [search], get_BypassList method [search],ISearchManager interface, search._search_ISearchManager_get_BypassList, searchapi/ISearchManager::get_BypassList
 ms.topic: method
-f1_keywords: ["searchapi/ISearchManager.get_BypassList"]
+f1_keywords: 
+ - "searchapi/ISearchManager.get_BypassList"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

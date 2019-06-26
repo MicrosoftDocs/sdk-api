@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Ringer method, ITAutomatedPhoneControl.get_Ringer, ITAutomatedPhoneControl::get_Ringer, _tapi3_itautomatedphonecontrol_get_ringer, get_Ringer, get_Ringer method [TAPI 2.2], get_Ringer method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_ringer, tapi3if/ITAutomatedPhoneControl::get_Ringer
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.get_Ringer"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.get_Ringer"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

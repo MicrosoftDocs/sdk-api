@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction.get_RunLimitInterval, IFsrmAction::RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, get_RunLimitInterval
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmAction.RunLimitInterval"]
+f1_keywords: 
+ - "fsrm/IFsrmAction.RunLimitInterval"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

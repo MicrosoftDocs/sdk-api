@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, inet_APPCATEGORYINFO, shell.APPCATEGORYINFO
 ms.topic: struct
-f1_keywords: ["appmgmt/APPCATEGORYINFO"]
+f1_keywords: 
+ - "appmgmt/APPCATEGORYINFO"
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

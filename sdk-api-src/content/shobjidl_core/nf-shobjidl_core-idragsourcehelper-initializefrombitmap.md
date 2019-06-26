@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromBitmap method, IDragSourceHelper.InitializeFromBitmap, IDragSourceHelper::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Shell], InitializeFromBitmap method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromBitmap, shell.IDragSourceHelper_InitializeFromBitmap, shobjidl_core/IDragSourceHelper::InitializeFromBitmap
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDragSourceHelper.InitializeFromBitmap"]
+f1_keywords: 
+ - "shobjidl_core/IDragSourceHelper.InitializeFromBitmap"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

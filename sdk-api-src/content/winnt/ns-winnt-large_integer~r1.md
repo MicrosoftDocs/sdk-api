@@ -4,7 +4,8 @@ title: LARGE_INTEGER
 ms.date: 01/30/19
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
 ms.topic: language-reference
-f1_keywords: ["winnt/_LARGE_INTEGER"]
+f1_keywords: 
+ - "winnt/_LARGE_INTEGER"
 targetos: Windows
 product: Windows
 req.construct-type: structure

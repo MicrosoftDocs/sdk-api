@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
 ms.topic: method
-f1_keywords: ["msopc/IOpcUri.GetRelativeUri"]
+f1_keywords: 
+ - "msopc/IOpcUri.GetRelativeUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

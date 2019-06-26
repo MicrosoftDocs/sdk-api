@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePin, CreatePin method [Microsoft TV Technologies], CreatePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],CreatePin method, IBDA_Topology.CreatePin, IBDA_Topology::CreatePin, IBDA_TopologyCreatePin, bdaiface/IBDA_Topology::CreatePin, mstv.ibda_topology_createpin
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_Topology.CreatePin"]
+f1_keywords: 
+ - "bdaiface/IBDA_Topology.CreatePin"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

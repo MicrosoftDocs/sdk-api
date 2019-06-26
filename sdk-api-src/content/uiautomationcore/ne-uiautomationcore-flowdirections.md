@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlowDirections, FlowDirections enumeration [Windows Accessibility], FlowDirections_BottomToTop, FlowDirections_Default, FlowDirections_RightToLeft, FlowDirections_Vertical, uiauto.uiauto_FlowDirectionsEnum, uiauto_FlowDirectionsEnum, uiautomationcore/FlowDirections, uiautomationcore/FlowDirections_BottomToTop, uiautomationcore/FlowDirections_Default, uiautomationcore/FlowDirections_RightToLeft, uiautomationcore/FlowDirections_Vertical, winauto.uiauto_FlowDirectionsEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/FlowDirections"]
+f1_keywords: 
+ - "uiautomationcore/FlowDirections"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

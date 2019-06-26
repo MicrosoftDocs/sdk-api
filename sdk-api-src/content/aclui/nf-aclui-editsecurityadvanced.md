@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
 ms.topic: function
-f1_keywords: ["aclui/EditSecurityAdvanced"]
+f1_keywords: 
+ - "aclui/EditSecurityAdvanced"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

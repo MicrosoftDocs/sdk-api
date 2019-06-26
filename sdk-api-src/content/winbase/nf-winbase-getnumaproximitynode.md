@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaProximityNode, GetNumaProximityNode function, base.getnumaproximitynode, winbase/GetNumaProximityNode
 ms.topic: function
-f1_keywords: ["winbase/GetNumaProximityNode"]
+f1_keywords: 
+ - "winbase/GetNumaProximityNode"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

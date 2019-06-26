@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc interface [Text Services Framework],Show method, ITfFnConfigureRegisterEudc.Show, ITfFnConfigureRegisterEudc::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterEudc interface, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnConfigureRegisterEudc.Show"]
+f1_keywords: 
+ - "ctffunc/ITfFnConfigureRegisterEudc.Show"
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows

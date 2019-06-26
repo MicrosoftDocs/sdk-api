@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMCHAR, LPNMCHAR, LPNMCHAR structure pointer [Windows Controls], NMCHAR, NMCHAR structure [Windows Controls], _win32_NMCHAR, _win32_NMCHAR_cpp, commctrl/LPNMCHAR, commctrl/NMCHAR, controls.NMCHAR, controls._win32_NMCHAR"
 ms.topic: struct
-f1_keywords: ["commctrl/NMCHAR"]
+f1_keywords: 
+ - "commctrl/NMCHAR"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

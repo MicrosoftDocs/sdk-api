@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_mute method, IWMPSettings.put_mute, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.put_mute"]
+f1_keywords: 
+ - "wmp/IWMPSettings.put_mute"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

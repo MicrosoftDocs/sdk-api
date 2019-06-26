@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CdromMediaChange, CdromMediaChange method [Windows Media Player], CdromMediaChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CdromMediaChange method, IWMPEvents.CdromMediaChange, IWMPEvents::CdromMediaChange, IWMPEventsCdromMediaChange, wmp.iwmpevents_iwmpevents__cdrommediachange, wmp/IWMPEvents::CdromMediaChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.CdromMediaChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.CdromMediaChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

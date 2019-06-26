@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
 ms.topic: function
-f1_keywords: ["wslapi/WslGetDistributionConfiguration"]
+f1_keywords: 
+ - "wslapi/WslGetDistributionConfiguration"
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

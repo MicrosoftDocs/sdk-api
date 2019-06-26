@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
 ms.topic: function
-f1_keywords: ["adshlp/FreeADsMem"]
+f1_keywords: 
+ - "adshlp/FreeADsMem"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

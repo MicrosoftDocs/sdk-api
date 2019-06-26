@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiskSpaceInformation, GetDiskSpaceInformation method [Offline Files], GetDiskSpaceInformation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetDiskSpaceInformation method, IOfflineFilesCache.GetDiskSpaceInformation, IOfflineFilesCache::GetDiskSpaceInformation, cscobj/IOfflineFilesCache::GetDiskSpaceInformation, of.iofflinefilescache_getdiskspaceinformation
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.GetDiskSpaceInformation"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.GetDiskSpaceInformation"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

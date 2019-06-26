@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.topic: method
-f1_keywords: ["objidl/IMoniker.GetDisplayName"]
+f1_keywords: 
+ - "objidl/IMoniker.GetDisplayName"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizerContext.IsStringSupported"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext.IsStringSupported"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

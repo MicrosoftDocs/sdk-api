@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vdssys/DetachVirtualDisk, vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
 ms.topic: function
-f1_keywords: ["virtdisk/DetachVirtualDisk"]
+f1_keywords: 
+ - "virtdisk/DetachVirtualDisk"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

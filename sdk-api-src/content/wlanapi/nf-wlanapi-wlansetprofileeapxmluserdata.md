@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, WlanSetProfileEapXmlUserData function [NativeWIFI], nwifi.wlansetprofileeapxmluserdata, wlanapi/WlanSetProfileEapXmlUserData
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetProfileEapXmlUserData"]
+f1_keywords: 
+ - "wlanapi/WlanSetProfileEapXmlUserData"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

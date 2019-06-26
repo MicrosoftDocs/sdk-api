@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0d091716-fdf1-7aff-5a05-68258dd1f745, ID3D11UnorderedAccessView, ID3D11UnorderedAccessView interface [Direct3D 11], ID3D11UnorderedAccessView interface [Direct3D 11],described, d3d11/ID3D11UnorderedAccessView, direct3d11.id3d11unorderedaccessview
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11UnorderedAccessView"]
+f1_keywords: 
+ - "d3d11/ID3D11UnorderedAccessView"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

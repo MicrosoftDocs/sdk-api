@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
 ms.topic: method
-f1_keywords: ["control/IMediaControl.Pause"]
+f1_keywords: 
+ - "control/IMediaControl.Pause"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

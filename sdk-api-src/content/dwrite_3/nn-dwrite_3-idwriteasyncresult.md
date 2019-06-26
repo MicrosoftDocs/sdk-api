@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteAsyncResult, IDWriteAsyncResult interface [Direct Write], IDWriteAsyncResult interface [Direct Write],described, directwrite.idwriteasyncresult, dwrite_3/IDWriteAsyncResult
 ms.topic: interface
-f1_keywords: ["dwrite_3/IDWriteAsyncResult"]
+f1_keywords: 
+ - "dwrite_3/IDWriteAsyncResult"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

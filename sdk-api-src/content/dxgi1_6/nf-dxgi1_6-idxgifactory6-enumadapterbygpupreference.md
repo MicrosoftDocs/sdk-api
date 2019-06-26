@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
 ms.topic: method
-f1_keywords: ["dxgi1_6/IDXGIFactory6.EnumAdapterByGpuPreference"]
+f1_keywords: 
+ - "dxgi1_6/IDXGIFactory6.EnumAdapterByGpuPreference"
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

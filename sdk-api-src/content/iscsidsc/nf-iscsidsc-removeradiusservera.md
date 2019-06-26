@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveRadiusServer, RemoveRadiusServer function [iSCSI Discovery Library API], RemoveRadiusServerA, RemoveRadiusServerW, iscsidisc.removeradiusserver, iscsidsc/RemoveRadiusServer, iscsidsc/RemoveRadiusServerA, iscsidsc/RemoveRadiusServerW
 ms.topic: function
-f1_keywords: ["iscsidsc/RemoveRadiusServer"]
+f1_keywords: 
+ - "iscsidsc/RemoveRadiusServer"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

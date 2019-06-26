@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRoles method [Security], GetRoles method [Security],AzClientContext object, GetRoles method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetRoles method, IAzClientContext.GetRoles, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext.GetRoles"]
+f1_keywords: 
+ - "azroles/IAzClientContext.GetRoles"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

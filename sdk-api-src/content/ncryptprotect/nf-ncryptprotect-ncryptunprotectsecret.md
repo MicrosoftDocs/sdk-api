@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSecret, NCryptUnprotectSecret function [Security], ncryptprotect/NCryptUnprotectSecret, security.ncryptunprotectsecret
 ms.topic: function
-f1_keywords: ["ncryptprotect/NCryptUnprotectSecret"]
+f1_keywords: 
+ - "ncryptprotect/NCryptUnprotectSecret"
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

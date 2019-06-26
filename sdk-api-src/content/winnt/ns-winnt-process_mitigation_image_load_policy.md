@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, PPROCESS_MITIGATION_IMAGE_LOAD_POLICY structure pointer, PROCESS_MITIGATION_IMAGE_LOAD_POLICY, PROCESS_MITIGATION_IMAGE_LOAD_POLICY structure, base.process_mitigation_image_load_policy, winnt/PPROCESS_MITIGATION_IMAGE_LOAD_POLICY, winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
 ms.topic: struct
-f1_keywords: ["winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"]
+f1_keywords: 
+ - "winnt/PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

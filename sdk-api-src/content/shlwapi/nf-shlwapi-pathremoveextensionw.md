@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathRemoveExtension, PathRemoveExtension function [Windows Shell], PathRemoveExtensionA, PathRemoveExtensionW, _win32_PathRemoveExtension, shell.PathRemoveExtension, shlwapi/PathRemoveExtension, shlwapi/PathRemoveExtensionA, shlwapi/PathRemoveExtensionW
 ms.topic: function
-f1_keywords: ["shlwapi/PathRemoveExtension"]
+f1_keywords: 
+ - "shlwapi/PathRemoveExtension"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

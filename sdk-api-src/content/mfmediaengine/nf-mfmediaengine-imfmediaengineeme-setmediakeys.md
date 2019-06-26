@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEME.SetMediaKeys"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEME.SetMediaKeys"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

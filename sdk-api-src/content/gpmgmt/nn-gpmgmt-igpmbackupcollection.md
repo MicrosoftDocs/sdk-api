@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMBackupCollection, IGPMBackupCollection, IGPMBackupCollection interface [GPMC], IGPMBackupCollection interface [GPMC],described, _win32_igpmbackupcollection, gpmc.igpmbackupcollection, gpmgmt/IGPMBackupCollection
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMBackupCollection"]
+f1_keywords: 
+ - "gpmgmt/IGPMBackupCollection"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

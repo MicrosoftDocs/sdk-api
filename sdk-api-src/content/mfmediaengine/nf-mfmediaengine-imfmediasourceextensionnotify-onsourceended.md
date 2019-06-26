@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceEnded method, IMFMediaSourceExtensionNotify.OnSourceEnded, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceEnded"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceEnded"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

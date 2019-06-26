@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbLogoTransmissionDescriptor.GetLength, IIsdbLogoTransmissionDescriptor::GetLength, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLength, mstv.iisdblogotransmissiondescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

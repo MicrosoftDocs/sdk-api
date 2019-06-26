@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfapi/CfGetSyncRootInfoByHandle, cloudApi.cfgetsyncrootinfobyhandle
 ms.topic: function
-f1_keywords: ["cfapi/CfGetSyncRootInfoByHandle"]
+f1_keywords: 
+ - "cfapi/CfGetSyncRootInfoByHandle"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

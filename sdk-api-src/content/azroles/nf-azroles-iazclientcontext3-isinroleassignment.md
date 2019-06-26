@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext3 interface [Security],IsInRoleAssignment method, IAzClientContext3.IsInRoleAssignment, IAzClientContext3::IsInRoleAssignment, IsInRoleAssignment, IsInRoleAssignment method [Security], IsInRoleAssignment method [Security],IAzClientContext3 interface, azroles/IAzClientContext3::IsInRoleAssignment, security.iazclientcontext3_isinroleassignment_method
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext3.IsInRoleAssignment"]
+f1_keywords: 
+ - "azroles/IAzClientContext3.IsInRoleAssignment"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

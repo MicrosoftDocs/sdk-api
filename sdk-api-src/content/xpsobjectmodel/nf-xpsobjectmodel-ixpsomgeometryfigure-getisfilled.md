@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsFilled, GetIsFilled method [XPS Documents and Packaging], GetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsFilled method, IXpsOMGeometryFigure.GetIsFilled, IXpsOMGeometryFigure::GetIsFilled, TRUE, xps.ixpsomgeometryfigure_getisfilled, xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometryFigure.GetIsFilled"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometryFigure.GetIsFilled"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

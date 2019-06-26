@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngIsSemaphoreOwnedByCurrentThread, EngIsSemaphoreOwnedByCurrentThread function [Display Devices], display.engissemaphoreownedbycurrentthread, gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml, winddi/EngIsSemaphoreOwnedByCurrentThread
 ms.topic: function
-f1_keywords: ["winddi/EngIsSemaphoreOwnedByCurrentThread"]
+f1_keywords: 
+ - "winddi/EngIsSemaphoreOwnedByCurrentThread"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

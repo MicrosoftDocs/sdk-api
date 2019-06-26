@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetAudioAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetAudioAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_AUTHENTICATION_HARDENING_LEVELS, HTTP_AUTHENTICATION_HARDENING_LEVELS enumeration [HTTP], HttpAuthenticationHardeningLegacy, HttpAuthenticationHardeningMedium, HttpAuthenticationHardeningStrict, http.http_authentication_hardening_levels, http/HTTP_AUTHENTICATION_HARDENING_LEVELS, http/HttpAuthenticationHardeningLegacy, http/HttpAuthenticationHardeningMedium, http/HttpAuthenticationHardeningStrict
 ms.topic: enum
-f1_keywords: ["http/HTTP_AUTHENTICATION_HARDENING_LEVELS"]
+f1_keywords: 
+ - "http/HTTP_AUTHENTICATION_HARDENING_LEVELS"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

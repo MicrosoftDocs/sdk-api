@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSaveFloatingPointState, EngSaveFloatingPointState function [Display Devices], display.engsavefloatingpointstate, gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml, winddi/EngSaveFloatingPointState
 ms.topic: function
-f1_keywords: ["winddi/EngSaveFloatingPointState"]
+f1_keywords: 
+ - "winddi/EngSaveFloatingPointState"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarImp, VarImp function [Automation], _oa96_VarImp, automat.varimp, oleauto/VarImp
 ms.topic: function
-f1_keywords: ["oleauto/VarImp"]
+f1_keywords: 
+ - "oleauto/VarImp"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

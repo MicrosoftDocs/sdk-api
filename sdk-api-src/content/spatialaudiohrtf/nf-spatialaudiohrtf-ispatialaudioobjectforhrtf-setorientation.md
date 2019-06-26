@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
 ms.topic: method
-f1_keywords: ["spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetOrientation"]
+f1_keywords: 
+ - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetOrientation"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

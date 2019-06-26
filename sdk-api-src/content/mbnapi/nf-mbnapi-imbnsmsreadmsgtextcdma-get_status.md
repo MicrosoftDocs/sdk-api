@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Status property, IMbnSmsReadMsgTextCdma.Status, IMbnSmsReadMsgTextCdma.get_Status, IMbnSmsReadMsgTextCdma::Status, IMbnSmsReadMsgTextCdma::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Status, mbn.imbnsmsreadmsgtextcdma_status, mbnapi/IMbnSmsReadMsgTextCdma::Status, mbnapi/IMbnSmsReadMsgTextCdma::get_Status
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSmsReadMsgTextCdma.Status"]
+f1_keywords: 
+ - "mbnapi/IMbnSmsReadMsgTextCdma.Status"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

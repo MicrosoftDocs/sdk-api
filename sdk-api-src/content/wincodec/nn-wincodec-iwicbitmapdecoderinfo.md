@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoderInfo, IWICBitmapDecoderInfo interface [Windows Imaging Component], IWICBitmapDecoderInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoderinfo, wic._wic_codec_iwicbitmapdecoderinfo, wincodec/IWICBitmapDecoderInfo
 ms.topic: interface
-f1_keywords: ["wincodec/IWICBitmapDecoderInfo"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoderInfo"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

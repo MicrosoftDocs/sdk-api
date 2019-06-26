@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219
 ms.topic: interface
-f1_keywords: ["strmif/IDVRGB219"]
+f1_keywords: 
+ - "strmif/IDVRGB219"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

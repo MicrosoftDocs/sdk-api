@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MaxFrequency method, IAnalogRadioTuningSpace.get_MaxFrequency, IAnalogRadioTuningSpace::get_MaxFrequency, IAnalogRadioTuningSpaceget_MaxFrequency, get_MaxFrequency, get_MaxFrequency method [Microsoft TV Technologies], get_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_maxfrequency, tuner/IAnalogRadioTuningSpace::get_MaxFrequency
 ms.topic: method
-f1_keywords: ["tuner/IAnalogRadioTuningSpace.get_MaxFrequency"]
+f1_keywords: 
+ - "tuner/IAnalogRadioTuningSpace.get_MaxFrequency"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

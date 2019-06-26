@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext interface,SetNamespaces method, IWSDXMLContext.SetNamespaces, IWSDXMLContext::SetNamespaces, SetNamespaces, SetNamespaces method, SetNamespaces method,IWSDXMLContext interface, ncd.iwsdxmlcontext_setnamespaces_method, wsdxml/IWSDXMLContext::SetNamespaces
 ms.topic: method
-f1_keywords: ["wsdxml/IWSDXMLContext.SetNamespaces"]
+f1_keywords: 
+ - "wsdxml/IWSDXMLContext.SetNamespaces"
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

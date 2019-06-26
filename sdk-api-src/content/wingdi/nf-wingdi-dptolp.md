@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
 ms.topic: function
-f1_keywords: ["wingdi/DPtoLP"]
+f1_keywords: 
+ - "wingdi/DPtoLP"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

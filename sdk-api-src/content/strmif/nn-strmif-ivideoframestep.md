@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
 ms.topic: interface
-f1_keywords: ["strmif/IVideoFrameStep"]
+f1_keywords: 
+ - "strmif/IVideoFrameStep"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

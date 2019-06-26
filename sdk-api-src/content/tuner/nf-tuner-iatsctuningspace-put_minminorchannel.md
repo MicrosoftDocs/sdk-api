@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinMinorChannel method, IATSCTuningSpace.put_MinMinorChannel, IATSCTuningSpace::put_MinMinorChannel, IATSCTuningSpaceput_MinMinorChannel, mstv.iatsctuningspace_put_minminorchannel, put_MinMinorChannel, put_MinMinorChannel method [Microsoft TV Technologies], put_MinMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinMinorChannel
 ms.topic: method
-f1_keywords: ["tuner/IATSCTuningSpace.put_MinMinorChannel"]
+f1_keywords: 
+ - "tuner/IATSCTuningSpace.put_MinMinorChannel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

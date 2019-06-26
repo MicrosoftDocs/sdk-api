@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompleteTime, CompleteTime method [Windows Touch], CompleteTime method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],CompleteTime method, IInertiaProcessor.CompleteTime, IInertiaProcessor::CompleteTime, manipulations/IInertiaProcessor::CompleteTime, wintouch.iinertiaprocessor_completetime
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.CompleteTime"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.CompleteTime"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

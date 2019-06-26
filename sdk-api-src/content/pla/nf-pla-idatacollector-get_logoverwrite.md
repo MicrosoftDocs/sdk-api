@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector.get_LogOverwrite, IDataCollector::LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA],IDataCollector interface, base.idatacollector_logoverwrite, get_LogOverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite
 ms.topic: method
-f1_keywords: ["pla/IDataCollector.LogOverwrite"]
+f1_keywords: 
+ - "pla/IDataCollector.LogOverwrite"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

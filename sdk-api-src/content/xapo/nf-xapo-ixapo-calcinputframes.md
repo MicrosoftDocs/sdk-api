@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CalcInputFrames, CalcInputFrames method [XAudio2 Audio Mixing APIs], CalcInputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcInputFrames method, IXAPO.CalcInputFrames, IXAPO::CalcInputFrames, xapo/IXAPO::CalcInputFrames, xaudio2.ixapo_interface_calcinputframes
 ms.topic: method
-f1_keywords: ["xapo/IXAPO.CalcInputFrames"]
+f1_keywords: 
+ - "xapo/IXAPO.CalcInputFrames"
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

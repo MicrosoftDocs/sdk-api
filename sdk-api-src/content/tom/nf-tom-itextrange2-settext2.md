@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetText2 method, ITextRange2.SetText2, ITextRange2::SetText2, SetText2, SetText2 method [Windows Controls], SetText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_settext2, tom/ITextRange2::SetText2, tomCheckTextLimit, tomLanguageTag, tomMathCFCheck, tomUnhide, tomUnicodeBiDi, tomUnlink
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.SetText2"]
+f1_keywords: 
+ - "tom/ITextRange2.SetText2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

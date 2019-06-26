@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp2, IPublishedApp2 interface [Windows Shell], IPublishedApp2 interface [Windows Shell],described, _shell_IPublishedApp2, shappmgr/IPublishedApp2, shell.IPublishedApp2
 ms.topic: interface
-f1_keywords: ["shappmgr/IPublishedApp2"]
+f1_keywords: 
+ - "shappmgr/IPublishedApp2"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

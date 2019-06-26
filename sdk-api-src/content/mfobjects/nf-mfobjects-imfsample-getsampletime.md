@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSampleTime, GetSampleTime method [Media Foundation], GetSampleTime method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleTime method, IMFSample.GetSampleTime, IMFSample::GetSampleTime, fc4aac9e-e7a9-43f0-af7b-54a39666044a, mf.imfsample_getsampletime, mfobjects/IMFSample::GetSampleTime
 ms.topic: method
-f1_keywords: ["mfobjects/IMFSample.GetSampleTime"]
+f1_keywords: 
+ - "mfobjects/IMFSample.GetSampleTime"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

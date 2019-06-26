@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextChildPattern interface [Windows Accessibility],TextRange property, IUIAutomationTextChildPattern.TextRange, IUIAutomationTextChildPattern.get_TextRange, IUIAutomationTextChildPattern::TextRange, IUIAutomationTextChildPattern::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],IUIAutomationTextChildPattern interface, get_TextRange, uiautomationclient/IUIAutomationTextChildPattern::TextRange, uiautomationclient/IUIAutomationTextChildPattern::get_TextRange, winauto.uiauto_IUIAutomationTextChildPattern_TextRange
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextChildPattern.TextRange"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextChildPattern.TextRange"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

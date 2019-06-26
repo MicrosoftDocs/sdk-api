@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioObjectForHrtf, ActivateSpatialAudioObjectForHrtf method [Core Audio], ActivateSpatialAudioObjectForHrtf method [Core Audio],ISpatialAudioObjectRenderStreamForHrtf interface, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],ActivateSpatialAudioObjectForHrtf method, ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf, ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf, coreaudio.ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf
 ms.topic: method
-f1_keywords: ["spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf"]
+f1_keywords: 
+ - "spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

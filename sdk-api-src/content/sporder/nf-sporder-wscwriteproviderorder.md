@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCWriteProviderOrder, WSCWriteProviderOrder function [Winsock], _win32_wscwriteproviderorder_2, sporder/WSCWriteProviderOrder, winsock.wscwriteproviderorder_2
 ms.topic: function
-f1_keywords: ["sporder/WSCWriteProviderOrder"]
+f1_keywords: 
+ - "sporder/WSCWriteProviderOrder"
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows

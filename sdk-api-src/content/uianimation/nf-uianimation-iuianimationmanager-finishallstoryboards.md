@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinishAllStoryboards, FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],FinishAllStoryboards method, IUIAnimationManager.FinishAllStoryboards, IUIAnimationManager::FinishAllStoryboards, uianimation.iuianimationmanager_finishallstoryboards, uianimation/IUIAnimationManager::FinishAllStoryboards
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.FinishAllStoryboards"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.FinishAllStoryboards"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

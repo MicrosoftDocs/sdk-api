@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component],described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
 ms.topic: interface
-f1_keywords: ["wincodec/IWICProgressiveLevelControl"]
+f1_keywords: 
+ - "wincodec/IWICProgressiveLevelControl"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

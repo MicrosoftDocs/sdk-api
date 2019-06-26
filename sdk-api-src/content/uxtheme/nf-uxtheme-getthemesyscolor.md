@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeSysColor"]
+f1_keywords: 
+ - "uxtheme/GetThemeSysColor"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

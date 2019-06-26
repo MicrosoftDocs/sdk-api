@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkRefreshSecuritySettings, WlanHostedNetworkRefreshSecuritySettings function [NativeWIFI], nwifi.wlanhostednetworkrefreshsecuritysettings, wlanapi/WlanHostedNetworkRefreshSecuritySettings
 ms.topic: function
-f1_keywords: ["wlanapi/WlanHostedNetworkRefreshSecuritySettings"]
+f1_keywords: 
+ - "wlanapi/WlanHostedNetworkRefreshSecuritySettings"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

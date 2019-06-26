@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetCurTargetX method, ITextServices.TxGetCurTargetX, ITextServices::TxGetCurTargetX, TxGetCurTargetX, TxGetCurTargetX method [Windows Controls], TxGetCurTargetX method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetCurTargetX, _win32_ITextServices_TxGetCurTargetX_cpp, controls.ITextServices_TxGetCurTargetX, controls._win32_ITextServices_TxGetCurTargetX, textserv/ITextServices::TxGetCurTargetX
 ms.topic: method
-f1_keywords: ["textserv/ITextServices.TxGetCurTargetX"]
+f1_keywords: 
+ - "textserv/ITextServices.TxGetCurTargetX"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

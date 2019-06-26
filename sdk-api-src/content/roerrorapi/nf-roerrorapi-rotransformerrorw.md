@@ -12,7 +12,8 @@ ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], Wi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/RoTransformErrorW"]
+f1_keywords: 
+ - "roerrorapi/RoTransformErrorW"
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

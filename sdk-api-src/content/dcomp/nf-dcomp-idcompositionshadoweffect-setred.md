@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetRed method, IDCompositionShadowEffect.SetRed, IDCompositionShadowEffect::SetRed, IDCompositionShadowEffect::SetRed(float), SetRed, SetRed method [DirectComposition], SetRed method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetRed, directcomp.idcompositionshadoweffect_setred
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionShadowEffect.SetRed"]
+f1_keywords: 
+ - "dcomp/IDCompositionShadowEffect.SetRed"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

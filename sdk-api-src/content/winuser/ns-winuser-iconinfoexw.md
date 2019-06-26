@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PICONINFOEXW, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW"
 ms.topic: struct
-f1_keywords: ["winuser/ICONINFOEX"]
+f1_keywords: 
+ - "winuser/ICONINFOEX"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

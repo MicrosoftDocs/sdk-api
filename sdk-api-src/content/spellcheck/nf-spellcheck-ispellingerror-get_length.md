@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Length property, ISpellingError.Length, ISpellingError.get_Length, ISpellingError::Length, ISpellingError::get_Length, Length property [Internationalization for Windows Applications], Length property [Internationalization for Windows Applications],ISpellingError interface, get_Length, intl.ispellingerror_length, spellcheck/ISpellingError::Length, spellcheck/ISpellingError::get_Length
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellingError.Length"]
+f1_keywords: 
+ - "spellcheck/ISpellingError.Length"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetAlpha method, IVMRMixerControl9.SetAlpha, IVMRMixerControl9::SetAlpha, IVMRMixerControl9SetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setalpha, vmr9/IVMRMixerControl9::SetAlpha
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.SetAlpha"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.SetAlpha"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

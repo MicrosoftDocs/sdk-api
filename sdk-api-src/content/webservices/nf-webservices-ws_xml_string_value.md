@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_VALUE, WS_XML_STRING_VALUE macro [Web Services for Windows], webservices/WS_XML_STRING_VALUE, wsw.ws_xml_string_value
 ms.topic: macro
-f1_keywords: ["webservices/WS_XML_STRING_VALUE"]
+f1_keywords: 
+ - "webservices/WS_XML_STRING_VALUE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

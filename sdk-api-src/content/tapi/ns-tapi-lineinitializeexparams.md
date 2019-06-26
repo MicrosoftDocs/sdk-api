@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS, LINEINITIALIZEEXPARAMS structure [TAPI 2.2], LPLINEINITIALIZEEXPARAMS, LPLINEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], _tapi2_lineinitializeexparams_str, tapi/LINEINITIALIZEEXPARAMS, tapi/LPLINEINITIALIZEEXPARAMS, tapi2.lineinitializeexparams_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEINITIALIZEEXPARAMS"]
+f1_keywords: 
+ - "tapi/LINEINITIALIZEEXPARAMS"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

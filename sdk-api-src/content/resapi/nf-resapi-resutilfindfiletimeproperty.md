@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY function [Failover Cluster], ResUtilFindFileTimeProperty, ResUtilFindFileTimeProperty function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY, resapi/ResUtilFindFileTimeProperty
 ms.topic: function
-f1_keywords: ["resapi/ResUtilFindFileTimeProperty"]
+f1_keywords: 
+ - "resapi/ResUtilFindFileTimeProperty"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

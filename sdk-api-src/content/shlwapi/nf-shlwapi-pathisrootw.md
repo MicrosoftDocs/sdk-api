@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsRoot"]
+f1_keywords: 
+ - "shlwapi/PathIsRoot"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

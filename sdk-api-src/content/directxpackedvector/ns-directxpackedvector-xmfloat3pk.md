@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3PK, dxmath.xmfloat3pk
 ms.topic: struct
-f1_keywords: ["directxpackedvector/XMFLOAT3PK"]
+f1_keywords: 
+ - "directxpackedvector/XMFLOAT3PK"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

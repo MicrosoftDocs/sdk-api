@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
 ms.topic: method
-f1_keywords: ["spatialaudioclient/IAudioFormatEnumerator.GetCount"]
+f1_keywords: 
+ - "spatialaudioclient/IAudioFormatEnumerator.GetCount"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAsyncMode, GetAsyncMode method [Windows Shell], GetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],GetAsyncMode method, IDataObjectAsyncCapability.GetAsyncMode, IDataObjectAsyncCapability::GetAsyncMode, shell.IDataObjectAsyncCapability_GetAsyncMode, shldisp/IDataObjectAsyncCapability::GetAsyncMode
 ms.topic: method
-f1_keywords: ["shldisp/IDataObjectAsyncCapability.GetAsyncMode"]
+f1_keywords: 
+ - "shldisp/IDataObjectAsyncCapability.GetAsyncMode"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

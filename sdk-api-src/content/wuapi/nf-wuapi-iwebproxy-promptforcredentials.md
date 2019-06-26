@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentials method, IWebProxy.PromptForCredentials, IWebProxy::PromptForCredentials, PromptForCredentials, PromptForCredentials method [Windows Update Agent], PromptForCredentials method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_promptforcredentials, wuapi/IWebProxy::PromptForCredentials
 ms.topic: method
-f1_keywords: ["wuapi/IWebProxy.PromptForCredentials"]
+f1_keywords: 
+ - "wuapi/IWebProxy.PromptForCredentials"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

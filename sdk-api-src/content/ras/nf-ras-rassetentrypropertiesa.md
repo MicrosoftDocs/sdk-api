@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.topic: function
-f1_keywords: ["ras/RasSetEntryProperties"]
+f1_keywords: 
+ - "ras/RasSetEntryProperties"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

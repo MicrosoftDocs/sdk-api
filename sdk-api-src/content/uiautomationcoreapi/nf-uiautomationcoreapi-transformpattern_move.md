@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Move, TransformPattern_Move function [Windows Accessibility], uiauto.uiauto_TransformPattern_MoveConPat, uiauto_TransformPattern_MoveConPat, uiautomationcoreapi/TransformPattern_Move, winauto.uiauto_TransformPattern_MoveConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TransformPattern_Move"]
+f1_keywords: 
+ - "uiautomationcoreapi/TransformPattern_Move"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

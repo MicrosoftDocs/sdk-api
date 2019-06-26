@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Remove method, ITriggerCollection.Remove, ITriggerCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITriggerCollection interface, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler],removing
 ms.topic: method
-f1_keywords: ["taskschd/ITriggerCollection.Remove"]
+f1_keywords: 
+ - "taskschd/ITriggerCollection.Remove"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

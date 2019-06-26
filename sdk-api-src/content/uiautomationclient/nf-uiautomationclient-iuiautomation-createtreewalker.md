@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTreeWalker, CreateTreeWalker method [Windows Accessibility], CreateTreeWalker method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTreeWalker method, IUIAutomation.CreateTreeWalker, IUIAutomation::CreateTreeWalker, uiauto.uiauto_IUIAutomation_CreateTreeWalker, uiauto_IUIAutomation_CreateTreeWalker, uiautomationclient/IUIAutomation::CreateTreeWalker, winauto.uiauto_IUIAutomation_CreateTreeWalker
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateTreeWalker"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateTreeWalker"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

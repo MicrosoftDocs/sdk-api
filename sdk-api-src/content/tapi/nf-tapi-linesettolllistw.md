@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
 ms.topic: function
-f1_keywords: ["tapi/lineSetTollList"]
+f1_keywords: 
+ - "tapi/lineSetTollList"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

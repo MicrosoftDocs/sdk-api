@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCApiInitialize, DhcpCApiInitialize function [DHCP], _dhcp_dhcpcapiinitialize, dhcp.dhcpcapiinitialize, dhcpcsdk/DhcpCApiInitialize
 ms.topic: function
-f1_keywords: ["dhcpcsdk/DhcpCApiInitialize"]
+f1_keywords: 
+ - "dhcpcsdk/DhcpCApiInitialize"
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

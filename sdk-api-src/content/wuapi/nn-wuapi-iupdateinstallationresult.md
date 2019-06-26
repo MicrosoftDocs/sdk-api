@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstallationResult, IUpdateInstallationResult interface [Windows Update Agent], IUpdateInstallationResult interface [Windows Update Agent],described, wua.iupdateinstallationresult, wuapi/IUpdateInstallationResult
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateInstallationResult"]
+f1_keywords: 
+ - "wuapi/IUpdateInstallationResult"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

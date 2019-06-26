@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
 ms.topic: function
-f1_keywords: ["handleapi/DuplicateHandle"]
+f1_keywords: 
+ - "handleapi/DuplicateHandle"
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

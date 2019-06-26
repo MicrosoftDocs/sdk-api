@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.topic: interface
-f1_keywords: ["shobjidl/IUserAccountChangeCallback"]
+f1_keywords: 
+ - "shobjidl/IUserAccountChangeCallback"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

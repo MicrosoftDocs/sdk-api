@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICRemove, ICRemove function [Windows Multimedia], _win32_ICRemove, multimedia.icremove, vfw/ICRemove
 ms.topic: function
-f1_keywords: ["vfw/ICRemove"]
+f1_keywords: 
+ - "vfw/ICRemove"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

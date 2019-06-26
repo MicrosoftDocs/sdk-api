@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEFAULTSAVEFOLDERTYPE, DEFAULTSAVEFOLDERTYPE enumeration [Windows Shell], DSFT_DETECT, DSFT_PRIVATE, DSFT_PUBLIC, _shell_DEFAULTSAVEFOLDERTYPE, shell.DEFAULTSAVEFOLDERTYPE, shobjidl_core/DEFAULTSAVEFOLDERTYPE, shobjidl_core/DSFT_DETECT, shobjidl_core/DSFT_PRIVATE, shobjidl_core/DSFT_PUBLIC
 ms.topic: enum
-f1_keywords: ["shobjidl_core/DEFAULTSAVEFOLDERTYPE"]
+f1_keywords: 
+ - "shobjidl_core/DEFAULTSAVEFOLDERTYPE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

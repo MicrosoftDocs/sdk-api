@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyClassName, GetFriendlyClassName method [Active Directory], GetFriendlyClassName method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetFriendlyClassName method, IDsDisplaySpecifier.GetFriendlyClassName, IDsDisplaySpecifier::GetFriendlyClassName, _glines_idsdisplayspecifier_getfriendlyclassname, ad.idsdisplayspecifier__getfriendlyclassname, ad.idsdisplayspecifier_getfriendlyclassname, dsclient/IDsDisplaySpecifier::GetFriendlyClassName
 ms.topic: method
-f1_keywords: ["dsclient/IDsDisplaySpecifier.GetFriendlyClassName"]
+f1_keywords: 
+ - "dsclient/IDsDisplaySpecifier.GetFriendlyClassName"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

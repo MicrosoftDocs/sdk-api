@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
 ms.topic: function
-f1_keywords: ["winnls/IsValidCodePage"]
+f1_keywords: 
+ - "winnls/IsValidCodePage"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCodePage, GetCodePage method [Windows Shell], GetCodePage method [Windows Shell],IQueryCodePage interface, IQueryCodePage interface [Windows Shell],GetCodePage method, IQueryCodePage.GetCodePage, IQueryCodePage::GetCodePage, _shell_IQueryCodePage_GetCodePage, shell.IQueryCodePage_GetCodePage, shobjidl/IQueryCodePage::GetCodePage
 ms.topic: method
-f1_keywords: ["shobjidl/IQueryCodePage.GetCodePage"]
+f1_keywords: 
+ - "shobjidl/IQueryCodePage.GetCodePage"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

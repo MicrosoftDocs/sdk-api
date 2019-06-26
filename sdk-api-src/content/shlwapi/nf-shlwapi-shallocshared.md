@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHAllocShared, SHAllocShared function [Windows Shell], _win32_SHAllocShared, shell.SHAllocShared, shlwapi/SHAllocShared
 ms.topic: function
-f1_keywords: ["shlwapi/SHAllocShared"]
+f1_keywords: 
+ - "shlwapi/SHAllocShared"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

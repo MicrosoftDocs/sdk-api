@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync method, RequestAccessWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
 ms.topic: method
-f1_keywords: ["efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync"]
+f1_keywords: 
+ - "efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync"
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

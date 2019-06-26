@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvLineTo, DrvLineTo function [Display Devices], ddifncs_85694fcd-95b7-4b3e-8f00-bec09b3d9a32.xml, display.drvlineto, winddi/DrvLineTo
 ms.topic: function
-f1_keywords: ["winddi/DrvLineTo"]
+f1_keywords: 
+ - "winddi/DrvLineTo"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

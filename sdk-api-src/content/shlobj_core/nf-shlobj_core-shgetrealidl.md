@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetRealIDL, SHGetRealIDL function [Windows Shell], _win32_SHGetRealIDL, shell.SHGetRealIDL, shlobj_core/SHGetRealIDL
 ms.topic: function
-f1_keywords: ["shlobj_core/SHGetRealIDL"]
+f1_keywords: 
+ - "shlobj_core/SHGetRealIDL"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

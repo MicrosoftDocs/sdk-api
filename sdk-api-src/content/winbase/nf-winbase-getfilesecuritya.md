@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW
 ms.topic: function
-f1_keywords: ["winbase/GetFileSecurity"]
+f1_keywords: 
+ - "winbase/GetFileSecurity"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

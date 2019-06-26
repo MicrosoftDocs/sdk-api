@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Reset method, IEnumACDGroup.Reset, IEnumACDGroup::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
 ms.topic: method
-f1_keywords: ["tapi3/IEnumACDGroup.Reset"]
+f1_keywords: 
+ - "tapi3/IEnumACDGroup.Reset"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

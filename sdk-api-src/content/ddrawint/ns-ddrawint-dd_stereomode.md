@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_STEREOMODE, DD_STEREOMODE, DD_STEREOMODE structure [Display Devices], ddrawint/DD_STEREOMODE, ddstrcts_aca080e5-a3ae-409b-9546-f4d270fb9f10.xml, display.dd_stereomode"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_STEREOMODE"]
+f1_keywords: 
+ - "ddrawint/DD_STEREOMODE"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

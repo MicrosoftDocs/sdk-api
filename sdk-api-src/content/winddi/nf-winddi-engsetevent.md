@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSetEvent, EngSetEvent function [Display Devices], display.engsetevent, gdifncs_1f6bd838-607b-47fa-bb1e-e21d92e65d39.xml, winddi/EngSetEvent
 ms.topic: function
-f1_keywords: ["winddi/EngSetEvent"]
+f1_keywords: 
+ - "winddi/EngSetEvent"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
 ms.topic: method
-f1_keywords: ["iads/IADsPathname.Set"]
+f1_keywords: 
+ - "iads/IADsPathname.Set"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

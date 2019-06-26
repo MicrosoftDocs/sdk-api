@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT"
 ms.topic: struct
-f1_keywords: ["shlobj_core/COMPONENTSOPT"]
+f1_keywords: 
+ - "shlobj_core/COMPONENTSOPT"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatEx, FormatEx method, FormatEx method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,FormatEx method, IVdsVolumeMF2.FormatEx, IVdsVolumeMF2::FormatEx, base.ivdsvolumemf2_formatex, vds/IVdsVolumeMF2::FormatEx
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeMF2.FormatEx"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF2.FormatEx"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

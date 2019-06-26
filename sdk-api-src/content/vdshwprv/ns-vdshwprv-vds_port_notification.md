@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PORT_ARRIVE, VDS_NF_PORT_DEPART, VDS_NF_PORT_MODIFY, VDS_NF_PORT_REMOVED, VDS_PORT_NOTIFICATION, VDS_PORT_NOTIFICATION structure [VDS], base.vds_port_notification, vds/_VDS_PORT_NOTIFICATION, vdshwprv/_VDS_PORT_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PORT_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_PORT_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

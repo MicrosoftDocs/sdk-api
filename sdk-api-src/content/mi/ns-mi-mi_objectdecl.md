@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
 ms.topic: struct
-f1_keywords: ["mi/MI_ObjectDecl"]
+f1_keywords: 
+ - "mi/MI_ObjectDecl"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

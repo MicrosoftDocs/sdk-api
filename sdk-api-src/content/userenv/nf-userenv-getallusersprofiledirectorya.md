@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW
 ms.topic: function
-f1_keywords: ["userenv/GetAllUsersProfileDirectory"]
+f1_keywords: 
+ - "userenv/GetAllUsersProfileDirectory"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

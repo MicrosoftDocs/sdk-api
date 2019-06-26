@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval"]
+f1_keywords: 
+ - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

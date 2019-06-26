@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetProceedOnNewConfiguration method, IViewHelper.GetProceedOnNewConfiguration, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
 ms.topic: method
-f1_keywords: ["cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration"]
+f1_keywords: 
+ - "cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration"
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

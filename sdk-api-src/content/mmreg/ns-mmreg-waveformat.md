@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX"
 ms.topic: struct
-f1_keywords: ["mmreg/WAVEFORMAT"]
+f1_keywords: 
+ - "mmreg/WAVEFORMAT"
 req.header: mmreg.h
 req.include-header: Mmreg.h
 req.target-type: Windows

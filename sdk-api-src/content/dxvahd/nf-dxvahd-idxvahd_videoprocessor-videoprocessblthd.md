@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],VideoProcessBltHD method, IDXVAHD_VideoProcessor.VideoProcessBltHD, IDXVAHD_VideoProcessor::VideoProcessBltHD, VideoProcessBltHD, VideoProcessBltHD method [Media Foundation], VideoProcessBltHD method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::VideoProcessBltHD, mf.idxvahd_videoprocessor_videoprocessblthd
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_VideoProcessor.VideoProcessBltHD"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_VideoProcessor.VideoProcessBltHD"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

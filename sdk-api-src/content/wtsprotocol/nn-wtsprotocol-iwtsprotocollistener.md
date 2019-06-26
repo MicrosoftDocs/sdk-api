@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], IWTSProtocolListener interface [Remote Desktop Services],described, termserv.iwtsprotocollistener, wtsprotocol/IWTSProtocolListener
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWTSProtocolListener"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolListener"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

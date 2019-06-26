@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMStoryFragmentsResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMStoryFragmentsResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

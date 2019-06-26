@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],Flush method, IMFASFMultiplexer.Flush, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFMultiplexer.Flush"]
+f1_keywords: 
+ - "wmcontainer/IMFASFMultiplexer.Flush"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

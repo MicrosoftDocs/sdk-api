@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval, wmi_v2.mi_subscriptiondeliveryoptions_setheartbeatinterval
 ms.topic: function
-f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval"]
+f1_keywords: 
+ - "mi/MI_SubscriptionDeliveryOptions_SetHeartbeatInterval"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

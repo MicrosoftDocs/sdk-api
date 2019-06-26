@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_705e98bf-b3ea-4d2b-8c93-ffb300d700c8.xml, DISPLAYCONFIG_SET_TARGET_PERSISTENCE, DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure [Display Devices], display.displayconfig_set_target_persistence, wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

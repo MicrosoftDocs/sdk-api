@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
 ms.topic: function
-f1_keywords: ["shlobj_core/SHBindToParent"]
+f1_keywords: 
+ - "shlobj_core/SHBindToParent"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

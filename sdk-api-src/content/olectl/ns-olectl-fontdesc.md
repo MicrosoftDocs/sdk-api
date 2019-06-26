@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC"
 ms.topic: struct
-f1_keywords: ["olectl/FONTDESC"]
+f1_keywords: 
+ - "olectl/FONTDESC"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL callback function [Windows Remote Management], WSManPluginShell, winrm.wsman_plugin_shell, wsman/WSMAN_PLUGIN_SHELL
 ms.topic: callback
-f1_keywords: ["wsman/WSMAN_PLUGIN_SHELL"]
+f1_keywords: 
+ - "wsman/WSMAN_PLUGIN_SHELL"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSC_DontUseTracker, CSC_TrackerConfig, CSC_TrackerConfig enumeration [COM+], CSC_UseTracker, _cos_CSC_TrackerConfig, comsvcs/CSC_DontUseTracker, comsvcs/CSC_TrackerConfig, comsvcs/CSC_UseTracker, cos.csc_trackerconfig
 ms.topic: enum
-f1_keywords: ["comsvcs/CSC_TrackerConfig"]
+f1_keywords: 
+ - "comsvcs/CSC_TrackerConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

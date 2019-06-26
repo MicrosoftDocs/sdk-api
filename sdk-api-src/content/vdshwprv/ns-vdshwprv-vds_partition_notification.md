@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PARTITION_ARRIVE, VDS_NF_PARTITION_DEPART, VDS_NF_PARTITION_MODIFY, VDS_PARTITION_NOTIFICATION, VDS_PARTITION_NOTIFICATION structure [VDS], base.vds_partition_notification, vds/_VDS_PARTITION_NOTIFICATION, vdshwprv/_VDS_PARTITION_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PARTITION_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_PARTITION_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

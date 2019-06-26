@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
 ms.topic: interface
-f1_keywords: ["manipulations/_IManipulationEvents"]
+f1_keywords: 
+ - "manipulations/_IManipulationEvents"
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

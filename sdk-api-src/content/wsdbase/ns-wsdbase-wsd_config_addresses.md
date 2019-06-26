@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES"
 ms.topic: struct
-f1_keywords: ["wsdbase/WSD_CONFIG_ADDRESSES"]
+f1_keywords: 
+ - "wsdbase/WSD_CONFIG_ADDRESSES"
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

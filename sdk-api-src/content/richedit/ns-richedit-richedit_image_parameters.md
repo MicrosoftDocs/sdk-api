@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS
 ms.topic: struct
-f1_keywords: ["richedit/RICHEDIT_IMAGE_PARAMETERS"]
+f1_keywords: 
+ - "richedit/RICHEDIT_IMAGE_PARAMETERS"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

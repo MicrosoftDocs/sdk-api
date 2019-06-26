@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDecoderLevel method, IAMWstDecoder.GetDecoderLevel, IAMWstDecoder::GetDecoderLevel, IAMWstDecoderGetDecoderLevel, dshow.iamwstdecoder_getdecoderlevel, iwstdec/IAMWstDecoder::GetDecoderLevel
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.GetDecoderLevel"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.GetDecoderLevel"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

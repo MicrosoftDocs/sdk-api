@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_ORIGINAL_FILE_INFO_W, PSP_ORIGINAL_FILE_INFO, PSP_ORIGINAL_FILE_INFO structure pointer [Setup API], SP_ORIGINAL_FILE_INFO, SP_ORIGINAL_FILE_INFO structure [Setup API], SP_ORIGINAL_FILE_INFO_W, _setupapi_sp_original_file_info, setup.sp_original_file_info, setupapi/PSP_ORIGINAL_FILE_INFO, setupapi/SP_ORIGINAL_FILE_INFO"
 ms.topic: struct
-f1_keywords: ["setupapi/SP_ORIGINAL_FILE_INFO"]
+f1_keywords: 
+ - "setupapi/SP_ORIGINAL_FILE_INFO"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

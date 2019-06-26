@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
 ms.topic: function
-f1_keywords: ["dbghelp/SymSrvStoreFile"]
+f1_keywords: 
+ - "dbghelp/SymSrvStoreFile"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStrokeThickness, GetStrokeThickness method [XPS Documents and Packaging], GetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeThickness method, IXpsOMPath.GetStrokeThickness, IXpsOMPath::GetStrokeThickness, xps.ixpsompath_getstrokethickness, xpsobjectmodel/IXpsOMPath::GetStrokeThickness
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.GetStrokeThickness"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.GetStrokeThickness"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

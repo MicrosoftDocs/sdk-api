@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_LISTPAD_INFO, MMC_LISTPAD_INFO structure [MMC], _slate_mmc_listpad_info, mmc.mmc_listpad_info, mmc/MMC_LISTPAD_INFO
 ms.topic: struct
-f1_keywords: ["mmc/MMC_LISTPAD_INFO"]
+f1_keywords: 
+ - "mmc/MMC_LISTPAD_INFO"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

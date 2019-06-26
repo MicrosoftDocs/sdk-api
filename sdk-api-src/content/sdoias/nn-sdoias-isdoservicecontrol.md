@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], ISdoServiceControl interface [Network Policy Server],described, _sdo_isdoservicecontrol, nps.SDO_isdoservicecontrol, sdo.isdoservicecontrol, sdoias/ISdoServiceControl
 ms.topic: interface
-f1_keywords: ["sdoias/ISdoServiceControl"]
+f1_keywords: 
+ - "sdoias/ISdoServiceControl"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

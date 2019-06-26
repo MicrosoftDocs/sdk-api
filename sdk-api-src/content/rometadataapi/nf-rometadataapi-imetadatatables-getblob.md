@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBlob, GetBlob method [Windows Runtime], GetBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlob method, IMetaDataTables.GetBlob, IMetaDataTables::GetBlob, rometadataapi/IMetaDataTables::GetBlob, winrt.imetadatatables_getblob
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetBlob"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetBlob"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

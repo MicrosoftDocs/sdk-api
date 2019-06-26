@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder2.CopyCaptureFile, ICaptureGraphBuilder2::CopyCaptureFile, ICaptureGraphBuilder2CopyCaptureFile, dshow.icapturegraphbuilder2_copycapturefile, strmif/ICaptureGraphBuilder2::CopyCaptureFile
 ms.topic: method
-f1_keywords: ["strmif/ICaptureGraphBuilder2.CopyCaptureFile"]
+f1_keywords: 
+ - "strmif/ICaptureGraphBuilder2.CopyCaptureFile"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

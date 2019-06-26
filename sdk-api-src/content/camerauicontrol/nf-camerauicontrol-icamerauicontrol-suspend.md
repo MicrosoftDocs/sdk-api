@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Suspend method, ICameraUIControl.Suspend, ICameraUIControl::Suspend, Suspend, Suspend method [Windows API], Suspend method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Suspend, winprog.icamerauicontrol_suspend
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControl.Suspend"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControl.Suspend"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

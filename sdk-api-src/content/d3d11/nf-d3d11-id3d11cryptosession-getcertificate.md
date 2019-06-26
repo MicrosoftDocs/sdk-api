@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificate method, ID3D11CryptoSession.GetCertificate, ID3D11CryptoSession::GetCertificate, d3d11/ID3D11CryptoSession::GetCertificate, mf.id3d11cryptosession_getcertificate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11CryptoSession.GetCertificate"]
+f1_keywords: 
+ - "d3d11/ID3D11CryptoSession.GetCertificate"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetNetwork method, INetworkConnection.GetNetwork, INetworkConnection::GetNetwork, netlistmgr/INetworkConnection::GetNetwork, nla.inetworkconnection_getnetwork
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkConnection.GetNetwork"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnection.GetNetwork"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

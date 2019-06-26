@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_NetConnectionProps method, INetSharingManager.get_NetConnectionProps, INetSharingManager::get_NetConnectionProps, _ics_inetsharingmanager_get_netconnectionprops, get_NetConnectionProps, get_NetConnectionProps method [ICS/ICF], get_NetConnectionProps method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_netconnectionprops, netcon/INetSharingManager::get_NetConnectionProps
 ms.topic: method
-f1_keywords: ["netcon/INetSharingManager.get_NetConnectionProps"]
+f1_keywords: 
+ - "netcon/INetSharingManager.get_NetConnectionProps"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

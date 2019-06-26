@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security], CRYPT_ALL_FUNCTIONS, CRYPT_ALL_PROVIDERS, CRYPT_KM, CRYPT_MM, CRYPT_UM, bcrypt/BCryptResolveProviders, security.bcryptresolveproviders
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptResolveProviders"]
+f1_keywords: 
+ - "bcrypt/BCryptResolveProviders"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

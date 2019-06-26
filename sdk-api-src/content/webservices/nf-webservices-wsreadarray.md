@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
 ms.topic: function
-f1_keywords: ["webservices/WsReadArray"]
+f1_keywords: 
+ - "webservices/WsReadArray"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

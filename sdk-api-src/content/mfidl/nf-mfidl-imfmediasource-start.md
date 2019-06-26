@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Media Foundation],Start method, IMFMediaSource.Start, IMFMediaSource::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSource.Start"]
+f1_keywords: 
+ - "mfidl/IMFMediaSource.Start"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

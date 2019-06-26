@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_NetworkProvider"]
+f1_keywords: 
+ - "bdaiface/IBDA_NetworkProvider"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

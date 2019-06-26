@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetY, XMVectorSetY, XMVectorSetY method [DirectX Math Support APIs], dxmath.xmvectorsety
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSetY"]
+f1_keywords: 
+ - "directxmath/XMVectorSetY"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

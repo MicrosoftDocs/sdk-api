@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
 ms.topic: function
-f1_keywords: ["avrt/AvRtDeleteThreadOrderingGroup"]
+f1_keywords: 
+ - "avrt/AvRtDeleteThreadOrderingGroup"
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

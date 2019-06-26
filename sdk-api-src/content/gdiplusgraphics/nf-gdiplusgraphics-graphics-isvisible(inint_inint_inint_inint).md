@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsVisible method, Graphics.IsVisible, Graphics.IsVisible(IN INT,IN INT,IN INT,IN INT), Graphics.IsVisible(INT,INT,INT,INT), Graphics::IsVisible, Graphics::IsVisible(IN INT,IN INT,IN INT,IN INT), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisible_INT_x_INT_y_INT_width_INT_height_, gdiplus._gdiplus_CLASS_Graphics_IsVisible_INT_x_INT_y_INT_width_INT_height_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.IsVisible"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.IsVisible"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

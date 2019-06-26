@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectPass.GetAnnotationByIndex, ID3D10EffectPass::GetAnnotationByIndex, b11d6e71-cc4e-38a9-fd93-a67effc5a2b5, d3d10effect/ID3D10EffectPass::GetAnnotationByIndex, direct3d10.id3d10effectpass_getannotationbyindex
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectPass.GetAnnotationByIndex"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectPass.GetAnnotationByIndex"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

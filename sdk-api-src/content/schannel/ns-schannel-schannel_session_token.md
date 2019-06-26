@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token
 ms.topic: struct
-f1_keywords: ["schannel/SCHANNEL_SESSION_TOKEN"]
+f1_keywords: 
+ - "schannel/SCHANNEL_SESSION_TOKEN"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

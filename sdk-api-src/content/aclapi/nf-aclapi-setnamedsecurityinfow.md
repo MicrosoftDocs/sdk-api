@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.topic: function
-f1_keywords: ["aclapi/SetNamedSecurityInfo"]
+f1_keywords: 
+ - "aclapi/SetNamedSecurityInfo"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

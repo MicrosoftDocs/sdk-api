@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreFragmentInspector, ICoreFragmentInspector interface [Windows Sync], ICoreFragmentInspector interface [Windows Sync],described, winsync.icorefragmentinspector, winsync/ICoreFragmentInspector
 ms.topic: interface
-f1_keywords: ["winsync/ICoreFragmentInspector"]
+f1_keywords: 
+ - "winsync/ICoreFragmentInspector"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

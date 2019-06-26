@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyError.GetProtocol"]
+f1_keywords: 
+ - "bits/IBackgroundCopyError.GetProtocol"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

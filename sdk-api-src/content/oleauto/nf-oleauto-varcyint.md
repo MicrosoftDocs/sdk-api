@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyInt, VarCyInt function [Automation], _oa96_VarCyInt, automat.varcyint, oleauto/VarCyInt
 ms.topic: function
-f1_keywords: ["oleauto/VarCyInt"]
+f1_keywords: 
+ - "oleauto/VarCyInt"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

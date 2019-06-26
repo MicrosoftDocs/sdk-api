@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_MACHINE_SESSION_MODE, WTSSBX_MACHINE_SESSION_MODE enumeration [Remote Desktop Services], WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, WTSSBX_MACHINE_SESSION_MODE_SINGLE, WTSSBX_MACHINE_SESSION_MODE_UNSPEC, termserv.wtssbx_machine_session_mode, tssbx/WTSSBX_MACHINE_SESSION_MODE, tssbx/WTSSBX_MACHINE_SESSION_MODE_MULTIPLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_SINGLE, tssbx/WTSSBX_MACHINE_SESSION_MODE_UNSPEC
 ms.topic: enum
-f1_keywords: ["tssbx/WTSSBX_MACHINE_SESSION_MODE"]
+f1_keywords: 
+ - "tssbx/WTSSBX_MACHINE_SESSION_MODE"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

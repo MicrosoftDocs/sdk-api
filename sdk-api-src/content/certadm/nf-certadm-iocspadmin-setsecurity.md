@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetSecurity method, IOCSPAdmin.SetSecurity, IOCSPAdmin::SetSecurity, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetSecurity, security.iocspadmin_setsecurity
 ms.topic: method
-f1_keywords: ["certadm/IOCSPAdmin.SetSecurity"]
+f1_keywords: 
+ - "certadm/IOCSPAdmin.SetSecurity"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

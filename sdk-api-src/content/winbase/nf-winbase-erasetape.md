@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
 ms.topic: function
-f1_keywords: ["winbase/EraseTape"]
+f1_keywords: 
+ - "winbase/EraseTape"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

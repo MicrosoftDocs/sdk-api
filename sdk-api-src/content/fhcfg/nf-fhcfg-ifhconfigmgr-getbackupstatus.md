@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetBackupStatus method, GetBackupStatus, GetBackupStatus method [Windows API], GetBackupStatus method [Windows API],FhConfigMgr class, GetBackupStatus method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetBackupStatus method, IFhConfigMgr.GetBackupStatus, IFhConfigMgr::GetBackupStatus, fhcfg/IFhConfigMgr::GetBackupStatus, winprog.ifhconfigmgr_getbackupstatus
 ms.topic: method
-f1_keywords: ["fhcfg/IFhConfigMgr.GetBackupStatus"]
+f1_keywords: 
+ - "fhcfg/IFhConfigMgr.GetBackupStatus"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

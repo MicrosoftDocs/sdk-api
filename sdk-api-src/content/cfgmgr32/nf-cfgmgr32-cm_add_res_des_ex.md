@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Add_Res_Des_Ex, CM_Add_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Add_Res_Des_Ex, cfgmgrfn_b3ed76ba-a2cc-4ede-a079-6e39c5c1d3bd.xml, devinst.cm_add_res_des_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Add_Res_Des_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Add_Res_Des_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

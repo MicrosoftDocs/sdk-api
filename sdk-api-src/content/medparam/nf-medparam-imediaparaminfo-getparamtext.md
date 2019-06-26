@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
 ms.topic: method
-f1_keywords: ["medparam/IMediaParamInfo.GetParamText"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo.GetParamText"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

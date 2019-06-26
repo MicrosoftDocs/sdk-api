@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [SMI], GetUserData method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetUserData method, ISettingsContext.GetUserData, ISettingsContext::GetUserData, smi.isettingscontext_getuserdata, wcmconfig/ISettingsContext::GetUserData
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsContext.GetUserData"]
+f1_keywords: 
+ - "wcmconfig/ISettingsContext.GetUserData"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

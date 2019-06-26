@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRatingRegionCount, GetRatingRegionCount method [Microsoft TV Technologies], GetRatingRegionCount method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRatingRegionCount method, IAtscContentAdvisoryDescriptor.GetRatingRegionCount, IAtscContentAdvisoryDescriptor::GetRatingRegionCount, IAtscContentAdvisoryDescriptorGetRatingRegionCount, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount, mstv.iatsccontentadvisorydescriptor_getratingregioncount
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount"]
+f1_keywords: 
+ - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

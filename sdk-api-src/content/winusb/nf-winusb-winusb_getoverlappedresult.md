@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetOverlappedResult, WinUsb_GetOverlappedResult function [Buses], buses.winusb_getoverlappedresult, winusb/WinUsb_GetOverlappedResult, winusbfunc_197c2ea2-c5fd-4a19-b4e5-00c373231606.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_GetOverlappedResult"]
+f1_keywords: 
+ - "winusb/WinUsb_GetOverlappedResult"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

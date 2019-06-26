@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], IAudioEndpointOffloadStreamVolume interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamVolume, coreaudio.iaudioendpointoffloadstreamvolume
 ms.topic: interface
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamVolume"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamVolume"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

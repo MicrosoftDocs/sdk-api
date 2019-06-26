@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortList, AbortList method [Windows Shell], AbortList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AbortList method, ICustomDestinationList.AbortList, ICustomDestinationList::AbortList, _shell_ICustomDestinationList_AbortList, shell.ICustomDestinationList_AbortList, shobjidl_core/ICustomDestinationList::AbortList
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICustomDestinationList.AbortList"]
+f1_keywords: 
+ - "shobjidl_core/ICustomDestinationList.AbortList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

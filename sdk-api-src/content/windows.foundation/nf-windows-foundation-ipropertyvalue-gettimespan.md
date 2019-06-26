@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeSpan, GetTimeSpan method [Windows Runtime], GetTimeSpan method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpan method, IPropertyValue.GetTimeSpan, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpan, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpan, winrt.ipropertyvalue_gettimespan
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetTimeSpan"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetTimeSpan"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

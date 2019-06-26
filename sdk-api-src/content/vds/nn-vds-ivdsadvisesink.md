@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
 ms.topic: interface
-f1_keywords: ["vds/IVdsAdviseSink"]
+f1_keywords: 
+ - "vds/IVdsAdviseSink"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

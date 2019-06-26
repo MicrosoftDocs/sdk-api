@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 2.2], ITAddressTranslationInfo interface [TAPI 2.2],described, _tapi3_itaddresstranslationinfo, tapi3.itaddresstranslationinfo, tapi3if/ITAddressTranslationInfo
 ms.topic: interface
-f1_keywords: ["tapi3if/ITAddressTranslationInfo"]
+f1_keywords: 
+ - "tapi3if/ITAddressTranslationInfo"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
 ms.topic: method
-f1_keywords: ["objidl/ISurrogateService.Init"]
+f1_keywords: 
+ - "objidl/ISurrogateService.Init"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

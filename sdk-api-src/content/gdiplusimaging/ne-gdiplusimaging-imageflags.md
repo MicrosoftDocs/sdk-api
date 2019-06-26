@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageFlags, ImageFlags enumeration [GDI+], ImageFlagsCaching, ImageFlagsColorSpaceCMYK, ImageFlagsColorSpaceGRAY, ImageFlagsColorSpaceRGB, ImageFlagsColorSpaceYCBCR, ImageFlagsColorSpaceYCCK, ImageFlagsHasAlpha, ImageFlagsHasRealDPI, ImageFlagsHasRealPixelSize, ImageFlagsHasTranslucent, ImageFlagsNone, ImageFlagsPartiallyScalable, ImageFlagsReadOnly, ImageFlagsScalable, _gdiplus_ENUM_ImageFlags, gdiplus._gdiplus_ENUM_ImageFlags, gdiplusimaging/ImageFlags, gdiplusimaging/ImageFlagsCaching, gdiplusimaging/ImageFlagsColorSpaceCMYK, gdiplusimaging/ImageFlagsColorSpaceGRAY, gdiplusimaging/ImageFlagsColorSpaceRGB, gdiplusimaging/ImageFlagsColorSpaceYCBCR, gdiplusimaging/ImageFlagsColorSpaceYCCK, gdiplusimaging/ImageFlagsHasAlpha, gdiplusimaging/ImageFlagsHasRealDPI, gdiplusimaging/ImageFlagsHasRealPixelSize, gdiplusimaging/ImageFlagsHasTranslucent, gdiplusimaging/ImageFlagsNone, gdiplusimaging/ImageFlagsPartiallyScalable, gdiplusimaging/ImageFlagsReadOnly, gdiplusimaging/ImageFlagsScalable
 ms.topic: enum
-f1_keywords: ["gdiplusimaging/ImageFlags"]
+f1_keywords: 
+ - "gdiplusimaging/ImageFlags"
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

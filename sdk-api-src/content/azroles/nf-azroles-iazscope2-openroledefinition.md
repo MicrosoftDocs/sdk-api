@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleDefinition method, IAzScope2.OpenRoleDefinition, IAzScope2::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleDefinition, security.iazscope2_openroledefinition
 ms.topic: method
-f1_keywords: ["azroles/IAzScope2.OpenRoleDefinition"]
+f1_keywords: 
+ - "azroles/IAzScope2.OpenRoleDefinition"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

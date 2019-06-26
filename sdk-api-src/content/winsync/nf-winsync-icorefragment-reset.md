@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],Reset method, ICoreFragment.Reset, ICoreFragment::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragment interface, winsync.icorefragment_reset, winsync/ICoreFragment::Reset
 ms.topic: method
-f1_keywords: ["winsync/ICoreFragment.Reset"]
+f1_keywords: 
+ - "winsync/ICoreFragment.Reset"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTACKFRAME64, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64"
 ms.topic: struct
-f1_keywords: ["dbghelp/STACKFRAME64"]
+f1_keywords: 
+ - "dbghelp/STACKFRAME64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

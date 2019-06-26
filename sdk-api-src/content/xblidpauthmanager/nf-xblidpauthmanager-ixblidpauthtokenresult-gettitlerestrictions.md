@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitleRestrictions, GetTitleRestrictions method, GetTitleRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetTitleRestrictions method, IXblIdpAuthTokenResult.GetTitleRestrictions, IXblIdpAuthTokenResult::GetTitleRestrictions, xblidp.ixblidpauthtokenresult_gettitlerestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetTitleRestrictions"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetTitleRestrictions"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

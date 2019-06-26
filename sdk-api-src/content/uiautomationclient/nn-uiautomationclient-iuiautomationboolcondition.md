@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationBoolCondition, IUIAutomationBoolCondition interface [Windows Accessibility], IUIAutomationBoolCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationBoolCondition, uiauto_IUIAutomationBoolCondition, uiautomationclient/IUIAutomationBoolCondition, winauto.uiauto_IUIAutomationBoolCondition
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationBoolCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationBoolCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

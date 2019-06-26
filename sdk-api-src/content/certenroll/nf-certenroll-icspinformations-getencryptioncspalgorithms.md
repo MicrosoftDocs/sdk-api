@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionCspAlgorithms, GetEncryptionCspAlgorithms method [Security], GetEncryptionCspAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetEncryptionCspAlgorithms method, ICspInformations.GetEncryptionCspAlgorithms, ICspInformations::GetEncryptionCspAlgorithms, certenroll/ICspInformations::GetEncryptionCspAlgorithms, security.icspinformations_getencryptioncspalgorithms_method
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformations.GetEncryptionCspAlgorithms"]
+f1_keywords: 
+ - "certenroll/ICspInformations.GetEncryptionCspAlgorithms"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

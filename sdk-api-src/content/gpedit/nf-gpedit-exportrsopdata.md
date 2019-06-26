@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_exportrsopdata, gpedit/ExportRSoPData, policy.exportrsopdata
 ms.topic: function
-f1_keywords: ["gpedit/ExportRSoPData"]
+f1_keywords: 
+ - "gpedit/ExportRSoPData"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

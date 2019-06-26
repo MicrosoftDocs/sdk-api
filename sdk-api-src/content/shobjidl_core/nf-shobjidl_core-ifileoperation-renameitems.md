@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItems method, IFileOperation.RenameItems, IFileOperation::RenameItems, RenameItems, RenameItems method [Windows Shell], RenameItems method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItems, shell.IFileOperation_RenameItems, shobjidl_core/IFileOperation::RenameItems
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperation.RenameItems"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperation.RenameItems"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

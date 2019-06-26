@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses], USBUSER_POWER_INFO_REQUEST, USBUSER_POWER_INFO_REQUEST structure [Buses], buses.usbuser_power_info_request, usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml, usbuser/PUSBUSER_POWER_INFO_REQUEST, usbuser/USBUSER_POWER_INFO_REQUEST"
 ms.topic: struct
-f1_keywords: ["usbuser/USBUSER_POWER_INFO_REQUEST"]
+f1_keywords: 
+ - "usbuser/USBUSER_POWER_INFO_REQUEST"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

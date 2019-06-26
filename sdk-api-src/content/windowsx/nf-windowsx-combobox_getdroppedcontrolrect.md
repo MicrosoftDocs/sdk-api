@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetDroppedControlRect, ComboBox_GetDroppedControlRect macro [Windows Controls], _win32_ComboBox_GetDroppedControlRect, _win32_ComboBox_GetDroppedControlRect_cpp, controls.ComboBox_GetDroppedControlRect, controls._win32_ComboBox_GetDroppedControlRect, windowsx/ComboBox_GetDroppedControlRect
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_GetDroppedControlRect"]
+f1_keywords: 
+ - "windowsx/ComboBox_GetDroppedControlRect"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

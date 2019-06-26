@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaLog interface [WIA],hResult method, IWiaLog.hResult, IWiaLog::hResult, _wia_IWiaLog_hResult, hResult, hResult method [WIA], hResult method [WIA],IWiaLog interface, wia._wia_IWiaLog_hResult, wia_xp/IWiaLog::hResult
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaLog.hResult"]
+f1_keywords: 
+ - "wia_xp/IWiaLog.hResult"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

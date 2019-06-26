@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsPrefix, PathIsPrefix function [Windows Shell], PathIsPrefixA, PathIsPrefixW, _win32_PathIsPrefix, shell.PathIsPrefix, shlwapi/PathIsPrefix, shlwapi/PathIsPrefixA, shlwapi/PathIsPrefixW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsPrefix"]
+f1_keywords: 
+ - "shlwapi/PathIsPrefix"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

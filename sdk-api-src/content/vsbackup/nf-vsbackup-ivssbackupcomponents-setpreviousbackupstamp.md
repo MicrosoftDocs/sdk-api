@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetPreviousBackupStamp method, IVssBackupComponents.SetPreviousBackupStamp, IVssBackupComponents::SetPreviousBackupStamp, SetPreviousBackupStamp, SetPreviousBackupStamp method [VSS], SetPreviousBackupStamp method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setpreviousbackupstamp, base.ivssbackupcomponents_setpreviousbackupstamp, vsbackup/IVssBackupComponents::SetPreviousBackupStamp
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponents.SetPreviousBackupStamp"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponents.SetPreviousBackupStamp"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

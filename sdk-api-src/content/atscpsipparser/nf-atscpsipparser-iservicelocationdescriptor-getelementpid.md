@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementPID method, IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
 ms.topic: method
-f1_keywords: ["atscpsipparser/IServiceLocationDescriptor.GetElementPID"]
+f1_keywords: 
+ - "atscpsipparser/IServiceLocationDescriptor.GetElementPID"
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

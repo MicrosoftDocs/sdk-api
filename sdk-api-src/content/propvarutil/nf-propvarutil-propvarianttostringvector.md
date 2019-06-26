@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToStringVector"]
+f1_keywords: 
+ - "propvarutil/PropVariantToStringVector"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

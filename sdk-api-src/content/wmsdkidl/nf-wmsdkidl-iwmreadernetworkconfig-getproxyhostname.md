@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProxyHostName, GetProxyHostName method [windows Media Format], GetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyHostName method, IWMReaderNetworkConfig.GetProxyHostName, IWMReaderNetworkConfig::GetProxyHostName, IWMReaderNetworkConfigGetProxyHostName, wmformat.iwmreadernetworkconfig_getproxyhostname, wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetProxyHostName"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetProxyHostName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

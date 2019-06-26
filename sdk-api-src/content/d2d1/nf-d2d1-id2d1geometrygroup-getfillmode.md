@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFillMode, GetFillMode method [Direct2D], GetFillMode method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetFillMode method, ID2D1GeometryGroup.GetFillMode, ID2D1GeometryGroup::GetFillMode, d2d1/ID2D1GeometryGroup::GetFillMode, direct2d.ID2D1GeometryGroup_GetFillMode
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GeometryGroup.GetFillMode"]
+f1_keywords: 
+ - "d2d1/ID2D1GeometryGroup.GetFillMode"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

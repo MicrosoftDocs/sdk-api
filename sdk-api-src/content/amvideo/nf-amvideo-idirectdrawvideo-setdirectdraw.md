@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDirectDraw method, IDirectDrawVideo.SetDirectDraw, IDirectDrawVideo::SetDirectDraw, IDirectDrawVideoSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDirectDraw, dshow.idirectdrawvideo_setdirectdraw
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.SetDirectDraw"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.SetDirectDraw"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

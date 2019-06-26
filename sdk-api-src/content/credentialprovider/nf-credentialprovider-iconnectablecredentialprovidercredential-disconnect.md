@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Disconnect method, IConnectableCredentialProviderCredential.Disconnect, IConnectableCredentialProviderCredential::Disconnect, _shell_IConnectableCredentialProviderCredential_Disconnect, credentialprovider/IConnectableCredentialProviderCredential::Disconnect, shell.IConnectableCredentialProviderCredential_Disconnect
 ms.topic: method
-f1_keywords: ["credentialprovider/IConnectableCredentialProviderCredential.Disconnect"]
+f1_keywords: 
+ - "credentialprovider/IConnectableCredentialProviderCredential.Disconnect"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

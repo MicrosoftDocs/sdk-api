@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _win32_ScrollDC_cpp, controls.ScrollDC, controls._win32_ScrollDC, winuser/ScrollDC
 ms.topic: function
-f1_keywords: ["winuser/ScrollDC"]
+f1_keywords: 
+ - "winuser/ScrollDC"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

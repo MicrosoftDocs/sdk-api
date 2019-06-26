@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winioctl/DISK_CACHE_INFORMATION"]
+f1_keywords: 
+ - "winioctl/DISK_CACHE_INFORMATION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

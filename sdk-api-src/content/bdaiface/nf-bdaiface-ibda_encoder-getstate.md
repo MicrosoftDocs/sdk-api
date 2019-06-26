@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Microsoft TV Technologies], GetState method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],GetState method, IBDA_Encoder.GetState, IBDA_Encoder::GetState, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, bdaiface/IBDA_Encoder::GetState, mstv.ibda_encoder_getstate
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_Encoder.GetState"]
+f1_keywords: 
+ - "bdaiface/IBDA_Encoder.GetState"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

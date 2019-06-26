@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables], DRT_REGISTRATION_STATE_UNRESOLVEABLE, drt/DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE, p2p.drt_registration_state"
 ms.topic: enum
-f1_keywords: ["drt/DRT_REGISTRATION_STATE"]
+f1_keywords: 
+ - "drt/DRT_REGISTRATION_STATE"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

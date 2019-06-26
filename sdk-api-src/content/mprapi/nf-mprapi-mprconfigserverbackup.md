@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerBackup, MprConfigServerBackup function [RAS], _mpr_mprconfigserverbackup, mprapi/MprConfigServerBackup, rras.mprconfigserverbackup
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigServerBackup"]
+f1_keywords: 
+ - "mprapi/MprConfigServerBackup"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

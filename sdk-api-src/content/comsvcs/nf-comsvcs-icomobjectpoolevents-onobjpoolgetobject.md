@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolGetObject method, IComObjectPoolEvents.OnObjPoolGetObject, IComObjectPoolEvents::OnObjPoolGetObject, OnObjPoolGetObject, OnObjPoolGetObject method [COM+], OnObjPoolGetObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolGetObject, comsvcs/IComObjectPoolEvents::OnObjPoolGetObject, cos.icomobjectpoolevents_onobjpoolgetobject
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectPoolEvents.OnObjPoolGetObject"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents.OnObjPoolGetObject"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

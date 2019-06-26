@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke
 ms.topic: function
-f1_keywords: ["xinput/XInputGetKeystroke"]
+f1_keywords: 
+ - "xinput/XInputGetKeystroke"
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateChallenge method [Security],INDESPolicy interface, INDESPolicy interface [Security],GenerateChallenge method, INDESPolicy.GenerateChallenge, INDESPolicy::GenerateChallenge, certpol/INDESPolicy::GenerateChallenge, security.indespolicy_generatechallenge
 ms.topic: method
-f1_keywords: ["certpol/INDESPolicy.GenerateChallenge"]
+f1_keywords: 
+ - "certpol/INDESPolicy.GenerateChallenge"
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

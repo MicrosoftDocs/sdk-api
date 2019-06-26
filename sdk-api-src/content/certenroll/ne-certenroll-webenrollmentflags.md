@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags
 ms.topic: enum
-f1_keywords: ["certenroll/WebEnrollmentFlags"]
+f1_keywords: 
+ - "certenroll/WebEnrollmentFlags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

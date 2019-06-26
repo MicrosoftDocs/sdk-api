@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
 ms.topic: interface
-f1_keywords: ["d3d10effect/ID3D10EffectPass"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectPass"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

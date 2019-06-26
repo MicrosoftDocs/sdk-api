@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],RemoveProgram method, IBDA_ConditionalAccess.RemoveProgram, IBDA_ConditionalAccess::RemoveProgram, IBDA_ConditionalAccessRemoveProgram, RemoveProgram, RemoveProgram method [Microsoft TV Technologies], RemoveProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::RemoveProgram, mstv.ibda_conditionalaccess_removeprogram
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccess.RemoveProgram"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccess.RemoveProgram"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

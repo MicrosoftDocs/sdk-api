@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
 ms.topic: function
-f1_keywords: ["mftransform/MFCreateTransformActivate"]
+f1_keywords: 
+ - "mftransform/MFCreateTransformActivate"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

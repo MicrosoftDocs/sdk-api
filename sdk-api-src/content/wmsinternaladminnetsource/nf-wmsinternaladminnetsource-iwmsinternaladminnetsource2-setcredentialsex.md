@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource2 interface [windows Media Format],SetCredentialsEx method, IWMSInternalAdminNetSource2.SetCredentialsEx, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource2.SetCredentialsEx"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.SetCredentialsEx"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

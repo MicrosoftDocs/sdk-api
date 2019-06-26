@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
 ms.topic: method
-f1_keywords: ["waasapi/IWaaSAssessor.GetOSUpdateAssessment"]
+f1_keywords: 
+ - "waasapi/IWaaSAssessor.GetOSUpdateAssessment"
 req.header: waasapi.h
 req.include-header: 
 req.target-type: Windows

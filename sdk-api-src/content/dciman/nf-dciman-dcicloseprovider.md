@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCICloseProvider, DCICloseProvider function [Windows API], _dciman_dcicloseprovider, dciman/DCICloseProvider, winprog._dciman_dcicloseprovider, winui._dciman_dcicloseprovider
 ms.topic: function
-f1_keywords: ["dciman/DCICloseProvider"]
+f1_keywords: 
+ - "dciman/DCICloseProvider"
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

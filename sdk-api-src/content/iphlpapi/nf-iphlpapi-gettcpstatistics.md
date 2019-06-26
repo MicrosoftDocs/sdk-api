@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
 ms.topic: function
-f1_keywords: ["iphlpapi/GetTcpStatistics"]
+f1_keywords: 
+ - "iphlpapi/GetTcpStatistics"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

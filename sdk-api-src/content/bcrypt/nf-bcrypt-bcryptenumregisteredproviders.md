@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptEnumRegisteredProviders"]
+f1_keywords: 
+ - "bcrypt/BCryptEnumRegisteredProviders"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

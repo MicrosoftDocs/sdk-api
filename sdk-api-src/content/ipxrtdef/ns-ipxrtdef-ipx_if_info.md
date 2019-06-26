@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_INFO, PIPX_IF_INFO structure pointer [RAS], _mpr_ipx_if_info, ipxrtdef/IPX_IF_INFO, ipxrtdef/PIPX_IF_INFO, rras.ipx_if_info"
 ms.topic: struct
-f1_keywords: ["ipxrtdef/IPX_IF_INFO"]
+f1_keywords: 
+ - "ipxrtdef/IPX_IF_INFO"
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows

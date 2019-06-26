@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetRowCount, TabCtrl_GetRowCount macro [Windows Controls], _win32_TabCtrl_GetRowCount, _win32_TabCtrl_GetRowCount_cpp, commctrl/TabCtrl_GetRowCount, controls.TabCtrl_GetRowCount, controls._win32_TabCtrl_GetRowCount
 ms.topic: macro
-f1_keywords: ["commctrl/TabCtrl_GetRowCount"]
+f1_keywords: 
+ - "commctrl/TabCtrl_GetRowCount"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

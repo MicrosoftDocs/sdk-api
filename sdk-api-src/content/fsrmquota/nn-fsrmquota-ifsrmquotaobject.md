@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], IFsrmQuotaObject interface [File Server Resource Manager],described, fs.ifsrmquotaobject, fsrm.ifsrmquotaobject, fsrm/IFsrmQuotaObject
 ms.topic: interface
-f1_keywords: ["fsrmquota/IFsrmQuotaObject"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaObject"
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

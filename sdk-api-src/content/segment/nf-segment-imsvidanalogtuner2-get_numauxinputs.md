@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAuxInputs method, IMSVidAnalogTuner2.get_NumAuxInputs, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
 ms.topic: method
-f1_keywords: ["segment/IMSVidAnalogTuner2.get_NumAuxInputs"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner2.get_NumAuxInputs"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

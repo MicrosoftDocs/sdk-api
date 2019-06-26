@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePackage, CreatePackage method [XPS Documents and Packaging], CreatePackage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackage method, IXpsOMObjectFactory.CreatePackage, IXpsOMObjectFactory::CreatePackage, xps.ixpsomobjectfactory_createpackage, xpsobjectmodel/IXpsOMObjectFactory::CreatePackage
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMObjectFactory.CreatePackage"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackage"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

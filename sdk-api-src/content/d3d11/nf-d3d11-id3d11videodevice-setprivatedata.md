@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateData method, ID3D11VideoDevice.SetPrivateData, ID3D11VideoDevice::SetPrivateData, SetPrivateData, SetPrivateData method [Media Foundation], SetPrivateData method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateData, mf.id3d11videodevice_setprivatedata
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoDevice.SetPrivateData"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoDevice.SetPrivateData"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

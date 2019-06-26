@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore, IShellImageStore interface [Windows Shell], IShellImageStore interface [Windows Shell],described, _win32_IShellImageStore, shell.IShellImageStore, shlobj/IShellImageStore
 ms.topic: interface
-f1_keywords: ["shlobj/IShellImageStore"]
+f1_keywords: 
+ - "shlobj/IShellImageStore"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

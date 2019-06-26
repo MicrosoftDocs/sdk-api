@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetCallback, IPropertySheetCallback interface [MMC], IPropertySheetCallback interface [MMC],described, _slate_ipropertysheetcallback, mmc.ipropertysheetcallback, mmc/IPropertySheetCallback
 ms.topic: interface
-f1_keywords: ["mmc/IPropertySheetCallback"]
+f1_keywords: 
+ - "mmc/IPropertySheetCallback"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

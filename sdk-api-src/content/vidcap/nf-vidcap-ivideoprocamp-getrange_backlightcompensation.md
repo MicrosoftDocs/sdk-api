@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_BacklightCompensation method, IVideoProcAmp.getRange_BacklightCompensation, IVideoProcAmp::getRange_BacklightCompensation, IVideoProcAmpgetRange_BacklightCompensation, dshow.ivideoprocamp_getrange_backlightcompensation, getRange_BacklightCompensation, getRange_BacklightCompensation method [DirectShow], getRange_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_BacklightCompensation
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.getRange_BacklightCompensation"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.getRange_BacklightCompensation"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInClose, mmeapi/waveInClose, multimedia.waveinclose, waveInClose, waveInClose function [Windows Multimedia]"
 ms.topic: function
-f1_keywords: ["mmeapi/waveInClose"]
+f1_keywords: 
+ - "mmeapi/waveInClose"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

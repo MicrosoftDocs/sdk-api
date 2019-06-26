@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorF, ColorF class [Direct2D], ColorF class [Direct2D],described, D2D1.ColorF, d2d1/ColorF, direct2d.colorf
 ms.topic: class
-f1_keywords: ["d2d1helper/ColorF"]
+f1_keywords: 
+ - "d2d1helper/ColorF"
 req.header: d2d1helper.h
 req.include-header: D2d1helper.h
 req.target-type: Windows

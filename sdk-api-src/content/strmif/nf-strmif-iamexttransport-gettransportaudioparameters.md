@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
 ms.topic: method
-f1_keywords: ["strmif/IAMExtTransport.GetTransportAudioParameters"]
+f1_keywords: 
+ - "strmif/IAMExtTransport.GetTransportAudioParameters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory3.CreateFontSetBuilder, IDWriteFactory3::CreateFontSetBuilder, directwrite.idwritefactory3_createfontsetbuilder, dwrite_3/IDWriteFactory3::CreateFontSetBuilder
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFactory3.CreateFontSetBuilder"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFactory3.CreateFontSetBuilder"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

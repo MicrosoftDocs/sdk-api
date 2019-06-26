@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolTimerEx, SetThreadpoolTimerEx function, base.setthreadpooltimerex, threadpoolapiset/SetThreadpoolTimerEx
 ms.topic: function
-f1_keywords: ["threadpoolapiset/SetThreadpoolTimerEx"]
+f1_keywords: 
+ - "threadpoolapiset/SetThreadpoolTimerEx"
 req.header: threadpoolapiset.h
 req.include-header: 
 req.target-type: Windows

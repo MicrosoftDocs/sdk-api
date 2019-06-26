@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextAlignment method, IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetTextAlignment"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetTextAlignment"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_FRAMERATE enumeration [DirectShow], DVD_FRAMERATEEnumeration, dshow.dvd_framerate, strmif/DVD_FPS_25, strmif/DVD_FPS_30NonDrop, strmif/DVD_FRAMERATE
 ms.topic: enum
-f1_keywords: ["strmif/DVD_FRAMERATE"]
+f1_keywords: 
+ - "strmif/DVD_FRAMERATE"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_INFO_BASIC, CF_PLACEHOLDER_INFO_CLASS, CF_PLACEHOLDER_INFO_CLASS enumeration, CF_PLACEHOLDER_INFO_STANDARD, cfapi/CF_PLACEHOLDER_INFO_BASIC, cfapi/CF_PLACEHOLDER_INFO_CLASS, cfapi/CF_PLACEHOLDER_INFO_STANDARD, cloudApi.cf_placeholder_info_class
 ms.topic: enum
-f1_keywords: ["cfapi/CF_PLACEHOLDER_INFO_CLASS"]
+f1_keywords: 
+ - "cfapi/CF_PLACEHOLDER_INFO_CLASS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

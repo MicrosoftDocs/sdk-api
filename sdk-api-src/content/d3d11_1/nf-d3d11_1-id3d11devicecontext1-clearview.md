@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearView, ClearView method [Direct3D 11], ClearView method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],ClearView method, ID3D11DeviceContext1.ClearView, ID3D11DeviceContext1::ClearView, d3d11_1/ID3D11DeviceContext1::ClearView, direct3d11.id3d11devicecontext1_clearview
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11DeviceContext1.ClearView"]
+f1_keywords: 
+ - "d3d11_1/ID3D11DeviceContext1.ClearView"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

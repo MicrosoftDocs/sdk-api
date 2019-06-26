@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateData method, ID3D10DeviceChild.SetPrivateData, ID3D10DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10DeviceChild.SetPrivateData"]
+f1_keywords: 
+ - "d3d10/ID3D10DeviceChild.SetPrivateData"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

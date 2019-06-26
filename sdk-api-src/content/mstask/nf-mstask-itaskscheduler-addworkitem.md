@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddWorkItem, AddWorkItem method [Task Scheduler], AddWorkItem method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],AddWorkItem method, ITaskScheduler.AddWorkItem, ITaskScheduler::AddWorkItem, _msb_itaskscheduler_addworkitem, mstask/ITaskScheduler::AddWorkItem, taskschd.itaskscheduler_addworkitem
 ms.topic: method
-f1_keywords: ["mstask/ITaskScheduler.AddWorkItem"]
+f1_keywords: 
+ - "mstask/ITaskScheduler.AddWorkItem"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

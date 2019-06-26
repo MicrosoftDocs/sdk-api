@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(const LinearGradientBrush &), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
 ms.topic: method
-f1_keywords: ["gdiplusbrush/LinearGradientBrush.LinearGradientBrush"]
+f1_keywords: 
+ - "gdiplusbrush/LinearGradientBrush.LinearGradientBrush"
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

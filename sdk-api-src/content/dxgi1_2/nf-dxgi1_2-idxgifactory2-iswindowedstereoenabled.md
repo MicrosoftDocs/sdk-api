@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXGIFactory2.IsWindowedStereoEnabled, IDXGIFactory2::IsWindowedStereoEnabled, IsWindowedStereoEnabled, IsWindowedStereoEnabled method [DXGI], IsWindowedStereoEnabled method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_iswindowedstereoenabled, dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIFactory2.IsWindowedStereoEnabled"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIFactory2.IsWindowedStereoEnabled"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

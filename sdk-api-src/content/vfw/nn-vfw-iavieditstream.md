@@ -11,7 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
 ms.topic: interface
-f1_keywords: ["vfw/IAVIEditStream"]
+f1_keywords: 
+ - "vfw/IAVIEditStream"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

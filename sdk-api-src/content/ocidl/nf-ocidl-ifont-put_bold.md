@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
 ms.topic: method
-f1_keywords: ["ocidl/IFont.put_Bold"]
+f1_keywords: 
+ - "ocidl/IFont.put_Bold"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

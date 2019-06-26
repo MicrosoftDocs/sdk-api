@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], IAMCopyCaptureFileProgress interface [DirectShow],described, IAMCopyCaptureFileProgressInterface, dshow.iamcopycapturefileprogress, strmif/IAMCopyCaptureFileProgress
 ms.topic: interface
-f1_keywords: ["strmif/IAMCopyCaptureFileProgress"]
+f1_keywords: 
+ - "strmif/IAMCopyCaptureFileProgress"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

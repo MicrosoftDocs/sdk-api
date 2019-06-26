@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI],described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
 ms.topic: interface
-f1_keywords: ["imapi2/IMultisessionRandomWrite"]
+f1_keywords: 
+ - "imapi2/IMultisessionRandomWrite"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

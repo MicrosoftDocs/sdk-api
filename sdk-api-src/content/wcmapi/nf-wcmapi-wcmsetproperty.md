@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager], wcm.wcmsetproperty, wcmapi/WcmSetProperty
 ms.topic: function
-f1_keywords: ["wcmapi/WcmSetProperty"]
+f1_keywords: 
+ - "wcmapi/WcmSetProperty"
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

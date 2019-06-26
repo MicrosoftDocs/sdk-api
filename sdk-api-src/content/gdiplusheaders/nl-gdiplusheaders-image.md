@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Image, Image class [GDI+], Image class [GDI+],described, _gdiplus_CLASS_Image_Class, gdiplus._gdiplus_CLASS_Image_Class, gdiplusheaders/Image
 ms.topic: class
-f1_keywords: ["gdiplusheaders/Image"]
+f1_keywords: 
+ - "gdiplusheaders/Image"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

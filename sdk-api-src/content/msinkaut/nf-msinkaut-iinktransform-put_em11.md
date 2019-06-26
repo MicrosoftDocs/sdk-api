@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8827b2b2-f2fb-4732-912c-226db8ac9aef, IInkTransform interface [Tablet PC],eM11 property, IInkTransform.eM11, IInkTransform.put_eM11, IInkTransform::eM11, IInkTransform::get_eM11, IInkTransform::put_eM11, InkTransform.get_eM11, InkTransform.put_eM11, eM11 property [Tablet PC], eM11 property [Tablet PC],IInkTransform interface, get_eM11, msinkaut/IInkTransform::eM11, msinkaut/IInkTransform::get_eM11, msinkaut/IInkTransform::put_eM11, put_eM11, tablet.inktransform_em11
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTransform.eM11"]
+f1_keywords: 
+ - "msinkaut/IInkTransform.eM11"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

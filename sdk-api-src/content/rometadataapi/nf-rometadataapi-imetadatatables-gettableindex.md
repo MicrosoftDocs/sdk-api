@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableIndex method, IMetaDataTables.GetTableIndex, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetTableIndex"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetTableIndex"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

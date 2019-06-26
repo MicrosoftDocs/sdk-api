@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Next method, IEnumBitsPeers.Next, IEnumBitsPeers::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_next, bits3_0/IEnumBitsPeers::Next
 ms.topic: method
-f1_keywords: ["bits3_0/IEnumBitsPeers.Next"]
+f1_keywords: 
+ - "bits3_0/IEnumBitsPeers.Next"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

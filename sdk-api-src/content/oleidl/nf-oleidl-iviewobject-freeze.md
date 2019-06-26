@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Freeze, Freeze method [COM], Freeze method [COM],IViewObject interface, IViewObject interface [COM],Freeze method, IViewObject.Freeze, IViewObject::Freeze, _ole_iviewobject_freeze, com.iviewobject_freeze, oleidl/IViewObject::Freeze
 ms.topic: method
-f1_keywords: ["oleidl/IViewObject.Freeze"]
+f1_keywords: 
+ - "oleidl/IViewObject.Freeze"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

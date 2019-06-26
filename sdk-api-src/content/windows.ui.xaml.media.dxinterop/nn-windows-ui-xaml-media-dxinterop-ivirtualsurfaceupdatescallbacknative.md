@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative"]
+f1_keywords: 
+ - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative"
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPARE_STRING, SYSNLS_FUNCTION, SYSNLS_FUNCTION enumeration [Internationalization for Windows Applications], intl.nls_function, intl.sysnls_function, winnls/COMPARE_STRING, winnls/SYSNLS_FUNCTION
 ms.topic: enum
-f1_keywords: ["winnls/SYSNLS_FUNCTION"]
+f1_keywords: 
+ - "winnls/SYSNLS_FUNCTION"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

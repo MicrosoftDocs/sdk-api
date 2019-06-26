@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATION_POLICY, CF_HYDRATION_POLICY structure, cfapi/CF_HYDRATION_POLICY, cloudApi.cf_hydration_policy
 ms.topic: struct
-f1_keywords: ["cfapi/CF_HYDRATION_POLICY"]
+f1_keywords: 
+ - "cfapi/CF_HYDRATION_POLICY"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

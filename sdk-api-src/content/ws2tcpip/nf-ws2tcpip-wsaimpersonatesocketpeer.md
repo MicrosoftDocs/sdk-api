@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
 ms.topic: function
-f1_keywords: ["ws2tcpip/WSAImpersonateSocketPeer"]
+f1_keywords: 
+ - "ws2tcpip/WSAImpersonateSocketPeer"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
 ms.topic: method
-f1_keywords: ["casetup/ICertificateEnrollmentServerSetup.SetProperty"]
+f1_keywords: 
+ - "casetup/ICertificateEnrollmentServerSetup.SetProperty"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -5,7 +5,8 @@ description: Used to cancel a running DNS-SD resolve query.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolveCancel
 ms.topic: language-reference
-f1_keywords: ["windns/DnsServiceResolveCancel"]
+f1_keywords: 
+ - "windns/DnsServiceResolveCancel"
 targetos: Windows
 product: Windows
 req.assembly: 

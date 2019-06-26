@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
 ms.topic: macro
-f1_keywords: ["winnt/LANGIDFROMLCID"]
+f1_keywords: 
+ - "winnt/LANGIDFROMLCID"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

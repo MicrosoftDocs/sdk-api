@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSICOLINFO_NAMES, MSICOLINFO_TYPES, MsiViewGetColumnInfo, MsiViewGetColumnInfo function, _msi_msiviewgetcolumninfo, msiquery/MsiViewGetColumnInfo, setup.msiviewgetcolumninfo
 ms.topic: function
-f1_keywords: ["msiquery/MsiViewGetColumnInfo"]
+f1_keywords: 
+ - "msiquery/MsiViewGetColumnInfo"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

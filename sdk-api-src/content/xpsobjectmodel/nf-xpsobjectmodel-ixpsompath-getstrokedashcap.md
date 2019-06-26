@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packaging], GetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashCap method, IXpsOMPath.GetStrokeDashCap, IXpsOMPath::GetStrokeDashCap, xps.ixpsompath_getstrokedashcap, xpsobjectmodel/IXpsOMPath::GetStrokeDashCap
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.GetStrokeDashCap"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.GetStrokeDashCap"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

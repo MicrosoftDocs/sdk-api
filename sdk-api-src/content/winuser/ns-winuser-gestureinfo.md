@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO"
 ms.topic: struct
-f1_keywords: ["winuser/GESTUREINFO"]
+f1_keywords: 
+ - "winuser/GESTUREINFO"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

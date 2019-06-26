@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match
 ms.topic: macro
-f1_keywords: ["amvideo/BIT_MASKS_MATCH"]
+f1_keywords: 
+ - "amvideo/BIT_MASKS_MATCH"
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

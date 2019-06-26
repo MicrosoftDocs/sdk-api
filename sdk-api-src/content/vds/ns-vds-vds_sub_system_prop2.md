@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2 structure pointer, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP2, VDS_SUB_SYSTEM_PROP2 structure, base.vds_sub_system_prop2, vds/PVDS_SUB_SYSTEM_PROP2, vds/VDS_SUB_SYSTEM_PROP2, vdshwprv/PVDS_SUB_SYSTEM_PROP2, vdshwprv/VDS_SUB_SYSTEM_PROP2"
 ms.topic: struct
-f1_keywords: ["vds/VDS_SUB_SYSTEM_PROP2"]
+f1_keywords: 
+ - "vds/VDS_SUB_SYSTEM_PROP2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

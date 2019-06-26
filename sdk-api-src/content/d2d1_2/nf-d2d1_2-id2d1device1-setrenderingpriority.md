@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device1 interface [Direct2D],SetRenderingPriority method, ID2D1Device1.SetRenderingPriority, ID2D1Device1::SetRenderingPriority, SetRenderingPriority, SetRenderingPriority method [Direct2D], SetRenderingPriority method [Direct2D],ID2D1Device1 interface, d2d1_2/ID2D1Device1::SetRenderingPriority, direct2d.id2d1device1_setrenderingpriority
 ms.topic: method
-f1_keywords: ["d2d1_2/ID2D1Device1.SetRenderingPriority"]
+f1_keywords: 
+ - "d2d1_2/ID2D1Device1.SetRenderingPriority"
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

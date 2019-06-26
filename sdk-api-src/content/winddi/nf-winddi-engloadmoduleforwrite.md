@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLoadModuleForWrite, EngLoadModuleForWrite function [Display Devices], display.engloadmoduleforwrite, gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml, winddi/EngLoadModuleForWrite
 ms.topic: function
-f1_keywords: ["winddi/EngLoadModuleForWrite"]
+f1_keywords: 
+ - "winddi/EngLoadModuleForWrite"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],EnumAudioEndpoints method, IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

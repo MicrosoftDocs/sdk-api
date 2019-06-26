@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],ProbeSpecificFileSystem method, IFileSystemImage3.ProbeSpecificFileSystem, IFileSystemImage3::ProbeSpecificFileSystem, ProbeSpecificFileSystem, ProbeSpecificFileSystem method [IMAPI], ProbeSpecificFileSystem method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_probespecificfilesystem, imapi2fs/IFileSystemImage3::ProbeSpecificFileSystem
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage3.ProbeSpecificFileSystem"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage3.ProbeSpecificFileSystem"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

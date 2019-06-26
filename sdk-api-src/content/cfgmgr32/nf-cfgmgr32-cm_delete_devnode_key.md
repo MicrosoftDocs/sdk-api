@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_DevNode_Key, CM_Delete_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_DevNode_Key, cfgmgrfn_20a14360-4506-465d-bb5c-79116c3bc78f.xml, devinst.cm_delete_devnode_key
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Delete_DevNode_Key"]
+f1_keywords: 
+ - "cfgmgr32/CM_Delete_DevNode_Key"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontData, DrvQueryFontData function [Display Devices], ddifncs_6992339b-a8e8-4bdf-b7a4-7a3087f62051.xml, display.drvqueryfontdata, winddi/DrvQueryFontData
 ms.topic: function
-f1_keywords: ["winddi/DrvQueryFontData"]
+f1_keywords: 
+ - "winddi/DrvQueryFontData"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

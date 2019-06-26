@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Log_Conf_Priority, CM_Get_Log_Conf_Priority function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority, cfgmgrfn_23c7a94b-fd43-493e-ae6b-56ce7c69278b.xml, devinst.cm_get_log_conf_priority
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Log_Conf_Priority"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Log_Conf_Priority"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

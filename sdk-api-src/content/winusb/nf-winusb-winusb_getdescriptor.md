@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.winusb_getdescriptor, winusb/WinUsb_GetDescriptor, winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_GetDescriptor"]
+f1_keywords: 
+ - "winusb/WinUsb_GetDescriptor"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

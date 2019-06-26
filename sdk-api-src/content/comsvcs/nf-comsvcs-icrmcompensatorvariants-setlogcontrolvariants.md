@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],SetLogControlVariants method, ICrmCompensatorVariants.SetLogControlVariants, ICrmCompensatorVariants::SetLogControlVariants, SetLogControlVariants, SetLogControlVariants method [COM+], SetLogControlVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_SetLogControlVariants, comsvcs/ICrmCompensatorVariants::SetLogControlVariants, cos.icrmcompensatorvariants_setlogcontrolvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.SetLogControlVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.SetLogControlVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

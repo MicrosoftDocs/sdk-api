@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_METRICS, DWRITE_FONT_METRICS structure [Direct Write], directwrite.dwrite_font_metrics, dwrite/DWRITE_FONT_METRICS
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_FONT_METRICS"]
+f1_keywords: 
+ - "dwrite/DWRITE_FONT_METRICS"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

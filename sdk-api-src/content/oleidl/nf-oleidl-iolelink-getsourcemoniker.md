@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceMoniker, GetSourceMoniker method [COM], GetSourceMoniker method [COM],IOleLink interface, IOleLink interface [COM],GetSourceMoniker method, IOleLink.GetSourceMoniker, IOleLink::GetSourceMoniker, _ole_iolelink_getsourcemoniker, com.iolelink_getsourcemoniker, oleidl/IOleLink::GetSourceMoniker
 ms.topic: method
-f1_keywords: ["oleidl/IOleLink.GetSourceMoniker"]
+f1_keywords: 
+ - "oleidl/IOleLink.GetSourceMoniker"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
 ms.topic: callback
-f1_keywords: ["winbio_adapter/EngineAdapterAcceptSampleData"]
+f1_keywords: 
+ - "winbio_adapter/EngineAdapterAcceptSampleData"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

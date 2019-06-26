@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
 ms.topic: method
-f1_keywords: ["iads/IADsOpenDSObject.OpenDSObject"]
+f1_keywords: 
+ - "iads/IADsOpenDSObject.OpenDSObject"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

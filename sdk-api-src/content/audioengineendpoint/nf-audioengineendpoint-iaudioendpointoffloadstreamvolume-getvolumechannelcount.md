@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolumeChannelCount, GetVolumeChannelCount method [Core Audio], GetVolumeChannelCount method [Core Audio],IAudioEndpointOffloadStreamVolume interface, IAudioEndpointOffloadStreamVolume interface [Core Audio],GetVolumeChannelCount method, IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount, IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetVolumeChannelCount, coreaudio.iaudioendpointoffloadstreamvolume_getvolumechannelcount
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

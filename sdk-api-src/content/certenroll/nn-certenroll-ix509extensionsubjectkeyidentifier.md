@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier
 ms.topic: interface
-f1_keywords: ["certenroll/IX509ExtensionSubjectKeyIdentifier"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionSubjectKeyIdentifier"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

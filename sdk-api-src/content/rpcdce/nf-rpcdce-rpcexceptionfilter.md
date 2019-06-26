@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcExceptionFilter, RpcExceptionFilter function [RPC], STATUS_ACCESS_VIOLATION, STATUS_ASSERTION_FAILURE, STATUS_BREAKPOINT, STATUS_DATATYPE_MISALIGNMENT, STATUS_GUARD_PAGE_VIOLATION, STATUS_HANDLE_NOT_CLOSABLE, STATUS_ILLEGAL_INSTRUCTION, STATUS_INSTRUCTION_MISALIGNMENT, STATUS_IN_PAGE_ERROR, STATUS_POSSIBLE_DEADLOCK, STATUS_PRIVILEGED_INSTRUCTION, STATUS_REG_NAT_CONSUMPTION, STATUS_STACK_BUFFER_OVERRUN, STATUS_STACK_OVERFLOW, rpc.rpcexceptionfilter, rpcdce/RpcExceptionFilter
 ms.topic: function
-f1_keywords: ["rpcdce/RpcExceptionFilter"]
+f1_keywords: 
+ - "rpcdce/RpcExceptionFilter"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

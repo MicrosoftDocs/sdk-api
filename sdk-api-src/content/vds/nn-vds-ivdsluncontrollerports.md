@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.topic: interface
-f1_keywords: ["vds/IVdsLunControllerPorts"]
+f1_keywords: 
+ - "vds/IVdsLunControllerPorts"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

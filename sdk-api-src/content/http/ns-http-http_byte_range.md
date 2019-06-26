@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTTP], PHTTP_BYTE_RANGE, PHTTP_BYTE_RANGE structure pointer [HTTP], _http_http_byte_range, http.http_byte_range, http/HTTP_BYTE_RANGE, http/PHTTP_BYTE_RANGE"
 ms.topic: struct
-f1_keywords: ["http/HTTP_BYTE_RANGE"]
+f1_keywords: 
+ - "http/HTTP_BYTE_RANGE"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

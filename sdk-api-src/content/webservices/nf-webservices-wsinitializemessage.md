@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
 ms.topic: function
-f1_keywords: ["webservices/WsInitializeMessage"]
+f1_keywords: 
+ - "webservices/WsInitializeMessage"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

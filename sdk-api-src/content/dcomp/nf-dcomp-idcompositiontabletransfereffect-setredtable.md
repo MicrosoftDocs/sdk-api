@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTable method, IDCompositionTableTransferEffect.SetRedTable, IDCompositionTableTransferEffect::SetRedTable, SetRedTable, SetRedTable method [DirectComposition], SetRedTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTable, directcomp.idcompositiontabletransfereffect_setredtable
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTableTransferEffect.SetRedTable"]
+f1_keywords: 
+ - "dcomp/IDCompositionTableTransferEffect.SetRedTable"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferDestination interface [Windows Shell],Unadvise method, ITransferDestination.Unadvise, ITransferDestination::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferDestination interface, _shell_ITransferDestination_Unadvise, shell.ITransferDestination_Unadvise, shobjidl_core/ITransferDestination::Unadvise
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITransferDestination.Unadvise"]
+f1_keywords: 
+ - "shobjidl_core/ITransferDestination.Unadvise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

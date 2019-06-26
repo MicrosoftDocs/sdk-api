@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],Remove method, ICspStatuses.Remove, ICspStatuses::Remove, Remove, Remove method [Security], Remove method [Security],ICspStatuses interface, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatuses.Remove"]
+f1_keywords: 
+ - "certenroll/ICspStatuses.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

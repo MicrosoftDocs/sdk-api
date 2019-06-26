@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get__NewEnum method, IUPnPDevices.get__NewEnum, IUPnPDevices::get__NewEnum, _upnp_iupnpdevices__newenum, get__NewEnum, get__NewEnum method [UPnP APIs], get__NewEnum method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices__newenum, upnp/IUPnPDevices::get__NewEnum
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevices.get__NewEnum"]
+f1_keywords: 
+ - "upnp/IUPnPDevices.get__NewEnum"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

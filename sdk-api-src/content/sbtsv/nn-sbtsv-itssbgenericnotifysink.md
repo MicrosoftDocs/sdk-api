@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbGenericNotifySink, ITsSbGenericNotifySink interface [Remote Desktop Services], ITsSbGenericNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbGenericNotifySink, termserv.itssbgenericnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbGenericNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbGenericNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

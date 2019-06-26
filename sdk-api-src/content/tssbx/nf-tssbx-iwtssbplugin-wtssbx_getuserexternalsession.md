@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetUserExternalSession method, IWTSSBPlugin.WTSSBX_GetUserExternalSession, IWTSSBPlugin::WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession, WTSSBX_GetUserExternalSession method [Remote Desktop Services], WTSSBX_GetUserExternalSession method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getuserexternalsession, tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession
 ms.topic: method
-f1_keywords: ["tssbx/IWTSSBPlugin.WTSSBX_GetUserExternalSession"]
+f1_keywords: 
+ - "tssbx/IWTSSBPlugin.WTSSBX_GetUserExternalSession"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

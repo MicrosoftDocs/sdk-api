@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], IRangeValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IRangeValueProvider, uiauto_IRangeValueProvider, uiautomationcore/IRangeValueProvider, winauto.uiauto_IRangeValueProvider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IRangeValueProvider"]
+f1_keywords: 
+ - "uiautomationcore/IRangeValueProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

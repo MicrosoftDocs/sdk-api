@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.topic: method
-f1_keywords: ["chstring/CHString.Collate"]
+f1_keywords: 
+ - "chstring/CHString.Collate"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

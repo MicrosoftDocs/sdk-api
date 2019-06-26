@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNamespace, CreateNamespace method [Windows Deployment Services], CreateNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, IWdsTransportNamespaceManager interface [Windows Deployment Services],CreateNamespace method, IWdsTransportNamespaceManager.CreateNamespace, IWdsTransportNamespaceManager::CreateNamespace, wds.iwdstransportnamespacemanager_createnamespace, wdstptmgmt/IWdsTransportNamespaceManager::CreateNamespace
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceManager.CreateNamespace"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespaceManager.CreateNamespace"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

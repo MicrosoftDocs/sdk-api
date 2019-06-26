@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter4.AddPayloadPackage, IAppxBundleWriter4::AddPayloadPackage, appxpackaging/IAppxBundleWriter4::AddPayloadPackage, appxpkg.iappxbundlewriter4_addpayloadpackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleWriter4.AddPayloadPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleWriter4.AddPayloadPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

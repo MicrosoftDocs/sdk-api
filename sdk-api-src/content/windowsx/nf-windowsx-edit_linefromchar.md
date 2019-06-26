@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win32_Edit_LineFromChar, _win32_Edit_LineFromChar_cpp, controls.Edit_LineFromChar, controls._win32_Edit_LineFromChar, windowsx/Edit_LineFromChar
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_LineFromChar"]
+f1_keywords: 
+ - "windowsx/Edit_LineFromChar"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

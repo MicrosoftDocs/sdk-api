@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellingError, ISpellingError interface [Internationalization for Windows Applications], ISpellingError interface [Internationalization for Windows Applications],described, intl.ispellingerror, spellcheck/ISpellingError
 ms.topic: interface
-f1_keywords: ["spellcheck/ISpellingError"]
+f1_keywords: 
+ - "spellcheck/ISpellingError"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

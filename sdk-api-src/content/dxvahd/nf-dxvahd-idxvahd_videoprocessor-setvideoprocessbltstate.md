@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],SetVideoProcessBltState method, IDXVAHD_VideoProcessor.SetVideoProcessBltState, IDXVAHD_VideoProcessor::SetVideoProcessBltState, SetVideoProcessBltState, SetVideoProcessBltState method [Media Foundation], SetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessBltState, mf.idxvahd_videoprocessor_setvideoprocessbltstate
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_VideoProcessor.SetVideoProcessBltState"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_VideoProcessor.SetVideoProcessBltState"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

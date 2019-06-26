@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInstanceEvents.OnObjectCreate, IComInstanceEvents::OnObjectCreate, OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+],IComInstanceEvents interface, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate
 ms.topic: method
-f1_keywords: ["comsvcs/IComInstanceEvents.OnObjectCreate"]
+f1_keywords: 
+ - "comsvcs/IComInstanceEvents.OnObjectCreate"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

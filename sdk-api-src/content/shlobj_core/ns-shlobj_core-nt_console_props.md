@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS, LPNT_CONSOLE_PROPS structure pointer [Windows Shell], NT_CONSOLE_PROPS, NT_CONSOLE_PROPS structure [Windows Shell], _win32_NT_CONSOLE_PROPS_str, shell.NT_CONSOLE_PROPS_str, shlobj_core/LPNT_CONSOLE_PROPS, shlobj_core/NT_CONSOLE_PROPS"
 ms.topic: struct
-f1_keywords: ["shlobj_core/NT_CONSOLE_PROPS"]
+f1_keywords: 
+ - "shlobj_core/NT_CONSOLE_PROPS"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

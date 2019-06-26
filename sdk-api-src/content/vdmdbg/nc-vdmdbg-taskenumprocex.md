@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASKENUMPROCEX, TASKENUMPROCEX callback, TASKENUMPROCEX callback function [Windows API], vdmdbg/TASKENUMPROCEX, winprog.processtasks
 ms.topic: callback
-f1_keywords: ["vdmdbg/TASKENUMPROCEX"]
+f1_keywords: 
+ - "vdmdbg/TASKENUMPROCEX"
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

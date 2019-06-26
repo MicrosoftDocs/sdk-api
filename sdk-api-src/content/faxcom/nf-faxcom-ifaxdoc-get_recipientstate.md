@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientState property, IFaxDoc.RecipientState, IFaxDoc.get_RecipientState, IFaxDoc::RecipientState, IFaxDoc::get_RecipientState, IFaxDoc::put_RecipientState, RecipientState property [Fax Service], RecipientState property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_get_recipientstate, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientstate_cpp, faxcom/IFaxDoc::RecipientState, faxcom/IFaxDoc::get_RecipientState, faxcom/IFaxDoc::put_RecipientState, get_RecipientState
 ms.topic: method
-f1_keywords: ["faxcom/IFaxDoc.RecipientState"]
+f1_keywords: 
+ - "faxcom/IFaxDoc.RecipientState"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

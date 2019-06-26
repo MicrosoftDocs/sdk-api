@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALIASING_BARRIER, D3D12_RESOURCE_ALIASING_BARRIER structure, d3d12/D3D12_RESOURCE_ALIASING_BARRIER, direct3d12.d3d12_resource_aliasing_barrier
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_RESOURCE_ALIASING_BARRIER"]
+f1_keywords: 
+ - "d3d12/D3D12_RESOURCE_ALIASING_BARRIER"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

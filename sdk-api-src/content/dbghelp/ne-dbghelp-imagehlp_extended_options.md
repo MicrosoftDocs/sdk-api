@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMAGEHLP_EXTENDED_OPTIONS, IMAGEHLP_EXTENDED_OPTIONS enumeration, SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SYMOPT_EX_MAX, base.imagehlp_extended_options, dbghelp/IMAGEHLP_EXTENDED_OPTIONS, dbghelp/SYMOPT_EX_DISABLEACCESSTIMEUPDATE, dbghelp/SYMOPT_EX_MAX
 ms.topic: enum
-f1_keywords: ["dbghelp/IMAGEHLP_EXTENDED_OPTIONS"]
+f1_keywords: 
+ - "dbghelp/IMAGEHLP_EXTENDED_OPTIONS"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

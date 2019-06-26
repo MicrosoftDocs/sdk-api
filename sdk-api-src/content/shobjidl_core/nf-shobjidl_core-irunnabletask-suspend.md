@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
 ms.topic: method
-f1_keywords: ["shobjidl_core/IRunnableTask.Suspend"]
+f1_keywords: 
+ - "shobjidl_core/IRunnableTask.Suspend"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

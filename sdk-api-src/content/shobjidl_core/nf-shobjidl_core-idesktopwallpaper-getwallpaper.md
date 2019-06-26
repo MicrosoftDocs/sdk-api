@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWallpaper, GetWallpaper method [Windows Shell], GetWallpaper method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetWallpaper method, IDesktopWallpaper.GetWallpaper, IDesktopWallpaper::GetWallpaper, shell.IDesktopWallpaper_GetWallpaper, shobjidl_core/IDesktopWallpaper::GetWallpaper
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.GetWallpaper"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.GetWallpaper"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

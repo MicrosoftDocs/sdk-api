@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioCancel, WinBioCancel function [Windows Biometric Framework API], secbiomet.winbiocancel, winbio/WinBioCancel
 ms.topic: function
-f1_keywords: ["winbio/WinBioCancel"]
+f1_keywords: 
+ - "winbio/WinBioCancel"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

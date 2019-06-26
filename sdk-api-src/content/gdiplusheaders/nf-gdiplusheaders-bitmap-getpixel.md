@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],GetPixel method, Bitmap.GetPixel, Bitmap::GetPixel, GetPixel, GetPixel method [GDI+], GetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_GetPixel_x_y_color_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.GetPixel"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.GetPixel"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

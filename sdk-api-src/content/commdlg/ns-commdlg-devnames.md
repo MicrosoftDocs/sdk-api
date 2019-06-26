@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, winui._win32_devnames_str"
 ms.topic: struct
-f1_keywords: ["commdlg/DEVNAMES"]
+f1_keywords: 
+ - "commdlg/DEVNAMES"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

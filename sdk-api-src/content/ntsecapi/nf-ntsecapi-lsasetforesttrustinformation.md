@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaSetForestTrustInformation, LsaSetForestTrustInformation function [Security], ntsecapi/LsaSetForestTrustInformation, security.lsasetforesttrustinformation
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaSetForestTrustInformation"]
+f1_keywords: 
+ - "ntsecapi/LsaSetForestTrustInformation"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContentCount, GetContentCount method [Windows Media Player], GetContentCount method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentCount method, IWMPContentContainer.GetContentCount, IWMPContentContainer::GetContentCount, IWMPContentContainerGetContentCount, contentpartner/IWMPContentContainer::GetContentCount, wmp.iwmpcontentcontainer_getcontentcount
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentContainer.GetContentCount"]
+f1_keywords: 
+ - "contentpartner/IWMPContentContainer.GetContentCount"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx
 ms.topic: function
-f1_keywords: ["perflib/PerfStartProviderEx"]
+f1_keywords: 
+ - "perflib/PerfStartProviderEx"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

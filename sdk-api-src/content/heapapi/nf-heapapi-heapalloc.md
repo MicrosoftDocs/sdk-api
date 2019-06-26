@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
 ms.topic: function
-f1_keywords: ["heapapi/HeapAlloc"]
+f1_keywords: 
+ - "heapapi/HeapAlloc"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

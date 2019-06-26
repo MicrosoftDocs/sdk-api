@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],FindNextAttrTransition method, ITextStoreACP.FindNextAttrTransition, ITextStoreACP::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_WANT_OFFSET, _tsf_itextstoreacp_findnextattrtransition_ref, textstor/ITextStoreACP::FindNextAttrTransition, tsf.itextstoreacp_findnextattrtransition
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.FindNextAttrTransition"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.FindNextAttrTransition"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

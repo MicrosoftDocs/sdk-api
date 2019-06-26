@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
 ms.topic: struct
-f1_keywords: ["directxpackedvector/XMCOLOR"]
+f1_keywords: 
+ - "directxpackedvector/XMCOLOR"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

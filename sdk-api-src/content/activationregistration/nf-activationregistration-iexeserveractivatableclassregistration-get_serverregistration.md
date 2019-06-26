@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],get_ServerRegistration method, IExeServerActivatableClassRegistration.get_ServerRegistration, IExeServerActivatableClassRegistration::get_ServerRegistration, activationregistration/IExeServerActivatableClassRegistration::get_ServerRegistration, get_ServerRegistration, get_ServerRegistration method [Windows Runtime], get_ServerRegistration method [Windows Runtime],IExeServerActivatableClassRegistration interface, winrt.iexeserveractivatableclassregistration_serverregistration
 ms.topic: method
-f1_keywords: ["activationregistration/IExeServerActivatableClassRegistration.get_ServerRegistration"]
+f1_keywords: 
+ - "activationregistration/IExeServerActivatableClassRegistration.get_ServerRegistration"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

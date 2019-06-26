@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordingStatus, GetRecordingStatus method [Microsoft TV Technologies], GetRecordingStatus method [Microsoft TV Technologies],IStreamBufferRecordControl interface, IStreamBufferRecordControl interface [Microsoft TV Technologies],GetRecordingStatus method, IStreamBufferRecordControl.GetRecordingStatus, IStreamBufferRecordControl::GetRecordingStatus, IStreamBufferRecordControlGetRecordingStatus, mstv.istreambufferrecordcontrol_getrecordingstatus, sbe/IStreamBufferRecordControl::GetRecordingStatus
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferRecordControl.GetRecordingStatus"]
+f1_keywords: 
+ - "sbe/IStreamBufferRecordControl.GetRecordingStatus"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

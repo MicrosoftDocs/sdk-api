@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
 ms.topic: interface
-f1_keywords: ["callobj/ICallFrameEvents"]
+f1_keywords: 
+ - "callobj/ICallFrameEvents"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

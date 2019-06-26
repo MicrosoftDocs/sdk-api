@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleType property, IFsrmRule.RuleType, IFsrmRule.get_RuleType, IFsrmRule::RuleType, IFsrmRule::get_RuleType, RuleType property [File Server Resource Manager], RuleType property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruletype, fsrm.ifsrmrule_ruletype, fsrmpipeline/IFsrmRule::RuleType, fsrmpipeline/IFsrmRule::get_RuleType, get_RuleType
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmRule.RuleType"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmRule.RuleType"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

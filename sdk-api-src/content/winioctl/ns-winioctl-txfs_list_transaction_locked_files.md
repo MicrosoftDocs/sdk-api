@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
 ms.topic: struct
-f1_keywords: ["winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"]
+f1_keywords: 
+ - "winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

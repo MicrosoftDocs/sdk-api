@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.topic: function
-f1_keywords: ["propvarutil/InitPropVariantFromDoubleVector"]
+f1_keywords: 
+ - "propvarutil/InitPropVariantFromDoubleVector"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

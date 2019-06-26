@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
 ms.topic: function
-f1_keywords: ["sspi/DeleteSecurityContext"]
+f1_keywords: 
+ - "sspi/DeleteSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

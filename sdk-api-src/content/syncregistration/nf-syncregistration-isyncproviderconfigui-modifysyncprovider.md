@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],ModifySyncProvider method, ISyncProviderConfigUI.ModifySyncProvider, ISyncProviderConfigUI::ModifySyncProvider, ModifySyncProvider, ModifySyncProvider method [Windows Sync], ModifySyncProvider method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::ModifySyncProvider, winsync.isyncproviderconfigui_modifysyncprovider
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderConfigUI.ModifySyncProvider"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUI.ModifySyncProvider"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

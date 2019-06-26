@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
 ms.topic: callback
-f1_keywords: ["projectedfslib/PRJ_QUERY_FILE_NAME_CB"]
+f1_keywords: 
+ - "projectedfslib/PRJ_QUERY_FILE_NAME_CB"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

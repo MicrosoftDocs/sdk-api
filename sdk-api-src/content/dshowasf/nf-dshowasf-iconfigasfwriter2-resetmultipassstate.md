@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method, IConfigAsfWriter2.ResetMultiPassState, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
 ms.topic: method
-f1_keywords: ["dshowasf/IConfigAsfWriter2.ResetMultiPassState"]
+f1_keywords: 
+ - "dshowasf/IConfigAsfWriter2.ResetMultiPassState"
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

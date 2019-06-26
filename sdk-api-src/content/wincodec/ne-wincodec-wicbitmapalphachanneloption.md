@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, WICBitmapAlphaChannelOption, WICBitmapAlphaChannelOption enumeration [Windows Imaging Component], WICBitmapIgnoreAlpha, WICBitmapUseAlpha, WICBitmapUsePremultipliedAlpha, _wic_codec_wicbitmapalphachanneloption, wic._wic_codec_wicbitmapalphachanneloption, wincodec/WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, wincodec/WICBitmapAlphaChannelOption, wincodec/WICBitmapIgnoreAlpha, wincodec/WICBitmapUseAlpha, wincodec/WICBitmapUsePremultipliedAlpha
 ms.topic: enum
-f1_keywords: ["wincodec/WICBitmapAlphaChannelOption"]
+f1_keywords: 
+ - "wincodec/WICBitmapAlphaChannelOption"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

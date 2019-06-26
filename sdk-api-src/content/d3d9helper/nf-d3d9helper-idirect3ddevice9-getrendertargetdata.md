@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRenderTargetData, GetRenderTargetData method [Direct3D 9], GetRenderTargetData method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderTargetData method, IDirect3DDevice9.GetRenderTargetData, IDirect3DDevice9::GetRenderTargetData, d3d9helper/IDirect3DDevice9::GetRenderTargetData, direct3d9.idirect3ddevice9__getrendertargetdata, ef2b445f-f837-5faa-3c68-645f07e7e87b
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.GetRenderTargetData"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.GetRenderTargetData"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoverenlistment, ktmw32/RecoverEnlistment
 ms.topic: function
-f1_keywords: ["ktmw32/RecoverEnlistment"]
+f1_keywords: 
+ - "ktmw32/RecoverEnlistment"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

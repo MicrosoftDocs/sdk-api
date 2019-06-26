@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
 ms.topic: function
-f1_keywords: ["winnls/IsDBCSLeadByte"]
+f1_keywords: 
+ - "winnls/IsDBCSLeadByte"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

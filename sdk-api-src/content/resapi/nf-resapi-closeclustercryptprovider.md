@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Failover Cluster], PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], mscs.closeclustercryptprovider, resapi/CloseClusterCryptProvider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
 ms.topic: function
-f1_keywords: ["resapi/CloseClusterCryptProvider"]
+f1_keywords: 
+ - "resapi/CloseClusterCryptProvider"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

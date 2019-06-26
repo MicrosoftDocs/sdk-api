@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_HALINFO"]
+f1_keywords: 
+ - "ddrawint/DD_HALINFO"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

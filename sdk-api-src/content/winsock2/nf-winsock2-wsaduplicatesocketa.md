@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSADuplicateSocket, WSADuplicateSocket function [Winsock], WSADuplicateSocketA, WSADuplicateSocketW, _win32_wsaduplicatesocket_2, winsock.wsaduplicatesocket_2, winsock2/WSADuplicateSocket, winsock2/WSADuplicateSocketA, winsock2/WSADuplicateSocketW
 ms.topic: function
-f1_keywords: ["winsock2/WSADuplicateSocket"]
+f1_keywords: 
+ - "winsock2/WSADuplicateSocket"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

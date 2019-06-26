@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
 ms.topic: function
-f1_keywords: ["usp10/ScriptCPtoX"]
+f1_keywords: 
+ - "usp10/ScriptCPtoX"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

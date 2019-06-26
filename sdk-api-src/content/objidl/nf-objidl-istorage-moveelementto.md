@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],MoveElementTo method, IStorage.MoveElementTo, IStorage::MoveElementTo, MoveElementTo, MoveElementTo method [Structured Storage], MoveElementTo method [Structured Storage],IStorage interface, _stg_istorage_moveelementto, objidl/IStorage::MoveElementTo, stg.istorage_moveelementto
 ms.topic: method
-f1_keywords: ["objidl/IStorage.MoveElementTo"]
+f1_keywords: 
+ - "objidl/IStorage.MoveElementTo"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

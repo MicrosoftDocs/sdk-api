@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 845ced1c-0b30-f73c-38de-69cd6425f139, ID3D11InfoQueue interface [Direct3D 11],SetMuteDebugOutput method, ID3D11InfoQueue.SetMuteDebugOutput, ID3D11InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [Direct3D 11], SetMuteDebugOutput method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetMuteDebugOutput, direct3d11.id3d11infoqueue_setmutedebugoutput
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.SetMuteDebugOutput"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.SetMuteDebugOutput"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

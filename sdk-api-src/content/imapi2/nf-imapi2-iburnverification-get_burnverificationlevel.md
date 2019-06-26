@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBurnVerification interface [IMAPI],get_BurnVerificationLevel method, IBurnVerification.get_BurnVerificationLevel, IBurnVerification::get_BurnVerificationLevel, get_BurnVerificationLevel, get_BurnVerificationLevel method [IMAPI], get_BurnVerificationLevel method [IMAPI],IBurnVerification interface, imapi.iburnverification_get_burnverificationlevel, imapi2/IBurnVerification::get_BurnVerificationLevel
 ms.topic: method
-f1_keywords: ["imapi2/IBurnVerification.get_BurnVerificationLevel"]
+f1_keywords: 
+ - "imapi2/IBurnVerification.get_BurnVerificationLevel"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

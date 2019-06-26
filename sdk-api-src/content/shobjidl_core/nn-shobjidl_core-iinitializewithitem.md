@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithItem, IInitializeWithItem interface [Windows Shell], IInitializeWithItem interface [Windows Shell],described, shell.IInitializeWithItem, shell_IInitializeWithItem, shobjidl_core/IInitializeWithItem
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IInitializeWithItem"]
+f1_keywords: 
+ - "shobjidl_core/IInitializeWithItem"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

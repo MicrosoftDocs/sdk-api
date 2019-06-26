@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteRange, DeleteRange method [Windows Controls], DeleteRange method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],DeleteRange method, ITextStrings.DeleteRange, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
 ms.topic: method
-f1_keywords: ["tom/ITextStrings.DeleteRange"]
+f1_keywords: 
+ - "tom/ITextStrings.DeleteRange"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

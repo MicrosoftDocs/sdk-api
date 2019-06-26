@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
 ms.topic: method
-f1_keywords: ["structuredquerycondition/IRichChunk.GetData"]
+f1_keywords: 
+ - "structuredquerycondition/IRichChunk.GetData"
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

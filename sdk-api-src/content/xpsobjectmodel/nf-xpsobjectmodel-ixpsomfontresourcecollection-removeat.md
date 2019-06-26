@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMFontResourceCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMFontResourceCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

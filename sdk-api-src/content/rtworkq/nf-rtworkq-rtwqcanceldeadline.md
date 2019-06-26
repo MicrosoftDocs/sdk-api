@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldeadline, rtworkq/RtwqCancelDeadline
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqCancelDeadline"]
+f1_keywords: 
+ - "rtworkq/RtwqCancelDeadline"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMColorConvProps.SetFullCroppingParam"]
+f1_keywords: 
+ - "wmcodecdsp/IWMColorConvProps.SetFullCroppingParam"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

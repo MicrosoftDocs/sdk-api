@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write], directwrite.dwrite_file_fragment, dwrite_3/DWRITE_FILE_FRAGMENT
 ms.topic: struct
-f1_keywords: ["dwrite_3/DWRITE_FILE_FRAGMENT"]
+f1_keywords: 
+ - "dwrite_3/DWRITE_FILE_FRAGMENT"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

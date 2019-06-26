@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFunctionParameter, GetFunctionParameter method [Direct3D 11], GetFunctionParameter method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetFunctionParameter method, ID3D11FunctionReflection.GetFunctionParameter, ID3D11FunctionReflection::GetFunctionParameter, d3d11shader/ID3D11FunctionReflection::GetFunctionParameter, direct3d11.id3d11functionreflection_getfunctionparameter
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11FunctionReflection.GetFunctionParameter"]
+f1_keywords: 
+ - "d3d11shader/ID3D11FunctionReflection.GetFunctionParameter"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

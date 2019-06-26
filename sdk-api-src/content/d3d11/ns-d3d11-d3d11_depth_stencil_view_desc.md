@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3b37b2e7-77a6-e3c7-bed5-e8584a152e68, D3D11_DEPTH_STENCIL_VIEW_DESC, D3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC, direct3d11.d3d11_depth_stencil_view_desc
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC"]
+f1_keywords: 
+ - "d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_VIDEO_PROCESSOR_CUSTOM_RATE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, mf.d3d11_video_processor_custom_rate
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE"]
+f1_keywords: 
+ - "d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

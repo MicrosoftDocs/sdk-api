@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminEstablishDomainRasServer"]
+f1_keywords: 
+ - "mprapi/MprAdminEstablishDomainRasServer"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

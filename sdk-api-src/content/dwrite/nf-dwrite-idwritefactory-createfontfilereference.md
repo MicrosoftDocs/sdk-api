@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFileReference, CreateFontFileReference method [Direct Write], CreateFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateFontFileReference method, IDWriteFactory.CreateFontFileReference, IDWriteFactory::CreateFontFileReference, directwrite.IDWriteFactory_CreateFontFileReference, dwrite/IDWriteFactory::CreateFontFileReference
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFactory.CreateFontFileReference"]
+f1_keywords: 
+ - "dwrite/IDWriteFactory.CreateFontFileReference"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

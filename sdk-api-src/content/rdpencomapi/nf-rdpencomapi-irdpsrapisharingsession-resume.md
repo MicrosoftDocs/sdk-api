@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Resume method, IRDPSRAPISharingSession.Resume, IRDPSRAPISharingSession2 interface [RDP],Resume method, IRDPSRAPISharingSession2::Resume, IRDPSRAPISharingSession::Resume, Resume, Resume method [RDP], Resume method [RDP],IRDPSRAPISharingSession interface, Resume method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_resume, rdpencomapi/IRDPSRAPISharingSession2::Resume, rdpencomapi/IRDPSRAPISharingSession::Resume
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.Resume"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession2.Resume"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 ms.topic: method
-f1_keywords: ["vds/IVdsSubSystemIscsi.SetIpsecGroupPresharedKey"]
+f1_keywords: 
+ - "vds/IVdsSubSystemIscsi.SetIpsecGroupPresharedKey"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

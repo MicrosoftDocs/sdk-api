@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Replace, ImageList_Replace function [Windows Controls], _win32_ImageList_Replace, _win32_ImageList_Replace_cpp, commctrl/ImageList_Replace, controls.ImageList_Replace, controls._win32_ImageList_Replace
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_Replace"]
+f1_keywords: 
+ - "commctrl/ImageList_Replace"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

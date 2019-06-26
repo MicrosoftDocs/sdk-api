@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferSourceEvent.TimeHole, IMSVidStreamBufferSourceEvent::TimeHole, IMSVidStreamBufferSourceEventTimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_timehole, segment/IMSVidStreamBufferSourceEvent::TimeHole
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent.TimeHole"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent.TimeHole"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

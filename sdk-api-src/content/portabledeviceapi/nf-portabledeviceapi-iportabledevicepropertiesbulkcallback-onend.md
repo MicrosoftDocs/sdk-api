@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnEnd method, IPortableDevicePropertiesBulkCallback.OnEnd, IPortableDevicePropertiesBulkCallback::OnEnd, IPortableDevicePropertiesBulkCallbackOnEnd, OnEnd, OnEnd method [Windows Portable Devices SDK], OnEnd method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnEnd, wpdsdk.iportabledevicepropertiesbulkcallback_onend
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDevicePropertiesBulkCallback.OnEnd"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevicePropertiesBulkCallback.OnEnd"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

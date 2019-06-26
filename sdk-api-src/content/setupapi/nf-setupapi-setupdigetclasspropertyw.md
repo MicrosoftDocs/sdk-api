@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassProperty, SetupDiGetClassProperty function [Device and Driver Installation], SetupDiGetClassPropertyW, devinst.setupdigetclassproperty, di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml, setupapi/SetupDiGetClassProperty
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetClassProperty"]
+f1_keywords: 
+ - "setupapi/SetupDiGetClassProperty"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Class_Property

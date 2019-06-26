@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
 ms.topic: function
-f1_keywords: ["lmaccess/NetGetDisplayInformationIndex"]
+f1_keywords: 
+ - "lmaccess/NetGetDisplayInformationIndex"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

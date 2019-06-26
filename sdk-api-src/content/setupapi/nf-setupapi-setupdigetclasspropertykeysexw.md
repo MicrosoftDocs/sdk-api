@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassPropertyKeysEx, SetupDiGetClassPropertyKeysEx function [Device and Driver Installation], SetupDiGetClassPropertyKeysExW, devinst.setupdigetclasspropertykeysex, di-rtns_3f3e4cd6-af28-409f-8e1e-7e06067d7082.xml, setupapi/SetupDiGetClassPropertyKeysEx
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetClassPropertyKeysEx"]
+f1_keywords: 
+ - "setupapi/SetupDiGetClassPropertyKeysEx"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_Keys_Ex

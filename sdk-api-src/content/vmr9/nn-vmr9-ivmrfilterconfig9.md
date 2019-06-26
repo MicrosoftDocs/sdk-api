@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], IVMRFilterConfig9 interface [DirectShow],described, IVMRFilterConfig9Interface, dshow.ivmrfilterconfig9, vmr9/IVMRFilterConfig9
 ms.topic: interface
-f1_keywords: ["vmr9/IVMRFilterConfig9"]
+f1_keywords: 
+ - "vmr9/IVMRFilterConfig9"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

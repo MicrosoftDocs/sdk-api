@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],GetLicInfo method, IClassFactory2.GetLicInfo, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
 ms.topic: method
-f1_keywords: ["ocidl/IClassFactory2.GetLicInfo"]
+f1_keywords: 
+ - "ocidl/IClassFactory2.GetLicInfo"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

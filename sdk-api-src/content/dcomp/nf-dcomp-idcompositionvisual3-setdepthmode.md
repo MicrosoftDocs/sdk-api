@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode method, IDCompositionVisual3.SetDepthMode, IDCompositionVisual3::SetDepthMode, SetDepthMode, SetDepthMode method [DirectComposition], SetDepthMode method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetDepthMode, directcomp.idcompositionvisual3_setdepthmode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual3.SetDepthMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual3.SetDepthMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Pause method, IDistributorNotify.Pause, IDistributorNotify::Pause, IDistributorNotifyPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_pause, strmif/IDistributorNotify::Pause
 ms.topic: method
-f1_keywords: ["strmif/IDistributorNotify.Pause"]
+f1_keywords: 
+ - "strmif/IDistributorNotify.Pause"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

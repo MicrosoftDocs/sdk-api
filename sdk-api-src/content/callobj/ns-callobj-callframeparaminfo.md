@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], callobj/CALLFRAMEPARAMINFO, com.callframeparaminfo
 ms.topic: struct
-f1_keywords: ["callobj/CALLFRAMEPARAMINFO"]
+f1_keywords: 
+ - "callobj/CALLFRAMEPARAMINFO"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

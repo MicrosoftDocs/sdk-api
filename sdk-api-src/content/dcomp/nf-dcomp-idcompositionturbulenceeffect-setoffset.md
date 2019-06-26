@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetOffset method, IDCompositionTurbulenceEffect.SetOffset, IDCompositionTurbulenceEffect::SetOffset, SetOffset, SetOffset method [DirectComposition], SetOffset method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetOffset, directcomp.idcompositionturbulenceeffect_setoffset
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect.SetOffset"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect.SetOffset"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

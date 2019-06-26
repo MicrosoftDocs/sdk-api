@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_DoDefaultAction, LegacyIAccessiblePattern_DoDefaultAction function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiauto_LegacyIAccessiblePattern_DoDefaultAction, uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction, winauto.uiauto_LegacyIAccessiblePattern_DoDefaultAction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction"]
+f1_keywords: 
+ - "uiautomationcoreapi/LegacyIAccessiblePattern_DoDefaultAction"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

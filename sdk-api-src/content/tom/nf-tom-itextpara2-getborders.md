@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBorders, GetBorders method [Windows Controls], GetBorders method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetBorders method, ITextPara2.GetBorders, ITextPara2::GetBorders, controls.itextpara2_getborders, tom/ITextPara2::GetBorders
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.GetBorders"]
+f1_keywords: 
+ - "tom/ITextPara2.GetBorders"
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

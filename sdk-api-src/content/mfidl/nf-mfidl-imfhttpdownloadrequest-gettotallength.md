@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTotalLength method, IMFHttpDownloadRequest.GetTotalLength, IMFHttpDownloadRequest::GetTotalLength, mf.imfhttpdownloadrequest_gettotallength, mfidl/IMFHttpDownloadRequest::GetTotalLength
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.GetTotalLength"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.GetTotalLength"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

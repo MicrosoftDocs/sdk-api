@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
 ms.topic: interface
-f1_keywords: ["camerauicontrol/ICameraUIControl"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControl"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

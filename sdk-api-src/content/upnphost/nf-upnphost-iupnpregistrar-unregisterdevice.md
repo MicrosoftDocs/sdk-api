@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDevice method, IUPnPRegistrar.UnregisterDevice, IUPnPRegistrar::UnregisterDevice, UnregisterDevice, UnregisterDevice method [UPnP APIs], UnregisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdevice, upnp.iupnpregistrar_unregisterdevice, upnphost/IUPnPRegistrar::UnregisterDevice
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPRegistrar.UnregisterDevice"]
+f1_keywords: 
+ - "upnphost/IUPnPRegistrar.UnregisterDevice"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

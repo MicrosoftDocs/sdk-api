@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetFlags method, IMFSensorDevice.GetFlags, IMFSensorDevice::GetFlags, mf.imfsensordevice_getflags, mfidl/IMFSensorDevice::GetFlags
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorDevice.GetFlags"]
+f1_keywords: 
+ - "mfidl/IMFSensorDevice.GetFlags"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

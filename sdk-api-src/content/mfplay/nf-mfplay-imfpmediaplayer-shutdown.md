@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Shutdown method, IMFPMediaPlayer.Shutdown, IMFPMediaPlayer::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.Shutdown"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.Shutdown"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM"
 ms.topic: struct
-f1_keywords: ["immdev/COMPOSITIONFORM"]
+f1_keywords: 
+ - "immdev/COMPOSITIONFORM"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

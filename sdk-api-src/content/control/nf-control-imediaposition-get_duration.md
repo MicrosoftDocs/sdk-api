@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Duration method, IMediaPosition.get_Duration, IMediaPosition::get_Duration, IMediaPositionget_Duration, control/IMediaPosition::get_Duration, dshow.imediaposition_get_duration, get_Duration, get_Duration method [DirectShow], get_Duration method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: ["control/IMediaPosition.get_Duration"]
+f1_keywords: 
+ - "control/IMediaPosition.get_Duration"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

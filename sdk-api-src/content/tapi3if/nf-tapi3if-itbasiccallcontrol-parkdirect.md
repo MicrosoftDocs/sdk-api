@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl.ParkDirect"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl.ParkDirect"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

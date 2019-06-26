@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_BacklightCompensation method, IVideoProcAmp.put_BacklightCompensation, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_BacklightCompensation
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.put_BacklightCompensation"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.put_BacklightCompensation"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

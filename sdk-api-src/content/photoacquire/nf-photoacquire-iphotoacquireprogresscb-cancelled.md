@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.Cancelled"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.Cancelled"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

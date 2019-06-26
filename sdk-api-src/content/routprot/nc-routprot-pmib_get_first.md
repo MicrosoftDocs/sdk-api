@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
 ms.topic: callback
-f1_keywords: ["routprot/MibGetFirst"]
+f1_keywords: 
+ - "routprot/MibGetFirst"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

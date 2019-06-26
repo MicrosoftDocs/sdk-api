@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], ISimilarityTraitsMappedView interface [Remote Differential Compression],described, fs.isimilaritytraitsmappedview, msrdc/ISimilarityTraitsMappedView, rdc.isimilaritytraitsmappedview
 ms.topic: interface
-f1_keywords: ["msrdc/ISimilarityTraitsMappedView"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsMappedView"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

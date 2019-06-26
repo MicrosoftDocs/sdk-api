@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertOIDToAlgId, CertOIDToAlgId function [Security], _crypto2_certoidtoalgid, security.certoidtoalgid, wincrypt/CertOIDToAlgId
 ms.topic: function
-f1_keywords: ["wincrypt/CertOIDToAlgId"]
+f1_keywords: 
+ - "wincrypt/CertOIDToAlgId"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

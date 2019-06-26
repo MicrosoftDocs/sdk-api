@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaSetFocus, UiaSetFocus function [Windows Accessibility], uiauto.uiauto_UiaSetFocusAutoMeth, uiauto_UiaSetFocusAutoMeth, uiautomationcoreapi/UiaSetFocus, winauto.uiauto_UiaSetFocusAutoMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaSetFocus"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaSetFocus"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

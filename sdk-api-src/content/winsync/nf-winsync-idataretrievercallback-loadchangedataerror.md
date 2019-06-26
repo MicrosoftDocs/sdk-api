@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataError method, IDataRetrieverCallback.LoadChangeDataError, IDataRetrieverCallback::LoadChangeDataError, LoadChangeDataError, LoadChangeDataError method [Windows Sync], LoadChangeDataError method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedataerror, winsync/IDataRetrieverCallback::LoadChangeDataError
 ms.topic: method
-f1_keywords: ["winsync/IDataRetrieverCallback.LoadChangeDataError"]
+f1_keywords: 
+ - "winsync/IDataRetrieverCallback.LoadChangeDataError"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

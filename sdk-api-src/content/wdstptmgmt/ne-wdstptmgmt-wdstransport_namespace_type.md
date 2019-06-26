@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE enumeration [Windows Deployment Services], WdsTptNamespaceTypeAutoCast, WdsTptNamespaceTypeScheduledCastAutoStart, WdsTptNamespaceTypeScheduledCastManualStart, WdsTptNamespaceTypeUnknown, wds.wdstransport_namespace_type, wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE, wdstptmgmt/WdsTptNamespaceTypeAutoCast, wdstptmgmt/WdsTptNamespaceTypeScheduledCastAutoStart, wdstptmgmt/WdsTptNamespaceTypeScheduledCastManualStart, wdstptmgmt/WdsTptNamespaceTypeUnknown"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

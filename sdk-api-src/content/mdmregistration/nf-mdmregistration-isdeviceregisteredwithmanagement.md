@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsDeviceRegisteredWithManagement, IsDeviceRegisteredWithManagement function [MDM Registration], mdmreg.isdeviceregisteredwithmanagement, mdmregistration/IsDeviceRegisteredWithManagement
 ms.topic: function
-f1_keywords: ["mdmregistration/IsDeviceRegisteredWithManagement"]
+f1_keywords: 
+ - "mdmregistration/IsDeviceRegisteredWithManagement"
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

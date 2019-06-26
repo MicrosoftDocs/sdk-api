@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEntitlementTokenLength, GetEntitlementTokenLength method [DirectShow], GetEntitlementTokenLength method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementTokenLength method, IESLicenseRenewalResultEvent.GetEntitlementTokenLength, IESLicenseRenewalResultEvent::GetEntitlementTokenLength, mstv.ieslicenserenewalresultevent_getentitlementtokenlength, tuner/IESLicenseRenewalResultEvent::GetEntitlementTokenLength
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.GetEntitlementTokenLength"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.GetEntitlementTokenLength"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

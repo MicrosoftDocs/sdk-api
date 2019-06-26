@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateClientBuffer, AllocateClientBuffer callback function [Security], LSA_ALLOCATE_CLIENT_BUFFER, LSA_ALLOCATE_CLIENT_BUFFER callback, _lsa_allocateclientbuffer, ntsecpkg/AllocateClientBuffer, security.allocateclientbuffer
 ms.topic: callback
-f1_keywords: ["ntsecpkg/AllocateClientBuffer"]
+f1_keywords: 
+ - "ntsecpkg/AllocateClientBuffer"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

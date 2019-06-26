@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
 ms.topic: interface
-f1_keywords: ["control/IMediaPosition"]
+f1_keywords: 
+ - "control/IMediaPosition"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

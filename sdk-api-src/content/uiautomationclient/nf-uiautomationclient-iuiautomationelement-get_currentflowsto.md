@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentFlowsTo property [Windows Accessibility], CurrentFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFlowsTo property, IUIAutomationElement.CurrentFlowsTo, IUIAutomationElement.get_CurrentFlowsTo, IUIAutomationElement::CurrentFlowsTo, IUIAutomationElement::get_CurrentFlowsTo, get_CurrentFlowsTo, uiauto.uiauto_IUIAutomationElement_CurrentFlowsTo, uiauto_IUIAutomationElement_CurrentFlowsTo, uiautomationclient/IUIAutomationElement::CurrentFlowsTo, uiautomationclient/IUIAutomationElement::get_CurrentFlowsTo, winauto.uiauto_IUIAutomationElement_CurrentFlowsTo
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentFlowsTo"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentFlowsTo"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

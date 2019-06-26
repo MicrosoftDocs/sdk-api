@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDOMAIN_PASSWORD_INFORMATION, DOMAIN_LOCKOUT_ADMINS, DOMAIN_PASSWORD_COMPLEX, DOMAIN_PASSWORD_INFORMATION, DOMAIN_PASSWORD_INFORMATION structure [Security], DOMAIN_PASSWORD_NO_ANON_CHANGE, DOMAIN_PASSWORD_NO_CLEAR_CHANGE, DOMAIN_PASSWORD_STORE_CLEARTEXT, DOMAIN_REFUSE_PASSWORD_CHANGE, PDOMAIN_PASSWORD_INFORMATION, PDOMAIN_PASSWORD_INFORMATION structure pointer [Security], _lsa_domain_password_information, ntsecapi/DOMAIN_PASSWORD_INFORMATION, ntsecapi/PDOMAIN_PASSWORD_INFORMATION, security.domain_password_information"
 ms.topic: struct
-f1_keywords: ["ntsecapi/DOMAIN_PASSWORD_INFORMATION"]
+f1_keywords: 
+ - "ntsecapi/DOMAIN_PASSWORD_INFORMATION"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

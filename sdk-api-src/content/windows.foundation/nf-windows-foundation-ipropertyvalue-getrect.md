@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [Windows Runtime], GetRect method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRect method, IPropertyValue.GetRect, IPropertyValue.IPropertyValue, IPropertyValue::GetRect, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRect, winrt.ipropertyvalue_getrect
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetRect"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetRect"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

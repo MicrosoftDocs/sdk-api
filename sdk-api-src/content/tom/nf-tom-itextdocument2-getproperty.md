@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetProperty method, ITextDocument2.GetProperty, ITextDocument2::GetProperty, controls.itextdocument2_getproperty, tom/ITextDocument2::GetProperty, tomCanCopy, tomCanRedo, tomCanUndo, tomDocMathBuild, tomEllipsisMode, tomEllipsisState, tomMathInterSpace, tomMathIntraSpace, tomMathLMargin, tomMathPostSpace, tomMathPreSpace, tomMathRMargin, tomMathWrapIndent, tomMathWrapRight, tomUndoLimit
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetProperty"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

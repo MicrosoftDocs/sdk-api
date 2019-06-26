@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_MayTranslateAccelerator method, IBrowserService2.v_MayTranslateAccelerator, IBrowserService2::v_MayTranslateAccelerator, shdeprecated/IBrowserService2::v_MayTranslateAccelerator, shell.IBrowserService2_v_MayTranslateAccelerator, v_MayTranslateAccelerator, v_MayTranslateAccelerator method [Windows Shell], v_MayTranslateAccelerator method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayTranslateAccelerator
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.v_MayTranslateAccelerator"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.v_MayTranslateAccelerator"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

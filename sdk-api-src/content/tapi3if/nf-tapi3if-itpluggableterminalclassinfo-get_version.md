@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Version method, ITPluggableTerminalClassInfo.get_Version, ITPluggableTerminalClassInfo::get_Version, _tapi3_itpluggableterminalclassinfo_get_version, get_Version, get_Version method [TAPI 2.2], get_Version method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_version, tapi3if/ITPluggableTerminalClassInfo::get_Version
 ms.topic: method
-f1_keywords: ["tapi3if/ITPluggableTerminalClassInfo.get_Version"]
+f1_keywords: 
+ - "tapi3if/ITPluggableTerminalClassInfo.get_Version"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

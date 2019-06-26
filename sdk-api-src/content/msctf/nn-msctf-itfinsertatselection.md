@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInsertAtSelection, ITfInsertAtSelection interface [Text Services Framework], ITfInsertAtSelection interface [Text Services Framework],described, _tsf_itfinsertatselection_ref, msctf/ITfInsertAtSelection, tsf.itfinsertatselection
 ms.topic: interface
-f1_keywords: ["msctf/ITfInsertAtSelection"]
+f1_keywords: 
+ - "msctf/ITfInsertAtSelection"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

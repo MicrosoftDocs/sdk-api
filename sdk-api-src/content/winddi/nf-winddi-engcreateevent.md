@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateEvent, EngCreateEvent function [Display Devices], display.engcreateevent, gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml, winddi/EngCreateEvent
 ms.topic: function
-f1_keywords: ["winddi/EngCreateEvent"]
+f1_keywords: 
+ - "winddi/EngCreateEvent"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_StartLba method, IWriteEngine2EventArgs.get_StartLba, IWriteEngine2EventArgs::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_startlba, imapi2/IWriteEngine2EventArgs::get_StartLba
 ms.topic: method
-f1_keywords: ["imapi2/IWriteEngine2EventArgs.get_StartLba"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2EventArgs.get_StartLba"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetClockVector method, ISingleItemException.GetClockVector, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
 ms.topic: method
-f1_keywords: ["winsync/ISingleItemException.GetClockVector"]
+f1_keywords: 
+ - "winsync/ISingleItemException.GetClockVector"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

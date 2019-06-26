@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],startBurn method, IWMPCdromBurn.startBurn, IWMPCdromBurn::startBurn, IWMPCdromBurnstartBurn, startBurn, startBurn method [Windows Media Player], startBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_startburn, wmp/IWMPCdromBurn::startBurn
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromBurn.startBurn"]
+f1_keywords: 
+ - "wmp/IWMPCdromBurn.startBurn"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

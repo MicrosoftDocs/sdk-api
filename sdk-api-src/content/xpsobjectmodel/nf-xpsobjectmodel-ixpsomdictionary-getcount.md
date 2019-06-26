@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetCount method, IXpsOMDictionary.GetCount, IXpsOMDictionary::GetCount, xps.ixpsomdictionary_getcount, xpsobjectmodel/IXpsOMDictionary::GetCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDictionary.GetCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDictionary.GetCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

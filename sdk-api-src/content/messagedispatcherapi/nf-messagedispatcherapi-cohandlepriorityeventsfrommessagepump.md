@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 ms.topic: function
-f1_keywords: ["messagedispatcherapi/CoHandlePriorityEventsFromMessagePump"]
+f1_keywords: 
+ - "messagedispatcherapi/CoHandlePriorityEventsFromMessagePump"
 req.header: messagedispatcherapi.h
 req.include-header: 
 req.target-type: Windows

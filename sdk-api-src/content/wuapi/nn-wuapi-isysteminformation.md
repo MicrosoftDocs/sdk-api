@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
 ms.topic: interface
-f1_keywords: ["wuapi/ISystemInformation"]
+f1_keywords: 
+ - "wuapi/ISystemInformation"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource
 ms.topic: interface
-f1_keywords: ["mfcaptureengine/IMFCaptureSource"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSource"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

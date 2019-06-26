@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Copy method, IPortableDeviceContent.Copy, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceContent.Copy"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceContent.Copy"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

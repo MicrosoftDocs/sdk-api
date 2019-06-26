@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AUTH_STATUS, HTTP_AUTH_STATUS enumeration [HTTP], HttpAuthStatusFailure, HttpAuthStatusNotAuthenticated, HttpAuthStatusSuccess, http.http_auth_status, http/*PHTTP_AUTH_STATUS, http/HTTP_AUTH_STATUS, http/HttpAuthStatusFailure, http/HttpAuthStatusNotAuthenticated, http/HttpAuthStatusSuccess"
 ms.topic: enum
-f1_keywords: ["http/HTTP_AUTH_STATUS"]
+f1_keywords: 
+ - "http/HTTP_AUTH_STATUS"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMS_KEY_INFO"]
+f1_keywords: 
+ - "wincrypt/CMS_KEY_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

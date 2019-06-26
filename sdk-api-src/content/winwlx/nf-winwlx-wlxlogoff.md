@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
 ms.topic: function
-f1_keywords: ["winwlx/WlxLogoff"]
+f1_keywords: 
+ - "winwlx/WlxLogoff"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

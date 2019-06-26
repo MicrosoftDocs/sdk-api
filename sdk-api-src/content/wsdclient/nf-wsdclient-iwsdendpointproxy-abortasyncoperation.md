@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortAsyncOperation, AbortAsyncOperation method, AbortAsyncOperation method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,AbortAsyncOperation method, IWSDEndpointProxy.AbortAsyncOperation, IWSDEndpointProxy::AbortAsyncOperation, ncd.iwsdendpointproxy_abortasyncoperation, wsdclient/IWSDEndpointProxy::AbortAsyncOperation
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.AbortAsyncOperation"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.AbortAsyncOperation"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

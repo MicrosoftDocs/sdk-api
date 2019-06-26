@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSIDToBoundaryDescriptor, AddSIDToBoundaryDescriptor function, base.addsidtoboundarydescriptor, namespaceapi/AddSIDToBoundaryDescriptor, winbase/AddSIDToBoundaryDescriptor
 ms.topic: function
-f1_keywords: ["namespaceapi/AddSIDToBoundaryDescriptor"]
+f1_keywords: 
+ - "namespaceapi/AddSIDToBoundaryDescriptor"
 req.header: namespaceapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

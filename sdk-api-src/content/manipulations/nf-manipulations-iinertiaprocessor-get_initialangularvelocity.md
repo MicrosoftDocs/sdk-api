@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialAngularVelocity property, IInertiaProcessor.InitialAngularVelocity, IInertiaProcessor.get_InitialAngularVelocity, IInertiaProcessor::InitialAngularVelocity, IInertiaProcessor::get_InitialAngularVelocity, IInertiaProcessor::put_InitialAngularVelocity, InitialAngularVelocity property [Windows Touch], InitialAngularVelocity property [Windows Touch],IInertiaProcessor interface, get_InitialAngularVelocity, manipulations/IInertiaProcessor::InitialAngularVelocity, manipulations/IInertiaProcessor::get_InitialAngularVelocity, manipulations/IInertiaProcessor::put_InitialAngularVelocity, wintouch.iinertiaprocessor_initialangularvelocity
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.InitialAngularVelocity"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.InitialAngularVelocity"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

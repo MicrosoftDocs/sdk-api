@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATan2Est, XMVectorATan2Est, XMVectorATan2Est method [DirectX Math Support APIs], dxmath.xmvectoratan2est
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorATan2Est"]
+f1_keywords: 
+ - "directxmath/XMVectorATan2Est"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

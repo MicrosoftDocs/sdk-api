@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListRecordLogicalChannelNumber, GetListRecordLogicalChannelNumber method [Microsoft TV Technologies], GetListRecordLogicalChannelNumber method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelNumber method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelNumber, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelnumber
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelNumber"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

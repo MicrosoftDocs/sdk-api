@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [Streaming Media Devices], GetOutputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputCurrentType method, IMFDeviceTransform.GetOutputCurrentType, IMFDeviceTransform::GetOutputCurrentType, mftransform/IMFDeviceTransform::GetOutputCurrentType, stream.imfdevicetransform_getoutputcurrenttype
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetOutputCurrentType"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetOutputCurrentType"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

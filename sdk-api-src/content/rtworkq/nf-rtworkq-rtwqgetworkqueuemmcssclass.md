@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqGetWorkQueueMMCSSClass"]
+f1_keywords: 
+ - "rtworkq/RtwqGetWorkQueueMMCSSClass"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
 ms.topic: method
-f1_keywords: ["winsync/IAsynchronousDataRetriever.RevokeCallback"]
+f1_keywords: 
+ - "winsync/IAsynchronousDataRetriever.RevokeCallback"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

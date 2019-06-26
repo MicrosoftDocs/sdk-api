@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method, AddStorageFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddStorageFilterEntries method, ID3D12InfoQueue.AddStorageFilterEntries, ID3D12InfoQueue::AddStorageFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddStorageFilterEntries, direct3d12.id3d12infoqueue_addstoragefilterentries
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.AddStorageFilterEntries"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.AddStorageFilterEntries"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

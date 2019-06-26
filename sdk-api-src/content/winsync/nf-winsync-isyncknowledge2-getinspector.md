@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInspector, GetInspector method [Windows Sync], GetInspector method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetInspector method, ISyncKnowledge2.GetInspector, ISyncKnowledge2::GetInspector, winsync.isyncknowledge2_getinspector, winsync/ISyncKnowledge2::GetInspector
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.GetInspector"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.GetInspector"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

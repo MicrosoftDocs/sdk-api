@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl.Unpark"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl.Unpark"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

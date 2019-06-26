@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callback function [RAS], SetGlobalInfo, _mpr_setglobalinfo, routprot/PSET_GLOBAL_INFO, rras.setglobalinfo
 ms.topic: callback
-f1_keywords: ["routprot/PSET_GLOBAL_INFO"]
+f1_keywords: 
+ - "routprot/PSET_GLOBAL_INFO"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

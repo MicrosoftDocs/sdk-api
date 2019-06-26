@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_KEY_INFO"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_KEY_INFO"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

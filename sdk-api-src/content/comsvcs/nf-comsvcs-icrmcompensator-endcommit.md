@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndCommit method, ICrmCompensator.EndCommit, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensator.EndCommit"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensator.EndCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

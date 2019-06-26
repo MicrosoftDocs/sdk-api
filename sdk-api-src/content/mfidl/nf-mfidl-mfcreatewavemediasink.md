@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateWAVEMediaSink, MFCreateWAVEMediaSink function [Media Foundation], mf.mfcreatewavemediasink, mfidl/MFCreateWAVEMediaSink
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateWAVEMediaSink"]
+f1_keywords: 
+ - "mfidl/MFCreateWAVEMediaSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

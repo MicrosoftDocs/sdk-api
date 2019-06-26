@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [windows Media Device Manager], GetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectAttributes method, IWMDMOperation.GetObjectAttributes, IWMDMOperation::GetObjectAttributes, IWMDMOperationGetObjectAttributes, mswmdm/IWMDMOperation::GetObjectAttributes, wmdm.iwmdmoperation_getobjectattributes
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMOperation.GetObjectAttributes"]
+f1_keywords: 
+ - "mswmdm/IWMDMOperation.GetObjectAttributes"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

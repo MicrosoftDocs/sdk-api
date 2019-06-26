@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
 ms.topic: callback
-f1_keywords: ["evr/MFCreateVideoPresenter"]
+f1_keywords: 
+ - "evr/MFCreateVideoPresenter"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

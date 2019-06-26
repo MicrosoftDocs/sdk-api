@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIFE_TIME, LIFE_TIME,*PLIFE_TIME structure [NDF], ndattrib/LIFE_TIME, ndf.life_time"
 ms.topic: struct
-f1_keywords: ["ndattrib/LIFE_TIME, *PLIFE_TIME"]
+f1_keywords: 
+ - "ndattrib/LIFE_TIME, *PLIFE_TIME"
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

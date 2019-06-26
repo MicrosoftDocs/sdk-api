@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Direct Write], GetIndex method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetIndex method, IDWriteFontFace.GetIndex, IDWriteFontFace::GetIndex, directwrite.IDWriteFontFace_GetIndex, dwrite/IDWriteFontFace::GetIndex
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetIndex"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetIndex"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win32_loadlibrary, base.loadlibrary, libloaderapi/LoadLibrary, libloaderapi/LoadLibraryA, libloaderapi/LoadLibraryW, winbase/LoadLibrary, winbase/LoadLibraryA, winbase/LoadLibraryW
 ms.topic: function
-f1_keywords: ["libloaderapi/LoadLibrary"]
+f1_keywords: 
+ - "libloaderapi/LoadLibrary"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a, GetFilterPropertyRange, GetFilterPropertyRange method [Media Foundation], GetFilterPropertyRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetFilterPropertyRange method, IDirectXVideoProcessorService.GetFilterPropertyRange, IDirectXVideoProcessorService::GetFilterPropertyRange, dxva2api/IDirectXVideoProcessorService::GetFilterPropertyRange, mf.idirectxvideoprocessorservice_getfilterpropertyrange
 ms.topic: method
-f1_keywords: ["dxva2api/IDirectXVideoProcessorService.GetFilterPropertyRange"]
+f1_keywords: 
+ - "dxva2api/IDirectXVideoProcessorService.GetFilterPropertyRange"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

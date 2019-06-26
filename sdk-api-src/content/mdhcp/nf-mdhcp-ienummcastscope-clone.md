@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
 ms.topic: method
-f1_keywords: ["mdhcp/IEnumMcastScope.Clone"]
+f1_keywords: 
+ - "mdhcp/IEnumMcastScope.Clone"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

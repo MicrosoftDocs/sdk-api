@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaDataTransfer.idtEnumWIA_FORMAT_INFO"]
+f1_keywords: 
+ - "wia_xp/IWiaDataTransfer.idtEnumWIA_FORMAT_INFO"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

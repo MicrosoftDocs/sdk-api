@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_DISPLAY_ENUM, ADS_DISPLAY_ENUM enumeration [ADSI], ADS_DISPLAY_FULL, ADS_DISPLAY_VALUE_ONLY, _ds_ads_display_enum, adsi.ads__display__enum, adsi.ads_display_enum, iads/ADS_DISPLAY_ENUM, iads/ADS_DISPLAY_FULL, iads/ADS_DISPLAY_VALUE_ONLY
 ms.topic: enum
-f1_keywords: ["iads/ADS_DISPLAY_ENUM"]
+f1_keywords: 
+ - "iads/ADS_DISPLAY_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

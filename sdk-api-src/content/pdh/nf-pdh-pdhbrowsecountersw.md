@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhBrowseCounters, PdhBrowseCounters function [Perf], PdhBrowseCountersA, PdhBrowseCountersW, _win32_pdhbrowsecounters, base.pdhbrowsecounters, pdh/PdhBrowseCounters, pdh/PdhBrowseCountersA, pdh/PdhBrowseCountersW, perf.pdhbrowsecounters
 ms.topic: function
-f1_keywords: ["pdh/PdhBrowseCounters"]
+f1_keywords: 
+ - "pdh/PdhBrowseCounters"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoesSupportLossless, DoesSupportLossless method [Windows Imaging Component], DoesSupportLossless method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportLossless method, IWICBitmapCodecInfo.DoesSupportLossless, IWICBitmapCodecInfo::DoesSupportLossless, _wic_codec_iwicbitmapcodecinfo_doessupportlossless, wic._wic_codec_iwicbitmapcodecinfo_doessupportlossless, wincodec/IWICBitmapCodecInfo::DoesSupportLossless
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapCodecInfo.DoesSupportLossless"]
+f1_keywords: 
+ - "wincodec/IWICBitmapCodecInfo.DoesSupportLossless"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

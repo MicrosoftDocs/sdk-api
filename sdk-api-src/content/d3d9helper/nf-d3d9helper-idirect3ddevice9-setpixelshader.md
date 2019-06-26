@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShader method, IDirect3DDevice9.SetPixelShader, IDirect3DDevice9::SetPixelShader, SetPixelShader, SetPixelShader method [Direct3D 9], SetPixelShader method [Direct3D 9],IDirect3DDevice9 interface, c65d883e-77d2-f541-2bd4-48dba090930c, d3d9helper/IDirect3DDevice9::SetPixelShader, direct3d9.idirect3ddevice9__setpixelshader
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.SetPixelShader"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.SetPixelShader"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

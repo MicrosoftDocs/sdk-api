@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeration [Core Audio], AudioSessionStateActive, AudioSessionStateExpired, AudioSessionStateInactive, audiosessiontypes/AudioSessionState, audiosessiontypes/AudioSessionStateActive, audiosessiontypes/AudioSessionStateExpired, audiosessiontypes/AudioSessionStateInactive, coreaudio.audiosessionstate
 ms.topic: enum
-f1_keywords: ["audiosessiontypes/AudioSessionState"]
+f1_keywords: 
+ - "audiosessiontypes/AudioSessionState"
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows

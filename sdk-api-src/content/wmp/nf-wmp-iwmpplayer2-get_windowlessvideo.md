@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_windowlessVideo method, IWMPPlayer2.get_windowlessVideo, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayer2.get_windowlessVideo"]
+f1_keywords: 
+ - "wmp/IWMPPlayer2.get_windowlessVideo"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

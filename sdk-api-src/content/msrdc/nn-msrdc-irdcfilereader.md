@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader, IRdcFileReader interface [Remote Differential Compression], IRdcFileReader interface [Remote Differential Compression],described, fs.irdcfilereader, msrdc/IRdcFileReader, rdc.irdcfilereader
 ms.topic: interface
-f1_keywords: ["msrdc/IRdcFileReader"]
+f1_keywords: 
+ - "msrdc/IRdcFileReader"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

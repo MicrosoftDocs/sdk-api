@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterIPAddress method, IBDA_IPSinkInfo.get_AdapterIPAddress, IBDA_IPSinkInfo::get_AdapterIPAddress, IBDA_IPSinkInfoget_AdapterIPAddress, bdaiface/IBDA_IPSinkInfo::get_AdapterIPAddress, get_AdapterIPAddress, get_AdapterIPAddress method [Microsoft TV Technologies], get_AdapterIPAddress method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapteripaddress
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_IPSinkInfo.get_AdapterIPAddress"]
+f1_keywords: 
+ - "bdaiface/IBDA_IPSinkInfo.get_AdapterIPAddress"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

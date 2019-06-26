@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method, IProcessInitControl.ResetInitializerTimeout, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM],IProcessInitControl interface, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
 ms.topic: method
-f1_keywords: ["objidl/IProcessInitControl.ResetInitializerTimeout"]
+f1_keywords: 
+ - "objidl/IProcessInitControl.ResetInitializerTimeout"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

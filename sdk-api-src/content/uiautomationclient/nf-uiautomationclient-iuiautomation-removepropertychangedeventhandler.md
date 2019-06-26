@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemovePropertyChangedEventHandler method, IUIAutomation.RemovePropertyChangedEventHandler, IUIAutomation::RemovePropertyChangedEventHandler, RemovePropertyChangedEventHandler, RemovePropertyChangedEventHandler method [Windows Accessibility], RemovePropertyChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiauto_IUIAutomation_RemovePropertyChangedEventHandler, uiautomationclient/IUIAutomation::RemovePropertyChangedEventHandler, winauto.uiauto_IUIAutomation_RemovePropertyChangedEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.RemovePropertyChangedEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.RemovePropertyChangedEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

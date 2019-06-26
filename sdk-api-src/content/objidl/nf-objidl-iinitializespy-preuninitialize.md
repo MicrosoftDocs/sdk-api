@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PreUninitialize method, IInitializeSpy.PreUninitialize, IInitializeSpy::PreUninitialize, PreUninitialize, PreUninitialize method [COM], PreUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preuninitialize, com.iinitializespy_preuninitialize, objidl/IInitializeSpy::PreUninitialize
 ms.topic: method
-f1_keywords: ["objidl/IInitializeSpy.PreUninitialize"]
+f1_keywords: 
+ - "objidl/IInitializeSpy.PreUninitialize"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

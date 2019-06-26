@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation method [COM],ICallFrame interface, ICallFrame interface [COM],GetStackLocation method, ICallFrame.GetStackLocation, ICallFrame::GetStackLocation, _com_icallframe_getstacklocation, callobj/ICallFrame::GetStackLocation, com.icallframe_getstacklocation
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.GetStackLocation"]
+f1_keywords: 
+ - "callobj/ICallFrame.GetStackLocation"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

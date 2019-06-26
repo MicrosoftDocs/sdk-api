@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio], GetDefaultAudioEndpoint method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDefaultAudioEndpoint method, IMMDeviceEnumerator.GetDefaultAudioEndpoint, IMMDeviceEnumerator::GetDefaultAudioEndpoint, IMMDeviceEnumeratorGetDefaultAudioEndpoint, coreaudio.immdeviceenumerator_getdefaultaudioendpoint, mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

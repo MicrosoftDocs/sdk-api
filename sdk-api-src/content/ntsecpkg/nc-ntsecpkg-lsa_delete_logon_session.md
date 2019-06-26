@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteLogonSession, DeleteLogonSession callback function [Security], LSA_DELETE_LOGON_SESSION, LSA_DELETE_LOGON_SESSION callback, _lsa_deletelogonsession, ntsecpkg/DeleteLogonSession, security.deletelogonsession
 ms.topic: callback
-f1_keywords: ["ntsecpkg/DeleteLogonSession"]
+f1_keywords: 
+ - "ntsecpkg/DeleteLogonSession"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

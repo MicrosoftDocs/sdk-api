@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_BIT.GetCountOfRecords, IISDB_BIT::GetCountOfRecords, dvbsiparser/IISDB_BIT::GetCountOfRecords, mstv.iisdb_bit_getcountofrecords
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_BIT.GetCountOfRecords"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_BIT.GetCountOfRecords"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStringToAddressA, WSAStringToAddressW, _win32_wsastringtoaddress_2, winsock.wsastringtoaddress_2, winsock2/WSAStringToAddress, winsock2/WSAStringToAddressA, winsock2/WSAStringToAddressW
 ms.topic: function
-f1_keywords: ["winsock2/WSAStringToAddress"]
+f1_keywords: 
+ - "winsock2/WSAStringToAddress"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

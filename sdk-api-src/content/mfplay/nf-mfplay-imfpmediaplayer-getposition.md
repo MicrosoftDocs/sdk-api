@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetPosition"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetPosition"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

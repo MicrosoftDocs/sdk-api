@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE, WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE_TYPE, WS_SECURITY_KEY_HANDLE_TYPE, WS_SECURITY_KEY_HANDLE_TYPE enumeration [Web Services for Windows], webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE, webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE_TYPE, webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE_TYPE, webservices/WS_SECURITY_KEY_HANDLE_TYPE, wsw.ws_security_key_handle_type
 ms.topic: enum
-f1_keywords: ["webservices/WS_SECURITY_KEY_HANDLE_TYPE"]
+f1_keywords: 
+ - "webservices/WS_SECURITY_KEY_HANDLE_TYPE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

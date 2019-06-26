@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
 ms.topic: function
-f1_keywords: ["wincred/CredUIConfirmCredentials"]
+f1_keywords: 
+ - "wincred/CredUIConfirmCredentials"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

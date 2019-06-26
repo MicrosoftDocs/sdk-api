@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSA_GetItemCount, DSA_GetItemCount macro [Windows Controls], _shell_DSA_GetItemCount, _shell_DSA_GetItemCount_cpp, controls.DSA_GetItemCount, controls._shell_DSA_GetItemCount, dpa_dsa/DSA_GetItemCount
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DSA_GetItemCount"]
+f1_keywords: 
+ - "dpa_dsa/DSA_GetItemCount"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

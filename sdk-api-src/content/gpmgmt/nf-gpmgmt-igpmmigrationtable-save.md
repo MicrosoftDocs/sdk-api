@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable class [GPMC],Save method, IGPMMigrationTable interface [GPMC],Save method, IGPMMigrationTable.Save, IGPMMigrationTable::Save, Save, Save method [GPMC], Save method [GPMC],GPMMigrationTable class, Save method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_save, gpmgmt/IGPMMigrationTable::Save
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMMigrationTable.Save"]
+f1_keywords: 
+ - "gpmgmt/IGPMMigrationTable.Save"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

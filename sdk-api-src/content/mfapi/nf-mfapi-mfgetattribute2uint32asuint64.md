@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetAttribute2UINT32asUINT64, MFGetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfgetattribute2uint32asuint64, mfobjects/MFGetAttribute2UINT32asUINT64
 ms.topic: function
-f1_keywords: ["mfapi/MFGetAttribute2UINT32asUINT64"]
+f1_keywords: 
+ - "mfapi/MFGetAttribute2UINT32asUINT64"
 req.header: mfapi.h
 req.include-header: Mfapi.h
 req.target-type: Windows

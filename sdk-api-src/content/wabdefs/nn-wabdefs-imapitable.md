@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book],described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
 ms.topic: interface
-f1_keywords: ["wabdefs/IMAPITable"]
+f1_keywords: 
+ - "wabdefs/IMAPITable"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

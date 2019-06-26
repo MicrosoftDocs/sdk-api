@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_REVOCATION_INFO, CERT_REVOCATION_INFO, CERT_REVOCATION_INFO structure [Security], PCERT_REVOCATION_INFO, PCERT_REVOCATION_INFO structure pointer [Security], _crypto2_cert_revocation_info, security.cert_revocation_info, wincrypt/CERT_REVOCATION_INFO, wincrypt/PCERT_REVOCATION_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_REVOCATION_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_REVOCATION_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

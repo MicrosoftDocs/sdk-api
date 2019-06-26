@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIActivate method, IOleInPlaceSite.OnUIActivate, IOleInPlaceSite::OnUIActivate, OnUIActivate, OnUIActivate method [COM], OnUIActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuiactivate, com.ioleinplacesite_onuiactivate, oleidl/IOleInPlaceSite::OnUIActivate
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceSite.OnUIActivate"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceSite.OnUIActivate"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

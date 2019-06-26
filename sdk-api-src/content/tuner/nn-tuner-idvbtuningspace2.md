@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], IDVBTuningSpace2 interface [Microsoft TV Technologies],described, IDVBTuningSpace2Interface, mstv.idvbtuningspace2, tuner/IDVBTuningSpace2
 ms.topic: interface
-f1_keywords: ["tuner/IDVBTuningSpace2"]
+f1_keywords: 
+ - "tuner/IDVBTuningSpace2"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

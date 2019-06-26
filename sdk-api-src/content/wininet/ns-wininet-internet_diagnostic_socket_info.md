@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, * LPINTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], *LPINTERNET_DIAGNOSTIC_SOCKET_INFO, IDSI_FLAG_KEEP_ALIVE, IDSI_FLAG_PROXY, IDSI_FLAG_SECURE, IDSI_FLAG_TUNNEL, INTERNET_DIAGNOSTIC_SOCKET_INFO, INTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], wininet.internet_diagnostic_socket_info, wininet/* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"
 ms.topic: struct
-f1_keywords: ["wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"]
+f1_keywords: 
+ - "wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

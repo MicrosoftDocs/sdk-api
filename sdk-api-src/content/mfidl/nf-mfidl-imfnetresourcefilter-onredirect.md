@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method, IMFNetResourceFilter.OnRedirect, IMFNetResourceFilter::OnRedirect, OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
 ms.topic: method
-f1_keywords: ["mfidl/IMFNetResourceFilter.OnRedirect"]
+f1_keywords: 
+ - "mfidl/IMFNetResourceFilter.OnRedirect"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

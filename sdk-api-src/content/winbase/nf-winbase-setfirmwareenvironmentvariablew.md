@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
 ms.topic: function
-f1_keywords: ["winbase/SetFirmwareEnvironmentVariable"]
+f1_keywords: 
+ - "winbase/SetFirmwareEnvironmentVariable"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

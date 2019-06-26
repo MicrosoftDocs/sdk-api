@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADDR [Winsock], IN_ADDR structure [Winsock], PIN_ADDR, PIN_ADDR structure pointer [Winsock], _win32_in_addr_2, in_addr, in_addr structure [Winsock], inaddr/FAR *LPIN_ADDR, inaddr/PIN_ADDR, inaddr/in_addr, winsock.in_addr_2, winsock2/FAR *LPIN_ADDR, winsock2/PIN_ADDR, winsock2/in_addr
 ms.topic: struct
-f1_keywords: ["winsock2/IN_ADDR"]
+f1_keywords: 
+ - "winsock2/IN_ADDR"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

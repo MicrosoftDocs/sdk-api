@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateChild, CreateChild method [Direct2D], CreateChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],CreateChild method, ID2D1SvgElement.CreateChild, ID2D1SvgElement::CreateChild, d2d1svg/ID2D1SvgElement::CreateChild, direct2d.id2d1svgelement_createchild
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.CreateChild"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.CreateChild"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

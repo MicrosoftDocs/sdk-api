@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],described, IMSVidStreamBufferRecordingControlInterface, mstv.imsvidstreambufferrecordingcontrol, segment/IMSVidStreamBufferRecordingControl
 ms.topic: interface
-f1_keywords: ["segment/IMSVidStreamBufferRecordingControl"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferRecordingControl"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

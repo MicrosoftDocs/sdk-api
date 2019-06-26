@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDevice method, IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMDeviceEnumerator.GetDevice"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDeviceEnumerator.GetDevice"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

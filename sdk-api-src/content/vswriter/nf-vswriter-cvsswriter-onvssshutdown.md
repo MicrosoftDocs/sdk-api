@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnVssShutdown method, CVssWriter.OnVSSShutdown, CVssWriter::OnVSSShutdown, CVssWriter::OnVssShutdown, OnVSSShutdown, OnVssShutdown method [VSS], OnVssShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onvssshutdown, base.cvsswriter_onvssshutdown, vswriter/CVssWriter::OnVssShutdown
 ms.topic: method
-f1_keywords: ["vswriter/CVssWriter.OnVssShutdown"]
+f1_keywords: 
+ - "vswriter/CVssWriter.OnVssShutdown"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

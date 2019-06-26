@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLegacyWaveSupport interface [TAPI 2.2],IsFullDuplex method, ITLegacyWaveSupport.IsFullDuplex, ITLegacyWaveSupport::IsFullDuplex, IsFullDuplex, IsFullDuplex method [TAPI 2.2], IsFullDuplex method [TAPI 2.2],ITLegacyWaveSupport interface, _tapi3_itlegacywavesupport_isfullduplex, tapi3.itlegacywavesupport_isfullduplex, tapi3if/ITLegacyWaveSupport::IsFullDuplex
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyWaveSupport.IsFullDuplex"]
+f1_keywords: 
+ - "tapi3if/ITLegacyWaveSupport.IsFullDuplex"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

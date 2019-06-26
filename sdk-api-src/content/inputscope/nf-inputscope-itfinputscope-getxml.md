@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXML, GetXML method [Text Services Framework], GetXML method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetXML method, ITfInputScope.GetXML, ITfInputScope::GetXML, inputscope/ITfInputScope::GetXML, tsf.itfinputscope_getXML, tsf.itfinputscope_xml
 ms.topic: method
-f1_keywords: ["inputscope/ITfInputScope.GetXML"]
+f1_keywords: 
+ - "inputscope/ITfInputScope.GetXML"
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

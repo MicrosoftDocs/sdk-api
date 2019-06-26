@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceEnum, MprAdminInterfaceEnum function [RAS], _mpr_mpradmininterfaceenum, mprapi/MprAdminInterfaceEnum, rras.mpradmininterfaceenum
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminInterfaceEnum"]
+f1_keywords: 
+ - "mprapi/MprAdminInterfaceEnum"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBEntryDelete"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBEntryDelete"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

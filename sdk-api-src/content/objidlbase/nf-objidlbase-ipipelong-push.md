@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
 ms.topic: method
-f1_keywords: ["objidlbase/IPipeLong.Push"]
+f1_keywords: 
+ - "objidlbase/IPipeLong.Push"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

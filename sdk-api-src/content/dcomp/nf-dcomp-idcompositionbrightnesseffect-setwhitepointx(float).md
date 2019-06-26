@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(float), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(float), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionBrightnessEffect.SetWhitePointX"]
+f1_keywords: 
+ - "dcomp/IDCompositionBrightnessEffect.SetWhitePointX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

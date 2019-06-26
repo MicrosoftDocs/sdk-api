@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetColorInterpolationMode method, IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

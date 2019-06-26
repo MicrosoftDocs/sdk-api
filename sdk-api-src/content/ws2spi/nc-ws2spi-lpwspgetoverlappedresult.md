@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPGETOVERLAPPEDRESULT, WSPGetOverlappedResult, WSPGetOverlappedResult function [Winsock], _win32_wspgetoverlappedresult_2, winsock.wspgetoverlappedresult_2, ws2spi/WSPGetOverlappedResult
 ms.topic: callback
-f1_keywords: ["ws2spi/WSPGetOverlappedResult"]
+f1_keywords: 
+ - "ws2spi/WSPGetOverlappedResult"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

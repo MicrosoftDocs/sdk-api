@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpAcceptCredentials, SpAcceptCredentials callback function [Security], SpAcceptCredentialsFn, SpAcceptCredentialsFn callback, _ssp_spacceptcredentials, ntsecpkg/SpAcceptCredentials, security.spacceptcredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpAcceptCredentials"]
+f1_keywords: 
+ - "ntsecpkg/SpAcceptCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

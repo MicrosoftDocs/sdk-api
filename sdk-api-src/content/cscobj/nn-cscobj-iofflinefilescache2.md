@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2, IOfflineFilesCache2 interface [Offline Files], IOfflineFilesCache2 interface [Offline Files],described, cscobj/IOfflineFilesCache2, of.iofflinefilescache2
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesCache2"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache2"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

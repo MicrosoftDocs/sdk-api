@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyJob1.get_JobID"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyJob1.get_JobID"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

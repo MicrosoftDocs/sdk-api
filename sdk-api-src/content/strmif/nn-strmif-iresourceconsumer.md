@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResourceConsumer interface [DirectShow],described, IResourceConsumerInterface, dshow.iresourceconsumer, strmif/IResourceConsumer
 ms.topic: interface
-f1_keywords: ["strmif/IResourceConsumer"]
+f1_keywords: 
+ - "strmif/IResourceConsumer"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

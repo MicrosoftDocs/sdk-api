@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPSyncState, WMPSyncState enumeration [Windows Media Player], wmp.wmpsyncstate, wmp/WMPSyncState, wmp/wmpssEstimating, wmp/wmpssLast, wmp/wmpssStopped, wmp/wmpssSynchronizing, wmp/wmpssUnknown, wmpssEstimating, wmpssLast, wmpssStopped, wmpssSynchronizing, wmpssUnknown
 ms.topic: enum
-f1_keywords: ["wmp/WMPSyncState"]
+f1_keywords: 
+ - "wmp/WMPSyncState"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

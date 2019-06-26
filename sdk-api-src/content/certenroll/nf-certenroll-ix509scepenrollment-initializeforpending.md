@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending
 ms.topic: method
-f1_keywords: ["certenroll/IX509SCEPEnrollment.InitializeForPending"]
+f1_keywords: 
+ - "certenroll/IX509SCEPEnrollment.InitializeForPending"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

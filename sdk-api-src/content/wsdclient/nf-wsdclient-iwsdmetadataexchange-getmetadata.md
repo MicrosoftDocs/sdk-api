@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDMetadataExchange.GetMetadata"]
+f1_keywords: 
+ - "wsdclient/IWSDMetadataExchange.GetMetadata"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

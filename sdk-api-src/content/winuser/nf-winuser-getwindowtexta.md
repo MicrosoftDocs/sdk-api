@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowText, GetWindowText function [Windows and Messages], GetWindowTextA, GetWindowTextW, _win32_GetWindowText, _win32_getwindowtext_cpp, winmsg.getwindowtext, winui._win32_getwindowtext, winuser/GetWindowText, winuser/GetWindowTextA, winuser/GetWindowTextW
 ms.topic: function
-f1_keywords: ["winuser/GetWindowText"]
+f1_keywords: 
+ - "winuser/GetWindowText"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

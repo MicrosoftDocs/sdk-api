@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetTextValue method, ID2D1SvgElement.SetTextValue, ID2D1SvgElement::SetTextValue, SetTextValue, SetTextValue method [Direct2D], SetTextValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetTextValue, direct2d.id2d1svgelement_settextvalue
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.SetTextValue"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.SetTextValue"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

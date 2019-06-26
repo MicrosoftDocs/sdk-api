@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
 ms.topic: callback
-f1_keywords: ["fontsub/CFP_REALLOCPROC"]
+f1_keywords: 
+ - "fontsub/CFP_REALLOCPROC"
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

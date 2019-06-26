@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Side-by-side Assemblies], GetProperty method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetProperty method, IAssemblyName.GetProperty, IAssemblyName::GetProperty, setup.iassemblyname_getproperty, winsxs/IAssemblyName::GetProperty
 ms.topic: method
-f1_keywords: ["winsxs/IAssemblyName.GetProperty"]
+f1_keywords: 
+ - "winsxs/IAssemblyName.GetProperty"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

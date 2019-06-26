@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_Phones method, ITAddress2.get_Phones, ITAddress2::get_Phones, _tapi3_itaddress2_get_phones, get_Phones, get_Phones method [TAPI 2.2], get_Phones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_phones, tapi3if/ITAddress2::get_Phones
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress2.get_Phones"]
+f1_keywords: 
+ - "tapi3if/ITAddress2.get_Phones"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

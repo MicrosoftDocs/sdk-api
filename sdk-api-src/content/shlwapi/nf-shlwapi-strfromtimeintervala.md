@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
 ms.topic: function
-f1_keywords: ["shlwapi/StrFromTimeInterval"]
+f1_keywords: 
+ - "shlwapi/StrFromTimeInterval"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

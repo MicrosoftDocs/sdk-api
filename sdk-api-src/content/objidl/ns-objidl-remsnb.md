@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb"
 ms.topic: struct
-f1_keywords: ["objidl/RemSNB"]
+f1_keywords: 
+ - "objidl/RemSNB"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

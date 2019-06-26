@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterWait, UnregisterWait function, _win32_unregisterwait, base.unregisterwait, winbase/UnregisterWait
 ms.topic: function
-f1_keywords: ["winbase/UnregisterWait"]
+f1_keywords: 
+ - "winbase/UnregisterWait"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Item property, ITraceDataProviderCollection.Item, ITraceDataProviderCollection.get_Item, ITraceDataProviderCollection::Item, ITraceDataProviderCollection::get_Item, Item property [PLA], Item property [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_item, get_Item, pla.itracedataprovidercollection_item, pla/ITraceDataProviderCollection::Item, pla/ITraceDataProviderCollection::get_Item
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.Item"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.Item"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

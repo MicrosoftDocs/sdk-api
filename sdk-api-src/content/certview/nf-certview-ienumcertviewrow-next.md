@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWROW.Next"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWROW.Next"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

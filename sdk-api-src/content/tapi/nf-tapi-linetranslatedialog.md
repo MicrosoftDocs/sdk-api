@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
 ms.topic: function
-f1_keywords: ["tapi/lineTranslateDialog"]
+f1_keywords: 
+ - "tapi/lineTranslateDialog"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

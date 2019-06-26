@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_FastDeleteLastPtr, DPA_FastDeleteLastPtr macro [Windows Controls], _shell_DPA_FastDeleteLastPtr, _shell_DPA_FastDeleteLastPtr_cpp, controls.DPA_FastDeleteLastPtr, controls._shell_DPA_FastDeleteLastPtr, dpa_dsa/DPA_FastDeleteLastPtr
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DPA_FastDeleteLastPtr"]
+f1_keywords: 
+ - "dpa_dsa/DPA_FastDeleteLastPtr"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

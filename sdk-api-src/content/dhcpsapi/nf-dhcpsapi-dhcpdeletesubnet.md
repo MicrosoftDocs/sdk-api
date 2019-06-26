@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpDeleteSubnet"]
+f1_keywords: 
+ - "dhcpsapi/DhcpDeleteSubnet"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

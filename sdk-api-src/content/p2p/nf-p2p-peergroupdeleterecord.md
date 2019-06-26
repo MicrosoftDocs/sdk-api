@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupDeleteRecord"]
+f1_keywords: 
+ - "p2p/PeerGroupDeleteRecord"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

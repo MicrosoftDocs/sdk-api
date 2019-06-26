@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetArrangeParam, GetArrangeParam method [Windows Shell], GetArrangeParam method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetArrangeParam method, IShellFolderView.GetArrangeParam, IShellFolderView::GetArrangeParam, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_GetArrangeParam, shell.IShellFolderView_GetArrangeParam, shlobj_core/IShellFolderView::GetArrangeParam
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetArrangeParam"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetArrangeParam"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

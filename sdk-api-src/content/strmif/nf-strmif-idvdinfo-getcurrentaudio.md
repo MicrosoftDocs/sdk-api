@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAudio method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudio method, IDvdInfo.GetCurrentAudio, IDvdInfo::GetCurrentAudio, IDvdInfoGetCurrentAudio, dshow.idvdinfo_getcurrentaudio, strmif/IDvdInfo::GetCurrentAudio
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetCurrentAudio"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetCurrentAudio"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

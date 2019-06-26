@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
 ms.topic: interface
-f1_keywords: ["devicetopology/IDeviceTopology"]
+f1_keywords: 
+ - "devicetopology/IDeviceTopology"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

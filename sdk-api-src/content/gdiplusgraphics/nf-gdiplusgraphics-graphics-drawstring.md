@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawString
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawString"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawString"
 targetos: Windows
 product: Windows
 req.assembly: 

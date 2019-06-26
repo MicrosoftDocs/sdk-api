@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionEnd property, IFaxOutgoingJob.TransmissionEnd, IFaxOutgoingJob.get_TransmissionEnd, IFaxOutgoingJob::TransmissionEnd, IFaxOutgoingJob::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionend, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp, fax._mfax_faxoutgoingjob_transmissionend, faxcomex/IFaxOutgoingJob::TransmissionEnd, faxcomex/IFaxOutgoingJob::get_TransmissionEnd, get_TransmissionEnd
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.TransmissionEnd"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.TransmissionEnd"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

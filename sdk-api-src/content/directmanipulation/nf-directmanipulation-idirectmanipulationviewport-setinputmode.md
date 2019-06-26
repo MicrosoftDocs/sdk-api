@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.SetInputMode"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.SetInputMode"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrConflict interface, IEnumSyncMgrConflict interface [Windows Shell],Clone method, IEnumSyncMgrConflict.Clone, IEnumSyncMgrConflict::Clone, _shell_IEnumSyncMgrConflict_Clone, shell.IEnumSyncMgrConflict_Clone, syncmgr/IEnumSyncMgrConflict::Clone
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrConflict.Clone"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrConflict.Clone"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

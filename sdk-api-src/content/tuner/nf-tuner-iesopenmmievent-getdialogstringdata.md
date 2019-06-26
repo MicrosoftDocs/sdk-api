@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDialogStringData, GetDialogStringData method [Microsoft TV Technologies], GetDialogStringData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogStringData method, IESOpenMmiEvent.GetDialogStringData, IESOpenMmiEvent::GetDialogStringData, mstv.iesopenmmievent_getdialogstringdata, tuner/IESOpenMmiEvent::GetDialogStringData
 ms.topic: method
-f1_keywords: ["tuner/IESOpenMmiEvent.GetDialogStringData"]
+f1_keywords: 
+ - "tuner/IESOpenMmiEvent.GetDialogStringData"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

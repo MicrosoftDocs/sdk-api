@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EnableModeless method, ISyncMgrSynchronizeCallback.EnableModeless, ISyncMgrSynchronizeCallback::EnableModeless, mobsync/ISyncMgrSynchronizeCallback::EnableModeless, shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless, syncmgr.isyncmgrsynchronizecallback_enablemodeless
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.EnableModeless"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.EnableModeless"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

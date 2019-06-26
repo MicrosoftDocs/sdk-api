@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnFullEnumerationNeeded method, ISyncCallback.OnFullEnumerationNeeded, ISyncCallback::OnFullEnumerationNeeded, OnFullEnumerationNeeded, OnFullEnumerationNeeded method [Windows Sync], OnFullEnumerationNeeded method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onfullenumerationneeded, winsync/ISyncCallback::OnFullEnumerationNeeded
 ms.topic: method
-f1_keywords: ["winsync/ISyncCallback.OnFullEnumerationNeeded"]
+f1_keywords: 
+ - "winsync/ISyncCallback.OnFullEnumerationNeeded"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

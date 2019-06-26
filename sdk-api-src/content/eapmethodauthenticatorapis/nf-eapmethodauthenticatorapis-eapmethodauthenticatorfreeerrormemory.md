@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 ms.topic: function
-f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory"]
+f1_keywords: 
+ - "eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory"
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

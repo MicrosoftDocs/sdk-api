@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
 ms.topic: method
-f1_keywords: ["bdatif/IGuideDataProperty.get_Language"]
+f1_keywords: 
+ - "bdatif/IGuideDataProperty.get_Language"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

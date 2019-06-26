@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeInt, GetThemeInt function [Windows Controls], controls.GetThemeInt, controls.inet_GetThemeInt, inet_GetThemeInt, inet_GetThemeInt_cpp, uxtheme/GetThemeInt
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeInt"]
+f1_keywords: 
+ - "uxtheme/GetThemeInt"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

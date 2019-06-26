@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMappedRenderer, GetMappedRenderer method [Remote Desktop Services], GetMappedRenderer method [Remote Desktop Services],IWTSBitmapRenderService interface, IWTSBitmapRenderService interface [Remote Desktop Services],GetMappedRenderer method, IWTSBitmapRenderService.GetMappedRenderer, IWTSBitmapRenderService::GetMappedRenderer, termserv.iwtsbitmaprenderservice_getmappedrenderer, tsvirtualchannels/IWTSBitmapRenderService::GetMappedRenderer
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

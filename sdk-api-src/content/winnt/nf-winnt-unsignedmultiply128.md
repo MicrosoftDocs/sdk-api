@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], winnt/UnsignedMultiply128, winprog.unsignedmultiply128
 ms.topic: function
-f1_keywords: ["winnt/UnsignedMultiply128"]
+f1_keywords: 
+ - "winnt/UnsignedMultiply128"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

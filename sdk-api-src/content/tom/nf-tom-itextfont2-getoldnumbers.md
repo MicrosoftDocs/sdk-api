@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOldNumbers method, ITextFont2.GetOldNumbers, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetOldNumbers"]
+f1_keywords: 
+ - "tom/ITextFont2.GetOldNumbers"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBasePnPID, GetBasePnPID method [IMAPI], GetBasePnPID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetBasePnPID method, IDiscRecorder.GetBasePnPID, IDiscRecorder::GetBasePnPID, _win32_idiscrecorder_getbasepnpid, base.idiscrecorder_getbasepnpid, imapi.idiscrecorder_getbasepnpid, imapi/IDiscRecorder::GetBasePnPID
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.GetBasePnPID"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.GetBasePnPID"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

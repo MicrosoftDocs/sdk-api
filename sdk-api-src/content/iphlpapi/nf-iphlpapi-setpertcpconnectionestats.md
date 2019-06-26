@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
 ms.topic: function
-f1_keywords: ["iphlpapi/SetPerTcpConnectionEStats"]
+f1_keywords: 
+ - "iphlpapi/SetPerTcpConnectionEStats"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

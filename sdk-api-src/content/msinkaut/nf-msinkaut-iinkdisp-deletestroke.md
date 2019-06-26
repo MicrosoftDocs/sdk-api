@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method [Tablet PC],IInkDisp interface, IInkDisp, IInkDisp interface [Tablet PC],DeleteStroke method, IInkDisp.DeleteStroke, IInkDisp::DeleteStroke, ac6579ec-20f7-4a20-8cb8-5f3a6119959d, msinkaut/IInkDisp::DeleteStroke, tablet.inkdisp_deletestroke
 ms.topic: method
-f1_keywords: ["msinkaut/IInkDisp.DeleteStroke"]
+f1_keywords: 
+ - "msinkaut/IInkDisp.DeleteStroke"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

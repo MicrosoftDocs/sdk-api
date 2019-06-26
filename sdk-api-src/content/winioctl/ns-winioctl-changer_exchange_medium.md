@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure, PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer, _win32_changer_exchange_medium_str, base.changer_exchange_medium_str, winioctl/CHANGER_EXCHANGE_MEDIUM, winioctl/PCHANGER_EXCHANGE_MEDIUM"
 ms.topic: struct
-f1_keywords: ["winioctl/CHANGER_EXCHANGE_MEDIUM"]
+f1_keywords: 
+ - "winioctl/CHANGER_EXCHANGE_MEDIUM"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

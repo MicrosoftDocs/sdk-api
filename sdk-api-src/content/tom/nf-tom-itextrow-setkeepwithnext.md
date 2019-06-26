@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepWithNext method, ITextRow.SetKeepWithNext, ITextRow::SetKeepWithNext, SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls],ITextRow interface, controls.itextrow_setkeepwithnext, tom/ITextRow::SetKeepWithNext
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetKeepWithNext"]
+f1_keywords: 
+ - "tom/ITextRow.SetKeepWithNext"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events interface [COM+],OnObjectCreate2 method, IComInstance2Events.OnObjectCreate2, IComInstance2Events::OnObjectCreate2, OnObjectCreate2, OnObjectCreate2 method [COM+], OnObjectCreate2 method [COM+],IComInstance2Events interface, _dtc_IComInstance2Events_OnObjectCreate2, comsvcs/IComInstance2Events::OnObjectCreate2, cos.icominstance2events_onobjectcreate2
 ms.topic: method
-f1_keywords: ["comsvcs/IComInstance2Events.OnObjectCreate2"]
+f1_keywords: 
+ - "comsvcs/IComInstance2Events.OnObjectCreate2"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

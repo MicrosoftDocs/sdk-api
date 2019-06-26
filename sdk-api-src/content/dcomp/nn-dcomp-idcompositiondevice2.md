@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice2, IDCompositionDevice2 interface [DirectComposition], IDCompositionDevice2 interface [DirectComposition],described, dcomp/IDCompositionDevice2, directcomp.idcompositiondevice2
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionDevice2"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice2"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

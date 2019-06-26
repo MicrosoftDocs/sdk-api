@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],SetTimer method, IWMReaderStreamClock.SetTimer, IWMReaderStreamClock::SetTimer, IWMReaderStreamClockSetTimer, SetTimer, SetTimer method [windows Media Format], SetTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_settimer, wmsdkidl/IWMReaderStreamClock::SetTimer
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderStreamClock.SetTimer"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderStreamClock.SetTimer"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],_NewEnum property, IRDPSRAPIVirtualChannelManager._NewEnum, IRDPSRAPIVirtualChannelManager.get__NewEnum, IRDPSRAPIVirtualChannelManager::_NewEnum, IRDPSRAPIVirtualChannelManager::get__NewEnum, RDPSRAPIVirtualChannelManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIVirtualChannelManager interface, _NewEnum property [RDP],RDPSRAPIVirtualChannelManager object, get__NewEnum, rdp.irdpsrapivirtualchannelmanager__newenum, rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum, rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannelManager._NewEnum"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIVirtualChannelManager._NewEnum"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

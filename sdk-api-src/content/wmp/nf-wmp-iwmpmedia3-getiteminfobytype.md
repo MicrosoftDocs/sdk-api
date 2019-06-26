@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
 ms.topic: method
-f1_keywords: ["wmp/IWMPMedia3.getItemInfoByType"]
+f1_keywords: 
+ - "wmp/IWMPMedia3.getItemInfoByType"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

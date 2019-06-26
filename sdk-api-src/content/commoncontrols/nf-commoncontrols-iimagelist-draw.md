@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Windows Controls], Draw method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Draw method, IImageList.Draw, IImageList::Draw, comctl_IImageList_Draw, comctl_IImageList_Draw_cpp, commoncontrols/IImageList::Draw, controls.IImageList_Draw, controls.comctl_IImageList_Draw
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.Draw"]
+f1_keywords: 
+ - "commoncontrols/IImageList.Draw"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
 ms.topic: function
-f1_keywords: ["virtdisk/DeleteVirtualDiskMetadata"]
+f1_keywords: 
+ - "virtdisk/DeleteVirtualDiskMetadata"
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

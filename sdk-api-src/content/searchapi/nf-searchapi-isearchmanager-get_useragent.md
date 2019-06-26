@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
 ms.topic: method
-f1_keywords: ["searchapi/ISearchManager.get_UserAgent"]
+f1_keywords: 
+ - "searchapi/ISearchManager.get_UserAgent"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

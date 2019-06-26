@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngFreeMem, EngFreeMem function [Display Devices], display.engfreemem, gdifncs_4479237b-46a6-40a1-a9ad-dd1cd0a4c4bb.xml, winddi/EngFreeMem
 ms.topic: macro
-f1_keywords: ["winddi/EngFreeMem"]
+f1_keywords: 
+ - "winddi/EngFreeMem"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

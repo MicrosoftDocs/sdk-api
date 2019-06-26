@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsOpenVDisk, IVdsOpenVDisk interface, IVdsOpenVDisk interface,described, base.ivdsopenvdisk, vds/IVdsOpenVDisk
 ms.topic: interface
-f1_keywords: ["vds/IVdsOpenVDisk"]
+f1_keywords: 
+ - "vds/IVdsOpenVDisk"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

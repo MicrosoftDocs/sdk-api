@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePackageFromStream, CreatePackageFromStream method [XPS Documents and Packaging], CreatePackageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromStream method, IXpsOMObjectFactory.CreatePackageFromStream, IXpsOMObjectFactory::CreatePackageFromStream, TRUE, xps.ixpsomobjectfactory_createpackagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMObjectFactory.CreatePackageFromStream"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackageFromStream"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

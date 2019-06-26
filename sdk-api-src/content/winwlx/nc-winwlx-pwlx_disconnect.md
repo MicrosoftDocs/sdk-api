@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_DISCONNECT, PWLX_DISCONNECT callback, WlxDisconnect, WlxDisconnect callback function [Security], _gina_wlxdisconnect, security.wlxdisconnect, winwlx/WlxDisconnect
 ms.topic: callback
-f1_keywords: ["winwlx/WlxDisconnect"]
+f1_keywords: 
+ - "winwlx/WlxDisconnect"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

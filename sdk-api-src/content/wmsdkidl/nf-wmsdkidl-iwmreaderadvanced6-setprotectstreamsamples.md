@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

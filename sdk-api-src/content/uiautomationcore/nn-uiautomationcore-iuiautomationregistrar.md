@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRegistrar, IUIAutomationRegistrar interface [Windows Accessibility], IUIAutomationRegistrar interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRegistrar, uiauto_IUIAutomationRegistrar, uiautomationcore/IUIAutomationRegistrar, winauto.uiauto_IUIAutomationRegistrar
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IUIAutomationRegistrar"]
+f1_keywords: 
+ - "uiautomationcore/IUIAutomationRegistrar"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

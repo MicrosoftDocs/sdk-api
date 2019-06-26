@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfileManager.CreateEmptyProfile"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfileManager.CreateEmptyProfile"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

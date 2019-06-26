@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],Close method, IShellImageStore.Close, IShellImageStore::Close, _win32_IShellImageStore_Close, shell.IShellImageStore_Close, shlobj/IShellImageStore::Close
 ms.topic: method
-f1_keywords: ["shlobj/IShellImageStore.Close"]
+f1_keywords: 
+ - "shlobj/IShellImageStore.Close"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTimeSpan.WBEMTimeSpan"]
+f1_keywords: 
+ - "wbemtime/WBEMTimeSpan.WBEMTimeSpan"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgCredentials_NamesW, PSecPkgCredentials_Names, PSecPkgCredentials_Names structure pointer [Security], SecPkgCredentials_Names, SecPkgCredentials_Names structure [Security], SecPkgCredentials_NamesA, SecPkgCredentials_NamesW, _ssp_secpkgcredentials_names, security.secpkgcredentials_names, sspi/PSecPkgCredentials_Names, sspi/SecPkgCredentials_Names, sspi/SecPkgCredentials_NamesA, sspi/SecPkgCredentials_NamesW"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgCredentials_Names"]
+f1_keywords: 
+ - "sspi/SecPkgCredentials_Names"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSource.GetCaptureDeviceSource"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSource.GetCaptureDeviceSource"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

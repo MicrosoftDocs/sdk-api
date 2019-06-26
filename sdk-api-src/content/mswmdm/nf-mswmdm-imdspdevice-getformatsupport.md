@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetFormatSupport method, IMDSPDevice.GetFormatSupport, IMDSPDevice::GetFormatSupport, IMDSPDeviceGetFormatSupport, mswmdm/IMDSPDevice::GetFormatSupport, wmdm.imdspdevice_getformatsupport
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDevice.GetFormatSupport"]
+f1_keywords: 
+ - "mswmdm/IMDSPDevice.GetFormatSupport"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

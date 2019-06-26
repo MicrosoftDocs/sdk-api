@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],get_Graph method, IMSVidGraphSegmentContainer.get_Graph, IMSVidGraphSegmentContainer::get_Graph, IMSVidGraphSegmentContainerget_Graph, get_Graph, get_Graph method [Microsoft TV Technologies], get_Graph method [Microsoft TV Technologies],IMSVidGraphSegmentContainer interface, mstv.imsvidgraphsegmentcontainer_get_graph, segment/IMSVidGraphSegmentContainer::get_Graph
 ms.topic: method
-f1_keywords: ["segment/IMSVidGraphSegmentContainer.get_Graph"]
+f1_keywords: 
+ - "segment/IMSVidGraphSegmentContainer.get_Graph"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
 ms.topic: function
-f1_keywords: ["drt/DrtCreateIpv6UdpTransport"]
+f1_keywords: 
+ - "drt/DrtCreateIpv6UdpTransport"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

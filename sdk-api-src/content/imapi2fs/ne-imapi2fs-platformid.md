@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PlatformEFI, PlatformId, PlatformId enumeration [IMAPI], PlatformMac, PlatformPowerPC, PlatformX86, imapi.platformid, imapi2fs/PlatformEFI, imapi2fs/PlatformId, imapi2fs/PlatformMac, imapi2fs/PlatformPowerPC, imapi2fs/PlatformX86
 ms.topic: enum
-f1_keywords: ["imapi2fs/PlatformId"]
+f1_keywords: 
+ - "imapi2fs/PlatformId"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

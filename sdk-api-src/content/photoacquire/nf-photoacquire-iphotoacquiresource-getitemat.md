@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemAt method, IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSource.GetItemAt"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSource.GetItemAt"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

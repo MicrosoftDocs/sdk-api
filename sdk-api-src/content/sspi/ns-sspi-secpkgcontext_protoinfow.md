@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_ProtoInfoW, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_ProtoInfo"]
+f1_keywords: 
+ - "sspi/SecPkgContext_ProtoInfo"
 req.header: sspi.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO"
 ms.topic: struct
-f1_keywords: ["tdh/PROVIDER_FILTER_INFO"]
+f1_keywords: 
+ - "tdh/PROVIDER_FILTER_INFO"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

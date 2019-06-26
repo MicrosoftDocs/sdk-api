@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_PROPERTIES, DML_BINDING_PROPERTIES structure, direct3d12.dml_binding_properties, directml/DML_BINDING_PROPERTIES
 ms.topic: struct
-f1_keywords: ["directml/DML_BINDING_PROPERTIES"]
+f1_keywords: 
+ - "directml/DML_BINDING_PROPERTIES"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

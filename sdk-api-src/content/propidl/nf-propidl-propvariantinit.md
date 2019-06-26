@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantInit, PropVariantInit function [Structured Storage], _stg_propvariantinit, propidl/PropVariantInit, stg.propvariantinit
 ms.topic: macro
-f1_keywords: ["propidl/PropVariantInit"]
+f1_keywords: 
+ - "propidl/PropVariantInit"
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

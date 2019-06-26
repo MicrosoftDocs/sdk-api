@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapSource.CopyPixels"]
+f1_keywords: 
+ - "wincodec/IWICBitmapSource.CopyPixels"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

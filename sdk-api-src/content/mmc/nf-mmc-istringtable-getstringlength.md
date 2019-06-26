@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringLength, GetStringLength method [MMC], GetStringLength method [MMC],IStringTable interface, IStringTable interface [MMC],GetStringLength method, IStringTable.GetStringLength, IStringTable::GetStringLength, _slate_istringtable_getstringlength, mmc.istringtable_getstringlength, mmc/IStringTable::GetStringLength
 ms.topic: method
-f1_keywords: ["mmc/IStringTable.GetStringLength"]
+f1_keywords: 
+ - "mmc/IStringTable.GetStringLength"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

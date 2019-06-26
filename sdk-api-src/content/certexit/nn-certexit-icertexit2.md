@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertExit2, ICertExit2 interface [Security], ICertExit2 interface [Security],described, _certsrv_icertexit2, certexit/ICertExit2, security.icertexit2
 ms.topic: interface
-f1_keywords: ["certexit/ICertExit2"]
+f1_keywords: 
+ - "certexit/ICertExit2"
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows

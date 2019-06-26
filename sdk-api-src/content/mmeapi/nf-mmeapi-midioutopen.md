@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen"
 ms.topic: function
-f1_keywords: ["mmeapi/midiOutOpen"]
+f1_keywords: 
+ - "mmeapi/midiOutOpen"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

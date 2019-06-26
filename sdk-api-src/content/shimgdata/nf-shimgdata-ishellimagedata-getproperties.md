@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.GetProperties"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.GetProperties"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

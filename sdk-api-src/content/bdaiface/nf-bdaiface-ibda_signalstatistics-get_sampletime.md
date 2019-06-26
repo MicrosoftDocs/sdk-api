@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SampleTime method, IBDA_SignalStatistics.get_SampleTime, IBDA_SignalStatistics::get_SampleTime, IBDA_SignalStatisticsget_SampleTime, bdaiface/IBDA_SignalStatistics::get_SampleTime, get_SampleTime, get_SampleTime method [Microsoft TV Technologies], get_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_sampletime
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalStatistics.get_SampleTime"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalStatistics.get_SampleTime"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

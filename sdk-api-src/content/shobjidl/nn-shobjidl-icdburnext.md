@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
 ms.topic: interface
-f1_keywords: ["shobjidl/ICDBurnExt"]
+f1_keywords: 
+ - "shobjidl/ICDBurnExt"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_tensor_binding_desc, PWINML_TENSOR_BINDING_DESC, PWINML_TENSOR_BINDING_DESC structure pointer, WINML_TENSOR_BINDING_DESC, WINML_TENSOR_BINDING_DESC structure, winml/PWINML_TENSOR_BINDING_DESC, winml/WINML_TENSOR_BINDING_DESC
 ms.topic: struct
-f1_keywords: ["winml/WINML_TENSOR_BINDING_DESC"]
+f1_keywords: 
+ - "winml/WINML_TENSOR_BINDING_DESC"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnableFastCache, GetEnableFastCache method [windows Media Format], GetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableFastCache method, IWMReaderNetworkConfig2.GetEnableFastCache, IWMReaderNetworkConfig2::GetEnableFastCache, IWMReaderNetworkConfig2GetEnableFastCache, wmformat.iwmreadernetworkconfig2_getenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::GetEnableFastCache
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig2.GetEnableFastCache"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig2.GetEnableFastCache"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyCacheItem, CreateAssemblyCacheItem method [Side-by-side Assemblies], CreateAssemblyCacheItem method [Side-by-side Assemblies],IAssemblyCache interface, IAssemblyCache interface [Side-by-side Assemblies],CreateAssemblyCacheItem method, IAssemblyCache.CreateAssemblyCacheItem, IAssemblyCache::CreateAssemblyCacheItem, setup.iassemblycache_createassemblycacheitem, winsxs/IAssemblyCache::CreateAssemblyCacheItem
 ms.topic: method
-f1_keywords: ["winsxs/IAssemblyCache.CreateAssemblyCacheItem"]
+f1_keywords: 
+ - "winsxs/IAssemblyCache.CreateAssemblyCacheItem"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVCT, GetVCT method [Microsoft TV Technologies], GetVCT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetVCT method, IAtscPsipParser.GetVCT, IAtscPsipParser::GetVCT, IAtscPsipParserGetVCT, atscpsipparser/IAtscPsipParser::GetVCT, mstv.iatscpsipparser_getvct
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscPsipParser.GetVCT"]
+f1_keywords: 
+ - "atscpsipparser/IAtscPsipParser.GetVCT"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

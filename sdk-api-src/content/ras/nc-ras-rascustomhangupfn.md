@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustomHangUpFn, RasCustomHangUpFn callback, _ras_rascustomhangup, ras/RasCustomHangUp, rras.rascustomhangup
 ms.topic: callback
-f1_keywords: ["ras/RasCustomHangUp"]
+f1_keywords: 
+ - "ras/RasCustomHangUp"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

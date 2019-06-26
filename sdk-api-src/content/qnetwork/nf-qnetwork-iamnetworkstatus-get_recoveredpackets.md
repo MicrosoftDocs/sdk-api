@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_RecoveredPackets method, IAMNetworkStatus.get_RecoveredPackets, IAMNetworkStatus::get_RecoveredPackets, IAMNetworkStatusget_RecoveredPackets, dshow.iamnetworkstatus_get_recoveredpackets, get_RecoveredPackets, get_RecoveredPackets method [DirectShow], get_RecoveredPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_RecoveredPackets
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetworkStatus.get_RecoveredPackets"]
+f1_keywords: 
+ - "qnetwork/IAMNetworkStatus.get_RecoveredPackets"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

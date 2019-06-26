@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO structure pointer [Security], SECPKG_NEGO2_INFO, SECPKG_NEGO2_INFO structure [Security], ntsecpkg/PSECPKG_NEGO2_INFO, ntsecpkg/SECPKG_NEGO2_INFO, security.secpkg_nego2_info"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_NEGO2_INFO"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_NEGO2_INFO"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

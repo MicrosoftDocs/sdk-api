@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioFilterEx, GetAspectRatioFilterEx function [Windows GDI], _win32_GetAspectRatioFilterEx, gdi.getaspectratiofilterex, wingdi/GetAspectRatioFilterEx
 ms.topic: function
-f1_keywords: ["wingdi/GetAspectRatioFilterEx"]
+f1_keywords: 
+ - "wingdi/GetAspectRatioFilterEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

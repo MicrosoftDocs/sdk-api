@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
 ms.topic: interface
-f1_keywords: ["strmif/IAMStreamControl"]
+f1_keywords: 
+ - "strmif/IAMStreamControl"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerDisconnect, MprAdminMIBServerDisconnect function [RAS], _mpr_mpradminmibserverdisconnect, mprapi/MprAdminMIBServerDisconnect, rras.mpradminmibserverdisconnect
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBServerDisconnect"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBServerDisconnect"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

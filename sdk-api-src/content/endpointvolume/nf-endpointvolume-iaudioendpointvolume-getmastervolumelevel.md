@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMasterVolumeLevel, GetMasterVolumeLevel method [Core Audio], GetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMasterVolumeLevel method, IAudioEndpointVolume.GetMasterVolumeLevel, IAudioEndpointVolume::GetMasterVolumeLevel, IAudioEndpointVolumeGetMasterVolumeLevel, coreaudio.iaudioendpointvolume_getmastervolumelevel, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevel
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.GetMasterVolumeLevel"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.GetMasterVolumeLevel"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

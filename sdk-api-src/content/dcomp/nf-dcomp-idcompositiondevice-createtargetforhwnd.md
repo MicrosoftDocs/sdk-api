@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTargetForHwnd, CreateTargetForHwnd method [DirectComposition], CreateTargetForHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTargetForHwnd method, IDCompositionDevice.CreateTargetForHwnd, IDCompositionDevice::CreateTargetForHwnd, dcomp/IDCompositionDevice::CreateTargetForHwnd, directcomp.idcompositiondevice_createhwndtarget
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateTargetForHwnd"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateTargetForHwnd"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWsChangesEx, GetWsChangesEx function [PSAPI], K32GetWsChangesEx, base.getwschangesex, psapi.getwschangesex, psapi/GetWsChangesEx, psapi/K32GetWsChangesEx
 ms.topic: function
-f1_keywords: ["psapi/GetWsChangesEx"]
+f1_keywords: 
+ - "psapi/GetWsChangesEx"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11ComputeShader, ID3D11ComputeShader interface [Direct3D 11], ID3D11ComputeShader interface [Direct3D 11],described, d3d11/ID3D11ComputeShader, dde07f60-78d4-2f2f-10da-d2a2973a909c, direct3d11.id3d11computeshader
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11ComputeShader"]
+f1_keywords: 
+ - "d3d11/ID3D11ComputeShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

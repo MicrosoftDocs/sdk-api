@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SET_TAPE_DRIVE_INFORMATION, SET_TAPE_MEDIA_INFORMATION, SetTapeParameters, SetTapeParameters function [Backup], _win32_settapeparameters, backup.settapeparameters, base.settapeparameters, winbase/SetTapeParameters
 ms.topic: function
-f1_keywords: ["winbase/SetTapeParameters"]
+f1_keywords: 
+ - "winbase/SetTapeParameters"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

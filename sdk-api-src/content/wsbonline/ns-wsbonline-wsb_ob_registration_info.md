@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_REGISTRATION_INFO, WSB_OB_REGISTRATION_INFO structure [Windows Server Backup], wsb.wsb_ob_registration_info, wsbonline/WSB_OB_REGISTRATION_INFO
 ms.topic: struct
-f1_keywords: ["wsbonline/WSB_OB_REGISTRATION_INFO"]
+f1_keywords: 
+ - "wsbonline/WSB_OB_REGISTRATION_INFO"
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

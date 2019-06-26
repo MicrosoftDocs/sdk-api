@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWRDS_LISTENER_SETTINGS, PWRDS_LISTENER_SETTINGS, PWRDS_LISTENER_SETTINGS structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS, WRDS_LISTENER_SETTINGS structure [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, termserv.wrds_listener_settings, wtsdefs/PWRDS_LISTENER_SETTINGS, wtsdefs/WRDS_LISTENER_SETTINGS"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WRDS_LISTENER_SETTINGS"]
+f1_keywords: 
+ - "wtsdefs/WRDS_LISTENER_SETTINGS"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

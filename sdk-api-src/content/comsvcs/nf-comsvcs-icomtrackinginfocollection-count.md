@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
 ms.topic: method
-f1_keywords: ["comsvcs/IComTrackingInfoCollection.Count"]
+f1_keywords: 
+ - "comsvcs/IComTrackingInfoCollection.Count"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

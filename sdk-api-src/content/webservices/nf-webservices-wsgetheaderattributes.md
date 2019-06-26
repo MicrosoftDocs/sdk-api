@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
 ms.topic: function
-f1_keywords: ["webservices/WsGetHeaderAttributes"]
+f1_keywords: 
+ - "webservices/WsGetHeaderAttributes"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],CreateSample method, IAudioMediaStream.CreateSample, IAudioMediaStream::CreateSample, IAudioMediaStreamCreateSample, austream/IAudioMediaStream::CreateSample, dshow.iaudiomediastream_createsample
 ms.topic: method
-f1_keywords: ["austream/IAudioMediaStream.CreateSample"]
+f1_keywords: 
+ - "austream/IAudioMediaStream.CreateSample"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

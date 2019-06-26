@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprResetV4PolicyExpr, DhcpHlprResetV4PolicyExpr function [DHCP], dhcp.dhcphlprresetv4policyexpr, dhcpsapi/DhcpHlprResetV4PolicyExpr
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpHlprResetV4PolicyExpr"]
+f1_keywords: 
+ - "dhcpsapi/DhcpHlprResetV4PolicyExpr"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

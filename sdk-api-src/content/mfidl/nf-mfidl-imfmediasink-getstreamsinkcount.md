@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamSinkCount, GetStreamSinkCount method [Media Foundation], GetStreamSinkCount method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkCount method, IMFMediaSink.GetStreamSinkCount, IMFMediaSink::GetStreamSinkCount, bf4b5713-586c-4b12-80a1-4452eec63e32, mf.imfmediasink_getstreamsinkcount, mfidl/IMFMediaSink::GetStreamSinkCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSink.GetStreamSinkCount"]
+f1_keywords: 
+ - "mfidl/IMFMediaSink.GetStreamSinkCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandlerInfo.IsEnabled"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandlerInfo.IsEnabled"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

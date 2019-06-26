@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
 ms.topic: function
-f1_keywords: ["combaseapi/CoFreeUnusedLibrariesEx"]
+f1_keywords: 
+ - "combaseapi/CoFreeUnusedLibrariesEx"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

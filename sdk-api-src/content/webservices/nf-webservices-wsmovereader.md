@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMoveReader, WsMoveReader function [Web Services for Windows], webservices/WsMoveReader, wsw.wsmovereader
 ms.topic: function
-f1_keywords: ["webservices/WsMoveReader"]
+f1_keywords: 
+ - "webservices/WsMoveReader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

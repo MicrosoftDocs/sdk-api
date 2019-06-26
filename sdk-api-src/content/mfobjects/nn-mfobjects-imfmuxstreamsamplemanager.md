@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFMuxStreamSampleManager"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamSampleManager"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_EthernetFilter.GetMulticastListSize, IBDA_EthernetFilter::GetMulticastListSize, IBDA_EthernetFilterGetMulticastListSize, bdaiface/IBDA_EthernetFilter::GetMulticastListSize, mstv.ibda_ethernetfilter_getmulticastlistsize
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_EthernetFilter.GetMulticastListSize"]
+f1_keywords: 
+ - "bdaiface/IBDA_EthernetFilter.GetMulticastListSize"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

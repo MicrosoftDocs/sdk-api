@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertCloseStore"]
+f1_keywords: 
+ - "wincrypt/CertCloseStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

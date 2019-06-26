@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsymbol, base.symaddsymbol, dbghelp/SymAddSymbol, dbghelp/SymAddSymbolW
 ms.topic: function
-f1_keywords: ["dbghelp/SymAddSymbol"]
+f1_keywords: 
+ - "dbghelp/SymAddSymbol"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

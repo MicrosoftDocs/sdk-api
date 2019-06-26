@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryPathOfRegTypeLib, QueryPathOfRegTypeLib function [Automation], _oa96_QueryPathOfRegTypeLib, automat.querypathofregtypelib, oleauto/QueryPathOfRegTypeLib
 ms.topic: function
-f1_keywords: ["oleauto/QueryPathOfRegTypeLib"]
+f1_keywords: 
+ - "oleauto/QueryPathOfRegTypeLib"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

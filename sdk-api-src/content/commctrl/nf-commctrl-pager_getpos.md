@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pager_GetPos, Pager_GetPos macro [Windows Controls], _win32_Pager_GetPos, _win32_Pager_GetPos_cpp, commctrl/Pager_GetPos, controls.Pager_GetPos, controls._win32_Pager_GetPos
 ms.topic: macro
-f1_keywords: ["commctrl/Pager_GetPos"]
+f1_keywords: 
+ - "commctrl/Pager_GetPos"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

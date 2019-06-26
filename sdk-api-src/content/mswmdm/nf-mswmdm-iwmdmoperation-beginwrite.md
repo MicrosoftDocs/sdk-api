@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], BeginWrite method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginWrite method, IWMDMOperation.BeginWrite, IWMDMOperation::BeginWrite, IWMDMOperationBeginWrite, mswmdm/IWMDMOperation::BeginWrite, wmdm.iwmdmoperation_beginwrite
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMOperation.BeginWrite"]
+f1_keywords: 
+ - "mswmdm/IWMDMOperation.BeginWrite"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

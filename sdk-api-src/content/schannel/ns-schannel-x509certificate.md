@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate"
 ms.topic: struct
-f1_keywords: ["schannel/X509Certificate"]
+f1_keywords: 
+ - "schannel/X509Certificate"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

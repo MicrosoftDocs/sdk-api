@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
 ms.topic: method
-f1_keywords: ["certenroll/IObjectId.InitializeFromAlgorithmName"]
+f1_keywords: 
+ - "certenroll/IObjectId.InitializeFromAlgorithmName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

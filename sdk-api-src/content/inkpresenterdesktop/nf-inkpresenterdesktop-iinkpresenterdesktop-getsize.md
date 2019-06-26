@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interface, IInkPresenterDesktop interface,GetSize method, IInkPresenterDesktop.GetSize, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
 ms.topic: method
-f1_keywords: ["inkpresenterdesktop/IInkPresenterDesktop.GetSize"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkPresenterDesktop.GetSize"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

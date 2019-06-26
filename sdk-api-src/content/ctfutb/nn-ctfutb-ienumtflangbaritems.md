@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services Framework], IEnumTfLangBarItems interface [Text Services Framework],described, _tsf_ienumtflangbaritems_ref, ctfutb/IEnumTfLangBarItems, tsf.ienumtflangbaritems
 ms.topic: interface
-f1_keywords: ["ctfutb/IEnumTfLangBarItems"]
+f1_keywords: 
+ - "ctfutb/IEnumTfLangBarItems"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], IXpsOMGlyphs interface [XPS Documents and Packaging],described, xps.ixpsomglyphs, xpsobjectmodel/IXpsOMGlyphs
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

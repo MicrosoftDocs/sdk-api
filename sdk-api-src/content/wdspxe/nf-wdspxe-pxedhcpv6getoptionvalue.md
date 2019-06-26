@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetOptionValue, PxeDhcpv6GetOptionValue function [Windows Deployment Services], wds.pxedhcpv6getoptionvalue, wdspxe/PxeDhcpv6GetOptionValue
 ms.topic: function
-f1_keywords: ["wdspxe/PxeDhcpv6GetOptionValue"]
+f1_keywords: 
+ - "wdspxe/PxeDhcpv6GetOptionValue"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderFilter interface [Windows Shell],UpdateRemoteCredential method, ICredentialProviderFilter.UpdateRemoteCredential, ICredentialProviderFilter::UpdateRemoteCredential, UpdateRemoteCredential, UpdateRemoteCredential method [Windows Shell], UpdateRemoteCredential method [Windows Shell],ICredentialProviderFilter interface, _shell_ICredentialProviderFilter_UpdateRemoteCredential, credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential, shell.ICredentialProviderFilter_UpdateRemoteCredential
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderFilter.UpdateRemoteCredential"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderFilter.UpdateRemoteCredential"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

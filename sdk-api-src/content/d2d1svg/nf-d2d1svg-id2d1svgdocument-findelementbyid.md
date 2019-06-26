@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindElementById, FindElementById method [Direct2D], FindElementById method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],FindElementById method, ID2D1SvgDocument.FindElementById, ID2D1SvgDocument::FindElementById, d2d1svg/ID2D1SvgDocument::FindElementById, direct2d.id2d1svgdocument_findelementbyid
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgDocument.FindElementById"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgDocument.FindElementById"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

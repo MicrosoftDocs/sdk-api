@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment interface [Security],InstallResponse method, IX509Enrollment.InstallResponse, IX509Enrollment::InstallResponse, InstallResponse, InstallResponse method [Security], InstallResponse method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InstallResponse, security.ix509enrollment_installresponse_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509Enrollment.InstallResponse"]
+f1_keywords: 
+ - "certenroll/IX509Enrollment.InstallResponse"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

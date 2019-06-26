@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
 ms.topic: function
-f1_keywords: ["netioapi/GetIpNetTable2"]
+f1_keywords: 
+ - "netioapi/GetIpNetTable2"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

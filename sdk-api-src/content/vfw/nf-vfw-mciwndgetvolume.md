@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndGetVolume"]
+f1_keywords: 
+ - "vfw/MCIWndGetVolume"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

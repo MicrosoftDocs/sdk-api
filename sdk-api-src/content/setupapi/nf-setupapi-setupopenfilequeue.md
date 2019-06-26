@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupOpenFileQueue, SetupOpenFileQueue function [Setup API], _setupapi_setupopenfilequeue, setup.setupopenfilequeue, setupapi/SetupOpenFileQueue
 ms.topic: function
-f1_keywords: ["setupapi/SetupOpenFileQueue"]
+f1_keywords: 
+ - "setupapi/SetupOpenFileQueue"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

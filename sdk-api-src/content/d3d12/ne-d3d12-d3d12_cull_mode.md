@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_CULL_MODE, D3D12_CULL_MODE enumeration, D3D12_CULL_MODE_BACK, D3D12_CULL_MODE_FRONT, D3D12_CULL_MODE_NONE, d3d12/D3D12_CULL_MODE, d3d12/D3D12_CULL_MODE_BACK, d3d12/D3D12_CULL_MODE_FRONT, d3d12/D3D12_CULL_MODE_NONE, direct3d12.d3d12_cull_mode
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_CULL_MODE"]
+f1_keywords: 
+ - "d3d12/D3D12_CULL_MODE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

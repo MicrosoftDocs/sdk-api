@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_copyfile, base.copyfile, fs.copyfile, winbase/CopyFile, winbase/CopyFileA, winbase/CopyFileW
 ms.topic: function
-f1_keywords: ["winbase/CopyFile"]
+f1_keywords: 
+ - "winbase/CopyFile"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

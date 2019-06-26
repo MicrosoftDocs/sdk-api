@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkHostWorkItem, IInkHostWorkItem interface, IInkHostWorkItem interface,described, InkPresenterDesktop.iinkhostworkitem, inkpresenterdesktop/IInkHostWorkItem, input_ink.iinkhostworkitem
 ms.topic: interface
-f1_keywords: ["inkpresenterdesktop/IInkHostWorkItem"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkHostWorkItem"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

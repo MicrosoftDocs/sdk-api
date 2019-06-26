@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescZero, EventDescZero function [ETW], base.eventdesczero, etw.eventdesczero, evntprov/EventDescZero
 ms.topic: function
-f1_keywords: ["evntprov/EventDescZero"]
+f1_keywords: 
+ - "evntprov/EventDescZero"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AreComponentsSelected, AreComponentsSelected method [VSS], AreComponentsSelected method [VSS],CVssWriter class, CVssWriter class [VSS],AreComponentsSelected method, CVssWriter.AreComponentsSelected, CVssWriter::AreComponentsSelected, _win32_cvsswriter_arecomponentsselected, base.cvsswriter_arecomponentsselected, vswriter/CVssWriter::AreComponentsSelected
 ms.topic: method
-f1_keywords: ["vswriter/CVssWriter.AreComponentsSelected"]
+f1_keywords: 
+ - "vswriter/CVssWriter.AreComponentsSelected"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

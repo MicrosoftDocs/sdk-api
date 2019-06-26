@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowSubclass, SetWindowSubclass function [Windows Shell], commctrl/SetWindowSubclass, inet_SetWindowSubclass, shell.SetWindowSubclass
 ms.topic: function
-f1_keywords: ["commctrl/SetWindowSubclass"]
+f1_keywords: 
+ - "commctrl/SetWindowSubclass"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

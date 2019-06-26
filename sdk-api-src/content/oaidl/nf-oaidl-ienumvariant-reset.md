@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
 ms.topic: method
-f1_keywords: ["oaidl/IEnumVARIANT.Reset"]
+f1_keywords: 
+ - "oaidl/IEnumVARIANT.Reset"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

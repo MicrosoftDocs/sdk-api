@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API],described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
 ms.topic: interface
-f1_keywords: ["deviceaccess/IDeviceRequestCompletionCallback"]
+f1_keywords: 
+ - "deviceaccess/IDeviceRequestCompletionCallback"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

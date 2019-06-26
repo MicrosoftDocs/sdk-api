@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], IUIAnimationManager2 interface [Windows Animation],described, uianimation.iuianimationmanager2, uianimation/IUIAnimationManager2
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationManager2"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

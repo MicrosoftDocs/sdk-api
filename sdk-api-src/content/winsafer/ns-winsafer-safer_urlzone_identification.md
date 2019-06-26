@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION structure pointer [Security], SAFER_URLZONE_IDENTIFICATION, SAFER_URLZONE_IDENTIFICATION structure [Security], URLZONE_INTERNET, URLZONE_INTRANET, URLZONE_LOCAL_MACHINE, URLZONE_TRUSTED, URLZONE_UNTRUSTED, _mnp_safer_urlzone_identification, security.safer_urlzone_identification, winsafer/PSAFER_URLZONE_IDENTIFICATION, winsafer/SAFER_URLZONE_IDENTIFICATION"
 ms.topic: struct
-f1_keywords: ["winsafer/SAFER_URLZONE_IDENTIFICATION"]
+f1_keywords: 
+ - "winsafer/SAFER_URLZONE_IDENTIFICATION"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

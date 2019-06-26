@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
 ms.topic: function
-f1_keywords: ["winuser/GetMenuContextHelpId"]
+f1_keywords: 
+ - "winuser/GetMenuContextHelpId"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

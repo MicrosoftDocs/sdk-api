@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
 ms.topic: function
-f1_keywords: ["webservices/WsOpenServiceProxy"]
+f1_keywords: 
+ - "webservices/WsOpenServiceProxy"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

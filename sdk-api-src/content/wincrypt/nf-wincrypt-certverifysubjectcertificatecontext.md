@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertVerifySubjectCertificateContext, CertVerifySubjectCertificateContext function [Security], _crypto2_certverifysubjectcertificatecontext, security.certverifysubjectcertificatecontext, wincrypt/CertVerifySubjectCertificateContext
 ms.topic: function
-f1_keywords: ["wincrypt/CertVerifySubjectCertificateContext"]
+f1_keywords: 
+ - "wincrypt/CertVerifySubjectCertificateContext"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Windows Animation], Disable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Disable method, IUIAnimationTimer.Disable, IUIAnimationTimer::Disable, uianimation.iuianimationtimer_disable, uianimation/IUIAnimationTimer::Disable
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTimer.Disable"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTimer.Disable"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

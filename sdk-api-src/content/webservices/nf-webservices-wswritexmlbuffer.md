@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windows], webservices/WsWriteXmlBuffer, wsw.wswritexmlbuffer
 ms.topic: function
-f1_keywords: ["webservices/WsWriteXmlBuffer"]
+f1_keywords: 
+ - "webservices/WsWriteXmlBuffer"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

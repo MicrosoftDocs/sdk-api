@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
 ms.topic: function
-f1_keywords: ["winddi/EngMapEvent"]
+f1_keywords: 
+ - "winddi/EngMapEvent"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

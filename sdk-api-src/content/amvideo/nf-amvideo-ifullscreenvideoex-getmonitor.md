@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.GetMonitor"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.GetMonitor"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

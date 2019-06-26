@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteEx.RequestUIActivate"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteEx.RequestUIActivate"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

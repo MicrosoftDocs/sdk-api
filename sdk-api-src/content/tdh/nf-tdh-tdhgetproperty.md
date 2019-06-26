@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetProperty, TdhGetProperty function [ETW], etw.tdhgetproperty_func, tdh.tdhgetproperty_func, tdh/TdhGetProperty
 ms.topic: function
-f1_keywords: ["tdh/TdhGetProperty"]
+f1_keywords: 
+ - "tdh/TdhGetProperty"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW structure [Security], PENCRYPTED_CREDENTIALW, PENCRYPTED_CREDENTIALW structure pointer [Security], ntsecpkg/ENCRYPTED_CREDENTIALW, ntsecpkg/PENCRYPTED_CREDENTIALW, security.encrypted_credentialw"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/ENCRYPTED_CREDENTIALW"]
+f1_keywords: 
+ - "ntsecpkg/ENCRYPTED_CREDENTIALW"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

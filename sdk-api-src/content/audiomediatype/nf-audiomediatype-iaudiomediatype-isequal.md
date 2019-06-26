@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMediaType.IsEqual, IAudioMediaType::IsEqual, IsEqual, IsEqual method [Audio Devices], IsEqual method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_isequal, audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml, audiomediatype/IAudioMediaType::IsEqual
 ms.topic: method
-f1_keywords: ["audiomediatype/IAudioMediaType.IsEqual"]
+f1_keywords: 
+ - "audiomediatype/IAudioMediaType.IsEqual"
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

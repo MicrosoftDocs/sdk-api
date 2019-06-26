@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFScheduleWorkItem, MFScheduleWorkItem function [Media Foundation], c14786e4-7fbe-4748-a6ba-e9e68f78b241, mf.mfscheduleworkitem, mfapi/MFScheduleWorkItem
 ms.topic: function
-f1_keywords: ["mfapi/MFScheduleWorkItem"]
+f1_keywords: 
+ - "mfapi/MFScheduleWorkItem"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

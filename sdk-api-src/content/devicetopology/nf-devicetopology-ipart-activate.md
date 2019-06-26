@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IPart interface, IPart interface [Core Audio],Activate method, IPart.Activate, IPart::Activate, IPartActivate, coreaudio.ipart_activate, devicetopology/IPart::Activate
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.Activate"]
+f1_keywords: 
+ - "devicetopology/IPart.Activate"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

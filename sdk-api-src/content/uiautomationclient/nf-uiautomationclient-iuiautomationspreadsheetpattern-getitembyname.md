@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],IUIAutomationSpreadsheetPattern interface, IUIAutomationSpreadsheetPattern interface [Windows Accessibility],GetItemByName method, IUIAutomationSpreadsheetPattern.GetItemByName, IUIAutomationSpreadsheetPattern::GetItemByName, uiautomationclient/IUIAutomationSpreadsheetPattern::GetItemByName, winauto.uiauto_IUIAutomationSpreadsheetPattern_GetItemByName
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSpreadsheetPattern.GetItemByName"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSpreadsheetPattern.GetItemByName"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

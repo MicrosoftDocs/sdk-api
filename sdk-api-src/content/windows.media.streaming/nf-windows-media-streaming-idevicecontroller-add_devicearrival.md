@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceArrival method, IDeviceController.add_DeviceArrival, IDeviceController.streaming, IDeviceController::add_DeviceArrival, IDeviceController::streaming, add_DeviceArrival, add_DeviceArrival method [Media Streaming API], add_DeviceArrival method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicearrival, windows/IDeviceController::add_DeviceArrival
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IDeviceController.add_DeviceArrival"]
+f1_keywords: 
+ - "windows.media.streaming/IDeviceController.add_DeviceArrival"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEtmId, GetEtmId method [Microsoft TV Technologies], GetEtmId method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetEtmId method, IATSC_ETT.GetEtmId, IATSC_ETT::GetEtmId, IATSC_ETTGetEtmId, atscpsipparser/IATSC_ETT::GetEtmId, mstv.iatsc_ett_getetmid
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_ETT.GetEtmId"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_ETT.GetEtmId"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],Rules property, INetFwPolicy2.Rules, INetFwPolicy2.get_Rules, INetFwPolicy2::Rules, INetFwPolicy2::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF],INetFwPolicy2 interface, get_Rules, ics.inetfwpolicy2_rules, netfw/INetFwPolicy2::Rules, netfw/INetFwPolicy2::get_Rules
 ms.topic: method
-f1_keywords: ["netfw/INetFwPolicy2.Rules"]
+f1_keywords: 
+ - "netfw/INetFwPolicy2.Rules"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

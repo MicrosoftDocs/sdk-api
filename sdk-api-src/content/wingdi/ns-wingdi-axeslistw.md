@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAXESLISTW, *PAXESLISTW, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
 ms.topic: struct
-f1_keywords: ["wingdi/AXESLIST"]
+f1_keywords: 
+ - "wingdi/AXESLIST"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

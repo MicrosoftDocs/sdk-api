@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
 ms.topic: interface
-f1_keywords: ["casetup/ICertificateEnrollmentPolicyServerSetup"]
+f1_keywords: 
+ - "casetup/ICertificateEnrollmentPolicyServerSetup"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

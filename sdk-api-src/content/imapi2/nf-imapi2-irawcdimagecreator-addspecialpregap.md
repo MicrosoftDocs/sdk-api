@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSpecialPregap, AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSpecialPregap method, IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.AddSpecialPregap"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.AddSpecialPregap"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

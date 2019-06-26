@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDDeviceProxy.Init"]
+f1_keywords: 
+ - "wsdclient/IWSDDeviceProxy.Init"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

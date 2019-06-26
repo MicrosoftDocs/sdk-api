@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], IDVBTLocator interface [Microsoft TV Technologies],described, IDVBTLocatorInterface, mstv.idvbtlocator, tuner/IDVBTLocator
 ms.topic: interface
-f1_keywords: ["tuner/IDVBTLocator"]
+f1_keywords: 
+ - "tuner/IDVBTLocator"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

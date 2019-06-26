@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObjectInformation method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectInformation method, IDirectoryObject.GetObjectInformation, IDirectoryObject::GetObjectInformation, _ds_idirectoryobject_getobjectinformation, adsi.idirectoryobject__getobjectinformation, adsi.idirectoryobject_getobjectinformation, iads/IDirectoryObject::GetObjectInformation
 ms.topic: method
-f1_keywords: ["iads/IDirectoryObject.GetObjectInformation"]
+f1_keywords: 
+ - "iads/IDirectoryObject.GetObjectInformation"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

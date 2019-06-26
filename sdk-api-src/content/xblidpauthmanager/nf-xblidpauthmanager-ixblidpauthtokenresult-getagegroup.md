@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetAgeGroup method, IXblIdpAuthTokenResult.GetAgeGroup, IXblIdpAuthTokenResult::GetAgeGroup, xblidp.ixblidpauthtokenresult_getagegroup, xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetAgeGroup"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetAgeGroup"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

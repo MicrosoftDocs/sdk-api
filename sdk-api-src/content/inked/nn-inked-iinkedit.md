@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit, IInkEdit interface [Tablet PC], IInkEdit interface [Tablet PC],described, inked/IInkEdit, tablet.iinkedit_
 ms.topic: interface
-f1_keywords: ["inked/IInkEdit"]
+f1_keywords: 
+ - "inked/IInkEdit"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

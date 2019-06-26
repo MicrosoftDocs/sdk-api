@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpecVersion, GetSpecVersion method [Windows Imaging Component], GetSpecVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSpecVersion method, IWICComponentInfo.GetSpecVersion, IWICComponentInfo::GetSpecVersion, _wic_codec_iwiccomponentinfo_getspecversion, wic._wic_codec_iwiccomponentinfo_getspecversion, wincodec/IWICComponentInfo::GetSpecVersion
 ms.topic: method
-f1_keywords: ["wincodec/IWICComponentInfo.GetSpecVersion"]
+f1_keywords: 
+ - "wincodec/IWICComponentInfo.GetSpecVersion"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

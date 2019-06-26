@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation],IMFReadWriteClassFactory interface, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromURL method, IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromURL"]
+f1_keywords: 
+ - "mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromURL"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

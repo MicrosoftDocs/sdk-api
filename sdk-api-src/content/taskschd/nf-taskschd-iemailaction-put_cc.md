@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cc property [Task Scheduler], Cc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Cc property, IEmailAction.Cc, IEmailAction.put_Cc, IEmailAction::Cc, IEmailAction::get_Cc, IEmailAction::put_Cc, put_Cc, taskschd.iemailaction_cc, taskschd/IEmailAction::Cc, taskschd/IEmailAction::get_Cc, taskschd/IEmailAction::put_Cc
 ms.topic: method
-f1_keywords: ["taskschd/IEmailAction.Cc"]
+f1_keywords: 
+ - "taskschd/IEmailAction.Cc"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

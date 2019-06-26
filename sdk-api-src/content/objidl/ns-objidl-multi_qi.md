@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
 ms.topic: struct
-f1_keywords: ["objidl/MULTI_QI"]
+f1_keywords: 
+ - "objidl/MULTI_QI"
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

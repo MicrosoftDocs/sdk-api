@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumeration, base.pwm_polarity, pwm/PWM_ACTIVE_HIGH, pwm/PWM_ACTIVE_LOW, pwm/PWM_POLARITY
 ms.topic: enum
-f1_keywords: ["pwm/PWM_POLARITY"]
+f1_keywords: 
+ - "pwm/PWM_POLARITY"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

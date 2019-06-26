@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
 ms.topic: macro
-f1_keywords: ["commctrl/Animate_Create"]
+f1_keywords: 
+ - "commctrl/Animate_Create"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

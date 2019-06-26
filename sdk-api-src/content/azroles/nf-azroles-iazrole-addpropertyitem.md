@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzRole object, AddPropertyItem method [Security],IAzRole interface, AzRole object [Security],AddPropertyItem method, IAzRole interface [Security],AddPropertyItem method, IAzRole.AddPropertyItem, IAzRole::AddPropertyItem, azroles/IAzRole::AddPropertyItem, security.iazrole_addpropertyitem
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.AddPropertyItem"]
+f1_keywords: 
+ - "azroles/IAzRole.AddPropertyItem"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

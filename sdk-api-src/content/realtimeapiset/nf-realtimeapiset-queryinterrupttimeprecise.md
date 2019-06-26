@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTimePrecise, QueryInterruptTimePrecise function, base.queryinterrupttimeprecise, realtimeapiset/QueryInterruptTimePrecise
 ms.topic: function
-f1_keywords: ["realtimeapiset/QueryInterruptTimePrecise"]
+f1_keywords: 
+ - "realtimeapiset/QueryInterruptTimePrecise"
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3 interface [Windows Shell],IEParseDisplayNameEx method, IBrowserService3.IEParseDisplayNameEx, IBrowserService3::IEParseDisplayNameEx, IEPDN_BINDINGUI, IEParseDisplayNameEx, IEParseDisplayNameEx method [Windows Shell], IEParseDisplayNameEx method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::IEParseDisplayNameEx, shell.IBrowserService3_IEParseDisplayNameEx, zone_IBrowserService3_IEParseDisplayNameEx
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService3.IEParseDisplayNameEx"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService3.IEParseDisplayNameEx"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

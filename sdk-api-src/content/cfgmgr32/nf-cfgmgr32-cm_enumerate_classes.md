@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Enumerate_Classes, CM_Enumerate_Classes function [Device and Driver Installation], cfgmgr32/CM_Enumerate_Classes, cfgmgrfn_ab0123b7-a657-40ee-aede-e58957589d3c.xml, devinst.cm_enumerate_classes
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Enumerate_Classes"]
+f1_keywords: 
+ - "cfgmgr32/CM_Enumerate_Classes"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

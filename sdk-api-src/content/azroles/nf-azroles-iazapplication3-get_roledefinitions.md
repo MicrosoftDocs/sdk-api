@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],RoleDefinitions property, IAzApplication3.RoleDefinitions, IAzApplication3.get_RoleDefinitions, IAzApplication3::RoleDefinitions, IAzApplication3::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleDefinitions, azroles/IAzApplication3::get_RoleDefinitions, get_RoleDefinitions, security.iazapplication3_roledefinitions
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication3.RoleDefinitions"]
+f1_keywords: 
+ - "azroles/IAzApplication3.RoleDefinitions"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

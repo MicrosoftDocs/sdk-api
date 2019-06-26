@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS"
 ms.topic: struct
-f1_keywords: ["shlobj/SFV_SETITEMPOS"]
+f1_keywords: 
+ - "shlobj/SFV_SETITEMPOS"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

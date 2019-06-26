@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDoubleClickTime, SetDoubleClickTime function [Keyboard and Mouse Input], _win32_SetDoubleClickTime, _win32_setdoubleclicktime_cpp, inputdev.setdoubleclicktime, winui._win32_setdoubleclicktime, winuser/SetDoubleClickTime
 ms.topic: function
-f1_keywords: ["winuser/SetDoubleClickTime"]
+f1_keywords: 
+ - "winuser/SetDoubleClickTime"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

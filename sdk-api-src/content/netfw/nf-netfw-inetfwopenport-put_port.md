@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Port property, INetFwOpenPort.Port, INetFwOpenPort.put_Port, INetFwOpenPort::Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port, put_Port
 ms.topic: method
-f1_keywords: ["netfw/INetFwOpenPort.Port"]
+f1_keywords: 
+ - "netfw/INetFwOpenPort.Port"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
 ms.topic: interface
-f1_keywords: ["casetup/ICertSrvSetupKeyInformationCollection"]
+f1_keywords: 
+ - "casetup/ICertSrvSetupKeyInformationCollection"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

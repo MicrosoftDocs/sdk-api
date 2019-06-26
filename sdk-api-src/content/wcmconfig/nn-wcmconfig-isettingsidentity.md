@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
 ms.topic: interface
-f1_keywords: ["wcmconfig/ISettingsIdentity"]
+f1_keywords: 
+ - "wcmconfig/ISettingsIdentity"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

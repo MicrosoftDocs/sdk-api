@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptInitOIDFunctionSet, CryptInitOIDFunctionSet function [Security], _crypto2_cryptinitoidfunctionset, security.cryptinitoidfunctionset, wincrypt/CryptInitOIDFunctionSet
 ms.topic: function
-f1_keywords: ["wincrypt/CryptInitOIDFunctionSet"]
+f1_keywords: 
+ - "wincrypt/CryptInitOIDFunctionSet"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

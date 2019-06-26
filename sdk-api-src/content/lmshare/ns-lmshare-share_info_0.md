@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHARE_INFO_0, *PSHARE_INFO_0, LPSHARE_INFO_0, LPSHARE_INFO_0 structure pointer [Files], PSHARE_INFO_0, PSHARE_INFO_0 structure pointer [Files], SHARE_INFO_0, SHARE_INFO_0 structure [Files], _win32_share_info_0_str, fs.share_info_0_str, lmshare/LPSHARE_INFO_0, lmshare/PSHARE_INFO_0, lmshare/SHARE_INFO_0, netmgmt.share_info_0_str"
 ms.topic: struct
-f1_keywords: ["lmshare/SHARE_INFO_0"]
+f1_keywords: 
+ - "lmshare/SHARE_INFO_0"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

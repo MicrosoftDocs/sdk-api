@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx
 ms.topic: function
-f1_keywords: ["systemtopologyapi/GetNumaNodeProcessorMaskEx"]
+f1_keywords: 
+ - "systemtopologyapi/GetNumaNodeProcessorMaskEx"
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

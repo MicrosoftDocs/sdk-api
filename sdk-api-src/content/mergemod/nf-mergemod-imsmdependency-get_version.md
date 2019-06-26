@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency interface,get_Version method, IMsmDependency.get_Version, IMsmDependency::get_Version, _msi_get_version_function, get_Version, get_Version method, get_Version method,IMsmDependency interface, mergemod/IMsmDependency::get_Version, setup.imsmdependency_get_version
 ms.topic: method
-f1_keywords: ["mergemod/IMsmDependency.get_Version"]
+f1_keywords: 
+ - "mergemod/IMsmDependency.get_Version"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

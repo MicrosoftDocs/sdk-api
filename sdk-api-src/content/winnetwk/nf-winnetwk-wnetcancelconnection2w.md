@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CONNECT_UPDATE_PROFILE, WNetCancelConnection2, WNetCancelConnection2 function [Windows Networking (WNet)], WNetCancelConnection2A, WNetCancelConnection2W, _win32_wnetcancelconnection2, winnetwk/WNetCancelConnection2, winnetwk/WNetCancelConnection2A, winnetwk/WNetCancelConnection2W, wnet.wnetcancelconnection2
 ms.topic: function
-f1_keywords: ["winnetwk/WNetCancelConnection2"]
+f1_keywords: 
+ - "winnetwk/WNetCancelConnection2"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

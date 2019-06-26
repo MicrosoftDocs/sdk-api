@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChange method, IMILBitmapEffectEvents.PropertyChange, IMILBitmapEffectEvents::PropertyChange, PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectEvents.PropertyChange"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectEvents.PropertyChange"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

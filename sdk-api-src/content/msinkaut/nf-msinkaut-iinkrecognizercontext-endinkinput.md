@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],EndInkInput method, IInkRecognizerContext.EndInkInput, IInkRecognizerContext::EndInkInput, a384edf8-3b3d-4e0c-b39c-976798457076, msinkaut/IInkRecognizerContext::EndInkInput, tablet.inkrecognizercontext_endinkinput
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizerContext.EndInkInput"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext.EndInkInput"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

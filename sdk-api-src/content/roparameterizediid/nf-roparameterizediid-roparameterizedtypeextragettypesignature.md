@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime], roparameterizediid/RoParameterizedTypeExtraGetTypeSignature, winrt.roparameterizedtypeextragettypesignature
 ms.topic: function
-f1_keywords: ["roparameterizediid/RoParameterizedTypeExtraGetTypeSignature"]
+f1_keywords: 
+ - "roparameterizediid/RoParameterizedTypeExtraGetTypeSignature"
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows

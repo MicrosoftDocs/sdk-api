@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
 ms.topic: function
-f1_keywords: ["dbghelp/SymSearch"]
+f1_keywords: 
+ - "dbghelp/SymSearch"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

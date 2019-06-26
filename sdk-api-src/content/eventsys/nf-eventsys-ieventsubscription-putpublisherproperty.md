@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PutPublisherProperty method, IEventSubscription.PutPublisherProperty, IEventSubscription::PutPublisherProperty, PutPublisherProperty, PutPublisherProperty method [COM+], PutPublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutPublisherProperty, cos.ieventsubscription_putpublisherproperty, eventsys/IEventSubscription::PutPublisherProperty
 ms.topic: method
-f1_keywords: ["eventsys/IEventSubscription.PutPublisherProperty"]
+f1_keywords: 
+ - "eventsys/IEventSubscription.PutPublisherProperty"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

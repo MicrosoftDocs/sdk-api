@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback2 interface [Media Foundation],OnTransformChange method, IMFSinkWriterCallback2.OnTransformChange, IMFSinkWriterCallback2::OnTransformChange, OnTransformChange, OnTransformChange method [Media Foundation], OnTransformChange method [Media Foundation],IMFSinkWriterCallback2 interface, mf.imfsinkwritercallback2_ontransformchange, mfreadwrite/IMFSinkWriterCallback2::OnTransformChange
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriterCallback2.OnTransformChange"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriterCallback2.OnTransformChange"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

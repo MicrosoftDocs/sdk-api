@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMSignatureBlockResourceCollection.GetAt, IXpsOMSignatureBlockResourceCollection::GetAt, xps.ixpsomsignatureblockresourcecollection_getat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

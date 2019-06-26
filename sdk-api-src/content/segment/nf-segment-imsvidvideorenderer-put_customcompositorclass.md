@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_CustomCompositorClass method, IMSVidVideoRenderer.put_CustomCompositorClass, IMSVidVideoRenderer::put_CustomCompositorClass, IMSVidVideoRendererput_CustomCompositorClass, mstv.imsvidvideorenderer_put_customcompositorclass, put_CustomCompositorClass, put_CustomCompositorClass method [Microsoft TV Technologies], put_CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_CustomCompositorClass
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.put_CustomCompositorClass"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.put_CustomCompositorClass"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

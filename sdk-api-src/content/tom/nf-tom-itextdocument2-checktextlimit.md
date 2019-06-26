@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTextLimit, CheckTextLimit method [Windows Controls], CheckTextLimit method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],CheckTextLimit method, ITextDocument2.CheckTextLimit, ITextDocument2::CheckTextLimit, controls.itextdocument2_checktextlimit, tom/ITextDocument2::CheckTextLimit
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.CheckTextLimit"]
+f1_keywords: 
+ - "tom/ITextDocument2.CheckTextLimit"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

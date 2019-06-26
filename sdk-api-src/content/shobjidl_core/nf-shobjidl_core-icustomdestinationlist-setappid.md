@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICustomDestinationList interface [Windows Shell],SetAppID method, ICustomDestinationList.SetAppID, ICustomDestinationList::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],ICustomDestinationList interface, _shell_ICustomDestinationList_SetAppID, shell.ICustomDestinationList_SetAppID, shobjidl_core/ICustomDestinationList::SetAppID
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICustomDestinationList.SetAppID"]
+f1_keywords: 
+ - "shobjidl_core/ICustomDestinationList.SetAppID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

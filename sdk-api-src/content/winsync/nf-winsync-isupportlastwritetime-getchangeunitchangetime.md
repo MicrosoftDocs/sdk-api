@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
 ms.topic: method
-f1_keywords: ["winsync/ISupportLastWriteTime.GetChangeUnitChangeTime"]
+f1_keywords: 
+ - "winsync/ISupportLastWriteTime.GetChangeUnitChangeTime"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

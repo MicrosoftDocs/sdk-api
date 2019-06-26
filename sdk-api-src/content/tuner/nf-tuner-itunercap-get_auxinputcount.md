@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_AuxInputCount method, ITunerCap.get_AuxInputCount, ITunerCap::get_AuxInputCount, ITunerCapget_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_auxinputcount, tuner/ITunerCap::get_AuxInputCount
 ms.topic: method
-f1_keywords: ["tuner/ITunerCap.get_AuxInputCount"]
+f1_keywords: 
+ - "tuner/ITunerCap.get_AuxInputCount"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

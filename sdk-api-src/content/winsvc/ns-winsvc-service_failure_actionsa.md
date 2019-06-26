@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVICE_FAILURE_ACTIONSA, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW"
 ms.topic: struct
-f1_keywords: ["winsvc/SERVICE_FAILURE_ACTIONS"]
+f1_keywords: 
+ - "winsvc/SERVICE_FAILURE_ACTIONS"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal, LPSAFEARRAY_UserUnmarshal function [Automation], _oa96_LPSAFEARRAY_UserUnmarshal, automat.lpsafearray_userunmarshal, wia_xp/LPSAFEARRAY_UserUnmarshal
 ms.topic: function
-f1_keywords: ["wia_xp/LPSAFEARRAY_UserUnmarshal"]
+f1_keywords: 
+ - "wia_xp/LPSAFEARRAY_UserUnmarshal"
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

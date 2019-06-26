@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeletePersonalDesktopAssignment, DeletePersonalDesktopAssignment method [Remote Desktop Services], DeletePersonalDesktopAssignment method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],DeletePersonalDesktopAssignment method, ItsPubPlugin2.DeletePersonalDesktopAssignment, ItsPubPlugin2::DeletePersonalDesktopAssignment, termserv.itspubplugin2_deletepersonaldesktopassignment, tspubplugin2com/ItsPubPlugin2::DeletePersonalDesktopAssignment
 ms.topic: method
-f1_keywords: ["tspubplugin2com/ItsPubPlugin2.DeletePersonalDesktopAssignment"]
+f1_keywords: 
+ - "tspubplugin2com/ItsPubPlugin2.DeletePersonalDesktopAssignment"
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

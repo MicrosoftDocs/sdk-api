@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCredentialsEx2, GetCredentialsEx2 method [windows Media Format], GetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],GetCredentialsEx2 method, IWMSInternalAdminNetSource3.GetCredentialsEx2, IWMSInternalAdminNetSource3::GetCredentialsEx2, IWMSInternalAdminNetSource3GetCredentialsEx2, wmformat.iwmsinternaladminnetsource3_getcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::GetCredentialsEx2
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource3.GetCredentialsEx2"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.GetCredentialsEx2"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

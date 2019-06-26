@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
 ms.topic: function
-f1_keywords: ["wininet/PrivacyGetZonePreferenceW"]
+f1_keywords: 
+ - "wininet/PrivacyGetZonePreferenceW"
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS],described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter
 ms.topic: class
-f1_keywords: ["vswriter/CVssWriter"]
+f1_keywords: 
+ - "vswriter/CVssWriter"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

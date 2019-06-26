@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetFieldCount, SetupGetFieldCount function [Setup API], _setupapi_setupgetfieldcount, setup.setupgetfieldcount, setupapi/SetupGetFieldCount
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetFieldCount"]
+f1_keywords: 
+ - "setupapi/SetupGetFieldCount"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

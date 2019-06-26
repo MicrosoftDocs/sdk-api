@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [Perf], base.pdhcollectquerydatawithtime, pdh/PdhCollectQueryDataWithTime, perf.pdhcollectquerydatawithtime
 ms.topic: function
-f1_keywords: ["pdh/PdhCollectQueryDataWithTime"]
+f1_keywords: 
+ - "pdh/PdhCollectQueryDataWithTime"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

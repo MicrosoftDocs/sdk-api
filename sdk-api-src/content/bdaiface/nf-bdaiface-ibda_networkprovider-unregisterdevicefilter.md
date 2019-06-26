@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],UnRegisterDeviceFilter method, IBDA_NetworkProvider.UnRegisterDeviceFilter, IBDA_NetworkProvider::UnRegisterDeviceFilter, IBDA_NetworkProviderUnRegisterDeviceFilter, UnRegisterDeviceFilter, UnRegisterDeviceFilter method [Microsoft TV Technologies], UnRegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter, mstv.ibda_networkprovider_unregisterdevicefilter
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_NetworkProvider.UnRegisterDeviceFilter"]
+f1_keywords: 
+ - "bdaiface/IBDA_NetworkProvider.UnRegisterDeviceFilter"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.topic: method
-f1_keywords: ["msctf/ITfDocumentMgr.Push"]
+f1_keywords: 
+ - "msctf/ITfDocumentMgr.Push"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method, IProgressItems.ProgressItemFromDescription, IProgressItems::ProgressItemFromDescription, ProgressItemFromDescription, ProgressItemFromDescription method [IMAPI], ProgressItemFromDescription method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromdescription, imapi2fs/IProgressItems::ProgressItemFromDescription
 ms.topic: method
-f1_keywords: ["imapi2fs/IProgressItems.ProgressItemFromDescription"]
+f1_keywords: 
+ - "imapi2fs/IProgressItems.ProgressItemFromDescription"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

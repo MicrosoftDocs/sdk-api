@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
 ms.topic: function
-f1_keywords: ["aclapi/BuildTrusteeWithObjectsAndSid"]
+f1_keywords: 
+ - "aclapi/BuildTrusteeWithObjectsAndSid"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

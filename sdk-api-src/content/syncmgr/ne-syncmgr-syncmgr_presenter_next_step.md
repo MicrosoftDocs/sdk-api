@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_PNS_CANCEL, SYNCMGR_PNS_CONTINUE, SYNCMGR_PNS_DEFAULT, SYNCMGR_PRESENTER_NEXT_STEP, SYNCMGR_PRESENTER_NEXT_STEP enumeration [Windows Shell], _shell_SYNCMGR_PRESENTER_NEXT_STEP, shell.SYNCMGR_PRESENTER_NEXT_STEP, syncmgr/SYNCMGR_PNS_CANCEL, syncmgr/SYNCMGR_PNS_CONTINUE, syncmgr/SYNCMGR_PNS_DEFAULT, syncmgr/SYNCMGR_PRESENTER_NEXT_STEP
 ms.topic: enum
-f1_keywords: ["syncmgr/SYNCMGR_PRESENTER_NEXT_STEP"]
+f1_keywords: 
+ - "syncmgr/SYNCMGR_PRESENTER_NEXT_STEP"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

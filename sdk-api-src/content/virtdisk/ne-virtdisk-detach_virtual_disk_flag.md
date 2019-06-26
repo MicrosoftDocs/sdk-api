@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, vdssys/DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG_NONE, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
-f1_keywords: ["virtdisk/DETACH_VIRTUAL_DISK_FLAG"]
+f1_keywords: 
+ - "virtdisk/DETACH_VIRTUAL_DISK_FLAG"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

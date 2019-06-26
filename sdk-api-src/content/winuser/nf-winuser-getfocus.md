@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus function [Keyboard and Mouse Input], _win32_GetFocus, _win32_getfocus_cpp, inputdev.getfocus, winui._win32_getfocus, winuser/GetFocus
 ms.topic: function
-f1_keywords: ["winuser/GetFocus"]
+f1_keywords: 
+ - "winuser/GetFocus"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

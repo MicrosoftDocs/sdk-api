@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, MI_ProviderArchitecture, MI_ProviderArchitecture enumeration [Windows Management Infrastructure (MI)], mi/MI_PROVIDER_ARCHITECTURE_32BIT, mi/MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_ProviderArchitecture, wmi._mi_providerarchitecture, wmi_v2.mi_providerarchitecture
 ms.topic: enum
-f1_keywords: ["mi/MI_ProviderArchitecture"]
+f1_keywords: 
+ - "mi/MI_ProviderArchitecture"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

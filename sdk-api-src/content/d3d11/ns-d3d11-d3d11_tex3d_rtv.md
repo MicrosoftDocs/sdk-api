@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0e151840-ecbe-6a4e-52dd-154d488710bc, D3D11_TEX3D_RTV, D3D11_TEX3D_RTV structure [Direct3D 11], d3d11/D3D11_TEX3D_RTV, direct3d11.d3d11_tex3d_rtv
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_TEX3D_RTV"]
+f1_keywords: 
+ - "d3d11/D3D11_TEX3D_RTV"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

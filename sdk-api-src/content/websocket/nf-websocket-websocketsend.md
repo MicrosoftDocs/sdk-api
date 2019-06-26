@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
 ms.topic: function
-f1_keywords: ["websocket/WebSocketSend"]
+f1_keywords: 
+ - "websocket/WebSocketSend"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

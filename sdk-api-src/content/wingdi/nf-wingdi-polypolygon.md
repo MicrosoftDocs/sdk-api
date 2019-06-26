@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
 ms.topic: function
-f1_keywords: ["wingdi/PolyPolygon"]
+f1_keywords: 
+ - "wingdi/PolyPolygon"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

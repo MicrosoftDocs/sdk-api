@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUSHORT4, XMUSHORT4 structure [DirectX Math Support APIs], directxpackedvector/XMUSHORT4, dxmath.xmushort4
 ms.topic: struct
-f1_keywords: ["directxpackedvector/XMUSHORT4"]
+f1_keywords: 
+ - "directxpackedvector/XMUSHORT4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

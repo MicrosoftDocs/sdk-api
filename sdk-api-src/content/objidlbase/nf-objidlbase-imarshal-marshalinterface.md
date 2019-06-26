@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
 ms.topic: method
-f1_keywords: ["objidlbase/IMarshal.MarshalInterface"]
+f1_keywords: 
+ - "objidlbase/IMarshal.MarshalInterface"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

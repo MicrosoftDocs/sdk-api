@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY structure pointer [RAS], SOURCE_GROUP_ENTRY, SOURCE_GROUP_ENTRY structure [RAS], _mpr_source_group_entry_str, mgm/PSOURCE_GROUP_ENTRY, mgm/SOURCE_GROUP_ENTRY, rras.source_group_entry_str"
 ms.topic: struct
-f1_keywords: ["mgm/SOURCE_GROUP_ENTRY"]
+f1_keywords: 
+ - "mgm/SOURCE_GROUP_ENTRY"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

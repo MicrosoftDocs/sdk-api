@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPageReference.GetThumbnailResource, IXpsOMPageReference::GetThumbnailResource, xps.ixpsompagereference_getthumbnailresource, xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.GetThumbnailResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

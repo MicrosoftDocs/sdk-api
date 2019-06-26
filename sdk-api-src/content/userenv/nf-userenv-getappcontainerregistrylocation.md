@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerRegistryLocation, GetAppContainerRegistryLocation function [Windows Shell], shell.getappcontainerregistrylocation, userenv/GetAppContainerRegistryLocation
 ms.topic: function
-f1_keywords: ["userenv/GetAppContainerRegistryLocation"]
+f1_keywords: 
+ - "userenv/GetAppContainerRegistryLocation"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

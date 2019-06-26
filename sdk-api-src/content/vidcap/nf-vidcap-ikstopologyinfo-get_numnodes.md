@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumNodes method, IKsTopologyInfo.get_NumNodes, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumNodes
 ms.topic: method
-f1_keywords: ["vidcap/IKsTopologyInfo.get_NumNodes"]
+f1_keywords: 
+ - "vidcap/IKsTopologyInfo.get_NumNodes"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

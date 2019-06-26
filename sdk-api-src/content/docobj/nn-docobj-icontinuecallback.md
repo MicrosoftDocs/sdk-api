@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContinueCallback, IContinueCallback interface [COM], IContinueCallback interface [COM],described, _com_icontinuecallback, com.icontinuecallback, docobj/IContinueCallback
 ms.topic: interface
-f1_keywords: ["docobj/IContinueCallback"]
+f1_keywords: 
+ - "docobj/IContinueCallback"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

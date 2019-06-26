@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_rpcerrorsaveerrorinfo, rpc.rpcerrorsaveerrorinfo, rpcasync/RpcErrorSaveErrorInfo
 ms.topic: function
-f1_keywords: ["rpcasync/RpcErrorSaveErrorInfo"]
+f1_keywords: 
+ - "rpcasync/RpcErrorSaveErrorInfo"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetAclInformation"]
+f1_keywords: 
+ - "securitybaseapi/GetAclInformation"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

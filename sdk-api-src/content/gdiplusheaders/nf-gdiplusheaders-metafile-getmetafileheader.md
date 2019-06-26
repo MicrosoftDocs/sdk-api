@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Metafile::GetMetafileHeader
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Metafile::GetMetafileHeader"]
+f1_keywords: 
+ - "gdiplusheaders/Metafile::GetMetafileHeader"
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCaps, PDXVAHDSW_GetVideoProcessorCaps callback, PDXVAHDSW_GetVideoProcessorCaps callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCaps, mf.pdxvahdsw_getvideoprocessorcaps
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_GetVideoProcessorCaps"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_GetVideoProcessorCaps"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],AsyncState property, IInstallationJob.AsyncState, IInstallationJob.get_AsyncState, IInstallationJob::AsyncState, IInstallationJob::get_AsyncState, get_AsyncState, wua.iinstallationjob_asyncstate, wuapi/IInstallationJob::AsyncState, wuapi/IInstallationJob::get_AsyncState
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationJob.AsyncState"]
+f1_keywords: 
+ - "wuapi/IInstallationJob.AsyncState"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

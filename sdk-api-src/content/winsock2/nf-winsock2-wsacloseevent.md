@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSACloseEvent, WSACloseEvent function [Winsock], _win32_wsacloseevent_2, winsock.wsacloseevent_2, winsock2/WSACloseEvent
 ms.topic: function
-f1_keywords: ["winsock2/WSACloseEvent"]
+f1_keywords: 
+ - "winsock2/WSACloseEvent"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

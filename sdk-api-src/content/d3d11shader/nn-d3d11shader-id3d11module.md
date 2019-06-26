@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Module, ID3D11Module interface [Direct3D 11], ID3D11Module interface [Direct3D 11],described, d3d11shader/ID3D11Module, direct3d11.id3d11module
 ms.topic: interface
-f1_keywords: ["d3d11shader/ID3D11Module"]
+f1_keywords: 
+ - "d3d11shader/ID3D11Module"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

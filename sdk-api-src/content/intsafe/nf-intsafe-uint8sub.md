@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UInt8Sub, UInt8Sub function [Windows Shell], intsafe/UInt8Sub, shell.UInt8Sub
 ms.topic: function
-f1_keywords: ["intsafe/UInt8Sub"]
+f1_keywords: 
+ - "intsafe/UInt8Sub"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

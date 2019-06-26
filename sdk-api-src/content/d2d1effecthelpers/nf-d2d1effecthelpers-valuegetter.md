@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValueGetter, ValueGetter function [Direct2D], d2d1effecthelpers/ValueGetter, direct2d.valuegetter
 ms.topic: function
-f1_keywords: ["d2d1effecthelpers/ValueGetter"]
+f1_keywords: 
+ - "d2d1effecthelpers/ValueGetter"
 req.header: d2d1effecthelpers.h
 req.include-header: 
 req.target-type: Windows

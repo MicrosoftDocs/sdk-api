@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionGetInfo, MprAdminConnectionGetInfo function [RAS], _mpr_mpradminconnectiongetinfo, mprapi/MprAdminConnectionGetInfo, rras.mpradminconnectiongetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminConnectionGetInfo"]
+f1_keywords: 
+ - "mprapi/MprAdminConnectionGetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

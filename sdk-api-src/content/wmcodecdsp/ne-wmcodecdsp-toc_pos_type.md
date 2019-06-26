@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOC_POS_INHEADER, TOC_POS_TOPLEVELOBJECT, TOC_POS_TYPE, TOC_POS_TYPE enumeration [Media Foundation], codecapi.toc_pos_type, mf.toc_pos_type, wmcodecdsp/TOC_POS_INHEADER, wmcodecdsp/TOC_POS_TOPLEVELOBJECT, wmcodecdsp/TOC_POS_TYPE
 ms.topic: enum
-f1_keywords: ["wmcodecdsp/TOC_POS_TYPE"]
+f1_keywords: 
+ - "wmcodecdsp/TOC_POS_TYPE"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

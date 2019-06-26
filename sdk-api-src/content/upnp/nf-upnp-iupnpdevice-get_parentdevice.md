@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ParentDevice method, IUPnPDevice.get_ParentDevice, IUPnPDevice::get_ParentDevice, _upnp_iupnpdevice_parentdevice, get_ParentDevice, get_ParentDevice method [UPnP APIs], get_ParentDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_parentdevice, upnp/IUPnPDevice::get_ParentDevice
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevice.get_ParentDevice"]
+f1_keywords: 
+ - "upnp/IUPnPDevice.get_ParentDevice"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

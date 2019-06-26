@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReportStatus, GetReportStatus method [WinLocation], GetReportStatus method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportStatus method, ILocation.GetReportStatus, ILocation::GetReportStatus, WinLocation_COM_Ref.ilocation_getreportstatus, locationapi/ILocation::GetReportStatus
 ms.topic: method
-f1_keywords: ["locationapi/ILocation.GetReportStatus"]
+f1_keywords: 
+ - "locationapi/ILocation.GetReportStatus"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

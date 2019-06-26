@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],PostEvent method, IMtsEvents.PostEvent, IMtsEvents::PostEvent, PostEvent, PostEvent method [COM+], PostEvent method [COM+],IMtsEvents interface, _dtc_IMtsEvents_PostEvent, comsvcs/IMtsEvents::PostEvent, cos.imtsevents_postevent
 ms.topic: method
-f1_keywords: ["comsvcs/IMtsEvents.PostEvent"]
+f1_keywords: 
+ - "comsvcs/IMtsEvents.PostEvent"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

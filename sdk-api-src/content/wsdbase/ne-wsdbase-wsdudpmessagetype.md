@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
 ms.topic: enum
-f1_keywords: ["wsdbase/WSDUdpMessageType"]
+f1_keywords: 
+ - "wsdbase/WSDUdpMessageType"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

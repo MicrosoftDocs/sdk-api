@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyAddressMediaControl.GetDevConfig"]
+f1_keywords: 
+ - "tapi3if/ITLegacyAddressMediaControl.GetDevConfig"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

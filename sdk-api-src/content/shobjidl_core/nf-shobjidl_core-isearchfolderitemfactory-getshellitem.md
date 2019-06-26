@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],ISearchFolderItemFactory interface, ISearchFolderItemFactory interface [Windows Shell],GetShellItem method, ISearchFolderItemFactory.GetShellItem, ISearchFolderItemFactory::GetShellItem, _shell_ISearchFolderItemFactory_GetShellItem, shell.ISearchFolderItemFactory_GetShellItem, shobjidl_core/ISearchFolderItemFactory::GetShellItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISearchFolderItemFactory.GetShellItem"]
+f1_keywords: 
+ - "shobjidl_core/ISearchFolderItemFactory.GetShellItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

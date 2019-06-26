@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStackBackTrace, GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime],ILanguageExceptionStackBackTrace interface, ILanguageExceptionStackBackTrace interface [Windows Runtime],GetStackBackTrace method, ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
 ms.topic: method
-f1_keywords: ["restrictederrorinfo/ILanguageExceptionStackBackTrace.GetStackBackTrace"]
+f1_keywords: 
+ - "restrictederrorinfo/ILanguageExceptionStackBackTrace.GetStackBackTrace"
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

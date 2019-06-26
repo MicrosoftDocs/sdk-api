@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [Microsoft TV Technologies], GetDRMStatus method [Microsoft TV Technologies],IBDA_DRMService interface, IBDA_DRMService interface [Microsoft TV Technologies],GetDRMStatus method, IBDA_DRMService.GetDRMStatus, IBDA_DRMService::GetDRMStatus, bdaiface/IBDA_DRMService::GetDRMStatus, mstv.ibda_drmservice_getdrmstatus
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DRMService.GetDRMStatus"]
+f1_keywords: 
+ - "bdaiface/IBDA_DRMService.GetDRMStatus"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

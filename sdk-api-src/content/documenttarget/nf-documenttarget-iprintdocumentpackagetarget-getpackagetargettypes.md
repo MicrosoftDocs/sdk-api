@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageTargetTypes, GetPackageTargetTypes method [XPS Documents and Packaging], GetPackageTargetTypes method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTargetTypes method, IPrintDocumentPackageTarget.GetPackageTargetTypes, IPrintDocumentPackageTarget::GetPackageTargetTypes, documenttarget/IPrintDocumentPackageTarget::GetPackageTargetTypes, xps.iprintdocumentpackagetarget_getpackagetargettypes
 ms.topic: method
-f1_keywords: ["documenttarget/IPrintDocumentPackageTarget.GetPackageTargetTypes"]
+f1_keywords: 
+ - "documenttarget/IPrintDocumentPackageTarget.GetPackageTargetTypes"
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

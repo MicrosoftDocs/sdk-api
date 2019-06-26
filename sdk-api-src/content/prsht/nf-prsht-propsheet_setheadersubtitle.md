@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetHeaderSubTitle, PropSheet_SetHeaderSubTitle macro [Windows Controls], _win32_PropSheet_SetHeaderSubTitle, _win32_PropSheet_SetHeaderSubTitle_cpp, controls.PropSheet_SetHeaderSubTitle, controls._win32_PropSheet_SetHeaderSubTitle, prsht/PropSheet_SetHeaderSubTitle
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_SetHeaderSubTitle"]
+f1_keywords: 
+ - "prsht/PropSheet_SetHeaderSubTitle"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

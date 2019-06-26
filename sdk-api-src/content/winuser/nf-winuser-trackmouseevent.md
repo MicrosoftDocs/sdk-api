@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TrackMouseEvent, TrackMouseEvent function [Keyboard and Mouse Input], _win32_TrackMouseEvent, _win32_trackmouseevent_cpp, inputdev.trackmouseevent, winui._win32_trackmouseevent, winuser/TrackMouseEvent
 ms.topic: function
-f1_keywords: ["winuser/TrackMouseEvent"]
+f1_keywords: 
+ - "winuser/TrackMouseEvent"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING, WS_XML_STRING structure [Web Services for Windows], webservices/WS_XML_STRING, wsw.ws_xml_string
 ms.topic: struct
-f1_keywords: ["webservices/WS_XML_STRING"]
+f1_keywords: 
+ - "webservices/WS_XML_STRING"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

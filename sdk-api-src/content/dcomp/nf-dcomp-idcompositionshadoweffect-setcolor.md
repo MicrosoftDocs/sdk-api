@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetColor method, IDCompositionShadowEffect.SetColor, IDCompositionShadowEffect::SetColor, SetColor, SetColor method [DirectComposition], SetColor method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetColor, directcomp.idcompositionshadoweffect_setcolor
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionShadowEffect.SetColor"]
+f1_keywords: 
+ - "dcomp/IDCompositionShadowEffect.SetColor"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

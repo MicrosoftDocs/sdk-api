@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbAudioComponentDescriptor.GetLength, IIsdbAudioComponentDescriptor::GetLength, dvbsiparser/IIsdbAudioComponentDescriptor::GetLength, mstv.iisdbaudiocomponentdescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbAudioComponentDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbAudioComponentDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogLimits, GetLogLimits method [COM], GetLogLimits method [COM],ILog interface, ILog interface [COM],GetLogLimits method, ILog.GetLogLimits, ILog::GetLogLimits, _com_ilog_getloglimits, com.ilog_getloglimits, txlogpub/ILog::GetLogLimits
 ms.topic: method
-f1_keywords: ["txlogpub/ILog.GetLogLimits"]
+f1_keywords: 
+ - "txlogpub/ILog.GetLogLimits"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

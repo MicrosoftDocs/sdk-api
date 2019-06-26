@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Online property, IUpdateSearcher.Online, IUpdateSearcher.get_Online, IUpdateSearcher::Online, IUpdateSearcher::get_Online, IUpdateSearcher::put_Online, Online property [Windows Update Agent], Online property [Windows Update Agent],IUpdateSearcher interface, get_Online, wua.iupdatesearcheronline, wuapi/IUpdateSearcher::Online, wuapi/IUpdateSearcher::get_Online, wuapi/IUpdateSearcher::put_Online
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSearcher.Online"]
+f1_keywords: 
+ - "wuapi/IUpdateSearcher.Online"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

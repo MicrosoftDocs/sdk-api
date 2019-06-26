@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemovePid method, IBDA_FDC.RemovePid, IBDA_FDC::RemovePid, RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_FDC.RemovePid"]
+f1_keywords: 
+ - "bdaiface/IBDA_FDC.RemovePid"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectorIdConnectedTo, GetConnectorIdConnectedTo method [Core Audio], GetConnectorIdConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectorIdConnectedTo method, IConnector.GetConnectorIdConnectedTo, IConnector::GetConnectorIdConnectedTo, IConnectorGetConnectorIdConnectedTo, coreaudio.iconnector_getconnectoridconnectedto, devicetopology/IConnector::GetConnectorIdConnectedTo
 ms.topic: method
-f1_keywords: ["devicetopology/IConnector.GetConnectorIdConnectedTo"]
+f1_keywords: 
+ - "devicetopology/IConnector.GetConnectorIdConnectedTo"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

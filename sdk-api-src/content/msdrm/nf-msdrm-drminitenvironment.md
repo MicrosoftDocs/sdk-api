@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMInitEnvironment, DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMInitEnvironment, rm.drminitenvironment
 ms.topic: function
-f1_keywords: ["msdrm/DRMInitEnvironment"]
+f1_keywords: 
+ - "msdrm/DRMInitEnvironment"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

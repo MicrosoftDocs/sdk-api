@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanMinimize property [Windows Accessibility], CanMinimize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMinimize property, IWindowProvider.CanMinimize, IWindowProvider.get_CanMinimize, IWindowProvider::CanMinimize, IWindowProvider::get_CanMinimize, get_CanMinimize, uiauto.uiauto_IWindowProvider_CanMinimize, uiauto_IWindowProvider_CanMinimize, uiautomationcore/IWindowProvider::CanMinimize, uiautomationcore/IWindowProvider::get_CanMinimize, winauto.uiauto_IWindowProvider_CanMinimize
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.CanMinimize"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.CanMinimize"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

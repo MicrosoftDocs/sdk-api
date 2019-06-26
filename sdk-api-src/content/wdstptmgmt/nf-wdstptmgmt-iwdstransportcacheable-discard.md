@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Discard, Discard method [Windows Deployment Services], Discard method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Discard method, IWdsTransportCacheable.Discard, IWdsTransportCacheable::Discard, wds.iwdstransportcacheable_discard, wdstptmgmt/IWdsTransportCacheable::Discard
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportCacheable.Discard"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportCacheable.Discard"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

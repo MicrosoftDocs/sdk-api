@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSubscriberInformationChange method, IMbnInterfaceEvents.OnSubscriberInformationChange, IMbnInterfaceEvents::OnSubscriberInformationChange, OnSubscriberInformationChange, OnSubscriberInformationChange method [Microsoft Broadband Networks], OnSubscriberInformationChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onsubscriberinformationchange, mbnapi/IMbnInterfaceEvents::OnSubscriberInformationChange
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterfaceEvents.OnSubscriberInformationChange"]
+f1_keywords: 
+ - "mbnapi/IMbnInterfaceEvents.OnSubscriberInformationChange"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

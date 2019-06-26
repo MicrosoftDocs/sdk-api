@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetCenter method, ID2D1RadialGradientBrush.SetCenter, ID2D1RadialGradientBrush::SetCenter, SetCenter, SetCenter method [Direct2D], SetCenter method [Direct2D],ID2D1RadialGradientBrush interface, d2d1/ID2D1RadialGradientBrush::SetCenter, direct2d.ID2D1RadialGradientBrush_SetCenter
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RadialGradientBrush.SetCenter"]
+f1_keywords: 
+ - "d2d1/ID2D1RadialGradientBrush.SetCenter"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

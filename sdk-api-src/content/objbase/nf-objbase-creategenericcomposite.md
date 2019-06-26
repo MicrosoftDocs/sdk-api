@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
 ms.topic: function
-f1_keywords: ["objbase/CreateGenericComposite"]
+f1_keywords: 
+ - "objbase/CreateGenericComposite"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

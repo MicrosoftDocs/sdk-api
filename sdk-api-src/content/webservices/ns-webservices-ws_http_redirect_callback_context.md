@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_REDIRECT_CALLBACK_CONTEXT, WS_HTTP_REDIRECT_CALLBACK_CONTEXT structure [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK_CONTEXT, wsw.ws_http_redirect_callback_context
 ms.topic: struct
-f1_keywords: ["webservices/WS_HTTP_REDIRECT_CALLBACK_CONTEXT"]
+f1_keywords: 
+ - "webservices/WS_HTTP_REDIRECT_CALLBACK_CONTEXT"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

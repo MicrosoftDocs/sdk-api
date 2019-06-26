@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
 ms.topic: struct
-f1_keywords: ["dinputd/JOYREGHWVALUES"]
+f1_keywords: 
+ - "dinputd/JOYREGHWVALUES"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows

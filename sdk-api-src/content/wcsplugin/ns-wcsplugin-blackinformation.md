@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
 ms.topic: struct
-f1_keywords: ["wcsplugin/BlackInformation"]
+f1_keywords: 
+ - "wcsplugin/BlackInformation"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

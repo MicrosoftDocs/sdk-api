@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNetworkIsProtseqValid, RpcNetworkIsProtseqValid function [RPC], RpcNetworkIsProtseqValidA, RpcNetworkIsProtseqValidW, _rpc_rpcnetworkisprotseqvalid, rpc.rpcnetworkisprotseqvalid, rpcdce/RpcNetworkIsProtseqValid, rpcdce/RpcNetworkIsProtseqValidA, rpcdce/RpcNetworkIsProtseqValidW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcNetworkIsProtseqValid"]
+f1_keywords: 
+ - "rpcdce/RpcNetworkIsProtseqValid"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

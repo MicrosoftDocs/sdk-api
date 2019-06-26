@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerEndSession, EapPeerEndSession function [EAPHost], eaphost.eappeerendsession, eapmethodpeerapis/EapPeerEndSession
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerEndSession"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerEndSession"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

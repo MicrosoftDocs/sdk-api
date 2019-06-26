@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FUNCKIND, FUNCKIND enumeration [Automation], FUNC_DISPATCH, FUNC_NONVIRTUAL, FUNC_PUREVIRTUAL, FUNC_STATIC, FUNC_VIRTUAL, _oa96_FUNCKIND, automat.funckind, oaidl/FUNCKIND, oaidl/FUNC_DISPATCH, oaidl/FUNC_NONVIRTUAL, oaidl/FUNC_PUREVIRTUAL, oaidl/FUNC_STATIC, oaidl/FUNC_VIRTUAL
 ms.topic: enum
-f1_keywords: ["oaidl/FUNCKIND"]
+f1_keywords: 
+ - "oaidl/FUNCKIND"
 req.header: oaidl.h
 req.include-header: OleAuto.h
 req.target-type: Windows

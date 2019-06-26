@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Call, Call method [Media Foundation], Call method [Media Foundation],IMFProtectedEnvironmentAccess interface, IMFProtectedEnvironmentAccess interface [Media Foundation],Call method, IMFProtectedEnvironmentAccess.Call, IMFProtectedEnvironmentAccess::Call, mf.imfprotectedenvironmentaccess_call, mfidl/IMFProtectedEnvironmentAccess::Call
 ms.topic: method
-f1_keywords: ["mfidl/IMFProtectedEnvironmentAccess.Call"]
+f1_keywords: 
+ - "mfidl/IMFProtectedEnvironmentAccess.Call"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

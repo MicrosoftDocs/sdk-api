@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],StartSessionKeyRefresh method, ID3D11VideoContext.StartSessionKeyRefresh, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.StartSessionKeyRefresh"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.StartSessionKeyRefresh"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

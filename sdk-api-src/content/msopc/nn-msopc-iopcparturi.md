@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
 ms.topic: interface
-f1_keywords: ["msopc/IOpcPartUri"]
+f1_keywords: 
+ - "msopc/IOpcPartUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CacheMoved, CacheMoved method [Offline Files], CacheMoved method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheMoved method, IOfflineFilesEvents.CacheMoved, IOfflineFilesEvents::CacheMoved, cscobj/IOfflineFilesEvents::CacheMoved, of.iofflinefilesevents_cachemoved
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.CacheMoved"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.CacheMoved"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

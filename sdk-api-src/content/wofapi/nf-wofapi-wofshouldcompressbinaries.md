@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
 ms.topic: function
-f1_keywords: ["wofapi/WofShouldCompressBinaries"]
+f1_keywords: 
+ - "wofapi/WofShouldCompressBinaries"
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

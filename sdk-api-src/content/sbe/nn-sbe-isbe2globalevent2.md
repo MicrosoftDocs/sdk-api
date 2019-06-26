@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2GlobalEvent2, ISBE2GlobalEvent2 interface [Microsoft TV Technologies], ISBE2GlobalEvent2 interface [Microsoft TV Technologies],described, mstv.isbe2globalevent2, sbe/ISBE2GlobalEvent2
 ms.topic: interface
-f1_keywords: ["sbe/ISBE2GlobalEvent2"]
+f1_keywords: 
+ - "sbe/ISBE2GlobalEvent2"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

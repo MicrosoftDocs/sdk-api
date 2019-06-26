@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation3 interface [Windows Accessibility],RemoveTextEditTextChangedEventHandler method, IUIAutomation3.RemoveTextEditTextChangedEventHandler, IUIAutomation3::RemoveTextEditTextChangedEventHandler, RemoveTextEditTextChangedEventHandler, RemoveTextEditTextChangedEventHandler method [Windows Accessibility], RemoveTextEditTextChangedEventHandler method [Windows Accessibility],IUIAutomation3 interface, uiautomationclient/IUIAutomation3::RemoveTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation3.RemoveTextEditTextChangedEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation3.RemoveTextEditTextChangedEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

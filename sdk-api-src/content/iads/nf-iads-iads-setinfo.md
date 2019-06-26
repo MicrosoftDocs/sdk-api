@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
 ms.topic: method
-f1_keywords: ["iads/IADs.SetInfo"]
+f1_keywords: 
+ - "iads/IADs.SetInfo"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.Initialize"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.Initialize"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClNotifyHandler, ClNotifyHandler callback, ClNotifyHandler callback function [QOS], TCI_NOTIFY_HANDLER, TCI_NOTIFY_HANDLER callback function [QOS], _gqos_clnotifyhandler, qos.clnotifyhandler, traffic/ClNotifyHandler
 ms.topic: callback
-f1_keywords: ["traffic/TCI_NOTIFY_HANDLER"]
+f1_keywords: 
+ - "traffic/TCI_NOTIFY_HANDLER"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

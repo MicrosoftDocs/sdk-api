@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_AppName method, ITRequestEvent.get_AppName, ITRequestEvent::get_AppName, _tapi3_itrequestevent_get_appname, get_AppName, get_AppName method [TAPI 2.2], get_AppName method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_appname, tapi3if/ITRequestEvent::get_AppName
 ms.topic: method
-f1_keywords: ["tapi3if/ITRequestEvent.get_AppName"]
+f1_keywords: 
+ - "tapi3if/ITRequestEvent.get_AppName"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

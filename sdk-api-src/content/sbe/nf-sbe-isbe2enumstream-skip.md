@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.topic: method
-f1_keywords: ["sbe/ISBE2EnumStream.Skip"]
+f1_keywords: 
+ - "sbe/ISBE2EnumStream.Skip"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

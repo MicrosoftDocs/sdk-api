@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterCallNotifications method, ITTAPI.RegisterCallNotifications, ITTAPI::RegisterCallNotifications, RegisterCallNotifications, RegisterCallNotifications method [TAPI 2.2], RegisterCallNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registercallnotifications, tapi3.ittapi_registercallnotifications, tapi3if/ITTAPI::RegisterCallNotifications
 ms.topic: method
-f1_keywords: ["tapi3if/ITTAPI.RegisterCallNotifications"]
+f1_keywords: 
+ - "tapi3if/ITTAPI.RegisterCallNotifications"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

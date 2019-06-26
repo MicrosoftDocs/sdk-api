@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
 ms.topic: function
-f1_keywords: ["setupapi/SetupUninstallOEMInf"]
+f1_keywords: 
+ - "setupapi/SetupUninstallOEMInf"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

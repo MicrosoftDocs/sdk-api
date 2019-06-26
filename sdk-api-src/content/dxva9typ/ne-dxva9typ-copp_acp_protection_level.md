@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Level2, COPP_ACP_Level3, COPP_ACP_LevelMax, COPP_ACP_LevelMin, COPP_ACP_Protection_Level, COPP_ACP_Protection_Level , COPP_ACP_Protection_Level enumeration [DirectShow], COPP_ACP_Protection_LevelEnumeration, dshow.copp_acp_protection_level, dxva9typ/COPP_ACP_ForceDWORD, dxva9typ/COPP_ACP_Level0, dxva9typ/COPP_ACP_Level1, dxva9typ/COPP_ACP_Level2, dxva9typ/COPP_ACP_Level3, dxva9typ/COPP_ACP_LevelMax, dxva9typ/COPP_ACP_LevelMin, dxva9typ/COPP_ACP_Protection_Level
 ms.topic: enum
-f1_keywords: ["dxva9typ/COPP_ACP_Protection_Level"]
+f1_keywords: 
+ - "dxva9typ/COPP_ACP_Protection_Level"
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

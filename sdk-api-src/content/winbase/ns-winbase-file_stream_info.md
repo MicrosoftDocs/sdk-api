@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [Files], PFILE_STREAM_INFO, PFILE_STREAM_INFO structure pointer [Files], fileextd/FILE_STREAM_INFO, fileextd/PFILE_STREAM_INFO, fs.file_stream_info, winbase/FILE_STREAM_INFO, winbase/PFILE_STREAM_INFO"
 ms.topic: struct
-f1_keywords: ["winbase/FILE_STREAM_INFO"]
+f1_keywords: 
+ - "winbase/FILE_STREAM_INFO"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

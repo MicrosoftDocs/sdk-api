@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store apps], DocumentComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DocumentComplete method, IWebApplicationNavigationEvents.DocumentComplete, IWebApplicationNavigationEvents::DocumentComplete, debug.iwebapplicationnavigationevents_documentcomplete, webapplication/IWebApplicationNavigationEvents::DocumentComplete
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationNavigationEvents.DocumentComplete"]
+f1_keywords: 
+ - "webapplication/IWebApplicationNavigationEvents.DocumentComplete"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

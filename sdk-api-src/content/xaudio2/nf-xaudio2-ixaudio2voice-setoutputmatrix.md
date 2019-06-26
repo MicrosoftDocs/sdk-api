@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputMatrix method, IXAudio2Voice.SetOutputMatrix, IXAudio2Voice::SetOutputMatrix, SetOutputMatrix, SetOutputMatrix method [XAudio2 Audio Mixing APIs], SetOutputMatrix method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputmatrix, xaudio2/IXAudio2Voice::SetOutputMatrix
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2Voice.SetOutputMatrix"]
+f1_keywords: 
+ - "xaudio2/IXAudio2Voice.SetOutputMatrix"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

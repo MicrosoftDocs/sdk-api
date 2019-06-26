@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibility], _msaa_ObjectFromLresult, msaa.objectfromlresult, oleacc/ObjectFromLresult, winauto.objectfromlresult
 ms.topic: function
-f1_keywords: ["oleacc/ObjectFromLresult"]
+f1_keywords: 
+ - "oleacc/ObjectFromLresult"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

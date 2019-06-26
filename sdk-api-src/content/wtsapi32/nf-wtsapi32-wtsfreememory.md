@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSFreeMemory, WTSFreeMemory function [Remote Desktop Services], _win32_wtsfreememory, termserv.wtsfreememory, wtsapi32/WTSFreeMemory
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSFreeMemory"]
+f1_keywords: 
+ - "wtsapi32/WTSFreeMemory"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

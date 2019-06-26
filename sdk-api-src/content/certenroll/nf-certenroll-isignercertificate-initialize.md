@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificate.Initialize"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

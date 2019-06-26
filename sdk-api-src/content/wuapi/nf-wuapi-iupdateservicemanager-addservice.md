@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddService, AddService method [Windows Update Agent], AddService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddService method, IUpdateServiceManager.AddService, IUpdateServiceManager::AddService, wua.iupdateservicemanager_addservice, wuapi/IUpdateServiceManager::AddService
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager.AddService"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager.AddService"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

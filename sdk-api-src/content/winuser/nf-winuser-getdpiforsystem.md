@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
 ms.topic: function
-f1_keywords: ["winuser/GetDpiForSystem"]
+f1_keywords: 
+ - "winuser/GetDpiForSystem"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

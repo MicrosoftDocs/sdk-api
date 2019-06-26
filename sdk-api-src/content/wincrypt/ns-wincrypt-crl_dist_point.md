@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRL_DIST_POINT, CRL_DIST_POINT, CRL_DIST_POINT structure [Security], PCRL_DIST_POINT, PCRL_DIST_POINT structure pointer [Security], _crypto2_crl_dist_point, security.crl_dist_point, wincrypt/CRL_DIST_POINT, wincrypt/PCRL_DIST_POINT"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRL_DIST_POINT"]
+f1_keywords: 
+ - "wincrypt/CRL_DIST_POINT"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_DeleteAllItems, ListView_DeleteAllItems macro [Windows Controls], _win32_ListView_DeleteAllItems, _win32_ListView_DeleteAllItems_cpp, commctrl/ListView_DeleteAllItems, controls.ListView_DeleteAllItems, controls._win32_ListView_DeleteAllItems
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_DeleteAllItems"]
+f1_keywords: 
+ - "commctrl/ListView_DeleteAllItems"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

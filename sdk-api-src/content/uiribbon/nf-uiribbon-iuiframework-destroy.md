@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Windows Ribbon], Destroy method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],Destroy method, IUIFramework.Destroy, IUIFramework::Destroy, scenicintent_IUIFramework_Destroy, uiribbon/IUIFramework::Destroy, windowsribbon.windowsribbon_iuiframework_destroy
 ms.topic: method
-f1_keywords: ["uiribbon/IUIFramework.Destroy"]
+f1_keywords: 
+ - "uiribbon/IUIFramework.Destroy"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

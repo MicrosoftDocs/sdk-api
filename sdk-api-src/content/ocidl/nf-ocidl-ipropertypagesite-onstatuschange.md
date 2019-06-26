@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyPageSite interface [COM],OnStatusChange method, IPropertyPageSite.OnStatusChange, IPropertyPageSite::OnStatusChange, OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM],IPropertyPageSite interface, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyPageSite.OnStatusChange"]
+f1_keywords: 
+ - "ocidl/IPropertyPageSite.OnStatusChange"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

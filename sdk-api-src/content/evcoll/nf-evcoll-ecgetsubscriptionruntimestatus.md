@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus
 ms.topic: function
-f1_keywords: ["evcoll/EcGetSubscriptionRunTimeStatus"]
+f1_keywords: 
+ - "evcoll/EcGetSubscriptionRunTimeStatus"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

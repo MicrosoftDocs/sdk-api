@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalViewSize property, IScrollProvider.VerticalViewSize, IScrollProvider.get_VerticalViewSize, IScrollProvider::VerticalViewSize, IScrollProvider::get_VerticalViewSize, VerticalViewSize property [Windows Accessibility], VerticalViewSize property [Windows Accessibility],IScrollProvider interface, get_VerticalViewSize, uiauto.uiauto_IScrollProvider_VerticalViewSize, uiauto_IScrollProvider_VerticalViewSize, uiautomationcore/IScrollProvider::VerticalViewSize, uiautomationcore/IScrollProvider::get_VerticalViewSize, winauto.uiauto_IScrollProvider_VerticalViewSize
 ms.topic: method
-f1_keywords: ["uiautomationcore/IScrollProvider.VerticalViewSize"]
+f1_keywords: 
+ - "uiautomationcore/IScrollProvider.VerticalViewSize"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

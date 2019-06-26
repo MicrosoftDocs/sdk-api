@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IITDatabase, IITDatabase interface [HTML Help Workshop], IITDatabase interface [HTML Help Workshop],described, htmlhelp.iitdatabase, infotech/IITDatabase, refIITDatabaseInterface
 ms.topic: interface
-f1_keywords: ["infotech/IITDatabase"]
+f1_keywords: 
+ - "infotech/IITDatabase"
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

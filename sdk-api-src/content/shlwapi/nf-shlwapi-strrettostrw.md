@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.topic: function
-f1_keywords: ["shlwapi/StrRetToStr"]
+f1_keywords: 
+ - "shlwapi/StrRetToStr"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

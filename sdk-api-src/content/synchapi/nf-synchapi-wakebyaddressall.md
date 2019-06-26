@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
 ms.topic: function
-f1_keywords: ["synchapi/WakeByAddressAll"]
+f1_keywords: 
+ - "synchapi/WakeByAddressAll"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

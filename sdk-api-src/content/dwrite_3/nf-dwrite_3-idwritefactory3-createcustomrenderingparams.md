@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory3.CreateCustomRenderingParams, IDWriteFactory3::CreateCustomRenderingParams, directwrite.idwritefactory3_createcustomrenderingparams, dwrite_3/IDWriteFactory3::CreateCustomRenderingParams
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFactory3.CreateCustomRenderingParams"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFactory3.CreateCustomRenderingParams"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

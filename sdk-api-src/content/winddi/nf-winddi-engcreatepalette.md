@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreatePalette, EngCreatePalette function [Display Devices], display.engcreatepalette, gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml, winddi/EngCreatePalette
 ms.topic: function
-f1_keywords: ["winddi/EngCreatePalette"]
+f1_keywords: 
+ - "winddi/EngCreatePalette"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShellUiComponent function [Windows Shell], shell.getdpiforshelluicomponent, shellscalingapi/GetDpiForShellUiComponent
 ms.topic: function
-f1_keywords: ["shellscalingapi/GetDpiForShellUiComponent"]
+f1_keywords: 
+ - "shellscalingapi/GetDpiForShellUiComponent"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

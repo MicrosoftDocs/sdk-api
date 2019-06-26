@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingInqEntryName, RpcNsBindingInqEntryName function [RPC], RpcNsBindingInqEntryNameA, RpcNsBindingInqEntryNameW, _rpc_rpcnsbindinginqentryname, rpc.rpcnsbindinginqentryname, rpcdce/RpcNsBindingInqEntryName, rpcdce/RpcNsBindingInqEntryNameA, rpcdce/RpcNsBindingInqEntryNameW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcNsBindingInqEntryName"]
+f1_keywords: 
+ - "rpcdce/RpcNsBindingInqEntryName"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

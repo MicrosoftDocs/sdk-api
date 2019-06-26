@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessControl.RevokeAccessRights, IAccessControl::RevokeAccessRights, RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
 ms.topic: method
-f1_keywords: ["iaccess/IAccessControl.RevokeAccessRights"]
+f1_keywords: 
+ - "iaccess/IAccessControl.RevokeAccessRights"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

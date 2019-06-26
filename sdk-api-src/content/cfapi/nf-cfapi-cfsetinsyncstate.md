@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfSetInSyncState, CfSetInSyncState function, cfapi/CfSetInSyncState, cloudApi.cfsetinsyncstate
 ms.topic: function
-f1_keywords: ["cfapi/CfSetInSyncState"]
+f1_keywords: 
+ - "cfapi/CfSetInSyncState"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
 ms.topic: function
-f1_keywords: ["winbase/DeleteFileTransacted"]
+f1_keywords: 
+ - "winbase/DeleteFileTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedZoomMinimum property [Windows Accessibility], CachedZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomMinimum property, IUIAutomationTransformPattern2.CachedZoomMinimum, IUIAutomationTransformPattern2.get_CachedZoomMinimum, IUIAutomationTransformPattern2::CachedZoomMinimum, IUIAutomationTransformPattern2::get_CachedZoomMinimum, get_CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMinimum"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMinimum"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
 ms.topic: interface
-f1_keywords: ["austream/IMemoryData"]
+f1_keywords: 
+ - "austream/IMemoryData"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

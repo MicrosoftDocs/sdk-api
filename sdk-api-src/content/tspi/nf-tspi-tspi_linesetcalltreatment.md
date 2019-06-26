@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallTreatment, TSPI_lineSetCallTreatment function [TAPI 2.2], _tspi_tspi_linesetcalltreatment, tspi.tspi_linesetcalltreatment, tspi/TSPI_lineSetCallTreatment
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSetCallTreatment"]
+f1_keywords: 
+ - "tspi/TSPI_lineSetCallTreatment"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
 ms.topic: struct
-f1_keywords: ["vmr9/VMR9VideoDesc"]
+f1_keywords: 
+ - "vmr9/VMR9VideoDesc"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

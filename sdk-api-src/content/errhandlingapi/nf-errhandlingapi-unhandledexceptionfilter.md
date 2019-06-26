@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32_unhandledexceptionfilter, base.unhandledexceptionfilter, errhandlingapi/UnhandledExceptionFilter
 ms.topic: function
-f1_keywords: ["errhandlingapi/UnhandledExceptionFilter"]
+f1_keywords: 
+ - "errhandlingapi/UnhandledExceptionFilter"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

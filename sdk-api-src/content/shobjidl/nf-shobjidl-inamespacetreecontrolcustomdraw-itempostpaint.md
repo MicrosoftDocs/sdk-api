@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPostPaint method, INameSpaceTreeControlCustomDraw.ItemPostPaint, INameSpaceTreeControlCustomDraw::ItemPostPaint, ItemPostPaint, ItemPostPaint method [Windows Shell], ItemPostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPostPaint, shell.INameSpaceTreeControlCustomDraw_ItemPostPaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPostPaint
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlCustomDraw.ItemPostPaint"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlCustomDraw.ItemPostPaint"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

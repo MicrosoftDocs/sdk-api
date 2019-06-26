@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management],described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxBundleFactory"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleFactory"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultOwnerData, IResultOwnerData interface [MMC], IResultOwnerData interface [MMC],described, _slate_iresultownerdata, mmc.iresultownerdata, mmc/IResultOwnerData
 ms.topic: interface
-f1_keywords: ["mmc/IResultOwnerData"]
+f1_keywords: 
+ - "mmc/IResultOwnerData"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleEventWithHWND, HandleEventWithHWND method [Windows Shell], HandleEventWithHWND method [Windows Shell],IHWEventHandler2 interface, IHWEventHandler2 interface [Windows Shell],HandleEventWithHWND method, IHWEventHandler2.HandleEventWithHWND, IHWEventHandler2::HandleEventWithHWND, _shell_IHWEventHandler2_HandleEventWithHWND, shell.IHWEventHandler2_HandleEventWithHWND, shobjidl/IHWEventHandler2::HandleEventWithHWND
 ms.topic: method
-f1_keywords: ["shobjidl/IHWEventHandler2.HandleEventWithHWND"]
+f1_keywords: 
+ - "shobjidl/IHWEventHandler2.HandleEventWithHWND"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

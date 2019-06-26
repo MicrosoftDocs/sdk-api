@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.SetOptions"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.SetOptions"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

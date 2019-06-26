@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent3Interface, mstv.imsvidstreambuffersourceevent3, segment/IMSVidStreamBufferSourceEvent3
 ms.topic: interface
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent3"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent3"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

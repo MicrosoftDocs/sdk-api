@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.topic: struct
-f1_keywords: ["timeprov/SetProviderStatusInfo"]
+f1_keywords: 
+ - "timeprov/SetProviderStatusInfo"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

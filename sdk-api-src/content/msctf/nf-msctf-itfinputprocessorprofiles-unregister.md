@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
 ms.topic: method
-f1_keywords: ["msctf/ITfInputProcessorProfiles.Unregister"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfiles.Unregister"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileDuration, GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileDuration method, IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink2.GetFileDuration"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink2.GetFileDuration"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

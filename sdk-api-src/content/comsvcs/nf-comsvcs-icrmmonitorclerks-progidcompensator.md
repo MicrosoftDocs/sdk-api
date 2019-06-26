@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],ProgIdCompensator method, ICrmMonitorClerks.ProgIdCompensator, ICrmMonitorClerks::ProgIdCompensator, ProgIdCompensator, ProgIdCompensator method [COM+], ProgIdCompensator method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_ProgIdCompensator, comsvcs/ICrmMonitorClerks::ProgIdCompensator, cos.icrmmonitorclerks_progidcompensator
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmMonitorClerks.ProgIdCompensator"]
+f1_keywords: 
+ - "comsvcs/ICrmMonitorClerks.ProgIdCompensator"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

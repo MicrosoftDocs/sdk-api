@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetFillState method, AdjustableArrowCap.SetFillState, AdjustableArrowCap::SetFillState, SetFillState, SetFillState method [GDI+], SetFillState method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_
 ms.topic: method
-f1_keywords: ["gdipluslinecaps/AdjustableArrowCap.SetFillState"]
+f1_keywords: 
+ - "gdipluslinecaps/AdjustableArrowCap.SetFillState"
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvRealizeBrush, DrvRealizeBrush function [Display Devices], ddifncs_efd25952-e672-493f-80e5-19edbac7df0e.xml, display.drvrealizebrush, winddi/DrvRealizeBrush
 ms.topic: function
-f1_keywords: ["winddi/DrvRealizeBrush"]
+f1_keywords: 
+ - "winddi/DrvRealizeBrush"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

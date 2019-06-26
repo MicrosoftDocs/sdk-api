@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], GetAttribute method [Antimalware Scan Interface],IAmsiStream interface, IAmsiStream interface [Antimalware Scan Interface],GetAttribute method, IAmsiStream.GetAttribute, IAmsiStream::GetAttribute, amsi.iamsistream_getattribute, amsi/IAmsiStream::GetAttribute
 ms.topic: method
-f1_keywords: ["amsi/IAmsiStream.GetAttribute"]
+f1_keywords: 
+ - "amsi/IAmsiStream.GetAttribute"
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

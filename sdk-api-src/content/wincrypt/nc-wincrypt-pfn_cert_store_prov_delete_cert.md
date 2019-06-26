@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

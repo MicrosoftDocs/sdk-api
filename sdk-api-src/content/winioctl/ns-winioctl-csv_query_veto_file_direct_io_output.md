@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure [Files], PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT structure pointer [Files], fs.csv_query_veto_file_direct_io_output, winioctl/CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, winioctl/PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
 ms.topic: struct
-f1_keywords: ["winioctl/CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"]
+f1_keywords: 
+ - "winioctl/CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

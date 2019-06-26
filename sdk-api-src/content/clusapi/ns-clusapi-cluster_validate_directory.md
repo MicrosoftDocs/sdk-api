@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY structure [Failover Cluster], PCLUSTER_VALIDATE_DIRECTORY, PCLUSTER_VALIDATE_DIRECTORY structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_DIRECTORY, clusapi/PCLUSTER_VALIDATE_DIRECTORY, mscs.cluster_validate_directory"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSTER_VALIDATE_DIRECTORY"]
+f1_keywords: 
+ - "clusapi/CLUSTER_VALIDATE_DIRECTORY"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

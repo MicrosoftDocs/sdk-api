@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
 ms.topic: callback
-f1_keywords: ["mswsock/LPFN_CONNECTEX"]
+f1_keywords: 
+ - "mswsock/LPFN_CONNECTEX"
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

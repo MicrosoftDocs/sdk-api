@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Skip method, IEnumDot11AdHocNetworks.Skip, IEnumDot11AdHocNetworks::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Skip, nwifi.ienumdot11adhocnetworks_skip
 ms.topic: method
-f1_keywords: ["adhoc/IEnumDot11AdHocNetworks.Skip"]
+f1_keywords: 
+ - "adhoc/IEnumDot11AdHocNetworks.Skip"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

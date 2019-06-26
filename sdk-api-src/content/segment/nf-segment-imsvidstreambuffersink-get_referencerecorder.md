@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSink.get_ReferenceRecorder"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSink.get_ReferenceRecorder"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

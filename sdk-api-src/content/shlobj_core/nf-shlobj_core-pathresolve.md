@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRF_DONTFINDLNK, PRF_FIRSTDIRDEF, PRF_REQUIREABSOLUTE, PRF_TRYPROGRAMEXTENSIONS, PRF_VERIFYEXISTS, PathResolve, PathResolve function [Windows Shell], _win32_PathResolve, shell.PathResolve, shlobj_core/PathResolve
 ms.topic: function
-f1_keywords: ["shlobj_core/PathResolve"]
+f1_keywords: 
+ - "shlobj_core/PathResolve"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
 ms.topic: function
-f1_keywords: ["dsparse/DsUnquoteRdnValue"]
+f1_keywords: 
+ - "dsparse/DsUnquoteRdnValue"
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

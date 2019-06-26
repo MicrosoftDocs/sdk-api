@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorCollection.CreateDataCollectorFromXml"]
+f1_keywords: 
+ - "pla/IDataCollectorCollection.CreateDataCollectorFromXml"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

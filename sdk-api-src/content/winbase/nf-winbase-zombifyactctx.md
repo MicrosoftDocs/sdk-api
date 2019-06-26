@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ZombifyActCtx, ZombifyActCtx function [Side-by-side Assemblies], _win32_zombifyactctx, setup.zombifyactctx, winbase/ZombifyActCtx
 ms.topic: function
-f1_keywords: ["winbase/ZombifyActCtx"]
+f1_keywords: 
+ - "winbase/ZombifyActCtx"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

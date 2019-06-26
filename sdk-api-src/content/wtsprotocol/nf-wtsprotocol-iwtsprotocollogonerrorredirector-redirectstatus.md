@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWTSProtocolLogonErrorRedirector.RedirectStatus, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectStatus"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectStatus"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

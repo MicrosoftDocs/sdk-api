@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Heap32First, Heap32First function [ToolHelp], _win32_heap32first, base.heap32first, tlhelp32/Heap32First, toolhelp.heap32first
 ms.topic: function
-f1_keywords: ["tlhelp32/Heap32First"]
+f1_keywords: 
+ - "tlhelp32/Heap32First"
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

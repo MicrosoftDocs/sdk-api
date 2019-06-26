@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],AvailableOperations property, IFaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp, faxcomex/IFaxOutgoingJob::AvailableOperations, faxcomex/IFaxOutgoingJob::get_AvailableOperations, get_AvailableOperations
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.AvailableOperations"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.AvailableOperations"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

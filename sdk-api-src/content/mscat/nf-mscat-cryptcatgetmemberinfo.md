@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo
 ms.topic: function
-f1_keywords: ["mscat/CryptCATGetMemberInfo"]
+f1_keywords: 
+ - "mscat/CryptCATGetMemberInfo"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

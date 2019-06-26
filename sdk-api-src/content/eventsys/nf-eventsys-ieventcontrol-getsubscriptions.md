@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IEventControl interface, IEventControl interface [COM+],GetSubscriptions method, IEventControl.GetSubscriptions, IEventControl::GetSubscriptions, _cos_IEventControl_GetSubscriptions, cos.ieventcontrol_getsubscriptions, eventsys/IEventControl::GetSubscriptions
 ms.topic: method
-f1_keywords: ["eventsys/IEventControl.GetSubscriptions"]
+f1_keywords: 
+ - "eventsys/IEventControl.GetSubscriptions"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

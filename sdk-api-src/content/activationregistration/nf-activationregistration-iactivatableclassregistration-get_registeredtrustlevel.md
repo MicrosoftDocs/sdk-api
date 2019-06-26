@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_RegisteredTrustLevel method, IActivatableClassRegistration.get_RegisteredTrustLevel, IActivatableClassRegistration::get_RegisteredTrustLevel, activationregistration/IActivatableClassRegistration::get_RegisteredTrustLevel, get_RegisteredTrustLevel, get_RegisteredTrustLevel method [Windows Runtime], get_RegisteredTrustLevel method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_registeredtrustlevel
 ms.topic: method
-f1_keywords: ["activationregistration/IActivatableClassRegistration.get_RegisteredTrustLevel"]
+f1_keywords: 
+ - "activationregistration/IActivatableClassRegistration.get_RegisteredTrustLevel"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

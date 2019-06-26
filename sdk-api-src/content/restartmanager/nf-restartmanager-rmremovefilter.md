@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
 ms.topic: function
-f1_keywords: ["restartmanager/RmRemoveFilter"]
+f1_keywords: 
+ - "restartmanager/RmRemoveFilter"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

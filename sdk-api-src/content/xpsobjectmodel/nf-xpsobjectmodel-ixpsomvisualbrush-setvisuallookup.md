@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLookup method, IXpsOMVisualBrush.SetVisualLookup, IXpsOMVisualBrush::SetVisualLookup, SetVisualLookup, SetVisualLookup method [XPS Documents and Packaging], SetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLookup
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisualBrush.SetVisualLookup"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisualBrush.SetVisualLookup"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

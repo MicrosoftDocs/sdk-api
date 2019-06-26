@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
 ms.topic: function
-f1_keywords: ["vfw/ICImageCompress"]
+f1_keywords: 
+ - "vfw/ICImageCompress"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

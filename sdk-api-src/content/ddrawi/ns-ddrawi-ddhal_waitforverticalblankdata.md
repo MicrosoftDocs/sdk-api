@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA structure [Display Devices], DD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA structure [Display Devices], ddrawint/DD_WAITFORVERTICALBLANKDATA, ddstrcts_cd09b34a-249c-4166-8624-bb638cf4bfe1.xml, display.dd_waitforverticalblankdata"
 ms.topic: struct
-f1_keywords: ["ddrawi/DDHAL_WAITFORVERTICALBLANKDATA"]
+f1_keywords: 
+ - "ddrawi/DDHAL_WAITFORVERTICALBLANKDATA"
 req.header: ddrawi.h
 req.include-header: Winddi.h, Ddrawi.h
 req.target-type: Windows

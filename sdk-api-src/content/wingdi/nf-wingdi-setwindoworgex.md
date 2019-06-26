@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowOrgEx, SetWindowOrgEx function [Windows GDI], _win32_SetWindowOrgEx, gdi.setwindoworgex, wingdi/SetWindowOrgEx
 ms.topic: function
-f1_keywords: ["wingdi/SetWindowOrgEx"]
+f1_keywords: 
+ - "wingdi/SetWindowOrgEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

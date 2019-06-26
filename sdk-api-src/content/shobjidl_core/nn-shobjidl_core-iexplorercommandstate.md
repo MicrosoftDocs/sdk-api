@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommandState, IExplorerCommandState interface [Windows Shell], IExplorerCommandState interface [Windows Shell],described, _shell_IExplorerCommandState, shell.IExplorerCommandState, shobjidl_core/IExplorerCommandState
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IExplorerCommandState"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerCommandState"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

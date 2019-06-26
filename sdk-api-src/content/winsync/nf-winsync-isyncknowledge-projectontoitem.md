@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoItem method, ISyncKnowledge.ProjectOntoItem, ISyncKnowledge::ProjectOntoItem, ProjectOntoItem, ProjectOntoItem method [Windows Sync], ProjectOntoItem method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontoitem, winsync/ISyncKnowledge::ProjectOntoItem
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.ProjectOntoItem"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.ProjectOntoItem"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

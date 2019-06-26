@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetById0, FwpmLayerGetById0 function [Filtering], fwp.fwpmlayergetbyid0_func, fwpmu/FwpmLayerGetById0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmLayerGetById0"]
+f1_keywords: 
+ - "fwpmu/FwpmLayerGetById0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

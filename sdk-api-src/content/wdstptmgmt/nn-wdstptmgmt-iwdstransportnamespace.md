@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], IWdsTransportNamespace interface [Windows Deployment Services],described, wds.iwdstransportnamespace, wdstptmgmt/IWdsTransportNamespace
 ms.topic: interface
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespace"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespace"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

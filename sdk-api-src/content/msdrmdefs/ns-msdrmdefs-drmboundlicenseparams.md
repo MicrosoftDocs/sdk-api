@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS, DRMBOUNDLICENSEPARAMS, DRMBOUNDLICENSEPARAMS structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMBOUNDLICENSEPARAMS, rm.drmboundlicenseparams
 ms.topic: struct
-f1_keywords: ["msdrmdefs/DRMBOUNDLICENSEPARAMS"]
+f1_keywords: 
+ - "msdrmdefs/DRMBOUNDLICENSEPARAMS"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

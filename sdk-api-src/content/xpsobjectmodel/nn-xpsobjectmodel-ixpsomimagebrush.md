@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMImageBrush"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMImageBrush"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

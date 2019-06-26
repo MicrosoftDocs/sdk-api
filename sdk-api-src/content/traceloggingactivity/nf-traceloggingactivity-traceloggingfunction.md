@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.topic: macro
-f1_keywords: ["traceloggingactivity/TraceLoggingFunction"]
+f1_keywords: 
+ - "traceloggingactivity/TraceLoggingFunction"
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
 ms.topic: function
-f1_keywords: ["winnt/InterlockedExchangePointer"]
+f1_keywords: 
+ - "winnt/InterlockedExchangePointer"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

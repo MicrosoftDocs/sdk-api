@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Bitmap::ApplyEffect
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Bitmap::ApplyEffect"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap::ApplyEffect"
 targetos: Windows
 product: Windows
 req.assembly: 

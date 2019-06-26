@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
 ms.topic: function
-f1_keywords: ["immdev/ImmGetDescription"]
+f1_keywords: 
+ - "immdev/ImmGetDescription"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

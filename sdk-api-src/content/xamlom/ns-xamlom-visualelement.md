@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, VisualElement structure, xaml_diagnostics.visualelement, xamlom/PVisualElement, xamlom/VisualElement
 ms.topic: struct
-f1_keywords: ["xamlom/VisualElement"]
+f1_keywords: 
+ - "xamlom/VisualElement"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

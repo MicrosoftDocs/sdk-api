@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDirectTransfer.TransferToDevice"]
+f1_keywords: 
+ - "mswmdm/IMDSPDirectTransfer.TransferToDevice"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateSearcher, CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateSearcher method, IUpdateSession.CreateUpdateSearcher, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSession.CreateUpdateSearcher"]
+f1_keywords: 
+ - "wuapi/IUpdateSession.CreateUpdateSearcher"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

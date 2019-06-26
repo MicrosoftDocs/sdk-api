@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyEnumType"]
+f1_keywords: 
+ - "propsys/IPropertyEnumType"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, IComObjectPoolEvents.OnObjPoolRecycleToTx, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+],IComObjectPoolEvents interface, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

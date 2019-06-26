@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDesktopEx, CreateDesktopEx function [Windows Stations and Desktops], CreateDesktopExA, CreateDesktopExW, DF_ALLOWOTHERACCOUNTHOOK, base.createdesktopex, winstation.createdesktopex, winuser/CreateDesktopEx, winuser/CreateDesktopExA, winuser/CreateDesktopExW
 ms.topic: function
-f1_keywords: ["winuser/CreateDesktopEx"]
+f1_keywords: 
+ - "winuser/CreateDesktopEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

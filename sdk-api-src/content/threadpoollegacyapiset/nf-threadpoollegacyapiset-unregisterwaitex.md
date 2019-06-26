@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitEx, UnregisterWaitEx function, _win32_unregisterwaitex, base.unregisterwaitex, threadpoollegacyapiset/UnregisterWaitEx, winbase/UnregisterWaitEx
 ms.topic: function
-f1_keywords: ["threadpoollegacyapiset/UnregisterWaitEx"]
+f1_keywords: 
+ - "threadpoollegacyapiset/UnregisterWaitEx"
 req.header: threadpoollegacyapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

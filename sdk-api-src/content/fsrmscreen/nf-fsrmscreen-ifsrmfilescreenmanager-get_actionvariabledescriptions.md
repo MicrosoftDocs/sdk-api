@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager.ActionVariableDescriptions, IFsrmFileScreenManager.get_ActionVariableDescriptions, IFsrmFileScreenManager::ActionVariableDescriptions, IFsrmFileScreenManager::get_ActionVariableDescriptions, fs.ifsrmfilescreenmanager_actionvariabledescriptions, fsrm.ifsrmfilescreenmanager_actionvariabledescriptions, fsrmscreen/IFsrmFileScreenManager::ActionVariableDescriptions, fsrmscreen/IFsrmFileScreenManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileScreenManager.ActionVariableDescriptions"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreenManager.ActionVariableDescriptions"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetRenderTargets method, ID3D11DeviceContext.OMGetRenderTargets, ID3D11DeviceContext::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 11], OMGetRenderTargets method [Direct3D 11],ID3D11DeviceContext interface, b914865b-766f-62c4-e7e9-5b7590860668, d3d11/ID3D11DeviceContext::OMGetRenderTargets, direct3d11.id3d11devicecontext_omgetrendertargets
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.OMGetRenderTargets"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.OMGetRenderTargets"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

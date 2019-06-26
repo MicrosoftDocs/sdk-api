@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
 ms.topic: struct
-f1_keywords: ["winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"]
+f1_keywords: 
+ - "winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method [Direct3D 10], GetConversionInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetConversionInstructionCount method, ID3D10ShaderReflection1.GetConversionInstructionCount, ID3D10ShaderReflection1::GetConversionInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetConversionInstructionCount, direct3d10.id3d10shaderreflection1_getconversioninstructioncount, f8c14b46-5062-b621-c098-57fd31ed02ea
 ms.topic: method
-f1_keywords: ["d3d10_1shader/ID3D10ShaderReflection1.GetConversionInstructionCount"]
+f1_keywords: 
+ - "d3d10_1shader/ID3D10ShaderReflection1.GetConversionInstructionCount"
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

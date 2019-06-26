@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoProcAmp.Get"]
+f1_keywords: 
+ - "strmif/IAMVideoProcAmp.Get"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 370f6a70-577e-dd58-afb3-50bba688da70, ID3DX11Scan interface [Direct3D 11],Multiscan method, ID3DX11Scan.Multiscan, ID3DX11Scan::Multiscan, Multiscan, Multiscan method [Direct3D 11], Multiscan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Multiscan, direct3d11.id3dx11scan_multiscan
 ms.topic: method
-f1_keywords: ["d3dcsx/ID3DX11Scan.Multiscan"]
+f1_keywords: 
+ - "d3dcsx/ID3DX11Scan.Multiscan"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

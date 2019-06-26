@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderStateFromFindData, CfGetPlaceholderStateFromFindData function, cfapi/CfGetPlaceholderStateFromFindData, cloudApi.cfgetplaceholderstatefromfinddata
 ms.topic: function
-f1_keywords: ["cfapi/CfGetPlaceholderStateFromFindData"]
+f1_keywords: 
+ - "cfapi/CfGetPlaceholderStateFromFindData"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

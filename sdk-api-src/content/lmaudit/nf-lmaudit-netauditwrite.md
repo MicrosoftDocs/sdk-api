@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAuditWrite, NetAuditWrite function [Network Management], _win32_netauditwrite, lmaudit/NetAuditWrite, netmgmt.netauditwrite
 ms.topic: function
-f1_keywords: ["lmaudit/NetAuditWrite"]
+f1_keywords: 
+ - "lmaudit/NetAuditWrite"
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

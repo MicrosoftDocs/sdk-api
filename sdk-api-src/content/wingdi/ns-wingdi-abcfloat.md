@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT"
 ms.topic: struct
-f1_keywords: ["wingdi/ABCFLOAT"]
+f1_keywords: 
+ - "wingdi/ABCFLOAT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

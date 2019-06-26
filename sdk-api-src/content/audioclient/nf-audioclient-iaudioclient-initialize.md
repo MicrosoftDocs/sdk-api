@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClient.Initialize"]
+f1_keywords: 
+ - "audioclient/IAudioClient.Initialize"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

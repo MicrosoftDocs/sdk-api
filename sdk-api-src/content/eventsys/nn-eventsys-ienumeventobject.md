@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
 ms.topic: interface
-f1_keywords: ["eventsys/IEnumEventObject"]
+f1_keywords: 
+ - "eventsys/IEnumEventObject"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

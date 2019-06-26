@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],IGPMStarterGPOBackupCollection interface, IGPMStarterGPOBackupCollection interface [GPMC],Count property, IGPMStarterGPOBackupCollection.Count, IGPMStarterGPOBackupCollection.get_Count, IGPMStarterGPOBackupCollection::Count, IGPMStarterGPOBackupCollection::get_Count, _win32_igpmstartergpobackupcollection_get_count, get_Count, gpmc.igpmstartergpobackupcollection_get_count, gpmgmt/IGPMStarterGPOBackupCollection::Count, gpmgmt/IGPMStarterGPOBackupCollection::get_Count
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPOBackupCollection.Count"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPOBackupCollection.Count"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetScrollTime, TreeView_SetScrollTime macro [Windows Controls], _win32_TreeView_SetScrollTime, _win32_TreeView_SetScrollTime_cpp, commctrl/TreeView_SetScrollTime, controls.TreeView_SetScrollTime, controls._win32_TreeView_SetScrollTime
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SetScrollTime"]
+f1_keywords: 
+ - "commctrl/TreeView_SetScrollTime"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

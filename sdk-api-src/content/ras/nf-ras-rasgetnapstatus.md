@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
 ms.topic: function
-f1_keywords: ["ras/rasgetnapstatus"]
+f1_keywords: 
+ - "ras/rasgetnapstatus"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

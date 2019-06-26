@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Authorize, Authorize method [Enhanced Storage], Authorize method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],Authorize method, IEnhancedStorageACT.Authorize, IEnhancedStorageACT::Authorize, ehstorapi/IEnhancedStorageACT::Authorize, enstor.ienhancedstorageact_authorize
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageACT.Authorize"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageACT.Authorize"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

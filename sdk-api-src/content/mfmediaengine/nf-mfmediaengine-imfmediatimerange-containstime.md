@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaTimeRange.ContainsTime"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaTimeRange.ContainsTime"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

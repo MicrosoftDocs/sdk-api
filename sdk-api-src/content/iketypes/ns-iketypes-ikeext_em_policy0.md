@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_EM_POLICY0, IKEEXT_EM_POLICY0 structure [Filtering], fwp.ikeext_em_policy0, iketypes/IKEEXT_EM_POLICY0
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_EM_POLICY0"]
+f1_keywords: 
+ - "iketypes/IKEEXT_EM_POLICY0"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetFolderSettings method, IExplorerBrowser.SetFolderSettings, IExplorerBrowser::SetFolderSettings, SetFolderSettings, SetFolderSettings method [Windows Shell], SetFolderSettings method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetFolderSettings, shell.IExplorerBrowser_SetFolderSettings, shobjidl_core/IExplorerBrowser::SetFolderSettings
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowser.SetFolderSettings"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowser.SetFolderSettings"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

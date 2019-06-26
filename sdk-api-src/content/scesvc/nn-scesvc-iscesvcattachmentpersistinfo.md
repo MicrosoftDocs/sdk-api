@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
 ms.topic: interface
-f1_keywords: ["scesvc/ISceSvcAttachmentPersistInfo"]
+f1_keywords: 
+ - "scesvc/ISceSvcAttachmentPersistInfo"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

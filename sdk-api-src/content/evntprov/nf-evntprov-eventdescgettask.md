@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescgettask_func, etw.eventdescgettask_func, evntprov/EventDescGetTask
 ms.topic: function
-f1_keywords: ["evntprov/EventDescGetTask"]
+f1_keywords: 
+ - "evntprov/EventDescGetTask"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

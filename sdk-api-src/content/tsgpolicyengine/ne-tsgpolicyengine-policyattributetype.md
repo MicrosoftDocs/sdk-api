@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowOnlySDRServers, ClipboardRedirectionDisabled, DisableAllRedirections, DriveRedirectionDisabled, EnableAllRedirections, PnpRedirectionDisabled, PolicyAttributeType, PolicyAttributeType enumeration [Remote Desktop Services], PortRedirectionDisabled, PrinterRedirectionDisabled, termserv.policyattributetype, tsgpolicyengine/AllowOnlySDRServers, tsgpolicyengine/ClipboardRedirectionDisabled, tsgpolicyengine/DisableAllRedirections, tsgpolicyengine/DriveRedirectionDisabled, tsgpolicyengine/EnableAllRedirections, tsgpolicyengine/PnpRedirectionDisabled, tsgpolicyengine/PolicyAttributeType, tsgpolicyengine/PortRedirectionDisabled, tsgpolicyengine/PrinterRedirectionDisabled
 ms.topic: enum
-f1_keywords: ["tsgpolicyengine/PolicyAttributeType"]
+f1_keywords: 
+ - "tsgpolicyengine/PolicyAttributeType"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

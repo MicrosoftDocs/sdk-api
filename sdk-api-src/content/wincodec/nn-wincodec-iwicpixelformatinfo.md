@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
 ms.topic: interface
-f1_keywords: ["wincodec/IWICPixelFormatInfo"]
+f1_keywords: 
+ - "wincodec/IWICPixelFormatInfo"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

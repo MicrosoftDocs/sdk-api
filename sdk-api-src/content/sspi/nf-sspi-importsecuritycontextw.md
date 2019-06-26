@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.topic: function
-f1_keywords: ["sspi/ImportSecurityContext"]
+f1_keywords: 
+ - "sspi/ImportSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

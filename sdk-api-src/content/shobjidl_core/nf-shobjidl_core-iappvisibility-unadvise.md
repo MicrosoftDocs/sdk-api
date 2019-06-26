@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility interface [Windows Shell],Unadvise method, IAppVisibility.Unadvise, IAppVisibility::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_Unadvise, shobjidl_core/IAppVisibility::Unadvise
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAppVisibility.Unadvise"]
+f1_keywords: 
+ - "shobjidl_core/IAppVisibility.Unadvise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

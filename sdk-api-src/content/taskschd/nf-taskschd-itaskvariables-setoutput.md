@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskVariables interface [Task Scheduler],SetOutput method, ITaskVariables.SetOutput, ITaskVariables::SetOutput, SetOutput, SetOutput method [Task Scheduler], SetOutput method [Task Scheduler],ITaskVariables interface, taskschd.itaskvariables_setoutput, taskschd/ITaskVariables::SetOutput
 ms.topic: method
-f1_keywords: ["taskschd/ITaskVariables.SetOutput"]
+f1_keywords: 
+ - "taskschd/ITaskVariables.SetOutput"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetLineByIndex, SetupGetLineByIndex function [Setup API], SetupGetLineByIndexA, SetupGetLineByIndexW, _setupapi_setupgetlinebyindex, setup.setupgetlinebyindex, setupapi/SetupGetLineByIndex, setupapi/SetupGetLineByIndexA, setupapi/SetupGetLineByIndexW
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetLineByIndex"]
+f1_keywords: 
+ - "setupapi/SetupGetLineByIndex"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

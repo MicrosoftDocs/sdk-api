@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST structure, PMINIDUMP_UNLOADED_MODULE_LIST, PMINIDUMP_UNLOADED_MODULE_LIST structure pointer, _MINIDUMP_UNLOADED_MODULE_LIST, _win32_minidump_unloaded_module_list_str, base.minidump_unloaded_module_list_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST, minidumpapiset/PMINIDUMP_UNLOADED_MODULE_LIST"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

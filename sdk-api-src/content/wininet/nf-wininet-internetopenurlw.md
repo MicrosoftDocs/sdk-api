@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
 ms.topic: function
-f1_keywords: ["wininet/InternetOpenUrl"]
+f1_keywords: 
+ - "wininet/InternetOpenUrl"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

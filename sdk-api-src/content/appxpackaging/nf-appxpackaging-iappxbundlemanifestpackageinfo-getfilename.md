@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestPackageInfo.GetFileName, IAppxBundleManifestPackageInfo::GetFileName, appxpackaging/IAppxBundleManifestPackageInfo::GetFileName, appxpkg.iappxbundlemanifestpackageinfo_getfilename
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo.GetFileName"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestPackageInfo.GetFileName"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

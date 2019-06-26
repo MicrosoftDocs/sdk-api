@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.SetRoot"]
+f1_keywords: 
+ - "strmif/IDvdControl.SetRoot"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

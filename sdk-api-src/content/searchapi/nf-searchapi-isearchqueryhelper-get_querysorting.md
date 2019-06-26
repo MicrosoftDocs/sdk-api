@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySorting method, ISearchQueryHelper.get_QuerySorting, ISearchQueryHelper::get_QuerySorting, _search_ISearchQueryHelper_get_QuerySorting, get_QuerySorting, get_QuerySorting method [search], get_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySorting, searchapi/ISearchQueryHelper::get_QuerySorting
 ms.topic: method
-f1_keywords: ["searchapi/ISearchQueryHelper.get_QuerySorting"]
+f1_keywords: 
+ - "searchapi/ISearchQueryHelper.get_QuerySorting"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

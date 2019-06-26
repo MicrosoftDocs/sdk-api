@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_IP_VERSION, NET_FW_IP_VERSION enumeration [ICS/ICF], NET_FW_IP_VERSION_ANY, NET_FW_IP_VERSION_MAX, NET_FW_IP_VERSION_V4, NET_FW_IP_VERSION_V6, icftypes/NET_FW_IP_VERSION, icftypes/NET_FW_IP_VERSION_ANY, icftypes/NET_FW_IP_VERSION_MAX, icftypes/NET_FW_IP_VERSION_V4, icftypes/NET_FW_IP_VERSION_V6, ics.net_fw_ip_version
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_IP_VERSION"]
+f1_keywords: 
+ - "icftypes/NET_FW_IP_VERSION"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

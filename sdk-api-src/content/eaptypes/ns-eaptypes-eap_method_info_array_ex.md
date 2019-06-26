@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_ARRAY_EX, EAP_METHOD_INFO_ARRAY_EX structure [EAPHost], PEAP_METHOD_INFO_ARRAY_EX, PEAP_METHOD_INFO_ARRAY_EX structure pointer [EAPHost], eaphost.eap_method_info_array_ex, eaptypes/EAP_METHOD_INFO_ARRAY_EX, eaptypes/PEAP_METHOD_INFO_ARRAY_EX
 ms.topic: struct
-f1_keywords: ["eaptypes/EAP_METHOD_INFO_ARRAY_EX"]
+f1_keywords: 
+ - "eaptypes/EAP_METHOD_INFO_ARRAY_EX"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

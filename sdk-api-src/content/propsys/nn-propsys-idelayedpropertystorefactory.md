@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
 ms.topic: interface
-f1_keywords: ["propsys/IDelayedPropertyStoreFactory"]
+f1_keywords: 
+ - "propsys/IDelayedPropertyStoreFactory"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

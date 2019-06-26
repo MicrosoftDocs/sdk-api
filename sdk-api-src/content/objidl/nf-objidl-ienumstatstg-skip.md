@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
 ms.topic: method
-f1_keywords: ["objidl/IEnumSTATSTG.Skip"]
+f1_keywords: 
+ - "objidl/IEnumSTATSTG.Skip"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

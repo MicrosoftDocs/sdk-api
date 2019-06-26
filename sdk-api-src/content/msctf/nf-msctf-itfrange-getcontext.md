@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetContext method, ITfRange.GetContext, ITfRange::GetContext, _tsf_itfrange_getcontext_ref, msctf/ITfRange::GetContext, tsf.itfrange_getcontext
 ms.topic: method
-f1_keywords: ["msctf/ITfRange.GetContext"]
+f1_keywords: 
+ - "msctf/ITfRange.GetContext"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiPersistentLoginsW, ReportIscsiPersistentLogins, ReportIscsiPersistentLogins function [iSCSI Discovery Library API], ReportIscsiPersistentLoginsA, ReportIscsiPersistentLoginsW, iscsidisc.reportiscsipersistentlogins, iscsidsc/ReportIscsiPersistentLogins, iscsidsc/ReportIscsiPersistentLoginsA, iscsidsc/ReportIscsiPersistentLoginsW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportIscsiPersistentLogins"]
+f1_keywords: 
+ - "iscsidsc/ReportIscsiPersistentLogins"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

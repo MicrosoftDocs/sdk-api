@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMonitor method, IFullScreenVideoEx.SetMonitor, IFullScreenVideoEx::SetMonitor, IFullScreenVideoSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMonitor, dshow.ifullscreenvideoex_setmonitor
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.SetMonitor"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.SetMonitor"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

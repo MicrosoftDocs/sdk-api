@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
 ms.topic: interface
-f1_keywords: ["wia_xp/IWiaLogEx"]
+f1_keywords: 
+ - "wia_xp/IWiaLogEx"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

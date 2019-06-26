@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
 ms.topic: function
-f1_keywords: ["ntlsa/LsaQueryCAPs"]
+f1_keywords: 
+ - "ntlsa/LsaQueryCAPs"
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

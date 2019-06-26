@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamSourceRect method, ID3D11VideoContext.VideoProcessorGetStreamSourceRect, ID3D11VideoContext::VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect method [Media Foundation], VideoProcessorGetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamSourceRect, mf.id3d11videocontext_videoprocessorgetstreamsourcerect
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetStreamSourceRect"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamSourceRect"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ArrayField, MI_ArrayField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ArrayField, wmi._mi_arrayfield, wmi_v2.mi_arrayfield
 ms.topic: struct
-f1_keywords: ["mi/MI_ArrayField"]
+f1_keywords: 
+ - "mi/MI_ArrayField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

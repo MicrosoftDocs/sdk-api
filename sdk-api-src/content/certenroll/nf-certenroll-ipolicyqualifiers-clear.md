@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
 ms.topic: method
-f1_keywords: ["certenroll/IPolicyQualifiers.Clear"]
+f1_keywords: 
+ - "certenroll/IPolicyQualifiers.Clear"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, RPC_C_STATS_PKTS_OUT, RPC_STATS_VECTOR, RPC_STATS_VECTOR structure [RPC], _rpc_rpc_stats_vector, rpc.rpc_stats_vector, rpcdce/RPC_STATS_VECTOR
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_STATS_VECTOR"]
+f1_keywords: 
+ - "rpcdce/RPC_STATS_VECTOR"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

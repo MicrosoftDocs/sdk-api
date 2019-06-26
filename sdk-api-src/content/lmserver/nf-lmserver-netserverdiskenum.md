@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum
 ms.topic: function
-f1_keywords: ["lmserver/NetServerDiskEnum"]
+f1_keywords: 
+ - "lmserver/NetServerDiskEnum"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserMarshal64, LPSAFEARRAY_UserMarshal64 function [Automation], automat.lpsafearray_usermarshal64, wia_xp/LPSAFEARRAY_UserMarshal64
 ms.topic: function
-f1_keywords: ["wia_xp/LPSAFEARRAY_UserMarshal64"]
+f1_keywords: 
+ - "wia_xp/LPSAFEARRAY_UserMarshal64"
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

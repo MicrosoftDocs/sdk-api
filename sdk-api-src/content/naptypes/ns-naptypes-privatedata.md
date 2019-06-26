@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, naptypes/PrivateData
 ms.topic: struct
-f1_keywords: ["naptypes/PrivateData"]
+f1_keywords: 
+ - "naptypes/PrivateData"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

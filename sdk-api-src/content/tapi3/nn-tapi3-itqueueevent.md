@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent interface [TAPI 2.2],described, _tapi3_itqueueevent, tapi3.itqueueevent, tapi3cc/ITQueueEvent
 ms.topic: interface
-f1_keywords: ["tapi3/ITQueueEvent"]
+f1_keywords: 
+ - "tapi3/ITQueueEvent"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

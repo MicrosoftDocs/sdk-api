@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS"
 ms.topic: struct
-f1_keywords: ["rtmv2/RTM_ENTITY_EXPORT_METHODS"]
+f1_keywords: 
+ - "rtmv2/RTM_ENTITY_EXPORT_METHODS"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

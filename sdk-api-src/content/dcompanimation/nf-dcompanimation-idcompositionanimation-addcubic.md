@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [DirectComposition], AddCubic method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddCubic method, IDCompositionAnimation.AddCubic, IDCompositionAnimation::AddCubic, dcompanimation/IDCompositionAnimation::AddCubic, directcomp.idcompositionanimation_addcubic
 ms.topic: method
-f1_keywords: ["dcompanimation/IDCompositionAnimation.AddCubic"]
+f1_keywords: 
+ - "dcompanimation/IDCompositionAnimation.AddCubic"
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

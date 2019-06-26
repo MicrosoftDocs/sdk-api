@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, _mfax_faxoutgoingjobs.item_cpp, fax._mfax_faxoutgoingjobs_item_cpp, faxcomex/IFaxOutgoingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutgoingJobs interface
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJobs.get_Item"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJobs.get_Item"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],SetSecurity method, ITraceDataProvider.SetSecurity, ITraceDataProvider::SetSecurity, SetSecurity, SetSecurity method [PLA], SetSecurity method [PLA],ITraceDataProvider interface, pla.itracedataprovider_setsecurity, pla/ITraceDataProvider::SetSecurity
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProvider.SetSecurity"]
+f1_keywords: 
+ - "pla/ITraceDataProvider.SetSecurity"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

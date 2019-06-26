@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParentState, GetParentState method [COM], GetParentState method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],GetParentState method, IOleParentUndoUnit.GetParentState, IOleParentUndoUnit::GetParentState, _ole_ioleparentundounit_getparentstate, com.ioleparentundounit_getparentstate, ocidl/IOleParentUndoUnit::GetParentState
 ms.topic: method
-f1_keywords: ["ocidl/IOleParentUndoUnit.GetParentState"]
+f1_keywords: 
+ - "ocidl/IOleParentUndoUnit.GetParentState"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

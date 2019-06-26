@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMiscFlags, GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow],IAMFilterMiscFlags interface, IAMFilterMiscFlags interface [DirectShow],GetMiscFlags method, IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags
 ms.topic: method
-f1_keywords: ["strmif/IAMFilterMiscFlags.GetMiscFlags"]
+f1_keywords: 
+ - "strmif/IAMFilterMiscFlags.GetMiscFlags"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

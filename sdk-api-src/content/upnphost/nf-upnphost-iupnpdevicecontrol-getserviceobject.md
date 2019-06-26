@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceObject, GetServiceObject method [UPnP APIs], GetServiceObject method [UPnP APIs],IUPnPDeviceControl interface, IUPnPDeviceControl interface [UPnP APIs],GetServiceObject method, IUPnPDeviceControl.GetServiceObject, IUPnPDeviceControl::GetServiceObject, _upnp_iupnpdevicecontrol_getserviceobject, upnp.iupnpdevicecontrol_getserviceobject, upnphost/IUPnPDeviceControl::GetServiceObject
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPDeviceControl.GetServiceObject"]
+f1_keywords: 
+ - "upnphost/IUPnPDeviceControl.GetServiceObject"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

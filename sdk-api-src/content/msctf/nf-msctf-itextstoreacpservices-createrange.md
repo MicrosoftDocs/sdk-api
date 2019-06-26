@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],CreateRange method, ITextStoreACPServices.CreateRange, ITextStoreACPServices::CreateRange, _tsf_itextstoreacpservices_createrange_ref, msctf/ITextStoreACPServices::CreateRange, tsf.itextstoreacpservices_createrange
 ms.topic: method
-f1_keywords: ["msctf/ITextStoreACPServices.CreateRange"]
+f1_keywords: 
+ - "msctf/ITextStoreACPServices.CreateRange"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

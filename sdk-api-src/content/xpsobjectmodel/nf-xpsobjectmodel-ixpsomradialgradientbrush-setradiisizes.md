@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetRadiiSizes method, IXpsOMRadialGradientBrush.SetRadiiSizes, IXpsOMRadialGradientBrush::SetRadiiSizes, SetRadiiSizes, SetRadiiSizes method [XPS Documents and Packaging], SetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRadialGradientBrush.SetRadiiSizes"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRadialGradientBrush.SetRadiiSizes"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

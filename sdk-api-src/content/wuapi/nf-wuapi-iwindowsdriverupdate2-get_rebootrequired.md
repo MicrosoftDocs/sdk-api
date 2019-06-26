@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],RebootRequired property, IWindowsDriverUpdate2.RebootRequired, IWindowsDriverUpdate2.get_RebootRequired, IWindowsDriverUpdate2::RebootRequired, IWindowsDriverUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_RebootRequired, wua.iwindowsdriverupdate2_rebootrequired, wuapi/IWindowsDriverUpdate2::RebootRequired, wuapi/IWindowsDriverUpdate2::get_RebootRequired
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdate2.RebootRequired"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdate2.RebootRequired"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

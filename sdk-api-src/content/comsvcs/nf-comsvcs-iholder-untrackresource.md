@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
 ms.topic: method
-f1_keywords: ["comsvcs/IHolder.UntrackResource"]
+f1_keywords: 
+ - "comsvcs/IHolder.UntrackResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

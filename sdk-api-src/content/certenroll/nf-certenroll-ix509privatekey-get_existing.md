@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Existing property [Security], Existing property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Existing property, IX509PrivateKey.Existing, IX509PrivateKey.get_Existing, IX509PrivateKey::Existing, IX509PrivateKey::get_Existing, IX509PrivateKey::put_Existing, certenroll/IX509PrivateKey::Existing, certenroll/IX509PrivateKey::get_Existing, certenroll/IX509PrivateKey::put_Existing, get_Existing, security.ix509privatekey_existing_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.Existing"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.Existing"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

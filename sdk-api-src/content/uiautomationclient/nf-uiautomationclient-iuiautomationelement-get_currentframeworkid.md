@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentFrameworkId property [Windows Accessibility], CurrentFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFrameworkId property, IUIAutomationElement.CurrentFrameworkId, IUIAutomationElement.get_CurrentFrameworkId, IUIAutomationElement::CurrentFrameworkId, IUIAutomationElement::get_CurrentFrameworkId, get_CurrentFrameworkId, uiauto.uiauto_IUIAutomationElement_CurrentFrameworkId, uiauto_IUIAutomationElement_CurrentFrameworkId, uiautomationclient/IUIAutomationElement::CurrentFrameworkId, uiautomationclient/IUIAutomationElement::get_CurrentFrameworkId, winauto.uiauto_IUIAutomationElement_CurrentFrameworkId
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentFrameworkId"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentFrameworkId"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

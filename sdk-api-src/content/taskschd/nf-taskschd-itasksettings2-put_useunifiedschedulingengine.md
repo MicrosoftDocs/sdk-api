@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings2 interface [Task Scheduler],UseUnifiedSchedulingEngine property, ITaskSettings2.UseUnifiedSchedulingEngine, ITaskSettings2.put_UseUnifiedSchedulingEngine, ITaskSettings2::UseUnifiedSchedulingEngine, ITaskSettings2::get_UseUnifiedSchedulingEngine, ITaskSettings2::put_UseUnifiedSchedulingEngine, UseUnifiedSchedulingEngine property [Task Scheduler], UseUnifiedSchedulingEngine property [Task Scheduler],ITaskSettings2 interface, put_UseUnifiedSchedulingEngine, taskschd.itasksettings2_useunifiedschedulingengine, taskschd/ITaskSettings2::UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine
 ms.topic: method
-f1_keywords: ["taskschd/ITaskSettings2.UseUnifiedSchedulingEngine"]
+f1_keywords: 
+ - "taskschd/ITaskSettings2.UseUnifiedSchedulingEngine"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

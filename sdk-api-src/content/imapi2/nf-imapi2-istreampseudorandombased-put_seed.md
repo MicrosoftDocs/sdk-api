@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_Seed method, IStreamPseudoRandomBased.put_Seed, IStreamPseudoRandomBased::put_Seed, imapi.istreampseudorandombased_put_seed, imapi2/IStreamPseudoRandomBased::put_Seed, put_Seed, put_Seed method [IMAPI], put_Seed method [IMAPI],IStreamPseudoRandomBased interface
 ms.topic: method
-f1_keywords: ["imapi2/IStreamPseudoRandomBased.put_Seed"]
+f1_keywords: 
+ - "imapi2/IStreamPseudoRandomBased.put_Seed"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

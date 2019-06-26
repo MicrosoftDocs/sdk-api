@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMTileBrush.SetViewbox"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMTileBrush.SetViewbox"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

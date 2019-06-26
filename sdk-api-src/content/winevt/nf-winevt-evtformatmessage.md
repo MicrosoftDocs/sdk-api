@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
 ms.topic: function
-f1_keywords: ["winevt/EvtFormatMessage"]
+f1_keywords: 
+ - "winevt/EvtFormatMessage"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

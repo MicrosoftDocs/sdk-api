@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMO_HARDWARE, IMO_INJECTED, IMO_SYSTEM, IMO_UNAVAILABLE, INPUT_MESSAGE_ORIGIN_ID, INPUT_MESSAGE_ORIGIN_ID enumeration, input_sourceid.input_message_origin_id, inputsourceid.input_message_origin_id, winuser/IMO_HARDWARE, winuser/IMO_INJECTED, winuser/IMO_SYSTEM, winuser/IMO_UNAVAILABLE, winuser/INPUT_MESSAGE_ORIGIN_ID
 ms.topic: enum
-f1_keywords: ["winuser/INPUT_MESSAGE_ORIGIN_ID"]
+f1_keywords: 
+ - "winuser/INPUT_MESSAGE_ORIGIN_ID"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

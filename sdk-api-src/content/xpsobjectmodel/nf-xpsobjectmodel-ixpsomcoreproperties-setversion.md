@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.SetVersion"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.SetVersion"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

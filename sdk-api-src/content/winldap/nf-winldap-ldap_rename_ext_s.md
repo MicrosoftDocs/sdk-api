@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_rename_ext_s, ldap.ldap__rename__ext__s, ldap.ldap_rename_ext_s, ldap_rename_ext_s, ldap_rename_ext_s function [LDAP], ldap_rename_ext_sA, ldap_rename_ext_sW, winldap/ldap_rename_ext_s, winldap/ldap_rename_ext_sA, winldap/ldap_rename_ext_sW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_rename_ext_s"]
+f1_keywords: 
+ - "winldap/ldap_rename_ext_s"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

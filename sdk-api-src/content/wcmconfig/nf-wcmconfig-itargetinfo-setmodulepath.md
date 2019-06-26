@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetModulePath, ITargetInfo::SetModulePath, SetModulePath, SetModulePath method [SMI], SetModulePath method [SMI],ITargetInfo interface, smi.itargetinfo_setmodulepath, wcmconfig/ITargetInfo::SetModulePath
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetModulePath"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetModulePath"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

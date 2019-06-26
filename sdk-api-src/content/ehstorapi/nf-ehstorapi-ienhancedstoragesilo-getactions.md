@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetActions method, IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageSilo.GetActions"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageSilo.GetActions"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetBlue method, IDCompositionShadowEffect.SetBlue, IDCompositionShadowEffect.SetBlue(IDCompositionAnimation), IDCompositionShadowEffect::SetBlue, IDCompositionShadowEffect::SetBlue(IDCompositionAnimation), SetBlue, SetBlue method [DirectComposition], SetBlue method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetBlue, directcomp.idcompositionshadoweffect_setblue_2
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionShadowEffect.SetBlue"]
+f1_keywords: 
+ - "dcomp/IDCompositionShadowEffect.SetBlue"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

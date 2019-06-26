@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationship.GetRelationshipType"]
+f1_keywords: 
+ - "msopc/IOpcRelationship.GetRelationshipType"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComparePublisher, ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],ComparePublisher method, IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestPackageId.ComparePublisher"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestPackageId.ComparePublisher"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

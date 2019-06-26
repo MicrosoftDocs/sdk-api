@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA structure [Battery Devices], PBATTERY_WMI_STATIC_DATA, PBATTERY_WMI_STATIC_DATA structure pointer [Battery Devices], batclass/BATTERY_WMI_STATIC_DATA, batclass/PBATTERY_WMI_STATIC_DATA, battery.battery_wmi_static_data"
 ms.topic: struct
-f1_keywords: ["batclass/BATTERY_WMI_STATIC_DATA"]
+f1_keywords: 
+ - "batclass/BATTERY_WMI_STATIC_DATA"
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

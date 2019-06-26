@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadBytes, WsReadBytes function [Web Services for Windows], webservices/WsReadBytes, wsw.wsreadbytes
 ms.topic: function
-f1_keywords: ["webservices/WsReadBytes"]
+f1_keywords: 
+ - "webservices/WsReadBytes"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

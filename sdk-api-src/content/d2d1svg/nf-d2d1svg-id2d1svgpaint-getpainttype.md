@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPaintType, GetPaintType method [Direct2D], GetPaintType method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetPaintType method, ID2D1SvgPaint.GetPaintType, ID2D1SvgPaint::GetPaintType, d2d1svg/ID2D1SvgPaint::GetPaintType, direct2d.id2d1svgpaint_getpainttype
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPaint.GetPaintType"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPaint.GetPaintType"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

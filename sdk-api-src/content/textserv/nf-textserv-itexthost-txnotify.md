@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.TxNotify, ITextHost::TxNotify, TxNotify, TxNotify method [Windows Controls], TxNotify method [Windows Controls],ITextHost interface, _win32_ITextHost_TxNotify, _win32_ITextHost_TxNotify_cpp, controls.ITextHost_TxNotify, controls._win32_ITextHost_TxNotify, textserv/ITextHost::TxNotify
 ms.topic: method
-f1_keywords: ["textserv/ITextHost.TxNotify"]
+f1_keywords: 
+ - "textserv/ITextHost.TxNotify"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

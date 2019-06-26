@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpriteCount, GetSpriteCount method [Direct2D], GetSpriteCount method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSpriteCount method, ID2D1SpriteBatch.GetSpriteCount, ID2D1SpriteBatch::GetSpriteCount, d2d1_3/ID2D1SpriteBatch::GetSpriteCount, direct2d.id2d1spritebatch_getspritecount
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1SpriteBatch.GetSpriteCount"]
+f1_keywords: 
+ - "d2d1_3/ID2D1SpriteBatch.GetSpriteCount"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

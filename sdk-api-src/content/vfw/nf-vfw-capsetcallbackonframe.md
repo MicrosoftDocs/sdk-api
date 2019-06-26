@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capSetCallbackOnFrame, capSetCallbackOnFrame, capSetCallbackOnFrame macro [Windows Multimedia], multimedia.capsetcallbackonframe, vfw/capSetCallbackOnFrame"
 ms.topic: macro
-f1_keywords: ["vfw/capSetCallbackOnFrame"]
+f1_keywords: 
+ - "vfw/capSetCallbackOnFrame"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

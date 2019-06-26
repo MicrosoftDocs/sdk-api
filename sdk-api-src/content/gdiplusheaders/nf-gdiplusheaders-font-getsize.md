@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetSize method, Font.GetSize, Font::GetSize, GetSize, GetSize method [GDI+], GetSize method [GDI+],Font class, _gdiplus_CLASS_Font_GetSize_, gdiplus._gdiplus_CLASS_Font_GetSize_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Font.GetSize"]
+f1_keywords: 
+ - "gdiplusheaders/Font.GetSize"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

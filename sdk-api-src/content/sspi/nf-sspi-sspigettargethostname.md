@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName
 ms.topic: function
-f1_keywords: ["sspi/SspiGetTargetHostName"]
+f1_keywords: 
+ - "sspi/SspiGetTargetHostName"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

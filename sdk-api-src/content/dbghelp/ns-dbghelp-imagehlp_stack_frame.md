@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME"
 ms.topic: struct
-f1_keywords: ["dbghelp/IMAGEHLP_STACK_FRAME"]
+f1_keywords: 
+ - "dbghelp/IMAGEHLP_STACK_FRAME"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

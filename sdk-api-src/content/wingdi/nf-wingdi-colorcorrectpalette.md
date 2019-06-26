@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorCorrectPalette, ColorCorrectPalette function [Windows Color System], _color_ColorCorrectPalette, wcs.colorcorrectpalette, wingdi/ColorCorrectPalette
 ms.topic: function
-f1_keywords: ["wingdi/ColorCorrectPalette"]
+f1_keywords: 
+ - "wingdi/ColorCorrectPalette"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_RemoveGroup, ListView_RemoveGroup macro [Windows Controls], _win32_ListView_RemoveGroup, _win32_ListView_RemoveGroup_cpp, commctrl/ListView_RemoveGroup, controls.ListView_RemoveGroup, controls._win32_ListView_RemoveGroup
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_RemoveGroup"]
+f1_keywords: 
+ - "commctrl/ListView_RemoveGroup"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

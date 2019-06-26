@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
 ms.topic: method
-f1_keywords: ["pla/IValueMap.Add"]
+f1_keywords: 
+ - "pla/IValueMap.Add"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

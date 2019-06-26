@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA structure [Display Devices], ddrawint/DD_WAITFORVPORTSYNCDATA, ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml, display.dd_waitforvportsyncdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_WAITFORVPORTSYNCDATA"]
+f1_keywords: 
+ - "ddrawint/DD_WAITFORVPORTSYNCDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

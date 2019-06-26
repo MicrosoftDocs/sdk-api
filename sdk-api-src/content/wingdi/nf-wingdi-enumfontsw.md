@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW, _win32_EnumFonts, gdi.enumfonts, wingdi/EnumFonts, wingdi/EnumFontsA, wingdi/EnumFontsW
 ms.topic: function
-f1_keywords: ["wingdi/EnumFonts"]
+f1_keywords: 
+ - "wingdi/EnumFonts"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

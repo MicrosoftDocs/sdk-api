@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DurationUnitChange, DurationUnitChange method [Windows Media Player], DurationUnitChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DurationUnitChange method, IWMPEvents.DurationUnitChange, IWMPEvents::DurationUnitChange, IWMPEventsDurationUnitChange, wmp.iwmpevents_iwmpevents__durationunitchange, wmp/IWMPEvents::DurationUnitChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.DurationUnitChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.DurationUnitChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

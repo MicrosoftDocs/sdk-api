@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2TransformCoordStream, XMVector2TransformCoordStream, XMVector2TransformCoordStream method [DirectX Math Support APIs], dxmath.xmvector2transformcoordstream
 ms.topic: function
-f1_keywords: ["directxmath/XMVector2TransformCoordStream"]
+f1_keywords: 
+ - "directxmath/XMVector2TransformCoordStream"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

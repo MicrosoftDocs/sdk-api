@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtGetData, FaxExtGetData function [Fax Service], _mfax_faxextgetdata, fax._mfax_faxextgetdata, faxext/FaxExtGetData
 ms.topic: function
-f1_keywords: ["faxext/FaxExtGetData"]
+f1_keywords: 
+ - "faxext/FaxExtGetData"
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

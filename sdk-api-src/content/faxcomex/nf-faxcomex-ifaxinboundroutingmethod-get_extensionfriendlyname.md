@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtensionFriendlyName property [Fax Service], ExtensionFriendlyName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionFriendlyName property, IFaxInboundRoutingMethod.ExtensionFriendlyName, IFaxInboundRoutingMethod.get_ExtensionFriendlyName, IFaxInboundRoutingMethod::ExtensionFriendlyName, IFaxInboundRoutingMethod::get_ExtensionFriendlyName, _mfax_faxinboundroutingmethod.extensionfriendlyname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionfriendlyname_cpp, fax._mfax_faxinboundroutingmethod_extensionfriendlyname, faxcomex/IFaxInboundRoutingMethod::ExtensionFriendlyName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionFriendlyName, get_ExtensionFriendlyName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxInboundRoutingMethod.ExtensionFriendlyName"]
+f1_keywords: 
+ - "faxcomex/IFaxInboundRoutingMethod.ExtensionFriendlyName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

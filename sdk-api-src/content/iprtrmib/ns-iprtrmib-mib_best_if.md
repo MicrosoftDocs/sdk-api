@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_BEST_IF, MIB_BEST_IF, MIB_BEST_IF structure [MIB], PMIB_BEST_IF, PMIB_BEST_IF structure pointer [MIB], _mpr_mib_best_if, ipmib/MIB_BEST_IF, ipmib/PMIB_BEST_IF, iprtrmib/MIB_BEST_IF, iprtrmib/PMIB_BEST_IF, mib.mib_best_if, rras.mib_best_if"
 ms.topic: struct
-f1_keywords: ["iprtrmib/MIB_BEST_IF"]
+f1_keywords: 
+ - "iprtrmib/MIB_BEST_IF"
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

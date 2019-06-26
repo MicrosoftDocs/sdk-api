@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionPrepare method, IComTransactionEvents.OnTransactionPrepare, IComTransactionEvents::OnTransactionPrepare, OnTransactionPrepare, OnTransactionPrepare method [COM+], OnTransactionPrepare method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionPrepare, comsvcs/IComTransactionEvents::OnTransactionPrepare, cos.icomtransactionevents_ontransactionprepare
 ms.topic: method
-f1_keywords: ["comsvcs/IComTransactionEvents.OnTransactionPrepare"]
+f1_keywords: 
+ - "comsvcs/IComTransactionEvents.OnTransactionPrepare"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
 ms.topic: function
-f1_keywords: ["wintrust/WintrustRemoveActionID"]
+f1_keywords: 
+ - "wintrust/WintrustRemoveActionID"
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

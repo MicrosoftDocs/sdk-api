@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetProvisionedContext method, IMbnConnectionContext.SetProvisionedContext, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks],IMbnConnectionContext interface, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnectionContext.SetProvisionedContext"]
+f1_keywords: 
+ - "mbnapi/IMbnConnectionContext.SetProvisionedContext"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

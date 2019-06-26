@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableTftpVariableWindowExtension property [Windows Deployment Services], EnableTftpVariableWindowExtension property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, IWdsTransportServicePolicy2 interface [Windows Deployment Services],EnableTftpVariableWindowExtension property, IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension, put_EnableTftpVariableWindowExtension, wds.iwdstransportservicepolicy2_enabletftpvariablewindowextension, wdstptmgmt/IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

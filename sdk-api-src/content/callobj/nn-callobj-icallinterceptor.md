@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallInterceptor interface [COM],described, _com_icallinterceptor_interface, callobj/ICallInterceptor, com.icallinterceptor
 ms.topic: interface
-f1_keywords: ["callobj/ICallInterceptor"]
+f1_keywords: 
+ - "callobj/ICallInterceptor"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetPack method, IVdsVolume.GetPack, IVdsVolume::GetPack, base.ivdsvolume_getpack, vds/IVdsVolume::GetPack
 ms.topic: method
-f1_keywords: ["vds/IVdsVolume.GetPack"]
+f1_keywords: 
+ - "vds/IVdsVolume.GetPack"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

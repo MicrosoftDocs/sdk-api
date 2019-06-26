@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.topic: struct
-f1_keywords: ["mstcpip/SOCKET_PEER_TARGET_NAME"]
+f1_keywords: 
+ - "mstcpip/SOCKET_PEER_TARGET_NAME"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

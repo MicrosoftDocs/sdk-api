@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorageControl.Delete"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageControl.Delete"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

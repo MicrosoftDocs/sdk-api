@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer function [Windows Runtime], winrt.windowspreallocatestringbuffer, winstring/WindowsPreallocateStringBuffer
 ms.topic: function
-f1_keywords: ["winstring/WindowsPreallocateStringBuffer"]
+f1_keywords: 
+ - "winstring/WindowsPreallocateStringBuffer"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

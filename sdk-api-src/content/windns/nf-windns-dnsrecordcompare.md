@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordcompare, dns.dnsrecordcompare, windns/DnsRecordCompare
 ms.topic: function
-f1_keywords: ["windns/DnsRecordCompare"]
+f1_keywords: 
+ - "windns/DnsRecordCompare"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

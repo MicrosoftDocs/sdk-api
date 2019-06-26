@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],put_FileName method, IMSVidFilePlayback.put_FileName, IMSVidFilePlayback::put_FileName, IMSVidFilePlaybackput_FileName, mstv.imsvidfileplayback_put_filename, put_FileName, put_FileName method [Microsoft TV Technologies], put_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, segment/IMSVidFilePlayback::put_FileName
 ms.topic: method
-f1_keywords: ["segment/IMSVidFilePlayback.put_FileName"]
+f1_keywords: 
+ - "segment/IMSVidFilePlayback.put_FileName"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_RANDOM_NUMBER"]
+f1_keywords: 
+ - "opmapi/OPM_RANDOM_NUMBER"
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

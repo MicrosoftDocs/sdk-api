@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet], FindNextUrlCacheEntryExA, FindNextUrlCacheEntryExW, _inet_findnexturlcacheentryex_function, wininet.findnexturlcacheentryex, wininet/FindNextUrlCacheEntryEx, wininet/FindNextUrlCacheEntryExA, wininet/FindNextUrlCacheEntryExW
 ms.topic: function
-f1_keywords: ["wininet/FindNextUrlCacheEntryEx"]
+f1_keywords: 
+ - "wininet/FindNextUrlCacheEntryEx"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

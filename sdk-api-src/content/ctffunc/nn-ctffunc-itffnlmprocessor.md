@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnLMProcessor"]
+f1_keywords: 
+ - "ctffunc/ITfFnLMProcessor"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

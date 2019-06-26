@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientQueryStatus, WdsTransportClientQueryStatus function [Windows Deployment Services], wds.wdstransportclientquerystatus, wdstci/WdsTransportClientQueryStatus
 ms.topic: function
-f1_keywords: ["wdstci/WdsTransportClientQueryStatus"]
+f1_keywords: 
+ - "wdstci/WdsTransportClientQueryStatus"
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASKDIALOG_BUTTON, TASKDIALOG_BUTTON structure [Windows Controls], _shell_TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON_cpp, commctrl/TASKDIALOG_BUTTON, controls.TASKDIALOG_BUTTON, controls._shell_TASKDIALOG_BUTTON
 ms.topic: struct
-f1_keywords: ["commctrl/TASKDIALOG_BUTTON"]
+f1_keywords: 
+ - "commctrl/TASKDIALOG_BUTTON"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

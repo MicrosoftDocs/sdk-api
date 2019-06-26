@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddEventHandler method, IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.AddEventHandler"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.AddEventHandler"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

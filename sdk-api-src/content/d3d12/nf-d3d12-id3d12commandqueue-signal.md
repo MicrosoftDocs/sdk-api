@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,Signal method, ID3D12CommandQueue.Signal, ID3D12CommandQueue::Signal, Signal, Signal method, Signal method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Signal, direct3d12.id3d12commandqueue_signal
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12CommandQueue.Signal"]
+f1_keywords: 
+ - "d3d12/ID3D12CommandQueue.Signal"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

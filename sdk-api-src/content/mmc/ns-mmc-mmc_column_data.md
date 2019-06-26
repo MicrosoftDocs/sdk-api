@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_COLUMN_DATA, MMC_COLUMN_DATA structure [MMC], _slate_mmc_column_data, mmc.mmc_column_data, mmc/MMC_COLUMN_DATA
 ms.topic: struct
-f1_keywords: ["mmc/MMC_COLUMN_DATA"]
+f1_keywords: 
+ - "mmc/MMC_COLUMN_DATA"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

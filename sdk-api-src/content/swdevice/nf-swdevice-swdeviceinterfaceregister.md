@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfaceRegister, SwDeviceInterfaceRegister function, swdevice.swdeviceinterfaceregister, swdevice/SwDeviceInterfaceRegister
 ms.topic: function
-f1_keywords: ["swdevice/SwDeviceInterfaceRegister"]
+f1_keywords: 
+ - "swdevice/SwDeviceInterfaceRegister"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],RawReceiveTime property, IFaxTiff.RawReceiveTime, IFaxTiff.get_RawReceiveTime, IFaxTiff::RawReceiveTime, IFaxTiff::get_RawReceiveTime, RawReceiveTime property [Fax Service], RawReceiveTime property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp, faxcom/IFaxTiff::RawReceiveTime, faxcom/IFaxTiff::get_RawReceiveTime, get_RawReceiveTime
 ms.topic: method
-f1_keywords: ["faxcom/IFaxTiff.RawReceiveTime"]
+f1_keywords: 
+ - "faxcom/IFaxTiff.RawReceiveTime"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

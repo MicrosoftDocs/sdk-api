@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings.put_AllowInboundTimestampRequest, INetFwIcmpSettings::AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest, put_AllowInboundTimestampRequest
 ms.topic: method
-f1_keywords: ["netfw/INetFwIcmpSettings.AllowInboundTimestampRequest"]
+f1_keywords: 
+ - "netfw/INetFwIcmpSettings.AllowInboundTimestampRequest"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

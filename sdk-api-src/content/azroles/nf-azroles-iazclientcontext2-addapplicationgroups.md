@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddApplicationGroups method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddApplicationGroups method, IAzClientContext2.AddApplicationGroups, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext2.AddApplicationGroups"]
+f1_keywords: 
+ - "azroles/IAzClientContext2.AddApplicationGroups"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

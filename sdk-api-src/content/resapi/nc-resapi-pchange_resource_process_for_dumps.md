@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeResourceProcessForDumps, ChangeResourceProcessForDumps callback, ChangeResourceProcessForDumps callback function [Failover Cluster], PCHANGE_RESOURCE_PROCESS_FOR_DUMPS, PCHANGE_RESOURCE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changeresourceprocessfordumps, resapi/ChangeResourceProcessForDumps, resapi/PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
 ms.topic: callback
-f1_keywords: ["resapi/ChangeResourceProcessForDumps callback"]
+f1_keywords: 
+ - "resapi/ChangeResourceProcessForDumps callback"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

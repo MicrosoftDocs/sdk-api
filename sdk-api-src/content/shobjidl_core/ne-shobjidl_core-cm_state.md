@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_STATE, CM_STATE enumeration [Windows Shell], CM_STATE_ALWAYSVISIBLE, CM_STATE_FIXEDWIDTH, CM_STATE_NONE, CM_STATE_NOSORTBYFOLDERNESS, CM_STATE_VISIBLE, shell.CM_STATE, shell_CM_STATE, shobjidl_core/CM_STATE, shobjidl_core/CM_STATE_ALWAYSVISIBLE, shobjidl_core/CM_STATE_FIXEDWIDTH, shobjidl_core/CM_STATE_NONE, shobjidl_core/CM_STATE_NOSORTBYFOLDERNESS, shobjidl_core/CM_STATE_VISIBLE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/CM_STATE"]
+f1_keywords: 
+ - "shobjidl_core/CM_STATE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

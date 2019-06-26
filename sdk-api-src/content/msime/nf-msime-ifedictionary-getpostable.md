@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
 ms.topic: method
-f1_keywords: ["msime/IFEDictionary.GetPosTable"]
+f1_keywords: 
+ - "msime/IFEDictionary.GetPosTable"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

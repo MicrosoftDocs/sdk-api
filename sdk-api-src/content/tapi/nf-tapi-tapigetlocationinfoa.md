@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
 ms.topic: function
-f1_keywords: ["tapi/tapiGetLocationInfo"]
+f1_keywords: 
+ - "tapi/tapiGetLocationInfo"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

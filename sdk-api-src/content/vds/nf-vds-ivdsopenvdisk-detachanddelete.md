@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DetachAndDelete, DetachAndDelete method, DetachAndDelete method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,DetachAndDelete method, IVdsOpenVDisk.DetachAndDelete, IVdsOpenVDisk::DetachAndDelete, base.ivdsopenvdisk_detachanddelete, vds/IVdsOpenVDisk::DetachAndDelete
 ms.topic: method
-f1_keywords: ["vds/IVdsOpenVDisk.DetachAndDelete"]
+f1_keywords: 
+ - "vds/IVdsOpenVDisk.DetachAndDelete"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

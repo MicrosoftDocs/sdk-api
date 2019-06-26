@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
 ms.topic: interface
-f1_keywords: ["comsvcs/IDispenserDriver"]
+f1_keywords: 
+ - "comsvcs/IDispenserDriver"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

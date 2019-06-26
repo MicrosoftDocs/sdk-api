@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_EXTENDED_INFORMATION"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_EXTENDED_INFORMATION"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

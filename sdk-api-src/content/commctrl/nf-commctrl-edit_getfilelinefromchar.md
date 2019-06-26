@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows Controls], commctrl/Edit_GetFileLineFromChar, controls.edit_getfilelinefromchar
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_GetFileLineFromChar"]
+f1_keywords: 
+ - "commctrl/Edit_GetFileLineFromChar"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

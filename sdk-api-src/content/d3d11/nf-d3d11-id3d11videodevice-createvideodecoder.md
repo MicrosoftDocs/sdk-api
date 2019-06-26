@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoder method, ID3D11VideoDevice.CreateVideoDecoder, ID3D11VideoDevice::CreateVideoDecoder, d3d11/ID3D11VideoDevice::CreateVideoDecoder, mf.id3d11videodevice_createvideodecoder
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoDevice.CreateVideoDecoder"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoDevice.CreateVideoDecoder"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

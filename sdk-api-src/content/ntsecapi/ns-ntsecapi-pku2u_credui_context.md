@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT structure [Security], PPKU2U_CREDUI_CONTEXT, PPKU2U_CREDUI_CONTEXT structure pointer [Security], ntsecapi/PKU2U_CREDUI_CONTEXT, ntsecapi/PPKU2U_CREDUI_CONTEXT, security.pku2u_credui_context"
 ms.topic: struct
-f1_keywords: ["ntsecapi/PKU2U_CREDUI_CONTEXT"]
+f1_keywords: 
+ - "ntsecapi/PKU2U_CREDUI_CONTEXT"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

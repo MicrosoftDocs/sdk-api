@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
 ms.topic: function
-f1_keywords: ["rpcndr/NdrServerCallAll"]
+f1_keywords: 
+ - "rpcndr/NdrServerCallAll"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

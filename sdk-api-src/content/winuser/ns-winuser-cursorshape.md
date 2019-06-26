@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCURSORSHAPE, CURSORSHAPE, CURSORSHAPE structure [Menus and Other Resources], LPCURSORSHAPE, LPCURSORSHAPE structure pointer [Menus and Other Resources], _win32_CURSORSHAPE_str, _win32_cursorshape_str_cpp, menurc.cursorshape, winui._win32_cursorshape_str, winuser/CURSORSHAPE, winuser/LPCURSORSHAPE"
 ms.topic: struct
-f1_keywords: ["winuser/CURSORSHAPE"]
+f1_keywords: 
+ - "winuser/CURSORSHAPE"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

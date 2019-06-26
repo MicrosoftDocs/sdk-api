@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions, IFaxReceiptOptions interface [Fax Service], IFaxReceiptOptions interface [Fax Service],described, _mfax_faxreceiptoptions_cpp, fax._mfax_faxreceiptoptions_cpp, faxcomex/IFaxReceiptOptions
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxReceiptOptions"]
+f1_keywords: 
+ - "faxcomex/IFaxReceiptOptions"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

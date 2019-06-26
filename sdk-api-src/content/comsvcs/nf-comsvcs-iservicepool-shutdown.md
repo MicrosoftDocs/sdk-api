@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServicePool interface [COM+],Shutdown method, IServicePool.Shutdown, IServicePool::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IServicePool interface, _cos_IServicePool_Shutdown, comsvcs/IServicePool::Shutdown, cos.iservicepool_shutdown
 ms.topic: method
-f1_keywords: ["comsvcs/IServicePool.Shutdown"]
+f1_keywords: 
+ - "comsvcs/IServicePool.Shutdown"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

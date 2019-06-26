@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationManager.ProcessInput"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationManager.ProcessInput"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

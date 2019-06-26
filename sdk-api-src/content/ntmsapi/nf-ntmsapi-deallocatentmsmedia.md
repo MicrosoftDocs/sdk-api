@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia
 ms.topic: function
-f1_keywords: ["ntmsapi/DeallocateNtmsMedia"]
+f1_keywords: 
+ - "ntmsapi/DeallocateNtmsMedia"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

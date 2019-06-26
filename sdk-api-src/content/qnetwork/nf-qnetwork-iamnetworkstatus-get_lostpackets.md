@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_LostPackets method, IAMNetworkStatus.get_LostPackets, IAMNetworkStatus::get_LostPackets, IAMNetworkStatusget_LostPackets, dshow.iamnetworkstatus_get_lostpackets, get_LostPackets, get_LostPackets method [DirectShow], get_LostPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_LostPackets
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetworkStatus.get_LostPackets"]
+f1_keywords: 
+ - "qnetwork/IAMNetworkStatus.get_LostPackets"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

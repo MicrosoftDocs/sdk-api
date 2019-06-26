@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextPacketSize, GetNextPacketSize method [Core Audio], GetNextPacketSize method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetNextPacketSize method, IAudioCaptureClient.GetNextPacketSize, IAudioCaptureClient::GetNextPacketSize, IAudioCaptureClientGetNextPacketSize, audioclient/IAudioCaptureClient::GetNextPacketSize, coreaudio.iaudiocaptureclient_getnextpacketsize
 ms.topic: method
-f1_keywords: ["audioclient/IAudioCaptureClient.GetNextPacketSize"]
+f1_keywords: 
+ - "audioclient/IAudioCaptureClient.GetNextPacketSize"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

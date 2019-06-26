@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f200fc8-f573-7b6c-75f4-5b7cf7a95eb1, GetGeometryShaderDesc, GetGeometryShaderDesc method [Direct3D 10], GetGeometryShaderDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetGeometryShaderDesc method, ID3D10EffectPass.GetGeometryShaderDesc, ID3D10EffectPass::GetGeometryShaderDesc, d3d10effect/ID3D10EffectPass::GetGeometryShaderDesc, direct3d10.id3d10effectpass_getgeometryshaderdesc
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectPass.GetGeometryShaderDesc"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectPass.GetGeometryShaderDesc"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

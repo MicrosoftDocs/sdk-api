@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSetting.GetPreferenceScope"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting.GetPreferenceScope"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

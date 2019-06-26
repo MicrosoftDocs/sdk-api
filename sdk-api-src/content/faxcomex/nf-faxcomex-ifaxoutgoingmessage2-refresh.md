@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Refresh method, IFaxOutgoingMessage2.Refresh, IFaxOutgoingMessage2::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.refresh, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_refresh_cpp, fax._mfax_faxoutgoingmessage_refresh, faxcomex/IFaxOutgoingMessage2::Refresh
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingMessage2.Refresh"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingMessage2.Refresh"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

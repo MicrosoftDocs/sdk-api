@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileMaxTotalSize property [PLA], FileMaxTotalSize property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxTotalSize property, IConfigurationDataCollector.FileMaxTotalSize, IConfigurationDataCollector.put_FileMaxTotalSize, IConfigurationDataCollector::FileMaxTotalSize, IConfigurationDataCollector::get_FileMaxTotalSize, IConfigurationDataCollector::put_FileMaxTotalSize, base.iconfigurationdatacollector_filemaxtotalsize, pla.iconfigurationdatacollector_filemaxtotalsize, pla/IConfigurationDataCollector::FileMaxTotalSize, pla/IConfigurationDataCollector::get_FileMaxTotalSize, pla/IConfigurationDataCollector::put_FileMaxTotalSize, put_FileMaxTotalSize
 ms.topic: method
-f1_keywords: ["pla/IConfigurationDataCollector.FileMaxTotalSize"]
+f1_keywords: 
+ - "pla/IConfigurationDataCollector.FileMaxTotalSize"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

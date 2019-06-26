@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_SDT.GetRecordRunningStatus, IDVB_SDT::GetRecordRunningStatus, IDVB_SDTGetRecordRunningStatus, dvbsiparser/IDVB_SDT::GetRecordRunningStatus, mstv.idvb_sdt_getrecordrunningstatus
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_SDT.GetRecordRunningStatus"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_SDT.GetRecordRunningStatus"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

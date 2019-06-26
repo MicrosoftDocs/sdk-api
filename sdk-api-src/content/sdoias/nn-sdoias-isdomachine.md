@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
 ms.topic: interface
-f1_keywords: ["sdoias/ISdoMachine"]
+f1_keywords: 
+ - "sdoias/ISdoMachine"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

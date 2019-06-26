@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer, base.group_affinity, winnt/GROUP_AFFINITY, winnt/PGROUP_AFFINITY"
 ms.topic: struct
-f1_keywords: ["winnt/GROUP_AFFINITY"]
+f1_keywords: 
+ - "winnt/GROUP_AFFINITY"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

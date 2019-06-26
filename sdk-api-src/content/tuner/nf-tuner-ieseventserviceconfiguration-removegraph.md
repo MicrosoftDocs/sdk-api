@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveGraph method, IESEventServiceConfiguration.RemoveGraph, IESEventServiceConfiguration::RemoveGraph, RemoveGraph, RemoveGraph method [Microsoft TV Technologies], RemoveGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removegraph, tuner/IESEventServiceConfiguration::RemoveGraph
 ms.topic: method
-f1_keywords: ["tuner/IESEventServiceConfiguration.RemoveGraph"]
+f1_keywords: 
+ - "tuner/IESEventServiceConfiguration.RemoveGraph"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

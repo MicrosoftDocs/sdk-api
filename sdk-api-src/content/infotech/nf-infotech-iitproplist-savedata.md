@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SaveData method, IITPropList.SaveData, IITPropList::SaveData, SaveData, SaveData method [HTML Help Workshop], SaveData method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_savedata, infotech/IITPropList::SaveData, refIITPropListSaveData
 ms.topic: method
-f1_keywords: ["infotech/IITPropList.SaveData"]
+f1_keywords: 
+ - "infotech/IITPropList.SaveData"
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillMode, FillMode enumeration [GDI+], FillModeAlternate, FillModeWinding, _gdiplus_ENUM_FillMode, gdiplus._gdiplus_ENUM_FillMode, gdiplusenums/FillMode, gdiplusenums/FillModeAlternate, gdiplusenums/FillModeWinding
 ms.topic: enum
-f1_keywords: ["gdiplusenums/FillMode"]
+f1_keywords: 
+ - "gdiplusenums/FillMode"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

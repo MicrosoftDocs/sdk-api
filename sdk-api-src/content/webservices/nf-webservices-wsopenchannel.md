@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsOpenChannel, WsOpenChannel function [Web Services for Windows], webservices/WsOpenChannel, wsw.wsopenchannel
 ms.topic: function
-f1_keywords: ["webservices/WsOpenChannel"]
+f1_keywords: 
+ - "webservices/WsOpenChannel"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

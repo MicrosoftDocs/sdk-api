@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaMajorType method, IComponentType.get__MediaMajorType, IComponentType::get__MediaMajorType, IComponentTypeget__MediaMajorType, get__MediaMajorType, get__MediaMajorType method [Microsoft TV Technologies], get__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediamajortype, tuner/IComponentType::get__MediaMajorType
 ms.topic: method
-f1_keywords: ["tuner/IComponentType.get__MediaMajorType"]
+f1_keywords: 
+ - "tuner/IComponentType.get__MediaMajorType"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

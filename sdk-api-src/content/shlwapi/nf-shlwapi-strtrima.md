@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrTrim, StrTrim function [Windows Shell], StrTrimA, StrTrimW, _win32_StrTrim, shell.StrTrim, shlwapi/StrTrim, shlwapi/StrTrimA, shlwapi/StrTrimW
 ms.topic: function
-f1_keywords: ["shlwapi/StrTrim"]
+f1_keywords: 
+ - "shlwapi/StrTrim"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
 ms.topic: function
-f1_keywords: ["evcoll/EcSaveSubscription"]
+f1_keywords: 
+ - "evcoll/EcSaveSubscription"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

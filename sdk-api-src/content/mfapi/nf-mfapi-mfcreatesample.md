@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a5-e872-4c7b-ad1d-6c6085aa1984, mf.mfcreatesample, mfapi/MFCreateSample
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateSample"]
+f1_keywords: 
+ - "mfapi/MFCreateSample"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

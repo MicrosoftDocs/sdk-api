@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkAdded method, INetworkEvents.NetworkAdded, INetworkEvents::NetworkAdded, NetworkAdded, NetworkAdded method [Network Awareness], NetworkAdded method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkAdded, nla.inetworkevents_networkadded
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkEvents.NetworkAdded"]
+f1_keywords: 
+ - "netlistmgr/INetworkEvents.NetworkAdded"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
 ms.topic: struct
-f1_keywords: ["lpmapi/SENDER_TSPEC"]
+f1_keywords: 
+ - "lpmapi/SENDER_TSPEC"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

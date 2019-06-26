@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_ID, PACKAGE_ID structure [App packaging and management], appmodel/PACKAGE_IDW, appxpkg.package_id
 ms.topic: struct
-f1_keywords: ["appmodel/PACKAGE_ID"]
+f1_keywords: 
+ - "appmodel/PACKAGE_ID"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

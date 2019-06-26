@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInGetNumDevs, mmeapi/waveInGetNumDevs, multimedia.waveingetnumdevs, waveInGetNumDevs, waveInGetNumDevs function [Windows Multimedia]"
 ms.topic: function
-f1_keywords: ["mmeapi/waveInGetNumDevs"]
+f1_keywords: 
+ - "mmeapi/waveInGetNumDevs"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

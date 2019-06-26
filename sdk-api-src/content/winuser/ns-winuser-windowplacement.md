@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINDOWPLACEMENT, LPWINDOWPLACEMENT, LPWINDOWPLACEMENT structure pointer [Windows and Messages], PWINDOWPLACEMENT, PWINDOWPLACEMENT structure pointer [Windows and Messages], SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, WINDOWPLACEMENT, WINDOWPLACEMENT structure [Windows and Messages], WPF_ASYNCWINDOWPLACEMENT, WPF_RESTORETOMAXIMIZED, WPF_SETMINPOSITION, _win32_WINDOWPLACEMENT_str, _win32_windowplacement_str_cpp, winmsg.windowplacement, winui._win32_windowplacement_str, winuser/LPWINDOWPLACEMENT, winuser/PWINDOWPLACEMENT, winuser/WINDOWPLACEMENT"
 ms.topic: struct
-f1_keywords: ["winuser/WINDOWPLACEMENT"]
+f1_keywords: 
+ - "winuser/WINDOWPLACEMENT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

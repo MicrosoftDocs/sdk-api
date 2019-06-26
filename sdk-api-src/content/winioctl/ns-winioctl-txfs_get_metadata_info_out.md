@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXFS_GET_METADATA_INFO_OUT, PTXFS_GET_METADATA_INFO_OUT, PTXFS_GET_METADATA_INFO_OUT structure pointer [Files], TXFS_GET_METADATA_INFO_OUT, TXFS_GET_METADATA_INFO_OUT structure [Files], TXFS_TRANSACTION_STATE_ACTIVE, TXFS_TRANSACTION_STATE_NONE, TXFS_TRANSACTION_STATE_NOTACTIVETXFS_TRANSACTION_STATE_NOTACTIVE, TXFS_TRANSACTION_STATE_PREPARED, fs.txfs_get_metadata_info_out, winioctl/PTXFS_GET_METADATA_INFO_OUT, winioctl/TXFS_GET_METADATA_INFO_OUT"
 ms.topic: struct
-f1_keywords: ["winioctl/TXFS_GET_METADATA_INFO_OUT"]
+f1_keywords: 
+ - "winioctl/TXFS_GET_METADATA_INFO_OUT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

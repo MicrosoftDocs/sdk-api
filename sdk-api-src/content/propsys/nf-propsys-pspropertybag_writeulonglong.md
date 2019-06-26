@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_WriteULONGLONG"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_WriteULONGLONG"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

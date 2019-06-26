@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies], GetConsequences method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetConsequences method, IESRequestTunerEvent.GetConsequences, IESRequestTunerEvent::GetConsequences, mstv.iesrequesttunerevent_getconsequences, tuner/IESRequestTunerEvent::GetConsequences
 ms.topic: method
-f1_keywords: ["tuner/IESRequestTunerEvent.GetConsequences"]
+f1_keywords: 
+ - "tuner/IESRequestTunerEvent.GetConsequences"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

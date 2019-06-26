@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverDeleteRelationship, DhcpV4FailoverDeleteRelationship function [DHCP], dhcp.dhcpv4failoverdeleterelationship, dhcpsapi/DhcpV4FailoverDeleteRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverDeleteRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverDeleteRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

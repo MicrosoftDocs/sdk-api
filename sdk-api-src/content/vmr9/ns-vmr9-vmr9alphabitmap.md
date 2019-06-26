@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_GaussianQuadFiltering, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, VMR9AlphaBitmap, VMR9AlphaBitmap structure [DirectShow], VMR9AlphaBitmapStructure, dshow.vmr9alphabitmap, vmr9/VMR9AlphaBitmap
 ms.topic: struct
-f1_keywords: ["vmr9/VMR9AlphaBitmap"]
+f1_keywords: 
+ - "vmr9/VMR9AlphaBitmap"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

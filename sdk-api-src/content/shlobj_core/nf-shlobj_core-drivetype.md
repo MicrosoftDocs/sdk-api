@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 ms.topic: function
-f1_keywords: ["shlobj_core/DriveType"]
+f1_keywords: 
+ - "shlobj_core/DriveType"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

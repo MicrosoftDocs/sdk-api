@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
 ms.topic: function
-f1_keywords: ["winsvc/OpenSCManager"]
+f1_keywords: 
+ - "winsvc/OpenSCManager"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMKEY, LPNMKEY, LPNMKEY structure pointer [Windows Controls], NMKEY, NMKEY structure [Windows Controls], _win32_NMKEY, _win32_NMKEY_cpp, commctrl/LPNMKEY, commctrl/NMKEY, controls.NMKEY, controls._win32_NMKEY"
 ms.topic: struct
-f1_keywords: ["commctrl/NMKEY"]
+f1_keywords: 
+ - "commctrl/NMKEY"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

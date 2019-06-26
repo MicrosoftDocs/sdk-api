@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayAddRef"]
+f1_keywords: 
+ - "oleauto/SafeArrayAddRef"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

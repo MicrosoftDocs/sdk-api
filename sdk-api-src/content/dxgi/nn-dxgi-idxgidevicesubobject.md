@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.topic: interface
-f1_keywords: ["dxgi/IDXGIDeviceSubObject"]
+f1_keywords: 
+ - "dxgi/IDXGIDeviceSubObject"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

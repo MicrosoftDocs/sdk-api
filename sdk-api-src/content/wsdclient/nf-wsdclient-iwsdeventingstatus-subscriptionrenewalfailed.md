@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed"]
+f1_keywords: 
+ - "wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

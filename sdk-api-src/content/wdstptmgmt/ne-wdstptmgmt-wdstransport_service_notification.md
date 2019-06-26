@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services], WdsTptServiceNotifyReadSettings, WdsTptServiceNotifyUnknown, wds.wdstransport_service_notification, wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION, wdstptmgmt/WdsTptServiceNotifyReadSettings, wdstptmgmt/WdsTptServiceNotifyUnknown"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

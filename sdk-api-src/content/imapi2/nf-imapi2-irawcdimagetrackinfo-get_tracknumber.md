@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackNumber method, IRawCDImageTrackInfo.get_TrackNumber, IRawCDImageTrackInfo::get_TrackNumber, get_TrackNumber, get_TrackNumber method [IMAPI], get_TrackNumber method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_tracknumber, imapi2/IRawCDImageTrackInfo::get_TrackNumber
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageTrackInfo.get_TrackNumber"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo.get_TrackNumber"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

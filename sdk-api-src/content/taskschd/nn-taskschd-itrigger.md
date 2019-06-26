@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrigger, ITrigger interface [Task Scheduler], ITrigger interface [Task Scheduler],described, taskschd.itrigger, taskschd/ITrigger, triggers [Task Scheduler],trigger interface
 ms.topic: interface
-f1_keywords: ["taskschd/ITrigger"]
+f1_keywords: 
+ - "taskschd/ITrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

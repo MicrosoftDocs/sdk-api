@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet"
 ms.topic: struct
-f1_keywords: ["wabdefs/SSortOrderSet"]
+f1_keywords: 
+ - "wabdefs/SSortOrderSet"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

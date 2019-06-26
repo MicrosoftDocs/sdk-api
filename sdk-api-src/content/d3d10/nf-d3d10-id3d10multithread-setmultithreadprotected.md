@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 22302703-e7e4-5872-896b-8c2360171b16, ID3D10Multithread interface [Direct3D 10],SetMultithreadProtected method, ID3D10Multithread.SetMultithreadProtected, ID3D10Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 10], SetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::SetMultithreadProtected, direct3d10.id3d10multithread_setmultithreadprotected
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Multithread.SetMultithreadProtected"]
+f1_keywords: 
+ - "d3d10/ID3D10Multithread.SetMultithreadProtected"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

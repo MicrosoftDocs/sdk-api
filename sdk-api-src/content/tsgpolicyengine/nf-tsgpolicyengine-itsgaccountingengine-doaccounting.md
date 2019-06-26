@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
 ms.topic: method
-f1_keywords: ["tsgpolicyengine/ITSGAccountingEngine.DoAccounting"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGAccountingEngine.DoAccounting"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

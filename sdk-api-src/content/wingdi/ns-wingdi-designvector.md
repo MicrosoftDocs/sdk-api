@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR"
 ms.topic: struct
-f1_keywords: ["wingdi/DESIGNVECTOR"]
+f1_keywords: 
+ - "wingdi/DESIGNVECTOR"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

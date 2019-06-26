@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
 ms.topic: function
-f1_keywords: ["wsdutil/WSDGenerateFault"]
+f1_keywords: 
+ - "wsdutil/WSDGenerateFault"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

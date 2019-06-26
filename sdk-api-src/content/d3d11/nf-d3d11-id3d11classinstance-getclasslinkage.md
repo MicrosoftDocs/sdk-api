@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 73308fe8-c231-b1ce-ee64-f916ed993a53, GetClassLinkage, GetClassLinkage method [Direct3D 11], GetClassLinkage method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetClassLinkage method, ID3D11ClassInstance.GetClassLinkage, ID3D11ClassInstance::GetClassLinkage, d3d11/ID3D11ClassInstance::GetClassLinkage, direct3d11.id3d11classinstance_getclasslinkage
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11ClassInstance.GetClassLinkage"]
+f1_keywords: 
+ - "d3d11/ID3D11ClassInstance.GetClassLinkage"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

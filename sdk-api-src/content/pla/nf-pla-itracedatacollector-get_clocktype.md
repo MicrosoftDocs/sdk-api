@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ClockType property, ITraceDataCollector.ClockType, ITraceDataCollector.get_ClockType, ITraceDataCollector::ClockType, ITraceDataCollector::get_ClockType, ITraceDataCollector::put_ClockType, base.itracedatacollector_clocktype, get_ClockType, pla.itracedatacollector_clocktype, pla/ITraceDataCollector::ClockType, pla/ITraceDataCollector::get_ClockType, pla/ITraceDataCollector::put_ClockType
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.ClockType"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.ClockType"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

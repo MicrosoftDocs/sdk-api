@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnDeviceServicesEvents.OnEventNotification, IMbnDeviceServicesEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oneventnotification, mbnapi/IMbnDeviceServicesEvents::OnEventNotification
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesEvents.OnEventNotification"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesEvents.OnEventNotification"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

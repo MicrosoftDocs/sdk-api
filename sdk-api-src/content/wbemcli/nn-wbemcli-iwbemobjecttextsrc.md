@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Management Instrumentation], IWbemObjectTextSrc interface [Windows Management Instrumentation],described, WbemObjectTextSrc, _hmm_iwbemobjecttextsrc, wbemcli/IWbemObjectTextSrc, wmi.iwbemobjecttextsrc
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemObjectTextSrc"]
+f1_keywords: 
+ - "wbemcli/IWbemObjectTextSrc"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

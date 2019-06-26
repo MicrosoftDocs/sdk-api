@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],Data property, IComHandlerAction.Data, IComHandlerAction.put_Data, IComHandlerAction::Data, IComHandlerAction::get_Data, IComHandlerAction::put_Data, put_Data, taskschd.icomhandleraction_data, taskschd/IComHandlerAction::Data, taskschd/IComHandlerAction::get_Data, taskschd/IComHandlerAction::put_Data
 ms.topic: method
-f1_keywords: ["taskschd/IComHandlerAction.Data"]
+f1_keywords: 
+ - "taskschd/IComHandlerAction.Data"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager2 interface [Windows Deployment Services],TftpCapabilities property, IWdsTransportSetupManager2.TftpCapabilities, IWdsTransportSetupManager2.get_TftpCapabilities, IWdsTransportSetupManager2::TftpCapabilities, IWdsTransportSetupManager2::get_TftpCapabilities, TftpCapabilities property [Windows Deployment Services], TftpCapabilities property [Windows Deployment Services],IWdsTransportSetupManager2 interface, get_TftpCapabilities, wds.iwdstransportsetupmanager2_tftpcapabilities, wdstptmgmt/IWdsTransportSetupManager2::TftpCapabilities, wdstptmgmt/IWdsTransportSetupManager2::get_TftpCapabilities
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager2.TftpCapabilities"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager2.TftpCapabilities"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

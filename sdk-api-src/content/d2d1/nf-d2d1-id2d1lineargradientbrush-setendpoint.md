@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1LinearGradientBrush interface [Direct2D],SetEndPoint method, ID2D1LinearGradientBrush.SetEndPoint, ID2D1LinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [Direct2D], SetEndPoint method [Direct2D],ID2D1LinearGradientBrush interface, d2d1/ID2D1LinearGradientBrush::SetEndPoint, direct2d.ID2D1LinearGradientBrush_SetEndPoint
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1LinearGradientBrush.SetEndPoint"]
+f1_keywords: 
+ - "d2d1/ID2D1LinearGradientBrush.SetEndPoint"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Core Audio], GetId method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetId method, IMMDevice.GetId, IMMDevice::GetId, IMMDeviceGetId, coreaudio.immdevice_getid, mmdeviceapi/IMMDevice::GetId
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMDevice.GetId"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDevice.GetId"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

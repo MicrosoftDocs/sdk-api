@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideo3DFormat, MFVideo3DFormat enumeration [Media Foundation], MFVideo3DSampleFormat_BaseView, MFVideo3DSampleFormat_MultiView, MFVideo3DSampleFormat_Packed_LeftRight, MFVideo3DSampleFormat_Packed_TopBottom, mf.mfvideo3dformat, mfapi/MFVideo3DFormat, mfapi/MFVideo3DSampleFormat_BaseView, mfapi/MFVideo3DSampleFormat_MultiView, mfapi/MFVideo3DSampleFormat_Packed_LeftRight, mfapi/MFVideo3DSampleFormat_Packed_TopBottom
 ms.topic: enum
-f1_keywords: ["mfapi/MFVideo3DFormat"]
+f1_keywords: 
+ - "mfapi/MFVideo3DFormat"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

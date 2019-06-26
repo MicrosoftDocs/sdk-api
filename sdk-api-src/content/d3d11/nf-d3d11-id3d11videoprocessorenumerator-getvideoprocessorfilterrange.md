@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorFilterRange method, ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange, ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorFilterRange, mf.id3d11videoprocessorenumerator_getvideoprocessorfilterrange
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorFilterRange"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

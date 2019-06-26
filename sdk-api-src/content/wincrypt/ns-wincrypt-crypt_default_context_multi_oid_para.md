@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"]
+f1_keywords: 
+ - "wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

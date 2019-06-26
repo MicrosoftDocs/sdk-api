@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindName, FindName method [Automation], FindName method [Automation],ITypeLib interface, ITypeLib interface [Automation],FindName method, ITypeLib.FindName, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
 ms.topic: method
-f1_keywords: ["oaidl/ITypeLib.FindName"]
+f1_keywords: 
+ - "oaidl/ITypeLib.FindName"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

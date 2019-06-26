@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSiteNameA, DsGetSiteNameW, _glines_dsgetsitename, ad.dsgetsitename, dsgetdc/DsGetSiteName, dsgetdc/DsGetSiteNameA, dsgetdc/DsGetSiteNameW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsGetSiteName"]
+f1_keywords: 
+ - "dsgetdc/DsGetSiteName"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

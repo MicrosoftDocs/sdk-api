@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
 ms.topic: method
-f1_keywords: ["casetup/IMSCEPSetup.GetProviderNameList"]
+f1_keywords: 
+ - "casetup/IMSCEPSetup.GetProviderNameList"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

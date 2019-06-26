@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPageReference.SetThumbnailResource, IXpsOMPageReference::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setthumbnailresource, xpsobjectmodel/IXpsOMPageReference::SetThumbnailResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.SetThumbnailResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.SetThumbnailResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

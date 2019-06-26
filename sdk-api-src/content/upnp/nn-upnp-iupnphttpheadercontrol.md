@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs],described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
 ms.topic: interface
-f1_keywords: ["upnp/IUPnPHttpHeaderControl"]
+f1_keywords: 
+ - "upnp/IUPnPHttpHeaderControl"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

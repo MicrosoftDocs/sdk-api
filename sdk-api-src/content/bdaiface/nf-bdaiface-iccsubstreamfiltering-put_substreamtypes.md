@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],put_SubstreamTypes method, ICCSubStreamFiltering.put_SubstreamTypes, ICCSubStreamFiltering::put_SubstreamTypes, ICCSubStreamFilteringput_SubstreamTypes, bdaiface/ICCSubStreamFiltering::put_SubstreamTypes, mstv.iccsubstreamfiltering_put_substreamtypes, put_SubstreamTypes, put_SubstreamTypes method [Microsoft TV Technologies], put_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface
 ms.topic: method
-f1_keywords: ["bdaiface/ICCSubStreamFiltering.put_SubstreamTypes"]
+f1_keywords: 
+ - "bdaiface/ICCSubStreamFiltering.put_SubstreamTypes"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

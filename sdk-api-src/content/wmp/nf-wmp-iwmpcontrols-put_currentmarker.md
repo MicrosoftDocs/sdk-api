@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentMarker method, IWMPControls.put_currentMarker, IWMPControls::put_currentMarker, IWMPControlsput_currentMarker, put_currentMarker, put_currentMarker method [Windows Media Player], put_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentmarker, wmp/IWMPControls::put_currentMarker
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.put_currentMarker"]
+f1_keywords: 
+ - "wmp/IWMPControls.put_currentMarker"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

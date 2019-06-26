@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdControlColor, DdControlColor callback function [Display Devices], PDD_COLORCB_COLORCONTROL, PDD_COLORCB_COLORCONTROL callback, ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml, ddrawint/DdControlColor, display.ddcontrolcolor
 ms.topic: callback
-f1_keywords: ["ddrawint/DdControlColor"]
+f1_keywords: 
+ - "ddrawint/DdControlColor"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

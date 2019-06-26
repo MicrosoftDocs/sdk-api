@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToBooleanVectorAlloc"]
+f1_keywords: 
+ - "propvarutil/PropVariantToBooleanVectorAlloc"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

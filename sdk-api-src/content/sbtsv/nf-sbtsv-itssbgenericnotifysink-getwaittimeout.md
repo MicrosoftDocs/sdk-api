@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbGenericNotifySink.GetWaitTimeout"]
+f1_keywords: 
+ - "sbtsv/ITsSbGenericNotifySink.GetWaitTimeout"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

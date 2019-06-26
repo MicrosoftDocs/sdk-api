@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnState, GetColumnState method [Windows Properties], GetColumnState method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetColumnState method, IPropertyDescription.GetColumnState, IPropertyDescription::GetColumnState, properties.IPropertyDescription_GetColumnState, propsys/IPropertyDescription::GetColumnState, shell.IPropertyDescription_GetColumnState, shell_IPropertyDescription_GetColumnState
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescription.GetColumnState"]
+f1_keywords: 
+ - "propsys/IPropertyDescription.GetColumnState"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

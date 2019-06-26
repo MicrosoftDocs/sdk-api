@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(uint64_t), XMHALF4::XMHALF4, XMHALF4::XMHALF4(uint64_t), dxmath.xmhalf4_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMHALF4.XMHALF4"]
+f1_keywords: 
+ - "directxpackedvector/XMHALF4.XMHALF4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

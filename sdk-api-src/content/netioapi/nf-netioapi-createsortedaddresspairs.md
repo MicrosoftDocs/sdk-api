@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
 ms.topic: function
-f1_keywords: ["netioapi/CreateSortedAddressPairs"]
+f1_keywords: 
+ - "netioapi/CreateSortedAddressPairs"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

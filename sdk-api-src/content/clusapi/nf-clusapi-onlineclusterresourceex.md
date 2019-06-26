@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM, OnlineClusterResourceEx, OnlineClusterResourceEx function [Failover Cluster], clusapi/OnlineClusterResourceEx, mscs.onlineclusterresourceex
 ms.topic: function
-f1_keywords: ["clusapi/OnlineClusterResourceEx"]
+f1_keywords: 
+ - "clusapi/OnlineClusterResourceEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

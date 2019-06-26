@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLocal method, IXpsOMPath.SetStrokeBrushLocal, IXpsOMPath::SetStrokeBrushLocal, SetStrokeBrushLocal, SetStrokeBrushLocal method [XPS Documents and Packaging], SetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlocal, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.SetStrokeBrushLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.SetStrokeBrushLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

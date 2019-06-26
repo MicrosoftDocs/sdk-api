@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentData, GetSegmentData method [Direct2D], GetSegmentData method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetSegmentData method, ID2D1SvgPathData.GetSegmentData, ID2D1SvgPathData::GetSegmentData, d2d1svg/ID2D1SvgPathData::GetSegmentData, direct2d.id2d1svgpathdata_getsegmentdata
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPathData.GetSegmentData"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPathData.GetSegmentData"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

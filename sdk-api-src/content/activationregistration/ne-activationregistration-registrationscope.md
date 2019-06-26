@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegistrationScope, RegistrationScope enumeration [Windows Runtime], RegistrationScope_InboxApp, RegistrationScope_PerMachine, RegistrationScope_PerUser, activationregistration/RegistrationScope, activationregistration/RegistrationScope_InboxApp, activationregistration/RegistrationScope_PerMachine, activationregistration/RegistrationScope_PerUser, winrt.registrationscope
 ms.topic: enum
-f1_keywords: ["activationregistration/RegistrationScope"]
+f1_keywords: 
+ - "activationregistration/RegistrationScope"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

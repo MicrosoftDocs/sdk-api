@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPixelV, SetPixelV function [Windows GDI], _win32_SetPixelV, gdi.setpixelv, wingdi/SetPixelV
 ms.topic: function
-f1_keywords: ["wingdi/SetPixelV"]
+f1_keywords: 
+ - "wingdi/SetPixelV"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

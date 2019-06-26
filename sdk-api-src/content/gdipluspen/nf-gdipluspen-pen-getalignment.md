@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],Pen class, Pen class [GDI+],GetAlignment method, Pen.GetAlignment, Pen::GetAlignment, _gdiplus_CLASS_Pen_GetAlignment_, gdiplus._gdiplus_CLASS_Pen_GetAlignment_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.GetAlignment"]
+f1_keywords: 
+ - "gdipluspen/Pen.GetAlignment"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

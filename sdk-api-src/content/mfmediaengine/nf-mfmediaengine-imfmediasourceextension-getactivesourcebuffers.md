@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetActiveSourceBuffers method, IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaSourceExtension.GetActiveSourceBuffers"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaSourceExtension.GetActiveSourceBuffers"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

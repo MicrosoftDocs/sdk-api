@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncGetCallStatus, RpcAsyncGetCallStatus function [RPC], _rpc_rpcasyncgetcallstatus, rpc.rpcasyncgetcallstatus, rpcasync/RpcAsyncGetCallStatus
 ms.topic: function
-f1_keywords: ["rpcasync/RpcAsyncGetCallStatus"]
+f1_keywords: 
+ - "rpcasync/RpcAsyncGetCallStatus"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

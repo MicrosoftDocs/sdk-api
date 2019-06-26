@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [Microsoft TV Technologies], GetAttributeCount method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeCount method, IStreamBufferRecordingAttribute.GetAttributeCount, IStreamBufferRecordingAttribute::GetAttributeCount, IStreamBufferRecordingAttributeGetAttributeCount, mstv.istreambufferrecordingattribute_getattributecount, sbe/IStreamBufferRecordingAttribute::GetAttributeCount
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferRecordingAttribute.GetAttributeCount"]
+f1_keywords: 
+ - "sbe/IStreamBufferRecordingAttribute.GetAttributeCount"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

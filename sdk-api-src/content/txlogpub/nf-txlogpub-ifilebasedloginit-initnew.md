@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit.InitNew, IFileBasedLogInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IFileBasedLogInit interface, _com_ifilebasedloginit_initnew, com.ifilebasedloginit_initnew, txlogpub/IFileBasedLogInit::InitNew
 ms.topic: method
-f1_keywords: ["txlogpub/IFileBasedLogInit.InitNew"]
+f1_keywords: 
+ - "txlogpub/IFileBasedLogInit.InitNew"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

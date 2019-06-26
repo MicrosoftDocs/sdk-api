@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCollectorSetCollection.Remove, IDataCollectorSetCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSetCollection.Remove"]
+f1_keywords: 
+ - "pla/IDataCollectorSetCollection.Remove"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

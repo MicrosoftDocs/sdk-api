@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [XPS Documents and Packaging], Cancel method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],Cancel method, IPrintDocumentPackageTarget.Cancel, IPrintDocumentPackageTarget::Cancel, documenttarget/IPrintDocumentPackageTarget::Cancel, xps.iprintdocumentpackagetarget_cancel
 ms.topic: method
-f1_keywords: ["documenttarget/IPrintDocumentPackageTarget.Cancel"]
+f1_keywords: 
+ - "documenttarget/IPrintDocumentPackageTarget.Cancel"
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

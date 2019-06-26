@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.topic: method
-f1_keywords: ["iads/IADsPropertyList.PurgePropertyList"]
+f1_keywords: 
+ - "iads/IADsPropertyList.PurgePropertyList"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

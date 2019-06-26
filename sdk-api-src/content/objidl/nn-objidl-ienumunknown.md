@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
 ms.topic: interface
-f1_keywords: ["objidl/IEnumUnknown"]
+f1_keywords: 
+ - "objidl/IEnumUnknown"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

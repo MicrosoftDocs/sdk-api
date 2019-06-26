@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],AlternateSignatureAlgorithm property, IX509CertificateRequest.AlternateSignatureAlgorithm, IX509CertificateRequest.get_AlternateSignatureAlgorithm, IX509CertificateRequest::AlternateSignatureAlgorithm, IX509CertificateRequest::get_AlternateSignatureAlgorithm, IX509CertificateRequest::put_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::get_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::put_AlternateSignatureAlgorithm, get_AlternateSignatureAlgorithm, security.ix509certificaterequest_alternatesignaturealgorithm_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.AlternateSignatureAlgorithm"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.AlternateSignatureAlgorithm"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

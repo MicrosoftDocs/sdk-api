@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 542c01f8-d563-c1ab-aa89-495a7e96e411, D3DX11CreateFFT1DReal, D3DX11CreateFFT1DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DReal, direct3d11.d3dx11createfft1dreal
 ms.topic: function
-f1_keywords: ["d3dcsx/D3DX11CreateFFT1DReal"]
+f1_keywords: 
+ - "d3dcsx/D3DX11CreateFFT1DReal"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

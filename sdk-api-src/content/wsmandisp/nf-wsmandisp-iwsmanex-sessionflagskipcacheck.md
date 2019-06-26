@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCACheck method, IWSManEx.SessionFlagSkipCACheck, IWSManEx::SessionFlagSkipCACheck, SessionFlagSkipCACheck, SessionFlagSkipCACheck method [Windows Remote Management], SessionFlagSkipCACheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcacheck, wsmandisp/IWSManEx::SessionFlagSkipCACheck
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.SessionFlagSkipCACheck"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.SessionFlagSkipCACheck"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

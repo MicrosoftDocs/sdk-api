@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Suggest method, ISpellChecker.Suggest, ISpellChecker::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_suggest, spellcheck/ISpellChecker::Suggest
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.Suggest"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.Suggest"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

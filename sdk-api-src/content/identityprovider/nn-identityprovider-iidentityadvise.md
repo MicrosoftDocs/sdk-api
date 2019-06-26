@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
 ms.topic: interface
-f1_keywords: ["identityprovider/IIdentityAdvise"]
+f1_keywords: 
+ - "identityprovider/IIdentityAdvise"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

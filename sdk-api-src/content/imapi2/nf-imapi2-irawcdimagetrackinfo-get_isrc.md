@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_ISRC method, IRawCDImageTrackInfo.get_ISRC, IRawCDImageTrackInfo::get_ISRC, get_ISRC, get_ISRC method [IMAPI], get_ISRC method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_isrc, imapi2/IRawCDImageTrackInfo::get_ISRC
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageTrackInfo.get_ISRC"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo.get_ISRC"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

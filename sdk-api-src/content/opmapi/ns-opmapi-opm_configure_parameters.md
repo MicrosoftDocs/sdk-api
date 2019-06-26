@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_CONFIGURE_PARAMETERS, OPM_CONFIGURE_PARAMETERS structure [Media Foundation], mf.opm_configure_parameters, opmapi/OPM_CONFIGURE_PARAMETERS
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_CONFIGURE_PARAMETERS"]
+f1_keywords: 
+ - "opmapi/OPM_CONFIGURE_PARAMETERS"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

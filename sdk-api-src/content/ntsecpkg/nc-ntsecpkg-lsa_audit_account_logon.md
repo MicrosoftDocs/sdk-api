@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditAccountLogon, AuditAccountLogon callback function [Security], LSA_AUDIT_ACCOUNT_LOGON, LSA_AUDIT_ACCOUNT_LOGON callback, _ssp_auditaccountlogon, ntsecpkg/AuditAccountLogon, security.auditaccountlogon
 ms.topic: callback
-f1_keywords: ["ntsecpkg/AuditAccountLogon"]
+f1_keywords: 
+ - "ntsecpkg/AuditAccountLogon"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

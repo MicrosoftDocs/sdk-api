@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
 ms.topic: method
-f1_keywords: ["spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetGain"]
+f1_keywords: 
+ - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetGain"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

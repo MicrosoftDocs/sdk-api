@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISnapinPropertiesCallback, ISnapinPropertiesCallback interface [MMC], ISnapinPropertiesCallback interface [MMC],described, _slate_isnapinpropertiescallback, mmc.isnapinpropertiescallback, mmcobj/ISnapinPropertiesCallback
 ms.topic: interface
-f1_keywords: ["mmcobj/ISnapinPropertiesCallback"]
+f1_keywords: 
+ - "mmcobj/ISnapinPropertiesCallback"
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

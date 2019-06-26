@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

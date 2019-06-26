@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceFrame.SetStatusText"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceFrame.SetStatusText"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

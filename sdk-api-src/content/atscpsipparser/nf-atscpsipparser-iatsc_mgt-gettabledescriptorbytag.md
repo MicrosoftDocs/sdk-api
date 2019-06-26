@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_MGT.GetTableDescriptorByTag, IATSC_MGT::GetTableDescriptorByTag, IATSC_MGTGetTableDescriptorByTag, atscpsipparser/IATSC_MGT::GetTableDescriptorByTag, mstv.iatsc_mgt_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_MGT.GetTableDescriptorByTag"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_MGT.GetTableDescriptorByTag"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

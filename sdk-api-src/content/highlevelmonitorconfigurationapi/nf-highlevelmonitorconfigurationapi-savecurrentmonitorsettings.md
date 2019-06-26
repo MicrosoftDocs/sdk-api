@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaveCurrentMonitorSettings, SaveCurrentMonitorSettings function [Monitor Configuration], highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings, monitor.savecurrentmonitorsettings
 ms.topic: function
-f1_keywords: ["highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

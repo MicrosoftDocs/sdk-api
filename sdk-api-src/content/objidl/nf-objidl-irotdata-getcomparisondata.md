@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
 ms.topic: method
-f1_keywords: ["objidl/IROTData.GetComparisonData"]
+f1_keywords: 
+ - "objidl/IROTData.GetComparisonData"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

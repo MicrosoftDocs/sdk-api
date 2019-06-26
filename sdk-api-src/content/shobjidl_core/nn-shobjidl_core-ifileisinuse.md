@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFileIsInUse"]
+f1_keywords: 
+ - "shobjidl_core/IFileIsInUse"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

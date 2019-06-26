@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace2, IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies], IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpace2Interface, mstv.ianalogradiotuningspace2, tuner/IAnalogRadioTuningSpace2
 ms.topic: interface
-f1_keywords: ["tuner/IAnalogRadioTuningSpace2"]
+f1_keywords: 
+ - "tuner/IAnalogRadioTuningSpace2"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

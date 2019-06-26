@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParent, GetParent method [Direct2D], GetParent method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetParent method, ID2D1SvgElement.GetParent, ID2D1SvgElement::GetParent, d2d1svg/ID2D1SvgElement::GetParent, direct2d.id2d1svgelement_getparent
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.GetParent"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.GetParent"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

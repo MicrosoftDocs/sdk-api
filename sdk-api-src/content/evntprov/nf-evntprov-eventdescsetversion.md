@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescSetVersion, EventDescSetVersion function [ETW], base.eventdescsetversion_func, etw.eventdescsetversion_func, evntprov/EventDescSetVersion
 ms.topic: function
-f1_keywords: ["evntprov/EventDescSetVersion"]
+f1_keywords: 
+ - "evntprov/EventDescSetVersion"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

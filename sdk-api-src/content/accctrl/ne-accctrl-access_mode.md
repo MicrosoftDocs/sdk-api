@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_MODE, ACCESS_MODE enumeration [Security], DENY_ACCESS, GRANT_ACCESS, NOT_USED_ACCESS, REVOKE_ACCESS, SET_ACCESS, SET_AUDIT_FAILURE, SET_AUDIT_SUCCESS, _win32_access_mode_str, accctrl/ACCESS_MODE, accctrl/DENY_ACCESS, accctrl/GRANT_ACCESS, accctrl/NOT_USED_ACCESS, accctrl/REVOKE_ACCESS, accctrl/SET_ACCESS, accctrl/SET_AUDIT_FAILURE, accctrl/SET_AUDIT_SUCCESS, security.access_mode
 ms.topic: enum
-f1_keywords: ["accctrl/ACCESS_MODE"]
+f1_keywords: 
+ - "accctrl/ACCESS_MODE"
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

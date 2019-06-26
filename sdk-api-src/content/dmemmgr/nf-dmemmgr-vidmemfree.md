@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VidMemFree, VidMemFree function [Display Devices], display.vidmemfree, dmemmgr/VidMemFree, gdifncs_a3a43790-1189-4c79-965c-aa20f04c7405.xml
 ms.topic: function
-f1_keywords: ["dmemmgr/VidMemFree"]
+f1_keywords: 
+ - "dmemmgr/VidMemFree"
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal

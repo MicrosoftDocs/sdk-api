@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetTime method, IMultiMediaStream.GetTime, IMultiMediaStream::GetTime, IMultiMediaStreamGetTime, dshow.imultimediastream_gettime, mmstream/IMultiMediaStream::GetTime
 ms.topic: method
-f1_keywords: ["mmstream/IMultiMediaStream.GetTime"]
+f1_keywords: 
+ - "mmstream/IMultiMediaStream.GetTime"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

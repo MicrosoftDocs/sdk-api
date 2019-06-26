@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHONE_BUTTON_STATE enumeration [TAPI 2.2], _tapi3_phone_button_state, tapi3.phone_button_state, tapi3if/PBS_DOWN, tapi3if/PBS_UNAVAIL, tapi3if/PBS_UNKNOWN, tapi3if/PBS_UP, tapi3if/PHONE_BUTTON_STATE
 ms.topic: enum
-f1_keywords: ["tapi3if/PHONE_BUTTON_STATE"]
+f1_keywords: 
+ - "tapi3if/PHONE_BUTTON_STATE"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

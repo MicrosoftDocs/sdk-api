@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaEnumerateAccountRights"]
+f1_keywords: 
+ - "ntsecapi/LsaEnumerateAccountRights"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

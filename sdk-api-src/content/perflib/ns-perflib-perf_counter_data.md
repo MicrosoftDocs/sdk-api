@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structure [Perf], PPERF_COUNTER_DATA, PPERF_COUNTER_DATA structure pointer [Perf], perf.perf_counter_data, perflib/PERF_COUNTER_DATA, perflib/PPERF_COUNTER_DATA"
 ms.topic: struct
-f1_keywords: ["perflib/PERF_COUNTER_DATA"]
+f1_keywords: 
+ - "perflib/PERF_COUNTER_DATA"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

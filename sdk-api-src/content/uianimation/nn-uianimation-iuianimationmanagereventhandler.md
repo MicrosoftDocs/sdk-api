@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationManagerEventHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManagerEventHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

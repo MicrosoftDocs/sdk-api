@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext
 ms.topic: function
-f1_keywords: ["fltuser/FilterVolumeFindNext"]
+f1_keywords: 
+ - "fltuser/FilterVolumeFindNext"
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

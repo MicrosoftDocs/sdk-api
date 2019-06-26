@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IToolbar interface [MMC],InsertButton method, IToolbar.InsertButton, IToolbar::InsertButton, InsertButton, InsertButton method [MMC], InsertButton method [MMC],IToolbar interface, _slate_itoolbar_insertbutton, mmc.itoolbar_insertbutton, mmc/IToolbar::InsertButton
 ms.topic: method
-f1_keywords: ["mmc/IToolbar.InsertButton"]
+f1_keywords: 
+ - "mmc/IToolbar.InsertButton"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

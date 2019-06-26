@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl.SetStreamActiveState, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
 ms.topic: method
-f1_keywords: ["strmif/IVMRVideoStreamControl.SetStreamActiveState"]
+f1_keywords: 
+ - "strmif/IVMRVideoStreamControl.SetStreamActiveState"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

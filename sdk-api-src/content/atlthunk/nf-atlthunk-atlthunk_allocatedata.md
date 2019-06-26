@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_AllocateData, AtlThunk_AllocateData function, atlthunk/AtlThunk_AllocateData, base.atlthunk_allocatedata
 ms.topic: function
-f1_keywords: ["atlthunk/AtlThunk_AllocateData"]
+f1_keywords: 
+ - "atlthunk/AtlThunk_AllocateData"
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

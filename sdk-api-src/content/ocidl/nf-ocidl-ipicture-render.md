@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
 ms.topic: method
-f1_keywords: ["ocidl/IPicture.Render"]
+f1_keywords: 
+ - "ocidl/IPicture.Render"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

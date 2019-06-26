@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, input_intcontext.interaction_context_output, interactioncontext.interaction_context_output, interactioncontext/INTERACTION_CONTEXT_OUTPUT
 ms.topic: struct
-f1_keywords: ["interactioncontext/INTERACTION_CONTEXT_OUTPUT"]
+f1_keywords: 
+ - "interactioncontext/INTERACTION_CONTEXT_OUTPUT"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

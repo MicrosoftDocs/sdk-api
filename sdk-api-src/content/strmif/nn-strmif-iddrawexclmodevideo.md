@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], IDDrawExclModeVideo interface [DirectShow],described, IDDrawExclModeVideoInterface, dshow.iddrawexclmodevideo, strmif/IDDrawExclModeVideo
 ms.topic: interface
-f1_keywords: ["strmif/IDDrawExclModeVideo"]
+f1_keywords: 
+ - "strmif/IDDrawExclModeVideo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
 ms.topic: method
-f1_keywords: ["strmif/IAMPushSource.SetPushSourceFlags"]
+f1_keywords: 
+ - "strmif/IAMPushSource.SetPushSourceFlags"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

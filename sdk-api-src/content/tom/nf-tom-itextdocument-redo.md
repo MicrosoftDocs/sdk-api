@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Redo method, ITextDocument.Redo, ITextDocument::Redo, Redo, Redo method [Windows Controls], Redo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
 ms.topic: method
-f1_keywords: ["tom/ITextDocument.Redo"]
+f1_keywords: 
+ - "tom/ITextDocument.Redo"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

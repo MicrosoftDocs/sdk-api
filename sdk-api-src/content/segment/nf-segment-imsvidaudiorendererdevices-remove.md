@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidAudioRendererDevices.Remove, IMSVidAudioRendererDevices::Remove, IMSVidAudioRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_remove, segment/IMSVidAudioRendererDevices::Remove
 ms.topic: method
-f1_keywords: ["segment/IMSVidAudioRendererDevices.Remove"]
+f1_keywords: 
+ - "segment/IMSVidAudioRendererDevices.Remove"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

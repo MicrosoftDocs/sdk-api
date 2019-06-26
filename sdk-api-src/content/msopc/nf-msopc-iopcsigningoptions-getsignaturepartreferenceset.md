@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartReferenceSet, GetSignaturePartReferenceSet method [Open Packaging Conventions], GetSignaturePartReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartReferenceSet method, IOpcSigningOptions.GetSignaturePartReferenceSet, IOpcSigningOptions::GetSignaturePartReferenceSet, msopc/IOpcSigningOptions::GetSignaturePartReferenceSet, opc.iopcsigningoptions_getsignaturepartreferenceset
 ms.topic: method
-f1_keywords: ["msopc/IOpcSigningOptions.GetSignaturePartReferenceSet"]
+f1_keywords: 
+ - "msopc/IOpcSigningOptions.GetSignaturePartReferenceSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

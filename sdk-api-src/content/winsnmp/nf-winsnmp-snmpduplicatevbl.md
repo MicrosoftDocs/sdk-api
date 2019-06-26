@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpDuplicateVbl"]
+f1_keywords: 
+ - "winsnmp/SnmpDuplicateVbl"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], ISynchronizedInputProvider interface [Windows Accessibility],described, uiauto.uiauto_ISynchronizedInputProvider, uiauto_ISynchronizedInputProvider, uiautomationcore/ISynchronizedInputProvider, winauto.uiauto_ISynchronizedInputProvider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/ISynchronizedInputProvider"]
+f1_keywords: 
+ - "uiautomationcore/ISynchronizedInputProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
 ms.topic: struct
-f1_keywords: ["mi/MI_PropertySet"]
+f1_keywords: 
+ - "mi/MI_PropertySet"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

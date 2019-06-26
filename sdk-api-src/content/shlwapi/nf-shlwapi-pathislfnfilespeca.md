@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsLFNFileSpec, PathIsLFNFileSpec function [Windows Shell], PathIsLFNFileSpecA, PathIsLFNFileSpecW, _win32_PathIsLFNFileSpec, shell.PathIsLFNFileSpec, shlwapi/PathIsLFNFileSpec, shlwapi/PathIsLFNFileSpecA, shlwapi/PathIsLFNFileSpecW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsLFNFileSpec"]
+f1_keywords: 
+ - "shlwapi/PathIsLFNFileSpec"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

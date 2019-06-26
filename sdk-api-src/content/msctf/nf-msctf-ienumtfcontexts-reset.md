@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Reset method, IEnumTfContexts.Reset, IEnumTfContexts::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_reset_ref, msctf/IEnumTfContexts::Reset, tsf.ienumtfcontexts_reset
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfContexts.Reset"]
+f1_keywords: 
+ - "msctf/IEnumTfContexts.Reset"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

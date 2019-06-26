@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
 ms.topic: macro
-f1_keywords: ["http/HTTP_IS_NULL_ID"]
+f1_keywords: 
+ - "http/HTTP_IS_NULL_ID"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

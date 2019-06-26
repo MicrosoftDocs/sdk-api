@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetThreadRef, SHSetThreadRef function [Windows Shell], _win32_SHSetThreadRef, shell.SHSetThreadRef, shlwapi/SHSetThreadRef
 ms.topic: function
-f1_keywords: ["shlwapi/SHSetThreadRef"]
+f1_keywords: 
+ - "shlwapi/SHSetThreadRef"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

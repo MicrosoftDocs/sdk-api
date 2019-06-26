@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer.get_StorageSize, IRDPSRAPITransportStreamBuffer::StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP],IRDPSRAPITransportStreamBuffer interface, get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

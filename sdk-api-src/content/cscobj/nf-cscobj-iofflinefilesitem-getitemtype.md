@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesItem.GetItemType"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesItem.GetItemType"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

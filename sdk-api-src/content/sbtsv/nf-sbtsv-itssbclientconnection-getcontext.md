@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetContext method, ITsSbClientConnection.GetContext, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbClientConnection.GetContext"]
+f1_keywords: 
+ - "sbtsv/ITsSbClientConnection.GetContext"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS
 ms.topic: language-reference
-f1_keywords: ["d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS"]
+f1_keywords: 
+ - "d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS"
 targetos: Windows
 product: Windows
 req.construct-type: structure

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID structure [DHCP], LPDHCPV6CAPI_CLASSID, LPDHCPV6CAPI_CLASSID structure pointer [DHCP], PDHCPV6CAPI_CLASSID, PDHCPV6CAPI_CLASSID structure pointer [DHCP], dhcp.dhcpv6capi_classid, dhcpv6csdk/DHCPV6CAPI_CLASSID, dhcpv6csdk/LPDHCPV6CAPI_CLASSID, dhcpv6csdk/PDHCPV6CAPI_CLASSID"
 ms.topic: struct
-f1_keywords: ["dhcpv6csdk/DHCPV6CAPI_CLASSID"]
+f1_keywords: 
+ - "dhcpv6csdk/DHCPV6CAPI_CLASSID"
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

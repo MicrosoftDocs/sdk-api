@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
 ms.topic: function
-f1_keywords: ["pdh/PdhCollectQueryData"]
+f1_keywords: 
+ - "pdh/PdhCollectQueryData"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

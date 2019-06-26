@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchDevice method, ITPhoneEvent.get_HookSwitchDevice, ITPhoneEvent::get_HookSwitchDevice, _tapi3_itphoneevent_get_hookswitchdevice, get_HookSwitchDevice, get_HookSwitchDevice method [TAPI 2.2], get_HookSwitchDevice method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchdevice, tapi3if/ITPhoneEvent::get_HookSwitchDevice
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhoneEvent.get_HookSwitchDevice"]
+f1_keywords: 
+ - "tapi3if/ITPhoneEvent.get_HookSwitchDevice"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_OPT_DATA"]
+f1_keywords: 
+ - "windns/DNS_OPT_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

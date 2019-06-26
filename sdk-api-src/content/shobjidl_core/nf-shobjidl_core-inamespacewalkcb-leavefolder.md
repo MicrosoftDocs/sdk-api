@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INamespaceWalkCB.LeaveFolder, INamespaceWalkCB::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_LeaveFolder, shell.INamespaceWalkCB_LeaveFolder, shobjidl_core/INamespaceWalkCB::LeaveFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/INamespaceWalkCB.LeaveFolder"]
+f1_keywords: 
+ - "shobjidl_core/INamespaceWalkCB.LeaveFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
 ms.topic: function
-f1_keywords: ["webservices/WsFreeReader"]
+f1_keywords: 
+ - "webservices/WsFreeReader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

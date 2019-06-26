@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyShallow, EnumerationFlagHierarchyShallow method [Windows Remote Management], EnumerationFlagHierarchyShallow method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyShallow method, IWSManEx.EnumerationFlagHierarchyShallow, IWSManEx::EnumerationFlagHierarchyShallow, winrm.iwsmanex_enumerationflaghierarchyshallow, wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.EnumerationFlagHierarchyShallow"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.EnumerationFlagHierarchyShallow"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

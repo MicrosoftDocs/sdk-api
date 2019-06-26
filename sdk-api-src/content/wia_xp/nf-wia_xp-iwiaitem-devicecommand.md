@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.DeviceCommand"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.DeviceCommand"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

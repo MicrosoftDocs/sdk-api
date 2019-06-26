@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetTickCount64"]
+f1_keywords: 
+ - "sysinfoapi/GetTickCount64"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

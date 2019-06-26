@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetClassInfo"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetClassInfo"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

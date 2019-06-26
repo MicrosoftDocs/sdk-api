@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
 ms.topic: callback
-f1_keywords: ["p2p/PFNPEER_VALIDATE_RECORD"]
+f1_keywords: 
+ - "p2p/PFNPEER_VALIDATE_RECORD"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

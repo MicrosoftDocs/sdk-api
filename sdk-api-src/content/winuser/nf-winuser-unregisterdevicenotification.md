@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function, _win32_unregisterdevicenotification, base.unregisterdevicenotification, winuser/UnregisterDeviceNotification
 ms.topic: function
-f1_keywords: ["winuser/UnregisterDeviceNotification"]
+f1_keywords: 
+ - "winuser/UnregisterDeviceNotification"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

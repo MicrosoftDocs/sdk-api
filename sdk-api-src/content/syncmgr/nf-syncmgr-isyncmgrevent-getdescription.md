@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetDescription method, ISyncMgrEvent.GetDescription, ISyncMgrEvent::GetDescription, _shell_ISyncMgrEvent_GetDescription, shell.ISyncMgrEvent_GetDescription, syncmgr/ISyncMgrEvent::GetDescription
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrEvent.GetDescription"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEvent.GetDescription"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleParentalLevels method, IDvdInfo.GetTitleParentalLevels, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetTitleParentalLevels"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetTitleParentalLevels"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

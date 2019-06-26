@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetTitle method, ICreateProcessInputs.SetTitle, ICreateProcessInputs::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_settitle, shobjidl_core/ICreateProcessInputs::SetTitle
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICreateProcessInputs.SetTitle"]
+f1_keywords: 
+ - "shobjidl_core/ICreateProcessInputs.SetTitle"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

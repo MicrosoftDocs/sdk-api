@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetStreamState method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamState method, IWMPServices.GetStreamState, IWMPServices::GetStreamState, IWMPServicesGetStreamStateDSP, wmp.iwmpservices_getstreamstate, wmpservices/IWMPServices::GetStreamState
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPServices.GetStreamState"]
+f1_keywords: 
+ - "wmpservices/IWMPServices.GetStreamState"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

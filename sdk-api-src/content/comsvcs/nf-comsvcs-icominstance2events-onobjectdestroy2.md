@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events interface [COM+],OnObjectDestroy2 method, IComInstance2Events.OnObjectDestroy2, IComInstance2Events::OnObjectDestroy2, OnObjectDestroy2, OnObjectDestroy2 method [COM+], OnObjectDestroy2 method [COM+],IComInstance2Events interface, _dtc_IComInstance2Events_OnObjectDestroy2, comsvcs/IComInstance2Events::OnObjectDestroy2, cos.icominstance2events_onobjectdestroy2
 ms.topic: method
-f1_keywords: ["comsvcs/IComInstance2Events.OnObjectDestroy2"]
+f1_keywords: 
+ - "comsvcs/IComInstance2Events.OnObjectDestroy2"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

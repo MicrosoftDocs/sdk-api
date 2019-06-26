@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsDeleteOps, IADsDeleteOps interface [ADSI], IADsDeleteOps interface [ADSI],described, _ds_iadsdeleteops, adsi.iadsdeleteops, iads/IADsDeleteOps
 ms.topic: interface
-f1_keywords: ["iads/IADsDeleteOps"]
+f1_keywords: 
+ - "iads/IADsDeleteOps"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

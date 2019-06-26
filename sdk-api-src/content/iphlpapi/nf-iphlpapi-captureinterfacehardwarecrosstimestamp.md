@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 ms.topic: function
-f1_keywords: ["iphlpapi/CaptureInterfaceHardwareCrossTimestamp"]
+f1_keywords: 
+ - "iphlpapi/CaptureInterfaceHardwareCrossTimestamp"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetStringValue method, IAppxManifestApplication.GetStringValue, IAppxManifestApplication::GetStringValue, appxpackaging/IAppxManifestApplication::GetStringValue, appxpkg.iappxmanifestapplication_getstringvalue
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestApplication.GetStringValue"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestApplication.GetStringValue"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

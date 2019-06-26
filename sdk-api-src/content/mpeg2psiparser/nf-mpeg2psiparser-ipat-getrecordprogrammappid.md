@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramMapPid method, IPAT.GetRecordProgramMapPid, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPAT.GetRecordProgramMapPid"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT.GetRecordProgramMapPid"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

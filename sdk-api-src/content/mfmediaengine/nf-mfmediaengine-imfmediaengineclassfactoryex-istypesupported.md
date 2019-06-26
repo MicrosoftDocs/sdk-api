@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSupported method, IMFMediaEngineClassFactoryEx.IsTypeSupported, IMFMediaEngineClassFactoryEx::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaEngineClassFactoryEx interface, mf.imfmediaengineclassfactoryex_istypesupported, mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactoryEx.IsTypeSupported"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineClassFactoryEx.IsTypeSupported"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

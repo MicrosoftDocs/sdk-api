@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],AddPlace method, IFileDialog.AddPlace, IFileDialog::AddPlace, shell.IFileDialog_AddPlace, shell_IFileDialog_AddPlace, shobjidl_core/IFileDialog::AddPlace
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.AddPlace"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.AddPlace"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

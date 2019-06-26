@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrePrepareEnlistment, PrePrepareEnlistment function [Files], fs.preprepareenlistment, ktmw32/PrePrepareEnlistment
 ms.topic: function
-f1_keywords: ["ktmw32/PrePrepareEnlistment"]
+f1_keywords: 
+ - "ktmw32/PrePrepareEnlistment"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

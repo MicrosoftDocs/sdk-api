@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION function [Failover Cluster], SetGroupDependencyExpression, SetGroupDependencyExpression function [Failover Cluster], clusapi/PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, clusapi/SetGroupDependencyExpression, mscs.setgroupdependencyexpression
 ms.topic: function
-f1_keywords: ["clusapi/SetGroupDependencyExpression"]
+f1_keywords: 
+ - "clusapi/SetGroupDependencyExpression"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

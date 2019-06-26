@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceOpen method, IMFMediaSourceExtensionNotify.OnSourceOpen, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceOpen"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceOpen"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

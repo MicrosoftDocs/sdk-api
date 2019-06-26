@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,GetSerializedSize method, ID3D12PipelineLibrary.GetSerializedSize, ID3D12PipelineLibrary::GetSerializedSize, d3d12/ID3D12PipelineLibrary::GetSerializedSize, direct3d12.id3d12pipelinelibrary_getserializedsize
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12PipelineLibrary.GetSerializedSize"]
+f1_keywords: 
+ - "d3d12/ID3D12PipelineLibrary.GetSerializedSize"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

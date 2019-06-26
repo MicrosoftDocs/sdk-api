@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [Offline Files], GetFilterFlags method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetFilterFlags method, IOfflineFilesItemFilter.GetFilterFlags, IOfflineFilesItemFilter::GetFilterFlags, cscobj/IOfflineFilesItemFilter::GetFilterFlags, of.iofflinefilesitemfilter_getfilterflags
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesItemFilter.GetFilterFlags"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesItemFilter.GetFilterFlags"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProtocolName, GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetSupportedProtocolName method, IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetSupportedProtocolName"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetSupportedProtocolName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

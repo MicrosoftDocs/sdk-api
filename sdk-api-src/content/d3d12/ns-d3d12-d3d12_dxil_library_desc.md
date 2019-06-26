@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_DXIL_LIBRARY_DESC, D3D12_DXIL_LIBRARY_DESC structure, PD3D12_DXIL_LIBRARY_DESC, PD3D12_DXIL_LIBRARY_DESC structure pointer, d3d12/D3D12_DXIL_LIBRARY_DESC, d3d12/PD3D12_DXIL_LIBRARY_DESC, direct3d12.d3d12_dxil_library_desc
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_DXIL_LIBRARY_DESC"]
+f1_keywords: 
+ - "d3d12/D3D12_DXIL_LIBRARY_DESC"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

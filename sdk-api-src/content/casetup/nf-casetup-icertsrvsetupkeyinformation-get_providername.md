@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],ProviderName property, ICertSrvSetupKeyInformation.ProviderName, ICertSrvSetupKeyInformation.get_ProviderName, ICertSrvSetupKeyInformation::ProviderName, ICertSrvSetupKeyInformation::get_ProviderName, ICertSrvSetupKeyInformation::put_ProviderName, ProviderName property [Security], ProviderName property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::ProviderName, casetup/ICertSrvSetupKeyInformation::get_ProviderName, casetup/ICertSrvSetupKeyInformation::put_ProviderName, get_ProviderName, security.icertsrvsetupkeyinformation_providername
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetupKeyInformation.ProviderName"]
+f1_keywords: 
+ - "casetup/ICertSrvSetupKeyInformation.ProviderName"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

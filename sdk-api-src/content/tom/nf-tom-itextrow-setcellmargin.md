@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMargin method, ITextRow.SetCellMargin, ITextRow::SetCellMargin, SetCellMargin, SetCellMargin method [Windows Controls], SetCellMargin method [Windows Controls],ITextRow interface, controls.itextrow_setcellmargin, tom/ITextRow::SetCellMargin
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetCellMargin"]
+f1_keywords: 
+ - "tom/ITextRow.SetCellMargin"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

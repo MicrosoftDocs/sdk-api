@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.topic: function
-f1_keywords: ["http/HttpCreateRequestQueue"]
+f1_keywords: 
+ - "http/HttpCreateRequestQueue"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

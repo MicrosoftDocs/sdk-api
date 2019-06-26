@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestCircle method, IInkDisp.HitTestCircle, IInkDisp::HitTestCircle, msinkaut/IInkDisp::HitTestCircle, tablet.inkdisp_hittest_point__single
 ms.topic: method
-f1_keywords: ["msinkaut/IInkDisp.HitTestCircle"]
+f1_keywords: 
+ - "msinkaut/IInkDisp.HitTestCircle"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

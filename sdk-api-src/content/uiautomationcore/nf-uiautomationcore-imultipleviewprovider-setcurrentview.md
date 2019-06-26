@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentView method, IMultipleViewProvider.SetCurrentView, IMultipleViewProvider::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IMultipleViewProvider interface, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
 ms.topic: method
-f1_keywords: ["uiautomationcore/IMultipleViewProvider.SetCurrentView"]
+f1_keywords: 
+ - "uiautomationcore/IMultipleViewProvider.SetCurrentView"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyOccurrenceCount, GetPropertyOccurrenceCount method [Direct Write], GetPropertyOccurrenceCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyOccurrenceCount method, IDWriteFontSet.GetPropertyOccurrenceCount, IDWriteFontSet::GetPropertyOccurrenceCount, directwrite.idwritefontset_getpropertyoccurrencecount, dwrite_3/IDWriteFontSet::GetPropertyOccurrenceCount
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontSet.GetPropertyOccurrenceCount"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontSet.GetPropertyOccurrenceCount"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

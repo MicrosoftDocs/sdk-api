@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_DisplaySize method, IMSVidCtl.get_DisplaySize, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.get_DisplaySize"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.get_DisplaySize"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

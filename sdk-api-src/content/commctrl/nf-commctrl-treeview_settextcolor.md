@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SetTextColor"]
+f1_keywords: 
+ - "commctrl/TreeView_SetTextColor"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

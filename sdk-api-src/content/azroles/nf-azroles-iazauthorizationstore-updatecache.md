@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],UpdateCache method, IAzAuthorizationStore interface [Security],UpdateCache method, IAzAuthorizationStore.UpdateCache, IAzAuthorizationStore::UpdateCache, UpdateCache, UpdateCache method [Security], UpdateCache method [Security],AzAuthorizationStore object, UpdateCache method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
 ms.topic: method
-f1_keywords: ["azroles/AzAuthorizationStore.UpdateCache"]
+f1_keywords: 
+ - "azroles/AzAuthorizationStore.UpdateCache"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

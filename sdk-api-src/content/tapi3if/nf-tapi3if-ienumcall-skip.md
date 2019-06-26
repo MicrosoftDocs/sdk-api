@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Skip method, IEnumCall.Skip, IEnumCall::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_skip, tapi3.ienumcall_skip, tapi3if/IEnumCall::Skip
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumCall.Skip"]
+f1_keywords: 
+ - "tapi3if/IEnumCall.Skip"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

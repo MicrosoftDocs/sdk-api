@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegEnumUSKey"]
+f1_keywords: 
+ - "shlwapi/SHRegEnumUSKey"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

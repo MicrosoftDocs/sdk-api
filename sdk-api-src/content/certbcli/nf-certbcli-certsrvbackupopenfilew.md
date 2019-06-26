@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvBackupOpenFile"]
+f1_keywords: 
+ - "certbcli/CertSrvBackupOpenFile"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

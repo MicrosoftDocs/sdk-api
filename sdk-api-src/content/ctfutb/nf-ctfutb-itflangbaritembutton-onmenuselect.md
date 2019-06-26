@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemButton.OnMenuSelect, ITfLangBarItemButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onmenuselect_ref, ctfutb/ITfLangBarItemButton::OnMenuSelect, tsf.itflangbaritembutton_onmenuselect
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemButton.OnMenuSelect"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemButton.OnMenuSelect"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

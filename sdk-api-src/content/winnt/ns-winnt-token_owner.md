@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Security], TOKEN_OWNER, TOKEN_OWNER structure [Security], _TOKEN_OWNER, _win32_token_owner_str, security.token_owner, winnt/PTOKEN_OWNER, winnt/TOKEN_OWNER"
 ms.topic: struct
-f1_keywords: ["winnt/TOKEN_OWNER"]
+f1_keywords: 
+ - "winnt/TOKEN_OWNER"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

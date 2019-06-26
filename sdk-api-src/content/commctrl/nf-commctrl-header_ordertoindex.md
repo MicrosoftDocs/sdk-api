@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], _win32_Header_OrderToIndex, _win32_Header_OrderToIndex_cpp, commctrl/Header_OrderToIndex, controls.Header_OrderToIndex, controls._win32_Header_OrderToIndex
 ms.topic: macro
-f1_keywords: ["commctrl/Header_OrderToIndex"]
+f1_keywords: 
+ - "commctrl/Header_OrderToIndex"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

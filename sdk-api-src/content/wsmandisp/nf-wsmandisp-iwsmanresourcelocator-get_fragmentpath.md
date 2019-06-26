@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentPath property, IWSManResourceLocator.FragmentPath, IWSManResourceLocator.get_FragmentPath, IWSManResourceLocator::FragmentPath, IWSManResourceLocator::get_FragmentPath, IWSManResourceLocator::put_FragmentPath, get_FragmentPath, winrm.iwsmanresourcelocator_fragmentpath, wsmandisp/IWSManResourceLocator::FragmentPath, wsmandisp/IWSManResourceLocator::get_FragmentPath, wsmandisp/IWSManResourceLocator::put_FragmentPath
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManResourceLocator.FragmentPath"]
+f1_keywords: 
+ - "wsmandisp/IWSManResourceLocator.FragmentPath"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINSTALLDATA, INSTALLDATA, INSTALLDATA structure [Group Policy], PINSTALLDATA, PINSTALLDATA structure pointer [Group Policy], appmgmt/INSTALLDATA, appmgmt/PINSTALLDATA, policy.installdata_str"
 ms.topic: struct
-f1_keywords: ["appmgmt/INSTALLDATA"]
+f1_keywords: 
+ - "appmgmt/INSTALLDATA"
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

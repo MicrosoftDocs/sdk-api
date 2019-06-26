@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],GetState method, IMediaControl.GetState, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
 ms.topic: method
-f1_keywords: ["control/IMediaControl.GetState"]
+f1_keywords: 
+ - "control/IMediaControl.GetState"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTGetEmbeddedFontInfo, TTGetEmbeddedFontInfo function [Windows GDI], TTLOAD_FONT_SUBSETTED, _win32_TTGetEmbeddedFontInfo, gdi.ttgetembeddedfontinfo, t2embapi/TTGetEmbeddedFontInfo
 ms.topic: function
-f1_keywords: ["t2embapi/TTGetEmbeddedFontInfo"]
+f1_keywords: 
+ - "t2embapi/TTGetEmbeddedFontInfo"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

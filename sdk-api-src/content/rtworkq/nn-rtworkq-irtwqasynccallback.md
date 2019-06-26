@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
 ms.topic: interface
-f1_keywords: ["rtworkq/IRtwqAsyncCallback"]
+f1_keywords: 
+ - "rtworkq/IRtwqAsyncCallback"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

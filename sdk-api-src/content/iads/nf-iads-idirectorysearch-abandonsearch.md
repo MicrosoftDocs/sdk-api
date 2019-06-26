@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
 ms.topic: method
-f1_keywords: ["iads/IDirectorySearch.AbandonSearch"]
+f1_keywords: 
+ - "iads/IDirectorySearch.AbandonSearch"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

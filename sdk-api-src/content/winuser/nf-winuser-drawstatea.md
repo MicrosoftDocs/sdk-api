@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
 ms.topic: function
-f1_keywords: ["winuser/DrawState"]
+f1_keywords: 
+ - "winuser/DrawState"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

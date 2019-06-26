@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
 ms.topic: struct
-f1_keywords: ["wcsplugin/PrimaryXYZColors"]
+f1_keywords: 
+ - "wcsplugin/PrimaryXYZColors"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

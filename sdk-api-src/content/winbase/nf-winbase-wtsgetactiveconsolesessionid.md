@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSGetActiveConsoleSessionId, WTSGetActiveConsoleSessionId function [Remote Desktop Services], _win32_wtsgetactiveconsolesessionid, termserv.wtsgetactiveconsolesessionid, winbase/WTSGetActiveConsoleSessionId
 ms.topic: function
-f1_keywords: ["winbase/WTSGetActiveConsoleSessionId"]
+f1_keywords: 
+ - "winbase/WTSGetActiveConsoleSessionId"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

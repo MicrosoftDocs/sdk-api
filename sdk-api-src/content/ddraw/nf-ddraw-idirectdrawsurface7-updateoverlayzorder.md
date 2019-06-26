@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDOVERZ_INSERTINBACKOF, DDOVERZ_INSERTINFRONTOF, DDOVERZ_MOVEBACKWARD, DDOVERZ_MOVEFORWARD, DDOVERZ_SENDTOBACK, DDOVERZ_SENDTOFRONT, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayZOrder method, IDirectDrawSurface7.UpdateOverlayZOrder, IDirectDrawSurface7::UpdateOverlayZOrder, UpdateOverlayZOrder, UpdateOverlayZOrder method [DirectDraw], UpdateOverlayZOrder method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayZOrder, directdraw.idirectdrawsurface7_updateoverlayzorder
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.UpdateOverlayZOrder"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.UpdateOverlayZOrder"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

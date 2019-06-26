@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceEnumAsync, CreateInstanceEnumAsync method [Windows Management Instrumentation], CreateInstanceEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnumAsync method, IWbemServices.CreateInstanceEnumAsync, IWbemServices::CreateInstanceEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenumasync, wbemcli/IWbemServices::CreateInstanceEnumAsync, wmi.iwbemservices_createinstanceenumasync
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemServices.CreateInstanceEnumAsync"]
+f1_keywords: 
+ - "wbemcli/IWbemServices.CreateInstanceEnumAsync"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

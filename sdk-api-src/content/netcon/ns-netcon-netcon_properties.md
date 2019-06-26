@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES
 ms.topic: struct
-f1_keywords: ["netcon/NETCON_PROPERTIES"]
+f1_keywords: 
+ - "netcon/NETCON_PROPERTIES"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

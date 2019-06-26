@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescription method, IPropertySystem.GetPropertyDescription, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
 ms.topic: method
-f1_keywords: ["propsys/IPropertySystem.GetPropertyDescription"]
+f1_keywords: 
+ - "propsys/IPropertySystem.GetPropertyDescription"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

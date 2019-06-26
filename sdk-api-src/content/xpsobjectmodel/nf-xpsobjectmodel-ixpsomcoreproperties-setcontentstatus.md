@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentStatus method, IXpsOMCoreProperties.SetContentStatus, IXpsOMCoreProperties::SetContentStatus, SetContentStatus, SetContentStatus method [XPS Documents and Packaging], SetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.SetContentStatus"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.SetContentStatus"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
 ms.topic: function
-f1_keywords: ["muiload/GetUILanguageFallbackList"]
+f1_keywords: 
+ - "muiload/GetUILanguageFallbackList"
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows

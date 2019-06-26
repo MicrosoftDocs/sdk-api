@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessDeniedAceEx, AddAccessDeniedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedaceex, security.addaccessdeniedaceex, securitybaseapi/AddAccessDeniedAceEx
 ms.topic: function
-f1_keywords: ["securitybaseapi/AddAccessDeniedAceEx"]
+f1_keywords: 
+ - "securitybaseapi/AddAccessDeniedAceEx"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

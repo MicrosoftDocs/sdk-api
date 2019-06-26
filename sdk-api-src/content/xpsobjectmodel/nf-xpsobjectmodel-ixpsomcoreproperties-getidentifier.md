@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

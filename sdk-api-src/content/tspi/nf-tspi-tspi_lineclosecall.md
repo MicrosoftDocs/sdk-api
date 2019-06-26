@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCloseCall, TSPI_lineCloseCall function [TAPI 2.2], _tspi_tspi_lineclosecall, tspi.tspi_lineclosecall, tspi/TSPI_lineCloseCall
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineCloseCall"]
+f1_keywords: 
+ - "tspi/TSPI_lineCloseCall"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

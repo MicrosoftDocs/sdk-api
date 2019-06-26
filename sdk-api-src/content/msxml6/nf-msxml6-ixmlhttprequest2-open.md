@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Open method, IXMLHTTPRequest2.Open, IXMLHTTPRequest2::Open, Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2.Open"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2.Open"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

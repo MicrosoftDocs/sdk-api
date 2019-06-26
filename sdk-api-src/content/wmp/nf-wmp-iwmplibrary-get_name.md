@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_name method, IWMPLibrary.get_name, IWMPLibrary::get_name, IWMPLibraryget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_name, wmp/IWMPLibrary::get_name
 ms.topic: method
-f1_keywords: ["wmp/IWMPLibrary.get_name"]
+f1_keywords: 
+ - "wmp/IWMPLibrary.get_name"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

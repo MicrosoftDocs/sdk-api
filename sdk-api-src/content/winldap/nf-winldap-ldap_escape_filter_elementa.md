@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__element, ldap.ldap_escape_filter_element, ldap_escape_filter_element, ldap_escape_filter_element function [LDAP], ldap_escape_filter_elementA, ldap_escape_filter_elementW, winldap/ldap_escape_filter_element, winldap/ldap_escape_filter_elementA, winldap/ldap_escape_filter_elementW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_escape_filter_element"]
+f1_keywords: 
+ - "winldap/ldap_escape_filter_element"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

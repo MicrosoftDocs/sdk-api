@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
 ms.topic: struct
-f1_keywords: ["webservices/WS_ENDPOINT_ADDRESS"]
+f1_keywords: 
+ - "webservices/WS_ENDPOINT_ADDRESS"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

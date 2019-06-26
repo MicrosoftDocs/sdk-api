@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata
 ms.topic: function
-f1_keywords: ["werapi/WerRegisterCustomMetadata"]
+f1_keywords: 
+ - "werapi/WerRegisterCustomMetadata"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

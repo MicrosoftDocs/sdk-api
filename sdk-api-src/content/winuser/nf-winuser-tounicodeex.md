@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ToUnicodeEx, ToUnicodeEx function [Keyboard and Mouse Input], _win32_ToUnicodeEx, _win32_tounicodeex_cpp, inputdev.tounicodeex, winui._win32_tounicodeex, winuser/ToUnicodeEx
 ms.topic: function
-f1_keywords: ["winuser/ToUnicodeEx"]
+f1_keywords: 
+ - "winuser/ToUnicodeEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

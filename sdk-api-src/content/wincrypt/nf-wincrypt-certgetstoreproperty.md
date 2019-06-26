@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetStoreProperty"]
+f1_keywords: 
+ - "wincrypt/CertGetStoreProperty"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP interface [Text Services Framework], ITfPersistentPropertyLoaderACP interface [Text Services Framework],described, _tsf_itfpersistentpropertyloaderacp_ref, msctf/ITfPersistentPropertyLoaderACP, tsf.itfpersistentpropertyloaderacp
 ms.topic: interface
-f1_keywords: ["msctf/ITfPersistentPropertyLoaderACP"]
+f1_keywords: 
+ - "msctf/ITfPersistentPropertyLoaderACP"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

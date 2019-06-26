@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, GGO_METRICS, GGO_NATIVE, GGO_UNHINTED, GetGlyphOutline, GetGlyphOutline function [Windows GDI], GetGlyphOutlineA, GetGlyphOutlineW, _win32_GetGlyphOutline, gdi.getglyphoutline, wingdi/GetGlyphOutline, wingdi/GetGlyphOutlineA, wingdi/GetGlyphOutlineW
 ms.topic: function
-f1_keywords: ["wingdi/GetGlyphOutline"]
+f1_keywords: 
+ - "wingdi/GetGlyphOutline"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

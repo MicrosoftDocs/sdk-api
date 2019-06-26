@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_FollowDirectories method, ISearchRoot.get_FollowDirectories, ISearchRoot::get_FollowDirectories, _search_ISearchRoot_get_FollowDirectories, get_FollowDirectories, get_FollowDirectories method [search], get_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_get_FollowDirectories, searchapi/ISearchRoot::get_FollowDirectories
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.get_FollowDirectories"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.get_FollowDirectories"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

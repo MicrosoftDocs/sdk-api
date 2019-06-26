@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetSupportedRates"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetSupportedRates"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

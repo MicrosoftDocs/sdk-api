@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],HighQuotaWaterMark property, IFaxOutgoingArchive.HighQuotaWaterMark, IFaxOutgoingArchive.get_HighQuotaWaterMark, IFaxOutgoingArchive.put_HighQuotaWaterMark, IFaxOutgoingArchive::HighQuotaWaterMark, IFaxOutgoingArchive::get_HighQuotaWaterMark, IFaxOutgoingArchive::put_HighQuotaWaterMark, _mfax_faxoutgoingarchive.highquotawatermark, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_highquotawatermark_cpp, fax._mfax_faxoutgoingarchive_highquotawatermark, faxcomex/IFaxOutgoingArchive::HighQuotaWaterMark, faxcomex/IFaxOutgoingArchive::get_HighQuotaWaterMark, faxcomex/IFaxOutgoingArchive::put_HighQuotaWaterMark, get_HighQuotaWaterMark
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingArchive.HighQuotaWaterMark"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingArchive.HighQuotaWaterMark"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

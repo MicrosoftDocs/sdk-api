@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_versionInfo method, IWMPCore.get_versionInfo, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_versionInfo"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_versionInfo"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

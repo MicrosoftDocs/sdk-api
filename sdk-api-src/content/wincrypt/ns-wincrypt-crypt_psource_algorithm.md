@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_PSOURCE_ALGORITHM"]
+f1_keywords: 
+ - "wincrypt/CRYPT_PSOURCE_ALGORITHM"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

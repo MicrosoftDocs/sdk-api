@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCRecord, IComQCEvents::OnQCRecord, OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
 ms.topic: method
-f1_keywords: ["comsvcs/IComQCEvents.OnQCRecord"]
+f1_keywords: 
+ - "comsvcs/IComQCEvents.OnQCRecord"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

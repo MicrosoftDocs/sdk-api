@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-by-side Assemblies], setup.createassemblynameobject, winsxs/CreateAssemblyNameObject
 ms.topic: function
-f1_keywords: ["winsxs/CreateAssemblyNameObject"]
+f1_keywords: 
+ - "winsxs/CreateAssemblyNameObject"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

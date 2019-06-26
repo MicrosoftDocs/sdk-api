@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppendChild, AppendChild method [Direct2D], AppendChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],AppendChild method, ID2D1SvgElement.AppendChild, ID2D1SvgElement::AppendChild, d2d1svg/ID2D1SvgElement::AppendChild, direct2d.id2d1svgelement_appendchild
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.AppendChild"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.AppendChild"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

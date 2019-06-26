@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarCmp, VarCmp function [Automation], _oa96_VarCmp, automat.varcmp, oleauto/VarCmp
 ms.topic: function
-f1_keywords: ["oleauto/VarCmp"]
+f1_keywords: 
+ - "oleauto/VarCmp"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

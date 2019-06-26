@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MMC],described, _slate_icontrolbar, mmc.icontrolbar, mmc/IControlbar
 ms.topic: interface
-f1_keywords: ["mmc/IControlbar"]
+f1_keywords: 
+ - "mmc/IControlbar"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

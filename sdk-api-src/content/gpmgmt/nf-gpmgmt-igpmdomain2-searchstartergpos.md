@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMDomain2 interface [GPMC],SearchStarterGPOs method, IGPMDomain2.SearchStarterGPOs, IGPMDomain2::SearchStarterGPOs, SearchStarterGPOs, SearchStarterGPOs method [GPMC], SearchStarterGPOs method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_searchstartergpos, gpmgmt/IGPMDomain2::SearchStarterGPOs, starterGPODisplayName, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain2.SearchStarterGPOs"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain2.SearchStarterGPOs"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

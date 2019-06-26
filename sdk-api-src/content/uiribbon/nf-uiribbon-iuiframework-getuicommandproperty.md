@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
 ms.topic: method
-f1_keywords: ["uiribbon/IUIFramework.GetUICommandProperty"]
+f1_keywords: 
+ - "uiribbon/IUIFramework.GetUICommandProperty"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

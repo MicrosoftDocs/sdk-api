@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchWMIFilters method, IGPMDomain interface [GPMC],SearchWMIFilters method, IGPMDomain.SearchWMIFilters, IGPMDomain::SearchWMIFilters, SearchWMIFilters, SearchWMIFilters method [GPMC], SearchWMIFilters method [GPMC],GPMDomain object, SearchWMIFilters method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchwmifilters, gpmc.igpmdomain_searchwmifilters, gpmgmt/IGPMDomain::SearchWMIFilters
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain.SearchWMIFilters"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain.SearchWMIFilters"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

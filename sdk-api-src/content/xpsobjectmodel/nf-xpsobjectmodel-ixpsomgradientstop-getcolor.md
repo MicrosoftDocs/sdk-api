@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetColor method, IXpsOMGradientStop.GetColor, IXpsOMGradientStop::GetColor, xps.ixpsomgradientstop_getcolor, xpsobjectmodel/IXpsOMGradientStop::GetColor
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientStop.GetColor"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientStop.GetColor"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

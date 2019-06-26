@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Reset method, IAudioClient.Reset, IAudioClient::Reset, IAudioClientReset, Reset, Reset method [Core Audio], Reset method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Reset, coreaudio.iaudioclient_reset
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClient.Reset"]
+f1_keywords: 
+ - "audioclient/IAudioClient.Reset"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

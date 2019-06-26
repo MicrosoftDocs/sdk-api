@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamBeginStreaming, AVIStreamBeginStreaming function [Windows Multimedia], _win32_AVIStreamBeginStreaming, multimedia.avistreambeginstreaming, vfw/AVIStreamBeginStreaming
 ms.topic: function
-f1_keywords: ["vfw/AVIStreamBeginStreaming"]
+f1_keywords: 
+ - "vfw/AVIStreamBeginStreaming"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAudioLanguage method, IDvdInfo.GetAudioLanguage, IDvdInfo::GetAudioLanguage, IDvdInfoGetAudioLanguage, dshow.idvdinfo_getaudiolanguage, strmif/IDvdInfo::GetAudioLanguage
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetAudioLanguage"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetAudioLanguage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

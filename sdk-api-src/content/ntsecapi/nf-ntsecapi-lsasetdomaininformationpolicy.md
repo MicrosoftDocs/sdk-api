@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaSetDomainInformationPolicy"]
+f1_keywords: 
+ - "ntsecapi/LsaSetDomainInformationPolicy"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

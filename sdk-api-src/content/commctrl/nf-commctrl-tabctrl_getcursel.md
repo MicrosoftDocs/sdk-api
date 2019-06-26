@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetCurSel, TabCtrl_GetCurSel macro [Windows Controls], _win32_TabCtrl_GetCurSel, _win32_TabCtrl_GetCurSel_cpp, commctrl/TabCtrl_GetCurSel, controls.TabCtrl_GetCurSel, controls._win32_TabCtrl_GetCurSel
 ms.topic: macro
-f1_keywords: ["commctrl/TabCtrl_GetCurSel"]
+f1_keywords: 
+ - "commctrl/TabCtrl_GetCurSel"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

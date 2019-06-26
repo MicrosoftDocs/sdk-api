@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObjectInPlace.Process"]
+f1_keywords: 
+ - "mediaobj/IMediaObjectInPlace.Process"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

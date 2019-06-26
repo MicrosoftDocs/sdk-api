@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],LayoutScript method, ILayoutStorage.LayoutScript, ILayoutStorage::LayoutScript, LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
 ms.topic: method
-f1_keywords: ["objidl/ILayoutStorage.LayoutScript"]
+f1_keywords: 
+ - "objidl/ILayoutStorage.LayoutScript"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, vsconStrhhpopup
 ms.topic: struct
-f1_keywords: ["htmlhelp/HH_POPUP"]
+f1_keywords: 
+ - "htmlhelp/HH_POPUP"
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnitExtensions method, IWMStreamConfig2.RemoveAllDataUnitExtensions, IWMStreamConfig2::RemoveAllDataUnitExtensions, IWMStreamConfig2RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions, RemoveAllDataUnitExtensions method [windows Media Format], RemoveAllDataUnitExtensions method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_removealldataunitextensions, wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig2.RemoveAllDataUnitExtensions"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig2.RemoveAllDataUnitExtensions"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESIZE_VIRTUAL_DISK_VERSION, RESIZE_VIRTUAL_DISK_VERSION enumeration [Virtual Storage], RESIZE_VIRTUAL_DISK_VERSION_1, RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED, virtdisk/RESIZE_VIRTUAL_DISK_VERSION, virtdisk/RESIZE_VIRTUAL_DISK_VERSION_1, virtdisk/RESIZE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vstor.resize_virtual_disk_version
 ms.topic: enum
-f1_keywords: ["virtdisk/RESIZE_VIRTUAL_DISK_VERSION"]
+f1_keywords: 
+ - "virtdisk/RESIZE_VIRTUAL_DISK_VERSION"
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

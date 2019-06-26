@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_LIBRARY_DESC, D3D11_LIBRARY_DESC structure [Direct3D 11], d3d11shader/D3D11_LIBRARY_DESC, direct3d11.d3d11_library_desc
 ms.topic: struct
-f1_keywords: ["d3d11shader/D3D11_LIBRARY_DESC"]
+f1_keywords: 
+ - "d3d11shader/D3D11_LIBRARY_DESC"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

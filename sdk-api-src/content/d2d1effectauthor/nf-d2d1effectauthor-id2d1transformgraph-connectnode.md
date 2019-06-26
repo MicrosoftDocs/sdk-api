@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectNode, ConnectNode method [Direct2D], ConnectNode method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],ConnectNode method, ID2D1TransformGraph.ConnectNode, ID2D1TransformGraph::ConnectNode, d2d1effectauthor/ID2D1TransformGraph::ConnectNode, direct2d.id2d1transformgraph_connectnode
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1TransformGraph.ConnectNode"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1TransformGraph.ConnectNode"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

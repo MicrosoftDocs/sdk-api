@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
 ms.topic: function
-f1_keywords: ["slpublic/SLGatherMigrationBlob"]
+f1_keywords: 
+ - "slpublic/SLGatherMigrationBlob"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

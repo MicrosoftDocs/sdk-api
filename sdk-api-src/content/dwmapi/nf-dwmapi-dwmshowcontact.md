@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWMSC_ALL, DWMSC_DOWN, DWMSC_DRAG, DWMSC_HOLD, DWMSC_NONE, DWMSC_PENBARREL, DWMSC_UP, DwmShowContact, DwmShowContact function [Desktop Window Manager], dwm.DwmShowContact, dwmapi/DwmShowContact
 ms.topic: function
-f1_keywords: ["dwmapi/DwmShowContact"]
+f1_keywords: 
+ - "dwmapi/DwmShowContact"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

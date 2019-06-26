@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeFloat, IsVarTypeFloat function [Windows Properties], _shell_IsVarTypeFloat, properties.IsVarTypeFloat, propvarutil/IsVarTypeFloat, shell.IsVarTypeFloat
 ms.topic: function
-f1_keywords: ["propvarutil/IsVarTypeFloat"]
+f1_keywords: 
+ - "propvarutil/IsVarTypeFloat"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

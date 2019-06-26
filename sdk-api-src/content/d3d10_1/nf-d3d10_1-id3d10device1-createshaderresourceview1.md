@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 03e028ae-86fb-9c0c-3e9c-3a0471355fab, CreateShaderResourceView1, CreateShaderResourceView1 method [Direct3D 10], CreateShaderResourceView1 method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],CreateShaderResourceView1 method, ID3D10Device1.CreateShaderResourceView1, ID3D10Device1::CreateShaderResourceView1, d3d10_1/ID3D10Device1::CreateShaderResourceView1, direct3d10.id3d10device1_createshaderresourceview1
 ms.topic: method
-f1_keywords: ["d3d10_1/ID3D10Device1.CreateShaderResourceView1"]
+f1_keywords: 
+ - "d3d10_1/ID3D10Device1.CreateShaderResourceView1"
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win32 Only) structure [Tablet PC], f932508b-44d3-4605-97a7-bb6eed248939, inked/IEC_GESTUREINFO, tablet.iec_gestureinfo__win32_only_
 ms.topic: struct
-f1_keywords: ["inked/IEC_GESTUREINFO"]
+f1_keywords: 
+ - "inked/IEC_GESTUREINFO"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.SetFuncAndParamNames"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.SetFuncAndParamNames"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

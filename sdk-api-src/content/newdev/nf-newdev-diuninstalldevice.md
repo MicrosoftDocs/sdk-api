@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiUninstallDevice, DiUninstallDevice function [Device and Driver Installation], devinst.diuninstalldevice, di-rtns_361ca427-6e65-497e-a9c0-8723e4aaa8c6.xml, newdev/DiUninstallDevice
 ms.topic: function
-f1_keywords: ["newdev/DiUninstallDevice"]
+f1_keywords: 
+ - "newdev/DiUninstallDevice"
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

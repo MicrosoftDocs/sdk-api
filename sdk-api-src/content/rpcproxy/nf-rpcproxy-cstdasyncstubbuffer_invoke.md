@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
 ms.topic: function
-f1_keywords: ["rpcproxy/CStdAsyncStubBuffer_Invoke"]
+f1_keywords: 
+ - "rpcproxy/CStdAsyncStubBuffer_Invoke"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDisableDriver, DrvDisableDriver function [Display Devices], ddifncs_213ec824-0230-4b4b-879e-ed48401f3788.xml, display.drvdisabledriver, winddi/DrvDisableDriver
 ms.topic: function
-f1_keywords: ["winddi/DrvDisableDriver"]
+f1_keywords: 
+ - "winddi/DrvDisableDriver"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

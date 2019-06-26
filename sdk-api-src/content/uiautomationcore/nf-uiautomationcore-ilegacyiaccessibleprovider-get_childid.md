@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],ChildId property, ILegacyIAccessibleProvider.ChildId, ILegacyIAccessibleProvider.get_ChildId, ILegacyIAccessibleProvider::ChildId, ILegacyIAccessibleProvider::get_ChildId, get_ChildId, uiauto.uiauto_ILegacyIAccessibleProvider_ChildId, uiauto_ILegacyIAccessibleProvider_ChildId, uiautomationcore/ILegacyIAccessibleProvider::ChildId, uiautomationcore/ILegacyIAccessibleProvider::get_ChildId, winauto.uiauto_ILegacyIAccessibleProvider_ChildId
 ms.topic: method
-f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.ChildId"]
+f1_keywords: 
+ - "uiautomationcore/ILegacyIAccessibleProvider.ChildId"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

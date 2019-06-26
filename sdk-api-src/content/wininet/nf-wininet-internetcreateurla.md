@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetCreateUrl, InternetCreateUrl function [WinINet], InternetCreateUrlA, InternetCreateUrlW, _inet_internetcreateurl_function, wininet.internetcreateurl, wininet/InternetCreateUrl, wininet/InternetCreateUrlA, wininet/InternetCreateUrlW
 ms.topic: function
-f1_keywords: ["wininet/InternetCreateUrl"]
+f1_keywords: 
+ - "wininet/InternetCreateUrl"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

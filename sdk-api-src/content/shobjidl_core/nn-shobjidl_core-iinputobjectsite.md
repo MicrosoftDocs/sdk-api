@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IInputObjectSite"]
+f1_keywords: 
+ - "shobjidl_core/IInputObjectSite"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

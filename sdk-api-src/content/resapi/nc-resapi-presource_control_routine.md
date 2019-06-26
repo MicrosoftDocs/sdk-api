@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
 ms.topic: callback
-f1_keywords: ["resapi/ResourceControl"]
+f1_keywords: 
+ - "resapi/ResourceControl"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

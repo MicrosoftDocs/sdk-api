@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],Lock method, IMediaObject.Lock, IMediaObject::Lock, IMediaObjectLock, Lock, Lock method [DirectShow], Lock method [DirectShow],IMediaObject interface, dshow.imediaobject_lock, mediaobj/IMediaObject::Lock
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObject.Lock"]
+f1_keywords: 
+ - "mediaobj/IMediaObject.Lock"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

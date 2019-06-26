@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDLOCKOUT"]
+f1_keywords: 
+ - "ddkmapi/DDLOCKOUT"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeItem, AnalyzeItem method [WIA], AnalyzeItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],AnalyzeItem method, IWiaItem.AnalyzeItem, IWiaItem::AnalyzeItem, _wia_IWiaItem_AnalyzeItem, wia._wia_IWiaItem_AnalyzeItem, wia_xp/IWiaItem::AnalyzeItem
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.AnalyzeItem"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.AnalyzeItem"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

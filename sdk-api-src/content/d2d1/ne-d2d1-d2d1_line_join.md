@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_LINE_JOIN, D2D1_LINE_JOIN enumeration [Direct2D], D2D1_LINE_JOIN_BEVEL, D2D1_LINE_JOIN_MITER, D2D1_LINE_JOIN_MITER_OR_BEVEL, D2D1_LINE_JOIN_ROUND, d2d1/D2D1_LINE_JOIN, d2d1/D2D1_LINE_JOIN_BEVEL, d2d1/D2D1_LINE_JOIN_MITER, d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL, d2d1/D2D1_LINE_JOIN_ROUND, direct2d.D2D1_LINE_JOIN
 ms.topic: enum
-f1_keywords: ["d2d1/D2D1_LINE_JOIN"]
+f1_keywords: 
+ - "d2d1/D2D1_LINE_JOIN"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

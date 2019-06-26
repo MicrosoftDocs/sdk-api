@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FoundTrackerTarget, FoundTrackerTarget method [Windows Runtime], FoundTrackerTarget method [Windows Runtime],IFindReferenceTargetsCallback interface, IFindReferenceTargetsCallback interface [Windows Runtime],FoundTrackerTarget method, IFindReferenceTargetsCallback.FoundTrackerTarget, IFindReferenceTargetsCallback.xaml, IFindReferenceTargetsCallback::FoundTrackerTarget, IFindReferenceTargetsCallback::xaml, windows/IFindReferenceTargetsCallback::FoundTrackerTarget, winrt.ifindreferencetargetscallback_foundtrackertarget
 ms.topic: method
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback.FoundTrackerTarget"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback.FoundTrackerTarget"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

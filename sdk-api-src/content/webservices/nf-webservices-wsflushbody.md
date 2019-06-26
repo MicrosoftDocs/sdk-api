@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFlushBody, WsFlushBody function [Web Services for Windows], webservices/WsFlushBody, wsw.wsflushbody
 ms.topic: function
-f1_keywords: ["webservices/WsFlushBody"]
+f1_keywords: 
+ - "webservices/WsFlushBody"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

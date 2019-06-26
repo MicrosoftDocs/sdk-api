@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6838097c-89e3-6883-6083-5d0d9ada7647, GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [Direct3D 10], GetNumMessagesAllowedByStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesAllowedByStorageFilter method, ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d10.id3d10infoqueue_getnummessagesallowedbystoragefilter
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

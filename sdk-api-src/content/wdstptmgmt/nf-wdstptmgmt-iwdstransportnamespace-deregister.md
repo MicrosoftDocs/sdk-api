@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Deregister"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespace.Deregister"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

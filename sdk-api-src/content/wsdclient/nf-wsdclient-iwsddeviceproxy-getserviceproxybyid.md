@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceProxyById, GetServiceProxyById method, GetServiceProxyById method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyById method, IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDDeviceProxy.GetServiceProxyById"]
+f1_keywords: 
+ - "wsdclient/IWSDDeviceProxy.GetServiceProxyById"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

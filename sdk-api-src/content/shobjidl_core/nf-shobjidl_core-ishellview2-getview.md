@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],GetView method, IShellView2.GetView, IShellView2::GetView, SV2GV_CURRENTVIEW, SV2GV_DEFAULTVIEW, VID_Details, VID_LargeIcons, VID_List, VID_SmallIcons, VID_Tile, _win32_IShellView2_GetView, shell.IShellView2_GetView, shobjidl_core/IShellView2::GetView
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellView2.GetView"]
+f1_keywords: 
+ - "shobjidl_core/IShellView2.GetView"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

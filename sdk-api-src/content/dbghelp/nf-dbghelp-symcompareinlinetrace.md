@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
 ms.topic: function
-f1_keywords: ["dbghelp/SymCompareInlineTrace"]
+f1_keywords: 
+ - "dbghelp/SymCompareInlineTrace"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

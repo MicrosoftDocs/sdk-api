@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModuleBaseProc64, GetModuleBaseProc64 callback, GetModuleBaseProc64 callback function, PGET_MODULE_BASE_ROUTINE, PGET_MODULE_BASE_ROUTINE64, _win32_getmodulebaseproc64, base.getmodulebaseproc64, dbghelp/GetModuleBaseProc64
 ms.topic: callback
-f1_keywords: ["dbghelp/GetModuleBaseProc64"]
+f1_keywords: 
+ - "dbghelp/GetModuleBaseProc64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

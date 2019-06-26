@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInterfaceChange function [IP Helper], iphlp.notifyipinterfacechange, netioapi/NotifyIpInterfaceChange
 ms.topic: function
-f1_keywords: ["netioapi/NotifyIpInterfaceChange"]
+f1_keywords: 
+ - "netioapi/NotifyIpInterfaceChange"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 099e180b-e0ef-fb4c-2ecb-2e42899814e8, GetOutputSignatureElementDesc, GetOutputSignatureElementDesc method [Direct3D 10], GetOutputSignatureElementDesc method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetOutputSignatureElementDesc method, ID3D10EffectShaderVariable.GetOutputSignatureElementDesc, ID3D10EffectShaderVariable::GetOutputSignatureElementDesc, d3d10effect/ID3D10EffectShaderVariable::GetOutputSignatureElementDesc, direct3d10.id3d10effectshadervariable_getoutputsignatureelementdesc
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectShaderVariable.GetOutputSignatureElementDesc"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectShaderVariable.GetOutputSignatureElementDesc"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

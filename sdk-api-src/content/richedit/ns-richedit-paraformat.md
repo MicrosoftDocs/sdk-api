@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, 4, 5, PARAFORMAT, PARAFORMAT structure [Windows Controls], PFA_CENTER, PFA_LEFT, PFA_RIGHT, PFE_RLTPARA, PFM_ALIGNMENT, PFM_NUMBERING, PFM_OFFSET, PFM_OFFSETINDENT, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_STARTINDENT, PFM_TABSTOPS, _win32_PARAFORMAT_str, _win32_PARAFORMAT_str_cpp, controls.PARAFORMAT, controls._win32_PARAFORMAT_str, richedit/PARAFORMAT
 ms.topic: struct
-f1_keywords: ["richedit/PARAFORMAT"]
+f1_keywords: 
+ - "richedit/PARAFORMAT"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

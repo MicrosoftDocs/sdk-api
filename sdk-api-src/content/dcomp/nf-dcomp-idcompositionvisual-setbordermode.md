@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBorderMode method, IDCompositionVisual.SetBorderMode, IDCompositionVisual::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBorderMode, directcomp.idcompositionvisual_setbordermode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual.SetBorderMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual.SetBorderMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

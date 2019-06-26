@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmEnableMMCSS, DwmEnableMMCSS function [Desktop Window Manager], _udwm_dwmenablemmcss, _udwm_dwmenablemmcss_cpp, dwm.dwmenablemmcss, dwmapi/DwmEnableMMCSS, winui._udwm_dwmenablemmcss
 ms.topic: function
-f1_keywords: ["dwmapi/DwmEnableMMCSS"]
+f1_keywords: 
+ - "dwmapi/DwmEnableMMCSS"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleImportedPath property, IAzApplicationGroup2.BizRuleImportedPath, IAzApplicationGroup2.put_BizRuleImportedPath, IAzApplicationGroup2::BizRuleImportedPath, IAzApplicationGroup2::get_BizRuleImportedPath, IAzApplicationGroup2::put_BizRuleImportedPath, azroles/IAzApplicationGroup2::BizRuleImportedPath, azroles/IAzApplicationGroup2::get_BizRuleImportedPath, azroles/IAzApplicationGroup2::put_BizRuleImportedPath, put_BizRuleImportedPath, security.iazapplicationgroup2_bizruleimportedpath_method
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup2.BizRuleImportedPath"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup2.BizRuleImportedPath"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

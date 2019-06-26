@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceVersion method, IAMExtDevice.get_ExternalDeviceVersion, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceVersion
 ms.topic: method
-f1_keywords: ["strmif/IAMExtDevice.get_ExternalDeviceVersion"]
+f1_keywords: 
+ - "strmif/IAMExtDevice.get_ExternalDeviceVersion"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

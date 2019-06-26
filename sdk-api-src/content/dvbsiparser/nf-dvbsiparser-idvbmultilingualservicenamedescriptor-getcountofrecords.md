@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetCountOfRecords"]
+f1_keywords: 
+ - "dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetCountOfRecords"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

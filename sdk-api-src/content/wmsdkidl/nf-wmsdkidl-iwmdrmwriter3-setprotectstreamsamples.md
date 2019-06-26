@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter3 interface [windows Media Format],SetProtectStreamSamples method, IWMDRMWriter3.SetProtectStreamSamples, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMDRMWriter3 interface, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMWriter3.SetProtectStreamSamples"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMWriter3.SetProtectStreamSamples"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

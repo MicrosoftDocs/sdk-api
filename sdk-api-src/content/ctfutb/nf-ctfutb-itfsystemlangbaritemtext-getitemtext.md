@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
 ms.topic: method
-f1_keywords: ["ctfutb/ITfSystemLangBarItemText.GetItemText"]
+f1_keywords: 
+ - "ctfutb/ITfSystemLangBarItemText.GetItemText"
 req.header: ctfutb.h
 req.include-header: Msctf.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],AddSourceFilter method, IMediaControl.AddSourceFilter, IMediaControl::AddSourceFilter, IMediaControlAddSourceFilter, control/IMediaControl::AddSourceFilter, dshow.imediacontrol_addsourcefilter
 ms.topic: method
-f1_keywords: ["control/IMediaControl.AddSourceFilter"]
+f1_keywords: 
+ - "control/IMediaControl.AddSourceFilter"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

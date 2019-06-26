@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],RotateTransform method, Graphics.RotateTransform, Graphics::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Graphics_RotateTransform_angle_order_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.RotateTransform"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.RotateTransform"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

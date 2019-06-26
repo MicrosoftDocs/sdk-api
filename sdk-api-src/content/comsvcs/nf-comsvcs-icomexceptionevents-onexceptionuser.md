@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComExceptionEvents interface [COM+],OnExceptionUser method, IComExceptionEvents.OnExceptionUser, IComExceptionEvents::OnExceptionUser, OnExceptionUser, OnExceptionUser method [COM+], OnExceptionUser method [COM+],IComExceptionEvents interface, _dtc_IComExceptionEvents_OnExceptionUser, comsvcs/IComExceptionEvents::OnExceptionUser, cos.icomexceptionevents_onexceptionuser
 ms.topic: method
-f1_keywords: ["comsvcs/IComExceptionEvents.OnExceptionUser"]
+f1_keywords: 
+ - "comsvcs/IComExceptionEvents.OnExceptionUser"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

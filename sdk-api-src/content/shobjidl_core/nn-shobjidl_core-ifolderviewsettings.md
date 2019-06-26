@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderViewSettings, IFolderViewSettings interface [Windows Shell], IFolderViewSettings interface [Windows Shell],described, _shell_IFolderViewSettings, shell.IFolderViewSettings, shobjidl_core/IFolderViewSettings
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFolderViewSettings"]
+f1_keywords: 
+ - "shobjidl_core/IFolderViewSettings"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

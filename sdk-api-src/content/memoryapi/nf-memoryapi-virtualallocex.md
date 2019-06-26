@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAllocEx, VirtualAllocEx function, _win32_virtualallocex, base.virtualallocex, winbase/VirtualAllocEx
 ms.topic: function
-f1_keywords: ["memoryapi/VirtualAllocEx"]
+f1_keywords: 
+ - "memoryapi/VirtualAllocEx"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

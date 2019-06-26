@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerDestroyEnumHandle0, FwpmLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmlayerdestroyenumhandle0_func, fwpmu/FwpmLayerDestroyEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmLayerDestroyEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/FwpmLayerDestroyEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

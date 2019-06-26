@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity interface,Provider method, TraceLoggingThreadActivity.Provider, TraceLoggingThreadActivity::Provider, tracelogging.traceloggingthreadactivity_provider, traceloggingactivity/TraceLoggingThreadActivity::Provider
 ms.topic: method
-f1_keywords: ["traceloggingactivity/TraceLoggingThreadActivity.Provider"]
+f1_keywords: 
+ - "traceloggingactivity/TraceLoggingThreadActivity.Provider"
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

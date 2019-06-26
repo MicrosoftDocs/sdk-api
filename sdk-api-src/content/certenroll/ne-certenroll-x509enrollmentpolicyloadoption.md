@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, X509EnrollmentPolicyLoadOption, X509EnrollmentPolicyLoadOption enumeration [Security], certenroll/LoadOptionCacheOnly, certenroll/LoadOptionDefault, certenroll/LoadOptionRegisterForADChanges, certenroll/LoadOptionReload, certenroll/X509EnrollmentPolicyLoadOption, security.x509enrollmentpolicyloadoption
 ms.topic: enum
-f1_keywords: ["certenroll/X509EnrollmentPolicyLoadOption"]
+f1_keywords: 
+ - "certenroll/X509EnrollmentPolicyLoadOption"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_DigitalAudioCopySetting method, IRawCDImageTrackInfo.put_DigitalAudioCopySetting, IRawCDImageTrackInfo::put_DigitalAudioCopySetting, imapi.irawcdimagetrackinfo_put_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::put_DigitalAudioCopySetting, put_DigitalAudioCopySetting, put_DigitalAudioCopySetting method [IMAPI], put_DigitalAudioCopySetting method [IMAPI],IRawCDImageTrackInfo interface
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageTrackInfo.put_DigitalAudioCopySetting"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo.put_DigitalAudioCopySetting"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

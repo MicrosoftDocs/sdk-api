@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API],described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/IStreamSelectorStatics"]
+f1_keywords: 
+ - "windows.media.streaming/IStreamSelectorStatics"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

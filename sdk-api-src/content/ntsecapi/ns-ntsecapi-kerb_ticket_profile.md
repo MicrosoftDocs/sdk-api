@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_TICKET_PROFILE, KERB_TICKET_PROFILE, KERB_TICKET_PROFILE structure [Security], PKERB_TICKET_PROFILE, PKERB_TICKET_PROFILE structure pointer [Security], _lsa_kerb_ticket_profile, ntsecapi/KERB_TICKET_PROFILE, ntsecapi/PKERB_TICKET_PROFILE, security.kerb_ticket_profile"
 ms.topic: struct
-f1_keywords: ["ntsecapi/KERB_TICKET_PROFILE"]
+f1_keywords: 
+ - "ntsecapi/KERB_TICKET_PROFILE"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

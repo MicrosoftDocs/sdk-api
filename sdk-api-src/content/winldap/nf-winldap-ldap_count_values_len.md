@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.ldap_count_values_len, ldap_count_values_len, ldap_count_values_len function [LDAP], winldap/ldap_count_values_len"
 ms.topic: function
-f1_keywords: ["winldap/ldap_count_values_len"]
+f1_keywords: 
+ - "winldap/ldap_count_values_len"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

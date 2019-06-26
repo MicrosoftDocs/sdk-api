@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],ActivateEx method, ITfThreadMgr2.ActivateEx, ITfThreadMgr2::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgr2::ActivateEx, tsf.itfthreadmgr2_activateex
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.ActivateEx"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.ActivateEx"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

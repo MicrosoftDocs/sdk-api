@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKnownFolder, IKnownFolder interface [Windows Shell], IKnownFolder interface [Windows Shell],described, _shell_IKnownFolder, shell.IKnownFolder, shobjidl_core/IKnownFolder
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IKnownFolder"]
+f1_keywords: 
+ - "shobjidl_core/IKnownFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

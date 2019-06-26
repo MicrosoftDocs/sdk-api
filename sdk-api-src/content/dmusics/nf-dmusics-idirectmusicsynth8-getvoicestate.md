@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVoiceState, GetVoiceState method [Audio Devices], GetVoiceState method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],GetVoiceState method, IDirectMusicSynth8.GetVoiceState, IDirectMusicSynth8::GetVoiceState, audio.idirectmusicsynth8_getvoicestate, dmusics/IDirectMusicSynth8::GetVoiceState
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth8.GetVoiceState"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth8.GetVoiceState"
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

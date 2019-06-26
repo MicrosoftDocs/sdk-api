@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Get method, ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsMappedView.Get"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsMappedView.Get"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

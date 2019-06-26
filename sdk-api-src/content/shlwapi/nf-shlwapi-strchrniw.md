@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrChrNIW, StrChrNIW function [Windows Shell], shell.StrChrNIW, shlwapi/StrChrNIW
 ms.topic: function
-f1_keywords: ["shlwapi/StrChrNIW"]
+f1_keywords: 
+ - "shlwapi/StrChrNIW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

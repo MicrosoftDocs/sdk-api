@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetGammaRamp, DdSetGammaRamp function [Windows API], GdiEntry15, _dxgkernel_ddsetgammaramp, ddrawgdi/DdSetGammaRamp, ddrawgdi/GdiEntry15, winprog._dxgkernel_ddsetgammaramp, winui._dxgkernel_ddsetgammaramp
 ms.topic: function
-f1_keywords: ["ddrawgdi/DdSetGammaRamp"]
+f1_keywords: 
+ - "ddrawgdi/DdSetGammaRamp"
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

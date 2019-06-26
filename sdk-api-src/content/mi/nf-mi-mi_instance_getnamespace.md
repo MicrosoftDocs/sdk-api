@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetNameSpace, MI_Instance_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetNameSpace, wmi_v2.mi_instance_getnamespace
 ms.topic: function
-f1_keywords: ["mi/MI_Instance_GetNameSpace"]
+f1_keywords: 
+ - "mi/MI_Instance_GetNameSpace"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

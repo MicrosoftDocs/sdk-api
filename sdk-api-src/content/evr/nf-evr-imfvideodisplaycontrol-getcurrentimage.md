@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f, GetCurrentImage, GetCurrentImage method [Media Foundation], GetCurrentImage method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetCurrentImage method, IMFVideoDisplayControl.GetCurrentImage, IMFVideoDisplayControl::GetCurrentImage, evr/IMFVideoDisplayControl::GetCurrentImage, mf.imfvideodisplaycontrol_getcurrentimage
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.GetCurrentImage"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.GetCurrentImage"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

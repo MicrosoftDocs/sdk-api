@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], IWMPRenderConfig interface [Windows Media Player],described, IWMPRenderConfigInterface, wmp.iwmprenderconfig, wmprealestate/IWMPRenderConfig
 ms.topic: interface
-f1_keywords: ["wmprealestate/IWMPRenderConfig"]
+f1_keywords: 
+ - "wmprealestate/IWMPRenderConfig"
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

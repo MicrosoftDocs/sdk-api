@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymAddrIncludeInlineTrace, SymAddrIncludeInlineTrace function, base.symaddrincludeinlinetrace, dbghelp/SymAddrIncludeInlineTrace
 ms.topic: function
-f1_keywords: ["dbghelp/SymAddrIncludeInlineTrace"]
+f1_keywords: 
+ - "dbghelp/SymAddrIncludeInlineTrace"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

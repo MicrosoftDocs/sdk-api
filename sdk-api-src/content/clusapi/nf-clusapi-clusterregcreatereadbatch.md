@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegCreateReadBatch"]
+f1_keywords: 
+ - "clusapi/ClusterRegCreateReadBatch"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

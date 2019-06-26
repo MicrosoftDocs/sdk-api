@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsEngine.GetErrorDescription"]
+f1_keywords: 
+ - "wcmconfig/ISettingsEngine.GetErrorDescription"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

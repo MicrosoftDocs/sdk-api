@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_UNIT_TYPE, MF_TIMED_TEXT_UNIT_TYPE enumeration [Media Foundation], MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE, MF_TIMED_TEXT_UNIT_TYPE_PIXELS, mf.mf_timed_text_unit_type, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE_PIXELS
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE"]
+f1_keywords: 
+ - "mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

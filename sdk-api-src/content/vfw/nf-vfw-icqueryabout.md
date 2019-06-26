@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQueryAbout, multimedia.icqueryabout, vfw/ICQueryAbout
 ms.topic: macro
-f1_keywords: ["vfw/ICQueryAbout"]
+f1_keywords: 
+ - "vfw/ICQueryAbout"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

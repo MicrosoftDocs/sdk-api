@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBlockMapFilesEnumerator.GetCurrent"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapFilesEnumerator.GetCurrent"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT, CERT_SELECTUI_INPUT structure [Security], PCERT_SELECTUI_INPUT, PCERT_SELECTUI_INPUT structure pointer [Security], cryptuiapi/CERT_SELECTUI_INPUT, cryptuiapi/PCERT_SELECTUI_INPUT, security.cert_selectui_input"
 ms.topic: struct
-f1_keywords: ["cryptuiapi/CERT_SELECTUI_INPUT"]
+f1_keywords: 
+ - "cryptuiapi/CERT_SELECTUI_INPUT"
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

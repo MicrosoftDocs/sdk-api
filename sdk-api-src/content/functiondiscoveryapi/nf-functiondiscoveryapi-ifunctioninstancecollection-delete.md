@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.Delete"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionInstanceCollection.Delete"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

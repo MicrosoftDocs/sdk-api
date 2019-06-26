@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio interface [VDS],SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS],IVdsHwProviderPrivateMpio interface, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort"]
+f1_keywords: 
+ - "vdshwprv/IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

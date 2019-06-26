@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindDebugInfoFileEx, FindDebugInfoFileEx function, FindDebugInfoFileExW, _win32_finddebuginfofileex, base.finddebuginfofileex, dbghelp/FindDebugInfoFileEx, dbghelp/FindDebugInfoFileExW
 ms.topic: function
-f1_keywords: ["dbghelp/FindDebugInfoFileEx"]
+f1_keywords: 
+ - "dbghelp/FindDebugInfoFileEx"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

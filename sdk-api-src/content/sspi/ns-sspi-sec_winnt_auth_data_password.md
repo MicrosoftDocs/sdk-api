@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
 ms.topic: struct
-f1_keywords: ["sspi/SEC_WINNT_AUTH_DATA_PASSWORD"]
+f1_keywords: 
+ - "sspi/SEC_WINNT_AUTH_DATA_PASSWORD"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

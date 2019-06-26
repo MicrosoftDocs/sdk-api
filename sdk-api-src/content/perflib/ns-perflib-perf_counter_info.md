@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTER_INFO, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_COUNTER_INFO, PERF_COUNTER_INFO structure [Perf], PERF_COUNTER_INFO,*PPERF_COUNTER_INFO, PERF_COUNTER_INFO,*PPERF_COUNTER_INFO structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, base.perf_counter_info, perf.perf_counter_info, perflib/PERF_COUNTER_INFO"
 ms.topic: struct
-f1_keywords: ["perflib/PERF_COUNTER_INFO, *PPERF_COUNTER_INFO"]
+f1_keywords: 
+ - "perflib/PERF_COUNTER_INFO, *PPERF_COUNTER_INFO"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

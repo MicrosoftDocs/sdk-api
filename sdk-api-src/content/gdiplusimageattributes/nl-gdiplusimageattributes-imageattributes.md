@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes, ImageAttributes class [GDI+], ImageAttributes class [GDI+],described, _gdiplus_CLASS_ImageAttributes_Class, gdiplus._gdiplus_CLASS_ImageAttributes_Class, gdiplusimageattributes/ImageAttributes
 ms.topic: class
-f1_keywords: ["gdiplusimageattributes/ImageAttributes"]
+f1_keywords: 
+ - "gdiplusimageattributes/ImageAttributes"
 req.header: gdiplusimageattributes.h
 req.include-header: 
 req.target-type: Windows

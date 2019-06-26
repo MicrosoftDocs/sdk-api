@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionCommit method, IComTransactionEvents.OnTransactionCommit, IComTransactionEvents::OnTransactionCommit, OnTransactionCommit, OnTransactionCommit method [COM+], OnTransactionCommit method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionCommit, comsvcs/IComTransactionEvents::OnTransactionCommit, cos.icomtransactionevents_ontransactioncommit
 ms.topic: method
-f1_keywords: ["comsvcs/IComTransactionEvents.OnTransactionCommit"]
+f1_keywords: 
+ - "comsvcs/IComTransactionEvents.OnTransactionCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

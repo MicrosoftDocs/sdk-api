@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IRegisteredSyncProvider.Reset, IRegisteredSyncProvider::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
 ms.topic: method
-f1_keywords: ["syncregistration/IRegisteredSyncProvider.Reset"]
+f1_keywords: 
+ - "syncregistration/IRegisteredSyncProvider.Reset"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

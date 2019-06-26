@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToDoubleWithDefault"]
+f1_keywords: 
+ - "propvarutil/VariantToDoubleWithDefault"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

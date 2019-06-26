@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINET_PORT_RANGE, *PINET_PORT_RESERVATION, INET_PORT_RANGE, INET_PORT_RANGE structure [Winsock], INET_PORT_RESERVATION, PINET_PORT_RANGE, PINET_PORT_RANGE structure pointer [Winsock], mstcpip/INET_PORT_RANGE, mstcpip/PINET_PORT_RANGE, winsock.inet_port_range"
 ms.topic: struct
-f1_keywords: ["mstcpip/INET_PORT_RANGE"]
+f1_keywords: 
+ - "mstcpip/INET_PORT_RANGE"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearIndexing, ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],ClearIndexing method, IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
 ms.topic: method
-f1_keywords: ["wincodec/IWICJpegFrameDecode.ClearIndexing"]
+f1_keywords: 
+ - "wincodec/IWICJpegFrameDecode.ClearIndexing"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

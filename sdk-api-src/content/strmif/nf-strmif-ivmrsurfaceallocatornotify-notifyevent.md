@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],NotifyEvent method, IVMRSurfaceAllocatorNotify.NotifyEvent, IVMRSurfaceAllocatorNotify::NotifyEvent, IVMRSurfaceAllocatorNotifyNotifyEvent, NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_notifyevent, strmif/IVMRSurfaceAllocatorNotify::NotifyEvent
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify.NotifyEvent"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify.NotifyEvent"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

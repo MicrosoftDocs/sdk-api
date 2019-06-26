@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer, STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure, _win32_storage_hotplug_info_str, base.storage_hotplug_info_str, winioctl/PSTORAGE_HOTPLUG_INFO, winioctl/STORAGE_HOTPLUG_INFO"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_HOTPLUG_INFO"]
+f1_keywords: 
+ - "winioctl/STORAGE_HOTPLUG_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

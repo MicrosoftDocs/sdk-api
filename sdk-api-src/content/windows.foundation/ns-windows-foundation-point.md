@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.point
 ms.topic: struct
-f1_keywords: ["windows.foundation/Point"]
+f1_keywords: 
+ - "windows.foundation/Point"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

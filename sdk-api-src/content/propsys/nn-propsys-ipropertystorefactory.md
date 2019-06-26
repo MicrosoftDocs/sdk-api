@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], IPropertyStoreFactory interface [Windows Properties],described, _shell_IPropertyStoreFactory, properties.IPropertyStoreFactory, propsys/IPropertyStoreFactory, shell.IPropertyStoreFactory
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyStoreFactory"]
+f1_keywords: 
+ - "propsys/IPropertyStoreFactory"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

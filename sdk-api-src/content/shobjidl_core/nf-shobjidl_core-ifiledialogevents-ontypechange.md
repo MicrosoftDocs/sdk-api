@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnTypeChange method, IFileDialogEvents.OnTypeChange, IFileDialogEvents::OnTypeChange, OnTypeChange, OnTypeChange method [Windows Shell], OnTypeChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnTypeChange, shell_IFileDialogEvents_OnTypeChange, shobjidl_core/IFileDialogEvents::OnTypeChange
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogEvents.OnTypeChange"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogEvents.OnTypeChange"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

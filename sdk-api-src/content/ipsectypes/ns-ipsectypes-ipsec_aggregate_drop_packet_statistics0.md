@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_drop_packet_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

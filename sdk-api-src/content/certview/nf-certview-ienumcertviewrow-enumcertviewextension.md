@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], EnumCertViewExtension method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewExtension method, IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWROW.EnumCertViewExtension"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWROW.EnumCertViewExtension"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

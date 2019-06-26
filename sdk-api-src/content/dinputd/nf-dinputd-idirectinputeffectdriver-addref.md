@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],AddRef method, IDirectInputEffectDriver.AddRef, IDirectInputEffectDriver::AddRef, di_ref_9a9eb400-fa33-4643-b060-b047bd6e5818.xml, dinputd/IDirectInputEffectDriver::AddRef, hid.idirectinputeffectdriver_addref
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.AddRef"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.AddRef"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

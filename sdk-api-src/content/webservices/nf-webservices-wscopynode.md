@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
 ms.topic: function
-f1_keywords: ["webservices/WsCopyNode"]
+f1_keywords: 
+ - "webservices/WsCopyNode"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFlipRotator, CreateBitmapFlipRotator method [Windows Imaging Component], CreateBitmapFlipRotator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFlipRotator method, IWICImagingFactory.CreateBitmapFlipRotator, IWICImagingFactory::CreateBitmapFlipRotator, _wic_codec_iwicimagingfactory_createbitmapfliprotator, wic._wic_codec_iwicimagingfactory_createbitmapfliprotator, wincodec/IWICImagingFactory::CreateBitmapFlipRotator
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateBitmapFlipRotator"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateBitmapFlipRotator"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

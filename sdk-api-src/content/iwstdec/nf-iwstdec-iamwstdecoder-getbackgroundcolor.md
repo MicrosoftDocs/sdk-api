@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetBackgroundColor method, IAMWstDecoder.GetBackgroundColor, IAMWstDecoder::GetBackgroundColor, IAMWstDecoderGetBackgroundColor, dshow.iamwstdecoder_getbackgroundcolor, iwstdec/IAMWstDecoder::GetBackgroundColor
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.GetBackgroundColor"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.GetBackgroundColor"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

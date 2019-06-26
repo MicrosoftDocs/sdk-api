@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Microsoft TV Technologies], GetServiceType method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceType method, IDvbServiceDescriptor.GetServiceType, IDvbServiceDescriptor::GetServiceType, dvbsiparser/IDvbServiceDescriptor::GetServiceType, mstv.idvbservicedescriptor_getservicetype
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbServiceDescriptor.GetServiceType"]
+f1_keywords: 
+ - "dvbsiparser/IDvbServiceDescriptor.GetServiceType"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

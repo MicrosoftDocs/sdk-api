@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationFree, ApplicationFree method [COM], ApplicationFree method [COM],ISurrogateService interface, ISurrogateService interface [COM],ApplicationFree method, ISurrogateService.ApplicationFree, ISurrogateService::ApplicationFree, _com_isurrogateservice_applicationfree, com.isurrogateservice_applicationfree, objidl/ISurrogateService::ApplicationFree
 ms.topic: method
-f1_keywords: ["objidl/ISurrogateService.ApplicationFree"]
+f1_keywords: 
+ - "objidl/ISurrogateService.ApplicationFree"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

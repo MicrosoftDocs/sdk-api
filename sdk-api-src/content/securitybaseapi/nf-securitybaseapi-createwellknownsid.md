@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWellKnownSid, CreateWellKnownSid function [Security], _win32_createwellknownsid, security.createwellknownsid, securitybaseapi/CreateWellKnownSid
 ms.topic: function
-f1_keywords: ["securitybaseapi/CreateWellKnownSid"]
+f1_keywords: 
+ - "securitybaseapi/CreateWellKnownSid"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

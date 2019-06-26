@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/AddLogContainerSet, fs.addlogcontainerset
 ms.topic: function
-f1_keywords: ["clfsw32/AddLogContainerSet"]
+f1_keywords: 
+ - "clfsw32/AddLogContainerSet"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

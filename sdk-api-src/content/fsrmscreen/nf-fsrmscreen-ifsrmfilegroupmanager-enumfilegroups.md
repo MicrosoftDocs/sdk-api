@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFileGroups, EnumFileGroups method [File Server Resource Manager], EnumFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, EnumFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager.EnumFileGroups, IFsrmFileGroupManager::EnumFileGroups, fs.ifsrmfilegroupmanager_enumfilegroups, fsrm.ifsrmfilegroupmanager_enumfilegroups, fsrmscreen/IFsrmFileGroupManager::EnumFileGroups
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileGroupManager.EnumFileGroups"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileGroupManager.EnumFileGroups"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnSave method, IOleAdviseHolder.SendOnSave, IOleAdviseHolder::SendOnSave, SendOnSave, SendOnSave method [COM], SendOnSave method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonsave, com.ioleadviseholder_sendonsave, oleidl/IOleAdviseHolder::SendOnSave
 ms.topic: method
-f1_keywords: ["oleidl/IOleAdviseHolder.SendOnSave"]
+f1_keywords: 
+ - "oleidl/IOleAdviseHolder.SendOnSave"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaLogFlags method, IDiskQuotaControl.SetQuotaLogFlags, IDiskQuotaControl::SetQuotaLogFlags, SetQuotaLogFlags, SetQuotaLogFlags method [Files], SetQuotaLogFlags method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotalogflags, base.idiskquotacontrol_setquotalogflags, dskquota/IDiskQuotaControl::SetQuotaLogFlags, fs.idiskquotacontrol_setquotalogflags
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaControl.SetQuotaLogFlags"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaControl.SetQuotaLogFlags"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

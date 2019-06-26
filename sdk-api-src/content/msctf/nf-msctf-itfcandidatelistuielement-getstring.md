@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetString method, ITfCandidateListUIElement.GetString, ITfCandidateListUIElement::GetString, msctf/ITfCandidateListUIElement::GetString, tsf.itfcandidatelistuielement_getstring
 ms.topic: method
-f1_keywords: ["msctf/ITfCandidateListUIElement.GetString"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElement.GetString"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
 ms.topic: function
-f1_keywords: ["wincrypt/CryptVerifySignature"]
+f1_keywords: 
+ - "wincrypt/CryptVerifySignature"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

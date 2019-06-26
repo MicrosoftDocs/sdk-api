@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateProgress method, IOperationsProgressDialog.UpdateProgress, IOperationsProgressDialog::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateProgress, shell.IOperationsProgressDialog_UpdateProgress, shobjidl_core/IOperationsProgressDialog::UpdateProgress
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.UpdateProgress"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.UpdateProgress"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

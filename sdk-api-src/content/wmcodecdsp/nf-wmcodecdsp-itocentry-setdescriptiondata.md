@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocEntry.SetDescriptionData"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntry.SetDescriptionData"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

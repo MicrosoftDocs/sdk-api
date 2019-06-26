@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, security.wlxislockok, winwlx/WlxIsLockOk
 ms.topic: function
-f1_keywords: ["winwlx/WlxIsLockOk"]
+f1_keywords: 
+ - "winwlx/WlxIsLockOk"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

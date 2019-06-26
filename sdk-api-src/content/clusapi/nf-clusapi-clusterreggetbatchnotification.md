@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster], clusapi/ClusterRegGetBatchNotification, clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterreggetbatchnotification
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegGetBatchNotification"]
+f1_keywords: 
+ - "clusapi/ClusterRegGetBatchNotification"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

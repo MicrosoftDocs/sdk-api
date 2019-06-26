@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt2A, XMLoadInt2A, XMLoadInt2A method [DirectX Math Support APIs], dxmath.xmloadint2a
 ms.topic: function
-f1_keywords: ["directxmath/XMLoadInt2A"]
+f1_keywords: 
+ - "directxmath/XMLoadInt2A"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

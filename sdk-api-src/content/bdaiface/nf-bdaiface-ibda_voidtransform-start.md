@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Start method, IBDA_VoidTransform.Start, IBDA_VoidTransform::Start, IBDA_VoidTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Start, mstv.ibda_voidtransform_start
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_VoidTransform.Start"]
+f1_keywords: 
+ - "bdaiface/IBDA_VoidTransform.Start"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

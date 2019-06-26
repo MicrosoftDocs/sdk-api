@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRDPSRAPIViewer.RequestColorDepthChange, IRDPSRAPIViewer::RequestColorDepthChange, RequestColorDepthChange, RequestColorDepthChange method [RDP], RequestColorDepthChange method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcolordepthchange, rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIViewer.RequestColorDepthChange"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIViewer.RequestColorDepthChange"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

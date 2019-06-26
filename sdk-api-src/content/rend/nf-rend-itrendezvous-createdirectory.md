@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectory method, ITRendezvous.CreateDirectory, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
 ms.topic: method
-f1_keywords: ["rend/ITRendezvous.CreateDirectory"]
+f1_keywords: 
+ - "rend/ITRendezvous.CreateDirectory"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

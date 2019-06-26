@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
 ms.topic: function
-f1_keywords: ["shellapi/SHGetFileInfo"]
+f1_keywords: 
+ - "shellapi/SHGetFileInfo"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

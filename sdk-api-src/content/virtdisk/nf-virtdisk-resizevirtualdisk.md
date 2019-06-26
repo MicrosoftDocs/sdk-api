@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], virtdisk/ResizeVirtualDisk, vstor.resizevirtualdisk
 ms.topic: function
-f1_keywords: ["virtdisk/ResizeVirtualDisk"]
+f1_keywords: 
+ - "virtdisk/ResizeVirtualDisk"
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeClassName, GetRuntimeClassName method [Windows Runtime], GetRuntimeClassName method [Windows Runtime],IInputPaneInterop interface, GetRuntimeClassName method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetRuntimeClassName method, IInputPaneInterop::GetRuntimeClassName, IInspectable interface [Windows Runtime],GetRuntimeClassName method, IInspectable.GetRuntimeClassName, IInspectable::GetRuntimeClassName, inspectable/IInputPaneInterop::GetRuntimeClassName, inspectable/IInspectable::GetRuntimeClassName, winrt.iinspectable_getruntimeclassname
 ms.topic: method
-f1_keywords: ["inspectable/IInspectable.GetRuntimeClassName"]
+f1_keywords: 
+ - "inspectable/IInspectable.GetRuntimeClassName"
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

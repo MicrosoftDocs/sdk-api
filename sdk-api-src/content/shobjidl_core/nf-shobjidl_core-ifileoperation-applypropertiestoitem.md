@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItem method, IFileOperation.ApplyPropertiesToItem, IFileOperation::ApplyPropertiesToItem, _shell_IFileOperation_ApplyPropertiesToItem, shell.IFileOperation_ApplyPropertiesToItem, shobjidl_core/IFileOperation::ApplyPropertiesToItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperation.ApplyPropertiesToItem"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperation.ApplyPropertiesToItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

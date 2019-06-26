@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetTokenInformation"]
+f1_keywords: 
+ - "securitybaseapi/SetTokenInformation"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

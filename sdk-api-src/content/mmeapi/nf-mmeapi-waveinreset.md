@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInReset, mmeapi/waveInReset, multimedia.waveinreset, waveInReset, waveInReset function [Windows Multimedia]"
 ms.topic: function
-f1_keywords: ["mmeapi/waveInReset"]
+f1_keywords: 
+ - "mmeapi/waveInReset"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

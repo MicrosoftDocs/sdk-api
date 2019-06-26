@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],RegisterNotificationCallBack method, IAMTVAudio.RegisterNotificationCallBack, IAMTVAudio::RegisterNotificationCallBack, IAMTVAudioRegisterNotificationCallBack, RegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow],IAMTVAudio interface, dshow.iamtvaudio_registernotificationcallback, strmif/IAMTVAudio::RegisterNotificationCallBack
 ms.topic: method
-f1_keywords: ["strmif/IAMTVAudio.RegisterNotificationCallBack"]
+f1_keywords: 
+ - "strmif/IAMTVAudio.RegisterNotificationCallBack"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

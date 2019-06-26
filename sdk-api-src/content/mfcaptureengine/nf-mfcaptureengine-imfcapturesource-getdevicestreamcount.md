@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceStreamCount, GetDeviceStreamCount method [Media Foundation], GetDeviceStreamCount method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCount method, IMFCaptureSource.GetDeviceStreamCount, IMFCaptureSource::GetDeviceStreamCount, mf.imfcapturesource_getdevicestreamcount, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSource.GetDeviceStreamCount"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSource.GetDeviceStreamCount"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

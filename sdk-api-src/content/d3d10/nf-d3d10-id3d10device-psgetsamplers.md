@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 192d3ca7-55ed-f763-e7fe-8bb5eb1322a9, ID3D10Device interface [Direct3D 10],PSGetSamplers method, ID3D10Device.PSGetSamplers, ID3D10Device::PSGetSamplers, PSGetSamplers, PSGetSamplers method [Direct3D 10], PSGetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetSamplers, direct3d10.id3d10device_psgetsamplers
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.PSGetSamplers"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.PSGetSamplers"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

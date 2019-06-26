@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS structure [Security], PCRYPT_RSA_SSA_PSS_PARAMETERS, PCRYPT_RSA_SSA_PSS_PARAMETERS structure pointer [Security], security.crypt_rsa_ssa_pss_parameters, wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS, wincrypt/PCRYPT_RSA_SSA_PSS_PARAMETERS"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS"]
+f1_keywords: 
+ - "wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

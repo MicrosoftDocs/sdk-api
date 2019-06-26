@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], ITsSbEnvironment interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironment, termserv.itssbenvironment
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbEnvironment"]
+f1_keywords: 
+ - "sbtsv/ITsSbEnvironment"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

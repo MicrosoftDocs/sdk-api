@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetData method, IMFTimedTextCue.GetData, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetData"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue.GetData"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

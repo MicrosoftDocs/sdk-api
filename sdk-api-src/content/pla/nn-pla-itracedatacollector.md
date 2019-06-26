@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
 ms.topic: interface
-f1_keywords: ["pla/ITraceDataCollector"]
+f1_keywords: 
+ - "pla/ITraceDataCollector"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

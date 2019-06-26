@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMThumbnailGenerator"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMThumbnailGenerator"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

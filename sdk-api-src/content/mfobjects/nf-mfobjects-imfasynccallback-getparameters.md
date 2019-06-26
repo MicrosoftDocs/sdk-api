@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters method [Media Foundation], GetParameters method [Media Foundation],IMFAsyncCallback interface, IMFAsyncCallback interface [Media Foundation],GetParameters method, IMFAsyncCallback.GetParameters, IMFAsyncCallback::GetParameters, MFASYNC_BLOCKING_CALLBACK, MFASYNC_FAST_IO_PROCESSING_CALLBACK, MFASYNC_REPLY_CALLBACK, MFASYNC_SIGNAL_CALLBACK, Zero, mf.imfasynccallback_getparameters, mfobjects/IMFAsyncCallback::GetParameters
 ms.topic: method
-f1_keywords: ["mfobjects/IMFAsyncCallback.GetParameters"]
+f1_keywords: 
+ - "mfobjects/IMFAsyncCallback.GetParameters"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

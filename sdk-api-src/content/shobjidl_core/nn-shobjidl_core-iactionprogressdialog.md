@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog, IActionProgressDialog interface [Windows Shell], IActionProgressDialog interface [Windows Shell],described, _shell_IActionProgressDialog, shell.IActionProgressDialog, shobjidl_core/IActionProgressDialog
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IActionProgressDialog"]
+f1_keywords: 
+ - "shobjidl_core/IActionProgressDialog"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListPadInfo, GetListPadInfo method [MMC], GetListPadInfo method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetListPadInfo method, IExtendTaskPad.GetListPadInfo, IExtendTaskPad::GetListPadInfo, _slate_iextendtaskpad_getlistpadinfo, mmc.iextendtaskpad_getlistpadinfo, mmc/IExtendTaskPad::GetListPadInfo
 ms.topic: method
-f1_keywords: ["mmc/IExtendTaskPad.GetListPadInfo"]
+f1_keywords: 
+ - "mmc/IExtendTaskPad.GetListPadInfo"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

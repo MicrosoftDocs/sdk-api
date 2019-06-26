@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipEnumerator.Clone, IOpcRelationshipEnumerator::Clone, msopc/IOpcRelationshipEnumerator::Clone, opc.iopcrelationshipenumerator_clone
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationshipEnumerator.Clone"]
+f1_keywords: 
+ - "msopc/IOpcRelationshipEnumerator.Clone"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

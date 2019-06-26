@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER structure [Files], PFILE_QUERY_SPARING_BUFFER, PFILE_QUERY_SPARING_BUFFER structure pointer [Files], fs.file_query_sparing_buffer, winioctl/FILE_QUERY_SPARING_BUFFER, winioctl/PFILE_QUERY_SPARING_BUFFER"
 ms.topic: struct
-f1_keywords: ["winioctl/FILE_QUERY_SPARING_BUFFER"]
+f1_keywords: 
+ - "winioctl/FILE_QUERY_SPARING_BUFFER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

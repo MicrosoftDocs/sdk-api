@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Copy method, IUpdateCollection.Copy, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateCollection.Copy"]
+f1_keywords: 
+ - "wuapi/IUpdateCollection.Copy"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

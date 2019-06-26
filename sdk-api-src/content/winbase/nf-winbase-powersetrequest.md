@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
 ms.topic: function
-f1_keywords: ["winbase/PowerSetRequest"]
+f1_keywords: 
+ - "winbase/PowerSetRequest"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

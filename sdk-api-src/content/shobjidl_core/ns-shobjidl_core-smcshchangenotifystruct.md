@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT structure pointer [Windows Shell], SHCSCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT structure [Windows Shell], _win32_SMCSHCHANGENOTIFYSTRUCT, shell.SMCSHCHANGENOTIFYSTRUCT, shobjidl_core/PSMCSHCHANGENOTIFYSTRUCT, shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"
 ms.topic: struct
-f1_keywords: ["shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"]
+f1_keywords: 
+ - "shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

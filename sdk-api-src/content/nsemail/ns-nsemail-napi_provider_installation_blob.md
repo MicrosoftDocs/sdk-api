@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_INSTALLATION_BLOB, NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock], PNAPI_PROVIDER_INSTALLATION_BLOB, PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock], nsemail/NAPI_PROVIDER_INSTALLATION_BLOB, nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB, winsock.napi_provider_installation_blob
 ms.topic: struct
-f1_keywords: ["nsemail/NAPI_PROVIDER_INSTALLATION_BLOB"]
+f1_keywords: 
+ - "nsemail/NAPI_PROVIDER_INSTALLATION_BLOB"
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

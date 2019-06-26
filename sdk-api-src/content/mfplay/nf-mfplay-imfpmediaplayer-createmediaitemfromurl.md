@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.CreateMediaItemFromURL"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.CreateMediaItemFromURL"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

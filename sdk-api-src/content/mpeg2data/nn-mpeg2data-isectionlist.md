@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], ISectionList interface [Microsoft TV Technologies],described, ISectionListInterface, mpeg2data/ISectionList, mstv.isectionlist
 ms.topic: interface
-f1_keywords: ["mpeg2data/ISectionList"]
+f1_keywords: 
+ - "mpeg2data/ISectionList"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION0, IKEEXT_KERBEROS_AUTHENTICATION0 structure [Filtering], IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_kerberos_authentication0, iketypes/IKEEXT_KERBEROS_AUTHENTICATION0
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_KERBEROS_AUTHENTICATION0"]
+f1_keywords: 
+ - "iketypes/IKEEXT_KERBEROS_AUTHENTICATION0"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

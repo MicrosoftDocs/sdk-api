@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
 ms.topic: method
-f1_keywords: ["strmif/IAMStreamConfig.GetFormat"]
+f1_keywords: 
+ - "strmif/IAMStreamConfig.GetFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

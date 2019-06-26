@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthority interface [Security],Property property, ICertificationAuthority.Property, ICertificationAuthority.get_Property, ICertificationAuthority::Property, ICertificationAuthority::get_Property, Property property [Security], Property property [Security],ICertificationAuthority interface, certenroll/ICertificationAuthority::Property, certenroll/ICertificationAuthority::get_Property, get_Property, security.icertificationauthority_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertificationAuthority.Property"]
+f1_keywords: 
+ - "certenroll/ICertificationAuthority.Property"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

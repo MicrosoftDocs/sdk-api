@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER"
 ms.topic: struct
-f1_keywords: ["perflib/PERF_COUNTER_IDENTIFIER"]
+f1_keywords: 
+ - "perflib/PERF_COUNTER_IDENTIFIER"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

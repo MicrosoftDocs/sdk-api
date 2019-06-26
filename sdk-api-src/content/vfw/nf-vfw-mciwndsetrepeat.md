@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetRepeat, MCIWndSetRepeat macro [Windows Multimedia], _win32_MCIWndSetRepeat, multimedia.mciwndsetrepeat, vfw/MCIWndSetRepeat
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSetRepeat"]
+f1_keywords: 
+ - "vfw/MCIWndSetRepeat"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

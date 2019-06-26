@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCollection, GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetPropertyCollection method, IContactProperties.GetPropertyCollection, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
 ms.topic: method
-f1_keywords: ["icontact/IContactProperties.GetPropertyCollection"]
+f1_keywords: 
+ - "icontact/IContactProperties.GetPropertyCollection"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

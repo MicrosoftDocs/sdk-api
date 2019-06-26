@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
 ms.topic: method
-f1_keywords: ["mmc/IControlbar.Detach"]
+f1_keywords: 
+ - "mmc/IControlbar.Detach"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_VIDEO_PROCESSOR_COLOR_SPACE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE, mf.d3d11_video_processor_color_space
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE"]
+f1_keywords: 
+ - "d3d11/D3D11_VIDEO_PROCESSOR_COLOR_SPACE"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

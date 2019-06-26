@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx
 ms.topic: function
-f1_keywords: ["fileapi/LockFileEx"]
+f1_keywords: 
+ - "fileapi/LockFileEx"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

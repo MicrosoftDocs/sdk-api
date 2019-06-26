@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
 ms.topic: method
-f1_keywords: ["strmif/IGraphBuilder.Render"]
+f1_keywords: 
+ - "strmif/IGraphBuilder.Render"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
 ms.topic: function
-f1_keywords: ["wininet/InternetGetCookie"]
+f1_keywords: 
+ - "wininet/InternetGetCookie"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

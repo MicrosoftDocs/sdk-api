@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASSOCDATA, ASSOCDATA enumeration [Windows Shell], ASSOCDATA_EDITFLAGS, ASSOCDATA_HASPERUSERASSOC, ASSOCDATA_MSIDESCRIPTOR, ASSOCDATA_NOACTIVATEHANDLER, ASSOCDATA_QUERYCLASSSTORE, ASSOCDATA_VALUE, _win32_ASSOCDATA_str, shell.ASSOCDATA_str, shlwapi/ASSOCDATA, shlwapi/ASSOCDATA_EDITFLAGS, shlwapi/ASSOCDATA_HASPERUSERASSOC, shlwapi/ASSOCDATA_MSIDESCRIPTOR, shlwapi/ASSOCDATA_NOACTIVATEHANDLER, shlwapi/ASSOCDATA_QUERYCLASSSTORE, shlwapi/ASSOCDATA_VALUE
 ms.topic: enum
-f1_keywords: ["shlwapi/ASSOCDATA"]
+f1_keywords: 
+ - "shlwapi/ASSOCDATA"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

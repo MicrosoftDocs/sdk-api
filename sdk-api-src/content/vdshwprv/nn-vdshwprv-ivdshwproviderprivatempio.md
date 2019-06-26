@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsHwProviderPrivateMpio"]
+f1_keywords: 
+ - "vdshwprv/IVdsHwProviderPrivateMpio"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

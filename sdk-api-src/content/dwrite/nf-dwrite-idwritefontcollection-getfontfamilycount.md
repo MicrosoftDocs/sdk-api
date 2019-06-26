@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyCount, GetFontFamilyCount method [Direct Write], GetFontFamilyCount method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFamilyCount method, IDWriteFontCollection.GetFontFamilyCount, IDWriteFontCollection::GetFontFamilyCount, directwrite.IDWriteFontCollection_GetFontFamilyCount, dwrite/IDWriteFontCollection::GetFontFamilyCount
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontCollection.GetFontFamilyCount"]
+f1_keywords: 
+ - "dwrite/IDWriteFontCollection.GetFontFamilyCount"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

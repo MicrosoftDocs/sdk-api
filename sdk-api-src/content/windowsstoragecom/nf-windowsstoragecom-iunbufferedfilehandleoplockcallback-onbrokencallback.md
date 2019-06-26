@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
 ms.topic: method
-f1_keywords: ["windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback"]
+f1_keywords: 
+ - "windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback"
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

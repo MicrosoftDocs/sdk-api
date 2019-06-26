@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
 ms.topic: method
-f1_keywords: ["austream/IMemoryData.GetInfo"]
+f1_keywords: 
+ - "austream/IMemoryData.GetInfo"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

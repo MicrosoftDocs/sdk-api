@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary.CreateInstantaneousTransition, IUIAnimationTransitionLibrary::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateInstantaneousTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateInstantaneousTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

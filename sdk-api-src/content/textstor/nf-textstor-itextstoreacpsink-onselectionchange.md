@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACPSink.OnSelectionChange"]
+f1_keywords: 
+ - "textstor/ITextStoreACPSink.OnSelectionChange"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

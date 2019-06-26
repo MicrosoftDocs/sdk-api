@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT"
 ms.topic: struct
-f1_keywords: ["wingdi/GLYPHMETRICSFLOAT"]
+f1_keywords: 
+ - "wingdi/GLYPHMETRICSFLOAT"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

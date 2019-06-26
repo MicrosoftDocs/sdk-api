@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_OPM_ESTABLISHED, MF_MEDIA_ENGINE_OPM_FAILED, MF_MEDIA_ENGINE_OPM_FAILED_BDA, MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, MF_MEDIA_ENGINE_OPM_FAILED_VM, MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, MF_MEDIA_ENGINE_OPM_STATUS, MF_MEDIA_ENGINE_OPM_STATUS enumeration [Media Foundation], mf.mf_media_engine_opm_status, mfmediaengine/MF_MEDIA_ENGINE_OPM_ESTABLISHED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_BDA, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_VM, mfmediaengine/MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS"]
+f1_keywords: 
+ - "mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

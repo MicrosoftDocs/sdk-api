@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCPInfo, GetCPInfo function [Internationalization for Windows Applications], _win32_GetCPInfo, intl.getcpinfo, winnls/GetCPInfo
 ms.topic: function
-f1_keywords: ["winnls/GetCPInfo"]
+f1_keywords: 
+ - "winnls/GetCPInfo"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

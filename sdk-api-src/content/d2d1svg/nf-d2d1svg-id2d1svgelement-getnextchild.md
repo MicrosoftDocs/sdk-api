@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextChild, GetNextChild method [Direct2D], GetNextChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetNextChild method, ID2D1SvgElement.GetNextChild, ID2D1SvgElement::GetNextChild, d2d1svg/ID2D1SvgElement::GetNextChild, direct2d.id2d1svgelement_getnextchild
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.GetNextChild"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.GetNextChild"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

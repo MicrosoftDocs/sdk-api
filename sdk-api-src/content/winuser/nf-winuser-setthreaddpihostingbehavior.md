@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
 ms.topic: function
-f1_keywords: ["winuser/SetThreadDpiHostingBehavior"]
+f1_keywords: 
+ - "winuser/SetThreadDpiHostingBehavior"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

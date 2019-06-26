@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMATRIX.operator *, Use DirectX::::XMMATRIX::operator *, XMMATRIX structure [DirectX Math Support APIs],operator * method, XMMATRIX.operator *, XMMATRIX.operator*, XMMATRIX.operator-mult, XMMATRIX::operator*, XMMATRIX::operator-mult, dxmath.xmmatrix_operator_mul, operator * method [DirectX Math Support APIs], operator * method [DirectX Math Support APIs],XMMATRIX structure, operator*
 ms.topic: method
-f1_keywords: ["directxmath/XMMATRIX.operator *"]
+f1_keywords: 
+ - "directxmath/XMMATRIX.operator *"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

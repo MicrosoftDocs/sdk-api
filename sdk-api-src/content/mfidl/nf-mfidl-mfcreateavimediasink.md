@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateAVIMediaSink"]
+f1_keywords: 
+ - "mfidl/MFCreateAVIMediaSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

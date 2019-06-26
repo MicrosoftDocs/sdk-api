@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDC_DEFAULT, DDC_DISABLE_ALL, DDC_DISABLE_CONTROL_RELAYOUT, DDC_DISABLE_RESIZE, DIALOG_DPI_CHANGE_BEHAVIORS, DIALOG_DPI_CHANGE_BEHAVIORS enumeration [High DPI], hidpi.dialog_dpi_change_behaviors, winuser/DDC_DEFAULT, winuser/DDC_DISABLE_ALL, winuser/DDC_DISABLE_CONTROL_RELAYOUT, winuser/DDC_DISABLE_RESIZE, winuser/DIALOG_DPI_CHANGE_BEHAVIORS
 ms.topic: enum
-f1_keywords: ["winuser/DIALOG_DPI_CHANGE_BEHAVIORS"]
+f1_keywords: 
+ - "winuser/DIALOG_DPI_CHANGE_BEHAVIORS"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

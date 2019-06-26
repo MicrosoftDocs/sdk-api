@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_APPLICATION_ALL_USERS, PEER_APPLICATION_CURRENT_USER, PEER_APPLICATION_REGISTRATION_TYPE, PEER_APPLICATION_REGISTRATION_TYPE enumeration [Peer Networking], p2p.peer_application_registration_type, p2p/PEER_APPLICATION_ALL_USERS, p2p/PEER_APPLICATION_CURRENT_USER, p2p/PEER_APPLICATION_REGISTRATION_TYPE
 ms.topic: enum
-f1_keywords: ["p2p/PEER_APPLICATION_REGISTRATION_TYPE"]
+f1_keywords: 
+ - "p2p/PEER_APPLICATION_REGISTRATION_TYPE"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

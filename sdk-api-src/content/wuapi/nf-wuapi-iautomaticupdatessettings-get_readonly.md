@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ReadOnly property, IAutomaticUpdatesSettings.ReadOnly, IAutomaticUpdatesSettings.get_ReadOnly, IAutomaticUpdatesSettings::ReadOnly, IAutomaticUpdatesSettings::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ReadOnly, wua.iautomaticupdatessettings_readonly, wuapi/IAutomaticUpdatesSettings::ReadOnly, wuapi/IAutomaticUpdatesSettings::get_ReadOnly
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdatesSettings.ReadOnly"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdatesSettings.ReadOnly"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

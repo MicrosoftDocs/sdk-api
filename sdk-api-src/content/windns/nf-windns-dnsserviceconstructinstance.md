@@ -5,7 +5,8 @@ description: Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instan
 ms.date: 02/14/2019
 ms.keywords: DnsServiceConstructInstance
 ms.topic: language-reference
-f1_keywords: ["windns/DnsServiceConstructInstance"]
+f1_keywords: 
+ - "windns/DnsServiceConstructInstance"
 targetos: Windows
 product: Windows
 req.assembly: 

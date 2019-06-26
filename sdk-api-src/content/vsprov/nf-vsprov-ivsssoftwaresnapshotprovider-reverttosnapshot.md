@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
 ms.topic: method
-f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot"]
+f1_keywords: 
+ - "vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

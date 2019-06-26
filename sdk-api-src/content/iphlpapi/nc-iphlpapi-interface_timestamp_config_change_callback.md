@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK, INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK callback, INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK callback function [IP Helper], iphlp.interface_timestamp_config_change_callback, iphlpapi/INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK
 ms.topic: callback
-f1_keywords: ["iphlpapi/INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK"]
+f1_keywords: 
+ - "iphlpapi/INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

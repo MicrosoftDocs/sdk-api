@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetString method, IPropertyValue.GetString, IPropertyValue.IPropertyValue, IPropertyValue::GetString, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetString, winrt.ipropertyvalue_getstring
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetString"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetString"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

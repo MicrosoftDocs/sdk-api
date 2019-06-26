@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOleInPlaceSiteWindowless.InvalidateRgn, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless.InvalidateRgn"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless.InvalidateRgn"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

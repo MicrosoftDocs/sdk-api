@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_GetLong, FLOATOBJ_GetLong function [Display Devices], display.floatobj_getlong, gdifncs_bed59b75-53b6-4f6c-975f-a927c5855f2a.xml, winddi/FLOATOBJ_GetLong
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_GetLong"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_GetLong"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

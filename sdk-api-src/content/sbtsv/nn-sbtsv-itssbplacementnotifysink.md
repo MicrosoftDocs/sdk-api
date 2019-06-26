@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbPlacementNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbPlacementNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

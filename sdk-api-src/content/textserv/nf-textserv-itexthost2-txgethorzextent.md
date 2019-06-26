@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetHorzExtent method, ITextHost2.TxGetHorzExtent, ITextHost2::TxGetHorzExtent, TxGetHorzExtent, TxGetHorzExtent method [Windows Controls], TxGetHorzExtent method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgethorzextent, textserv/ITextHost2::TxGetHorzExtent
 ms.topic: method
-f1_keywords: ["textserv/ITextHost2.TxGetHorzExtent"]
+f1_keywords: 
+ - "textserv/ITextHost2.TxGetHorzExtent"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

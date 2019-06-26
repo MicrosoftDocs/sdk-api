@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectStatus, GetEffectStatus method [Human Input Devices], GetEffectStatus method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetEffectStatus method, IDirectInputEffectDriver.GetEffectStatus, IDirectInputEffectDriver::GetEffectStatus, di_ref_983ce615-4a09-4d28-af9d-968cd6c7054f.xml, dinputd/IDirectInputEffectDriver::GetEffectStatus, hid.idirectinputeffectdriver_geteffectstatus
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.GetEffectStatus"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.GetEffectStatus"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

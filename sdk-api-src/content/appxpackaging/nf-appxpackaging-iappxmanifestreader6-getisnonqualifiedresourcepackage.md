@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxManifestReader6 interface, IAppxManifestReader6 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxManifestReader6.GetIsNonQualifiedResourcePackage, IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxManifestReader6::GetIsNonQualifiedResourcePackage, appxpkg.iappxmanifestreader6_getisnonqualifiedresourcepackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestReader6.GetIsNonQualifiedResourcePackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader6.GetIsNonQualifiedResourcePackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

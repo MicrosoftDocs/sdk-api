@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityCreate, PeerIdentityCreate function [Peer Networking], p2p.peeridentitycreate, p2p/PeerIdentityCreate
 ms.topic: function
-f1_keywords: ["p2p/PeerIdentityCreate"]
+f1_keywords: 
+ - "p2p/PeerIdentityCreate"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

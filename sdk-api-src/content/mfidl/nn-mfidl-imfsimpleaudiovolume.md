@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], IMFSimpleAudioVolume interface [Media Foundation],described, mf.imfsimpleaudiovolume, mfidl/IMFSimpleAudioVolume
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSimpleAudioVolume"]
+f1_keywords: 
+ - "mfidl/IMFSimpleAudioVolume"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

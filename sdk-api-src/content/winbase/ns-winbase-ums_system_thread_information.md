@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION, PUMS_SYSTEM_THREAD_INFORMATION structure pointer, UMS_SYSTEM_THREAD_INFORMATION, UMS_SYSTEM_THREAD_INFORMATION structure, _UMS_SYSTEM_THREAD_INFORMATION, base.ums_system_thread_information, winbase/PUMS_SYSTEM_THREAD_INFORMATION, winbase/UMS_SYSTEM_THREAD_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winbase/UMS_SYSTEM_THREAD_INFORMATION"]
+f1_keywords: 
+ - "winbase/UMS_SYSTEM_THREAD_INFORMATION"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

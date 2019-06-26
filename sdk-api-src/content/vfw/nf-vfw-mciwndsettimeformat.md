@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetTimeFormat, MCIWndSetTimeFormat macro [Windows Multimedia], _win32_MCIWndSetTimeFormat, multimedia.mciwndsettimeformat, vfw/MCIWndSetTimeFormat
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSetTimeFormat"]
+f1_keywords: 
+ - "vfw/MCIWndSetTimeFormat"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

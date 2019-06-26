@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], ID3D11VideoDevice interface [Media Foundation],described, d3d11/ID3D11VideoDevice, mf.id3d11videodevice
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11VideoDevice"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoDevice"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

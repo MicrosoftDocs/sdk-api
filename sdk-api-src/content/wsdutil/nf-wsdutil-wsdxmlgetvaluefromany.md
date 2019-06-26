@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLGetValueFromAny, WSDXMLGetValueFromAny function, ncd.wsdxmlgetvaluefromany, wsdutil/WSDXMLGetValueFromAny
 ms.topic: function
-f1_keywords: ["wsdutil/WSDXMLGetValueFromAny"]
+f1_keywords: 
+ - "wsdutil/WSDXMLGetValueFromAny"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

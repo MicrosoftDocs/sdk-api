@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetConversionStatus, ImmGetConversionStatus function [Internationalization for Windows Applications], _win32_ImmGetConversionStatus, imm/ImmGetConversionStatus, intl.immgetconversionstatus
 ms.topic: function
-f1_keywords: ["immdev/ImmGetConversionStatus"]
+f1_keywords: 
+ - "immdev/ImmGetConversionStatus"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

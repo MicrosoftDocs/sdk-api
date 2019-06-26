@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_ToAsciiEx, _win32_toasciiex_cpp, inputdev.toasciiex, winui._win32_toasciiex, winuser/ToAsciiEx
 ms.topic: function
-f1_keywords: ["winuser/ToAsciiEx"]
+f1_keywords: 
+ - "winuser/ToAsciiEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

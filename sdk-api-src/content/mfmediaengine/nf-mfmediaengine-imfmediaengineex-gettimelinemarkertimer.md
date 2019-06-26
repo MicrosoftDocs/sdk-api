@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimelineMarkerTimer, GetTimelineMarkerTimer method [Media Foundation], GetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetTimelineMarkerTimer method, IMFMediaEngineEx.GetTimelineMarkerTimer, IMFMediaEngineEx::GetTimelineMarkerTimer, mf.imfmediaengineex_gettimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::GetTimelineMarkerTimer
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.GetTimelineMarkerTimer"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.GetTimelineMarkerTimer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Name property, IAzTask interface [Security],Name property, IAzTask.Name, IAzTask.get_Name, IAzTask::Name, IAzTask::get_Name, IAzTask::put_Name, Name property [Security], Name property [Security],AzTask object, Name property [Security],IAzTask interface, azroles/IAzTask::Name, azroles/IAzTask::get_Name, azroles/IAzTask::put_Name, get_Name, security.iaztask_name
 ms.topic: method
-f1_keywords: ["azroles/IAzTask.Name"]
+f1_keywords: 
+ - "azroles/IAzTask.Name"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

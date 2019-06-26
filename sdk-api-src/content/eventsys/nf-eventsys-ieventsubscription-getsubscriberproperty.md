@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
 ms.topic: method
-f1_keywords: ["eventsys/IEventSubscription.GetSubscriberProperty"]
+f1_keywords: 
+ - "eventsys/IEventSubscription.GetSubscriberProperty"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AzRole object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzRole object, DeletePropertyItem method [Security],IAzRole interface, IAzRole interface [Security],DeletePropertyItem method, IAzRole.DeletePropertyItem, IAzRole::DeletePropertyItem, azroles/IAzRole::DeletePropertyItem, security.iazrole_deletepropertyitem
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.DeletePropertyItem"]
+f1_keywords: 
+ - "azroles/IAzRole.DeletePropertyItem"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

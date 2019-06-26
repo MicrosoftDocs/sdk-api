@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
 ms.topic: function
-f1_keywords: ["sspi/SaslIdentifyPackage"]
+f1_keywords: 
+ - "sspi/SaslIdentifyPackage"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

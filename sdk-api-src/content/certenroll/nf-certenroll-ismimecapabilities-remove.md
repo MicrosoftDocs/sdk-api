@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapabilities interface [Security],Remove method, ISmimeCapabilities.Remove, ISmimeCapabilities::Remove, Remove, Remove method [Security], Remove method [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::Remove, security.ismimecapabilities_remove_method
 ms.topic: method
-f1_keywords: ["certenroll/ISmimeCapabilities.Remove"]
+f1_keywords: 
+ - "certenroll/ISmimeCapabilities.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

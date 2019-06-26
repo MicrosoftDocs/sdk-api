@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVideoWindow.SetWindowForeground, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.SetWindowForeground"]
+f1_keywords: 
+ - "control/IVideoWindow.SetWindowForeground"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

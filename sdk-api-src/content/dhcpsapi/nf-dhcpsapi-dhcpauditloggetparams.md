@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpAuditLogGetParams, DhcpAuditLogGetParams function [DHCP], dhcp.dhcpauditloggetparams, dhcpsapi/DhcpAuditLogGetParams
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpAuditLogGetParams"]
+f1_keywords: 
+ - "dhcpsapi/DhcpAuditLogGetParams"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

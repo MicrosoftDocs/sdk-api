@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminInterfaceConnect"]
+f1_keywords: 
+ - "mprapi/MprAdminInterfaceConnect"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

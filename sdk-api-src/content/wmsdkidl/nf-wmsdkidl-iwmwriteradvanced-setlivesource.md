@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetLiveSource method, IWMWriterAdvanced.SetLiveSource, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.SetLiveSource"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.SetLiveSource"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

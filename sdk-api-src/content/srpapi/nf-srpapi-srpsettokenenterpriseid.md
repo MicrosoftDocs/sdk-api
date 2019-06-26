@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
 ms.topic: function
-f1_keywords: ["srpapi/SrpSetTokenEnterpriseId"]
+f1_keywords: 
+ - "srpapi/SrpSetTokenEnterpriseId"
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

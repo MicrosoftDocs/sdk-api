@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
 ms.topic: interface
-f1_keywords: ["strmif/IVMRMixerControl"]
+f1_keywords: 
+ - "strmif/IVMRMixerControl"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

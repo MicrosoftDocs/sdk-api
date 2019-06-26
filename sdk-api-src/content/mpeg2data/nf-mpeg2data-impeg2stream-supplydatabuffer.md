@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],SupplyDataBuffer method, IMpeg2Stream.SupplyDataBuffer, IMpeg2Stream::SupplyDataBuffer, IMpeg2StreamSupplyDataBuffer, SupplyDataBuffer, SupplyDataBuffer method [Microsoft TV Technologies], SupplyDataBuffer method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::SupplyDataBuffer, mstv.impeg2stream_supplydatabuffer
 ms.topic: method
-f1_keywords: ["mpeg2data/IMpeg2Stream.SupplyDataBuffer"]
+f1_keywords: 
+ - "mpeg2data/IMpeg2Stream.SupplyDataBuffer"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

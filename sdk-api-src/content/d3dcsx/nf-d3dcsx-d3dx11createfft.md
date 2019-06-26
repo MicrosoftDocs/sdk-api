@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DX11CreateFFT, D3DX11CreateFFT function [Direct3D 11], ca8c0d76-37a0-9faf-2e44-4ead20994182, d3dcsx/D3DX11CreateFFT, direct3d11.d3dx11createfft
 ms.topic: function
-f1_keywords: ["d3dcsx/D3DX11CreateFFT"]
+f1_keywords: 
+ - "d3dcsx/D3DX11CreateFFT"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

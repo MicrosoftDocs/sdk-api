@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.get_MeasurementPeriod"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.get_MeasurementPeriod"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

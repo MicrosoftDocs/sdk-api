@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
 ms.topic: function
-f1_keywords: ["winbase/WinExec"]
+f1_keywords: 
+ - "winbase/WinExec"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

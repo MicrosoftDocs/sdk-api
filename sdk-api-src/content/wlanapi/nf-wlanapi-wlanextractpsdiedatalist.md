@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
 ms.topic: function
-f1_keywords: ["wlanapi/WlanExtractPsdIEDataList"]
+f1_keywords: 
+ - "wlanapi/WlanExtractPsdIEDataList"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

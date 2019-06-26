@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accName"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accName"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

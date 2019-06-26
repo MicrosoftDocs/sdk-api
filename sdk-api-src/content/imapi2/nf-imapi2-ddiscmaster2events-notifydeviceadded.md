@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
 ms.topic: method
-f1_keywords: ["imapi2/DDiscMaster2Events.NotifyDeviceAdded"]
+f1_keywords: 
+ - "imapi2/DDiscMaster2Events.NotifyDeviceAdded"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

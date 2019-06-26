@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],XmlText property, IActionCollection.XmlText, IActionCollection.put_XmlText, IActionCollection::XmlText, IActionCollection::get_XmlText, IActionCollection::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IActionCollection interface, put_XmlText, taskschd.iactioncollection_xmltext, taskschd/IActionCollection::XmlText, taskschd/IActionCollection::get_XmlText, taskschd/IActionCollection::put_XmlText
 ms.topic: method
-f1_keywords: ["taskschd/IActionCollection.XmlText"]
+f1_keywords: 
+ - "taskschd/IActionCollection.XmlText"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

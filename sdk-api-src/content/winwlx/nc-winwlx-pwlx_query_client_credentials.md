@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_CLIENT_CREDENTIALS, PWLX_QUERY_CLIENT_CREDENTIALS callback, WlxQueryClientCredentials, WlxQueryClientCredentials callback function [Security], _gina_wlxqueryclientcredentials, security.wlxqueryclientcredentials, winwlx/WlxQueryClientCredentials
 ms.topic: callback
-f1_keywords: ["winwlx/WlxQueryClientCredentials"]
+f1_keywords: 
+ - "winwlx/WlxQueryClientCredentials"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

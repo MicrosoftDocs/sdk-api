@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],PutEx method, IADs.PutEx, IADs::PutEx, PutEx, PutEx method [ADSI], PutEx method [ADSI],IADs interface, _ds_iads_putex, adsi.iads__putex, adsi.iads_putex, iads/IADs::PutEx
 ms.topic: method
-f1_keywords: ["iads/IADs.PutEx"]
+f1_keywords: 
+ - "iads/IADs.PutEx"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

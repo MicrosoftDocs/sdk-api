@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageNote property, IFaxDoc.CoverpageNote, IFaxDoc.put_CoverpageNote, IFaxDoc::CoverpageNote, IFaxDoc::get_CoverpageNote, IFaxDoc::put_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagenote_cpp, faxcom/IFaxDoc::CoverpageNote, faxcom/IFaxDoc::get_CoverpageNote, faxcom/IFaxDoc::put_CoverpageNote, put_CoverpageNote
 ms.topic: method
-f1_keywords: ["faxcom/IFaxDoc.CoverpageNote"]
+f1_keywords: 
+ - "faxcom/IFaxDoc.CoverpageNote"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

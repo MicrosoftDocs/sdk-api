@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsBlocked method, IMSVidStreamBufferSourceEvent.RatingsBlocked, IMSVidStreamBufferSourceEvent::RatingsBlocked, IMSVidStreamBufferSourceEventRatingsBlocked, RatingsBlocked, RatingsBlocked method [Microsoft TV Technologies], RatingsBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsblocked, segment/IMSVidStreamBufferSourceEvent::RatingsBlocked
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent.RatingsBlocked"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent.RatingsBlocked"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

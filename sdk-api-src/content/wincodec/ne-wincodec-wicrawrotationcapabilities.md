@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICRawRotationCapabilities, WICRawRotationCapabilities enumeration [Windows Imaging Component], WICRawRotationCapabilityFullySupported, WICRawRotationCapabilityGetSupported, WICRawRotationCapabilityNinetyDegreesSupported, WICRawRotationCapabilityNotSupported, _wic_codec_wicrawrotationcapabilities, wic._wic_codec_wicrawrotationcapabilities, wincodec/WICRawRotationCapabilities, wincodec/WICRawRotationCapabilityFullySupported, wincodec/WICRawRotationCapabilityGetSupported, wincodec/WICRawRotationCapabilityNinetyDegreesSupported, wincodec/WICRawRotationCapabilityNotSupported
 ms.topic: enum
-f1_keywords: ["wincodec/WICRawRotationCapabilities"]
+f1_keywords: 
+ - "wincodec/WICRawRotationCapabilities"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

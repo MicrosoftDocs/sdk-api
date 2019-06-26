@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_RESTART_REASON, ONEX_AUTH_RESTART_REASON enumeration [NativeWIFI], OneXRestartReasonAltCredsTrial, OneXRestartReasonInvalid, OneXRestartReasonMsmInitiated, OneXRestartReasonOneXAuthTimeout, OneXRestartReasonOneXConfigurationChanged, OneXRestartReasonOneXHeldStateTimeout, OneXRestartReasonOneXUserChanged, OneXRestartReasonPeerInitiated, OneXRestartReasonQuarantineStateChanged, PONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_RESTART_REASON, dot1x/OneXRestartReasonAltCredsTrial, dot1x/OneXRestartReasonInvalid, dot1x/OneXRestartReasonMsmInitiated, dot1x/OneXRestartReasonOneXAuthTimeout, dot1x/OneXRestartReasonOneXConfigurationChanged, dot1x/OneXRestartReasonOneXHeldStateTimeout, dot1x/OneXRestartReasonOneXUserChanged, dot1x/OneXRestartReasonPeerInitiated, dot1x/OneXRestartReasonQuarantineStateChanged, dot1x/PONEX_AUTH_RESTART_REASON, nwifi.onex_auth_restart_reason
 ms.topic: enum
-f1_keywords: ["dot1x/ONEX_AUTH_RESTART_REASON"]
+f1_keywords: 
+ - "dot1x/ONEX_AUTH_RESTART_REASON"
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

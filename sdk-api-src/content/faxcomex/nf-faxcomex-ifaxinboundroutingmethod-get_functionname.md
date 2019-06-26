@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],FunctionName property, IFaxInboundRoutingMethod.FunctionName, IFaxInboundRoutingMethod.get_FunctionName, IFaxInboundRoutingMethod::FunctionName, IFaxInboundRoutingMethod::get_FunctionName, _mfax_faxinboundroutingmethod.functionname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_functionname_cpp, fax._mfax_faxinboundroutingmethod_functionname, faxcomex/IFaxInboundRoutingMethod::FunctionName, faxcomex/IFaxInboundRoutingMethod::get_FunctionName, get_FunctionName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxInboundRoutingMethod.FunctionName"]
+f1_keywords: 
+ - "faxcomex/IFaxInboundRoutingMethod.FunctionName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

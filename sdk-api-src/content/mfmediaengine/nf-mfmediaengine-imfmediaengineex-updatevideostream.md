@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],UpdateVideoStream method, IMFMediaEngineEx.UpdateVideoStream, IMFMediaEngineEx::UpdateVideoStream, UpdateVideoStream, UpdateVideoStream method [Media Foundation], UpdateVideoStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_updatevideostream, mfmediaengine/IMFMediaEngineEx::UpdateVideoStream
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.UpdateVideoStream"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.UpdateVideoStream"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

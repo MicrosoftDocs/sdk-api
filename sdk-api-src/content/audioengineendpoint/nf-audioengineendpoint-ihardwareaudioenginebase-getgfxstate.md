@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGfxState, GetGfxState method [Core Audio], GetGfxState method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetGfxState method, IHardwareAudioEngineBase.GetGfxState, IHardwareAudioEngineBase::GetGfxState, audioengineendpoint/IHardwareAudioEngineBase::GetGfxState, coreaudio.ihardwareaudioenginebase_getgfxstate
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IHardwareAudioEngineBase.GetGfxState"]
+f1_keywords: 
+ - "audioengineendpoint/IHardwareAudioEngineBase.GetGfxState"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

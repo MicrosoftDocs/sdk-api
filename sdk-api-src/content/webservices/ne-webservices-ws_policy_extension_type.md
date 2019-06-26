@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION_TYPE, webservices/WS_POLICY_EXTENSION_TYPE, wsw.ws_policy_extension_type
 ms.topic: enum
-f1_keywords: ["webservices/WS_POLICY_EXTENSION_TYPE"]
+f1_keywords: 
+ - "webservices/WS_POLICY_EXTENSION_TYPE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageReference, GetImageReference method [Windows Properties], GetImageReference method [Windows Properties],IPropertyEnumType2 interface, IPropertyEnumType2 interface [Windows Properties],GetImageReference method, IPropertyEnumType2.GetImageReference, IPropertyEnumType2::GetImageReference, _shell_IPropertyEnumType2_GetImageReference, properties.IPropertyEnumType2_GetImageReference, propsys/IPropertyEnumType2::GetImageReference, shell.IPropertyEnumType2_GetImageReference
 ms.topic: method
-f1_keywords: ["propsys/IPropertyEnumType2.GetImageReference"]
+f1_keywords: 
+ - "propsys/IPropertyEnumType2.GetImageReference"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

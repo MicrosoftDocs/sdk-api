@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_READER_STATISTICS, WM_READER_STATISTICS structure [windows Media Format], wmformat.wm_reader_statistics, wmsdkidl/WM_READER_STATISTICS
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_READER_STATISTICS"]
+f1_keywords: 
+ - "wmsdkidl/WM_READER_STATISTICS"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

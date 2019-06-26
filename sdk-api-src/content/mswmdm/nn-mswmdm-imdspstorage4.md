@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], IMDSPStorage4 interface [windows Media Device Manager],described, IMDSPStorage4Interface, mswmdm/IMDSPStorage4, wmdm.imdspstorage4
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPStorage4"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage4"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

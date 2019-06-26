@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CountClipboardFormats, CountClipboardFormats function [Data Exchange], _win32_CountClipboardFormats, _win32_countclipboardformats_cpp, dataxchg.countclipboardformats, winui._win32_countclipboardformats, winuser/CountClipboardFormats
 ms.topic: function
-f1_keywords: ["winuser/CountClipboardFormats"]
+f1_keywords: 
+ - "winuser/CountClipboardFormats"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

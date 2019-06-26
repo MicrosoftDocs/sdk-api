@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate method, IOleInPlaceActiveObject.OnFrameWindowActivate, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceActiveObject.OnFrameWindowActivate"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceActiveObject.OnFrameWindowActivate"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

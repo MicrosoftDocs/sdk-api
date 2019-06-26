@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate.get_DriverProvider, IWindowsDriverUpdate::DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdate.DriverProvider"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdate.DriverProvider"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

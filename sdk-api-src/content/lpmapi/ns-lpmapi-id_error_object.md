@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
 ms.topic: struct
-f1_keywords: ["lpmapi/ID_ERROR_OBJECT"]
+f1_keywords: 
+ - "lpmapi/ID_ERROR_OBJECT"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

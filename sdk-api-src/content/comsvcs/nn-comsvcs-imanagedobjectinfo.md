@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], IManagedObjectInfo interface [COM+],described, _cos_IManagedObjectInfo, comsvcs/IManagedObjectInfo, cos.imanagedobjectinfo
 ms.topic: interface
-f1_keywords: ["comsvcs/IManagedObjectInfo"]
+f1_keywords: 
+ - "comsvcs/IManagedObjectInfo"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

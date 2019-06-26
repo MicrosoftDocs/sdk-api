@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_IMAGE_BRUSH_PROPERTIES, D2D1_IMAGE_BRUSH_PROPERTIES structure [Direct2D], PD2D1_IMAGE_BRUSH_PROPERTIES, PD2D1_IMAGE_BRUSH_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES, d2d1_1/PD2D1_IMAGE_BRUSH_PROPERTIES, direct2d.d2d1_image_brush_properties
 ms.topic: struct
-f1_keywords: ["d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES"]
+f1_keywords: 
+ - "d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],EnableCommit method, IObjectContext.EnableCommit, IObjectContext::EnableCommit, _cos_IObjectContext_EnableCommit, comsvcs/IObjectContext::EnableCommit, cos.iobjectcontext_enablecommit
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectContext.EnableCommit"]
+f1_keywords: 
+ - "comsvcs/IObjectContext.EnableCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

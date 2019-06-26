@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accChild"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accChild"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

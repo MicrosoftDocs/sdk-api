@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method, ITuner.get_TuneRequest, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
 ms.topic: method
-f1_keywords: ["tuner/ITuner.get_TuneRequest"]
+f1_keywords: 
+ - "tuner/ITuner.get_TuneRequest"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetDomainType method, INetworkConnection.GetDomainType, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkConnection.GetDomainType"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnection.GetDomainType"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

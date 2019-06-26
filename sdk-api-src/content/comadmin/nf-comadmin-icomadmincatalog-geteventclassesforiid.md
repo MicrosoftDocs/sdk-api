@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetEventClassesForIID method, ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.GetEventClassesForIID"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.GetEventClassesForIID"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

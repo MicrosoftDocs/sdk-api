@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentPosition method, IWMPControls.put_currentPosition, IWMPControls::put_currentPosition, IWMPControlsput_currentPosition, put_currentPosition, put_currentPosition method [Windows Media Player], put_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentposition, wmp/IWMPControls::put_currentPosition
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.put_currentPosition"]
+f1_keywords: 
+ - "wmp/IWMPControls.put_currentPosition"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Mode method, IConfigInterleaving.get_Mode, IConfigInterleaving::get_Mode, IConfigInterleavingget_Mode, dshow.iconfiginterleaving_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Mode
 ms.topic: method
-f1_keywords: ["strmif/IConfigInterleaving.get_Mode"]
+f1_keywords: 
+ - "strmif/IConfigInterleaving.get_Mode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDCPenColor, GetDCPenColor function [Windows GDI], _win32_GetDCPenColor, gdi.getdcpencolor, wingdi/GetDCPenColor
 ms.topic: function
-f1_keywords: ["wingdi/GetDCPenColor"]
+f1_keywords: 
+ - "wingdi/GetDCPenColor"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

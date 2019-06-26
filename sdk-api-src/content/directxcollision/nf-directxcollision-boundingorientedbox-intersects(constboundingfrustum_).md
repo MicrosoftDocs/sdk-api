@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Intersects method, BoundingOrientedBox.Intersects, BoundingOrientedBox.Intersects(const BoundingFrustum &), BoundingOrientedBox.Intersects(const BoundingFrustum&), BoundingOrientedBox::Intersects, BoundingOrientedBox::Intersects(const BoundingFrustum &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_intersects_1
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingOrientedBox.Intersects"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox.Intersects"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

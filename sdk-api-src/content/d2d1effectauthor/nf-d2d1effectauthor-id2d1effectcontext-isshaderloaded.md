@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],IsShaderLoaded method, ID2D1EffectContext.IsShaderLoaded, ID2D1EffectContext::IsShaderLoaded, IsShaderLoaded, IsShaderLoaded method [Direct2D], IsShaderLoaded method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::IsShaderLoaded, direct2d.id2d1contextinternal_isresourceloaded
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.IsShaderLoaded"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1EffectContext.IsShaderLoaded"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation interface [windows Media Format],TryOutputProps method, IWMReaderTypeNegotiation.TryOutputProps, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format],IWMReaderTypeNegotiation interface, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderTypeNegotiation.TryOutputProps"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderTypeNegotiation.TryOutputProps"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

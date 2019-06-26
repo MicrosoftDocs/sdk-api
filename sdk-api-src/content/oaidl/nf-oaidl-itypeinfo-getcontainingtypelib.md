@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetContainingTypeLib"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetContainingTypeLib"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

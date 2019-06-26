@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALLOWEDIN8021X, ALLOWEDINCONDITION, ALLOWEDINPROFILE, ALLOWEDINPROXYCONDITION, ALLOWEDINPROXYPROFILE, ALLOWEDINVPNDIALUP, ATTRIBUTERESTRICTIONS, ATTRIBUTERESTRICTIONS enumeration [Network Policy Server], MULTIVALUED, _sdo_attributerestrictions, nps.SDO_attributerestrictions, sdo.attributerestrictions, sdoias/ALLOWEDIN8021X, sdoias/ALLOWEDINCONDITION, sdoias/ALLOWEDINPROFILE, sdoias/ALLOWEDINPROXYCONDITION, sdoias/ALLOWEDINPROXYPROFILE, sdoias/ALLOWEDINVPNDIALUP, sdoias/ATTRIBUTERESTRICTIONS, sdoias/MULTIVALUED
 ms.topic: enum
-f1_keywords: ["sdoias/ATTRIBUTERESTRICTIONS"]
+f1_keywords: 
+ - "sdoias/ATTRIBUTERESTRICTIONS"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetInputProcessorProfiles method, ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarMgr.GetInputProcessorProfiles"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarMgr.GetInputProcessorProfiles"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

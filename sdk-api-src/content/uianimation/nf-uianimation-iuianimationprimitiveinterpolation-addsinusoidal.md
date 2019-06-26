@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSinusoidal, AddSinusoidal method [Windows Animation], AddSinusoidal method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddSinusoidal method, IUIAnimationPrimitiveInterpolation.AddSinusoidal, IUIAnimationPrimitiveInterpolation::AddSinusoidal, uianimation.iuianimationprimitiveinterpolation_addsinusoidal, uianimation/IUIAnimationPrimitiveInterpolation::AddSinusoidal
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationPrimitiveInterpolation.AddSinusoidal"]
+f1_keywords: 
+ - "uianimation/IUIAnimationPrimitiveInterpolation.AddSinusoidal"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

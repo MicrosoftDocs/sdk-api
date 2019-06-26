@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE enumeration [Windows Deployment Services], WdsTptDisconnectAbort, WdsTptDisconnectFallback, WdsTptDisconnectUnknown, wds.wdstransport_disconnect_type, wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE, wdstptmgmt/WdsTptDisconnectAbort, wdstptmgmt/WdsTptDisconnectFallback, wdstptmgmt/WdsTptDisconnectUnknown"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

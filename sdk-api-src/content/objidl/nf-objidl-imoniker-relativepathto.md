@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
 ms.topic: method
-f1_keywords: ["objidl/IMoniker.RelativePathTo"]
+f1_keywords: 
+ - "objidl/IMoniker.RelativePathTo"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

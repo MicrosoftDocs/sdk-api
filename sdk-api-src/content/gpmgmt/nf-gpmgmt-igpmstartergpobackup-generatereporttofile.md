@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReportToFile method, IGPMStarterGPOBackup.GenerateReportToFile, IGPMStarterGPOBackup::GenerateReportToFile, gpmc.igpmstartergpobackup_generatereporttofile, gpmgmt/IGPMStarterGPOBackup::GenerateReportToFile
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPOBackup.GenerateReportToFile"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPOBackup.GenerateReportToFile"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

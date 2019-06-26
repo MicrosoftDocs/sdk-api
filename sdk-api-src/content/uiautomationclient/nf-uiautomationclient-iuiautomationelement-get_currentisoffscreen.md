@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentIsOffscreen property [Windows Accessibility], CurrentIsOffscreen property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsOffscreen property, IUIAutomationElement.CurrentIsOffscreen, IUIAutomationElement.get_CurrentIsOffscreen, IUIAutomationElement::CurrentIsOffscreen, IUIAutomationElement::get_CurrentIsOffscreen, get_CurrentIsOffscreen, uiauto.uiauto_IUIAutomationElement_CurrentIsOffscreen, uiauto_IUIAutomationElement_CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::get_CurrentIsOffscreen, winauto.uiauto_IUIAutomationElement_CurrentIsOffscreen
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentIsOffscreen"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentIsOffscreen"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

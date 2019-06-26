@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE2 constructor [DirectX Math Support APIs],XMUBYTE2 structure, XMUBYTE2 structure [DirectX Math Support APIs],XMUBYTE2 constructor, XMUBYTE2.XMUBYTE2, XMUBYTE2.XMUBYTE2(float,float), XMUBYTE2::XMUBYTE2, XMUBYTE2::XMUBYTE2(float,float), dxmath.xmubyte2_ctor_4
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMUBYTE2.XMUBYTE2"]
+f1_keywords: 
+ - "directxpackedvector/XMUBYTE2.XMUBYTE2"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
 ms.topic: function
-f1_keywords: ["wlanapi/WlanFreeMemory"]
+f1_keywords: 
+ - "wlanapi/WlanFreeMemory"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

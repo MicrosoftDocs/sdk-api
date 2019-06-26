@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnReadData method, IMbnDeviceServicesEvents.OnReadData, IMbnDeviceServicesEvents::OnReadData, OnReadData, OnReadData method [Microsoft Broadband Networks], OnReadData method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onreaddata, mbnapi/IMbnDeviceServicesEvents::OnReadData
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesEvents.OnReadData"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesEvents.OnReadData"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecontext, snmp.snmpfreecontext, winsnmp/SnmpFreeContext
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpFreeContext"]
+f1_keywords: 
+ - "winsnmp/SnmpFreeContext"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

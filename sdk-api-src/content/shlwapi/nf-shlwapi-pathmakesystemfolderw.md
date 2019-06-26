@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
 ms.topic: function
-f1_keywords: ["shlwapi/PathMakeSystemFolder"]
+f1_keywords: 
+ - "shlwapi/PathMakeSystemFolder"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

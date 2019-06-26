@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_ASYNC_EVENT, RPC_ASYNC_EVENT enumeration [RPC], RpcCallComplete, RpcClientCancel, RpcClientDisconnect, RpcReceiveComplete, RpcSendComplete, _rpc_rpc_async_event, rpc.rpc_async_event, rpcasync/RPC_ASYNC_EVENT, rpcasync/RpcCallComplete, rpcasync/RpcClientCancel, rpcasync/RpcClientDisconnect, rpcasync/RpcReceiveComplete, rpcasync/RpcSendComplete
 ms.topic: enum
-f1_keywords: ["rpcasync/RPC_ASYNC_EVENT"]
+f1_keywords: 
+ - "rpcasync/RPC_ASYNC_EVENT"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

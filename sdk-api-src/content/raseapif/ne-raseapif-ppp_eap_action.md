@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAPACTION_Authenticate, EAPACTION_Done, EAPACTION_IndicateIdentity, EAPACTION_IndicateTLV, EAPACTION_NoAction, EAPACTION_Send, EAPACTION_SendAndDone, EAPACTION_SendWithTimeout, EAPACTION_SendWithTimeoutInteractive, PPP_EAP_ACTION, PPP_EAP_ACTION enumeration [EAP], _eap_ppp_eap_action, eap.ppp_eap_action, raseapif/EAPACTION_Authenticate, raseapif/EAPACTION_Done, raseapif/EAPACTION_IndicateIdentity, raseapif/EAPACTION_IndicateTLV, raseapif/EAPACTION_NoAction, raseapif/EAPACTION_Send, raseapif/EAPACTION_SendAndDone, raseapif/EAPACTION_SendWithTimeout, raseapif/EAPACTION_SendWithTimeoutInteractive, raseapif/PPP_EAP_ACTION
 ms.topic: enum
-f1_keywords: ["raseapif/PPP_EAP_ACTION"]
+f1_keywords: 
+ - "raseapif/PPP_EAP_ACTION"
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

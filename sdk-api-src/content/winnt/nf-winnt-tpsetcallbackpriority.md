@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, TpSetCallbackPriority, TpSetCallbackPriority function, base.tpsetcallbackpriority, winnt/TpSetCallbackPriority
 ms.topic: function
-f1_keywords: ["winnt/TpSetCallbackPriority"]
+f1_keywords: 
+ - "winnt/TpSetCallbackPriority"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

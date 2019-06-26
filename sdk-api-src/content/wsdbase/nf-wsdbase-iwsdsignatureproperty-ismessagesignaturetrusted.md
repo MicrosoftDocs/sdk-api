@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDSignatureProperty.IsMessageSignatureTrusted"]
+f1_keywords: 
+ - "wsdbase/IWSDSignatureProperty.IsMessageSignatureTrusted"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

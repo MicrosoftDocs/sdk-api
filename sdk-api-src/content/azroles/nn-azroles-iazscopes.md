@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzScopes, IAzScopes interface [Security], IAzScopes interface [Security],described, azroles/IAzScopes, security.iazscopes
 ms.topic: interface
-f1_keywords: ["azroles/IAzScopes"]
+f1_keywords: 
+ - "azroles/IAzScopes"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

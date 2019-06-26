@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemUnsecuredApartment, IWbemUnsecuredApartment interface [Windows Management Instrumentation], IWbemUnsecuredApartment interface [Windows Management Instrumentation],described, wbemcli/IWbemUnsecuredApartment, wmi.iwbemunsecuredapartment
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemUnsecuredApartment"]
+f1_keywords: 
+ - "wbemcli/IWbemUnsecuredApartment"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

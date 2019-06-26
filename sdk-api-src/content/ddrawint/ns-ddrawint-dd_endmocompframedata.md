@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA structure [Display Devices], ddrawint/DD_ENDMOCOMPFRAMEDATA, ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml, display.dd_endmocompframedata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_ENDMOCOMPFRAMEDATA"]
+f1_keywords: 
+ - "ddrawint/DD_ENDMOCOMPFRAMEDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

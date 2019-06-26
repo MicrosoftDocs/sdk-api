@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPIFrameBuffer"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIFrameBuffer"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2ClientSessionRundown function [Winsock], winsock.nspv2clientsessionrundown, ws2spi/NSPv2ClientSessionRundown
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPv2ClientSessionRundown"]
+f1_keywords: 
+ - "ws2spi/NSPv2ClientSessionRundown"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

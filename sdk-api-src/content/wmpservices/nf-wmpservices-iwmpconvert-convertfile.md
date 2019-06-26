@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPConvert.ConvertFile"]
+f1_keywords: 
+ - "wmpservices/IWMPConvert.ConvertFile"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

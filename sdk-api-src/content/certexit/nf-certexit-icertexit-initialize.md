@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
 ms.topic: method
-f1_keywords: ["certexit/ICertExit2.Initialize"]
+f1_keywords: 
+ - "certexit/ICertExit2.Initialize"
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],SelectConfiguration method, IFhReassociation interface [Windows API],SelectConfiguration method, IFhReassociation.SelectConfiguration, IFhReassociation::SelectConfiguration, SelectConfiguration, SelectConfiguration method [Windows API], SelectConfiguration method [Windows API],FhReassociation class, SelectConfiguration method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::SelectConfiguration, winprog.ifhreassociation_selectconfiguration
 ms.topic: method
-f1_keywords: ["fhcfg/IFhReassociation.SelectConfiguration"]
+f1_keywords: 
+ - "fhcfg/IFhReassociation.SelectConfiguration"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

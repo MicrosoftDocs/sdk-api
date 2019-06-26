@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEvaluationContext method,IWinMLRuntime interface, IWinMLRuntime interface,CreateEvaluationContext method, IWinMLRuntime.CreateEvaluationContext, IWinMLRuntime::CreateEvaluationContext, MachineLearning.iwinmlruntime_createevaluationcontext, winml/IWinMLRuntime::CreateEvaluationContext
 ms.topic: method
-f1_keywords: ["winml/IWinMLRuntime.CreateEvaluationContext"]
+f1_keywords: 
+ - "winml/IWinMLRuntime.CreateEvaluationContext"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11CalcSubresource, D3D11CalcSubresource function [Direct3D 11], d3d11/D3D11CalcSubresource, direct3d11.d3d11calcsubresource, ea6ecdec-c3d4-b87d-c8d6-c356afacd091
 ms.topic: function
-f1_keywords: ["d3d11/D3D11CalcSubresource"]
+f1_keywords: 
+ - "d3d11/D3D11CalcSubresource"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compatibility property [Task Scheduler], Compatibility property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Compatibility property, ITaskSettings.Compatibility, ITaskSettings.get_Compatibility, ITaskSettings::Compatibility, ITaskSettings::get_Compatibility, ITaskSettings::put_Compatibility, TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, get_Compatibility, taskschd.itasksettings_compatibility, taskschd/ITaskSettings::Compatibility, taskschd/ITaskSettings::get_Compatibility, taskschd/ITaskSettings::put_Compatibility
 ms.topic: method
-f1_keywords: ["taskschd/ITaskSettings.Compatibility"]
+f1_keywords: 
+ - "taskschd/ITaskSettings.Compatibility"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

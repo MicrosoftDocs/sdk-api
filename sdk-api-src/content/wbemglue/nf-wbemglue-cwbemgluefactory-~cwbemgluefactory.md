@@ -44,4 +44,5 @@ Destructor for the [CWbemGlueFactory](nf-wbemglue-cwbemgluefactory-cwbemgluefact
 ## -remarks
 
 ## -see-also
-
+f1_keywords: 
+ - "wbemglue/CWbemGlueFactory.CWbemGlueFactory"

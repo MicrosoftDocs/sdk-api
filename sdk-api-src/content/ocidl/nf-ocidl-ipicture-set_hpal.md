@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],set_hPal method, IPicture.set_hPal, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal, set_hPal method [COM], set_hPal method [COM],IPicture interface
 ms.topic: method
-f1_keywords: ["ocidl/IPicture.set_hPal"]
+f1_keywords: 
+ - "ocidl/IPicture.set_hPal"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

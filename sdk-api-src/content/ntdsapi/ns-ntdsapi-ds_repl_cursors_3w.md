@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSORS_3, DS_REPL_CURSORS_3 structure [Active Directory], DS_REPL_CURSORS_3W, ad.ds_repl_cursors_3, ntdsapi/DS_REPL_CURSORS_3
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_REPL_CURSORS_3"]
+f1_keywords: 
+ - "ntdsapi/DS_REPL_CURSORS_3"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

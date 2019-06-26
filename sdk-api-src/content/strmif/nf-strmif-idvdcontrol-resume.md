@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],Resume method, IDvdControl.Resume, IDvdControl::Resume, IDvdControlResume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_resume, strmif/IDvdControl::Resume
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.Resume"]
+f1_keywords: 
+ - "strmif/IDvdControl.Resume"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

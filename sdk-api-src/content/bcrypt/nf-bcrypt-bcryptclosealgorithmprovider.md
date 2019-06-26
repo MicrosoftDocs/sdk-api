@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptCloseAlgorithmProvider"]
+f1_keywords: 
+ - "bcrypt/BCryptCloseAlgorithmProvider"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

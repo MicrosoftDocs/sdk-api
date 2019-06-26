@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
 ms.topic: function
-f1_keywords: ["winbase/CreateMailslot"]
+f1_keywords: 
+ - "winbase/CreateMailslot"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

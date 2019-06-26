@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], ISyncMgrHandlerInfo interface [Windows Shell],described, _shell_ISyncMgrHandlerInfo, shell.ISyncMgrHandlerInfo, syncmgr/ISyncMgrHandlerInfo
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrHandlerInfo"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandlerInfo"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1017, 1020, 1024, 1051, 1052, 1053, 2, 21, 22, 3, 4, NetUserSetInfo, NetUserSetInfo function [Network Management], _win32_netusersetinfo, lmaccess/NetUserSetInfo, netmgmt.netusersetinfo
 ms.topic: function
-f1_keywords: ["lmaccess/NetUserSetInfo"]
+f1_keywords: 
+ - "lmaccess/NetUserSetInfo"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

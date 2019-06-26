@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XHR_COOKIE_STATE, XHR_COOKIE_STATE enumeration [XMLHttpRequest2], XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.xhr_cookie_state, msxml6/XHR_COOKIE_STATE, msxml6/XHR_COOKIE_STATE_ACCEPT, msxml6/XHR_COOKIE_STATE_DOWNGRADE, msxml6/XHR_COOKIE_STATE_LEASH, msxml6/XHR_COOKIE_STATE_PROMPT, msxml6/XHR_COOKIE_STATE_REJECT, msxml6/XHR_COOKIE_STATE_UNKNOWN
 ms.topic: enum
-f1_keywords: ["msxml6/XHR_COOKIE_STATE"]
+f1_keywords: 
+ - "msxml6/XHR_COOKIE_STATE"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

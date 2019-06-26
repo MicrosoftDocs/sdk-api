@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN"
 ms.topic: struct
-f1_keywords: ["iads/ADS_SEARCH_COLUMN"]
+f1_keywords: 
+ - "iads/ADS_SEARCH_COLUMN"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

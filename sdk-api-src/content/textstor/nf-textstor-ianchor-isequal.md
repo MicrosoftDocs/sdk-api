@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
 ms.topic: method
-f1_keywords: ["textstor/IAnchor.IsEqual"]
+f1_keywords: 
+ - "textstor/IAnchor.IsEqual"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

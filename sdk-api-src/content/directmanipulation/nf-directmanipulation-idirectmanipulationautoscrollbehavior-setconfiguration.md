@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationAutoScrollBehavior.SetConfiguration, IDirectManipulationAutoScrollBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationAutoScrollBehavior interface, directmanipulation.idirectmanipulationautoscrollbehavior_setconfiguration, directmanipulation/IDirectManipulationAutoScrollBehavior::SetConfiguration
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationAutoScrollBehavior.SetConfiguration"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationAutoScrollBehavior.SetConfiguration"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], IMILBitmapEffectGroup interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroup, mileffects/IMILBitmapEffectGroup, wibe._wibe_imilbitmapeffectgroup
 ms.topic: interface
-f1_keywords: ["mileffects/IMILBitmapEffectGroup"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectGroup"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

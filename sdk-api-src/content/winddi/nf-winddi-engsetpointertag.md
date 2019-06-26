@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
 ms.topic: function
-f1_keywords: ["winddi/EngSetPointerTag"]
+f1_keywords: 
+ - "winddi/EngSetPointerTag"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Start method, IBDA_NullTransform.Start, IBDA_NullTransform::Start, IBDA_NullTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_NullTransform interface, bdaiface/IBDA_NullTransform::Start, mstv.ibda_nulltransform_start
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_NullTransform.Start"]
+f1_keywords: 
+ - "bdaiface/IBDA_NullTransform.Start"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

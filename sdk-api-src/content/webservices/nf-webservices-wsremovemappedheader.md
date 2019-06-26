@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
 ms.topic: function
-f1_keywords: ["webservices/WsRemoveMappedHeader"]
+f1_keywords: 
+ - "webservices/WsRemoveMappedHeader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

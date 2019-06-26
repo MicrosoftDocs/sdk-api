@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamSample interface [DirectShow],SetSampleTimes method, IStreamSample.SetSampleTimes, IStreamSample::SetSampleTimes, IStreamSampleSetSampleTimes, SetSampleTimes, SetSampleTimes method [DirectShow], SetSampleTimes method [DirectShow],IStreamSample interface, dshow.istreamsample_setsampletimes, mmstream/IStreamSample::SetSampleTimes
 ms.topic: method
-f1_keywords: ["mmstream/IStreamSample.SetSampleTimes"]
+f1_keywords: 
+ - "mmstream/IStreamSample.SetSampleTimes"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

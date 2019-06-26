@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCommittedResource, CreateCommittedResource method, CreateCommittedResource method,ID3D12Device interface, ID3D12Device interface,CreateCommittedResource method, ID3D12Device.CreateCommittedResource, ID3D12Device::CreateCommittedResource, d3d12/ID3D12Device::CreateCommittedResource, direct3d12.id3d12device_createcommittedresource
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateCommittedResource"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateCommittedResource"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

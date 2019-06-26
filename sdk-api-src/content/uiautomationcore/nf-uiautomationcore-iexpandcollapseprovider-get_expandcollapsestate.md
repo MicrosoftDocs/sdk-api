@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapseState property [Windows Accessibility], ExpandCollapseState property [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],ExpandCollapseState property, IExpandCollapseProvider.ExpandCollapseState, IExpandCollapseProvider.get_ExpandCollapseState, IExpandCollapseProvider::ExpandCollapseState, IExpandCollapseProvider::get_ExpandCollapseState, get_ExpandCollapseState, uiauto.uiauto_IExpandCollapseProvider_ExpandCollapseState, uiauto_IExpandCollapseProvider_ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::ExpandCollapseState, uiautomationcore/IExpandCollapseProvider::get_ExpandCollapseState, winauto.uiauto_IExpandCollapseProvider_ExpandCollapseState
 ms.topic: method
-f1_keywords: ["uiautomationcore/IExpandCollapseProvider.ExpandCollapseState"]
+f1_keywords: 
+ - "uiautomationcore/IExpandCollapseProvider.ExpandCollapseState"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

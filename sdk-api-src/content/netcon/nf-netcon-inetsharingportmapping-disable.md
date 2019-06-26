@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [ICS/ICF], Disable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Disable method, INetSharingPortMapping.Disable, INetSharingPortMapping::Disable, _ics_inetsharingportmapping_disable, ics.inetsharingportmapping_disable, netcon/INetSharingPortMapping::Disable
 ms.topic: method
-f1_keywords: ["netcon/INetSharingPortMapping.Disable"]
+f1_keywords: 
+ - "netcon/INetSharingPortMapping.Disable"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

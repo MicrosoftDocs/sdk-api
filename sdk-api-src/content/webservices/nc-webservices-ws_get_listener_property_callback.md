@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_GET_LISTENER_PROPERTY_CALLBACK, WS_GET_LISTENER_PROPERTY_CALLBACK callback, WS_GET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_LISTENER_PROPERTY_CALLBACK, wsw.ws_get_listener_property_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_GET_LISTENER_PROPERTY_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_GET_LISTENER_PROPERTY_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

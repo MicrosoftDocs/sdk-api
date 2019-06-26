@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get_Count method, INetSharingPortMappingCollection.get_Count, INetSharingPortMappingCollection::get_Count, _ics_inetsharingportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get_count, netcon/INetSharingPortMappingCollection::get_Count
 ms.topic: method
-f1_keywords: ["netcon/INetSharingPortMappingCollection.get_Count"]
+f1_keywords: 
+ - "netcon/INetSharingPortMappingCollection.get_Count"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

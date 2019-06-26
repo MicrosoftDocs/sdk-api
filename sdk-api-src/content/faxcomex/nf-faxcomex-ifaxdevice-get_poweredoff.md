@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],PoweredOff property, IFaxDevice.PoweredOff, IFaxDevice.get_PoweredOff, IFaxDevice::PoweredOff, IFaxDevice::get_PoweredOff, PoweredOff property [Fax Service], PoweredOff property [Fax Service],IFaxDevice interface, _mfax_faxdevice.poweredoff, fax._mfax_faxdevice_cpp_mfax_faxdevice_poweredoff_cpp, fax._mfax_faxdevice_poweredoff, faxcomex/IFaxDevice::PoweredOff, faxcomex/IFaxDevice::get_PoweredOff, get_PoweredOff
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.PoweredOff"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.PoweredOff"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3ec86a63-120a-f1df-c229-bbdd165c6650, GetGeometryShader, GetGeometryShader method [Direct3D 10], GetGeometryShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetGeometryShader method, ID3D10EffectShaderVariable.GetGeometryShader, ID3D10EffectShaderVariable::GetGeometryShader, d3d10effect/ID3D10EffectShaderVariable::GetGeometryShader, direct3d10.id3d10effectshadervariable_getgeometryshader
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectShaderVariable.GetGeometryShader"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectShaderVariable.GetGeometryShader"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

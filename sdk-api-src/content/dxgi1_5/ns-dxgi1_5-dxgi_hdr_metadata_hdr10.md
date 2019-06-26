@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], direct3ddxgi.dxgi_hdr_metadata_hdr10, dxgi1_5/DXGI_HDR_METADATA_HDR10
 ms.topic: struct
-f1_keywords: ["dxgi1_5/DXGI_HDR_METADATA_HDR10"]
+f1_keywords: 
+ - "dxgi1_5/DXGI_HDR_METADATA_HDR10"
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

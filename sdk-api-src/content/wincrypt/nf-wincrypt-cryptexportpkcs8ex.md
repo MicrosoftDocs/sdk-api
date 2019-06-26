@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
 ms.topic: function
-f1_keywords: ["wincrypt/CryptExportPKCS8Ex"]
+f1_keywords: 
+ - "wincrypt/CryptExportPKCS8Ex"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetInsertMarkColor, ListView_GetInsertMarkColor macro [Windows Controls], _win32_ListView_GetInsertMarkColor, _win32_ListView_GetInsertMarkColor_cpp, commctrl/ListView_GetInsertMarkColor, controls.ListView_GetInsertMarkColor, controls._win32_ListView_GetInsertMarkColor
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetInsertMarkColor"]
+f1_keywords: 
+ - "commctrl/ListView_GetInsertMarkColor"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

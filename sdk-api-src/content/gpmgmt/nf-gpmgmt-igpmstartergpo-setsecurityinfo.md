@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],SetSecurityInfo method, IGPMStarterGPO.SetSecurityInfo, IGPMStarterGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_setsecurityinfo, gpmgmt/IGPMStarterGPO::SetSecurityInfo
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPO.SetSecurityInfo"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPO.SetSecurityInfo"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

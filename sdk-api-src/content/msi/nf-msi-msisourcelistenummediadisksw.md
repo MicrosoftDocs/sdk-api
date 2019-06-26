@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListEnumMediaDisks, MsiSourceListEnumMediaDisks function, MsiSourceListEnumMediaDisksA, MsiSourceListEnumMediaDisksW, NULL, User SID, msi/MsiSourceListEnumMediaDisks, msi/MsiSourceListEnumMediaDisksA, msi/MsiSourceListEnumMediaDisksW, s-1-1-0, setup.msisourcelistenummediadisks
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListEnumMediaDisks"]
+f1_keywords: 
+ - "msi/MsiSourceListEnumMediaDisks"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

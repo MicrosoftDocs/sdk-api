@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],GetPatterns method, IWICBitmapDecoderInfo.GetPatterns, IWICBitmapDecoderInfo::GetPatterns, _wic_codec_iwicbitmapdecoderinfo_getpatterns, wic._wic_codec_iwicbitmapdecoderinfo_getpatterns, wincodec/IWICBitmapDecoderInfo::GetPatterns
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapDecoderInfo.GetPatterns"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoderInfo.GetPatterns"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

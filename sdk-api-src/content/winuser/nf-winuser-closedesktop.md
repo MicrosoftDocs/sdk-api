@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDesktop, CloseDesktop function [Windows Stations and Desktops], _win32_closedesktop, base.closedesktop, winstation.closedesktop, winuser/CloseDesktop
 ms.topic: function
-f1_keywords: ["winuser/CloseDesktop"]
+f1_keywords: 
+ - "winuser/CloseDesktop"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

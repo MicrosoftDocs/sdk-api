@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Count property, ITraceDataProviderCollection.Count, ITraceDataProviderCollection.get_Count, ITraceDataProviderCollection::Count, ITraceDataProviderCollection::get_Count, base.itracedataprovidercollection_count, get_Count, pla.itracedataprovidercollection_count, pla/ITraceDataProviderCollection::Count, pla/ITraceDataProviderCollection::get_Count
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.Count"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.Count"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

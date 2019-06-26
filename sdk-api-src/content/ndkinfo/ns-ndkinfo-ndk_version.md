@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_VERSION, netvista.ndk_version
 ms.topic: struct
-f1_keywords: ["ndkinfo/NDK_VERSION"]
+f1_keywords: 
+ - "ndkinfo/NDK_VERSION"
 req.header: ndkinfo.h
 req.include-header: 
 req.target-type: Windows

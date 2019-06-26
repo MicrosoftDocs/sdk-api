@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
 ms.topic: method
-f1_keywords: ["mfidl/IMFContentEnabler.GetEnableType"]
+f1_keywords: 
+ - "mfidl/IMFContentEnabler.GetEnableType"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

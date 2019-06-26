@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Ignore method, ISpellChecker.Ignore, ISpellChecker::Ignore, Ignore, Ignore method [Internationalization for Windows Applications], Ignore method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_ignore, spellcheck/ISpellChecker::Ignore
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.Ignore"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.Ignore"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

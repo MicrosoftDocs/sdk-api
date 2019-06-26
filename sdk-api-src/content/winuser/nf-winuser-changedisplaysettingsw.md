@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, ChangeDisplaySettings, ChangeDisplaySettings function [Windows GDI], ChangeDisplaySettingsA, ChangeDisplaySettingsW, _win32_ChangeDisplaySettings, gdi.changedisplaysettings, winuser/ChangeDisplaySettings, winuser/ChangeDisplaySettingsA, winuser/ChangeDisplaySettingsW
 ms.topic: function
-f1_keywords: ["winuser/ChangeDisplaySettings"]
+f1_keywords: 
+ - "winuser/ChangeDisplaySettings"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

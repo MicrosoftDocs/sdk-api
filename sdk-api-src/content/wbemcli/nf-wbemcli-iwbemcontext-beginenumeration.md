@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],BeginEnumeration method, IWbemContext.BeginEnumeration, IWbemContext::BeginEnumeration, _hmm_iwbemcontext_beginenumeration, wbemcli/IWbemContext::BeginEnumeration, wmi.iwbemcontext_beginenumeration
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemContext.BeginEnumeration"]
+f1_keywords: 
+ - "wbemcli/IWbemContext.BeginEnumeration"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

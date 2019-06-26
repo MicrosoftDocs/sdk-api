@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiFileItem2.RemoveStream"]
+f1_keywords: 
+ - "imapi2fs/IFsiFileItem2.RemoveStream"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

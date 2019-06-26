@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_State method, ITAddress.get_State, ITAddress::get_State, _tapi3_itaddress_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_state, tapi3if/ITAddress::get_State
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.get_State"]
+f1_keywords: 
+ - "tapi3if/ITAddress.get_State"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

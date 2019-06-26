@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndPage, EndPage function [Windows GDI], _win32_EndPage, gdi.endpage, wingdi/EndPage
 ms.topic: function
-f1_keywords: ["wingdi/EndPage"]
+f1_keywords: 
+ - "wingdi/EndPage"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

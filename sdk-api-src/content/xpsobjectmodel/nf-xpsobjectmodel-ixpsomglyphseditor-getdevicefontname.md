@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphsEditor.GetDeviceFontName, IXpsOMGlyphsEditor::GetDeviceFontName, xps.ixpsomglyphseditor_getdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::GetDeviceFontName
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphsEditor.GetDeviceFontName"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphsEditor.GetDeviceFontName"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

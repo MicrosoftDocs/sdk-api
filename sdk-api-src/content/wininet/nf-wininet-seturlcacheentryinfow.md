@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheEntryInfo, SetUrlCacheEntryInfo function [WinINet], SetUrlCacheEntryInfoA, SetUrlCacheEntryInfoW, _inet_seturlcacheentryinfo_function, wininet.seturlcacheentryinfo, wininet/SetUrlCacheEntryInfo, wininet/SetUrlCacheEntryInfoA, wininet/SetUrlCacheEntryInfoW
 ms.topic: function
-f1_keywords: ["wininet/SetUrlCacheEntryInfo"]
+f1_keywords: 
+ - "wininet/SetUrlCacheEntryInfo"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

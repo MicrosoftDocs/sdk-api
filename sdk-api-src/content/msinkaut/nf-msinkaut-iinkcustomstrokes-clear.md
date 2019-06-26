@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Clear method, IInkCustomStrokes.Clear, IInkCustomStrokes::Clear, msinkaut/IInkCustomStrokes::Clear, tablet.iinkcustomstrokes_clear
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCustomStrokes.Clear"]
+f1_keywords: 
+ - "msinkaut/IInkCustomStrokes.Clear"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

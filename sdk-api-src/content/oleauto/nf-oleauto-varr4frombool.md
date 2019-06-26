@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarR4FromBool, VarR4FromBool function [Automation], _oa96_VarR4FromBool, automat.varr4frombool, oleauto/VarR4FromBool
 ms.topic: function
-f1_keywords: ["oleauto/VarR4FromBool"]
+f1_keywords: 
+ - "oleauto/VarR4FromBool"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

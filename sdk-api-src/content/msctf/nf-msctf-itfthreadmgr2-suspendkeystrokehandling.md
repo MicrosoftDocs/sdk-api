@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SuspendKeystrokeHandling method, ITfThreadMgr2.SuspendKeystrokeHandling, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.SuspendKeystrokeHandling"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.SuspendKeystrokeHandling"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

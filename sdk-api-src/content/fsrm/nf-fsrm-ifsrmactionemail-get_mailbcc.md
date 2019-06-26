@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail.MailBcc, IFsrmActionEmail.get_MailBcc, IFsrmActionEmail2 interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail2.MailBcc, IFsrmActionEmail2::MailBcc, IFsrmActionEmail2::get_MailBcc, IFsrmActionEmail2::put_MailBcc, IFsrmActionEmail::get_MailBcc, IFsrmActionEmail::put_MailBcc, MailBcc property [File Server Resource Manager], MailBcc property [File Server Resource Manager],IFsrmActionEmail interface, MailBcc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailbcc, fsrm.ifsrmactionemail_mailbcc, fsrm/IFsrmActionEmail2::MailBcc, fsrm/IFsrmActionEmail2::get_MailBcc, fsrm/IFsrmActionEmail2::put_MailBcc, fsrm/IFsrmActionEmail::MailBcc, fsrm/IFsrmActionEmail::get_MailBcc, fsrm/IFsrmActionEmail::put_MailBcc, get_MailBcc
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmActionEmail2.MailBcc"]
+f1_keywords: 
+ - "fsrm/IFsrmActionEmail2.MailBcc"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

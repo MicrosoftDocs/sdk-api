@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],AddRange method, IScheduleCollection.AddRange, IScheduleCollection::AddRange, base.ischedulecollection_addrange, pla.ischedulecollection_addrange, pla/IScheduleCollection::AddRange
 ms.topic: method
-f1_keywords: ["pla/IScheduleCollection.AddRange"]
+f1_keywords: 
+ - "pla/IScheduleCollection.AddRange"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

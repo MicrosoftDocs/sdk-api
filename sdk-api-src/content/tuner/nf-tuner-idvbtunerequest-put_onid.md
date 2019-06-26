@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_ONID method, IDVBTuneRequest.put_ONID, IDVBTuneRequest::put_ONID, IDVBTuneRequestput_ONID, mstv.idvbtunerequest_put_onid, put_ONID, put_ONID method [Microsoft TV Technologies], put_ONID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_ONID
 ms.topic: method
-f1_keywords: ["tuner/IDVBTuneRequest.put_ONID"]
+f1_keywords: 
+ - "tuner/IDVBTuneRequest.put_ONID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

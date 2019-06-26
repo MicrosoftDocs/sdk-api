@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_a8452615-b845-4ecd-92d4-6e18e8bef145.xml, DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS, DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS structure [Display Devices], display.displayconfig_target_device_name_flags, wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

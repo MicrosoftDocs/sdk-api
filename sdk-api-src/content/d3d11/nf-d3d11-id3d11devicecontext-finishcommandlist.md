@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinishCommandList, FinishCommandList method [Direct3D 11], FinishCommandList method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],FinishCommandList method, ID3D11DeviceContext.FinishCommandList, ID3D11DeviceContext::FinishCommandList, a4e1fb43-9932-f619-f748-39b385791b7a, d3d11/ID3D11DeviceContext::FinishCommandList, direct3d11.id3d11devicecontext_finishcommandlist
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.FinishCommandList"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.FinishCommandList"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

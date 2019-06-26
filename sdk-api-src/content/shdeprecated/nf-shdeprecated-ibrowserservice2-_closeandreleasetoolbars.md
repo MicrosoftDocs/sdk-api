@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CloseAndReleaseToolbars method, IBrowserService2._CloseAndReleaseToolbars, IBrowserService2::_CloseAndReleaseToolbars, _CloseAndReleaseToolbars, _CloseAndReleaseToolbars method [Windows Shell], _CloseAndReleaseToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CloseAndReleaseToolbars, shell.IBrowserService2__CloseAndReleaseToolbars, zone_IBrowserService2__CloseAndReleaseToolbars
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._CloseAndReleaseToolbars"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._CloseAndReleaseToolbars"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContinueDebugEvent, ContinueDebugEvent function, DBG_CONTINUE, DBG_EXCEPTION_NOT_HANDLED, DBG_REPLY_LATER, _win32_continuedebugevent, base.continuedebugevent, debugapi/ContinueDebugEvent
 ms.topic: function
-f1_keywords: ["debugapi/ContinueDebugEvent"]
+f1_keywords: 
+ - "debugapi/ContinueDebugEvent"
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

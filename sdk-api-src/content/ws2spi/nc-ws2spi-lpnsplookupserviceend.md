@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPLOOKUPSERVICEEND, NSPLookupServiceEnd, NSPLookupServiceEnd function [Winsock], _win32_nsplookupserviceend_2, winsock.nsplookupserviceend_2, ws2spi/NSPLookupServiceEnd
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPLookupServiceEnd"]
+f1_keywords: 
+ - "ws2spi/NSPLookupServiceEnd"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

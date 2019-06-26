@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterExpand method, INameSpaceTreeControlEvents.OnAfterExpand, INameSpaceTreeControlEvents::OnAfterExpand, OnAfterExpand, OnAfterExpand method [Windows Shell], OnAfterExpand method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterExpand, shell.INameSpaceTreeControlEvents_OnAfterExpand, shobjidl/INameSpaceTreeControlEvents::OnAfterExpand
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnAfterExpand"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnAfterExpand"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
 ms.topic: function
-f1_keywords: ["wingdi/GetTextFace"]
+f1_keywords: 
+ - "wingdi/GetTextFace"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

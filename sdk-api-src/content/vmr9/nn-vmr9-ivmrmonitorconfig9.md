@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig9, IVMRMonitorConfig9 interface [DirectShow], IVMRMonitorConfig9 interface [DirectShow],described, IVMRMonitorConfig9Interface, dshow.ivmrmonitorconfig9, vmr9/IVMRMonitorConfig9
 ms.topic: interface
-f1_keywords: ["vmr9/IVMRMonitorConfig9"]
+f1_keywords: 
+ - "vmr9/IVMRMonitorConfig9"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

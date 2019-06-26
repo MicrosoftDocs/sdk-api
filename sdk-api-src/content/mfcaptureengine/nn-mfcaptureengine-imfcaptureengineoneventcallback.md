@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnEventCallback, IMFCaptureEngineOnEventCallback interface [Media Foundation], IMFCaptureEngineOnEventCallback interface [Media Foundation],described, mf.imfcaptureengineoneventcallback, mfcaptureengine/IMFCaptureEngineOnEventCallback
 ms.topic: interface
-f1_keywords: ["mfcaptureengine/IMFCaptureEngineOnEventCallback"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureEngineOnEventCallback"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

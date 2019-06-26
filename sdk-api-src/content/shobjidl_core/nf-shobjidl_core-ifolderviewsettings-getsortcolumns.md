@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSortColumns, GetSortColumns method [Windows Shell], GetSortColumns method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetSortColumns method, IFolderViewSettings.GetSortColumns, IFolderViewSettings::GetSortColumns, _shell_IFolderViewSettings_GetSortColumns, shell.IFolderViewSettings_GetSortColumns, shobjidl_core/IFolderViewSettings::GetSortColumns
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderViewSettings.GetSortColumns"]
+f1_keywords: 
+ - "shobjidl_core/IFolderViewSettings.GetSortColumns"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

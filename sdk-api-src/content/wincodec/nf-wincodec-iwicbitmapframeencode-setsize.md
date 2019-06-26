@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetSize method, IWICBitmapFrameEncode.SetSize, IWICBitmapFrameEncode::SetSize, SetSize, SetSize method [Windows Imaging Component], SetSize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setsize, wic._wic_codec_iwicbitmapframeencode_setsize, wincodec/IWICBitmapFrameEncode::SetSize
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetSize"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetSize"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

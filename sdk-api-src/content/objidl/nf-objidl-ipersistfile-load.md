@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],Load method, IPersistFile.Load, IPersistFile::Load, Load, Load method [COM], Load method [COM],IPersistFile interface, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
 ms.topic: method
-f1_keywords: ["objidl/IPersistFile.Load"]
+f1_keywords: 
+ - "objidl/IPersistFile.Load"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

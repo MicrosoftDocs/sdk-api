@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
 ms.topic: interface
-f1_keywords: ["cmnquery/IQueryForm"]
+f1_keywords: 
+ - "cmnquery/IQueryForm"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

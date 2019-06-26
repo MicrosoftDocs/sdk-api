@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedFirstSelectedItem property [Windows Accessibility], CachedFirstSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedFirstSelectedItem property, IUIAutomationSelectionPattern2.CachedFirstSelectedItem, IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem, IUIAutomationSelectionPattern2::CachedFirstSelectedItem, IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, get_CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern2.CachedFirstSelectedItem"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSelectionPattern2.CachedFirstSelectedItem"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

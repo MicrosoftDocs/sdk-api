@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition], GetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetAcquisitionTime method, IPhotoAcquireSettings.GetAcquisitionTime, IPhotoAcquireSettings::GetAcquisitionTime, IPhotoAcquireSettingsGetAcquisitionTime, photoacquire/IPhotoAcquireSettings::GetAcquisitionTime, picacq.iphotoacquiresettings_getacquisitiontime
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSettings.GetAcquisitionTime"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSettings.GetAcquisitionTime"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetDatabaseInformation method, ICertSrvSetup.SetDatabaseInformation, ICertSrvSetup::SetDatabaseInformation, SetDatabaseInformation, SetDatabaseInformation method [Security], SetDatabaseInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetDatabaseInformation, security.icertsrvsetup_setdatabaseinformation
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.SetDatabaseInformation"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.SetDatabaseInformation"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

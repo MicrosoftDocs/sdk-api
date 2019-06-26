@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPGROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, GROUP_USERS_INFO_1, GROUP_USERS_INFO_1 structure [Network Management], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, _win32_group_users_info_1_str, lmaccess/GROUP_USERS_INFO_1, netmgmt.group_users_info_1_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/GROUP_USERS_INFO_1"]
+f1_keywords: 
+ - "lmaccess/GROUP_USERS_INFO_1"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

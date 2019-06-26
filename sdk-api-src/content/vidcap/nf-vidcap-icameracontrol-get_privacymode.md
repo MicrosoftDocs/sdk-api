@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PrivacyMode method, ICameraControl.get_PrivacyMode, ICameraControl::get_PrivacyMode, ICameraControlget_PrivacyMode, dshow.icameracontrol_get_privacymode, get_PrivacyMode, get_PrivacyMode method [DirectShow], get_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PrivacyMode
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_PrivacyMode"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_PrivacyMode"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

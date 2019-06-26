@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_netshareadd, fs.netshareadd, lmshare/NetShareAdd, netmgmt.netshareadd
 ms.topic: function
-f1_keywords: ["lmshare/NetShareAdd"]
+f1_keywords: 
+ - "lmshare/NetShareAdd"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

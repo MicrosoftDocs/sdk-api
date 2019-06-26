@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListBoxInfo, GetListBoxInfo function [Windows Controls], _win32_GetListBoxInfo, _win32_GetListBoxInfo_cpp, controls.GetListBoxInfo, controls._win32_GetListBoxInfo, winuser/GetListBoxInfo
 ms.topic: function
-f1_keywords: ["winuser/GetListBoxInfo"]
+f1_keywords: 
+ - "winuser/GetListBoxInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],Ping method, IOCSPAdmin.Ping, IOCSPAdmin::Ping, Ping, Ping method [Security], Ping method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
 ms.topic: method
-f1_keywords: ["certadm/IOCSPAdmin.Ping"]
+f1_keywords: 
+ - "certadm/IOCSPAdmin.Ping"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

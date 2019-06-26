@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleResult property, BusinessRuleResult property [Security], BusinessRuleResult property [Security],AzBizRuleContext object, BusinessRuleResult property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleResult property, IAzBizRuleContext.BusinessRuleResult, IAzBizRuleContext.put_BusinessRuleResult, IAzBizRuleContext::BusinessRuleResult, IAzBizRuleContext::put_BusinessRuleResult, azroles/IAzBizRuleContext::BusinessRuleResult, azroles/IAzBizRuleContext::put_BusinessRuleResult, put_BusinessRuleResult, security.azbizrulecontext_businessruleresult
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleContext.BusinessRuleResult"]
+f1_keywords: 
+ - "azroles/IAzBizRuleContext.BusinessRuleResult"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

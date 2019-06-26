@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3InBounds, XMVector3InBounds, XMVector3InBounds method [DirectX Math Support APIs], dxmath.xmvector3inbounds
 ms.topic: function
-f1_keywords: ["directxmath/XMVector3InBounds"]
+f1_keywords: 
+ - "directxmath/XMVector3InBounds"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

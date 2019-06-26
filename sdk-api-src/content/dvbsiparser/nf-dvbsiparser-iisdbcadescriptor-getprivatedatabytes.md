@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDataBytes, GetPrivateDataBytes method [Microsoft TV Technologies], GetPrivateDataBytes method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetPrivateDataBytes method, IIsdbCADescriptor.GetPrivateDataBytes, IIsdbCADescriptor::GetPrivateDataBytes, dvbsiparser/IIsdbCADescriptor::GetPrivateDataBytes, mstv.iisdbcadescriptor_getprivatedatabytes
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCADescriptor.GetPrivateDataBytes"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCADescriptor.GetPrivateDataBytes"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

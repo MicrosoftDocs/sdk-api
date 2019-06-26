@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescSetId, EventDescSetId function [ETW], base.eventdescsetid_func, etw.eventdescsetid_func, evntprov/EventDescSetId
 ms.topic: function
-f1_keywords: ["evntprov/EventDescSetId"]
+f1_keywords: 
+ - "evntprov/EventDescSetId"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

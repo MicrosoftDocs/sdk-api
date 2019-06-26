@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
 ms.topic: interface
-f1_keywords: ["wmdxva/IWMPlayerTimestampHook"]
+f1_keywords: 
+ - "wmdxva/IWMPlayerTimestampHook"
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

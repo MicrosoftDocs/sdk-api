@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO structure [Internationalization for Windows Applications], PIMECOMPOSITIONSTRINGINFO, PIMECOMPOSITIONSTRINGINFO structure pointer [Internationalization for Windows Applications], imepad/IMECOMPOSITIONSTRINGINFO, imepad/PIMECOMPOSITIONSTRINGINFO, intl.imecompositionstringinfo"
 ms.topic: struct
-f1_keywords: ["imepad/IMECOMPOSITIONSTRINGINFO"]
+f1_keywords: 
+ - "imepad/IMECOMPOSITIONSTRINGINFO"
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaBase.CreateThresholdAction"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaBase.CreateThresholdAction"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

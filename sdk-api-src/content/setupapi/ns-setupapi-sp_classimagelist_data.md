@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA structure pointer [Device and Driver Installation], SP_CLASSIMAGELIST_DATA, SP_CLASSIMAGELIST_DATA structure [Device and Driver Installation], devinst.sp_classimagelist_data, di-struct_2d2e73bd-5f18-49d1-96ad-639bc0ad658e.xml, setupapi/PSP_CLASSIMAGELIST_DATA, setupapi/SP_CLASSIMAGELIST_DATA"
 ms.topic: struct
-f1_keywords: ["setupapi/SP_CLASSIMAGELIST_DATA"]
+f1_keywords: 
+ - "setupapi/SP_CLASSIMAGELIST_DATA"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

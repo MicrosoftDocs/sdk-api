@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePower method, IAMExtDevice.put_DevicePower, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePower
 ms.topic: method
-f1_keywords: ["strmif/IAMExtDevice.put_DevicePower"]
+f1_keywords: 
+ - "strmif/IAMExtDevice.put_DevicePower"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

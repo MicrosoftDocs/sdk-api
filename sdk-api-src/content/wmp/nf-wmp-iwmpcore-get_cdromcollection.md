@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_cdromCollection method, IWMPCore.get_cdromCollection, IWMPCore::get_cdromCollection, IWMPCoreget_cdromCollection, get_cdromCollection, get_cdromCollection method [Windows Media Player], get_cdromCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_cdromcollection, wmp/IWMPCore::get_cdromCollection
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_cdromCollection"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_cdromCollection"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

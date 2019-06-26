@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get__NewEnum method, IComponentTypes.get__NewEnum, IComponentTypes::get__NewEnum, IComponentTypesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get__newenum, tuner/IComponentTypes::get__NewEnum
 ms.topic: method
-f1_keywords: ["tuner/IComponentTypes.get__NewEnum"]
+f1_keywords: 
+ - "tuner/IComponentTypes.get__NewEnum"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader.CancelLicenseAcquisition"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader.CancelLicenseAcquisition"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

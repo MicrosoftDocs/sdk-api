@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],Enable method, IDesktopWallpaper.Enable, IDesktopWallpaper::Enable, shell.IDesktopWallpaper_Enable, shobjidl_core/IDesktopWallpaper::Enable
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.Enable"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.Enable"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

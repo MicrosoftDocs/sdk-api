@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
 ms.topic: function
-f1_keywords: ["shlobj_core/SHLimitInputEdit"]
+f1_keywords: 
+ - "shlobj_core/SHLimitInputEdit"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

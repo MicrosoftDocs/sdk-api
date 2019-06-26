@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolumesFromDrive, GetVolumesFromDrive function [Files], GetVolumesFromDriveA, GetVolumesFromDriveW, base.getvolumesfromdrive, fs.getvolumesfromdrive, ntmsapi/GetVolumesFromDrive, ntmsapi/GetVolumesFromDriveA, ntmsapi/GetVolumesFromDriveW
 ms.topic: function
-f1_keywords: ["ntmsapi/GetVolumesFromDrive"]
+f1_keywords: 
+ - "ntmsapi/GetVolumesFromDrive"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Direct2D], Flush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],Flush method, ID2D1RenderTarget.Flush, ID2D1RenderTarget::Flush, d2d1/ID2D1RenderTarget::Flush, direct2d.ID2D1RenderTarget_Flush
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.Flush"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.Flush"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

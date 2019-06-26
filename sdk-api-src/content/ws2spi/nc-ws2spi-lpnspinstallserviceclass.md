@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPInstallServiceClass"]
+f1_keywords: 
+ - "ws2spi/NSPInstallServiceClass"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

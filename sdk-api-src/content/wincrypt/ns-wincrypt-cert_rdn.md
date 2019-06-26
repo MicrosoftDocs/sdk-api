@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_RDN, CERT_RDN, CERT_RDN structure [Security], PCERT_RDN, PCERT_RDN structure pointer [Security], _crypto2_cert_rdn, security.cert_rdn, wincrypt/CERT_RDN, wincrypt/PCERT_RDN"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_RDN"]
+f1_keywords: 
+ - "wincrypt/CERT_RDN"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

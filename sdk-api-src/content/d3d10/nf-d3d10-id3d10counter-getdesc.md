@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4104c0fc-f402-406e-fc83-bc193e61234b, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Counter interface, ID3D10Counter interface [Direct3D 10],GetDesc method, ID3D10Counter.GetDesc, ID3D10Counter::GetDesc, d3d10/ID3D10Counter::GetDesc, direct3d10.id3d10counter_getdesc
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Counter.GetDesc"]
+f1_keywords: 
+ - "d3d10/ID3D10Counter.GetDesc"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

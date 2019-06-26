@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateException interface [Windows Update Agent],Message property, IUpdateException.Message, IUpdateException.get_Message, IUpdateException::Message, IUpdateException::get_Message, Message property [Windows Update Agent], Message property [Windows Update Agent],IUpdateException interface, get_Message, wua.iupdateexception_message, wuapi/IUpdateException::Message, wuapi/IUpdateException::get_Message
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateException.Message"]
+f1_keywords: 
+ - "wuapi/IUpdateException.Message"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

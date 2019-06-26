@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], ITfTextLayoutSink interface [Text Services Framework],described, _tsf_itftextlayoutsink_ref, msctf/ITfTextLayoutSink, tsf.itftextlayoutsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfTextLayoutSink"]
+f1_keywords: 
+ - "msctf/ITfTextLayoutSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
 ms.topic: function
-f1_keywords: ["winreg/RegDisablePredefinedCache"]
+f1_keywords: 
+ - "winreg/RegDisablePredefinedCache"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

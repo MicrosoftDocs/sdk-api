@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflict.Resolve"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflict.Resolve"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

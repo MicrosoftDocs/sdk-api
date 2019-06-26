@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
 ms.topic: function
-f1_keywords: ["ntmsapi/GetNtmsMediaPoolName"]
+f1_keywords: 
+ - "ntmsapi/GetNtmsMediaPoolName"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

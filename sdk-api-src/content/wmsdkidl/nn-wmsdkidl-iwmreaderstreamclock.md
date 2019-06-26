@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], IWMReaderStreamClock interface [windows Media Format],described, IWMReaderStreamClockInterface, wmformat.iwmreaderstreamclock, wmsdkidl/IWMReaderStreamClock
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderStreamClock"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderStreamClock"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

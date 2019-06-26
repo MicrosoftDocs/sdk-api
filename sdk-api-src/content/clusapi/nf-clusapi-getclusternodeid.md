@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeId, GetClusterNodeId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID function [Failover Cluster], _wolf_getclusternodeid, clusapi/GetClusterNodeId, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
 ms.topic: function
-f1_keywords: ["clusapi/GetClusterNodeId"]
+f1_keywords: 
+ - "clusapi/GetClusterNodeId"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

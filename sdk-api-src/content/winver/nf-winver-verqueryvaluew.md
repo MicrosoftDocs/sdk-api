@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
 ms.topic: function
-f1_keywords: ["winver/VerQueryValue"]
+f1_keywords: 
+ - "winver/VerQueryValue"
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

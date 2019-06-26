@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintClear, BufferedPaintClear function [Windows Controls], _shell_BufferedPaintClear, _shell_BufferedPaintClear_cpp, controls.BufferedPaintClear, controls._shell_BufferedPaintClear, uxtheme/BufferedPaintClear
 ms.topic: function
-f1_keywords: ["uxtheme/BufferedPaintClear"]
+f1_keywords: 
+ - "uxtheme/BufferedPaintClear"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

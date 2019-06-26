@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem function [Windows Shell], _shell_SHSetTemporaryPropertyForItem, shell.SHSetTemporaryPropertyForItem, shobjidl_core/SHSetTemporaryPropertyForItem
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHSetTemporaryPropertyForItem"]
+f1_keywords: 
+ - "shobjidl_core/SHSetTemporaryPropertyForItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

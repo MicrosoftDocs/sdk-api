@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],described, coreaudio.ipart, devicetopology/IPart
 ms.topic: interface
-f1_keywords: ["devicetopology/IPart"]
+f1_keywords: 
+ - "devicetopology/IPart"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

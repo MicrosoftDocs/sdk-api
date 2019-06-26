@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],CloseView method, IOleDocumentView.CloseView, IOleDocumentView::CloseView, _ole_ioledocumentview_closeview, com.ioledocumentview_closeview, docobj/IOleDocumentView::CloseView
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.CloseView"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.CloseView"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

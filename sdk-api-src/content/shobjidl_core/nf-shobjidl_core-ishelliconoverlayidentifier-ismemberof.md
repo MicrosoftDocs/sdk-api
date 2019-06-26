@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf method, IShellIconOverlayIdentifier.IsMemberOf, IShellIconOverlayIdentifier::IsMemberOf, IsMemberOf, IsMemberOf method [Windows Shell], IsMemberOf method [Windows Shell],IShellIconOverlayIdentifier interface, _win32_IShellIconOverlayIdentifier_IsMemberOf, shell.IShellIconOverlayIdentifier_IsMemberOf, shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellIconOverlayIdentifier.IsMemberOf"]
+f1_keywords: 
+ - "shobjidl_core/IShellIconOverlayIdentifier.IsMemberOf"
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

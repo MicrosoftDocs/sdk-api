@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentMarker method, IWMPControls.get_currentMarker, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.get_currentMarker"]
+f1_keywords: 
+ - "wmp/IWMPControls.get_currentMarker"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

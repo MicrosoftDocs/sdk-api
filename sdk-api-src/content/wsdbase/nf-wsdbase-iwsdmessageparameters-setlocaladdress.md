@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDMessageParameters.SetLocalAddress"]
+f1_keywords: 
+ - "wsdbase/IWSDMessageParameters.SetLocalAddress"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

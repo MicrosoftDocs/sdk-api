@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [COM+], Count property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Count property, ICatalogCollection.Count, ICatalogCollection.get_Count, ICatalogCollection::Count, ICatalogCollection::get_Count, _cos_ICatalogCollection_get_Count, comadmin/ICatalogCollection::Count, comadmin/ICatalogCollection::get_Count, cos.icatalogcollection_count, get_Count
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogCollection.Count"]
+f1_keywords: 
+ - "comadmin/ICatalogCollection.Count"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

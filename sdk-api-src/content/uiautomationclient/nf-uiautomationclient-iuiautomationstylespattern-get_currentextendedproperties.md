@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentExtendedProperties property [Windows Accessibility], CurrentExtendedProperties property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentExtendedProperties property, IUIAutomationStylesPattern.CurrentExtendedProperties, IUIAutomationStylesPattern.get_CurrentExtendedProperties, IUIAutomationStylesPattern::CurrentExtendedProperties, IUIAutomationStylesPattern::get_CurrentExtendedProperties, get_CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::get_CurrentExtendedProperties, winauto.iuiautomationstylespattern_currentextendedproperties
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CurrentExtendedProperties"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationStylesPattern.CurrentExtendedProperties"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

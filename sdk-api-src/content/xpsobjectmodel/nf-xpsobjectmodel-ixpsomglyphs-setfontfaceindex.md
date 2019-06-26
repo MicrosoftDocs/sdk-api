@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontFaceIndex method, IXpsOMGlyphs.SetFontFaceIndex, IXpsOMGlyphs::SetFontFaceIndex, SetFontFaceIndex, SetFontFaceIndex method [XPS Documents and Packaging], SetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetFontFaceIndex"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.SetFontFaceIndex"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

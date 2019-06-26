@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class, Pen class [GDI+],GetBrush method, Pen.GetBrush, Pen::GetBrush, _gdiplus_CLASS_Pen_GetBrush_, gdiplus._gdiplus_CLASS_Pen_GetBrush_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.GetBrush"]
+f1_keywords: 
+ - "gdipluspen/Pen.GetBrush"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

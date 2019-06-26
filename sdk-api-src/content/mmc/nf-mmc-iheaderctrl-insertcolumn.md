@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHeaderCtrl.InsertColumn, IHeaderCtrl::InsertColumn, InsertColumn, InsertColumn method [MMC], InsertColumn method [MMC],IHeaderCtrl interface, LVCFMT_CENTER, LVCFMT_LEFT, LVCFMT_RIGHT, MMCLV_AUTO, mmc.iheaderctrl_insertcolumn, mmc/IHeaderCtrl::InsertColumn
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl.InsertColumn"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl.InsertColumn"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

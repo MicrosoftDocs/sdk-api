@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetID method, IMFSpatialAudioObjectBuffer.SetID, IMFSpatialAudioObjectBuffer::SetID, SetID, SetID method [Media Foundation], SetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_setid, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetID
 ms.topic: method
-f1_keywords: ["mfspatialaudio/IMFSpatialAudioObjectBuffer.SetID"]
+f1_keywords: 
+ - "mfspatialaudio/IMFSpatialAudioObjectBuffer.SetID"
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

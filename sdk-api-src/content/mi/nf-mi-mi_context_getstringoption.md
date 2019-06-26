@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_GetStringOption, MI_Context_GetStringOption function [Windows Management Infrastructure (MI)], mi/MI_Context_GetStringOption, wmi.mi_getstringoption, wmi_v2.mi_context_getstringoption
 ms.topic: function
-f1_keywords: ["mi/MI_Context_GetStringOption"]
+f1_keywords: 
+ - "mi/MI_Context_GetStringOption"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

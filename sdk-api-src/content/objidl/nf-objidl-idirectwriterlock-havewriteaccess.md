@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HaveWriteAccess, HaveWriteAccess method [Structured Storage], HaveWriteAccess method [Structured Storage],IDirectWriterLock interface, IDirectWriterLock interface [Structured Storage],HaveWriteAccess method, IDirectWriterLock.HaveWriteAccess, IDirectWriterLock::HaveWriteAccess, _stg_idirectwriterlock_havewriteaccess, objidl/IDirectWriterLock::HaveWriteAccess, stg.idirectwriterlock_havewriteaccess
 ms.topic: method
-f1_keywords: ["objidl/IDirectWriterLock.HaveWriteAccess"]
+f1_keywords: 
+ - "objidl/IDirectWriterLock.HaveWriteAccess"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

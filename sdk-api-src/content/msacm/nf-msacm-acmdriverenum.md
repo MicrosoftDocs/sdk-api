@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverEnum, acmDriverEnum, acmDriverEnum function [Windows Multimedia], msacm/acmDriverEnum, multimedia.acmdriverenum"
 ms.topic: function
-f1_keywords: ["msacm/acmDriverEnum"]
+f1_keywords: 
+ - "msacm/acmDriverEnum"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

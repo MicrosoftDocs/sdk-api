@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Reset method, IEnumWiaItem.Reset, IEnumWiaItem::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Reset, wia._wia_IEnumWiaItem_Reset, wia_xp/IEnumWiaItem::Reset
 ms.topic: method
-f1_keywords: ["wia_xp/IEnumWiaItem.Reset"]
+f1_keywords: 
+ - "wia_xp/IEnumWiaItem.Reset"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderColors method, ITextRow.SetCellBorderColors, ITextRow::SetCellBorderColors, SetCellBorderColors, SetCellBorderColors method [Windows Controls], SetCellBorderColors method [Windows Controls],ITextRow interface, controls.itextrow_setcellbordercolors, tom/ITextRow::SetCellBorderColors
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetCellBorderColors"]
+f1_keywords: 
+ - "tom/ITextRow.SetCellBorderColors"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

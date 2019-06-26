@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Status property, IMbnSmsReadMsgPdu.Status, IMbnSmsReadMsgPdu.get_Status, IMbnSmsReadMsgPdu::Status, IMbnSmsReadMsgPdu::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Status, mbn.imbnsmsreadmsgpdu_status, mbnapi/IMbnSmsReadMsgPdu::Status, mbnapi/IMbnSmsReadMsgPdu::get_Status
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSmsReadMsgPdu.Status"]
+f1_keywords: 
+ - "mbnapi/IMbnSmsReadMsgPdu.Status"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

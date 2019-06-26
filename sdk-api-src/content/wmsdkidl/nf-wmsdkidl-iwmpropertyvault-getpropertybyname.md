@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyByName, GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByName method, IWMPropertyVault.GetPropertyByName, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMPropertyVault.GetPropertyByName"]
+f1_keywords: 
+ - "wmsdkidl/IWMPropertyVault.GetPropertyByName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

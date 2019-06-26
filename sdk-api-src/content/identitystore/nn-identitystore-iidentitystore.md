@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
 ms.topic: interface
-f1_keywords: ["identitystore/IIdentityStore"]
+f1_keywords: 
+ - "identitystore/IIdentityStore"
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

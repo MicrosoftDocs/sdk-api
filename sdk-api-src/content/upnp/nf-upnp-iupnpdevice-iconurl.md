@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevice.IconURL"]
+f1_keywords: 
+ - "upnp/IUPnPDevice.IconURL"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetPointCount method, PathGradientBrush.GetPointCount, PathGradientBrush::GetPointCount, _gdiplus_CLASS_PathGradientBrush_GetPointCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetPointCount_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.GetPointCount"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.GetPointCount"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

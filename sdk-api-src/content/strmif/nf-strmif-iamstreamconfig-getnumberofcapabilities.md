@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
 ms.topic: method
-f1_keywords: ["strmif/IAMStreamConfig.GetNumberOfCapabilities"]
+f1_keywords: 
+ - "strmif/IAMStreamConfig.GetNumberOfCapabilities"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

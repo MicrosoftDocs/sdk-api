@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndices"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

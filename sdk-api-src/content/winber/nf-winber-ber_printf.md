@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
 ms.topic: function
-f1_keywords: ["winber/ber_printf"]
+f1_keywords: 
+ - "winber/ber_printf"
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

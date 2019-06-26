@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
 ms.topic: function
-f1_keywords: ["lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength"]
+f1_keywords: 
+ - "lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength"
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

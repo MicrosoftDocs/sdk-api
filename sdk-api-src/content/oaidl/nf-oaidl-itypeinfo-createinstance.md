@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.CreateInstance"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.CreateInstance"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

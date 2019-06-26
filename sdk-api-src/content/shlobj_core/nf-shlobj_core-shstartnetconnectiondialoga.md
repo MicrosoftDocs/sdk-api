@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, SHStartNetConnectionDialog, SHStartNetConnectionDialog function [Windows Shell], SHStartNetConnectionDialogA, SHStartNetConnectionDialogW, _win32_SHStartNetConnectionDialog, shell.SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialogA, shlobj_core/SHStartNetConnectionDialogW
 ms.topic: function
-f1_keywords: ["shlobj_core/SHStartNetConnectionDialog"]
+f1_keywords: 
+ - "shlobj_core/SHStartNetConnectionDialog"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

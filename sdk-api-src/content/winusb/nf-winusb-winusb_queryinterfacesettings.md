@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_QueryInterfaceSettings"]
+f1_keywords: 
+ - "winusb/WinUsb_QueryInterfaceSettings"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

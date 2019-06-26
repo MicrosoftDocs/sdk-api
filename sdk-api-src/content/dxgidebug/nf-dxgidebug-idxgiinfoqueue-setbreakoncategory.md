@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnCategory method, IDXGIInfoQueue.SetBreakOnCategory, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.SetBreakOnCategory"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.SetBreakOnCategory"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

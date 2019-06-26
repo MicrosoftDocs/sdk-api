@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
 ms.topic: function
-f1_keywords: ["http/HttpCloseServerSession"]
+f1_keywords: 
+ - "http/HttpCloseServerSession"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

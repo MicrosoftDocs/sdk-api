@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],Init method, CMSPStream.Init, CMSPStream::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_init, mspstrm/CMSPStream::Init, tapi3.cmspstream_init
 ms.topic: method
-f1_keywords: ["mspstrm/CMSPStream.Init"]
+f1_keywords: 
+ - "mspstrm/CMSPStream.Init"
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

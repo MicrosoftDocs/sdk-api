@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumeration [XAudio2 Audio Mixing APIs], NaturalDecay, hrtfapoapi/CustomDecay, hrtfapoapi/HrtfDistanceDecayType, hrtfapoapi/NaturalDecay, xaudio2.hrtfdistancedecaytype
 ms.topic: enum
-f1_keywords: ["hrtfapoapi/HrtfDistanceDecayType"]
+f1_keywords: 
+ - "hrtfapoapi/HrtfDistanceDecayType"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

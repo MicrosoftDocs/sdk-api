@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorGetAttributes, EapMethodAuthenticatorGetAttributes function [EAPHost], eaphost.eapmethodauthenticatorgetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
 ms.topic: function
-f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes"]
+f1_keywords: 
+ - "eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes"
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

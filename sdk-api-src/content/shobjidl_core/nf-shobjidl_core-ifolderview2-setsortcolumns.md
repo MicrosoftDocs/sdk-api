@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetSortColumns method, IFolderView2.SetSortColumns, IFolderView2::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetSortColumns, shell.IFolderView2_SetSortColumns, shobjidl_core/IFolderView2::SetSortColumns
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.SetSortColumns"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.SetSortColumns"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

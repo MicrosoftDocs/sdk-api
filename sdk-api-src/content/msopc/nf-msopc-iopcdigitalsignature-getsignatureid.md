@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [Open Packaging Conventions], GetSignatureId method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureId method, IOpcDigitalSignature.GetSignatureId, IOpcDigitalSignature::GetSignatureId, msopc/IOpcDigitalSignature::GetSignatureId, opc.iopcdigitalsignature_getsignatureid
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignature.GetSignatureId"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature.GetSignatureId"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

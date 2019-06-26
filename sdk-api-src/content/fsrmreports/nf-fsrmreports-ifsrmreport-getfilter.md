@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilter, GetFilter method [File Server Resource Manager], GetFilter method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],GetFilter method, IFsrmReport.GetFilter, IFsrmReport::GetFilter, fs.ifsrmreport_getfilter, fsrm.ifsrmreport_getfilter, fsrmreports/IFsrmReport::GetFilter
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReport.GetFilter"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReport.GetFilter"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceFromUDN, CreateInstanceFromUDN method [Media Foundation], CreateInstanceFromUDN method [Media Foundation],IMFImageSharingEngineClassFactory interface, IMFImageSharingEngineClassFactory interface [Media Foundation],CreateInstanceFromUDN method, IMFImageSharingEngineClassFactory.CreateInstanceFromUDN, IMFImageSharingEngineClassFactory::CreateInstanceFromUDN, mf.imfimagesharingengineclassfactory_createinstancefromudn, mfsharingengine/IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
 ms.topic: method
-f1_keywords: ["mfsharingengine/IMFImageSharingEngineClassFactory.CreateInstanceFromUDN"]
+f1_keywords: 
+ - "mfsharingengine/IMFImageSharingEngineClassFactory.CreateInstanceFromUDN"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

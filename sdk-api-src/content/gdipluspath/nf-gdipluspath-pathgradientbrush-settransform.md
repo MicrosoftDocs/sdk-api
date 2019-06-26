@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetTransform method, PathGradientBrush.SetTransform, PathGradientBrush::SetTransform, SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetTransform_matrix_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.SetTransform"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.SetTransform"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

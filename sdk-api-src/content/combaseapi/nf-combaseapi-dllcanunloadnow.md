@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DllCanUnloadNow, DllCanUnloadNow function [COM], _com_DllCanUnloadNow, com.dllcanunloadnow, combaseapi/DllCanUnloadNow
 ms.topic: function
-f1_keywords: ["combaseapi/DllCanUnloadNow"]
+f1_keywords: 
+ - "combaseapi/DllCanUnloadNow"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

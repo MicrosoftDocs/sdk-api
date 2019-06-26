@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
 ms.topic: function
-f1_keywords: ["objbase/CreateDataCache"]
+f1_keywords: 
+ - "objbase/CreateDataCache"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

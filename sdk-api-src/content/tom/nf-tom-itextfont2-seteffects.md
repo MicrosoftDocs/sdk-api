@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetEffects method, ITextFont2.SetEffects, ITextFont2::SetEffects, SetEffects, SetEffects method [Windows Controls], SetEffects method [Windows Controls],ITextFont2 interface, controls.itextfont2_seteffects, tom/ITextFont2::SetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetEffects"]
+f1_keywords: 
+ - "tom/ITextFont2.SetEffects"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

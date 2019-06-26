@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],OnControlInfoChanged method, IOleControlSite.OnControlInfoChanged, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
 ms.topic: method
-f1_keywords: ["ocidl/IOleControlSite.OnControlInfoChanged"]
+f1_keywords: 
+ - "ocidl/IOleControlSite.OnControlInfoChanged"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS structure [Display Devices], PDD_KERNELCALLBACKS, PDD_KERNELCALLBACKS structure pointer [Display Devices], ddrawint/DD_KERNELCALLBACKS, ddrawint/PDD_KERNELCALLBACKS, ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml, display.dd_kernelcallbacks"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_KERNELCALLBACKS"]
+f1_keywords: 
+ - "ddrawint/DD_KERNELCALLBACKS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

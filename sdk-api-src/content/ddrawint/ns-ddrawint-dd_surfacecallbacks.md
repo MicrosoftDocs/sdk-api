@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_SURFACECALLBACKS, DD_SURFACECALLBACKS, DD_SURFACECALLBACKS structure [Display Devices], PDD_SURFACECALLBACKS, PDD_SURFACECALLBACKS structure pointer [Display Devices], ddrawint/DD_SURFACECALLBACKS, ddrawint/PDD_SURFACECALLBACKS, ddstrcts_868cb884-02fc-4df4-a3ec-1fde158e42b0.xml, display.dd_surfacecallbacks"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_SURFACECALLBACKS"]
+f1_keywords: 
+ - "ddrawint/DD_SURFACECALLBACKS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

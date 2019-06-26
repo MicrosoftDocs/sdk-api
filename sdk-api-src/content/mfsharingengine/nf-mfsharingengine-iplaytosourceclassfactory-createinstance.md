@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IPlayToSourceClassFactory interface, IPlayToSourceClassFactory interface [Media Foundation],CreateInstance method, IPlayToSourceClassFactory.CreateInstance, IPlayToSourceClassFactory::CreateInstance, mf.iplaytocontrollerclassfactory_createinstance, mf.iplaytosourceclassfactory_createinstance, mfsharingengine/IPlayToSourceClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: ["mfsharingengine/IPlayToSourceClassFactory.CreateInstance"]
+f1_keywords: 
+ - "mfsharingengine/IPlayToSourceClassFactory.CreateInstance"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

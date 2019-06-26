@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Open Packaging Conventions], Add method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],Add method, IOpcCertificateSet.Add, IOpcCertificateSet::Add, msopc/IOpcCertificateSet::Add, opc.iopccertificateset_add
 ms.topic: method
-f1_keywords: ["msopc/IOpcCertificateSet.Add"]
+f1_keywords: 
+ - "msopc/IOpcCertificateSet.Add"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

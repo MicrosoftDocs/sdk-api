@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetItem method, IUICollection.GetItem, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
 ms.topic: method
-f1_keywords: ["uiribbon/IUICollection.GetItem"]
+f1_keywords: 
+ - "uiribbon/IUICollection.GetItem"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

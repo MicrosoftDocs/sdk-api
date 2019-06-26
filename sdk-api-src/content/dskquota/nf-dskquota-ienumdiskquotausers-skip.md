@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUsers.Skip, IEnumDiskQuotaUsers::Skip, Skip, Skip method [Files], Skip method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_skip, base.ienumdiskquotausers_skip, dskquota/IEnumDiskQuotaUsers::Skip, fs.ienumdiskquotausers_skip
 ms.topic: method
-f1_keywords: ["dskquota/IEnumDiskQuotaUsers.Skip"]
+f1_keywords: 
+ - "dskquota/IEnumDiskQuotaUsers.Skip"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

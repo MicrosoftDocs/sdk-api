@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
 ms.topic: function
-f1_keywords: ["evntrace/ProcessTrace"]
+f1_keywords: 
+ - "evntrace/ProcessTrace"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

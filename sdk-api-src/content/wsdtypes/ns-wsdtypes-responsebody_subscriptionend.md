@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_SubscriptionEnd, RESPONSEBODY_SubscriptionEnd structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryFailure, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceCancelling, http://schemas.xmlsoap.org/ws/2004/08/eventing/SourceShuttingDown, ncd.responsebody_subscriptionend, wsdtypes/RESPONSEBODY_SubscriptionEnd
 ms.topic: struct
-f1_keywords: ["wsdtypes/RESPONSEBODY_SubscriptionEnd"]
+f1_keywords: 
+ - "wsdtypes/RESPONSEBODY_SubscriptionEnd"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

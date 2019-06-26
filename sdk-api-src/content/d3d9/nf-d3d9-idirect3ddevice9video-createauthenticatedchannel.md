@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel method [Media Foundation], CreateAuthenticatedChannel method [Media Foundation],IDirect3DDevice9Video interface, IDirect3DDevice9Video interface [Media Foundation],CreateAuthenticatedChannel method, IDirect3DDevice9Video.CreateAuthenticatedChannel, IDirect3DDevice9Video::CreateAuthenticatedChannel, d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel, mf.idirect3ddevice9video_createauthenticatedchannel
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9Video.CreateAuthenticatedChannel"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9Video.CreateAuthenticatedChannel"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], IRawElementProviderHostingAccessibles interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderHostingAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IRawElementProviderHostingAccessibles"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderHostingAccessibles"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

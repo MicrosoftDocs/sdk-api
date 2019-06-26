@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Channel method, IAMTuner.put_Channel, IAMTuner::put_Channel, IAMTunerput_Channel, dshow.iamtuner_put_channel, put_Channel, put_Channel method [DirectShow], put_Channel method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Channel
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.put_Channel"]
+f1_keywords: 
+ - "strmif/IAMTuner.put_Channel"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

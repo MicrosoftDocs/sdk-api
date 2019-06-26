@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlindTransfer, BlindTransfer method [TAPI 2.2], BlindTransfer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],BlindTransfer method, ITBasicCallControl.BlindTransfer, ITBasicCallControl::BlindTransfer, _tapi3_itbasiccallcontrol_blindtransfer, tapi3.itbasiccallcontrol_blindtransfer, tapi3if/ITBasicCallControl::BlindTransfer
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl.BlindTransfer"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl.BlindTransfer"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

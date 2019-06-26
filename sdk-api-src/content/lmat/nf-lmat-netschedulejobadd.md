@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobAdd, NetScheduleJobAdd function [Network Management], _win32_netschedulejobadd, lmat/NetScheduleJobAdd, netmgmt.netschedulejobadd
 ms.topic: function
-f1_keywords: ["lmat/NetScheduleJobAdd"]
+f1_keywords: 
+ - "lmat/NetScheduleJobAdd"
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionId property, IFaxOutgoingJob.SubmissionId, IFaxOutgoingJob.get_SubmissionId, IFaxOutgoingJob::SubmissionId, IFaxOutgoingJob::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissionid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissionid_cpp, fax._mfax_faxoutgoingjob_submissionid, faxcomex/IFaxOutgoingJob::SubmissionId, faxcomex/IFaxOutgoingJob::get_SubmissionId, get_SubmissionId
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.SubmissionId"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.SubmissionId"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

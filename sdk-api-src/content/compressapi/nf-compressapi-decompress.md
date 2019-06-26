@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
 ms.topic: function
-f1_keywords: ["compressapi/Decompress"]
+f1_keywords: 
+ - "compressapi/Decompress"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

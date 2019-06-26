@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
 ms.topic: method
-f1_keywords: ["inkpresenterdesktop/IInkPresenterDesktop.SetCommitRequestHandler"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkPresenterDesktop.SetCommitRequestHandler"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

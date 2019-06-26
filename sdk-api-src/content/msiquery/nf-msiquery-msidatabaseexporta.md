@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
 ms.topic: function
-f1_keywords: ["msiquery/MsiDatabaseExport"]
+f1_keywords: 
+ - "msiquery/MsiDatabaseExport"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

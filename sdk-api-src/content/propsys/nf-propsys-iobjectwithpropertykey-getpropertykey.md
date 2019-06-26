@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, IObjectWithPropertyKey interface [Windows Shell],GetPropertyKey method, IObjectWithPropertyKey.GetPropertyKey, IObjectWithPropertyKey::GetPropertyKey, _shell_IObjectWithPropertyKey_GetPropertyKey, propsys/IObjectWithPropertyKey::GetPropertyKey, shell.IObjectWithPropertyKey_GetPropertyKey
 ms.topic: method
-f1_keywords: ["propsys/IObjectWithPropertyKey.GetPropertyKey"]
+f1_keywords: 
+ - "propsys/IObjectWithPropertyKey.GetPropertyKey"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

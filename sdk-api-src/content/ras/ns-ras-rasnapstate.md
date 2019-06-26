@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
 ms.topic: struct
-f1_keywords: ["ras/RASNAPSTATE"]
+f1_keywords: 
+ - "ras/RASNAPSTATE"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

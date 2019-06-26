@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ProxyFactoryMapping property, IUIAutomation.ProxyFactoryMapping, IUIAutomation.get_ProxyFactoryMapping, IUIAutomation::ProxyFactoryMapping, IUIAutomation::get_ProxyFactoryMapping, ProxyFactoryMapping property [Windows Accessibility], ProxyFactoryMapping property [Windows Accessibility],IUIAutomation interface, get_ProxyFactoryMapping, uiauto.uiauto_IUIAutomation_ProxyFactoryMapping, uiauto_IUIAutomation_ProxyFactoryMapping, uiautomationclient/IUIAutomation::ProxyFactoryMapping, uiautomationclient/IUIAutomation::get_ProxyFactoryMapping, winauto.uiauto_IUIAutomation_ProxyFactoryMapping
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.ProxyFactoryMapping"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.ProxyFactoryMapping"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeEncode method, IX509ExtensionTemplate.InitializeEncode, IX509ExtensionTemplate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeEncode, security.ix509extensiontemplate_initializeencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509ExtensionTemplate.InitializeEncode"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionTemplate.InitializeEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

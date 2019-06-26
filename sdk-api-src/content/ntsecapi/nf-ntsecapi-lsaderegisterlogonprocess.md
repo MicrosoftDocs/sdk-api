@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaDeregisterLogonProcess, LsaDeregisterLogonProcess function [Security], _lsa_lsaderegisterlogonprocess, ntsecapi/LsaDeregisterLogonProcess, security.lsaderegisterlogonprocess
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaDeregisterLogonProcess"]
+f1_keywords: 
+ - "ntsecapi/LsaDeregisterLogonProcess"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

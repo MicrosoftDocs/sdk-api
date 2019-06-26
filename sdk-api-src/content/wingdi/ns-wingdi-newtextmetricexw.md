@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NEWTEXTMETRICEX, NEWTEXTMETRICEX structure [Windows GDI], NEWTEXTMETRICEXA, NEWTEXTMETRICEXW, _win32_NEWTEXTMETRICEX_str, gdi.newtextmetricex, wingdi/NEWTEXTMETRICEX, wingdi/NEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEXW
 ms.topic: struct
-f1_keywords: ["wingdi/NEWTEXTMETRICEX"]
+f1_keywords: 
+ - "wingdi/NEWTEXTMETRICEX"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

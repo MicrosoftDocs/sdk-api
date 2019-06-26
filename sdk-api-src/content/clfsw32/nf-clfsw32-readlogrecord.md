@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
 ms.topic: function
-f1_keywords: ["clfsw32/ReadLogRecord"]
+f1_keywords: 
+ - "clfsw32/ReadLogRecord"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

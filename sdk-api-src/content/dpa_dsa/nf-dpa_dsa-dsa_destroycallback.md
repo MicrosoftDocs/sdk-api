@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
 ms.topic: function
-f1_keywords: ["dpa_dsa/DSA_DestroyCallback"]
+f1_keywords: 
+ - "dpa_dsa/DSA_DestroyCallback"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

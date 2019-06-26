@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
 ms.topic: function
-f1_keywords: ["wincred/CredEnumerate"]
+f1_keywords: 
+ - "wincred/CredEnumerate"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

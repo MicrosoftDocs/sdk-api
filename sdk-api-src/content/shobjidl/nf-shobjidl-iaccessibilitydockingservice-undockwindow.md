@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
 ms.topic: method
-f1_keywords: ["shobjidl/IAccessibilityDockingService.UndockWindow"]
+f1_keywords: 
+ - "shobjidl/IAccessibilityDockingService.UndockWindow"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

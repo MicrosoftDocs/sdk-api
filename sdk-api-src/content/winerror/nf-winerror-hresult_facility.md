@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FACILITY, HRESULT_FACILITY macro [COM], _com_HRESULT_FACILITY, com.hresult_facility, com.hresult_facility_macro, winerror/HRESULT_FACILITY
 ms.topic: macro
-f1_keywords: ["winerror/HRESULT_FACILITY"]
+f1_keywords: 
+ - "winerror/HRESULT_FACILITY"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

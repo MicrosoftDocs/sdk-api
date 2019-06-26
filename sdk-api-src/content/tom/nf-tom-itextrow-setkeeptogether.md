@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetKeepTogether"]
+f1_keywords: 
+ - "tom/ITextRow.SetKeepTogether"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

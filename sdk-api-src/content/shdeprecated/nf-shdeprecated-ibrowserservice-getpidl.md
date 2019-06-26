@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPidl method, IBrowserService.GetPidl, IBrowserService::GetPidl, shdeprecated/IBrowserService::GetPidl, shell.IBrowserService_GetPidl, zone_IBrowserService_GetPidl
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetPidl"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetPidl"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

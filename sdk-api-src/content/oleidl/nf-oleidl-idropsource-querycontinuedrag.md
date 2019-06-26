@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
 ms.topic: method
-f1_keywords: ["oleidl/IDropSource.QueryContinueDrag"]
+f1_keywords: 
+ - "oleidl/IDropSource.QueryContinueDrag"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

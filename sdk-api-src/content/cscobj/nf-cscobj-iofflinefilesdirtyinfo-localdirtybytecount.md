@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],LocalDirtyByteCount method, IOfflineFilesDirtyInfo.LocalDirtyByteCount, IOfflineFilesDirtyInfo::LocalDirtyByteCount, LocalDirtyByteCount, LocalDirtyByteCount method [Offline Files], LocalDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::LocalDirtyByteCount, of.iofflinefilesdirtyinfo_localdirtybytecount
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesDirtyInfo.LocalDirtyByteCount"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesDirtyInfo.LocalDirtyByteCount"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

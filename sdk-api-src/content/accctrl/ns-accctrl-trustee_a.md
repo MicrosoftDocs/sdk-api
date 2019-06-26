@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRUSTEEA, *PTRUSTEE_A, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEA, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee"
 ms.topic: struct
-f1_keywords: ["accctrl/TRUSTEE"]
+f1_keywords: 
+ - "accctrl/TRUSTEE"
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

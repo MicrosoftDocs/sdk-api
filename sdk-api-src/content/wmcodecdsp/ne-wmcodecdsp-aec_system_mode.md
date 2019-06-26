@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADAPTIVE_ARRAY_AND_AEC, ADAPTIVE_ARRAY_ONLY, AEC_SYSTEM_MODE, AEC_SYSTEM_MODE enumeration [Media Foundation], MODE_NOT_SET, OPTIBEAM_ARRAY_AND_AEC, OPTIBEAM_ARRAY_ONLY, SINGLE_CHANNEL_AEC, SINGLE_CHANNEL_NSAGC, codecapi.aec_system_modeenumeration, mf.aec_system_modeenumeration, wmcodecdsp/ADAPTIVE_ARRAY_AND_AEC, wmcodecdsp/ADAPTIVE_ARRAY_ONLY, wmcodecdsp/AEC_SYSTEM_MODE, wmcodecdsp/MODE_NOT_SET, wmcodecdsp/OPTIBEAM_ARRAY_AND_AEC, wmcodecdsp/OPTIBEAM_ARRAY_ONLY, wmcodecdsp/SINGLE_CHANNEL_AEC, wmcodecdsp/SINGLE_CHANNEL_NSAGC
 ms.topic: enum
-f1_keywords: ["wmcodecdsp/AEC_SYSTEM_MODE"]
+f1_keywords: 
+ - "wmcodecdsp/AEC_SYSTEM_MODE"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

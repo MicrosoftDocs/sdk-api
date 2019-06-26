@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout method [Text Services Framework], GetLayout method [Text Services Framework],ITfFnGetPreferredTouchKeyboardLayout interface, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],GetLayout method, ITfFnGetPreferredTouchKeyboardLayout.GetLayout, ITfFnGetPreferredTouchKeyboardLayout::GetLayout, ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout, tsf.itffngetpreferredtouchkeyboardlayout_getlayout
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnGetPreferredTouchKeyboardLayout.GetLayout"]
+f1_keywords: 
+ - "ctffunc/ITfFnGetPreferredTouchKeyboardLayout.GetLayout"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

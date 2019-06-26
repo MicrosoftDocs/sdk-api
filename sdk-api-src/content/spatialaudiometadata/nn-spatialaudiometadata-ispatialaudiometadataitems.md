@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], ISpatialAudioMetadataItems interface [Core Audio],described, coreaudio.ispatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataItems
 ms.topic: interface
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataItems"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataItems"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

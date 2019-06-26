@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DPA_FastGetPtr"]
+f1_keywords: 
+ - "dpa_dsa/DPA_FastGetPtr"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

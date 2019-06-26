@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 ms.topic: function
-f1_keywords: ["ole2/OleLoadFromStream"]
+f1_keywords: 
+ - "ole2/OleLoadFromStream"
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows

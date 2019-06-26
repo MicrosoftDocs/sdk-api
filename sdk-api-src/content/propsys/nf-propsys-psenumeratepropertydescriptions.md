@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSEnumeratePropertyDescriptions, PSEnumeratePropertyDescriptions function [Windows Properties], properties.PSEnumeratePropertyDescriptions, propsys/PSEnumeratePropertyDescriptions, shell.PSEnumeratePropertyDescriptions, shell_PSEnumeratePropertyDescriptions
 ms.topic: function
-f1_keywords: ["propsys/PSEnumeratePropertyDescriptions"]
+f1_keywords: 
+ - "propsys/PSEnumeratePropertyDescriptions"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

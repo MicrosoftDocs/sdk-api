@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, usp10/SCRIPT_TABDEF
 ms.topic: struct
-f1_keywords: ["usp10/SCRIPT_TABDEF"]
+f1_keywords: 
+ - "usp10/SCRIPT_TABDEF"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

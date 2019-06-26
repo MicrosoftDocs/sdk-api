@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPalette method, ID3D11VideoContext.VideoProcessorGetStreamPalette, ID3D11VideoContext::VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette, VideoProcessorGetStreamPalette method [Media Foundation], VideoProcessorGetStreamPalette method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPalette, mf.id3d11videocontext_videoprocessorgetstreampalette
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetStreamPalette"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamPalette"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

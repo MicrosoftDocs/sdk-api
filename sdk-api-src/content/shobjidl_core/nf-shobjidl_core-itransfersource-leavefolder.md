@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],LeaveFolder method, ITransferSource.LeaveFolder, ITransferSource::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],ITransferSource interface, _shell_ITransferSource_LeaveFolder, shell.ITransferSource_LeaveFolder, shobjidl_core/ITransferSource::LeaveFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITransferSource.LeaveFolder"]
+f1_keywords: 
+ - "shobjidl_core/ITransferSource.LeaveFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

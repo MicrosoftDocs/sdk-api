@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Media Foundation], mf.opm_copp_compatible_get_info_parameters, opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS"]
+f1_keywords: 
+ - "opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

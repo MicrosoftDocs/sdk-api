@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
 ms.topic: callback
-f1_keywords: ["dbghelp/SymbolServerCallback"]
+f1_keywords: 
+ - "dbghelp/SymbolServerCallback"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

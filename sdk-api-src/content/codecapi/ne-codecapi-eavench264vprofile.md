@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncH264VProfile, codecapi/eAVEncH264VProfile_422, codecapi/eAVEncH264VProfile_444, codecapi/eAVEncH264VProfile_Base, codecapi/eAVEncH264VProfile_ConstrainedBase, codecapi/eAVEncH264VProfile_Extended, codecapi/eAVEncH264VProfile_High, codecapi/eAVEncH264VProfile_High10, codecapi/eAVEncH264VProfile_Main, codecapi/eAVEncH264VProfile_MultiviewHigh, codecapi/eAVEncH264VProfile_ScalableBase, codecapi/eAVEncH264VProfile_ScalableHigh, codecapi/eAVEncH264VProfile_Simple, codecapi/eAVEncH264VProfile_StereoHigh, codecapi/eAVEncH264VProfile_UCConstrainedHigh, codecapi/eAVEncH264VProfile_UCScalableConstrainedBase, codecapi/eAVEncH264VProfile_UCScalableConstrainedHigh, codecapi/eAVEncH264VProfile_unknown, eAVEncH264VProfile, eAVEncH264VProfile enumeration [Media Foundation], eAVEncH264VProfile_422, eAVEncH264VProfile_444, eAVEncH264VProfile_Base, eAVEncH264VProfile_ConstrainedBase, eAVEncH264VProfile_Extended, eAVEncH264VProfile_High, eAVEncH264VProfile_High10, eAVEncH264VProfile_Main, eAVEncH264VProfile_MultiviewHigh, eAVEncH264VProfile_ScalableBase, eAVEncH264VProfile_ScalableHigh, eAVEncH264VProfile_Simple, eAVEncH264VProfile_StereoHigh, eAVEncH264VProfile_UCConstrainedHigh, eAVEncH264VProfile_UCScalableConstrainedBase, eAVEncH264VProfile_UCScalableConstrainedHigh, eAVEncH264VProfile_unknown, mf.eavench264vprofile
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncH264VProfile"]
+f1_keywords: 
+ - "codecapi/eAVEncH264VProfile"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrScheduleWizardUIOperation"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrScheduleWizardUIOperation"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

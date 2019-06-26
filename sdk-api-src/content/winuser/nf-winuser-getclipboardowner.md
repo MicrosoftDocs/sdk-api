@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipboardOwner, GetClipboardOwner function [Data Exchange], _win32_GetClipboardOwner, _win32_getclipboardowner_cpp, dataxchg.getclipboardowner, winui._win32_getclipboardowner, winuser/GetClipboardOwner
 ms.topic: function
-f1_keywords: ["winuser/GetClipboardOwner"]
+f1_keywords: 
+ - "winuser/GetClipboardOwner"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

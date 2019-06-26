@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 460a929b-71bf-4f41-9e7a-af04a8f1c10f, GetStream, GetStream method [Media Foundation], GetStream method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStream method, IMFASFStreamPrioritization.GetStream, IMFASFStreamPrioritization::GetStream, mf.imfasfstreamprioritization_getstream, wmcontainer/IMFASFStreamPrioritization::GetStream
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamPrioritization.GetStream"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamPrioritization.GetStream"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchRenameExtension, PathCchRenameExtension function [Windows Shell], pathcch/PathCchRenameExtension, shell.PathCchRenameExtension
 ms.topic: function
-f1_keywords: ["pathcch/PathCchRenameExtension"]
+f1_keywords: 
+ - "pathcch/PathCchRenameExtension"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

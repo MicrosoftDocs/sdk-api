@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], eaphost.eap_method_info_ex, eaptypes/EAP_METHOD_INFO_EX
 ms.topic: struct
-f1_keywords: ["eaptypes/EAP_METHOD_INFO_EX"]
+f1_keywords: 
+ - "eaptypes/EAP_METHOD_INFO_EX"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

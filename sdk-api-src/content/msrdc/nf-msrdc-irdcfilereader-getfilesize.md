@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFileSize method, IRdcFileReader.GetFileSize, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
 ms.topic: method
-f1_keywords: ["msrdc/IRdcFileReader.GetFileSize"]
+f1_keywords: 
+ - "msrdc/IRdcFileReader.GetFileSize"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

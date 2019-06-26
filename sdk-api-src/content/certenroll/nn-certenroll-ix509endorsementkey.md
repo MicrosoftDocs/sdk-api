@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
 ms.topic: interface
-f1_keywords: ["certenroll/IX509EndorsementKey"]
+f1_keywords: 
+ - "certenroll/IX509EndorsementKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

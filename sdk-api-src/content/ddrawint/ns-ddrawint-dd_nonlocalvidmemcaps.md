@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS structure [Display Devices], PDD_NONLOCALVIDMEMCAPS, PDD_NONLOCALVIDMEMCAPS structure pointer [Display Devices], ddrawint/DD_NONLOCALVIDMEMCAPS, ddrawint/PDD_NONLOCALVIDMEMCAPS, ddstrcts_2f88c083-47c5-4ae6-a0bc-42d32d6e44c9.xml, display.dd_nonlocalvidmemcaps"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_NONLOCALVIDMEMCAPS"]
+f1_keywords: 
+ - "ddrawint/DD_NONLOCALVIDMEMCAPS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

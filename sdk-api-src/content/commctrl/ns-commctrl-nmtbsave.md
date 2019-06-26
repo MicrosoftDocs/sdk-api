@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMTBSAVE, LPNMTBSAVE, LPNMTBSAVE structure pointer [Windows Controls], NMTBSAVE, NMTBSAVE structure [Windows Controls], _win32_NMTBSAVE, _win32_NMTBSAVE_cpp, commctrl/LPNMTBSAVE, commctrl/NMTBSAVE, controls.NMTBSAVE, controls._win32_NMTBSAVE"
 ms.topic: struct
-f1_keywords: ["commctrl/NMTBSAVE"]
+f1_keywords: 
+ - "commctrl/NMTBSAVE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

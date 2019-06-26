@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrowserService.SetReferrer, IBrowserService::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.SetReferrer"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.SetReferrer"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

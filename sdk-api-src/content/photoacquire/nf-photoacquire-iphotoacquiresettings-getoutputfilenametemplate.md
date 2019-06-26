@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputFilenameTemplate, GetOutputFilenameTemplate method [Picture Acquisition], GetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetOutputFilenameTemplate method, IPhotoAcquireSettings.GetOutputFilenameTemplate, IPhotoAcquireSettings::GetOutputFilenameTemplate, IPhotoAcquireSettingsGetOutputFilenameTemplate, photoacquire/IPhotoAcquireSettings::GetOutputFilenameTemplate, picacq.iphotoacquiresettings_getoutputfilenametemplate
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSettings.GetOutputFilenameTemplate"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSettings.GetOutputFilenameTemplate"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

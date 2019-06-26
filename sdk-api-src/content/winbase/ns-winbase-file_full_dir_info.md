@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_FULL_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FULL_DIR_INFO, FILE_FULL_DIR_INFO structure [Files], PFILE_FULL_DIR_INFO, PFILE_FULL_DIR_INFO structure pointer [Files], _FILE_FULL_DIR_INFO, fs.file_full_dir_info, winbase/FILE_FULL_DIR_INFO, winbase/PFILE_FULL_DIR_INFO"
 ms.topic: struct
-f1_keywords: ["winbase/FILE_FULL_DIR_INFO"]
+f1_keywords: 
+ - "winbase/FILE_FULL_DIR_INFO"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

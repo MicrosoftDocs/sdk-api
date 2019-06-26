@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlend method, LinearGradientBrush.SetBlend, LinearGradientBrush::SetBlend, SetBlend, SetBlend method [GDI+], SetBlend method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlend_blendFactors_blendPositions_count_
 ms.topic: method
-f1_keywords: ["gdiplusbrush/LinearGradientBrush.SetBlend"]
+f1_keywords: 
+ - "gdiplusbrush/LinearGradientBrush.SetBlend"
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

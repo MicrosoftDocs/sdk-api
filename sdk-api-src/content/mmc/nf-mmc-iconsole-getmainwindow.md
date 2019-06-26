@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
 ms.topic: method
-f1_keywords: ["mmc/IConsole.GetMainWindow"]
+f1_keywords: 
+ - "mmc/IConsole.GetMainWindow"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

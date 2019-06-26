@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
 ms.topic: function
-f1_keywords: ["winnls/SetUserGeoName"]
+f1_keywords: 
+ - "winnls/SetUserGeoName"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

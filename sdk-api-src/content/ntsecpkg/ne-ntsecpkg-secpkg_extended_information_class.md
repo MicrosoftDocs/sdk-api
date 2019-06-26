@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_EXTENDED_INFORMATION_CLASS, SECPKG_EXTENDED_INFORMATION_CLASS enumeration [Security], SecpkgContextThunks, SecpkgExtraOids, SecpkgGssInfo, SecpkgMaxInfo, SecpkgMutualAuthLevel, SecpkgNego2Info, SecpkgWowClientDll, _ssp_secpkg_extended_information_class, ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS, ntsecpkg/SecpkgContextThunks, ntsecpkg/SecpkgExtraOids, ntsecpkg/SecpkgGssInfo, ntsecpkg/SecpkgMaxInfo, ntsecpkg/SecpkgMutualAuthLevel, ntsecpkg/SecpkgNego2Info, ntsecpkg/SecpkgWowClientDll, security.secpkg_extended_information_class
 ms.topic: enum
-f1_keywords: ["ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

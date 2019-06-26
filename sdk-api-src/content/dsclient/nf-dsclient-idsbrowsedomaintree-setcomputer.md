@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsBrowseDomainTree interface [Active Directory],SetComputer method, IDsBrowseDomainTree.SetComputer, IDsBrowseDomainTree::SetComputer, SetComputer, SetComputer method [Active Directory], SetComputer method [Active Directory],IDsBrowseDomainTree interface, _glines_idsbrowsedomaintree_setcomputer, ad.idsbrowsedomaintree__setcomputer, ad.idsbrowsedomaintree_setcomputer, dsclient/IDsBrowseDomainTree::SetComputer
 ms.topic: method
-f1_keywords: ["dsclient/IDsBrowseDomainTree.SetComputer"]
+f1_keywords: 
+ - "dsclient/IDsBrowseDomainTree.SetComputer"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

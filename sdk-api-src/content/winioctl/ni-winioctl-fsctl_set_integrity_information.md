@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_INTEGRITY_INFORMATION, FSCTL_SET_INTEGRITY_INFORMATION control, FSCTL_SET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_set_integrity_information, winioctl/FSCTL_SET_INTEGRITY_INFORMATION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_SET_INTEGRITY_INFORMATION"]
+f1_keywords: 
+ - "winioctl/FSCTL_SET_INTEGRITY_INFORMATION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

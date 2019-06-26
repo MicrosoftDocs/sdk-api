@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],Configure method, Configure, Configure method [Security], Configure method [Security],CCertManageModule object, Configure method [Security],ICertManageModule interface, ICertManageModule interface [Security],Configure method, ICertManageModule.Configure, ICertManageModule::Configure, _certsrv_icertmanagemodule_configure, certmod/ICertManageModule::Configure, security.icertmanagemodule_configure
 ms.topic: method
-f1_keywords: ["certmod/ICertManageModule.Configure"]
+f1_keywords: 
+ - "certmod/ICertManageModule.Configure"
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows

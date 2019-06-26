@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_STORAGE_FORMAT, WMT_STORAGE_FORMAT enumeration [windows Media Format], WMT_Storage_Format_MP3, WMT_Storage_Format_V1, wmformat.wmt_storage_format, wmsdkidl/WMT_STORAGE_FORMAT, wmsdkidl/WMT_Storage_Format_MP3, wmsdkidl/WMT_Storage_Format_V1
 ms.topic: enum
-f1_keywords: ["wmsdkidl/WMT_STORAGE_FORMAT"]
+f1_keywords: 
+ - "wmsdkidl/WMT_STORAGE_FORMAT"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_ColorEnable method, IVideoProcAmp.get_ColorEnable, IVideoProcAmp::get_ColorEnable, IVideoProcAmpget_ColorEnable, dshow.ivideoprocamp_get_colorenable, get_ColorEnable, get_ColorEnable method [DirectShow], get_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_ColorEnable
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.get_ColorEnable"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.get_ColorEnable"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST, PUSBUSER_PASS_THRU_REQUEST structure pointer [Buses], USBUSER_PASS_THRU_REQUEST, USBUSER_PASS_THRU_REQUEST structure [Buses], buses.usbuser_pass_thru_request, usbstrct_81650bb7-7b9f-4dc4-af2e-c2a727e7cb4c.xml, usbuser/PUSBUSER_PASS_THRU_REQUEST, usbuser/USBUSER_PASS_THRU_REQUEST"
 ms.topic: struct
-f1_keywords: ["usbuser/USBUSER_PASS_THRU_REQUEST"]
+f1_keywords: 
+ - "usbuser/USBUSER_PASS_THRU_REQUEST"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

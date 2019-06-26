@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiCopyAuthIdentity, SspiCopyAuthIdentity function [Security], security.sspicopyauthidentity, sspi/SspiCopyAuthIdentity
 ms.topic: function
-f1_keywords: ["sspi/SspiCopyAuthIdentity"]
+f1_keywords: 
+ - "sspi/SspiCopyAuthIdentity"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3fab7f1b-b88c-a91c-065b-b66a46ea0606, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11UnorderedAccessView interface, ID3D11UnorderedAccessView interface [Direct3D 11],GetDesc method, ID3D11UnorderedAccessView.GetDesc, ID3D11UnorderedAccessView::GetDesc, d3d11/ID3D11UnorderedAccessView::GetDesc, direct3d11.id3d11unorderedaccessview_getdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11UnorderedAccessView.GetDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11UnorderedAccessView.GetDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
 ms.topic: function
-f1_keywords: ["winbase/_lopen"]
+f1_keywords: 
+ - "winbase/_lopen"
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

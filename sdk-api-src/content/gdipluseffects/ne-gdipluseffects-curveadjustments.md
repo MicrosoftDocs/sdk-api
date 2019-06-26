@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustBlackSaturation, AdjustContrast, AdjustDensity, AdjustExposure, AdjustHighlight, AdjustMidtone, AdjustShadow, AdjustWhiteSaturation, CurveAdjustments, CurveAdjustments enumeration [GDI+], _gdiplus_ENUM_CurveAdjustments, gdiplus._gdiplus_ENUM_CurveAdjustments, gdipluseffects/AdjustBlackSaturation, gdipluseffects/AdjustContrast, gdipluseffects/AdjustDensity, gdipluseffects/AdjustExposure, gdipluseffects/AdjustHighlight, gdipluseffects/AdjustMidtone, gdipluseffects/AdjustShadow, gdipluseffects/AdjustWhiteSaturation, gdipluseffects/CurveAdjustments
 ms.topic: enum
-f1_keywords: ["gdipluseffects/CurveAdjustments"]
+f1_keywords: 
+ - "gdipluseffects/CurveAdjustments"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

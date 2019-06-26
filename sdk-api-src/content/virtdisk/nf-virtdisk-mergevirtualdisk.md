@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MergeVirtualDisk, MergeVirtualDisk function [VHD], vdssys/MergeVirtualDisk, vhd.mergevirtualdisk, virtdisk/MergeVirtualDisk
 ms.topic: function
-f1_keywords: ["virtdisk/MergeVirtualDisk"]
+f1_keywords: 
+ - "virtdisk/MergeVirtualDisk"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

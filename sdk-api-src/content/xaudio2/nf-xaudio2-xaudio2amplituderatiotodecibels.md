@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAudio2AmplitudeRatioToDecibels, XAudio2AmplitudeRatioToDecibels function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2amplituderatiotodecibels, xaudio2/XAudio2AmplitudeRatioToDecibels
 ms.topic: function
-f1_keywords: ["xaudio2/XAudio2AmplitudeRatioToDecibels"]
+f1_keywords: 
+ - "xaudio2/XAudio2AmplitudeRatioToDecibels"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

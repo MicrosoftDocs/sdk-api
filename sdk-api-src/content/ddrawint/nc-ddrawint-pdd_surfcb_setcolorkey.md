@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetColorKey, DdSetColorKey callback function [Display Devices], PDD_SURFCB_SETCOLORKEY, PDD_SURFCB_SETCOLORKEY callback, ddfncs_d15b9bba-6ff4-441e-8bbe-f23e85de8e32.xml, ddrawint/DdSetColorKey, display.ddsetcolorkey
 ms.topic: callback
-f1_keywords: ["ddrawint/DdSetColorKey"]
+f1_keywords: 
+ - "ddrawint/DdSetColorKey"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

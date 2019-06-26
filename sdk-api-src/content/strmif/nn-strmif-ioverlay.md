@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
 ms.topic: interface
-f1_keywords: ["strmif/IOverlay"]
+f1_keywords: 
+ - "strmif/IOverlay"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

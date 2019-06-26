@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes, IVdsPack::QueryVolumes, QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS],IVdsPack interface, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.QueryVolumes"]
+f1_keywords: 
+ - "vds/IVdsPack.QueryVolumes"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

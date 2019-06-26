@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],SetBorderSpaceDW method, IDockingWindowSite.SetBorderSpaceDW, IDockingWindowSite::SetBorderSpaceDW, SetBorderSpaceDW, SetBorderSpaceDW method [Windows Shell], SetBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_SetBorderSpaceDW, shell.IDockingWindowSite_SetBorderSpaceDW, shlobj_core/IDockingWindowSite::SetBorderSpaceDW
 ms.topic: method
-f1_keywords: ["shlobj_core/IDockingWindowSite.SetBorderSpaceDW"]
+f1_keywords: 
+ - "shlobj_core/IDockingWindowSite.SetBorderSpaceDW"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

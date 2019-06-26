@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Skip method, IEnumMcastScope.Skip, IEnumMcastScope::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_skip, mdhcp/IEnumMcastScope::Skip, tapi3.ienummcastscope_skip
 ms.topic: method
-f1_keywords: ["mdhcp/IEnumMcastScope.Skip"]
+f1_keywords: 
+ - "mdhcp/IEnumMcastScope.Skip"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

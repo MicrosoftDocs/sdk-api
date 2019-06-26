@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/FOLDER_ENUM_MODE"]
+f1_keywords: 
+ - "shobjidl_core/FOLDER_ENUM_MODE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

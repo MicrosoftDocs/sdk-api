@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [DirectShow], Abort method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Abort method, IGraphBuilder.Abort, IGraphBuilder::Abort, IGraphBuilderAbort, dshow.igraphbuilder_abort, strmif/IGraphBuilder::Abort
 ms.topic: method
-f1_keywords: ["strmif/IGraphBuilder.Abort"]
+f1_keywords: 
+ - "strmif/IGraphBuilder.Abort"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

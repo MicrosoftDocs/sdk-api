@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.StartVisualGroup"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.StartVisualGroup"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

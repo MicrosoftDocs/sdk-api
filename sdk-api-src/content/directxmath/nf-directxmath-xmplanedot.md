@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneDot, XMPlaneDot, XMPlaneDot method [DirectX Math Support APIs], dxmath.xmplanedot
 ms.topic: function
-f1_keywords: ["directxmath/XMPlaneDot"]
+f1_keywords: 
+ - "directxmath/XMPlaneDot"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

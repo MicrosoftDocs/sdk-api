@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
 ms.topic: interface
-f1_keywords: ["shobjidl/IUserNotificationCallback"]
+f1_keywords: 
+ - "shobjidl/IUserNotificationCallback"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

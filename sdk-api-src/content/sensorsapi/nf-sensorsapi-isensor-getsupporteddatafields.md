@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupportedDataFields method,ISensor interface, ISensor interface,GetSupportedDataFields method, ISensor.GetSupportedDataFields, ISensor::GetSupportedDataFields, sensorsapi/ISensor::GetSupportedDataFields, winsensors_com_ref.isensor_getsupporteddatafields
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetSupportedDataFields"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetSupportedDataFields"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

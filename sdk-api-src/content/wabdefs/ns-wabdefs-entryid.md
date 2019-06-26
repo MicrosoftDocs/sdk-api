@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPENTRYID, LPENTRYID structure pointer [Windows Address Book], _wab_ENTRYID, wab._wab_ENTRYID, wabdefs/ENTRYID, wabdefs/LPENTRYID"
 ms.topic: struct
-f1_keywords: ["wabdefs/ENTRYID"]
+f1_keywords: 
+ - "wabdefs/ENTRYID"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

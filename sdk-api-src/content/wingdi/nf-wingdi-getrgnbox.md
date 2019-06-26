@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRgnBox, GetRgnBox function [Windows GDI], _win32_GetRgnBox, gdi.getrgnbox, wingdi/GetRgnBox
 ms.topic: function
-f1_keywords: ["wingdi/GetRgnBox"]
+f1_keywords: 
+ - "wingdi/GetRgnBox"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

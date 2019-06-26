@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetEventData, PeerCollabGetEventData function [Peer Networking], p2p.peercollabgeteventdata, p2p/PeerCollabGetEventData
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabGetEventData"]
+f1_keywords: 
+ - "p2p/PeerCollabGetEventData"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

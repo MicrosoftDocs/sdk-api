@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windows Properties], IPropertyDescriptionList interface [Windows Properties],described, _shell_IPropertyDescriptionList, properties.IPropertyDescriptionList, propsys/IPropertyDescriptionList, shell.IPropertyDescriptionList
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyDescriptionList"]
+f1_keywords: 
+ - "propsys/IPropertyDescriptionList"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaNodeFromPoint"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaNodeFromPoint"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

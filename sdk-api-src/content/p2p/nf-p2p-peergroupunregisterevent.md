@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupUnregisterEvent"]
+f1_keywords: 
+ - "p2p/PeerGroupUnregisterEvent"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback interface [DirectShow],Reconfigure method, IGraphConfigCallback.Reconfigure, IGraphConfigCallback::Reconfigure, IGraphConfigCallbackReconfigure, Reconfigure, Reconfigure method [DirectShow], Reconfigure method [DirectShow],IGraphConfigCallback interface, dshow.igraphconfigcallback_reconfigure, strmif/IGraphConfigCallback::Reconfigure
 ms.topic: method
-f1_keywords: ["strmif/IGraphConfigCallback.Reconfigure"]
+f1_keywords: 
+ - "strmif/IGraphConfigCallback.Reconfigure"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

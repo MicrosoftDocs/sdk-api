@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _win32_CHARRANGE_str, _win32_CHARRANGE_str_cpp, controls.CHARRANGE, controls._win32_CHARRANGE_str, richedit/CHARRANGE
 ms.topic: struct
-f1_keywords: ["richedit/CHARRANGE"]
+f1_keywords: 
+ - "richedit/CHARRANGE"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

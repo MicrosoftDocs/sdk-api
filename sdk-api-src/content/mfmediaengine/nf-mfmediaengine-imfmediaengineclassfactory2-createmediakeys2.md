@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactory2.CreateMediaKeys2"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineClassFactory2.CreateMediaKeys2"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

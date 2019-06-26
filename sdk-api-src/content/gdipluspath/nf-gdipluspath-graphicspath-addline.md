@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddLine
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPath::AddLine"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath::AddLine"
 targetos: Windows
 product: Windows
 req.assembly: 

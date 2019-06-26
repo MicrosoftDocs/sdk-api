@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellMergeFlags, GetCellMergeFlags method [Windows Controls], GetCellMergeFlags method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMergeFlags method, ITextRow.GetCellMergeFlags, ITextRow::GetCellMergeFlags, controls.itextrow_getcellmergeflags, tom/ITextRow::GetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellMergeFlags"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellMergeFlags"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

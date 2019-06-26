@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetSelectedItems method, INameSpaceTreeControl.GetSelectedItems, INameSpaceTreeControl::GetSelectedItems, _shell_INameSpaceTreeControl_GetSelectedItems, shell.INameSpaceTreeControl_GetSelectedItems, shobjidl_core/INameSpaceTreeControl::GetSelectedItems
 ms.topic: method
-f1_keywords: ["shobjidl_core/INameSpaceTreeControl.GetSelectedItems"]
+f1_keywords: 
+ - "shobjidl_core/INameSpaceTreeControl.GetSelectedItems"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

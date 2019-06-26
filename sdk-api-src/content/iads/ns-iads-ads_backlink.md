@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK"
 ms.topic: struct
-f1_keywords: ["iads/ADS_BACKLINK"]
+f1_keywords: 
+ - "iads/ADS_BACKLINK"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

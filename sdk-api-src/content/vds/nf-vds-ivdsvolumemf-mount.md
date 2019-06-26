@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],Mount method, IVdsVolumeMF.Mount, IVdsVolumeMF::Mount, Mount, Mount method [VDS], Mount method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_mount, vds/IVdsVolumeMF::Mount
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeMF.Mount"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF.Mount"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

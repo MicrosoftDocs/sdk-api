@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TogglePattern_Toggle, TogglePattern_Toggle function [Windows Accessibility], uiauto.uiauto_TogglePattern_ToggleConPat, uiauto_TogglePattern_ToggleConPat, uiautomationcoreapi/TogglePattern_Toggle, winauto.uiauto_TogglePattern_ToggleConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TogglePattern_Toggle"]
+f1_keywords: 
+ - "uiautomationcoreapi/TogglePattern_Toggle"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

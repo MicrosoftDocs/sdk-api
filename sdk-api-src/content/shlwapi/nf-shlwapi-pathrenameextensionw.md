@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathRenameExtension, PathRenameExtension function [Windows Shell], PathRenameExtensionA, PathRenameExtensionW, _win32_PathRenameExtension, shell.PathRenameExtension, shlwapi/PathRenameExtension, shlwapi/PathRenameExtensionA, shlwapi/PathRenameExtensionW
 ms.topic: function
-f1_keywords: ["shlwapi/PathRenameExtension"]
+f1_keywords: 
+ - "shlwapi/PathRenameExtension"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

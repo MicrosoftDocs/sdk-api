@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateKeyContainerList, GetPrivateKeyContainerList method [Security], GetPrivateKeyContainerList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetPrivateKeyContainerList method, ICertSrvSetup.GetPrivateKeyContainerList, ICertSrvSetup::GetPrivateKeyContainerList, casetup/ICertSrvSetup::GetPrivateKeyContainerList, security.icertsrvsetup_getprivatekeycontainerlist
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.GetPrivateKeyContainerList"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.GetPrivateKeyContainerList"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

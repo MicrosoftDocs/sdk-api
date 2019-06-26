@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX"
 ms.topic: struct
-f1_keywords: ["winhttp/WINHTTP_CREDS_EX"]
+f1_keywords: 
+ - "winhttp/WINHTTP_CREDS_EX"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

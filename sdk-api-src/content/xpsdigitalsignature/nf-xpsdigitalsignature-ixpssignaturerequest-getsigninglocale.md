@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureRequest.GetSigningLocale"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureRequest.GetSigningLocale"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Next method, IEnumSyncProviderInfos.Next, IEnumSyncProviderInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Next, winsync.ienumsyncproviderinfos_next
 ms.topic: method
-f1_keywords: ["syncregistration/IEnumSyncProviderInfos.Next"]
+f1_keywords: 
+ - "syncregistration/IEnumSyncProviderInfos.Next"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

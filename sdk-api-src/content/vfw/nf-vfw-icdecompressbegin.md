@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDecompressBegin, ICDecompressBegin macro [Windows Multimedia], _win32_ICDecompressBegin, multimedia.icdecompressbegin, vfw/ICDecompressBegin
 ms.topic: macro
-f1_keywords: ["vfw/ICDecompressBegin"]
+f1_keywords: 
+ - "vfw/ICDecompressBegin"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

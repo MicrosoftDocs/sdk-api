@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_TYPE_VERSION, WCN_VALUE_TYPE_VERSION enumeration [Windows Connect Now], WCN_VALUE_VERSION_1_0, WCN_VALUE_VERSION_2_0, wcn.wcn_value_type_version, wcntypes/WCN_VALUE_TYPE_VERSION, wcntypes/WCN_VALUE_VERSION_1_0, wcntypes/WCN_VALUE_VERSION_2_0
 ms.topic: enum
-f1_keywords: ["wcntypes/WCN_VALUE_TYPE_VERSION"]
+f1_keywords: 
+ - "wcntypes/WCN_VALUE_TYPE_VERSION"
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

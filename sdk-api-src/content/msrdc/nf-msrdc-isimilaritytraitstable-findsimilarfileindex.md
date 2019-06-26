@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindSimilarFileIndex, FindSimilarFileIndex method [Remote Differential Compression], FindSimilarFileIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],FindSimilarFileIndex method, ISimilarityTraitsTable.FindSimilarFileIndex, ISimilarityTraitsTable::FindSimilarFileIndex, fs.isimilaritytraitstable_findsimilarfileindex, msrdc/ISimilarityTraitsTable::FindSimilarFileIndex, rdc.isimilaritytraitstable_findsimilarfileindex
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsTable.FindSimilarFileIndex"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsTable.FindSimilarFileIndex"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

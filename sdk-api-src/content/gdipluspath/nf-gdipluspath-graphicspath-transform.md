@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Transform method, GraphicsPath.Transform, GraphicsPath::Transform, Transform, Transform method [GDI+], Transform method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Transform_matrix_, gdiplus._gdiplus_CLASS_GraphicsPath_Transform_matrix_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.Transform"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.Transform"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

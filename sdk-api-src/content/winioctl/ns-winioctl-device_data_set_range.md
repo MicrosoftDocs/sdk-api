@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure, DEVICE_DSM_RANGE, PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer, base.device_data_set_range, winioctl/DEVICE_DATA_SET_RANGE, winioctl/PDEVICE_DATA_SET_RANGE"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_DATA_SET_RANGE"]
+f1_keywords: 
+ - "winioctl/DEVICE_DATA_SET_RANGE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

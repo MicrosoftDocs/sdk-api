@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [MMC], GetTitle method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetTitle method, IExtendTaskPad.GetTitle, IExtendTaskPad::GetTitle, _slate_iextendtaskpad_gettitle, mmc.iextendtaskpad_gettitle, mmc/IExtendTaskPad::GetTitle
 ms.topic: method
-f1_keywords: ["mmc/IExtendTaskPad.GetTitle"]
+f1_keywords: 
+ - "mmc/IExtendTaskPad.GetTitle"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask.get_InstanceGuid, IRunningTask::InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler],IRunningTask interface, get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
 ms.topic: method
-f1_keywords: ["taskschd/IRunningTask.InstanceGuid"]
+f1_keywords: 
+ - "taskschd/IRunningTask.InstanceGuid"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

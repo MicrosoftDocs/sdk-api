@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],get_BootImageOptionsArray method, IFileSystemImage2.get_BootImageOptionsArray, IFileSystemImage2::get_BootImageOptionsArray, get_BootImageOptionsArray, get_BootImageOptionsArray method [IMAPI], get_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface, imapi.ifilesystemimage2_get_bootimageoptionsarray, imapi2fs/IFileSystemImage2::get_BootImageOptionsArray
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage2.get_BootImageOptionsArray"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage2.get_BootImageOptionsArray"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
 ms.topic: function
-f1_keywords: ["ws2spi/WPUQuerySocketHandleContext"]
+f1_keywords: 
+ - "ws2spi/WPUQuerySocketHandleContext"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

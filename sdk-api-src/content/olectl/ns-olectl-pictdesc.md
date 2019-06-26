@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPICTDESC, LPPICTDESC, LPPICTDESC structure pointer [COM], PICTDESC, PICTDESC structure [COM], _ctrl_PICTDESC, com.pictdesc, olectl/LPPICTDESC, olectl/PICTDESC"
 ms.topic: struct
-f1_keywords: ["olectl/PICTDESC"]
+f1_keywords: 
+ - "olectl/PICTDESC"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

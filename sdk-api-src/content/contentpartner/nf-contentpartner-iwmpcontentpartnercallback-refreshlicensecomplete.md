@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],RefreshLicenseComplete method, IWMPContentPartnerCallback.RefreshLicenseComplete, IWMPContentPartnerCallback::RefreshLicenseComplete, IWMPContentPartnerCallbackRefreshLicenseComplete, RefreshLicenseComplete, RefreshLicenseComplete method [Windows Media Player], RefreshLicenseComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::RefreshLicenseComplete, wmp.iwmpcontentpartnercallback_refreshlicensecomplete
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartnerCallback.RefreshLicenseComplete"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartnerCallback.RefreshLicenseComplete"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

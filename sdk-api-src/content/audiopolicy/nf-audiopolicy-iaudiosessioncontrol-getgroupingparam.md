@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetGroupingParam method, IAudioSessionControl.GetGroupingParam, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionControl.GetGroupingParam"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionControl.GetGroupingParam"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

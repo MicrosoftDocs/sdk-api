@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalType, GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow],IAMPhysicalPinInfo interface, IAMPhysicalPinInfo interface [DirectShow],GetPhysicalType method, IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
 ms.topic: method
-f1_keywords: ["strmif/IAMPhysicalPinInfo.GetPhysicalType"]
+f1_keywords: 
+ - "strmif/IAMPhysicalPinInfo.GetPhysicalType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

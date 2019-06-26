@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter interface [Security],StringToString method, IBinaryConverter.StringToString, IBinaryConverter::StringToString, StringToString, StringToString method [Security], StringToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToString, security.ibinaryconverter_stringtostring_method
 ms.topic: method
-f1_keywords: ["certenroll/IBinaryConverter.StringToString"]
+f1_keywords: 
+ - "certenroll/IBinaryConverter.StringToString"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

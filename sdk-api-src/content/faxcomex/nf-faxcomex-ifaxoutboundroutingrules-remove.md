@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],Remove method, IFaxOutboundRoutingRules.Remove, IFaxOutboundRoutingRules::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.remove, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_remove_cpp, fax._mfax_faxoutboundroutingrules_remove, faxcomex/IFaxOutboundRoutingRules::Remove
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingRules.Remove"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingRules.Remove"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsURL, PathIsURL function [Windows Shell], PathIsURLA, PathIsURLW, _win32_PathIsURL, shell.PathIsURL, shlwapi/PathIsURL, shlwapi/PathIsURLA, shlwapi/PathIsURLW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsURL"]
+f1_keywords: 
+ - "shlwapi/PathIsURL"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

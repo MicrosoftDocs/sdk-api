@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
 ms.topic: function
-f1_keywords: ["tdh/TdhCleanupPayloadEventFilterDescriptor"]
+f1_keywords: 
+ - "tdh/TdhCleanupPayloadEventFilterDescriptor"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

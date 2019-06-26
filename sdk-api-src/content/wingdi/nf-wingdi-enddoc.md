@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
 ms.topic: function
-f1_keywords: ["wingdi/EndDoc"]
+f1_keywords: 
+ - "wingdi/EndDoc"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

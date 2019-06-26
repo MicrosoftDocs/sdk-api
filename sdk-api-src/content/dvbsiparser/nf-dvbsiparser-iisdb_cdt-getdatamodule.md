@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataModule, GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataModule method, IISDB_CDT.GetDataModule, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_CDT.GetDataModule"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_CDT.GetDataModule"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDevices interface, IFaxDevices interface [Fax Service],Count property, IFaxDevices.Count, IFaxDevices.get_Count, IFaxDevices::Count, IFaxDevices::get_Count, _mfax_faxdevices.count, fax._mfax_faxdevices_count, fax._mfax_faxdevices_cpp_mfax_faxdevices_count_cpp, faxcomex/IFaxDevices::Count, faxcomex/IFaxDevices::get_Count, get_Count
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevices.Count"]
+f1_keywords: 
+ - "faxcomex/IFaxDevices.Count"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

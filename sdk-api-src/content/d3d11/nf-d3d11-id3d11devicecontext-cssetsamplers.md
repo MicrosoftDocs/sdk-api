@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSSetSamplers, CSSetSamplers method [Direct3D 11], CSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetSamplers method, ID3D11DeviceContext.CSSetSamplers, ID3D11DeviceContext::CSSetSamplers, aa74392c-a8c7-cf2c-b761-f00d5b5b4fb9, d3d11/ID3D11DeviceContext::CSSetSamplers, direct3d11.id3d11devicecontext_cssetsamplers
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.CSSetSamplers"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.CSSetSamplers"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

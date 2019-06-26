@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Reset method, IEnumBstr.Reset, IEnumBstr::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_reset, tapi3.ienumbstr_reset, tapi3if/IEnumBstr::Reset
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumBstr.Reset"]
+f1_keywords: 
+ - "tapi3if/IEnumBstr.Reset"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

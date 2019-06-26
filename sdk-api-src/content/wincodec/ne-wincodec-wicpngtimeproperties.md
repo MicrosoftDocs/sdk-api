@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngTimeDay, WICPngTimeHour, WICPngTimeMinute, WICPngTimeMonth, WICPngTimeProperties, WICPngTimeProperties enumeration [Windows Imaging Component], WICPngTimeSecond, WICPngTimeYear, _wic_codec_wicpngtimeproperties, wic._wic_codec_wicpngtimeproperties, wincodec/WICPngTimeDay, wincodec/WICPngTimeHour, wincodec/WICPngTimeMinute, wincodec/WICPngTimeMonth, wincodec/WICPngTimeProperties, wincodec/WICPngTimeSecond, wincodec/WICPngTimeYear
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngTimeProperties"]
+f1_keywords: 
+ - "wincodec/WICPngTimeProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

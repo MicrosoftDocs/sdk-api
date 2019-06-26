@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],_NewEnum property, ICategoryCollection._NewEnum, ICategoryCollection.get__NewEnum, ICategoryCollection::_NewEnum, ICategoryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],ICategoryCollection interface, get__NewEnum, wua.icategorycollection__newenum, wuapi/ICategoryCollection::_NewEnum, wuapi/ICategoryCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["wuapi/ICategoryCollection._NewEnum"]
+f1_keywords: 
+ - "wuapi/ICategoryCollection._NewEnum"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkDisp, IInkDisp interface [Tablet PC], IInkDisp interface [Tablet PC],described, msinkaut/IInkDisp, tablet.iinkdisp
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkDisp"]
+f1_keywords: 
+ - "msinkaut/IInkDisp"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

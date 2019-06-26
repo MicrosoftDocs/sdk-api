@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],Csid property, IFaxPort.Csid, IFaxPort.get_Csid, IFaxPort::Csid, IFaxPort::get_Csid, IFaxPort::put_Csid, _mfax_ifaxport_get_csid, fax._mfax_ifaxport_get_csid, fax._mfax_ifaxport_mfax_ifaxport_get_csid_cpp, faxcom/IFaxPort::Csid, faxcom/IFaxPort::get_Csid, faxcom/IFaxPort::put_Csid, get_Csid
 ms.topic: method
-f1_keywords: ["faxcom/IFaxPort.Csid"]
+f1_keywords: 
+ - "faxcom/IFaxPort.Csid"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinCos, XMVectorSinCos, XMVectorSinCos method [DirectX Math Support APIs], dxmath.xmvectorsincos
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSinCos"]
+f1_keywords: 
+ - "directxmath/XMVectorSinCos"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

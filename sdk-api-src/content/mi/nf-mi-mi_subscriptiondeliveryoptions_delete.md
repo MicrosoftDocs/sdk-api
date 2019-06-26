@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_Delete, MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_Delete, wmi_v2.mi_subscriptiondeliveryoptions_delete
 ms.topic: function
-f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_Delete"]
+f1_keywords: 
+ - "mi/MI_SubscriptionDeliveryOptions_Delete"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

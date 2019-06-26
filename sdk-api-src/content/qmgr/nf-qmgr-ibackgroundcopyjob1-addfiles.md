@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyJob1.AddFiles"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyJob1.AddFiles"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

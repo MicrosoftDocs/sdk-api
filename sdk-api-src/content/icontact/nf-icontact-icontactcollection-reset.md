@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Reset method, IContactCollection.Reset, IContactCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Reset, icontact/IContactCollection::Reset, wincontacts._wincontacts_IContactCollection_Reset
 ms.topic: method
-f1_keywords: ["icontact/IContactCollection.Reset"]
+f1_keywords: 
+ - "icontact/IContactCollection.Reset"
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate4 interface [Windows Update Agent],PerUser property, IUpdate4.PerUser, IUpdate4.get_PerUser, IUpdate4::PerUser, IUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IUpdate4 interface, get_PerUser, wua.iupdate4_peruser, wuapi/IUpdate4::PerUser, wuapi/IUpdate4::get_PerUser
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate4.PerUser"]
+f1_keywords: 
+ - "wuapi/IUpdate4.PerUser"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

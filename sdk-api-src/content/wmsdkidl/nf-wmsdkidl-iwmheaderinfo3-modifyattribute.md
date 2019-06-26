@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo3 interface [windows Media Format],ModifyAttribute method, IWMHeaderInfo3.ModifyAttribute, IWMHeaderInfo3::ModifyAttribute, IWMHeaderInfo3ModifyAttribute, ModifyAttribute, ModifyAttribute method [windows Media Format], ModifyAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo3_modifyattribute, wmsdkidl/IWMHeaderInfo3::ModifyAttribute
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMHeaderInfo3.ModifyAttribute"]
+f1_keywords: 
+ - "wmsdkidl/IWMHeaderInfo3.ModifyAttribute"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],SetFocus method, IResourceManager.SetFocus, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus
 ms.topic: method
-f1_keywords: ["strmif/IResourceManager.SetFocus"]
+f1_keywords: 
+ - "strmif/IResourceManager.SetFocus"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

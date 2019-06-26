@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPICallCenter interface [TAPI 2.2],get_AgentHandlers method, ITTAPICallCenter.get_AgentHandlers, ITTAPICallCenter::get_AgentHandlers, _tapi3_ittapicallcenter_get_agenthandlers, get_AgentHandlers, get_AgentHandlers method [TAPI 2.2], get_AgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, tapi3.ittapicallcenter_get_agenthandlers, tapi3cc/ITTAPICallCenter::get_AgentHandlers
 ms.topic: method
-f1_keywords: ["tapi3cc/ITTAPICallCenter.get_AgentHandlers"]
+f1_keywords: 
+ - "tapi3cc/ITTAPICallCenter.get_AgentHandlers"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

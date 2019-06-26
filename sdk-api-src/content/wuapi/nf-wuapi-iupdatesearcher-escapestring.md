@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSearcher.EscapeString"]
+f1_keywords: 
+ - "wuapi/IUpdateSearcher.EscapeString"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

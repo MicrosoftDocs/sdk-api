@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPane interface [Windows Shell],Unadvise method, IFrameworkInputPane.Unadvise, IFrameworkInputPane::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFrameworkInputPane interface, shell.IFrameworkInputPane_Unadvise, shobjidl_core/IFrameworkInputPane::Unadvise
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFrameworkInputPane.Unadvise"]
+f1_keywords: 
+ - "shobjidl_core/IFrameworkInputPane.Unadvise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

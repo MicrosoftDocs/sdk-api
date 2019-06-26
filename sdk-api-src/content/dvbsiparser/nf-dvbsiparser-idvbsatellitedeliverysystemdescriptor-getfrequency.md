@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrequency, GetFrequency method [Microsoft TV Technologies], GetFrequency method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFrequency method, IDvbSatelliteDeliverySystemDescriptor.GetFrequency, IDvbSatelliteDeliverySystemDescriptor::GetFrequency, IDvbSatelliteDeliverySystemDescriptorGetFrequency, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFrequency, mstv.idvbsatellitedeliverysystemdescriptor_getfrequency
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFrequency"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFrequency"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

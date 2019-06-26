@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],SetHandlerProgressText method, ISyncMgrSyncCallback.SetHandlerProgressText, ISyncMgrSyncCallback::SetHandlerProgressText, SetHandlerProgressText, SetHandlerProgressText method [Windows Shell], SetHandlerProgressText method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_SetHandlerProgressText, shell.ISyncMgrSyncCallback_SetHandlerProgressText, syncmgr/ISyncMgrSyncCallback::SetHandlerProgressText
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.SetHandlerProgressText"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.SetHandlerProgressText"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

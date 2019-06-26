@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent"
 ms.topic: function
-f1_keywords: ["wingdi/wglMakeCurrent"]
+f1_keywords: 
+ - "wingdi/wglMakeCurrent"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

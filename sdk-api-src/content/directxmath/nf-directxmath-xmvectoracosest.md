@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorACosEst, XMVectorACosEst, XMVectorACosEst method [DirectX Math Support APIs], dxmath.xmvectoracosest
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorACosEst"]
+f1_keywords: 
+ - "directxmath/XMVectorACosEst"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

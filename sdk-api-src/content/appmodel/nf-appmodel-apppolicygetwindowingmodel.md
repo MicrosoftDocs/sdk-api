@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [App packaging and management], appmodel/AppPolicyGetWindowingModel, appxpkg.apppolicygetwindowingmodel_function
 ms.topic: function
-f1_keywords: ["appmodel/AppPolicyGetWindowingModel"]
+f1_keywords: 
+ - "appmodel/AppPolicyGetWindowingModel"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

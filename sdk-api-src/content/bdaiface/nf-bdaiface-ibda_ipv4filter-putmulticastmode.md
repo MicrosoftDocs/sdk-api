@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_IPV4Filter.PutMulticastMode"]
+f1_keywords: 
+ - "bdaiface/IBDA_IPV4Filter.PutMulticastMode"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

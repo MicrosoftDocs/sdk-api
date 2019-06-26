@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
 ms.topic: function
-f1_keywords: ["mscat/CryptCATCDFClose"]
+f1_keywords: 
+ - "mscat/CryptCATCDFClose"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

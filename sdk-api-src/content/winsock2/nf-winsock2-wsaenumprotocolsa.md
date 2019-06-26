@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAEnumProtocols, WSAEnumProtocols function [Winsock], WSAEnumProtocolsA, WSAEnumProtocolsW, _win32_wsaenumprotocols_2, winsock.wsaenumprotocols_2, winsock2/WSAEnumProtocols, winsock2/WSAEnumProtocolsA, winsock2/WSAEnumProtocolsW
 ms.topic: function
-f1_keywords: ["winsock2/WSAEnumProtocols"]
+f1_keywords: 
+ - "winsock2/WSAEnumProtocols"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

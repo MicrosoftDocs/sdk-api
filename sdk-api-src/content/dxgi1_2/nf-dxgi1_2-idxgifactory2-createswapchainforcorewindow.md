@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSwapChainForCoreWindow, CreateSwapChainForCoreWindow method [DXGI], CreateSwapChainForCoreWindow method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForCoreWindow method, IDXGIFactory2.CreateSwapChainForCoreWindow, IDXGIFactory2::CreateSwapChainForCoreWindow, direct3ddxgi.idxgifactory2_createswapchainforimmersivewindow, dxgi1_2/IDXGIFactory2::CreateSwapChainForCoreWindow
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIFactory2.CreateSwapChainForCoreWindow"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIFactory2.CreateSwapChainForCoreWindow"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

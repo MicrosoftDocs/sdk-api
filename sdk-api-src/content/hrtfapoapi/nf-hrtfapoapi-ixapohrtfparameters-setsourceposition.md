@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSourcePosition method, IXAPOHrtfParameters.SetSourcePosition, IXAPOHrtfParameters::SetSourcePosition, SetSourcePosition, SetSourcePosition method [XAudio2 Audio Mixing APIs], SetSourcePosition method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetSourcePosition, xaudio2.ixapohrtfparameters_setsourceposition
 ms.topic: method
-f1_keywords: ["hrtfapoapi/IXAPOHrtfParameters.SetSourcePosition"]
+f1_keywords: 
+ - "hrtfapoapi/IXAPOHrtfParameters.SetSourcePosition"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

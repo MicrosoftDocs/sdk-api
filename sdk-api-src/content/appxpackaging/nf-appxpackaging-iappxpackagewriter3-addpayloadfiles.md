@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPayloadFiles, AddPayloadFiles method [App packaging and management], AddPayloadFiles method [App packaging and management],IAppxPackageWriter3 interface, IAppxPackageWriter3 interface [App packaging and management],AddPayloadFiles method, IAppxPackageWriter3.AddPayloadFiles, IAppxPackageWriter3::AddPayloadFiles, appxpackaging/IAppxPackageWriter3::AddPayloadFiles, appxpkg.iappxpackagewriter3_addpayloadfiles
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageWriter3.AddPayloadFiles"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageWriter3.AddPayloadFiles"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

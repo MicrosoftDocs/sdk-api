@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],ResetPeakUsage method, IFsrmQuota.ResetPeakUsage, IFsrmQuota::ResetPeakUsage, ResetPeakUsage, ResetPeakUsage method [File Server Resource Manager], ResetPeakUsage method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_resetpeakusage, fsrm.ifsrmquota_resetpeakusage, fsrmquota/IFsrmQuota::ResetPeakUsage
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuota.ResetPeakUsage"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuota.ResetPeakUsage"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

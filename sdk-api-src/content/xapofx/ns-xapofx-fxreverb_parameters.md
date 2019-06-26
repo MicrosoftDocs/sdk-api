@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXREVERB_PARAMETERS, xaudio2.fxreverb_parameters
 ms.topic: struct
-f1_keywords: ["xapofx/FXREVERB_PARAMETERS"]
+f1_keywords: 
+ - "xapofx/FXREVERB_PARAMETERS"
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

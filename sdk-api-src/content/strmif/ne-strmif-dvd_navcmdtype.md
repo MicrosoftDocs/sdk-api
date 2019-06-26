@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_NavCmdType, DVD_NavCmdType enumeration [DirectShow], DVD_NavCmdType_Button, DVD_NavCmdType_Cell, DVD_NavCmdType_Post, DVD_NavCmdType_Pre, dshow.dvd_navcmdtype, strmif/DVD_NavCmdType, strmif/DVD_NavCmdType_Button, strmif/DVD_NavCmdType_Cell, strmif/DVD_NavCmdType_Post, strmif/DVD_NavCmdType_Pre
 ms.topic: enum
-f1_keywords: ["strmif/DVD_NavCmdType"]
+f1_keywords: 
+ - "strmif/DVD_NavCmdType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

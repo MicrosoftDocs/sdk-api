@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing.SubscribeToMultipleOperations"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing.SubscribeToMultipleOperations"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

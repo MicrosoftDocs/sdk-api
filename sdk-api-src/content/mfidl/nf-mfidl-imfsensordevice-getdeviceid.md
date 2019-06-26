@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Media Foundation], GetDeviceId method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceId method, IMFSensorDevice.GetDeviceId, IMFSensorDevice::GetDeviceId, mf.imfsensordevice_getdeviceid, mfidl/IMFSensorDevice::GetDeviceId
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorDevice.GetDeviceId"]
+f1_keywords: 
+ - "mfidl/IMFSensorDevice.GetDeviceId"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FireEx, FireEx method [Microsoft TV Technologies], FireEx method [Microsoft TV Technologies],IBroadcastEventEx interface, IBroadcastEventEx interface [Microsoft TV Technologies],FireEx method, IBroadcastEventEx.FireEx, IBroadcastEventEx::FireEx, IBroadcastEventExFireEx, mstv.ibroadcasteventex_fireex, tuner/IBroadcastEventEx::FireEx
 ms.topic: method
-f1_keywords: ["tuner/IBroadcastEventEx.FireEx"]
+f1_keywords: 
+ - "tuner/IBroadcastEventEx.FireEx"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

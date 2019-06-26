@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaTypes.Reset, IEnumMediaTypes::Reset, IEnumMediaTypesReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_reset, strmif/IEnumMediaTypes::Reset
 ms.topic: method
-f1_keywords: ["strmif/IEnumMediaTypes.Reset"]
+f1_keywords: 
+ - "strmif/IEnumMediaTypes.Reset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

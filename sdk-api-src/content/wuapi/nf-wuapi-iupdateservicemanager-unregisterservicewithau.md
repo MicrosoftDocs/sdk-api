@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager.UnregisterServiceWithAU"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager.UnregisterServiceWithAU"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

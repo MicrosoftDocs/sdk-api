@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetSetStatusCallback, InternetSetStatusCallback function [WinINet], _inet_internetsetstatuscallback_function, wininet.internetsetstatuscallback, wininet/InternetSetStatusCallback
 ms.topic: function
-f1_keywords: ["wininet/InternetSetStatusCallback"]
+f1_keywords: 
+ - "wininet/InternetSetStatusCallback"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

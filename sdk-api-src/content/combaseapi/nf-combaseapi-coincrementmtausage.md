@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
 ms.topic: function
-f1_keywords: ["combaseapi/CoIncrementMTAUsage"]
+f1_keywords: 
+ - "combaseapi/CoIncrementMTAUsage"
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

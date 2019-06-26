@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTextAntialiasMode method, ID2D1RenderTarget.SetTextAntialiasMode, ID2D1RenderTarget::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct2D], SetTextAntialiasMode method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTextAntialiasMode, direct2d.ID2D1RenderTarget_SetTextAntialiasMode
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.SetTextAntialiasMode"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.SetTextAntialiasMode"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

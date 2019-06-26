@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmMutableCollection.RemoveById"]
+f1_keywords: 
+ - "fsrm/IFsrmMutableCollection.RemoveById"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

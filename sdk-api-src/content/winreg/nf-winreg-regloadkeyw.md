@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW
 ms.topic: function
-f1_keywords: ["winreg/RegLoadKey"]
+f1_keywords: 
+ - "winreg/RegLoadKey"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

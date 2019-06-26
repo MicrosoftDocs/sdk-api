@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_controls"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_controls"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Reset method, IMDSPEnumDevice.Reset, IMDSPEnumDevice::Reset, IMDSPEnumDeviceReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Reset, wmdm.imdspenumdevice_reset
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPEnumDevice.Reset"]
+f1_keywords: 
+ - "mswmdm/IMDSPEnumDevice.Reset"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

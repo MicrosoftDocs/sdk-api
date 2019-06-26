@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyleEx method, IVideoWindow.put_WindowStyleEx, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.put_WindowStyleEx"]
+f1_keywords: 
+ - "control/IVideoWindow.put_WindowStyleEx"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedWindowInteractionState property [Windows Accessibility], CachedWindowInteractionState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowInteractionState property, IUIAutomationWindowPattern.CachedWindowInteractionState, IUIAutomationWindowPattern.get_CachedWindowInteractionState, IUIAutomationWindowPattern::CachedWindowInteractionState, IUIAutomationWindowPattern::get_CachedWindowInteractionState, get_CachedWindowInteractionState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowInteractionState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowInteractionState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowInteractionState
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.CachedWindowInteractionState"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationWindowPattern.CachedWindowInteractionState"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

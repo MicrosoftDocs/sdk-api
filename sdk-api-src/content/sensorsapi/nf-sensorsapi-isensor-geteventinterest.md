@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventInterest, GetEventInterest method, GetEventInterest method,ISensor interface, ISensor interface,GetEventInterest method, ISensor.GetEventInterest, ISensor::GetEventInterest, sensorsapi/ISensor::GetEventInterest, winsensors_com_ref.isensor_geteventinterest
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetEventInterest"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetEventInterest"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

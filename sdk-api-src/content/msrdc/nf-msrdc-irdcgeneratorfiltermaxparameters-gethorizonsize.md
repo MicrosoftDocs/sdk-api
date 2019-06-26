@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHorizonSize, GetHorizonSize method [Remote Differential Compression], GetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHorizonSize method, IRdcGeneratorFilterMaxParameters.GetHorizonSize, IRdcGeneratorFilterMaxParameters::GetHorizonSize, fs.irdcgeneratorfiltermaxparameters_gethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_gethorizonsize
 ms.topic: method
-f1_keywords: ["msrdc/IRdcGeneratorFilterMaxParameters.GetHorizonSize"]
+f1_keywords: 
+ - "msrdc/IRdcGeneratorFilterMaxParameters.GetHorizonSize"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

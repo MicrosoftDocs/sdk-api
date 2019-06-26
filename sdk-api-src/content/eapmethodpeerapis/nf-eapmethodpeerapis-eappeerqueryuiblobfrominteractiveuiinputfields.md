@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

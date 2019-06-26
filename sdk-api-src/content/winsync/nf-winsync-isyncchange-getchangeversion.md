@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeVersion method, ISyncChange.GetChangeVersion, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
 ms.topic: method
-f1_keywords: ["winsync/ISyncChange.GetChangeVersion"]
+f1_keywords: 
+ - "winsync/ISyncChange.GetChangeVersion"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

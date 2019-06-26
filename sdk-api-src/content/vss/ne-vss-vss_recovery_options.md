@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_RECOVERY_OPTIONS, VSS_RECOVERY_NO_VOLUME_CHECK, VSS_RECOVERY_OPTIONS, VSS_RECOVERY_OPTIONS enumeration, VSS_RECOVERY_REVERT_IDENTITY_ALL, base.vss_recovery_options, vss/VSS_RECOVERY_NO_VOLUME_CHECK, vss/VSS_RECOVERY_OPTIONS, vss/VSS_RECOVERY_REVERT_IDENTITY_ALL"
 ms.topic: enum
-f1_keywords: ["vss/VSS_RECOVERY_OPTIONS"]
+f1_keywords: 
+ - "vss/VSS_RECOVERY_OPTIONS"
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

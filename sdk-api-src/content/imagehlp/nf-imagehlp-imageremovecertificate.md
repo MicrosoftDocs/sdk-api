@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
 ms.topic: function
-f1_keywords: ["imagehlp/ImageRemoveCertificate"]
+f1_keywords: 
+ - "imagehlp/ImageRemoveCertificate"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

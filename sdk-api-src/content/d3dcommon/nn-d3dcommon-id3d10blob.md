@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Blob, ID3D10Blob interface [Direct3D 11], ID3D10Blob interface [Direct3D 11],described, d3dcommon/ID3D10Blob, direct3d11.id3d10blob
 ms.topic: interface
-f1_keywords: ["d3dcommon/ID3D10Blob"]
+f1_keywords: 
+ - "d3dcommon/ID3D10Blob"
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], aviriff/AVISTDINDEX_ENTRY, dshow.avistdindex_entry
 ms.topic: struct
-f1_keywords: ["aviriff/AVISTDINDEX_ENTRY"]
+f1_keywords: 
+ - "aviriff/AVISTDINDEX_ENTRY"
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

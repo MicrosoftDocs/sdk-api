@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

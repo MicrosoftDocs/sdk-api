@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetDuration method, IMFTimedTextCue.GetDuration, IMFTimedTextCue::GetDuration, mf.imftimedtextcue_getduration, mfmediaengine/IMFTimedTextCue::GetDuration
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetDuration"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue.GetDuration"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

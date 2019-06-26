@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPEG_PACKET_LIST, MPEG_PACKET_LIST, MPEG_PACKET_LIST structure [Microsoft TV Technologies], PMPEG_PACKET_LIST, PMPEG_PACKET_LIST structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_PACKET_LIST, mpeg2structs/PMPEG_PACKET_LIST, mstv.mpeg_packet_list"
 ms.topic: struct
-f1_keywords: ["mpeg2structs/MPEG_PACKET_LIST"]
+f1_keywords: 
+ - "mpeg2structs/MPEG_PACKET_LIST"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

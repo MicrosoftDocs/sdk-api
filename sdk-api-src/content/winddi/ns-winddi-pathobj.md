@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], display.pathobj, grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml, winddi/PATHOBJ
 ms.topic: struct
-f1_keywords: ["winddi/PATHOBJ"]
+f1_keywords: 
+ - "winddi/PATHOBJ"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

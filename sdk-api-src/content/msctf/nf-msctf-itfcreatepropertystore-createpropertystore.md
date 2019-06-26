@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Framework], CreatePropertyStore method [Text Services Framework],ITfCreatePropertyStore interface, ITfCreatePropertyStore interface [Text Services Framework],CreatePropertyStore method, ITfCreatePropertyStore.CreatePropertyStore, ITfCreatePropertyStore::CreatePropertyStore, _tsf_itfcreatepropertystore_createpropertystore_ref, msctf/ITfCreatePropertyStore::CreatePropertyStore, tsf.itfcreatepropertystore_createpropertystore
 ms.topic: method
-f1_keywords: ["msctf/ITfCreatePropertyStore.CreatePropertyStore"]
+f1_keywords: 
+ - "msctf/ITfCreatePropertyStore.CreatePropertyStore"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

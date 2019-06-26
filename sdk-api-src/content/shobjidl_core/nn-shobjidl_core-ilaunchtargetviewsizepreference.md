@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ILaunchTargetViewSizePreference"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchTargetViewSizePreference"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

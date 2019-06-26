@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_DICTATE_KEY0, IPSEC_KEY_MANAGER_DICTATE_KEY0 function, IPSEC_KEY_MANAGER_DICTATE_KEY0 function pointer [Filtering], fwp.ipsec_key_dictate_key0, fwp.ipsec_key_manager_dictate_key0, fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0
 ms.topic: callback
-f1_keywords: ["fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0"]
+f1_keywords: 
+ - "fwpmu/IPSEC_KEY_MANAGER_DICTATE_KEY0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

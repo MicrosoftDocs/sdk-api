@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 225224fa-54a2-8903-494c-754ad030e0af, CreateCounter, CreateCounter method [Direct3D 10], CreateCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateCounter method, ID3D10Device.CreateCounter, ID3D10Device::CreateCounter, d3d10/ID3D10Device::CreateCounter, direct3d10.id3d10device_createcounter
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CreateCounter"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CreateCounter"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
 ms.topic: function
-f1_keywords: ["objbase/StgOpenAsyncDocfileOnIFillLockBytes"]
+f1_keywords: 
+ - "objbase/StgOpenAsyncDocfileOnIFillLockBytes"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

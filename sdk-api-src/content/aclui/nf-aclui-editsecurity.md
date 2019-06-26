@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
 ms.topic: function
-f1_keywords: ["aclui/EditSecurity"]
+f1_keywords: 
+ - "aclui/EditSecurity"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

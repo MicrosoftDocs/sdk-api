@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndEject, multimedia.mciwndeject, vfw/MCIWndEject
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndEject"]
+f1_keywords: 
+ - "vfw/MCIWndEject"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

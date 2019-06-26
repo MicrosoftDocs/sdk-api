@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_REPAIR, FSCTL_GET_REPAIR control, FSCTL_GET_REPAIR control code [Files], fs.fsctl_get_repair, winioctl/FSCTL_GET_REPAIR
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_GET_REPAIR"]
+f1_keywords: 
+ - "winioctl/FSCTL_GET_REPAIR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32"
 ms.topic: struct
-f1_keywords: ["ipexport/IP_OPTION_INFORMATION32"]
+f1_keywords: 
+ - "ipexport/IP_OPTION_INFORMATION32"
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGetOIDFunctionValue"]
+f1_keywords: 
+ - "wincrypt/CryptGetOIDFunctionValue"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

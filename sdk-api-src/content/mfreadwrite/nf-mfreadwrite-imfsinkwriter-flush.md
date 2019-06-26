@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Flush method, IMFSinkWriter.Flush, IMFSinkWriter::Flush, mf.imfsinkwriter_flush, mfreadwrite/IMFSinkWriter::Flush
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.Flush"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.Flush"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

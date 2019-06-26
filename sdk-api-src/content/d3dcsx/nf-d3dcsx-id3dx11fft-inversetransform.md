@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9e07e88b-a097-403f-b882-754a12668d07, ID3DX11FFT interface [Direct3D 11],InverseTransform method, ID3DX11FFT.InverseTransform, ID3DX11FFT::InverseTransform, InverseTransform, InverseTransform method [Direct3D 11], InverseTransform method [Direct3D 11],ID3DX11FFT interface, d3dcsx/ID3DX11FFT::InverseTransform, direct3d11.id3dx11fft_inversetransform
 ms.topic: method
-f1_keywords: ["d3dcsx/ID3DX11FFT.InverseTransform"]
+f1_keywords: 
+ - "d3dcsx/ID3DX11FFT.InverseTransform"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

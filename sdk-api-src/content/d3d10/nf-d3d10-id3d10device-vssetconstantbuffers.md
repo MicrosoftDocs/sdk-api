@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0d5cae40-4657-71de-c28a-96c76e11a621, ID3D10Device interface [Direct3D 10],VSSetConstantBuffers method, ID3D10Device.VSSetConstantBuffers, ID3D10Device::VSSetConstantBuffers, VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 10], VSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetConstantBuffers, direct3d10.id3d10device_vssetconstantbuffers
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.VSSetConstantBuffers"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.VSSetConstantBuffers"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarFormat, VarFormat function [Automation], _oa96_VarFormat, automat.varformat, oleauto/VarFormat
 ms.topic: function
-f1_keywords: ["oleauto/VarFormat"]
+f1_keywords: 
+ - "oleauto/VarFormat"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

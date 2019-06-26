@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method, IDirectDrawClipper.IsClipListChanged, IDirectDrawClipper::IsClipListChanged, IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawClipper.IsClipListChanged"]
+f1_keywords: 
+ - "ddraw/IDirectDrawClipper.IsClipListChanged"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

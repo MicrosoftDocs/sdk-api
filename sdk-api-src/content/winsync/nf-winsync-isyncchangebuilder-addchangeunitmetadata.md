@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBuilder.AddChangeUnitMetadata"]
+f1_keywords: 
+ - "winsync/ISyncChangeBuilder.AddChangeUnitMetadata"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

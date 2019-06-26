@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Next_Res_Des_Ex, CM_Get_Next_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Res_Des_Ex, cfgmgrfn_2c25fbc8-7434-4a94-817e-2c7cd8d9fa99.xml, devinst.cm_get_next_res_des_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Next_Res_Des_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Next_Res_Des_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

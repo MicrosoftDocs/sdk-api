@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNEWCPLINFOW, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOW, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO"
 ms.topic: struct
-f1_keywords: ["cpl/NEWCPLINFO"]
+f1_keywords: 
+ - "cpl/NEWCPLINFO"
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

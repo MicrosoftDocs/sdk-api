@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClassFactory2, IClassFactory2 interface [COM], IClassFactory2 interface [COM],described, _com_iclassfactory2, com.iclassfactory2, ocidl/IClassFactory2
 ms.topic: interface
-f1_keywords: ["ocidl/IClassFactory2"]
+f1_keywords: 
+ - "ocidl/IClassFactory2"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

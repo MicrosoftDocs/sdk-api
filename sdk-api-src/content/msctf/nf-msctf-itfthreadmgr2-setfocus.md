@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SetFocus method, ITfThreadMgr2.SetFocus, ITfThreadMgr2::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SetFocus, tsf.itfthreadmgr2_setfocus
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.SetFocus"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.SetFocus"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

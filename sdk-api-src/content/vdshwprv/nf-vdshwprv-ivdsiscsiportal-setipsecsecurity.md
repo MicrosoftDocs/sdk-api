@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecSecurity method, IVdsIscsiPortal.SetIpsecSecurity, IVdsIscsiPortal::SetIpsecSecurity, SetIpsecSecurity, SetIpsecSecurity method [VDS], SetIpsecSecurity method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsecsecurity, vds/IVdsIscsiPortal::SetIpsecSecurity, vdshwprv/IVdsIscsiPortal::SetIpsecSecurity
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsIscsiPortal.SetIpsecSecurity"]
+f1_keywords: 
+ - "vdshwprv/IVdsIscsiPortal.SetIpsecSecurity"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

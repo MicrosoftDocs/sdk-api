@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636ae45-1105-4322-9429-f8bf24333432.xml, msports/ComDBClaimPort, serports.comdbclaimport
 ms.topic: function
-f1_keywords: ["msports/ComDBClaimPort"]
+f1_keywords: 
+ - "msports/ComDBClaimPort"
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

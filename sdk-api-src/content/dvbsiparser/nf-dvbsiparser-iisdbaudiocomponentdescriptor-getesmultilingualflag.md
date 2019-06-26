@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetESMultiLingualFlag, GetESMultiLingualFlag method [Microsoft TV Technologies], GetESMultiLingualFlag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetESMultiLingualFlag method, IIsdbAudioComponentDescriptor.GetESMultiLingualFlag, IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetESMultiLingualFlag, mstv.iisdbaudiocomponentdescriptor_getesmultilingualflag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbAudioComponentDescriptor.GetESMultiLingualFlag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbAudioComponentDescriptor.GetESMultiLingualFlag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

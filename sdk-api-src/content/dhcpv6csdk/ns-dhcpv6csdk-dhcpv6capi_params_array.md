@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY structure [DHCP], LPDHCPV6CAPI_PARAMS_ARRAY, LPDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], PDHCPV6CAPI_PARAMS_ARRAY, PDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], dhcp.dhcpv6capi_params_array, dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/LPDHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/PDHCPV6CAPI_PARAMS_ARRAY"
 ms.topic: struct
-f1_keywords: ["dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY"]
+f1_keywords: 
+ - "dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY"
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
 ms.topic: interface
-f1_keywords: ["imapi2/DWriteEngine2Events"]
+f1_keywords: 
+ - "imapi2/DWriteEngine2Events"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

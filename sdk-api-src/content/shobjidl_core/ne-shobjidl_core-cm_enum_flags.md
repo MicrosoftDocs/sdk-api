@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_ENUM_ALL, CM_ENUM_FLAGS, CM_ENUM_FLAGS enumeration [Windows Shell], CM_ENUM_VISIBLE, shell.CM_ENUM_FLAGS, shell_CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_ALL, shobjidl_core/CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_VISIBLE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/CM_ENUM_FLAGS"]
+f1_keywords: 
+ - "shobjidl_core/CM_ENUM_FLAGS"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescription.GetConditionType"]
+f1_keywords: 
+ - "propsys/IPropertyDescription.GetConditionType"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

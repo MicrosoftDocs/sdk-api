@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], ITsSbServiceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbServiceNotification, termserv.itssbservicenotification
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbServiceNotification"]
+f1_keywords: 
+ - "sbtsv/ITsSbServiceNotification"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

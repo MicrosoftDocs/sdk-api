@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrRetToBuf, StrRetToBuf function [Windows Shell], StrRetToBufA, StrRetToBufW, _win32_StrRetToBuf, shell.StrRetToBuf, shlwapi/StrRetToBuf, shlwapi/StrRetToBufA, shlwapi/StrRetToBufW
 ms.topic: function
-f1_keywords: ["shlwapi/StrRetToBuf"]
+f1_keywords: 
+ - "shlwapi/StrRetToBuf"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

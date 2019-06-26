@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiPortalGroup.GetTarget"]
+f1_keywords: 
+ - "vds/IVdsIscsiPortalGroup.GetTarget"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

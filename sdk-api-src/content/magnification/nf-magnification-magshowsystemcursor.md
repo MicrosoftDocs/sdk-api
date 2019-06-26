@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
 ms.topic: function
-f1_keywords: ["magnification/MagShowSystemCursor"]
+f1_keywords: 
+ - "magnification/MagShowSystemCursor"
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

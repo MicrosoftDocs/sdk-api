@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],CreateResource method, IDispenserDriver.CreateResource, IDispenserDriver::CreateResource, _dtc_IDispenserDriver_CreateResource, comsvcs/IDispenserDriver::CreateResource, cos.idispenserdriver_createresource
 ms.topic: method
-f1_keywords: ["comsvcs/IDispenserDriver.CreateResource"]
+f1_keywords: 
+ - "comsvcs/IDispenserDriver.CreateResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

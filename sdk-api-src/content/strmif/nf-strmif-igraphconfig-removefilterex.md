@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterEx method, IGraphConfig.RemoveFilterEx, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
 ms.topic: method
-f1_keywords: ["strmif/IGraphConfig.RemoveFilterEx"]
+f1_keywords: 
+ - "strmif/IGraphConfig.RemoveFilterEx"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

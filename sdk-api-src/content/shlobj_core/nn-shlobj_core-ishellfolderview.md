@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView, IShellFolderView interface [Windows Shell], IShellFolderView interface [Windows Shell],described, _shell_IShellFolderView, shell.IShellFolderView, shlobj_core/IShellFolderView
 ms.topic: interface
-f1_keywords: ["shlobj_core/IShellFolderView"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

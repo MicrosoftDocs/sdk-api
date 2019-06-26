@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 004d04e1-a54d-6c89-c551-db2d30d9d7e9, ID3D10Counter, ID3D10Counter interface [Direct3D 10], ID3D10Counter interface [Direct3D 10],described, d3d10/ID3D10Counter, direct3d10.id3d10counter
 ms.topic: interface
-f1_keywords: ["d3d10/ID3D10Counter"]
+f1_keywords: 
+ - "d3d10/ID3D10Counter"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

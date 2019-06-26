@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PENABLE_TRACE_PARAMETERS_V1, ENABLE_TRACE_PARAMETERS_V1, ENABLE_TRACE_PARAMETERS_V1 structure [ETW], EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_STACK_TRACE, EVENT_ENABLE_PROPERTY_TS_ID, PENABLE_TRACE_PARAMETERS_V1, PENABLE_TRACE_PARAMETERS_V1 structure pointer [ETW], _ENABLE_TRACE_PARAMETERS_V1, etw.enable_trace_parameters_v1, evntrace/ENABLE_TRACE_PARAMETERS_V1, evntrace/PENABLE_TRACE_PARAMETERS_V1"
 ms.topic: struct
-f1_keywords: ["evntrace/ENABLE_TRACE_PARAMETERS_V1"]
+f1_keywords: 
+ - "evntrace/ENABLE_TRACE_PARAMETERS_V1"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

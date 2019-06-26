@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearChangeHistory, ClearChangeHistory method [Text Services Framework], ClearChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],ClearChangeHistory method, IAnchor.ClearChangeHistory, IAnchor::ClearChangeHistory, textstor/IAnchor::ClearChangeHistory, tsf.ianchor_clearchangehistory
 ms.topic: method
-f1_keywords: ["textstor/IAnchor.ClearChangeHistory"]
+f1_keywords: 
+ - "textstor/IAnchor.ClearChangeHistory"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

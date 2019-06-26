@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetCountPerPage, ListView_GetCountPerPage macro [Windows Controls], _win32_ListView_GetCountPerPage, _win32_ListView_GetCountPerPage_cpp, commctrl/ListView_GetCountPerPage, controls.ListView_GetCountPerPage, controls._win32_ListView_GetCountPerPage
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetCountPerPage"]
+f1_keywords: 
+ - "commctrl/ListView_GetCountPerPage"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

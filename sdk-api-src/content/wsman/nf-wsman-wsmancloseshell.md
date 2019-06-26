@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Management], winrm.wsmancloseshell, wsman/WSManCloseShell
 ms.topic: function
-f1_keywords: ["wsman/WSManCloseShell"]
+f1_keywords: 
+ - "wsman/WSManCloseShell"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

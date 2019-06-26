@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform3D.SetMatrix, IDCompositionMatrixTransform3D::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrix, directcomp.idcompositionmatrixtransform3d_setmatrix
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionMatrixTransform3D.SetMatrix"]
+f1_keywords: 
+ - "dcomp/IDCompositionMatrixTransform3D.SetMatrix"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

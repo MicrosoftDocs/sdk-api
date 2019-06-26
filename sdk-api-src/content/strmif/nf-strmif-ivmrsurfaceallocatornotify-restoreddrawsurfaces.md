@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

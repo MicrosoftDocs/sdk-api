@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
 ms.topic: function
-f1_keywords: ["wininet/InternetDial"]
+f1_keywords: 
+ - "wininet/InternetDial"
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows

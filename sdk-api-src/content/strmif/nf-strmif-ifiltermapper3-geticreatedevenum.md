@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper3.GetICreateDevEnum"]
+f1_keywords: 
+ - "strmif/IFilterMapper3.GetICreateDevEnum"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

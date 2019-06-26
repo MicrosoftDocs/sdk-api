@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel interface, Flags property [RDP],RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel interface [RDP],Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel.get_Flags, IRDPSRAPIVirtualChannel::Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP],Flags property, get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannel.Flags"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIVirtualChannel.Flags"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

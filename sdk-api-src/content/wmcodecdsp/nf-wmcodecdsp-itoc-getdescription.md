@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IToc.GetDescription"]
+f1_keywords: 
+ - "wmcodecdsp/IToc.GetDescription"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

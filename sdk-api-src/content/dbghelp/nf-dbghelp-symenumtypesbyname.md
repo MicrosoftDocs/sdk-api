@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymEnumTypesByName, SymEnumTypesByName function, SymEnumTypesByNameW, base.symenumtypesbyname, dbghelp/SymEnumTypesByName, dbghelp/SymEnumTypesByNameW
 ms.topic: function
-f1_keywords: ["dbghelp/SymEnumTypesByName"]
+f1_keywords: 
+ - "dbghelp/SymEnumTypesByName"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

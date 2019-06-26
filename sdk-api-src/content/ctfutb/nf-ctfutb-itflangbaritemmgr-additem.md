@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],AddItem method, ITfLangBarItemMgr.AddItem, ITfLangBarItemMgr::AddItem, _tsf_itflangbaritemmgr_additem_ref, ctfutb/ITfLangBarItemMgr::AddItem, tsf.itflangbaritemmgr_additem
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemMgr.AddItem"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemMgr.AddItem"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

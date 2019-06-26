@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Open method, IWRdsGraphicsChannel.Open, IWRdsGraphicsChannel::Open, Open, Open method [Remote Desktop Services], Open method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_open, wrdsgraphicschannels/IWRdsGraphicsChannel::Open
 ms.topic: method
-f1_keywords: ["wrdsgraphicschannels/IWRdsGraphicsChannel.Open"]
+f1_keywords: 
+ - "wrdsgraphicschannels/IWRdsGraphicsChannel.Open"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 ms.topic: function
-f1_keywords: ["stringapiset/WideCharToMultiByte"]
+f1_keywords: 
+ - "stringapiset/WideCharToMultiByte"
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

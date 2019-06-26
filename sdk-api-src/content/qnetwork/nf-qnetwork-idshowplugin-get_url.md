@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_URL method, IDShowPlugin.get_URL, IDShowPlugin::get_URL, IDShowPluginget_URL, dshow.idshowplugin_get_url, get_URL, get_URL method [DirectShow], get_URL method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_URL
 ms.topic: method
-f1_keywords: ["qnetwork/IDShowPlugin.get_URL"]
+f1_keywords: 
+ - "qnetwork/IDShowPlugin.get_URL"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, IMDSPObject.Read, IMDSPObject::Read, IMDSPObjectRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPObject.Read"]
+f1_keywords: 
+ - "mswmdm/IMDSPObject.Read"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

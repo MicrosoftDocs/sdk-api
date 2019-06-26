@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_MeasurementPeriod method, ITQueue.get_MeasurementPeriod, ITQueue::get_MeasurementPeriod, _tapi3_itqueue_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_measurementperiod, tapi3cc/ITQueue::get_MeasurementPeriod
 ms.topic: method
-f1_keywords: ["tapi3/ITQueue.get_MeasurementPeriod"]
+f1_keywords: 
+ - "tapi3/ITQueue.get_MeasurementPeriod"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

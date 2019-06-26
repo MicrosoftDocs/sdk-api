@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
 ms.topic: callback
-f1_keywords: ["ws2spi/WSPAccept"]
+f1_keywords: 
+ - "ws2spi/WSPAccept"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

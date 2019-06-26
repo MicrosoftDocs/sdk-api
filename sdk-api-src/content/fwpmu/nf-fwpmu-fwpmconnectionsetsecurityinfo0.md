@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmConnectionSetSecurityInfo0"]
+f1_keywords: 
+ - "fwpmu/FwpmConnectionSetSecurityInfo0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

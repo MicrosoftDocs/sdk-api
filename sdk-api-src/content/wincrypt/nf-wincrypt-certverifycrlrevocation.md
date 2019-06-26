@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
 ms.topic: function
-f1_keywords: ["wincrypt/CertVerifyCRLRevocation"]
+f1_keywords: 
+ - "wincrypt/CertVerifyCRLRevocation"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

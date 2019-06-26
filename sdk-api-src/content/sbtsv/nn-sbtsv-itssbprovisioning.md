@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbProvisioning"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvisioning"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

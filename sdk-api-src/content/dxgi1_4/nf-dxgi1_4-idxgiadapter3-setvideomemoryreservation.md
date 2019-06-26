@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.topic: method
-f1_keywords: ["dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation"]
+f1_keywords: 
+ - "dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation"
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetDataBytes method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetDataBytes method, IISDB_EMM.GetDataBytes, IISDB_EMM::GetDataBytes, dvbsiparser/IISDB_EMM::GetDataBytes, mstv.iisdb_emm_getdatabytes
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_EMM.GetDataBytes"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_EMM.GetDataBytes"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

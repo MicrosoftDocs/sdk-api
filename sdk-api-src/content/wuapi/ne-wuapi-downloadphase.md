@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
 ms.topic: enum
-f1_keywords: ["wuapi/DownloadPhase"]
+f1_keywords: 
+ - "wuapi/DownloadPhase"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

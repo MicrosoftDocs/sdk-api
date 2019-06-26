@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Framework], _tsf_tf_languageprofile_ref, msctf/TF_LANGUAGEPROFILE, tsf.tf_languageprofile
 ms.topic: struct
-f1_keywords: ["msctf/TF_LANGUAGEPROFILE"]
+f1_keywords: 
+ - "msctf/TF_LANGUAGEPROFILE"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

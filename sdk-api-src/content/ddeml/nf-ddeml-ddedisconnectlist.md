@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeDisconnectList, DdeDisconnectList function [Data Exchange], _win32_DdeDisconnectList, _win32_ddedisconnectlist_cpp, dataxchg.ddedisconnectlist, ddeml/DdeDisconnectList, winui._win32_ddedisconnectlist
 ms.topic: function
-f1_keywords: ["ddeml/DdeDisconnectList"]
+f1_keywords: 
+ - "ddeml/DdeDisconnectList"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

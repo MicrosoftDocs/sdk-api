@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryCount method, IScheduledWorkItem.SetErrorRetryCount, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.SetErrorRetryCount"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.SetErrorRetryCount"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

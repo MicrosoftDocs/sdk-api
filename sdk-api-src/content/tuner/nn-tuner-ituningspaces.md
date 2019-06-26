@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
 ms.topic: interface
-f1_keywords: ["tuner/ITuningSpaces"]
+f1_keywords: 
+ - "tuner/ITuningSpaces"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

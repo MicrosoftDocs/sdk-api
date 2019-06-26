@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel interface [Tablet PC],VerticalOffset property, IPenInputPanel.VerticalOffset, IPenInputPanel.put_VerticalOffset, IPenInputPanel::VerticalOffset, IPenInputPanel::get_VerticalOffset, IPenInputPanel::put_VerticalOffset, PenInputPanel.get_VerticalOffset, PenInputPanel.put_VerticalOffset, VerticalOffset property [Tablet PC], VerticalOffset property [Tablet PC],IPenInputPanel interface, ad4b00cc-5cb5-4c32-b837-b13a699ae7e6, get_VerticalOffset, peninputpanel/IPenInputPanel::VerticalOffset, peninputpanel/IPenInputPanel::get_VerticalOffset, peninputpanel/IPenInputPanel::put_VerticalOffset, put_VerticalOffset, tablet.peninputpanel_verticaloffset
 ms.topic: method
-f1_keywords: ["peninputpanel/IPenInputPanel.VerticalOffset"]
+f1_keywords: 
+ - "peninputpanel/IPenInputPanel.VerticalOffset"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

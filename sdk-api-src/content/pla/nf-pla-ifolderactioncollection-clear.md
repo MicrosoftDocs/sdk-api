@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Clear method, IFolderActionCollection.Clear, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.Clear"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.Clear"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartPara, GetStartPara method [Windows Controls], GetStartPara method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetStartPara method, ITextRange2.GetStartPara, ITextRange2::GetStartPara, controls.itextrange2_getstartpara, tom/ITextRange2::GetStartPara
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetStartPara"]
+f1_keywords: 
+ - "tom/ITextRange2.GetStartPara"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTCGMode, GetTCGMode method [DirectShow], GetTCGMode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTCGMode method, IAMTimecodeGenerator.GetTCGMode, IAMTimecodeGenerator::GetTCGMode, IAMTimecodeGeneratorGetTCGMode, dshow.iamtimecodegenerator_gettcgmode, strmif/IAMTimecodeGenerator::GetTCGMode
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeGenerator.GetTCGMode"]
+f1_keywords: 
+ - "strmif/IAMTimecodeGenerator.GetTCGMode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

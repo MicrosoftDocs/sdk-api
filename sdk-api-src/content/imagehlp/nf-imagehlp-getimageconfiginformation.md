@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageConfigInformation, GetImageConfigInformation function, _win32_getimageconfiginformation, base.getimageconfiginformation, imagehlp/GetImageConfigInformation
 ms.topic: function
-f1_keywords: ["imagehlp/GetImageConfigInformation"]
+f1_keywords: 
+ - "imagehlp/GetImageConfigInformation"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

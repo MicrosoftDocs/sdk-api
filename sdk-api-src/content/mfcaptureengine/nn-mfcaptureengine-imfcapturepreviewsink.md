@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
 ms.topic: interface
-f1_keywords: ["mfcaptureengine/IMFCapturePreviewSink"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCapturePreviewSink"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

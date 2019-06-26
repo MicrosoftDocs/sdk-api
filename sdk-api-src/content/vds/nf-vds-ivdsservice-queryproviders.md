@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
 ms.topic: method
-f1_keywords: ["vds/IVdsService.QueryProviders"]
+f1_keywords: 
+ - "vds/IVdsService.QueryProviders"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

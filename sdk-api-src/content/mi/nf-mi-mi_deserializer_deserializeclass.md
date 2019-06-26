@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_DeserializeClass, MI_Deserializer_DeserializeClass function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeClass, wmi_v2.mi_deserializer_deserializeclass
 ms.topic: function
-f1_keywords: ["mi/MI_Deserializer_DeserializeClass"]
+f1_keywords: 
+ - "mi/MI_Deserializer_DeserializeClass"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

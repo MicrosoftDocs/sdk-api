@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.SetCustomPaint"]
+f1_keywords: 
+ - "micaut/IMathInputControl.SetCustomPaint"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

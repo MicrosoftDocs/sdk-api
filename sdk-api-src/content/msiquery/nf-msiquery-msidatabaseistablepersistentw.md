@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseIsTablePersistent, MsiDatabaseIsTablePersistent function, MsiDatabaseIsTablePersistentA, MsiDatabaseIsTablePersistentW, _msi_msidatabaseistablepersistent, msiquery/MsiDatabaseIsTablePersistent, msiquery/MsiDatabaseIsTablePersistentA, msiquery/MsiDatabaseIsTablePersistentW, setup.msidatabaseistablepersistent
 ms.topic: function
-f1_keywords: ["msiquery/MsiDatabaseIsTablePersistent"]
+f1_keywords: 
+ - "msiquery/MsiDatabaseIsTablePersistent"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

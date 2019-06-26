@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcCertificateEnumerator.MoveNext, IOpcCertificateEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MoveNext, opc.iopccertificateenumerator_movenext
 ms.topic: method
-f1_keywords: ["msopc/IOpcCertificateEnumerator.MoveNext"]
+f1_keywords: 
+ - "msopc/IOpcCertificateEnumerator.MoveNext"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

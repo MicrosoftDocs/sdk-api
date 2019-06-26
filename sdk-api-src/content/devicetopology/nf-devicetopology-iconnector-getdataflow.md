@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
 ms.topic: method
-f1_keywords: ["devicetopology/IConnector.GetDataFlow"]
+f1_keywords: 
+ - "devicetopology/IConnector.GetDataFlow"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

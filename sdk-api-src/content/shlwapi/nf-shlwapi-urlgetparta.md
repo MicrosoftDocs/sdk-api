@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: URL_PARTFLAG_KEEPSCHEME, URL_PART_HOSTNAME, URL_PART_PASSWORD, URL_PART_PORT, URL_PART_QUERY, URL_PART_SCHEME, URL_PART_USERNAME, UrlGetPart, UrlGetPart function [Windows Shell], UrlGetPartA, UrlGetPartW, _win32_UrlGetPart, shell.UrlGetPart, shlwapi/UrlGetPart, shlwapi/UrlGetPartA, shlwapi/UrlGetPartW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlGetPart"]
+f1_keywords: 
+ - "shlwapi/UrlGetPart"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultAction property [Windows Accessibility], DefaultAction property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],DefaultAction property, ILegacyIAccessibleProvider.DefaultAction, ILegacyIAccessibleProvider.get_DefaultAction, ILegacyIAccessibleProvider::DefaultAction, ILegacyIAccessibleProvider::get_DefaultAction, get_DefaultAction, uiauto.uiauto_ILegacyIAccessibleProvider_DefaultAction, uiauto_ILegacyIAccessibleProvider_DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::DefaultAction, uiautomationcore/ILegacyIAccessibleProvider::get_DefaultAction, winauto.uiauto_ILegacyIAccessibleProvider_DefaultAction
 ms.topic: method
-f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.DefaultAction"]
+f1_keywords: 
+ - "uiautomationcore/ILegacyIAccessibleProvider.DefaultAction"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

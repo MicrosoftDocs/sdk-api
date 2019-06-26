@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
 ms.topic: function
-f1_keywords: ["setupapi/SetupAddToSourceList"]
+f1_keywords: 
+ - "setupapi/SetupAddToSourceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

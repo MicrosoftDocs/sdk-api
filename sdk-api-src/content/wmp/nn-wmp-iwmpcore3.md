@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], IWMPCore3 interface [Windows Media Player],described, IWMPCore3Interface, wmp.iwmpcore3, wmp/IWMPCore3
 ms.topic: interface
-f1_keywords: ["wmp/IWMPCore3"]
+f1_keywords: 
+ - "wmp/IWMPCore3"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

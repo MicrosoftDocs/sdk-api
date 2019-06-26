@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall
 ms.topic: function
-f1_keywords: ["rpcndr/NdrUserMarshalUnmarshall"]
+f1_keywords: 
+ - "rpcndr/NdrUserMarshalUnmarshall"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

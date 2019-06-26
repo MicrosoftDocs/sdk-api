@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersist, IPersist interface [COM], IPersist interface [COM],described, _com_ipersist, com.ipersist, objidl/IPersist
 ms.topic: interface
-f1_keywords: ["objidl/IPersist"]
+f1_keywords: 
+ - "objidl/IPersist"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

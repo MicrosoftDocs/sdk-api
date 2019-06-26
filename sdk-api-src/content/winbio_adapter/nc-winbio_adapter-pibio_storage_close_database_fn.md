@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, PIBIO_STORAGE_CLOSE_DATABASE_FN callback, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
 ms.topic: callback
-f1_keywords: ["winbio_adapter/StorageAdapterCloseDatabase"]
+f1_keywords: 
+ - "winbio_adapter/StorageAdapterCloseDatabase"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

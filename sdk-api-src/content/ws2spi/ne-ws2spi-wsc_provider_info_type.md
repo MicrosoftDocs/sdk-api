@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProviderInfoAudit, ProviderInfoLspCategories, WSC_PROVIDER_INFO_TYPE, WSC_PROVIDER_INFO_TYPE enumeration [Winsock], winsock.wsc_provider_info_type, ws2spi/ProviderInfoAudit, ws2spi/ProviderInfoLspCategories, ws2spi/WSC_PROVIDER_INFO_TYPE
 ms.topic: enum
-f1_keywords: ["ws2spi/WSC_PROVIDER_INFO_TYPE"]
+f1_keywords: 
+ - "ws2spi/WSC_PROVIDER_INFO_TYPE"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvResetDevice, DrvResetDevice function [Display Devices], ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml, display.drvresetdevice, winddi/DrvResetDevice
 ms.topic: function
-f1_keywords: ["winddi/DrvResetDevice"]
+f1_keywords: 
+ - "winddi/DrvResetDevice"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

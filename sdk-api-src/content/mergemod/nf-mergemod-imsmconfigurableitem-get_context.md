@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Context method, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_get_context_function, get_Context, get_Context method, get_Context method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Context, setup.imsmconfigurableitem_get_context
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigurableItem.get_Context"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem.get_Context"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

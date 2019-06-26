@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetTransform method, TextureBrush.SetTransform, TextureBrush::SetTransform, _gdiplus_CLASS_TextureBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_TextureBrush_SetTransform_matrix_
 ms.topic: method
-f1_keywords: ["gdiplusbrush/TextureBrush.SetTransform"]
+f1_keywords: 
+ - "gdiplusbrush/TextureBrush.SetTransform"
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

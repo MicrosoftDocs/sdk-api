@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_DESC, DML_TENSOR_DESC structure, direct3d12.dml_tensor_desc, directml/DML_TENSOR_DESC
 ms.topic: struct
-f1_keywords: ["directml/DML_TENSOR_DESC"]
+f1_keywords: 
+ - "directml/DML_TENSOR_DESC"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

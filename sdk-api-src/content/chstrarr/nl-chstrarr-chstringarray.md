@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray"
 ms.topic: class
-f1_keywords: ["chstrarr/CHStringArray"]
+f1_keywords: 
+ - "chstrarr/CHStringArray"
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

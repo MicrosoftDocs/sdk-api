@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetOutputFormat method, IAMLine21Decoder.GetOutputFormat, IAMLine21Decoder::GetOutputFormat, IAMLine21DecoderGetOutputFormat, dshow.iamline21decoder_getoutputformat, il21dec/IAMLine21Decoder::GetOutputFormat
 ms.topic: method
-f1_keywords: ["il21dec/IAMLine21Decoder.GetOutputFormat"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder.GetOutputFormat"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

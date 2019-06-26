@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentParameterSet, GetCurrentParameterSet method [Windows Imaging Component], GetCurrentParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetCurrentParameterSet method, IWICDevelopRaw.GetCurrentParameterSet, IWICDevelopRaw::GetCurrentParameterSet, _wic_codec_iwicdevelopraw_getcurrentparameterset, wic._wic_codec_iwicdevelopraw_getcurrentparameterset, wincodec/IWICDevelopRaw::GetCurrentParameterSet
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetCurrentParameterSet"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetCurrentParameterSet"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

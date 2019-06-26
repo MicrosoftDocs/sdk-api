@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshComponents method, ICOMAdminCatalog.RefreshComponents, ICOMAdminCatalog::RefreshComponents, RefreshComponents, RefreshComponents method [COM+], RefreshComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshComponents, comadmin/ICOMAdminCatalog::RefreshComponents, cos.icomadmincatalog_refreshcomponents
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.RefreshComponents"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.RefreshComponents"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

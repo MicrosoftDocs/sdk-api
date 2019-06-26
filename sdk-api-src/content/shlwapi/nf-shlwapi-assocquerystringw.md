@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssocQueryString, AssocQueryString function [Windows Shell], AssocQueryStringA, AssocQueryStringW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryString, shell.AssocQueryString, shlwapi/AssocQueryString, shlwapi/AssocQueryStringA, shlwapi/AssocQueryStringW
 ms.topic: function
-f1_keywords: ["shlwapi/AssocQueryString"]
+f1_keywords: 
+ - "shlwapi/AssocQueryString"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

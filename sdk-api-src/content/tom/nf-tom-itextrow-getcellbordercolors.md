@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellBorderColors, GetCellBorderColors method [Windows Controls], GetCellBorderColors method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderColors method, ITextRow.GetCellBorderColors, ITextRow::GetCellBorderColors, controls.itextrow_getcellbordercolors, tom/ITextRow::GetCellBorderColors
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellBorderColors"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellBorderColors"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

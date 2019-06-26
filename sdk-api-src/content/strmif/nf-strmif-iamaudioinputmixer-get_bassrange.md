@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange
 ms.topic: method
-f1_keywords: ["strmif/IAMAudioInputMixer.get_BassRange"]
+f1_keywords: 
+ - "strmif/IAMAudioInputMixer.get_BassRange"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

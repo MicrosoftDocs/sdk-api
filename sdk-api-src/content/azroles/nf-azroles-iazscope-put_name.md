@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.put_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, put_Name, security.iazscope_name
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.Name"]
+f1_keywords: 
+ - "azroles/IAzScope.Name"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

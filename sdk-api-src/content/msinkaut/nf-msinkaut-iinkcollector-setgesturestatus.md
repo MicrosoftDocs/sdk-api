@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkCollector interface [Tablet PC],SetGestureStatus method, IInkCollector.SetGestureStatus, IInkCollector::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetGestureStatus, tablet.inkcollector_setgesturestatus
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCollector.SetGestureStatus"]
+f1_keywords: 
+ - "msinkaut/IInkCollector.SetGestureStatus"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

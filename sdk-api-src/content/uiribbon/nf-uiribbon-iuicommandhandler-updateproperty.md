@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
 ms.topic: method
-f1_keywords: ["uiribbon/IUICommandHandler.UpdateProperty"]
+f1_keywords: 
+ - "uiribbon/IUICommandHandler.UpdateProperty"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

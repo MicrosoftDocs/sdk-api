@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingToStringBinding, RpcBindingToStringBinding function [RPC], RpcBindingToStringBindingA, RpcBindingToStringBindingW, _rpc_rpcbindingtostringbinding, rpc.rpcbindingtostringbinding, rpcdce/RpcBindingToStringBinding, rpcdce/RpcBindingToStringBindingA, rpcdce/RpcBindingToStringBindingW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingToStringBinding"]
+f1_keywords: 
+ - "rpcdce/RpcBindingToStringBinding"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

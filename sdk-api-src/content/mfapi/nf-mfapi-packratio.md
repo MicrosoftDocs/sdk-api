@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
 ms.topic: function
-f1_keywords: ["mfapi/PackRatio"]
+f1_keywords: 
+ - "mfapi/PackRatio"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

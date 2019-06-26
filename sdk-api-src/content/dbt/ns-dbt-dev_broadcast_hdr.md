@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_DEVTYP_PORT, DBT_DEVTYP_VOLUME, DEV_BROADCAST_HDR, DEV_BROADCAST_HDR structure, PDEV_BROADCAST_HDR, PDEV_BROADCAST_HDR structure pointer, _win32_dev_broadcast_hdr_str, base.dev_broadcast_hdr_str, dbt/DEV_BROADCAST_HDR, dbt/PDEV_BROADCAST_HDR
 ms.topic: struct
-f1_keywords: ["dbt/DEV_BROADCAST_HDR"]
+f1_keywords: 
+ - "dbt/DEV_BROADCAST_HDR"
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemsArray, GetItemsArray method [Windows Shell], GetItemsArray method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetItemsArray method, ISyncMgrConflict.GetItemsArray, ISyncMgrConflict::GetItemsArray, _shell_ISyncMgrConflict_GetItemsArray, shell.ISyncMgrConflict_GetItemsArray, syncmgr/ISyncMgrConflict::GetItemsArray
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflict.GetItemsArray"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflict.GetItemsArray"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

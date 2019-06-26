@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate
 ms.topic: function
-f1_keywords: ["http/HttpReceiveClientCertificate"]
+f1_keywords: 
+ - "http/HttpReceiveClientCertificate"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

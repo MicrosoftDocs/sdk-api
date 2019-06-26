@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCustomInfoEx, MprAdminInterfaceSetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceSetCustomInfoEx, rras.mpradmininterfacesetcustominfoex
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminInterfaceSetCustomInfoEx"]
+f1_keywords: 
+ - "mprapi/MprAdminInterfaceSetCustomInfoEx"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

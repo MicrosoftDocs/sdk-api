@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetStatus method, IBackgroundCopyJob1.GetStatus, IBackgroundCopyJob1::GetStatus, QM_STATUS_JOB_COMPLETE, QM_STATUS_JOB_ERROR, QM_STATUS_JOB_FOREGROUND, QM_STATUS_JOB_INCOMPLETE, bits.ibackgroundcopyjob1_getstatus, qmgr/IBackgroundCopyJob1::GetStatus
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyJob1.GetStatus"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyJob1.GetStatus"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

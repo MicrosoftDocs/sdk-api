@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
 ms.topic: method
-f1_keywords: ["tapi3cc/ITACDGroup.EnumerateQueues"]
+f1_keywords: 
+ - "tapi3cc/ITACDGroup.EnumerateQueues"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

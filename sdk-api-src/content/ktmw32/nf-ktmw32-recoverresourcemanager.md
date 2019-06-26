@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs.recoverresourcemanager, ktmw32/RecoverResourceManager
 ms.topic: function
-f1_keywords: ["ktmw32/RecoverResourceManager"]
+f1_keywords: 
+ - "ktmw32/RecoverResourceManager"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

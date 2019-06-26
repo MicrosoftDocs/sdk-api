@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDefaultContext, CoGetDefaultContext function [COM+], combaseapi/CoGetDefaultContext, cos.cogetdefaultcontext
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetDefaultContext"]
+f1_keywords: 
+ - "combaseapi/CoGetDefaultContext"
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

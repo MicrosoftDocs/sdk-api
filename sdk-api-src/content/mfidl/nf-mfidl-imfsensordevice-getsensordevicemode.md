@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorDevice.GetSensorDeviceMode"]
+f1_keywords: 
+ - "mfidl/IMFSensorDevice.GetSensorDeviceMode"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

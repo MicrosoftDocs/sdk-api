@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEOUTS, LPCOMMTIMEOUTS structure pointer, _COMMTIMEOUTS, _win32_commtimeouts_str, base.commtimeouts_str, winbase/COMMTIMEOUTS, winbase/LPCOMMTIMEOUTS"
 ms.topic: struct
-f1_keywords: ["winbase/COMMTIMEOUTS"]
+f1_keywords: 
+ - "winbase/COMMTIMEOUTS"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

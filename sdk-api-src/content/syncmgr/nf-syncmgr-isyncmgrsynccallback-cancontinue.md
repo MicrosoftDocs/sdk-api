@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.CanContinue"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.CanContinue"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

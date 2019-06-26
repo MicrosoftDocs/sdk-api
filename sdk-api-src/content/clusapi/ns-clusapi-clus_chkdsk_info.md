@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO structure [Failover Cluster], PCLUS_CHKDSK_INFO, PCLUS_CHKDSK_INFO structure pointer [Failover Cluster], clusapi/CLUS_CHKDSK_INFO, clusapi/PCLUS_CHKDSK_INFO, mscs.clus_chkdsk_info"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_CHKDSK_INFO"]
+f1_keywords: 
+ - "clusapi/CLUS_CHKDSK_INFO"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

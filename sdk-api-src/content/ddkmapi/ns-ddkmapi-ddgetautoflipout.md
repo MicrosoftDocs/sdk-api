@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT structure [Display Devices], LPDDGETAUTOFLIPOUT, LPDDGETAUTOFLIPOUT structure pointer [Display Devices], ddkmapi/DDGETAUTOFLIPOUT, ddkmapi/LPDDGETAUTOFLIPOUT, ddstrcts_b11ef13a-2e8d-4676-b270-29b926abee91.xml, display.ddgetautoflipout"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDGETAUTOFLIPOUT"]
+f1_keywords: 
+ - "ddkmapi/DDGETAUTOFLIPOUT"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

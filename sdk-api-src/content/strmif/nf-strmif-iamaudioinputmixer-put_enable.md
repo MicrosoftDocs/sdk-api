@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Enable method, IAMAudioInputMixer.put_Enable, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable, put_Enable method [DirectShow], put_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Enable
 ms.topic: method
-f1_keywords: ["strmif/IAMAudioInputMixer.put_Enable"]
+f1_keywords: 
+ - "strmif/IAMAudioInputMixer.put_Enable"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

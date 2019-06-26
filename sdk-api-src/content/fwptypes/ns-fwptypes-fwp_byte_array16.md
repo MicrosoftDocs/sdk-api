@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_ARRAY16, FWP_BYTE_ARRAY16 structure [Filtering], fwp.fwp_byte_array16_struct, fwptypes/FWP_BYTE_ARRAY16
 ms.topic: struct
-f1_keywords: ["fwptypes/FWP_BYTE_ARRAY16"]
+f1_keywords: 
+ - "fwptypes/FWP_BYTE_ARRAY16"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

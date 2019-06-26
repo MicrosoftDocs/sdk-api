@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Security], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Security], _TOKEN_STATISTICS, _win32_token_statistics_str, security.token_statistics, winnt/PTOKEN_STATISTICS, winnt/TOKEN_STATISTICS"
 ms.topic: struct
-f1_keywords: ["winnt/TOKEN_STATISTICS"]
+f1_keywords: 
+ - "winnt/TOKEN_STATISTICS"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

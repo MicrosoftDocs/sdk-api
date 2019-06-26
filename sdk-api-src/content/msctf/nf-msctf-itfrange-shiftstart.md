@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStart method, ITfRange.ShiftStart, ITfRange::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstart_ref, msctf/ITfRange::ShiftStart, tsf.itfrange_shiftstart
 ms.topic: method
-f1_keywords: ["msctf/ITfRange.ShiftStart"]
+f1_keywords: 
+ - "msctf/ITfRange.ShiftStart"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_ExactRateChange, AM_ExactRateChange structure [DirectShow], AM_ExactRateChangeStructure, dshow.am_exactratechange, dvdmedia/AM_ExactRateChange
 ms.topic: struct
-f1_keywords: ["dvdmedia/AM_ExactRateChange"]
+f1_keywords: 
+ - "dvdmedia/AM_ExactRateChange"
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

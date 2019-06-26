@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],Save method, ISettingsNamespace.Save, ISettingsNamespace::Save, Save, Save method [SMI], Save method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_save, wcmconfig/ISettingsNamespace::Save
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsNamespace.Save"]
+f1_keywords: 
+ - "wcmconfig/ISettingsNamespace.Save"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

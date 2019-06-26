@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter2 interface [windows Media Format],SetWMDRMNetEncryption method, IWMDRMWriter2.SetWMDRMNetEncryption, IWMDRMWriter2::SetWMDRMNetEncryption, IWMDRMWriter2SetWMDRMNetEncryption, SetWMDRMNetEncryption, SetWMDRMNetEncryption method [windows Media Format], SetWMDRMNetEncryption method [windows Media Format],IWMDRMWriter2 interface, wmformat.iwmdrmwriter2_setwmdrmnetencryption, wmsdkidl/IWMDRMWriter2::SetWMDRMNetEncryption
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMWriter2.SetWMDRMNetEncryption"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMWriter2.SetWMDRMNetEncryption"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

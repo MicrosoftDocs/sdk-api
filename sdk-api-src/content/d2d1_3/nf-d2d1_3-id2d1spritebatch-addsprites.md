@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSprites, AddSprites method [Direct2D], AddSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],AddSprites method, ID2D1SpriteBatch.AddSprites, ID2D1SpriteBatch::AddSprites, d2d1_3/ID2D1SpriteBatch::AddSprites, direct2d.id2d1spritebatch_addsprites
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1SpriteBatch.AddSprites"]
+f1_keywords: 
+ - "d2d1_3/ID2D1SpriteBatch.AddSprites"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_COOKED_URL, HTTP_COOKED_URL, HTTP_COOKED_URL structure [HTTP], PHTTP_COOKED_URL, PHTTP_COOKED_URL structure pointer [HTTP], _http_http_cooked_url, http.http_cooked_url, http/HTTP_COOKED_URL, http/PHTTP_COOKED_URL"
 ms.topic: struct
-f1_keywords: ["http/HTTP_COOKED_URL"]
+f1_keywords: 
+ - "http/HTTP_COOKED_URL"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

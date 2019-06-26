@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetLogicalPath method, IVssWMDependency.GetLogicalPath, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath
 ms.topic: method
-f1_keywords: ["vswriter/IVssWMDependency.GetLogicalPath"]
+f1_keywords: 
+ - "vswriter/IVssWMDependency.GetLogicalPath"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

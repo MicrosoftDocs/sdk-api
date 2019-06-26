@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64VectorAlloc, PropVariantToUInt64VectorAlloc function [Windows Properties], _shell_PropVariantToUInt64VectorAlloc, properties.PropVariantToUInt64VectorAlloc, propvarutil/PropVariantToUInt64VectorAlloc, shell.PropVariantToUInt64VectorAlloc
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToUInt64VectorAlloc"]
+f1_keywords: 
+ - "propvarutil/PropVariantToUInt64VectorAlloc"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerClearConnection, EapHostPeerClearConnection function [EAPHost], eaphost.eaphostpeerclearconnection, eappapis/EapHostPeerClearConnection
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerClearConnection"]
+f1_keywords: 
+ - "eappapis/EapHostPeerClearConnection"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

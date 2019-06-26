@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMute interface [Core Audio],SetMute method, IAudioEndpointOffloadStreamMute.SetMute, IAudioEndpointOffloadStreamMute::SetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointOffloadStreamMute interface, audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute, coreaudio.iaudioendpointoffloadstreammute_setmute
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_STANDARD_INFO, CF_SYNC_ROOT_STANDARD_INFO structure, cfapi/CF_SYNC_ROOT_STANDARD_INFO, cloudApi.cf_sync_root_standard_info
 ms.topic: struct
-f1_keywords: ["cfapi/CF_SYNC_ROOT_STANDARD_INFO"]
+f1_keywords: 
+ - "cfapi/CF_SYNC_ROOT_STANDARD_INFO"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

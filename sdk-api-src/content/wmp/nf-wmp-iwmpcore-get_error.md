@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_error method, IWMPCore.get_error, IWMPCore::get_error, IWMPCoreget_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_error, wmp/IWMPCore::get_error
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_error"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_error"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

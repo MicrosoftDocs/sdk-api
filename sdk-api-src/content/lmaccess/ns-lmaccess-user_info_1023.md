@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_1023, *PUSER_INFO_1023, LPUSER_INFO_1023, LPUSER_INFO_1023 structure pointer [Network Management], PUSER_INFO_1023, PUSER_INFO_1023 structure pointer [Network Management], USER_INFO_1023, USER_INFO_1023 structure [Network Management], _win32_user_info_1023_str, lmaccess/LPUSER_INFO_1023, lmaccess/PUSER_INFO_1023, lmaccess/USER_INFO_1023, netmgmt.user_info_1023_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/USER_INFO_1023"]
+f1_keywords: 
+ - "lmaccess/USER_INFO_1023"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

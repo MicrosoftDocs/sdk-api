@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabUnregisterEvent"]
+f1_keywords: 
+ - "p2p/PeerCollabUnregisterEvent"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

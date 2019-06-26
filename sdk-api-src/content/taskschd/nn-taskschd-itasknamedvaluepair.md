@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValuePair, ITaskNamedValuePair interface [Task Scheduler], ITaskNamedValuePair interface [Task Scheduler],described, taskschd.itasknamedvaluepair, taskschd/ITaskNamedValuePair
 ms.topic: interface
-f1_keywords: ["taskschd/ITaskNamedValuePair"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValuePair"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

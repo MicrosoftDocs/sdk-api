@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintRenderAnimation, BufferedPaintRenderAnimation function [Windows Controls], _shell_BufferedPaintRenderAnimation, _shell_BufferedPaintRenderAnimation_cpp, controls.BufferedPaintRenderAnimation, controls._shell_BufferedPaintRenderAnimation, uxtheme/BufferedPaintRenderAnimation
 ms.topic: function
-f1_keywords: ["uxtheme/BufferedPaintRenderAnimation"]
+f1_keywords: 
+ - "uxtheme/BufferedPaintRenderAnimation"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEditBoxText, GetEditBoxText method [Windows Shell], GetEditBoxText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetEditBoxText method, IFileDialogCustomize.GetEditBoxText, IFileDialogCustomize::GetEditBoxText, shell.IFileDialogCustomize_GetEditBoxText, shell_IFileDialogCustomize_GetEditBoxText, shobjidl_core/IFileDialogCustomize::GetEditBoxText
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.GetEditBoxText"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.GetEditBoxText"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

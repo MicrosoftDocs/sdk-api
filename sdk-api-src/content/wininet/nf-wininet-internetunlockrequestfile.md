@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinINet], _inet_internetunlockrequestfile_function, wininet.internetunlockrequestfile, wininet/InternetUnlockRequestFile
 ms.topic: function
-f1_keywords: ["wininet/InternetUnlockRequestFile"]
+f1_keywords: 
+ - "wininet/InternetUnlockRequestFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

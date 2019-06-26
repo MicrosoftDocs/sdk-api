@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorEndSession, EapMethodAuthenticatorEndSession function [EAPHost], eaphost.eapmethodauthenticatorendsession, eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession
 ms.topic: function
-f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession"]
+f1_keywords: 
+ - "eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession"
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

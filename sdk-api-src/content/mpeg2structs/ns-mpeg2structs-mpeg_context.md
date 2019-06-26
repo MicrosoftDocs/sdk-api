@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPEG_CONTEXT, MPEG_CONTEXT, MPEG_CONTEXT structure [Microsoft TV Technologies], mpeg2structs/MPEG_CONTEXT, mstv.mpeg_context"
 ms.topic: struct
-f1_keywords: ["mpeg2structs/MPEG_CONTEXT"]
+f1_keywords: 
+ - "mpeg2structs/MPEG_CONTEXT"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

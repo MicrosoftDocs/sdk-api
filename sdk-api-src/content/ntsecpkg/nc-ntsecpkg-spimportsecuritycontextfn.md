@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpImportSecurityContext, SpImportSecurityContext callback function [Security], SpImportSecurityContextFn, SpImportSecurityContextFn callback, _ssp_spimportsecuritycontext, ntsecpkg/SpImportSecurityContext, security.spimportsecuritycontext
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpImportSecurityContext"]
+f1_keywords: 
+ - "ntsecpkg/SpImportSecurityContext"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
 ms.topic: function
-f1_keywords: ["winuser/GetMonitorInfo"]
+f1_keywords: 
+ - "winuser/GetMonitorInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_delete_ext, ldap.ldap__delete__ext, ldap.ldap_delete_ext, ldap_delete_ext, ldap_delete_ext function [LDAP], ldap_delete_extA, ldap_delete_extW, winldap/ldap_delete_ext, winldap/ldap_delete_extA, winldap/ldap_delete_extW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_delete_ext"]
+f1_keywords: 
+ - "winldap/ldap_delete_ext"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

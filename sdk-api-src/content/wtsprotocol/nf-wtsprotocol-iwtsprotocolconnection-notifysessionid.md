@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWTSProtocolConnection.NotifySessionId, IWTSProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.NotifySessionId"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.NotifySessionId"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

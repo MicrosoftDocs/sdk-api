@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ZoomRelative method, ICameraControl.get_ZoomRelative, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ZoomRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_ZoomRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_ZoomRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

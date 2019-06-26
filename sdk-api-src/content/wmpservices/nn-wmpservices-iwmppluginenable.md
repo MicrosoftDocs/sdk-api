@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], IWMPPluginEnable interface [Windows Media Player],described, IWMPPluginEnableInterfaceDSP, wmp.iwmppluginenable, wmpservices/IWMPPluginEnable
 ms.topic: interface
-f1_keywords: ["wmpservices/IWMPPluginEnable"]
+f1_keywords: 
+ - "wmpservices/IWMPPluginEnable"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

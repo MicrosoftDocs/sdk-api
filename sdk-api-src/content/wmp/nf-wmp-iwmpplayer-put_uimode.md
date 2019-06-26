@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayer.put_uiMode"]
+f1_keywords: 
+ - "wmp/IWMPPlayer.put_uiMode"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

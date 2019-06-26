@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE structure [Perf], PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE, PERF_COUNTERSET_INSTANCE,*PPERF_COUNTERSET_INSTANCE structure [Perf], base.perf_counterset_instance, perf.perf_counterset_instance, perflib/PERF_COUNTERSET_INSTANCE"
 ms.topic: struct
-f1_keywords: ["perflib/PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE"]
+f1_keywords: 
+ - "perflib/PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

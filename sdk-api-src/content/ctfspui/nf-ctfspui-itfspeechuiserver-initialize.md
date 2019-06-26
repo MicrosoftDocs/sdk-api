@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
 ms.topic: method
-f1_keywords: ["ctfspui/ITfSpeechUIServer.Initialize"]
+f1_keywords: 
+ - "ctfspui/ITfSpeechUIServer.Initialize"
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows

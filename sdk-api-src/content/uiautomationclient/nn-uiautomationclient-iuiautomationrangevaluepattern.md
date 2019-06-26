@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], IUIAutomationRangeValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRangeValuePattern, uiauto_IUIAutomationRangeValuePattern, uiautomationclient/IUIAutomationRangeValuePattern, winauto.uiauto_IUIAutomationRangeValuePattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationRangeValuePattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

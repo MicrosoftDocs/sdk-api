@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite"
 ms.topic: method
-f1_keywords: ["thrdbase/CThreadBase.EndWrite"]
+f1_keywords: 
+ - "thrdbase/CThreadBase.EndWrite"
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

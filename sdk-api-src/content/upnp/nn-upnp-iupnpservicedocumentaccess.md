@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
 ms.topic: interface
-f1_keywords: ["upnp/IUPnPServiceDocumentAccess"]
+f1_keywords: 
+ - "upnp/IUPnPServiceDocumentAccess"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

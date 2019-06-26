@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OaBuildVersion, OaBuildVersion function [Automation], _oa96_OaBuildVersion, automat.oabuildversion, oleauto/OaBuildVersion
 ms.topic: function
-f1_keywords: ["oleauto/OaBuildVersion"]
+f1_keywords: 
+ - "oleauto/OaBuildVersion"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

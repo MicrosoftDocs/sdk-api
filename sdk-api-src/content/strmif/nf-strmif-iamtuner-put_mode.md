@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.put_Mode"]
+f1_keywords: 
+ - "strmif/IAMTuner.put_Mode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

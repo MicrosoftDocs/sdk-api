@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMediaItem method, IMFPMediaPlayer.SetMediaItem, IMFPMediaPlayer::SetMediaItem, SetMediaItem, SetMediaItem method [Media Foundation], SetMediaItem method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmediaitem, mfplay/IMFPMediaPlayer::SetMediaItem
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.SetMediaItem"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.SetMediaItem"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

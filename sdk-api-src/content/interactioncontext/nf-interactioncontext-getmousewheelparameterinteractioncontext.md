@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMouseWheelParameterInteractionContext, GetMouseWheelParameterInteractionContext function, input_intcontext.getmousewheelparameterinteractioncontext, interactioncontext.getmousewheelparameterinteractioncontext, interactioncontext/GetMouseWheelParameterInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/GetMouseWheelParameterInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/GetMouseWheelParameterInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

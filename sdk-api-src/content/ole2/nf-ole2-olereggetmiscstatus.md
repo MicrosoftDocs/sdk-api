@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRegGetMiscStatus, com.olereggetmiscstatus, ole2/OleRegGetMiscStatus
 ms.topic: function
-f1_keywords: ["ole2/OleRegGetMiscStatus"]
+f1_keywords: 
+ - "ole2/OleRegGetMiscStatus"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

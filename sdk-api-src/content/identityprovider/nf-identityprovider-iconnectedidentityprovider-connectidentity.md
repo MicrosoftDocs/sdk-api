@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
 ms.topic: method
-f1_keywords: ["identityprovider/IConnectedIdentityProvider.ConnectIdentity"]
+f1_keywords: 
+ - "identityprovider/IConnectedIdentityProvider.ConnectIdentity"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

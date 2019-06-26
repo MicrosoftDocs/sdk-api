@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalValue method, IUIAnimationVariable2.GetFinalValue, IUIAnimationVariable2::GetFinalValue, uianimation.iuianimationvariable2_getfinalvalue, uianimation/IUIAnimationVariable2::GetFinalValue
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable2.GetFinalValue"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable2.GetFinalValue"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportError method, ITpmVirtualSmartCardManagerStatusCallback.ReportError, ITpmVirtualSmartCardManagerStatusCallback::ReportError, ReportError, ReportError method [Security], ReportError method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reporterror, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError
 ms.topic: method
-f1_keywords: ["tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportError"]
+f1_keywords: 
+ - "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportError"
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

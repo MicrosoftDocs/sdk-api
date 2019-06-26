@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
 ms.topic: function
-f1_keywords: ["shellapi/SHLoadNonloadedIconOverlayIdentifiers"]
+f1_keywords: 
+ - "shellapi/SHLoadNonloadedIconOverlayIdentifiers"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

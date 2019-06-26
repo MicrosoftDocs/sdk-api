@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertFindCTLInStore"]
+f1_keywords: 
+ - "wincrypt/CertFindCTLInStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

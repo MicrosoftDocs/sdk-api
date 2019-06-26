@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader"
 ms.topic: function
-f1_keywords: ["mmeapi/midiOutPrepareHeader"]
+f1_keywords: 
+ - "mmeapi/midiOutPrepareHeader"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

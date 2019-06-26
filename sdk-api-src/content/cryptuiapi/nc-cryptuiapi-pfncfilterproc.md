@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
 ms.topic: callback
-f1_keywords: ["cryptuiapi/PFNCFILTERPROC"]
+f1_keywords: 
+ - "cryptuiapi/PFNCFILTERPROC"
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

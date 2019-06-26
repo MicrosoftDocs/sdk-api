@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMPGSCROLL, 0, LPNMPGSCROLL, LPNMPGSCROLL structure pointer [Windows Controls], NMPGSCROLL, NMPGSCROLL structure [Windows Controls], PGF_SCROLLDOWN, PGF_SCROLLLEFT, PGF_SCROLLRIGHT, PGF_SCROLLUP, PGK_CONTROL, PGK_MENU, PGK_SHIFT, _win32_NMPGSCROLL, _win32_NMPGSCROLL_cpp, commctrl/LPNMPGSCROLL, commctrl/NMPGSCROLL, controls.NMPGSCROLL, controls._win32_NMPGSCROLL"
 ms.topic: struct
-f1_keywords: ["commctrl/NMPGSCROLL"]
+f1_keywords: 
+ - "commctrl/NMPGSCROLL"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

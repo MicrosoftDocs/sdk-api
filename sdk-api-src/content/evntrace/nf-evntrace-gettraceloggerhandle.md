@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTraceLoggerHandle, GetTraceLoggerHandle function [ETW], _evt_gettraceloggerhandle, base.gettraceloggerhandle, etw.gettraceloggerhandle, evntrace/GetTraceLoggerHandle
 ms.topic: function
-f1_keywords: ["evntrace/GetTraceLoggerHandle"]
+f1_keywords: 
+ - "evntrace/GetTraceLoggerHandle"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

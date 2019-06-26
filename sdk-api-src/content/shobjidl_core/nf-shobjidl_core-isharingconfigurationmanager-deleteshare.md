@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteShare, DeleteShare method [Windows Shell], DeleteShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],DeleteShare method, ISharingConfigurationManager.DeleteShare, ISharingConfigurationManager::DeleteShare, _shell_ISharingConfigurationManager_DeleteShare, shell.ISharingConfigurationManager_DeleteShare, shobjidl_core/ISharingConfigurationManager::DeleteShare
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISharingConfigurationManager.DeleteShare"]
+f1_keywords: 
+ - "shobjidl_core/ISharingConfigurationManager.DeleteShare"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

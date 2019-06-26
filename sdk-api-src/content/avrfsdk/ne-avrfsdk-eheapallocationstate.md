@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPageHeap, avrfsdk/HeapMetadata, avrfsdk/HeapStateMask, avrfsdk/eHeapAllocationState, base.eheapallocationstate, eHeapAllocationState, eHeapAllocationState enumeration [Windows API], winprog.eheapallocationstate
 ms.topic: enum
-f1_keywords: ["avrfsdk/eHeapAllocationState"]
+f1_keywords: 
+ - "avrfsdk/eHeapAllocationState"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

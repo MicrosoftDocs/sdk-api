@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegGetBoolValueFromHKCUHKLM"]
+f1_keywords: 
+ - "shlwapi/SHRegGetBoolValueFromHKCUHKLM"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

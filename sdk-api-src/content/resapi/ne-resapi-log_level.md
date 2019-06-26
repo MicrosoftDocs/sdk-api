@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLOG_LEVEL, LOG_ERROR, LOG_INFORMATION, LOG_LEVEL, LOG_LEVEL enumeration [Failover Cluster], LOG_SEVERE, LOG_WARNING, PLOG_LEVEL, PLOG_LEVEL enumeration pointer [Failover Cluster], mscs.log_level, resapi/LOG_ERROR, resapi/LOG_INFORMATION, resapi/LOG_LEVEL, resapi/LOG_SEVERE, resapi/LOG_WARNING, resapi/PLOG_LEVEL"
 ms.topic: enum
-f1_keywords: ["resapi/LOG_LEVEL"]
+f1_keywords: 
+ - "resapi/LOG_LEVEL"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

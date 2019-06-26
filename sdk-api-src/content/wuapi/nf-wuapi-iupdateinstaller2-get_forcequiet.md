@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForceQuiet property [Windows Update Agent], ForceQuiet property [Windows Update Agent],IUpdateInstaller2 interface, IUpdateInstaller2 interface [Windows Update Agent],ForceQuiet property, IUpdateInstaller2.ForceQuiet, IUpdateInstaller2.get_ForceQuiet, IUpdateInstaller2::ForceQuiet, IUpdateInstaller2::get_ForceQuiet, IUpdateInstaller2::put_ForceQuiet, get_ForceQuiet, wua.iupdateinstaller2_forcequiet, wuapi/IUpdateInstaller2::ForceQuiet, wuapi/IUpdateInstaller2::get_ForceQuiet, wuapi/IUpdateInstaller2::put_ForceQuiet
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller2.ForceQuiet"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller2.ForceQuiet"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

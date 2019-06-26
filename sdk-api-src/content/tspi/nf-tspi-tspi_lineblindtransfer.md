@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineBlindTransfer, TSPI_lineBlindTransfer function [TAPI 2.2], _tspi_tspi_lineblindtransfer, tspi.tspi_lineblindtransfer, tspi/TSPI_lineBlindTransfer
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineBlindTransfer"]
+f1_keywords: 
+ - "tspi/TSPI_lineBlindTransfer"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

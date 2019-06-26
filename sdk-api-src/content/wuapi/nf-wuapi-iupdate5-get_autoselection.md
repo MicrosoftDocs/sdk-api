@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoSelection property, IUpdate5.AutoSelection, IUpdate5.get_AutoSelection, IUpdate5::AutoSelection, IUpdate5::get_AutoSelection, get_AutoSelection, wua.iupdate5_autoselection, wuapi/IUpdate5::AutoSelection, wuapi/IUpdate5::get_AutoSelection
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate5.AutoSelection"]
+f1_keywords: 
+ - "wuapi/IUpdate5.AutoSelection"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

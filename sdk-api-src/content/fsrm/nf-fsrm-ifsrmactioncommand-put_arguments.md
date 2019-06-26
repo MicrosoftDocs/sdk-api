@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Arguments property [File Server Resource Manager], Arguments property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Arguments property, IFsrmActionCommand.Arguments, IFsrmActionCommand.put_Arguments, IFsrmActionCommand::Arguments, IFsrmActionCommand::get_Arguments, IFsrmActionCommand::put_Arguments, fs.ifsrmactioncommand_arguments, fsrm.ifsrmactioncommand_arguments, fsrm/IFsrmActionCommand::Arguments, fsrm/IFsrmActionCommand::get_Arguments, fsrm/IFsrmActionCommand::put_Arguments, put_Arguments
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmActionCommand.Arguments"]
+f1_keywords: 
+ - "fsrm/IFsrmActionCommand.Arguments"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

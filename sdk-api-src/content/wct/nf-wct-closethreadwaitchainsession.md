@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession
 ms.topic: function
-f1_keywords: ["wct/CloseThreadWaitChainSession"]
+f1_keywords: 
+ - "wct/CloseThreadWaitChainSession"
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

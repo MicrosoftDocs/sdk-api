@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_SEGMENT_TYPE, XPS_SEGMENT_TYPE enumeration [XPS Documents and Packaging], XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_BEZIER, XPS_SEGMENT_TYPE_LINE, XPS_SEGMENT_TYPE_QUADRATIC_BEZIER, xps.xps_segment_type, xpsobjectmodel/XPS_SEGMENT_TYPE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_BEZIER, xpsobjectmodel/XPS_SEGMENT_TYPE_LINE, xpsobjectmodel/XPS_SEGMENT_TYPE_QUADRATIC_BEZIER
 ms.topic: enum
-f1_keywords: ["xpsobjectmodel/XPS_SEGMENT_TYPE"]
+f1_keywords: 
+ - "xpsobjectmodel/XPS_SEGMENT_TYPE"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 77c70c81-d458-7302-5a4e-9899aad1f456, GetPixelShader, GetPixelShader method [Direct3D 9], GetPixelShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShader method, IDirect3DDevice9.GetPixelShader, IDirect3DDevice9::GetPixelShader, d3d9helper/IDirect3DDevice9::GetPixelShader, direct3d9.idirect3ddevice9__getpixelshader
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.GetPixelShader"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.GetPixelShader"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

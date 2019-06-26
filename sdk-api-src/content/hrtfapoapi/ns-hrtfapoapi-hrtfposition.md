@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HrtfPosition, HrtfPosition structure [XAudio2 Audio Mixing APIs], PHrtfPosition, PHrtfPosition structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfPosition, hrtfapoapi/PHrtfPosition, xaudio2.hrtfposition
 ms.topic: struct
-f1_keywords: ["hrtfapoapi/HrtfPosition"]
+f1_keywords: 
+ - "hrtfapoapi/HrtfPosition"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

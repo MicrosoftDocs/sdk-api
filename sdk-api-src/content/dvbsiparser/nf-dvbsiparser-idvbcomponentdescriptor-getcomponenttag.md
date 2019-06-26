@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IDvbComponentDescriptor.GetComponentTag, IDvbComponentDescriptor::GetComponentTag, dvbsiparser/IDvbComponentDescriptor::GetComponentTag, mstv.idvbcomponentdescriptor_getcomponenttag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbComponentDescriptor.GetComponentTag"]
+f1_keywords: 
+ - "dvbsiparser/IDvbComponentDescriptor.GetComponentTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

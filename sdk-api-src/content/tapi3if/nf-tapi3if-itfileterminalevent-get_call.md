@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Call method, ITFileTerminalEvent.get_Call, ITFileTerminalEvent::get_Call, _tapi3_itfileterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_call, tapi3if/ITFileTerminalEvent::get_Call
 ms.topic: method
-f1_keywords: ["tapi3if/ITFileTerminalEvent.get_Call"]
+f1_keywords: 
+ - "tapi3if/ITFileTerminalEvent.get_Call"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

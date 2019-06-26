@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtendModeY, GetExtendModeY method [Direct2D], GetExtendModeY method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetExtendModeY method, ID2D1ImageBrush.GetExtendModeY, ID2D1ImageBrush::GetExtendModeY, d2d1_1/ID2D1ImageBrush::GetExtendModeY, direct2d.id2d1imagebrush_getextendmodey
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1ImageBrush.GetExtendModeY"]
+f1_keywords: 
+ - "d2d1_1/ID2D1ImageBrush.GetExtendModeY"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA structure [Display Devices], ddrawint/DD_DESTROYMOCOMPDATA, ddstrcts_1a3d548c-c0f7-4334-b0c6-b63c155d854c.xml, display.dd_destroymocompdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_DESTROYMOCOMPDATA"]
+f1_keywords: 
+ - "ddrawint/DD_DESTROYMOCOMPDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddResourceType, AddResourceType method [Remote Desktop Services], AddResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, AddResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],AddResourceType method, IWorkspaceResTypeRegistry.AddResourceType, IWorkspaceResTypeRegistry::AddResourceType, Workspace object [Remote Desktop Services],AddResourceType method, termserv.iworkspacerestyperegistry_addresourcetype, workspaceax/IWorkspaceResTypeRegistry::AddResourceType
 ms.topic: method
-f1_keywords: ["workspaceax/IWorkspaceResTypeRegistry.AddResourceType"]
+f1_keywords: 
+ - "workspaceax/IWorkspaceResTypeRegistry.AddResourceType"
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

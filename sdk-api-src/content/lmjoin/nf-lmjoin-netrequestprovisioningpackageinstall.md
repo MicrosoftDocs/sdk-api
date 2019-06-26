@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall
 ms.topic: function
-f1_keywords: ["lmjoin/NetRequestProvisioningPackageInstall"]
+f1_keywords: 
+ - "lmjoin/NetRequestProvisioningPackageInstall"
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

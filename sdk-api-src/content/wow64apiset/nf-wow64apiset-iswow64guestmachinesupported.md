@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
 ms.topic: function
-f1_keywords: ["wow64apiset/IsWow64GuestMachineSupported"]
+f1_keywords: 
+ - "wow64apiset/IsWow64GuestMachineSupported"
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Offline Files], GetPath method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetPath method, IOfflineFilesItem.GetPath, IOfflineFilesItem::GetPath, cscobj/IOfflineFilesItem::GetPath, of.iofflinefilesitem_getpath
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesItem.GetPath"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesItem.GetPath"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
 ms.topic: function
-f1_keywords: ["lmjoin/NetGetAadJoinInformation"]
+f1_keywords: 
+ - "lmjoin/NetGetAadJoinInformation"
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows

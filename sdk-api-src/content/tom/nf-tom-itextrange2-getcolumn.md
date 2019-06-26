@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [Windows Controls], GetColumn method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetColumn method, ITextRange2.GetColumn, ITextRange2::GetColumn, controls.itextrange2_getcolumn, tom/ITextRange2::GetColumn
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetColumn"]
+f1_keywords: 
+ - "tom/ITextRange2.GetColumn"
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

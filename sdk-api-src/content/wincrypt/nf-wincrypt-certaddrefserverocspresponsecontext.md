@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertAddRefServerOcspResponseContext, CertAddRefServerOcspResponseContext function [Security], security.certaddrefserverocspresponsecontext, wincrypt/CertAddRefServerOcspResponseContext
 ms.topic: function
-f1_keywords: ["wincrypt/CertAddRefServerOcspResponseContext"]
+f1_keywords: 
+ - "wincrypt/CertAddRefServerOcspResponseContext"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

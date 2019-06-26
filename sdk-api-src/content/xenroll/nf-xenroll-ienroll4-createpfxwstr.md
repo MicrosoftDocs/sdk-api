@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.createPFXWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.createPFXWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

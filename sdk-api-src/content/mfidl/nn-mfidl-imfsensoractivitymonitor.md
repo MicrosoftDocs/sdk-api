@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], IMFSensorActivityMonitor interface [Media Foundation],described, mf.imfsensoractivitymonitor, mfidl/IMFSensorActivityMonitor
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorActivityMonitor"]
+f1_keywords: 
+ - "mfidl/IMFSensorActivityMonitor"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

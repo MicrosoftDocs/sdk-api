@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordCentreFrequency, GetRecordCentreFrequency method [Microsoft TV Technologies], GetRecordCentreFrequency method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetRecordCentreFrequency method, IDvbFrequencyListDescriptor.GetRecordCentreFrequency, IDvbFrequencyListDescriptor::GetRecordCentreFrequency, IDvbFrequencyListDescriptorGetRecordCentreFrequency, dvbsiparser/IDvbFrequencyListDescriptor::GetRecordCentreFrequency, mstv.idvbfrequencylistdescriptor_getrecordcentrefrequency
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbFrequencyListDescriptor.GetRecordCentreFrequency"]
+f1_keywords: 
+ - "dvbsiparser/IDvbFrequencyListDescriptor.GetRecordCentreFrequency"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

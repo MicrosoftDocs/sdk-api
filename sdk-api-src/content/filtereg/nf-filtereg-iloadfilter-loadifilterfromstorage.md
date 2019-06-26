@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
 ms.topic: method
-f1_keywords: ["filtereg/ILoadFilter.LoadIFilterFromStorage"]
+f1_keywords: 
+ - "filtereg/ILoadFilter.LoadIFilterFromStorage"
 req.header: filtereg.h
 req.include-header: Filtereg.h
 req.target-type: Windows

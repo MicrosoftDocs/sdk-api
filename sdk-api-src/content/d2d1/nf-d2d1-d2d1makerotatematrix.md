@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d1/D2D1MakeRotateMatrix, direct2d.d2d1makerotatematrix
 ms.topic: function
-f1_keywords: ["d2d1/D2D1MakeRotateMatrix"]
+f1_keywords: 
+ - "d2d1/D2D1MakeRotateMatrix"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

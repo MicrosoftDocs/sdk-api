@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo
 ms.topic: struct
-f1_keywords: ["vmr9/VMR9AllocationInfo"]
+f1_keywords: 
+ - "vmr9/VMR9AllocationInfo"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

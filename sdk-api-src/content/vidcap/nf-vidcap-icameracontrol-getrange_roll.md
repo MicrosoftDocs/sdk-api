@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Roll method, ICameraControl.getRange_Roll, ICameraControl::getRange_Roll, ICameraControlgetRange_Roll, dshow.icameracontrol_getrange_roll, getRange_Roll, getRange_Roll method [DirectShow], getRange_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Roll
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.getRange_Roll"]
+f1_keywords: 
+ - "vidcap/ICameraControl.getRange_Roll"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

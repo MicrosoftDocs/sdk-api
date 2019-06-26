@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDecoderOutputView, ID3D11VideoDecoderOutputView interface [Media Foundation], ID3D11VideoDecoderOutputView interface [Media Foundation],described, d3d11/ID3D11VideoDecoderOutputView, mf.id3d11videodecoderoutputview
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11VideoDecoderOutputView"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoDecoderOutputView"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

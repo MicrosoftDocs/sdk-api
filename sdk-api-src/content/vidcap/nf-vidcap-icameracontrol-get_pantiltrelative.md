@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTiltRelative method, ICameraControl.get_PanTiltRelative, ICameraControl::get_PanTiltRelative, ICameraControlget_PanTiltRelative, dshow.icameracontrol_get_pantiltrelative, get_PanTiltRelative, get_PanTiltRelative method [DirectShow], get_PanTiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTiltRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_PanTiltRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_PanTiltRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
 ms.topic: function
-f1_keywords: ["netioapi/GetIpPathEntry"]
+f1_keywords: 
+ - "netioapi/GetIpPathEntry"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

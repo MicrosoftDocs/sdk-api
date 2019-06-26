@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowContext, GetWindowContext method [Windows Shell], GetWindowContext method [Windows Shell],IPreviewHandlerFrame interface, IPreviewHandlerFrame interface [Windows Shell],GetWindowContext method, IPreviewHandlerFrame.GetWindowContext, IPreviewHandlerFrame::GetWindowContext, _shell_IPreviewHandlerFrame_GetWindowContext, shell.IPreviewHandlerFrame_GetWindowContext, shobjidl_core/IPreviewHandlerFrame::GetWindowContext
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandlerFrame.GetWindowContext"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandlerFrame.GetWindowContext"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

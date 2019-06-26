@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXE_BA_CUSTOM, PXE_BA_IGNORE, PXE_BA_NBP, PXE_BA_REJECTED, PxeAsyncRecvDone, PxeAsyncRecvDone function [Windows Deployment Services], wds.pxeasyncrecvdone, wdspxe/PxeAsyncRecvDone
 ms.topic: function
-f1_keywords: ["wdspxe/PxeAsyncRecvDone"]
+f1_keywords: 
+ - "wdspxe/PxeAsyncRecvDone"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

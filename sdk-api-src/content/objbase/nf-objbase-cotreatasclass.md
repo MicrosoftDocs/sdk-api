@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoTreatAsClass, CoTreatAsClass function [COM], _com_CoTreatAsClass, com.cotreatasclass, objbase/CoTreatAsClass
 ms.topic: function
-f1_keywords: ["objbase/CoTreatAsClass"]
+f1_keywords: 
+ - "objbase/CoTreatAsClass"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

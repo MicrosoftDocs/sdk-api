@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndMonitor, EndMonitor method [Structured Storage], EndMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],EndMonitor method, ILayoutStorage.EndMonitor, ILayoutStorage::EndMonitor, _stg_ilayoutstorage_endmonitor, objidl/ILayoutStorage::EndMonitor, stg.ilayoutstorage_endmonitor
 ms.topic: method
-f1_keywords: ["objidl/ILayoutStorage.EndMonitor"]
+f1_keywords: 
+ - "objidl/ILayoutStorage.EndMonitor"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetDateTime method, CInstance.GetDateTime, CInstance::GetDateTime, GetDateTime, GetDateTime method [Windows Management Instrumentation], GetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdatetime, instance/CInstance::GetDateTime, wmi.cinstance_getdatetime
 ms.topic: method
-f1_keywords: ["instance/CInstance.GetDateTime"]
+f1_keywords: 
+ - "instance/CInstance.GetDateTime"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

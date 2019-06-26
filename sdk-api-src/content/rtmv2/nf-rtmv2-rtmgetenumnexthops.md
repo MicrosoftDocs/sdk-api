@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetEnumNextHops, RtmGetEnumNextHops function [RAS], _rtmv2ref_rtmgetenumnexthops, rras.rtmgetenumnexthops, rtmv2/RtmGetEnumNextHops
 ms.topic: function
-f1_keywords: ["rtmv2/RtmGetEnumNextHops"]
+f1_keywords: 
+ - "rtmv2/RtmGetEnumNextHops"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

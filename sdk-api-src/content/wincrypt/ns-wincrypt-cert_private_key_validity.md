@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY structure [Security], PCERT_PRIVATE_KEY_VALIDITY, PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security], _crypto2_cert_private_key_validity, security.cert_private_key_validity, wincrypt/CERT_PRIVATE_KEY_VALIDITY, wincrypt/PCERT_PRIVATE_KEY_VALIDITY"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_PRIVATE_KEY_VALIDITY"]
+f1_keywords: 
+ - "wincrypt/CERT_PRIVATE_KEY_VALIDITY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

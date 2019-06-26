@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/IWMCodecStrings::GetDescription
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMCodecStrings.GetDescription"]
+f1_keywords: 
+ - "wmcodecdsp/IWMCodecStrings.GetDescription"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

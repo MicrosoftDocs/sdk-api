@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger structure [Winsock], winsock.linger_2, winsock/linger"
 ms.topic: struct
-f1_keywords: ["winsock2/linger"]
+f1_keywords: 
+ - "winsock2/linger"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithFolderEnumMode, IObjectWithFolderEnumMode interface [Windows Shell], IObjectWithFolderEnumMode interface [Windows Shell],described, _shell_IObjectWithFolderEnumMode, shell.IObjectWithFolderEnumMode, shobjidl_core/IObjectWithFolderEnumMode
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IObjectWithFolderEnumMode"]
+f1_keywords: 
+ - "shobjidl_core/IObjectWithFolderEnumMode"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

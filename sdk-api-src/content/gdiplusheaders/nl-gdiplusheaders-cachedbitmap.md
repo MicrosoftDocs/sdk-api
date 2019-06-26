@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedBitmap, CachedBitmap class [GDI+], CachedBitmap class [GDI+],described, _gdiplus_CLASS_CachedBitmap_Class, gdiplus._gdiplus_CLASS_CachedBitmap_Class, gdiplusheaders/CachedBitmap
 ms.topic: class
-f1_keywords: ["gdiplusheaders/CachedBitmap"]
+f1_keywords: 
+ - "gdiplusheaders/CachedBitmap"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerTimestampHook interface [windows Media Format],MapTimestamp method, IWMPlayerTimestampHook.MapTimestamp, IWMPlayerTimestampHook::MapTimestamp, IWMPlayerTimestampHookMapTimestamp, MapTimestamp, MapTimestamp method [windows Media Format], MapTimestamp method [windows Media Format],IWMPlayerTimestampHook interface, wmdxva/IWMPlayerTimestampHook::MapTimestamp, wmformat.iwmplayertimestamphook_maptimestamp
 ms.topic: method
-f1_keywords: ["wmdxva/IWMPlayerTimestampHook.MapTimestamp"]
+f1_keywords: 
+ - "wmdxva/IWMPlayerTimestampHook.MapTimestamp"
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

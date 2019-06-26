@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlImportPublicKey"]
+f1_keywords: 
+ - "cryptxml/CryptXmlImportPublicKey"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

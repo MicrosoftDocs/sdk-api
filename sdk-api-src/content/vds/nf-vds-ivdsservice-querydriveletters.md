@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryDriveLetters method, IVdsService.QueryDriveLetters, IVdsService::QueryDriveLetters, QueryDriveLetters, QueryDriveLetters method [VDS], QueryDriveLetters method [VDS],IVdsService interface, base.ivdsservice_querydriveletters, vds/IVdsService::QueryDriveLetters
 ms.topic: method
-f1_keywords: ["vds/IVdsService.QueryDriveLetters"]
+f1_keywords: 
+ - "vds/IVdsService.QueryDriveLetters"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

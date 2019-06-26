@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization interface [Tablet PC],ReleaseLock method, IRealTimeStylusSynchronization.ReleaseLock, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC],IRealTimeStylusSynchronization interface, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
 ms.topic: method
-f1_keywords: ["rtscom/IRealTimeStylusSynchronization.ReleaseLock"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylusSynchronization.ReleaseLock"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

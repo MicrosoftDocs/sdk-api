@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRootCauseInfo, RCF_ISCONFIRMED, RCF_ISLEAF, RCF_ISTHIRDPARTY, RootCauseInfo, RootCauseInfo structure [NDF], ndattrib/RootCauseInfo, ndf.rootcauseinfo"
 ms.topic: struct
-f1_keywords: ["ndattrib/RootCauseInfo"]
+f1_keywords: 
+ - "ndattrib/RootCauseInfo"
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

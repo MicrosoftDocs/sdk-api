@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionInverse, XMQuaternionInverse, XMQuaternionInverse method [DirectX Math Support APIs], dxmath.xmquaternioninverse
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionInverse"]
+f1_keywords: 
+ - "directxmath/XMQuaternionInverse"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

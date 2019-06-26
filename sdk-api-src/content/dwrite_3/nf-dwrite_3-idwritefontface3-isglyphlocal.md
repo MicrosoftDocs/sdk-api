@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsGlyphLocal method, IDWriteFontFace3.IsGlyphLocal, IDWriteFontFace3::IsGlyphLocal, IsGlyphLocal, IsGlyphLocal method [Direct Write], IsGlyphLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_isglyphlocal, dwrite_3/IDWriteFontFace3::IsGlyphLocal
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.IsGlyphLocal"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.IsGlyphLocal"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

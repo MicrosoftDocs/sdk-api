@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentControllerFor property [Windows Accessibility], CurrentControllerFor property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentControllerFor property, IUIAutomationElement.CurrentControllerFor, IUIAutomationElement.get_CurrentControllerFor, IUIAutomationElement::CurrentControllerFor, IUIAutomationElement::get_CurrentControllerFor, get_CurrentControllerFor, uiauto.uiauto_IUIAutomationElement_CurrentControllerFor, uiauto_IUIAutomationElement_CurrentControllerFor, uiautomationclient/IUIAutomationElement::CurrentControllerFor, uiautomationclient/IUIAutomationElement::get_CurrentControllerFor, winauto.uiauto_IUIAutomationElement_CurrentControllerFor
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentControllerFor"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentControllerFor"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

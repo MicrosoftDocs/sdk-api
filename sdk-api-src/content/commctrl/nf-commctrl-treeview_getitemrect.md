@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetItemRect, TreeView_GetItemRect macro [Windows Controls], _win32_TreeView_GetItemRect, _win32_TreeView_GetItemRect_cpp, commctrl/TreeView_GetItemRect, controls.TreeView_GetItemRect, controls._win32_TreeView_GetItemRect
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetItemRect"]
+f1_keywords: 
+ - "commctrl/TreeView_GetItemRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

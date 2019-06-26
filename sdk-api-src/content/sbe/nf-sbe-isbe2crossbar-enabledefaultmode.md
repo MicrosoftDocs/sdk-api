@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableDefaultMode, EnableDefaultMode method [Microsoft TV Technologies], EnableDefaultMode method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnableDefaultMode method, ISBE2Crossbar.EnableDefaultMode, ISBE2Crossbar::EnableDefaultMode, mstv.isbe2crossbar_enabledefaultmode, sbe/ISBE2Crossbar::EnableDefaultMode
 ms.topic: method
-f1_keywords: ["sbe/ISBE2Crossbar.EnableDefaultMode"]
+f1_keywords: 
+ - "sbe/ISBE2Crossbar.EnableDefaultMode"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

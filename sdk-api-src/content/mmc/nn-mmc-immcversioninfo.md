@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
 ms.topic: interface
-f1_keywords: ["mmc/IMMCVersionInfo"]
+f1_keywords: 
+ - "mmc/IMMCVersionInfo"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

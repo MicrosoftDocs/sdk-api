@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InvertRect, InvertRect function [Windows GDI], _win32_InvertRect, gdi.invertrect, winuser/InvertRect
 ms.topic: function
-f1_keywords: ["winuser/InvertRect"]
+f1_keywords: 
+ - "winuser/InvertRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

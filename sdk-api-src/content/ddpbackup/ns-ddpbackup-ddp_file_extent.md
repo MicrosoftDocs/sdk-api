@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API], PDDP_FILE_EXTENT, PDDP_FILE_EXTENT structure pointer [Data Deduplication API], ddpbackup/DDP_FILE_EXTENT, ddpbackup/PDDP_FILE_EXTENT, dedup.ddp_file_extent
 ms.topic: struct
-f1_keywords: ["ddpbackup/DDP_FILE_EXTENT"]
+f1_keywords: 
+ - "ddpbackup/DDP_FILE_EXTENT"
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

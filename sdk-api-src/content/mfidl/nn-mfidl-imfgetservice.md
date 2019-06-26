@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 102a1dff-8419-4f86-a145-53ce3d0123f5, IMFGetService, IMFGetService interface [Media Foundation], IMFGetService interface [Media Foundation],described, mf.imfgetservice, mfidl/IMFGetService
 ms.topic: interface
-f1_keywords: ["mfidl/IMFGetService"]
+f1_keywords: 
+ - "mfidl/IMFGetService"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

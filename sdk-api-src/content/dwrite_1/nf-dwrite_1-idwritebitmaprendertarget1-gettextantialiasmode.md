@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextAntialiasMode, GetTextAntialiasMode method [Direct Write], GetTextAntialiasMode method [Direct Write],IDWriteBitmapRenderTarget1 interface, IDWriteBitmapRenderTarget1 interface [Direct Write],GetTextAntialiasMode method, IDWriteBitmapRenderTarget1.GetTextAntialiasMode, IDWriteBitmapRenderTarget1::GetTextAntialiasMode, directwrite.idwritebitmaprendertarget1_gettextantialiasmode, dwrite_1/IDWriteBitmapRenderTarget1::GetTextAntialiasMode
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteBitmapRenderTarget1.GetTextAntialiasMode"]
+f1_keywords: 
+ - "dwrite_1/IDWriteBitmapRenderTarget1.GetTextAntialiasMode"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

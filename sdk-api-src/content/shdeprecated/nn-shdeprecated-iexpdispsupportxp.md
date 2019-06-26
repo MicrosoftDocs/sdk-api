@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IExpDispSupportXP interface [Windows Shell],described, _shell_IExpDispSupportXP, shdeprecated/IExpDispSupportXP, shell.IExpDispSupportXP
 ms.topic: interface
-f1_keywords: ["shdeprecated/IExpDispSupportXP"]
+f1_keywords: 
+ - "shdeprecated/IExpDispSupportXP"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

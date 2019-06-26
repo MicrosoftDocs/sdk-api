@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
 ms.topic: function
-f1_keywords: ["winbase/SetFirmwareEnvironmentVariableEx"]
+f1_keywords: 
+ - "winbase/SetFirmwareEnvironmentVariableEx"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

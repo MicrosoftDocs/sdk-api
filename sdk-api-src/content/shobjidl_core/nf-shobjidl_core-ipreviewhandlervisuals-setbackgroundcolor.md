@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetBackgroundColor method, IPreviewHandlerVisuals.SetBackgroundColor, IPreviewHandlerVisuals::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetBackgroundColor, shell.IPreviewHandlerVisuals_SetBackgroundColor, shobjidl_core/IPreviewHandlerVisuals::SetBackgroundColor
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandlerVisuals.SetBackgroundColor"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandlerVisuals.SetBackgroundColor"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

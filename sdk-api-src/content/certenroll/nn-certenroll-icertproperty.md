@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty
 ms.topic: interface
-f1_keywords: ["certenroll/ICertProperty"]
+f1_keywords: 
+ - "certenroll/ICertProperty"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

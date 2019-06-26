@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IModalWindow, IModalWindow interface [Windows Shell], IModalWindow interface [Windows Shell],described, _win32_IModalWindow, shell.IModalWindow, shobjidl_core/IModalWindow
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IModalWindow"]
+f1_keywords: 
+ - "shobjidl_core/IModalWindow"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

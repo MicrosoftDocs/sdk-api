@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],put_CCSubstreamService method, IXDSCodec.put_CCSubstreamService, IXDSCodec::put_CCSubstreamService, IXDSCodecput_CCSubstreamService, encdec/IXDSCodec::put_CCSubstreamService, mstv.ixdscodec_put_ccsubstreamservice, put_CCSubstreamService, put_CCSubstreamService method [Microsoft TV Technologies], put_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface
 ms.topic: method
-f1_keywords: ["encdec/IXDSCodec.put_CCSubstreamService"]
+f1_keywords: 
+ - "encdec/IXDSCodec.put_CCSubstreamService"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

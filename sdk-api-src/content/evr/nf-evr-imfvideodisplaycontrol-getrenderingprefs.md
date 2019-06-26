@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderingPrefs method [Media Foundation], GetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetRenderingPrefs method, IMFVideoDisplayControl.GetRenderingPrefs, IMFVideoDisplayControl::GetRenderingPrefs, evr/IMFVideoDisplayControl::GetRenderingPrefs, mf.imfvideodisplaycontrol_getrenderingprefs
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.GetRenderingPrefs"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.GetRenderingPrefs"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

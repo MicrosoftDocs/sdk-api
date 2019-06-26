@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
 ms.topic: interface
-f1_keywords: ["propidl/IPropertySetStorage"]
+f1_keywords: 
+ - "propidl/IPropertySetStorage"
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows

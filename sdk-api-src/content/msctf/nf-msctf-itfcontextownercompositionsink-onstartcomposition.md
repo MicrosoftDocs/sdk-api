@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnStartComposition method, ITfContextOwnerCompositionSink.OnStartComposition, ITfContextOwnerCompositionSink::OnStartComposition, OnStartComposition, OnStartComposition method [Text Services Framework], OnStartComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onstartcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnStartComposition, tsf.itfcontextownercompositionsink_onstartcomposition
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwnerCompositionSink.OnStartComposition"]
+f1_keywords: 
+ - "msctf/ITfContextOwnerCompositionSink.OnStartComposition"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

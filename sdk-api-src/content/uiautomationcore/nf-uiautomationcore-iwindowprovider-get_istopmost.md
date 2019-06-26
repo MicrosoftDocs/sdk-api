@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],IsTopmost property, IWindowProvider.IsTopmost, IWindowProvider.get_IsTopmost, IWindowProvider::IsTopmost, IWindowProvider::get_IsTopmost, IsTopmost property [Windows Accessibility], IsTopmost property [Windows Accessibility],IWindowProvider interface, get_IsTopmost, uiauto.uiauto_IWindowProvider_IsTopmost, uiauto_IWindowProvider_IsTopmost, uiautomationcore/IWindowProvider::IsTopmost, uiautomationcore/IWindowProvider::get_IsTopmost, winauto.uiauto_IWindowProvider_IsTopmost
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.IsTopmost"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.IsTopmost"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

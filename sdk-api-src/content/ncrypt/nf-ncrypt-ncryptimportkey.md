@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptImportKey"]
+f1_keywords: 
+ - "ncrypt/NCryptImportKey"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

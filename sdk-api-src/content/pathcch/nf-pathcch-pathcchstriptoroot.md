@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchStripToRoot, PathCchStripToRoot function [Windows Shell], pathcch/PathCchStripToRoot, shell.PathCchStripToRoot
 ms.topic: function
-f1_keywords: ["pathcch/PathCchStripToRoot"]
+f1_keywords: 
+ - "pathcch/PathCchStripToRoot"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

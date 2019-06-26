@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],UserId property, ISessionStateChangeTrigger.UserId, ISessionStateChangeTrigger.get_UserId, ISessionStateChangeTrigger::UserId, ISessionStateChangeTrigger::get_UserId, ISessionStateChangeTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ISessionStateChangeTrigger interface, get_UserId, taskschd.isessionstatechangetrigger_userid, taskschd/ISessionStateChangeTrigger::UserId, taskschd/ISessionStateChangeTrigger::get_UserId, taskschd/ISessionStateChangeTrigger::put_UserId
 ms.topic: method
-f1_keywords: ["taskschd/ISessionStateChangeTrigger.UserId"]
+f1_keywords: 
+ - "taskschd/ISessionStateChangeTrigger.UserId"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

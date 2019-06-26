@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanRegisterVirtualStationNotification, WlanRegisterVirtualStationNotification function [NativeWIFI], nwifi.wlanregistervirtualstationnotification, wlanapi/WlanRegisterVirtualStationNotification
 ms.topic: function
-f1_keywords: ["wlanapi/WlanRegisterVirtualStationNotification"]
+f1_keywords: 
+ - "wlanapi/WlanRegisterVirtualStationNotification"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

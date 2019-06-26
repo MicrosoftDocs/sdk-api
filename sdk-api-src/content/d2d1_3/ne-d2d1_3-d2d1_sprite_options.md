@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SPRITE_OPTIONS, D2D1_SPRITE_OPTIONS enumeration [Direct2D], D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, D2D1_SPRITE_OPTIONS_NONE, d2d1_3/D2D1_SPRITE_OPTIONS, d2d1_3/D2D1_SPRITE_OPTIONS_CLAMP_TO_SOURCE_RECTANGLE, d2d1_3/D2D1_SPRITE_OPTIONS_NONE, direct2d.d2d1_sprite_options
 ms.topic: enum
-f1_keywords: ["d2d1_3/D2D1_SPRITE_OPTIONS"]
+f1_keywords: 
+ - "d2d1_3/D2D1_SPRITE_OPTIONS"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

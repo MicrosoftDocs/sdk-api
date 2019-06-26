@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], IWMPPlaylistCollection interface [Windows Media Player],described, IWMPPlaylistCollectionInterface, wmp.iwmpplaylistcollection, wmp/IWMPPlaylistCollection
 ms.topic: interface
-f1_keywords: ["wmp/IWMPPlaylistCollection"]
+f1_keywords: 
+ - "wmp/IWMPPlaylistCollection"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

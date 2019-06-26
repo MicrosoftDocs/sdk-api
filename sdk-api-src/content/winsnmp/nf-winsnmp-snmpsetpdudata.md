@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudata, snmp.snmpsetpdudata, winsnmp/SnmpSetPduData
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpSetPduData"]
+f1_keywords: 
+ - "winsnmp/SnmpSetPduData"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

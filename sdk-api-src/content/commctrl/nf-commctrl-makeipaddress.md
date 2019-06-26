@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 ms.topic: macro
-f1_keywords: ["commctrl/MAKEIPADDRESS"]
+f1_keywords: 
+ - "commctrl/MAKEIPADDRESS"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

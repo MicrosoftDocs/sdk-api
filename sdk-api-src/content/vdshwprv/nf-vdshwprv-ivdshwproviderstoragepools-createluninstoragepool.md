@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInStoragePool method,IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,CreateLunInStoragePool method, IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsHwProviderStoragePools.CreateLunInStoragePool"]
+f1_keywords: 
+ - "vdshwprv/IVdsHwProviderStoragePools.CreateLunInStoragePool"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

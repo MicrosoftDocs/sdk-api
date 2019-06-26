@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMenu, ITfMenu interface [Text Services Framework], ITfMenu interface [Text Services Framework],described, _tsf_itfmenu_ref, ctfutb/ITfMenu, tsf.itfmenu
 ms.topic: interface
-f1_keywords: ["ctfutb/ITfMenu"]
+f1_keywords: 
+ - "ctfutb/ITfMenu"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

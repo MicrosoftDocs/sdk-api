@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportISNSServerListW, ReportIsnsServerList, ReportIsnsServerList function [iSCSI Discovery Library API], ReportIsnsServerListA, ReportIsnsServerListW, iscsidisc.reportisnsserverlist, iscsidsc/ReportIsnsServerList, iscsidsc/ReportIsnsServerListA, iscsidsc/ReportIsnsServerListW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportIsnsServerList"]
+f1_keywords: 
+ - "iscsidsc/ReportIsnsServerList"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

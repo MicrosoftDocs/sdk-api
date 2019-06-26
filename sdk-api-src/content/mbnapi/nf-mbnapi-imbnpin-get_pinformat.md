@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinFormat property, IMbnPin.PinFormat, IMbnPin.get_PinFormat, IMbnPin::PinFormat, IMbnPin::get_PinFormat, PinFormat property [Microsoft Broadband Networks], PinFormat property [Microsoft Broadband Networks],IMbnPin interface, get_PinFormat, mbn.imbnpin_pinformat, mbnapi/IMbnPin::PinFormat, mbnapi/IMbnPin::get_PinFormat
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.PinFormat"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.PinFormat"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

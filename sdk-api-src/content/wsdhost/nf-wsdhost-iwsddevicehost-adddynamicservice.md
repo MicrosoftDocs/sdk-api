@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDynamicService, AddDynamicService method, AddDynamicService method,IWSDDeviceHost interface, IWSDDeviceHost interface,AddDynamicService method, IWSDDeviceHost.AddDynamicService, IWSDDeviceHost::AddDynamicService, ncd.iwsddevicehost_adddynamicservice_method, wsdhost/IWSDDeviceHost::AddDynamicService
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDDeviceHost.AddDynamicService"]
+f1_keywords: 
+ - "wsdhost/IWSDDeviceHost.AddDynamicService"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

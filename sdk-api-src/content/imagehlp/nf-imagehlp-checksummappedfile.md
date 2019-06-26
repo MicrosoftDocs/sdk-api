@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckSumMappedFile, CheckSumMappedFile function, _win32_checksummappedfile, base.checksummappedfile, imagehlp/CheckSumMappedFile
 ms.topic: function
-f1_keywords: ["imagehlp/CheckSumMappedFile"]
+f1_keywords: 
+ - "imagehlp/CheckSumMappedFile"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, REMEDIATIONSERVERSPROPERTIES, REMEDIATIONSERVERSPROPERTIES enumeration [Network Policy Server], nps.SDO_remediationserversproperties, sdo.remediationserversproperties, sdoias/PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, sdoias/REMEDIATIONSERVERSPROPERTIES
 ms.topic: enum
-f1_keywords: ["sdoias/REMEDIATIONSERVERSPROPERTIES"]
+f1_keywords: 
+ - "sdoias/REMEDIATIONSERVERSPROPERTIES"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

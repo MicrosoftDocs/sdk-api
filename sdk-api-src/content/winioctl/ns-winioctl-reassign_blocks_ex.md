@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Files], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Files], base.reassign_blocks_ex, fs.reassign_blocks_ex, winioctl/PREASSIGN_BLOCKS_EX, winioctl/REASSIGN_BLOCKS_EX"
 ms.topic: struct
-f1_keywords: ["winioctl/REASSIGN_BLOCKS_EX"]
+f1_keywords: 
+ - "winioctl/REASSIGN_BLOCKS_EX"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

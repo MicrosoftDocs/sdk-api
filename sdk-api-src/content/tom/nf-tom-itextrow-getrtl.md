@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRTL, GetRTL method [Windows Controls], GetRTL method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetRTL method, ITextRow.GetRTL, ITextRow::GetRTL, controls.itextrow_getrtl, tom/ITextRow::GetRTL
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetRTL"]
+f1_keywords: 
+ - "tom/ITextRow.GetRTL"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

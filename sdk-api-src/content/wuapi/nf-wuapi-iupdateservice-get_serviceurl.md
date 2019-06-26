@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],ServiceUrl property, IUpdateService.ServiceUrl, IUpdateService.get_ServiceUrl, IUpdateService::ServiceUrl, IUpdateService::get_ServiceUrl, ServiceUrl property [Windows Update Agent], ServiceUrl property [Windows Update Agent],IUpdateService interface, get_ServiceUrl, wua.iupdateservice_serviceurl, wuapi/IUpdateService::ServiceUrl, wuapi/IUpdateService::get_ServiceUrl
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateService.ServiceUrl"]
+f1_keywords: 
+ - "wuapi/IUpdateService.ServiceUrl"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

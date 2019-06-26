@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.get_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, get_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.HashAlgorithm"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.HashAlgorithm"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

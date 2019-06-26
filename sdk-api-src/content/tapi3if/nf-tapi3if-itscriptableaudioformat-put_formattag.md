@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_FormatTag method, ITScriptableAudioFormat.put_FormatTag, ITScriptableAudioFormat::put_FormatTag, _tapi3_itscriptableaudioformat_put_formattag, put_FormatTag, put_FormatTag method [TAPI 2.2], put_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_formattag, tapi3if/ITScriptableAudioFormat::put_FormatTag
 ms.topic: method
-f1_keywords: ["tapi3if/ITScriptableAudioFormat.put_FormatTag"]
+f1_keywords: 
+ - "tapi3if/ITScriptableAudioFormat.put_FormatTag"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

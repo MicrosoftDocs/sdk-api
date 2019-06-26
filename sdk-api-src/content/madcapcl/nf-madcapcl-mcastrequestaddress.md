@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
 ms.topic: function
-f1_keywords: ["madcapcl/McastRequestAddress"]
+f1_keywords: 
+ - "madcapcl/McastRequestAddress"
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

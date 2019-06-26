@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security],described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
 ms.topic: interface
-f1_keywords: ["azroles/IAzApplicationGroup2"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup2"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

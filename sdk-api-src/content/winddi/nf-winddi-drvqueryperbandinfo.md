@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryPerBandInfo, DrvQueryPerBandInfo function [Display Devices], ddifncs_8a5e262c-23e5-4e49-bd36-6674efe7090f.xml, display.drvqueryperbandinfo, winddi/DrvQueryPerBandInfo
 ms.topic: function
-f1_keywords: ["winddi/DrvQueryPerBandInfo"]
+f1_keywords: 
+ - "winddi/DrvQueryPerBandInfo"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

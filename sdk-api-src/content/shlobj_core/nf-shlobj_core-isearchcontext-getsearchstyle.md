@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSearchStyle, GetSearchStyle method [Windows Shell], GetSearchStyle method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchStyle method, ISearchContext.GetSearchStyle, ISearchContext::GetSearchStyle, _shell_ISearchContext_GetSearchStyle, shell.ISearchContext_GetSearchStyle, shlobj_core/ISearchContext::GetSearchStyle
 ms.topic: method
-f1_keywords: ["shlobj_core/ISearchContext.GetSearchStyle"]
+f1_keywords: 
+ - "shlobj_core/ISearchContext.GetSearchStyle"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

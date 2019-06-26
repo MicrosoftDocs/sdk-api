@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetEnhancedKeyUsage"]
+f1_keywords: 
+ - "wincrypt/CertGetEnhancedKeyUsage"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

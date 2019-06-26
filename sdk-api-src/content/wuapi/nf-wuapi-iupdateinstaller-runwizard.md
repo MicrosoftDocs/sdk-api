@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method, IUpdateInstaller.RunWizard, IUpdateInstaller::RunWizard, RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.RunWizard"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.RunWizard"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

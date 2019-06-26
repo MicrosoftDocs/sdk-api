@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],_NewEnum property, IUpdateCollection._NewEnum, IUpdateCollection.get__NewEnum, IUpdateCollection::_NewEnum, IUpdateCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateCollection interface, get__NewEnum, wua.iupdatecollection__newenum, wuapi/IUpdateCollection::_NewEnum, wuapi/IUpdateCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateCollection._NewEnum"]
+f1_keywords: 
+ - "wuapi/IUpdateCollection._NewEnum"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

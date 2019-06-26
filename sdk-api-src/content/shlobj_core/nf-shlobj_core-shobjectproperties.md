@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHOP_FILEPATH, SHOP_PRINTERNAME, SHOP_VOLUMEGUID, SHObjectProperties, SHObjectProperties function [Windows Shell], _win32_SHObjectProperties, shell.SHObjectProperties, shlobj_core/SHObjectProperties
 ms.topic: function
-f1_keywords: ["shlobj_core/SHObjectProperties"]
+f1_keywords: 
+ - "shlobj_core/SHObjectProperties"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

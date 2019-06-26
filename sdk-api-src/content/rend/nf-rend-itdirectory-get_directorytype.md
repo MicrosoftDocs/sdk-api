@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirectory.get_DirectoryType, ITDirectory::get_DirectoryType, _tapi3_itdirectory_get_directorytype, get_DirectoryType, get_DirectoryType method [TAPI 2.2], get_DirectoryType method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryType, tapi3.itdirectory_get_directorytype
 ms.topic: method
-f1_keywords: ["rend/ITDirectory.get_DirectoryType"]
+f1_keywords: 
+ - "rend/ITDirectory.get_DirectoryType"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

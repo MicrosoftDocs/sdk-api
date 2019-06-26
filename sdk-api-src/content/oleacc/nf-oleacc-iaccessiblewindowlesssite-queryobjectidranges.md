@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],QueryObjectIdRanges method, IAccessibleWindowlessSite.QueryObjectIdRanges, IAccessibleWindowlessSite::QueryObjectIdRanges, QueryObjectIdRanges, QueryObjectIdRanges method [Windows Accessibility], QueryObjectIdRanges method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges, winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges
 ms.topic: method
-f1_keywords: ["oleacc/IAccessibleWindowlessSite.QueryObjectIdRanges"]
+f1_keywords: 
+ - "oleacc/IAccessibleWindowlessSite.QueryObjectIdRanges"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

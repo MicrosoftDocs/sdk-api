@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreU555, XMStoreU555, XMStoreU555 method [DirectX Math Support APIs], dxmath.xmstoreu555
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMStoreU555"]
+f1_keywords: 
+ - "directxpackedvector/XMStoreU555"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], IComCRMEvents interface [COM+],described, _dtc_icomcrmevents, comsvcs/IComCRMEvents, cos.icomcrmevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IComCRMEvents"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

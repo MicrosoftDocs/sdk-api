@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetToneCurve, GetToneCurve method [Windows Imaging Component], GetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetToneCurve method, IWICDevelopRaw.GetToneCurve, IWICDevelopRaw::GetToneCurve, _wic_codec_iwicdevelopraw_gettonecurve, wic._wic_codec_iwicdevelopraw_gettonecurve, wincodec/IWICDevelopRaw::GetToneCurve
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetToneCurve"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetToneCurve"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

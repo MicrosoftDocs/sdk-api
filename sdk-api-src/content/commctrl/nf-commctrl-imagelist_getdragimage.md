@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetDragImage, ImageList_GetDragImage function [Windows Controls], _win32_ImageList_GetDragImage, _win32_ImageList_GetDragImage_cpp, commctrl/ImageList_GetDragImage, controls.ImageList_GetDragImage, controls._win32_ImageList_GetDragImage
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_GetDragImage"]
+f1_keywords: 
+ - "commctrl/ImageList_GetDragImage"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

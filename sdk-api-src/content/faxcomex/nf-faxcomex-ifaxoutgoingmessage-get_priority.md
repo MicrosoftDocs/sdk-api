@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Priority property, IFaxOutgoingMessage.Priority, IFaxOutgoingMessage.get_Priority, IFaxOutgoingMessage::Priority, IFaxOutgoingMessage::get_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.priority, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_priority_cpp, fax._mfax_faxoutgoingmessage_priority, faxcomex/IFaxOutgoingMessage::Priority, faxcomex/IFaxOutgoingMessage::get_Priority, get_Priority
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingMessage.Priority"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingMessage.Priority"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

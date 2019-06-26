@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ElementFromIAccessible, ElementFromIAccessible method [Windows Accessibility], ElementFromIAccessible method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessible method, IUIAutomation.ElementFromIAccessible, IUIAutomation::ElementFromIAccessible, uiauto.uiauto_IUIAutomation_ElementFromIAccessible, uiauto_IUIAutomation_ElementFromIAccessible, uiautomationclient/IUIAutomation::ElementFromIAccessible, winauto.uiauto_IUIAutomation_ElementFromIAccessible
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.ElementFromIAccessible"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.ElementFromIAccessible"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Windows], webservices/WsGetCustomHeader, wsw.wsgetcustomheader
 ms.topic: function
-f1_keywords: ["webservices/WsGetCustomHeader"]
+f1_keywords: 
+ - "webservices/WsGetCustomHeader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

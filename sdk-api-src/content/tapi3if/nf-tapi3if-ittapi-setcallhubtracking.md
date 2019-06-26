@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetCallHubTracking method, ITTAPI.SetCallHubTracking, ITTAPI::SetCallHubTracking, SetCallHubTracking, SetCallHubTracking method [TAPI 2.2], SetCallHubTracking method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setcallhubtracking, tapi3.ittapi_setcallhubtracking, tapi3if/ITTAPI::SetCallHubTracking
 ms.topic: method
-f1_keywords: ["tapi3if/ITTAPI.SetCallHubTracking"]
+f1_keywords: 
+ - "tapi3if/ITTAPI.SetCallHubTracking"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

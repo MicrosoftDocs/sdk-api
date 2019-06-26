@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
 ms.topic: method
-f1_keywords: ["mediaobj/IDMOQualityControl.SetNow"]
+f1_keywords: 
+ - "mediaobj/IDMOQualityControl.SetNow"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

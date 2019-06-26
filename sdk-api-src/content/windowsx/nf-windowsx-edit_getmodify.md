@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edit_GetModify, _win32_Edit_GetModify_cpp, controls.Edit_GetModify, controls._win32_Edit_GetModify, windowsx/Edit_GetModify
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_GetModify"]
+f1_keywords: 
+ - "windowsx/Edit_GetModify"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(float), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionShadowEffect.SetAlpha"]
+f1_keywords: 
+ - "dcomp/IDCompositionShadowEffect.SetAlpha"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

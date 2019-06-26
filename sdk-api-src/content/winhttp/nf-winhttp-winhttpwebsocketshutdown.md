@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpWebSocketShutdown"]
+f1_keywords: 
+ - "winhttp/WinHttpWebSocketShutdown"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetTransportStreamId method, IPAT.GetTransportStreamId, IPAT::GetTransportStreamId, IPATGetTransportStreamId, mpeg2psiparser/IPAT::GetTransportStreamId, mstv.ipat_gettransportstreamid
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPAT.GetTransportStreamId"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT.GetTransportStreamId"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPC_COMPRESSION_FAST, OPC_COMPRESSION_MAXIMUM, OPC_COMPRESSION_NONE, OPC_COMPRESSION_NORMAL, OPC_COMPRESSION_OPTIONS, OPC_COMPRESSION_OPTIONS enumeration [Open Packaging Conventions], OPC_COMPRESSION_SUPERFAST, msopc/OPC_COMPRESSION_FAST, msopc/OPC_COMPRESSION_MAXIMUM, msopc/OPC_COMPRESSION_NONE, msopc/OPC_COMPRESSION_NORMAL, msopc/OPC_COMPRESSION_OPTIONS, msopc/OPC_COMPRESSION_SUPERFAST, opc.opc_compression_options
 ms.topic: enum
-f1_keywords: ["msopc/OPC_COMPRESSION_OPTIONS"]
+f1_keywords: 
+ - "msopc/OPC_COMPRESSION_OPTIONS"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

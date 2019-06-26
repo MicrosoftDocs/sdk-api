@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPerTcp6ConnectionEStats, GetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcp6connectionestats, iphlpapi/GetPerTcp6ConnectionEStats
 ms.topic: function
-f1_keywords: ["iphlpapi/GetPerTcp6ConnectionEStats"]
+f1_keywords: 
+ - "iphlpapi/GetPerTcp6ConnectionEStats"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

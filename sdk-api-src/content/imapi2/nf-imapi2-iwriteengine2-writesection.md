@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],WriteSection method, IWriteEngine2.WriteSection, IWriteEngine2::WriteSection, WriteSection, WriteSection method [IMAPI], WriteSection method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_writesection, imapi2/IWriteEngine2::WriteSection
 ms.topic: method
-f1_keywords: ["imapi2/IWriteEngine2.WriteSection"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2.WriteSection"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

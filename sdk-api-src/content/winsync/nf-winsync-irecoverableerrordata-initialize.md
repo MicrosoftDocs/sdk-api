@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecoverableErrorData interface [Windows Sync],Initialize method, IRecoverableErrorData.Initialize, IRecoverableErrorData::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IRecoverableErrorData interface, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
 ms.topic: method
-f1_keywords: ["winsync/IRecoverableErrorData.Initialize"]
+f1_keywords: 
+ - "winsync/IRecoverableErrorData.Initialize"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

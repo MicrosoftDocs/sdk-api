@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_STATE, WS_ASYNC_STATE structure [Web Services for Windows], webservices/WS_ASYNC_STATE, wsw.ws_async_state
 ms.topic: struct
-f1_keywords: ["webservices/WS_ASYNC_STATE"]
+f1_keywords: 
+ - "webservices/WS_ASYNC_STATE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

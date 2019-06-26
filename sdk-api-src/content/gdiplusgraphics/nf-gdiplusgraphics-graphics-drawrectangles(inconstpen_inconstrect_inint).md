@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawRectangles, DrawRectangles method [GDI+], DrawRectangles method [GDI+],Graphics class, Graphics class [GDI+],DrawRectangles method, Graphics.DrawRectangles, Graphics.DrawRectangles(IN const Pen,IN const Rect,IN INT), Graphics.DrawRectangles(const Pen*,const Rect*,INT), Graphics::DrawRectangles, Graphics::DrawRectangles(IN const Pen,IN const Rect,IN INT), _gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.DrawRectangles"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.DrawRectangles"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

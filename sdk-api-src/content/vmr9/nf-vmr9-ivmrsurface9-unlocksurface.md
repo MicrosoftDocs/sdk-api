@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurface9.UnlockSurface, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
 ms.topic: method
-f1_keywords: ["vmr9/IVMRSurface9.UnlockSurface"]
+f1_keywords: 
+ - "vmr9/IVMRSurface9.UnlockSurface"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

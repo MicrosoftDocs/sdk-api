@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetMonitor method, IVMRMonitorConfig.SetMonitor, IVMRMonitorConfig::SetMonitor, IVMRMonitorConfigSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setmonitor, strmif/IVMRMonitorConfig::SetMonitor
 ms.topic: method
-f1_keywords: ["strmif/IVMRMonitorConfig.SetMonitor"]
+f1_keywords: 
+ - "strmif/IVMRMonitorConfig.SetMonitor"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCall interface, IEnumCall interface [TAPI 2.2],Clone method, IEnumCall.Clone, IEnumCall::Clone, _tapi3_ienumcall_clone, tapi3.ienumcall_clone, tapi3if/IEnumCall::Clone
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumCall.Clone"]
+f1_keywords: 
+ - "tapi3if/IEnumCall.Clone"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

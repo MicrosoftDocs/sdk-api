@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECURITY_LOGON_SESSION_DATA, LOGON_NOT_OPTIMIZED, LOGON_OPTIMIZED, LOGON_PKINIT, LOGON_WINLOGON, PSECURITY_LOGON_SESSION_DATA, PSECURITY_LOGON_SESSION_DATA structure pointer [Security], SECURITY_LOGON_SESSION_DATA, SECURITY_LOGON_SESSION_DATA structure [Security], _SECURITY_LOGON_SESSION_DATA, _lsa_security_logon_session_data, ntsecapi/PSECURITY_LOGON_SESSION_DATA, ntsecapi/SECURITY_LOGON_SESSION_DATA, security.security_logon_session_data"
 ms.topic: struct
-f1_keywords: ["ntsecapi/SECURITY_LOGON_SESSION_DATA"]
+f1_keywords: 
+ - "ntsecapi/SECURITY_LOGON_SESSION_DATA"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

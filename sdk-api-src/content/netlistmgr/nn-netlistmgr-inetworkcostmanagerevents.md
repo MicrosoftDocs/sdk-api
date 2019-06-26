@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkCostManagerEvents, INetworkCostManagerEvents interface [Network Awareness], INetworkCostManagerEvents interface [Network Awareness],described, netlistmgr/INetworkCostManagerEvents, nla.inetworkcostmanagerevents
 ms.topic: interface
-f1_keywords: ["netlistmgr/INetworkCostManagerEvents"]
+f1_keywords: 
+ - "netlistmgr/INetworkCostManagerEvents"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

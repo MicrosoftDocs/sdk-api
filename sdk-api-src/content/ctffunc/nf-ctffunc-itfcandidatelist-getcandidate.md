@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
 ms.topic: method
-f1_keywords: ["ctffunc/ITfCandidateList.GetCandidate"]
+f1_keywords: 
+ - "ctffunc/ITfCandidateList.GetCandidate"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

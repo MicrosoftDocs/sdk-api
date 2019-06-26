@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingEveryConnection.Reset"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingEveryConnection.Reset"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

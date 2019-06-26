@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeAttr, GetTypeAttr method [Automation], GetTypeAttr method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeAttr method, ITypeInfo.GetTypeAttr, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetTypeAttr"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetTypeAttr"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

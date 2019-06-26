@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 ms.topic: function
-f1_keywords: ["objbase/CoFileTimeNow"]
+f1_keywords: 
+ - "objbase/CoFileTimeNow"
 req.header: objbase.h
 req.include-header: Objbase.h
 req.target-type: Windows

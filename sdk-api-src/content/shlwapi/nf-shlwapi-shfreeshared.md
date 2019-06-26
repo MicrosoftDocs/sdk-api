@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
 ms.topic: function
-f1_keywords: ["shlwapi/SHFreeShared"]
+f1_keywords: 
+ - "shlwapi/SHFreeShared"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

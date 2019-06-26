@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL structure pointer, SYSTEM_POWER_LEVEL, SYSTEM_POWER_LEVEL structure, _win32_system_power_level_str, base.system_power_level_str, winnt/PSYSTEM_POWER_LEVEL, winnt/SYSTEM_POWER_LEVEL"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_POWER_LEVEL"]
+f1_keywords: 
+ - "winnt/SYSTEM_POWER_LEVEL"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

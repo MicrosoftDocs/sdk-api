@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentAriaRole property [Windows Accessibility], CurrentAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAriaRole property, IUIAutomationElement.CurrentAriaRole, IUIAutomationElement.get_CurrentAriaRole, IUIAutomationElement::CurrentAriaRole, IUIAutomationElement::get_CurrentAriaRole, get_CurrentAriaRole, uiauto.uiauto_IUIAutomationElement_CurrentAriaRole, uiauto_IUIAutomationElement_CurrentAriaRole, uiautomationclient/IUIAutomationElement::CurrentAriaRole, uiautomationclient/IUIAutomationElement::get_CurrentAriaRole, winauto.uiauto_IUIAutomationElement_CurrentAriaRole
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentAriaRole"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentAriaRole"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

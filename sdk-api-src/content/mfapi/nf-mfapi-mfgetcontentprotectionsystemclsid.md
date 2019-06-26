@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetContentProtectionSystemCLSID, MFGetContentProtectionSystemCLSID function [Media Foundation], mf.mfgetcontentprotectionsystemclsid, mfapi/MFGetContentProtectionSystemCLSID
 ms.topic: function
-f1_keywords: ["mfapi/MFGetContentProtectionSystemCLSID"]
+f1_keywords: 
+ - "mfapi/MFGetContentProtectionSystemCLSID"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

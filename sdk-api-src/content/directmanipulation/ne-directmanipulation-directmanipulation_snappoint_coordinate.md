@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_COORDINATE_BOUNDARY, DIRECTMANIPULATION_COORDINATE_MIRRORED, DIRECTMANIPULATION_COORDINATE_ORIGIN, DIRECTMANIPULATION_SNAPPOINT_COORDINATE, DIRECTMANIPULATION_SNAPPOINT_COORDINATE enumeration [Direct Manipulation], directmanipulation.directmanipulation_snappoint_coordinate, directmanipulation/DIRECTMANIPULATION_COORDINATE_BOUNDARY, directmanipulation/DIRECTMANIPULATION_COORDINATE_MIRRORED, directmanipulation/DIRECTMANIPULATION_COORDINATE_ORIGIN, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_COORDINATE
 ms.topic: enum
-f1_keywords: ["directmanipulation/DIRECTMANIPULATION_SNAPPOINT_COORDINATE"]
+f1_keywords: 
+ - "directmanipulation/DIRECTMANIPULATION_SNAPPOINT_COORDINATE"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

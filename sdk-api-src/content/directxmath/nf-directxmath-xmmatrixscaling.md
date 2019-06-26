@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixScaling, XMMatrixScaling, XMMatrixScaling method [DirectX Math Support APIs], dxmath.xmmatrixscaling
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixScaling"]
+f1_keywords: 
+ - "directxmath/XMMatrixScaling"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

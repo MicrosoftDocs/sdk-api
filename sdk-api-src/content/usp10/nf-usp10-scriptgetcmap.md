@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
 ms.topic: function
-f1_keywords: ["usp10/ScriptGetCMap"]
+f1_keywords: 
+ - "usp10/ScriptGetCMap"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

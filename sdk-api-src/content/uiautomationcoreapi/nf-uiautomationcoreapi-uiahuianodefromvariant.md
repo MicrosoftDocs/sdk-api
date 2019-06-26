@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaHUiaNodeFromVariant"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaHUiaNodeFromVariant"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

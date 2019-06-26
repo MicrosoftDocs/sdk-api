@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
 ms.topic: interface
-f1_keywords: ["propsys/IInitializeWithFile"]
+f1_keywords: 
+ - "propsys/IInitializeWithFile"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

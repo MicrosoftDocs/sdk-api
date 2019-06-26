@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bCloseFigure, PATHOBJ_bCloseFigure function [Display Devices], display.pathobj_bclosefigure, gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml, winddi/PATHOBJ_bCloseFigure
 ms.topic: function
-f1_keywords: ["winddi/PATHOBJ_bCloseFigure"]
+f1_keywords: 
+ - "winddi/PATHOBJ_bCloseFigure"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO, IEnumWIA_DEV_INFO interface [WIA], IEnumWIA_DEV_INFO interface [WIA],described, _wia_IEnumWIA_DEV_INFO, wia._wia_IEnumWIA_DEV_INFO, wia_xp/IEnumWIA_DEV_INFO
 ms.topic: interface
-f1_keywords: ["wia_xp/IEnumWIA_DEV_INFO"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_DEV_INFO"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

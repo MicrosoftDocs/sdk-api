@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemovePersistentIScsiDeviceW, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
 ms.topic: function
-f1_keywords: ["iscsidsc/RemovePersistentIscsiDevice"]
+f1_keywords: 
+ - "iscsidsc/RemovePersistentIscsiDevice"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

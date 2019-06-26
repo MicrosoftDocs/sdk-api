@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
 ms.topic: method
-f1_keywords: ["relogger/ITraceEvent.SetProviderId"]
+f1_keywords: 
+ - "relogger/ITraceEvent.SetProviderId"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

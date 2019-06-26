@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFileReferenceFromUrl, CreateFontFileReferenceFromUrl method [Direct Write], CreateFontFileReferenceFromUrl method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateFontFileReferenceFromUrl method, IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl, IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl, directwrite.idwriteremotefontfileloader_createfontfilereferencefromurl, dwrite_3/IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl"]
+f1_keywords: 
+ - "dwrite_3/IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPTION_SET, WSMAN_OPTION_SET structure [Windows Remote Management], winrm.wsman_option_set, wsman/WSMAN_OPTION_SET
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_OPTION_SET"]
+f1_keywords: 
+ - "wsman/WSMAN_OPTION_SET"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

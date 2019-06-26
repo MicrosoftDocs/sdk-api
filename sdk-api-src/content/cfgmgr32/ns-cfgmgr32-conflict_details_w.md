@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCONFLICT_DETAILS_W, CONFLICT_DETAILS, CONFLICT_DETAILS structure [Device and Driver Installation], CONFLICT_DETAILS_W, PCONFLICT_DETAILS, PCONFLICT_DETAILS structure pointer [Device and Driver Installation], cfgmgr32/CONFLICT_DETAILS, cfgmgr32/PCONFLICT_DETAILS, cfgmgrst_c9b5c398-f35c-4c09-9e25-8949b1d8dc1a.xml, devinst.conflict_details"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/CONFLICT_DETAILS"]
+f1_keywords: 
+ - "cfgmgr32/CONFLICT_DETAILS"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
 ms.topic: method
-f1_keywords: ["winsxs/IAssemblyName.SetProperty"]
+f1_keywords: 
+ - "winsxs/IAssemblyName.SetProperty"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

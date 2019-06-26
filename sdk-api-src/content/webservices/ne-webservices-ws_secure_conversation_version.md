@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
 ms.topic: enum
-f1_keywords: ["webservices/WS_SECURE_CONVERSATION_VERSION"]
+f1_keywords: 
+ - "webservices/WS_SECURE_CONVERSATION_VERSION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

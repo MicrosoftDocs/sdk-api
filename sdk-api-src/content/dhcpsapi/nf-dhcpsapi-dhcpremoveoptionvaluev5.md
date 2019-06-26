@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV5, DhcpRemoveOptionValueV5 function [DHCP], dhcp.dhcpremoveoptionvaluev5, dhcpsapi/DhcpRemoveOptionValueV5
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpRemoveOptionValueV5"]
+f1_keywords: 
+ - "dhcpsapi/DhcpRemoveOptionValueV5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

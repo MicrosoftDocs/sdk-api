@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/ITransportParameters"]
+f1_keywords: 
+ - "windows.media.streaming/ITransportParameters"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
 ms.topic: method
-f1_keywords: ["indexsrv/IWordBreaker.Init"]
+f1_keywords: 
+ - "indexsrv/IWordBreaker.Init"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

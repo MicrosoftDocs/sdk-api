@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
 ms.topic: method
-f1_keywords: ["taskschd/ITaskHandlerStatus.TaskCompleted"]
+f1_keywords: 
+ - "taskschd/ITaskHandlerStatus.TaskCompleted"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

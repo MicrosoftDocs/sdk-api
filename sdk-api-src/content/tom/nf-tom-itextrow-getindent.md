@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndent, GetIndent method [Windows Controls], GetIndent method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetIndent method, ITextRow.GetIndent, ITextRow::GetIndent, controls.itextrow_getindent, tom/ITextRow::GetIndent
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetIndent"]
+f1_keywords: 
+ - "tom/ITextRow.GetIndent"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

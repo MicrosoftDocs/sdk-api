@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3, IAzApplication3 interface [Security], IAzApplication3 interface [Security],described, azroles/IAzApplication3, security.iazapplication3
 ms.topic: interface
-f1_keywords: ["azroles/IAzApplication3"]
+f1_keywords: 
+ - "azroles/IAzApplication3"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
 ms.topic: method
-f1_keywords: ["mftransform/IMFTransform.ProcessInput"]
+f1_keywords: 
+ - "mftransform/IMFTransform.ProcessInput"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

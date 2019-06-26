@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwService interface [ICS/ICF],Name property, INetFwService.Name, INetFwService.get_Name, INetFwService::Name, INetFwService::get_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwService interface, get_Name, ics.inetfwservice_name, netfw/INetFwService::Name, netfw/INetFwService::get_Name
 ms.topic: method
-f1_keywords: ["netfw/INetFwService.Name"]
+f1_keywords: 
+ - "netfw/INetFwService.Name"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDeviceRegistration.GetRegistrationStats"]
+f1_keywords: 
+ - "wmsdkidl/IWMDeviceRegistration.GetRegistrationStats"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

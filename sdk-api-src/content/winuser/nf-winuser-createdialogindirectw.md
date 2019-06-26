@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDialogIndirect, CreateDialogIndirect function [Dialog Boxes], CreateDialogIndirectA, CreateDialogIndirectW, _win32_CreateDialogIndirect, _win32_createdialogindirect_cpp, dlgbox.createdialogindirect, winui._win32_createdialogindirect, winuser/CreateDialogIndirect, winuser/CreateDialogIndirectA, winuser/CreateDialogIndirectW
 ms.topic: macro
-f1_keywords: ["winuser/CreateDialogIndirect"]
+f1_keywords: 
+ - "winuser/CreateDialogIndirect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

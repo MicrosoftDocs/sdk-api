@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsFaxNumber, IADsFaxNumber interface [ADSI], IADsFaxNumber interface [ADSI],described, _ds_iadsfaxnumber, adsi.iadsfaxnumber, iads/IADsFaxNumber
 ms.topic: interface
-f1_keywords: ["iads/IADsFaxNumber"]
+f1_keywords: 
+ - "iads/IADsFaxNumber"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

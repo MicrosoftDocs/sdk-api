@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilSetResourceServiceEnvironment, ResUtilSetResourceServiceEnvironment function [Failover Cluster], _wolf_resutilsetresourceserviceenvironment, mscs.resutilsetresourceserviceenvironment, resapi/PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilSetResourceServiceEnvironment
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetResourceServiceEnvironment"]
+f1_keywords: 
+ - "resapi/ResUtilSetResourceServiceEnvironment"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

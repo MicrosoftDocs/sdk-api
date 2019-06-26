@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 18816cca-f97e-a1fe-114c-9342ac218237, D3D10_EFFECT_TYPE_DESC, D3D10_EFFECT_TYPE_DESC structure [Direct3D 10], d3d10effect/D3D10_EFFECT_TYPE_DESC, direct3d10.d3d10_effect_type_desc
 ms.topic: struct
-f1_keywords: ["d3d10effect/D3D10_EFFECT_TYPE_DESC"]
+f1_keywords: 
+ - "d3d10effect/D3D10_EFFECT_TYPE_DESC"
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

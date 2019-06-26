@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], ISyncMgrSynchronizeInvoke interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeInvoke, shell.syncmgr_isyncmgrsynchronizeinvoke, syncmgr.isyncmgrsynchronizeinvoke
 ms.topic: interface
-f1_keywords: ["mobsync/ISyncMgrSynchronizeInvoke"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeInvoke"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

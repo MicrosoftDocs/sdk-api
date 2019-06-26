@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHmenuProps method, IAccPropServices.ClearHmenuProps, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
 ms.topic: method
-f1_keywords: ["oleacc/IAccPropServices.ClearHmenuProps"]
+f1_keywords: 
+ - "oleacc/IAccPropServices.ClearHmenuProps"
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

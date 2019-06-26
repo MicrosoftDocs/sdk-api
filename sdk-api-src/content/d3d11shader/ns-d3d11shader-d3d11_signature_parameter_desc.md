@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SIGNATURE_PARAMETER_DESC, D3D11_SIGNATURE_PARAMETER_DESC structure [Direct3D 11], d3d11shader/D3D11_SIGNATURE_PARAMETER_DESC, direct3d11.d3d11_signature_parameter_desc, e870121a-ce22-1699-8203-c018e7d5db8e
 ms.topic: struct
-f1_keywords: ["d3d11shader/D3D11_SIGNATURE_PARAMETER_DESC"]
+f1_keywords: 
+ - "d3d11shader/D3D11_SIGNATURE_PARAMETER_DESC"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

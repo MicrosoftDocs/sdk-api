@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStore.EnumerateSessions, ITsSbResourcePluginStore::EnumerateSessions, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStoreEx::EnumerateSessions, sbtsv/ITsSbResourcePluginStore::EnumerateSessions, sbtsv/ITsSbResourcePluginStoreEx::EnumerateSessions, termserv.itssbresourcepluginstore_enumeratesessions
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.EnumerateSessions"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.EnumerateSessions"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

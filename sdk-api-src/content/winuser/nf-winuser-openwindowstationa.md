@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenWindowStation, OpenWindowStation function [Windows Stations and Desktops], OpenWindowStationA, OpenWindowStationW, _win32_openwindowstation, base.openwindowstation, winstation.openwindowstation, winuser/OpenWindowStation, winuser/OpenWindowStationA, winuser/OpenWindowStationW
 ms.topic: function
-f1_keywords: ["winuser/OpenWindowStation"]
+f1_keywords: 
+ - "winuser/OpenWindowStation"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

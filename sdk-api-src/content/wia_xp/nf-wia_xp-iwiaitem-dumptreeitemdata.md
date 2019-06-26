@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpTreeItemData method, IWiaItem.DumpTreeItemData, IWiaItem::DumpTreeItemData, _wia_IWiaItem_DumpTreeItemData, wia._wia_IWiaItem_DumpTreeItemData, wia_xp/IWiaItem::DumpTreeItemData
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.DumpTreeItemData"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.DumpTreeItemData"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

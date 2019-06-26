@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveNetwork, GetActiveNetwork method [NativeWIFI], GetActiveNetwork method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetActiveNetwork method, IDot11AdHocInterface.GetActiveNetwork, IDot11AdHocInterface::GetActiveNetwork, adhoc/IDot11AdHocInterface::GetActiveNetwork, nwifi.idot11adhocinterface_getactivenetwork
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterface.GetActiveNetwork"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterface.GetActiveNetwork"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

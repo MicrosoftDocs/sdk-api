@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialWithFieldOptions, ICredentialProviderCredentialWithFieldOptions interface [Windows Shell], ICredentialProviderCredentialWithFieldOptions interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialWithFieldOptions, shell.ICredentialProviderCredentialWithFieldOptions
 ms.topic: interface
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialWithFieldOptions"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialWithFieldOptions"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

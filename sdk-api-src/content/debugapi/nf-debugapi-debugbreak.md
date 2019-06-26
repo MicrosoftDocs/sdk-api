@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugBreak, DebugBreak function, _win32_debugbreak, base.debugbreak, debugapi/DebugBreak
 ms.topic: function
-f1_keywords: ["debugapi/DebugBreak"]
+f1_keywords: 
+ - "debugapi/DebugBreak"
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],SaveViewState method, IShellView.SaveViewState, IShellView::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IShellView interface, _win32_IShellView_SaveViewState, shell.IShellView_SaveViewState, shobjidl_core/IShellView::SaveViewState
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellView.SaveViewState"]
+f1_keywords: 
+ - "shobjidl_core/IShellView.SaveViewState"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

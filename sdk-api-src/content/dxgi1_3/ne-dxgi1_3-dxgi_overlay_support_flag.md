@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_OVERLAY_SUPPORT_FLAG, DXGI_OVERLAY_SUPPORT_FLAG enumeration [DXGI], DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, DXGI_OVERLAY_SUPPORT_FLAG_SCALING, direct3ddxgi.dxgi_overlay_support_flag, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_DIRECT, dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_SCALING
 ms.topic: enum
-f1_keywords: ["dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG"]
+f1_keywords: 
+ - "dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

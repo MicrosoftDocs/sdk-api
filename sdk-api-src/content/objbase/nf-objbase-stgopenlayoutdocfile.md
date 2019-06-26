@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
 ms.topic: function
-f1_keywords: ["objbase/StgOpenLayoutDocfile"]
+f1_keywords: 
+ - "objbase/StgOpenLayoutDocfile"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPUser property, IFaxReceiptOptions.SMTPUser, IFaxReceiptOptions.get_SMTPUser, IFaxReceiptOptions.put_SMTPUser, IFaxReceiptOptions::SMTPUser, IFaxReceiptOptions::get_SMTPUser, IFaxReceiptOptions::put_SMTPUser, SMTPUser property [Fax Service], SMTPUser property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpuser, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cpp, fax._mfax_faxreceiptoptions_smtpuser, faxcomex/IFaxReceiptOptions::SMTPUser, faxcomex/IFaxReceiptOptions::get_SMTPUser, faxcomex/IFaxReceiptOptions::put_SMTPUser, put_SMTPUser
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxReceiptOptions.SMTPUser"]
+f1_keywords: 
+ - "faxcomex/IFaxReceiptOptions.SMTPUser"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

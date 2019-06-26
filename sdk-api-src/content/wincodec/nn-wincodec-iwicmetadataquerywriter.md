@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], IWICMetadataQueryWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadataquerywriter, wic._wic_codec_iwicmetadataquerywriter, wincodec/IWICMetadataQueryWriter
 ms.topic: interface
-f1_keywords: ["wincodec/IWICMetadataQueryWriter"]
+f1_keywords: 
+ - "wincodec/IWICMetadataQueryWriter"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

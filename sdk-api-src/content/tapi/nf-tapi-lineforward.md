@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward"
 ms.topic: function
-f1_keywords: ["tapi/lineForward"]
+f1_keywords: 
+ - "tapi/lineForward"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HexToUnicode, HexToUnicode method [Windows Controls], HexToUnicode method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],HexToUnicode method, ITextRange2.HexToUnicode, ITextRange2::HexToUnicode, controls.itextrange2_hextounicode, tom/ITextRange2::HexToUnicode
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.HexToUnicode"]
+f1_keywords: 
+ - "tom/ITextRange2.HexToUnicode"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

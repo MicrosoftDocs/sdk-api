@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)"
 ms.topic: callback
-f1_keywords: ["certenroll/(FNIMPORTPFXTOPROVIDER)"]
+f1_keywords: 
+ - "certenroll/(FNIMPORTPFXTOPROVIDER)"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], ISyncFullEnumerationChangeBatch interface [Windows Sync],described, winsync.isyncfullenumerationchangebatch, winsync/ISyncFullEnumerationChangeBatch
 ms.topic: interface
-f1_keywords: ["winsync/ISyncFullEnumerationChangeBatch"]
+f1_keywords: 
+ - "winsync/ISyncFullEnumerationChangeBatch"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

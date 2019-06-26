@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], IEnumSyncProviderInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderInfos, winsync.ienumsyncproviderinfos
 ms.topic: interface
-f1_keywords: ["syncregistration/IEnumSyncProviderInfos"]
+f1_keywords: 
+ - "syncregistration/IEnumSyncProviderInfos"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

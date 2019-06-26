@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserGeoID, GetUserGeoID function [Internationalization for Windows Applications], _win32_GetUserGeoID, intl.getusergeoid, winnls/GetUserGeoID
 ms.topic: function
-f1_keywords: ["winnls/GetUserGeoID"]
+f1_keywords: 
+ - "winnls/GetUserGeoID"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
 ms.topic: function
-f1_keywords: ["winuser/SkipPointerFrameMessages"]
+f1_keywords: 
+ - "winuser/SkipPointerFrameMessages"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

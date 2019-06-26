@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],RemoveAllEffects method, IMFMediaEngineEx.RemoveAllEffects, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.RemoveAllEffects"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.RemoveAllEffects"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

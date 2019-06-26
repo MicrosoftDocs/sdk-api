@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioEndpointOffloadStreamMute interface, IAudioEndpointOffloadStreamMute interface [Core Audio],GetMute method, IAudioEndpointOffloadStreamMute.GetMute, IAudioEndpointOffloadStreamMute::GetMute, audioengineendpoint/IAudioEndpointOffloadStreamMute::GetMute, coreaudio.iaudioendpointoffloadstreammute_getmute
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamMute.GetMute"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamMute.GetMute"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline, put_Underline method [COM], put_Underline method [COM],IFont interface
 ms.topic: method
-f1_keywords: ["ocidl/IFont.put_Underline"]
+f1_keywords: 
+ - "ocidl/IFont.put_Underline"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

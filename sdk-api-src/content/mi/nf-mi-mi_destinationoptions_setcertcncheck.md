@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetCertCNCheck, MI_DestinationOptions_SetCertCNCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetCertCNCheck, wmi_v2.mi_destinationoptions_setcertcncheck
 ms.topic: function
-f1_keywords: ["mi/MI_DestinationOptions_SetCertCNCheck"]
+f1_keywords: 
+ - "mi/MI_DestinationOptions_SetCertCNCheck"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

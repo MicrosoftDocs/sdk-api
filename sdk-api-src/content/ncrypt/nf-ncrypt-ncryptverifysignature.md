@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PAD_PKCS1_FLAG, NCRYPT_PAD_PSS_FLAG, NCRYPT_SILENT_FLAG, NCryptVerifySignature, NCryptVerifySignature function [Security], ncrypt/NCryptVerifySignature, security.ncryptverifysignature_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptVerifySignature"]
+f1_keywords: 
+ - "ncrypt/NCryptVerifySignature"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

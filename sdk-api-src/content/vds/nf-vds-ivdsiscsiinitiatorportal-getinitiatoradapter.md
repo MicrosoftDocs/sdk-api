@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter"]
+f1_keywords: 
+ - "vds/IVdsIscsiInitiatorPortal.GetInitiatorAdapter"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

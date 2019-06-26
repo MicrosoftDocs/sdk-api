@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller.put_ParentWindow, IUpdateInstaller::ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent],IUpdateInstaller interface, put_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.ParentWindow"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.ParentWindow"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITableItemProvider, ITableItemProvider interface [Windows Accessibility], ITableItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableItemProvider, uiauto_ITableItemProvider, uiautomationcore/ITableItemProvider, winauto.uiauto_ITableItemProvider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/ITableItemProvider"]
+f1_keywords: 
+ - "uiautomationcore/ITableItemProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

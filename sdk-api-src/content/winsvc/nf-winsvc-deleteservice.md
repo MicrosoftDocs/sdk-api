@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.deleteservice, winsvc/DeleteService
 ms.topic: function
-f1_keywords: ["winsvc/DeleteService"]
+f1_keywords: 
+ - "winsvc/DeleteService"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_COMPLETION_FUNCTION, WSMAN_SHELL_COMPLETION_FUNCTION callback, WSMAN_SHELL_COMPLETION_FUNCTION callback function [Windows Remote Management], winrm.wsman_shell_completion_function, wsman/WSMAN_SHELL_COMPLETION_FUNCTION
 ms.topic: callback
-f1_keywords: ["wsman/WSMAN_SHELL_COMPLETION_FUNCTION"]
+f1_keywords: 
+ - "wsman/WSMAN_SHELL_COMPLETION_FUNCTION"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

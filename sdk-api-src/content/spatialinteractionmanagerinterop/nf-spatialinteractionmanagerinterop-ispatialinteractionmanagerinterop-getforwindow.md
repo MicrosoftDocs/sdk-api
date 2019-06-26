@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/25/2019
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
 ms.topic: method
-f1_keywords: ["spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow"]
+f1_keywords: 
+ - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow"
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IDownloadProgress.CurrentUpdatePercentComplete, IDownloadProgress.get_CurrentUpdatePercentComplete, IDownloadProgress::CurrentUpdatePercentComplete, IDownloadProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.idownloadprogress_currentupdatepercentcomplete, wuapi/IDownloadProgress::CurrentUpdatePercentComplete, wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadProgress.CurrentUpdatePercentComplete"]
+f1_keywords: 
+ - "wuapi/IDownloadProgress.CurrentUpdatePercentComplete"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

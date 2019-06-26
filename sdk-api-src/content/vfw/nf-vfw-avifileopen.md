@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
 ms.topic: function
-f1_keywords: ["vfw/AVIFileOpen"]
+f1_keywords: 
+ - "vfw/AVIFileOpen"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

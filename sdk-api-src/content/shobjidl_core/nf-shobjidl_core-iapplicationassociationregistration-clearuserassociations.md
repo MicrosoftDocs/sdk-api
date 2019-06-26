@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearUserAssociations, ClearUserAssociations method [Windows Shell], ClearUserAssociations method [Windows Shell],IApplicationAssociationRegistration interface, IApplicationAssociationRegistration interface [Windows Shell],ClearUserAssociations method, IApplicationAssociationRegistration.ClearUserAssociations, IApplicationAssociationRegistration::ClearUserAssociations, _shell_IApplicationAssociationRegistration_ClearUserAssociations, shell.IApplicationAssociationRegistration_ClearUserAssociations, shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationAssociationRegistration.ClearUserAssociations"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationAssociationRegistration.ClearUserAssociations"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

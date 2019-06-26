@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenumclassesv6, dhcpsapi/DhcpEnumClassesV6
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumClassesV6"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumClassesV6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

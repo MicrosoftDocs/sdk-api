@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIconMode, GetIconMode method [Text Services Framework], GetIconMode method [Text Services Framework],ITfSystemDeviceTypeLangBarItem interface, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],GetIconMode method, ITfSystemDeviceTypeLangBarItem.GetIconMode, ITfSystemDeviceTypeLangBarItem::GetIconMode, _tsf_itfsystemdevicetypelangbaritem_geticonmode_ref, ctfutb/ITfSystemDeviceTypeLangBarItem::GetIconMode, tsf.itfsystemdevicetypelangbaritem_geticonmode
 ms.topic: method
-f1_keywords: ["ctfutb/ITfSystemDeviceTypeLangBarItem.GetIconMode"]
+f1_keywords: 
+ - "ctfutb/ITfSystemDeviceTypeLangBarItem.GetIconMode"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

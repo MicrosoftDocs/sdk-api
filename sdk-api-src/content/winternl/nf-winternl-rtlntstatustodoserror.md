@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
 ms.topic: function
-f1_keywords: ["winternl/RtlNtStatusToDosError"]
+f1_keywords: 
+ - "winternl/RtlNtStatusToDosError"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

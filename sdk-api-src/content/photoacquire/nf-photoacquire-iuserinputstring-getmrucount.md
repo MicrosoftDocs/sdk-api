@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMruCount, GetMruCount method [Picture Acquisition], GetMruCount method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruCount method, IUserInputString.GetMruCount, IUserInputString::GetMruCount, IUserInputStringGetMruCount, photoacquire/IUserInputString::GetMruCount, picacq.iuserinputstring_getmrucount
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetMruCount"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetMruCount"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

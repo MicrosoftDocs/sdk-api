@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPeakValue, GetPeakValue method [Core Audio], GetPeakValue method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetPeakValue method, IAudioMeterInformation.GetPeakValue, IAudioMeterInformation::GetPeakValue, IAudioMeterInformationGetPeakValue, coreaudio.iaudiometerinformation_getpeakvalue, endpointvolume/IAudioMeterInformation::GetPeakValue
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioMeterInformation.GetPeakValue"]
+f1_keywords: 
+ - "endpointvolume/IAudioMeterInformation.GetPeakValue"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

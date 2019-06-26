@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],SetBuffer method, IAudioDeviceEndpoint.SetBuffer, IAudioDeviceEndpoint::SetBuffer, SetBuffer, SetBuffer method [Remote Desktop Services], SetBuffer method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::SetBuffer, termserv.iaudiodeviceendpoint_setbuffer
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioDeviceEndpoint.SetBuffer"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioDeviceEndpoint.SetBuffer"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

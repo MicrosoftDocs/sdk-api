@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9NormalizedRect, VMR9NormalizedRect structure [DirectShow], VMR9NormalizedRectStructure, dshow.vmr9normalizedrect, vmr9/VMR9NormalizedRect
 ms.topic: struct
-f1_keywords: ["vmr9/VMR9NormalizedRect"]
+f1_keywords: 
+ - "vmr9/VMR9NormalizedRect"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

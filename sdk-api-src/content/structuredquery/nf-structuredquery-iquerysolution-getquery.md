@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQuery, GetQuery method [search], GetQuery method [search],IQuerySolution interface, IQuerySolution interface [search],GetQuery method, IQuerySolution.GetQuery, IQuerySolution::GetQuery, _search_IQuerySolution_GetQuery, search._search_IQuerySolution_GetQuery, structuredquery/IQuerySolution::GetQuery
 ms.topic: method
-f1_keywords: ["structuredquery/IQuerySolution.GetQuery"]
+f1_keywords: 
+ - "structuredquery/IQuerySolution.GetQuery"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

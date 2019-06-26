@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride method, IMFASFStreamSelector.SetOutputOverride, IMFASFStreamSelector::SetOutputOverride, SetOutputOverride, SetOutputOverride method [Media Foundation], SetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, c8affecd-107f-4701-88df-200db06ad49e, mf.imfasfstreamselector_setoutputoverride, wmcontainer/IMFASFStreamSelector::SetOutputOverride
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamSelector.SetOutputOverride"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamSelector.SetOutputOverride"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

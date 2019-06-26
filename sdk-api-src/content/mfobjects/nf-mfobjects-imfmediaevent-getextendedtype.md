@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 56284491-6f84-467e-9fac-46b04db4024a, GetExtendedType, GetExtendedType method [Media Foundation], GetExtendedType method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetExtendedType method, IMFMediaEvent.GetExtendedType, IMFMediaEvent::GetExtendedType, mf.imfmediaevent_getextendedtype, mfobjects/IMFMediaEvent::GetExtendedType
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaEvent.GetExtendedType"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEvent.GetExtendedType"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

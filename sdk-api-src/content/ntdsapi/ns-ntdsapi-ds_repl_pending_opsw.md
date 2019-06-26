@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_PENDING_OPS, DS_REPL_PENDING_OPS structure [Active Directory], DS_REPL_PENDING_OPSW, _DS_REPL_PENDING_OPSW, _glines_ds_repl_pending_ops, ad.ds__repl__pending__ops, ad.ds_repl_pending_ops, ntdsapi/DS_REPL_PENDING_OPS
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_REPL_PENDING_OPS"]
+f1_keywords: 
+ - "ntdsapi/DS_REPL_PENDING_OPS"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

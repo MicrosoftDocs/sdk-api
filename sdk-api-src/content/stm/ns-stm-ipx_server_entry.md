@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY"
 ms.topic: struct
-f1_keywords: ["stm/IPX_SERVER_ENTRY"]
+f1_keywords: 
+ - "stm/IPX_SERVER_ENTRY"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

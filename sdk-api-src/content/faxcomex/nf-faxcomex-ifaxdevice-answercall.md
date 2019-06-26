@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],AnswerCall method, IFaxDevice.AnswerCall, IFaxDevice::AnswerCall, _mfax_faxdevice.answercall, fax._mfax_faxdevice_answercall, fax._mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp, faxcomex/IFaxDevice::AnswerCall
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.AnswerCall"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.AnswerCall"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetWeight method, ITextFont.SetWeight, ITextFont::SetWeight, SetWeight, SetWeight method [Windows Controls], SetWeight method [Windows Controls],ITextFont interface, _win32_ITextFont_SetWeight, _win32_ITextFont_SetWeight_cpp, controls.ITextFont_SetWeight, controls._win32_ITextFont_SetWeight, tom/ITextFont::SetWeight
 ms.topic: method
-f1_keywords: ["tom/ITextFont.SetWeight"]
+f1_keywords: 
+ - "tom/ITextFont.SetWeight"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

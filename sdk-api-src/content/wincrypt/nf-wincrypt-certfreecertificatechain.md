@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChain, CertFreeCertificateChain function [Security], _crypto2_certfreecertificatechain, security.certfreecertificatechain, wincrypt/CertFreeCertificateChain
 ms.topic: function
-f1_keywords: ["wincrypt/CertFreeCertificateChain"]
+f1_keywords: 
+ - "wincrypt/CertFreeCertificateChain"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

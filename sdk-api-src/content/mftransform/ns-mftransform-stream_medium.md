@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM"
 ms.topic: struct
-f1_keywords: ["mftransform/STREAM_MEDIUM"]
+f1_keywords: 
+ - "mftransform/STREAM_MEDIUM"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

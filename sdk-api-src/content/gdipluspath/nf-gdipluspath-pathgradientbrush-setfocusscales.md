@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetFocusScales method, PathGradientBrush.SetFocusScales, PathGradientBrush::SetFocusScales, SetFocusScales, SetFocusScales method [GDI+], SetFocusScales method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.SetFocusScales"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.SetFocusScales"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

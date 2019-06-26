@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISwapChain2.SetMatrixTransform, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGISwapChain2.SetMatrixTransform"]
+f1_keywords: 
+ - "dxgi1_3/IDXGISwapChain2.SetMatrixTransform"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

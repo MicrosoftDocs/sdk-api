@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExistingCACertificate property [Security], ExistingCACertificate property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],ExistingCACertificate property, ICertSrvSetupKeyInformation.ExistingCACertificate, ICertSrvSetupKeyInformation.get_ExistingCACertificate, ICertSrvSetupKeyInformation::ExistingCACertificate, ICertSrvSetupKeyInformation::get_ExistingCACertificate, ICertSrvSetupKeyInformation::put_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::get_ExistingCACertificate, casetup/ICertSrvSetupKeyInformation::put_ExistingCACertificate, get_ExistingCACertificate, security.icertsrvsetupkeyinformation_existingcacertificate
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetupKeyInformation.ExistingCACertificate"]
+f1_keywords: 
+ - "casetup/ICertSrvSetupKeyInformation.ExistingCACertificate"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

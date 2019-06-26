@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_MODE_INFO structure [Display Devices], display.displayconfig_mode_info, wingdi/DISPLAYCONFIG_MODE_INFO
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_MODE_INFO"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_MODE_INFO"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

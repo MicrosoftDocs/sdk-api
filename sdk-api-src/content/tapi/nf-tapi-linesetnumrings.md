@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetnumrings, lineSetNumRings, lineSetNumRings function [TAPI 2.2], tapi/lineSetNumRings, tapi2.linesetnumrings"
 ms.topic: function
-f1_keywords: ["tapi/lineSetNumRings"]
+f1_keywords: 
+ - "tapi/lineSetNumRings"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

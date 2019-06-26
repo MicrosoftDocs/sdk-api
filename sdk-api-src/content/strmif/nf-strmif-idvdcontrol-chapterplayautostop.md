@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChapterPlayAutoStop, ChapterPlayAutoStop method [DirectShow], ChapterPlayAutoStop method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlayAutoStop method, IDvdControl.ChapterPlayAutoStop, IDvdControl::ChapterPlayAutoStop, IDvdControlChapterPlayAutoStop, dshow.idvdcontrol_chapterplayautostop, strmif/IDvdControl::ChapterPlayAutoStop
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.ChapterPlayAutoStop"]
+f1_keywords: 
+ - "strmif/IDvdControl.ChapterPlayAutoStop"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

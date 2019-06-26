@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
 ms.topic: function
-f1_keywords: ["rpcproxy/NdrDllRegisterProxy"]
+f1_keywords: 
+ - "rpcproxy/NdrDllRegisterProxy"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

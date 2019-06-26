@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_NetworkType method, ITuningSpace.get_NetworkType, ITuningSpace::get_NetworkType, ITuningSpaceget_NetworkType, get_NetworkType, get_NetworkType method [Microsoft TV Technologies], get_NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_networktype, tuner/ITuningSpace::get_NetworkType
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.get_NetworkType"]
+f1_keywords: 
+ - "tuner/ITuningSpace.get_NetworkType"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

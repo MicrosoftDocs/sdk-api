@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, IEnumNetSharingPrivateConnection.Skip, IEnumNetSharingPrivateConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingPrivateConnection.Skip"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPrivateConnection.Skip"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Verify method, IX509PrivateKey.Verify, IX509PrivateKey::Verify, Verify, Verify method [Security], Verify method [Security],IX509PrivateKey interface, VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, certenroll/IX509PrivateKey::Verify, security.ix509privatekey_verify
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.Verify"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.Verify"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

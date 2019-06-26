@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnSetFocus method, ITfLangBarEventSink.OnSetFocus, ITfLangBarEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onsetfocus_ref, ctfutb/ITfLangBarEventSink::OnSetFocus, tsf.itflangbareventsink_onsetfocus
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarEventSink.OnSetFocus"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarEventSink.OnSetFocus"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

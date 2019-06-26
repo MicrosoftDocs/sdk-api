@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses], USBUSER_GET_DRIVER_VERSION, USBUSER_GET_DRIVER_VERSION structure [Buses], buses.usbuser_get_driver_version, usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml, usbuser/PUSBUSER_GET_DRIVER_VERSION, usbuser/USBUSER_GET_DRIVER_VERSION"
 ms.topic: struct
-f1_keywords: ["usbuser/USBUSER_GET_DRIVER_VERSION"]
+f1_keywords: 
+ - "usbuser/USBUSER_GET_DRIVER_VERSION"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

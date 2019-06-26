@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSyncVideoPortData, DdSyncVideoPortData callback function [Display Devices], PDD_KERNELCB_SYNCVIDEOPORT, PDD_KERNELCB_SYNCVIDEOPORT callback, ddfncs_828e83a4-4723-4cf5-8eac-8b6b449765c0.xml, ddrawint/DdSyncVideoPortData, display.ddsyncvideoportdata
 ms.topic: callback
-f1_keywords: ["ddrawint/DdSyncVideoPortData"]
+f1_keywords: 
+ - "ddrawint/DdSyncVideoPortData"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

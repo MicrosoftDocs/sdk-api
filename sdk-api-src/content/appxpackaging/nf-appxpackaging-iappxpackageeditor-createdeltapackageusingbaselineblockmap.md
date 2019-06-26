@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackageUsingBaselineBlockMap, CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management], CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackageUsingBaselineBlockMap method, IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap, IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap, appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

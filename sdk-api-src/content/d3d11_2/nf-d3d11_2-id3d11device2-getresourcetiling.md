@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceTiling, GetResourceTiling method [Direct3D 11], GetResourceTiling method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],GetResourceTiling method, ID3D11Device2.GetResourceTiling, ID3D11Device2::GetResourceTiling, d3d11_2/ID3D11Device2::GetResourceTiling, direct3d11.id3d11device2_getresourcetiling
 ms.topic: method
-f1_keywords: ["d3d11_2/ID3D11Device2.GetResourceTiling"]
+f1_keywords: 
+ - "d3d11_2/ID3D11Device2.GetResourceTiling"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

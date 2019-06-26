@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.topic: function
-f1_keywords: ["shlobj_core/SHReplaceFromPropSheetExtArray"]
+f1_keywords: 
+ - "shlobj_core/SHReplaceFromPropSheetExtArray"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

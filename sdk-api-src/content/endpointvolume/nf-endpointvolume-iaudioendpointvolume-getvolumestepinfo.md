@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeStepInfo method, IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.GetVolumeStepInfo"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.GetVolumeStepInfo"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreateMultiplexPropertyStore, PSCreateMultiplexPropertyStore function [Windows Properties], _shell_PSCreateMultiplexPropertyStore, properties.PSCreateMultiplexPropertyStore, propsys/PSCreateMultiplexPropertyStore, shell.PSCreateMultiplexPropertyStore
 ms.topic: function
-f1_keywords: ["propsys/PSCreateMultiplexPropertyStore"]
+f1_keywords: 
+ - "propsys/PSCreateMultiplexPropertyStore"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

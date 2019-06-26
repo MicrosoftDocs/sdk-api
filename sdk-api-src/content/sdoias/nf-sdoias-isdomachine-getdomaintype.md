@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Policy Server], GetDomainType method [Network Policy Server],ISdoMachine interface, GetDomainType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDomainType method, ISdoMachine.GetDomainType, ISdoMachine::GetDomainType, SdoMachine object [Network Policy Server],GetDomainType method, _sdo_isdomachine_getdomaintype, nps.SDO_isdomachine_getdomaintype, sdo.isdomachine_getdomaintype, sdoias/ISdoMachine::GetDomainType
 ms.topic: method
-f1_keywords: ["sdoias/ISdoMachine.GetDomainType"]
+f1_keywords: 
+ - "sdoias/ISdoMachine.GetDomainType"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

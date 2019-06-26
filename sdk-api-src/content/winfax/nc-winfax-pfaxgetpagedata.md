@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
 ms.topic: callback
-f1_keywords: ["winfax/PFAXGETPAGEDATA"]
+f1_keywords: 
+ - "winfax/PFAXGETPAGEDATA"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

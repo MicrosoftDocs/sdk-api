@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetNativeVideoSize method, IMFPMediaPlayer.GetNativeVideoSize, IMFPMediaPlayer::GetNativeVideoSize, mf.imfpmediaplayer_getnativevideosize, mfplay/IMFPMediaPlayer::GetNativeVideoSize
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetNativeVideoSize"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetNativeVideoSize"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

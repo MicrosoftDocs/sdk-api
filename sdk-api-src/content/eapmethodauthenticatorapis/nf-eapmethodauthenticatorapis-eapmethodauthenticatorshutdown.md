@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
 ms.topic: function
-f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown"]
+f1_keywords: 
+ - "eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown"
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

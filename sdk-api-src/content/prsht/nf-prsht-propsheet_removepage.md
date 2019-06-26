@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropSheet_RemovePage, PropSheet_RemovePage macro [Windows Controls], _win32_PropSheet_RemovePage, _win32_PropSheet_RemovePage_cpp, controls.PropSheet_RemovePage, controls._win32_PropSheet_RemovePage, prsht/PropSheet_RemovePage
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_RemovePage"]
+f1_keywords: 
+ - "prsht/PropSheet_RemovePage"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

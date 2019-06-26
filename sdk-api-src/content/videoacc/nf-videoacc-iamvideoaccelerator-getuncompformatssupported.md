@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUncompFormatsSupported, GetUncompFormatsSupported method [DirectShow], GetUncompFormatsSupported method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetUncompFormatsSupported method, IAMVideoAccelerator.GetUncompFormatsSupported, IAMVideoAccelerator::GetUncompFormatsSupported, IAMVideoAcceleratorGetUncompFormatsSupported, dshow.iamvideoaccelerator_getuncompformatssupported, videoacc/IAMVideoAccelerator::GetUncompFormatsSupported
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAccelerator.GetUncompFormatsSupported"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator.GetUncompFormatsSupported"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

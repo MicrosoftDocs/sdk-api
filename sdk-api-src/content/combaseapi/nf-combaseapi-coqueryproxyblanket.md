@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoQueryProxyBlanket, CoQueryProxyBlanket function [COM], _com_CoQueryProxyBlanket, com.coqueryproxyblanket, combaseapi/CoQueryProxyBlanket
 ms.topic: function
-f1_keywords: ["combaseapi/CoQueryProxyBlanket"]
+f1_keywords: 
+ - "combaseapi/CoQueryProxyBlanket"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

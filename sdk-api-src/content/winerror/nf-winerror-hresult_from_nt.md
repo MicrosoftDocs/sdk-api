@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FROM_NT, HRESULT_FROM_NT macro [COM], _com_HRESULT_FROM_NT, com.hresult_from_nt, com.hresult_from_nt_macro, winerror/HRESULT_FROM_NT
 ms.topic: macro
-f1_keywords: ["winerror/HRESULT_FROM_NT"]
+f1_keywords: 
+ - "winerror/HRESULT_FROM_NT"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

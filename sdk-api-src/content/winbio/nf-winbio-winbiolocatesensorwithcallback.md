@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
 ms.topic: function
-f1_keywords: ["winbio/WinBioLocateSensorWithCallback"]
+f1_keywords: 
+ - "winbio/WinBioLocateSensorWithCallback"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

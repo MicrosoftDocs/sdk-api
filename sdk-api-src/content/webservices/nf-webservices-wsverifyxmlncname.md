@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsVerifyXmlNCName, WsVerifyXmlNCName function [Web Services for Windows], webservices/WsVerifyXmlNCName, wsw.wsverifyxmlncname
 ms.topic: function
-f1_keywords: ["webservices/WsVerifyXmlNCName"]
+f1_keywords: 
+ - "webservices/WsVerifyXmlNCName"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

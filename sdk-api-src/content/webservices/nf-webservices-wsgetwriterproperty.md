@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetWriterProperty, WsGetWriterProperty function [Web Services for Windows], webservices/WsGetWriterProperty, wsw.wsgetwriterproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetWriterProperty"]
+f1_keywords: 
+ - "webservices/WsGetWriterProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

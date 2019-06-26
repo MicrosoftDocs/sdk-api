@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
 ms.topic: function
-f1_keywords: ["ole2/OleDoAutoConvert"]
+f1_keywords: 
+ - "ole2/OleDoAutoConvert"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

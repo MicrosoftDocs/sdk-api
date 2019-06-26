@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetBackgroundColor method, IDesktopWallpaper.SetBackgroundColor, IDesktopWallpaper::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetBackgroundColor, shobjidl_core/IDesktopWallpaper::SetBackgroundColor
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.SetBackgroundColor"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.SetBackgroundColor"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp interface [DirectShow],NotifyRelease method, IMemAllocatorNotifyCallbackTemp.NotifyRelease, IMemAllocatorNotifyCallbackTemp::NotifyRelease, IMemAllocatorNotifyCallbackTempNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IMemAllocatorNotifyCallbackTemp interface, dshow.imemallocatornotifycallbacktemp_notifyrelease, strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease
 ms.topic: method
-f1_keywords: ["strmif/IMemAllocatorNotifyCallbackTemp.NotifyRelease"]
+f1_keywords: 
+ - "strmif/IMemAllocatorNotifyCallbackTemp.NotifyRelease"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

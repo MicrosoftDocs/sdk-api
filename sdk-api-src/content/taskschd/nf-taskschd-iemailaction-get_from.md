@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],From property, IEmailAction.From, IEmailAction.get_From, IEmailAction::From, IEmailAction::get_From, IEmailAction::put_From, get_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
 ms.topic: method
-f1_keywords: ["taskschd/IEmailAction.From"]
+f1_keywords: 
+ - "taskschd/IEmailAction.From"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
 ms.topic: function
-f1_keywords: ["magnification/MagSetWindowTransform"]
+f1_keywords: 
+ - "magnification/MagSetWindowTransform"
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

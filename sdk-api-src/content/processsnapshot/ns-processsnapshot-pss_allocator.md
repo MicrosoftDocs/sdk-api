@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_ALLOCATOR, PSS_ALLOCATOR structure, proc_snap.pss_allocator, processsnapshot/PSS_ALLOCATOR
 ms.topic: struct
-f1_keywords: ["processsnapshot/PSS_ALLOCATOR"]
+f1_keywords: 
+ - "processsnapshot/PSS_ALLOCATOR"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetReferences method, IWMDMStorage4.GetReferences, IWMDMStorage4::GetReferences, IWMDMStorage4GetReferences, mswmdm/IWMDMStorage4::GetReferences, wmdm.iwmdmstorage4_getreferences
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage4.GetReferences"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage4.GetReferences"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

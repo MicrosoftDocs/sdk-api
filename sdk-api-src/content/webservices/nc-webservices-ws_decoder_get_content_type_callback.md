@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

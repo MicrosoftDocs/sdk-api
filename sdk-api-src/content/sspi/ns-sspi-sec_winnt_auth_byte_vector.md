@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security], SEC_WINNT_AUTH_BYTE_VECTOR, SEC_WINNT_AUTH_BYTE_VECTOR structure [Security], security.sec_winnt_auth_byte_vector, sspi/PSEC_WINNT_AUTH_BYTE_VECTOR, sspi/SEC_WINNT_AUTH_BYTE_VECTOR"
 ms.topic: struct
-f1_keywords: ["sspi/SEC_WINNT_AUTH_BYTE_VECTOR"]
+f1_keywords: 
+ - "sspi/SEC_WINNT_AUTH_BYTE_VECTOR"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration, PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer, _win32_element_type_str, base.element_type_str, winioctl/AllElements, winioctl/ChangerDoor, winioctl/ChangerDrive, winioctl/ChangerIEPort, winioctl/ChangerKeypad, winioctl/ChangerSlot, winioctl/ChangerTransport, winioctl/ELEMENT_TYPE, winioctl/PELEMENT_TYPE"
 ms.topic: enum
-f1_keywords: ["winioctl/ELEMENT_TYPE"]
+f1_keywords: 
+ - "winioctl/ELEMENT_TYPE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

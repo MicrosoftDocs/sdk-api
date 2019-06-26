@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubunit, GetSubunit method [Core Audio], GetSubunit method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunit method, IDeviceTopology.GetSubunit, IDeviceTopology::GetSubunit, IDeviceTopologyGetSubunit, coreaudio.idevicetopology_getsubunit, devicetopology/IDeviceTopology::GetSubunit
 ms.topic: method
-f1_keywords: ["devicetopology/IDeviceTopology.GetSubunit"]
+f1_keywords: 
+ - "devicetopology/IDeviceTopology.GetSubunit"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

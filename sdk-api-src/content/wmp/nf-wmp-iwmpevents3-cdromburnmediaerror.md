@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CdromBurnMediaError, CdromBurnMediaError method [Windows Media Player], CdromBurnMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnMediaError method, IWMPEvents3.CdromBurnMediaError, IWMPEvents3::CdromBurnMediaError, IWMPEvents3CdromBurnMediaError, wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror, wmp/IWMPEvents3::CdromBurnMediaError
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents3.CdromBurnMediaError"]
+f1_keywords: 
+ - "wmp/IWMPEvents3.CdromBurnMediaError"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

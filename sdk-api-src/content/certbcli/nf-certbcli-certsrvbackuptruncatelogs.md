@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvBackupTruncateLogs"]
+f1_keywords: 
+ - "certbcli/CertSrvBackupTruncateLogs"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

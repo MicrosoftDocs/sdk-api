@@ -11,7 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia],described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
 ms.topic: interface
-f1_keywords: ["vfw/IAVIFile"]
+f1_keywords: 
+ - "vfw/IAVIFile"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

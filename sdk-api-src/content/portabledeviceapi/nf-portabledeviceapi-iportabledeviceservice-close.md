@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Close method, IPortableDeviceService.Close, IPortableDeviceService::Close, portabledeviceapi/IPortableDeviceService::Close, wpdsdk.iportabledeviceservice_close
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceService.Close"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceService.Close"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

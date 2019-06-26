@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_CLOSE_COMPLETION_FLAGS, CF_CALLBACK_CLOSE_COMPLETION_FLAGS enumeration, CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_close_completion_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

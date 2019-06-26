@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
 ms.topic: interface
-f1_keywords: ["tapi3if/ITLocationInfo"]
+f1_keywords: 
+ - "tapi3if/ITLocationInfo"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateContentDecryptorContext"]
+f1_keywords: 
+ - "mfidl/MFCreateContentDecryptorContext"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

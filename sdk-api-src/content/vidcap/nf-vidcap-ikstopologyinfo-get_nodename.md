@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
 ms.topic: method
-f1_keywords: ["vidcap/IKsTopologyInfo.get_NodeName"]
+f1_keywords: 
+ - "vidcap/IKsTopologyInfo.get_NodeName"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

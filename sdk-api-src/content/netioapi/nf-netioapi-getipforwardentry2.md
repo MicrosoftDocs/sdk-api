@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpForwardEntry2, GetIpForwardEntry2 function [IP Helper], iphlp.getipforwardentry2, netioapi/GetIpForwardEntry2
 ms.topic: function
-f1_keywords: ["netioapi/GetIpForwardEntry2"]
+f1_keywords: 
+ - "netioapi/GetIpForwardEntry2"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

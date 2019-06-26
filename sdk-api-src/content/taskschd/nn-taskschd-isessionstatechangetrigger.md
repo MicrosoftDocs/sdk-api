@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], ISessionStateChangeTrigger interface [Task Scheduler],described, taskschd.isessionstatechangetrigger, taskschd/ISessionStateChangeTrigger
 ms.topic: interface
-f1_keywords: ["taskschd/ISessionStateChangeTrigger"]
+f1_keywords: 
+ - "taskschd/ISessionStateChangeTrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

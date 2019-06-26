@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole_CreateFormatEnumerator, com.createformatenumerator, urlmon/CreateFormatEnumerator
 ms.topic: function
-f1_keywords: ["urlmon/CreateFormatEnumerator"]
+f1_keywords: 
+ - "urlmon/CreateFormatEnumerator"
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsRadioOn method, IDot11AdHocInterface.IsRadioOn, IDot11AdHocInterface::IsRadioOn, IsRadioOn, IsRadioOn method [NativeWIFI], IsRadioOn method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsRadioOn, nwifi.idot11adhocinterface_isradioon
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterface.IsRadioOn"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterface.IsRadioOn"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

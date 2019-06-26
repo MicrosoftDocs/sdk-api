@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrencyFormat, GetCurrencyFormat function [Internationalization for Windows Applications], GetCurrencyFormatA, GetCurrencyFormatW, _win32_GetCurrencyFormat, intl.getcurrencyformat, winnls/GetCurrencyFormat, winnls/GetCurrencyFormatA, winnls/GetCurrencyFormatW
 ms.topic: function
-f1_keywords: ["winnls/GetCurrencyFormat"]
+f1_keywords: 
+ - "winnls/GetCurrencyFormat"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

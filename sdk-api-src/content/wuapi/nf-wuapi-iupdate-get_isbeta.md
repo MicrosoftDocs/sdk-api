@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsBeta property, IUpdate.IsBeta, IUpdate.get_IsBeta, IUpdate::IsBeta, IUpdate::get_IsBeta, IsBeta property [Windows Update Agent], IsBeta property [Windows Update Agent],IUpdate interface, get_IsBeta, wua.iupdate_isbeta, wuapi/IUpdate::IsBeta, wuapi/IUpdate::get_IsBeta
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.IsBeta"]
+f1_keywords: 
+ - "wuapi/IUpdate.IsBeta"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

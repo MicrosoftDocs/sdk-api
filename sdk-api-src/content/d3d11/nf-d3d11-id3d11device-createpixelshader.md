@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 60e28609-f849-5247-ceff-56bd9925d775, CreatePixelShader, CreatePixelShader method [Direct3D 11], CreatePixelShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePixelShader method, ID3D11Device.CreatePixelShader, ID3D11Device::CreatePixelShader, d3d11/ID3D11Device::CreatePixelShader, direct3d11.id3d11device_createpixelshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreatePixelShader"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreatePixelShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

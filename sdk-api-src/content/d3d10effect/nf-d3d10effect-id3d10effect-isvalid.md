@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Effect interface [Direct3D 10],IsValid method, ID3D10Effect.IsValid, ID3D10Effect::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsValid, d84d4878-14e4-0af4-cf30-82cba30bb91c, direct3d10.id3d10effect_isvalid
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10Effect.IsValid"]
+f1_keywords: 
+ - "d3d10effect/ID3D10Effect.IsValid"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

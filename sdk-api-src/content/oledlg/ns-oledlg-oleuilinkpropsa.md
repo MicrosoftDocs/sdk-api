@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOLEUILINKPROPSA, *POLEUILINKPROPSA, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS"
 ms.topic: struct
-f1_keywords: ["oledlg/OLEUILINKPROPS"]
+f1_keywords: 
+ - "oledlg/OLEUILINKPROPS"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

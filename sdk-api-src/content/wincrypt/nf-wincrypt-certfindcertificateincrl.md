@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindCertificateInCRL, CertFindCertificateInCRL function [Security], _crypto2_certfindcertificateincrl, security.certfindcertificateincrl, wincrypt/CertFindCertificateInCRL
 ms.topic: function
-f1_keywords: ["wincrypt/CertFindCertificateInCRL"]
+f1_keywords: 
+ - "wincrypt/CertFindCertificateInCRL"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

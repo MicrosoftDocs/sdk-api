@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink, ITransferAdviseSink interface [Windows Shell], ITransferAdviseSink interface [Windows Shell],described, _shell_ITransferAdviseSink, shell.ITransferAdviseSink, shobjidl_core/ITransferAdviseSink
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ITransferAdviseSink"]
+f1_keywords: 
+ - "shobjidl_core/ITransferAdviseSink"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

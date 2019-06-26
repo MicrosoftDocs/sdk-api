@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.GetClipFactor"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.GetClipFactor"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

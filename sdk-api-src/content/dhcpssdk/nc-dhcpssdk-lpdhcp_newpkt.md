@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.topic: callback
-f1_keywords: ["dhcpssdk/DhcpNewPktHook"]
+f1_keywords: 
+ - "dhcpssdk/DhcpNewPktHook"
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

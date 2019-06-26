@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminPortEnum"]
+f1_keywords: 
+ - "mprapi/MprAdminPortEnum"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmQuotaObject.MatchesSourceTemplate, IFsrmQuotaObject.get_MatchesSourceTemplate, IFsrmQuotaObject::MatchesSourceTemplate, IFsrmQuotaObject::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_matchessourcetemplate, fsrm.ifsrmquotaobject_matchessourcetemplate, fsrmquota/IFsrmQuotaObject::MatchesSourceTemplate, fsrmquota/IFsrmQuotaObject::get_MatchesSourceTemplate, get_MatchesSourceTemplate
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaObject.MatchesSourceTemplate"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaObject.MatchesSourceTemplate"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

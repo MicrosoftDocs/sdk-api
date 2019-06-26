@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization
 ms.topic: enum
-f1_keywords: ["wmcodecdsp/MFVideoDSPMode"]
+f1_keywords: 
+ - "wmcodecdsp/MFVideoDSPMode"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

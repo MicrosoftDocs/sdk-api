@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
 ms.topic: function
-f1_keywords: ["lpmapi/LPM_GetRsvpObjects"]
+f1_keywords: 
+ - "lpmapi/LPM_GetRsvpObjects"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and management], IAppxBundleReader interface [App packaging and management],described, appxpackaging/IAppxBundleReader, appxpkg.iappxbundlereader
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxBundleReader"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleReader"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

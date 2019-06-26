@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
 ms.topic: method
-f1_keywords: ["searchapi/ISearchLanguageSupport.IsPrefixNormalized"]
+f1_keywords: 
+ - "searchapi/ISearchLanguageSupport.IsPrefixNormalized"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

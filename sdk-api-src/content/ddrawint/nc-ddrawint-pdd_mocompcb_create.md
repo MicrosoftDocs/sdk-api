@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompCreate, DdMoCompCreate callback function [Display Devices], PDD_MOCOMPCB_CREATE, PDD_MOCOMPCB_CREATE callback, ddfncs_b5650d61-0a79-494a-acd7-231d2e859c30.xml, ddrawint/DdMoCompCreate, display.ddmocompcreate
 ms.topic: callback
-f1_keywords: ["ddrawint/DdMoCompCreate"]
+f1_keywords: 
+ - "ddrawint/DdMoCompCreate"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_PASSWORD_ENCODE_CLEAR, ADS_PASSWORD_ENCODE_REQUIRE_SSL, ADS_PASSWORD_ENCODING_ENUM, ADS_PASSWORD_ENCODING_ENUM enumeration [ADSI], adsi.ads_password_encoding_enum, iads/ADS_PASSWORD_ENCODE_CLEAR, iads/ADS_PASSWORD_ENCODE_REQUIRE_SSL, iads/ADS_PASSWORD_ENCODING_ENUM
 ms.topic: enum
-f1_keywords: ["iads/ADS_PASSWORD_ENCODING_ENUM"]
+f1_keywords: 
+ - "iads/ADS_PASSWORD_ENCODING_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

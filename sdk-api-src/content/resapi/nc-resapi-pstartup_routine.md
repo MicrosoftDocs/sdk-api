@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Cluster], Startup, Startup callback, Startup callback function [Failover Cluster], _wolf_startup, mscs.startup, resapi/PSTARTUP_ROUTINE, resapi/Startup
 ms.topic: callback
-f1_keywords: ["resapi/Startup"]
+f1_keywords: 
+ - "resapi/Startup"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

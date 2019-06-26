@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
 ms.topic: method
-f1_keywords: ["wsdxml/IWSDXMLContext.SetTypes"]
+f1_keywords: 
+ - "wsdxml/IWSDXMLContext.SetTypes"
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCmpC, StrCmpC function [Windows Shell], StrCmpCA, StrCmpCW, _shell_StrCmpC, shell.StrCmpC, shlwapi/StrCmpC, shlwapi/StrCmpCA, shlwapi/StrCmpCW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCmpC"]
+f1_keywords: 
+ - "shlwapi/StrCmpC"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

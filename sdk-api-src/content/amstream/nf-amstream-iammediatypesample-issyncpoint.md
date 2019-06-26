@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsSyncPoint method, IAMMediaTypeSample.IsSyncPoint, IAMMediaTypeSample::IsSyncPoint, IAMMediaTypeSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsSyncPoint, dshow.iammediatypesample_issyncpoint
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeSample.IsSyncPoint"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample.IsSyncPoint"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

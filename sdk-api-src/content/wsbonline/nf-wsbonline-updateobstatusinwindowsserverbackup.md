@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerBackup function [Windows Server Backup], wsb.updateobstatusinwindowsserverbackup, wsbonline/UpdateOBStatusInWindowsServerBackup
 ms.topic: function
-f1_keywords: ["wsbonline/UpdateOBStatusInWindowsServerBackup"]
+f1_keywords: 
+ - "wsbonline/UpdateOBStatusInWindowsServerBackup"
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

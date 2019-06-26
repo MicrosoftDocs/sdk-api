@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions],described, msopc/IOpcCertificateSet, opc.iopccertificateset
 ms.topic: interface
-f1_keywords: ["msopc/IOpcCertificateSet"]
+f1_keywords: 
+ - "msopc/IOpcCertificateSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

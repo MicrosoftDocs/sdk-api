@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],CleanUp method, IInstallationJob.CleanUp, IInstallationJob::CleanUp, wua.iinstallationjob_cleanup, wuapi/IInstallationJob::CleanUp
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationJob.CleanUp"]
+f1_keywords: 
+ - "wuapi/IInstallationJob.CleanUp"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.topic: method
-f1_keywords: ["netfw/INetFwMgr.IsPortAllowed"]
+f1_keywords: 
+ - "netfw/INetFwMgr.IsPortAllowed"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

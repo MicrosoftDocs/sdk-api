@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
 ms.topic: function
-f1_keywords: ["ktmw32/CreateTransaction"]
+f1_keywords: 
+ - "ktmw32/CreateTransaction"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableIdExt, GetTableIdExt method [Microsoft TV Technologies], GetTableIdExt method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTableIdExt method, IISDB_SDTT.GetTableIdExt, IISDB_SDTT::GetTableIdExt, dvbsiparser/IISDB_SDTT::GetTableIdExt, mstv.iisdb_sdtt_gettableidext
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_SDTT.GetTableIdExt"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_SDTT.GetTableIdExt"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

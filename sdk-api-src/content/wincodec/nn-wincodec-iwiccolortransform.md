@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICColorTransform, IWICColorTransform interface [Windows Imaging Component], IWICColorTransform interface [Windows Imaging Component],described, _wic_codec_iwiccolortransform, wic._wic_codec_iwiccolortransform, wincodec/IWICColorTransform
 ms.topic: interface
-f1_keywords: ["wincodec/IWICColorTransform"]
+f1_keywords: 
+ - "wincodec/IWICColorTransform"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

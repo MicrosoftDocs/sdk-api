@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],EncryptionStrength property, IX509CertificateRequestPkcs10V3.EncryptionStrength, IX509CertificateRequestPkcs10V3.get_EncryptionStrength, IX509CertificateRequestPkcs10V3::EncryptionStrength, IX509CertificateRequestPkcs10V3::get_EncryptionStrength, IX509CertificateRequestPkcs10V3::put_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionStrength, get_EncryptionStrength, security.ix509certificaterequestpkcs10v3_encryptionstrength
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs10V3.EncryptionStrength"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs10V3.EncryptionStrength"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

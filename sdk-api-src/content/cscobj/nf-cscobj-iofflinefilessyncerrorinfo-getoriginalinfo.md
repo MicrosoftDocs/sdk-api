@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

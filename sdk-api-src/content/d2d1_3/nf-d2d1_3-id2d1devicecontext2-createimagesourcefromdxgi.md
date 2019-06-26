@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateImageSourceFromDxgi, CreateImageSourceFromDxgi method [Direct2D], CreateImageSourceFromDxgi method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromDxgi method, ID2D1DeviceContext2.CreateImageSourceFromDxgi, ID2D1DeviceContext2::CreateImageSourceFromDxgi, d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi, direct2d.id2d1devicecontext2_createimagesourcefromdxgi
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromDxgi"]
+f1_keywords: 
+ - "d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromDxgi"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

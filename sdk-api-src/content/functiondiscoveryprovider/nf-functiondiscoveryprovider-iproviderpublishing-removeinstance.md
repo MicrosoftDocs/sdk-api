@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderPublishing.RemoveInstance"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderPublishing.RemoveInstance"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

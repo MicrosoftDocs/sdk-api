@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetRecordName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordName method, IWMMutualExclusion2.GetRecordName, IWMMutualExclusion2::GetRecordName, IWMMutualExclusion2GetRecordName, wmformat.iwmmutualexclusion2_getrecordname, wmsdkidl/IWMMutualExclusion2::GetRecordName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion2.GetRecordName"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion2.GetRecordName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMCanvas.GetDictionaryLocal, IXpsOMCanvas::GetDictionaryLocal, xps.ixpsomcanvas_getdictionarylocal, xpsobjectmodel/IXpsOMCanvas::GetDictionaryLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas.GetDictionaryLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas.GetDictionaryLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

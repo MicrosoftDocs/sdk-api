@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO"
 ms.topic: struct
-f1_keywords: ["winuser/TITLEBARINFO"]
+f1_keywords: 
+ - "winuser/TITLEBARINFO"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

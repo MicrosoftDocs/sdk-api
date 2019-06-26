@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix, GetMatrix method [Direct3D 10], GetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrix method, ID3D10EffectMatrixVariable.GetMatrix, ID3D10EffectMatrixVariable::GetMatrix, d3d10effect/ID3D10EffectMatrixVariable::GetMatrix, direct3d10.id3d10effectmatrixvariable_getmatrix
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectMatrixVariable.GetMatrix"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectMatrixVariable.GetMatrix"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanRoute, CanRoute method [DirectShow], CanRoute method [DirectShow],IAMCrossbar interface, IAMCrossbar interface [DirectShow],CanRoute method, IAMCrossbar.CanRoute, IAMCrossbar::CanRoute, IAMCrossbarCanRoute, dshow.iamcrossbar_canroute, strmif/IAMCrossbar::CanRoute
 ms.topic: method
-f1_keywords: ["strmif/IAMCrossbar.CanRoute"]
+f1_keywords: 
+ - "strmif/IAMCrossbar.CanRoute"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

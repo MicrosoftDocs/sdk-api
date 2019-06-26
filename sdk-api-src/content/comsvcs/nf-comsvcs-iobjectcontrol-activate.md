@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],IObjectControl interface, IObjectControl interface [COM+],Activate method, IObjectControl.Activate, IObjectControl::Activate, _cos_IObjectControl_Activate, comsvcs/IObjectControl::Activate, cos.iobjectcontrol_activate
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectControl.Activate"]
+f1_keywords: 
+ - "comsvcs/IObjectControl.Activate"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

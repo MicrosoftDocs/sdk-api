@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpQueryContextAttributes, SpQueryContextAttributes callback function [Security], SpQueryContextAttributesFn, SpQueryContextAttributesFn callback, _ssp_spquerycontextattributes, ntsecpkg/SpQueryContextAttributes, security.spquerycontextattributes
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpQueryContextAttributes"]
+f1_keywords: 
+ - "ntsecpkg/SpQueryContextAttributes"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

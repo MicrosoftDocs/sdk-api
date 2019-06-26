@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiTarget.Delete"]
+f1_keywords: 
+ - "vds/IVdsIscsiTarget.Delete"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], IStreamBufferConfigure3 interface [Microsoft TV Technologies],described, IStreamBufferConfigure3Interface, mstv.istreambufferconfigure3, sbe/IStreamBufferConfigure3
 ms.topic: interface
-f1_keywords: ["sbe/IStreamBufferConfigure3"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure3"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

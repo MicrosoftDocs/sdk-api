@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], IDirect3DDeviceManager9 interface [Media Foundation],described, dxva2api/IDirect3DDeviceManager9, e661e666-dc51-4a71-9ecd-62a667bb217d, mf.idirect3ddevicemanager9
 ms.topic: interface
-f1_keywords: ["dxva2api/IDirect3DDeviceManager9"]
+f1_keywords: 
+ - "dxva2api/IDirect3DDeviceManager9"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

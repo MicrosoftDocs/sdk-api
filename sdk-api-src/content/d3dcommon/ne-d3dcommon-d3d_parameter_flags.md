@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D_PARAMETER_FLAGS, D3D_PARAMETER_FLAGS enumeration [Direct3D 11], D3D_PF_FORCE_DWORD, D3D_PF_IN, D3D_PF_NONE, D3D_PF_OUT, d3dcommon/D3D_PARAMETER_FLAGS, d3dcommon/D3D_PF_FORCE_DWORD, d3dcommon/D3D_PF_IN, d3dcommon/D3D_PF_NONE, d3dcommon/D3D_PF_OUT, direct3d11.d3d_parameter_flags
 ms.topic: enum
-f1_keywords: ["d3dcommon/D3D_PARAMETER_FLAGS"]
+f1_keywords: 
+ - "d3dcommon/D3D_PARAMETER_FLAGS"
 req.header: d3dcommon.h
 req.include-header: D3D11Shader.h
 req.target-type: Windows

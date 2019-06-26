@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [Media Foundation], GetPreferredClsidByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsidByIndex method, IMFPluginControl.GetPreferredClsidByIndex, IMFPluginControl::GetPreferredClsidByIndex, mf.imfplugincontrol_imfplugincontrol__getpreferredclsidbyindex, mfobjects/IMFPluginControl::GetPreferredClsidByIndex
 ms.topic: method
-f1_keywords: ["mfobjects/IMFPluginControl.GetPreferredClsidByIndex"]
+f1_keywords: 
+ - "mfobjects/IMFPluginControl.GetPreferredClsidByIndex"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

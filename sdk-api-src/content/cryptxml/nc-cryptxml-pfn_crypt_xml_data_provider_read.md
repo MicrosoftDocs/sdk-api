@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ callback, PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ, security.pfn_crypt_xml_data_provider_read
 ms.topic: callback
-f1_keywords: ["cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ"]
+f1_keywords: 
+ - "cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

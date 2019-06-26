@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs7.InitializeFromTemplateName"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs7.InitializeFromTemplateName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

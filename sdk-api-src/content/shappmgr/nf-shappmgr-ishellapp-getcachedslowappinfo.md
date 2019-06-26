@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedSlowAppInfo, GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetCachedSlowAppInfo method, IShellApp.GetCachedSlowAppInfo, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
 ms.topic: method
-f1_keywords: ["shappmgr/IShellApp.GetCachedSlowAppInfo"]
+f1_keywords: 
+ - "shappmgr/IShellApp.GetCachedSlowAppInfo"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

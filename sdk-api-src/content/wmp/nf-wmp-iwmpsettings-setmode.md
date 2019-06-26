@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],setMode method, IWMPSettings.setMode, IWMPSettings::setMode, IWMPSettingssetMode, setMode, setMode method [Windows Media Player], setMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_setmode, wmp/IWMPSettings::setMode
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.setMode"]
+f1_keywords: 
+ - "wmp/IWMPSettings.setMode"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

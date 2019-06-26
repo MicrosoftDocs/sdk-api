@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteType, DeleteType method [Human Input Devices], DeleteType method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteType method, IDirectInputJoyConfig8.DeleteType, IDirectInputJoyConfig8::DeleteType, di_ref_09e54785-5e07-4eba-bcd7-a3e016923ae3.xml, dinputd/IDirectInputJoyConfig8::DeleteType, hid.idirectinputjoyconfig8_deletetype
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputJoyConfig8.DeleteType"]
+f1_keywords: 
+ - "dinputd/IDirectInputJoyConfig8.DeleteType"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

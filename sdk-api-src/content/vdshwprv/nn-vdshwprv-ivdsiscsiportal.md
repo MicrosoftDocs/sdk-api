@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS],described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsIscsiPortal"]
+f1_keywords: 
+ - "vdshwprv/IVdsIscsiPortal"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

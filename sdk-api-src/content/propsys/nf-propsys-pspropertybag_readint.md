@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadInt, PSPropertyBag_ReadInt function [Windows Properties], properties.PSPropertyBag_ReadInt, propsys/PSPropertyBag_ReadInt, shell.PSPropertyBag_ReadInt, shell_PSPropertyBag_ReadInt
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_ReadInt"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_ReadInt"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

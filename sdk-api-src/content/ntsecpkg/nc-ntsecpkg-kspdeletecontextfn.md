@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KspDeleteContextFn, KspDeleteContextFn callback, SpDeleteContext, SpDeleteContext callback function [Security], _ssp_spdeletecontext, ntsecpkg/SpDeleteContext, security.spdeletecontext
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpDeleteContext"]
+f1_keywords: 
+ - "ntsecpkg/SpDeleteContext"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

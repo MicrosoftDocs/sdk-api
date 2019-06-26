@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_LegacyDeviceNumber method, IDiscRecorder2.get_LegacyDeviceNumber, IDiscRecorder2::get_LegacyDeviceNumber, get_LegacyDeviceNumber, get_LegacyDeviceNumber method [IMAPI], get_LegacyDeviceNumber method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_legacydevicenumber, imapi2/IDiscRecorder2::get_LegacyDeviceNumber
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2.get_LegacyDeviceNumber"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2.get_LegacyDeviceNumber"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP.RequestSupportedAttrs, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.RequestSupportedAttrs"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.RequestSupportedAttrs"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

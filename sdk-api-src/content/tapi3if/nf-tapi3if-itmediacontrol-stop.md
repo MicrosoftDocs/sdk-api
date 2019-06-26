@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Stop method, ITMediaControl.Stop, ITMediaControl::Stop, Stop, Stop method [TAPI 2.2], Stop method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_stop, tapi3.itmediacontrol_stop, tapi3if/ITMediaControl::Stop
 ms.topic: method
-f1_keywords: ["tapi3if/ITMediaControl.Stop"]
+f1_keywords: 
+ - "tapi3if/ITMediaControl.Stop"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

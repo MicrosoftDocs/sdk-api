@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromGUIDAsBuffer"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromGUIDAsBuffer"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

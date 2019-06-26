@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Reset method, IEnumSearchRoots.Reset, IEnumSearchRoots::Reset, Reset, Reset method [search], Reset method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Reset, search._search_IEnumSearchRoots_Reset, searchapi/IEnumSearchRoots::Reset
 ms.topic: method
-f1_keywords: ["searchapi/IEnumSearchRoots.Reset"]
+f1_keywords: 
+ - "searchapi/IEnumSearchRoots.Reset"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

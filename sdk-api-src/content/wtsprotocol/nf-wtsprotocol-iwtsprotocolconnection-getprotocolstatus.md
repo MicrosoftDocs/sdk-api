@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWTSProtocolConnection.GetProtocolStatus, IWTSProtocolConnection::GetProtocolStatus, termserv.iwtsprotocolconnection_getprotocolstatus, wtsprotocol/IWTSProtocolConnection::GetProtocolStatus
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.GetProtocolStatus"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.GetProtocolStatus"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

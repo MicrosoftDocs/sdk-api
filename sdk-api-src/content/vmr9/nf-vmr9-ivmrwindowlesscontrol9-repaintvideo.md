@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],RepaintVideo method, IVMRWindowlessControl9.RepaintVideo, IVMRWindowlessControl9::RepaintVideo, IVMRWindowlessControl9RepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_repaintvideo, vmr9/IVMRWindowlessControl9::RepaintVideo
 ms.topic: method
-f1_keywords: ["vmr9/IVMRWindowlessControl9.RepaintVideo"]
+f1_keywords: 
+ - "vmr9/IVMRWindowlessControl9.RepaintVideo"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWRdsProtocolConnection.GetLastInputTime, IWRdsProtocolConnection::GetLastInputTime, termserv.iwrdsprotocolconnection_getlastinputtime, wtsprotocol/IWRdsProtocolConnection::GetLastInputTime
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.GetLastInputTime"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.GetLastInputTime"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

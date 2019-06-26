@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpatialAudioObject.SetPosition, ISpatialAudioObject::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioObject.SetPosition"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObject.SetPosition"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCategoryForSCID, GetCategoryForSCID method [Windows Shell], GetCategoryForSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryForSCID method, ICategoryProvider.GetCategoryForSCID, ICategoryProvider::GetCategoryForSCID, inet_ICategoryProvider_GetCategoryForSCID, shell.ICategoryProvider_GetCategoryForSCID, shobjidl_core/ICategoryProvider::GetCategoryForSCID
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICategoryProvider.GetCategoryForSCID"]
+f1_keywords: 
+ - "shobjidl_core/ICategoryProvider.GetCategoryForSCID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

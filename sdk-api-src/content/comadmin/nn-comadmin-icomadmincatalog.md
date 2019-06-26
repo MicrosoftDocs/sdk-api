@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
 ms.topic: interface
-f1_keywords: ["comadmin/ICOMAdminCatalog"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample
 ms.topic: interface
-f1_keywords: ["mmstream/IStreamSample"]
+f1_keywords: 
+ - "mmstream/IStreamSample"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

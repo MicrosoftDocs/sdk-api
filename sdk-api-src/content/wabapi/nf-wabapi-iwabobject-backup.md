@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [Windows Address Book], Backup method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Backup method, IWABObject.Backup, IWABObject::Backup, _wab_IWABObject_Backup, wab._wab_IWABObject_Backup, wabapi/IWABObject::Backup
 ms.topic: method
-f1_keywords: ["wabapi/IWABObject.Backup"]
+f1_keywords: 
+ - "wabapi/IWABObject.Backup"
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

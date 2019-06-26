@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutline, GetOutline method [Windows Controls], GetOutline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetOutline method, ITextFont.GetOutline, ITextFont::GetOutline, _win32_ITextFont_GetOutline, _win32_ITextFont_GetOutline_cpp, controls.ITextFont_GetOutline, controls._win32_ITextFont_GetOutline, tom/ITextFont::GetOutline
 ms.topic: method
-f1_keywords: ["tom/ITextFont.GetOutline"]
+f1_keywords: 
+ - "tom/ITextFont.GetOutline"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

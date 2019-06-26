@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?EndRead@CThreadBase@@QAEXXZ, CThreadBase interface [Windows Management Instrumentation],EndRead method, CThreadBase.EndRead, CThreadBase::EndRead, EndRead, EndRead method [Windows Management Instrumentation], EndRead method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndRead, wmi.cthreadbase_endread"
 ms.topic: method
-f1_keywords: ["thrdbase/CThreadBase.EndRead"]
+f1_keywords: 
+ - "thrdbase/CThreadBase.EndRead"
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

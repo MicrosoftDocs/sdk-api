@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],ReleaseObjectIdRange method, IAccessibleWindowlessSite.ReleaseObjectIdRange, IAccessibleWindowlessSite::ReleaseObjectIdRange, ReleaseObjectIdRange, ReleaseObjectIdRange method [Windows Accessibility], ReleaseObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::ReleaseObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange
 ms.topic: method
-f1_keywords: ["oleacc/IAccessibleWindowlessSite.ReleaseObjectIdRange"]
+f1_keywords: 
+ - "oleacc/IAccessibleWindowlessSite.ReleaseObjectIdRange"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

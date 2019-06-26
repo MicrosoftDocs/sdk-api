@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEDEVSTATUS, LINEDEVSTATUS, LINEDEVSTATUS structure [TAPI 2.2], LPLINEDEVSTATUS, LPLINEDEVSTATUS structure pointer [TAPI 2.2], _tapi2_linedevstatus_str, tapi/LINEDEVSTATUS, tapi/LPLINEDEVSTATUS, tapi2.linedevstatus_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEDEVSTATUS"]
+f1_keywords: 
+ - "tapi/LINEDEVSTATUS"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

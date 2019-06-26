@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerProcessRequestPacket"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerProcessRequestPacket"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

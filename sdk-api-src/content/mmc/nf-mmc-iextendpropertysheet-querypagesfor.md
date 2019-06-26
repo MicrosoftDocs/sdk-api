@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendPropertySheet.QueryPagesFor, IExtendPropertySheet::QueryPagesFor, QueryPagesFor, QueryPagesFor method [MMC], QueryPagesFor method [MMC],IExtendPropertySheet interface, mmc.iextendpropertysheet_querypagesfor, mmc/IExtendPropertySheet::QueryPagesFor
 ms.topic: method
-f1_keywords: ["mmc/IExtendPropertySheet.QueryPagesFor"]
+f1_keywords: 
+ - "mmc/IExtendPropertySheet.QueryPagesFor"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

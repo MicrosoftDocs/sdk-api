@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Name property, IFsrmPropertyCondition.Name, IFsrmPropertyCondition.put_Name, IFsrmPropertyCondition::Name, IFsrmPropertyCondition::get_Name, IFsrmPropertyCondition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_name, fsrm.ifsrmpropertycondition_name, fsrmreports/IFsrmPropertyCondition::Name, fsrmreports/IFsrmPropertyCondition::get_Name, fsrmreports/IFsrmPropertyCondition::put_Name, put_Name
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmPropertyCondition.Name"]
+f1_keywords: 
+ - "fsrmreports/IFsrmPropertyCondition.Name"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

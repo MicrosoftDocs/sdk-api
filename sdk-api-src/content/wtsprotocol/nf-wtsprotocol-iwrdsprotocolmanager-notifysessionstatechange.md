@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWRdsProtocolManager.NotifySessionStateChange, IWRdsProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwrdsprotocolmanager_notifysessionstatechange, wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolManager.NotifySessionStateChange"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolManager.NotifySessionStateChange"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

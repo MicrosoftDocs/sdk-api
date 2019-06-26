@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_Enable, ScrollBar_Enable macro [Windows Controls], _win32_ScrollBar_Enable, _win32_ScrollBar_Enable_cpp, controls.ScrollBar_Enable, controls._win32_ScrollBar_Enable, windowsx/ScrollBar_Enable
 ms.topic: macro
-f1_keywords: ["windowsx/ScrollBar_Enable"]
+f1_keywords: 
+ - "windowsx/ScrollBar_Enable"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

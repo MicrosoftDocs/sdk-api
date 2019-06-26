@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataType, GetDataType method [SMI], GetDataType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetDataType method, ISettingsItem.GetDataType, ISettingsItem::GetDataType, smi.isettingsitem_getdatatype, wcmconfig/ISettingsItem::GetDataType
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.GetDataType"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.GetDataType"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceTrackerConfig interface [COM+],TrackerConfig method, IServiceTrackerConfig.TrackerConfig, IServiceTrackerConfig::TrackerConfig, TrackerConfig, TrackerConfig method [COM+], TrackerConfig method [COM+],IServiceTrackerConfig interface, _cos_IServiceTrackerConfig_TrackerConfig, comsvcs/IServiceTrackerConfig::TrackerConfig, cos.iservicetrackerconfig_trackerconfig
 ms.topic: method
-f1_keywords: ["comsvcs/IServiceTrackerConfig.TrackerConfig"]
+f1_keywords: 
+ - "comsvcs/IServiceTrackerConfig.TrackerConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/NtClose, winui.ntclose
 ms.topic: function
-f1_keywords: ["winternl/NtClose"]
+f1_keywords: 
+ - "winternl/NtClose"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

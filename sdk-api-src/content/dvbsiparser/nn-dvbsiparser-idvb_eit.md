@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies],described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IDVB_EIT"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

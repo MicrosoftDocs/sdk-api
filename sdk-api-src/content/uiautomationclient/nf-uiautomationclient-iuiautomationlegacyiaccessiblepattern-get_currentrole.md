@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, IUIAutomationLegacyIAccessiblePattern::CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

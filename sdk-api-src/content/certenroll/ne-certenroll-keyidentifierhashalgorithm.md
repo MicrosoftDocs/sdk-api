@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum
 ms.topic: enum
-f1_keywords: ["certenroll/KeyIdentifierHashAlgorithm"]
+f1_keywords: 
+ - "certenroll/KeyIdentifierHashAlgorithm"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

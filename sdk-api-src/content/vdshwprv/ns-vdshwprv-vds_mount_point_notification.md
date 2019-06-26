@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_MOUNT_POINT_NOTIFICATION, VDS_MOUNT_POINT_NOTIFICATION structure [VDS], VDS_NF_MOUNT_POINTS_CHANGE, base.vds_mount_point_notification, vds/_VDS_MOUNT_POINT_NOTIFICATION, vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_MOUNT_POINT_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_MOUNT_POINT_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

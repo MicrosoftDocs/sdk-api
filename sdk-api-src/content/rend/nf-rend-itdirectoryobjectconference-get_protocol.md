@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Protocol method, ITDirectoryObjectConference.get_Protocol, ITDirectoryObjectConference::get_Protocol, _tapi3_itdirectoryobjectconference_get_protocol, get_Protocol, get_Protocol method [TAPI 2.2], get_Protocol method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Protocol, tapi3.itdirectoryobjectconference_get_protocol
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.get_Protocol"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.get_Protocol"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

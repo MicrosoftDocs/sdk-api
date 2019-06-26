@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DVolume9 interface [Direct3D 9],SetPrivateData method, IDirect3DVolume9.SetPrivateData, IDirect3DVolume9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::SetPrivateData, direct3d9.idirect3dvolume9__setprivatedata, e78e1093-63e6-c468-61fa-034b8ab6af7a
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DVolume9.SetPrivateData"]
+f1_keywords: 
+ - "d3d9/IDirect3DVolume9.SetPrivateData"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

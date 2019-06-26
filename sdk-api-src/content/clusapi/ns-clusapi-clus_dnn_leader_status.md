@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS structure [Failover Cluster], PCLUS_DNN_LEADER_STATUS, PCLUS_DNN_LEADER_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_LEADER_STATUS, clusapi/PCLUS_DNN_LEADER_STATUS, mscs.clus_dnn_leader_status"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_DNN_LEADER_STATUS"]
+f1_keywords: 
+ - "clusapi/CLUS_DNN_LEADER_STATUS"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

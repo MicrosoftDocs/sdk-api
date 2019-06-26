@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [DirectComposition], CreateTranslateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTranslateTransform3D method, IDCompositionDevice.CreateTranslateTransform3D, IDCompositionDevice::CreateTranslateTransform3D, dcomp/IDCompositionDevice::CreateTranslateTransform3D, directcomp.idcompositiondevice_createtranslatetransform3d
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateTranslateTransform3D"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateTranslateTransform3D"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

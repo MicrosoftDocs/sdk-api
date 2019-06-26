@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
 ms.topic: function
-f1_keywords: ["pathcch/PathCchRemoveFileSpec"]
+f1_keywords: 
+ - "pathcch/PathCchRemoveFileSpec"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], mscat/CRYPTCATMEMBER, security.cryptcatmember
 ms.topic: struct
-f1_keywords: ["mscat/CRYPTCATMEMBER"]
+f1_keywords: 
+ - "mscat/CRYPTCATMEMBER"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

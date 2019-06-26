@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
 ms.topic: macro
-f1_keywords: ["winbase/HasOverlappedIoCompleted"]
+f1_keywords: 
+ - "winbase/HasOverlappedIoCompleted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

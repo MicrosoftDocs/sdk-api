@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Suspend method, IPackageDebugSettings.Suspend, IPackageDebugSettings::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Suspend, shobjidl_core/IPackageDebugSettings::Suspend
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPackageDebugSettings.Suspend"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings.Suspend"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

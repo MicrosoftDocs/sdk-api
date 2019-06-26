@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface,described, ncd.iwsdxmlcontext, wsdxml/IWSDXMLContext
 ms.topic: interface
-f1_keywords: ["wsdxml/IWSDXMLContext"]
+f1_keywords: 
+ - "wsdxml/IWSDXMLContext"
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

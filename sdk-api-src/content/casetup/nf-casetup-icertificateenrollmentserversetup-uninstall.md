@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
 ms.topic: method
-f1_keywords: ["casetup/ICertificateEnrollmentServerSetup.UnInstall"]
+f1_keywords: 
+ - "casetup/ICertificateEnrollmentServerSetup.UnInstall"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

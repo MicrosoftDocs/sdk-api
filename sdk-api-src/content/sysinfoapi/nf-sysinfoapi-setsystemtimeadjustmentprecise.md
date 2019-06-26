@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
 ms.topic: function
-f1_keywords: ["sysinfoapi/SetSystemTimeAdjustmentPrecise"]
+f1_keywords: 
+ - "sysinfoapi/SetSystemTimeAdjustmentPrecise"
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows

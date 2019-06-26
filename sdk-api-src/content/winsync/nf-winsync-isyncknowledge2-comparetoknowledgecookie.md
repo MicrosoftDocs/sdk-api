@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareToKnowledgeCookie, CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],CompareToKnowledgeCookie method, ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.CompareToKnowledgeCookie"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.CompareToKnowledgeCookie"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

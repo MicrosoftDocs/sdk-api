@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyViewWindow, DestroyViewWindow method [Windows Shell], DestroyViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],DestroyViewWindow method, IShellView.DestroyViewWindow, IShellView::DestroyViewWindow, _win32_IShellView_DestroyViewWindow, shell.IShellView_DestroyViewWindow, shobjidl_core/IShellView::DestroyViewWindow
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellView.DestroyViewWindow"]
+f1_keywords: 
+ - "shobjidl_core/IShellView.DestroyViewWindow"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

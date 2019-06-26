@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNotify method, IAudioEndpointVolume.RegisterControlChangeNotify, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.RegisterControlChangeNotify"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.RegisterControlChangeNotify"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

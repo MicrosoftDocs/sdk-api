@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

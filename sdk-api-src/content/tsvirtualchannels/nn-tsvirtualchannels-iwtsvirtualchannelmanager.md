@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelManager, IWTSVirtualChannelManager interface [Remote Desktop Services], IWTSVirtualChannelManager interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelmanager, tsvirtualchannels/IWTSVirtualChannelManager
 ms.topic: interface
-f1_keywords: ["tsvirtualchannels/IWTSVirtualChannelManager"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSVirtualChannelManager"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

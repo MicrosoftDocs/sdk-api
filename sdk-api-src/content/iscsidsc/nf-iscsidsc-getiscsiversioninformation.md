@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIScsiVersionInformation, GetIscsiVersionInformation, GetIscsiVersionInformation function [iSCSI Discovery Library API], iscsidisc.getiscsiversioninformation, iscsidsc/GetIscsiVersionInformation
 ms.topic: function
-f1_keywords: ["iscsidsc/GetIscsiVersionInformation"]
+f1_keywords: 
+ - "iscsidsc/GetIscsiVersionInformation"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

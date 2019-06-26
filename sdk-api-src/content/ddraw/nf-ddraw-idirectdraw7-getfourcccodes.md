@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.GetFourCCCodes"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.GetFourCCCodes"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

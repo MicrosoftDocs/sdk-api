@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenException interface [File Server Resource Manager],Path property, IFsrmFileScreenException.Path, IFsrmFileScreenException.get_Path, IFsrmFileScreenException::Path, IFsrmFileScreenException::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreenException interface, fs.ifsrmfilescreenexception_path, fsrm.ifsrmfilescreenexception_path, fsrmscreen/IFsrmFileScreenException::Path, fsrmscreen/IFsrmFileScreenException::get_Path, get_Path
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileScreenException.Path"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreenException.Path"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

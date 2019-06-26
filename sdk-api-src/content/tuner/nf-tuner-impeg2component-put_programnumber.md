@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_ProgramNumber method, IMPEG2Component.put_ProgramNumber, IMPEG2Component::put_ProgramNumber, IMPEG2Componentput_ProgramNumber, mstv.impeg2component_put_programnumber, put_ProgramNumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_ProgramNumber
 ms.topic: method
-f1_keywords: ["tuner/IMPEG2Component.put_ProgramNumber"]
+f1_keywords: 
+ - "tuner/IMPEG2Component.put_ProgramNumber"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

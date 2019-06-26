@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived"]
+f1_keywords: 
+ - "fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

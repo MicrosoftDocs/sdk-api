@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx
 ms.topic: function
-f1_keywords: ["securitybaseapi/DuplicateTokenEx"]
+f1_keywords: 
+ - "securitybaseapi/DuplicateTokenEx"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

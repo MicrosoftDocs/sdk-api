@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_sourceProtocol method, IWMPNetwork.get_sourceProtocol, IWMPNetwork::get_sourceProtocol, IWMPNetworkget_sourceProtocol, get_sourceProtocol, get_sourceProtocol method [Windows Media Player], get_sourceProtocol method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_sourceprotocol, wmp/IWMPNetwork::get_sourceProtocol
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.get_sourceProtocol"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.get_sourceProtocol"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

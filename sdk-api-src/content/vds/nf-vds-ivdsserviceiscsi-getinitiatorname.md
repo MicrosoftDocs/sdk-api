@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInitiatorName, GetInitiatorName method [VDS], GetInitiatorName method [VDS],IVdsServiceIscsi interface, IVdsServiceIscsi interface [VDS],GetInitiatorName method, IVdsServiceIscsi.GetInitiatorName, IVdsServiceIscsi::GetInitiatorName, base.ivdsserviceiscsi_getinitiatorname, vds/IVdsServiceIscsi::GetInitiatorName
 ms.topic: method
-f1_keywords: ["vds/IVdsServiceIscsi.GetInitiatorName"]
+f1_keywords: 
+ - "vds/IVdsServiceIscsi.GetInitiatorName"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d, Collecting, IInkEdit interface [Tablet PC],Status property, IInkEdit.Status, IInkEdit.get_Status, IInkEdit::Status, IInkEdit::get_Status, Idle, InkEdit.get_Status, Recognizing, Status property [Tablet PC], Status property [Tablet PC],IInkEdit interface, get_Status, inked/IInkEdit::Status, inked/IInkEdit::get_Status, put_Status, tablet.inkedit_status
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.Status"]
+f1_keywords: 
+ - "inked/IInkEdit.Status"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

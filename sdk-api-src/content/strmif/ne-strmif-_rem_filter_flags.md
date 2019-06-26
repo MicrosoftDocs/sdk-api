@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REMFILTERF_LEAVECONNECTED, REM_FILTER_FLAGS , REM_FILTER_FLAGSEnumeration, _REM_FILTER_FLAGS, _REM_FILTER_FLAGS enumeration [DirectShow], dshow.rem_filter_flags, strmif/REMFILTERF_LEAVECONNECTED, strmif/_REM_FILTER_FLAGS
 ms.topic: enum
-f1_keywords: ["strmif/_REM_FILTER_FLAGS"]
+f1_keywords: 
+ - "strmif/_REM_FILTER_FLAGS"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

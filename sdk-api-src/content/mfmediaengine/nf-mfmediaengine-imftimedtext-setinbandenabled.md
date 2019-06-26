@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedText.SetInBandEnabled"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText.SetInBandEnabled"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

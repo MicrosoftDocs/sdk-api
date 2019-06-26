@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_LimitText, ComboBox_LimitText macro [Windows Controls], _win32_ComboBox_LimitText, _win32_ComboBox_LimitText_cpp, controls.ComboBox_LimitText, controls._win32_ComboBox_LimitText, windowsx/ComboBox_LimitText
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_LimitText"]
+f1_keywords: 
+ - "windowsx/ComboBox_LimitText"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

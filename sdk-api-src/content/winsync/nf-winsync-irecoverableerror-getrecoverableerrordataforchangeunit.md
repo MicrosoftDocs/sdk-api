@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
 ms.topic: method
-f1_keywords: ["winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit"]
+f1_keywords: 
+ - "winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

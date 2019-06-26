@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],Close method, IITDatabase.Close, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
 ms.topic: method
-f1_keywords: ["infotech/IITDatabase.Close"]
+f1_keywords: 
+ - "infotech/IITDatabase.Close"
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

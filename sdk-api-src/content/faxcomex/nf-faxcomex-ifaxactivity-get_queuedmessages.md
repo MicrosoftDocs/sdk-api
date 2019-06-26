@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity interface [Fax Service],QueuedMessages property, IFaxActivity.QueuedMessages, IFaxActivity.get_QueuedMessages, IFaxActivity::QueuedMessages, IFaxActivity::get_QueuedMessages, QueuedMessages property [Fax Service], QueuedMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.queuedmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_queuedmessages_cpp, fax._mfax_faxactivity_queuedmessages, faxcomex/IFaxActivity::QueuedMessages, faxcomex/IFaxActivity::get_QueuedMessages, get_QueuedMessages
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxActivity.QueuedMessages"]
+f1_keywords: 
+ - "faxcomex/IFaxActivity.QueuedMessages"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

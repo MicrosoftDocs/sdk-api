@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetBalance method, IMFMediaEngineEx.SetBalance, IMFMediaEngineEx::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.SetBalance"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.SetBalance"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

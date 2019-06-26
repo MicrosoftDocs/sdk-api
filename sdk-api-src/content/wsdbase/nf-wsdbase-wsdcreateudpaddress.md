@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
 ms.topic: function
-f1_keywords: ["wsdbase/WSDCreateUdpAddress"]
+f1_keywords: 
+ - "wsdbase/WSDCreateUdpAddress"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

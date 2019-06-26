@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancingNotifySink, ITsSbLoadBalancingNotifySink interface [Remote Desktop Services], ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancingNotifySink, termserv.itssbloadbalancingnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbLoadBalancingNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbLoadBalancingNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

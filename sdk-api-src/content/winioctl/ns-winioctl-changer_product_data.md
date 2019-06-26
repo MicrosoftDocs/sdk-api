@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer, _win32_changer_product_data_str, base.changer_product_data_str, winioctl/CHANGER_PRODUCT_DATA, winioctl/PCHANGER_PRODUCT_DATA"
 ms.topic: struct
-f1_keywords: ["winioctl/CHANGER_PRODUCT_DATA"]
+f1_keywords: 
+ - "winioctl/CHANGER_PRODUCT_DATA"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

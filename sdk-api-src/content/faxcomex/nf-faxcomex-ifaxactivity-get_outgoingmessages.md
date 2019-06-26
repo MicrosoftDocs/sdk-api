@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity interface [Fax Service],OutgoingMessages property, IFaxActivity.OutgoingMessages, IFaxActivity.get_OutgoingMessages, IFaxActivity::OutgoingMessages, IFaxActivity::get_OutgoingMessages, OutgoingMessages property [Fax Service], OutgoingMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.outgoingmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_outgoingmessages_cpp, fax._mfax_faxactivity_outgoingmessages, faxcomex/IFaxActivity::OutgoingMessages, faxcomex/IFaxActivity::get_OutgoingMessages, get_OutgoingMessages
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxActivity.OutgoingMessages"]
+f1_keywords: 
+ - "faxcomex/IFaxActivity.OutgoingMessages"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK interface [MMC],Next method, IEnumTASK.Next, IEnumTASK::Next, Next, Next method [MMC], Next method [MMC],IEnumTASK interface, _slate_ienumtask_next, mmc.ienumtask_next, mmc/IEnumTASK::Next
 ms.topic: method
-f1_keywords: ["mmc/IEnumTASK.Next"]
+f1_keywords: 
+ - "mmc/IEnumTASK.Next"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

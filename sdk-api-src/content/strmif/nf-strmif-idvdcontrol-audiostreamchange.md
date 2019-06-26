@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.AudioStreamChange"]
+f1_keywords: 
+ - "strmif/IDvdControl.AudioStreamChange"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

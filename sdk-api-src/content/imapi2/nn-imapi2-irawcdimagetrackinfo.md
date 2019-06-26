@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], IRawCDImageTrackInfo interface [IMAPI],described, imapi.irawcdimagetrackinfo, imapi2/IRawCDImageTrackInfo
 ms.topic: interface
-f1_keywords: ["imapi2/IRawCDImageTrackInfo"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

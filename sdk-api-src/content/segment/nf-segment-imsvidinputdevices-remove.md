@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
 ms.topic: method
-f1_keywords: ["segment/IMSVidInputDevices.Remove"]
+f1_keywords: 
+ - "segment/IMSVidInputDevices.Remove"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.GetStreamSelected"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.GetStreamSelected"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

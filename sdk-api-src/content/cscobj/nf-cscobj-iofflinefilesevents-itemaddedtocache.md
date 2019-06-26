@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAddedToCache method, IOfflineFilesEvents.ItemAddedToCache, IOfflineFilesEvents::ItemAddedToCache, ItemAddedToCache, ItemAddedToCache method [Offline Files], ItemAddedToCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAddedToCache, of.iofflinefilesevents_itemaddedtocache
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemAddedToCache"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemAddedToCache"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

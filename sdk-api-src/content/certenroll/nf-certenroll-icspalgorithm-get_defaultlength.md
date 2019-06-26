@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultLength property [Security], DefaultLength property [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm.get_DefaultLength, ICspAlgorithm::DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength, security.icspalgorithm_defaultlength_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspAlgorithm.DefaultLength"]
+f1_keywords: 
+ - "certenroll/ICspAlgorithm.DefaultLength"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

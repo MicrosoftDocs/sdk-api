@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGetNext, MprAdminMIBEntryGetNext function [RAS], _mpr_mpradminmibentrygetnext, mprapi/MprAdminMIBEntryGetNext, rras.mpradminmibentrygetnext
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBEntryGetNext"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBEntryGetNext"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

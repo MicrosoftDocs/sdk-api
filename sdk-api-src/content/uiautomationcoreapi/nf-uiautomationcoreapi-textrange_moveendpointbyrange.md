@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_MoveEndpointByRange, TextRange_MoveEndpointByRange function [Windows Accessibility], uiauto.uiauto_TextRange_MoveEndpointByRangeConPat, uiauto_TextRange_MoveEndpointByRangeConPat, uiautomationcoreapi/TextRange_MoveEndpointByRange, winauto.uiauto_TextRange_MoveEndpointByRangeConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_MoveEndpointByRange"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_MoveEndpointByRange"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

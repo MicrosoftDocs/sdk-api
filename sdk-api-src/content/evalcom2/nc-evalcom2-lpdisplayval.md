@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
 ms.topic: callback
-f1_keywords: ["evalcom2/LPDISPLAYVAL"]
+f1_keywords: 
+ - "evalcom2/LPDISPLAYVAL"
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

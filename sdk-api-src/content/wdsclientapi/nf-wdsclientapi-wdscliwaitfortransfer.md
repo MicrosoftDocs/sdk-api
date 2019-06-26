@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliWaitForTransfer"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliWaitForTransfer"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

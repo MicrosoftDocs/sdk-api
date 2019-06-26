@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
 ms.topic: interface
-f1_keywords: ["mergemod/IMsmConfigurableItem"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSecondarySecurity method [Security],ISecurityInformation4 interface, ISecurityInformation4 interface [Security],GetSecondarySecurity method, ISecurityInformation4.GetSecondarySecurity, ISecurityInformation4::GetSecondarySecurity, aclui/ISecurityInformation4::GetSecondarySecurity, security.isecurityinformation4_getsecondarysecurity
 ms.topic: method
-f1_keywords: ["aclui/ISecurityInformation4.GetSecondarySecurity"]
+f1_keywords: 
+ - "aclui/ISecurityInformation4.GetSecondarySecurity"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

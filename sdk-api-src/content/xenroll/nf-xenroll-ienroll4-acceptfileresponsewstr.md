@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.acceptFileResponseWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.acceptFileResponseWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

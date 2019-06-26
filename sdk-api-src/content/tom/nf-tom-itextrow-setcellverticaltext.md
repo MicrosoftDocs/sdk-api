@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellVerticalText method, ITextRow.SetCellVerticalText, ITextRow::SetCellVerticalText, SetCellVerticalText, SetCellVerticalText method [Windows Controls], SetCellVerticalText method [Windows Controls],ITextRow interface, controls.itextrow_setcellverticaltext, tom/ITextRow::SetCellVerticalText
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetCellVerticalText"]
+f1_keywords: 
+ - "tom/ITextRow.SetCellVerticalText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

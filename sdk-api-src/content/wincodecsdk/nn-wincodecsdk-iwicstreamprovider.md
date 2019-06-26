@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICStreamProvider, IWICStreamProvider interface [Windows Imaging Component], IWICStreamProvider interface [Windows Imaging Component],described, _wic_codec_iwicstreamprovider, wic._wic_codec_iwicstreamprovider, wincodecsdk/IWICStreamProvider
 ms.topic: interface
-f1_keywords: ["wincodecsdk/IWICStreamProvider"]
+f1_keywords: 
+ - "wincodecsdk/IWICStreamProvider"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsOutOfBandBitSet, GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies], GetRecordIsOutOfBandBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsOutOfBandBitSet method, IATSC_VCT.GetRecordIsOutOfBandBitSet, IATSC_VCT::GetRecordIsOutOfBandBitSet, IATSC_VCTGetRecordIsOutOfBandBitSet, atscpsipparser/IATSC_VCT::GetRecordIsOutOfBandBitSet, mstv.iatsc_vct_getrecordisoutofbandbitset
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordIsOutOfBandBitSet"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordIsOutOfBandBitSet"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

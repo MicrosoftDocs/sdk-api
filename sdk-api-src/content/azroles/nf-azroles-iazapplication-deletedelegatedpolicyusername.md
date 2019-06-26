@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzApplication object, DeleteDelegatedPolicyUserName method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUserName method, IAzApplication.DeleteDelegatedPolicyUserName, IAzApplication::DeleteDelegatedPolicyUserName, azroles/IAzApplication::DeleteDelegatedPolicyUserName, security.iazapplication_deletedelegatedpolicyusername
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.DeleteDelegatedPolicyUserName"]
+f1_keywords: 
+ - "azroles/IAzApplication.DeleteDelegatedPolicyUserName"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

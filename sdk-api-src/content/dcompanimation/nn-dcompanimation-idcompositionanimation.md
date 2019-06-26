@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], IDCompositionAnimation interface [DirectComposition],described, dcompanimation/IDCompositionAnimation, directcomp.idcompositionanimation
 ms.topic: interface
-f1_keywords: ["dcompanimation/IDCompositionAnimation"]
+f1_keywords: 
+ - "dcompanimation/IDCompositionAnimation"
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetOutboundHttpHeaders method, IWSDHttpMessageParameters.SetOutboundHttpHeaders, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpMessageParameters.SetOutboundHttpHeaders"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpMessageParameters.SetOutboundHttpHeaders"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumRunning, EnumRunning method [COM], EnumRunning method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],EnumRunning method, IRunningObjectTable.EnumRunning, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
 ms.topic: method
-f1_keywords: ["objidl/IRunningObjectTable.EnumRunning"]
+f1_keywords: 
+ - "objidl/IRunningObjectTable.EnumRunning"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnGetLinguisticAlternates"]
+f1_keywords: 
+ - "ctffunc/ITfFnGetLinguisticAlternates"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmDeleteGroupMembershipEntry, MgmDeleteGroupMembershipEntry function [RAS], _mpr_mgmdeletegroupmembershipentry, mgm/MgmDeleteGroupMembershipEntry, rras.mgmdeletegroupmembershipentry
 ms.topic: function
-f1_keywords: ["mgm/MgmDeleteGroupMembershipEntry"]
+f1_keywords: 
+ - "mgm/MgmDeleteGroupMembershipEntry"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

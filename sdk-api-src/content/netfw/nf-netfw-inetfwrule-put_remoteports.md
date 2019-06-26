@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.put_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule.RemotePorts"]
+f1_keywords: 
+ - "netfw/INetFwRule.RemotePorts"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHGetIDListFromObject"]
+f1_keywords: 
+ - "shobjidl_core/SHGetIDListFromObject"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

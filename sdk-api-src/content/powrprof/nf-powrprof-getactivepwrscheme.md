@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActivePwrScheme, GetActivePwrScheme function, _win32_getactivepwrscheme, base.getactivepwrscheme, powrprof/GetActivePwrScheme
 ms.topic: function
-f1_keywords: ["powrprof/GetActivePwrScheme"]
+f1_keywords: 
+ - "powrprof/GetActivePwrScheme"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

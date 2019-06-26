@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_MulFloat, FLOATOBJ_MulFloat function [Display Devices], display.floatobj_mulfloat, gdifncs_39da7310-f7d3-4ceb-8bd5-c2a0eaab0068.xml, winddi/FLOATOBJ_MulFloat
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_MulFloat"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_MulFloat"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValidCharacters, GetValidCharacters method [Windows Shell], GetValidCharacters method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetValidCharacters method, IItemNameLimits.GetValidCharacters, IItemNameLimits::GetValidCharacters, _shell_IItemNameLimits_GetValidCharacters, shell.IItemNameLimits_GetValidCharacters, shobjidl_core/IItemNameLimits::GetValidCharacters
 ms.topic: method
-f1_keywords: ["shobjidl_core/IItemNameLimits.GetValidCharacters"]
+f1_keywords: 
+ - "shobjidl_core/IItemNameLimits.GetValidCharacters"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],RenewalCertificate property, IX509CertificateRequest.RenewalCertificate, IX509CertificateRequest.get_RenewalCertificate, IX509CertificateRequest::RenewalCertificate, IX509CertificateRequest::get_RenewalCertificate, IX509CertificateRequest::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RenewalCertificate, certenroll/IX509CertificateRequest::get_RenewalCertificate, certenroll/IX509CertificateRequest::put_RenewalCertificate, get_RenewalCertificate, security.ix509certificaterequest_renewalcertificate_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.RenewalCertificate"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.RenewalCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

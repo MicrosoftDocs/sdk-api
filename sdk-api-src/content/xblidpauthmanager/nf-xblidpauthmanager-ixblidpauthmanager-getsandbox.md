@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetSandbox method, IXblIdpAuthManager.GetSandbox, IXblIdpAuthManager::GetSandbox, xblidp.ixblidpauthmanager_getsandbox, xblidpauthmanager/IXblIdpAuthManager::GetSandbox
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthManager.GetSandbox"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthManager.GetSandbox"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

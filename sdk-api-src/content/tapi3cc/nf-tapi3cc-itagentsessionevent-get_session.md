@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Session method, ITAgentSessionEvent.get_Session, ITAgentSessionEvent::get_Session, _tapi3_itagentsessionevent_get_session, get_Session, get_Session method [TAPI 2.2], get_Session method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_session, tapi3cc/ITAgentSessionEvent::get_Session
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentSessionEvent.get_Session"]
+f1_keywords: 
+ - "tapi3cc/ITAgentSessionEvent.get_Session"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

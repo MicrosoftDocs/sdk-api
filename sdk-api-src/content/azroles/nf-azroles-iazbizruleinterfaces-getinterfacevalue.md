@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleInterfaces.GetInterfaceValue"]
+f1_keywords: 
+ - "azroles/IAzBizRuleInterfaces.GetInterfaceValue"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

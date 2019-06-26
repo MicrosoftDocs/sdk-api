@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
 ms.topic: function
-f1_keywords: ["lmshare/NetSessionEnum"]
+f1_keywords: 
+ - "lmshare/NetSessionEnum"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_DigitalMultiplier method, IVideoProcAmp.getRange_DigitalMultiplier, IVideoProcAmp::getRange_DigitalMultiplier, IVideoProcAmpgetRange_DigitalMultiplier, dshow.ivideoprocamp_getrange_digitalmultiplier, getRange_DigitalMultiplier, getRange_DigitalMultiplier method [DirectShow], getRange_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_DigitalMultiplier
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.getRange_DigitalMultiplier"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.getRange_DigitalMultiplier"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINBIO_COMPONENT_ENGINE, WINBIO_COMPONENT_SENSOR, WINBIO_COMPONENT_STORAGE, WinBioControlUnitPrivileged, WinBioControlUnitPrivileged function [Windows Biometric Framework API], secbiomet.winbiocontrolunitprivileged, winbio/WinBioControlUnitPrivileged
 ms.topic: function
-f1_keywords: ["winbio/WinBioControlUnitPrivileged"]
+f1_keywords: 
+ - "winbio/WinBioControlUnitPrivileged"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

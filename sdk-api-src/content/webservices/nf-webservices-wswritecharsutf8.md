@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteCharsUtf8, WsWriteCharsUtf8 function [Web Services for Windows], webservices/WsWriteCharsUtf8, wsw.wswritecharsutf8
 ms.topic: function
-f1_keywords: ["webservices/WsWriteCharsUtf8"]
+f1_keywords: 
+ - "webservices/WsWriteCharsUtf8"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

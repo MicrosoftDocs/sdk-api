@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceEnum, CreateInstanceEnum method [Windows Management Instrumentation], CreateInstanceEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnum method, IWbemServices.CreateInstanceEnum, IWbemServices::CreateInstanceEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenum, wbemcli/IWbemServices::CreateInstanceEnum, wmi.iwbemservices_createinstanceenum
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemServices.CreateInstanceEnum"]
+f1_keywords: 
+ - "wbemcli/IWbemServices.CreateInstanceEnum"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

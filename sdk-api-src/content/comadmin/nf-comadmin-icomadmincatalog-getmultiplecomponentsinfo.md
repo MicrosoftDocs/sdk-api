@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMAdminComponentAlreadyInstalled, COMAdminComponentCOMPlusPropertiesFound, COMAdminComponentFlagTypeInfoFound, COMAdminComponentInterfacesFound, COMAdminComponentNotInApplication, COMAdminComponentProxyFound, COMAdminFileFlagAlreadyInstalled, COMAdminFileFlagBadTLB, COMAdminFileFlagCOM, COMAdminFileFlagClassNotAvailable, COMAdminFileFlagContainsComp, COMAdminFileFlagContainsRS, COMAdminFileFlagContainsTLB, COMAdminFileFlagDLLRegsvrFailed, COMAdminFileFlagDoesNotExist, COMAdminFileFlagError, COMAdminFileFlagGetClassObjFailed, COMAdminFileFlagLoadable, COMAdminFileFlagNoRegistrar, COMAdminFileFlagRegTLBFailed, COMAdminFileFlagRegistrar, COMAdminFileFlagRegistrarFailed, COMAdminFileFlagSelfReg, COMAdminFileFlagSelfUnReg, COMAdminFileFlagUnloadableDLL, GetMultipleComponentsInfo, GetMultipleComponentsInfo method [COM+], GetMultipleComponentsInfo method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetMultipleComponentsInfo method, ICOMAdminCatalog.GetMultipleComponentsInfo, ICOMAdminCatalog::GetMultipleComponentsInfo, _cos_ICOMAdminCatalog_GetMultipleComponentsInfo, comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo, cos.icomadmincatalog_getmultiplecomponentsinfo
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.GetMultipleComponentsInfo"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.GetMultipleComponentsInfo"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

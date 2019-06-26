@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses], buses.ioctl_genericusbfn_get_class_info_ex, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 ms.topic: ioctl
-f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX"]
+f1_keywords: 
+ - "genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX"
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

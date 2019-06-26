@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingArchive, IFaxAccountIncomingArchive interface [Fax Service], IFaxAccountIncomingArchive interface [Fax Service],described, _mfax_faxaccountincomingarchive_cpp, fax._mfax_faxaccountincomingarchive_cpp, faxcomex/IFaxAccountIncomingArchive
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxAccountIncomingArchive"]
+f1_keywords: 
+ - "faxcomex/IFaxAccountIncomingArchive"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

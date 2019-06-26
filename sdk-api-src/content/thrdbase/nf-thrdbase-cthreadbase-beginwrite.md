@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?BeginWrite@CThreadBase@@QAEHK@Z, BeginWrite, BeginWrite method [Windows Management Instrumentation], BeginWrite method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginWrite method, CThreadBase.BeginWrite, CThreadBase::BeginWrite, thrdbase/CThreadBase::BeginWrite, wmi.cthreadbase_beginwrite"
 ms.topic: method
-f1_keywords: ["thrdbase/CThreadBase.BeginWrite"]
+f1_keywords: 
+ - "thrdbase/CThreadBase.BeginWrite"
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

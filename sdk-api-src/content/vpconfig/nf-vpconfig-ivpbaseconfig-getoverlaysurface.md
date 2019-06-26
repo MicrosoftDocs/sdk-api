@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlaySurface, GetOverlaySurface method [DirectShow], GetOverlaySurface method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetOverlaySurface method, IVPBaseConfig.GetOverlaySurface, IVPBaseConfig::GetOverlaySurface, IVPBaseConfigGetOverlaySurface, dshow.ivpbaseconfig_getoverlaysurface, vpconfig/IVPBaseConfig::GetOverlaySurface
 ms.topic: method
-f1_keywords: ["vpconfig/IVPBaseConfig.GetOverlaySurface"]
+f1_keywords: 
+ - "vpconfig/IVPBaseConfig.GetOverlaySurface"
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

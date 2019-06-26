@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.GetName"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.GetName"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

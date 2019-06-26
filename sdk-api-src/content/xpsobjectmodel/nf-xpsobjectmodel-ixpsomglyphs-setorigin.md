@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetOrigin method, IXpsOMGlyphs.SetOrigin, IXpsOMGlyphs::SetOrigin, SetOrigin, SetOrigin method [XPS Documents and Packaging], SetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setorigin, xpsobjectmodel/IXpsOMGlyphs::SetOrigin
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetOrigin"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.SetOrigin"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

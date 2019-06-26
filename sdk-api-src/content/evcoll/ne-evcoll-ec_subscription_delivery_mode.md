@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
 ms.topic: enum
-f1_keywords: ["evcoll/EC_SUBSCRIPTION_DELIVERY_MODE"]
+f1_keywords: 
+ - "evcoll/EC_SUBSCRIPTION_DELIVERY_MODE"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

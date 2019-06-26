@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],WebProxy property, IUpdateSession.WebProxy, IUpdateSession.get_WebProxy, IUpdateSession::WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent],IUpdateSession interface, get_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSession.WebProxy"]
+f1_keywords: 
+ - "wuapi/IUpdateSession.WebProxy"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
 ms.topic: function
-f1_keywords: ["shlobj/PathIsSlow"]
+f1_keywords: 
+ - "shlobj/PathIsSlow"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

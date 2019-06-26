@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
 ms.topic: function
-f1_keywords: ["shobjidl/SHSetDefaultProperties"]
+f1_keywords: 
+ - "shobjidl/SHSetDefaultProperties"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

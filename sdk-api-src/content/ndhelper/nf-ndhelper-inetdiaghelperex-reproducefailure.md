@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelperEx.ReproduceFailure"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelperEx.ReproduceFailure"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

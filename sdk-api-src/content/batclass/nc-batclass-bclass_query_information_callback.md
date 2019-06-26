@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_INFORMATION_CALLBACK, BCLASS_QUERY_INFORMATION_CALLBACK callback, BatteryMiniQueryInformation, BatteryMiniQueryInformation callback function [Battery Devices], bat-mini_89cb050e-0a2e-4fad-b6fa-c2977703c782.xml, batclass/BatteryMiniQueryInformation, battery.batteryminiqueryinformation
 ms.topic: callback
-f1_keywords: ["batclass/BatteryMiniQueryInformation"]
+f1_keywords: 
+ - "batclass/BatteryMiniQueryInformation"
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

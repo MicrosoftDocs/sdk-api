@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentExPoint, GetTextExtentExPoint function [Windows GDI], GetTextExtentExPointA, GetTextExtentExPointW, _win32_GetTextExtentExPoint, gdi.gettextextentexpoint, wingdi/GetTextExtentExPoint, wingdi/GetTextExtentExPointA, wingdi/GetTextExtentExPointW
 ms.topic: function
-f1_keywords: ["wingdi/GetTextExtentExPoint"]
+f1_keywords: 
+ - "wingdi/GetTextExtentExPoint"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

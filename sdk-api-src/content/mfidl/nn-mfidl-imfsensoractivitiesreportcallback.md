@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorActivitiesReportCallback"]
+f1_keywords: 
+ - "mfidl/IMFSensorActivitiesReportCallback"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

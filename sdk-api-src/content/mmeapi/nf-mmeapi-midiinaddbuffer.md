@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function [Windows Multimedia], mmeapi/midiInAddBuffer, multimedia.midiinaddbuffer"
 ms.topic: function
-f1_keywords: ["mmeapi/midiInAddBuffer"]
+f1_keywords: 
+ - "mmeapi/midiInAddBuffer"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

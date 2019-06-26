@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransform method, IXpsOMGeometry.GetTransform, IXpsOMGeometry::GetTransform, xps.ixpsomgeometry_gettransform, xpsobjectmodel/IXpsOMGeometry::GetTransform
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometry.GetTransform"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometry.GetTransform"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

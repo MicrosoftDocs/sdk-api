@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
 ms.topic: method
-f1_keywords: ["ctffunc/IEnumTfCandidates.Skip"]
+f1_keywords: 
+ - "ctffunc/IEnumTfCandidates.Skip"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
 ms.topic: function
-f1_keywords: ["slpublic/SLQueryLicenseValueFromApp"]
+f1_keywords: 
+ - "slpublic/SLQueryLicenseValueFromApp"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

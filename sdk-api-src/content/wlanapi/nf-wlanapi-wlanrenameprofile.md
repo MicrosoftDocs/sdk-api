@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
 ms.topic: function
-f1_keywords: ["wlanapi/WlanRenameProfile"]
+f1_keywords: 
+ - "wlanapi/WlanRenameProfile"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

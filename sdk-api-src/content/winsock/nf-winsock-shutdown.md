@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
 ms.topic: function
-f1_keywords: ["winsock/shutdown"]
+f1_keywords: 
+ - "winsock/shutdown"
 req.header: winsock.h
 req.include-header: Winsock2.h, Webhost.h
 req.target-type: Windows

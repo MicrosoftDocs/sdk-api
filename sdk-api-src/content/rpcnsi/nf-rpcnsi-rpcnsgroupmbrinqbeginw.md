@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsGroupMbrInqBegin"]
+f1_keywords: 
+ - "rpcnsi/RpcNsGroupMbrInqBegin"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

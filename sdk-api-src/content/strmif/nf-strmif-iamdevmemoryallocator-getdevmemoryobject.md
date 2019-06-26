@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetDevMemoryObject method, IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
 ms.topic: method
-f1_keywords: ["strmif/IAMDevMemoryAllocator.GetDevMemoryObject"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryAllocator.GetDevMemoryObject"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

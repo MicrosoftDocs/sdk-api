@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetStringValue method, ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredential.GetStringValue"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredential.GetStringValue"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

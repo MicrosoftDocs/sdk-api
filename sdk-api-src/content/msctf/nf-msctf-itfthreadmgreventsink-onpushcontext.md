@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgrEventSink.OnPushContext"]
+f1_keywords: 
+ - "msctf/ITfThreadMgrEventSink.OnPushContext"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

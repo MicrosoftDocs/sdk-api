@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_VQ, PDHCP_CLIENT_INFO_ARRAY_VQ structure pointer [DHCP], dhcp.dhcp_client_info_array_vq, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_VQ"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

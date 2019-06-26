@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamPrioritization method, IMFASFProfile.GetStreamPrioritization, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFProfile.GetStreamPrioritization"]
+f1_keywords: 
+ - "wmcontainer/IMFASFProfile.GetStreamPrioritization"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

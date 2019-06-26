@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrPointerBufferSize, NdrPointerBufferSize function [RPC], rpc.ndrpointerbuffersize, rpcndr/NdrPointerBufferSize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrPointerBufferSize"]
+f1_keywords: 
+ - "rpcndr/NdrPointerBufferSize"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

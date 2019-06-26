@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD"
 ms.topic: struct
-f1_keywords: ["ocidl/CADWORD"]
+f1_keywords: 
+ - "ocidl/CADWORD"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

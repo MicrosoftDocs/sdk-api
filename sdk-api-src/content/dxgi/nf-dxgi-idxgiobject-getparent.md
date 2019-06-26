@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0b798351-1afe-ecf7-b14a-ae10203d18e1, GetParent, GetParent method [DXGI], GetParent method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetParent method, IDXGIObject.GetParent, IDXGIObject::GetParent, direct3ddxgi.idxgiobject_getparent, dxgi/IDXGIObject::GetParent
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIObject.GetParent"]
+f1_keywords: 
+ - "dxgi/IDXGIObject.GetParent"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannelManager.Item"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIVirtualChannelManager.Item"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

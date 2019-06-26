@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWTSProtocolConnectionCallback.BrokenConnection, IWTSProtocolConnectionCallback::BrokenConnection, termserv.iwtsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWTSProtocolConnectionCallback::BrokenConnection
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnectionCallback.BrokenConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnectionCallback.BrokenConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

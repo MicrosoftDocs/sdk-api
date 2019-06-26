@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
 ms.topic: method
-f1_keywords: ["comsvcs/IComThreadEvents.OnThreadBindToApartment"]
+f1_keywords: 
+ - "comsvcs/IComThreadEvents.OnThreadBindToApartment"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

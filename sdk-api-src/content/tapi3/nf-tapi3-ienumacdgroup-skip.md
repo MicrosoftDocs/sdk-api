@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Skip method, IEnumACDGroup.Skip, IEnumACDGroup::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
 ms.topic: method
-f1_keywords: ["tapi3/IEnumACDGroup.Skip"]
+f1_keywords: 
+ - "tapi3/IEnumACDGroup.Skip"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

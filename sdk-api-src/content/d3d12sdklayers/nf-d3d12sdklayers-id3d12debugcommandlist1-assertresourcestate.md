@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList1 interface, ID3D12DebugCommandList1 interface,AssertResourceState method, ID3D12DebugCommandList1.AssertResourceState, ID3D12DebugCommandList1::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList1::AssertResourceState, direct3d12.id3d12debugcommandlist1_assertresourcestate
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12DebugCommandList1.AssertResourceState"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12DebugCommandList1.AssertResourceState"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

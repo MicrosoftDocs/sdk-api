@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK
 ms.topic: callback
-f1_keywords: ["wlanapi/WLAN_NOTIFICATION_CALLBACK"]
+f1_keywords: 
+ - "wlanapi/WLAN_NOTIFICATION_CALLBACK"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

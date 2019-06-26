@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetDate method, IMDSPStorage.GetDate, IMDSPStorage::GetDate, IMDSPStorageGetDate, mswmdm/IMDSPStorage::GetDate, wmdm.imdspstorage_getdate
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage.GetDate"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage.GetDate"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

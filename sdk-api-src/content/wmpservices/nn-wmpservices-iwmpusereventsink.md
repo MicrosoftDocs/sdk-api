@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
 ms.topic: interface
-f1_keywords: ["wmpservices/IWMPUserEventSink"]
+f1_keywords: 
+ - "wmpservices/IWMPUserEventSink"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_TYPE, DISPATCHERQUEUE_THREAD_TYPE enumeration, DQTYPE_THREAD_CURRENT, DQTYPE_THREAD_DEDICATED, base.dispatcherqueue_thread_type, dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE, dispatcherqueue/DQTYPE_THREAD_CURRENT, dispatcherqueue/DQTYPE_THREAD_DEDICATED
 ms.topic: enum
-f1_keywords: ["dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE"]
+f1_keywords: 
+ - "dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE"
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

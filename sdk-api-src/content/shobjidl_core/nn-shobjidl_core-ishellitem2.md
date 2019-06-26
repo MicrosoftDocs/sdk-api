@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellItem2, IShellItem2 interface [Windows Shell], IShellItem2 interface [Windows Shell],described, _shell_IShellItem2, shell.IShellItem2, shobjidl_core/IShellItem2
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellItem2"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

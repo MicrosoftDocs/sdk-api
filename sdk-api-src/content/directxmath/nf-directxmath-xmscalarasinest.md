@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarASinEst, XMScalarASinEst, XMScalarASinEst method [DirectX Math Support APIs], dxmath.xmscalarasinest
 ms.topic: function
-f1_keywords: ["directxmath/XMScalarASinEst"]
+f1_keywords: 
+ - "directxmath/XMScalarASinEst"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
 ms.topic: interface
-f1_keywords: ["oaidl/ITypeLib"]
+f1_keywords: 
+ - "oaidl/ITypeLib"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

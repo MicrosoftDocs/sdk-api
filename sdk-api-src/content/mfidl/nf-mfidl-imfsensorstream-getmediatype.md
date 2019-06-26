@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaType method, IMFSensorStream.GetMediaType, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorStream.GetMediaType"]
+f1_keywords: 
+ - "mfidl/IMFSensorStream.GetMediaType"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

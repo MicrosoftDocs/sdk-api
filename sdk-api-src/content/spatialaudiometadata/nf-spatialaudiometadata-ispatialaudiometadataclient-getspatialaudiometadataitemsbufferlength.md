@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpatialAudioMetadataItemsBufferLength, GetSpatialAudioMetadataItemsBufferLength method [Core Audio], GetSpatialAudioMetadataItemsBufferLength method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],GetSpatialAudioMetadataItemsBufferLength method, ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength, ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength, coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength, spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

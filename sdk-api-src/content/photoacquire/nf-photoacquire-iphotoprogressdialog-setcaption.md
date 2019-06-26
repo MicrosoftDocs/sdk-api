@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.SetCaption"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.SetCaption"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

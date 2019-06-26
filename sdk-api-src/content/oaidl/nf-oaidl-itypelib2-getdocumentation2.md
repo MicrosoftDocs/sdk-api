@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation2, GetDocumentation2 method [Automation], GetDocumentation2 method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetDocumentation2 method, ITypeLib2.GetDocumentation2, ITypeLib2::GetDocumentation2, _oa96_ITypeLib2_GetDocumentation2, automat.itypelib2_getdocumentation2, oaidl/ITypeLib2::GetDocumentation2
 ms.topic: method
-f1_keywords: ["oaidl/ITypeLib2.GetDocumentation2"]
+f1_keywords: 
+ - "oaidl/ITypeLib2.GetDocumentation2"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

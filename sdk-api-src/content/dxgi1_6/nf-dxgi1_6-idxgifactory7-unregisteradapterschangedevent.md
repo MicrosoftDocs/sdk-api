@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],UnregisterAdaptersChangedEvent method, IDXGIFactory7.UnregisterAdaptersChangedEvent, IDXGIFactory7::UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent method [DXGI], UnregisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_unregisteradapterschangedevent, dxgi1_6/IDXGIFactory7::UnregisterAdaptersChangedEvent
 ms.topic: method
-f1_keywords: ["dxgi1_6/IDXGIFactory7.UnregisterAdaptersChangedEvent"]
+f1_keywords: 
+ - "dxgi1_6/IDXGIFactory7.UnregisterAdaptersChangedEvent"
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

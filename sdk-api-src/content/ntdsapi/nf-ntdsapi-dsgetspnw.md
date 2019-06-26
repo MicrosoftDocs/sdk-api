@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_SPN_DNS_HOST,DS_SPN_DN_HOST,DS_SPN_NB_HOST, DS_SPN_DOMAIN,DS_SPN_NB_DOMAIN, DS_SPN_SERVICE, DsGetSpn, DsGetSpn function [Active Directory], DsGetSpnA, DsGetSpnW, _glines_dsgetspn, ad.dsgetspn, ntdsapi/DsGetSpn, ntdsapi/DsGetSpnA, ntdsapi/DsGetSpnW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsGetSpn"]
+f1_keywords: 
+ - "ntdsapi/DsGetSpn"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

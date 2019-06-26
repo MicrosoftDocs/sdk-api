@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepUp method, IAudioEndpointVolume.VolumeStepUp, IAudioEndpointVolume::VolumeStepUp, IAudioEndpointVolumeVolumeStepUp, VolumeStepUp, VolumeStepUp method [Core Audio], VolumeStepUp method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepup, endpointvolume/IAudioEndpointVolume::VolumeStepUp
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.VolumeStepUp"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.VolumeStepUp"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

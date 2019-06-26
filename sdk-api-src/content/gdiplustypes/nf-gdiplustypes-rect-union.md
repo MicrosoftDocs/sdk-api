@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Rect class [GDI+],Union method, Rect.Union, Rect::Union, Union, Union method [GDI+], Union method [GDI+],Rect class, _gdiplus_CLASS_Rect_Union_c_a_b_, gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_
 ms.topic: method
-f1_keywords: ["gdiplustypes/Rect.Union"]
+f1_keywords: 
+ - "gdiplustypes/Rect.Union"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

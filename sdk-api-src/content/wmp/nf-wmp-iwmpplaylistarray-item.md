@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],item method, IWMPPlaylistArray.item, IWMPPlaylistArray::item, IWMPPlaylistArrayitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_item, wmp/IWMPPlaylistArray::item
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylistArray.item"]
+f1_keywords: 
+ - "wmp/IWMPPlaylistArray.item"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

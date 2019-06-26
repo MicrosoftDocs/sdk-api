@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoQueryClientBlanket, CoQueryClientBlanket function [COM], _com_CoQueryClientBlanket, com.coqueryclientblanket, combaseapi/CoQueryClientBlanket
 ms.topic: function
-f1_keywords: ["combaseapi/CoQueryClientBlanket"]
+f1_keywords: 
+ - "combaseapi/CoQueryClientBlanket"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

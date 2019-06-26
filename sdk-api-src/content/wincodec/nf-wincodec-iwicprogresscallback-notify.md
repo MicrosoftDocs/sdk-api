@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICProgressCallback interface [Windows Imaging Component],Notify method, IWICProgressCallback.Notify, IWICProgressCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICProgressCallback interface, _wic_codec_iwicprogresscallback_notify, wic._wic_codec_iwicprogresscallback_notify, wincodec/IWICProgressCallback::Notify
 ms.topic: method
-f1_keywords: ["wincodec/IWICProgressCallback.Notify"]
+f1_keywords: 
+ - "wincodec/IWICProgressCallback.Notify"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

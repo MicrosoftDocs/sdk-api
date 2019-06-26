@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Multithread interface [Direct3D 10],Leave method, ID3D10Multithread.Leave, ID3D10Multithread::Leave, Leave, Leave method [Direct3D 10], Leave method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::Leave, direct3d10.id3d10multithread_leave, f69302dd-2d93-2366-c5f5-206d6140c16e
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Multithread.Leave"]
+f1_keywords: 
+ - "d3d10/ID3D10Multithread.Leave"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

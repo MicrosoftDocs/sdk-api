@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Skip method, IEnumSyncProviderInfos.Skip, IEnumSyncProviderInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Skip, winsync.ienumsyncproviderinfos_skip
 ms.topic: method
-f1_keywords: ["syncregistration/IEnumSyncProviderInfos.Skip"]
+f1_keywords: 
+ - "syncregistration/IEnumSyncProviderInfos.Skip"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

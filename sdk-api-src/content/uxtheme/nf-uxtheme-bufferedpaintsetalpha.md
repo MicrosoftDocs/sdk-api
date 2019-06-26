@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintSetAlpha, BufferedPaintSetAlpha function [Windows Controls], _shell_BufferedPaintSetAlpha, _shell_BufferedPaintSetAlpha_cpp, controls.BufferedPaintSetAlpha, controls._shell_BufferedPaintSetAlpha, uxtheme/BufferedPaintSetAlpha
 ms.topic: function
-f1_keywords: ["uxtheme/BufferedPaintSetAlpha"]
+f1_keywords: 
+ - "uxtheme/BufferedPaintSetAlpha"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

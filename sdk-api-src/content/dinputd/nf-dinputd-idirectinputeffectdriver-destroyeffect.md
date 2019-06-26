@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyEffect, DestroyEffect method [Human Input Devices], DestroyEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DestroyEffect method, IDirectInputEffectDriver.DestroyEffect, IDirectInputEffectDriver::DestroyEffect, di_ref_2c37442c-093a-4470-9335-46b5cc488df3.xml, dinputd/IDirectInputEffectDriver::DestroyEffect, hid.idirectinputeffectdriver_destroyeffect
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.DestroyEffect"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.DestroyEffect"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

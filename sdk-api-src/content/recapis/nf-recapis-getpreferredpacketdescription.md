@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription, GetPreferredPacketDescription function [Tablet PC], recapis/GetPreferredPacketDescription, tablet.getpreferredpacketdescription
 ms.topic: function
-f1_keywords: ["recapis/GetPreferredPacketDescription"]
+f1_keywords: 
+ - "recapis/GetPreferredPacketDescription"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

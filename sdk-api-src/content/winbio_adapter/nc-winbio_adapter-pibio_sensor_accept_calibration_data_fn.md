@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback, SensorAdapterAcceptCalibrationData, SensorAdapterAcceptCalibrationData callback function [Windows Biometric Framework API], secbiomet.sensoradapteracceptcalibrationdata, winbio_adapter/SensorAdapterAcceptCalibrationData
 ms.topic: callback
-f1_keywords: ["winbio_adapter/SensorAdapterAcceptCalibrationData"]
+f1_keywords: 
+ - "winbio_adapter/SensorAdapterAcceptCalibrationData"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

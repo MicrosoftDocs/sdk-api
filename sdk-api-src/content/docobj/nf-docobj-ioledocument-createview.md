@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateView, CreateView method [COM], CreateView method [COM],IOleDocument interface, IOleDocument interface [COM],CreateView method, IOleDocument.CreateView, IOleDocument::CreateView, _ole_ioledocument_createview, com.ioledocument_createview, docobj/IOleDocument::CreateView
 ms.topic: method
-f1_keywords: ["docobj/IOleDocument.CreateView"]
+f1_keywords: 
+ - "docobj/IOleDocument.CreateView"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

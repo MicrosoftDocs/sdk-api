@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDevSpecific, TSPI_lineDevSpecific function [TAPI 2.2], _tspi_tspi_linedevspecific, tspi.tspi_linedevspecific, tspi/TSPI_lineDevSpecific
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineDevSpecific"]
+f1_keywords: 
+ - "tspi/TSPI_lineDevSpecific"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

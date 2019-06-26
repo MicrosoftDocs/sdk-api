@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 973d9aaa-0897-4e3f-a57f-ce505853f310, IInkStrokes interface [Tablet PC],Ink property, IInkStrokes.Ink, IInkStrokes.get_Ink, IInkStrokes::Ink, IInkStrokes::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkStrokes interface, InkStrokes.get_Ink, get_Ink, msinkaut/IInkStrokes::Ink, msinkaut/IInkStrokes::get_Ink, tablet.inkstrokes_ink
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.Ink"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.Ink"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

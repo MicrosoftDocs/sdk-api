@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UASFLAGS, UASFLAGS enumeration [COM], UAS_BLOCKED, UAS_MASK, UAS_NOPARENTENABLE, UAS_NORMAL, _ole_UASFLAGS, com.uasflags, ocidl/UASFLAGS, ocidl/UAS_BLOCKED, ocidl/UAS_MASK, ocidl/UAS_NOPARENTENABLE, ocidl/UAS_NORMAL
 ms.topic: enum
-f1_keywords: ["ocidl/UASFLAGS"]
+f1_keywords: 
+ - "ocidl/UASFLAGS"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

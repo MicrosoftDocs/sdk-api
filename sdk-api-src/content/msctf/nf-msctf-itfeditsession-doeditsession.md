@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework],ITfEditSession interface, ITfEditSession interface [Text Services Framework],DoEditSession method, ITfEditSession.DoEditSession, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
 ms.topic: method
-f1_keywords: ["msctf/ITfEditSession.DoEditSession"]
+f1_keywords: 
+ - "msctf/ITfEditSession.DoEditSession"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

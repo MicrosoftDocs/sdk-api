@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrStrNW, StrStrNW function [Windows Shell], _shell_StrStrNW, shell.StrStrNW, shlwapi/StrStrNW
 ms.topic: function
-f1_keywords: ["shlwapi/StrStrNW"]
+f1_keywords: 
+ - "shlwapi/StrStrNW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

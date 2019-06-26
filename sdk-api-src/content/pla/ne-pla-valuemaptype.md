@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValueMapType, ValueMapType enumeration [PLA], base.valuemaptype, pla.valuemaptype, pla/ValueMapType, pla/plaFlag, pla/plaFlagArray, pla/plaIndex, pla/plaValidation, plaFlag, plaFlagArray, plaIndex, plaValidation
 ms.topic: enum
-f1_keywords: ["pla/ValueMapType"]
+f1_keywords: 
+ - "pla/ValueMapType"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

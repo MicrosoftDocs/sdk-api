@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
 ms.topic: method
-f1_keywords: ["objidl/ISynchronizeContainer.WaitMultiple"]
+f1_keywords: 
+ - "objidl/ISynchronizeContainer.WaitMultiple"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

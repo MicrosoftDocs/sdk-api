@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler2, uianimation/IUIAnimationVariableIntegerChangeHandler2
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationVariableIntegerChangeHandler2"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariableIntegerChangeHandler2"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

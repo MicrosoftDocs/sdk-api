@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
 ms.topic: function
-f1_keywords: ["schannel/SslGetServerIdentity"]
+f1_keywords: 
+ - "schannel/SslGetServerIdentity"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

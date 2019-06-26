@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 function [Windows API], base.rtlisnamelegaldos8dot3, fs.rtlisnamelegaldos8dot3, winprog.rtlisnamelegaldos8dot3, winternl/RtlIsNameLegalDOS8Dot3
 ms.topic: function
-f1_keywords: ["winternl/RtlIsNameLegalDOS8Dot3"]
+f1_keywords: 
+ - "winternl/RtlIsNameLegalDOS8Dot3"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

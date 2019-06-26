@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EraseMedia, EraseMedia method [IMAPI], EraseMedia method [IMAPI],IDiscFormat2Erase interface, IDiscFormat2Erase interface [IMAPI],EraseMedia method, IDiscFormat2Erase.EraseMedia, IDiscFormat2Erase::EraseMedia, imapi.idiscformat2erase_erasemedia, imapi2/IDiscFormat2Erase::EraseMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Erase.EraseMedia"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Erase.EraseMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

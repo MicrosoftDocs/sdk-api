@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER_DESC, D3D12_INFO_QUEUE_FILTER_DESC structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER_DESC, direct3d12.d3d12_info_queue_filter_desc
 ms.topic: struct
-f1_keywords: ["d3d12sdklayers/D3D12_INFO_QUEUE_FILTER_DESC"]
+f1_keywords: 
+ - "d3d12sdklayers/D3D12_INFO_QUEUE_FILTER_DESC"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

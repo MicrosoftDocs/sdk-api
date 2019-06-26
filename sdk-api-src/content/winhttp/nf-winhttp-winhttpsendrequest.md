@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpSendRequest"]
+f1_keywords: 
+ - "winhttp/WinHttpSendRequest"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

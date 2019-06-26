@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Start method, ITMediaControl.Start, ITMediaControl::Start, Start, Start method [TAPI 2.2], Start method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_start, tapi3.itmediacontrol_start, tapi3if/ITMediaControl::Start
 ms.topic: method
-f1_keywords: ["tapi3if/ITMediaControl.Start"]
+f1_keywords: 
+ - "tapi3if/ITMediaControl.Start"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNoiseReduction, GetNoiseReduction method [Windows Imaging Component], GetNoiseReduction method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetNoiseReduction method, IWICDevelopRaw.GetNoiseReduction, IWICDevelopRaw::GetNoiseReduction, _wic_codec_iwicdevelopraw_getnoisereduction, wic._wic_codec_iwicdevelopraw_getnoisereduction, wincodec/IWICDevelopRaw::GetNoiseReduction
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetNoiseReduction"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetNoiseReduction"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

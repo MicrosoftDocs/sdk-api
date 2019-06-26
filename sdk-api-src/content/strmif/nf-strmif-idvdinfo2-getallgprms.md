@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetAllGPRMs"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetAllGPRMs"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

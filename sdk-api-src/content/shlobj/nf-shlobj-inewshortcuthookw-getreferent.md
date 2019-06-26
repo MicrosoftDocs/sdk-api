@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReferent, GetReferent method [Windows Shell], GetReferent method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetReferent method, INewShortcutHook::GetReferent, INewShortcutHookA, INewShortcutHookA::GetReferent, INewShortcutHookW, INewShortcutHookW.GetReferent, INewShortcutHookW::GetReferent, _win32_INewShortcutHook_GetReferent, shell.INewShortcutHook_GetReferent, shlobj/INewShortcutHook::GetReferent
 ms.topic: method
-f1_keywords: ["shlobj/INewShortcutHook.GetReferent"]
+f1_keywords: 
+ - "shlobj/INewShortcutHook.GetReferent"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

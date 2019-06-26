@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnReuseLuns method, IVssHardwareSnapshotProviderEx.OnReuseLuns, IVssHardwareSnapshotProviderEx::OnReuseLuns, OnReuseLuns, OnReuseLuns method, OnReuseLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_onreuseluns, vsprov/IVssHardwareSnapshotProviderEx::OnReuseLuns
 ms.topic: method
-f1_keywords: ["vsprov/IVssHardwareSnapshotProviderEx.OnReuseLuns"]
+f1_keywords: 
+ - "vsprov/IVssHardwareSnapshotProviderEx.OnReuseLuns"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

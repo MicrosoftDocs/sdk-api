@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInGetDevCaps, midiInGetDevCaps, midiInGetDevCaps function [Windows Multimedia], midiInGetDevCapsA, midiInGetDevCapsW, mmeapi/midiInGetDevCaps, mmeapi/midiInGetDevCapsA, mmeapi/midiInGetDevCapsW, multimedia.midiingetdevcaps"
 ms.topic: function
-f1_keywords: ["mmeapi/midiInGetDevCaps"]
+f1_keywords: 
+ - "mmeapi/midiInGetDevCaps"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

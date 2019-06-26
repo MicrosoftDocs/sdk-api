@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPlayed, GetPlayed method [Media Foundation], GetPlayed method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlayed method, IMFMediaEngine.GetPlayed, IMFMediaEngine::GetPlayed, mf.imfmediaengine_getplayed, mfmediaengine/IMFMediaEngine::GetPlayed
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetPlayed"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetPlayed"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

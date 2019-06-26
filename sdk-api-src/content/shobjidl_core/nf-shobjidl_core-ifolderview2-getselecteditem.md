@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.GetSelectedItem"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.GetSelectedItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

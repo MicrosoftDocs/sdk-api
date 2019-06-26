@@ -5,7 +5,8 @@ description: Asynchronously requests a token from a web account provider. If nec
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
 ms.topic: language-reference
-f1_keywords: ["webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync"]
+f1_keywords: 
+ - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync"
 targetos: Windows
 product: Windows
 req.assembly: 

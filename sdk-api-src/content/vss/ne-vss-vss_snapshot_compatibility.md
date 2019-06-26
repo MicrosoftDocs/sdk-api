@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_COMPATIBILITY, VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS], _win32_vss_snapshot_compatibility, base.vss_snapshot_compatibility, vss/VSS_SC_DISABLE_CONTENTINDEX, vss/VSS_SC_DISABLE_DEFRAG, vss/VSS_SNAPSHOT_COMPATIBILITY
 ms.topic: enum
-f1_keywords: ["vss/VSS_SNAPSHOT_COMPATIBILITY"]
+f1_keywords: 
+ - "vss/VSS_SNAPSHOT_COMPATIBILITY"
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

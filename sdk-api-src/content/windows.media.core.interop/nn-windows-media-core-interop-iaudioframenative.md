@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioFrameNative, IAudioFrameNative interface [Windows Runtime], IAudioFrameNative interface [Windows Runtime],described, windows/IAudioFrameNative, winrt.iaudioframenative
 ms.topic: interface
-f1_keywords: ["windows.media.core.interop/IAudioFrameNative"]
+f1_keywords: 
+ - "windows.media.core.interop/IAudioFrameNative"
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

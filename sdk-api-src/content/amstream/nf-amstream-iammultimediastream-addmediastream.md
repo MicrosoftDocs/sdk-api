@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
 ms.topic: method
-f1_keywords: ["amstream/IAMMultiMediaStream.AddMediaStream"]
+f1_keywords: 
+ - "amstream/IAMMultiMediaStream.AddMediaStream"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

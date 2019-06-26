@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
 ms.topic: method
-f1_keywords: ["iaccess/IAccessControl.SetAccessRights"]
+f1_keywords: 
+ - "iaccess/IAccessControl.SetAccessRights"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

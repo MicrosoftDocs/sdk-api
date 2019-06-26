@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [ICS/ICF], Description property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Description property, INetFwRule.Description, INetFwRule.put_Description, INetFwRule::Description, INetFwRule::get_Description, INetFwRule::put_Description, ics.inetfwrule_description, netfw/INetFwRule::Description, netfw/INetFwRule::get_Description, netfw/INetFwRule::put_Description, put_Description
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule.Description"]
+f1_keywords: 
+ - "netfw/INetFwRule.Description"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

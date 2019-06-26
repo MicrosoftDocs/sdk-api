@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ScrollRect method, IOleInPlaceSiteWindowless.ScrollRect, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect, ScrollRect method [COM], ScrollRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless.ScrollRect"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless.ScrollRect"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

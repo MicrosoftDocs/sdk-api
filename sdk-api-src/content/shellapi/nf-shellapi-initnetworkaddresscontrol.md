@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitNetworkAddressControl, InitNetworkAddressControl function [Windows Shell], _shell_InitNetworkAddressControl, shell.InitNetworkAddressControl, shellapi/InitNetworkAddressControl
 ms.topic: function
-f1_keywords: ["shellapi/InitNetworkAddressControl"]
+f1_keywords: 
+ - "shellapi/InitNetworkAddressControl"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

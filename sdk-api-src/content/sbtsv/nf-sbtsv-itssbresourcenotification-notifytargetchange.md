@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourceNotification.NotifyTargetChange"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourceNotification.NotifyTargetChange"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

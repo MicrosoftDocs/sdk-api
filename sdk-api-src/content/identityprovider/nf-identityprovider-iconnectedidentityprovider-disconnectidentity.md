@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
 ms.topic: method
-f1_keywords: ["identityprovider/IConnectedIdentityProvider.DisconnectIdentity"]
+f1_keywords: 
+ - "identityprovider/IConnectedIdentityProvider.DisconnectIdentity"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

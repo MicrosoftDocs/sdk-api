@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SRRemoveRestorePoint, SRRemoveRestorePoint function [System Restore], _sr_srremoverestorepoint, sr.srremoverestorepoint, srrestoreptapi/SRRemoveRestorePoint
 ms.topic: function
-f1_keywords: ["srrestoreptapi/SRRemoveRestorePoint"]
+f1_keywords: 
+ - "srrestoreptapi/SRRemoveRestorePoint"
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows

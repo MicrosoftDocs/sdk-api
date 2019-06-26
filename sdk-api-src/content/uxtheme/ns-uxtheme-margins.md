@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
 ms.topic: struct
-f1_keywords: ["uxtheme/MARGINS"]
+f1_keywords: 
+ - "uxtheme/MARGINS"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

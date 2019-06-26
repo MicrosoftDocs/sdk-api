@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetWidthScale, CustomLineCap::GetWidthScale, GetWidthScale, GetWidthScale method [GDI+], GetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetWidthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_GetWidthScale_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/CustomLineCap.GetWidthScale"]
+f1_keywords: 
+ - "gdiplusheaders/CustomLineCap.GetWidthScale"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

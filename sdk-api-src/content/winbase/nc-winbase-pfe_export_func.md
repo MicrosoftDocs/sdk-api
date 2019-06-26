@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
 ms.topic: callback
-f1_keywords: ["winbase/ExportCallback"]
+f1_keywords: 
+ - "winbase/ExportCallback"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

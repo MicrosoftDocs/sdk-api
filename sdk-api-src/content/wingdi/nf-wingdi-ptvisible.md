@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PtVisible, PtVisible function [Windows GDI], _win32_PtVisible, gdi.ptvisible, wingdi/PtVisible
 ms.topic: function
-f1_keywords: ["wingdi/PtVisible"]
+f1_keywords: 
+ - "wingdi/PtVisible"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

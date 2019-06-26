@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, winauto.msaamenuinfo"
 ms.topic: struct
-f1_keywords: ["oleacc/MSAAMENUINFO"]
+f1_keywords: 
+ - "oleacc/MSAAMENUINFO"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

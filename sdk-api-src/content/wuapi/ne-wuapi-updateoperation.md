@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
 ms.topic: enum
-f1_keywords: ["wuapi/UpdateOperation"]
+f1_keywords: 
+ - "wuapi/UpdateOperation"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

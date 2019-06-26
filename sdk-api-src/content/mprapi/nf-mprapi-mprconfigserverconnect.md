@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerConnect, MprConfigServerConnect function [RAS], _mpr_mprconfigserverconnect, mprapi/MprConfigServerConnect, rras.mprconfigserverconnect
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigServerConnect"]
+f1_keywords: 
+ - "mprapi/MprConfigServerConnect"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

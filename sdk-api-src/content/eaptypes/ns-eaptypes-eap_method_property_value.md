@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
 ms.topic: struct
-f1_keywords: ["eaptypes/EAP_METHOD_PROPERTY_VALUE"]
+f1_keywords: 
+ - "eaptypes/EAP_METHOD_PROPERTY_VALUE"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

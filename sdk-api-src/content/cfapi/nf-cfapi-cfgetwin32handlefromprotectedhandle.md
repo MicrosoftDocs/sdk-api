@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetWin32HandleFromProtectedHandle, CfGetWin32HandleFromProtectedHandle function, cfapi/CfGetWin32HandleFromProtectedHandle, cloudApi.cfgetwin32handlefromprotectedhandle
 ms.topic: function
-f1_keywords: ["cfapi/CfGetWin32HandleFromProtectedHandle"]
+f1_keywords: 
+ - "cfapi/CfGetWin32HandleFromProtectedHandle"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

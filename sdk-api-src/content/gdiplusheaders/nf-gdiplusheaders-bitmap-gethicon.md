@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],GetHICON method, Bitmap.GetHICON, Bitmap::GetHICON, GetHICON, GetHICON method [GDI+], GetHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_GetHICON_hicon_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.GetHICON"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.GetHICON"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

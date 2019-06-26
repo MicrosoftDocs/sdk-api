@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalInitialization interface [TAPI 2.2],InitializeDynamic method, ITPluggableTerminalInitialization.InitializeDynamic, ITPluggableTerminalInitialization::InitializeDynamic, InitializeDynamic, InitializeDynamic method [TAPI 2.2], InitializeDynamic method [TAPI 2.2],ITPluggableTerminalInitialization interface, _tapi3_itpluggableterminalinitialization_initializedynamic, tapi3.itpluggableterminalinitialization_initializedynamic, termmgr/ITPluggableTerminalInitialization::InitializeDynamic
 ms.topic: method
-f1_keywords: ["termmgr/ITPluggableTerminalInitialization.InitializeDynamic"]
+f1_keywords: 
+ - "termmgr/ITPluggableTerminalInitialization.InitializeDynamic"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

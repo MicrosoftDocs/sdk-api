@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [Open Packaging Conventions], GetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureOriginPartName method, IOpcDigitalSignatureManager.GetSignatureOriginPartName, IOpcDigitalSignatureManager::GetSignatureOriginPartName, msopc/IOpcDigitalSignatureManager::GetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_getsignatureoriginpartname
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignatureManager.GetSignatureOriginPartName"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignatureManager.GetSignatureOriginPartName"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

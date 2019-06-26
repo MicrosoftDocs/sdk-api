@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FINDTEXT, FINDTEXT structure [Windows Controls], FINDTEXTA, FINDTEXTW, _win32_FINDTEXT_str, _win32_FINDTEXT_str_cpp, controls.FINDTEXT, controls._win32_FINDTEXT_str, richedit/FINDTEXT, richedit/FINDTEXTA, richedit/FINDTEXTW
 ms.topic: struct
-f1_keywords: ["richedit/FINDTEXT"]
+f1_keywords: 
+ - "richedit/FINDTEXT"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],StopBackgroundRecognition method, IInkRecognizerContext.StopBackgroundRecognition, IInkRecognizerContext::StopBackgroundRecognition, StopBackgroundRecognition, StopBackgroundRecognition method [Tablet PC], StopBackgroundRecognition method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::StopBackgroundRecognition, tablet.inkrecognizercontext_stopbackgroundrecognition
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizerContext.StopBackgroundRecognition"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext.StopBackgroundRecognition"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

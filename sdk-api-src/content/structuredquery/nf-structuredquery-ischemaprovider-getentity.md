@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
 ms.topic: method
-f1_keywords: ["structuredquery/ISchemaProvider.GetEntity"]
+f1_keywords: 
+ - "structuredquery/ISchemaProvider.GetEntity"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

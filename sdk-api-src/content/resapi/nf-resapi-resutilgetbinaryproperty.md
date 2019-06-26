@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY function [Failover Cluster], ResUtilGetBinaryProperty, ResUtilGetBinaryProperty function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY, resapi/ResUtilGetBinaryProperty
 ms.topic: function
-f1_keywords: ["resapi/ResUtilGetBinaryProperty"]
+f1_keywords: 
+ - "resapi/ResUtilGetBinaryProperty"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

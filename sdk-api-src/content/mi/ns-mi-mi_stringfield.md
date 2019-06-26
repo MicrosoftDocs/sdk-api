@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_StringField, MI_StringField structure [Windows Management Infrastructure (MI)], mi/MI_StringField, wmi._mi_stringfield, wmi_v2.mi_stringfield
 ms.topic: struct
-f1_keywords: ["mi/MI_StringField"]
+f1_keywords: 
+ - "mi/MI_StringField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

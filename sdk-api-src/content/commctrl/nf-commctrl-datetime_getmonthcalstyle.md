@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
 ms.topic: macro
-f1_keywords: ["commctrl/DateTime_GetMonthCalStyle"]
+f1_keywords: 
+ - "commctrl/DateTime_GetMonthCalStyle"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

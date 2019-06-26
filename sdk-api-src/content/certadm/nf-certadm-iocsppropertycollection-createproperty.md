@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPPropertyCollection.CreateProperty"]
+f1_keywords: 
+ - "certadm/IOCSPPropertyCollection.CreateProperty"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

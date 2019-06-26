@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_ALL_INTERFACE_CLASSES, DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterDeviceNotification, RegisterDeviceNotification function, RegisterDeviceNotificationA, RegisterDeviceNotificationW, _win32_registerdevicenotification, base.registerdevicenotification, winuser/RegisterDeviceNotification, winuser/RegisterDeviceNotificationA, winuser/RegisterDeviceNotificationW
 ms.topic: function
-f1_keywords: ["winuser/RegisterDeviceNotification"]
+f1_keywords: 
+ - "winuser/RegisterDeviceNotification"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
 ms.topic: function
-f1_keywords: ["winsock2/WSAHtons"]
+f1_keywords: 
+ - "winsock2/WSAHtons"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

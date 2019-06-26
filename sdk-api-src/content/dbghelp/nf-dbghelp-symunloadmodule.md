@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
 ms.topic: function
-f1_keywords: ["dbghelp/SymUnloadModule64"]
+f1_keywords: 
+ - "dbghelp/SymUnloadModule64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

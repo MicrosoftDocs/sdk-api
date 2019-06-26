@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPathIterator.GraphicsPathIterator"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPathIterator.GraphicsPathIterator"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

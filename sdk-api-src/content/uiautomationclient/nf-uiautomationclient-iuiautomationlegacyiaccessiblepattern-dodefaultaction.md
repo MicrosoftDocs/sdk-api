@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.DoDefaultAction"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.DoDefaultAction"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

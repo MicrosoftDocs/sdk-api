@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Peg method, IReferenceTrackerTarget.Peg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Peg, IReferenceTrackerTarget::xaml, Peg, Peg method [Windows Runtime], Peg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
 ms.topic: method
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.Peg"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.Peg"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

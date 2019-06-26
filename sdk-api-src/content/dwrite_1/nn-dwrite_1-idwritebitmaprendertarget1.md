@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget1, IDWriteBitmapRenderTarget1 interface [Direct Write], IDWriteBitmapRenderTarget1 interface [Direct Write],described, directwrite.idwritebitmaprendertarget1, dwrite_1/IDWriteBitmapRenderTarget1
 ms.topic: interface
-f1_keywords: ["dwrite_1/IDWriteBitmapRenderTarget1"]
+f1_keywords: 
+ - "dwrite_1/IDWriteBitmapRenderTarget1"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

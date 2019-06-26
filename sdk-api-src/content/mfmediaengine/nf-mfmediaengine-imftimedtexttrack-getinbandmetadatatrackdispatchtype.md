@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextTrack.GetInBandMetadataTrackDispatchType"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextTrack.GetInBandMetadataTrackDispatchType"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

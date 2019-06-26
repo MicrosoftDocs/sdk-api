@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.topic: function
-f1_keywords: ["aclapi/BuildTrusteeWithSid"]
+f1_keywords: 
+ - "aclapi/BuildTrusteeWithSid"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

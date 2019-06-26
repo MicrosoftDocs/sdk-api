@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE"
 ms.topic: struct
-f1_keywords: ["winioctl/RETRIEVAL_POINTER_BASE"]
+f1_keywords: 
+ - "winioctl/RETRIEVAL_POINTER_BASE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

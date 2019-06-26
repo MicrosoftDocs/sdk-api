@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDGETPOLARITYININFO, DDGETPOLARITYININFO, DDGETPOLARITYININFO structure [Display Devices], PDDGETPOLARITYININFO, PDDGETPOLARITYININFO structure pointer [Display Devices], Video_Structs_693e8e87-9032-4fef-b930-1d346ca447d4.xml, display.ddgetpolarityininfo, dxmini/DDGETPOLARITYININFO, dxmini/PDDGETPOLARITYININFO"
 ms.topic: struct
-f1_keywords: ["dxmini/DDGETPOLARITYININFO"]
+f1_keywords: 
+ - "dxmini/DDGETPOLARITYININFO"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

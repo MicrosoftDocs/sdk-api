@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseBasic method, IWSManEx.SessionFlagUseBasic, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.SessionFlagUseBasic"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.SessionFlagUseBasic"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

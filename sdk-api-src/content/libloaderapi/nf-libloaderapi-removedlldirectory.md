@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveDllDirectory, RemoveDllDirectory function, base.removedlldirectory, libloaderapi/RemoveDllDirectory
 ms.topic: function
-f1_keywords: ["libloaderapi/RemoveDllDirectory"]
+f1_keywords: 
+ - "libloaderapi/RemoveDllDirectory"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

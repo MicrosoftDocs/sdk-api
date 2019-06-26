@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IEventObjectCollection interface [COM+],described, _cos_IEventObjectCollection, cos.ieventobjectcollection, eventsys/IEventObjectCollection
 ms.topic: interface
-f1_keywords: ["eventsys/IEventObjectCollection"]
+f1_keywords: 
+ - "eventsys/IEventObjectCollection"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

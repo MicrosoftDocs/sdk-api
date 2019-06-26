@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
 ms.topic: method
-f1_keywords: ["segment/IMSVidRect.put_Rect"]
+f1_keywords: 
+ - "segment/IMSVidRect.put_Rect"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

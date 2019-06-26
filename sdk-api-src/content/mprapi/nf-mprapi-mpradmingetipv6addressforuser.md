@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminGetIpv6AddressForUser"]
+f1_keywords: 
+ - "mprapi/MprAdminGetIpv6AddressForUser"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

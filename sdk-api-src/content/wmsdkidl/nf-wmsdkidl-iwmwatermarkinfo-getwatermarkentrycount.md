@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntryCount method, IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWatermarkInfo.GetWatermarkEntryCount"]
+f1_keywords: 
+ - "wmsdkidl/IWMWatermarkInfo.GetWatermarkEntryCount"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

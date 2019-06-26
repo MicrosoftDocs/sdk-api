@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT"
 ms.topic: struct
-f1_keywords: ["rtmv2/RTM_ENTITY_METHOD_INPUT"]
+f1_keywords: 
+ - "rtmv2/RTM_ENTITY_METHOD_INPUT"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

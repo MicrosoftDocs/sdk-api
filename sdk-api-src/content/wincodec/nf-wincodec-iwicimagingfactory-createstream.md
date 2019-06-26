@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Windows Imaging Component], CreateStream method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateStream method, IWICImagingFactory.CreateStream, IWICImagingFactory::CreateStream, _wic_codec_iwicimagingfactory_createstream, wic._wic_codec_iwicimagingfactory_createstream, wincodec/IWICImagingFactory::CreateStream
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateStream"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateStream"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

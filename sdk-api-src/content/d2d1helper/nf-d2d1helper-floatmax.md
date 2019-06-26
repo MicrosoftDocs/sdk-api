@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FloatMax, FloatMax function [Direct2D], d2d1helper/FloatMax, direct2d.floatmax
 ms.topic: function
-f1_keywords: ["d2d1helper/FloatMax"]
+f1_keywords: 
+ - "d2d1helper/FloatMax"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

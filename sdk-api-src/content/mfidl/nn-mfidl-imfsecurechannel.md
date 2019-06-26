@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], IMFSecureChannel interface [Media Foundation],described, mf.imfsecurechannel, mfidl/IMFSecureChannel
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSecureChannel"]
+f1_keywords: 
+ - "mfidl/IMFSecureChannel"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

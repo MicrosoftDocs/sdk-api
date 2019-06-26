@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LogicalToPhysicalPoint, LogicalToPhysicalPoint function [Windows and Messages], _win32_LogicalToPhysicalPoint, _win32_logicaltophysicalpoint_cpp, winmsg.logicaltophysicalpoint, winui._win32_logicaltophysicalpoint, winuser/LogicalToPhysicalPoint
 ms.topic: function
-f1_keywords: ["winuser/LogicalToPhysicalPoint"]
+f1_keywords: 
+ - "winuser/LogicalToPhysicalPoint"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

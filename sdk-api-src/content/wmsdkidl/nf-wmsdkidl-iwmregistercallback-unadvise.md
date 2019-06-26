@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisterCallback.Unadvise"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisterCallback.Unadvise"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

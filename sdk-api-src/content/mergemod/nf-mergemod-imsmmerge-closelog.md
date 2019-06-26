@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseLog, CloseLog method, CloseLog method,IMsmMerge interface, IMsmMerge interface,CloseLog method, IMsmMerge.CloseLog, IMsmMerge::CloseLog, _msi_closelog_function, mergemod/IMsmMerge::CloseLog, setup.imsmmerge_closelog
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge.CloseLog"]
+f1_keywords: 
+ - "mergemod/IMsmMerge.CloseLog"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

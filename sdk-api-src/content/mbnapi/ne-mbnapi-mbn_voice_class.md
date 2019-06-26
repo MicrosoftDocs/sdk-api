@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_VOICE_CLASS, MBN_VOICE_CLASS enumeration [Microsoft Broadband Networks], MBN_VOICE_CLASS_NONE, MBN_VOICE_CLASS_NO_VOICE, MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA, mbn.mbn_voice_class, mbnapi/MBN_VOICE_CLASS, mbnapi/MBN_VOICE_CLASS_NONE, mbnapi/MBN_VOICE_CLASS_NO_VOICE, mbnapi/MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, mbnapi/MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA
 ms.topic: enum
-f1_keywords: ["mbnapi/MBN_VOICE_CLASS"]
+f1_keywords: 
+ - "mbnapi/MBN_VOICE_CLASS"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

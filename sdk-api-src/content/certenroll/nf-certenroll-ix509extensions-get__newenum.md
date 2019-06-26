@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions interface [Security],_NewEnum property, IX509Extensions._NewEnum, IX509Extensions.get__NewEnum, IX509Extensions::_NewEnum, IX509Extensions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509Extensions interface, certenroll/IX509Extensions::_NewEnum, certenroll/IX509Extensions::get__NewEnum, get__NewEnum, security.ix509extensions__newenum_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509Extensions._NewEnum"]
+f1_keywords: 
+ - "certenroll/IX509Extensions._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

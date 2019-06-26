@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
 ms.topic: function
-f1_keywords: ["securitybaseapi/AddAce"]
+f1_keywords: 
+ - "securitybaseapi/AddAce"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

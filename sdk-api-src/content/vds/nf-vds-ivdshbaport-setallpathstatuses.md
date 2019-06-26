@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.SetAllPathStatuses, IVdsHbaPort::SetAllPathStatuses, SetAllPathStatuses, SetAllPathStatuses method [VDS], SetAllPathStatuses method [VDS],IVdsHbaPort interface, base.ivdshbaport_setallpathstatuses, vds/IVdsHbaPort::SetAllPathStatuses
 ms.topic: method
-f1_keywords: ["vds/IVdsHbaPort.SetAllPathStatuses"]
+f1_keywords: 
+ - "vds/IVdsHbaPort.SetAllPathStatuses"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

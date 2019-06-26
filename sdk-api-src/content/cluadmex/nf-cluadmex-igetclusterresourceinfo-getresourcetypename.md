@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceTypeName method, IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
 ms.topic: method
-f1_keywords: ["cluadmex/IGetClusterResourceInfo.GetResourceTypeName"]
+f1_keywords: 
+ - "cluadmex/IGetClusterResourceInfo.GetResourceTypeName"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverrideProviderForHwnd, GetOverrideProviderForHwnd method [Windows Accessibility], GetOverrideProviderForHwnd method [Windows Accessibility],IRawElementProviderHwndOverride interface, IRawElementProviderHwndOverride interface [Windows Accessibility],GetOverrideProviderForHwnd method, IRawElementProviderHwndOverride.GetOverrideProviderForHwnd, IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, uiauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiautomationcore/IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, winauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderHwndOverride.GetOverrideProviderForHwnd"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderHwndOverride.GetOverrideProviderForHwnd"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const RectF &), Region.Xor(const RectF&), Region::Xor, Region::Xor(IN const RectF &), Xor, Xor method [GDI+], Xor method [GDI+],Region class, _gdiplus_CLASS_Region_Xor_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Xor_RectF_rect_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Region.Xor"]
+f1_keywords: 
+ - "gdiplusheaders/Region.Xor"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

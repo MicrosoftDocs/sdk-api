@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], IMFTimedText interface [Media Foundation],described, mf.imftimedtext, mfmediaengine/IMFTimedText
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFTimedText"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

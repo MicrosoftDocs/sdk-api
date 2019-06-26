@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS, PWDS_TRANSPORTPROVIDER_INIT_PARAMS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_INIT_PARAMS, WDS_TRANSPORTPROVIDER_INIT_PARAMS structure [Windows Deployment Services], wds.wds_transportprovider_init_params, wdstpdi/PWDS_TRANSPORTPROVIDER_INIT_PARAMS, wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
 ms.topic: struct
-f1_keywords: ["wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"]
+f1_keywords: 
+ - "wdstpdi/WDS_TRANSPORTPROVIDER_INIT_PARAMS"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

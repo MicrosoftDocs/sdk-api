@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12CommandAllocator"]
+f1_keywords: 
+ - "d3d12/ID3D12CommandAllocator"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

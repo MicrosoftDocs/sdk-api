@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsThreadpoolTimerSet, IsThreadpoolTimerSet function, base.isthreadpooltimerset, threadpoolapiset/IsThreadpoolTimerSet, winbase/IsThreadpoolTimerSet
 ms.topic: function
-f1_keywords: ["threadpoolapiset/IsThreadpoolTimerSet"]
+f1_keywords: 
+ - "threadpoolapiset/IsThreadpoolTimerSet"
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

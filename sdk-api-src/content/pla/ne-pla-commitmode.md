@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitMode, CommitMode enumeration [PLA], base.commitmode, pla.commitmode, pla/CommitMode, pla/plaCreateNew, pla/plaCreateOrModify, pla/plaFlushTrace, pla/plaModify, pla/plaUpdateRunningInstance, pla/plaValidateOnly, plaCreateNew, plaCreateOrModify, plaFlushTrace, plaModify, plaUpdateRunningInstance, plaValidateOnly
 ms.topic: enum
-f1_keywords: ["pla/CommitMode"]
+f1_keywords: 
+ - "pla/CommitMode"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

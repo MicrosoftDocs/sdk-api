@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromDosDateTime"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromDosDateTime"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

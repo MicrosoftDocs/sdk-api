@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POBJECTS_AND_SID, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_SID, OBJECTS_AND_SID structure [Security], POBJECTS_AND_SID, POBJECTS_AND_SID structure pointer [Security], _OBJECTS_AND_SID, _win32_objects_and_sid_str, accctrl/OBJECTS_AND_SID, accctrl/POBJECTS_AND_SID, security.objects_and_sid"
 ms.topic: struct
-f1_keywords: ["accctrl/OBJECTS_AND_SID"]
+f1_keywords: 
+ - "accctrl/OBJECTS_AND_SID"
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

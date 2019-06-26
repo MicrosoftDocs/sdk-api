@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOWER_POLICY, POWER_POLICY, POWER_POLICY structure, PPOWER_POLICY, PPOWER_POLICY structure pointer, _win32_power_policy_str, base.power_policy_str, powrprof/POWER_POLICY, powrprof/PPOWER_POLICY"
 ms.topic: struct
-f1_keywords: ["powrprof/POWER_POLICY"]
+f1_keywords: 
+ - "powrprof/POWER_POLICY"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

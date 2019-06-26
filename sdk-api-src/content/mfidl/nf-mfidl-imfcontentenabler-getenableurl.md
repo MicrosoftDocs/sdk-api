@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1a44216d-36e5-4b5c-9585-5297d5e429f9, GetEnableURL, GetEnableURL method [Media Foundation], GetEnableURL method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableURL method, IMFContentEnabler.GetEnableURL, IMFContentEnabler::GetEnableURL, mf.imfcontentenabler_getenableurl, mfidl/IMFContentEnabler::GetEnableURL
 ms.topic: method
-f1_keywords: ["mfidl/IMFContentEnabler.GetEnableURL"]
+f1_keywords: 
+ - "mfidl/IMFContentEnabler.GetEnableURL"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

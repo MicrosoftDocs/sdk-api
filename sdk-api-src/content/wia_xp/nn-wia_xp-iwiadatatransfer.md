@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
 ms.topic: interface
-f1_keywords: ["wia_xp/IWiaDataTransfer"]
+f1_keywords: 
+ - "wia_xp/IWiaDataTransfer"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderReadContent, WdsTransportProviderReadContent callback, WdsTransportProviderReadContent callback function [Windows Deployment Services], wds.wdstransportproviderreadcontent, wdstpdi/WdsTransportProviderReadContent
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderReadContent"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderReadContent"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

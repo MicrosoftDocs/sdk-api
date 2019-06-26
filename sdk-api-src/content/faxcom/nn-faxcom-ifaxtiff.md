@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
 ms.topic: interface
-f1_keywords: ["faxcom/IFaxTiff"]
+f1_keywords: 
+ - "faxcom/IFaxTiff"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

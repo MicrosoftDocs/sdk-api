@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetServiceHostProperty, WsGetServiceHostProperty function [Web Services for Windows], webservices/WsGetServiceHostProperty, wsw.wsgetservicehostproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetServiceHostProperty"]
+f1_keywords: 
+ - "webservices/WsGetServiceHostProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

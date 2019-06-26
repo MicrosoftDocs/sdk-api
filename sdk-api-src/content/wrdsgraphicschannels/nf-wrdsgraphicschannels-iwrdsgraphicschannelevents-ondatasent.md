@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
 ms.topic: method
-f1_keywords: ["wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnDataSent"]
+f1_keywords: 
+ - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnDataSent"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

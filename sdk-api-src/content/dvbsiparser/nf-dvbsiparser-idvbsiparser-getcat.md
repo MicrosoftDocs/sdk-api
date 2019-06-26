@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetCAT method, IDvbSiParser.GetCAT, IDvbSiParser::GetCAT, IDvbSiParserGetCAT, dvbsiparser/IDvbSiParser::GetCAT, mstv.idvbsiparser_getcat
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSiParser.GetCAT"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser.GetCAT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

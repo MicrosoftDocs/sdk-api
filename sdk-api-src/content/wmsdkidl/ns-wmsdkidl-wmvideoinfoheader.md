@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMVIDEOINFOHEADER, WMVIDEOINFOHEADER structure [windows Media Format], wmformat.wmvideoinfoheader, wmsdkidl/WMVIDEOINFOHEADER
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WMVIDEOINFOHEADER"]
+f1_keywords: 
+ - "wmsdkidl/WMVIDEOINFOHEADER"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

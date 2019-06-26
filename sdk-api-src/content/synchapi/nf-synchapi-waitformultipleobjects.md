@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
 ms.topic: function
-f1_keywords: ["synchapi/WaitForMultipleObjects"]
+f1_keywords: 
+ - "synchapi/WaitForMultipleObjects"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PolicyQualifierType, PolicyQualifierType enumeration [Security], PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/PolicyQualifierType, certenroll/PolicyQualifierTypeUnknown, certenroll/PolicyQualifierTypeUrl, certenroll/PolicyQualifierTypeUserNotice, security.policyqualifiertype_enum
 ms.topic: enum
-f1_keywords: ["certenroll/PolicyQualifierType"]
+f1_keywords: 
+ - "certenroll/PolicyQualifierType"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

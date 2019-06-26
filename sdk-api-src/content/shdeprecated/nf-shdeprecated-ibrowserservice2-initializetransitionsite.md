@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTransitionSite method, IBrowserService2.InitializeTransitionSite, IBrowserService2::InitializeTransitionSite, InitializeTransitionSite, InitializeTransitionSite method [Windows Shell], InitializeTransitionSite method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTransitionSite, shell.IBrowserService2_InitializeTransitionSite, zone_IBrowserService2_InitializeTransitionSite
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.InitializeTransitionSite"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.InitializeTransitionSite"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

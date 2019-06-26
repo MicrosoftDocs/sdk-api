@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
 ms.topic: function
-f1_keywords: ["shellscalingapi/SetProcessDpiAwareness"]
+f1_keywords: 
+ - "shellscalingapi/SetProcessDpiAwareness"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

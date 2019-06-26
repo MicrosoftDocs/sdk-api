@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PlaySpeed, PlaySpeed structure [Media Streaming API], mediastreaming.playspeed, windows/PlaySpeed
 ms.topic: struct
-f1_keywords: ["windows.media.streaming/PlaySpeed"]
+f1_keywords: 
+ - "windows.media.streaming/PlaySpeed"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

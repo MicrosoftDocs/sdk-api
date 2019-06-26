@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesItem.GetParentItem"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesItem.GetParentItem"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

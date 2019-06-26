@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMMode function [Windows Color System], _color_SetICMMode, wcs.seticmmode, wingdi/SetICMMode
 ms.topic: function
-f1_keywords: ["wingdi/SetICMMode"]
+f1_keywords: 
+ - "wingdi/SetICMMode"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

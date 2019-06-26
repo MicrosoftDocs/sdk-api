@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering interface [Media Foundation],SetBufferingParams method, IMFByteStreamBuffering.SetBufferingParams, IMFByteStreamBuffering::SetBufferingParams, SetBufferingParams, SetBufferingParams method [Media Foundation], SetBufferingParams method [Media Foundation],IMFByteStreamBuffering interface, mf.imfbytestreambuffering_setbufferingparams, mfidl/IMFByteStreamBuffering::SetBufferingParams
 ms.topic: method
-f1_keywords: ["mfidl/IMFByteStreamBuffering.SetBufferingParams"]
+f1_keywords: 
+ - "mfidl/IMFByteStreamBuffering.SetBufferingParams"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

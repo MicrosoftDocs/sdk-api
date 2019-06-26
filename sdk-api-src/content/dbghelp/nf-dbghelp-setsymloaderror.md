@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
 ms.topic: function
-f1_keywords: ["dbghelp/SetSymLoadError"]
+f1_keywords: 
+ - "dbghelp/SetSymLoadError"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

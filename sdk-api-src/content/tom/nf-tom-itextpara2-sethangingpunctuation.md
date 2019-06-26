@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetHangingPunctuation method, ITextPara2.SetHangingPunctuation, ITextPara2::SetHangingPunctuation, SetHangingPunctuation, SetHangingPunctuation method [Windows Controls], SetHangingPunctuation method [Windows Controls],ITextPara2 interface, controls.itextpara2_sethangingpunctuation, tom/ITextPara2::SetHangingPunctuation
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.SetHangingPunctuation"]
+f1_keywords: 
+ - "tom/ITextPara2.SetHangingPunctuation"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

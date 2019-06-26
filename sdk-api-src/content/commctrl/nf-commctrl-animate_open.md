@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate_Open, _win32_Animate_Open_cpp, commctrl/Animate_Open, controls.Animate_Open, controls._win32_Animate_Open
 ms.topic: macro
-f1_keywords: ["commctrl/Animate_Open"]
+f1_keywords: 
+ - "commctrl/Animate_Open"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

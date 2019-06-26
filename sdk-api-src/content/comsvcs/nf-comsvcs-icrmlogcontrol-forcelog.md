@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForceLog, ForceLog method [COM+], ForceLog method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceLog method, ICrmLogControl.ForceLog, ICrmLogControl::ForceLog, _dtc_ICrmLogControl_ForceLog, comsvcs/ICrmLogControl::ForceLog, cos.icrmlogcontrol_forcelog
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmLogControl.ForceLog"]
+f1_keywords: 
+ - "comsvcs/ICrmLogControl.ForceLog"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

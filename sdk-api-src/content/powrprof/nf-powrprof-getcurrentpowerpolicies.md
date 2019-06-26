@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPowerPolicies, GetCurrentPowerPolicies function, _win32_getcurrentpowerpolicies, base.getcurrentpowerpolicies, powrprof/GetCurrentPowerPolicies
 ms.topic: function
-f1_keywords: ["powrprof/GetCurrentPowerPolicies"]
+f1_keywords: 
+ - "powrprof/GetCurrentPowerPolicies"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

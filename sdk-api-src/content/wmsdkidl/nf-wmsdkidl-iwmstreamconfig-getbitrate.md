@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBitrate, GetBitrate method [windows Media Format], GetBitrate method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBitrate method, IWMStreamConfig.GetBitrate, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig.GetBitrate"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig.GetBitrate"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

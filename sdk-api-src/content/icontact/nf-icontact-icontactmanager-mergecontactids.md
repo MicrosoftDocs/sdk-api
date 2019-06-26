@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],MergeContactIDs method, IContactManager.MergeContactIDs, IContactManager::MergeContactIDs, MergeContactIDs, MergeContactIDs method [Windows Contacts], MergeContactIDs method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_MergeContactIDs, icontact/IContactManager::MergeContactIDs, wincontacts._wincontacts_IContactManager_MergeContactIDs
 ms.topic: method
-f1_keywords: ["icontact/IContactManager.MergeContactIDs"]
+f1_keywords: 
+ - "icontact/IContactManager.MergeContactIDs"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

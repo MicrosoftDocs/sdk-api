@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSharedBitmap, GetSharedBitmap method [Windows Shell], GetSharedBitmap method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetSharedBitmap method, ISharedBitmap.GetSharedBitmap, ISharedBitmap::GetSharedBitmap, _shell__GetSharedBitmap, shell.ISharedBitmap_GetSharedBitmap, thumbcache/ISharedBitmap::GetSharedBitmap
 ms.topic: method
-f1_keywords: ["thumbcache/ISharedBitmap.GetSharedBitmap"]
+f1_keywords: 
+ - "thumbcache/ISharedBitmap.GetSharedBitmap"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

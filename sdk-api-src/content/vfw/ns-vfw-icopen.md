@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_QUERY, ICOPEN, ICOPEN structure [Windows Multimedia], multimedia.icopen_COLLISION563, multimedia.icopen_struct, vfw/ICOPEN
 ms.topic: struct
-f1_keywords: ["vfw/ICOPEN"]
+f1_keywords: 
+ - "vfw/ICOPEN"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

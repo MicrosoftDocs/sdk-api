@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, intsafe/LongToInt, shell.LongToInt
 ms.topic: function
-f1_keywords: ["intsafe/LongToInt"]
+f1_keywords: 
+ - "intsafe/LongToInt"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

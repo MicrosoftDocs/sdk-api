@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumString interface [COM],Skip method, IEnumString.Skip, IEnumString::Skip, Skip, Skip method [COM], Skip method [COM],IEnumString interface, _com_ienumstring_skip, com.ienumstring_skip, objidlbase/IEnumString::Skip
 ms.topic: method
-f1_keywords: ["objidl/IEnumString.Skip"]
+f1_keywords: 
+ - "objidl/IEnumString.Skip"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

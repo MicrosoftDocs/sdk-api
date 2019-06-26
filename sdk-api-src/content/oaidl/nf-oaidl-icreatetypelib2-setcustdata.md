@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib2 interface [Automation],SetCustData method, ICreateTypeLib2.SetCustData, ICreateTypeLib2::SetCustData, SetCustData, SetCustData method [Automation], SetCustData method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetCustData, automat.icreatetypelib2_setcustdata, oaidl/ICreateTypeLib2::SetCustData
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeLib2.SetCustData"]
+f1_keywords: 
+ - "oaidl/ICreateTypeLib2.SetCustData"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

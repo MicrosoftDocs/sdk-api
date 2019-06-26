@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformation.Valid"]
+f1_keywords: 
+ - "certenroll/ICspInformation.Valid"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

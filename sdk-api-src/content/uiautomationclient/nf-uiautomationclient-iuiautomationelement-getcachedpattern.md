@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedPattern, GetCachedPattern method [Windows Accessibility], GetCachedPattern method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPattern method, IUIAutomationElement.GetCachedPattern, IUIAutomationElement::GetCachedPattern, uiauto.uiauto_IUIAutomationElement_GetCachedPattern, uiauto_IUIAutomationElement_GetCachedPattern, uiautomationclient/IUIAutomationElement::GetCachedPattern, winauto.uiauto_IUIAutomationElement_GetCachedPattern
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.GetCachedPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.GetCachedPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

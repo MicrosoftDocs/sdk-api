@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService.AddChild"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService.AddChild"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

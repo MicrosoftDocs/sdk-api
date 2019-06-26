@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateResultImage method, IFileSystemImage.CreateResultImage, IFileSystemImage::CreateResultImage, imapi.ifilesystemimage_createresultimage, imapi2fs/IFileSystemImage::CreateResultImage
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.CreateResultImage"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.CreateResultImage"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

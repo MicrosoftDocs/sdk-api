@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShowMessageAction, IShowMessageAction interface [Task Scheduler], IShowMessageAction interface [Task Scheduler],described, taskschd.ishowmessageaction, taskschd/IShowMessageAction
 ms.topic: interface
-f1_keywords: ["taskschd/IShowMessageAction"]
+f1_keywords: 
+ - "taskschd/IShowMessageAction"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 309fcc8a-6a14-4ee3-b340-5e47ff249bf8, IStrokeBuilder, IStrokeBuilder interface [Tablet PC], IStrokeBuilder interface [Tablet PC],described, rtscom/IStrokeBuilder, tablet.istrokebuilder
 ms.topic: interface
-f1_keywords: ["rtscom/IStrokeBuilder"]
+f1_keywords: 
+ - "rtscom/IStrokeBuilder"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

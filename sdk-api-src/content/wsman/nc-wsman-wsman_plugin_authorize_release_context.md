@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback, WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT callback function [Windows Remote Management], winrm.wsman_plugin_authorize_release_context, wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT
 ms.topic: callback
-f1_keywords: ["wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"]
+f1_keywords: 
+ - "wsman/WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

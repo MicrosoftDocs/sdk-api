@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [XPS Documents and Packaging], GetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontFaceIndex method, IXpsOMGlyphs.GetFontFaceIndex, IXpsOMGlyphs::GetFontFaceIndex, xps.ixpsomglyphs_getfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetFontFaceIndex"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetFontFaceIndex"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRotateTransform, CreateRotateTransform method [DirectComposition], CreateRotateTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform method, IDCompositionDevice.CreateRotateTransform, IDCompositionDevice::CreateRotateTransform, dcomp/IDCompositionDevice::CreateRotateTransform, directcomp.idcompositiondevice_createrotatetransform
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateRotateTransform"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateRotateTransform"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

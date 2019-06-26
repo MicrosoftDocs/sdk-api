@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnderlinePositionMode, GetUnderlinePositionMode method [Windows Controls], GetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetUnderlinePositionMode method, ITextFont2.GetUnderlinePositionMode, ITextFont2::GetUnderlinePositionMode, controls.itextfont2_getunderlinepositionmode, tom/ITextFont2::GetUnderlinePositionMode
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetUnderlinePositionMode"]
+f1_keywords: 
+ - "tom/ITextFont2.GetUnderlinePositionMode"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
 ms.topic: struct
-f1_keywords: ["dmemmgr/HEAPALIGNMENT"]
+f1_keywords: 
+ - "dmemmgr/HEAPALIGNMENT"
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows

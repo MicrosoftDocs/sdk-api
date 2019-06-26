@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_LastTransportStatus method, IUPnPService.get_LastTransportStatus, IUPnPService::get_LastTransportStatus, _upnp_iupnpservice_lasttransportstatus, get_LastTransportStatus, get_LastTransportStatus method [UPnP APIs], get_LastTransportStatus method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_lasttransportstatus, upnp/IUPnPService::get_LastTransportStatus
 ms.topic: method
-f1_keywords: ["upnp/IUPnPService.get_LastTransportStatus"]
+f1_keywords: 
+ - "upnp/IUPnPService.get_LastTransportStatus"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

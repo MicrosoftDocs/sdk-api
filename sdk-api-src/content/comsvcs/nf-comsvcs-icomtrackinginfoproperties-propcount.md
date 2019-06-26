@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
 ms.topic: method
-f1_keywords: ["comsvcs/IComTrackingInfoProperties.PropCount"]
+f1_keywords: 
+ - "comsvcs/IComTrackingInfoProperties.PropCount"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

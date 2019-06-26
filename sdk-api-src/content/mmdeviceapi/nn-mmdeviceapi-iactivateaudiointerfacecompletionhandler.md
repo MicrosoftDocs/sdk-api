@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
 ms.topic: interface
-f1_keywords: ["mmdeviceapi/IActivateAudioInterfaceCompletionHandler"]
+f1_keywords: 
+ - "mmdeviceapi/IActivateAudioInterfaceCompletionHandler"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

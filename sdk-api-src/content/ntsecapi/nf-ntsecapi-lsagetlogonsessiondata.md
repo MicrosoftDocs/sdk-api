@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaGetLogonSessionData"]
+f1_keywords: 
+ - "ntsecapi/LsaGetLogonSessionData"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

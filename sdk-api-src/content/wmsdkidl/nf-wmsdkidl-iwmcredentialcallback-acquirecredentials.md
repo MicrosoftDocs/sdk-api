@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcquireCredentials, AcquireCredentials method [windows Media Format], AcquireCredentials method [windows Media Format],IWMCredentialCallback interface, IWMCredentialCallback interface [windows Media Format],AcquireCredentials method, IWMCredentialCallback.AcquireCredentials, IWMCredentialCallback::AcquireCredentials, IWMCredentialCallbackAcquireCredentials, wmformat.iwmcredentialcallback_acquirecredentials, wmsdkidl/IWMCredentialCallback::AcquireCredentials
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMCredentialCallback.AcquireCredentials"]
+f1_keywords: 
+ - "wmsdkidl/IWMCredentialCallback.AcquireCredentials"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

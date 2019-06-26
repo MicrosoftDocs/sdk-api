@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SVF_SYSTEM, SVF_USER, SystemVisibilityFlags, SystemVisibilityFlags enumeration, functiondiscoveryapi/SVF_SYSTEM, functiondiscoveryapi/SVF_USER, functiondiscoveryapi/SystemVisibilityFlags, ncd.systemvisibilityflags_enum
 ms.topic: enum
-f1_keywords: ["functiondiscoveryapi/SystemVisibilityFlags"]
+f1_keywords: 
+ - "functiondiscoveryapi/SystemVisibilityFlags"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

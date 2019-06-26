@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
 ms.topic: interface
-f1_keywords: ["wmcodecdsp/ITocEntryList"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntryList"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Pin method, IOfflineFilesCache.Pin, IOfflineFilesCache::Pin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Pin, Pin method [Offline Files], Pin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Pin, of.iofflinefilescache_pin
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.Pin"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.Pin"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

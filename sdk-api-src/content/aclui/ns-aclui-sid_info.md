@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info"
 ms.topic: struct
-f1_keywords: ["aclui/SID_INFO"]
+f1_keywords: 
+ - "aclui/SID_INFO"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

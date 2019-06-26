@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
 ms.topic: method
-f1_keywords: ["comsvcs/IHolder.AllocResource"]
+f1_keywords: 
+ - "comsvcs/IHolder.AllocResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

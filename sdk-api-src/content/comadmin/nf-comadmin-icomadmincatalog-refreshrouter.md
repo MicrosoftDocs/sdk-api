@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshRouter method, ICOMAdminCatalog.RefreshRouter, ICOMAdminCatalog::RefreshRouter, RefreshRouter, RefreshRouter method [COM+], RefreshRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshRouter, comadmin/ICOMAdminCatalog::RefreshRouter, cos.icomadmincatalog_refreshrouter
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.RefreshRouter"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.RefreshRouter"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

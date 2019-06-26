@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement.get_CurrentHasKeyboardFocus, IUIAutomationElement::CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentHasKeyboardFocus"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentHasKeyboardFocus"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

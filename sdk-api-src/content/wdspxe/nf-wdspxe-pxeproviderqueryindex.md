@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
 ms.topic: function
-f1_keywords: ["wdspxe/PxeProviderQueryIndex"]
+f1_keywords: 
+ - "wdspxe/PxeProviderQueryIndex"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

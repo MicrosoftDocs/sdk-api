@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMCanvas.SetAccessibilityShortDescription, IXpsOMCanvas::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas.SetAccessibilityShortDescription"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas.SetAccessibilityShortDescription"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

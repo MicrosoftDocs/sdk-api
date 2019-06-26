@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interface [Direct3D 9],Lock method, IDirect3DVertexBuffer9.Lock, IDirect3DVertexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Lock, direct3d9.idirect3dvertexbuffer9__lock
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DVertexBuffer9.Lock"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DVertexBuffer9.Lock"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
 ms.topic: function
-f1_keywords: ["processenv/NeedCurrentDirectoryForExePath"]
+f1_keywords: 
+ - "processenv/NeedCurrentDirectoryForExePath"
 req.header: processenv.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

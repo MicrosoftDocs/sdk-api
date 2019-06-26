@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetNumberOfStreams method, IMFMediaEngineEx.GetNumberOfStreams, IMFMediaEngineEx::GetNumberOfStreams, mf.imfmediaengineex_getnumberofstreams, mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.GetNumberOfStreams"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.GetNumberOfStreams"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

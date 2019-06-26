@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Cluster], ResourceExitStateContinue, ResourceExitStateMax, ResourceExitStateTerminate, mscs.resource_exit_state, resapi/RESOURCE_EXIT_STATE, resapi/ResourceExitStateContinue, resapi/ResourceExitStateMax, resapi/ResourceExitStateTerminate
 ms.topic: enum
-f1_keywords: ["resapi/RESOURCE_EXIT_STATE"]
+f1_keywords: 
+ - "resapi/RESOURCE_EXIT_STATE"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

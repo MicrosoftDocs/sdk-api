@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTraceStats, GetTraceStats method [Direct3D 11], GetTraceStats method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetTraceStats method, ID3D11ShaderTrace.GetTraceStats, ID3D11ShaderTrace::GetTraceStats, d3d11shadertracing/ID3D11ShaderTrace::GetTraceStats, direct3d11.id3d11shadertrace_gettracestats
 ms.topic: method
-f1_keywords: ["d3d11shadertracing/ID3D11ShaderTrace.GetTraceStats"]
+f1_keywords: 
+ - "d3d11shadertracing/ID3D11ShaderTrace.GetTraceStats"
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

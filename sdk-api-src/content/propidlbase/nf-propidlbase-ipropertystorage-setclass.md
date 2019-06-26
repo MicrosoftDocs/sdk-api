@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.topic: method
-f1_keywords: ["propidlbase/IPropertyStorage.SetClass"]
+f1_keywords: 
+ - "propidlbase/IPropertyStorage.SetClass"
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

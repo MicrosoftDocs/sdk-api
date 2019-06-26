@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
 ms.topic: method
-f1_keywords: ["control/IBasicAudio.get_Balance"]
+f1_keywords: 
+ - "control/IBasicAudio.get_Balance"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

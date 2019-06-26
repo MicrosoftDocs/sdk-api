@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
 ms.topic: method
-f1_keywords: ["mfidl/IMFPMPServer.LockProcess"]
+f1_keywords: 
+ - "mfidl/IMFPMPServer.LockProcess"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.GetTimeSeekResult"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.GetTimeSeekResult"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserUnmarshal, BSTR_UserUnmarshal function [Automation], _oa96_BSTR_UserUnmarshal, automat.bstr_userunmarshal, oaidl/BSTR_UserUnmarshal
 ms.topic: function
-f1_keywords: ["oaidl/BSTR_UserUnmarshal"]
+f1_keywords: 
+ - "oaidl/BSTR_UserUnmarshal"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

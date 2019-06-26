@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.UpdateRegistry"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.UpdateRegistry"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

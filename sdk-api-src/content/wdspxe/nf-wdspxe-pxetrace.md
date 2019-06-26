@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
 ms.topic: function
-f1_keywords: ["wdspxe/PxeTrace"]
+f1_keywords: 
+ - "wdspxe/PxeTrace"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

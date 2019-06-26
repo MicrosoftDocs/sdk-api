@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseClusterNotifyPort, CloseClusterNotifyPort function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/CloseClusterNotifyPort, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
 ms.topic: function
-f1_keywords: ["clusapi/CloseClusterNotifyPort"]
+f1_keywords: 
+ - "clusapi/CloseClusterNotifyPort"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

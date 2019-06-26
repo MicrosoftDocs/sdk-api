@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
 ms.topic: function
-f1_keywords: ["combaseapi/CoRegisterClassObject"]
+f1_keywords: 
+ - "combaseapi/CoRegisterClassObject"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferSourceEvent.StaleFileDeleted, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent.StaleFileDeleted"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent.StaleFileDeleted"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

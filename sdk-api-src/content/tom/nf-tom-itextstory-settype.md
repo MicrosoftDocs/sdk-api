@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetType method, ITextStory.SetType, ITextStory::SetType, SetType, SetType method [Windows Controls], SetType method [Windows Controls],ITextStory interface, controls.itextstory_settype, tom/ITextStory::SetType
 ms.topic: method
-f1_keywords: ["tom/ITextStory.SetType"]
+f1_keywords: 
+ - "tom/ITextStory.SetType"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

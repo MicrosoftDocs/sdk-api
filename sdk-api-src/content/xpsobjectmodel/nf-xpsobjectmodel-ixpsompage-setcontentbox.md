@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPage.SetContentBox"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPage.SetContentBox"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

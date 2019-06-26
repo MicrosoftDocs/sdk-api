@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
 ms.topic: method
-f1_keywords: ["natupnp/INATExternalIPAddressCallback.NewExternalIPAddress"]
+f1_keywords: 
+ - "natupnp/INATExternalIPAddressCallback.NewExternalIPAddress"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

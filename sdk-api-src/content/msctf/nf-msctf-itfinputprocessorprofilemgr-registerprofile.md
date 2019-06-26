@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],RegisterProfile method, ITfInputProcessorProfileMgr.RegisterProfile, ITfInputProcessorProfileMgr::RegisterProfile, RegisterProfile, RegisterProfile method [Text Services Framework], RegisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RP_HIDDENINSETTINGUI, TF_RP_LOCALPROCESS, TF_RP_LOCALTHREAD, msctf/ITfInputProcessorProfileMgr::RegisterProfile, tsf.itfinputprocessorprofilemgr_registerprofile
 ms.topic: method
-f1_keywords: ["msctf/ITfInputProcessorProfileMgr.RegisterProfile"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfileMgr.RegisterProfile"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

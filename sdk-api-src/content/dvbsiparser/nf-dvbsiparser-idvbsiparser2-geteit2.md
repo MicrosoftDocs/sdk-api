@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Microsoft TV Technologies], GetEIT2 method [Microsoft TV Technologies],IDvbSiParser2 interface, IDvbSiParser2 interface [Microsoft TV Technologies],GetEIT2 method, IDvbSiParser2.GetEIT2, IDvbSiParser2::GetEIT2, dvbsiparser/IDvbSiParser2::GetEIT2, mstv.idvbsiparser2_geteit2
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSiParser2.GetEIT2"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser2.GetEIT2"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

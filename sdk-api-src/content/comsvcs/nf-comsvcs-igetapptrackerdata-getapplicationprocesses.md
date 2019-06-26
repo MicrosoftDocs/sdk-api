@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationProcesses, GetApplicationProcesses method [COM+], GetApplicationProcesses method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcesses method, IGetAppTrackerData.GetApplicationProcesses, IGetAppTrackerData::GetApplicationProcesses, comsvcs/IGetAppTrackerData::GetApplicationProcesses, cos.igetapptrackerdata_getapplicationprocesses
 ms.topic: method
-f1_keywords: ["comsvcs/IGetAppTrackerData.GetApplicationProcesses"]
+f1_keywords: 
+ - "comsvcs/IGetAppTrackerData.GetApplicationProcesses"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

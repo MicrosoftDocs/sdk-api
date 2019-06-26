@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngBkgdProperties"]
+f1_keywords: 
+ - "wincodec/WICPngBkgdProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetTimeout, MI_OperationOptions_GetTimeout function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetTimeout, wmi_v2.mi_operationoptions_gettimeout
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_GetTimeout"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_GetTimeout"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

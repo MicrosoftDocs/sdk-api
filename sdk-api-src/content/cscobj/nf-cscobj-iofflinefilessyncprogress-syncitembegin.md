@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemBegin method, IOfflineFilesSyncProgress.SyncItemBegin, IOfflineFilesSyncProgress::SyncItemBegin, SyncItemBegin, SyncItemBegin method [Offline Files], SyncItemBegin method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemBegin, of.iofflinefilessyncprogress_syncitembegin
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncProgress.SyncItemBegin"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncProgress.SyncItemBegin"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

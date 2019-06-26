@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],TakeOwnership method, ITfContextComposition.TakeOwnership, ITfContextComposition::TakeOwnership, TakeOwnership, TakeOwnership method [Text Services Framework], TakeOwnership method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_takeownership_ref, msctf/ITfContextComposition::TakeOwnership, tsf.itfcontextcomposition_takeownership
 ms.topic: method
-f1_keywords: ["msctf/ITfContextComposition.TakeOwnership"]
+f1_keywords: 
+ - "msctf/ITfContextComposition.TakeOwnership"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

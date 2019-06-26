@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjDoesNameContainWildCards, PrjDoesNameContainWildCards function, ProjFS.prjdoesnamecontainwildcards, projectedfslib/PrjDoesNameContainWildCards
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjDoesNameContainWildCards"]
+f1_keywords: 
+ - "projectedfslib/PrjDoesNameContainWildCards"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

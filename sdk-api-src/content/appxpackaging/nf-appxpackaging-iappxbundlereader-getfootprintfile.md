@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetFootprintFile method, IAppxBundleReader.GetFootprintFile, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleReader.GetFootprintFile"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleReader.GetFootprintFile"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE structure [Battery Devices], PBATTERY_TAG_CHANGE, PBATTERY_TAG_CHANGE structure pointer [Battery Devices], batclass/BATTERY_TAG_CHANGE, batclass/PBATTERY_TAG_CHANGE, battery.battery_tag_change"
 ms.topic: struct
-f1_keywords: ["batclass/BATTERY_TAG_CHANGE"]
+f1_keywords: 
+ - "batclass/BATTERY_TAG_CHANGE"
 req.header: batclass.h
 req.include-header: 
 req.target-type: Windows

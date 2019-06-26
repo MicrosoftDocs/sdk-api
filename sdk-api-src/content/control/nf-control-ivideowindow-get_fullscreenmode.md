@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.get_FullScreenMode"]
+f1_keywords: 
+ - "control/IVideoWindow.get_FullScreenMode"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

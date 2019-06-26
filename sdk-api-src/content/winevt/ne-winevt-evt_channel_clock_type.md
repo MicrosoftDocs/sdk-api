@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_CLOCK_TYPE, EVT_CHANNEL_CLOCK_TYPE enumeration [EventLog], EvtChannelClockTypeQPC, EvtChannelClockTypeSystemTime, wes.evt_channel_clock_type, winevt/EVT_CHANNEL_CLOCK_TYPE, winevt/EvtChannelClockTypeQPC, winevt/EvtChannelClockTypeSystemTime
 ms.topic: enum
-f1_keywords: ["winevt/EVT_CHANNEL_CLOCK_TYPE"]
+f1_keywords: 
+ - "winevt/EVT_CHANNEL_CLOCK_TYPE"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

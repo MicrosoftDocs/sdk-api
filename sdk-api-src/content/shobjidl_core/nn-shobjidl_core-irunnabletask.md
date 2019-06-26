@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTask interface [Windows Shell],described, _win32_IRunnableTask, shell.IRunnableTask, shobjidl_core/IRunnableTask
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IRunnableTask"]
+f1_keywords: 
+ - "shobjidl_core/IRunnableTask"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

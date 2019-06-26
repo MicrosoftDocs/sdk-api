@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect, IDCompositionShadowEffect interface [DirectComposition], IDCompositionShadowEffect interface [DirectComposition],described, dcomp/IDCompositionShadowEffect, directcomp.idcompositionshadoweffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionShadowEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionShadowEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

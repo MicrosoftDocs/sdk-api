@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMRMode, VMRMode enumeration [DirectShow], VMRModeEnumeration, VMRMode_Mask, VMRMode_Renderless, VMRMode_Windowed, VMRMode_Windowless, dshow.vmrmode, strmif/VMRMode, strmif/VMRMode_Mask, strmif/VMRMode_Renderless, strmif/VMRMode_Windowed, strmif/VMRMode_Windowless
 ms.topic: enum
-f1_keywords: ["strmif/VMRMode"]
+f1_keywords: 
+ - "strmif/VMRMode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

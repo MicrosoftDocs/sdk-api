@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetBehaviorHints method, ID3D11VideoContext1.VideoProcessorGetBehaviorHints, ID3D11VideoContext1::VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints method [Media Foundation], VideoProcessorGetBehaviorHints method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetBehaviorHints, mf.id3d11videocontext1_videoprocessorgetbehaviorhints
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11VideoContext1.VideoProcessorGetBehaviorHints"]
+f1_keywords: 
+ - "d3d11_1/ID3D11VideoContext1.VideoProcessorGetBehaviorHints"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

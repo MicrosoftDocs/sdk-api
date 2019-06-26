@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],ResumeScreenUpdates method, IRemoteDesktopClientActions.ResumeScreenUpdates, IRemoteDesktopClientActions::ResumeScreenUpdates, ResumeScreenUpdates, ResumeScreenUpdates method [Remote Desktop Services], ResumeScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates, termserv.iremotedesktopclientactions_resumescreenupdates
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

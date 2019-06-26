@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTRTABLEW, LPSTRTABLEW, LPSTRTABLEW structure pointer [Windows API], STRTABLE, STRTABLEW, STRTABLEW structure [Windows API], _StrTableW, _StrTableW structure [Windows API], advpub/LPSTRTABLEW, advpub/_StrTableW, winprog._strtablew"
 ms.topic: struct
-f1_keywords: ["advpub/STRTABLEW"]
+f1_keywords: 
+ - "advpub/STRTABLEW"
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

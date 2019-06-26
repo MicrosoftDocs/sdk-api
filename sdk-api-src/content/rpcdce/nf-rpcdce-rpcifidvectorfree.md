@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidvectorfree, rpc.rpcifidvectorfree, rpcdce/RpcIfIdVectorFree
 ms.topic: function
-f1_keywords: ["rpcdce/RpcIfIdVectorFree"]
+f1_keywords: 
+ - "rpcdce/RpcIfIdVectorFree"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

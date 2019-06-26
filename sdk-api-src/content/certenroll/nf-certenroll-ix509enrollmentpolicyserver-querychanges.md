@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],QueryChanges method, IX509EnrollmentPolicyServer.QueryChanges, IX509EnrollmentPolicyServer::QueryChanges, QueryChanges, QueryChanges method [Security], QueryChanges method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::QueryChanges, security.ix509enrollmentpolicyserver_querychanges
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.QueryChanges"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.QueryChanges"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

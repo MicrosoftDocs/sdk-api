@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IMenuBand"]
+f1_keywords: 
+ - "shobjidl_core/IMenuBand"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

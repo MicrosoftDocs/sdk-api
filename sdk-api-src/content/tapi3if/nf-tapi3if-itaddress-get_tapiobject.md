@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_TAPIObject method, ITAddress.get_TAPIObject, ITAddress::get_TAPIObject, _tapi3_itaddress_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_tapiobject, tapi3if/ITAddress::get_TAPIObject
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.get_TAPIObject"]
+f1_keywords: 
+ - "tapi3if/ITAddress.get_TAPIObject"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

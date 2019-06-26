@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies
 ms.topic: struct
-f1_keywords: ["cfapi/CF_SYNC_POLICIES"]
+f1_keywords: 
+ - "cfapi/CF_SYNC_POLICIES"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

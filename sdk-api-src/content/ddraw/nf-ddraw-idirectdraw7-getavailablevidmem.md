@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.GetAvailableVidMem"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.GetAvailableVidMem"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

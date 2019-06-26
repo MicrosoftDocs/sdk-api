@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MaxSize property, IDataManager.MaxSize, IDataManager.put_MaxSize, IDataManager::MaxSize, IDataManager::get_MaxSize, IDataManager::put_MaxSize, MaxSize property [PLA], MaxSize property [PLA],IDataManager interface, base.idatamanager_maxsize, pla.idatamanager_maxsize, pla/IDataManager::MaxSize, pla/IDataManager::get_MaxSize, pla/IDataManager::put_MaxSize, put_MaxSize
 ms.topic: method
-f1_keywords: ["pla/IDataManager.MaxSize"]
+f1_keywords: 
+ - "pla/IDataManager.MaxSize"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

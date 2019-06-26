@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator interface [Security],NameResolver property, IAzPrincipalLocator.NameResolver, IAzPrincipalLocator.get_NameResolver, IAzPrincipalLocator::NameResolver, IAzPrincipalLocator::get_NameResolver, NameResolver property [Security], NameResolver property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::NameResolver, azroles/IAzPrincipalLocator::get_NameResolver, get_NameResolver, security.iazprincipallocator_nameresolver_method
 ms.topic: method
-f1_keywords: ["azroles/IAzPrincipalLocator.NameResolver"]
+f1_keywords: 
+ - "azroles/IAzPrincipalLocator.NameResolver"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

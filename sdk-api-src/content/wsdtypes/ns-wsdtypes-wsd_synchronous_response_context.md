@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure, ncd.wsd_synchronous_response_context_struct, wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 ms.topic: struct
-f1_keywords: ["wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT"]
+f1_keywords: 
+ - "wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

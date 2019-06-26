@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_IrisRelative method, ICameraControl.put_IrisRelative, ICameraControl::put_IrisRelative, ICameraControlput_IrisRelative, dshow.icameracontrol_put_irisrelative, put_IrisRelative, put_IrisRelative method [DirectShow], put_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_IrisRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_IrisRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_IrisRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

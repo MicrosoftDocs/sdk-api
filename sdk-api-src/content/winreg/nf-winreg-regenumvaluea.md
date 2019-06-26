@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, _win32_regenumvalue, base.regenumvalue, winreg/RegEnumValue, winreg/RegEnumValueA, winreg/RegEnumValueW
 ms.topic: function
-f1_keywords: ["winreg/RegEnumValue"]
+f1_keywords: 
+ - "winreg/RegEnumValue"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

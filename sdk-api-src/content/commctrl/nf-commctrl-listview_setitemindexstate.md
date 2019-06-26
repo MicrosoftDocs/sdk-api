@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windows Controls], _shell_ListView_SetItemIndexState, _shell_ListView_SetItemIndexState_cpp, commctrl/ListView_SetItemIndexState, controls.ListView_SetItemIndexState, controls._shell_ListView_SetItemIndexState
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetItemIndexState"]
+f1_keywords: 
+ - "commctrl/ListView_SetItemIndexState"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

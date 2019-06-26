@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectClientDrivesAtLogon property [Remote Desktop Services], ConnectClientDrivesAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientDrivesAtLogon property, IADsTSUserEx.ConnectClientDrivesAtLogon, IADsTSUserEx.get_ConnectClientDrivesAtLogon, IADsTSUserEx::ConnectClientDrivesAtLogon, IADsTSUserEx::get_ConnectClientDrivesAtLogon, IADsTSUserEx::put_ConnectClientDrivesAtLogon, get_ConnectClientDrivesAtLogon, termserv.iadstsuserex_connectclientdrivesatlogon, tsuserex/IADsTSUserEx::ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientDrivesAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientDrivesAtLogon
 ms.topic: method
-f1_keywords: ["tsuserex/IADsTSUserEx.ConnectClientDrivesAtLogon"]
+f1_keywords: 
+ - "tsuserex/IADsTSUserEx.ConnectClientDrivesAtLogon"
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION"
 ms.topic: struct
-f1_keywords: ["winperf/PERF_COUNTER_DEFINITION"]
+f1_keywords: 
+ - "winperf/PERF_COUNTER_DEFINITION"
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

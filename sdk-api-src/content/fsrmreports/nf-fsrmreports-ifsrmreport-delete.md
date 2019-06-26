@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Delete method, IFsrmReport.Delete, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReport.Delete"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReport.Delete"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

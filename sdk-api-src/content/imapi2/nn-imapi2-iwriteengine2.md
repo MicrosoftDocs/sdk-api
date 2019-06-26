@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], IWriteEngine2 interface [IMAPI],described, imapi.iwriteengine2, imapi2/IWriteEngine2
 ms.topic: interface
-f1_keywords: ["imapi2/IWriteEngine2"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],OnVideoStreamTick method, IMFMediaEngine.OnVideoStreamTick, IMFMediaEngine::OnVideoStreamTick, OnVideoStreamTick, OnVideoStreamTick method [Media Foundation], OnVideoStreamTick method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_onvideostreamtick, mfmediaengine/IMFMediaEngine::OnVideoStreamTick
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.OnVideoStreamTick"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.OnVideoStreamTick"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

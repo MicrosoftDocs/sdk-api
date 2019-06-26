@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService.GetCollectionElements"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService.GetCollectionElements"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

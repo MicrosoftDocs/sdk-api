@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
 ms.topic: method
-f1_keywords: ["qnetwork/IAMExtendedErrorInfo.get_ErrorDescription"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedErrorInfo.get_ErrorDescription"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

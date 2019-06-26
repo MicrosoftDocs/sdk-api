@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2, ITForwardInformation2 interface [TAPI 2.2], ITForwardInformation2 interface [TAPI 2.2],described, _tapi3_itforwardinformation2, tapi3.itforwardinformation2, tapi3if/ITForwardInformation2
 ms.topic: interface
-f1_keywords: ["tapi3if/ITForwardInformation2"]
+f1_keywords: 
+ - "tapi3if/ITForwardInformation2"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

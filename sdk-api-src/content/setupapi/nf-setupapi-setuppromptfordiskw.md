@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
 ms.topic: function
-f1_keywords: ["setupapi/SetupPromptForDisk"]
+f1_keywords: 
+ - "setupapi/SetupPromptForDisk"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

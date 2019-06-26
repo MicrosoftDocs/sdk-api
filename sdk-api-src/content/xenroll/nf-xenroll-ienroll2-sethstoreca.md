@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreCA method, IEnroll2.SetHStoreCA, IEnroll2::SetHStoreCA, SetHStoreCA, SetHStoreCA method [Security], SetHStoreCA method [Security],IEnroll2 interface, security.ienroll4_sethstoreca, xenroll/IEnroll2::SetHStoreCA
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll2.SetHStoreCA"]
+f1_keywords: 
+ - "xenroll/IEnroll2.SetHStoreCA"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

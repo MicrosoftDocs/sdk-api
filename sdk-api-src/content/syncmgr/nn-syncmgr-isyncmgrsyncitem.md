@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], ISyncMgrSyncItem interface [Windows Shell],described, _shell_ISyncMgrSyncItem, shell.ISyncMgrSyncItem, syncmgr/ISyncMgrSyncItem
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrSyncItem"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncItem"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

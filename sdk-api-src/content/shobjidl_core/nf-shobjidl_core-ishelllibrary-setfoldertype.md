@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetFolderType method, IShellLibrary.SetFolderType, IShellLibrary::SetFolderType, SetFolderType, SetFolderType method [Windows Shell], SetFolderType method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetFolderType, shell.IShellLibrary_SetFolderType, shobjidl_core/IShellLibrary::SetFolderType
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.SetFolderType"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.SetFolderType"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCanMaximize property [Windows Accessibility], CachedCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMaximize property, IUIAutomationWindowPattern.CachedCanMaximize, IUIAutomationWindowPattern.get_CachedCanMaximize, IUIAutomationWindowPattern::CachedCanMaximize, IUIAutomationWindowPattern::get_CachedCanMaximize, get_CachedCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.CachedCanMaximize"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationWindowPattern.CachedCanMaximize"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

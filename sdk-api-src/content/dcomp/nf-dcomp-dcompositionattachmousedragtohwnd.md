@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
 ms.topic: function
-f1_keywords: ["dcomp/DCompositionAttachMouseDragToHwnd"]
+f1_keywords: 
+ - "dcomp/DCompositionAttachMouseDragToHwnd"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

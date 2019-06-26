@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMVisual.GetIsHyperlinkTarget, IXpsOMVisual::GetIsHyperlinkTarget, TRUE, xps.ixpsomvisual_getishyperlinktarget, xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

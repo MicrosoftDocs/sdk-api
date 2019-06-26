@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_free_controls, ldap.ldap__free__controls, ldap.ldap_free_controls, ldap_free_controls, ldap_free_controls function [LDAP], ldap_free_controlsA, ldap_free_controlsW, winldap/ldap_free_controls, winldap/ldap_free_controlsA, winldap/ldap_free_controlsW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_free_controls"]
+f1_keywords: 
+ - "winldap/ldap_free_controls"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

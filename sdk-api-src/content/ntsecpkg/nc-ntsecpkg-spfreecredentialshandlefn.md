@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpFreeCredentialsHandle, SpFreeCredentialsHandle callback function [Security], SpFreeCredentialsHandleFn, SpFreeCredentialsHandleFn callback, _ssp_spfreecredentialshandle, ntsecpkg/SpFreeCredentialsHandle, security.spfreecredentialshandle
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpFreeCredentialsHandle"]
+f1_keywords: 
+ - "ntsecpkg/SpFreeCredentialsHandle"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

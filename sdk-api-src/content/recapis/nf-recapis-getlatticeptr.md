@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
 ms.topic: function
-f1_keywords: ["recapis/GetLatticePtr"]
+f1_keywords: 
+ - "recapis/GetLatticePtr"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

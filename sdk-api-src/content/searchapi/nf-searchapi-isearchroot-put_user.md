@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_User method, ISearchRoot.put_User, ISearchRoot::put_User, _search_ISearchRoot_put_User, put_User, put_User method [search], put_User method [search],ISearchRoot interface, search._search_ISearchRoot_put_User, searchapi/ISearchRoot::put_User
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_User"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_User"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

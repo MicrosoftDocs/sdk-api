@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
 ms.topic: method
-f1_keywords: ["deviceaccess/ICreateDeviceAccessAsync.GetResult"]
+f1_keywords: 
+ - "deviceaccess/ICreateDeviceAccessAsync.GetResult"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

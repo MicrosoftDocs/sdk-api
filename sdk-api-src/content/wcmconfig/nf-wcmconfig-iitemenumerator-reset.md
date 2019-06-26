@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator interface [SMI],Reset method, IItemEnumerator.Reset, IItemEnumerator::Reset, Reset, Reset method [SMI], Reset method [SMI],IItemEnumerator interface, smi.iitemenumerator_reset, wcmconfig/IItemEnumerator::Reset
 ms.topic: method
-f1_keywords: ["wcmconfig/IItemEnumerator.Reset"]
+f1_keywords: 
+ - "wcmconfig/IItemEnumerator.Reset"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

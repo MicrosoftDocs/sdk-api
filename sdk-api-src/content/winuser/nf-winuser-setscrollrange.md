@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [Windows Controls], _win32_SetScrollRange, _win32_SetScrollRange_cpp, controls.SetScrollRange, controls._win32_SetScrollRange, winuser/SetScrollRange
 ms.topic: function
-f1_keywords: ["winuser/SetScrollRange"]
+f1_keywords: 
+ - "winuser/SetScrollRange"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

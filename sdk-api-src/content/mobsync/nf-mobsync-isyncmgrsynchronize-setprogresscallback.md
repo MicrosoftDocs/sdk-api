@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronize.SetProgressCallback"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronize.SetProgressCallback"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

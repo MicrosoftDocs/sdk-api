@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo"
 ms.topic: struct
-f1_keywords: ["tapi/LINEAGENTINFO"]
+f1_keywords: 
+ - "tapi/LINEAGENTINFO"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

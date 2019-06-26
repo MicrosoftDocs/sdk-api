@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsRead method, IMbnSms.SmsRead, IMbnSms::SmsRead, SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSms.SmsRead"]
+f1_keywords: 
+ - "mbnapi/IMbnSms.SmsRead"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

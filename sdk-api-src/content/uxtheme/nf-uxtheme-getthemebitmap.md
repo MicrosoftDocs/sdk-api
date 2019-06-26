@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap function [Windows Controls], TMT_DIBDATA, TMT_GLYPHDIBDATA, TMT_HBITMAP, controls.GetThemeBitmap, controls.inet_GetThemeBitmap, inet_GetThemeBitmap, inet_GetThemeBitmap_cpp, uxtheme/GetThemeBitmap
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeBitmap"]
+f1_keywords: 
+ - "uxtheme/GetThemeBitmap"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

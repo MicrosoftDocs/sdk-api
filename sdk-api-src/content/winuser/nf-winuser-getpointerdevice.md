@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerDevice, GetPointerDevice function, input_pointerdevice.getpointerdevice, unifiedinputstack.getpointerdevice, winuser/GetPointerDevice
 ms.topic: function
-f1_keywords: ["winuser/GetPointerDevice"]
+f1_keywords: 
+ - "winuser/GetPointerDevice"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], ICspStatus interface [Security],described, certenroll/ICspStatus, security.icspstatus
 ms.topic: interface
-f1_keywords: ["certenroll/ICspStatus"]
+f1_keywords: 
+ - "certenroll/ICspStatus"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

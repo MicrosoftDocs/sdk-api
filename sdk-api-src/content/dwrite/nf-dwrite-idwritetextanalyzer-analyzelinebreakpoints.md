@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeLineBreakpoints, AnalyzeLineBreakpoints method [Direct Write], AnalyzeLineBreakpoints method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeLineBreakpoints method, IDWriteTextAnalyzer.AnalyzeLineBreakpoints, IDWriteTextAnalyzer::AnalyzeLineBreakpoints, directwrite.IDWriteTextAnalyzer_AnalyzeLineBreakpoints, dwrite/IDWriteTextAnalyzer::AnalyzeLineBreakpoints
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

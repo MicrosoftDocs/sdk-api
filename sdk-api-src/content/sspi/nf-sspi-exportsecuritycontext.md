@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportSecurityContext, ExportSecurityContext function [Security], SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SECPKG_CONTEXT_EXPORT_TO_KERNEL, _ssp_exportsecuritycontext, security.exportsecuritycontext, sspi/ExportSecurityContext
 ms.topic: function
-f1_keywords: ["sspi/ExportSecurityContext"]
+f1_keywords: 
+ - "sspi/ExportSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

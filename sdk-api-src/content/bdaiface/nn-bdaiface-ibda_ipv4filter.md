@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], IBDA_IPV4Filter interface [Microsoft TV Technologies],described, IBDA_IPV4FilterInterface, bdaiface/IBDA_IPV4Filter, mstv.ibda_ipv4filter
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_IPV4Filter"]
+f1_keywords: 
+ - "bdaiface/IBDA_IPV4Filter"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

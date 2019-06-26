@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
 ms.topic: function
-f1_keywords: ["mfapi/MFllMulDiv"]
+f1_keywords: 
+ - "mfapi/MFllMulDiv"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

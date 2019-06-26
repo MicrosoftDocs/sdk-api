@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf, MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, _MFT_PROCESS_OUTPUT_FLAGS, _MFT_PROCESS_OUTPUT_FLAGS enumeration [Media Foundation], mf._mft_process_output_flags, mftransform/MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mftransform/MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT, mftransform/_MFT_PROCESS_OUTPUT_FLAGS
 ms.topic: enum
-f1_keywords: ["mftransform/_MFT_PROCESS_OUTPUT_FLAGS"]
+f1_keywords: 
+ - "mftransform/_MFT_PROCESS_OUTPUT_FLAGS"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

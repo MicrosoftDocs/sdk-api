@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsNetworkPath"]
+f1_keywords: 
+ - "shlwapi/PathIsNetworkPath"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

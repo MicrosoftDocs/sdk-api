@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtendTaskPad interface [MMC],TaskNotify method, IExtendTaskPad.TaskNotify, IExtendTaskPad::TaskNotify, TaskNotify, TaskNotify method [MMC], TaskNotify method [MMC],IExtendTaskPad interface, _slate_iextendtaskpad_tasknotify, mmc.iextendtaskpad_tasknotify, mmc/IExtendTaskPad::TaskNotify
 ms.topic: method
-f1_keywords: ["mmc/IExtendTaskPad.TaskNotify"]
+f1_keywords: 
+ - "mmc/IExtendTaskPad.TaskNotify"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

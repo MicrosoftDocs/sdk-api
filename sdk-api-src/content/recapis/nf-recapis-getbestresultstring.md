@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestResultString function [Tablet PC], recapis/GetBestResultString, tablet.getbestresultstring
 ms.topic: function
-f1_keywords: ["recapis/GetBestResultString"]
+f1_keywords: 
+ - "recapis/GetBestResultString"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

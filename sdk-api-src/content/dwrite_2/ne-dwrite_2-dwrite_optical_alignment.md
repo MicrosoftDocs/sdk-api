@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_OPTICAL_ALIGNMENT, DWRITE_OPTICAL_ALIGNMENT enumeration [Direct Write], DWRITE_OPTICAL_ALIGNMENT_NONE, DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS, directwrite.dwrite_optical_alignment, dwrite_2/DWRITE_OPTICAL_ALIGNMENT, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NONE, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS
 ms.topic: enum
-f1_keywords: ["dwrite_2/DWRITE_OPTICAL_ALIGNMENT"]
+f1_keywords: 
+ - "dwrite_2/DWRITE_OPTICAL_ALIGNMENT"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

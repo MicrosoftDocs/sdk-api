@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstance, CoCreateInstance function [COM], _com_CoCreateInstance, com.cocreateinstance, combaseapi/CoCreateInstance
 ms.topic: function
-f1_keywords: ["combaseapi/CoCreateInstance"]
+f1_keywords: 
+ - "combaseapi/CoCreateInstance"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

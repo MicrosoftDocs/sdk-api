@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KSPROPERTY_AUDIOEFFECTSDISCOVERY, KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices], KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST, audio.ksproperty_audioeffectsdiscovery, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
 ms.topic: enum
-f1_keywords: ["msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY"]
+f1_keywords: 
+ - "msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY"
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows

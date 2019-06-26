@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_SetRange, ScrollBar_SetRange macro [Windows Controls], _win32_ScrollBar_SetRange, _win32_ScrollBar_SetRange_cpp, controls.ScrollBar_SetRange, controls._win32_ScrollBar_SetRange, windowsx/ScrollBar_SetRange
 ms.topic: macro
-f1_keywords: ["windowsx/ScrollBar_SetRange"]
+f1_keywords: 
+ - "windowsx/ScrollBar_SetRange"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

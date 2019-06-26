@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_FLAGTYPE_ENUM, ADS_FLAGTYPE_ENUM enumeration [ADSI], ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, ADS_FLAG_OBJECT_TYPE_PRESENT, _ds_ads_flagtype_enum, adsi.ads__flagtype__enum, adsi.ads_flagtype_enum, iads/ADS_FLAGTYPE_ENUM, iads/ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT, iads/ADS_FLAG_OBJECT_TYPE_PRESENT
 ms.topic: enum
-f1_keywords: ["iads/ADS_FLAGTYPE_ENUM"]
+f1_keywords: 
+ - "iads/ADS_FLAGTYPE_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_SetBkColor, ImageList_SetBkColor function [Windows Controls], _win32_ImageList_SetBkColor, _win32_ImageList_SetBkColor_cpp, commctrl/ImageList_SetBkColor, controls.ImageList_SetBkColor, controls._win32_ImageList_SetBkColor
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_SetBkColor"]
+f1_keywords: 
+ - "commctrl/ImageList_SetBkColor"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

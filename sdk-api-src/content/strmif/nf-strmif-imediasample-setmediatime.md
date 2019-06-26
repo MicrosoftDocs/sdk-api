@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetMediaTime method, IMediaSample.SetMediaTime, IMediaSample::SetMediaTime, IMediaSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatime, strmif/IMediaSample::SetMediaTime
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.SetMediaTime"]
+f1_keywords: 
+ - "strmif/IMediaSample.SetMediaTime"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

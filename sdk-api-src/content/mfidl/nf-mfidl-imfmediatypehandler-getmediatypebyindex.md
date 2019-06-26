@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaTypeHandler.GetMediaTypeByIndex"]
+f1_keywords: 
+ - "mfidl/IMFMediaTypeHandler.GetMediaTypeByIndex"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], IPropertyDescriptionAliasInfo interface [Windows Properties],described, _shell_IPropertyDescriptionAliasInfo, properties.IPropertyDescriptionAliasInfo, propsys/IPropertyDescriptionAliasInfo, shell.IPropertyDescriptionAliasInfo
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyDescriptionAliasInfo"]
+f1_keywords: 
+ - "propsys/IPropertyDescriptionAliasInfo"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

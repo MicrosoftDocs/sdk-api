@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate
 ms.topic: method
-f1_keywords: ["mfidl/IMFSSLCertificateManager.EndGetClientCertificate"]
+f1_keywords: 
+ - "mfidl/IMFSSLCertificateManager.EndGetClientCertificate"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

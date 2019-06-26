@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Clear method, ITaskNamedValueCollection.Clear, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
 ms.topic: method
-f1_keywords: ["taskschd/ITaskNamedValueCollection.Clear"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValueCollection.Clear"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

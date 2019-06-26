@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
 ms.topic: function
-f1_keywords: ["rasshost/RasSecurityDialogReceive"]
+f1_keywords: 
+ - "rasshost/RasSecurityDialogReceive"
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

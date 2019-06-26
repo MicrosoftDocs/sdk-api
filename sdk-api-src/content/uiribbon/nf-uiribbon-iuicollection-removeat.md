@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollection.RemoveAt, IUICollection::RemoveAt, RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
 ms.topic: method
-f1_keywords: ["uiribbon/IUICollection.RemoveAt"]
+f1_keywords: 
+ - "uiribbon/IUICollection.RemoveAt"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

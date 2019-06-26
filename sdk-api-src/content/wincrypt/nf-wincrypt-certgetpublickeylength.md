@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security], _crypto2_certgetpublickeylength, security.certgetpublickeylength, wincrypt/CertGetPublicKeyLength
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetPublicKeyLength"]
+f1_keywords: 
+ - "wincrypt/CertGetPublicKeyLength"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

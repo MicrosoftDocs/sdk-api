@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
 ms.topic: function
-f1_keywords: ["dbghelp/StackWalk64"]
+f1_keywords: 
+ - "dbghelp/StackWalk64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSetEapUserData, RasSetEapUserData function [RAS], RasSetEapUserDataA, RasSetEapUserDataW, _ras_rasseteapuserdata, ras/RasSetEapUserData, ras/RasSetEapUserDataA, ras/RasSetEapUserDataW, rras.rasseteapuserdata
 ms.topic: function
-f1_keywords: ["ras/RasSetEapUserData"]
+f1_keywords: 
+ - "ras/RasSetEapUserData"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

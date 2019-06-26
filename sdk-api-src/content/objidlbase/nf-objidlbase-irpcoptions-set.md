@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcOptions.Set"]
+f1_keywords: 
+ - "objidlbase/IRpcOptions.Set"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

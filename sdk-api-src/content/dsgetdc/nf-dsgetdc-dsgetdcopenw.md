@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_KDC_REQUIRED, DS_NOTIFY_AFTER_SITE_RECORDS, DS_ONLY_DO_SITE_NAME, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DsGetDcOpen, DsGetDcOpen function [Active Directory], DsGetDcOpenA, DsGetDcOpenW, ad.dsgetdcopen, dsgetdc/DsGetDcOpen, dsgetdc/DsGetDcOpenA, dsgetdc/DsGetDcOpenW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsGetDcOpen"]
+f1_keywords: 
+ - "dsgetdc/DsGetDcOpen"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

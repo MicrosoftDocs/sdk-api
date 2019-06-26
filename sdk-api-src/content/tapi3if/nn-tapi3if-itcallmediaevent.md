@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent, ITCallMediaEvent interface [TAPI 2.2], ITCallMediaEvent interface [TAPI 2.2],described, _tapi3_itcallmediaevent, tapi3.itcallmediaevent, tapi3if/ITCallMediaEvent
 ms.topic: interface
-f1_keywords: ["tapi3if/ITCallMediaEvent"]
+f1_keywords: 
+ - "tapi3if/ITCallMediaEvent"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

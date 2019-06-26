@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE, com.dvtargetdevice, objidl/DVTARGETDEVICE
 ms.topic: struct
-f1_keywords: ["objidl/DVTARGETDEVICE"]
+f1_keywords: 
+ - "objidl/DVTARGETDEVICE"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

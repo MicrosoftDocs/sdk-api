@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Media Player], GetType method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetType method, IWMPContentContainer.GetType, IWMPContentContainer::GetType, IWMPContentContainerGetType, contentpartner/IWMPContentContainer::GetType, wmp.iwmpcontentcontainer_gettype
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentContainer.GetType"]
+f1_keywords: 
+ - "contentpartner/IWMPContentContainer.GetType"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

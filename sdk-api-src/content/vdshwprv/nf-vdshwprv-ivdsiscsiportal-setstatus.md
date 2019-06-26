@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsIscsiPortal.SetStatus"]
+f1_keywords: 
+ - "vdshwprv/IVdsIscsiPortal.SetStatus"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

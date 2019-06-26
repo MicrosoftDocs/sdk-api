@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], INetSharingEveryConnectionCollection interface [ICS/ICF],described, _ics_inetsharingeveryconnectioncollection, ics.inetsharingeveryconnectioncollection, netcon/INetSharingEveryConnectionCollection
 ms.topic: interface
-f1_keywords: ["netcon/INetSharingEveryConnectionCollection"]
+f1_keywords: 
+ - "netcon/INetSharingEveryConnectionCollection"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

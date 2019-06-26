@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.OnDisplayChange, IMixerOCX::OnDisplayChange, IMixerOCXOnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondisplaychange, mixerocx/IMixerOCX::OnDisplayChange
 ms.topic: method
-f1_keywords: ["mixerocx/IMixerOCX.OnDisplayChange"]
+f1_keywords: 
+ - "mixerocx/IMixerOCX.OnDisplayChange"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

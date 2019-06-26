@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
 ms.topic: method
-f1_keywords: ["instance/CInstance.IsNull"]
+f1_keywords: 
+ - "instance/CInstance.IsNull"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

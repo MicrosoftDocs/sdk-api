@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog
 ms.topic: function
-f1_keywords: ["setupapi/SetupTerminateFileLog"]
+f1_keywords: 
+ - "setupapi/SetupTerminateFileLog"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation method, IOperationsProgressDialog.SetOperation, IOperationsProgressDialog::SetOperation, SetOperation, SetOperation method [Windows Shell], SetOperation method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetOperation, shell.IOperationsProgressDialog_SetOperation, shobjidl_core/IOperationsProgressDialog::SetOperation
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.SetOperation"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.SetOperation"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

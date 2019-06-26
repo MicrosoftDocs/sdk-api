@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPOFNHOOKPROC, LPOFNHOOKPROC callback, LPOFNHOOKPROC callback function [Dialog Boxes], _win32_OFNHookProc, _win32_ofnhookproc_cpp, commdlg/LPOFNHOOKPROC, dlgbox.ofnhookproc, winui._win32_ofnhookproc
 ms.topic: callback
-f1_keywords: ["commdlg/LPOFNHOOKPROC"]
+f1_keywords: 
+ - "commdlg/LPOFNHOOKPROC"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

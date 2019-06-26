@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
 ms.topic: function
-f1_keywords: ["olectl/OleLoadPicturePath"]
+f1_keywords: 
+ - "olectl/OleLoadPicturePath"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

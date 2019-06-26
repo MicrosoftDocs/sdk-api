@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.RemoveEventHandler"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.RemoveEventHandler"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

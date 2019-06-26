@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFileEx, OleLoadPictureFileEx function [Automation], _oa96_OleLoadPictureFileEx, automat.oleloadpicturefileex, olectl/OleLoadPictureFileEx
 ms.topic: function
-f1_keywords: ["olectl/OleLoadPictureFileEx"]
+f1_keywords: 
+ - "olectl/OleLoadPictureFileEx"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

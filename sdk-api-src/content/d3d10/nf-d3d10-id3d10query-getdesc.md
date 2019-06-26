@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 298670c9-ff1f-f4ca-f91b-d36b87bae790, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Query interface, ID3D10Query interface [Direct3D 10],GetDesc method, ID3D10Query.GetDesc, ID3D10Query::GetDesc, d3d10/ID3D10Query::GetDesc, direct3d10.id3d10query_getdesc
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Query.GetDesc"]
+f1_keywords: 
+ - "d3d10/ID3D10Query.GetDesc"
 req.header: d3d10.h
 req.include-header: D3d10core
 req.target-type: Windows

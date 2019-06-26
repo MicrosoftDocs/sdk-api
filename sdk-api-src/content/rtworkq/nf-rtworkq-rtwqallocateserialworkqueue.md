@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqAllocateSerialWorkQueue, RtwqAllocateSerialWorkQueue function, base.rtwqallocateserialworkqueue, rtworkq/RtwqAllocateSerialWorkQueue
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqAllocateSerialWorkQueue"]
+f1_keywords: 
+ - "rtworkq/RtwqAllocateSerialWorkQueue"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getCertFromPKCS7 method, ICEnroll interface [Security],getCertFromPKCS7 method, ICEnroll.getCertFromPKCS7, ICEnroll2 interface [Security],getCertFromPKCS7 method, ICEnroll2::getCertFromPKCS7, ICEnroll3 interface [Security],getCertFromPKCS7 method, ICEnroll3::getCertFromPKCS7, ICEnroll4 interface [Security],getCertFromPKCS7 method, ICEnroll4::getCertFromPKCS7, ICEnroll::getCertFromPKCS7, getCertFromPKCS7, getCertFromPKCS7 method [Security], getCertFromPKCS7 method [Security],CEnroll object, getCertFromPKCS7 method [Security],ICEnroll interface, getCertFromPKCS7 method [Security],ICEnroll2 interface, getCertFromPKCS7 method [Security],ICEnroll3 interface, getCertFromPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_getcertfrompkcs7, xenroll/ICEnroll2::getCertFromPKCS7, xenroll/ICEnroll3::getCertFromPKCS7, xenroll/ICEnroll4::getCertFromPKCS7, xenroll/ICEnroll::getCertFromPKCS7
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.getCertFromPKCS7"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.getCertFromPKCS7"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

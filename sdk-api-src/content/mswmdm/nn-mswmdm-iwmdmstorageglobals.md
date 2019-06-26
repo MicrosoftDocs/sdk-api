@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media Device Manager], IWMDMStorageGlobals interface [windows Media Device Manager],described, IWMDMStorageGlobalsInterface, mswmdm/IWMDMStorageGlobals, wmdm.iwmdmstorageglobals
 ms.topic: interface
-f1_keywords: ["mswmdm/IWMDMStorageGlobals"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageGlobals"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTopWindow, GetTopWindow function [Windows and Messages], _win32_GetTopWindow, _win32_gettopwindow_cpp, winmsg.gettopwindow, winui._win32_gettopwindow, winuser/GetTopWindow
 ms.topic: function
-f1_keywords: ["winuser/GetTopWindow"]
+f1_keywords: 
+ - "winuser/GetTopWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterResource, DeleteClusterResource function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_deleteclusterresource, clusapi/DeleteClusterResource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
 ms.topic: function
-f1_keywords: ["clusapi/DeleteClusterResource"]
+f1_keywords: 
+ - "clusapi/DeleteClusterResource"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

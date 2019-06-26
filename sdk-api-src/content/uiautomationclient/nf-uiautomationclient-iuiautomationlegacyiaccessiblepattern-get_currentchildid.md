@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentChildId property, IUIAutomationLegacyIAccessiblePattern.CurrentChildId, IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId, IUIAutomationLegacyIAccessiblePattern::CurrentChildId, IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, get_CurrentChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentChildId"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentChildId"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

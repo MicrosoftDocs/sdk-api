@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],addBlobPropertyToCertificateWStr method, IEnroll4.addBlobPropertyToCertificateWStr, IEnroll4::addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr method [Security], addBlobPropertyToCertificateWStr method [Security],IEnroll4 interface, security.ienroll4_addblobpropertytocertificatewstr, xenroll/IEnroll4::addBlobPropertyToCertificateWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.addBlobPropertyToCertificateWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.addBlobPropertyToCertificateWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
 ms.topic: method
-f1_keywords: ["mfsharingengine/IPlayToControl.Connect"]
+f1_keywords: 
+ - "mfsharingengine/IPlayToControl.Connect"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

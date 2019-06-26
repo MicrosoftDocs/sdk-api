@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvRestoreGetDatabaseLocations"]
+f1_keywords: 
+ - "certbcli/CertSrvRestoreGetDatabaseLocations"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

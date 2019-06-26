@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOG_UNPINNED_CALLBACK, LOG_UNPINNED_CALLBACK callback function [Files], PLOG_UNPINNED_CALLBACK, PLOG_UNPINNED_CALLBACK callback, clfsmgmtw32/LOG_UNPINNED_CALLBACK, fs.log_unpinned_callback
 ms.topic: callback
-f1_keywords: ["clfsmgmtw32/LOG_UNPINNED_CALLBACK"]
+f1_keywords: 
+ - "clfsmgmtw32/LOG_UNPINNED_CALLBACK"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

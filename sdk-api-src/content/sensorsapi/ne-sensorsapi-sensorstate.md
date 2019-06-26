@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_ERROR, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MAX, SENSOR_STATE_MIN, SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_NO_DATA, SENSOR_STATE_READY, SensorState, SensorState enumeration, sensorsapi/SENSOR_STATE_ACCESS_DENIED, sensorsapi/SENSOR_STATE_ERROR, sensorsapi/SENSOR_STATE_INITIALIZING, sensorsapi/SENSOR_STATE_MAX, sensorsapi/SENSOR_STATE_MIN, sensorsapi/SENSOR_STATE_NOT_AVAILABLE, sensorsapi/SENSOR_STATE_NO_DATA, sensorsapi/SENSOR_STATE_READY, sensorsapi/SensorState, winsensors_com_ref.sensorstate
 ms.topic: enum
-f1_keywords: ["sensorsapi/SensorState"]
+f1_keywords: 
+ - "sensorsapi/SensorState"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

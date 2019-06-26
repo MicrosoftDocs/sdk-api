@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_ENUM_FLAG_ALL, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_LOCALMFT, MFT_ENUM_FLAG_SORTANDFILTER, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, _MFT_ENUM_FLAG, _MFT_ENUM_FLAG enumeration [Media Foundation], mf._mft_enum_flag, mfapi/MFT_ENUM_FLAG_ALL, mfapi/MFT_ENUM_FLAG_ASYNCMFT, mfapi/MFT_ENUM_FLAG_FIELDOFUSE, mfapi/MFT_ENUM_FLAG_HARDWARE, mfapi/MFT_ENUM_FLAG_LOCALMFT, mfapi/MFT_ENUM_FLAG_SORTANDFILTER, mfapi/MFT_ENUM_FLAG_SYNCMFT, mfapi/MFT_ENUM_FLAG_TRANSCODE_ONLY, mfapi/_MFT_ENUM_FLAG
 ms.topic: enum
-f1_keywords: ["mfapi/_MFT_ENUM_FLAG"]
+f1_keywords: 
+ - "mfapi/_MFT_ENUM_FLAG"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

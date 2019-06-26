@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1"
 ms.topic: struct
-f1_keywords: ["mprapi/RAS_PORT_1"]
+f1_keywords: 
+ - "mprapi/RAS_PORT_1"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

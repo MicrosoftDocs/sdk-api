@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
 ms.topic: interface
-f1_keywords: ["pla/IFolderActionCollection"]
+f1_keywords: 
+ - "pla/IFolderActionCollection"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

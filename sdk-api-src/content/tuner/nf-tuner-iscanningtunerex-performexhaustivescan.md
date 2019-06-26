@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],PerformExhaustiveScan method, IScanningTunerEx.PerformExhaustiveScan, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
 ms.topic: method
-f1_keywords: ["tuner/IScanningTunerEx.PerformExhaustiveScan"]
+f1_keywords: 
+ - "tuner/IScanningTunerEx.PerformExhaustiveScan"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

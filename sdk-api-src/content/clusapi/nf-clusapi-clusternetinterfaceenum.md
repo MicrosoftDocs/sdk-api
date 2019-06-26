@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
 ms.topic: function
-f1_keywords: ["clusapi/ClusterNetInterfaceEnum"]
+f1_keywords: 
+ - "clusapi/ClusterNetInterfaceEnum"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

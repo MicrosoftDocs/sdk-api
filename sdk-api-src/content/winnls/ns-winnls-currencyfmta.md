@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCURRENCYFMTA, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTA, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT"
 ms.topic: struct
-f1_keywords: ["winnls/CURRENCYFMT"]
+f1_keywords: 
+ - "winnls/CURRENCYFMT"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.SetRate, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate, SetRate method [DirectShow], SetRate method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.SetRate"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.SetRate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

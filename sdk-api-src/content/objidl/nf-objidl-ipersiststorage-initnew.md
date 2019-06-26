@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],InitNew method, IPersistStorage.InitNew, IPersistStorage::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStorage interface, _com_ipersiststorage_initnew, com.ipersiststorage_initnew, objidl/IPersistStorage::InitNew
 ms.topic: method
-f1_keywords: ["objidl/IPersistStorage.InitNew"]
+f1_keywords: 
+ - "objidl/IPersistStorage.InitNew"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

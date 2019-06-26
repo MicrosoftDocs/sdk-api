@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],MoveFirst method, IFaxOutgoingMessageIterator.MoveFirst, IFaxOutgoingMessageIterator::MoveFirst, MoveFirst, MoveFirst method [Fax Service], MoveFirst method [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.movefirst, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_movefirst_cpp, fax._mfax_faxoutgoingmessageiterator_movefirst, faxcomex/IFaxOutgoingMessageIterator::MoveFirst
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingMessageIterator.MoveFirst"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingMessageIterator.MoveFirst"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

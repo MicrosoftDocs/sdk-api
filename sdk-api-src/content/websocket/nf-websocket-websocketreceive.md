@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Component API], websock.websocketreceive, websocket/WebSocketReceive
 ms.topic: function
-f1_keywords: ["websocket/WebSocketReceive"]
+f1_keywords: 
+ - "websocket/WebSocketReceive"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

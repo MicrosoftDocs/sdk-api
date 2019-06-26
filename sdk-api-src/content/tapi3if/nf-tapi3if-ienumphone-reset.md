@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Reset method, IEnumPhone.Reset, IEnumPhone::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_reset, tapi3.ienumphone_reset, tapi3if/IEnumPhone::Reset
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumPhone.Reset"]
+f1_keywords: 
+ - "tapi3if/IEnumPhone.Reset"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

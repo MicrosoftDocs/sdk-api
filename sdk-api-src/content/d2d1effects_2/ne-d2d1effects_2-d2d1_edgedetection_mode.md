@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_EDGEDETECTION_MODE, D2D1_EDGEDETECTION_MODE enumeration [Direct2D], D2D1_EDGEDETECTION_MODE_PREWITT, D2D1_EDGEDETECTION_MODE_SOBEL, d2d1effects_2/D2D1_EDGEDETECTION_MODE, d2d1effects_2/D2D1_EDGEDETECTION_MODE_PREWITT, d2d1effects_2/D2D1_EDGEDETECTION_MODE_SOBEL, direct2d.d2d1_edgedetection_mode
 ms.topic: enum
-f1_keywords: ["d2d1effects_2/D2D1_EDGEDETECTION_MODE"]
+f1_keywords: 
+ - "d2d1effects_2/D2D1_EDGEDETECTION_MODE"
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

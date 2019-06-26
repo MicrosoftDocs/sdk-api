@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.topic: method
-f1_keywords: ["shappmgr/IEnumPublishedApps.Next"]
+f1_keywords: 
+ - "shappmgr/IEnumPublishedApps.Next"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

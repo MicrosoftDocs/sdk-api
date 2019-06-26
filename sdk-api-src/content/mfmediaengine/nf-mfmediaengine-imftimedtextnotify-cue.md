@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cue, Cue method [Media Foundation], Cue method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Cue method, IMFTimedTextNotify.Cue, IMFTimedTextNotify::Cue, mf.imftimedtextnotify_cue, mfmediaengine/IMFTimedTextNotify::Cue
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextNotify.Cue"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextNotify.Cue"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

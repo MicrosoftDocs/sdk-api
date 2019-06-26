@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMediaEngine.IsSeeking, IMFMediaEngine::IsSeeking, IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.IsSeeking"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.IsSeeking"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

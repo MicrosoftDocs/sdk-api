@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
 ms.topic: method
-f1_keywords: ["msopc/IOpcFactory.CreateStreamOnFile"]
+f1_keywords: 
+ - "msopc/IOpcFactory.CreateStreamOnFile"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

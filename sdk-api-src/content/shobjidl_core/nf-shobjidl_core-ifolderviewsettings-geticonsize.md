@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Shell], GetIconSize method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetIconSize method, IFolderViewSettings.GetIconSize, IFolderViewSettings::GetIconSize, _shell_IFolderViewSettings_GetIconSize, shell.IFolderViewSettings_GetIconSize, shobjidl_core/IFolderViewSettings::GetIconSize
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderViewSettings.GetIconSize"]
+f1_keywords: 
+ - "shobjidl_core/IFolderViewSettings.GetIconSize"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

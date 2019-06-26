@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
 ms.topic: function
-f1_keywords: ["rpcasync/RpcErrorGetNumberOfRecords"]
+f1_keywords: 
+ - "rpcasync/RpcErrorGetNumberOfRecords"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

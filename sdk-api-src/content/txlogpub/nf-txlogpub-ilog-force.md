@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog interface [COM],Force method, ILog.Force, ILog::Force, _com_ilog_force, com.ilog_force, txlogpub/ILog::Force
 ms.topic: method
-f1_keywords: ["txlogpub/ILog.Force"]
+f1_keywords: 
+ - "txlogpub/ILog.Force"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnrollmentServerAuthentication, GetEnrollmentServerAuthentication method [Security], GetEnrollmentServerAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetEnrollmentServerAuthentication method, ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication, ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, security.icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication"]
+f1_keywords: 
+ - "certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

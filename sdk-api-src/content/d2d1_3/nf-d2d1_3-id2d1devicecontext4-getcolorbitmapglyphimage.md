@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorBitmapGlyphImage, GetColorBitmapGlyphImage method [Direct2D], GetColorBitmapGlyphImage method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],GetColorBitmapGlyphImage method, ID2D1DeviceContext4.GetColorBitmapGlyphImage, ID2D1DeviceContext4::GetColorBitmapGlyphImage, d2d1_3/ID2D1DeviceContext4::GetColorBitmapGlyphImage, direct2d.id2d1devicecontext4_getcolorbitmapglyphimage
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1DeviceContext4.GetColorBitmapGlyphImage"]
+f1_keywords: 
+ - "d2d1_3/ID2D1DeviceContext4.GetColorBitmapGlyphImage"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Remote Desktop Services], GetUserData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetUserData method, IWTSProtocolConnection.GetUserData, IWTSProtocolConnection::GetUserData, termserv.iwtsprotocolconnection_getuserdata, wtsprotocol/IWTSProtocolConnection::GetUserData
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.GetUserData"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.GetUserData"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

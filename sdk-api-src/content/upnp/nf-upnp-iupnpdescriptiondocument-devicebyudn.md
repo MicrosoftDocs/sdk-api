@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],DeviceByUDN method, IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDescriptionDocument.DeviceByUDN"]
+f1_keywords: 
+ - "upnp/IUPnPDescriptionDocument.DeviceByUDN"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

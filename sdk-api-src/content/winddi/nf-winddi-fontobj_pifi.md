@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pifi, FONTOBJ_pifi function [Display Devices], display.fontobj_pifi, gdifncs_702d11ac-850f-4e4d-aefa-1ccf404edb56.xml, winddi/FONTOBJ_pifi
 ms.topic: function
-f1_keywords: ["winddi/FONTOBJ_pifi"]
+f1_keywords: 
+ - "winddi/FONTOBJ_pifi"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

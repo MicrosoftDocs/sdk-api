@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Clear method, ITraceDataProviderCollection.Clear, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.Clear"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.Clear"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

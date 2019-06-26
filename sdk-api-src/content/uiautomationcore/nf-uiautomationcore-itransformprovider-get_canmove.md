@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanMove property [Windows Accessibility], CanMove property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanMove property, ITransformProvider.CanMove, ITransformProvider.get_CanMove, ITransformProvider::CanMove, ITransformProvider::get_CanMove, get_CanMove, uiauto.uiauto_ITransformProvider_CanMove, uiauto_ITransformProvider_CanMove, uiautomationcore/ITransformProvider::CanMove, uiautomationcore/ITransformProvider::get_CanMove, winauto.uiauto_ITransformProvider_CanMove
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider.CanMove"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider.CanMove"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

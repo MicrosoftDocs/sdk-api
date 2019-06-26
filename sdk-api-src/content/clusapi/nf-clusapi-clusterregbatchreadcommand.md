@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegBatchReadCommand"]
+f1_keywords: 
+ - "clusapi/ClusterRegBatchReadCommand"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

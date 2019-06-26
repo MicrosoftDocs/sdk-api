@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsolationInfo, IsolationInfo structure [NAP], nap.isolationinfo_struct, naptypes/IsolationInfo
 ms.topic: struct
-f1_keywords: ["naptypes/IsolationInfo"]
+f1_keywords: 
+ - "naptypes/IsolationInfo"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

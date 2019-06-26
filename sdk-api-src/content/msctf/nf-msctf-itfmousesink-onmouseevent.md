@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMouseSink interface [Text Services Framework],OnMouseEvent method, ITfMouseSink.OnMouseEvent, ITfMouseSink::OnMouseEvent, OnMouseEvent, OnMouseEvent method [Text Services Framework], OnMouseEvent method [Text Services Framework],ITfMouseSink interface, _tsf_itfmousesink_onmouseevent_ref, msctf/ITfMouseSink::OnMouseEvent, tsf.itfmousesink_onmouseevent
 ms.topic: method
-f1_keywords: ["msctf/ITfMouseSink.OnMouseEvent"]
+f1_keywords: 
+ - "msctf/ITfMouseSink.OnMouseEvent"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

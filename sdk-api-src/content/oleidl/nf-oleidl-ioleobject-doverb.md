@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
 ms.topic: method
-f1_keywords: ["oleidl/IOleObject.DoVerb"]
+f1_keywords: 
+ - "oleidl/IOleObject.DoVerb"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

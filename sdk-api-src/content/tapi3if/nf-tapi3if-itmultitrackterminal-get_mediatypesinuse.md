@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_MediaTypesInUse method, ITMultiTrackTerminal.get_MediaTypesInUse, ITMultiTrackTerminal::get_MediaTypesInUse, _tapi3_itmultitrackterminal_get_mediatypesinuse, get_MediaTypesInUse, get_MediaTypesInUse method [TAPI 2.2], get_MediaTypesInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_mediatypesinuse, tapi3if/ITMultiTrackTerminal::get_MediaTypesInUse
 ms.topic: method
-f1_keywords: ["tapi3if/ITMultiTrackTerminal.get_MediaTypesInUse"]
+f1_keywords: 
+ - "tapi3if/ITMultiTrackTerminal.get_MediaTypesInUse"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

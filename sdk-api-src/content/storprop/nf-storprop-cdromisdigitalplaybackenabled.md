@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
 ms.topic: function
-f1_keywords: ["storprop/CdromIsDigitalPlaybackEnabled"]
+f1_keywords: 
+ - "storprop/CdromIsDigitalPlaybackEnabled"
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows

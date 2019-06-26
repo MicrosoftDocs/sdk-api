@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], wcs.jabcolorf, wcsplugin/JChColorF
 ms.topic: struct
-f1_keywords: ["wcsplugin/JabColorF"]
+f1_keywords: 
+ - "wcsplugin/JabColorF"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

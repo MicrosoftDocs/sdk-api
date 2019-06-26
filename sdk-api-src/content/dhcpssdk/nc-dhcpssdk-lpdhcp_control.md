@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpControlHook, DhcpControlHook callback function [DHCP], LPDHCP_CONTROL, LPDHCP_CONTROL callback, _dhcp_dhcpcontrolhook, dhcp.dhcpcontrolhook, dhcpssdk/DhcpControlHook
 ms.topic: callback
-f1_keywords: ["dhcpssdk/DhcpControlHook"]
+f1_keywords: 
+ - "dhcpssdk/DhcpControlHook"
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

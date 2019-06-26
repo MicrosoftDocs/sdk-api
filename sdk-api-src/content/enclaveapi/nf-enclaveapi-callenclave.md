@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
 ms.topic: function
-f1_keywords: ["enclaveapi/CallEnclave"]
+f1_keywords: 
+ - "enclaveapi/CallEnclave"
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

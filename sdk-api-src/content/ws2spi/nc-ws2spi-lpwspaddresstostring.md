@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
 ms.topic: callback
-f1_keywords: ["ws2spi/WSPAddressToString"]
+f1_keywords: 
+ - "ws2spi/WSPAddressToString"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitiateSystemShutdownEx, InitiateSystemShutdownEx function, InitiateSystemShutdownExA, InitiateSystemShutdownExW, _win32_initiatesystemshutdownex, base.initiatesystemshutdownex, winreg/InitiateSystemShutdownEx, winreg/InitiateSystemShutdownExA, winreg/InitiateSystemShutdownExW
 ms.topic: function
-f1_keywords: ["winreg/InitiateSystemShutdownEx"]
+f1_keywords: 
+ - "winreg/InitiateSystemShutdownEx"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

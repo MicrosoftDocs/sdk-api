@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
 ms.topic: interface
-f1_keywords: ["ocidl/IFont"]
+f1_keywords: 
+ - "ocidl/IFont"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

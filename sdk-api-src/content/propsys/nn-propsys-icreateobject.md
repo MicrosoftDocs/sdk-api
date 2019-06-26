@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObject interface [Windows Shell],described, _shell_ICreateObject, propsys/ICreateObject, shell.ICreateObject
 ms.topic: interface
-f1_keywords: ["propsys/ICreateObject"]
+f1_keywords: 
+ - "propsys/ICreateObject"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW"
 ms.topic: function
-f1_keywords: ["winuser/wvsprintf"]
+f1_keywords: 
+ - "winuser/wvsprintf"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSCPDDownload method, IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceAsync.BeginSCPDDownload"]
+f1_keywords: 
+ - "upnp/IUPnPServiceAsync.BeginSCPDDownload"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

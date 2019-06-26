@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
 ms.topic: struct
-f1_keywords: ["subsmgr/ITEMPROP"]
+f1_keywords: 
+ - "subsmgr/ITEMPROP"
 req.header: subsmgr.h
 req.include-header: 
 req.target-type: Windows

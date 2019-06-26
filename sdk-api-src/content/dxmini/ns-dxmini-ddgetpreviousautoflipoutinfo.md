@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDGETPREVIOUSAUTOFLIPOUTINFO, DDGETPREVIOUSAUTOFLIPOUTINFO, DDGETPREVIOUSAUTOFLIPOUTINFO structure [Display Devices], PDDGETPREVIOUSAUTOFLIPOUTINFO, PDDGETPREVIOUSAUTOFLIPOUTINFO structure pointer [Display Devices], Video_Structs_baf54add-b6fa-4f0b-8236-8fe6c0fc95b6.xml, display.ddgetpreviousautoflipoutinfo, dxmini/DDGETPREVIOUSAUTOFLIPOUTINFO, dxmini/PDDGETPREVIOUSAUTOFLIPOUTINFO"
 ms.topic: struct
-f1_keywords: ["dxmini/DDGETPREVIOUSAUTOFLIPOUTINFO"]
+f1_keywords: 
+ - "dxmini/DDGETPREVIOUSAUTOFLIPOUTINFO"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateAsyncResult"]
+f1_keywords: 
+ - "mfapi/MFCreateAsyncResult"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN structure [Security], PCERT_SIMPLE_CHAIN, PCERT_SIMPLE_CHAIN structure pointer [Security], _crypto2_cert_simple_chain, security.cert_simple_chain, wincrypt/CERT_SIMPLE_CHAIN, wincrypt/PCERT_SIMPLE_CHAIN"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_SIMPLE_CHAIN"]
+f1_keywords: 
+ - "wincrypt/CERT_SIMPLE_CHAIN"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmStreamUnprepareHeader, acmStreamUnprepareHeader, acmStreamUnprepareHeader function [Windows Multimedia], msacm/acmStreamUnprepareHeader, multimedia.acmstreamunprepareheader"
 ms.topic: function
-f1_keywords: ["msacm/acmStreamUnprepareHeader"]
+f1_keywords: 
+ - "msacm/acmStreamUnprepareHeader"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

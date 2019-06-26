@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetVideoSourceRect"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetVideoSourceRect"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

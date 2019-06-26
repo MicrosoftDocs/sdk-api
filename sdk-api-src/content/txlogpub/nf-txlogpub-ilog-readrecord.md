@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],ReadRecord method, ILog.ReadRecord, ILog::ReadRecord, ReadRecord, ReadRecord method [COM], ReadRecord method [COM],ILog interface, _com_ilog_readrecord, com.ilog_readrecord, txlogpub/ILog::ReadRecord
 ms.topic: method
-f1_keywords: ["txlogpub/ILog.ReadRecord"]
+f1_keywords: 
+ - "txlogpub/ILog.ReadRecord"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
 ms.topic: method
-f1_keywords: ["uiribbon/IUISimplePropertySet.GetValue"]
+f1_keywords: 
+ - "uiribbon/IUISimplePropertySet.GetValue"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

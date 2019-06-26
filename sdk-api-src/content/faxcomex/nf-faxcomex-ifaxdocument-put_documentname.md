@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],DocumentName property, IFaxDocument.DocumentName, IFaxDocument.get_DocumentName, IFaxDocument.put_DocumentName, IFaxDocument::DocumentName, IFaxDocument::get_DocumentName, IFaxDocument::put_DocumentName, _mfax_faxdocument.documentname, fax._mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp, fax._mfax_faxdocument_documentname, faxcomex/IFaxDocument::DocumentName, faxcomex/IFaxDocument::get_DocumentName, faxcomex/IFaxDocument::put_DocumentName, put_DocumentName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.DocumentName"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.DocumentName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

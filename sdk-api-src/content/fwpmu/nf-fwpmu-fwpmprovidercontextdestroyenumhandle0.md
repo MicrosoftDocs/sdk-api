@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextDestroyEnumHandle0, FwpmProviderContextDestroyEnumHandle0 function [Filtering], fwp.fwpmprovidercontextdestroyenumhandle0_func, fwpmu/FwpmProviderContextDestroyEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmProviderContextDestroyEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/FwpmProviderContextDestroyEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

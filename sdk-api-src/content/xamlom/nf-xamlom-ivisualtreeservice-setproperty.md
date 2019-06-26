@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService interface,SetProperty method, IVisualTreeService.SetProperty, IVisualTreeService::SetProperty, SetProperty, SetProperty method, SetProperty method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService.SetProperty"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService.SetProperty"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
 ms.topic: struct
-f1_keywords: ["directxcollision/BoundingBox"]
+f1_keywords: 
+ - "directxcollision/BoundingBox"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

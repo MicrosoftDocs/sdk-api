@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation
 ms.topic: function
-f1_keywords: ["threadpoolapiset/QueryThreadpoolStackInformation"]
+f1_keywords: 
+ - "threadpoolapiset/QueryThreadpoolStackInformation"
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

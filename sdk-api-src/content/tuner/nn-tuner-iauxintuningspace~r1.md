@@ -8,7 +8,8 @@ ms.assetid: a3d17004-bf99-4dfa-acf5-cb826aad7d49
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
-f1_keywords: ["tuner/IAuxInTuningSpace"]
+f1_keywords: 
+ - "tuner/IAuxInTuningSpace"
 req.header: tuner.h
 req.include-header:
 req.redist:

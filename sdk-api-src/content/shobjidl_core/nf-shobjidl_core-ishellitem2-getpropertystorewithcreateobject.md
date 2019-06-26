@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStoreWithCreateObject, GetPropertyStoreWithCreateObject method [Windows Shell], GetPropertyStoreWithCreateObject method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreWithCreateObject method, IShellItem2.GetPropertyStoreWithCreateObject, IShellItem2::GetPropertyStoreWithCreateObject, _shell_IShellItem2_GetPropertyStoreWithCreateObject, shell.IShellItem2_GetPropertyStoreWithCreateObject, shobjidl_core/IShellItem2::GetPropertyStoreWithCreateObject
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItem2.GetPropertyStoreWithCreateObject"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2.GetPropertyStoreWithCreateObject"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

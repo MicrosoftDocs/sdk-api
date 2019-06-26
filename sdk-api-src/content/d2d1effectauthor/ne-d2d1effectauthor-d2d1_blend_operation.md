@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_OPERATION, D2D1_BLEND_OPERATION enumeration [Direct2D], D2D1_BLEND_OPERATION_ADD, D2D1_BLEND_OPERATION_MAX, D2D1_BLEND_OPERATION_MIN, D2D1_BLEND_OPERATION_REV_SUBSTRACT, D2D1_BLEND_OPERATION_SUBTRACT, d2d1effectauthor/D2D1_BLEND_OPERATION, d2d1effectauthor/D2D1_BLEND_OPERATION_ADD, d2d1effectauthor/D2D1_BLEND_OPERATION_MAX, d2d1effectauthor/D2D1_BLEND_OPERATION_MIN, d2d1effectauthor/D2D1_BLEND_OPERATION_REV_SUBSTRACT, d2d1effectauthor/D2D1_BLEND_OPERATION_SUBTRACT, direct2d.d2d1_blend_operation
 ms.topic: enum
-f1_keywords: ["d2d1effectauthor/D2D1_BLEND_OPERATION"]
+f1_keywords: 
+ - "d2d1effectauthor/D2D1_BLEND_OPERATION"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

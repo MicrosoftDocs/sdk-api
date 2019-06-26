@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCallHub, IEnumCallHub interface [TAPI 2.2], IEnumCallHub interface [TAPI 2.2],described, _tapi3_ienumcallhub, tapi3.ienumcallhub, tapi3if/IEnumCallHub
 ms.topic: interface
-f1_keywords: ["tapi3if/IEnumCallHub"]
+f1_keywords: 
+ - "tapi3if/IEnumCallHub"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

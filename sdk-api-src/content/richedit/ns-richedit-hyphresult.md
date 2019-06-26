@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HYPHRESULT, HYPHRESULT structure [Windows Controls], _win32_HYPHRESULT_str, _win32_HYPHRESULT_str_cpp, controls.HYPHRESULT, controls._win32_HYPHRESULT_str, richedit/HYPHRESULT
 ms.topic: struct
-f1_keywords: ["richedit/HYPHRESULT"]
+f1_keywords: 
+ - "richedit/HYPHRESULT"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

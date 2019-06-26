@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComplexArrayBufferSize, NdrComplexArrayBufferSize function [Windows API], rpcndr/NdrComplexArrayBufferSize, winprog.ndrcomplexarraybuffersize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrComplexArrayBufferSize"]
+f1_keywords: 
+ - "rpcndr/NdrComplexArrayBufferSize"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

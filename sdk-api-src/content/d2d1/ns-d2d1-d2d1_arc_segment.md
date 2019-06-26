@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARC_SEGMENT, D2D1_ARC_SEGMENT structure [Direct2D], d2d1/D2D1_ARC_SEGMENT, direct2d.D2D1_ARC_SEGMENT
 ms.topic: struct
-f1_keywords: ["d2d1/D2D1_ARC_SEGMENT"]
+f1_keywords: 
+ - "d2d1/D2D1_ARC_SEGMENT"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

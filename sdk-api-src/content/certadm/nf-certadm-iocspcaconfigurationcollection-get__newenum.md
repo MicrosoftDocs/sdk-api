@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection.get__NewEnum, IOCSPCAConfigurationCollection::_NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfigurationCollection._NewEnum"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfigurationCollection._NewEnum"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquirePlugin.TransferComplete"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquirePlugin.TransferComplete"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

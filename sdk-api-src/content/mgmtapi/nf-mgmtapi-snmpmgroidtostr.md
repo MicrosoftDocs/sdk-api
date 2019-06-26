@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrOidToStr, SnmpMgrOidToStr function [SNMP], _snmp_snmpmgroidtostr, mgmtapi/SnmpMgrOidToStr, snmp.snmpmgroidtostr
 ms.topic: function
-f1_keywords: ["mgmtapi/SnmpMgrOidToStr"]
+f1_keywords: 
+ - "mgmtapi/SnmpMgrOidToStr"
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

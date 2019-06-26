@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSingleFrame macro [Windows Multimedia], multimedia.capcapturesingleframe, vfw/capCaptureSingleFrame"
 ms.topic: macro
-f1_keywords: ["vfw/capCaptureSingleFrame"]
+f1_keywords: 
+ - "vfw/capCaptureSingleFrame"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl
 ms.topic: interface
-f1_keywords: ["mfidl/IMFByteStreamCacheControl"]
+f1_keywords: 
+ - "mfidl/IMFByteStreamCacheControl"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

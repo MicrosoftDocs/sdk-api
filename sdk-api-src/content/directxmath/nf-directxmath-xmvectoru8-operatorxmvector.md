@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU8::operator XMVECTOR
 ms.topic: language-reference
-f1_keywords: ["directxmath/XMVECTORU8::operator XMVECTOR"]
+f1_keywords: 
+ - "directxmath/XMVECTORU8::operator XMVECTOR"
 targetos: Windows
 product: Windows
 req.assembly: 

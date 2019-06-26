@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiBuildClassInfoListEx"]
+f1_keywords: 
+ - "setupapi/SetupDiBuildClassInfoListEx"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
 ms.topic: function
-f1_keywords: ["wingdi/CopyMetaFile"]
+f1_keywords: 
+ - "wingdi/CopyMetaFile"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

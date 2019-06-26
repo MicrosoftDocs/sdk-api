@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
 ms.topic: function
-f1_keywords: ["qos2/QOSRemoveSocketFromFlow"]
+f1_keywords: 
+ - "qos2/QOSRemoveSocketFromFlow"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

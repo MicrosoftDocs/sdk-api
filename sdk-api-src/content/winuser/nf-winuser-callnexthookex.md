@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallNextHookEx, CallNextHookEx function [Windows and Messages], _win32_CallNextHookEx, _win32_callnexthookex_cpp, winmsg.callnexthookex, winui._win32_callnexthookex, winuser/CallNextHookEx
 ms.topic: function
-f1_keywords: ["winuser/CallNextHookEx"]
+f1_keywords: 
+ - "winuser/CallNextHookEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

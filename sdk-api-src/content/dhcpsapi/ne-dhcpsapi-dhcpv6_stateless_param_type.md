@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCPV6_STATELESS_PARAM_TYPE, DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP], DhcpStatelessPurgeInterval, DhcpStatelessStatus, dhcp.dhcpv6_stateless_param_type, dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE, dhcpsapi/DhcpStatelessPurgeInterval, dhcpsapi/DhcpStatelessStatus
 ms.topic: enum
-f1_keywords: ["dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE"]
+f1_keywords: 
+ - "dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

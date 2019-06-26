@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Networks], GetVoiceCallState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetVoiceCallState method, IMbnConnection.GetVoiceCallState, IMbnConnection::GetVoiceCallState, mbn.imbnconnection_getvoicecallstate, mbnapi/IMbnConnection::GetVoiceCallState
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnection.GetVoiceCallState"]
+f1_keywords: 
+ - "mbnapi/IMbnConnection.GetVoiceCallState"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

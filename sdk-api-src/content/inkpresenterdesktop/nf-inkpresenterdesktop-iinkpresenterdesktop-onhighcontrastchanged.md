@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,OnHighContrastChanged method, IInkPresenterDesktop.OnHighContrastChanged, IInkPresenterDesktop::OnHighContrastChanged, InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged, OnHighContrastChanged, OnHighContrastChanged method, OnHighContrastChanged method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged, input_ink.iinkpresenterdesktop_onhighcontrastchanged
 ms.topic: method
-f1_keywords: ["inkpresenterdesktop/IInkPresenterDesktop.OnHighContrastChanged"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkPresenterDesktop.OnHighContrastChanged"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

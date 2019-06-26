@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [Windows Animation], AddCubic method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddCubic method, IUIAnimationPrimitiveInterpolation.AddCubic, IUIAnimationPrimitiveInterpolation::AddCubic, uianimation.iuianimationprimitiveinterpolation_addcubic, uianimation/IUIAnimationPrimitiveInterpolation::AddCubic
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationPrimitiveInterpolation.AddCubic"]
+f1_keywords: 
+ - "uianimation/IUIAnimationPrimitiveInterpolation.AddCubic"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

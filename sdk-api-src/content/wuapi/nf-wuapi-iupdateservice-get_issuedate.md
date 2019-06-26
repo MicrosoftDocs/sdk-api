@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property, IUpdateService.IssueDate, IUpdateService.get_IssueDate, IUpdateService::IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent],IUpdateService interface, get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateService.IssueDate"]
+f1_keywords: 
+ - "wuapi/IUpdateService.IssueDate"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

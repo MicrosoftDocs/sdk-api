@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusFunc, SetProviderStatusFunc callback, SetProviderStatusFunc callback function, _win32_setproviderstatusfunc, base.setproviderstatusfunc, timeprov/SetProviderStatusFunc
 ms.topic: callback
-f1_keywords: ["timeprov/SetProviderStatusFunc"]
+f1_keywords: 
+ - "timeprov/SetProviderStatusFunc"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

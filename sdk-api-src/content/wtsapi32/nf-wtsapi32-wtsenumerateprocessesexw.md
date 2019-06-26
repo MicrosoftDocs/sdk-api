@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSEnumerateProcessesEx, WTSEnumerateProcessesEx function [Remote Desktop Services], WTSEnumerateProcessesExA, WTSEnumerateProcessesExW, termserv.wtsenumerateprocessesex, wtsapi32/WTSEnumerateProcessesEx, wtsapi32/WTSEnumerateProcessesExA, wtsapi32/WTSEnumerateProcessesExW
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSEnumerateProcessesEx"]
+f1_keywords: 
+ - "wtsapi32/WTSEnumerateProcessesEx"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

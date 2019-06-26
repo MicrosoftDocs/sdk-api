@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup
 ms.topic: function
-f1_keywords: ["winbase/SetThreadpoolCallbackCleanupGroup"]
+f1_keywords: 
+ - "winbase/SetThreadpoolCallbackCleanupGroup"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

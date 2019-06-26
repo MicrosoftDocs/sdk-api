@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamIdentifier, GetStreamIdentifier method [Media Foundation], GetStreamIdentifier method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetStreamIdentifier method, IMFStreamDescriptor.GetStreamIdentifier, IMFStreamDescriptor::GetStreamIdentifier, d282ee48-6145-4557-8fa7-786b893327fa, mf.imfstreamdescriptor_getstreamidentifier, mfidl/IMFStreamDescriptor::GetStreamIdentifier
 ms.topic: method
-f1_keywords: ["mfidl/IMFStreamDescriptor.GetStreamIdentifier"]
+f1_keywords: 
+ - "mfidl/IMFStreamDescriptor.GetStreamIdentifier"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
 ms.topic: method
-f1_keywords: ["mixerocx/IMixerOCXNotify.OnStatusChange"]
+f1_keywords: 
+ - "mixerocx/IMixerOCXNotify.OnStatusChange"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

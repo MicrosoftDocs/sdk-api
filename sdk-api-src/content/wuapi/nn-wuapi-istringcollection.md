@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], IStringCollection interface [Windows Update Agent],described, wua.istringcollection, wuapi/IStringCollection
 ms.topic: interface
-f1_keywords: ["wuapi/IStringCollection"]
+f1_keywords: 
+ - "wuapi/IStringCollection"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

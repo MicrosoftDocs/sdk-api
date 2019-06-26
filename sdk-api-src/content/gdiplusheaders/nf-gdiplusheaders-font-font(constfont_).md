@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(const Font &), Font::Font, Font::Font(const Font &), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Font.Font"]
+f1_keywords: 
+ - "gdiplusheaders/Font.Font"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

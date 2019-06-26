@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMInternal interface [Text Services Framework],ProcessLattice method, ITfFnLMInternal.ProcessLattice, ITfFnLMInternal::ProcessLattice, ProcessLattice, ProcessLattice method [Text Services Framework], ProcessLattice method [Text Services Framework],ITfFnLMInternal interface, _tsf_itffnlminternal_processlattice_ref, ctffunc/ITfFnLMInternal::ProcessLattice, tsf.itffnlminternal_processlattice
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnLMInternal.ProcessLattice"]
+f1_keywords: 
+ - "ctffunc/ITfFnLMInternal.ProcessLattice"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

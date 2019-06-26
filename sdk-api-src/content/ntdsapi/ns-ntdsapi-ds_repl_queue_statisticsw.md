@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_REPL_QUEUE_STATISTICSW"]
+f1_keywords: 
+ - "ntdsapi/DS_REPL_QUEUE_STATISTICSW"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

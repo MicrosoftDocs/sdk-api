@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingType method, IMSVidStreamBufferRecordingControl.get_RecordingType, IMSVidStreamBufferRecordingControl::get_RecordingType, IMSVidStreamBufferRecordingControlget_RecordingType, get_RecordingType, get_RecordingType method [Microsoft TV Technologies], get_RecordingType method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingtype, segment/IMSVidStreamBufferRecordingControl::get_RecordingType
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferRecordingControl.get_RecordingType"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferRecordingControl.get_RecordingType"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

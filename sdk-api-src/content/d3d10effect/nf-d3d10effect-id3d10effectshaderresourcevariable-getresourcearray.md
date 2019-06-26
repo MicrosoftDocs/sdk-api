@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceArray, GetResourceArray method [Direct3D 10], GetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, ID3D10EffectShaderResourceVariable interface [Direct3D 10],GetResourceArray method, ID3D10EffectShaderResourceVariable.GetResourceArray, ID3D10EffectShaderResourceVariable::GetResourceArray, be202163-a9e9-5354-d781-12b5b98cda4b, d3d10effect/ID3D10EffectShaderResourceVariable::GetResourceArray, direct3d10.id3d10effectshaderresourcevariable_getresourcearray
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectShaderResourceVariable.GetResourceArray"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectShaderResourceVariable.GetResourceArray"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

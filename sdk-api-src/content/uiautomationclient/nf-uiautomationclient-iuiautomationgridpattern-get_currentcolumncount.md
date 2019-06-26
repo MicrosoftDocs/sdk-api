@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentColumnCount property [Windows Accessibility], CurrentColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CurrentColumnCount property, IUIAutomationGridPattern.CurrentColumnCount, IUIAutomationGridPattern.get_CurrentColumnCount, IUIAutomationGridPattern::CurrentColumnCount, IUIAutomationGridPattern::get_CurrentColumnCount, get_CurrentColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiauto_IUIAutomationGridPattern_CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::CurrentColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentColumnCount, winauto.uiauto_IUIAutomationGridPattern_CurrentColumnCount
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationGridPattern.CurrentColumnCount"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationGridPattern.CurrentColumnCount"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

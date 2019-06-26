@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationFilter interface [RDP],Windows property, IRDPSRAPIApplicationFilter.Windows, IRDPSRAPIApplicationFilter.get_Windows, IRDPSRAPIApplicationFilter::Windows, IRDPSRAPIApplicationFilter::get_Windows, RDPSRAPIApplicationFilter object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplicationFilter interface, Windows property [RDP],RDPSRAPIApplicationFilter object, get_Windows, rdp.irdpsrapiapplicationfilter_windows, rdpencomapi/IRDPSRAPIApplicationFilter::Windows, rdpencomapi/IRDPSRAPIApplicationFilter::get_Windows
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIApplicationFilter.Windows"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIApplicationFilter.Windows"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

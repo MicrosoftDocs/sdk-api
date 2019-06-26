@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],Shape property, IStylesProvider.Shape, IStylesProvider.get_Shape, IStylesProvider::Shape, IStylesProvider::get_Shape, Shape property [Windows Accessibility], Shape property [Windows Accessibility],IStylesProvider interface, get_Shape, uiautomationcore/IStylesProvider::Shape, uiautomationcore/IStylesProvider::get_Shape, winauto.uiauto_istylesprovider_shape
 ms.topic: method
-f1_keywords: ["uiautomationcore/IStylesProvider.Shape"]
+f1_keywords: 
+ - "uiautomationcore/IStylesProvider.Shape"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

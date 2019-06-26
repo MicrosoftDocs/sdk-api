@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromI4, VarUI4FromI4 function [Automation], _oa96_VarUI4FromI4, automat.varui4fromi4, oleauto/VarUI4FromI4
 ms.topic: function
-f1_keywords: ["oleauto/VarUI4FromI4"]
+f1_keywords: 
+ - "oleauto/VarUI4FromI4"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

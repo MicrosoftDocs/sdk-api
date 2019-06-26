@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEPROVIDERENTRY, LINEPROVIDERENTRY, LINEPROVIDERENTRY structure [TAPI 2.2], LPLINEPROVIDERENTRY, LPLINEPROVIDERENTRY structure pointer [TAPI 2.2], _tapi2_lineproviderentry_str, tapi/LINEPROVIDERENTRY, tapi/LPLINEPROVIDERENTRY, tapi2.lineproviderentry_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEPROVIDERENTRY"]
+f1_keywords: 
+ - "tapi/LINEPROVIDERENTRY"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

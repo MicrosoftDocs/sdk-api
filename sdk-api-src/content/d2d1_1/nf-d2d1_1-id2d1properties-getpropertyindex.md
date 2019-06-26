@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyIndex, GetPropertyIndex method [Direct2D], GetPropertyIndex method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyIndex method, ID2D1Properties.GetPropertyIndex, ID2D1Properties::GetPropertyIndex, d2d1_1/ID2D1Properties::GetPropertyIndex, direct2d.id2d1properties_getpropertyindex
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Properties.GetPropertyIndex"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Properties.GetPropertyIndex"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

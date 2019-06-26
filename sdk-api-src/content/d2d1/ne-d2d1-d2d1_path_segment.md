@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_PATH_SEGMENT, D2D1_PATH_SEGMENT enumeration [Direct2D], D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, D2D1_PATH_SEGMENT_FORCE_UNSTROKED, D2D1_PATH_SEGMENT_NONE, d2d1/D2D1_PATH_SEGMENT, d2d1/D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, d2d1/D2D1_PATH_SEGMENT_FORCE_UNSTROKED, d2d1/D2D1_PATH_SEGMENT_NONE, direct2d.D2D1_PATH_SEGMENT
 ms.topic: enum
-f1_keywords: ["d2d1/D2D1_PATH_SEGMENT"]
+f1_keywords: 
+ - "d2d1/D2D1_PATH_SEGMENT"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

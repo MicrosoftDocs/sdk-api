@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefDlgProc, DefDlgProc function [Dialog Boxes], DefDlgProcW, _win32_DefDlgProc, _win32_defdlgproc_cpp, dlgbox.defdlgproc, winui._win32_defdlgproc, winuser/DefDlgProc, winuser/DefDlgProcW
 ms.topic: function
-f1_keywords: ["winuser/DefDlgProc"]
+f1_keywords: 
+ - "winuser/DefDlgProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

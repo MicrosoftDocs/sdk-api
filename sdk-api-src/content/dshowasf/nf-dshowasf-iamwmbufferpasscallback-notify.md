@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPassCallback interface [windows Media Format],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IAMWMBufferPassCallback interface, dshowasf/IAMWMBufferPassCallback::Notify, wmformat.iamwmbufferpasscallback_notify
 ms.topic: method
-f1_keywords: ["dshowasf/IAMWMBufferPassCallback.Notify"]
+f1_keywords: 
+ - "dshowasf/IAMWMBufferPassCallback.Notify"
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
 ms.topic: interface
-f1_keywords: ["vsprov/IVssProviderNotifications"]
+f1_keywords: 
+ - "vsprov/IVssProviderNotifications"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

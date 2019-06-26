@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleInterfaces.Count"]
+f1_keywords: 
+ - "azroles/IAzBizRuleInterfaces.Count"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

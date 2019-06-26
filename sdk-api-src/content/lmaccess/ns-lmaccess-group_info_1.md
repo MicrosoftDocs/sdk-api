@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPGROUP_INFO_1, *PGROUP_INFO_1, GROUP_INFO_1, GROUP_INFO_1 structure [Network Management], LPGROUP_INFO_1, LPGROUP_INFO_1 structure pointer [Network Management], PGROUP_INFO_1, PGROUP_INFO_1 structure pointer [Network Management], _win32_group_info_1_str, lmaccess/GROUP_INFO_1, lmaccess/LPGROUP_INFO_1, lmaccess/PGROUP_INFO_1, netmgmt.group_info_1_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/GROUP_INFO_1"]
+f1_keywords: 
+ - "lmaccess/GROUP_INFO_1"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

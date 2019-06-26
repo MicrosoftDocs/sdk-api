@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleAssignment.Scope"]
+f1_keywords: 
+ - "azroles/IAzRoleAssignment.Scope"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

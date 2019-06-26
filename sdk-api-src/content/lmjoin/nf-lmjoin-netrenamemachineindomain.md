@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
 ms.topic: function
-f1_keywords: ["lmjoin/NetRenameMachineInDomain"]
+f1_keywords: 
+ - "lmjoin/NetRenameMachineInDomain"
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 function, base.rtltimetosecondssince1970, winternl/RtlTimeToSecondsSince1970
 ms.topic: function
-f1_keywords: ["winternl/RtlTimeToSecondsSince1970"]
+f1_keywords: 
+ - "winternl/RtlTimeToSecondsSince1970"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

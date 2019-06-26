@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_NumRingsNoAnswer method, ITForwardInformation.get_NumRingsNoAnswer, ITForwardInformation::get_NumRingsNoAnswer, _tapi3_itforwardinformation_get_numringsnoanswer, get_NumRingsNoAnswer, get_NumRingsNoAnswer method [TAPI 2.2], get_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_numringsnoanswer, tapi3if/ITForwardInformation::get_NumRingsNoAnswer
 ms.topic: method
-f1_keywords: ["tapi3if/ITForwardInformation.get_NumRingsNoAnswer"]
+f1_keywords: 
+ - "tapi3if/ITForwardInformation.get_NumRingsNoAnswer"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

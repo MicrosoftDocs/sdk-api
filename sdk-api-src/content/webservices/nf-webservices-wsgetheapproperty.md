@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetHeapProperty"]
+f1_keywords: 
+ - "webservices/WsGetHeapProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState, get_userHomeMediaSharingState, get_userHomeMediaSharingState method [Windows Media Library Sharing Services], get_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND"
 ms.topic: struct
-f1_keywords: ["oaidl/SAFEARRAYBOUND"]
+f1_keywords: 
+ - "oaidl/SAFEARRAYBOUND"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

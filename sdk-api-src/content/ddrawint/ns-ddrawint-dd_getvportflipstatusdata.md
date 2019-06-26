@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA structure [Display Devices], ddrawint/DD_GETVPORTFLIPSTATUSDATA, ddstrcts_a1239418-1670-477d-b96e-d21dc2b9647b.xml, display.dd_getvportflipstatusdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_GETVPORTFLIPSTATUSDATA"]
+f1_keywords: 
+ - "ddrawint/DD_GETVPORTFLIPSTATUSDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoDecoder interface [Media Foundation],ReleaseBuffer method, IDirectXVideoDecoder.ReleaseBuffer, IDirectXVideoDecoder::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Media Foundation], ReleaseBuffer method [Media Foundation],IDirectXVideoDecoder interface, dxva2api/IDirectXVideoDecoder::ReleaseBuffer, e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90, mf.idirectxvideodecoder_releasebuffer
 ms.topic: method
-f1_keywords: ["dxva2api/IDirectXVideoDecoder.ReleaseBuffer"]
+f1_keywords: 
+ - "dxva2api/IDirectXVideoDecoder.ReleaseBuffer"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EGK_KEYBOARD, EGK_MOUSE, EGK_TOUCH, IApplicationDesignModeSettings interface [Windows Shell],TriggerEdgeGesture method, IApplicationDesignModeSettings.TriggerEdgeGesture, IApplicationDesignModeSettings::TriggerEdgeGesture, TriggerEdgeGesture, TriggerEdgeGesture method [Windows Shell], TriggerEdgeGesture method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_TriggerEdgeGesture, shobjidl_core/IApplicationDesignModeSettings::TriggerEdgeGesture
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings.TriggerEdgeGesture"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDesignModeSettings.TriggerEdgeGesture"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],RemoveMenus method, IOleInPlaceFrame.RemoveMenus, IOleInPlaceFrame::RemoveMenus, RemoveMenus, RemoveMenus method [COM], RemoveMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_removemenus, com.ioleinplaceframe_removemenus, oleidl/IOleInPlaceFrame::RemoveMenus
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceFrame.RemoveMenus"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceFrame.RemoveMenus"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
 ms.topic: function
-f1_keywords: ["ntmsapi/GetNtmsObjectInformation"]
+f1_keywords: 
+ - "ntmsapi/GetNtmsObjectInformation"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

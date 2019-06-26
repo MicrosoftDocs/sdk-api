@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopItemCount, GetDesktopItemCount method [Legacy Windows Environment Features], GetDesktopItemCount method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemCount method, IActiveDesktop.GetDesktopItemCount, IActiveDesktop::GetDesktopItemCount, _win32_IActiveDesktop_GetDesktopItemCount, lwef.iactivedesktop_getdesktopitemcount, shell.iactivedesktop_getdesktopitemcount, shlobj_core/IActiveDesktop::GetDesktopItemCount
 ms.topic: method
-f1_keywords: ["shlobj_core/IActiveDesktop.GetDesktopItemCount"]
+f1_keywords: 
+ - "shlobj_core/IActiveDesktop.GetDesktopItemCount"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

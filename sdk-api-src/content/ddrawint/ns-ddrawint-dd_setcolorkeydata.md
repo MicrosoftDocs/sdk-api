@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_SETCOLORKEYDATA"]
+f1_keywords: 
+ - "ddrawint/DD_SETCOLORKEYDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

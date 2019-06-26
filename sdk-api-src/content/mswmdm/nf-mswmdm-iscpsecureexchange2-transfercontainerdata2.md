@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange2 interface [windows Media Device Manager],TransferContainerData2 method, ISCPSecureExchange2.TransferContainerData2, ISCPSecureExchange2::TransferContainerData2, ISCPSecureExchange2TransferContainerData2, TransferContainerData2, TransferContainerData2 method [windows Media Device Manager], TransferContainerData2 method [windows Media Device Manager],ISCPSecureExchange2 interface, mswmdm/ISCPSecureExchange2::TransferContainerData2, wmdm.iscpsecureexchange2_transfercontainerdata2
 ms.topic: method
-f1_keywords: ["mswmdm/ISCPSecureExchange2.TransferContainerData2"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureExchange2.TransferContainerData2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

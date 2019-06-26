@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaProximityNodeEx, GetNumaProximityNodeEx function, base.getnumaproximitynodeex, systemtopologyapi/GetNumaProximityNodeEx
 ms.topic: function
-f1_keywords: ["systemtopologyapi/GetNumaProximityNodeEx"]
+f1_keywords: 
+ - "systemtopologyapi/GetNumaProximityNodeEx"
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

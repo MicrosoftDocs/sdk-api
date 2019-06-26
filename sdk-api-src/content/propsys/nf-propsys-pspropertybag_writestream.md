@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteStream, PSPropertyBag_WriteStream function [Windows Properties], properties.PSPropertyBag_WriteStream, propsys/PSPropertyBag_WriteStream, shell.PSPropertyBag_WriteStream, shell_PSPropertyBag_WriteStream
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_WriteStream"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_WriteStream"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

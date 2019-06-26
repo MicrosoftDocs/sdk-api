@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellCountCache, GetCellCountCache method [Windows Controls], GetCellCountCache method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCountCache method, ITextRow.GetCellCountCache, ITextRow::GetCellCountCache, controls.itextrow_getcellcountcache, tom/ITextRow::GetCellCountCache
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellCountCache"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellCountCache"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

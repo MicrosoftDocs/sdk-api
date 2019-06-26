@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO, CERT_AUTHORITY_KEY_ID2_INFO structure [Security], PCERT_AUTHORITY_KEY_ID2_INFO, PCERT_AUTHORITY_KEY_ID2_INFO structure pointer [Security], _crypto2_cert_authority_key_id2_info, security.cert_authority_key_id2_info, wincrypt/CERT_AUTHORITY_KEY_ID2_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID2_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_AUTHORITY_KEY_ID2_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_AUTHORITY_KEY_ID2_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

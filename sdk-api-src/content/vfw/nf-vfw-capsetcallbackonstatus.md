@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capSetCallbackOnStatus, capSetCallbackOnStatus, capSetCallbackOnStatus macro [Windows Multimedia], multimedia.capsetcallbackonstatus, vfw/capSetCallbackOnStatus"
 ms.topic: macro
-f1_keywords: ["vfw/capSetCallbackOnStatus"]
+f1_keywords: 
+ - "vfw/capSetCallbackOnStatus"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

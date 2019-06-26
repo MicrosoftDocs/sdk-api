@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetData method, IWiaDataTransfer.idtGetData, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData, idtGetData method [WIA], idtGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaDataTransfer.idtGetData"]
+f1_keywords: 
+ - "wia_xp/IWiaDataTransfer.idtGetData"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop method, ISpatialAudioObjectRenderStreamBase.Stop, ISpatialAudioObjectRenderStreamBase::Stop, Stop, Stop method [Core Audio], Stop method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_stop, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Stop"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Stop"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

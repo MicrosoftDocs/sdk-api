@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageCount, GetImageCount method [windows Media Format], GetImageCount method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImageCount method, IWMImageInfo.GetImageCount, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMImageInfo.GetImageCount"]
+f1_keywords: 
+ - "wmsdkidl/IWMImageInfo.GetImageCount"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

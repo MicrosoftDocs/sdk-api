@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastWriteTime, GetLastWriteTime method [Direct Write], GetLastWriteTime method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetLastWriteTime method, IDWriteFontFileStream.GetLastWriteTime, IDWriteFontFileStream::GetLastWriteTime, directwrite.IDWriteFontFileStream_GetLastWriteTime, dwrite/IDWriteFontFileStream::GetLastWriteTime
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFileStream.GetLastWriteTime"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFileStream.GetLastWriteTime"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

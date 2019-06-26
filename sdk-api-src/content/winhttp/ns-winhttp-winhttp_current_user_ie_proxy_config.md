@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG, WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure [HTTP], http.winhttp_current_user_ie_proxy_config, winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 ms.topic: struct
-f1_keywords: ["winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"]
+f1_keywords: 
+ - "winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

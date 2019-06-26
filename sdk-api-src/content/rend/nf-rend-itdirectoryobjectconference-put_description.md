@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Description method, ITDirectoryObjectConference.put_Description, ITDirectoryObjectConference::put_Description, _tapi3_itdirectoryobjectconference_put_description, put_Description, put_Description method [TAPI 2.2], put_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Description, tapi3.itdirectoryobjectconference_put_description
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.put_Description"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.put_Description"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

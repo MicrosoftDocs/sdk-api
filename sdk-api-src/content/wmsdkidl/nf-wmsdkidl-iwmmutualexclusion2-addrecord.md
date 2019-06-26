@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRecord, AddRecord method [windows Media Format], AddRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddRecord method, IWMMutualExclusion2.AddRecord, IWMMutualExclusion2::AddRecord, IWMMutualExclusion2AddRecord, wmformat.iwmmutualexclusion2_addrecord, wmsdkidl/IWMMutualExclusion2::AddRecord
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion2.AddRecord"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion2.AddRecord"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDialogData, GetDialogData method [Microsoft TV Technologies], GetDialogData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogData method, IESOpenMmiEvent.GetDialogData, IESOpenMmiEvent::GetDialogData, mstv.iesopenmmievent_getdialogdata, tuner/IESOpenMmiEvent::GetDialogData
 ms.topic: method
-f1_keywords: ["tuner/IESOpenMmiEvent.GetDialogData"]
+f1_keywords: 
+ - "tuner/IESOpenMmiEvent.GetDialogData"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IDMLDeviceChild interface, IDMLDeviceChild interface,GetDevice method, IDMLDeviceChild.GetDevice, IDMLDeviceChild::GetDevice, direct3d12.idmldevicechild_getdevice, directml/IDMLDeviceChild::GetDevice
 ms.topic: method
-f1_keywords: ["directml/IDMLDeviceChild.GetDevice"]
+f1_keywords: 
+ - "directml/IDMLDeviceChild.GetDevice"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

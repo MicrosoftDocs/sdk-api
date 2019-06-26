@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_RUN, DWRITE_GLYPH_RUN structure [Direct Write], directwrite.dwrite_glyph_run, dwrite/DWRITE_GLYPH_RUN
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_GLYPH_RUN"]
+f1_keywords: 
+ - "dwrite/DWRITE_GLYPH_RUN"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

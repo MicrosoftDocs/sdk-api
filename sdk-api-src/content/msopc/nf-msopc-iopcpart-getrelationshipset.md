@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
 ms.topic: method
-f1_keywords: ["msopc/IOpcPart.GetRelationshipSet"]
+f1_keywords: 
+ - "msopc/IOpcPart.GetRelationshipSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

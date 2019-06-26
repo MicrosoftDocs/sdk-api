@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],SupportUrl property, IUpdateHistoryEntry.SupportUrl, IUpdateHistoryEntry.get_SupportUrl, IUpdateHistoryEntry::SupportUrl, IUpdateHistoryEntry::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent],IUpdateHistoryEntry interface, get_SupportUrl, wua.iupdatehistoryentry_supporturl, wuapi/IUpdateHistoryEntry::SupportUrl, wuapi/IUpdateHistoryEntry::get_SupportUrl
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateHistoryEntry.SupportUrl"]
+f1_keywords: 
+ - "wuapi/IUpdateHistoryEntry.SupportUrl"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

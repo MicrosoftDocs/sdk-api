@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3c2c6548-026c-d082-91b7-abb986ff3a00, IDXGISurface1, IDXGISurface1 interface [DXGI], IDXGISurface1 interface [DXGI],described, direct3ddxgi.idxgisurface1, dxgi/IDXGISurface1
 ms.topic: interface
-f1_keywords: ["dxgi/IDXGISurface1"]
+f1_keywords: 
+ - "dxgi/IDXGISurface1"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA structure [Security], PCRL_FIND_ISSUED_FOR_PARA, PCRL_FIND_ISSUED_FOR_PARA structure pointer [Security], _crypto2_crl_find_issued_for_para, security.crl_find_issued_for_para, wincrypt/CRL_FIND_ISSUED_FOR_PARA, wincrypt/PCRL_FIND_ISSUED_FOR_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRL_FIND_ISSUED_FOR_PARA"]
+f1_keywords: 
+ - "wincrypt/CRL_FIND_ISSUED_FOR_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

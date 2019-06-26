@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetRectRgn, SetRectRgn function [Windows GDI], _win32_SetRectRgn, gdi.setrectrgn, wingdi/SetRectRgn
 ms.topic: function
-f1_keywords: ["wingdi/SetRectRgn"]
+f1_keywords: 
+ - "wingdi/SetRectRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

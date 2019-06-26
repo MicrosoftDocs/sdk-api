@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineinitialize, lineInitialize, lineInitialize function [TAPI 2.2], tapi/lineInitialize, tapi2.lineinitialize"
 ms.topic: function
-f1_keywords: ["tapi/lineInitialize"]
+f1_keywords: 
+ - "tapi/lineInitialize"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

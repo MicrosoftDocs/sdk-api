@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEnumerator.AtEndOfStream"]
+f1_keywords: 
+ - "wsmandisp/IWSManEnumerator.AtEndOfStream"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

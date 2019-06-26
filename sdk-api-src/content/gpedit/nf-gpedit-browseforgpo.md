@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browseforgpo, gpedit/BrowseForGPO, policy.browseforgpo
 ms.topic: function
-f1_keywords: ["gpedit/BrowseForGPO"]
+f1_keywords: 
+ - "gpedit/BrowseForGPO"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], vdssys/MODIFY_VHDSET_FLAG, vdssys/MODIFY_VHDSET_FLAG_NONE, vdssys/PMODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
 ms.topic: enum
-f1_keywords: ["virtdisk/MODIFY_VHDSET_FLAG"]
+f1_keywords: 
+ - "virtdisk/MODIFY_VHDSET_FLAG"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

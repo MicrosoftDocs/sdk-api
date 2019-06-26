@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableDebugLayer, EnableDebugLayer method, EnableDebugLayer method,ID3D12Debug interface, ID3D12Debug interface,EnableDebugLayer method, ID3D12Debug.EnableDebugLayer, ID3D12Debug::EnableDebugLayer, d3d12sdklayers/ID3D12Debug::EnableDebugLayer, direct3d12.id3d12debug_enabledebuglayer
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12Debug.EnableDebugLayer"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12Debug.EnableDebugLayer"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IViewStateIdentityItem, IViewStateIdentityItem interface [Windows Shell], IViewStateIdentityItem interface [Windows Shell],described, _shell_IViewStateIdentityItem, shell.IViewStateIdentityItem, shobjidl_core/IViewStateIdentityItem
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IViewStateIdentityItem"]
+f1_keywords: 
+ - "shobjidl_core/IViewStateIdentityItem"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

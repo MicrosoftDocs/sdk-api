@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: ["control/IMediaPosition.get_Rate"]
+f1_keywords: 
+ - "control/IMediaPosition.get_Rate"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

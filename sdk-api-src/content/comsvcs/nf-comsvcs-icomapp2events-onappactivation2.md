@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppActivation2 method, IComApp2Events.OnAppActivation2, IComApp2Events::OnAppActivation2, OnAppActivation2, OnAppActivation2 method [COM+], OnAppActivation2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppActivation2, comsvcs/IComApp2Events::OnAppActivation2, cos.icomapp2events_onappactivation2
 ms.topic: method
-f1_keywords: ["comsvcs/IComApp2Events.OnAppActivation2"]
+f1_keywords: 
+ - "comsvcs/IComApp2Events.OnAppActivation2"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

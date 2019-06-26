@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAcquireContext2, CryptCATAdminAcquireContext2 function [Security], mscat/CryptCATAdminAcquireContext2, security.cryptcatadminacquirecontext2
 ms.topic: function
-f1_keywords: ["mscat/CryptCATAdminAcquireContext2"]
+f1_keywords: 
+ - "mscat/CryptCATAdminAcquireContext2"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

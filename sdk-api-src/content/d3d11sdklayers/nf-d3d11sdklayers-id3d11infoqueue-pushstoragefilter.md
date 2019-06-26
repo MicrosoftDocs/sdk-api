@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8aa4344e-4688-6e7c-8033-8b589f37ce3d, ID3D11InfoQueue interface [Direct3D 11],PushStorageFilter method, ID3D11InfoQueue.PushStorageFilter, ID3D11InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [Direct3D 11], PushStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushStorageFilter, direct3d11.id3d11infoqueue_pushstoragefilter
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.PushStorageFilter"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.PushStorageFilter"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

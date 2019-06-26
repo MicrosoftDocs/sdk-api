@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agent],Invoke method, IInstallationProgressChangedCallback.Invoke, IInstallationProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationProgressChangedCallback interface, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationProgressChangedCallback.Invoke"]
+f1_keywords: 
+ - "wuapi/IInstallationProgressChangedCallback.Invoke"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB, IShellFolderViewCB interface [Windows Shell], IShellFolderViewCB interface [Windows Shell],described, _win32_IShellFolderViewCB, shell.IShellFolderViewCB, shlobj_core/IShellFolderViewCB
 ms.topic: interface
-f1_keywords: ["shlobj_core/IShellFolderViewCB"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderViewCB"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

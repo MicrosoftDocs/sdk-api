@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_CONTEXT_THUNKS, PSECPKG_CONTEXT_THUNKS, PSECPKG_CONTEXT_THUNKS structure pointer [Security], SECPKG_CONTEXT_THUNKS, SECPKG_CONTEXT_THUNKS structure [Security], _ssp_secpkg_context_thunks, ntsecpkg/PSECPKG_CONTEXT_THUNKS, ntsecpkg/SECPKG_CONTEXT_THUNKS, security.secpkg_context_thunks"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_CONTEXT_THUNKS"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_CONTEXT_THUNKS"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

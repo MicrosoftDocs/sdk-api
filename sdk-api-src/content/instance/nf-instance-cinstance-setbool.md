@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool"
 ms.topic: method
-f1_keywords: ["instance/CInstance.Setbool"]
+f1_keywords: 
+ - "instance/CInstance.Setbool"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

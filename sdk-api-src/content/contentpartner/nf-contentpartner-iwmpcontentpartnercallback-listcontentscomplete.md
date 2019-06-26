@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ListContentsComplete method, IWMPContentPartnerCallback.ListContentsComplete, IWMPContentPartnerCallback::ListContentsComplete, IWMPContentPartnerCallbackListContentsComplete, ListContentsComplete, ListContentsComplete method [Windows Media Player], ListContentsComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ListContentsComplete, wmp.iwmpcontentpartnercallback_listcontentscomplete
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartnerCallback.ListContentsComplete"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartnerCallback.ListContentsComplete"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

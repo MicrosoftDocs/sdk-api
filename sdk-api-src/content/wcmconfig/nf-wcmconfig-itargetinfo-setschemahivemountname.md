@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetInfo.SetSchemaHiveMountName, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetSchemaHiveMountName"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetSchemaHiveMountName"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

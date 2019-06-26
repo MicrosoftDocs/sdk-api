@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Next method, IEnumResources.Next, IEnumResources::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Next, shell.IEnumResources_Next, shobjidl_core/IEnumResources::Next
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumResources.Next"]
+f1_keywords: 
+ - "shobjidl_core/IEnumResources.Next"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

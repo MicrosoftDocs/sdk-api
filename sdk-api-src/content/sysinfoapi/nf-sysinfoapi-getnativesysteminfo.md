@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeSystemInfo, GetNativeSystemInfo function, _win32_getnativesysteminfo, base.getnativesysteminfo, sysinfoapi/GetNativeSystemInfo
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetNativeSystemInfo"]
+f1_keywords: 
+ - "sysinfoapi/GetNativeSystemInfo"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

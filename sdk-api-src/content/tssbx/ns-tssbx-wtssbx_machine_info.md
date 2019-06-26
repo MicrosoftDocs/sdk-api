@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_MACHINE_INFO, WTSSBX_MACHINE_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0007, termserv.wtssbx_machine_info, tssbx/WTSSBX_MACHINE_INFO
 ms.topic: struct
-f1_keywords: ["tssbx/WTSSBX_MACHINE_INFO"]
+f1_keywords: 
+ - "tssbx/WTSSBX_MACHINE_INFO"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAtGrow method, CHStringArray.SetAtGrow, CHStringArray::SetAtGrow, SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
 ms.topic: method
-f1_keywords: ["chstrarr/CHStringArray.SetAtGrow"]
+f1_keywords: 
+ - "chstrarr/CHStringArray.SetAtGrow"
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
 ms.topic: function
-f1_keywords: ["winsock2/WSAInstallServiceClass"]
+f1_keywords: 
+ - "winsock2/WSAInstallServiceClass"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

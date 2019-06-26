@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSource, GetCurrentSource method [Media Foundation], GetCurrentSource method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentSource method, IMFMediaEngine.GetCurrentSource, IMFMediaEngine::GetCurrentSource, mf.imfmediaengine_getcurrentsource, mfmediaengine/IMFMediaEngine::GetCurrentSource
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetCurrentSource"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetCurrentSource"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

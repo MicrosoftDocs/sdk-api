@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_SetCurrentView"]
+f1_keywords: 
+ - "commctrl/MonthCal_SetCurrentView"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

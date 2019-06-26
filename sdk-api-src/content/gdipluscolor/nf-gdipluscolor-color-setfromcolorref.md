@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],SetFromCOLORREF method, Color.SetFromCOLORREF, Color::SetFromCOLORREF, SetFromCOLORREF, SetFromCOLORREF method [GDI+], SetFromCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_SetFromCOLORREF_rgb_, gdiplus._gdiplus_CLASS_Color_SetFromCOLORREF_rgb_
 ms.topic: method
-f1_keywords: ["gdipluscolor/Color.SetFromCOLORREF"]
+f1_keywords: 
+ - "gdipluscolor/Color.SetFromCOLORREF"
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

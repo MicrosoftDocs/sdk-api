@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Close method, IFEDictionary.Close, IFEDictionary::Close, intl.ifedictionary_close, msime/IFEDictionary::Close
 ms.topic: method
-f1_keywords: ["msime/IFEDictionary.Close"]
+f1_keywords: 
+ - "msime/IFEDictionary.Close"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

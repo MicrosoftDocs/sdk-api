@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptApplyDigitSubstitution, ScriptApplyDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptApplyDigitSubstitution, intl.scriptapplydigitsubstitution, usp10/ScriptApplyDigitSubstitution
 ms.topic: function
-f1_keywords: ["usp10/ScriptApplyDigitSubstitution"]
+f1_keywords: 
+ - "usp10/ScriptApplyDigitSubstitution"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
 ms.topic: method
-f1_keywords: ["oleidl/IOleCache.Uncache"]
+f1_keywords: 
+ - "oleidl/IOleCache.Uncache"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

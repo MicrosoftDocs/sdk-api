@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocument, FaxSendDocument function [Fax Service], FaxSendDocumentA, FaxSendDocumentW, _mfax_faxsenddocument, fax._mfax_faxsenddocument, winfax/FaxSendDocument, winfax/FaxSendDocumentA, winfax/FaxSendDocumentW
 ms.topic: function
-f1_keywords: ["winfax/FaxSendDocument"]
+f1_keywords: 
+ - "winfax/FaxSendDocument"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

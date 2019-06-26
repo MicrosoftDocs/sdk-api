@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
 ms.topic: method
-f1_keywords: ["refptrco/TRefPointerCollection.Add"]
+f1_keywords: 
+ - "refptrco/TRefPointerCollection.Add"
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

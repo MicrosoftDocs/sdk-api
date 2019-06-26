@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionControl.RegisterAudioSessionNotification"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionControl.RegisterAudioSessionNotification"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

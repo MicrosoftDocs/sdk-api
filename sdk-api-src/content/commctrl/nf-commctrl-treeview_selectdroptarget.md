@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SelectDropTarget, TreeView_SelectDropTarget macro [Windows Controls], _win32_TreeView_SelectDropTarget, _win32_TreeView_SelectDropTarget_cpp, commctrl/TreeView_SelectDropTarget, controls.TreeView_SelectDropTarget, controls._win32_TreeView_SelectDropTarget
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SelectDropTarget"]
+f1_keywords: 
+ - "commctrl/TreeView_SelectDropTarget"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Next method, IEnumIDList.Next, IEnumIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Next, shell.IEnumIDList_Next, shobjidl_core/IEnumIDList::Next
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumIDList.Next"]
+f1_keywords: 
+ - "shobjidl_core/IEnumIDList.Next"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

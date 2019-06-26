@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: operator+=
 ms.topic: language-reference
-f1_keywords: ["directxmath/operator+="]
+f1_keywords: 
+ - "directxmath/operator+="
 targetos: Windows
 product: Windows
 req.assembly: 

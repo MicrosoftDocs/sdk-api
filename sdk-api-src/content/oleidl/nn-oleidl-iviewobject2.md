@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface [COM],described, _ole_iviewobject2, com.iviewobject2, oleidl/IViewObject2
 ms.topic: interface
-f1_keywords: ["oleidl/IViewObject2"]
+f1_keywords: 
+ - "oleidl/IViewObject2"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

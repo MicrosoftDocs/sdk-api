@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptEncrypt"]
+f1_keywords: 
+ - "bcrypt/BCryptEncrypt"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

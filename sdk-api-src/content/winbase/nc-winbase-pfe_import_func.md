@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImportCallback, ImportCallback callback, ImportCallback callback function [Files], PFE_IMPORT_FUNC, PFE_IMPORT_FUNC callback function [Files], base.importcallback, fs.importcallback, winbase/ImportCallback, winbase/PFE_IMPORT_FUNC
 ms.topic: callback
-f1_keywords: ["winbase/ImportCallback"]
+f1_keywords: 
+ - "winbase/ImportCallback"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

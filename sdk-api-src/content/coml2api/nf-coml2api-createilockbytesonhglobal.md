@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
 ms.topic: function
-f1_keywords: ["coml2api/CreateILockBytesOnHGlobal"]
+f1_keywords: 
+ - "coml2api/CreateILockBytesOnHGlobal"
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

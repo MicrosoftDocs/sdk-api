@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetMops method, ITypeInfo.GetMops, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetMops"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetMops"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

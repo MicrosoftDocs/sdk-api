@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],Close method, IWMRegisteredDevice.Close, IWMRegisteredDevice::Close, IWMRegisteredDeviceClose, wmformat.iwmregistereddevice_close, wmsdkidl/IWMRegisteredDevice::Close
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisteredDevice.Close"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisteredDevice.Close"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdmaPdu method, IMbnSms.SmsSendCdmaPdu, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSms.SmsSendCdmaPdu"]
+f1_keywords: 
+ - "mbnapi/IMbnSms.SmsSendCdmaPdu"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

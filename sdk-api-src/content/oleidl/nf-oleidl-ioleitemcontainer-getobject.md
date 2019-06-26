@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObject method, IOleItemContainer.GetObject, IOleItemContainer::GetObject, _com_ioleitemcontainer_getobject, com.ioleitemcontainer_getobject, oleidl/IOleItemContainer::GetObject
 ms.topic: method
-f1_keywords: ["oleidl/IOleItemContainer.GetObject"]
+f1_keywords: 
+ - "oleidl/IOleItemContainer.GetObject"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,GetCount method, IProviderQueryConstraintCollection.GetCount, IProviderQueryConstraintCollection::GetCount, functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount, ncd.iproviderqueryconstraintcollection_getcount
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderQueryConstraintCollection.GetCount"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderQueryConstraintCollection.GetCount"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

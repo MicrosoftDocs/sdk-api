@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyDown method, ITfKeyEventSink.OnKeyDown, ITfKeyEventSink::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onkeydown_ref, msctf/ITfKeyEventSink::OnKeyDown, tsf.itfkeyeventsink_onkeydown
 ms.topic: method
-f1_keywords: ["msctf/ITfKeyEventSink.OnKeyDown"]
+f1_keywords: 
+ - "msctf/ITfKeyEventSink.OnKeyDown"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

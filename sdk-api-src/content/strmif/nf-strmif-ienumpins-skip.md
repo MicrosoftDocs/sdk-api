@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Skip method, IEnumPins.Skip, IEnumPins::Skip, IEnumPinsSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPins interface, dshow.ienumpins_skip, strmif/IEnumPins::Skip
 ms.topic: method
-f1_keywords: ["strmif/IEnumPins.Skip"]
+f1_keywords: 
+ - "strmif/IEnumPins.Skip"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

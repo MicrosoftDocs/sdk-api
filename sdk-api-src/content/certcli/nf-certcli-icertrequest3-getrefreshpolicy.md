@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshPolicy, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security],CCertRequest object, GetRefreshPolicy method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRefreshPolicy method, ICertRequest3.GetRefreshPolicy, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
 ms.topic: method
-f1_keywords: ["certcli/ICertRequest3.GetRefreshPolicy"]
+f1_keywords: 
+ - "certcli/ICertRequest3.GetRefreshPolicy"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReplicaKeyMap, GetReplicaKeyMap method [Windows Sync], GetReplicaKeyMap method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetReplicaKeyMap method, ISyncKnowledge.GetReplicaKeyMap, ISyncKnowledge::GetReplicaKeyMap, winsync.isyncknowledge_getreplicakeymap, winsync/ISyncKnowledge::GetReplicaKeyMap
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.GetReplicaKeyMap"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.GetReplicaKeyMap"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], IInitiateWinSATAssessment interface [WinSAT],described, winsat.iinitiatewinsatassessment, winsatcominterfacei/IInitiateWinSATAssessment
 ms.topic: interface
-f1_keywords: ["winsatcominterfacei/IInitiateWinSATAssessment"]
+f1_keywords: 
+ - "winsatcominterfacei/IInitiateWinSATAssessment"
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

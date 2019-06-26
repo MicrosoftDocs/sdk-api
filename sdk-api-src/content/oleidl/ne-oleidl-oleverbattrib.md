@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVERDIRTIES, OLEVERBATTRIB_ONCONTAINERMENU, _ole_OLEVERBATTRIB, com.oleverbattrib, oleidl/OLEVERBATTRIB, oleidl/OLEVERBATTRIB_NEVERDIRTIES, oleidl/OLEVERBATTRIB_ONCONTAINERMENU
 ms.topic: enum
-f1_keywords: ["oleidl/OLEVERBATTRIB"]
+f1_keywords: 
+ - "oleidl/OLEVERBATTRIB"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

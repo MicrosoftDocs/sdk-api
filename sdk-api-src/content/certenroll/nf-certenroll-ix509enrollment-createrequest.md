@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [Security], CreateRequest method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreateRequest method, IX509Enrollment.CreateRequest, IX509Enrollment::CreateRequest, certenroll/IX509Enrollment::CreateRequest, security.ix509enrollment_createrequest_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509Enrollment.CreateRequest"]
+f1_keywords: 
+ - "certenroll/IX509Enrollment.CreateRequest"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

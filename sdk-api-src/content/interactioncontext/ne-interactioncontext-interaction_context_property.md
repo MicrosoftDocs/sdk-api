@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_PROPERTY, INTERACTION_CONTEXT_PROPERTY enumeration, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS, INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK, INTERACTION_CONTEXT_PROPERTY_MAX, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS, input_intcontext.interaction_context_property, interactioncontext.interaction_context_property, interactioncontext/INTERACTION_CONTEXT_PROPERTY, interactioncontext/INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS, interactioncontext/INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK, interactioncontext/INTERACTION_CONTEXT_PROPERTY_MAX, interactioncontext/INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS
 ms.topic: enum
-f1_keywords: ["interactioncontext/INTERACTION_CONTEXT_PROPERTY"]
+f1_keywords: 
+ - "interactioncontext/INTERACTION_CONTEXT_PROPERTY"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

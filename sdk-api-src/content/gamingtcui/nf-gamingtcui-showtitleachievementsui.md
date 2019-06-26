@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowTitleAchievementsUI, ShowTitleAchievementsUI function, gamingtcui/ShowTitleAchievementsUI, tcui.showtitleachievementsui
 ms.topic: function
-f1_keywords: ["gamingtcui/ShowTitleAchievementsUI"]
+f1_keywords: 
+ - "gamingtcui/ShowTitleAchievementsUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWorkItems interface [Task Scheduler],described, _msb_ienumworkitems, mstask/IEnumWorkItems, taskschd.ienumworkitems
 ms.topic: interface
-f1_keywords: ["mstask/IEnumWorkItems"]
+f1_keywords: 
+ - "mstask/IEnumWorkItems"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

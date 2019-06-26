@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRectangle, AddRectangle method [GDI+], AddRectangle method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangle method, GraphicsPath.AddRectangle, GraphicsPath.AddRectangle(IN const Rect &), GraphicsPath.AddRectangle(const Rect&), GraphicsPath::AddRectangle, GraphicsPath::AddRectangle(IN const Rect &), _gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.AddRectangle"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.AddRectangle"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

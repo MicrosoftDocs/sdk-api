@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWRdsProtocolConnectionCallback.StopScreenUpdates, IWRdsProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWRdsProtocolConnectionCallback::StopScreenUpdates
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnectionCallback.StopScreenUpdates"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnectionCallback.StopScreenUpdates"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

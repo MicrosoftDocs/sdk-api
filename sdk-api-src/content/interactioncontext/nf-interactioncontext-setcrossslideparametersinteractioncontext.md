@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/SetCrossSlideParametersInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/SetCrossSlideParametersInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

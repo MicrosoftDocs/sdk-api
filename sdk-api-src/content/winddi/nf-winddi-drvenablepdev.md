@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnablePDEV, DrvEnablePDEV function [Display Devices], ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml, display.drvenablepdev, winddi/DrvEnablePDEV
 ms.topic: function
-f1_keywords: ["winddi/DrvEnablePDEV"]
+f1_keywords: 
+ - "winddi/DrvEnablePDEV"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

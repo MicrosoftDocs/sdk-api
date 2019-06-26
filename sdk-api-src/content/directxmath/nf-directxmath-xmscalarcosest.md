@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarCosEst, XMScalarCosEst, XMScalarCosEst method [DirectX Math Support APIs], dxmath.xmscalarcosest
 ms.topic: function
-f1_keywords: ["directxmath/XMScalarCosEst"]
+f1_keywords: 
+ - "directxmath/XMScalarCosEst"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

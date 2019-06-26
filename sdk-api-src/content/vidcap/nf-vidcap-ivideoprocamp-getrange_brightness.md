@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Brightness method, IVideoProcAmp.getRange_Brightness, IVideoProcAmp::getRange_Brightness, IVideoProcAmpgetRange_Brightness, dshow.ivideoprocamp_getrange_brightness, getRange_Brightness, getRange_Brightness method [DirectShow], getRange_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Brightness
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.getRange_Brightness"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.getRange_Brightness"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
 ms.topic: method
-f1_keywords: ["shidfact/CItemIDFactory.SetItemAlloc"]
+f1_keywords: 
+ - "shidfact/CItemIDFactory.SetItemAlloc"
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

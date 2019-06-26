@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetText method, ITextStoreAnchor.SetText, ITextStoreAnchor::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetText, tsf.itextstoreanchor_settext
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.SetText"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.SetText"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

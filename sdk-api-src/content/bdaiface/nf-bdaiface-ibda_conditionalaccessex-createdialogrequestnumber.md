@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDialogRequestNumber, CreateDialogRequestNumber method [Microsoft TV Technologies], CreateDialogRequestNumber method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CreateDialogRequestNumber method, IBDA_ConditionalAccessEx.CreateDialogRequestNumber, IBDA_ConditionalAccessEx::CreateDialogRequestNumber, bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber, mstv.ibda_conditionalaccessex_createdialogrequestnumber
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccessEx.CreateDialogRequestNumber"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccessEx.CreateDialogRequestNumber"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

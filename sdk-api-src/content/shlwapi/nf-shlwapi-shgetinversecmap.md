@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell_SHGetInverseCMAP, shell.SHGetInverseCMAP, shlwapi/SHGetInverseCMAP
 ms.topic: function
-f1_keywords: ["shlwapi/SHGetInverseCMAP"]
+f1_keywords: 
+ - "shlwapi/SHGetInverseCMAP"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

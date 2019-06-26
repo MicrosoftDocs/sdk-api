@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO"
 ms.topic: struct
-f1_keywords: ["wia_xp/WIA_FORMAT_INFO"]
+f1_keywords: 
+ - "wia_xp/WIA_FORMAT_INFO"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

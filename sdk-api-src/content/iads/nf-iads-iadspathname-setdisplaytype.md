@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
 ms.topic: method
-f1_keywords: ["iads/IADsPathname.SetDisplayType"]
+f1_keywords: 
+ - "iads/IADsPathname.SetDisplayType"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

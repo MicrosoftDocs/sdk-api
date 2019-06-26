@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, windns/DnsCancelQuery
 ms.topic: function
-f1_keywords: ["windns/DnsCancelQuery"]
+f1_keywords: 
+ - "windns/DnsCancelQuery"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

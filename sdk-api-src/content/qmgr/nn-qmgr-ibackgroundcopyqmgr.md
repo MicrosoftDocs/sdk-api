@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgroundCopyQMgr interface [BITS],described, bits.ibackgroundcopyqmgr, qmgr/IBackgroundCopyQMgr
 ms.topic: interface
-f1_keywords: ["qmgr/IBackgroundCopyQMgr"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyQMgr"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

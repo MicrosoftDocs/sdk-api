@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsStoragePool interface, IVdsStoragePool interface,GetProperties method, IVdsStoragePool.GetProperties, IVdsStoragePool::GetProperties, base.ivdsstoragepool_getproperties, vds/IVdsStoragePool::GetProperties, vdshwprv/IVdsStoragePool::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsStoragePool.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsStoragePool.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

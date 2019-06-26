@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
 ms.topic: function
-f1_keywords: ["lmshare/NetShareDel"]
+f1_keywords: 
+ - "lmshare/NetShareDel"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

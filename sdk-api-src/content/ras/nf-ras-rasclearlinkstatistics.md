@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
 ms.topic: function
-f1_keywords: ["ras/RasClearLinkStatistics"]
+f1_keywords: 
+ - "ras/RasClearLinkStatistics"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], IAzPrincipalLocator interface [Security],described, azroles/ IAzPrincipalLocator, security.iazprincipallocator
 ms.topic: interface
-f1_keywords: ["azroles/IAzPrincipalLocator"]
+f1_keywords: 
+ - "azroles/IAzPrincipalLocator"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

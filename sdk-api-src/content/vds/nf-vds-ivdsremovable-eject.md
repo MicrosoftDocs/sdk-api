@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interface, IVdsRemovable interface [VDS],Eject method, IVdsRemovable.Eject, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
 ms.topic: method
-f1_keywords: ["vds/IVdsRemovable.Eject"]
+f1_keywords: 
+ - "vds/IVdsRemovable.Eject"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

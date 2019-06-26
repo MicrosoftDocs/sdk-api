@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPins interface, IEnumPins interface [DirectShow],Clone method, IEnumPins.Clone, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
 ms.topic: method
-f1_keywords: ["strmif/IEnumPins.Clone"]
+f1_keywords: 
+ - "strmif/IEnumPins.Clone"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

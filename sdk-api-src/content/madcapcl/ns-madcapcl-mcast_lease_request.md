@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST structure [MADCAP], PMCAST_LEASE_REQUEST, PMCAST_LEASE_REQUEST structure pointer [MADCAP], _mdhcp_mcast_lease_request, madcap.mcast_lease_request, madcapcl/MCAST_LEASE_REQUEST, madcapcl/PMCAST_LEASE_REQUEST"
 ms.topic: struct
-f1_keywords: ["madcapcl/MCAST_LEASE_REQUEST"]
+f1_keywords: 
+ - "madcapcl/MCAST_LEASE_REQUEST"
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

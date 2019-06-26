@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChildrenAsNativeArray, GetChildrenAsNativeArray method [Windows Accessibility], GetChildrenAsNativeArray method [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],GetChildrenAsNativeArray method, IUIAutomationOrCondition.GetChildrenAsNativeArray, IUIAutomationOrCondition::GetChildrenAsNativeArray, uiauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray, uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray, uiautomationclient/IUIAutomationOrCondition::GetChildrenAsNativeArray, winauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationOrCondition.GetChildrenAsNativeArray"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationOrCondition.GetChildrenAsNativeArray"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

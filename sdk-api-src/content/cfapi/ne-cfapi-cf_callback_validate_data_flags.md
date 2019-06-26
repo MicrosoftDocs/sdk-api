@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_VALIDATE_DATA_FLAGS, CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration, CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cloudApi.cf_callback_validate_data_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

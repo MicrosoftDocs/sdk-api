@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserUnmarshal, VARIANT_UserUnmarshal function [Automation], _oa96_VARIANT_UserUnmarshal, automat.variant_userunmarshal, oaidl/VARIANT_UserUnmarshal
 ms.topic: function
-f1_keywords: ["oaidl/VARIANT_UserUnmarshal"]
+f1_keywords: 
+ - "oaidl/VARIANT_UserUnmarshal"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStream.Stop, IRDPSRAPIAudioStream::Stop, Stop, Stop method [RDP], Stop method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_stop, rdpencomapi/IRDPSRAPIAudioStream::Stop
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAudioStream.Stop"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAudioStream.Stop"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

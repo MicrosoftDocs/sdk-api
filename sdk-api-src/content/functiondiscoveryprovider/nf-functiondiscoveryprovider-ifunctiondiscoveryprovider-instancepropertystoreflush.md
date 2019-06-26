@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

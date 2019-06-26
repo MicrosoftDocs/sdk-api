@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOffset, GetOffset method [App packaging and management], GetOffset method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetOffset method, IAppxBundleManifestPackageInfo.GetOffset, IAppxBundleManifestPackageInfo::GetOffset, appxpackaging/IAppxBundleManifestPackageInfo::GetOffset, appxpkg.iappxbundlemanifestpackageinfo_getoffset
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo.GetOffset"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestPackageInfo.GetOffset"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

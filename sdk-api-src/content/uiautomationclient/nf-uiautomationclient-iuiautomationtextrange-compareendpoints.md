@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.CompareEndpoints"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.CompareEndpoints"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

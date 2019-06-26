@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileCallback, PSP_FILE_CALLBACK, PSP_FILE_CALLBACK callback, PSP_FILE_CALLBACK callback function [Setup API], PSP_FILE_CALLBACK_A, PSP_FILE_CALLBACK_W, _setupapi_psp_file_callback, setup.psp_file_callback, setupapi/PSP_FILE_CALLBACK
 ms.topic: callback
-f1_keywords: ["setupapi/PSP_FILE_CALLBACK"]
+f1_keywords: 
+ - "setupapi/PSP_FILE_CALLBACK"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

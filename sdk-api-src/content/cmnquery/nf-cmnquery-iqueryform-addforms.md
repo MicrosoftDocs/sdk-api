@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddForms, AddForms method [Active Directory], AddForms method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddForms method, IQueryForm.AddForms, IQueryForm::AddForms, _glines_iqueryform_addforms, ad.iqueryform__addforms, ad.iqueryform_addforms, cmnquery/IQueryForm::AddForms
 ms.topic: method
-f1_keywords: ["cmnquery/IQueryForm.AddForms"]
+f1_keywords: 
+ - "cmnquery/IQueryForm.AddForms"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function [Windows Accessibility], uiauto.uiauto_TextPattern_GetVisibleRangesConPat, uiauto_TextPattern_GetVisibleRangesConPat, uiautomationcoreapi/TextPattern_GetVisibleRanges, winauto.uiauto_TextPattern_GetVisibleRangesConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextPattern_GetVisibleRanges"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextPattern_GetVisibleRanges"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

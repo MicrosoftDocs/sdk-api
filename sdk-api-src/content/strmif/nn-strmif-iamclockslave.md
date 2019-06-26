@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMClockSlave, IAMClockSlave interface [DirectShow], IAMClockSlave interface [DirectShow],described, IAMClockSlaveInterface, dshow.iamclockslave, strmif/IAMClockSlave
 ms.topic: interface
-f1_keywords: ["strmif/IAMClockSlave"]
+f1_keywords: 
+ - "strmif/IAMClockSlave"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

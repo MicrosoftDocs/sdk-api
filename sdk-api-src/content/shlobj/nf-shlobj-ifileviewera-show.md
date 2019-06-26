@@ -9,7 +9,8 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: IFileViewerA::Show
 ms.topic: language-reference
-f1_keywords: ["shlobj/IFileViewerA::Show"]
+f1_keywords: 
+ - "shlobj/IFileViewerA::Show"
 targetos: Windows
 product: Windows
 req.assembly: 

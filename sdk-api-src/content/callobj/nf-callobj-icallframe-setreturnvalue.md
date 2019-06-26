@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],SetReturnValue method, ICallFrame.SetReturnValue, ICallFrame::SetReturnValue, SetReturnValue, SetReturnValue method [COM], SetReturnValue method [COM],ICallFrame interface, _com_icallframe_setreturnvalue, callobj/ICallFrame::SetReturnValue, com.icallframe_setreturnvalue
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.SetReturnValue"]
+f1_keywords: 
+ - "callobj/ICallFrame.SetReturnValue"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

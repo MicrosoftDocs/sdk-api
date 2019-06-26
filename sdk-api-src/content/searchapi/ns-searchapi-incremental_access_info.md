@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
 ms.topic: struct
-f1_keywords: ["searchapi/INCREMENTAL_ACCESS_INFO"]
+f1_keywords: 
+ - "searchapi/INCREMENTAL_ACCESS_INFO"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

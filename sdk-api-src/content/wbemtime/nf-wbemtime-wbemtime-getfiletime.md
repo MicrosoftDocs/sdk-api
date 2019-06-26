@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTime.GetFILETIME"]
+f1_keywords: 
+ - "wbemtime/WBEMTime.GetFILETIME"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

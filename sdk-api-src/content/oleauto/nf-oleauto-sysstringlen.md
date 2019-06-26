@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysStringLen, SysStringLen function [Automation], _oa96_SysStringLen, automat.sysstringlen, oleauto/SysStringLen
 ms.topic: function
-f1_keywords: ["oleauto/SysStringLen"]
+f1_keywords: 
+ - "oleauto/SysStringLen"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

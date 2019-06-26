@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkAdd method, IDot11AdHocManagerNotificationSink.OnNetworkAdd, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocManagerNotificationSink.OnNetworkAdd"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocManagerNotificationSink.OnNetworkAdd"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

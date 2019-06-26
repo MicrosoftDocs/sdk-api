@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSSLCertificateManager interface [Media Foundation],OnServerCertificate method, IMFSSLCertificateManager.OnServerCertificate, IMFSSLCertificateManager::OnServerCertificate, OnServerCertificate, OnServerCertificate method [Media Foundation], OnServerCertificate method [Media Foundation],IMFSSLCertificateManager interface, mf.imfsslcertificatemanager_onservercertificate, mfidl/IMFSSLCertificateManager::OnServerCertificate
 ms.topic: method
-f1_keywords: ["mfidl/IMFSSLCertificateManager.OnServerCertificate"]
+f1_keywords: 
+ - "mfidl/IMFSSLCertificateManager.OnServerCertificate"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

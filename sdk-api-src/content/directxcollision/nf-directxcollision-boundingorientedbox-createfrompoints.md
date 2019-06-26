@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromPoints method, BoundingOrientedBox.CreateFromPoints, BoundingOrientedBox::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfrompoints
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingOrientedBox.CreateFromPoints"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox.CreateFromPoints"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

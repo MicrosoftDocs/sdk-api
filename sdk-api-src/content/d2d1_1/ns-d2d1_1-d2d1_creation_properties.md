@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_CREATION_PROPERTIES, D2D1_CREATION_PROPERTIES structure [Direct2D], PD2D1_CREATION_PROPERTIES, PD2D1_CREATION_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_CREATION_PROPERTIES, d2d1_1/PD2D1_CREATION_PROPERTIES, direct2d.d2d1_creation_properties
 ms.topic: struct
-f1_keywords: ["d2d1_1/D2D1_CREATION_PROPERTIES"]
+f1_keywords: 
+ - "d2d1_1/D2D1_CREATION_PROPERTIES"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

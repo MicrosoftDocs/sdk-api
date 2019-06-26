@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_LOCAL_ROOT_SIGNATURE, D3D12_LOCAL_ROOT_SIGNATURE structure, PD3D12_LOCAL_ROOT_SIGNATURE, PD3D12_LOCAL_ROOT_SIGNATURE structure pointer, d3d12/D3D12_LOCAL_ROOT_SIGNATURE, d3d12/PD3D12_LOCAL_ROOT_SIGNATURE, direct3d12.d3d12_local_root_signature
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_LOCAL_ROOT_SIGNATURE"]
+f1_keywords: 
+ - "d3d12/D3D12_LOCAL_ROOT_SIGNATURE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

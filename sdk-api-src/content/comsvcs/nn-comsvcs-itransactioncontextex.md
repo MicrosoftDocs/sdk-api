@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransactionContextEx, ITransactionContextEx interface [COM+], ITransactionContextEx interface [COM+],described, _cos_ITransactionContextEx_Interface, comsvcs/ITransactionContextEx, cos.itransactioncontextex
 ms.topic: interface
-f1_keywords: ["comsvcs/ITransactionContextEx"]
+f1_keywords: 
+ - "comsvcs/ITransactionContextEx"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

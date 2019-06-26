@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TerminateReadLog, TerminateReadLog function [Files], clfsw32/TerminateReadLog, fs.terminatereadlog
 ms.topic: function
-f1_keywords: ["clfsw32/TerminateReadLog"]
+f1_keywords: 
+ - "clfsw32/TerminateReadLog"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

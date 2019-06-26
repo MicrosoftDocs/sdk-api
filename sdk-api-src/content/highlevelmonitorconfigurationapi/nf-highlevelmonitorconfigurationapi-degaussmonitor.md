@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
 ms.topic: function
-f1_keywords: ["highlevelmonitorconfigurationapi/DegaussMonitor"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/DegaussMonitor"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

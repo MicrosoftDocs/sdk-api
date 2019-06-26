@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_activate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
 ms.topic: ioctl
-f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS"]
+f1_keywords: 
+ - "genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS"
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDisk2::SetSANMode, SetSANMode, SetSANMode method, SetSANMode method,IVdsDisk2 interface, base.ivdsdisk2_setsanmode, vds/IVdsDisk2::SetSANMode
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk2.SetSANMode"]
+f1_keywords: 
+ - "vds/IVdsDisk2.SetSANMode"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

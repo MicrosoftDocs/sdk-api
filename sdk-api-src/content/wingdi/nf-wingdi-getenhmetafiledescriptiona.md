@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
 ms.topic: function
-f1_keywords: ["wingdi/GetEnhMetaFileDescription"]
+f1_keywords: 
+ - "wingdi/GetEnhMetaFileDescription"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

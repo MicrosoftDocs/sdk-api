@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginCommitVariants, BeginCommitVariants method [COM+], BeginCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginCommitVariants method, ICrmCompensatorVariants.BeginCommitVariants, ICrmCompensatorVariants::BeginCommitVariants, _dtc_ICrmCompensatorVariants_BeginCommitVariants, comsvcs/ICrmCompensatorVariants::BeginCommitVariants, cos.icrmcompensatorvariants_begincommitvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.BeginCommitVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.BeginCommitVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbGlobalStore"]
+f1_keywords: 
+ - "sbtsv/ITsSbGlobalStore"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

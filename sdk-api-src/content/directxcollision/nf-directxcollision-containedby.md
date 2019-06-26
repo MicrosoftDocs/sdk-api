@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
 ms.topic: function
-f1_keywords: ["directxcollision/ContainedBy"]
+f1_keywords: 
+ - "directxcollision/ContainedBy"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

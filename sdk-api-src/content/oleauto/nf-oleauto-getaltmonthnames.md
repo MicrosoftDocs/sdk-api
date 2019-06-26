@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAltMonthNames, GetAltMonthNames function [Automation], _oa96_GetAltMonthNames, automat.getaltmonthnames, oleauto/GetAltMonthNames
 ms.topic: function
-f1_keywords: ["oleauto/GetAltMonthNames"]
+f1_keywords: 
+ - "oleauto/GetAltMonthNames"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

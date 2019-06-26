@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysmonDataType, SysmonDataType enumeration [SysMon], base.sysmondatatype, isysmon/SysmonDataType, isysmon/sysmonDataAvg, isysmon/sysmonDataCount, isysmon/sysmonDataMax, isysmon/sysmonDataMin, isysmon/sysmonDataTime, sysmon.sysmondatatype, sysmonDataAvg, sysmonDataCount, sysmonDataMax, sysmonDataMin, sysmonDataTime
 ms.topic: enum
-f1_keywords: ["isysmon/SysmonDataType"]
+f1_keywords: 
+ - "isysmon/SysmonDataType"
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

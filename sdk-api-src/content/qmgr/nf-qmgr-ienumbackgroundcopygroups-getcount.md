@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],GetCount method, IEnumBackgroundCopyGroups.GetCount, IEnumBackgroundCopyGroups::GetCount, bits.ienumbackgroundcopygroups_getcount, qmgr/IEnumBackgroundCopyGroups::GetCount
 ms.topic: method
-f1_keywords: ["qmgr/IEnumBackgroundCopyGroups.GetCount"]
+f1_keywords: 
+ - "qmgr/IEnumBackgroundCopyGroups.GetCount"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

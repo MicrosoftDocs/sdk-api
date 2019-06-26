@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters, EnumAdapters method [DXGI], EnumAdapters method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],EnumAdapters method, IDXGIFactory.EnumAdapters, IDXGIFactory::EnumAdapters, direct3ddxgi.idxgifactory_enumadapters, dxgi/IDXGIFactory::EnumAdapters
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIFactory.EnumAdapters"]
+f1_keywords: 
+ - "dxgi/IDXGIFactory.EnumAdapters"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

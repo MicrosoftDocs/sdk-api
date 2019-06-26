@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveContent method, IDirectManipulationViewport.RemoveContent, IDirectManipulationViewport::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.RemoveContent"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.RemoveContent"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

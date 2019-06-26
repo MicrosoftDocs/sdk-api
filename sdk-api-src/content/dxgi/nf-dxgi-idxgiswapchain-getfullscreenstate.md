@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFullscreenState, GetFullscreenState method [DXGI], GetFullscreenState method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFullscreenState method, IDXGISwapChain.GetFullscreenState, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
 ms.topic: method
-f1_keywords: ["dxgi/IDXGISwapChain.GetFullscreenState"]
+f1_keywords: 
+ - "dxgi/IDXGISwapChain.GetFullscreenState"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

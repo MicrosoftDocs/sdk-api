@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
 ms.topic: function
-f1_keywords: ["msi/MsiOpenPackage"]
+f1_keywords: 
+ - "msi/MsiOpenPackage"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

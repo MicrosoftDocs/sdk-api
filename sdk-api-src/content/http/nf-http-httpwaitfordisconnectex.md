@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
 ms.topic: function
-f1_keywords: ["http/HttpWaitForDisconnectEx"]
+f1_keywords: 
+ - "http/HttpWaitForDisconnectEx"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

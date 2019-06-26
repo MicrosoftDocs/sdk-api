@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],CreateTuneRequest method, ITuningSpace.CreateTuneRequest, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.CreateTuneRequest"]
+f1_keywords: 
+ - "tuner/ITuningSpace.CreateTuneRequest"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

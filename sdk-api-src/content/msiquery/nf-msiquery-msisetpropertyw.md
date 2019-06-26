@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
 ms.topic: function
-f1_keywords: ["msiquery/MsiSetProperty"]
+f1_keywords: 
+ - "msiquery/MsiSetProperty"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

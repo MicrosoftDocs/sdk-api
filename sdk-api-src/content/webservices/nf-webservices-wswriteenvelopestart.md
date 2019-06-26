@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
 ms.topic: function
-f1_keywords: ["webservices/WsWriteEnvelopeStart"]
+f1_keywords: 
+ - "webservices/WsWriteEnvelopeStart"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

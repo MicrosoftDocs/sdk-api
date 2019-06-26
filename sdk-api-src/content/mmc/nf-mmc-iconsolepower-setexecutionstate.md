@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],SetExecutionState method, IConsolePower.SetExecutionState, IConsolePower::SetExecutionState, SetExecutionState, SetExecutionState method [MMC], SetExecutionState method [MMC],IConsolePower interface, _slate_iconsolepower_setexecutionstate, mmc.iconsolepower_setexecutionstate, mmc/IConsolePower::SetExecutionState
 ms.topic: method
-f1_keywords: ["mmc/IConsolePower.SetExecutionState"]
+f1_keywords: 
+ - "mmc/IConsolePower.SetExecutionState"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

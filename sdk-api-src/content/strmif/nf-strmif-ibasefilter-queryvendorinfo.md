@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
 ms.topic: method
-f1_keywords: ["strmif/IBaseFilter.QueryVendorInfo"]
+f1_keywords: 
+ - "strmif/IBaseFilter.QueryVendorInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeSurrogate, FreeSurrogate method [COM], FreeSurrogate method [COM],ISurrogate interface, ISurrogate interface [COM],FreeSurrogate method, ISurrogate.FreeSurrogate, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
 ms.topic: method
-f1_keywords: ["objidlbase/ISurrogate.FreeSurrogate"]
+f1_keywords: 
+ - "objidlbase/ISurrogate.FreeSurrogate"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

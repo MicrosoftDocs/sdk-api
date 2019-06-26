@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCTL, PFN_CERT_STORE_PROV_READ_CTL, PFN_CERT_STORE_PROV_READ_CTL callback, PFN_CERT_STORE_PROV_READ_CTL callback function [Security], _crypto2_certstoreprovreadctl, security.certstoreprovreadctl, wincrypt/PFN_CERT_STORE_PROV_READ_CTL
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_STORE_PROV_READ_CTL"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_STORE_PROV_READ_CTL"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

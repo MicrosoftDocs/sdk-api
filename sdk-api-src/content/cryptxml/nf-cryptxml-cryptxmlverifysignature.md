@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlVerifySignature"]
+f1_keywords: 
+ - "cryptxml/CryptXmlVerifySignature"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
 ms.topic: struct
-f1_keywords: ["mfapi/MT_ARBITRARY_HEADER"]
+f1_keywords: 
+ - "mfapi/MT_ARBITRARY_HEADER"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

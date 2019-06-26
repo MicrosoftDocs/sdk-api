@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice2.setItemInfo"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice2.setItemInfo"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

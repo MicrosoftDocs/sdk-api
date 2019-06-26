@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastChildElement, GetLastChildElement method [Windows Accessibility], GetLastChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElement method, IUIAutomationTreeWalker.GetLastChildElement, IUIAutomationTreeWalker::GetLastChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChild, uiauto_IUIAutomationTreeWalker_GetLastChild, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetLastChild
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTreeWalker.GetLastChildElement"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTreeWalker.GetLastChildElement"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

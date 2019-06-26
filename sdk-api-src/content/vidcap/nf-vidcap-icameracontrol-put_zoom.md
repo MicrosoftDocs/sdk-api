@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Zoom method, ICameraControl.put_Zoom, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Zoom
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_Zoom"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_Zoom"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

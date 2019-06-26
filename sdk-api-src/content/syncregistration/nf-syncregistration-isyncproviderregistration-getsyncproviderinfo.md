@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderRegistration.GetSyncProviderInfo"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderRegistration.GetSyncProviderInfo"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

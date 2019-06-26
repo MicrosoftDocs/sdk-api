@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeUninitialize, DdeUninitialize function [Data Exchange], _win32_DdeUninitialize, _win32_ddeuninitialize_cpp, dataxchg.ddeuninitialize, ddeml/DdeUninitialize, winui._win32_ddeuninitialize
 ms.topic: function
-f1_keywords: ["ddeml/DdeUninitialize"]
+f1_keywords: 
+ - "ddeml/DdeUninitialize"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

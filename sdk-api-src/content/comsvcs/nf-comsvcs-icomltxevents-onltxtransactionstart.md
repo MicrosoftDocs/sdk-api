@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionStart method, IComLTxEvents.OnLtxTransactionStart, IComLTxEvents::OnLtxTransactionStart, OnLtxTransactionStart, OnLtxTransactionStart method [COM+], OnLtxTransactionStart method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionStart, cos.icomltxevents_onltxtransactionstart
 ms.topic: method
-f1_keywords: ["comsvcs/IComLTxEvents.OnLtxTransactionStart"]
+f1_keywords: 
+ - "comsvcs/IComLTxEvents.OnLtxTransactionStart"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

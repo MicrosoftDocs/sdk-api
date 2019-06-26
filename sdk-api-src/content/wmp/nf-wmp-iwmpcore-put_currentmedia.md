@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, IWMPCore.put_currentMedia, IWMPCore::put_currentMedia, IWMPCoreput_currentMedia, put_currentMedia, put_currentMedia method [Windows Media Player], put_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentmedia, wmp/IWMPCore::put_currentMedia
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.put_currentMedia"]
+f1_keywords: 
+ - "wmp/IWMPCore.put_currentMedia"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

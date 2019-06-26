@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCurrentView property [Windows Accessibility], CurrentCurrentView property [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],CurrentCurrentView property, IUIAutomationMultipleViewPattern.CurrentCurrentView, IUIAutomationMultipleViewPattern.get_CurrentCurrentView, IUIAutomationMultipleViewPattern::CurrentCurrentView, IUIAutomationMultipleViewPattern::get_CurrentCurrentView, get_CurrentCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CurrentCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CurrentCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CurrentCurrentView
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationMultipleViewPattern.CurrentCurrentView"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationMultipleViewPattern.CurrentCurrentView"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

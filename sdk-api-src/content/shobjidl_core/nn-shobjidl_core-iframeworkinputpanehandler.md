@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFrameworkInputPaneHandler"]
+f1_keywords: 
+ - "shobjidl_core/IFrameworkInputPaneHandler"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

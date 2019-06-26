@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
 ms.topic: function
-f1_keywords: ["oleauto/VarFormatFromTokens"]
+f1_keywords: 
+ - "oleauto/VarFormatFromTokens"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

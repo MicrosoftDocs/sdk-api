@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison interface [Windows Animation], IUIAnimationPriorityComparison interface [Windows Animation],described, uianimation.iuianimationprioritycomparison, uianimation/IUIAnimationPriorityComparison
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationPriorityComparison"]
+f1_keywords: 
+ - "uianimation/IUIAnimationPriorityComparison"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

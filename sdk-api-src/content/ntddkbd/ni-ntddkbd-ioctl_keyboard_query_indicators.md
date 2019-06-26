@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATORS, IOCTL_KEYBOARD_QUERY_INDICATORS control, IOCTL_KEYBOARD_QUERY_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_query_indicators2, i8042ref_d34933a9-dfd8-464b-9653-7b344b5007e3.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS
 ms.topic: ioctl
-f1_keywords: ["ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS"]
+f1_keywords: 
+ - "ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATORS"
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

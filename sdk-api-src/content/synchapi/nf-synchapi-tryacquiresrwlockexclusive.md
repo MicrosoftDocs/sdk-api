@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockExclusive, TryAcquireSRWLockExclusive function, base.tryacquiresrwlockexclusive, synchapi/TryAcquireSRWLockExclusive, winbase/TryAcquireSRWLockExclusive
 ms.topic: function
-f1_keywords: ["synchapi/TryAcquireSRWLockExclusive"]
+f1_keywords: 
+ - "synchapi/TryAcquireSRWLockExclusive"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

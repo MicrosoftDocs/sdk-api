@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
 ms.topic: struct
-f1_keywords: ["wintrust/WINTRUST_BLOB_INFO"]
+f1_keywords: 
+ - "wintrust/WINTRUST_BLOB_INFO"
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer
 ms.topic: interface
-f1_keywords: ["mfidl/IMFPMPServer"]
+f1_keywords: 
+ - "mfidl/IMFPMPServer"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

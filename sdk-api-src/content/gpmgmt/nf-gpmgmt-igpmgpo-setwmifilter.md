@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],SetWMIFilter method, IGPMGPO interface [GPMC],SetWMIFilter method, IGPMGPO.SetWMIFilter, IGPMGPO::SetWMIFilter, SetWMIFilter, SetWMIFilter method [GPMC], SetWMIFilter method [GPMC],GPMGPO class, SetWMIFilter method [GPMC],IGPMGPO interface, _win32_igpmgpo_setwmifilter, gpmc.igpmgpo_setwmifilter, gpmgmt/IGPMGPO::SetWMIFilter
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.SetWMIFilter"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.SetWMIFilter"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

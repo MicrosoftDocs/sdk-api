@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest
 ms.topic: interface
-f1_keywords: ["mfidl/IMFMediaStreamSourceSampleRequest"]
+f1_keywords: 
+ - "mfidl/IMFMediaStreamSourceSampleRequest"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],InitializationRoutine property, IWdsTransportContentProvider.InitializationRoutine, IWdsTransportContentProvider.get_InitializationRoutine, IWdsTransportContentProvider::InitializationRoutine, IWdsTransportContentProvider::get_InitializationRoutine, InitializationRoutine property [Windows Deployment Services], InitializationRoutine property [Windows Deployment Services],IWdsTransportContentProvider interface, get_InitializationRoutine, wds.iwdstransportcontentprovider_initializationroutine, wdstptmgmt/IWdsTransportContentProvider::InitializationRoutine, wdstptmgmt/IWdsTransportContentProvider::get_InitializationRoutine
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportContentProvider.InitializationRoutine"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportContentProvider.InitializationRoutine"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

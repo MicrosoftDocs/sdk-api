@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMDisableLegacyIME, IMMDisableLegacyIME function [Internationalization for Windows Applications], ImmDisableLegacyIME, imm/IMMDisableLegacyIME, intl.immdisablelegacyime
 ms.topic: function
-f1_keywords: ["immdev/IMMDisableLegacyIME"]
+f1_keywords: 
+ - "immdev/IMMDisableLegacyIME"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

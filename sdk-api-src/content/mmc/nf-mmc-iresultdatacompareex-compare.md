@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompareEx interface, IResultDataCompareEx interface [MMC],Compare method, IResultDataCompareEx.Compare, IResultDataCompareEx::Compare, _slate_iresultdatacompareex_compare, mmc.iresultdatacompareex_compare, mmc/IResultDataCompareEx::Compare
 ms.topic: method
-f1_keywords: ["mmc/IResultDataCompareEx.Compare"]
+f1_keywords: 
+ - "mmc/IResultDataCompareEx.Compare"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

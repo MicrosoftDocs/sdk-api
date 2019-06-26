@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOpenSound function [Windows Multimedia]
 ms.topic: function
-f1_keywords: ["mmiscapi/sndOpenSound"]
+f1_keywords: 
+ - "mmiscapi/sndOpenSound"
 req.header: mmiscapi.h
 req.include-header: 
 req.target-type: Windows

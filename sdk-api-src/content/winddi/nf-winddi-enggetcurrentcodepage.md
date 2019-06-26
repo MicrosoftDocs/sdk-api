@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetCurrentCodePage, EngGetCurrentCodePage function [Display Devices], display.enggetcurrentcodepage, gdifncs_39440cc8-e1f5-4f88-b92a-d8a7eb3d1d39.xml, winddi/EngGetCurrentCodePage
 ms.topic: function
-f1_keywords: ["winddi/EngGetCurrentCodePage"]
+f1_keywords: 
+ - "winddi/EngGetCurrentCodePage"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

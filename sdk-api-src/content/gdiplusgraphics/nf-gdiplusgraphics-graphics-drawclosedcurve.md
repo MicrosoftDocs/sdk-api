@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawClosedCurve
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawClosedCurve"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawClosedCurve"
 targetos: Windows
 product: Windows
 req.assembly: 

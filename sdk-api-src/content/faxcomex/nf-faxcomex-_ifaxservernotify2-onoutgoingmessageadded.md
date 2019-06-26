@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingMessageAdded method, IFaxServerNotify2.OnOutgoingMessageAdded, IFaxServerNotify2::OnOutgoingMessageAdded, OnOutgoingMessageAdded, OnOutgoingMessageAdded method [Fax Service], OnOutgoingMessageAdded method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingMessageAdded, _IFaxServerNotify2::OnOutgoingMessageAdded, _mfax_ifaxservernotify2_onoutgoingmessageadded, fax._mfax_ifaxservernotify2_onoutgoingmessageadded, faxcomex/IFaxServerNotify2::OnOutgoingMessageAdded
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnOutgoingMessageAdded"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnOutgoingMessageAdded"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

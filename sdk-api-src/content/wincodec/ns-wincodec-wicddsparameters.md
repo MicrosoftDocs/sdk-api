@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Imaging Component], WICDdsParameters, WICDdsParameters structure [Windows Imaging Component], wic.wicddsparameters, wincodec/PWICDdsParameters, wincodec/WICDdsParameters
 ms.topic: struct
-f1_keywords: ["wincodec/WICDdsParameters"]
+f1_keywords: 
+ - "wincodec/WICDdsParameters"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

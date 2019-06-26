@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CPSI_ERROR, CPSI_NONE, CPSI_SUCCESS, CPSI_WARNING, CREDENTIAL_PROVIDER_STATUS_ICON, CREDENTIAL_PROVIDER_STATUS_ICON enumeration [Windows Shell], _shell_CREDENTIAL_PROVIDER_STATUS_ICON, credentialprovider/CPSI_ERROR, credentialprovider/CPSI_NONE, credentialprovider/CPSI_SUCCESS, credentialprovider/CPSI_WARNING, credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON, shell.CREDENTIAL_PROVIDER_STATUS_ICON
 ms.topic: enum
-f1_keywords: ["credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON"]
+f1_keywords: 
+ - "credentialprovider/CREDENTIAL_PROVIDER_STATUS_ICON"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

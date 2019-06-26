@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Children, Children method [SMI], Children method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Children method, ISettingsItem.Children, ISettingsItem::Children, smi.isettingsitem_children, wcmconfig/ISettingsItem::Children
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.Children"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.Children"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

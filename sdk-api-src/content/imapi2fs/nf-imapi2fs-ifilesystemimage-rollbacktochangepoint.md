@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],RollbackToChangePoint method, IFileSystemImage.RollbackToChangePoint, IFileSystemImage::RollbackToChangePoint, RollbackToChangePoint, RollbackToChangePoint method [IMAPI], RollbackToChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_rollbacktochangepoint, imapi2fs/IFileSystemImage::RollbackToChangePoint
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.RollbackToChangePoint"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.RollbackToChangePoint"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

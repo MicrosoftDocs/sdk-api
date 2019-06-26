@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCP6TABLE_OWNER_MODULE, MIB_TCP6TABLE_OWNER_MODULE, MIB_TCP6TABLE_OWNER_MODULE structure [MIB], PMIB_TCP6TABLE_OWNER_MODULE, PMIB_TCP6TABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCP6TABLE_OWNER_MODULE, iprtrmib/PMIB_TCP6TABLE_OWNER_MODULE, mib.mib_tcp6table_owner_module, tcpmib/MIB_TCP6TABLE_OWNER_MODULE, tcpmib/PMIB_TCP6TABLE_OWNER_MODULE"
 ms.topic: struct
-f1_keywords: ["tcpmib/MIB_TCP6TABLE_OWNER_MODULE"]
+f1_keywords: 
+ - "tcpmib/MIB_TCP6TABLE_OWNER_MODULE"
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

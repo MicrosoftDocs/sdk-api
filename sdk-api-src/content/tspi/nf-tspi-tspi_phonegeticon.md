@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
 ms.topic: function
-f1_keywords: ["tspi/TSPI_phoneGetIcon"]
+f1_keywords: 
+ - "tspi/TSPI_phoneGetIcon"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

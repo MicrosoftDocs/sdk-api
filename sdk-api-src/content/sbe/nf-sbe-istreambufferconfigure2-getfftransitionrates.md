@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFFTransitionRates, GetFFTransitionRates method [Microsoft TV Technologies], GetFFTransitionRates method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetFFTransitionRates method, IStreamBufferConfigure2.GetFFTransitionRates, IStreamBufferConfigure2::GetFFTransitionRates, IStreamBufferConfigure2GetFFTransitionRates, mstv.istreambufferconfigure2_getfftransitionrates, sbe/IStreamBufferConfigure2::GetFFTransitionRates
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure2.GetFFTransitionRates"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure2.GetFFTransitionRates"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

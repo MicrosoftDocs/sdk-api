@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateWriter, WsCreateWriter function [Web Services for Windows], webservices/WsCreateWriter, wsw.wscreatewriter
 ms.topic: function
-f1_keywords: ["webservices/WsCreateWriter"]
+f1_keywords: 
+ - "webservices/WsCreateWriter"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

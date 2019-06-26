@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDRAWTEXTPARAMS, DRAWTEXTPARAMS, DRAWTEXTPARAMS structure [Windows GDI], LPDRAWTEXTPARAMS, LPDRAWTEXTPARAMS structure pointer [Windows GDI], _win32_DRAWTEXTPARAMS_str, gdi.drawtextparams, tagDRAWTEXTPARAMS, winuser/DRAWTEXTPARAMS, winuser/LPDRAWTEXTPARAMS"
 ms.topic: struct
-f1_keywords: ["winuser/DRAWTEXTPARAMS"]
+f1_keywords: 
+ - "winuser/DRAWTEXTPARAMS"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

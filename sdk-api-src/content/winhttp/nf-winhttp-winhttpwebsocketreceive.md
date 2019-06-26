@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP], http.winhttpwebsocketreceive, winhttp/WinHttpWebSocketReceive
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpWebSocketReceive"]
+f1_keywords: 
+ - "winhttp/WinHttpWebSocketReceive"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

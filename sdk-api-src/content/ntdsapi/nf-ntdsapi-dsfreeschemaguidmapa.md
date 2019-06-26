@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsFreeSchemaGuidMap"]
+f1_keywords: 
+ - "ntdsapi/DsFreeSchemaGuidMap"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

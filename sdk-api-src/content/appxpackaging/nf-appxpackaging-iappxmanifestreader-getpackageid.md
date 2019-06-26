@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPackageId method, IAppxManifestReader.GetPackageId, IAppxManifestReader::GetPackageId, appxpackaging/IAppxManifestReader::GetPackageId, appxpkg.iappxmanifestreader_getpackageid
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestReader.GetPackageId"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader.GetPackageId"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
 ms.topic: macro
-f1_keywords: ["winbase/MAKEINTATOM"]
+f1_keywords: 
+ - "winbase/MAKEINTATOM"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

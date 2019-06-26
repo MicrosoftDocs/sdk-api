@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText
 ms.topic: method
-f1_keywords: ["mmc/IConsole2.SetStatusText"]
+f1_keywords: 
+ - "mmc/IConsole2.SetStatusText"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

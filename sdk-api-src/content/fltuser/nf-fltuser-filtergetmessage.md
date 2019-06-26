@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File System Drivers], FltWin32ApiRef_2a4730dd-cee5-4a3e-b904-c19683fc314a.xml, fltuser/FilterGetMessage, ifsk.filtergetmessage
 ms.topic: function
-f1_keywords: ["fltuser/FilterGetMessage"]
+f1_keywords: 
+ - "fltuser/FilterGetMessage"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

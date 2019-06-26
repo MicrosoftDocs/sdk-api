@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection
 ms.topic: function
-f1_keywords: ["wow64apiset/Wow64DisableWow64FsRedirection"]
+f1_keywords: 
+ - "wow64apiset/Wow64DisableWow64FsRedirection"
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows

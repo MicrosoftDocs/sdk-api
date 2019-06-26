@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShortAdd, ShortAdd function [Windows Shell], intsafe/ShortAdd, shell.ShortAdd
 ms.topic: function
-f1_keywords: ["intsafe/ShortAdd"]
+f1_keywords: 
+ - "intsafe/ShortAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

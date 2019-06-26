@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],ReadOnClearChannel method, IMDSPObject2.ReadOnClearChannel, IMDSPObject2::ReadOnClearChannel, IMDSPObject2ReadOnClearChannel, ReadOnClearChannel, ReadOnClearChannel method [windows Media Device Manager], ReadOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::ReadOnClearChannel, wmdm.imdspobject2_readonclearchannel
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPObject2.ReadOnClearChannel"]
+f1_keywords: 
+ - "mswmdm/IMDSPObject2.ReadOnClearChannel"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

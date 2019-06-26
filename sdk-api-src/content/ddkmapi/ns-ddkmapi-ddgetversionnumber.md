@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDGETVERSIONNUMBER, DDGETVERSIONNUMBER, DDGETVERSIONNUMBER structure [Display Devices], LPDDGETVERSIONNUMBER, LPDDGETVERSIONNUMBER structure pointer [Display Devices], ddkmapi/DDGETVERSIONNUMBER, ddkmapi/LPDDGETVERSIONNUMBER, ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml, display.ddgetversionnumber"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDGETVERSIONNUMBER"]
+f1_keywords: 
+ - "ddkmapi/DDGETVERSIONNUMBER"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

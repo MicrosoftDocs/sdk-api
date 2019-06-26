@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.GetListKeyInformation"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.GetListKeyInformation"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

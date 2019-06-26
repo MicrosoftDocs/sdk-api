@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, IWRdsProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWRdsProtocolShadowConnection.DoTarget, IWRdsProtocolShadowConnection::DoTarget, termserv.iwrdsprotocolshadowconnection_dotarget, wtsprotocol/IWRdsProtocolShadowConnection::DoTarget
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolShadowConnection.DoTarget"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolShadowConnection.DoTarget"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

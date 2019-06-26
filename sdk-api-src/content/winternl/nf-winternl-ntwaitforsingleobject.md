@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSingleObject function [Windows API], TRUE, winprog.ntwaitforsingleobject, winternl/NtWaitForSingleObject, winui.ntwaitforsingleobject"
 ms.topic: function
-f1_keywords: ["winternl/NtWaitForSingleObject"]
+f1_keywords: 
+ - "winternl/NtWaitForSingleObject"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

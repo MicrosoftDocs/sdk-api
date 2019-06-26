@@ -12,7 +12,8 @@ ms.keywords: RoCaptureErrorContext, RoCaptureErrorContext function [Windows Runt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/RoCaptureErrorContext"]
+f1_keywords: 
+ - "roerrorapi/RoCaptureErrorContext"
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

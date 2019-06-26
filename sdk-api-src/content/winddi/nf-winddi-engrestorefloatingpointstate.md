@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngRestoreFloatingPointState, EngRestoreFloatingPointState function [Display Devices], display.engrestorefloatingpointstate, gdifncs_e3f3f96d-5e04-4c8c-b22b-73df32e862e2.xml, winddi/EngRestoreFloatingPointState
 ms.topic: function
-f1_keywords: ["winddi/EngRestoreFloatingPointState"]
+f1_keywords: 
+ - "winddi/EngRestoreFloatingPointState"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

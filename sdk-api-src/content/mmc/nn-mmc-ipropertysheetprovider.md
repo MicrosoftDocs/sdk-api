@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
 ms.topic: interface
-f1_keywords: ["mmc/IPropertySheetProvider"]
+f1_keywords: 
+ - "mmc/IPropertySheetProvider"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
 ms.topic: method
-f1_keywords: ["d3dcommon/ID3DInclude.Open"]
+f1_keywords: 
+ - "d3dcommon/ID3DInclude.Open"
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

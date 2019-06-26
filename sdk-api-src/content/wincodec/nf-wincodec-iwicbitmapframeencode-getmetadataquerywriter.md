@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapFrameEncode.GetMetadataQueryWriter, IWICBitmapFrameEncode::GetMetadataQueryWriter, _wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.GetMetadataQueryWriter"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.GetMetadataQueryWriter"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

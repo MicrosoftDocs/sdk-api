@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnHomeProviderAvailable method, IMbnInterfaceEvents.OnHomeProviderAvailable, IMbnInterfaceEvents::OnHomeProviderAvailable, OnHomeProviderAvailable, OnHomeProviderAvailable method [Microsoft Broadband Networks], OnHomeProviderAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onhomeprovideravailable, mbnapi/IMbnInterfaceEvents::OnHomeProviderAvailable
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterfaceEvents.OnHomeProviderAvailable"]
+f1_keywords: 
+ - "mbnapi/IMbnInterfaceEvents.OnHomeProviderAvailable"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

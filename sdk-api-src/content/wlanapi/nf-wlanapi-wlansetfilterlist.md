@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanSetFilterList, WlanSetFilterList function [NativeWIFI], nwifi.wlansetfilterlist, wlanapi/WlanSetFilterList
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetFilterList"]
+f1_keywords: 
+ - "wlanapi/WlanSetFilterList"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

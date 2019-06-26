@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],LicenseChange method, IMSVidStreamBufferSinkEvent3.LicenseChange, IMSVidStreamBufferSinkEvent3::LicenseChange, IMSVidStreamBufferSinkEvent3LicenseChange, LicenseChange, LicenseChange method [Microsoft TV Technologies], LicenseChange method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent3 interface, mstv.imsvidstreambuffersinkevent3_licensechange, segment/IMSVidStreamBufferSinkEvent3::LicenseChange
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSinkEvent3.LicenseChange"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSinkEvent3.LicenseChange"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

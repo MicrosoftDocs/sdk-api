@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
 ms.topic: function
-f1_keywords: ["pdh/PdhEnumLogSetNames"]
+f1_keywords: 
+ - "pdh/PdhEnumLogSetNames"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

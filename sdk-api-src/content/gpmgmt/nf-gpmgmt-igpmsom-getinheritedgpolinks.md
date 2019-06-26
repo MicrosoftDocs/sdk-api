@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSOM class [GPMC],GetInheritedGPOLinks method, GetInheritedGPOLinks, GetInheritedGPOLinks method [GPMC], GetInheritedGPOLinks method [GPMC],GPMSOM class, GetInheritedGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetInheritedGPOLinks method, IGPMSOM.GetInheritedGPOLinks, IGPMSOM::GetInheritedGPOLinks, _win32_igpmsom_getinheritedgpolinks, gpmc.igpmsom_getinheritedgpolinks, gpmgmt/IGPMSOM::GetInheritedGPOLinks
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMSOM.GetInheritedGPOLinks"]
+f1_keywords: 
+ - "gpmgmt/IGPMSOM.GetInheritedGPOLinks"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

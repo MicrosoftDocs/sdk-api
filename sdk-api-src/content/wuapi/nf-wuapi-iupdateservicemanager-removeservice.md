@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveService method, IUpdateServiceManager.RemoveService, IUpdateServiceManager::RemoveService, RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager.RemoveService"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager.RemoveService"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

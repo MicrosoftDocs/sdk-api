@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastScope interface [TAPI 2.2],described, _tapi3_ienummcastscope, mdhcp/IEnumMcastScope, tapi3.ienummcastscope
 ms.topic: interface
-f1_keywords: ["mdhcp/IEnumMcastScope"]
+f1_keywords: 
+ - "mdhcp/IEnumMcastScope"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

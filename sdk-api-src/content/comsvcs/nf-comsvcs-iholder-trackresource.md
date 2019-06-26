@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],TrackResource method, IHolder.TrackResource, IHolder::TrackResource, TrackResource, TrackResource method [COM+], TrackResource method [COM+],IHolder interface, _dtc_IHolder_TrackResource, comsvcs/IHolder::TrackResource, cos.iholder_trackresource
 ms.topic: method
-f1_keywords: ["comsvcs/IHolder.TrackResource"]
+f1_keywords: 
+ - "comsvcs/IHolder.TrackResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

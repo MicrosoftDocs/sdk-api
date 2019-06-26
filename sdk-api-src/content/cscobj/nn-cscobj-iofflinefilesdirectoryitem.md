@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirectoryItem, IOfflineFilesDirectoryItem interface [Offline Files], IOfflineFilesDirectoryItem interface [Offline Files],described, cscobj/IOfflineFilesDirectoryItem, of.iofflinefilesdirectoryitem
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesDirectoryItem"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesDirectoryItem"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

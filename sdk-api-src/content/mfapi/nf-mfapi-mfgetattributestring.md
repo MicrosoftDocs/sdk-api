@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString
 ms.topic: function
-f1_keywords: ["mfapi/MFGetAttributeString"]
+f1_keywords: 
+ - "mfapi/MFGetAttributeString"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

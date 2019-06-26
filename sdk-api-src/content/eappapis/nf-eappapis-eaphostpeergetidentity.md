@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], eaphost.eaphostpeergetidentity, eappapis/EapHostPeerGetIdentity
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerGetIdentity"]
+f1_keywords: 
+ - "eappapis/EapHostPeerGetIdentity"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

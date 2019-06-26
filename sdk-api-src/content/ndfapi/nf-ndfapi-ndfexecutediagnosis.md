@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis
 ms.topic: function
-f1_keywords: ["ndfapi/NdfExecuteDiagnosis"]
+f1_keywords: 
+ - "ndfapi/NdfExecuteDiagnosis"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

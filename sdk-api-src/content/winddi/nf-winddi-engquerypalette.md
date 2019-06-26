@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
 ms.topic: function
-f1_keywords: ["winddi/EngQueryPalette"]
+f1_keywords: 
+ - "winddi/EngQueryPalette"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

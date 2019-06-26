@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler, ISyncMgrResolutionHandler interface [Windows Shell], ISyncMgrResolutionHandler interface [Windows Shell],described, _shell_ISyncMgrResolutionHandler, shell.ISyncMgrResolutionHandler, syncmgr/ISyncMgrResolutionHandler
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrResolutionHandler"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrResolutionHandler"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

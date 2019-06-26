@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSourceBuffer, AddSourceBuffer method [Media Foundation], AddSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],AddSourceBuffer method, IMFMediaSourceExtension.AddSourceBuffer, IMFMediaSourceExtension::AddSourceBuffer, mf.imfmediasourceextension_addsourcebuffer, mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ProbeHandler method, IWSDiscoveryPublisherNotify.ProbeHandler, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler, ProbeHandler method, ProbeHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisherNotify.ProbeHandler"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisherNotify.ProbeHandler"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

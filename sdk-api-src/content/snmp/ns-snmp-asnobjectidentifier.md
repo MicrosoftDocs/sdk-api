@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjectName, _snmp_asnobjectidentifier_str, snmp.asnobjectidentifier_str, snmp/AsnObjectIdentifier
 ms.topic: struct
-f1_keywords: ["snmp/AsnObjectIdentifier"]
+f1_keywords: 
+ - "snmp/AsnObjectIdentifier"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

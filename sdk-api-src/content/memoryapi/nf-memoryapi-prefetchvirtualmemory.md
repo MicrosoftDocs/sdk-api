@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrefetchVirtualMemory, PrefetchVirtualMemory function, base.prefetchvirtualmemory, winbase/PrefetchVirtualMemory
 ms.topic: function
-f1_keywords: ["memoryapi/PrefetchVirtualMemory"]
+f1_keywords: 
+ - "memoryapi/PrefetchVirtualMemory"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

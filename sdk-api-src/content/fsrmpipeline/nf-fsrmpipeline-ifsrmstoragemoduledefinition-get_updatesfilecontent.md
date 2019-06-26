@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],UpdatesFileContent property, IFsrmStorageModuleDefinition.UpdatesFileContent, IFsrmStorageModuleDefinition.get_UpdatesFileContent, IFsrmStorageModuleDefinition::UpdatesFileContent, IFsrmStorageModuleDefinition::get_UpdatesFileContent, IFsrmStorageModuleDefinition::put_UpdatesFileContent, UpdatesFileContent property [File Server Resource Manager], UpdatesFileContent property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_updatesfilecontent, fsrm.ifsrmstoragemoduledefinition_updatesfilecontent, fsrmpipeline/IFsrmStorageModuleDefinition::UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::get_UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::put_UpdatesFileContent, get_UpdatesFileContent
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmStorageModuleDefinition.UpdatesFileContent"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmStorageModuleDefinition.UpdatesFileContent"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateID, TokenBindingGenerateID function [Security], security.tokenbindinggenerateid, tokenbinding/TokenBindingGenerateID
 ms.topic: function
-f1_keywords: ["tokenbinding/TokenBindingGenerateID"]
+f1_keywords: 
+ - "tokenbinding/TokenBindingGenerateID"
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

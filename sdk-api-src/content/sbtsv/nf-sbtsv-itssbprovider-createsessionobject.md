@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSessionObject, CreateSessionObject method [Remote Desktop Services], CreateSessionObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateSessionObject method, ITsSbProvider.CreateSessionObject, ITsSbProvider::CreateSessionObject, sbtsv/ITsSbProvider::CreateSessionObject, termserv.itssbprovider_createsessionobject
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreateSessionObject"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreateSessionObject"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

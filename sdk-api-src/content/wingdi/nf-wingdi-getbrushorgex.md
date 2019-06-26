@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
 ms.topic: function
-f1_keywords: ["wingdi/GetBrushOrgEx"]
+f1_keywords: 
+ - "wingdi/GetBrushOrgEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
 ms.topic: function
-f1_keywords: ["ntmsapi/SetNtmsObjectAttribute"]
+f1_keywords: 
+ - "ntmsapi/SetNtmsObjectAttribute"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

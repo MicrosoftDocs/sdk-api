@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],SecurityDescriptor property, IX509PrivateKey.SecurityDescriptor, IX509PrivateKey.get_SecurityDescriptor, IX509PrivateKey::SecurityDescriptor, IX509PrivateKey::get_SecurityDescriptor, IX509PrivateKey::put_SecurityDescriptor, SecurityDescriptor property [Security], SecurityDescriptor property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::SecurityDescriptor, certenroll/IX509PrivateKey::get_SecurityDescriptor, certenroll/IX509PrivateKey::put_SecurityDescriptor, get_SecurityDescriptor, security.ix509privatekey_securitydescriptor_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.SecurityDescriptor"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.SecurityDescriptor"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWTSProtocolConnection.CreateVirtualChannel, IWTSProtocolConnection::CreateVirtualChannel, termserv.iwtsprotocolconnection_createvirtualchannel, wtsprotocol/IWTSProtocolConnection::CreateVirtualChannel
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.CreateVirtualChannel"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.CreateVirtualChannel"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

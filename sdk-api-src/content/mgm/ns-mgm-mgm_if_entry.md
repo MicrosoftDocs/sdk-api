@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMGM_IF_ENTRY, MGM_IF_ENTRY, MGM_IF_ENTRY structure [RAS], PMGM_IF_ENTRY, PMGM_IF_ENTRY structure pointer [RAS], _mpr_mgm_if_entry_str, mgm/MGM_IF_ENTRY, mgm/PMGM_IF_ENTRY, rras.mgm_if_entry_str"
 ms.topic: struct
-f1_keywords: ["mgm/MGM_IF_ENTRY"]
+f1_keywords: 
+ - "mgm/MGM_IF_ENTRY"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

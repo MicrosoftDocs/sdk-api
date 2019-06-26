@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],UnregisterTab method, ITaskbarList3.UnregisterTab, ITaskbarList3::UnregisterTab, UnregisterTab, UnregisterTab method [Windows Shell], UnregisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_UnregisterTab, shell.ITaskbarList3_UnregisterTab, shobjidl_core/ITaskbarList3::UnregisterTab
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList3.UnregisterTab"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList3.UnregisterTab"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_KEYFRAME, multimedia.iccompress_COLLISION455, multimedia.iccompress_struct, vfw/ICCOMPRESS
 ms.topic: struct
-f1_keywords: ["vfw/ICCOMPRESS"]
+f1_keywords: 
+ - "vfw/ICCOMPRESS"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

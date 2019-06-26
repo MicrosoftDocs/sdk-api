@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo
 ms.topic: struct
-f1_keywords: ["strmif/DVD_MUA_MixingInfo"]
+f1_keywords: 
+ - "strmif/DVD_MUA_MixingInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

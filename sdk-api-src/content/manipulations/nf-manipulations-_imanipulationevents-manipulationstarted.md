@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
 ms.topic: method
-f1_keywords: ["manipulations/_IManipulationEvents.ManipulationStarted"]
+f1_keywords: 
+ - "manipulations/_IManipulationEvents.ManipulationStarted"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
 ms.topic: function
-f1_keywords: ["tdh/TdhEnumerateProviderFieldInformation"]
+f1_keywords: 
+ - "tdh/TdhEnumerateProviderFieldInformation"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

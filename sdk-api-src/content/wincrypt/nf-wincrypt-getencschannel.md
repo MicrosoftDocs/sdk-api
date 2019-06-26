@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
 ms.topic: function
-f1_keywords: ["wincrypt/GetEncSChannel"]
+f1_keywords: 
+ - "wincrypt/GetEncSChannel"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

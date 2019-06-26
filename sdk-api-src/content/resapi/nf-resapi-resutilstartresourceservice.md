@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster], ResUtilStartResourceService, ResUtilStartResourceService function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE, resapi/ResUtilStartResourceService
 ms.topic: function
-f1_keywords: ["resapi/ResUtilStartResourceService"]
+f1_keywords: 
+ - "resapi/ResUtilStartResourceService"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

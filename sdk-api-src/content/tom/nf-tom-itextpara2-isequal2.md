@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],IsEqual2 method, ITextPara2.IsEqual2, ITextPara2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.IsEqual2"]
+f1_keywords: 
+ - "tom/ITextPara2.IsEqual2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

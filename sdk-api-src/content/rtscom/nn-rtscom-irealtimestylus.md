@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
 ms.topic: interface
-f1_keywords: ["rtscom/IRealTimeStylus"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylus"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

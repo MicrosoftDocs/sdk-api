@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfRanges.Skip"]
+f1_keywords: 
+ - "msctf/IEnumTfRanges.Skip"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

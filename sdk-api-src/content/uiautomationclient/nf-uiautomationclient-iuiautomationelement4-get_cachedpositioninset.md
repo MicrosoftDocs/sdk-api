@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedPositionInSet property [Windows Accessibility], CachedPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedPositionInSet property, IUIAutomationElement4.CachedPositionInSet, IUIAutomationElement4.get_CachedPositionInSet, IUIAutomationElement4::CachedPositionInSet, IUIAutomationElement4::get_CachedPositionInSet, get_CachedPositionInSet, uiautomationclient/IUIAutomationElement4::CachedPositionInSet, uiautomationclient/IUIAutomationElement4::get_CachedPositionInSet, winauto.uiauto_IUIAutomationElement4_CachedPositionInSet
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement4.CachedPositionInSet"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement4.CachedPositionInSet"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

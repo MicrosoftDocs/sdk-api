@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelAlignmentConstants, SelAlignmentConstants enumeration [Tablet PC], fdf5be40-e853-43a5-b1ac-b810c31fbeb3, inked/SelAlignmentConstants, inked/rtfCenter, inked/rtfLeft, inked/rtfRight, rtfCenter, rtfLeft, rtfRight, tablet.selalignmentconstants
 ms.topic: enum
-f1_keywords: ["inked/SelAlignmentConstants"]
+f1_keywords: 
+ - "inked/SelAlignmentConstants"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

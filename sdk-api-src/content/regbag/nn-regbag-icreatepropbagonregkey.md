@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], ICreatePropBagOnRegKey interface [Microsoft TV Technologies],described, ICreatePropBagOnRegKeyInterface, mstv.icreatepropbagonregkey, regbag/ICreatePropBagOnRegKey
 ms.topic: interface
-f1_keywords: ["regbag/ICreatePropBagOnRegKey"]
+f1_keywords: 
+ - "regbag/ICreatePropBagOnRegKey"
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows

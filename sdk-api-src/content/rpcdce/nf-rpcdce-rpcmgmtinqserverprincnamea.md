@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqServerPrincName, RpcMgmtInqServerPrincName function [RPC], RpcMgmtInqServerPrincNameA, RpcMgmtInqServerPrincNameW, _rpc_rpcmgmtinqserverprincname, rpc.rpcmgmtinqserverprincname, rpcdce/RpcMgmtInqServerPrincName, rpcdce/RpcMgmtInqServerPrincNameA, rpcdce/RpcMgmtInqServerPrincNameW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcMgmtInqServerPrincName"]
+f1_keywords: 
+ - "rpcdce/RpcMgmtInqServerPrincName"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

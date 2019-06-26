@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir, IGPMBackupDir, IGPMBackupDir interface [GPMC], IGPMBackupDir interface [GPMC],described, _win32_igpmbackupdir, gpmc.igpmbackupdir, gpmgmt/IGPMBackupDir
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMBackupDir"]
+f1_keywords: 
+ - "gpmgmt/IGPMBackupDir"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

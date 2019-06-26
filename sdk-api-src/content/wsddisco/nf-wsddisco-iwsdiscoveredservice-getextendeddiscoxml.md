@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveredService.GetExtendedDiscoXML"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveredService.GetExtendedDiscoXML"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

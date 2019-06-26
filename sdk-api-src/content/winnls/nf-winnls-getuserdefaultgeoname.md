@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
 ms.topic: function
-f1_keywords: ["winnls/GetUserDefaultGeoName"]
+f1_keywords: 
+ - "winnls/GetUserDefaultGeoName"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

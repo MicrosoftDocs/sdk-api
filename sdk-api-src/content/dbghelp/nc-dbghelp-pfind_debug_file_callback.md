@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
 ms.topic: callback
-f1_keywords: ["dbghelp/FindDebugInfoFileProc"]
+f1_keywords: 
+ - "dbghelp/FindDebugInfoFileProc"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

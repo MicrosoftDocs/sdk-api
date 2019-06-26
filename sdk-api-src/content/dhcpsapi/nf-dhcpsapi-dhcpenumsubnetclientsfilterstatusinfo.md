@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterStatusInfo function [DHCP], dhcp.dhcpenumsubnetclientsfilterstatusinfo, dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonText method, ITPhone.get_ButtonText, ITPhone::get_ButtonText, _tapi3_itphone_get_buttontext, get_ButtonText, get_ButtonText method [TAPI 2.2], get_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttontext, tapi3if/ITPhone::get_ButtonText
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.get_ButtonText"]
+f1_keywords: 
+ - "tapi3if/ITPhone.get_ButtonText"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

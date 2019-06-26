@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
 ms.topic: function
-f1_keywords: ["certpoleng/PstGetCertificates"]
+f1_keywords: 
+ - "certpoleng/PstGetCertificates"
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

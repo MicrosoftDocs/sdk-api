@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAssocHandler.CreateInvoker"]
+f1_keywords: 
+ - "shobjidl_core/IAssocHandler.CreateInvoker"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

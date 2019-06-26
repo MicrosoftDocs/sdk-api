@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7.Initialize, IDirectDraw7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::Initialize, directdraw.idirectdraw7_initialize
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.Initialize"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.Initialize"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

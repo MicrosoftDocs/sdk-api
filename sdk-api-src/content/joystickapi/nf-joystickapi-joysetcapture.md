@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture"
 ms.topic: function
-f1_keywords: ["joystickapi/joySetCapture"]
+f1_keywords: 
+ - "joystickapi/joySetCapture"
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

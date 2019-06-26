@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],TransmissionStart property, IFaxIncomingMessage.TransmissionStart, IFaxIncomingMessage.get_TransmissionStart, IFaxIncomingMessage::TransmissionStart, IFaxIncomingMessage::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.transmissionstart, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionstart_cpp, fax._mfax_faxincomingmessage_transmissionstart, faxcomex/IFaxIncomingMessage::TransmissionStart, faxcomex/IFaxIncomingMessage::get_TransmissionStart, get_TransmissionStart
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingMessage.TransmissionStart"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingMessage.TransmissionStart"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

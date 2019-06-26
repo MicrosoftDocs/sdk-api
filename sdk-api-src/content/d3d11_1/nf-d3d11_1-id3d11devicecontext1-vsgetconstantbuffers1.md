@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],VSGetConstantBuffers1 method, ID3D11DeviceContext1.VSGetConstantBuffers1, ID3D11DeviceContext1::VSGetConstantBuffers1, VSGetConstantBuffers1, VSGetConstantBuffers1 method [Direct3D 11], VSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::VSGetConstantBuffers1, direct3d11.id3d11devicecontext1_vsgetconstantbuffers1
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11DeviceContext1.VSGetConstantBuffers1"]
+f1_keywords: 
+ - "d3d11_1/ID3D11DeviceContext1.VSGetConstantBuffers1"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

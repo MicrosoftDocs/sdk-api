@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Silent property, IX509PrivateKey.Silent, IX509PrivateKey.get_Silent, IX509PrivateKey::Silent, IX509PrivateKey::get_Silent, IX509PrivateKey::put_Silent, Silent property [Security], Silent property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Silent, certenroll/IX509PrivateKey::get_Silent, certenroll/IX509PrivateKey::put_Silent, get_Silent, security.ix509privatekey_silent_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.Silent"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.Silent"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

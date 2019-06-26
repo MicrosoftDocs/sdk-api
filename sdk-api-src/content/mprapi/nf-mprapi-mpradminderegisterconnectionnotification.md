@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminDeregisterConnectionNotification"]
+f1_keywords: 
+ - "mprapi/MprAdminDeregisterConnectionNotification"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

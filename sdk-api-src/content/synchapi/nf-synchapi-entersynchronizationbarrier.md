@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
 ms.topic: function
-f1_keywords: ["synchapi/EnterSynchronizationBarrier"]
+f1_keywords: 
+ - "synchapi/EnterSynchronizationBarrier"
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows

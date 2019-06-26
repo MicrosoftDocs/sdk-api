@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfCleanupContextDurationSink"]
+f1_keywords: 
+ - "msctf/ITfCleanupContextDurationSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

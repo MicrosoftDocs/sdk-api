@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetApartmentType"]
+f1_keywords: 
+ - "combaseapi/CoGetApartmentType"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

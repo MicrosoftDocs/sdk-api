@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetContact method, IDirectManipulationViewport.SetContact, IDirectManipulationViewport::SetContact, SetContact, SetContact method [Direct Manipulation], SetContact method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setcontact, directmanipulation/IDirectManipulationViewport::SetContact
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.SetContact"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.SetContact"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

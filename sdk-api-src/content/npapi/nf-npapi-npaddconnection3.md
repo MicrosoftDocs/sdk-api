@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
 ms.topic: function
-f1_keywords: ["npapi/NPAddConnection3"]
+f1_keywords: 
+ - "npapi/NPAddConnection3"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcStubBuffer.DebugServerQueryInterface"]
+f1_keywords: 
+ - "objidlbase/IRpcStubBuffer.DebugServerQueryInterface"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

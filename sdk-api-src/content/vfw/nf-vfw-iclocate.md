@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICLocate, ICLocate function [Windows Multimedia], ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_FASTCOMPRESS, ICMODE_FASTDECOMPRESS, _win32_ICLocate, multimedia.iclocate, vfw/ICLocate
 ms.topic: function
-f1_keywords: ["vfw/ICLocate"]
+f1_keywords: 
+ - "vfw/ICLocate"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

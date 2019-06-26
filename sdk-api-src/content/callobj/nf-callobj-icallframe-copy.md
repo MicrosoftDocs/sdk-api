@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [COM], Copy method [COM],ICallFrame interface, ICallFrame interface [COM],Copy method, ICallFrame.Copy, ICallFrame::Copy, _com_icallframe_copy, callobj/ICallFrame::Copy, com.icallframe_copy
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.Copy"]
+f1_keywords: 
+ - "callobj/ICallFrame.Copy"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiRollbackDriver, DiRollbackDriver function [Device and Driver Installation], devinst.dirollbackdriver, di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml, newdev/DiRollbackDriver
 ms.topic: function
-f1_keywords: ["newdev/DiRollbackDriver"]
+f1_keywords: 
+ - "newdev/DiRollbackDriver"
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_USE_CTRL_ALT_DEL, PWLX_USE_CTRL_ALT_DEL callback, WlxUseCtrlAltDel, WlxUseCtrlAltDel callback function [Security], _gina_wlxusectrlaltdel, security.wlxusectrlaltdel, winwlx/WlxUseCtrlAltDel
 ms.topic: callback
-f1_keywords: ["winwlx/WlxUseCtrlAltDel"]
+f1_keywords: 
+ - "winwlx/WlxUseCtrlAltDel"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

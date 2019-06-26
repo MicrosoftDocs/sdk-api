@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskArguments property, IAlertDataCollector.TaskArguments, IAlertDataCollector.get_TaskArguments, IAlertDataCollector::TaskArguments, IAlertDataCollector::get_TaskArguments, IAlertDataCollector::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IAlertDataCollector interface, base.ialertdatacollector_taskarguments, get_TaskArguments, pla.ialertdatacollector_taskarguments, pla/IAlertDataCollector::TaskArguments, pla/IAlertDataCollector::get_TaskArguments, pla/IAlertDataCollector::put_TaskArguments
 ms.topic: method
-f1_keywords: ["pla/IAlertDataCollector.TaskArguments"]
+f1_keywords: 
+ - "pla/IAlertDataCollector.TaskArguments"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

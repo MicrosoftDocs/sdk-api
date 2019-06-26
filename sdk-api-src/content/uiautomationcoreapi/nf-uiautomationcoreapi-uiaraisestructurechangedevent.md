@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaRaiseStructureChangedEvent"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaRaiseStructureChangedEvent"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

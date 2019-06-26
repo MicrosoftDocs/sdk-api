@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromResource, GetClusterFromResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE function [Failover Cluster], _wolf_getclusterfromresource, clusapi/GetClusterFromResource, clusapi/PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, mscs.getclusterfromresource
 ms.topic: function
-f1_keywords: ["clusapi/GetClusterFromResource"]
+f1_keywords: 
+ - "clusapi/GetClusterFromResource"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

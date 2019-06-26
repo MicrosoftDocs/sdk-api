@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScrollItemProvider, IScrollItemProvider interface [Windows Accessibility], IScrollItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollItemProvider, uiauto_IScrollItemProvider, uiautomationcore/IScrollItemProvider, winauto.uiauto_IScrollItemProvider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IScrollItemProvider"]
+f1_keywords: 
+ - "uiautomationcore/IScrollItemProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

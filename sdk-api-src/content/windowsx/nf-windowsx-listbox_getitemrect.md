@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_GetItemRect"]
+f1_keywords: 
+ - "windowsx/ListBox_GetItemRect"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

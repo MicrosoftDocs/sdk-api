@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
 ms.topic: function
-f1_keywords: ["d3d9/Direct3DCreate9"]
+f1_keywords: 
+ - "d3d9/Direct3DCreate9"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

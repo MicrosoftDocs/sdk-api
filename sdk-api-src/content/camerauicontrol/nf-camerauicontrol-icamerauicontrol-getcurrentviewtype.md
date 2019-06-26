@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentViewType, GetCurrentViewType method [Windows API], GetCurrentViewType method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetCurrentViewType method, ICameraUIControl.GetCurrentViewType, ICameraUIControl::GetCurrentViewType, camerauicontrol/ICameraUIControl::GetCurrentViewType, winprog.icamerauicontrol_getcurrentviewtype
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControl.GetCurrentViewType"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControl.GetCurrentViewType"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

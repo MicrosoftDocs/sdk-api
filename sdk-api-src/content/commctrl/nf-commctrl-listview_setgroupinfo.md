@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Controls], _win32_ListView_SetGroupInfo, _win32_ListView_SetGroupInfo_cpp, commctrl/ListView_SetGroupInfo, controls.ListView_SetGroupInfo, controls._win32_ListView_SetGroupInfo
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetGroupInfo"]
+f1_keywords: 
+ - "commctrl/ListView_SetGroupInfo"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

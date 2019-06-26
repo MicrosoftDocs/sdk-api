@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],get_Scopes method, IMcastAddressAllocation.get_Scopes, IMcastAddressAllocation::get_Scopes, _tapi3_imcastaddressallocation_get_scopes, get_Scopes, get_Scopes method [TAPI 2.2], get_Scopes method [TAPI 2.2],IMcastAddressAllocation interface, mdhcp/IMcastAddressAllocation::get_Scopes, tapi3.imcastaddressallocation_get_scopes
 ms.topic: method
-f1_keywords: ["mdhcp/IMcastAddressAllocation.get_Scopes"]
+f1_keywords: 
+ - "mdhcp/IMcastAddressAllocation.get_Scopes"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

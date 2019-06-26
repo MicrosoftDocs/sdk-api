@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIScsiInitiatorNodeNameW, GetIscsiInitiatorNodeName, GetIscsiInitiatorNodeName function [iSCSI Discovery Library API], GetIscsiInitiatorNodeNameA, GetIscsiInitiatorNodeNameW, iscsidisc.getiscsiinitiatornodename, iscsidsc/GetIscsiInitiatorNodeName, iscsidsc/GetIscsiInitiatorNodeNameA, iscsidsc/GetIscsiInitiatorNodeNameW
 ms.topic: function
-f1_keywords: ["iscsidsc/GetIscsiInitiatorNodeName"]
+f1_keywords: 
+ - "iscsidsc/GetIscsiInitiatorNodeName"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

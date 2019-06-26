@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method [Direct3D 11], ClearRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],ClearRetrievalFilter method, ID3D11InfoQueue.ClearRetrievalFilter, ID3D11InfoQueue::ClearRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::ClearRetrievalFilter, d7c11d24-11e8-c43e-13bb-fa939c558aad, direct3d11.id3d11infoqueue_clearretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.ClearRetrievalFilter"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.ClearRetrievalFilter"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

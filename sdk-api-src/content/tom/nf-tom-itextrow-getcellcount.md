@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellCount, GetCellCount method [Windows Controls], GetCellCount method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCount method, ITextRow.GetCellCount, ITextRow::GetCellCount, controls.itextrow_getcellcount, tom/ITextRow::GetCellCount
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellCount"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellCount"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

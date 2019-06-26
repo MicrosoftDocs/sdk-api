@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeRefProps, GetTypeRefProps method [Windows Runtime], GetTypeRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeRefProps method, IMetaDataImport.GetTypeRefProps, IMetaDataImport::GetTypeRefProps, rometadataapi/IMetaDataImport::GetTypeRefProps, winrt.imetadataimport_gettyperefprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetTypeRefProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetTypeRefProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

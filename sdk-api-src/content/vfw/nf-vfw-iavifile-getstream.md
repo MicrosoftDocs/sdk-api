@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
 ms.topic: method
-f1_keywords: ["vfw/IAVIFile.GetStream"]
+f1_keywords: 
+ - "vfw/IAVIFile.GetStream"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

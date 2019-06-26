@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabOrder method, ITaskbarList3.SetTabOrder, ITaskbarList3::SetTabOrder, SetTabOrder, SetTabOrder method [Windows Shell], SetTabOrder method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabOrder, shell.ITaskbarList3_SetTabOrder, shobjidl_core/ITaskbarList3::SetTabOrder
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList3.SetTabOrder"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList3.SetTabOrder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationTreeWalker"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTreeWalker"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

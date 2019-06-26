@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount (IPropertyStore), GetCount method [Audio Devices], GetCount method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetCount method, IPropertyStore.GetCount, IPropertyStore::GetCount, audio.ipropertystore_getcount, audio_syseffects_r_2670eef9-2f2a-4e3d-8a43-d8d61a9ebce5.xml, propsys/IPropertyStore::GetCount
 ms.topic: method
-f1_keywords: ["propsys/IPropertyStore.GetCount"]
+f1_keywords: 
+ - "propsys/IPropertyStore.GetCount"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextSink, ITfCleanupContextSink interface [Text Services Framework], ITfCleanupContextSink interface [Text Services Framework],described, _tsf_itfcleanupcontextsink_ref, msctf/ITfCleanupContextSink, tsf.itfcleanupcontextsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfCleanupContextSink"]
+f1_keywords: 
+ - "msctf/ITfCleanupContextSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

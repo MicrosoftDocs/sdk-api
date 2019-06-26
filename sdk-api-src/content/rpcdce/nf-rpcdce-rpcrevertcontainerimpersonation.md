@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
 ms.topic: function
-f1_keywords: ["rpcdce/RpcRevertContainerImpersonation"]
+f1_keywords: 
+ - "rpcdce/RpcRevertContainerImpersonation"
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

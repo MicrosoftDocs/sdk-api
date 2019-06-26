@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],Count property, IOCSPPropertyCollection.Count, IOCSPPropertyCollection.get_Count, IOCSPPropertyCollection::Count, IOCSPPropertyCollection::get_Count, certadm/IOCSPPropertyCollection::Count, certadm/IOCSPPropertyCollection::get_Count, get_Count, security.iocsppropertycollection_count_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPPropertyCollection.Count"]
+f1_keywords: 
+ - "certadm/IOCSPPropertyCollection.Count"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

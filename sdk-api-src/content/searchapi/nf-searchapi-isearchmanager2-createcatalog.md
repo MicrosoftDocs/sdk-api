@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCatalog, CreateCatalog method [search], CreateCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],CreateCatalog method, ISearchManager2.CreateCatalog, ISearchManager2::CreateCatalog, search.isearchmanager2_createcatalog, searchapi/ISearchManager2::CreateCatalog
 ms.topic: method
-f1_keywords: ["searchapi/ISearchManager2.CreateCatalog"]
+f1_keywords: 
+ - "searchapi/ISearchManager2.CreateCatalog"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

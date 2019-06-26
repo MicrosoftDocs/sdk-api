@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions"]
+f1_keywords: 
+ - "wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

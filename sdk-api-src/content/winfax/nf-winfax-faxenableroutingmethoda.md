@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxEnableRoutingMethod, FaxEnableRoutingMethod function [Fax Service], FaxEnableRoutingMethodA, FaxEnableRoutingMethodW, _mfax_faxenableroutingmethod, fax._mfax_faxenableroutingmethod, winfax/FaxEnableRoutingMethod, winfax/FaxEnableRoutingMethodA, winfax/FaxEnableRoutingMethodW
 ms.topic: function
-f1_keywords: ["winfax/FaxEnableRoutingMethod"]
+f1_keywords: 
+ - "winfax/FaxEnableRoutingMethod"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 ms.topic: function
-f1_keywords: ["winuser/CharToOem"]
+f1_keywords: 
+ - "winuser/CharToOem"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetService method, IMFCaptureSink.GetService, IMFCaptureSink::GetService, mf.imfcapturesink_getservice, mfcaptureengine/IMFCaptureSink::GetService
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSink.GetService"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSink.GetService"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

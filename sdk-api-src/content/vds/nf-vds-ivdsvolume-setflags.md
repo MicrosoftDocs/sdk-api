@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
 ms.topic: method
-f1_keywords: ["vds/IVdsVolume.SetFlags"]
+f1_keywords: 
+ - "vds/IVdsVolume.SetFlags"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

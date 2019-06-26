@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGetDriverDescription, capGetDriverDescription, capGetDriverDescription function [Windows Multimedia], capGetDriverDescriptionA, capGetDriverDescriptionW, multimedia.capgetdriverdescription, vfw/capGetDriverDescription, vfw/capGetDriverDescriptionA, vfw/capGetDriverDescriptionW"
 ms.topic: function
-f1_keywords: ["vfw/capGetDriverDescription"]
+f1_keywords: 
+ - "vfw/capGetDriverDescription"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

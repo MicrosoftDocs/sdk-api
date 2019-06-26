@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
 ms.topic: enum
-f1_keywords: ["dsrole/DSROLE_OPERATION_STATE"]
+f1_keywords: 
+ - "dsrole/DSROLE_OPERATION_STATE"
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

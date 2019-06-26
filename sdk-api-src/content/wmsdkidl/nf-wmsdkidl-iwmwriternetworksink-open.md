@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterNetworkSink.Open"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterNetworkSink.Open"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

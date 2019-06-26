@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSelectBestCompatDrv, SetupDiSelectBestCompatDrv function [Device and Driver Installation], devinst.setupdiselectbestcompatdrv, di-rtns_3dee9465-1e0f-4efc-beb2-280c6b2621e9.xml, setupapi/SetupDiSelectBestCompatDrv
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiSelectBestCompatDrv"]
+f1_keywords: 
+ - "setupapi/SetupDiSelectBestCompatDrv"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

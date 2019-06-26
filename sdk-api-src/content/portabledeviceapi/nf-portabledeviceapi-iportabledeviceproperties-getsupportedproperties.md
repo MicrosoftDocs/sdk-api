@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProperties, GetSupportedProperties method [Windows Portable Devices SDK], GetSupportedProperties method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetSupportedProperties method, IPortableDeviceProperties.GetSupportedProperties, IPortableDeviceProperties::GetSupportedProperties, IPortableDevicePropertiesGetSupportedProperties, portabledeviceapi/IPortableDeviceProperties::GetSupportedProperties, wpdsdk.iportabledeviceproperties_getsupportedproperties
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceProperties.GetSupportedProperties"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceProperties.GetSupportedProperties"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

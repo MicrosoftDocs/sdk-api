@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API], secbiomet.winbio_engine_interface, winbio_adapter/PWINBIO_ENGINE_INTERFACE, winbio_adapter/WINBIO_ENGINE_INTERFACE"
 ms.topic: struct
-f1_keywords: ["winbio_adapter/WINBIO_ENGINE_INTERFACE"]
+f1_keywords: 
+ - "winbio_adapter/WINBIO_ENGINE_INTERFACE"
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

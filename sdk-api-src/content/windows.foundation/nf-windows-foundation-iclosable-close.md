@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IClosable interface, IClosable interface [Windows Runtime],Close method, IClosable.Close, IClosable.IClosable, IClosable::Close, IClosable::IClosable, windows/IClosable::Close, winrt.iclosable_close
 ms.topic: method
-f1_keywords: ["windows.foundation/IClosable.Close"]
+f1_keywords: 
+ - "windows.foundation/IClosable.Close"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

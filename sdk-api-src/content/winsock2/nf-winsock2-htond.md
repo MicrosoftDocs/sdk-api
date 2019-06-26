@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
 ms.topic: function
-f1_keywords: ["winsock2/htond"]
+f1_keywords: 
+ - "winsock2/htond"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

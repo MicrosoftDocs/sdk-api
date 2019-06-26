@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateTempFile"]
+f1_keywords: 
+ - "mfapi/MFCreateTempFile"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

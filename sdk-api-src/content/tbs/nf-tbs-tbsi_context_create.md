@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
 ms.topic: function
-f1_keywords: ["tbs/Tbsi_Context_Create"]
+f1_keywords: 
+ - "tbs/Tbsi_Context_Create"
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

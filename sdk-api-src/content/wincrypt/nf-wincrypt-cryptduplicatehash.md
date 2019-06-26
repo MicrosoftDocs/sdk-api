@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.topic: function
-f1_keywords: ["wincrypt/CryptDuplicateHash"]
+f1_keywords: 
+ - "wincrypt/CryptDuplicateHash"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

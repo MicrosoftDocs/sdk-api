@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartEndFlag, GetStartEndFlag method [Microsoft TV Technologies], GetStartEndFlag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetStartEndFlag method, IIsdbEmergencyInformationDescriptor.GetStartEndFlag, IIsdbEmergencyInformationDescriptor::GetStartEndFlag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag, mstv.iisdbemergencyinformationdescriptor_getstartendflag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbEmergencyInformationDescriptor.GetStartEndFlag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetStartEndFlag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

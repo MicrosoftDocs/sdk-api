@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncRead method, IAsyncReader.SyncRead, IAsyncReader::SyncRead, IAsyncReaderSyncRead, SyncRead, SyncRead method [DirectShow], SyncRead method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncread, strmif/IAsyncReader::SyncRead
 ms.topic: method
-f1_keywords: ["strmif/IAsyncReader.SyncRead"]
+f1_keywords: 
+ - "strmif/IAsyncReader.SyncRead"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmFileManagementLoggingFlags, FsrmFileManagementLoggingFlags enumeration [File Server Resource Manager], FsrmFileManagementLoggingFlags_Audit, FsrmFileManagementLoggingFlags_Error, FsrmFileManagementLoggingFlags_Information, FsrmFileManagementLoggingFlags_None, fs.fsrmfilemanagementloggingflags, fsrm.fsrmfilemanagementloggingflags, fsrmenums/FsrmFileManagementLoggingFlags, fsrmenums/FsrmFileManagementLoggingFlags_Audit, fsrmenums/FsrmFileManagementLoggingFlags_Error, fsrmenums/FsrmFileManagementLoggingFlags_Information, fsrmenums/FsrmFileManagementLoggingFlags_None
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmFileManagementLoggingFlags"]
+f1_keywords: 
+ - "fsrmenums/FsrmFileManagementLoggingFlags"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

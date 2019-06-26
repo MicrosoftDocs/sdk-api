@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],RefreshDirectoryObject method, ITDirectory.RefreshDirectoryObject, ITDirectory::RefreshDirectoryObject, RefreshDirectoryObject, RefreshDirectoryObject method [TAPI 2.2], RefreshDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_refreshdirectoryobject, rend/ITDirectory::RefreshDirectoryObject, tapi3.itdirectory_refreshdirectoryobject
 ms.topic: method
-f1_keywords: ["rend/ITDirectory.RefreshDirectoryObject"]
+f1_keywords: 
+ - "rend/ITDirectory.RefreshDirectoryObject"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

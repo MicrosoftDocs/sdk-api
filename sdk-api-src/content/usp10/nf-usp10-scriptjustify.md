@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
 ms.topic: function
-f1_keywords: ["usp10/ScriptJustify"]
+f1_keywords: 
+ - "usp10/ScriptJustify"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

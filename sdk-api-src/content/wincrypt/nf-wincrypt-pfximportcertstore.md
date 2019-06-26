@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PFXImportCertStore, PFXImportCertStore function [Security], PKCS12_ALLOW_OVERWRITE_KEY, PKCS12_ALWAYS_CNG_KSP, PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_NO_PERSIST_KEY, PKCS12_PREFER_CNG_KSP, _crypto2_pfximportcertstore, security.pfximportcertstore, wincrypt/PFXImportCertStore
 ms.topic: function
-f1_keywords: ["wincrypt/PFXImportCertStore"]
+f1_keywords: 
+ - "wincrypt/PFXImportCertStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

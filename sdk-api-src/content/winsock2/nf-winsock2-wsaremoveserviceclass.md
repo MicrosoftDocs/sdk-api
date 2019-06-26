@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
 ms.topic: function
-f1_keywords: ["winsock2/WSARemoveServiceClass"]
+f1_keywords: 
+ - "winsock2/WSARemoveServiceClass"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

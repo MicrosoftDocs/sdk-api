@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorCount, GetColorCount method [Windows Imaging Component], GetColorCount method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColorCount method, IWICPalette.GetColorCount, IWICPalette::GetColorCount, _wic_codec_iwicpalette_getcolorcount, wic._wic_codec_iwicpalette_getcolorcount, wincodec/IWICPalette::GetColorCount
 ms.topic: method
-f1_keywords: ["wincodec/IWICPalette.GetColorCount"]
+f1_keywords: 
+ - "wincodec/IWICPalette.GetColorCount"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

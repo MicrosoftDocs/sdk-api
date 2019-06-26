@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGenRandom"]
+f1_keywords: 
+ - "wincrypt/CryptGenRandom"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

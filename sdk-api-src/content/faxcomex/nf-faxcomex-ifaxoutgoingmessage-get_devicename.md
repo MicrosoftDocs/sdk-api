@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DeviceName property, IFaxOutgoingMessage.DeviceName, IFaxOutgoingMessage.get_DeviceName, IFaxOutgoingMessage::DeviceName, IFaxOutgoingMessage::get_DeviceName, _mfax_faxoutgoingmessage.devicename, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp, fax._mfax_faxoutgoingmessage_devicename, faxcomex/IFaxOutgoingMessage::DeviceName, faxcomex/IFaxOutgoingMessage::get_DeviceName, get_DeviceName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingMessage.DeviceName"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingMessage.DeviceName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

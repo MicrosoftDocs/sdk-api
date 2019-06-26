@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE, CRED_PROTECTION_TYPE enumeration [Security], CredTrustedProtection, CredUnprotected, CredUserProtection, PCRED_PROTECTION_TYPE, PCRED_PROTECTION_TYPE enumeration pointer [Security], security.cred_protection_type, wincred/CRED_PROTECTION_TYPE, wincred/CredTrustedProtection, wincred/CredUnprotected, wincred/CredUserProtection, wincred/PCRED_PROTECTION_TYPE"
 ms.topic: enum
-f1_keywords: ["wincred/CRED_PROTECTION_TYPE"]
+f1_keywords: 
+ - "wincred/CRED_PROTECTION_TYPE"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

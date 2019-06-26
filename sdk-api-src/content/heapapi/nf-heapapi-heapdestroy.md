@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
 ms.topic: function
-f1_keywords: ["heapapi/HeapDestroy"]
+f1_keywords: 
+ - "heapapi/HeapDestroy"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

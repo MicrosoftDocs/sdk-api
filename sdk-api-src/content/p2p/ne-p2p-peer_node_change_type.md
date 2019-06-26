@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_NODE_CHANGE_CONNECTED, PEER_NODE_CHANGE_DISCONNECTED, PEER_NODE_CHANGE_TYPE, PEER_NODE_CHANGE_TYPE enumeration [Peer Networking], PEER_NODE_CHANGE_UPDATED, p2p.peer_node_change_type, p2p/PEER_NODE_CHANGE_CONNECTED, p2p/PEER_NODE_CHANGE_DISCONNECTED, p2p/PEER_NODE_CHANGE_TYPE, p2p/PEER_NODE_CHANGE_UPDATED
 ms.topic: enum
-f1_keywords: ["p2p/PEER_NODE_CHANGE_TYPE"]
+f1_keywords: 
+ - "p2p/PEER_NODE_CHANGE_TYPE"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

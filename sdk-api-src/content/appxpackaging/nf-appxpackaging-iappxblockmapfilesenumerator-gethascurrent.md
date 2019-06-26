@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapFilesEnumerator.GetHasCurrent, IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpkg.iappxblockmapfilesenumerator_gethascurrent
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBlockMapFilesEnumerator.GetHasCurrent"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapFilesEnumerator.GetHasCurrent"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_CAPTURE_ENGINE_DEVICE_TYPE, MF_CAPTURE_ENGINE_DEVICE_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO, mf.mf_capture_engine_device_type, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO
 ms.topic: enum
-f1_keywords: ["mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE"]
+f1_keywords: 
+ - "mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

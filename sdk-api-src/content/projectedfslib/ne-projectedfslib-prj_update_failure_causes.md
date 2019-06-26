@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_UPDATE_FAILURE_CAUSES, PRJ_UPDATE_FAILURE_CAUSES enumeration, PRJ_UPDATE_FAILURE_CAUSE_DIRTY_DATA, PRJ_UPDATE_FAILURE_CAUSE_DIRTY_METADATA, PRJ_UPDATE_FAILURE_CAUSE_NONE, PRJ_UPDATE_FAILURE_CAUSE_READ_ONLY, PRJ_UPDATE_FAILURE_CAUSE_TOMBSTONE, ProjFS.prj_update_failure_causes, projectedfslib/PRJ_UPDATE_FAILURE_CAUSES, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_DIRTY_DATA, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_DIRTY_METADATA, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_NONE, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_READ_ONLY, projectedfslib/PRJ_UPDATE_FAILURE_CAUSE_TOMBSTONE
 ms.topic: enum
-f1_keywords: ["projectedfslib/PRJ_UPDATE_FAILURE_CAUSES"]
+f1_keywords: 
+ - "projectedfslib/PRJ_UPDATE_FAILURE_CAUSES"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

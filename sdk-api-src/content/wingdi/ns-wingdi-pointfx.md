@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPOINTFX, LPPOINTFX, LPPOINTFX structure pointer [Windows GDI], POINTFX, POINTFX structure [Windows GDI], _win32_POINTFX_str, gdi.pointfx, wingdi/LPPOINTFX, wingdi/POINTFX"
 ms.topic: struct
-f1_keywords: ["wingdi/POINTFX"]
+f1_keywords: 
+ - "wingdi/POINTFX"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

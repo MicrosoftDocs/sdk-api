@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
 ms.topic: function
-f1_keywords: ["stringapiset/CompareString"]
+f1_keywords: 
+ - "stringapiset/CompareString"
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

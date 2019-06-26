@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],IsProfileAvailableForLang method, ITfFnLangProfileUtil.IsProfileAvailableForLang, ITfFnLangProfileUtil::IsProfileAvailableForLang, IsProfileAvailableForLang, IsProfileAvailableForLang method [Text Services Framework], IsProfileAvailableForLang method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_isprofileavailableforlang_ref, ctffunc/ITfFnLangProfileUtil::IsProfileAvailableForLang, tsf.itffnlangprofileutil_isprofileavailableforlang
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnLangProfileUtil.IsProfileAvailableForLang"]
+f1_keywords: 
+ - "ctffunc/ITfFnLangProfileUtil.IsProfileAvailableForLang"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
 ms.topic: interface
-f1_keywords: ["iads/IADsTypedName"]
+f1_keywords: 
+ - "iads/IADsTypedName"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

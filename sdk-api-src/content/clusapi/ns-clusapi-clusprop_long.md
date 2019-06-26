@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_LONG, CLUSPROP_LONG, CLUSPROP_LONG structure [Failover Cluster], PCLUSPROP_LONG, PCLUSPROP_LONG structure pointer [Failover Cluster], _wolf_clusprop_long, clusapi/CLUSPROP_LONG, clusapi/PCLUSPROP_LONG, mscs.clusprop_long"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSPROP_LONG"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_LONG"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

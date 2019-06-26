@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
 ms.topic: method
-f1_keywords: ["propsys/IObjectWithPropertyKey.SetPropertyKey"]
+f1_keywords: 
+ - "propsys/IObjectWithPropertyKey.SetPropertyKey"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

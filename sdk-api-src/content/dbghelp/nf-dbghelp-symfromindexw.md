@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 ms.topic: function
-f1_keywords: ["dbghelp/SymFromIndex"]
+f1_keywords: 
+ - "dbghelp/SymFromIndex"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GW_CHILD, GW_ENABLEDPOPUP, GW_HWNDFIRST, GW_HWNDLAST, GW_HWNDNEXT, GW_HWNDPREV, GW_OWNER, GetWindow, GetWindow function [Windows and Messages], _win32_GetWindow, _win32_getwindow_cpp, winmsg.getwindow, winui._win32_getwindow, winuser/GetWindow
 ms.topic: function
-f1_keywords: ["winuser/GetWindow"]
+f1_keywords: 
+ - "winuser/GetWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

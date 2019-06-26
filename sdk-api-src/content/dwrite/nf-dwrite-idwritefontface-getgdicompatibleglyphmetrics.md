@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphMetrics, GetGdiCompatibleGlyphMetrics method [Direct Write], GetGdiCompatibleGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleGlyphMetrics method, IDWriteFontFace.GetGdiCompatibleGlyphMetrics, IDWriteFontFace::GetGdiCompatibleGlyphMetrics, directwrite.idwritefontface_getgdicompatibleglyphmetrics, dwrite/IDWriteFontFace::GetGdiCompatibleGlyphMetrics
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetGdiCompatibleGlyphMetrics"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetGdiCompatibleGlyphMetrics"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

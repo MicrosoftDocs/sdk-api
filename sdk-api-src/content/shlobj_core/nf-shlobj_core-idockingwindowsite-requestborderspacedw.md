@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],RequestBorderSpaceDW method, IDockingWindowSite.RequestBorderSpaceDW, IDockingWindowSite::RequestBorderSpaceDW, RequestBorderSpaceDW, RequestBorderSpaceDW method [Windows Shell], RequestBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_RequestBorderSpaceDW, shell.IDockingWindowSite_RequestBorderSpaceDW, shlobj_core/IDockingWindowSite::RequestBorderSpaceDW
 ms.topic: method
-f1_keywords: ["shlobj_core/IDockingWindowSite.RequestBorderSpaceDW"]
+f1_keywords: 
+ - "shlobj_core/IDockingWindowSite.RequestBorderSpaceDW"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

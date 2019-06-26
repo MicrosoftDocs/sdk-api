@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_GetElementCount, MI_PropertySet_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_GetElementCount, wmi_v2.mi_propertyset_getelementcount
 ms.topic: function
-f1_keywords: ["mi/MI_PropertySet_GetElementCount"]
+f1_keywords: 
+ - "mi/MI_PropertySet_GetElementCount"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumManifestResources method, IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.EnumManifestResources"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.EnumManifestResources"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

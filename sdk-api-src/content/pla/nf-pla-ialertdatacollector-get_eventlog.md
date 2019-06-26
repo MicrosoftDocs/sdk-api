@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventLog property [PLA], EventLog property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],EventLog property, IAlertDataCollector.EventLog, IAlertDataCollector.get_EventLog, IAlertDataCollector::EventLog, IAlertDataCollector::get_EventLog, IAlertDataCollector::put_EventLog, base.ialertdatacollector_eventlog, get_EventLog, pla.ialertdatacollector_eventlog, pla/IAlertDataCollector::EventLog, pla/IAlertDataCollector::get_EventLog, pla/IAlertDataCollector::put_EventLog
 ms.topic: method
-f1_keywords: ["pla/IAlertDataCollector.EventLog"]
+f1_keywords: 
+ - "pla/IAlertDataCollector.EventLog"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

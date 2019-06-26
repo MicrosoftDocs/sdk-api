@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecMul, VarDecMul function [Automation], _oa96_VarDecMul, automat.vardecmul, oleauto/VarDecMul
 ms.topic: function
-f1_keywords: ["oleauto/VarDecMul"]
+f1_keywords: 
+ - "oleauto/VarDecMul"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

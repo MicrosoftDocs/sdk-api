@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER, SMEXF_SERVER, _com_CoGetStdMarshalEx, com.cogetstdmarshalex, combaseapi/CoGetStdMarshalEx
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetStdMarshalEx"]
+f1_keywords: 
+ - "combaseapi/CoGetStdMarshalEx"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateShadowEffect, CreateShadowEffect method [DirectComposition], CreateShadowEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateShadowEffect method, IDCompositionDevice3.CreateShadowEffect, IDCompositionDevice3::CreateShadowEffect, dcomp/IDCompositionDevice3::CreateShadowEffect, directcomp.idcompositiondevice3_createshadoweffect
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice3.CreateShadowEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice3.CreateShadowEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

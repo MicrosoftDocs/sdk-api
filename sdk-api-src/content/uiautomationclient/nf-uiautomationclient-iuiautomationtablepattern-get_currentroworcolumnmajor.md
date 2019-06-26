@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentRowOrColumnMajor property [Windows Accessibility], CurrentRowOrColumnMajor property [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],CurrentRowOrColumnMajor property, IUIAutomationTablePattern.CurrentRowOrColumnMajor, IUIAutomationTablePattern.get_CurrentRowOrColumnMajor, IUIAutomationTablePattern::CurrentRowOrColumnMajor, IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, get_CurrentRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CurrentRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CurrentRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CurrentRowOrColumnMajor
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTablePattern.CurrentRowOrColumnMajor"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTablePattern.CurrentRowOrColumnMajor"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

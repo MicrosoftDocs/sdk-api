@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDevRegKey, SetupDiDeleteDevRegKey function [Device and Driver Installation], devinst.setupdideletedevregkey, di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml, setupapi/SetupDiDeleteDevRegKey
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiDeleteDevRegKey"]
+f1_keywords: 
+ - "setupapi/SetupDiDeleteDevRegKey"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

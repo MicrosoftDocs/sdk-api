@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX"
 ms.topic: struct
-f1_keywords: ["dbghelp/STACKFRAME_EX"]
+f1_keywords: 
+ - "dbghelp/STACKFRAME_EX"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: ["control/IMediaPosition.get_PrerollTime"]
+f1_keywords: 
+ - "control/IMediaPosition.get_PrerollTime"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

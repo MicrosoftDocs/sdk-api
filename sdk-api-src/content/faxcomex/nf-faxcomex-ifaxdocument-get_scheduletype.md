@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ScheduleType property, IFaxDocument.ScheduleType, IFaxDocument.get_ScheduleType, IFaxDocument.put_ScheduleType, IFaxDocument::ScheduleType, IFaxDocument::get_ScheduleType, IFaxDocument::put_ScheduleType, ScheduleType property [Fax Service], ScheduleType property [Fax Service],IFaxDocument interface, _mfax_faxdocument.scheduletype, fax._mfax_faxdocument_cpp_mfax_faxdocument_scheduletype_cpp, fax._mfax_faxdocument_scheduletype, faxcomex/IFaxDocument::ScheduleType, faxcomex/IFaxDocument::get_ScheduleType, faxcomex/IFaxDocument::put_ScheduleType, get_ScheduleType
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.ScheduleType"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.ScheduleType"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

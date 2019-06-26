@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], IRawElementProviderFragment interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderFragment, uiauto_IRawElementProviderFragment, uiautomationcore/IRawElementProviderFragment, winauto.uiauto_IRawElementProviderFragment
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IRawElementProviderFragment"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderFragment"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

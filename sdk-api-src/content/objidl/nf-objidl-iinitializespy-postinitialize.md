@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PostInitialize method, IInitializeSpy.PostInitialize, IInitializeSpy::PostInitialize, PostInitialize, PostInitialize method [COM], PostInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
 ms.topic: method
-f1_keywords: ["objidl/IInitializeSpy.PostInitialize"]
+f1_keywords: 
+ - "objidl/IInitializeSpy.PostInitialize"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

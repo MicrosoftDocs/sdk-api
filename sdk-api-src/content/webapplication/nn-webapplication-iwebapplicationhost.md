@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps],described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
 ms.topic: interface
-f1_keywords: ["webapplication/IWebApplicationHost"]
+f1_keywords: 
+ - "webapplication/IWebApplicationHost"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

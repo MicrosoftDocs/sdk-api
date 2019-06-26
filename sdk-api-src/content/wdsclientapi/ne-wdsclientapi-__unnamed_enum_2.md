@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WDS_LOG_LEVEL, WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, __unnamed_enum_2, enumeration [Windows Deployment Services], wds.wds_log_level, wdsclientapi/, wdsclientapi/WDS_LOG_LEVEL_DISABLED, wdsclientapi/WDS_LOG_LEVEL_ERROR, wdsclientapi/WDS_LOG_LEVEL_INFO, wdsclientapi/WDS_LOG_LEVEL_WARNING
 ms.topic: enum
-f1_keywords: ["wdsclientapi/WDS_LOG_LEVEL"]
+f1_keywords: 
+ - "wdsclientapi/WDS_LOG_LEVEL"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

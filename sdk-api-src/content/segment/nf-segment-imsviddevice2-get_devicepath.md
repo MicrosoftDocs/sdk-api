@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice2 interface [Microsoft TV Technologies],get_DevicePath method, IMSVidDevice2.get_DevicePath, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies],IMSVidDevice2 interface, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
 ms.topic: method
-f1_keywords: ["segment/IMSVidDevice2.get_DevicePath"]
+f1_keywords: 
+ - "segment/IMSVidDevice2.get_DevicePath"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

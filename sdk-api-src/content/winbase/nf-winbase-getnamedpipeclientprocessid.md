@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientProcessId, GetNamedPipeClientProcessId function, base.getnamedpipeclientprocessid, winbase/GetNamedPipeClientProcessId
 ms.topic: function
-f1_keywords: ["winbase/GetNamedPipeClientProcessId"]
+f1_keywords: 
+ - "winbase/GetNamedPipeClientProcessId"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

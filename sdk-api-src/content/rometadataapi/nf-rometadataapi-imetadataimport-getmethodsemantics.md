@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMethodSemantics, GetMethodSemantics method [Windows Runtime], GetMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodSemantics method, IMetaDataImport.GetMethodSemantics, IMetaDataImport::GetMethodSemantics, rometadataapi/IMetaDataImport::GetMethodSemantics, winrt.imetadataimport_getmethodsemantics
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetMethodSemantics"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetMethodSemantics"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

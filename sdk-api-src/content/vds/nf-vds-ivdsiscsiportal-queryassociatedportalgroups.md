@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],QueryAssociatedPortalGroups method, IVdsIscsiPortal.QueryAssociatedPortalGroups, IVdsIscsiPortal::QueryAssociatedPortalGroups, QueryAssociatedPortalGroups, QueryAssociatedPortalGroups method [VDS], QueryAssociatedPortalGroups method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_queryassociatedportalgroups, vds/IVdsIscsiPortal::QueryAssociatedPortalGroups, vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiPortal.QueryAssociatedPortalGroups"]
+f1_keywords: 
+ - "vds/IVdsIscsiPortal.QueryAssociatedPortalGroups"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

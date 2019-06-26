@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClockVectorElement, IClockVectorElement interface [Windows Sync], IClockVectorElement interface [Windows Sync],described, winsync.iclockvectorelement, winsync/IClockVectorElement
 ms.topic: interface
-f1_keywords: ["winsync/IClockVectorElement"]
+f1_keywords: 
+ - "winsync/IClockVectorElement"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

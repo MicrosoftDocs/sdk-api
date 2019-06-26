@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectivityInfo property [RDP], ConnectivityInfo property [RDP],IRDPSRAPIAttendee interface, ConnectivityInfo property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ConnectivityInfo property, IRDPSRAPIAttendee.ConnectivityInfo, IRDPSRAPIAttendee.get_ConnectivityInfo, IRDPSRAPIAttendee::ConnectivityInfo, IRDPSRAPIAttendee::get_ConnectivityInfo, RDPSRAPIAttendee object [RDP],ConnectivityInfo property, get_ConnectivityInfo, rdp.irdpsrapiattendee_connectivityinfo, rdpencomapi/IRDPSRAPIAttendee::ConnectivityInfo, rdpencomapi/IRDPSRAPIAttendee::get_ConnectivityInfo
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAttendee.ConnectivityInfo"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAttendee.ConnectivityInfo"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

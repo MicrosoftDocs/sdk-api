@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationAxis, XMMatrixRotationAxis, XMMatrixRotationAxis method [DirectX Math Support APIs], dxmath.xmmatrixrotationaxis
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixRotationAxis"]
+f1_keywords: 
+ - "directxmath/XMMatrixRotationAxis"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

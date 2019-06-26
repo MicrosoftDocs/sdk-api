@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [DirectShow], DXVA_COPPStatusDataStructure, _DXVA_COPPStatusData, dshow.dxva_coppstatusdata, dxva9typ/DXVA_COPPStatusData
 ms.topic: struct
-f1_keywords: ["dxva9typ/DXVA_COPPStatusData"]
+f1_keywords: 
+ - "dxva9typ/DXVA_COPPStatusData"
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

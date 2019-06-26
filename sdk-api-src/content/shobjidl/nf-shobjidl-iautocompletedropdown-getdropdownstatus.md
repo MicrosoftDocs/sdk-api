@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
 ms.topic: method
-f1_keywords: ["shobjidl/IAutoCompleteDropDown.GetDropDownStatus"]
+f1_keywords: 
+ - "shobjidl/IAutoCompleteDropDown.GetDropDownStatus"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

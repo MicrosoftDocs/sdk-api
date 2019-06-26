@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueSize, GetValueSize method [Direct2D], GetValueSize method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueSize method, ID2D1Properties.GetValueSize, ID2D1Properties.GetValueSize(U,), ID2D1Properties::GetValueSize, ID2D1Properties::GetValueSize(U), ID2D1Properties::GetValueSize(U,), d2d1_1/ID2D1Properties::GetValueSize, direct2d.id2d1properties_getvaluesize2
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Properties.GetValueSize"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Properties.GetValueSize"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

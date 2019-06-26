@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
 ms.topic: function
-f1_keywords: ["filehc/AssociateFileEx"]
+f1_keywords: 
+ - "filehc/AssociateFileEx"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

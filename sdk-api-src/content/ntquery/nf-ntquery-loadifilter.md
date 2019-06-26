@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadIFilter, LoadIFilter function [Indexing Service], _idxs_LoadIFilter, indexsrv.loadifilter, ntquery/LoadIFilter
 ms.topic: function
-f1_keywords: ["ntquery/LoadIFilter"]
+f1_keywords: 
+ - "ntquery/LoadIFilter"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

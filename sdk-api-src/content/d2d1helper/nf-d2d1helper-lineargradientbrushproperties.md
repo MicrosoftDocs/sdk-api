@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrushProperties, LinearGradientBrushProperties function [Direct2D], d2d1helper/LinearGradientBrushProperties, direct2d.lineargradientbrushproperties
 ms.topic: function
-f1_keywords: ["d2d1helper/LinearGradientBrushProperties"]
+f1_keywords: 
+ - "d2d1helper/LinearGradientBrushProperties"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

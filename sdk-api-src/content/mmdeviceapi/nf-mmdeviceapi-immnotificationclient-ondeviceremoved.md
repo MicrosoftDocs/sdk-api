@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceRemoved method, IMMNotificationClient.OnDeviceRemoved, IMMNotificationClient::OnDeviceRemoved, IMMNotificationClientOnDeviceRemoved, OnDeviceRemoved, OnDeviceRemoved method [Core Audio], OnDeviceRemoved method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceremoved, mmdeviceapi/IMMNotificationClient::OnDeviceRemoved
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMNotificationClient.OnDeviceRemoved"]
+f1_keywords: 
+ - "mmdeviceapi/IMMNotificationClient.OnDeviceRemoved"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

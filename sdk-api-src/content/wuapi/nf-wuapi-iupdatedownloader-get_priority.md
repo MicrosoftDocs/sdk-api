@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority property, IUpdateDownloader.Priority, IUpdateDownloader.get_Priority, IUpdateDownloader::Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent],IUpdateDownloader interface, get_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateDownloader.Priority"]
+f1_keywords: 
+ - "wuapi/IUpdateDownloader.Priority"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

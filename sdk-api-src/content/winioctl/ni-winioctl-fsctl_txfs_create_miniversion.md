@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION control, FSCTL_TXFS_CREATE_MINIVERSION control code [Files], fs.fsctl_txfs_create_miniversion, winioctl/FSCTL_TXFS_CREATE_MINIVERSION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_TXFS_CREATE_MINIVERSION"]
+f1_keywords: 
+ - "winioctl/FSCTL_TXFS_CREATE_MINIVERSION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

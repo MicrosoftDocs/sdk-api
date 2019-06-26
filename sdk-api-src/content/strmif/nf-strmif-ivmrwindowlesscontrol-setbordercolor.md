@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetBorderColor method, IVMRWindowlessControl.SetBorderColor, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
 ms.topic: method
-f1_keywords: ["strmif/IVMRWindowlessControl.SetBorderColor"]
+f1_keywords: 
+ - "strmif/IVMRWindowlessControl.SetBorderColor"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

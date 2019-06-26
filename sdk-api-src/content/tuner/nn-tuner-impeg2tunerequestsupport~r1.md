@@ -8,7 +8,8 @@ ms.assetid: b7381962-b76e-4041-a080-66408d0f3cb7
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
-f1_keywords: ["tuner/IMPEG2TuneRequestSupport"]
+f1_keywords: 
+ - "tuner/IMPEG2TuneRequestSupport"
 req.header: tuner.h
 req.include-header:
 req.redist:

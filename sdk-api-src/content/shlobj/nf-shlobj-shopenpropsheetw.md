@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHOpenPropSheet, SHOpenPropSheet function [Windows Shell], SHOpenPropSheetA, SHOpenPropSheetW, _win32_SHOpenPropSheetW, shell.SHOpenPropSheetW, shlobj/SHOpenPropSheet, shlobj/SHOpenPropSheetA, shlobj/SHOpenPropSheetW
 ms.topic: function
-f1_keywords: ["shlobj/SHOpenPropSheet"]
+f1_keywords: 
+ - "shlobj/SHOpenPropSheet"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

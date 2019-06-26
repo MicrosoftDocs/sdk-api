@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
 ms.topic: function
-f1_keywords: ["winsvc/SetServiceStatus"]
+f1_keywords: 
+ - "winsvc/SetServiceStatus"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

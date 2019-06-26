@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnIdentify method, CVssWriter.OnIdentify, CVssWriter::OnIdentify, OnIdentify, OnIdentify method [VSS], OnIdentify method [VSS],CVssWriter interface, _win32_cvsswriter_onidentify, base.cvsswriter_onidentify, vswriter/CVssWriter::OnIdentify
 ms.topic: method
-f1_keywords: ["vswriter/CVssWriter.OnIdentify"]
+f1_keywords: 
+ - "vswriter/CVssWriter.OnIdentify"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

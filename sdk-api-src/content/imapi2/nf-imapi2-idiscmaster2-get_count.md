@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
 ms.topic: method
-f1_keywords: ["imapi2/IDiscMaster2.get_Count"]
+f1_keywords: 
+ - "imapi2/IDiscMaster2.get_Count"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

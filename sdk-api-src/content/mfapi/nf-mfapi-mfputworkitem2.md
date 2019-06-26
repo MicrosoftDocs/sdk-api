@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
 ms.topic: function
-f1_keywords: ["mfapi/MFPutWorkItem2"]
+f1_keywords: 
+ - "mfapi/MFPutWorkItem2"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

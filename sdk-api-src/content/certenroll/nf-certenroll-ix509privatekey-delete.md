@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Delete method, IX509PrivateKey.Delete, IX509PrivateKey::Delete, certenroll/IX509PrivateKey::Delete, security.ix509privatekey_delete_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.Delete"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.Delete"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

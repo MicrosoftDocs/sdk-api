@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
 ms.topic: interface
-f1_keywords: ["oleidl/IOleLink"]
+f1_keywords: 
+ - "oleidl/IOleLink"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

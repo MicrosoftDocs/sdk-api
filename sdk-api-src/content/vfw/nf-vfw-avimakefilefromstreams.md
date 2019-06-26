@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIMakeFileFromStreams, AVIMakeFileFromStreams function [Windows Multimedia], _win32_AVIMakeFileFromStreams, multimedia.avimakefilefromstreams, vfw/AVIMakeFileFromStreams
 ms.topic: function
-f1_keywords: ["vfw/AVIMakeFileFromStreams"]
+f1_keywords: 
+ - "vfw/AVIMakeFileFromStreams"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

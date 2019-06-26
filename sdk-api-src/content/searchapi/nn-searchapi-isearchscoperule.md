@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search],described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchScopeRule"]
+f1_keywords: 
+ - "searchapi/ISearchScopeRule"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

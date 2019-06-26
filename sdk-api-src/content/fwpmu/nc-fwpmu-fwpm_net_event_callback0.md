@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK0, FWPM_NET_EVENT_CALLBACK0 callback, FWPM_NET_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_net_event_callback0_func, fwpmu/FWPM_NET_EVENT_CALLBACK0
 ms.topic: callback
-f1_keywords: ["fwpmu/FWPM_NET_EVENT_CALLBACK0"]
+f1_keywords: 
+ - "fwpmu/FWPM_NET_EVENT_CALLBACK0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

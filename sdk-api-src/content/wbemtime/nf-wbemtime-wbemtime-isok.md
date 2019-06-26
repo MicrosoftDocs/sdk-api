@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],IsOk method, WBEMTime.IsOk, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTime.IsOk"]
+f1_keywords: 
+ - "wbemtime/WBEMTime.IsOk"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

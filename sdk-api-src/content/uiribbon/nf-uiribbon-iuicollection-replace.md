@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollection.Replace, IUICollection::Replace, Replace, Replace method [Windows Ribbon], Replace method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Replace, uiribbon/IUICollection::Replace, windowsribbon.windowsribbon_iuicollection_replace
 ms.topic: method
-f1_keywords: ["uiribbon/IUICollection.Replace"]
+f1_keywords: 
+ - "uiribbon/IUICollection.Replace"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

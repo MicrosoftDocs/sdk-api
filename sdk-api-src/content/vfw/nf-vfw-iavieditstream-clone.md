@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Multimedia], Clone method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Clone method, IAVIEditStream.Clone, IAVIEditStream::Clone, _win32_IAVIEditStream_Clone, multimedia.iavieditstream_clone, vfw/IAVIEditStream::Clone
 ms.topic: method
-f1_keywords: ["vfw/IAVIEditStream.Clone"]
+f1_keywords: 
+ - "vfw/IAVIEditStream.Clone"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

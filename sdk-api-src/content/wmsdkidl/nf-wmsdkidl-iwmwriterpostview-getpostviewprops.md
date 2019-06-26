@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPostView.GetPostViewProps"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPostView.GetPostViewProps"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

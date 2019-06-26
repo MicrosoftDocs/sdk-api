@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr2.IsThreadFocus, ITfThreadMgr2::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.IsThreadFocus"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.IsThreadFocus"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

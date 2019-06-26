@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMStreamConfig3 interface, IWMStreamConfig3 interface [windows Media Format],GetLanguage method, IWMStreamConfig3.GetLanguage, IWMStreamConfig3::GetLanguage, IWMStreamConfig3GetLanguage, wmformat.iwmstreamconfig3_getlanguage, wmsdkidl/IWMStreamConfig3::GetLanguage
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig3.GetLanguage"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig3.GetLanguage"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

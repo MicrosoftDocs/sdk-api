@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
 ms.topic: method
-f1_keywords: ["tuner/IAnalogTVTuningSpace.get_MaxChannel"]
+f1_keywords: 
+ - "tuner/IAnalogTVTuningSpace.get_MaxChannel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

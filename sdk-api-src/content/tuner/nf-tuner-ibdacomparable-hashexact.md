@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HashExact, HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExact method, IBDAComparable.HashExact, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
 ms.topic: method
-f1_keywords: ["tuner/IBDAComparable.HashExact"]
+f1_keywords: 
+ - "tuner/IBDAComparable.HashExact"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

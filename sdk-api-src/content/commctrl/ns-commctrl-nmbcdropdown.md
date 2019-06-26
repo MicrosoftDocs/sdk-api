@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMBCDROPDOWN, LPNMBCDROPDOWN, LPNMBCDROPDOWN structure pointer [Windows Controls], NMBCDROPDOWN, NMBCDROPDOWN structure [Windows Controls], _shell_NMBCDROPDOWN, _shell_NMBCDROPDOWN_cpp, commctrl/LPNMBCDROPDOWN, commctrl/NMBCDROPDOWN, controls.NMBCDROPDOWN, controls._shell_NMBCDROPDOWN"
 ms.topic: struct
-f1_keywords: ["commctrl/NMBCDROPDOWN"]
+f1_keywords: 
+ - "commctrl/NMBCDROPDOWN"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

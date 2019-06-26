@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Media Foundation], GetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetAllVolumes method, IMFAudioStreamVolume.GetAllVolumes, IMFAudioStreamVolume::GetAllVolumes, cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2, mf.imfaudiostreamvolume_getallvolumes, mfidl/IMFAudioStreamVolume::GetAllVolumes
 ms.topic: method
-f1_keywords: ["mfidl/IMFAudioStreamVolume.GetAllVolumes"]
+f1_keywords: 
+ - "mfidl/IMFAudioStreamVolume.GetAllVolumes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

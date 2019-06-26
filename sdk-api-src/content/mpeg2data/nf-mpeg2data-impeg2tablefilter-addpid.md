@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
 ms.topic: method
-f1_keywords: ["mpeg2data/IMpeg2TableFilter.AddPID"]
+f1_keywords: 
+ - "mpeg2data/IMpeg2TableFilter.AddPID"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION"
 ms.topic: struct
-f1_keywords: ["devicetopology/KSJACK_DESCRIPTION"]
+f1_keywords: 
+ - "devicetopology/KSJACK_DESCRIPTION"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

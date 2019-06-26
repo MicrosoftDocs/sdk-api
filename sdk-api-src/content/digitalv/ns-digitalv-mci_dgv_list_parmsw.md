@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMCI_DGV_LIST_PARMSW, MCI_DGV_LIST_PARMS, MCI_DGV_LIST_PARMS structure [Windows Multimedia], MCI_DGV_LIST_PARMSW, _win32_MCI_DGV_LIST_PARMS_str, digitalv/MCI_DGV_LIST_PARMS, multimedia.mci_dgv_list_parms"
 ms.topic: struct
-f1_keywords: ["digitalv/MCI_DGV_LIST_PARMS"]
+f1_keywords: 
+ - "digitalv/MCI_DGV_LIST_PARMS"
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

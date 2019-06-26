@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfTextLayoutSink interface [Text Services Framework],OnLayoutChange method, ITfTextLayoutSink.OnLayoutChange, ITfTextLayoutSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfTextLayoutSink interface, _tsf_itftextlayoutsink_onlayoutchange_ref, msctf/ITfTextLayoutSink::OnLayoutChange, tsf.itftextlayoutsink_onlayoutchange
 ms.topic: method
-f1_keywords: ["msctf/ITfTextLayoutSink.OnLayoutChange"]
+f1_keywords: 
+ - "msctf/ITfTextLayoutSink.OnLayoutChange"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

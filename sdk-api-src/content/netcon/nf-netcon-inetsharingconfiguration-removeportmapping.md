@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],RemovePortMapping method, INetSharingConfiguration.RemovePortMapping, INetSharingConfiguration::RemovePortMapping, RemovePortMapping, RemovePortMapping method [ICS/ICF], RemovePortMapping method [ICS/ICF],INetSharingConfiguration interface, _ics_inetsharingconfiguration_removeportmapping, ics.inetsharingconfiguration_removeportmapping, netcon/INetSharingConfiguration::RemovePortMapping
 ms.topic: method
-f1_keywords: ["netcon/INetSharingConfiguration.RemovePortMapping"]
+f1_keywords: 
+ - "netcon/INetSharingConfiguration.RemovePortMapping"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

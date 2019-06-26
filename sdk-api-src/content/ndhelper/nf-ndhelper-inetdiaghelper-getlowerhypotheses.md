@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLowerHypotheses, GetLowerHypotheses method [NDF], GetLowerHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLowerHypotheses method, INetDiagHelper.GetLowerHypotheses, INetDiagHelper::GetLowerHypotheses, ndf.inetdiaghelpe_getlowerhypotheses, ndhelper/INetDiagHelper::GetLowerHypotheses
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.GetLowerHypotheses"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.GetLowerHypotheses"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateManifestReader, CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateManifestReader method, IAppxFactory.CreateManifestReader, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFactory.CreateManifestReader"]
+f1_keywords: 
+ - "appxpackaging/IAppxFactory.CreateManifestReader"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

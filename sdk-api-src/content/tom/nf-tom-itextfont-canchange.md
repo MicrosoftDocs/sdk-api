@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],CanChange method, ITextFont.CanChange, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
 ms.topic: method
-f1_keywords: ["tom/ITextFont.CanChange"]
+f1_keywords: 
+ - "tom/ITextFont.CanChange"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

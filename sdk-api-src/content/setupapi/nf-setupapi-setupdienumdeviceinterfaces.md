@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInterfaces, SetupDiEnumDeviceInterfaces function [Device and Driver Installation], devinst.setupdienumdeviceinterfaces, di-rtns_1fd59eb7-0934-4747-9a0e-81dac96c23ef.xml, setupapi/SetupDiEnumDeviceInterfaces
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiEnumDeviceInterfaces"]
+f1_keywords: 
+ - "setupapi/SetupDiEnumDeviceInterfaces"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

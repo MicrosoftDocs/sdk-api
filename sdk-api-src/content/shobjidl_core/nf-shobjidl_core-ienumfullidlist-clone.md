@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumFullIDList interface, IEnumFullIDList interface [Windows Shell],Clone method, IEnumFullIDList.Clone, IEnumFullIDList::Clone, _shell_IEnumFullIDList_Clone, shell.IEnumFullIDList_Clone, shobjidl_core/IEnumFullIDList::Clone
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumFullIDList.Clone"]
+f1_keywords: 
+ - "shobjidl_core/IEnumFullIDList.Clone"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

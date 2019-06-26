@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVolumeTexture, CreateVolumeTexture method [Direct3D 9], CreateVolumeTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVolumeTexture method, IDirect3DDevice9.CreateVolumeTexture, IDirect3DDevice9::CreateVolumeTexture, d27be66d-3b8c-f3af-34b8-9478b75f7b15, d3d9helper/IDirect3DDevice9::CreateVolumeTexture, direct3d9.idirect3ddevice9__createvolumetexture
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.CreateVolumeTexture"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.CreateVolumeTexture"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

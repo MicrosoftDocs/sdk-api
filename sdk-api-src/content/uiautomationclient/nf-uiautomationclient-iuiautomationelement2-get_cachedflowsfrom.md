@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2.get_CachedFlowsFrom, IUIAutomationElement2::CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement2.CachedFlowsFrom"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement2.CachedFlowsFrom"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

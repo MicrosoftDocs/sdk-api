@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_TIMESTAMP, ADS_TIMESTAMP, ADS_TIMESTAMP structure [ADSI], PADS_TIMESTAMP, PADS_TIMESTAMP structure pointer [ADSI], _ds_ads_timestamp, adsi.ads__timestamp, adsi.ads_timestamp, iads/ADS_TIMESTAMP, iads/PADS_TIMESTAMP"
 ms.topic: struct
-f1_keywords: ["iads/ADS_TIMESTAMP"]
+f1_keywords: 
+ - "iads/ADS_TIMESTAMP"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

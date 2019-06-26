@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPhysicallyInstalledSystemMemory, GetPhysicallyInstalledSystemMemory function, base.getphysicallyinstalledsystemmemory, sysinfoapi/GetPhysicallyInstalledSystemMemory
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetPhysicallyInstalledSystemMemory"]
+f1_keywords: 
+ - "sysinfoapi/GetPhysicallyInstalledSystemMemory"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

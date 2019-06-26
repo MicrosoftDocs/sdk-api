@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
 ms.topic: struct
-f1_keywords: ["ksopmapi/OPM_REQUESTED_INFORMATION"]
+f1_keywords: 
+ - "ksopmapi/OPM_REQUESTED_INFORMATION"
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

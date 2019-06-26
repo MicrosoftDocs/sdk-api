@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_OutputEnable method, IAMAnalogVideoDecoder.put_OutputEnable, IAMAnalogVideoDecoder::put_OutputEnable, IAMAnalogVideoDecoderput_OutputEnable, dshow.iamanalogvideodecoder_put_outputenable, put_OutputEnable, put_OutputEnable method [DirectShow], put_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_OutputEnable
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoDecoder.put_OutputEnable"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoDecoder.put_OutputEnable"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

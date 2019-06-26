@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_STRING, MINIDUMP_STRING, MINIDUMP_STRING structure, PMINIDUMP_STRING, PMINIDUMP_STRING structure pointer, _MINIDUMP_STRING, _win32_minidump_string_str, base.minidump_string_str, minidumpapiset/MINIDUMP_STRING, minidumpapiset/PMINIDUMP_STRING"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_STRING"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_STRING"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

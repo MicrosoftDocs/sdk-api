@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],Enabled property, INetFwService.Enabled, INetFwService.get_Enabled, INetFwService::Enabled, INetFwService::get_Enabled, INetFwService::put_Enabled, get_Enabled, ics.inetfwservice_enabled, netfw/INetFwService::Enabled, netfw/INetFwService::get_Enabled, netfw/INetFwService::put_Enabled
 ms.topic: method
-f1_keywords: ["netfw/INetFwService.Enabled"]
+f1_keywords: 
+ - "netfw/INetFwService.Enabled"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

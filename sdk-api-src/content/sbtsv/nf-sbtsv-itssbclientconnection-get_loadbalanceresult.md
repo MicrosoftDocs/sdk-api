@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],LoadBalanceResult property, ITsSbClientConnection.LoadBalanceResult, ITsSbClientConnection.get_LoadBalanceResult, ITsSbClientConnection::LoadBalanceResult, ITsSbClientConnection::get_LoadBalanceResult, LoadBalanceResult property [Remote Desktop Services], LoadBalanceResult property [Remote Desktop Services],ITsSbClientConnection interface, get_LoadBalanceResult, sbtsv/ITsSbClientConnection::LoadBalanceResult, sbtsv/ITsSbClientConnection::get_LoadBalanceResult, termserv.itssbclientconnection_loadbalanceresult
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbClientConnection.LoadBalanceResult"]
+f1_keywords: 
+ - "sbtsv/ITsSbClientConnection.LoadBalanceResult"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

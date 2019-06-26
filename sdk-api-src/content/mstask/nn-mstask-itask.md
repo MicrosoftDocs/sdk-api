@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITask, ITask interface [Task Scheduler], ITask interface [Task Scheduler],described, _msb_itask, mstask/ITask, taskschd.itask
 ms.topic: interface
-f1_keywords: ["mstask/ITask"]
+f1_keywords: 
+ - "mstask/ITask"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

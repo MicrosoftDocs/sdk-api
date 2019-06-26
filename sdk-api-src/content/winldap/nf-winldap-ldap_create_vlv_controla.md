@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_create_vlv_control"]
+f1_keywords: 
+ - "winldap/ldap_create_vlv_control"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

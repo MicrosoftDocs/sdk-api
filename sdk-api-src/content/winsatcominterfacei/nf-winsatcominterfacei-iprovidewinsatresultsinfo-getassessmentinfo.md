@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
 ms.topic: method
-f1_keywords: ["winsatcominterfacei/IProvideWinSATResultsInfo.GetAssessmentInfo"]
+f1_keywords: 
+ - "winsatcominterfacei/IProvideWinSATResultsInfo.GetAssessmentInfo"
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

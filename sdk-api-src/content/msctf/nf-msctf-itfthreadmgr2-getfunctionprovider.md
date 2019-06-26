@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr2.GetFunctionProvider, ITfThreadMgr2::GetFunctionProvider, msctf/ITfThreadMgr2::GetFunctionProvider, tsf.itfthreadmgr2_getfunctionprovider
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.GetFunctionProvider"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.GetFunctionProvider"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

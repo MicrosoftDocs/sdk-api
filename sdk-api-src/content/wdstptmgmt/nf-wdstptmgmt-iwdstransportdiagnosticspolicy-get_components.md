@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.get_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, get_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportDiagnosticsPolicy.Components"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportDiagnosticsPolicy.Components"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

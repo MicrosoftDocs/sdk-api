@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
 ms.topic: function
-f1_keywords: ["pdh/PdhCalculateCounterFromRawValue"]
+f1_keywords: 
+ - "pdh/PdhCalculateCounterFromRawValue"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

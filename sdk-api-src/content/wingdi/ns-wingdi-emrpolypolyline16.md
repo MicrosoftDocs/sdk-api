@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPOLYPOLYGON16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, EMRPOLYPOLYGON16 structure [Windows GDI], EMRPOLYPOLYLINE16, EMRPOLYPOLYLINE16 structure [Windows GDI], EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16 structure [Windows GDI], PEMRPOLYPOLYGON16, PEMRPOLYPOLYGON16 structure pointer [Windows GDI], PEMRPOLYPOLYLINE16, PEMRPOLYPOLYLINE16 structure pointer [Windows GDI], _win32_EMRPOLYPOLYLINE16_str, gdi.emrpolypolyline16__emrpolypolygon16, wingdi/EMRPOLYPOLYGON16, wingdi/EMRPOLYPOLYLINE16,EMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYGON16, wingdi/PEMRPOLYPOLYLINE16"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRPOLYPOLYLINE16"]
+f1_keywords: 
+ - "wingdi/EMRPOLYPOLYLINE16"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

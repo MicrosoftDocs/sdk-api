@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl9.SetDeinterlacePrefs, IVMRDeinterlaceControl9::SetDeinterlacePrefs, IVMRDeinterlaceControl9SetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl9 interface, dshow.ivmrdeinterlacecontrol9_setdeinterlaceprefs, vmr9/IVMRDeinterlaceControl9::SetDeinterlacePrefs
 ms.topic: method
-f1_keywords: ["vmr9/IVMRDeinterlaceControl9.SetDeinterlacePrefs"]
+f1_keywords: 
+ - "vmr9/IVMRDeinterlaceControl9.SetDeinterlacePrefs"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
 ms.topic: function
-f1_keywords: ["bluetoothleapis/BluetoothGATTRegisterEvent"]
+f1_keywords: 
+ - "bluetoothleapis/BluetoothGATTRegisterEvent"
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

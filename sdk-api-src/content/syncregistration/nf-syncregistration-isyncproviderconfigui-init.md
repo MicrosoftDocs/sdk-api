@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderConfigUI.Init"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUI.Init"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

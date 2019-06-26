@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI4FromStr, VarI4FromStr function [Automation], _oa96_VarI4FromStr, automat.vari4fromstr, oleauto/VarI4FromStr
 ms.topic: function
-f1_keywords: ["oleauto/VarI4FromStr"]
+f1_keywords: 
+ - "oleauto/VarI4FromStr"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

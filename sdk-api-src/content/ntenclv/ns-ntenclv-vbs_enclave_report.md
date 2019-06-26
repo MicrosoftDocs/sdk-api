@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VBS_ENCLAVE_REPORT, VBS_ENCLAVE_REPORT structure, base.vbs_enclave_report, ntenclv/VBS_ENCLAVE_REPORT
 ms.topic: struct
-f1_keywords: ["ntenclv/VBS_ENCLAVE_REPORT"]
+f1_keywords: 
+ - "ntenclv/VBS_ENCLAVE_REPORT"
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

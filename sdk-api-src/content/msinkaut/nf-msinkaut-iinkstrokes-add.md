@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86, Add, Add method [Tablet PC], Add method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Add method, IInkStrokes.Add, IInkStrokes::Add, msinkaut/IInkStrokes::Add, tablet.inkstrokes_add
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.Add"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.Add"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

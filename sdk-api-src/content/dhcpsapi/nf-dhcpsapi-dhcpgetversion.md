@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetVersion, DhcpGetVersion function [DHCP], dhcp.dhcpgetversion, dhcpsapi/DhcpGetVersion
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetVersion"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetVersion"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

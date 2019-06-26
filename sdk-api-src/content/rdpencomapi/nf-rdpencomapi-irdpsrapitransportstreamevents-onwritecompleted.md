@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnWriteCompleted method, IRDPSRAPITransportStreamEvents.OnWriteCompleted, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamEvents.OnWriteCompleted"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamEvents.OnWriteCompleted"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordDestroy method, IRecordInfo.RecordDestroy, IRecordInfo::RecordDestroy, RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.RecordDestroy"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.RecordDestroy"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

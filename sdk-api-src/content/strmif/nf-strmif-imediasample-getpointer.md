@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetPointer method, IMediaSample.GetPointer, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.GetPointer"]
+f1_keywords: 
+ - "strmif/IMediaSample.GetPointer"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

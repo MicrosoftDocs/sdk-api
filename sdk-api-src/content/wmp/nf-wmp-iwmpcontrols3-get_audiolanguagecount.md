@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls3.get_audioLanguageCount"]
+f1_keywords: 
+ - "wmp/IWMPControls3.get_audioLanguageCount"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

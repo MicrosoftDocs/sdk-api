@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV"
 ms.topic: struct
-f1_keywords: ["dvdmedia/AM_DVD_YUV"]
+f1_keywords: 
+ - "dvdmedia/AM_DVD_YUV"
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IUIAnimationManager.Update, IUIAnimationManager::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_update, uianimation/IUIAnimationManager::Update
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.Update"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.Update"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

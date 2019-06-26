@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_FILE_STATE, PRJ_FILE_STATE enumeration, PRJ_FILE_STATE_DIRTY_PLACEHOLDER, PRJ_FILE_STATE_FULL, PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, PRJ_FILE_STATE_PLACEHOLDER, PRJ_FILE_STATE_TOMBSTONE, ProjFS.prj_file_state, projectedfslib/PRJ_FILE_STATE, projectedfslib/PRJ_FILE_STATE_DIRTY_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_FULL, projectedfslib/PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_TOMBSTONE
 ms.topic: enum
-f1_keywords: ["projectedfslib/PRJ_FILE_STATE"]
+f1_keywords: 
+ - "projectedfslib/PRJ_FILE_STATE"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
 ms.topic: method
-f1_keywords: ["syncregistration/IEnumSyncProviderConfigUIInfos.Reset"]
+f1_keywords: 
+ - "syncregistration/IEnumSyncProviderConfigUIInfos.Reset"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

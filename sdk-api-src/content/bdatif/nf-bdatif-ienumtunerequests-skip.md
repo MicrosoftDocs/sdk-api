@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
 ms.topic: method
-f1_keywords: ["bdatif/IEnumTuneRequests.Skip"]
+f1_keywords: 
+ - "bdatif/IEnumTuneRequests.Skip"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

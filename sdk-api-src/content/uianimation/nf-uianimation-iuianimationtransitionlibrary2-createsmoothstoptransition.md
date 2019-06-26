@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary2.CreateSmoothStopTransition, IUIAnimationTransitionLibrary2::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary2_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary2::CreateSmoothStopTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary2.CreateSmoothStopTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary2.CreateSmoothStopTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

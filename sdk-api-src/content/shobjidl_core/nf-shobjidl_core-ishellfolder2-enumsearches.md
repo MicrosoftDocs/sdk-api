@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellFolder2.EnumSearches"]
+f1_keywords: 
+ - "shobjidl_core/IShellFolder2.EnumSearches"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

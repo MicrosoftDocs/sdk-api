@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocatePageSizeBuffer, AllocatePageSizeBuffer method [windows Media Format], AllocatePageSizeBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocatePageSizeBuffer method, IWMSBufferAllocator.AllocatePageSizeBuffer, IWMSBufferAllocator::AllocatePageSizeBuffer, IWMSBufferAllocatorAllocatePageSizeBuffer, wmformat.iwmsbufferallocator_allocatepagesizebuffer, wmsbuffer/IWMSBufferAllocator::AllocatePageSizeBuffer
 ms.topic: method
-f1_keywords: ["wmsbuffer/IWMSBufferAllocator.AllocatePageSizeBuffer"]
+f1_keywords: 
+ - "wmsbuffer/IWMSBufferAllocator.AllocatePageSizeBuffer"
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

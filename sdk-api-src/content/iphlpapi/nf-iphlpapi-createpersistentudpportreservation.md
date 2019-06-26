@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentUdpPortReservation, CreatePersistentUdpPortReservation function [IP Helper], iphlp.createpersistentudpportreservation, iphlpapi/CreatePersistentUdpPortReservation
 ms.topic: function
-f1_keywords: ["iphlpapi/CreatePersistentUdpPortReservation"]
+f1_keywords: 
+ - "iphlpapi/CreatePersistentUdpPortReservation"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

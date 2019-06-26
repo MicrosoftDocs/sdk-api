@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW, winineti/InternetSetDialState, winineti/InternetSetDialStateA, winineti/InternetSetDialStateW
 ms.topic: function
-f1_keywords: ["wininet/InternetSetDialState"]
+f1_keywords: 
+ - "wininet/InternetSetDialState"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSA_Clone, DSA_Clone function [Windows Controls], _shell_DSA_Clone, _shell_DSA_Clone_cpp, controls.DSA_Clone, controls._shell_DSA_Clone, dpa_dsa/DSA_Clone
 ms.topic: function
-f1_keywords: ["dpa_dsa/DSA_Clone"]
+f1_keywords: 
+ - "dpa_dsa/DSA_Clone"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

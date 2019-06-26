@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_BLTDATA"]
+f1_keywords: 
+ - "ddrawint/DD_BLTDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

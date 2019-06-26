@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
 ms.topic: function
-f1_keywords: ["oleauto/SysReleaseString"]
+f1_keywords: 
+ - "oleauto/SysReleaseString"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

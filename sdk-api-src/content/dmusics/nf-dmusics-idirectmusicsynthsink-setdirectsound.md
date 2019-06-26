@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetDirectSound method, IDirectMusicSynthSink.SetDirectSound, IDirectMusicSynthSink::SetDirectSound, SetDirectSound, SetDirectSound method [Audio Devices], SetDirectSound method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setdirectsound, audmp-routines_6c018b77-9478-4754-b40e-428ba758f7dc.xml, dmusics/IDirectMusicSynthSink::SetDirectSound
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynthSink.SetDirectSound"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynthSink.SetDirectSound"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

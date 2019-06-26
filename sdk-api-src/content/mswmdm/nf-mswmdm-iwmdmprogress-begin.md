@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMProgress.Begin"]
+f1_keywords: 
+ - "mswmdm/IWMDMProgress.Begin"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

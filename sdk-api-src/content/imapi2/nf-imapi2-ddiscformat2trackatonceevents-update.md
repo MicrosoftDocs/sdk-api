@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2TrackAtOnceEvents interface [IMAPI],Update method, DDiscFormat2TrackAtOnceEvents.Update, DDiscFormat2TrackAtOnceEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2TrackAtOnceEvents interface, imapi.ddiscformat2trackatonceevents_update, imapi2/DDiscFormat2TrackAtOnceEvents::Update
 ms.topic: method
-f1_keywords: ["imapi2/DDiscFormat2TrackAtOnceEvents.Update"]
+f1_keywords: 
+ - "imapi2/DDiscFormat2TrackAtOnceEvents.Update"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileSystemPath, FileSystemPath method [IMAPI], FileSystemPath method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemPath method, IFsiItem.FileSystemPath, IFsiItem::FileSystemPath, imapi.ifsiitem_filesystempath, imapi2fs/IFsiItem::FileSystemPath
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiItem.FileSystemPath"]
+f1_keywords: 
+ - "imapi2fs/IFsiItem.FileSystemPath"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

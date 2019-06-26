@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??0CHString@@QAE@PBG@Z, ??0CHString@@QEAA@PEBG@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCWSTR), CHString::CHString, CHString::CHString(LPCWSTR), chstring/CHString::CHString, wmi.chstring_chstring_lpcwstr_"
 ms.topic: method
-f1_keywords: ["chstring/CHString.CHString"]
+f1_keywords: 
+ - "chstring/CHString.CHString"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

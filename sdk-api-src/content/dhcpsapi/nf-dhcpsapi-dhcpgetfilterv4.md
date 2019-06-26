@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetFilterV4, DhcpGetFilterV4 function [DHCP], dhcp.dhcpgetfilterv4, dhcpsapi/DhcpGetFilterV4
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetFilterV4"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetFilterV4"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

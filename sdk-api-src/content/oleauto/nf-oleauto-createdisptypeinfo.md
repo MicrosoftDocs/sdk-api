@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDispTypeInfo, CreateDispTypeInfo function [Automation], _oa96_CreateDispTypeInfo, automat.createdisptypeinfo, oleauto/CreateDispTypeInfo
 ms.topic: function
-f1_keywords: ["oleauto/CreateDispTypeInfo"]
+f1_keywords: 
+ - "oleauto/CreateDispTypeInfo"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

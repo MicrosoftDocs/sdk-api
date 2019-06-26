@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionResult interface [Tablet PC],Strokes property, IInkDivisionResult.Strokes, IInkDivisionResult.get_Strokes, IInkDivisionResult::Strokes, IInkDivisionResult::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivisionResult interface, b65f1b71-b0a4-4de2-9321-f660bcd2d3ce, get_Strokes, msinkaut15/IInkDivisionResult::Strokes, msinkaut15/IInkDivisionResult::get_Strokes, tablet.iinkdivisionresult_strokes
 ms.topic: method
-f1_keywords: ["msinkaut15/IInkDivisionResult.Strokes"]
+f1_keywords: 
+ - "msinkaut15/IInkDivisionResult.Strokes"
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
 ms.topic: method
-f1_keywords: ["mmstream/IStreamSample.GetMediaStream"]
+f1_keywords: 
+ - "mmstream/IStreamSample.GetMediaStream"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

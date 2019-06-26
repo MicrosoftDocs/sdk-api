@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get__NewEnum method, IFsiNamedStreams.get__NewEnum, IFsiNamedStreams::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_newenum, imapi2fs/IFsiNamedStreams::get__NewEnum
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiNamedStreams.get__NewEnum"]
+f1_keywords: 
+ - "imapi2fs/IFsiNamedStreams.get__NewEnum"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
 ms.topic: function
-f1_keywords: ["vfw/AVIFileInfo"]
+f1_keywords: 
+ - "vfw/AVIFileInfo"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

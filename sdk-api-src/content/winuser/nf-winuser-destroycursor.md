@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyCursor, DestroyCursor function [Menus and Other Resources], _win32_DestroyCursor, _win32_destroycursor_cpp, menurc.destroycursor, winui._win32_destroycursor, winuser/DestroyCursor
 ms.topic: function
-f1_keywords: ["winuser/DestroyCursor"]
+f1_keywords: 
+ - "winuser/DestroyCursor"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

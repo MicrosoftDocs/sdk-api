@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies],described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
 ms.topic: interface
-f1_keywords: ["bdatif/IGuideDataEvent"]
+f1_keywords: 
+ - "bdatif/IGuideDataEvent"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionDuration method, ITAgentSession.get_SessionDuration, ITAgentSession::get_SessionDuration, _tapi3_itagentsession_get_sessionduration, get_SessionDuration, get_SessionDuration method [TAPI 2.2], get_SessionDuration method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionduration, tapi3cc/ITAgentSession::get_SessionDuration
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentSession.get_SessionDuration"]
+f1_keywords: 
+ - "tapi3cc/ITAgentSession.get_SessionDuration"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

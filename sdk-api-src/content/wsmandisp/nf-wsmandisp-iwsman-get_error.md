@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],Error property, IWSMan.Error, IWSMan.get_Error, IWSMan::Error, IWSMan::get_Error, get_Error, winrm.iwsman_error, wsmandisp/IWSMan::Error, wsmandisp/IWSMan::get_Error
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSMan.Error"]
+f1_keywords: 
+ - "wsmandisp/IWSMan.Error"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.get_partnershipIndex"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.get_partnershipIndex"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

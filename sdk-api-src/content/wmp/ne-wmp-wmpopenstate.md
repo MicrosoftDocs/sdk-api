@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPOpenState, WMPOpenState enumeration [Windows Media Player], wmp.wmpopenstate, wmp/WMPOpenState, wmp/wmposBeginCodecAcquisition, wmp/wmposBeginIndividualization, wmp/wmposBeginLicenseAcquisition, wmp/wmposEndCodecAcquisition, wmp/wmposEndIndividualization, wmp/wmposEndLicenseAcquisition, wmp/wmposMediaChanging, wmp/wmposMediaConnecting, wmp/wmposMediaLoading, wmp/wmposMediaLocating, wmp/wmposMediaOpen, wmp/wmposMediaOpening, wmp/wmposMediaWaiting, wmp/wmposOpeningUnknownURL, wmp/wmposPlaylistChanged, wmp/wmposPlaylistChanging, wmp/wmposPlaylistConnecting, wmp/wmposPlaylistLoading, wmp/wmposPlaylistLocating, wmp/wmposPlaylistOpenNoMedia, wmp/wmposPlaylistOpening, wmp/wmposUndefined, wmposBeginCodecAcquisition, wmposBeginIndividualization, wmposBeginLicenseAcquisition, wmposEndCodecAcquisition, wmposEndIndividualization, wmposEndLicenseAcquisition, wmposMediaChanging, wmposMediaConnecting, wmposMediaLoading, wmposMediaLocating, wmposMediaOpen, wmposMediaOpening, wmposMediaWaiting, wmposOpeningUnknownURL, wmposPlaylistChanged, wmposPlaylistChanging, wmposPlaylistConnecting, wmposPlaylistLoading, wmposPlaylistLocating, wmposPlaylistOpenNoMedia, wmposPlaylistOpening, wmposUndefined
 ms.topic: enum
-f1_keywords: ["wmp/WMPOpenState"]
+f1_keywords: 
+ - "wmp/WMPOpenState"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], IDynamicHWHandler interface [Windows Shell],described, _shell_IDynamicHWHandler, shell.IDynamicHWHandler, shobjidl/IDynamicHWHandler
 ms.topic: interface
-f1_keywords: ["shobjidl/IDynamicHWHandler"]
+f1_keywords: 
+ - "shobjidl/IDynamicHWHandler"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

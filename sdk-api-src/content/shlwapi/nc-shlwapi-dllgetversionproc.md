@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.topic: callback
-f1_keywords: ["shlwapi/DllGetVersion"]
+f1_keywords: 
+ - "shlwapi/DllGetVersion"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

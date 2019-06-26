@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetCmdFromEvent"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetCmdFromEvent"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

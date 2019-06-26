@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES"
 ms.topic: struct
-f1_keywords: ["networkisolation/INET_FIREWALL_AC_CAPABILITIES"]
+f1_keywords: 
+ - "networkisolation/INET_FIREWALL_AC_CAPABILITIES"
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

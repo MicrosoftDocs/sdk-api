@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
 ms.topic: function
-f1_keywords: ["wsdutil/WSDUriDecode"]
+f1_keywords: 
+ - "wsdutil/WSDUriDecode"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothSendAuthenticationResponse, BluetoothSendAuthenticationResponse function [Bluetooth], bluetooth.bluetoothsendauthenticationresponse, bluetoothapis/BluetoothSendAuthenticationResponse
 ms.topic: function
-f1_keywords: ["bluetoothapis/BluetoothSendAuthenticationResponse"]
+f1_keywords: 
+ - "bluetoothapis/BluetoothSendAuthenticationResponse"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCredentials, GetCredentials method [windows Media Format], GetCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],GetCredentials method, IWMSInternalAdminNetSource.GetCredentials, IWMSInternalAdminNetSource::GetCredentials, IWMSInternalAdminNetSourceGetCredentials, wmformat.iwmsinternaladminnetsource_getcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentials
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource.GetCredentials"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.GetCredentials"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

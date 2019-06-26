@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetOwner method, IXpsOMPageReference.GetOwner, IXpsOMPageReference::GetOwner, xps.ixpsompagereference_getowner, xpsobjectmodel/IXpsOMPageReference::GetOwner
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.GetOwner"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.GetOwner"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

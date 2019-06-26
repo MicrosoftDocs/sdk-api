@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
 ms.topic: method
-f1_keywords: ["evr9/IMFVideoMixerBitmap.ClearAlphaBitmap"]
+f1_keywords: 
+ - "evr9/IMFVideoMixerBitmap.ClearAlphaBitmap"
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

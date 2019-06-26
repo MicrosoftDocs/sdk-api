@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate5, IWindowsDriverUpdate5 interface [Windows Update Agent], IWindowsDriverUpdate5 interface [Windows Update Agent],described, wua.iwindowsdriverupdate5, wuapi/IWindowsDriverUpdate5
 ms.topic: interface
-f1_keywords: ["wuapi/IWindowsDriverUpdate5"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdate5"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

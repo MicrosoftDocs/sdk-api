@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Clone method, GraphicsPath.Clone, GraphicsPath::Clone, _gdiplus_CLASS_GraphicsPath_Clone_, gdiplus._gdiplus_CLASS_GraphicsPath_Clone_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.Clone"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.Clone"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_ON_DISK_VOLUME_INFO, FSCTL_QUERY_ON_DISK_VOLUME_INFO control, FSCTL_QUERY_ON_DISK_VOLUME_INFO control code [Files], fs.fsctl_query_on_disk_volume_info, winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO"]
+f1_keywords: 
+ - "winioctl/FSCTL_QUERY_ON_DISK_VOLUME_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

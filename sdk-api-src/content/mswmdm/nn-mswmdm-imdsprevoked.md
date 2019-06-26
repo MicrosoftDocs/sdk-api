@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPRevoked, IMDSPRevoked interface [windows Media Device Manager], IMDSPRevoked interface [windows Media Device Manager],described, IMDSPRevokedInterface, mswmdm/IMDSPRevoked, wmdm.imdsprevoked
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPRevoked"]
+f1_keywords: 
+ - "mswmdm/IMDSPRevoked"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

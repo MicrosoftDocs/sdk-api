@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Decompose, Decompose method [Microsoft TV Technologies], Decompose method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Decompose method, IMSVidCtl.Decompose, IMSVidCtl::Decompose, IMSVidCtlDecompose, mstv.imsvidctl_decompose, msvidctl/IMSVidCtl::Decompose
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.Decompose"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.Decompose"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

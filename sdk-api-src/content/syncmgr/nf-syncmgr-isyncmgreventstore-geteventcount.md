@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventCount, GetEventCount method [Windows Shell], GetEventCount method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventCount method, ISyncMgrEventStore.GetEventCount, ISyncMgrEventStore::GetEventCount, _shell_ISyncMgrEventStore_GetEventCount, shell.ISyncMgrEventStore_GetEventCount, syncmgr/ISyncMgrEventStore::GetEventCount
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrEventStore.GetEventCount"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEventStore.GetEventCount"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

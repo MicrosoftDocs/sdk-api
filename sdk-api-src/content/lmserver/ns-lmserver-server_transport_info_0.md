@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_0, PSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], SERVER_TRANSPORT_INFO_0, SERVER_TRANSPORT_INFO_0 structure [Network Management], _win32_server_transport_info_0_str, lmserver/LPSERVER_TRANSPORT_INFO_0, lmserver/PSERVER_TRANSPORT_INFO_0, lmserver/SERVER_TRANSPORT_INFO_0, netmgmt.server_transport_info_0_str"
 ms.topic: struct
-f1_keywords: ["lmserver/SERVER_TRANSPORT_INFO_0"]
+f1_keywords: 
+ - "lmserver/SERVER_TRANSPORT_INFO_0"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

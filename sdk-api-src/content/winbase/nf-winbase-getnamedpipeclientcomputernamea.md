@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
 ms.topic: function
-f1_keywords: ["winbase/GetNamedPipeClientComputerName"]
+f1_keywords: 
+ - "winbase/GetNamedPipeClientComputerName"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],RestoreDrawingState method, ID2D1RenderTarget.RestoreDrawingState, ID2D1RenderTarget::RestoreDrawingState, RestoreDrawingState, RestoreDrawingState method [Direct2D], RestoreDrawingState method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::RestoreDrawingState, direct2d.ID2D1RenderTarget_RestoreDrawingState
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.RestoreDrawingState"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.RestoreDrawingState"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

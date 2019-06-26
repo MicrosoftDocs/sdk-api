@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.IsPropertyEditable"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.IsPropertyEditable"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

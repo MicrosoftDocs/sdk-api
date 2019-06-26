@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],Info property, IQueryRecentWinSATAssessment.Info, IQueryRecentWinSATAssessment.get_Info, IQueryRecentWinSATAssessment::Info, IQueryRecentWinSATAssessment::get_Info, Info property [WinSAT], Info property [WinSAT],IQueryRecentWinSATAssessment interface, get_Info, winsat.iqueryrecentwinsatassessment_info, winsatcominterfacei/IQueryRecentWinSATAssessment::Info, winsatcominterfacei/IQueryRecentWinSATAssessment::get_Info
 ms.topic: method
-f1_keywords: ["winsatcominterfacei/IQueryRecentWinSATAssessment.Info"]
+f1_keywords: 
+ - "winsatcominterfacei/IQueryRecentWinSATAssessment.Info"
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

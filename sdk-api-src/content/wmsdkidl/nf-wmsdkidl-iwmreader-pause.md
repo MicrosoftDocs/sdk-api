@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReader.Pause"]
+f1_keywords: 
+ - "wmsdkidl/IWMReader.Pause"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

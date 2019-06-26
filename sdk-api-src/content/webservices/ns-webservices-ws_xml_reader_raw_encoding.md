@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_RAW_ENCODING, WS_XML_READER_RAW_ENCODING structure [Web Services for Windows], webservices/WS_XML_READER_RAW_ENCODING, wsw.ws_xml_reader_raw_encoding
 ms.topic: struct
-f1_keywords: ["webservices/WS_XML_READER_RAW_ENCODING"]
+f1_keywords: 
+ - "webservices/WS_XML_READER_RAW_ENCODING"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

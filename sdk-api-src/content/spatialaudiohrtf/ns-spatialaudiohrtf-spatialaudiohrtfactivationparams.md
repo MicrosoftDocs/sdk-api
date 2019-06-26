@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
 ms.topic: struct
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfActivationParams"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfActivationParams"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

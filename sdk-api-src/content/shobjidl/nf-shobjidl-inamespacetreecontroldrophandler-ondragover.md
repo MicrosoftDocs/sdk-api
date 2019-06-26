@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragOver method, INameSpaceTreeControlDropHandler.OnDragOver, INameSpaceTreeControlDropHandler::OnDragOver, OnDragOver, OnDragOver method [Windows Shell], OnDragOver method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragOver, shell.INameSpaceTreeControlDropHandler_OnDragOver, shobjidl/INameSpaceTreeControlDropHandler::OnDragOver
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlDropHandler.OnDragOver"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlDropHandler.OnDragOver"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

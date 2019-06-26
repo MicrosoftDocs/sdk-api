@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl2.GetColumnFilter"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl2.GetColumnFilter"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

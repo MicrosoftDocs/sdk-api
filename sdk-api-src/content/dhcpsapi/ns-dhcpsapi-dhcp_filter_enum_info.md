@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO structure [DHCP], PDHCP_FILTER_ENUM_INFO, PDHCP_FILTER_ENUM_INFO structure pointer [DHCP], dhcp.dhcp_filter_enum_info, dhcpsapi/DHCP_FILTER_ENUM_INFO, dhcpsapi/PDHCP_FILTER_ENUM_INFO"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_FILTER_ENUM_INFO"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_FILTER_ENUM_INFO"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

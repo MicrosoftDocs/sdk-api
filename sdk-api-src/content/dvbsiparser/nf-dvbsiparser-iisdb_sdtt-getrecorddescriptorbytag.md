@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_SDTT.GetRecordDescriptorByTag, IISDB_SDTT::GetRecordDescriptorByTag, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByTag, mstv.iisdb_sdtt_getrecorddescriptorbytag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_SDTT.GetRecordDescriptorByTag"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_SDTT.GetRecordDescriptorByTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

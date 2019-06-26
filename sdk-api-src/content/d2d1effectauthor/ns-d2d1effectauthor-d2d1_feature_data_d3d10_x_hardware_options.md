@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure [Direct2D], d2d1effectauthor/D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, direct2d.d2d1__feature_data_d3d10_x_hardware_options
 ms.topic: struct
-f1_keywords: ["d2d1effectauthor/D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS"]
+f1_keywords: 
+ - "d2d1effectauthor/D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

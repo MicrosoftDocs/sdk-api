@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMU555 structure [DirectX Math Support APIs],operator = method, XMU555.operator =(const uint16_t), XMU555.operator-assign(uint16_t), XMU555.operator=, XMU555::operator-assign(uint16_t), XMU555::operator=, dxmath.xmu555_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU555 structure, operator=
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMU555.operator ="]
+f1_keywords: 
+ - "directxpackedvector/XMU555.operator ="
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedControlItem, GetSelectedControlItem method [Windows Shell], GetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetSelectedControlItem method, IFileDialogCustomize.GetSelectedControlItem, IFileDialogCustomize::GetSelectedControlItem, shell.IFileDialogCustomize_GetSelectedControlItem, shell_IFileDialogCustomize_GetSelectedControlItem, shobjidl_core/IFileDialogCustomize::GetSelectedControlItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.GetSelectedControlItem"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.GetSelectedControlItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

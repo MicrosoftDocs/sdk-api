@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterPinType method, IFilterMapper.RegisterPinType, IFilterMapper::RegisterPinType, IFilterMapperRegisterPinType, RegisterPinType, RegisterPinType method [DirectShow], RegisterPinType method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpintype, strmif/IFilterMapper::RegisterPinType
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper.RegisterPinType"]
+f1_keywords: 
+ - "strmif/IFilterMapper.RegisterPinType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

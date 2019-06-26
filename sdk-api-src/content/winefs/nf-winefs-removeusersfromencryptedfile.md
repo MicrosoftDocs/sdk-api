@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveUsersFromEncryptedFile, RemoveUsersFromEncryptedFile function [Files], _win32_removeusersfromencryptedfile, base.removeusersfromencryptedfile, fs.removeusersfromencryptedfile, winefs/RemoveUsersFromEncryptedFile
 ms.topic: function
-f1_keywords: ["winefs/RemoveUsersFromEncryptedFile"]
+f1_keywords: 
+ - "winefs/RemoveUsersFromEncryptedFile"
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

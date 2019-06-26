@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,MigrateDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas, IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas, MigrateDiffAreas, MigrateDiffAreas method, MigrateDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 ms.topic: method
-f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas"]
+f1_keywords: 
+ - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

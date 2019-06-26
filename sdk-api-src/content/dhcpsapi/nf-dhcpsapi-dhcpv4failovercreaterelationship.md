@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverCreateRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverCreateRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

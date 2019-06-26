@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IXMLElementCollection.get_length, IXMLElementCollection::get_length, get_length, get_length method [Windows API], get_length method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::get_length, winprog.ixmlelementcollection_length
 ms.topic: method
-f1_keywords: ["msxml/IXMLElementCollection.get_length"]
+f1_keywords: 
+ - "msxml/IXMLElementCollection.get_length"
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows

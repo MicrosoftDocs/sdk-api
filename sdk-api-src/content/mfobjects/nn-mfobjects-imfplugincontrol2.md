@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl2, IMFPluginControl2 interface [Media Foundation], IMFPluginControl2 interface [Media Foundation],described, mf.imfplugincontrol2, mfobjects/IMFPluginControl2
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFPluginControl2"]
+f1_keywords: 
+ - "mfobjects/IMFPluginControl2"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

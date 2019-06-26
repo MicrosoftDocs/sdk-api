@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCB_FUNCTION, DCB_NOSWITCH, DCB_TASK, DCB_WINDOW, DriverCallback, DriverCallback function [Windows Multimedia], _win32_DriverCallback, digitalv/DriverCallback, multimedia.drivercallback
 ms.topic: function
-f1_keywords: ["mmiscapi/DriverCallback"]
+f1_keywords: 
+ - "mmiscapi/DriverCallback"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h
 req.target-type: Windows

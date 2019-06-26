@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFromWICBitmap, CreateFromWICBitmap method [Windows Runtime], CreateFromWICBitmap method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromWICBitmap method, ISoftwareBitmapNativeFactory.CreateFromWICBitmap, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromWICBitmap, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromWICBitmap, winrt.isoftwarebitmapnativefactory_createfromwicbitmap
 ms.topic: method
-f1_keywords: ["windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromWICBitmap"]
+f1_keywords: 
+ - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromWICBitmap"
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

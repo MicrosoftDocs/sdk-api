@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControlRepeatPeriod method, ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod, ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod, _tapi3_itautomatedphonecontrol_put_autovolumecontrolrepeatperiod, put_AutoVolumeControlRepeatPeriod, put_AutoVolumeControlRepeatPeriod method [TAPI 2.2], put_AutoVolumeControlRepeatPeriod method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrolrepeatperiod, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlRepeatPeriod
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControlRepeatPeriod"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

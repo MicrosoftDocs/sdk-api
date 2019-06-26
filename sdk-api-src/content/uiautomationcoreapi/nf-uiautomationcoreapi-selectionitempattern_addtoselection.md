@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat, uiauto_SelectionItemPattern_AddToSelectionConPat, uiautomationcoreapi/SelectionItemPattern_AddToSelection, winauto.uiauto_SelectionItemPattern_AddToSelectionConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/SelectionItemPattern_AddToSelection"]
+f1_keywords: 
+ - "uiautomationcoreapi/SelectionItemPattern_AddToSelection"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

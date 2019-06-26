@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
 ms.topic: function
-f1_keywords: ["webservices/WsCall"]
+f1_keywords: 
+ - "webservices/WsCall"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

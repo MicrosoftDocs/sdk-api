@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Reset method, IEnumObjects.Reset, IEnumObjects::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Reset, shell.IEnumObjects_Reset, shobjidl_core/IEnumObjects::Reset
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumObjects.Reset"]
+f1_keywords: 
+ - "shobjidl_core/IEnumObjects.Reset"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

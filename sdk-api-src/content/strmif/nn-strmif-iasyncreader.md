@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader, IAsyncReader interface [DirectShow], IAsyncReader interface [DirectShow],described, IAsyncReaderInterface, dshow.iasyncreader, strmif/IAsyncReader
 ms.topic: interface
-f1_keywords: ["strmif/IAsyncReader"]
+f1_keywords: 
+ - "strmif/IAsyncReader"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

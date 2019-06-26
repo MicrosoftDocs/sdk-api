@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
 ms.topic: struct
-f1_keywords: ["lpmapi/RSVP_SCOPE"]
+f1_keywords: 
+ - "lpmapi/RSVP_SCOPE"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCloseDigest, CryptXmlDllCloseDigest callback, CryptXmlDllCloseDigest callback function [Security], cryptxml/CryptXmlDllCloseDigest, security.cryptxmldllclosedigest
 ms.topic: callback
-f1_keywords: ["cryptxml/CryptXmlDllCloseDigest"]
+f1_keywords: 
+ - "cryptxml/CryptXmlDllCloseDigest"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

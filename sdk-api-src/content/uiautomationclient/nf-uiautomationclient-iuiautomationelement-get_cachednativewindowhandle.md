@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedNativeWindowHandle property [Windows Accessibility], CachedNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedNativeWindowHandle property, IUIAutomationElement.CachedNativeWindowHandle, IUIAutomationElement.get_CachedNativeWindowHandle, IUIAutomationElement::CachedNativeWindowHandle, IUIAutomationElement::get_CachedNativeWindowHandle, get_CachedNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CachedNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedNativeWindowHandle"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CachedNativeWindowHandle"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

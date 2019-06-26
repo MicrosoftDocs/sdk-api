@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTER_INFO, POINTER_INFO structure [Input Messages and Notifications], _POINTER_INFO, inputmsg.pointer_info_struct, winuser/POINTER_INFO
 ms.topic: struct
-f1_keywords: ["winuser/POINTER_INFO"]
+f1_keywords: 
+ - "winuser/POINTER_INFO"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

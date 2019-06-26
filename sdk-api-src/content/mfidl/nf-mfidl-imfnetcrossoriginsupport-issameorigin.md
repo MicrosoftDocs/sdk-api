@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin method, IMFNetCrossOriginSupport.IsSameOrigin, IMFNetCrossOriginSupport::IsSameOrigin, IsSameOrigin, IsSameOrigin method [Media Foundation], IsSameOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, mf.imfnetcrossoriginsupport_issameorigin, mfidl/IMFNetCrossOriginSupport::IsSameOrigin
 ms.topic: method
-f1_keywords: ["mfidl/IMFNetCrossOriginSupport::IsSameOrigin"]
+f1_keywords: 
+ - "mfidl/IMFNetCrossOriginSupport::IsSameOrigin"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

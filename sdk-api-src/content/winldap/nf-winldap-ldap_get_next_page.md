@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_get_next_page, ldap.ldap__get__next__page, ldap.ldap_get_next_page, ldap_get_next_page, ldap_get_next_page function [LDAP], winldap/ldap_get_next_page"
 ms.topic: function
-f1_keywords: ["winldap/ldap_get_next_page"]
+f1_keywords: 
+ - "winldap/ldap_get_next_page"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

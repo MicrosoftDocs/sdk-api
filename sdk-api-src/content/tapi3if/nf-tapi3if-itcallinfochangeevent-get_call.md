@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Call method, ITCallInfoChangeEvent.get_Call, ITCallInfoChangeEvent::get_Call, _tapi3_itcallinfochangeevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_call, tapi3if/ITCallInfoChangeEvent::get_Call
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallInfoChangeEvent.get_Call"]
+f1_keywords: 
+ - "tapi3if/ITCallInfoChangeEvent.get_Call"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

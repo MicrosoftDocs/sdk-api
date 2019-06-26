@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: if_nametoindex, if_nametoindex function [IP Helper], iphlp.if_nametoindex, netioapi/if_nametoindex
 ms.topic: function
-f1_keywords: ["netioapi/if_nametoindex"]
+f1_keywords: 
+ - "netioapi/if_nametoindex"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

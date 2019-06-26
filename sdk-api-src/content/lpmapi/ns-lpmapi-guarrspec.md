@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GuarRspec, GuarRspec structure [QOS], lpmapi/GuarRspec, qos.guarrspec
 ms.topic: struct
-f1_keywords: ["lpmapi/GuarRspec"]
+f1_keywords: 
+ - "lpmapi/GuarRspec"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

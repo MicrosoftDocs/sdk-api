@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_Call method, ITAddressDeviceSpecificEvent.get_Call, ITAddressDeviceSpecificEvent::get_Call, _tapi3_itaddressdevicespecificevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_call, tapi3if/ITAddressDeviceSpecificEvent::get_Call
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressDeviceSpecificEvent.get_Call"]
+f1_keywords: 
+ - "tapi3if/ITAddressDeviceSpecificEvent.get_Call"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutSignalSource method, IBDA_SignalProperties.PutSignalSource, IBDA_SignalProperties::PutSignalSource, IBDA_SignalPropertiesPutSignalSource, PutSignalSource, PutSignalSource method [Microsoft TV Technologies], PutSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutSignalSource, mstv.ibda_signalproperties_putsignalsource
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalProperties.PutSignalSource"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalProperties.PutSignalSource"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

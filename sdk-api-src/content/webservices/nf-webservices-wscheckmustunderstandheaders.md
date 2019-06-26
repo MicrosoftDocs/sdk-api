@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
 ms.topic: function
-f1_keywords: ["webservices/WsCheckMustUnderstandHeaders"]
+f1_keywords: 
+ - "webservices/WsCheckMustUnderstandHeaders"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

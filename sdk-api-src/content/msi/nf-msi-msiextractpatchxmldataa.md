@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
 ms.topic: function
-f1_keywords: ["msi/MsiExtractPatchXMLData"]
+f1_keywords: 
+ - "msi/MsiExtractPatchXMLData"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChanged method, IUPnPEventSink.OnStateChanged, IUPnPEventSink::OnStateChanged, OnStateChanged, OnStateChanged method [UPnP APIs], OnStateChanged method [UPnP APIs],IUPnPEventSink interface, _upnp_iupnpeventsink_onstatechanged, upnp.iupnpeventsink_onstatechanged, upnphost/IUPnPEventSink::OnStateChanged
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPEventSink.OnStateChanged"]
+f1_keywords: 
+ - "upnphost/IUPnPEventSink.OnStateChanged"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

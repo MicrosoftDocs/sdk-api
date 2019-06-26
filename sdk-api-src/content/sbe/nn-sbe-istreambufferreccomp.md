@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], IStreamBufferRecComp interface [Microsoft TV Technologies],described, IStreamBufferRecCompInterface, mstv.istreambufferreccomp, sbe/IStreamBufferRecComp
 ms.topic: interface
-f1_keywords: ["sbe/IStreamBufferRecComp"]
+f1_keywords: 
+ - "sbe/IStreamBufferRecComp"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

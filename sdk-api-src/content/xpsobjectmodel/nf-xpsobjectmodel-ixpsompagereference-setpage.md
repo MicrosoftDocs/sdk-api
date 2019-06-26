@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPage method, IXpsOMPageReference.SetPage, IXpsOMPageReference::SetPage, SetPage, SetPage method [XPS Documents and Packaging], SetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setpage, xpsobjectmodel/IXpsOMPageReference::SetPage
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.SetPage"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.SetPage"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

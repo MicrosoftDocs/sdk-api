@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorManager.RequestPermissions"]
+f1_keywords: 
+ - "sensorsapi/ISensorManager.RequestPermissions"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

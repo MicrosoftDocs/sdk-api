@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5ed95f14-be4b-bff2-83ce-cbf5f239bf3b, ID3D11ShaderReflectionType interface [Direct3D 11],IsEqual method, ID3D11ShaderReflectionType.IsEqual, ID3D11ShaderReflectionType::IsEqual, IsEqual, IsEqual method [Direct3D 11], IsEqual method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::IsEqual, direct3d11.id3d11shaderreflectiontype_isequal
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType.IsEqual"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ShaderReflectionType.IsEqual"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

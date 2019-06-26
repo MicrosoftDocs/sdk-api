@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEHDR, *NPWAVEHDR, *PWAVEHDR, LPWAVEHDR, LPWAVEHDR structure pointer [Windows Multimedia], WAVEHDR, WAVEHDR structure [Windows Multimedia], WHDR_BEGINLOOP, WHDR_DONE, WHDR_ENDLOOP, WHDR_INQUEUE, WHDR_PREPARED, _win32_WAVEHDR_str, mmeapi/LPWAVEHDR, mmeapi/WAVEHDR, multimedia.wavehdr, wavehdr_tag"
 ms.topic: struct
-f1_keywords: ["mmeapi/WAVEHDR"]
+f1_keywords: 
+ - "mmeapi/WAVEHDR"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
 ms.topic: struct
-f1_keywords: ["wintrust/WIN_CERTIFICATE"]
+f1_keywords: 
+ - "wintrust/WIN_CERTIFICATE"
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

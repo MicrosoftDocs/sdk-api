@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_BATCH_COMMAND, CLUSTER_BATCH_COMMAND structure [Failover Cluster], clusapi/CLUSTER_BATCH_COMMAND, mscs.cluster_batch_command
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSTER_BATCH_COMMAND"]
+f1_keywords: 
+ - "clusapi/CLUSTER_BATCH_COMMAND"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.topic: interface
-f1_keywords: ["structuredquery/IQuerySolution"]
+f1_keywords: 
+ - "structuredquery/IQuerySolution"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

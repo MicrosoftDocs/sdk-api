@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingSetObject"]
+f1_keywords: 
+ - "rpcdce/RpcBindingSetObject"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_InsertMarkHitTest"]
+f1_keywords: 
+ - "commctrl/ListView_InsertMarkHitTest"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

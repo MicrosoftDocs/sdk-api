@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], IFeedClockVectorElement interface [Windows Sync],described, winsync.ifeedclockvectorelement, winsync/IFeedClockVectorElement
 ms.topic: interface
-f1_keywords: ["winsync/IFeedClockVectorElement"]
+f1_keywords: 
+ - "winsync/IFeedClockVectorElement"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

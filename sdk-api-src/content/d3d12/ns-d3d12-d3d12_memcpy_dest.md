@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_MEMCPY_DEST, D3D12_MEMCPY_DEST structure, d3d12/D3D12_MEMCPY_DEST, direct3d12.d3d12_memcpy_dest
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_MEMCPY_DEST"]
+f1_keywords: 
+ - "d3d12/D3D12_MEMCPY_DEST"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

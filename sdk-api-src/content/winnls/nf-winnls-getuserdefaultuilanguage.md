@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultUILanguage, GetUserDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetUserDefaultUILanguage, intl.getuserdefaultuilanguage, winnls/GetUserDefaultUILanguage
 ms.topic: function
-f1_keywords: ["winnls/GetUserDefaultUILanguage"]
+f1_keywords: 
+ - "winnls/GetUserDefaultUILanguage"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

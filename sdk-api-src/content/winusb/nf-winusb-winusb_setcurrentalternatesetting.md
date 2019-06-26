@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetCurrentAlternateSetting, WinUsb_SetCurrentAlternateSetting function [Buses], buses.winusb_setcurrentalternatesetting, winusb/WinUsb_SetCurrentAlternateSetting, winusbfunc_54d8b9ed-9a45-4fed-a61e-2ad2bb573028.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_SetCurrentAlternateSetting"]
+f1_keywords: 
+ - "winusb/WinUsb_SetCurrentAlternateSetting"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

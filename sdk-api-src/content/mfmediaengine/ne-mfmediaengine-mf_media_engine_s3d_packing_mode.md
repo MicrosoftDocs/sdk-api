@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_S3D_PACKING_MODE, MF_MEDIA_ENGINE_S3D_PACKING_MODE enumeration [Media Foundation], MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM, mf.mf_media_engine_s3d_packing_mode, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE"]
+f1_keywords: 
+ - "mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

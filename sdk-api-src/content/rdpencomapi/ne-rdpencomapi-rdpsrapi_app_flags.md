@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APP_FLAG_PRIVILEGED, RDPSRAPI_APP_FLAGS, RDPSRAPI_APP_FLAGS enumeration [RDP], rdp.rdpsrapi_app_flags, rdpencomapi/APP_FLAG_PRIVILEGED, rdpencomapi/RDPSRAPI_APP_FLAGS
 ms.topic: enum
-f1_keywords: ["rdpencomapi/RDPSRAPI_APP_FLAGS"]
+f1_keywords: 
+ - "rdpencomapi/RDPSRAPI_APP_FLAGS"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

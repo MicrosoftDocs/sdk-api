@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetColor"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetColor"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

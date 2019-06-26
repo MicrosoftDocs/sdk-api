@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThisModelMetadata, GetThisModelMetadata method, GetThisModelMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetThisModelMetadata method, IWSDDeviceProxy.GetThisModelMetadata, IWSDDeviceProxy::GetThisModelMetadata, ncd.iwsddeviceproxy_getthismodelmetadata_method, wsdclient/IWSDDeviceProxy::GetThisModelMetadata
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDDeviceProxy.GetThisModelMetadata"]
+f1_keywords: 
+ - "wsdclient/IWSDDeviceProxy.GetThisModelMetadata"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

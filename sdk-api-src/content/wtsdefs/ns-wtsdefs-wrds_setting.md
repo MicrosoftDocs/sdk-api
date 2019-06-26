@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WRDS_SETTING"]
+f1_keywords: 
+ - "wtsdefs/WRDS_SETTING"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

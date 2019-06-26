@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
 ms.topic: function
-f1_keywords: ["msiquery/MsiGetLastErrorRecord"]
+f1_keywords: 
+ - "msiquery/MsiGetLastErrorRecord"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

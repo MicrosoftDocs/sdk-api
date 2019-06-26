@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketAbortHandle, WebSocketAbortHandle function [Websocket Protocol Component API], websock.websocketaborthandle, websocket/WebSocketAbortHandle
 ms.topic: function
-f1_keywords: ["websocket/WebSocketAbortHandle"]
+f1_keywords: 
+ - "websocket/WebSocketAbortHandle"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTransportStreamId method, IATSC_VCT.GetTransportStreamId, IATSC_VCT::GetTransportStreamId, IATSC_VCTGetTransportStreamId, atscpsipparser/IATSC_VCT::GetTransportStreamId, mstv.iatsc_vct_gettransportstreamid
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetTransportStreamId"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetTransportStreamId"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

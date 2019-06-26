@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExposureCompensation, GetExposureCompensation method [Windows Imaging Component], GetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetExposureCompensation method, IWICDevelopRaw.GetExposureCompensation, IWICDevelopRaw::GetExposureCompensation, _wic_codec_iwicdevelopraw_getexposurecompensation, wic._wic_codec_iwicdevelopraw_getexposurecompensation, wincodec/IWICDevelopRaw::GetExposureCompensation
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetExposureCompensation"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetExposureCompensation"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

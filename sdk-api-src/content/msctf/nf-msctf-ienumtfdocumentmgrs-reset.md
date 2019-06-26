@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Reset method, IEnumTfDocumentMgrs.Reset, IEnumTfDocumentMgrs::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_reset_ref, msctf/IEnumTfDocumentMgrs::Reset, tsf.ienumtfdocumentmgrs_reset
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfDocumentMgrs.Reset"]
+f1_keywords: 
+ - "msctf/IEnumTfDocumentMgrs.Reset"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

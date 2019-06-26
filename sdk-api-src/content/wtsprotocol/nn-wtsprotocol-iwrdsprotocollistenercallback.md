@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListenerCallback, IWRdsProtocolListenerCallback interface [Remote Desktop Services], IWRdsProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocollistenercallback, wtsprotocol/IWRdsProtocolListenerCallback
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWRdsProtocolListenerCallback"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolListenerCallback"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

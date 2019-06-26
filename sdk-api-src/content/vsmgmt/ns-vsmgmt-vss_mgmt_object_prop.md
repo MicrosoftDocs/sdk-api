@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP"
 ms.topic: struct
-f1_keywords: ["vsmgmt/VSS_MGMT_OBJECT_PROP"]
+f1_keywords: 
+ - "vsmgmt/VSS_MGMT_OBJECT_PROP"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

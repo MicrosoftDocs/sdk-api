@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetStatus, TSPI_phoneGetStatus function [TAPI 2.2], _tspi_tspi_phonegetstatus, tspi.tspi_phonegetstatus, tspi/TSPI_phoneGetStatus
 ms.topic: function
-f1_keywords: ["tspi/TSPI_phoneGetStatus"]
+f1_keywords: 
+ - "tspi/TSPI_phoneGetStatus"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

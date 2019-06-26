@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
 ms.topic: function
-f1_keywords: ["immdev/ImmRequestMessage"]
+f1_keywords: 
+ - "immdev/ImmRequestMessage"
 req.header: immdev.h
 req.include-header: 
 req.target-type: Windows

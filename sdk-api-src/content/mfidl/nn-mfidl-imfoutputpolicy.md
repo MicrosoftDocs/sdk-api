@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], IMFOutputPolicy interface [Media Foundation],described, mf.imfoutputpolicy, mfidl/IMFOutputPolicy
 ms.topic: interface
-f1_keywords: ["mfidl/IMFOutputPolicy"]
+f1_keywords: 
+ - "mfidl/IMFOutputPolicy"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

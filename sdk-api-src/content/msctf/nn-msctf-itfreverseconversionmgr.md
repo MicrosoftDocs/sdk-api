@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversionMgr, ITfReverseConversionMgr interface [Text Services Framework], ITfReverseConversionMgr interface [Text Services Framework],described, msctf/ITfReverseConversionMgr, tsf.itfreverseconversionmgr
 ms.topic: interface
-f1_keywords: ["msctf/ITfReverseConversionMgr"]
+f1_keywords: 
+ - "msctf/ITfReverseConversionMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

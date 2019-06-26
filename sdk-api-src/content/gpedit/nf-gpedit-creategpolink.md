@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGPOLink, CreateGPOLink function [Group Policy], _win32_creategpolink, gpedit/CreateGPOLink, policy.creategpolink
 ms.topic: function
-f1_keywords: ["gpedit/CreateGPOLink"]
+f1_keywords: 
+ - "gpedit/CreateGPOLink"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

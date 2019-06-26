@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
 ms.topic: struct
-f1_keywords: ["rpcasync/RPC_ASYNC_NOTIFICATION_INFO"]
+f1_keywords: 
+ - "rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

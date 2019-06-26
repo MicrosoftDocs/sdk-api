@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Skip method, IEnumClockVector.Skip, IEnumClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_skip, winsync/IEnumClockVector::Skip
 ms.topic: method
-f1_keywords: ["winsync/IEnumClockVector.Skip"]
+f1_keywords: 
+ - "winsync/IEnumClockVector.Skip"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

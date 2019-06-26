@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
 ms.topic: method
-f1_keywords: ["locationapi/ILocationReport.GetTimestamp"]
+f1_keywords: 
+ - "locationapi/ILocationReport.GetTimestamp"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBand, AddBand method [Windows Shell], AddBand method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],AddBand method, IBandSite.AddBand, IBandSite::AddBand, _win32_IBandSite_AddBand, shell.IBandSite_AddBand, shobjidl_core/IBandSite::AddBand
 ms.topic: method
-f1_keywords: ["shobjidl_core/IBandSite.AddBand"]
+f1_keywords: 
+ - "shobjidl_core/IBandSite.AddBand"
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_NIT.GetTableDescriptorByIndex, IDVB_NIT::GetTableDescriptorByIndex, IDVB_NITGetTableDescriptorByIndex, dvbsiparser/IDVB_NIT::GetTableDescriptorByIndex, mstv.idvb_nit_gettabledescriptorbyindex
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_NIT.GetTableDescriptorByIndex"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_NIT.GetTableDescriptorByIndex"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

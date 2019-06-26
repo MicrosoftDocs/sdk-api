@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
 ms.topic: method
-f1_keywords: ["uiribbon/IUIFramework.Initialize"]
+f1_keywords: 
+ - "uiribbon/IUIFramework.Initialize"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

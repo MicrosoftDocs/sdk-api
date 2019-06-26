@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocationPower, ILocationPower interface [WinLocation], ILocationPower interface [WinLocation],described, locationapi/ILocationPower, winlocation.ilocationpower
 ms.topic: interface
-f1_keywords: ["locationapi/ILocationPower"]
+f1_keywords: 
+ - "locationapi/ILocationPower"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

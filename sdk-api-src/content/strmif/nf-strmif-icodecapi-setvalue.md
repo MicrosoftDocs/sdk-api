@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValue method, ICodecAPI.SetValue, ICodecAPI::SetValue, ICodecAPISetValue, SetValue, SetValue method [DirectShow], SetValue method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.SetValue"]
+f1_keywords: 
+ - "strmif/ICodecAPI.SetValue"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

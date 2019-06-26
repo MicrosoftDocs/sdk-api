@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo2.GetCurrentVideoAttributes, IDvdInfo2::GetCurrentVideoAttributes, IDvdInfo2GetCurrentVideoAttributes, dshow.idvdinfo2_getcurrentvideoattributes, strmif/IDvdInfo2::GetCurrentVideoAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetCurrentVideoAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetCurrentVideoAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

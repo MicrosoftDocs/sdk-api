@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Brush,IN REAL), Pen.Pen(const Brush*,REAL), Pen::Pen, Pen::Pen(IN const Brush,IN REAL), _gdiplus_CLASS_Pen_Pen_brush_width_, gdiplus._gdiplus_CLASS_Pen_Pen_brush_width_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.Pen"]
+f1_keywords: 
+ - "gdipluspen/Pen.Pen"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

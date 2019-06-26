@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxThreads, GetMaxThreads method [COM+], GetMaxThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetMaxThreads method, IThreadPoolKnobs.GetMaxThreads, IThreadPoolKnobs::GetMaxThreads, _cos_IThreadPoolKnobs_GetMaxThreads, comsvcs/IThreadPoolKnobs::GetMaxThreads, cos.ithreadpoolknobs_getmaxthreads
 ms.topic: method
-f1_keywords: ["comsvcs/IThreadPoolKnobs.GetMaxThreads"]
+f1_keywords: 
+ - "comsvcs/IThreadPoolKnobs.GetMaxThreads"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

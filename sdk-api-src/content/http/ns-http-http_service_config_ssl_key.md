@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_KEY, PHTTP_SERVICE_CONFIG_SSL_KEY structure pointer [HTTP], _http_http_service_config_ssl_key, http.http_service_config_ssl_key, http/HTTP_SERVICE_CONFIG_SSL_KEY, http/PHTTP_SERVICE_CONFIG_SSL_KEY"
 ms.topic: struct
-f1_keywords: ["http/HTTP_SERVICE_CONFIG_SSL_KEY"]
+f1_keywords: 
+ - "http/HTTP_SERVICE_CONFIG_SSL_KEY"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

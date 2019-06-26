@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager
 ms.topic: interface
-f1_keywords: ["comsvcs/IDispenserManager"]
+f1_keywords: 
+ - "comsvcs/IDispenserManager"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

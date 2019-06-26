@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
 ms.topic: function
-f1_keywords: ["clusapi/RestoreClusterDatabase"]
+f1_keywords: 
+ - "clusapi/RestoreClusterDatabase"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

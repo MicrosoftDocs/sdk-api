@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],get_FilterCollection method, IMediaControl.get_FilterCollection, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow],IMediaControl interface
 ms.topic: method
-f1_keywords: ["control/IMediaControl.get_FilterCollection"]
+f1_keywords: 
+ - "control/IMediaControl.get_FilterCollection"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

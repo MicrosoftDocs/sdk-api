@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetServerName, MI_Class_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetServerName, wmi_v2.mi_class_getservername
 ms.topic: function
-f1_keywords: ["mi/MI_Class_GetServerName"]
+f1_keywords: 
+ - "mi/MI_Class_GetServerName"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

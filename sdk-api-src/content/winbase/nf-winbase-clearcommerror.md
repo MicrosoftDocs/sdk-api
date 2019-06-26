@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
 ms.topic: function
-f1_keywords: ["winbase/ClearCommError"]
+f1_keywords: 
+ - "winbase/ClearCommError"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

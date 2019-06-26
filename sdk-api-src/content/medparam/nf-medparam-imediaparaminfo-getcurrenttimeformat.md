@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTimeFormat, GetCurrentTimeFormat method [DirectShow], GetCurrentTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetCurrentTimeFormat method, IMediaParamInfo.GetCurrentTimeFormat, IMediaParamInfo::GetCurrentTimeFormat, IMediaParamInfoGetCurrentTimeFormat, dshow.imediaparaminfo_getcurrenttimeformat, medparam/IMediaParamInfo::GetCurrentTimeFormat
 ms.topic: method
-f1_keywords: ["medparam/IMediaParamInfo.GetCurrentTimeFormat"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo.GetCurrentTimeFormat"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

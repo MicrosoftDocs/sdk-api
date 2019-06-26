@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT
 ms.topic: enum
-f1_keywords: ["oleidl/USERCLASSTYPE"]
+f1_keywords: 
+ - "oleidl/USERCLASSTYPE"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

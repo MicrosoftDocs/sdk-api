@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPADDRINFOEX3, *PADDRINFOEX3, ADDRINFOEX3, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex3, LPaddrinfoex3 structure pointer [Winsock], Paddrinfoex3, Paddrinfoex3 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex3, addrinfoex3 structure [Winsock], addrinfoex3A, addrinfoex3W, winsock.addrinfoex3, ws2def/LPaddrinfoex3, ws2def/Paddrinfoex3, ws2def/addrinfoex3, ws2def/addrinfoex3A, ws2def/addrinfoex3W"
 ms.topic: struct
-f1_keywords: ["ws2def/addrinfoex3"]
+f1_keywords: 
+ - "ws2def/addrinfoex3"
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows

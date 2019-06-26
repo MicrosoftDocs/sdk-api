@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
 ms.topic: interface
-f1_keywords: ["fsrmscreen/IFsrmFileScreenException"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreenException"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

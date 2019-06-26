@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], GetTextRenderingParams method [Direct2D],ID2D1DrawingStateBlock interface, ID2D1DrawingStateBlock interface [Direct2D],GetTextRenderingParams method, ID2D1DrawingStateBlock.GetTextRenderingParams, ID2D1DrawingStateBlock::GetTextRenderingParams, d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams, direct2d.ID2D1DrawingStateBlock_GetTextRenderingParams
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1DrawingStateBlock.GetTextRenderingParams"]
+f1_keywords: 
+ - "d2d1/ID2D1DrawingStateBlock.GetTextRenderingParams"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSubCommands, EnumSubCommands method [Windows Shell], EnumSubCommands method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],EnumSubCommands method, IExplorerCommand.EnumSubCommands, IExplorerCommand::EnumSubCommands, _shell_IExplorerCommand_EnumSubCommands, shell.IExplorerCommand_EnumSubCommands, shobjidl_core/IExplorerCommand::EnumSubCommands
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerCommand.EnumSubCommands"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerCommand.EnumSubCommands"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

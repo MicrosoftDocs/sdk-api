@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],LockInChangePoint method, IFileSystemImage.LockInChangePoint, IFileSystemImage::LockInChangePoint, LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.LockInChangePoint"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.LockInChangePoint"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

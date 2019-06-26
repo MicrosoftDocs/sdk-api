@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditEnumerateCategories, AuditEnumerateCategories function [Security], ntsecapi/AuditEnumerateCategories, security.auditenumeratecategories_func
 ms.topic: function
-f1_keywords: ["ntsecapi/AuditEnumerateCategories"]
+f1_keywords: 
+ - "ntsecapi/AuditEnumerateCategories"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

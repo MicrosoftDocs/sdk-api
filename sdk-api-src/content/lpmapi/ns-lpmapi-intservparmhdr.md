@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntServParmHdr, IntServParmHdr structure [QOS], lpmapi/IntServParmHdr, qos.intservparmhdr
 ms.topic: struct
-f1_keywords: ["lpmapi/IntServParmHdr"]
+f1_keywords: 
+ - "lpmapi/IntServParmHdr"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

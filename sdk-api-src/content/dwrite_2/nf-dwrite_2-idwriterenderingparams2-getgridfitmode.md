@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGridFitMode, GetGridFitMode method [Direct Write], GetGridFitMode method [Direct Write],IDWriteRenderingParams2 interface, IDWriteRenderingParams2 interface [Direct Write],GetGridFitMode method, IDWriteRenderingParams2.GetGridFitMode, IDWriteRenderingParams2::GetGridFitMode, directwrite.idwriterenderingparams2_getgridfitmode, dwrite_2/IDWriteRenderingParams2::GetGridFitMode
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteRenderingParams2.GetGridFitMode"]
+f1_keywords: 
+ - "dwrite_2/IDWriteRenderingParams2.GetGridFitMode"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetValueEx"]
+f1_keywords: 
+ - "resapi/ResUtilSetValueEx"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

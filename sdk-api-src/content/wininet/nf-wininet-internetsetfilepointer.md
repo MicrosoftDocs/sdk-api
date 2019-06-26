@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
 ms.topic: function
-f1_keywords: ["wininet/InternetSetFilePointer"]
+f1_keywords: 
+ - "wininet/InternetSetFilePointer"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

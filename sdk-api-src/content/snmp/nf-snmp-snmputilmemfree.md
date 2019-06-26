@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemFree, SnmpUtilMemFree function [SNMP], _snmp_snmputilmemfree, snmp.snmputilmemfree, snmp/SnmpUtilMemFree
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilMemFree"]
+f1_keywords: 
+ - "snmp/SnmpUtilMemFree"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIconInfo, GetIconInfo function [Menus and Other Resources], IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_NO, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, IDI_APPLICATION, IDI_ASTERISK, IDI_EXCLAMATION, IDI_HAND, IDI_QUESTION, IDI_WINLOGO, _win32_GetIconInfo, _win32_geticoninfo_cpp, menurc.geticoninfo, winui._win32_geticoninfo, winuser/GetIconInfo
 ms.topic: function
-f1_keywords: ["winuser/GetIconInfo"]
+f1_keywords: 
+ - "winuser/GetIconInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

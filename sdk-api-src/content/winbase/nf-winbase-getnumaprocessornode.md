@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNode, GetNumaProcessorNode function, _win32_getnumaprocessornode, base.getnumaprocessornode, winbase/GetNumaProcessorNode
 ms.topic: function
-f1_keywords: ["winbase/GetNumaProcessorNode"]
+f1_keywords: 
+ - "winbase/GetNumaProcessorNode"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

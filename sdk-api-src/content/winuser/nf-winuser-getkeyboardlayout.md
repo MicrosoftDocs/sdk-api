@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardLayout, GetKeyboardLayout function [Keyboard and Mouse Input], _win32_GetKeyboardLayout, _win32_getkeyboardlayout_cpp, inputdev.getkeyboardlayout, winui._win32_getkeyboardlayout, winuser/GetKeyboardLayout
 ms.topic: function
-f1_keywords: ["winuser/GetKeyboardLayout"]
+f1_keywords: 
+ - "winuser/GetKeyboardLayout"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

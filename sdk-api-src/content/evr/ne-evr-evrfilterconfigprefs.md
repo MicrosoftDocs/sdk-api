@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
 ms.topic: enum
-f1_keywords: ["evr/EVRFilterConfigPrefs"]
+f1_keywords: 
+ - "evr/EVRFilterConfigPrefs"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Identifier property, IOCSPCAConfiguration.Identifier, IOCSPCAConfiguration.get_Identifier, IOCSPCAConfiguration::Identifier, IOCSPCAConfiguration::get_Identifier, Identifier property [Security], Identifier property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Identifier, certadm/IOCSPCAConfiguration::get_Identifier, get_Identifier, security.iocspcaconfiguration_identifier_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfiguration.Identifier"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfiguration.Identifier"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

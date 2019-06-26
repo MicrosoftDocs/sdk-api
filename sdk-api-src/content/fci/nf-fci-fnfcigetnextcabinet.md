@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.topic: macro
-f1_keywords: ["fci/FNFCIGETNEXTCABINET"]
+f1_keywords: 
+ - "fci/FNFCIGETNEXTCABINET"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

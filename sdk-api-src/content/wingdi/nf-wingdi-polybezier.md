@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, gdi.polybezier, wingdi/PolyBezier
 ms.topic: function
-f1_keywords: ["wingdi/PolyBezier"]
+f1_keywords: 
+ - "wingdi/PolyBezier"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

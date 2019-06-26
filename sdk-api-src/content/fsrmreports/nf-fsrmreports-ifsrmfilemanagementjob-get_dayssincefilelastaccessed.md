@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DaysSinceFileLastAccessed property [File Server Resource Manager], DaysSinceFileLastAccessed property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileLastAccessed property, IFsrmFileManagementJob.DaysSinceFileLastAccessed, IFsrmFileManagementJob.get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::DaysSinceFileLastAccessed, IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, fs.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrm.ifsrmfilemanagementjob_dayssincefilelastaccessed, fsrmreports/IFsrmFileManagementJob::DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileLastAccessed, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileLastAccessed, get_DaysSinceFileLastAccessed
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.DaysSinceFileLastAccessed"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileLastAccessed"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindClosestMatchingMode, FindClosestMatchingMode method [DXGI], FindClosestMatchingMode method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],FindClosestMatchingMode method, IDXGIOutput.FindClosestMatchingMode, IDXGIOutput::FindClosestMatchingMode, c140400c-32d4-ec57-8da0-a37a23cfd5e4, direct3ddxgi.idxgioutput_findclosestmatchingmode, dxgi/IDXGIOutput::FindClosestMatchingMode
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIOutput.FindClosestMatchingMode"]
+f1_keywords: 
+ - "dxgi/IDXGIOutput.FindClosestMatchingMode"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

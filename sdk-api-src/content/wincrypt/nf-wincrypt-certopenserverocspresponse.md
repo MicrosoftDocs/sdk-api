@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
 ms.topic: function
-f1_keywords: ["wincrypt/CertOpenServerOcspResponse"]
+f1_keywords: 
+ - "wincrypt/CertOpenServerOcspResponse"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

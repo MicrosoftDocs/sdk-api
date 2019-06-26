@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
 ms.topic: interface
-f1_keywords: ["wsdclient/IWSDAsyncResult"]
+f1_keywords: 
+ - "wsdclient/IWSDAsyncResult"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellItem2 interface [Windows Shell],Update method, IShellItem2.Update, IShellItem2::Update, Update, Update method [Windows Shell], Update method [Windows Shell],IShellItem2 interface, _shell_IShellItem2_Update, shell.IShellItem2_Update, shobjidl_core/IShellItem2::Update
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItem2.Update"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2.Update"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

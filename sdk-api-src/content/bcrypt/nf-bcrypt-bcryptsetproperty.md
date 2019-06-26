@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BCryptSetProperty, security.bcryptsetproperty_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptSetProperty"]
+f1_keywords: 
+ - "bcrypt/BCryptSetProperty"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

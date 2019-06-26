@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzOperations object [Security],Count property, Count property [Security], Count property [Security],AzOperations object, Count property [Security],IAzOperations interface, IAzOperations interface [Security],Count property, IAzOperations.Count, IAzOperations.get_Count, IAzOperations::Count, IAzOperations::get_Count, azroles/IAzOperations::Count, azroles/IAzOperations::get_Count, get_Count, security.iazoperations_count
 ms.topic: method
-f1_keywords: ["azroles/IAzOperations.Count"]
+f1_keywords: 
+ - "azroles/IAzOperations.Count"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

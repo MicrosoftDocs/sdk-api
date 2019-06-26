@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERNET_BUFFERSW, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
 ms.topic: struct
-f1_keywords: ["wininet/INTERNET_BUFFERS"]
+f1_keywords: 
+ - "wininet/INTERNET_BUFFERS"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

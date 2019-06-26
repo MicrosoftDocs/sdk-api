@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate.get_AutoSelectOnWebSites, IUpdate::AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.AutoSelectOnWebSites"]
+f1_keywords: 
+ - "wuapi/IUpdate.AutoSelectOnWebSites"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

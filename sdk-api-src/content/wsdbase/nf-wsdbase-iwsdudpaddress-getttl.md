@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTTL, GetTTL method, GetTTL method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetTTL method, IWSDUdpAddress.GetTTL, IWSDUdpAddress::GetTTL, ncd.iwsdudpaddress_getttl, wsdbase/IWSDUdpAddress::GetTTL
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDUdpAddress.GetTTL"]
+f1_keywords: 
+ - "wsdbase/IWSDUdpAddress.GetTTL"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

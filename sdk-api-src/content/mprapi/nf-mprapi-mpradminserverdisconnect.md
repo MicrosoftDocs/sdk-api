@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerDisconnect, MprAdminServerDisconnect function [RAS], _mpr_mpradminserverdisconnect, mprapi/MprAdminServerDisconnect, rras.mpradminserverdisconnect
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminServerDisconnect"]
+f1_keywords: 
+ - "mprapi/MprAdminServerDisconnect"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

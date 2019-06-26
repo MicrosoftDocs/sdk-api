@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetSeekable"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetSeekable"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

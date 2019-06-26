@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFVideoFormatFromMFMediaType, MFCreateMFVideoFormatFromMFMediaType function [Media Foundation], c83e3605-d345-4192-a6fd-26d1a78eb259, mf.mfcreatemfvideoformatfrommfmediatype, mfapi/MFCreateMFVideoFormatFromMFMediaType
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateMFVideoFormatFromMFMediaType"]
+f1_keywords: 
+ - "mfapi/MFCreateMFVideoFormatFromMFMediaType"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

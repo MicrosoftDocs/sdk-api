@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordInfoFromTypeInfo, GetRecordInfoFromTypeInfo function [Automation], _oa96_GetRecordInfoFromTypeInfo, automat.getrecordinfofromtypeinfo, oleauto/GetRecordInfoFromTypeInfo
 ms.topic: function
-f1_keywords: ["oleauto/GetRecordInfoFromTypeInfo"]
+f1_keywords: 
+ - "oleauto/GetRecordInfoFromTypeInfo"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

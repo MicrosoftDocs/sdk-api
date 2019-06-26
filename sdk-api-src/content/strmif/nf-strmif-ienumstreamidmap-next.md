@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
 ms.topic: method
-f1_keywords: ["strmif/IEnumStreamIdMap.Next"]
+f1_keywords: 
+ - "strmif/IEnumStreamIdMap.Next"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

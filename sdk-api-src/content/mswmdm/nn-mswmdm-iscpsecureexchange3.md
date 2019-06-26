@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
 ms.topic: interface
-f1_keywords: ["mswmdm/ISCPSecureExchange3"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureExchange3"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

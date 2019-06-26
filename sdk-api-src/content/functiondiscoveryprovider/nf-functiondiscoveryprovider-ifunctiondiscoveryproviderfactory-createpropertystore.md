@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method, CreatePropertyStore method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreatePropertyStore method, IFunctionDiscoveryProviderFactory.CreatePropertyStore, IFunctionDiscoveryProviderFactory::CreatePropertyStore, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore, ncd.ifunctiondiscoveryproviderfactory_createpropertystore
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreatePropertyStore"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreatePropertyStore"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

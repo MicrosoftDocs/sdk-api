@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharLower, CharLower function [Menus and Other Resources], CharLowerA, CharLowerW, _win32_CharLower, _win32_charlower_cpp, menurc.charlower, winui._win32_charlower, winuser/CharLower, winuser/CharLowerA, winuser/CharLowerW
 ms.topic: function
-f1_keywords: ["winuser/CharLower"]
+f1_keywords: 
+ - "winuser/CharLower"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

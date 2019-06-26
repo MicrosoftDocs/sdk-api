@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListForceResolutionEx, MsiSourceListForceResolutionEx function, MsiSourceListForceResolutionExA, MsiSourceListForceResolutionExW, msi/MsiSourceListForceResolutionEx, msi/MsiSourceListForceResolutionExA, msi/MsiSourceListForceResolutionExW, setup.msisourcelistforceresolutionex
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListForceResolutionEx"]
+f1_keywords: 
+ - "msi/MsiSourceListForceResolutionEx"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

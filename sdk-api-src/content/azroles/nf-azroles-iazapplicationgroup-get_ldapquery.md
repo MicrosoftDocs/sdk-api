@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],LdapQuery property, IAzApplicationGroup interface [Security],LdapQuery property, IAzApplicationGroup.LdapQuery, IAzApplicationGroup.get_LdapQuery, IAzApplicationGroup::LdapQuery, IAzApplicationGroup::get_LdapQuery, IAzApplicationGroup::put_LdapQuery, LdapQuery property [Security], LdapQuery property [Security],AzApplicationGroup object, LdapQuery property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::LdapQuery, azroles/IAzApplicationGroup::get_LdapQuery, azroles/IAzApplicationGroup::put_LdapQuery, get_LdapQuery, security.iazapplicationgroup_ldapquery
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup.LdapQuery"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup.LdapQuery"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

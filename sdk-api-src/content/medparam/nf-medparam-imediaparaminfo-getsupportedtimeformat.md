@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedTimeFormat, GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetSupportedTimeFormat method, IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
 ms.topic: method
-f1_keywords: ["medparam/IMediaParamInfo.GetSupportedTimeFormat"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo.GetSupportedTimeFormat"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

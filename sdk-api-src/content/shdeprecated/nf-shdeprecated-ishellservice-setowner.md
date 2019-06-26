@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
 ms.topic: method
-f1_keywords: ["shdeprecated/IShellService.SetOwner"]
+f1_keywords: 
+ - "shdeprecated/IShellService.SetOwner"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

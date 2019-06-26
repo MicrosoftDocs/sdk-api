@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
 ms.topic: interface
-f1_keywords: ["upnphost/IUPnPRemoteEndpointInfo"]
+f1_keywords: 
+ - "upnphost/IUPnPRemoteEndpointInfo"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

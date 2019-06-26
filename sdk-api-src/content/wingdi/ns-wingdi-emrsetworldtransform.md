@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM structure [Windows GDI], PEMRSETWORLDTRANSFORM, PEMRSETWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRSETWORLDTRANSFORM_str, gdi.emrsetworldtransform, wingdi/EMRSETWORLDTRANSFORM, wingdi/PEMRSETWORLDTRANSFORM"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSETWORLDTRANSFORM"]
+f1_keywords: 
+ - "wingdi/EMRSETWORLDTRANSFORM"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMTBRESTORE, LPNMTBRESTORE, LPNMTBRESTORE structure pointer [Windows Controls], NMTBRESTORE, NMTBRESTORE structure [Windows Controls], _win32_NMTBRESTORE, _win32_NMTBRESTORE_cpp, commctrl/LPNMTBRESTORE, commctrl/NMTBRESTORE, controls.NMTBRESTORE, controls._win32_NMTBRESTORE"
 ms.topic: struct
-f1_keywords: ["commctrl/NMTBRESTORE"]
+f1_keywords: 
+ - "commctrl/NMTBRESTORE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

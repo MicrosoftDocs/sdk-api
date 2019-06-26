@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProxyProviderWinEventHandler interface [Windows Accessibility],RespondToWinEvent method, IProxyProviderWinEventHandler.RespondToWinEvent, IProxyProviderWinEventHandler::RespondToWinEvent, RespondToWinEvent, RespondToWinEvent method [Windows Accessibility], RespondToWinEvent method [Windows Accessibility],IProxyProviderWinEventHandler interface, uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent, uiauto_IProxyProviderWinEventHandler_RespondToWinEvent, uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent, winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent
 ms.topic: method
-f1_keywords: ["uiautomationcore/IProxyProviderWinEventHandler.RespondToWinEvent"]
+f1_keywords: 
+ - "uiautomationcore/IProxyProviderWinEventHandler.RespondToWinEvent"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

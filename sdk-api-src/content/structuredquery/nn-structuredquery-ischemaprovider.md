@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
 ms.topic: interface
-f1_keywords: ["structuredquery/ISchemaProvider"]
+f1_keywords: 
+ - "structuredquery/ISchemaProvider"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

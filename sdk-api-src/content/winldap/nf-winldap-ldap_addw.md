@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_add"]
+f1_keywords: 
+ - "winldap/ldap_add"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

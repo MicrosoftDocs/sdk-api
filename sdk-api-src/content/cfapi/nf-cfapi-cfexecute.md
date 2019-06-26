@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfExecute, CfExecute function, cfapi/CfExecute, cloudApi.cfexecute
 ms.topic: function
-f1_keywords: ["cfapi/CfExecute"]
+f1_keywords: 
+ - "cfapi/CfExecute"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

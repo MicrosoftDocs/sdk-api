@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [DirectShow], DXVA_COPPStatusHDCPKeyDataStructure, _DXVA_COPPStatusHDCPKeyData, dshow.dxva_coppstatushdcpkeydata, dxva9typ/DXVA_COPPStatusHDCPKeyData
 ms.topic: struct
-f1_keywords: ["dxva9typ/DXVA_COPPStatusHDCPKeyData"]
+f1_keywords: 
+ - "dxva9typ/DXVA_COPPStatusHDCPKeyData"
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

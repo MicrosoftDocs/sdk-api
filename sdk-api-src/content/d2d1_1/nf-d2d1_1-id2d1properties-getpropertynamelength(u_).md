@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U), ID2D1Properties::GetPropertyNameLength(U,), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength2
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Properties.GetPropertyNameLength"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Properties.GetPropertyNameLength"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

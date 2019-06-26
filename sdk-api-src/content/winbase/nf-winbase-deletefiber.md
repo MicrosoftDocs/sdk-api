@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteFiber, DeleteFiber function, _win32_deletefiber, base.deletefiber, winbase/DeleteFiber
 ms.topic: function
-f1_keywords: ["winbase/DeleteFiber"]
+f1_keywords: 
+ - "winbase/DeleteFiber"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

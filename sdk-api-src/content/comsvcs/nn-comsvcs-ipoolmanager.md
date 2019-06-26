@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface [COM+],described, _cos_IPoolManager, comsvcs/IPoolManager, cos.ipoolmanager
 ms.topic: interface
-f1_keywords: ["comsvcs/IPoolManager"]
+f1_keywords: 
+ - "comsvcs/IPoolManager"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

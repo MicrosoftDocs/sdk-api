@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder interface [DirectShow],RenderDvdVideoVolume method, IDvdGraphBuilder.RenderDvdVideoVolume, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow],IDvdGraphBuilder interface, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
 ms.topic: method
-f1_keywords: ["strmif/IDvdGraphBuilder.RenderDvdVideoVolume"]
+f1_keywords: 
+ - "strmif/IDvdGraphBuilder.RenderDvdVideoVolume"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

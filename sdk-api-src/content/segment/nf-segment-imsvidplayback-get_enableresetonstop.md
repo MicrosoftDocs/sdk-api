@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_EnableResetOnStop method, IMSVidPlayback.get_EnableResetOnStop, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
 ms.topic: method
-f1_keywords: ["segment/IMSVidPlayback.get_EnableResetOnStop"]
+f1_keywords: 
+ - "segment/IMSVidPlayback.get_EnableResetOnStop"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

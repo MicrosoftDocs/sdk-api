@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideLow property, IDVBSLocator2.LocalOscillatorOverrideLow, IDVBSLocator2.get_LocalOscillatorOverrideLow, IDVBSLocator2::LocalOscillatorOverrideLow, IDVBSLocator2::get_LocalOscillatorOverrideLow, IDVBSLocator2::put_LocalOscillatorOverrideLow, LocalOscillatorOverrideLow property [Microsoft TV Technologies], LocalOscillatorOverrideLow property [Microsoft TV Technologies],IDVBSLocator2 interface, get_LocalOscillatorOverrideLow, mstv.idvbslocator2_localoscillatoroverridelow, tuner/IDVBSLocator2::LocalOscillatorOverrideLow, tuner/IDVBSLocator2::get_LocalOscillatorOverrideLow, tuner/IDVBSLocator2::put_LocalOscillatorOverrideLow
 ms.topic: method
-f1_keywords: ["tuner/IDVBSLocator2.LocalOscillatorOverrideLow"]
+f1_keywords: 
+ - "tuner/IDVBSLocator2.LocalOscillatorOverrideLow"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

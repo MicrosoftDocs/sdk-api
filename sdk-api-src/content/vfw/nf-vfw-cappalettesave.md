@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capPaletteSave, capPaletteSave, capPaletteSave macro [Windows Multimedia], multimedia.cappalettesave, vfw/capPaletteSave"
 ms.topic: macro
-f1_keywords: ["vfw/capPaletteSave"]
+f1_keywords: 
+ - "vfw/capPaletteSave"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescGetKeyword, EventDescGetKeyword function [ETW], base.eventdescgetkeyword_func, etw.eventdescgetkeyword_func, evntprov/EventDescGetKeyword
 ms.topic: function
-f1_keywords: ["evntprov/EventDescGetKeyword"]
+f1_keywords: 
+ - "evntprov/EventDescGetKeyword"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPARSEDURLA, PARSEDURL, PARSEDURL structure [Windows Shell], PARSEDURLA, PARSEDURLW, PPARSEDURL, PPARSEDURL structure pointer [Windows Shell], _win32_PARSEDURL, shell.PARSEDURL, shlwapi/PARSEDURL, shlwapi/PARSEDURLA, shlwapi/PARSEDURLW, shlwapi/PPARSEDURL"
 ms.topic: struct
-f1_keywords: ["shlwapi/PARSEDURL"]
+f1_keywords: 
+ - "shlwapi/PARSEDURL"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.topic: function
-f1_keywords: ["wincrypt/CryptHashSessionKey"]
+f1_keywords: 
+ - "wincrypt/CryptHashSessionKey"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__AudioAnalysisFilter method, IMSVidStreamBufferSink3.put__AudioAnalysisFilter, IMSVidStreamBufferSink3::put__AudioAnalysisFilter, IMSVidStreamBufferSink3put__AudioAnalysisFilter, mstv.imsvidstreambuffersink3_put__audioanalysisfilter, put__AudioAnalysisFilter, put__AudioAnalysisFilter method [Microsoft TV Technologies], put__AudioAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__AudioAnalysisFilter
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSink3.put__AudioAnalysisFilter"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSink3.put__AudioAnalysisFilter"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

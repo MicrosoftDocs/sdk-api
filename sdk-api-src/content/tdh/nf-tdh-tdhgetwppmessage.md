@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetWppMessage, TdhGetWppMessage function [ETW], etw.tdhgetwppmessage, tdh/TdhGetWppMessage
 ms.topic: function
-f1_keywords: ["tdh/TdhGetWppMessage"]
+f1_keywords: 
+ - "tdh/TdhGetWppMessage"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

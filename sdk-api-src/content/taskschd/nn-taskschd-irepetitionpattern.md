@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern, IRepetitionPattern interface [Task Scheduler], IRepetitionPattern interface [Task Scheduler],described, repetition pattern [Task Scheduler],interface, taskschd.irepetitionpattern, taskschd/IRepetitionPattern, triggers [Task Scheduler],repetition pattern interface
 ms.topic: interface
-f1_keywords: ["taskschd/IRepetitionPattern"]
+f1_keywords: 
+ - "taskschd/IRepetitionPattern"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

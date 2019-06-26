@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],IsEqualTfGuidAtom method, ITfCategoryMgr.IsEqualTfGuidAtom, ITfCategoryMgr::IsEqualTfGuidAtom, IsEqualTfGuidAtom, IsEqualTfGuidAtom method [Text Services Framework], IsEqualTfGuidAtom method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_isequaltfguidatom_ref, msctf/ITfCategoryMgr::IsEqualTfGuidAtom, tsf.itfcategorymgr_isequaltfguidatom
 ms.topic: method
-f1_keywords: ["msctf/ITfCategoryMgr.IsEqualTfGuidAtom"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr.IsEqualTfGuidAtom"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

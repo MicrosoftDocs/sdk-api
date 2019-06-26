@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileViewerSite interface [Windows Shell],SetPinnedWindow method, IFileViewerSite.SetPinnedWindow, IFileViewerSite::SetPinnedWindow, SetPinnedWindow, SetPinnedWindow method [Windows Shell], SetPinnedWindow method [Windows Shell],IFileViewerSite interface, _win32_IFileViewerSite_SetPinnedWindow, shell.IFileViewerSite_SetPinnedWindow, shlobj/IFileViewerSite::SetPinnedWindow
 ms.topic: method
-f1_keywords: ["shlobj/IFileViewerSite.SetPinnedWindow"]
+f1_keywords: 
+ - "shlobj/IFileViewerSite.SetPinnedWindow"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

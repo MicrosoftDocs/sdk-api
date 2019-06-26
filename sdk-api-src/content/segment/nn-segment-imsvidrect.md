@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
 ms.topic: interface
-f1_keywords: ["segment/IMSVidRect"]
+f1_keywords: 
+ - "segment/IMSVidRect"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

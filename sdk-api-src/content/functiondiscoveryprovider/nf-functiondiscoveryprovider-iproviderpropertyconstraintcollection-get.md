@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,Get method, IProviderPropertyConstraintCollection.Get, IProviderPropertyConstraintCollection::Get, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Get, ncd.iproviderpropertyconstraintcollection_get
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection.Get"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderPropertyConstraintCollection.Get"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

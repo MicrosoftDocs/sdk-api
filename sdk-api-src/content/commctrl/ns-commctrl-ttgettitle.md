@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/TTGETTITLE"]
+f1_keywords: 
+ - "commctrl/TTGETTITLE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

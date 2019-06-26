@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Next method, IEnumDirectoryObject.Next, IEnumDirectoryObject::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_next, rend/IEnumDirectoryObject::Next, tapi3.ienumdirectoryobject_next
 ms.topic: method
-f1_keywords: ["rend/IEnumDirectoryObject.Next"]
+f1_keywords: 
+ - "rend/IEnumDirectoryObject.Next"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

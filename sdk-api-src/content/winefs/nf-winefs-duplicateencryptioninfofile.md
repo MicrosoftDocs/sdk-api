@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEncryptionInfoFile function [Files], _win32_duplicateencryptioninfofile, base.duplicateencryptioninfofile, fs.duplicateencryptioninfofile, winefs/DuplicateEncryptionInfoFile
 ms.topic: function
-f1_keywords: ["winefs/DuplicateEncryptionInfoFile"]
+f1_keywords: 
+ - "winefs/DuplicateEncryptionInfoFile"
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

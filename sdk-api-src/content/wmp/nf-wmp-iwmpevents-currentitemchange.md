@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentItemChange, CurrentItemChange method [Windows Media Player], CurrentItemChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentItemChange method, IWMPEvents.CurrentItemChange, IWMPEvents::CurrentItemChange, IWMPEventsCurrentItemChange, wmp.iwmpevents_iwmpevents__currentitemchange, wmp/IWMPEvents::CurrentItemChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.CurrentItemChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.CurrentItemChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

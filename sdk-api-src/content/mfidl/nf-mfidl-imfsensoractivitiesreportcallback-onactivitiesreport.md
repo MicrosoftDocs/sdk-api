@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorActivitiesReportCallback.OnActivitiesReport"]
+f1_keywords: 
+ - "mfidl/IMFSensorActivitiesReportCallback.OnActivitiesReport"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

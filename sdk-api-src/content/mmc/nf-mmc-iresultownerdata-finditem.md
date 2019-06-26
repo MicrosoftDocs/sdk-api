@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.topic: method
-f1_keywords: ["mmc/IResultOwnerData.FindItem"]
+f1_keywords: 
+ - "mmc/IResultOwnerData.FindItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FastRecovery, FastRecovery method, FastRecovery method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,FastRecovery method, IVssBackupComponentsEx2.FastRecovery, IVssBackupComponentsEx2::FastRecovery, base.ivssbackupcomponentsex2_fastrecovery, vsbackup/IVssBackupComponentsEx2::FastRecovery
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponentsEx2.FastRecovery"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponentsEx2.FastRecovery"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

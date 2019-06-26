@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,DeleteAll method, IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.DeleteAll"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionInstanceCollection.DeleteAll"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

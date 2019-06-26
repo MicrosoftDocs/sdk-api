@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509PublicKey.ComputeKeyIdentifier"]
+f1_keywords: 
+ - "certenroll/IX509PublicKey.ComputeKeyIdentifier"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

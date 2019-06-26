@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage],described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
 ms.topic: interface
-f1_keywords: ["objidl/ISequentialStream"]
+f1_keywords: 
+ - "objidl/ISequentialStream"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

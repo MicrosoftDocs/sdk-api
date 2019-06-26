@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_Type method, IPicture.get_Type, IPicture::get_Type, _ctrl_ipicture_get_type, com.ipicture_get_type, get_Type, get_Type method [COM], get_Type method [COM],IPicture interface, ocidl/IPicture::get_Type
 ms.topic: method
-f1_keywords: ["ocidl/IPicture.get_Type"]
+f1_keywords: 
+ - "ocidl/IPicture.get_Type"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

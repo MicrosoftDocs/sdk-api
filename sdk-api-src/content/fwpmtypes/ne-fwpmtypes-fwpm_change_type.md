@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CHANGE_ADD, FWPM_CHANGE_DELETE, FWPM_CHANGE_TYPE, FWPM_CHANGE_TYPE enumeration [Filtering], FWPM_CHANGE_TYPE_MAX, fwp.fwpm_change_type_enum, fwpmtypes/FWPM_CHANGE_ADD, fwpmtypes/FWPM_CHANGE_DELETE, fwpmtypes/FWPM_CHANGE_TYPE, fwpmtypes/FWPM_CHANGE_TYPE_MAX
 ms.topic: enum
-f1_keywords: ["fwpmtypes/FWPM_CHANGE_TYPE"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_CHANGE_TYPE"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

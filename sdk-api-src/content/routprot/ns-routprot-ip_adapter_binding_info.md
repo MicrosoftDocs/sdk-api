@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO structure [RAS], PIP_ADAPTER_BINDING_INFO, PIP_ADAPTER_BINDING_INFO structure pointer [RAS], _mpr_ip_adapter_binding_info, routprot/IP_ADAPTER_BINDING_INFO, routprot/PIP_ADAPTER_BINDING_INFO, rras.ip_adapter_binding_info"
 ms.topic: struct
-f1_keywords: ["routprot/IP_ADAPTER_BINDING_INFO"]
+f1_keywords: 
+ - "routprot/IP_ADAPTER_BINDING_INFO"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

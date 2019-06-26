@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStemmer, IStemmer interface [search], IStemmer interface [search],described, _search_IStemmer, indexsrv/IStemmer, search._search_IStemmer
 ms.topic: interface
-f1_keywords: ["indexsrv/IStemmer"]
+f1_keywords: 
+ - "indexsrv/IStemmer"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

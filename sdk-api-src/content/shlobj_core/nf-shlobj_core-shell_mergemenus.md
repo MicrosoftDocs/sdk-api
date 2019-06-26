@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_MergeMenus, Shell_MergeMenus function [Windows Shell], _win32_Shell_MergeMenus, shell.Shell_MergeMenus, shlobj_core/Shell_MergeMenus
 ms.topic: function
-f1_keywords: ["shlobj_core/Shell_MergeMenus"]
+f1_keywords: 
+ - "shlobj_core/Shell_MergeMenus"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

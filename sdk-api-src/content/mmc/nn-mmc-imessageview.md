@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageView, IMessageView interface [MMC], IMessageView interface [MMC],described, _slate_imessageview, mmc.imessageview, mmc/IMessageView
 ms.topic: interface
-f1_keywords: ["mmc/IMessageView"]
+f1_keywords: 
+ - "mmc/IMessageView"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

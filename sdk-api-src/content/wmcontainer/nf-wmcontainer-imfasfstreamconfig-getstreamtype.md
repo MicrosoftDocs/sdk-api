@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5f085107-f205-47ab-acb5-d45a881ce76c, GetStreamType, GetStreamType method [Media Foundation], GetStreamType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetStreamType method, IMFASFStreamConfig.GetStreamType, IMFASFStreamConfig::GetStreamType, mf.imfasfstreamconfig_getstreamtype, wmcontainer/IMFASFStreamConfig::GetStreamType
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamConfig.GetStreamType"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamConfig.GetStreamType"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

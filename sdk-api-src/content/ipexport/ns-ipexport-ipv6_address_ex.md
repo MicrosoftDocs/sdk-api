@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP Helper], PIPV6_ADDRESS_EX, PIPV6_ADDRESS_EX structure pointer [IP Helper], ipexport/IPV6_ADDRESS_EX, ipexport/PIPV6_ADDRESS_EX, iphlp.ipv6_address_ex"
 ms.topic: struct
-f1_keywords: ["ipexport/IPV6_ADDRESS_EX"]
+f1_keywords: 
+ - "ipexport/IPV6_ADDRESS_EX"
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

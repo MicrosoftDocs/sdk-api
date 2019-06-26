@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 method, ITPhoneDeviceSpecificEvent.get_lParam2, ITPhoneDeviceSpecificEvent::get_lParam2, _tapi3_itphonedevicespecificevent_get_lparam2, get_lParam2, get_lParam2 method [TAPI 2.2], get_lParam2 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam2, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam2
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhoneDeviceSpecificEvent.get_lParam2"]
+f1_keywords: 
+ - "tapi3if/ITPhoneDeviceSpecificEvent.get_lParam2"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

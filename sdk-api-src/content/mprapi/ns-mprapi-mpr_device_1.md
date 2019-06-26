@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1"
 ms.topic: struct
-f1_keywords: ["mprapi/MPR_DEVICE_1"]
+f1_keywords: 
+ - "mprapi/MPR_DEVICE_1"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

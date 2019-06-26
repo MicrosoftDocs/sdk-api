@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
 ms.topic: method
-f1_keywords: ["mfmediacapture/IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings"]
+f1_keywords: 
+ - "mfmediacapture/IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings"
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpVarBindList, SnmpVarBindList structure [SNMP], _snmp_snmpvarbindlist_str, snmp.snmpvarbindlist_str, snmp/SnmpVarBindList
 ms.topic: struct
-f1_keywords: ["snmp/SnmpVarBindList"]
+f1_keywords: 
+ - "snmp/SnmpVarBindList"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

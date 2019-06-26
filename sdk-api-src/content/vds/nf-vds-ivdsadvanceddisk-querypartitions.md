@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk interface [VDS],QueryPartitions method, IVdsAdvancedDisk.QueryPartitions, IVdsAdvancedDisk::QueryPartitions, QueryPartitions, QueryPartitions method [VDS], QueryPartitions method [VDS],IVdsAdvancedDisk interface, base.ivdsadvanceddisk_querypartitions, vds/IVdsAdvancedDisk::QueryPartitions
 ms.topic: method
-f1_keywords: ["vds/IVdsAdvancedDisk.QueryPartitions"]
+f1_keywords: 
+ - "vds/IVdsAdvancedDisk.QueryPartitions"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

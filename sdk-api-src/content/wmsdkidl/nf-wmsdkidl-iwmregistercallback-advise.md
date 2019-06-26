@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [windows Media Format], Advise method [windows Media Format],IWMRegisterCallback interface, IWMRegisterCallback interface [windows Media Format],Advise method, IWMRegisterCallback.Advise, IWMRegisterCallback::Advise, IWMRegisterCallbackAdvise, wmformat.iwmregistercallback_advise, wmsdkidl/IWMRegisterCallback::Advise
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisterCallback.Advise"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisterCallback.Advise"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

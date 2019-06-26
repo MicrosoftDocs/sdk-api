@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTileMode, GetTileMode method [XPS Documents and Packaging], GetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTileMode method, IXpsOMTileBrush.GetTileMode, IXpsOMTileBrush::GetTileMode, xps.ixpsomtilebrush_gettilemode, xpsobjectmodel/IXpsOMTileBrush::GetTileMode
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMTileBrush.GetTileMode"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMTileBrush.GetTileMode"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

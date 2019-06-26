@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment Services], wds.wdscligetimagepath, wdsclientapi/WdsCliGetImagePath
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetImagePath"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetImagePath"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

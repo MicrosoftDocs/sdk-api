@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyAbs, VarCyAbs function [Automation], _oa96_VarCyAbs, automat.varcyabs, oleauto/VarCyAbs
 ms.topic: function
-f1_keywords: ["oleauto/VarCyAbs"]
+f1_keywords: 
+ - "oleauto/VarCyAbs"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

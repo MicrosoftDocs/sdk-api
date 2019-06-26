@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
 ms.topic: method
-f1_keywords: ["structuredquerycondition/ICondition.Clone"]
+f1_keywords: 
+ - "structuredquerycondition/ICondition.Clone"
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

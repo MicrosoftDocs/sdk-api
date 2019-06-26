@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
 ms.topic: interface
-f1_keywords: ["filtereg/ILoadFilter"]
+f1_keywords: 
+ - "filtereg/ILoadFilter"
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows

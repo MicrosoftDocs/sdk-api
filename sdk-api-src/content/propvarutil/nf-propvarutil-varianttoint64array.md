@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToInt64Array, VariantToInt64Array function [Windows Properties], _shell_VariantToInt64Array, properties.VariantToInt64Array, propvarutil/VariantToInt64Array, shell.VariantToInt64Array
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToInt64Array"]
+f1_keywords: 
+ - "propvarutil/VariantToInt64Array"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

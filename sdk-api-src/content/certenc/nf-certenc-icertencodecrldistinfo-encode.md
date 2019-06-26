@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeCRLDistInfo.Encode"]
+f1_keywords: 
+ - "certenc/ICertEncodeCRLDistInfo.Encode"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

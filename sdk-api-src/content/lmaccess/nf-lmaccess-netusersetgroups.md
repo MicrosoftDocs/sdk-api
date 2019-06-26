@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetUserSetGroups, NetUserSetGroups function [Network Management], _win32_netusersetgroups, lmaccess/NetUserSetGroups, netmgmt.netusersetgroups
 ms.topic: function
-f1_keywords: ["lmaccess/NetUserSetGroups"]
+f1_keywords: 
+ - "lmaccess/NetUserSetGroups"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

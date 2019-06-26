@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
 ms.topic: function
-f1_keywords: ["npapi/WNetSetLastError"]
+f1_keywords: 
+ - "npapi/WNetSetLastError"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

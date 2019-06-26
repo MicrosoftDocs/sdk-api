@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_USER, WSMAN_PLUGIN_AUTHORIZE_USER callback, WSMAN_PLUGIN_AUTHORIZE_USER callback function [Windows Remote Management], winrm.wsman_plugin_authorize_user, wsman/WSMAN_PLUGIN_AUTHORIZE_USER
 ms.topic: callback
-f1_keywords: ["wsman/WSMAN_PLUGIN_AUTHORIZE_USER"]
+f1_keywords: 
+ - "wsman/WSMAN_PLUGIN_AUTHORIZE_USER"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

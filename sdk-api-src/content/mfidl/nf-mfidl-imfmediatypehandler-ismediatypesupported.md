@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaTypeHandler.IsMediaTypeSupported"]
+f1_keywords: 
+ - "mfidl/IMFMediaTypeHandler.IsMediaTypeSupported"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

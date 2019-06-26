@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete
 ms.topic: method
-f1_keywords: ["pnpxassoc/IPNPXDeviceAssociation.Delete"]
+f1_keywords: 
+ - "pnpxassoc/IPNPXDeviceAssociation.Delete"
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

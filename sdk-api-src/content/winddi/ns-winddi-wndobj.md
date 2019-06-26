@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWNDOBJ, PWNDOBJ, PWNDOBJ structure pointer [Display Devices], WNDOBJ, WNDOBJ structure [Display Devices], display.wndobj, grstrcts_78a58771-627a-419e-b6f0-00411e32a22a.xml, winddi/PWNDOBJ, winddi/WNDOBJ"
 ms.topic: struct
-f1_keywords: ["winddi/WNDOBJ"]
+f1_keywords: 
+ - "winddi/WNDOBJ"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

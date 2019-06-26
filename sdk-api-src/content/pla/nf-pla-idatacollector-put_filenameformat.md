@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileNameFormat property [PLA], FileNameFormat property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormat property, IDataCollector.FileNameFormat, IDataCollector.put_FileNameFormat, IDataCollector::FileNameFormat, IDataCollector::get_FileNameFormat, IDataCollector::put_FileNameFormat, base.idatacollector_filenameformat, pla.idatacollector_filenameformat, pla/IDataCollector::FileNameFormat, pla/IDataCollector::get_FileNameFormat, pla/IDataCollector::put_FileNameFormat, put_FileNameFormat
 ms.topic: method
-f1_keywords: ["pla/IDataCollector.FileNameFormat"]
+f1_keywords: 
+ - "pla/IDataCollector.FileNameFormat"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

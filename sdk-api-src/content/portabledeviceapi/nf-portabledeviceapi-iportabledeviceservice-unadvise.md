@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Unadvise method, IPortableDeviceService.Unadvise, IPortableDeviceService::Unadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Unadvise, wpdsdk.iportabledeviceservice_unadvise
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceService.Unadvise"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceService.Unadvise"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

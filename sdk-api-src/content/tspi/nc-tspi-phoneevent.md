@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback function [TAPI 2.2], _tspi_phoneevent, tspi.phone_event_tspi, tspi.phoneevent, tspi/Phone_Event
 ms.topic: callback
-f1_keywords: ["tspi/Phone_Event"]
+f1_keywords: 
+ - "tspi/Phone_Event"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

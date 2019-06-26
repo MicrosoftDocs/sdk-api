@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST structure pointer [COM], SOLE_AUTHENTICATION_LIST, SOLE_AUTHENTICATION_LIST structure [COM], _com_SOLE_AUTHENTICATION_LIST, com.sole_authentication_list, objidlbase/PSOLE_AUTHENTICATION_LIST, objidlbase/SOLE_AUTHENTICATION_LIST, tagSOLE_AUTHENTICATION_LIST"
 ms.topic: struct
-f1_keywords: ["objidlbase/SOLE_AUTHENTICATION_LIST"]
+f1_keywords: 
+ - "objidlbase/SOLE_AUTHENTICATION_LIST"
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

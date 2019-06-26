@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IMDSPStorageGlobals.GetSerialNumber, IMDSPStorageGlobals::GetSerialNumber, IMDSPStorageGlobalsGetSerialNumber, mswmdm/IMDSPStorageGlobals::GetSerialNumber, wmdm.imdspstorageglobals_getserialnumber
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorageGlobals.GetSerialNumber"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorageGlobals.GetSerialNumber"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

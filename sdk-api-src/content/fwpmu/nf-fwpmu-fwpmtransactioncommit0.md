@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmTransactionCommit0"]
+f1_keywords: 
+ - "fwpmu/FwpmTransactionCommit0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

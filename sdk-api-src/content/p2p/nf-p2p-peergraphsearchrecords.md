@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphSearchRecords"]
+f1_keywords: 
+ - "p2p/PeerGraphSearchRecords"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

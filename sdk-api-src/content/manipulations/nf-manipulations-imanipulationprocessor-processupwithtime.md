@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUpWithTime method, IManipulationProcessor.ProcessUpWithTime, IManipulationProcessor::ProcessUpWithTime, ProcessUpWithTime, ProcessUpWithTime method [Windows Touch], ProcessUpWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUpWithTime, wintouch.imanpiulationprocessor_processupwithtime
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.ProcessUpWithTime"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.ProcessUpWithTime"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

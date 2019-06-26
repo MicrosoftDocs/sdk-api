@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyUILanguageChange, NotifyUILanguageChange function [Internationalization for Windows Applications], intl.notifyuilanguagechange, winnls/NotifyUILanguageChange
 ms.topic: function
-f1_keywords: ["winnls/NotifyUILanguageChange"]
+f1_keywords: 
+ - "winnls/NotifyUILanguageChange"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

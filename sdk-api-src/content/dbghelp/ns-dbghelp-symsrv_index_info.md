@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW"
 ms.topic: struct
-f1_keywords: ["dbghelp/SYMSRV_INDEX_INFO"]
+f1_keywords: 
+ - "dbghelp/SYMSRV_INDEX_INFO"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

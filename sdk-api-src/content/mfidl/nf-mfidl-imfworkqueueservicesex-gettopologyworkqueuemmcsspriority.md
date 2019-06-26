@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTopologyWorkQueueMMCSSPriority, GetTopologyWorkQueueMMCSSPriority method [Media Foundation], GetTopologyWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetTopologyWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
 ms.topic: method
-f1_keywords: ["mfidl/IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority"]
+f1_keywords: 
+ - "mfidl/IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

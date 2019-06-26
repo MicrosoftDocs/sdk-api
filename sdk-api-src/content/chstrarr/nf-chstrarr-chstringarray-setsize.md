@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetSize method, CHStringArray.SetSize, CHStringArray::SetSize, SetSize, SetSize method [Windows Management Instrumentation], SetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setsize, chstrarr/CHStringArray::SetSize, wmi.chstringarray_setsize
 ms.topic: method
-f1_keywords: ["chstrarr/CHStringArray.SetSize"]
+f1_keywords: 
+ - "chstrarr/CHStringArray.SetSize"
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

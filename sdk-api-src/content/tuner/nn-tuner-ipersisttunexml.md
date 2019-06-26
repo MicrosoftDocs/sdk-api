@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml, IPersistTuneXml interface [Microsoft TV Technologies], IPersistTuneXml interface [Microsoft TV Technologies],described, mstv.ipersisttunexml, tuner/IPersistTuneXml
 ms.topic: interface
-f1_keywords: ["tuner/IPersistTuneXml"]
+f1_keywords: 
+ - "tuner/IPersistTuneXml"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

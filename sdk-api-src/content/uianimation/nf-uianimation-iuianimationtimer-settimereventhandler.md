@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerEventHandler method, IUIAnimationTimer.SetTimerEventHandler, IUIAnimationTimer::SetTimerEventHandler, SetTimerEventHandler, SetTimerEventHandler method [Windows Animation], SetTimerEventHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimereventhandler, uianimation/IUIAnimationTimer::SetTimerEventHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTimer.SetTimerEventHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTimer.SetTimerEventHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

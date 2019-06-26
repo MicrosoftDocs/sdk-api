@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
 ms.topic: interface
-f1_keywords: ["certenroll/IX509ExtensionAlternativeNames"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionAlternativeNames"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

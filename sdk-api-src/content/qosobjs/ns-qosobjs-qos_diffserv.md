@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPQOS_DIFFSERV, LPQOS_DIFFSERV, LPQOS_DIFFSERV structure pointer [QOS], QOS_DIFFSERV, QOS_DIFFSERV structure [QOS], _gqos_qos_diffserv, qos.qos_diffserv, qosobjs/LPQOS_DIFFSERV, qosobjs/QOS_DIFFSERV"
 ms.topic: struct
-f1_keywords: ["qosobjs/QOS_DIFFSERV"]
+f1_keywords: 
+ - "qosobjs/QOS_DIFFSERV"
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

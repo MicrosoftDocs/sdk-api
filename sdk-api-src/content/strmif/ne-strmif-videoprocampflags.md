@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], VideoProcAmpFlagsEnumeration, VideoProcAmp_Flags_Auto, VideoProcAmp_Flags_Manual, dshow.videoprocampflags, strmif/VideoProcAmpFlags, strmif/VideoProcAmp_Flags_Auto, strmif/VideoProcAmp_Flags_Manual
 ms.topic: enum
-f1_keywords: ["strmif/VideoProcAmpFlags"]
+f1_keywords: 
+ - "strmif/VideoProcAmpFlags"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

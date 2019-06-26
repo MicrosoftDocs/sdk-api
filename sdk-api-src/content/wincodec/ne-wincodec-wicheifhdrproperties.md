@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 01/31/19
 ms.keywords: WICHeifHdrProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICHeifHdrProperties"]
+f1_keywords: 
+ - "wincodec/WICHeifHdrProperties"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

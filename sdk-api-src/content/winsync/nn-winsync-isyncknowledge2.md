@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ISyncKnowledge2 interface [Windows Sync],described, winsync.isyncknowledge2, winsync/ISyncKnowledge2
 ms.topic: interface
-f1_keywords: ["winsync/ISyncKnowledge2"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

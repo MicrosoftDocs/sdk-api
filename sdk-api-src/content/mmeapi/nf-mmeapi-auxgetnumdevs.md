@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_auxGetNumDevs, auxGetNumDevs, auxGetNumDevs function [Windows Multimedia], mmeapi/auxGetNumDevs, multimedia.auxgetnumdevs"
 ms.topic: function
-f1_keywords: ["mmeapi/auxGetNumDevs"]
+f1_keywords: 
+ - "mmeapi/auxGetNumDevs"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

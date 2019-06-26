@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Advise method, IPortableDeviceService.Advise, IPortableDeviceService::Advise, portabledeviceapi/IPortableDeviceService::Advise, wpdsdk.iportabledeviceservice_advise
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceService.Advise"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceService.Advise"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

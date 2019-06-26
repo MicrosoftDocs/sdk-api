@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObjectRT, IAudioProcessingObjectRT interface [Audio Devices], IAudioProcessingObjectRT interface [Audio Devices],described, audio.iaudioprocessingobjectrt, audio_syseffects_r_843f0618-1708-4779-996d-7dc474a73bbf.xml, audioenginebaseapo/IAudioProcessingObjectRT
 ms.topic: interface
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObjectRT"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObjectRT"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

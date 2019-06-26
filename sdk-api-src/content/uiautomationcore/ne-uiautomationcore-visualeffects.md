@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VisualEffects, VisualEffects enumeration [Windows Accessibility], VisualEffects_Bevel, VisualEffects_Glow, VisualEffects_None, VisualEffects_Reflection, VisualEffects_Shadow, VisualEffects_SoftEdges, uiautomationcore/VisualEffects, uiautomationcore/VisualEffects_Bevel, uiautomationcore/VisualEffects_Glow, uiautomationcore/VisualEffects_None, uiautomationcore/VisualEffects_Reflection, uiautomationcore/VisualEffects_Shadow, uiautomationcore/VisualEffects_SoftEdges, winauto.uiauto_VisualEffectsEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/VisualEffects"]
+f1_keywords: 
+ - "uiautomationcore/VisualEffects"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Filtering], fwp.fwp_token_information, fwptypes/FWP_TOKEN_INFORMATION
 ms.topic: struct
-f1_keywords: ["fwptypes/FWP_TOKEN_INFORMATION"]
+f1_keywords: 
+ - "fwptypes/FWP_TOKEN_INFORMATION"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

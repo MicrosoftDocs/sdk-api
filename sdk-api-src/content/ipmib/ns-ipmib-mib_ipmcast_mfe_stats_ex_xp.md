@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPMCAST_MFE_STATS_EX, *PMIB_IPMCAST_MFE_STATS_EX_XP, MIB_IPMCAST_MFE_STATS_EX, MIB_IPMCAST_MFE_STATS_EX structure [MIB], MIB_IPMCAST_MFE_STATS_EX_XP, PMIB_IPMCAST_MFE_STATS_EX, PMIB_IPMCAST_MFE_STATS_EX structure pointer [MIB], ipmib/MIB_IPMCAST_MFE_STATS_EX, ipmib/PMIB_IPMCAST_MFE_STATS_EX, iprtrmib/MIB_IPMCAST_MFE_STATS_EX, iprtrmib/PMIB_IPMCAST_MFE_STATS_EX, mib.mib_ipmcast_mfe_stats_ex"
 ms.topic: struct
-f1_keywords: ["ipmib/MIB_IPMCAST_MFE_STATS_EX"]
+f1_keywords: 
+ - "ipmib/MIB_IPMCAST_MFE_STATS_EX"
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

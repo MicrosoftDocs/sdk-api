@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow],described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9
 ms.topic: interface
-f1_keywords: ["vmr9/IVMRAspectRatioControl9"]
+f1_keywords: 
+ - "vmr9/IVMRAspectRatioControl9"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

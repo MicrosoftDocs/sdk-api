@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

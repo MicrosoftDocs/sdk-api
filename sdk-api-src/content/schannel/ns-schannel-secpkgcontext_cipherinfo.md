@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo"
 ms.topic: struct
-f1_keywords: ["schannel/SecPkgContext_CipherInfo"]
+f1_keywords: 
+ - "schannel/SecPkgContext_CipherInfo"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

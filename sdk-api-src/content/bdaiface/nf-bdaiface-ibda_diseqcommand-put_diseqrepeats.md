@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqRepeats method, IBDA_DiseqCommand.put_DiseqRepeats, IBDA_DiseqCommand::put_DiseqRepeats, bdaiface/IBDA_DiseqCommand::put_DiseqRepeats, mstv.ibda_diseqcommand_put_diseqrepeats, put_DiseqRepeats, put_DiseqRepeats method [Microsoft TV Technologies], put_DiseqRepeats method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DiseqCommand.put_DiseqRepeats"]
+f1_keywords: 
+ - "bdaiface/IBDA_DiseqCommand.put_DiseqRepeats"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

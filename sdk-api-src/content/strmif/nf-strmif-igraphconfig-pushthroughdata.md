@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],PushThroughData method, IGraphConfig.PushThroughData, IGraphConfig::PushThroughData, IGraphConfigPushThroughData, PushThroughData, PushThroughData method [DirectShow], PushThroughData method [DirectShow],IGraphConfig interface, dshow.igraphconfig_pushthroughdata, strmif/IGraphConfig::PushThroughData
 ms.topic: method
-f1_keywords: ["strmif/IGraphConfig.PushThroughData"]
+f1_keywords: 
+ - "strmif/IGraphConfig.PushThroughData"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

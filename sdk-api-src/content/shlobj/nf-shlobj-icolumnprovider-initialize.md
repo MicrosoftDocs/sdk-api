@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnProvider interface [Windows Shell],Initialize method, IColumnProvider.Initialize, IColumnProvider::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IColumnProvider interface, _win32_IColumnProvider_Initialize, shell.IColumnProvider_Initialize, shlobj/IColumnProvider::Initialize
 ms.topic: method
-f1_keywords: ["shlobj/IColumnProvider.Initialize"]
+f1_keywords: 
+ - "shlobj/IColumnProvider.Initialize"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

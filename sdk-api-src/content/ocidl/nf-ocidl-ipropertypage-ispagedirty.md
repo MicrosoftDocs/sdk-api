@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],IsPageDirty method, IPropertyPage.IsPageDirty, IPropertyPage::IsPageDirty, IsPageDirty, IsPageDirty method [COM], IsPageDirty method [COM],IPropertyPage interface, _ctrl_ipropertypage_ispagedirty, com.ipropertypage_ispagedirty, ocidl/IPropertyPage::IsPageDirty
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyPage.IsPageDirty"]
+f1_keywords: 
+ - "ocidl/IPropertyPage.IsPageDirty"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

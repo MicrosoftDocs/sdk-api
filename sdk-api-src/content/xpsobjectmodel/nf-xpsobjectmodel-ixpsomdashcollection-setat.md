@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDashCollection.SetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDashCollection.SetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

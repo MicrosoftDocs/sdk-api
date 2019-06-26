@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
 ms.topic: method
-f1_keywords: ["strmif/IAMVfwCompressDialogs.SendDriverMessage"]
+f1_keywords: 
+ - "strmif/IAMVfwCompressDialogs.SendDriverMessage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

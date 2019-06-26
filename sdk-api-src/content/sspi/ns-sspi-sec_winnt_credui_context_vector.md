@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT_VECTOR, PSEC_WINNT_CREDUI_CONTEXT_VECTOR, PSEC_WINNT_CREDUI_CONTEXT_VECTOR structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT_VECTOR, SEC_WINNT_CREDUI_CONTEXT_VECTOR structure [Security], security.sec_winnt_credui_context_vector, sspi/PSEC_WINNT_CREDUI_CONTEXT_VECTOR, sspi/SEC_WINNT_CREDUI_CONTEXT_VECTOR"
 ms.topic: struct
-f1_keywords: ["sspi/SEC_WINNT_CREDUI_CONTEXT_VECTOR"]
+f1_keywords: 
+ - "sspi/SEC_WINNT_CREDUI_CONTEXT_VECTOR"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

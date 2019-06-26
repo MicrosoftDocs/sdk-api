@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method [Direct3D 11], GetPatchConstantParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetPatchConstantParameterDesc method, ID3D11ShaderReflection.GetPatchConstantParameterDesc, ID3D11ShaderReflection::GetPatchConstantParameterDesc, a1d3c039-54af-ae32-0c02-c7d90751aacc, d3d11shader/ID3D11ShaderReflection::GetPatchConstantParameterDesc, direct3d11.id3d11shaderreflection_getpatchconstantparameterdesc
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ShaderReflection.GetPatchConstantParameterDesc"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ShaderReflection.GetPatchConstantParameterDesc"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

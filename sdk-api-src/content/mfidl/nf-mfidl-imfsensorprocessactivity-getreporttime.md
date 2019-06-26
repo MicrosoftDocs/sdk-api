@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTime method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetReportTime method, IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorProcessActivity.GetReportTime"]
+f1_keywords: 
+ - "mfidl/IMFSensorProcessActivity.GetReportTime"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

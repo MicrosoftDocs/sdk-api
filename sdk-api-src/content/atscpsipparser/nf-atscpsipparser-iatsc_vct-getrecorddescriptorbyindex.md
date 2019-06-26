@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_VCT.GetRecordDescriptorByIndex, IATSC_VCT::GetRecordDescriptorByIndex, IATSC_VCTGetRecordDescriptorByIndex, atscpsipparser/IATSC_VCT::GetRecordDescriptorByIndex, mstv.iatsc_vct_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordDescriptorByIndex"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordDescriptorByIndex"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

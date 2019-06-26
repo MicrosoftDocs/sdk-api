@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo
 ms.topic: enum
-f1_keywords: ["eaphostpeertypes/EapHostPeerAuthParams"]
+f1_keywords: 
+ - "eaphostpeertypes/EapHostPeerAuthParams"
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

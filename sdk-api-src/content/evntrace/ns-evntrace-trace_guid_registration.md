@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION, TRACE_GUID_REGISTRATION structure [ETW], _TRACE_GUID_REGISTRATION, _evt_trace_guid_registration, base.trace_guid_registration, etw.trace_guid_registration, evntrace/TRACE_GUID_REGISTRATION"
 ms.topic: struct
-f1_keywords: ["evntrace/TRACE_GUID_REGISTRATION"]
+f1_keywords: 
+ - "evntrace/TRACE_GUID_REGISTRATION"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

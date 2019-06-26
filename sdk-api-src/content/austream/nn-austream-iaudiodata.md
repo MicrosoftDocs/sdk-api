@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
 ms.topic: interface
-f1_keywords: ["austream/IAudioData"]
+f1_keywords: 
+ - "austream/IAudioData"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

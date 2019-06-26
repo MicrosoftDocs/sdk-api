@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
 ms.topic: function
-f1_keywords: ["evntrace/UpdateTrace"]
+f1_keywords: 
+ - "evntrace/UpdateTrace"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

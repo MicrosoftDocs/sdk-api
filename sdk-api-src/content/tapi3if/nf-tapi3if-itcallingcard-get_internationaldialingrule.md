@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_InternationalDialingRule method, ITCallingCard.get_InternationalDialingRule, ITCallingCard::get_InternationalDialingRule, _tapi3_itcallingcard_get_internationaldialingrule, get_InternationalDialingRule, get_InternationalDialingRule method [TAPI 2.2], get_InternationalDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_internationaldialingrule, tapi3if/ITCallingCard::get_InternationalDialingRule
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallingCard.get_InternationalDialingRule"]
+f1_keywords: 
+ - "tapi3if/ITCallingCard.get_InternationalDialingRule"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

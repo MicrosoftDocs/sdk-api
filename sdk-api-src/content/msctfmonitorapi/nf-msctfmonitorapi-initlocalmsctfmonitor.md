@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCtfMonitor, InitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/InitLocalMsCtfMonitor, tsf.InitLocalMsCtfMonitor
 ms.topic: function
-f1_keywords: ["msctfmonitorapi/InitLocalMsCtfMonitor"]
+f1_keywords: 
+ - "msctfmonitorapi/InitLocalMsCtfMonitor"
 req.header: msctfmonitorapi.h
 req.include-header: 
 req.target-type: Windows

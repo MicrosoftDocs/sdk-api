@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscription, EcOpenSubscription function, evcoll/EcOpenSubscription, wec.ecopensubscription, wes.ecopensubscription
 ms.topic: function
-f1_keywords: ["evcoll/EcOpenSubscription"]
+f1_keywords: 
+ - "evcoll/EcOpenSubscription"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

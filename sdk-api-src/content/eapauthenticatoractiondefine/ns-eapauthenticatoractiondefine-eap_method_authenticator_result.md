@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_AUTHENTICATOR_RESULT, EAP_METHOD_AUTHENTICATOR_RESULT structure [EAPHost], eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT, eaphost.eap_method_authenticator_result
 ms.topic: struct
-f1_keywords: ["eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT"]
+f1_keywords: 
+ - "eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT"
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

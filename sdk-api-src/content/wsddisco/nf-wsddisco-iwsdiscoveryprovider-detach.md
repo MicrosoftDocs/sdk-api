@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Detach method, IWSDiscoveryProvider.Detach, IWSDiscoveryProvider::Detach, ncd.iwsdiscoveryprovider_detach_method, wsddisco/IWSDiscoveryProvider::Detach
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryProvider.Detach"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryProvider.Detach"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

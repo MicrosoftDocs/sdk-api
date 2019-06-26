@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputAlphaFillMode method, ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode, ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, VideoProcessorSetOutputAlphaFillMode, VideoProcessorSetOutputAlphaFillMode method [Media Foundation], VideoProcessorSetOutputAlphaFillMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorsetoutputalphafillmode
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputAlphaFillMode"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

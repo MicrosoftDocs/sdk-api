@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncoderParameterValueType, EncoderParameterValueType enumeration [GDI+], EncoderParameterValueTypeASCII, EncoderParameterValueTypeByte, EncoderParameterValueTypeLong, EncoderParameterValueTypeLongRange, EncoderParameterValueTypePointer, EncoderParameterValueTypeRational, EncoderParameterValueTypeRationalRange, EncoderParameterValueTypeShort, EncoderParameterValueTypeUndefined, _gdiplus_ENUM_EncoderParameterValueType, gdiplus._gdiplus_ENUM_EncoderParameterValueType, gdiplusenums/EncoderParameterValueType, gdiplusenums/EncoderParameterValueTypeASCII, gdiplusenums/EncoderParameterValueTypeByte, gdiplusenums/EncoderParameterValueTypeLong, gdiplusenums/EncoderParameterValueTypeLongRange, gdiplusenums/EncoderParameterValueTypePointer, gdiplusenums/EncoderParameterValueTypeRational, gdiplusenums/EncoderParameterValueTypeRationalRange, gdiplusenums/EncoderParameterValueTypeShort, gdiplusenums/EncoderParameterValueTypeUndefined
 ms.topic: enum
-f1_keywords: ["gdiplusenums/EncoderParameterValueType"]
+f1_keywords: 
+ - "gdiplusenums/EncoderParameterValueType"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

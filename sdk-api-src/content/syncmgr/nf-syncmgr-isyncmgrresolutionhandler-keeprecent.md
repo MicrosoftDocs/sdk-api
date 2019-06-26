@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrResolutionHandler.KeepRecent"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrResolutionHandler.KeepRecent"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

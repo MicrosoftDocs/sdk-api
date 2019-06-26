@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
 ms.topic: function
-f1_keywords: ["aclapi/BuildTrusteeWithObjectsAndName"]
+f1_keywords: 
+ - "aclapi/BuildTrusteeWithObjectsAndName"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

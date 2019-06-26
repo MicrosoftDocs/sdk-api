@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509MachineEnrollmentFactory interface, IX509MachineEnrollmentFactory interface [Security],CreateObject method, IX509MachineEnrollmentFactory.CreateObject, IX509MachineEnrollmentFactory::CreateObject, certenroll/IX509MachineEnrollmentFactory::CreateObject, security.ix509machineenrollmentfactory_createobject
 ms.topic: method
-f1_keywords: ["certenroll/IX509MachineEnrollmentFactory.CreateObject"]
+f1_keywords: 
+ - "certenroll/IX509MachineEnrollmentFactory.CreateObject"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

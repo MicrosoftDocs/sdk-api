@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS structure [Tablet PC], rectypes/RECO_ATTRS, tablet.reco_attrs
 ms.topic: struct
-f1_keywords: ["rectypes/RECO_ATTRS"]
+f1_keywords: 
+ - "rectypes/RECO_ATTRS"
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

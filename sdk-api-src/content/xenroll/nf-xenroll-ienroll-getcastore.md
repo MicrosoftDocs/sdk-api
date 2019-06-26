@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getCAStore method, IEnroll.getCAStore, IEnroll4 interface [Security],getCAStore method, IEnroll4::getCAStore, IEnroll::getCAStore, getCAStore, getCAStore method [Security], getCAStore method [Security],IEnroll interface, getCAStore method [Security],IEnroll4 interface, security.ienroll4_getcastore, xenroll/IEnroll4::getCAStore, xenroll/IEnroll::getCAStore
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.getCAStore"]
+f1_keywords: 
+ - "xenroll/IEnroll.getCAStore"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

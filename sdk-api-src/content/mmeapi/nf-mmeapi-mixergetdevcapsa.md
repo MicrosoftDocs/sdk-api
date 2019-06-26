@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerGetDevCaps, mixerGetDevCaps, mixerGetDevCaps function [Windows Multimedia], mixerGetDevCapsA, mixerGetDevCapsW, mmeapi/mixerGetDevCaps, mmeapi/mixerGetDevCapsA, mmeapi/mixerGetDevCapsW, multimedia.mixergetdevcaps"
 ms.topic: function
-f1_keywords: ["mmeapi/mixerGetDevCaps"]
+f1_keywords: 
+ - "mmeapi/mixerGetDevCaps"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

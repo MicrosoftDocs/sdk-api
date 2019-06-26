@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallEventClass method, ICOMAdminCatalog.InstallEventClass, ICOMAdminCatalog::InstallEventClass, InstallEventClass, InstallEventClass method [COM+], InstallEventClass method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallEventClass, comadmin/ICOMAdminCatalog::InstallEventClass, cos.icomadmincatalog_installeventclass
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.InstallEventClass"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.InstallEventClass"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

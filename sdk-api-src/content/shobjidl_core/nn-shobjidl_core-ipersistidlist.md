@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IPersistIDList"]
+f1_keywords: 
+ - "shobjidl_core/IPersistIDList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

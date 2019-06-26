@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBoolean, InitVariantFromBoolean function [Windows Properties], _shell_InitVariantFromBoolean, properties.InitVariantFromBoolean, propvarutil/InitVariantFromBoolean, shell.InitVariantFromBoolean
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromBoolean"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromBoolean"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

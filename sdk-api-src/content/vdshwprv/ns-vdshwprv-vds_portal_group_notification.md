@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PORTAL_GROUP_ARRIVE, VDS_NF_PORTAL_GROUP_DEPART, VDS_NF_PORTAL_GROUP_MODIFY, VDS_PORTAL_GROUP_NOTIFICATION, VDS_PORTAL_GROUP_NOTIFICATION structure [VDS], base.vds_portal_group_notification, vds/_VDS_PORTAL_GROUP_NOTIFICATION, vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PORTAL_GROUP_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_PORTAL_GROUP_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

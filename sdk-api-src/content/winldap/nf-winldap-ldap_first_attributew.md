@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_first_attribute"]
+f1_keywords: 
+ - "winldap/ldap_first_attribute"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

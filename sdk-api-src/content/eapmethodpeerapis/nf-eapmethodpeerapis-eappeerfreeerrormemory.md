@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], eaphost.eappeerfreeerrormemory, eapmethodpeerapis/EapPeerFreeErrorMemory
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerFreeErrorMemory"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerFreeErrorMemory"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

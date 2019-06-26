@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSMan, IWSMan interface [Windows Remote Management], IWSMan interface [Windows Remote Management],described, winrm.iwsman, wsmandisp/IWSMan
 ms.topic: interface
-f1_keywords: ["wsmandisp/IWSMan"]
+f1_keywords: 
+ - "wsmandisp/IWSMan"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

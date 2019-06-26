@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_gai_strerror_2, gai_strerror, gai_strerror function [Winsock], gai_strerrorA, gai_strerrorW, winsock.gai_strerror_2, ws2tcpip/gai_strerror, ws2tcpip/gai_strerrorA, ws2tcpip/gai_strerrorW, wspiapi/gai_strerror, wspiapi/gai_strerrorA, wspiapi/gai_strerrorW"
 ms.topic: function
-f1_keywords: ["ws2tcpip/gai_strerror"]
+f1_keywords: 
+ - "ws2tcpip/gai_strerror"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

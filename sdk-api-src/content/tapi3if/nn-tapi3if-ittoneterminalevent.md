@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
 ms.topic: interface
-f1_keywords: ["tapi3if/ITToneTerminalEvent"]
+f1_keywords: 
+ - "tapi3if/ITToneTerminalEvent"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

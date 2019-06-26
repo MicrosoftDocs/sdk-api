@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
 ms.topic: function
-f1_keywords: ["lmaccess/NetAccessEnum"]
+f1_keywords: 
+ - "lmaccess/NetAccessEnum"
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

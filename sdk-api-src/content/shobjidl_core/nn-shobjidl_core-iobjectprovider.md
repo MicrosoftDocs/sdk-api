@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectProvider, IObjectProvider interface [Windows Shell], IObjectProvider interface [Windows Shell],described, _shell_IObjectProvider, shell.IObjectProvider, shobjidl_core/IObjectProvider
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IObjectProvider"]
+f1_keywords: 
+ - "shobjidl_core/IObjectProvider"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

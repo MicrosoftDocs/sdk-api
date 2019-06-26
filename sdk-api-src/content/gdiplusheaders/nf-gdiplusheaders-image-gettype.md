@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],Image class, Image class [GDI+],GetType method, Image.GetType, Image::GetType, _gdiplus_CLASS_Image_GetType_, gdiplus._gdiplus_CLASS_Image_GetType_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetType"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetType"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

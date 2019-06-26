@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndOrderedGroup, EndOrderedGroup method [Windows Sync], EndOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],EndOrderedGroup method, ISyncChangeBatchBase.EndOrderedGroup, ISyncChangeBatchBase::EndOrderedGroup, winsync.isyncchangebatchbase_endorderedgroup, winsync/ISyncChangeBatchBase::EndOrderedGroup
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBatchBase.EndOrderedGroup"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchBase.EndOrderedGroup"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

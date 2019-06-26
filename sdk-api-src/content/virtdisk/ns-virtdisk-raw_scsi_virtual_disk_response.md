@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_RESPONSE, RAW_SCSI_VIRTUAL_DISK_RESPONSE structure [VHD], _RAW_SCSI_VIRTUAL_DISK_RESPONSE, vdssys/PRAW_SCSI_VIRTUAL_DISK_RESPONSE, vdssys/RAW_SCSI_VIRTUAL_DISK_RESPONSE, vhd.raw_scsi_virtual_disk_response, virtdisk/PRAW_SCSI_VIRTUAL_DISK_RESPONSE, virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
 ms.topic: struct
-f1_keywords: ["virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"]
+f1_keywords: 
+ - "virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

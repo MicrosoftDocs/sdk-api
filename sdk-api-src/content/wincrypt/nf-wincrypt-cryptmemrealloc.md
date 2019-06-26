@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMemRealloc, CryptMemRealloc function [Security], _crypto2_cryptmemrealloc, security.cryptmemrealloc, wincrypt/CryptMemRealloc
 ms.topic: function
-f1_keywords: ["wincrypt/CryptMemRealloc"]
+f1_keywords: 
+ - "wincrypt/CryptMemRealloc"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

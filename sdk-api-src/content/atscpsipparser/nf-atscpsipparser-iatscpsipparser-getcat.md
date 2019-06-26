@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetCAT method, IAtscPsipParser.GetCAT, IAtscPsipParser::GetCAT, IAtscPsipParserGetCAT, atscpsipparser/IAtscPsipParser::GetCAT, mstv.iatscpsipparser_getcat
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscPsipParser.GetCAT"]
+f1_keywords: 
+ - "atscpsipparser/IAtscPsipParser.GetCAT"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

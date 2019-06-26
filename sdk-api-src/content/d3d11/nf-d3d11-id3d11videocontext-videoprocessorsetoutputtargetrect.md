@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputTargetRect method, ID3D11VideoContext.VideoProcessorSetOutputTargetRect, ID3D11VideoContext::VideoProcessorSetOutputTargetRect, VideoProcessorSetOutputTargetRect, VideoProcessorSetOutputTargetRect method [Media Foundation], VideoProcessorSetOutputTargetRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputTargetRect, mf.id3d11videocontext_videoprocessorsetoutputtargetrect
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorSetOutputTargetRect"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputTargetRect"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

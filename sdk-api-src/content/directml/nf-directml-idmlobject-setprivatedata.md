@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetPrivateData method, IDMLObject.SetPrivateData, IDMLObject::SetPrivateData, SetPrivateData, SetPrivateData method, SetPrivateData method,IDMLObject interface, direct3d12.idmlobject_setprivatedata, directml/IDMLObject::SetPrivateData
 ms.topic: method
-f1_keywords: ["directml/IDMLObject.SetPrivateData"]
+f1_keywords: 
+ - "directml/IDMLObject.SetPrivateData"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

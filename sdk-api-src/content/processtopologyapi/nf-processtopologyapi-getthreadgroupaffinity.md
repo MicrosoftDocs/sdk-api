@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getthreadgroupaffinity, processtopologyapi/GetThreadGroupAffinity, winbase/GetThreadGroupAffinity
 ms.topic: function
-f1_keywords: ["processtopologyapi/GetThreadGroupAffinity"]
+f1_keywords: 
+ - "processtopologyapi/GetThreadGroupAffinity"
 req.header: processtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

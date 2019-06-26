@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManSendShellInput, WSManSendShellInput function [Windows Remote Management], winrm.wsmansendshellinput, wsman/WSManSendShellInput
 ms.topic: function
-f1_keywords: ["wsman/WSManSendShellInput"]
+f1_keywords: 
+ - "wsman/WSManSendShellInput"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellService, IShellService interface [Windows Shell], IShellService interface [Windows Shell],described, shdeprecated/IShellService, shell.IShellService, zone_IShellService
 ms.topic: interface
-f1_keywords: ["shdeprecated/IShellService"]
+f1_keywords: 
+ - "shdeprecated/IShellService"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadShortN2, XMLoadShortN2, XMLoadShortN2 method [DirectX Math Support APIs], dxmath.xmloadshortn2
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMLoadShortN2"]
+f1_keywords: 
+ - "directxpackedvector/XMLoadShortN2"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

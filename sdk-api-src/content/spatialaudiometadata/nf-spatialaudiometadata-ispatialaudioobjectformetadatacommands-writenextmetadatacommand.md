@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands interface [Core Audio],WriteNextMetadataCommand method, ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand, ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand, WriteNextMetadataCommand, WriteNextMetadataCommand method [Core Audio], WriteNextMetadataCommand method [Core Audio],ISpatialAudioObjectForMetadataCommands interface, coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand"
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows

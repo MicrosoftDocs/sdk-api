@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], IMpeg2Data interface [Microsoft TV Technologies],described, IMpeg2DataInterface, mpeg2data/IMpeg2Data, mstv.impeg2data
 ms.topic: interface
-f1_keywords: ["mpeg2data/IMpeg2Data"]
+f1_keywords: 
+ - "mpeg2data/IMpeg2Data"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

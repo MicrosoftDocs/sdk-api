@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FD_EVENTID_ASYNCTHREADEXIT, FD_EVENTID_IPADDRESSCHANGE, FD_EVENTID_SEARCHCOMPLETE, FD_EVENTID_SEARCHSTART, IFunctionDiscoveryNotification interface,OnEvent method, IFunctionDiscoveryNotification.OnEvent, IFunctionDiscoveryNotification::OnEvent, OnEvent, OnEvent method, OnEvent method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnEvent, ncd.ifunctiondiscoverynotification_onevent
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionDiscoveryNotification.OnEvent"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnEvent"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

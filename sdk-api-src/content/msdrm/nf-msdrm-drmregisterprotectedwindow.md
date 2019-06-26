@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMRegisterProtectedWindow, DRMRegisterProtectedWindow function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterProtectedWindow, rm.drmregisterprotectedwindow
 ms.topic: function
-f1_keywords: ["msdrm/DRMRegisterProtectedWindow"]
+f1_keywords: 
+ - "msdrm/DRMRegisterProtectedWindow"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

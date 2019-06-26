@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIPromptUser"]
+f1_keywords: 
+ - "oledlg/OleUIPromptUser"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

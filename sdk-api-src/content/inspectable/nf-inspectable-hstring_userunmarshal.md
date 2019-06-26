@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
 ms.topic: function
-f1_keywords: ["inspectable/HSTRING_UserUnmarshal"]
+f1_keywords: 
+ - "inspectable/HSTRING_UserUnmarshal"
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

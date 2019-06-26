@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetRectangle
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/PathGradientBrush::GetRectangle"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush::GetRectangle"
 targetos: Windows
 product: Windows
 req.assembly: 

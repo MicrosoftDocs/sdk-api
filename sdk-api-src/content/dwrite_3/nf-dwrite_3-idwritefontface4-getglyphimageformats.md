@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats method [Direct Write], GetGlyphImageFormats method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageFormats method, IDWriteFontFace4.GetGlyphImageFormats, IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats, dwrite_3/IDWriteFontFace4::GetGlyphImageFormats
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace4.GetGlyphImageFormats"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace4.GetGlyphImageFormats"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enter, Enter method [Direct3D 11], Enter method [Direct3D 11],ID3D11Multithread interface, ID3D11Multithread interface [Direct3D 11],Enter method, ID3D11Multithread.Enter, ID3D11Multithread::Enter, d3d11_4/ID3D11Multithread::Enter, direct3d11.id3d11multithread_enter
 ms.topic: method
-f1_keywords: ["d3d11_4/ID3D11Multithread.Enter"]
+f1_keywords: 
+ - "d3d11_4/ID3D11Multithread.Enter"
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

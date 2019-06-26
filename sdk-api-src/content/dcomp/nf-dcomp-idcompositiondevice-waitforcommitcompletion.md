@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice interface [DirectComposition],WaitForCommitCompletion method, IDCompositionDevice.WaitForCommitCompletion, IDCompositionDevice::WaitForCommitCompletion, WaitForCommitCompletion, WaitForCommitCompletion method [DirectComposition], WaitForCommitCompletion method [DirectComposition],IDCompositionDevice interface, dcomp/IDCompositionDevice::WaitForCommitCompletion, directcomp.idcompositiondevice_waitforcommitcompletion
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.WaitForCommitCompletion"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.WaitForCommitCompletion"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

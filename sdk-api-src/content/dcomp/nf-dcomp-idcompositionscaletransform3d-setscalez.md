@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(float), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_float
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionScaleTransform3D.SetScaleZ"]
+f1_keywords: 
+ - "dcomp/IDCompositionScaleTransform3D.SetScaleZ"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

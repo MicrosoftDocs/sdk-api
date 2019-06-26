@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAssocHandlers, IEnumAssocHandlers interface [Windows Shell], IEnumAssocHandlers interface [Windows Shell],described, _shell_IEnumAssocHandlers, shell.IEnumAssocHandlers, shobjidl_core/IEnumAssocHandlers
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IEnumAssocHandlers"]
+f1_keywords: 
+ - "shobjidl_core/IEnumAssocHandlers"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

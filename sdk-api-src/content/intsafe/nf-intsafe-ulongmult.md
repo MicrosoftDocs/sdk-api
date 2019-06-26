@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordMult, ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
 ms.topic: function
-f1_keywords: ["intsafe/ULongMult"]
+f1_keywords: 
+ - "intsafe/ULongMult"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

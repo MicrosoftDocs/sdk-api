@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
 ms.topic: function
-f1_keywords: ["comppkgsup/InstantiateComponentFromPackage"]
+f1_keywords: 
+ - "comppkgsup/InstantiateComponentFromPackage"
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_ShowInfoTip, TreeView_ShowInfoTip macro [Windows Controls], _shell_TreeView_ShowInfoTip, _shell_TreeView_ShowInfoTip_cpp, commctrl/TreeView_ShowInfoTip, controls.TreeView_ShowInfoTip, controls._shell_TreeView_ShowInfoTip
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_ShowInfoTip"]
+f1_keywords: 
+ - "commctrl/TreeView_ShowInfoTip"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

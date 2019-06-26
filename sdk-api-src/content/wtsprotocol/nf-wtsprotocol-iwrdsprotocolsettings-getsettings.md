@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, IWRdsProtocolSettings interface [Remote Desktop Services],GetSettings method, IWRdsProtocolSettings.GetSettings, IWRdsProtocolSettings::GetSettings, termserv.iwrdsprotocolsettings_getsettings, wtsprotocol/IWRdsProtocolSettings::GetSettings
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolSettings.GetSettings"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolSettings.GetSettings"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

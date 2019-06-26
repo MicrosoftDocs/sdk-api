@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
 ms.topic: function
-f1_keywords: ["shlobj_core/SHGetKnownFolderPath"]
+f1_keywords: 
+ - "shlobj_core/SHGetKnownFolderPath"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

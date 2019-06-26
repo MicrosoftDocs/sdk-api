@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrect, winuser/SetRect
 ms.topic: function
-f1_keywords: ["winuser/SetRect"]
+f1_keywords: 
+ - "winuser/SetRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

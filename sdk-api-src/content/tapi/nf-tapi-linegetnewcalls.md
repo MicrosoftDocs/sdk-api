@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls"
 ms.topic: function
-f1_keywords: ["tapi/lineGetNewCalls"]
+f1_keywords: 
+ - "tapi/lineGetNewCalls"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

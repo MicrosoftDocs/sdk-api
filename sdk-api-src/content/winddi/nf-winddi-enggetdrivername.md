@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetDriverName, EngGetDriverName function [Display Devices], display.enggetdrivername, gdifncs_e0da975e-1a7f-4f28-a38b-be0966f3b0c0.xml, winddi/EngGetDriverName
 ms.topic: function
-f1_keywords: ["winddi/EngGetDriverName"]
+f1_keywords: 
+ - "winddi/EngGetDriverName"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRelease method, IComCRMEvents.OnCRMRelease, IComCRMEvents::OnCRMRelease, OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMRelease"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMRelease"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

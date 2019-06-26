@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
 ms.topic: interface
-f1_keywords: ["tom/ITextStory"]
+f1_keywords: 
+ - "tom/ITextStory"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

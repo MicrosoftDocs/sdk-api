@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],described, IDvbFrequencyListDescriptorInterface, dvbsiparser/IDvbFrequencyListDescriptor, mstv.idvbfrequencylistdescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IDvbFrequencyListDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IDvbFrequencyListDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

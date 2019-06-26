@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionEffectGroup.SetOpacity"]
+f1_keywords: 
+ - "dcomp/IDCompositionEffectGroup.SetOpacity"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
 ms.topic: interface
-f1_keywords: ["tapi3if/ITCallInfo2"]
+f1_keywords: 
+ - "tapi3if/ITCallInfo2"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_Schedule method, ISearchRoot.put_Schedule, ISearchRoot::put_Schedule, _search_ISearchRoot_put_Schedule, put_Schedule, put_Schedule method [search], put_Schedule method [search],ISearchRoot interface, search._search_ISearchRoot_put_Schedule, searchapi/ISearchRoot::put_Schedule
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_Schedule"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_Schedule"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_ATTR_DEF, ADS_ATTR_DEF, ADS_ATTR_DEF structure [ADSI], PADS_ATTR_DEF, PADS_ATTR_DEF structure pointer [ADSI], _ds_ads_attr_def, adsi.ads__attr__def, adsi.ads_attr_def, iads/ADS_ATTR_DEF, iads/PADS_ATTR_DEF"
 ms.topic: struct
-f1_keywords: ["iads/ADS_ATTR_DEF"]
+f1_keywords: 
+ - "iads/ADS_ATTR_DEF"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

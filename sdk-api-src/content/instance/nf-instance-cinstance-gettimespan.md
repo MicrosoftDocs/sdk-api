@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetTimeSpan method, CInstance.GetTimeSpan, CInstance::GetTimeSpan, GetTimeSpan, GetTimeSpan method [Windows Management Instrumentation], GetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_gettimespan, instance/CInstance::GetTimeSpan, wmi.cinstance_gettimespan
 ms.topic: method
-f1_keywords: ["instance/CInstance.GetTimeSpan"]
+f1_keywords: 
+ - "instance/CInstance.GetTimeSpan"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

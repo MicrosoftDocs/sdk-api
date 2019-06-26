@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey, cloudApi.cfgettransferkey
 ms.topic: function
-f1_keywords: ["cfapi/CfGetTransferKey"]
+f1_keywords: 
+ - "cfapi/CfGetTransferKey"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

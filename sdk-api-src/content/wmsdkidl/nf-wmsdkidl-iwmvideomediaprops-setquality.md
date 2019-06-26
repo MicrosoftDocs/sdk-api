@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMVideoMediaProps.SetQuality"]
+f1_keywords: 
+ - "wmsdkidl/IWMVideoMediaProps.SetQuality"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

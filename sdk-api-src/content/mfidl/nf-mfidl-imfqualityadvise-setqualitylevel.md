@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdvise interface [Media Foundation],SetQualityLevel method, IMFQualityAdvise.SetQualityLevel, IMFQualityAdvise::SetQualityLevel, SetQualityLevel, SetQualityLevel method [Media Foundation], SetQualityLevel method [Media Foundation],IMFQualityAdvise interface, f788fd7d-65fc-4917-8d5d-cfaf35a013e7, mf.imfqualityadvise_setqualitylevel, mfidl/IMFQualityAdvise::SetQualityLevel
 ms.topic: method
-f1_keywords: ["mfidl/IMFQualityAdvise.SetQualityLevel"]
+f1_keywords: 
+ - "mfidl/IMFQualityAdvise.SetQualityLevel"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

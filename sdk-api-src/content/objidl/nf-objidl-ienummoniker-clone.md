@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.topic: method
-f1_keywords: ["objidl/IEnumMoniker.Clone"]
+f1_keywords: 
+ - "objidl/IEnumMoniker.Clone"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

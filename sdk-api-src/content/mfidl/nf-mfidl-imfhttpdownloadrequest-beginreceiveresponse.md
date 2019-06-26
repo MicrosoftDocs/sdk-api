@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.BeginReceiveResponse"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.BeginReceiveResponse"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

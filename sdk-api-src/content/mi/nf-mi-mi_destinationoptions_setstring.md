@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetString, MI_DestinationOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetString, wmi_v2.mi_destinationoptions_setstring
 ms.topic: function
-f1_keywords: ["mi/MI_DestinationOptions_SetString"]
+f1_keywords: 
+ - "mi/MI_DestinationOptions_SetString"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
 ms.topic: function
-f1_keywords: ["networkisolation/NetworkIsolationSetAppContainerConfig"]
+f1_keywords: 
+ - "networkisolation/NetworkIsolationSetAppContainerConfig"
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

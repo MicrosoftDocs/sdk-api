@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStyle method, IDWriteTextLayout.GetFontStyle, IDWriteTextLayout::GetFontStyle, directwrite.IDWriteTextLayout_GetFontStyle, dwrite/IDWriteTextLayout::GetFontStyle
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetFontStyle"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetFontStyle"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

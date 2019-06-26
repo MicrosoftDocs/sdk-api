@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphs.GetGlyphMappingCount, IXpsOMGlyphs::GetGlyphMappingCount, xps.ixpsomglyphs_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappingCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetGlyphMappingCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphMappingCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], bits.bits_file_property_value, bits5_0/BITS_FILE_PROPERTY_VALUE
 ms.topic: struct
-f1_keywords: ["bits5_0/BITS_FILE_PROPERTY_VALUE"]
+f1_keywords: 
+ - "bits5_0/BITS_FILE_PROPERTY_VALUE"
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

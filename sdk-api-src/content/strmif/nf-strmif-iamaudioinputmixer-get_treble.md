@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Treble method, IAMAudioInputMixer.get_Treble, IAMAudioInputMixer::get_Treble, IAMAudioInputMixerget_Treble, dshow.iamaudioinputmixer_get_treble, get_Treble, get_Treble method [DirectShow], get_Treble method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Treble
 ms.topic: method
-f1_keywords: ["strmif/IAMAudioInputMixer.get_Treble"]
+f1_keywords: 
+ - "strmif/IAMAudioInputMixer.get_Treble"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

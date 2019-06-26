@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Direct Write], GetString method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetString method, IDWriteLocalizedStrings.GetString, IDWriteLocalizedStrings::GetString, directwrite.IDWriteLocalizedStrings_GetString, dwrite/IDWriteLocalizedStrings::GetString
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteLocalizedStrings.GetString"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalizedStrings.GetString"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

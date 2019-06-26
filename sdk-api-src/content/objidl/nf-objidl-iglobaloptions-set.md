@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
 ms.topic: method
-f1_keywords: ["objidl/IGlobalOptions.Set"]
+f1_keywords: 
+ - "objidl/IGlobalOptions.Set"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

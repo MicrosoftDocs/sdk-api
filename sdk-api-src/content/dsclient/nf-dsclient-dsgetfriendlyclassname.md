@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
 ms.topic: function
-f1_keywords: ["dsclient/DsGetFriendlyClassName"]
+f1_keywords: 
+ - "dsclient/DsGetFriendlyClassName"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

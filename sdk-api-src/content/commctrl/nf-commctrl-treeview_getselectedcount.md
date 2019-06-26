@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetSelectedCount"]
+f1_keywords: 
+ - "commctrl/TreeView_GetSelectedCount"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

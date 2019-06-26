@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],Initialize method, IPMT.Initialize, IPMT::Initialize, IPMTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::Initialize, mstv.ipmt_initialize
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPMT.Initialize"]
+f1_keywords: 
+ - "mpeg2psiparser/IPMT.Initialize"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

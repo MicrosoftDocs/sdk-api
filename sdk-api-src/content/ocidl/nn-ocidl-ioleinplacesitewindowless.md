@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], IOleInPlaceSiteWindowless interface [COM],described, _ole_ioleinplacesitewindowless, com.ioleinplacesitewindowless, ocidl/IOleInPlaceSiteWindowless
 ms.topic: interface
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSum, XMVectorSum, XMVectorSum method [DirectX Math Support APIs], dxmath.xmvectorsum
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSum"]
+f1_keywords: 
+ - "directxmath/XMVectorSum"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

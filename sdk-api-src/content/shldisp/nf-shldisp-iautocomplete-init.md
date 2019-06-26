@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
 ms.topic: method
-f1_keywords: ["shldisp/IAutoComplete.Init"]
+f1_keywords: 
+ - "shldisp/IAutoComplete.Init"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

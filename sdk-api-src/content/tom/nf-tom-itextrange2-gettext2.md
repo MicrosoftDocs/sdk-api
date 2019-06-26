@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText2, GetText2 method [Windows Controls], GetText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetText2 method, ITextRange2.GetText2, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetText2"]
+f1_keywords: 
+ - "tom/ITextRange2.GetText2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

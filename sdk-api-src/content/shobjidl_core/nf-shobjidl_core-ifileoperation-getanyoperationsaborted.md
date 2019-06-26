@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAnyOperationsAborted, GetAnyOperationsAborted method [Windows Shell], GetAnyOperationsAborted method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],GetAnyOperationsAborted method, IFileOperation.GetAnyOperationsAborted, IFileOperation::GetAnyOperationsAborted, _shell_IFileOperation_GetAnyOperationsAborted, shell.IFileOperation_GetAnyOperationsAborted, shobjidl_core/IFileOperation::GetAnyOperationsAborted
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperation.GetAnyOperationsAborted"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperation.GetAnyOperationsAborted"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientAddData, PeerDistClientAddData function [Peer Networking], p2p.peerdistclientadddata, peerdist/PeerDistClientAddData
 ms.topic: function
-f1_keywords: ["peerdist/PeerDistClientAddData"]
+f1_keywords: 
+ - "peerdist/PeerDistClientAddData"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

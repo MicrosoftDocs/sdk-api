@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnMapper interface [search],IsMapUpToDate method, IColumnMapper.IsMapUpToDate, IColumnMapper::IsMapUpToDate, IsMapUpToDate, IsMapUpToDate method [search], IsMapUpToDate method [search],IColumnMapper interface, indexsrv/IColumnMapper::IsMapUpToDate, search.icolumnmapper_ismapuptodate
 ms.topic: method
-f1_keywords: ["indexsrv/IColumnMapper.IsMapUpToDate"]
+f1_keywords: 
+ - "indexsrv/IColumnMapper.IsMapUpToDate"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

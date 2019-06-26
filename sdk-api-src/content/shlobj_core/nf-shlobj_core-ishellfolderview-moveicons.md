@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],MoveIcons method, IShellFolderView.MoveIcons, IShellFolderView::MoveIcons, MoveIcons, MoveIcons method [Windows Shell], MoveIcons method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_MoveIcons, shell.IShellFolderView_MoveIcons, shlobj_core/IShellFolderView::MoveIcons
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.MoveIcons"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.MoveIcons"
 req.header: shlobj_core.h
 req.include-header: Shlobj_core.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],CurrentPage property, IFaxJobStatus.CurrentPage, IFaxJobStatus.get_CurrentPage, IFaxJobStatus::CurrentPage, IFaxJobStatus::get_CurrentPage, _mfax_faxjobstatus.currentpage, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_currentpage_cpp, fax._mfax_faxjobstatus_currentpage, faxcomex/IFaxJobStatus::CurrentPage, faxcomex/IFaxJobStatus::get_CurrentPage, get_CurrentPage
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxJobStatus.CurrentPage"]
+f1_keywords: 
+ - "faxcomex/IFaxJobStatus.CurrentPage"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

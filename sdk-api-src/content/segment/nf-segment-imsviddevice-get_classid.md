@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
 ms.topic: method
-f1_keywords: ["segment/IMSVidDevice.get_ClassID"]
+f1_keywords: 
+ - "segment/IMSVidDevice.get_ClassID"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

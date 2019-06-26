@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTS_CLIENT_ADDRESS"]
+f1_keywords: 
+ - "wtsapi32/WTS_CLIENT_ADDRESS"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

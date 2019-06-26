@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator interface [Windows Remote Management],ReadItem method, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],IWSManEnumerator interface, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEnumerator.ReadItem"]
+f1_keywords: 
+ - "wsmandisp/IWSManEnumerator.ReadItem"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WIC8BIMResolutionInfoHResolution, WIC8BIMResolutionInfoHResolutionUnit, WIC8BIMResolutionInfoHeightUnit, WIC8BIMResolutionInfoPString, WIC8BIMResolutionInfoProperties, WIC8BIMResolutionInfoProperties enumeration [Windows Imaging Component], WIC8BIMResolutionInfoVResolution, WIC8BIMResolutionInfoVResolutionUnit, WIC8BIMResolutionInfoWidthUnit, _wic_codec_wic8bimresolutioninfoproperties, wic._wic_codec_wic8bimresolutioninfoproperties, wincodec/WIC8BIMResolutionInfoHResolution, wincodec/WIC8BIMResolutionInfoHResolutionUnit, wincodec/WIC8BIMResolutionInfoHeightUnit, wincodec/WIC8BIMResolutionInfoPString, wincodec/WIC8BIMResolutionInfoProperties, wincodec/WIC8BIMResolutionInfoVResolution, wincodec/WIC8BIMResolutionInfoVResolutionUnit, wincodec/WIC8BIMResolutionInfoWidthUnit
 ms.topic: enum
-f1_keywords: ["wincodec/WIC8BIMResolutionInfoProperties"]
+f1_keywords: 
+ - "wincodec/WIC8BIMResolutionInfoProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

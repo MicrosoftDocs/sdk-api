@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Skip method, IEnumTfLangBarItems.Skip, IEnumTfLangBarItems::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_skip_ref, ctfutb/IEnumTfLangBarItems::Skip, tsf.ienumtflangbaritems_skip
 ms.topic: method
-f1_keywords: ["ctfutb/IEnumTfLangBarItems.Skip"]
+f1_keywords: 
+ - "ctfutb/IEnumTfLangBarItems.Skip"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

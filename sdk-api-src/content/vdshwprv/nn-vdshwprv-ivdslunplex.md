@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsLunPlex"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunPlex"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

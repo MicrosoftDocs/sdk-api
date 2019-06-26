@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
 ms.topic: interface
-f1_keywords: ["callobj/ICallFrame"]
+f1_keywords: 
+ - "callobj/ICallFrame"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

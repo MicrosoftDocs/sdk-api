@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 94e15032-efb6-4919-b018-953eee803135, GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, IEVRFilterConfig interface [Media Foundation],GetNumberOfStreams method, IEVRFilterConfig.GetNumberOfStreams, IEVRFilterConfig::GetNumberOfStreams, evr/IEVRFilterConfig::GetNumberOfStreams, mf.ievrfilterconfig_getnumberofstreams
 ms.topic: method
-f1_keywords: ["evr/IEVRFilterConfig.GetNumberOfStreams"]
+f1_keywords: 
+ - "evr/IEVRFilterConfig.GetNumberOfStreams"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

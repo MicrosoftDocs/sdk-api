@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB structure [Security], BCRYPT_DSA_PRIVATE_MAGIC, BCRYPT_DSA_PUBLIC_MAGIC, PBCRYPT_DSA_KEY_BLOB, PBCRYPT_DSA_KEY_BLOB structure pointer [Security], bcrypt/BCRYPT_DSA_KEY_BLOB, bcrypt/PBCRYPT_DSA_KEY_BLOB, security.bcrypt_dsa_key_blob"
 ms.topic: struct
-f1_keywords: ["bcrypt/BCRYPT_DSA_KEY_BLOB"]
+f1_keywords: 
+ - "bcrypt/BCRYPT_DSA_KEY_BLOB"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffect.GetOutput, IMILBitmapEffect::GetOutput, _wibe_imilbitmapeffect_getoutput, mileffects/IMILBitmapEffect::GetOutput, wibe._wibe_imilbitmapeffect_getoutput
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffect.GetOutput"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffect.GetOutput"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

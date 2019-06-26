@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetRuntimeId method, IUIAutomationElement.GetRuntimeId, IUIAutomationElement::GetRuntimeId, uiauto.uiauto_IUIAutomationElement_GetRuntimeId, uiauto_IUIAutomationElement_GetRuntimeId, uiautomationclient/IUIAutomationElement::GetRuntimeId, winauto.uiauto_IUIAutomationElement_GetRuntimeId
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.GetRuntimeId"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.GetRuntimeId"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

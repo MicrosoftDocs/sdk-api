@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Static_GetTextLength, Static_GetTextLength macro [Windows Controls], _win32_Static_GetTextLength, _win32_Static_GetTextLength_cpp, controls.Static_GetTextLength, controls._win32_Static_GetTextLength, windowsx/Static_GetTextLength
 ms.topic: macro
-f1_keywords: ["windowsx/Static_GetTextLength"]
+f1_keywords: 
+ - "windowsx/Static_GetTextLength"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

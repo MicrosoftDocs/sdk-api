@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.topic: function
-f1_keywords: ["dbghelp/SymSrvDeltaName"]
+f1_keywords: 
+ - "dbghelp/SymSrvDeltaName"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

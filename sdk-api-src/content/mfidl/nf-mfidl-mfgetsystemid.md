@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetSystemId, MFGetSystemId function [Media Foundation], mf.mfgetsystemid, mfidl/MFGetSystemId
 ms.topic: function
-f1_keywords: ["mfidl/MFGetSystemId"]
+f1_keywords: 
+ - "mfidl/MFGetSystemId"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

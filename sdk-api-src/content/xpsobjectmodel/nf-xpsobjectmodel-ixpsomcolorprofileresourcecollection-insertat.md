@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMColorProfileResourceCollection.InsertAt, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMColorProfileResourceCollection.InsertAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.InsertAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

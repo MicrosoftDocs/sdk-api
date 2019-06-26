@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphOrientationTransform, GetGlyphOrientationTransform method [Direct Write], GetGlyphOrientationTransform method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],GetGlyphOrientationTransform method, IDWriteTextAnalyzer2.GetGlyphOrientationTransform, IDWriteTextAnalyzer2::GetGlyphOrientationTransform, directwrite.idwritetextanalyzer2_getglyphorientationtransform, dwrite_2/IDWriteTextAnalyzer2::GetGlyphOrientationTransform
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteTextAnalyzer2.GetGlyphOrientationTransform"]
+f1_keywords: 
+ - "dwrite_2/IDWriteTextAnalyzer2.GetGlyphOrientationTransform"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

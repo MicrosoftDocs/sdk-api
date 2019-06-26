@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_ACE, SYSTEM_AUDIT_CALLBACK_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_ACE, security.system_audit_callback_ace, winnt/PACCESS_AUDIT_CALLBACK_ACE, winnt/SYSTEM_AUDIT_CALLBACK_ACE"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_AUDIT_CALLBACK_ACE"]
+f1_keywords: 
+ - "winnt/SYSTEM_AUDIT_CALLBACK_ACE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

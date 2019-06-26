@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
 ms.topic: function
-f1_keywords: ["werapi/WerRegisterAppLocalDump"]
+f1_keywords: 
+ - "werapi/WerRegisterAppLocalDump"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

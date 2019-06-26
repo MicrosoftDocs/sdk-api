@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
 ms.topic: function
-f1_keywords: ["setupapi/SetupCommitFileQueue"]
+f1_keywords: 
+ - "setupapi/SetupCommitFileQueue"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

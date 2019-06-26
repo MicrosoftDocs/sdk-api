@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Open_Device_Interface_Key_ExW"]
+f1_keywords: 
+ - "cfgmgr32/CM_Open_Device_Interface_Key_ExW"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

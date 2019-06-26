@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETVIEWPORTEXTEX, *PEMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX, EMRSETVIEWPORTEXTEX structure [Windows GDI], EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX structure [Windows GDI], EMRSETWINDOWEXTEX, EMRSETWINDOWEXTEX structure [Windows GDI], PEMRSETVIEWPORTEXTEX, PEMRSETVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSETWINDOWEXTEX, PEMRSETWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSETVIEWPORTEXTEX_str, gdi.emrsetviewportextex__emrsetwindowextex, wingdi/EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, wingdi/EMRSETWINDOWEXTEX, wingdi/PEMRSETVIEWPORTEXTEX, wingdi/PEMRSETWINDOWEXTEX"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSETVIEWPORTEXTEX"]
+f1_keywords: 
+ - "wingdi/EMRSETVIEWPORTEXTEX"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

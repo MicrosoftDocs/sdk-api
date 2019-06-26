@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdGetDriverInfo, DdGetDriverInfo callback function [Display Devices], PDD_GETDRIVERINFO, PDD_GETDRIVERINFO callback, ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml, ddrawint/DdGetDriverInfo, display.ddgetdriverinfo
 ms.topic: callback
-f1_keywords: ["ddrawint/DdGetDriverInfo"]
+f1_keywords: 
+ - "ddrawint/DdGetDriverInfo"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

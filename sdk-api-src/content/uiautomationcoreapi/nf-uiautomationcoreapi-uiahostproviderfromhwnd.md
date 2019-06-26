@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaHostProviderFromHwnd"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaHostProviderFromHwnd"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

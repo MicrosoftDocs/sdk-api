@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
 ms.topic: function
-f1_keywords: ["setupapi/SetupQueueRename"]
+f1_keywords: 
+ - "setupapi/SetupQueueRename"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
 ms.topic: callback
-f1_keywords: ["dbghelp/FindExecutableImageProc"]
+f1_keywords: 
+ - "dbghelp/FindExecutableImageProc"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

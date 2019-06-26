@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetIssuanceLicenseTemplate, DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseTemplate, rm.drmgetissuancelicensetemplate
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetIssuanceLicenseTemplate"]
+f1_keywords: 
+ - "msdrm/DRMGetIssuanceLicenseTemplate"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

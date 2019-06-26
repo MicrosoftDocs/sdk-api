@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], IOleInPlaceSiteEx interface [COM],described, _ole_ioleinplacesiteex, com.ioleinplacesiteex, ocidl/IOleInPlaceSiteEx
 ms.topic: interface
-f1_keywords: ["ocidl/IOleInPlaceSiteEx"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteEx"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

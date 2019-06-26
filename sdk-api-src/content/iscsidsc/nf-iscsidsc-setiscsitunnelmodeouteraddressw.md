@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIScsiTunnelModeOuterAddressW, SetIscsiTunnelModeOuterAddress, SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API], SetIscsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddressW, iscsidisc.setiscsitunnelmodeouteraddress, iscsidsc/SetIscsiTunnelModeOuterAddress, iscsidsc/SetIscsiTunnelModeOuterAddressA, iscsidsc/SetIscsiTunnelModeOuterAddressW
 ms.topic: function
-f1_keywords: ["iscsidsc/SetIscsiTunnelModeOuterAddress"]
+f1_keywords: 
+ - "iscsidsc/SetIscsiTunnelModeOuterAddress"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

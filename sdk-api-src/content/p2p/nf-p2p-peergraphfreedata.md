@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphFreeData, PeerGraphFreeData function [Peer Networking], p2p.peergraphfreedata, p2p/PeerGraphFreeData
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphFreeData"]
+f1_keywords: 
+ - "p2p/PeerGraphFreeData"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

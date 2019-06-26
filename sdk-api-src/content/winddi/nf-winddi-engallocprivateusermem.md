@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngAllocPrivateUserMem, EngAllocPrivateUserMem function [Display Devices], display.engallocprivateusermem, gdifncs_e31cecee-3490-46b1-ad57-4cf8c2a4f378.xml, winddi/EngAllocPrivateUserMem
 ms.topic: macro
-f1_keywords: ["winddi/EngAllocPrivateUserMem"]
+f1_keywords: 
+ - "winddi/EngAllocPrivateUserMem"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

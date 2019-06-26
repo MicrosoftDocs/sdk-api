@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VARIANT_UserSize, automat.variant_usersize, oaidl/VARIANT_UserSize
 ms.topic: function
-f1_keywords: ["oaidl/VARIANT_UserSize"]
+f1_keywords: 
+ - "oaidl/VARIANT_UserSize"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetText, ComboBox_SetText macro [Windows Controls], _win32_ComboBox_SetText, _win32_ComboBox_SetText_cpp, controls.ComboBox_SetText, controls._win32_ComboBox_SetText, windowsx/ComboBox_SetText
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_SetText"]
+f1_keywords: 
+ - "windowsx/ComboBox_SetText"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

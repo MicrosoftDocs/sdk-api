@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProductList.Initialize, IWSCProductList::Initialize, Initialize, Initialize method [Windows API], Initialize method [Windows API],IWSCProductList interface, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_FIREWALL, iwscapi/IWSCProductList::Initialize, winprog.iwscproductlist_initialize
 ms.topic: method
-f1_keywords: ["iwscapi/IWSCProductList.Initialize"]
+f1_keywords: 
+ - "iwscapi/IWSCProductList.Initialize"
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

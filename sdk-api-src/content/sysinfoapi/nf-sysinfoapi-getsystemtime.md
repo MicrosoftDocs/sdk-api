@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetSystemTime"]
+f1_keywords: 
+ - "sysinfoapi/GetSystemTime"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

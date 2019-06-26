@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditComputeEffectivePolicyBySid, AuditComputeEffectivePolicyBySid function [Security], ntsecapi/AuditComputeEffectivePolicyBySid, security.auditcomputeeffectivepolicybysid_func
 ms.topic: function
-f1_keywords: ["ntsecapi/AuditComputeEffectivePolicyBySid"]
+f1_keywords: 
+ - "ntsecapi/AuditComputeEffectivePolicyBySid"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

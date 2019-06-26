@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHChangeUpdateImageIDList, GIL_NOTFILENAME, GIL_SIMULATEDOC, LPSHChangeUpdateImageIDList, LPSHChangeUpdateImageIDList structure pointer [Windows Shell], SHChangeUpdateImageIDList, SHChangeUpdateImageIDList structure [Windows Shell], _SHChangeUpdateImageIDList, _shell_SHChangeUpdateImageIDList, shell.SHChangeUpdateImageIDList, shlobj_core/LPSHChangeUpdateImageIDList, shlobj_core/SHChangeUpdateImageIDList"
 ms.topic: struct
-f1_keywords: ["shlobj_core/SHChangeUpdateImageIDList"]
+f1_keywords: 
+ - "shlobj_core/SHChangeUpdateImageIDList"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

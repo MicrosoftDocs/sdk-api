@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SortChildrenCB, TreeView_SortChildrenCB macro [Windows Controls], _win32_TreeView_SortChildrenCB, _win32_TreeView_SortChildrenCB_cpp, commctrl/TreeView_SortChildrenCB, controls.TreeView_SortChildrenCB, controls._win32_TreeView_SortChildrenCB
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SortChildrenCB"]
+f1_keywords: 
+ - "commctrl/TreeView_SortChildrenCB"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

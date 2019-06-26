@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],CreateStreamObject method, CMSPCallBase.CreateStreamObject, CMSPCallBase::CreateStreamObject, CreateStreamObject, CreateStreamObject method [TAPI 2.2], CreateStreamObject method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_createstreamobject, mspcall/CMSPCallBase::CreateStreamObject, tapi3.cmspcallbase_createstreamobject
 ms.topic: method
-f1_keywords: ["mspcall/CMSPCallBase.CreateStreamObject"]
+f1_keywords: 
+ - "mspcall/CMSPCallBase.CreateStreamObject"
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

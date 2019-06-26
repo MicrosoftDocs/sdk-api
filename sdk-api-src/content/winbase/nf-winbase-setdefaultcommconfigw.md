@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW
 ms.topic: function
-f1_keywords: ["winbase/SetDefaultCommConfig"]
+f1_keywords: 
+ - "winbase/SetDefaultCommConfig"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

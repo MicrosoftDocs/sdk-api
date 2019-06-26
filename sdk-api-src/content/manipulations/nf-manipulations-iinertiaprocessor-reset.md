@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Reset method, IInertiaProcessor.Reset, IInertiaProcessor::Reset, Reset, Reset method [Windows Touch], Reset method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Reset, wintouch.iinertiaprocessor_reset
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.Reset"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.Reset"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

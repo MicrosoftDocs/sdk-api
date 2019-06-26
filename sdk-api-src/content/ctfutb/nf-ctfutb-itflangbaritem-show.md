@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItem interface [Text Services Framework],Show method, ITfLangBarItem.Show, ITfLangBarItem::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfLangBarItem interface, _tsf_itflangbaritem_show_ref, ctfutb/ITfLangBarItem::Show, tsf.itflangbaritem_show
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItem.Show"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItem.Show"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

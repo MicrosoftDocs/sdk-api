@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxFactory2, IAppxFactory2 interface [App packaging and management], IAppxFactory2 interface [App packaging and management],described, appxpackaging/IAppxFactory2, appxpkg.iappxfactory2
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxFactory2"]
+f1_keywords: 
+ - "appxpackaging/IAppxFactory2"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

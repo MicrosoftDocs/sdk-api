@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocReservedLog, AllocReservedLog function [Files], clfsw32/AllocReservedLog, fs.allocreservedlog
 ms.topic: function
-f1_keywords: ["clfsw32/AllocReservedLog"]
+f1_keywords: 
+ - "clfsw32/AllocReservedLog"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

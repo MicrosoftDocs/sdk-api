@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Flush method, IWMMetadataEditor.Flush, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMetadataEditor.Flush"]
+f1_keywords: 
+ - "wmsdkidl/IWMMetadataEditor.Flush"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

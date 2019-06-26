@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
 ms.topic: struct
-f1_keywords: ["shlwapi/QITAB"]
+f1_keywords: 
+ - "shlwapi/QITAB"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputStereoMode method, ID3D11VideoContext.VideoProcessorGetOutputStereoMode, ID3D11VideoContext::VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode method [Media Foundation], VideoProcessorGetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputStereoMode, mf.id3d11videocontext_videoprocessorgetoutputstereomode
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetOutputStereoMode"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetOutputStereoMode"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
 ms.topic: function
-f1_keywords: ["propsys/PSFormatPropertyValue"]
+f1_keywords: 
+ - "propsys/PSFormatPropertyValue"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

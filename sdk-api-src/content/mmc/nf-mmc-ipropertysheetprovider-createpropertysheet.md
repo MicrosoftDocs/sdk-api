@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheet, CreatePropertySheet method [MMC], CreatePropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],CreatePropertySheet method, IPropertySheetProvider.CreatePropertySheet, IPropertySheetProvider::CreatePropertySheet, MMC_PSO_HASHELP, MMC_PSO_NEWWIZARDTYPE, MMC_PSO_NOAPPLYNOW, MMC_PSO_NO_PROPTITLE, _slate_ipropertysheetprovider_createpropertysheet, mmc.ipropertysheetprovider_createpropertysheet, mmc/IPropertySheetProvider::CreatePropertySheet
 ms.topic: method
-f1_keywords: ["mmc/IPropertySheetProvider.CreatePropertySheet"]
+f1_keywords: 
+ - "mmc/IPropertySheetProvider.CreatePropertySheet"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

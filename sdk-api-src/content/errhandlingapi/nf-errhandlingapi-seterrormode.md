@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
 ms.topic: function
-f1_keywords: ["errhandlingapi/SetErrorMode"]
+f1_keywords: 
+ - "errhandlingapi/SetErrorMode"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

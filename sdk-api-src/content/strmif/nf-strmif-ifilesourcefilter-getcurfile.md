@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
 ms.topic: method
-f1_keywords: ["strmif/IFileSourceFilter.GetCurFile"]
+f1_keywords: 
+ - "strmif/IFileSourceFilter.GetCurFile"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

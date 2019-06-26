@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetPolicy method, IXpsSignature.GetPolicy, IXpsSignature::GetPolicy, xps.ixpssignature_getpolicy, xpsdigitalsignature/IXpsSignature::GetPolicy
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.GetPolicy"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.GetPolicy"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

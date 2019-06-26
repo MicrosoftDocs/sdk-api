@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure [Security], PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure pointer [Security], _crypto2_cmsg_ctrl_add_signer_unauth_attr_para, security.cmsg_ctrl_add_signer_unauth_attr_para, wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, wincrypt/PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"]
+f1_keywords: 
+ - "wincrypt/CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

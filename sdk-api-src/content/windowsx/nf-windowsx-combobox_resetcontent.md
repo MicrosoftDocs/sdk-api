@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_ResetContent, ComboBox_ResetContent macro [Windows Controls], _win32_ComboBox_ResetContent, _win32_ComboBox_ResetContent_cpp, controls.ComboBox_ResetContent, controls._win32_ComboBox_ResetContent, windowsx/ComboBox_ResetContent
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_ResetContent"]
+f1_keywords: 
+ - "windowsx/ComboBox_ResetContent"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

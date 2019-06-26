@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY"
 ms.topic: struct
-f1_keywords: ["winnt/ADMINISTRATOR_POWER_POLICY"]
+f1_keywords: 
+ - "winnt/ADMINISTRATOR_POWER_POLICY"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

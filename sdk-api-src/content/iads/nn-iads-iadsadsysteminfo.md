@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.topic: interface
-f1_keywords: ["iads/IADsADSystemInfo"]
+f1_keywords: 
+ - "iads/IADsADSystemInfo"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

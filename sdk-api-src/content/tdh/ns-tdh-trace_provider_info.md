@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO structure [ETW], etw.trace_provider_info_struct, tdh.trace_provider_info_struct, tdh/TRACE_PROVIDER_INFO"
 ms.topic: struct
-f1_keywords: ["tdh/TRACE_PROVIDER_INFO"]
+f1_keywords: 
+ - "tdh/TRACE_PROVIDER_INFO"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

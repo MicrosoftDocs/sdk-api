@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumComponents, EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],EnumComponents method, IComponents.EnumComponents, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
 ms.topic: method
-f1_keywords: ["tuner/IComponents.EnumComponents"]
+f1_keywords: 
+ - "tuner/IComponents.EnumComponents"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

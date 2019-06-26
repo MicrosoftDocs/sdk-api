@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
 ms.topic: callback
-f1_keywords: ["evr/MFCreateVideoSampleAllocator"]
+f1_keywords: 
+ - "evr/MFCreateVideoSampleAllocator"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

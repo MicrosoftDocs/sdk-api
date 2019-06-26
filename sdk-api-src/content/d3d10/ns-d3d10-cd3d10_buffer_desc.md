@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1eca8f2f-7776-2027-7a51-209cc4fd7200, CD3D10_BUFFER_DESC, D3D10_BUFFER_DESC, D3D10_BUFFER_DESC structure [Direct3D 10], d3d10/D3D10_BUFFER_DESC, direct3d10.d3d10_buffer_desc
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_BUFFER_DESC"]
+f1_keywords: 
+ - "d3d10/D3D10_BUFFER_DESC"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

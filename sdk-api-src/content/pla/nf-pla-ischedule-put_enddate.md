@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.put_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate, put_EndDate
 ms.topic: method
-f1_keywords: ["pla/ISchedule.EndDate"]
+f1_keywords: 
+ - "pla/ISchedule.EndDate"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

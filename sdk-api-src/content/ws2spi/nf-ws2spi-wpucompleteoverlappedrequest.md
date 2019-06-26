@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.topic: function
-f1_keywords: ["ws2spi/WPUCompleteOverlappedRequest"]
+f1_keywords: 
+ - "ws2spi/WPUCompleteOverlappedRequest"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize method, IStreamConcatenate.Initialize, IStreamConcatenate::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
 ms.topic: method
-f1_keywords: ["imapi2/IStreamConcatenate.Initialize"]
+f1_keywords: 
+ - "imapi2/IStreamConcatenate.Initialize"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

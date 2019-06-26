@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK, WLAN_AVAILABLE_NETWORK structure [NativeWIFI], WLAN_AVAILABLE_NETWORK_CONNECTED, WLAN_AVAILABLE_NETWORK_HAS_PROFILE, dot11_phy_type_IHV_end, dot11_phy_type_IHV_start, dot11_phy_type_any, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_fhss, dot11_phy_type_hrdsss, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_ofdm, dot11_phy_type_unknown, dot11_phy_type_vht, nativewifi.wlan_visible_network, nwifi.wlan_available_network, wlanapi/PWLAN_AVAILABLE_NETWORK, wlanapi/WLAN_AVAILABLE_NETWORK"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_AVAILABLE_NETWORK"]
+f1_keywords: 
+ - "wlanapi/WLAN_AVAILABLE_NETWORK"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

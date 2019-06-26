@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT2.operator =, Use DirectX::::XMFLOAT2::operator =, XMFLOAT2 structure [DirectX Math Support APIs],operator = method, XMFLOAT2.operator =, XMFLOAT2.operator-assign, XMFLOAT2.operator=, XMFLOAT2::operator-assign, XMFLOAT2::operator=, dxmath.xmfloat2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT2 structure, operator=
 ms.topic: method
-f1_keywords: ["directxmath/XMFLOAT2.operator ="]
+f1_keywords: 
+ - "directxmath/XMFLOAT2.operator ="
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

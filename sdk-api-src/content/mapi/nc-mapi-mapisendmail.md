@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
 ms.topic: callback
-f1_keywords: ["mapi/MAPISendMail"]
+f1_keywords: 
+ - "mapi/MAPISendMail"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

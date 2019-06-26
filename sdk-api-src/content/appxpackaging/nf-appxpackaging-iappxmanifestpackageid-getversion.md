@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVersion method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetVersion method, IAppxManifestPackageId.GetVersion, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestPackageId.GetVersion"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestPackageId.GetVersion"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

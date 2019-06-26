@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
 ms.topic: macro
-f1_keywords: ["winnt/PRIMARYLANGID"]
+f1_keywords: 
+ - "winnt/PRIMARYLANGID"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

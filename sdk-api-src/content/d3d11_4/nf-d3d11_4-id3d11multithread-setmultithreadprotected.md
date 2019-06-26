@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],SetMultithreadProtected method, ID3D11Multithread.SetMultithreadProtected, ID3D11Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 11], SetMultithreadProtected method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::SetMultithreadProtected, direct3d11.id3d11multithread_setmultithreadprotected
 ms.topic: method
-f1_keywords: ["d3d11_4/ID3D11Multithread.SetMultithreadProtected"]
+f1_keywords: 
+ - "d3d11_4/ID3D11Multithread.SetMultithreadProtected"
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

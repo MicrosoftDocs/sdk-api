@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPIDMap interface, IEnumPIDMap interface [DirectShow],Clone method, IEnumPIDMap.Clone, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
 ms.topic: method
-f1_keywords: ["bdaiface/IEnumPIDMap.Clone"]
+f1_keywords: 
+ - "bdaiface/IEnumPIDMap.Clone"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

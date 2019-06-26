@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_BINARY_DATA"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_BINARY_DATA"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

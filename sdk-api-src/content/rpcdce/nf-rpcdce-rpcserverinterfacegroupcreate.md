@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcServerInterfaceGroupCreate"]
+f1_keywords: 
+ - "rpcdce/RpcServerInterfaceGroupCreate"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

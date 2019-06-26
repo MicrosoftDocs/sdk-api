@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 ms.topic: function
-f1_keywords: ["winsock/WSAAsyncGetHostByName"]
+f1_keywords: 
+ - "winsock/WSAAsyncGetHostByName"
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

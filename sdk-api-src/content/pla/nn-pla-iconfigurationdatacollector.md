@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], IConfigurationDataCollector interface [PLA],described, base.iconfigurationdatacollector, pla.iconfigurationdatacollector, pla/IConfigurationDataCollector
 ms.topic: interface
-f1_keywords: ["pla/IConfigurationDataCollector"]
+f1_keywords: 
+ - "pla/IConfigurationDataCollector"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/IkeextSaDestroyEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/IkeextSaDestroyEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

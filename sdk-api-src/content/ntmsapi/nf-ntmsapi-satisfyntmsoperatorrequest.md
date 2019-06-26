@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
 ms.topic: function
-f1_keywords: ["ntmsapi/SatisfyNtmsOperatorRequest"]
+f1_keywords: 
+ - "ntmsapi/SatisfyNtmsOperatorRequest"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

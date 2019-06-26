@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemContext"]
+f1_keywords: 
+ - "wbemcli/IWbemContext"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

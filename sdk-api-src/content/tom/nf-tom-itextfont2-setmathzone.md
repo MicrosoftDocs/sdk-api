@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetMathZone method, ITextFont2.SetMathZone, ITextFont2::SetMathZone, SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetMathZone"]
+f1_keywords: 
+ - "tom/ITextFont2.SetMathZone"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

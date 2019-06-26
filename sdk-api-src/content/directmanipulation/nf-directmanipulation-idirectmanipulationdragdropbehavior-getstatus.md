@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, IDirectManipulationDragDropBehavior interface [Direct Manipulation],GetStatus method, IDirectManipulationDragDropBehavior.GetStatus, IDirectManipulationDragDropBehavior::GetStatus, directmanipulation.idirectmanipulationdragdropbehavior_getstatus, directmanipulation/IDirectManipulationDragDropBehavior::GetStatus
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationDragDropBehavior.GetStatus"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationDragDropBehavior.GetStatus"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParamCount, GetParamCount method [DirectShow], GetParamCount method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamCount method, IMediaParamInfo.GetParamCount, IMediaParamInfo::GetParamCount, IMediaParamInfoGetParamCount, dshow.imediaparaminfo_getparamcount, medparam/IMediaParamInfo::GetParamCount
 ms.topic: method
-f1_keywords: ["medparam/IMediaParamInfo.GetParamCount"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo.GetParamCount"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

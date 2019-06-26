@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership method, IWMPSyncDevice.createPartnership, IWMPSyncDevice::createPartnership, IWMPSyncDevicecreatePartnership, createPartnership, createPartnership method [Windows Media Player], createPartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_createpartnership, wmp/IWMPSyncDevice::createPartnership
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.createPartnership"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.createPartnership"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

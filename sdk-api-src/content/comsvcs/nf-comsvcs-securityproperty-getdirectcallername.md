@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectCallerName, GetDirectCallerName method [COM+], GetDirectCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCallerName method, SecurityProperty.GetDirectCallerName, SecurityProperty::GetDirectCallerName, _cos_SecurityProperty_GetDirectCallerName, comsvcs/SecurityProperty::GetDirectCallerName, cos.securityproperty_getdirectcallername
 ms.topic: method
-f1_keywords: ["comsvcs/SecurityProperty.GetDirectCallerName"]
+f1_keywords: 
+ - "comsvcs/SecurityProperty.GetDirectCallerName"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

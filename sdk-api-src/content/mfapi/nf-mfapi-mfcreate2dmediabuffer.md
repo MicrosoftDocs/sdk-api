@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Foundation], mf.mfcreate2dmediabuffer, mfapi/MFCreate2DMediaBuffer
 ms.topic: function
-f1_keywords: ["mfapi/MFCreate2DMediaBuffer"]
+f1_keywords: 
+ - "mfapi/MFCreate2DMediaBuffer"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

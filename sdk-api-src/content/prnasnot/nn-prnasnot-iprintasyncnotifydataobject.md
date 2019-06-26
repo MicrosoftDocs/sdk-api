@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], IPrintAsyncNotifyDataObject interface [Windows GDI],described, _win32_IPrintAsyncNotifyDataObject, gdi.iprintasyncnotifydataobject, prnasnot/IPrintAsyncNotifyDataObject
 ms.topic: interface
-f1_keywords: ["prnasnot/IPrintAsyncNotifyDataObject"]
+f1_keywords: 
+ - "prnasnot/IPrintAsyncNotifyDataObject"
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

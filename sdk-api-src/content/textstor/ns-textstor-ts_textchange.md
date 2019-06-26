@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_TEXTCHANGE, TS_TEXTCHANGE structure [Text Services Framework], _tsf_ts_textchange_ref, textstor/TS_TEXTCHANGE, tsf.ts_textchange
 ms.topic: struct
-f1_keywords: ["textstor/TS_TEXTCHANGE"]
+f1_keywords: 
+ - "textstor/TS_TEXTCHANGE"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

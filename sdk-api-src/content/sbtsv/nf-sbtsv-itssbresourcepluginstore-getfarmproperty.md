@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStore.GetFarmProperty, ITsSbResourcePluginStore::GetFarmProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStoreEx::GetFarmProperty, sbtsv/ITsSbResourcePluginStore::GetFarmProperty, sbtsv/ITsSbResourcePluginStoreEx::GetFarmProperty, termserv.itssbresourcepluginstore_getfarmproperty
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.GetFarmProperty"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.GetFarmProperty"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

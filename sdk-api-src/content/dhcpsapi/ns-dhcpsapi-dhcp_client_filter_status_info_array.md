@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

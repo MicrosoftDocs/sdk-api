@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(T,), IWeakReference::Resolve, IWeakReference::Resolve(T,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
 ms.topic: method
-f1_keywords: ["weakreference/IWeakReference.Resolve"]
+f1_keywords: 
+ - "weakreference/IWeakReference.Resolve"
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],TransformVectors method, Matrix.TransformVectors, Matrix.TransformVectors(IN OUT Point,IN INT), Matrix.TransformVectors(Point*,INT), Matrix::TransformVectors, Matrix::TransformVectors(IN OUT Point,IN INT), TransformVectors, TransformVectors method [GDI+], TransformVectors method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_
 ms.topic: method
-f1_keywords: ["gdiplusmatrix/Matrix.TransformVectors"]
+f1_keywords: 
+ - "gdiplusmatrix/Matrix.TransformVectors"
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

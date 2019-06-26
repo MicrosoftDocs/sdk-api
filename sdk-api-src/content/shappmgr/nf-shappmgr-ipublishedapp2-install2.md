@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishedApp2.Install2, IPublishedApp2::Install2, Install2, Install2 method [Windows Shell], Install2 method [Windows Shell],IPublishedApp2 interface, _shell_IPublishedApp2_Install2, shappmgr/IPublishedApp2::Install2, shell.IPublishedApp2_Install2
 ms.topic: method
-f1_keywords: ["shappmgr/IPublishedApp2.Install2"]
+f1_keywords: 
+ - "shappmgr/IPublishedApp2.Install2"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO structure, base.vss_volume_protection_info, vsmgmt/VSS_VOLUME_PROTECTION_INFO"
 ms.topic: struct
-f1_keywords: ["vsmgmt/VSS_VOLUME_PROTECTION_INFO"]
+f1_keywords: 
+ - "vsmgmt/VSS_VOLUME_PROTECTION_INFO"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

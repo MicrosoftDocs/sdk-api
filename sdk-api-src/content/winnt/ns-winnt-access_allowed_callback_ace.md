@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE structure [Security], PACCESS_ALLOWED_CALLBACK_ACE, PACCESS_ALLOWED_CALLBACK_ACE structure pointer [Security], _ACCESS_ALLOWED_CALLBACK_ACE, security.access_allowed_callback_ace, winnt/ACCESS_ALLOWED_CALLBACK_ACE, winnt/PACCESS_ALLOWED_CALLBACK_ACE"
 ms.topic: struct
-f1_keywords: ["winnt/ACCESS_ALLOWED_CALLBACK_ACE"]
+f1_keywords: 
+ - "winnt/ACCESS_ALLOWED_CALLBACK_ACE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

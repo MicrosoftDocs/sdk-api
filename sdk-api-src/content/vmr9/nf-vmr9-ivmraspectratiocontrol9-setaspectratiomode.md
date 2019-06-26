@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl9.SetAspectRatioMode, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
 ms.topic: method
-f1_keywords: ["vmr9/IVMRAspectRatioControl9.SetAspectRatioMode"]
+f1_keywords: 
+ - "vmr9/IVMRAspectRatioControl9.SetAspectRatioMode"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

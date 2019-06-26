@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
 ms.topic: function
-f1_keywords: ["ras/RasGetProjectionInfoEx"]
+f1_keywords: 
+ - "ras/RasGetProjectionInfoEx"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

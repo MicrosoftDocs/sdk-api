@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter interface [COM+],Initialize method, IPublisherFilter.Initialize, IPublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
 ms.topic: method
-f1_keywords: ["eventsys/IPublisherFilter.Initialize"]
+f1_keywords: 
+ - "eventsys/IPublisherFilter.Initialize"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

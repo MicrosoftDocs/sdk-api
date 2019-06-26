@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2 interface [Windows Media Player],get_mediaAccessRights method, IWMPSettings2.get_mediaAccessRights, IWMPSettings2::get_mediaAccessRights, IWMPSettings2get_mediaAccessRights, get_mediaAccessRights, get_mediaAccessRights method [Windows Media Player], get_mediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_get_mediaaccessrights, wmp/IWMPSettings2::get_mediaAccessRights
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings2.get_mediaAccessRights"]
+f1_keywords: 
+ - "wmp/IWMPSettings2.get_mediaAccessRights"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

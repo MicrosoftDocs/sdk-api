@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetPixelsPerDip method, IDWriteBitmapRenderTarget.GetPixelsPerDip, IDWriteBitmapRenderTarget::GetPixelsPerDip, directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip, dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteBitmapRenderTarget.GetPixelsPerDip"]
+f1_keywords: 
+ - "dwrite/IDWriteBitmapRenderTarget.GetPixelsPerDip"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

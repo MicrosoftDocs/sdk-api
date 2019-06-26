@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [Task Scheduler], Enum method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Enum method, ITaskScheduler.Enum, ITaskScheduler::Enum, _msb_itaskscheduler_enum, mstask/ITaskScheduler::Enum, taskschd.itaskscheduler_enum
 ms.topic: method
-f1_keywords: ["mstask/ITaskScheduler.Enum"]
+f1_keywords: 
+ - "mstask/ITaskScheduler.Enum"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetSourceInfo"]
+f1_keywords: 
+ - "setupapi/SetupGetSourceInfo"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

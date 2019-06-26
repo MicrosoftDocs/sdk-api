@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], IWMReaderPlaylistBurn interface [windows Media Format],described, IWMReaderPlaylistBurnInterface, wmformat.iwmreaderplaylistburn, wmsdkidl/IWMReaderPlaylistBurn
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderPlaylistBurn"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderPlaylistBurn"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

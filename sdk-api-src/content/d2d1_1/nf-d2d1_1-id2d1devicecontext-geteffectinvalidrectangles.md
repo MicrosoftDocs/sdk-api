@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectInvalidRectangles, GetEffectInvalidRectangles method [Direct2D], GetEffectInvalidRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectInvalidRectangles method, ID2D1DeviceContext.GetEffectInvalidRectangles, ID2D1DeviceContext::GetEffectInvalidRectangles, d2d1_1/ID2D1DeviceContext::GetEffectInvalidRectangles, direct2d.id2d1devicecontext_geteffectinvalidrectangles
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.GetEffectInvalidRectangles"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.GetEffectInvalidRectangles"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

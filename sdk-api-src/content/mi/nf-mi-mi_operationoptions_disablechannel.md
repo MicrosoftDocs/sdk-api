@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_DisableChannel, MI_OperationOptions_DisableChannel function [Windows Management Infrastructure (MI)], MI_WRITEMESSAGE_CHANNEL_DEBUG, MI_WRITEMESSAGE_CHANNEL_VERBOSE, MI_WRITEMESSAGE_CHANNEL_WARNING, mi/MI_OperationOptions_DisableChannel, wmi_v2.mi_operationoptions_disablechannel
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_DisableChannel"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_DisableChannel"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

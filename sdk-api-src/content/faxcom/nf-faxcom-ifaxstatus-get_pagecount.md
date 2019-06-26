@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],PageCount property, IFaxStatus.PageCount, IFaxStatus.get_PageCount, IFaxStatus::PageCount, IFaxStatus::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp, faxcom/IFaxStatus::PageCount, faxcom/IFaxStatus::get_PageCount, get_PageCount
 ms.topic: method
-f1_keywords: ["faxcom/IFaxStatus.PageCount"]
+f1_keywords: 
+ - "faxcom/IFaxStatus.PageCount"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

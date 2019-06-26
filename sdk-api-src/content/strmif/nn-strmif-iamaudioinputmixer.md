@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], IAMAudioInputMixer interface [DirectShow],described, IAMAudioInputMixerInterface, dshow.iamaudioinputmixer, strmif/IAMAudioInputMixer
 ms.topic: interface
-f1_keywords: ["strmif/IAMAudioInputMixer"]
+f1_keywords: 
+ - "strmif/IAMAudioInputMixer"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

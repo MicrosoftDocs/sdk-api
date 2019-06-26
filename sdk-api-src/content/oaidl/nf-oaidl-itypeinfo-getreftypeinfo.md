@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRefTypeInfo, GetRefTypeInfo method [Automation], GetRefTypeInfo method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeInfo method, ITypeInfo.GetRefTypeInfo, ITypeInfo::GetRefTypeInfo, _oa96_ITypeInfo_GetRefTypeInfo, automat.itypeinfo_getreftypeinfo, oaidl/ITypeInfo::GetRefTypeInfo
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetRefTypeInfo"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetRefTypeInfo"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

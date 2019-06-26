@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTIPADDRESS_ROW, MIB_ANYCASTIPADDRESS_ROW structure [MIB], PMIB_ANYCASTIPADDRESS_ROW, PMIB_ANYCASTIPADDRESS_ROW structure pointer [MIB], _MIB_ANYCASTIPADDRESS_ROW, mib.mib_anycastipaddress_row, netioapi/MIB_ANYCASTIPADDRESS_ROW, netioapi/PMIB_ANYCASTIPADDRESS_ROW"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_ANYCASTIPADDRESS_ROW"]
+f1_keywords: 
+ - "netioapi/MIB_ANYCASTIPADDRESS_ROW"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

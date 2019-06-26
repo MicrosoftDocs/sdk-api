@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
 ms.topic: function
-f1_keywords: ["pdh/PdhUpdateLog"]
+f1_keywords: 
+ - "pdh/PdhUpdateLog"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

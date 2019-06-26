@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMIndexer2.Configure"]
+f1_keywords: 
+ - "wmsdkidl/IWMIndexer2.Configure"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

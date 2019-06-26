@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Next method, IEnumSyncChanges.Next, IEnumSyncChanges::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_next, winsync/IEnumSyncChanges::Next
 ms.topic: method
-f1_keywords: ["winsync/IEnumSyncChanges.Next"]
+f1_keywords: 
+ - "winsync/IEnumSyncChanges.Next"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],erase method, IWMPCdromBurn.erase, IWMPCdromBurn::erase, IWMPCdromBurnerase, erase, erase method [Windows Media Player], erase method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_erase, wmp/IWMPCdromBurn::erase
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromBurn.erase"]
+f1_keywords: 
+ - "wmp/IWMPCdromBurn.erase"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

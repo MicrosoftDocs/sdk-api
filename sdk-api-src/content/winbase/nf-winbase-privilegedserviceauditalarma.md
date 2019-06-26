@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrivilegedServiceAuditAlarm, PrivilegedServiceAuditAlarm function [Security], PrivilegedServiceAuditAlarmA, PrivilegedServiceAuditAlarmW, _win32_privilegedserviceauditalarm, security.privilegedserviceauditalarm, winbase/PrivilegedServiceAuditAlarm, winbase/PrivilegedServiceAuditAlarmA, winbase/PrivilegedServiceAuditAlarmW
 ms.topic: function
-f1_keywords: ["winbase/PrivilegedServiceAuditAlarm"]
+f1_keywords: 
+ - "winbase/PrivilegedServiceAuditAlarm"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

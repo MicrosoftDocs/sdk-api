@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile2, IBackgroundCopyFile2 interface [BITS], IBackgroundCopyFile2 interface [BITS],described, bits.ibackgroundcopyfile2, bits2_0/IBackgroundCopyFile2
 ms.topic: interface
-f1_keywords: ["bits2_0/IBackgroundCopyFile2"]
+f1_keywords: 
+ - "bits2_0/IBackgroundCopyFile2"
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

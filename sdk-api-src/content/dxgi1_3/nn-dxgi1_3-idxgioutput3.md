@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
 ms.topic: interface
-f1_keywords: ["dxgi1_3/IDXGIOutput3"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIOutput3"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

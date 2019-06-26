@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY control, IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Files], _win32_ioctl_disk_get_drive_geometry, base.ioctl_disk_get_drive_geometry, fs.ioctl_disk_get_drive_geometry, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY"]
+f1_keywords: 
+ - "winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

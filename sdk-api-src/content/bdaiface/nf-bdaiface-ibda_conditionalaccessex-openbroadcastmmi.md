@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],OpenBroadcastMmi method, IBDA_ConditionalAccessEx.OpenBroadcastMmi, IBDA_ConditionalAccessEx::OpenBroadcastMmi, OpenBroadcastMmi, OpenBroadcastMmi method [Microsoft TV Technologies], OpenBroadcastMmi method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::OpenBroadcastMmi, mstv.ibda_conditionalaccessex_openbroadcastmmi
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccessEx.OpenBroadcastMmi"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccessEx.OpenBroadcastMmi"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

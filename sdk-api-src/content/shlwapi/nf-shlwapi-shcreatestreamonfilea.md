@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateStreamOnFile, SHCreateStreamOnFile function [Windows Shell], SHCreateStreamOnFileA, SHCreateStreamOnFileW, _win32_SHCreateStreamOnFile, shell.SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFileA, shlwapi/SHCreateStreamOnFileW
 ms.topic: function
-f1_keywords: ["shlwapi/SHCreateStreamOnFile"]
+f1_keywords: 
+ - "shlwapi/SHCreateStreamOnFile"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

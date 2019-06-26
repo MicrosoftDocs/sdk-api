@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsaresetevent_2, winsock.wsaresetevent_2, winsock2/WSAResetEvent
 ms.topic: function
-f1_keywords: ["winsock2/WSAResetEvent"]
+f1_keywords: 
+ - "winsock2/WSAResetEvent"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

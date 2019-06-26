@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,GetCount method, IFunctionInstanceCollection.GetCount, IFunctionInstanceCollection::GetCount, functiondiscoveryapi/IFunctionInstanceCollection::GetCount, ncd.ifunctioninstancecollection_getcount_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.GetCount"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionInstanceCollection.GetCount"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

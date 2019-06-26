@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
 ms.topic: class
-f1_keywords: ["textserv/ITextServices2"]
+f1_keywords: 
+ - "textserv/ITextServices2"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSingleArray, CreateSingleArray method [Windows Runtime], CreateSingleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingleArray method, IPropertyValueStatics.CreateSingleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingleArray, winrt.ipropertyvaluefactory_createsinglearray, winrt.ipropertyvaluestatics_createsinglearray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateSingleArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateSingleArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

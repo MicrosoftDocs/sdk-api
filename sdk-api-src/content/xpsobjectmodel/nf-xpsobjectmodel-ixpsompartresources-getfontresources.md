@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontResources, GetFontResources method [XPS Documents and Packaging], GetFontResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetFontResources method, IXpsOMPartResources.GetFontResources, IXpsOMPartResources::GetFontResources, xps.ixpsompartresources_getfontresources, xpsobjectmodel/IXpsOMPartResources::GetFontResources
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPartResources.GetFontResources"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPartResources.GetFontResources"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

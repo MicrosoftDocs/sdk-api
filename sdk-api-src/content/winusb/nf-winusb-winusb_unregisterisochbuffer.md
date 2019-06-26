@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_UnregisterIsochBuffer, WinUsb_UnregisterIsochBuffer function [Buses], buses.winusb_unregisterisochbuffer, winusb/WinUsb_UnregisterIsochBuffer
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_UnregisterIsochBuffer"]
+f1_keywords: 
+ - "winusb/WinUsb_UnregisterIsochBuffer"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

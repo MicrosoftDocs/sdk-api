@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMATTESTTYPE, DRMATTESTTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMATTESTTYPE_FULLENVIRONMENT, DRMATTESTTYPE_HASHONLY, msdrmdefs/DRMATTESTTYPE, msdrmdefs/DRMATTESTTYPE_FULLENVIRONMENT, msdrmdefs/DRMATTESTTYPE_HASHONLY, rm.drmattesttype
 ms.topic: enum
-f1_keywords: ["msdrmdefs/DRMATTESTTYPE"]
+f1_keywords: 
+ - "msdrmdefs/DRMATTESTTYPE"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

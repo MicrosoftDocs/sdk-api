@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],GetEmbeddedFragmentRoots method, IRawElementProviderFragment.GetEmbeddedFragmentRoots, IRawElementProviderFragment::GetEmbeddedFragmentRoots, uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots, winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderFragment.GetEmbeddedFragmentRoots"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderFragment.GetEmbeddedFragmentRoots"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

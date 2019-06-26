@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoAlphaBitmapFlags, MFVideoAlphaBitmapFlags enumeration [Media Foundation], MFVideoAlphaBitmap_Alpha, MFVideoAlphaBitmap_BitMask, MFVideoAlphaBitmap_DestRect, MFVideoAlphaBitmap_EntireDDS, MFVideoAlphaBitmap_FilterMode, MFVideoAlphaBitmap_SrcColorKey, MFVideoAlphaBitmap_SrcRect, d9989c44-8a3c-4f8b-a63d-e39e26797935, evr9/MFVideoAlphaBitmapFlags, evr9/MFVideoAlphaBitmap_Alpha, evr9/MFVideoAlphaBitmap_BitMask, evr9/MFVideoAlphaBitmap_DestRect, evr9/MFVideoAlphaBitmap_EntireDDS, evr9/MFVideoAlphaBitmap_FilterMode, evr9/MFVideoAlphaBitmap_SrcColorKey, evr9/MFVideoAlphaBitmap_SrcRect, mf.mfvideoalphabitmapflags
 ms.topic: enum
-f1_keywords: ["evr9/MFVideoAlphaBitmapFlags"]
+f1_keywords: 
+ - "evr9/MFVideoAlphaBitmapFlags"
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

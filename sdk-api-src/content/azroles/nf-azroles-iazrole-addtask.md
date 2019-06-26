@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzRole object, AddTask method [Security],IAzRole interface, AzRole object [Security],AddTask method, IAzRole interface [Security],AddTask method, IAzRole.AddTask, IAzRole::AddTask, azroles/IAzRole::AddTask, security.iazrole_addtask
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.AddTask"]
+f1_keywords: 
+ - "azroles/IAzRole.AddTask"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

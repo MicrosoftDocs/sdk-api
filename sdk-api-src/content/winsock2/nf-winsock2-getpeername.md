@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_getpeername_2, getpeername, getpeername function [Winsock], winsock.getpeername_2, winsock/getpeername"
 ms.topic: function
-f1_keywords: ["winsock2/getpeername"]
+f1_keywords: 
+ - "winsock2/getpeername"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

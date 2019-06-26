@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern, IUIAutomationVirtualizedItemPattern interface [Windows Accessibility], IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationVirtualizedItemPattern, uiauto_IUIAutomationVirtualizedItemPattern, uiautomationclient/IUIAutomationVirtualizedItemPattern, winauto.uiauto_IUIAutomationVirtualizedItemPattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationVirtualizedItemPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationVirtualizedItemPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

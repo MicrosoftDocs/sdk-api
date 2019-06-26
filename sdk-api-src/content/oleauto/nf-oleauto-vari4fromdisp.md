@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarI4FromDisp, VarI4FromDisp function [Automation], _oa96_VarI4FromDisp, automat.vari4fromdisp, oleauto/VarI4FromDisp
 ms.topic: function
-f1_keywords: ["oleauto/VarI4FromDisp"]
+f1_keywords: 
+ - "oleauto/VarI4FromDisp"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

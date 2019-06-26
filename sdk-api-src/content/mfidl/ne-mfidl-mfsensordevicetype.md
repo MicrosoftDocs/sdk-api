@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSensorDeviceType, MFSensorDeviceType enumeration [Media Foundation], MFSensorDeviceType_Device, MFSensorDeviceType_FrameProvider, MFSensorDeviceType_MediaSource, MFSensorDeviceType_Unknown, mf.mfsensordevicetype, mfidl/MFSensorDeviceType, mfidl/MFSensorDeviceType_Device, mfidl/MFSensorDeviceType_FrameProvider, mfidl/MFSensorDeviceType_MediaSource, mfidl/MFSensorDeviceType_Unknown
 ms.topic: enum
-f1_keywords: ["mfidl/MFSensorDeviceType"]
+f1_keywords: 
+ - "mfidl/MFSensorDeviceType"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

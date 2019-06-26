@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceLeft method, IBasicVideo.put_SourceLeft, IBasicVideo::put_SourceLeft, IBasicVideoput_SourceLeft, control/IBasicVideo::put_SourceLeft, dshow.ibasicvideo_put_sourceleft, put_SourceLeft, put_SourceLeft method [DirectShow], put_SourceLeft method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.put_SourceLeft"]
+f1_keywords: 
+ - "control/IBasicVideo.put_SourceLeft"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

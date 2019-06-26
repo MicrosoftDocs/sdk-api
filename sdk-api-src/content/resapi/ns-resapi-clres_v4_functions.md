@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS, CLRES_V4_FUNCTIONS structure [Failover Cluster], PCLRES_V4_FUNCTIONS, PCLRES_V4_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v4_functions, resapi/CLRES_V4_FUNCTIONS, resapi/PCLRES_V4_FUNCTIONS"
 ms.topic: struct
-f1_keywords: ["resapi/CLRES_V4_FUNCTIONS"]
+f1_keywords: 
+ - "resapi/CLRES_V4_FUNCTIONS"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

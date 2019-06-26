@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsEqualPropertyKey, IsEqualPropertyKey macro [Windows Shell], _shell_IsEqualPropertyKey, propkeydef/IsEqualPropertyKey, shell.IsEqualPropertyKey
 ms.topic: macro
-f1_keywords: ["propkeydef/IsEqualPropertyKey"]
+f1_keywords: 
+ - "propkeydef/IsEqualPropertyKey"
 req.header: propkeydef.h
 req.include-header: 
 req.target-type: Windows

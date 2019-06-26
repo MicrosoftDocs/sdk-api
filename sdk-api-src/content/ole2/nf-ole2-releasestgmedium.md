@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgMedium, com.releasestgmedium, ole2/ReleaseStgMedium
 ms.topic: function
-f1_keywords: ["ole2/ReleaseStgMedium"]
+f1_keywords: 
+ - "ole2/ReleaseStgMedium"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

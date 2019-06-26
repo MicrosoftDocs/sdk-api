@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnManager interface [Windows Shell],SetColumns method, IColumnManager.SetColumns, IColumnManager::SetColumns, SetColumns, SetColumns method [Windows Shell], SetColumns method [Windows Shell],IColumnManager interface, shell.IColumnManager_SetColumns, shell_IColumnManager_SetColumns, shobjidl_core/IColumnManager::SetColumns
 ms.topic: method
-f1_keywords: ["shobjidl_core/IColumnManager.SetColumns"]
+f1_keywords: 
+ - "shobjidl_core/IColumnManager.SetColumns"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

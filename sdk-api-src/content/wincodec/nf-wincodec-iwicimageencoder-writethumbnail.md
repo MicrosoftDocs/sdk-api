@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteThumbnail method, IWICImageEncoder.WriteThumbnail, IWICImageEncoder::WriteThumbnail, WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
 ms.topic: method
-f1_keywords: ["wincodec/IWICImageEncoder.WriteThumbnail"]
+f1_keywords: 
+ - "wincodec/IWICImageEncoder.WriteThumbnail"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

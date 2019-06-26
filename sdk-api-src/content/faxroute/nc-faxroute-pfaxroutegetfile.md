@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteGetFile, FaxRouteGetFile callback function [Fax Service], PFAXROUTEGETFILE, PFAXROUTEGETFILE callback, _mfax_faxroutegetfile, fax._mfax_faxroutegetfile, faxroute/FaxRouteGetFile
 ms.topic: callback
-f1_keywords: ["faxroute/FaxRouteGetFile"]
+f1_keywords: 
+ - "faxroute/FaxRouteGetFile"
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

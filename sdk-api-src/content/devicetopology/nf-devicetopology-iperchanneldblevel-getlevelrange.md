@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLevelRange, GetLevelRange method [Core Audio], GetLevelRange method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevelRange method, IPerChannelDbLevel.GetLevelRange, IPerChannelDbLevel::GetLevelRange, IPerChannelDbLevelGetLevelRange, coreaudio.iperchanneldblevel_getlevelrange, devicetopology/IPerChannelDbLevel::GetLevelRange
 ms.topic: method
-f1_keywords: ["devicetopology/IPerChannelDbLevel.GetLevelRange"]
+f1_keywords: 
+ - "devicetopology/IPerChannelDbLevel.GetLevelRange"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

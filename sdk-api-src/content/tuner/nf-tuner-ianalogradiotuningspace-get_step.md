@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_Step method, IAnalogRadioTuningSpace.get_Step, IAnalogRadioTuningSpace::get_Step, IAnalogRadioTuningSpaceget_Step, get_Step, get_Step method [Microsoft TV Technologies], get_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_step, tuner/IAnalogRadioTuningSpace::get_Step
 ms.topic: method
-f1_keywords: ["tuner/IAnalogRadioTuningSpace.get_Step"]
+f1_keywords: 
+ - "tuner/IAnalogRadioTuningSpace.get_Step"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

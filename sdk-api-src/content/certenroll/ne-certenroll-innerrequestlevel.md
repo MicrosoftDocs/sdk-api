@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelInnermost, LevelNext, certenroll/InnerRequestLevel, certenroll/LevelInnermost, certenroll/LevelNext, security.innerrequestlevel_enum
 ms.topic: enum
-f1_keywords: ["certenroll/InnerRequestLevel"]
+f1_keywords: 
+ - "certenroll/InnerRequestLevel"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

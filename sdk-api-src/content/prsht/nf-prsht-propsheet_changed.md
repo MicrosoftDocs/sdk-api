@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropSheet_Changed, PropSheet_Changed macro [Windows Controls], _win32_PropSheet_Changed, _win32_PropSheet_Changed_cpp, controls.PropSheet_Changed, controls._win32_PropSheet_Changed, prsht/PropSheet_Changed
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_Changed"]
+f1_keywords: 
+ - "prsht/PropSheet_Changed"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

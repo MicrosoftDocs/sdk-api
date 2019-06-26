@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, IPrincipal.put_Id, IPrincipal::Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IPrincipal interface, put_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
 ms.topic: method
-f1_keywords: ["taskschd/IPrincipal.Id"]
+f1_keywords: 
+ - "taskschd/IPrincipal.Id"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

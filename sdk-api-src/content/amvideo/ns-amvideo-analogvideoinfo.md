@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo
 ms.topic: struct
-f1_keywords: ["amvideo/ANALOGVIDEOINFO"]
+f1_keywords: 
+ - "amvideo/ANALOGVIDEOINFO"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

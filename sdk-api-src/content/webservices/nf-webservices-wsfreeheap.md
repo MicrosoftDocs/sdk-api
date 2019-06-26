@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
 ms.topic: function
-f1_keywords: ["webservices/WsFreeHeap"]
+f1_keywords: 
+ - "webservices/WsFreeHeap"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

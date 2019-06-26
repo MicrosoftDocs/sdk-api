@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_SourceSize method, IMSVidVideoRenderer.get_SourceSize, IMSVidVideoRenderer::get_SourceSize, IMSVidVideoRendererget_SourceSize, get_SourceSize, get_SourceSize method [Microsoft TV Technologies], get_SourceSize method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_sourcesize, segment/IMSVidVideoRenderer::get_SourceSize
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.get_SourceSize"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.get_SourceSize"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

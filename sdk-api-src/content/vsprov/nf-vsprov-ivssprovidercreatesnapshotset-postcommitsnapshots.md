@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostCommitSnapshots method, IVssProviderCreateSnapshotSet.PostCommitSnapshots, IVssProviderCreateSnapshotSet::PostCommitSnapshots, PostCommitSnapshots, PostCommitSnapshots method [VSS], PostCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots
 ms.topic: method
-f1_keywords: ["vsprov/IVssProviderCreateSnapshotSet.PostCommitSnapshots"]
+f1_keywords: 
+ - "vsprov/IVssProviderCreateSnapshotSet.PostCommitSnapshots"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

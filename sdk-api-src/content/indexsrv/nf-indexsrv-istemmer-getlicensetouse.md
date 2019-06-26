@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.topic: method
-f1_keywords: ["indexsrv/IStemmer.GetLicenseToUse"]
+f1_keywords: 
+ - "indexsrv/IStemmer.GetLicenseToUse"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

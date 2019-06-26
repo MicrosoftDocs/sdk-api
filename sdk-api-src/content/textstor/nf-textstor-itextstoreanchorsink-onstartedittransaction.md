@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreAnchorSink.OnStartEditTransaction, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchorSink.OnStartEditTransaction"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchorSink.OnStartEditTransaction"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32first, base.thread32first, tlhelp32/Thread32First, toolhelp.thread32first
 ms.topic: function
-f1_keywords: ["tlhelp32/Thread32First"]
+f1_keywords: 
+ - "tlhelp32/Thread32First"
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

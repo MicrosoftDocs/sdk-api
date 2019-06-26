@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationPrimaryContent.SetZoomBoundaries"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationPrimaryContent.SetZoomBoundaries"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

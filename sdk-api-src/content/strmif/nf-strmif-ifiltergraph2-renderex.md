@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph2.RenderEx"]
+f1_keywords: 
+ - "strmif/IFilterGraph2.RenderEx"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

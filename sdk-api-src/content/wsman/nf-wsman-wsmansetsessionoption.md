@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManSetSessionOption, WSManSetSessionOption function [Windows Remote Management], winrm.wsmansetsessionoption, wsman/WSManSetSessionOption
 ms.topic: function
-f1_keywords: ["wsman/WSManSetSessionOption"]
+f1_keywords: 
+ - "wsman/WSManSetSessionOption"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

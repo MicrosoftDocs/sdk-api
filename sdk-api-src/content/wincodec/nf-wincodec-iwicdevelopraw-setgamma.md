@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetGamma method, IWICDevelopRaw.SetGamma, IWICDevelopRaw::SetGamma, SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.SetGamma"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.SetGamma"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

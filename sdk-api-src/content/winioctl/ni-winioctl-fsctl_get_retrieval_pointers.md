@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_RETRIEVAL_POINTERS, FSCTL_GET_RETRIEVAL_POINTERS control, FSCTL_GET_RETRIEVAL_POINTERS control code [Files], _win32_fsctl_get_retrieval_pointers, base.fsctl_get_retrieval_pointers, fs.fsctl_get_retrieval_pointers, winioctl/FSCTL_GET_RETRIEVAL_POINTERS
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_GET_RETRIEVAL_POINTERS"]
+f1_keywords: 
+ - "winioctl/FSCTL_GET_RETRIEVAL_POINTERS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

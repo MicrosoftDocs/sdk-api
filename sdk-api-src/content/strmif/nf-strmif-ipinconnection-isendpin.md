@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],IsEndPin method, IPinConnection.IsEndPin, IPinConnection::IsEndPin, IPinConnectionIsEndPin, IsEndPin, IsEndPin method [DirectShow], IsEndPin method [DirectShow],IPinConnection interface, dshow.ipinconnection_isendpin, strmif/IPinConnection::IsEndPin
 ms.topic: method
-f1_keywords: ["strmif/IPinConnection.IsEndPin"]
+f1_keywords: 
+ - "strmif/IPinConnection.IsEndPin"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

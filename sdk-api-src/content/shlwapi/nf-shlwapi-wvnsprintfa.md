@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_wvnsprintf, shell.wvnsprintf, shlwapi/wvnsprintf, shlwapi/wvnsprintfA, shlwapi/wvnsprintfW, wvnsprintf, wvnsprintf function [Windows Shell], wvnsprintfA, wvnsprintfW"
 ms.topic: function
-f1_keywords: ["shlwapi/wvnsprintf"]
+f1_keywords: 
+ - "shlwapi/wvnsprintf"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

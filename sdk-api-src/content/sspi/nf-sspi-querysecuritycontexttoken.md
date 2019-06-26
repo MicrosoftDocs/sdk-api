@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.topic: function
-f1_keywords: ["sspi/QuerySecurityContextToken"]
+f1_keywords: 
+ - "sspi/QuerySecurityContextToken"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

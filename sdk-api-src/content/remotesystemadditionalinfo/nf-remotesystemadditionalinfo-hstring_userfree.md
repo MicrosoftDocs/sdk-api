@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree, winrt.hstring_userfree
 ms.topic: function
-f1_keywords: ["remotesystemadditionalinfo/HSTRING_UserFree"]
+f1_keywords: 
+ - "remotesystemadditionalinfo/HSTRING_UserFree"
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

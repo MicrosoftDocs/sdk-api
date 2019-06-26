@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMINT3.operator =, Use DirectX::::XMINT3::operator =, XMINT3 structure [DirectX Math Support APIs],operator = method, XMINT3.operator =, XMINT3.operator-assign, XMINT3.operator=, XMINT3::operator-assign, XMINT3::operator=, dxmath.xmint3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMINT3 structure, operator=
 ms.topic: method
-f1_keywords: ["directxmath/XMINT3.operator ="]
+f1_keywords: 
+ - "directxmath/XMINT3.operator ="
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

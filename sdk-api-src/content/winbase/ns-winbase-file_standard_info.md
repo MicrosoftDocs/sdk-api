@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_STANDARD_INFO, FILE_STANDARD_INFO, FILE_STANDARD_INFO structure [Files], PFILE_STANDARD_INFO, PFILE_STANDARD_INFO structure pointer [Files], fileextd/FILE_STANDARD_INFO, fileextd/PFILE_STANDARD_INFO, fs.file_standard_info, winbase/FILE_STANDARD_INFO, winbase/PFILE_STANDARD_INFO"
 ms.topic: struct
-f1_keywords: ["winbase/FILE_STANDARD_INFO"]
+f1_keywords: 
+ - "winbase/FILE_STANDARD_INFO"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

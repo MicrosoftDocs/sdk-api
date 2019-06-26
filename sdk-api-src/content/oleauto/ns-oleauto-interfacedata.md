@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERFACEDATA, INTERFACEDATA, INTERFACEDATA structure [Automation], LPINTERFACEDATA, LPINTERFACEDATA structure pointer [Automation], _oa96_INTERFACEDATA, automat.interfacedata, oleauto/INTERFACEDATA, oleauto/LPINTERFACEDATA"
 ms.topic: struct
-f1_keywords: ["oleauto/INTERFACEDATA"]
+f1_keywords: 
+ - "oleauto/INTERFACEDATA"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyCluster, DestroyCluster function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster], clusapi/DestroyCluster, clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
 ms.topic: function
-f1_keywords: ["clusapi/DestroyCluster"]
+f1_keywords: 
+ - "clusapi/DestroyCluster"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

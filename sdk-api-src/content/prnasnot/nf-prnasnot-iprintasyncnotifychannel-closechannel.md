@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
 ms.topic: method
-f1_keywords: ["prnasnot/IPrintAsyncNotifyChannel.CloseChannel"]
+f1_keywords: 
+ - "prnasnot/IPrintAsyncNotifyChannel.CloseChannel"
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

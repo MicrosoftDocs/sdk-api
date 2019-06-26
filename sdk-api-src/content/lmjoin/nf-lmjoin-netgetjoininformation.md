@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
 ms.topic: function
-f1_keywords: ["lmjoin/NetGetJoinInformation"]
+f1_keywords: 
+ - "lmjoin/NetGetJoinInformation"
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

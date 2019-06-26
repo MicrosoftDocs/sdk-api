@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom interface [Windows Media Player],described, IWMPCdromInterface, wmp.iwmpcdrom, wmp/IWMPCdrom
 ms.topic: interface
-f1_keywords: ["wmp/IWMPCdrom"]
+f1_keywords: 
+ - "wmp/IWMPCdrom"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

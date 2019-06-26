@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor
 ms.topic: function
-f1_keywords: ["winbase/AddIntegrityLabelToBoundaryDescriptor"]
+f1_keywords: 
+ - "winbase/AddIntegrityLabelToBoundaryDescriptor"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [File Server Resource Manager], DisplayName property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, IFsrmPropertyDefinition2 interface [File Server Resource Manager],DisplayName property, IFsrmPropertyDefinition2.DisplayName, IFsrmPropertyDefinition2.get_DisplayName, IFsrmPropertyDefinition2::DisplayName, IFsrmPropertyDefinition2::get_DisplayName, IFsrmPropertyDefinition2::put_DisplayName, fs.ifsrmpropertydefinition2_displayname, fsrm.ifsrmpropertydefinition2_displayname, fsrmpipeline/IFsrmPropertyDefinition2::DisplayName, fsrmpipeline/IFsrmPropertyDefinition2::get_DisplayName, fsrmpipeline/IFsrmPropertyDefinition2::put_DisplayName, get_DisplayName
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinition2.DisplayName"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyDefinition2.DisplayName"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

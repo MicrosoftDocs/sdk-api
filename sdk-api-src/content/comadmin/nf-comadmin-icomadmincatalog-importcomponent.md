@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ImportComponent method, ICOMAdminCatalog.ImportComponent, ICOMAdminCatalog::ImportComponent, ImportComponent, ImportComponent method [COM+], ImportComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ImportComponent, comadmin/ICOMAdminCatalog::ImportComponent, cos.icomadmincatalog_importcomponent
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.ImportComponent"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.ImportComponent"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

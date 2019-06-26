@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptVerifySignature"]
+f1_keywords: 
+ - "bcrypt/BCryptVerifySignature"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

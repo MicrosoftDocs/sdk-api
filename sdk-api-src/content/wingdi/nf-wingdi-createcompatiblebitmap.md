@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleBitmap, CreateCompatibleBitmap function [Windows GDI], _win32_CreateCompatibleBitmap, gdi.createcompatiblebitmap, wingdi/CreateCompatibleBitmap
 ms.topic: function
-f1_keywords: ["wingdi/CreateCompatibleBitmap"]
+f1_keywords: 
+ - "wingdi/CreateCompatibleBitmap"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

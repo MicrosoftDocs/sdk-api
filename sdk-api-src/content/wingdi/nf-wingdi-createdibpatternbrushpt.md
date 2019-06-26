@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrushPt, gdi.createdibpatternbrushpt, wingdi/CreateDIBPatternBrushPt
 ms.topic: function
-f1_keywords: ["wingdi/CreateDIBPatternBrushPt"]
+f1_keywords: 
+ - "wingdi/CreateDIBPatternBrushPt"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

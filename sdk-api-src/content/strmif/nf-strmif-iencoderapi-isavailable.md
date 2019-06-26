@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsAvailable method, IEncoderAPI.IsAvailable, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
 ms.topic: method
-f1_keywords: ["strmif/IEncoderAPI.IsAvailable"]
+f1_keywords: 
+ - "strmif/IEncoderAPI.IsAvailable"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

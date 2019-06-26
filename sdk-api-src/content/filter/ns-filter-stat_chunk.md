@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
 ms.topic: struct
-f1_keywords: ["filter/STAT_CHUNK"]
+f1_keywords: 
+ - "filter/STAT_CHUNK"
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

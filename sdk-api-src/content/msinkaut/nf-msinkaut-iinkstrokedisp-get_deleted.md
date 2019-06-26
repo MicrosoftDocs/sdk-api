@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Deleted property, IInkStrokeDisp.Deleted, IInkStrokeDisp.get_Deleted, IInkStrokeDisp::Deleted, IInkStrokeDisp::get_Deleted, d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50, get_Deleted, msinkaut/IInkStrokeDisp::Deleted, msinkaut/IInkStrokeDisp::get_Deleted, tablet.iinkstrokedisp_deleted
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.Deleted"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.Deleted"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

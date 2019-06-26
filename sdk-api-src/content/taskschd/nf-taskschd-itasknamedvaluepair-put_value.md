@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValuePair interface [Task Scheduler],Value property, ITaskNamedValuePair.Value, ITaskNamedValuePair.put_Value, ITaskNamedValuePair::Value, ITaskNamedValuePair::get_Value, ITaskNamedValuePair::put_Value, Value property [Task Scheduler], Value property [Task Scheduler],ITaskNamedValuePair interface, put_Value, taskschd.itasknamedvaluepair_value, taskschd/ITaskNamedValuePair::Value, taskschd/ITaskNamedValuePair::get_Value, taskschd/ITaskNamedValuePair::put_Value
 ms.topic: method
-f1_keywords: ["taskschd/ITaskNamedValuePair.Value"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValuePair.Value"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

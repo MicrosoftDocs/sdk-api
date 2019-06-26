@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OffsetClipRgn, OffsetClipRgn function [Windows GDI], _win32_OffsetClipRgn, gdi.offsetcliprgn, wingdi/OffsetClipRgn
 ms.topic: function
-f1_keywords: ["wingdi/OffsetClipRgn"]
+f1_keywords: 
+ - "wingdi/OffsetClipRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

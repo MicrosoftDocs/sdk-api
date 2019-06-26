@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [COM], Draw method [COM],IViewObject interface, IViewObject interface [COM],Draw method, IViewObject.Draw, IViewObject::Draw, _ole_iviewobject_draw, com.iviewobject_draw, oleidl/IViewObject::Draw
 ms.topic: method
-f1_keywords: ["oleidl/IViewObject.Draw"]
+f1_keywords: 
+ - "oleidl/IViewObject.Draw"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

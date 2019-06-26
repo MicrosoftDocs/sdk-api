@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method, GetConfigurationDetails, GetConfigurationDetails method [Windows API], GetConfigurationDetails method [Windows API],FhReassociation class, GetConfigurationDetails method [Windows API],IFhReassociation interface, IFhReassociation interface [Windows API],GetConfigurationDetails method, IFhReassociation.GetConfigurationDetails, IFhReassociation::GetConfigurationDetails, fhcfg/IFhReassociation::GetConfigurationDetails, winprog.ifhreassociation_getconfigurationdetails
 ms.topic: method
-f1_keywords: ["fhcfg/IFhReassociation.GetConfigurationDetails"]
+f1_keywords: 
+ - "fhcfg/IFhReassociation.GetConfigurationDetails"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

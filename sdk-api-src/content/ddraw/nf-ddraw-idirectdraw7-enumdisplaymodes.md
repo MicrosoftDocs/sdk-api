@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDEDM_REFRESHRATES, DDEDM_STANDARDVGAMODES, EnumDisplayModes, EnumDisplayModes method [DirectDraw], EnumDisplayModes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EnumDisplayModes method, IDirectDraw7.EnumDisplayModes, IDirectDraw7::EnumDisplayModes, ddraw/IDirectDraw7::EnumDisplayModes, directdraw.idirectdraw7_enumdisplaymodes
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.EnumDisplayModes"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.EnumDisplayModes"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

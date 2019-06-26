@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2TransformNormalStream, XMVector2TransformNormalStream, XMVector2TransformNormalStream method [DirectX Math Support APIs], dxmath.xmvector2transformnormalstream
 ms.topic: function
-f1_keywords: ["directxmath/XMVector2TransformNormalStream"]
+f1_keywords: 
+ - "directxmath/XMVector2TransformNormalStream"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

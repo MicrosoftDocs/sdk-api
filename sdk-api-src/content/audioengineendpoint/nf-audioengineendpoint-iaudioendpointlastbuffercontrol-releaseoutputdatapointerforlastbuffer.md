@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

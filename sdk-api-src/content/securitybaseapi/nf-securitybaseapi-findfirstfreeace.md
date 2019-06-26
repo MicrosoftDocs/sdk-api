@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstFreeAce, FindFirstFreeAce function [Security], _win32_findfirstfreeace, security.findfirstfreeace, securitybaseapi/FindFirstFreeAce
 ms.topic: function
-f1_keywords: ["securitybaseapi/FindFirstFreeAce"]
+f1_keywords: 
+ - "securitybaseapi/FindFirstFreeAce"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

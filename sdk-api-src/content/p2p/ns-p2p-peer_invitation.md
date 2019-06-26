@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_INVITATION, PEER_INVITATION, PEER_INVITATION structure [Peer Networking], PPEER_INVITATION, PPEER_INVITATION structure pointer [Peer Networking], p2p.peer_invitation, p2p/PEER_INVITATION, p2p/PPEER_INVITATION"
 ms.topic: struct
-f1_keywords: ["p2p/PEER_INVITATION"]
+f1_keywords: 
+ - "p2p/PEER_INVITATION"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

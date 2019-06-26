@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStateProvince, GetStateProvince method [WinLocation], GetStateProvince method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetStateProvince method, ICivicAddressReport.GetStateProvince, ICivicAddressReport::GetStateProvince, WinLocation_COM_Ref.icivicaddressreport_getstateprovince, locationapi/ICivicAddressReport::GetStateProvince
 ms.topic: method
-f1_keywords: ["locationapi/ICivicAddressReport.GetStateProvince"]
+f1_keywords: 
+ - "locationapi/ICivicAddressReport.GetStateProvince"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

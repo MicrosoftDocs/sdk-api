@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstant method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant method, SetGraphicsRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstant
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

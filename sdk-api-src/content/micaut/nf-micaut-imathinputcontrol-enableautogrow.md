@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableAutoGrow, EnableAutoGrow method [Tablet PC], EnableAutoGrow method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableAutoGrow method, IMathInputControl.EnableAutoGrow, IMathInputControl::EnableAutoGrow, micaut/IMathInputControl::EnableAutoGrow, tablet.imathinputcontrol_enableautogrow
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.EnableAutoGrow"]
+f1_keywords: 
+ - "micaut/IMathInputControl.EnableAutoGrow"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IDefaultExtractIconInit"]
+f1_keywords: 
+ - "shobjidl_core/IDefaultExtractIconInit"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

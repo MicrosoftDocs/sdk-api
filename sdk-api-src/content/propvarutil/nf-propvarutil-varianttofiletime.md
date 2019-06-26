@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, VariantToFileTime, VariantToFileTime function [Windows Properties], _shell_VariantToFileTime, properties.VariantToFileTime, propvarutil/VariantToFileTime, shell.VariantToFileTime
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToFileTime"]
+f1_keywords: 
+ - "propvarutil/VariantToFileTime"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

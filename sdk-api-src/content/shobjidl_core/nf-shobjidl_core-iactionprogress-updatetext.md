@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateText method, IActionProgress.UpdateText, IActionProgress::UpdateText, UpdateText, UpdateText method [Windows Shell], UpdateText method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateText, shell_IActionProgress_UpdateText, shobjidl_core/IActionProgress::UpdateText
 ms.topic: method
-f1_keywords: ["shobjidl_core/IActionProgress.UpdateText"]
+f1_keywords: 
+ - "shobjidl_core/IActionProgress.UpdateText"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

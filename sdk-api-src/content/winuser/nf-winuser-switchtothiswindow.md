@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwitchToThisWindow, SwitchToThisWindow function [Windows and Messages], _win32_SwitchToThisWindow, _win32_switchtothiswindow_cpp, winmsg.switchtothiswindow, winui._win32_switchtothiswindow, winuser/SwitchToThisWindow
 ms.topic: function
-f1_keywords: ["winuser/SwitchToThisWindow"]
+f1_keywords: 
+ - "winuser/SwitchToThisWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

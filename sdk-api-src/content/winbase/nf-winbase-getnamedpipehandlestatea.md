@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
 ms.topic: function
-f1_keywords: ["winbase/GetNamedPipeHandleState"]
+f1_keywords: 
+ - "winbase/GetNamedPipeHandleState"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

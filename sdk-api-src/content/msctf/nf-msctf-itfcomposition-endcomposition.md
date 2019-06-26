@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndComposition, EndComposition method [Text Services Framework], EndComposition method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],EndComposition method, ITfComposition.EndComposition, ITfComposition::EndComposition, _tsf_itfcomposition_endcomposition_ref, msctf/ITfComposition::EndComposition, tsf.itfcomposition_endcomposition
 ms.topic: method
-f1_keywords: ["msctf/ITfComposition.EndComposition"]
+f1_keywords: 
+ - "msctf/ITfComposition.EndComposition"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

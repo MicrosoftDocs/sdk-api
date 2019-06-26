@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, qos.lpm_init_info
 ms.topic: struct
-f1_keywords: ["lpmapi/LPM_INIT_INFO"]
+f1_keywords: 
+ - "lpmapi/LPM_INIT_INFO"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

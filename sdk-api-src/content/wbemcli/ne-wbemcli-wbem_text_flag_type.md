@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_NO_FLAVORS, WBEM_TEXT_FLAG_TYPE, WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_NO_FLAVORS, wbemcli/WBEM_TEXT_FLAG_TYPE, wmi.wbem_text_flag_type
 ms.topic: enum
-f1_keywords: ["wbemcli/WBEM_TEXT_FLAG_TYPE"]
+f1_keywords: 
+ - "wbemcli/WBEM_TEXT_FLAG_TYPE"
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

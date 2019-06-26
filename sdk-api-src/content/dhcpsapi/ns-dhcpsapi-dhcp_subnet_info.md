@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO, DHCP_SUBNET_INFO, DHCP_SUBNET_INFO structure [DHCP], LPDHCP_SUBNET_INFO, LPDHCP_SUBNET_INFO structure pointer [DHCP], dhcp.dhcp_subnet_info, dhcpsapi/LPDHCP_SUBNET_INFO, dhcpsapi/_DHCP_SUBNET_INFO"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_SUBNET_INFO"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_SUBNET_INFO"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.topic: function
-f1_keywords: ["ras/RasGetErrorString"]
+f1_keywords: 
+ - "ras/RasGetErrorString"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

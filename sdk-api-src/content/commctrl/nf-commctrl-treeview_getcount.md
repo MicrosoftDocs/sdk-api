@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetCount"]
+f1_keywords: 
+ - "commctrl/TreeView_GetCount"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

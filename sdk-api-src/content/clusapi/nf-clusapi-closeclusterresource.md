@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseClusterResource, CloseClusterResource function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_RESOURCE, PCLUSAPI_CLOSE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_closeclusterresource, clusapi/CloseClusterResource, clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE, mscs.closeclusterresource
 ms.topic: function
-f1_keywords: ["clusapi/CloseClusterResource"]
+f1_keywords: 
+ - "clusapi/CloseClusterResource"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

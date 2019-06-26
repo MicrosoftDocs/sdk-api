@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush, d2d1/CreateRadialGradientBrush, direct2d.id2d1rendertarget_createradialgradientbrush
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget::CreateRadialGradientBrush"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget::CreateRadialGradientBrush"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

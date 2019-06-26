@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptCreateClaim"]
+f1_keywords: 
+ - "ncrypt/NCryptCreateClaim"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

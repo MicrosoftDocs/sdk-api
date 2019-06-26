@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],GetGPO method, GetGPO, GetGPO method [GPMC], GetGPO method [GPMC],GPMDomain object, GetGPO method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetGPO method, IGPMDomain.GetGPO, IGPMDomain::GetGPO, _win32_igpmdomain_getgpo, gpmc.igpmdomain_getgpo, gpmgmt/IGPMDomain::GetGPO
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain.GetGPO"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain.GetGPO"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetProperty method, ITargetInfo.SetProperty, ITargetInfo::SetProperty, SetProperty, SetProperty method [SMI], SetProperty method [SMI],ITargetInfo interface, smi.itargetinfo_setproperty, wcmconfig/ITargetInfo::SetProperty
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetProperty"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetProperty"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

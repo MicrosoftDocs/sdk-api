@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], IWMHeaderInfo3 interface [windows Media Format],described, IWMHeaderInfo3Interface, wmformat.iwmheaderinfo3, wmsdkidl/IWMHeaderInfo3
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMHeaderInfo3"]
+f1_keywords: 
+ - "wmsdkidl/IWMHeaderInfo3"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

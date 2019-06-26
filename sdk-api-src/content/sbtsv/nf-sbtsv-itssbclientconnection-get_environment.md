@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Environment property [Remote Desktop Services], Environment property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Environment property, ITsSbClientConnection.Environment, ITsSbClientConnection.get_Environment, ITsSbClientConnection::Environment, ITsSbClientConnection::get_Environment, get_Environment, sbtsv/ITsSbClientConnection::Environment, sbtsv/ITsSbClientConnection::get_Environment, termserv.itssbclientconnection_environment
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbClientConnection.Environment"]
+f1_keywords: 
+ - "sbtsv/ITsSbClientConnection.Environment"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

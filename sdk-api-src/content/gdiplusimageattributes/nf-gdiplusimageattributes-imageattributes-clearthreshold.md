@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearThreshold, ClearThreshold method [GDI+], ClearThreshold method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearThreshold method, ImageAttributes.ClearThreshold, ImageAttributes::ClearThreshold, _gdiplus_CLASS_ImageAttributes_ClearThreshold_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearThreshold_type_
 ms.topic: method
-f1_keywords: ["gdiplusimageattributes/ImageAttributes.ClearThreshold"]
+f1_keywords: 
+ - "gdiplusimageattributes/ImageAttributes.ClearThreshold"
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_MatchSubstring, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_MatchSubstring, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
 ms.topic: enum
-f1_keywords: ["uiautomationclient/PropertyConditionFlags"]
+f1_keywords: 
+ - "uiautomationclient/PropertyConditionFlags"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows

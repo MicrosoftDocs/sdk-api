@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
 ms.topic: function
-f1_keywords: ["recapis/CreateRecognizer"]
+f1_keywords: 
+ - "recapis/CreateRecognizer"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

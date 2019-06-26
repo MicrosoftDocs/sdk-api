@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GeneratorParametersType, GeneratorParametersType enumeration [Remote Differential Compression], RDCGENTYPE_FilterMax, RDCGENTYPE_Unused, fs.generatorparameterstype, msrdc/GeneratorParametersType, msrdc/RDCGENTYPE_FilterMax, msrdc/RDCGENTYPE_Unused, rdc.generatorparameterstype
 ms.topic: enum
-f1_keywords: ["msrdc/GeneratorParametersType"]
+f1_keywords: 
+ - "msrdc/GeneratorParametersType"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

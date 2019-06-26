@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
 ms.topic: method
-f1_keywords: ["oleidl/IDropSource.GiveFeedback"]
+f1_keywords: 
+ - "oleidl/IDropSource.GiveFeedback"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW
 ms.topic: function
-f1_keywords: ["winbase/FindFirstFileNameTransactedW"]
+f1_keywords: 
+ - "winbase/FindFirstFileNameTransactedW"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

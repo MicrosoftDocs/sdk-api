@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Owner method, IVideoWindow.put_Owner, IVideoWindow::put_Owner, IVideoWindowput_Owner, control/IVideoWindow::put_Owner, dshow.ivideowindow_put_owner, put_Owner, put_Owner method [DirectShow], put_Owner method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.put_Owner"]
+f1_keywords: 
+ - "control/IVideoWindow.put_Owner"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

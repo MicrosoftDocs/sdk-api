@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_HitTest, TreeView_HitTest macro [Windows Controls], _win32_TreeView_HitTest, _win32_TreeView_HitTest_cpp, commctrl/TreeView_HitTest, controls.TreeView_HitTest, controls._win32_TreeView_HitTest
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_HitTest"]
+f1_keywords: 
+ - "commctrl/TreeView_HitTest"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

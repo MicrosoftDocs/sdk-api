@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery interface [windows Media Device Manager],MakeDecision method, ISCPSecureQuery.MakeDecision, ISCPSecureQuery::MakeDecision, ISCPSecureQueryMakeDecision, MakeDecision, MakeDecision method [windows Media Device Manager], MakeDecision method [windows Media Device Manager],ISCPSecureQuery interface, mswmdm/ISCPSecureQuery::MakeDecision, wmdm.iscpsecurequery_makedecision
 ms.topic: method
-f1_keywords: ["mswmdm/ISCPSecureQuery.MakeDecision"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureQuery.MakeDecision"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

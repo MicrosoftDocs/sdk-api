@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_START_DIRECTORY_ENUMERATION_CB, PRJ_START_DIRECTORY_ENUMERATION_CB callback, PRJ_START_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_start_directory_enumeration_cb, projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB
 ms.topic: callback
-f1_keywords: ["projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB"]
+f1_keywords: 
+ - "projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

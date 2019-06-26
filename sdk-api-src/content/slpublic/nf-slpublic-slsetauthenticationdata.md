@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
 ms.topic: function
-f1_keywords: ["slpublic/SLSetAuthenticationData"]
+f1_keywords: 
+ - "slpublic/SLSetAuthenticationData"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

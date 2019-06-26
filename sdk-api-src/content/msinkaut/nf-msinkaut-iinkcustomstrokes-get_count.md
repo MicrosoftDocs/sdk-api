@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Count property, IInkCustomStrokes.Count, IInkCustomStrokes.get_Count, IInkCustomStrokes::Count, IInkCustomStrokes::get_Count, get_Count, msinkaut/IInkCustomStrokes::Count, msinkaut/IInkCustomStrokes::get_Count, tablet.iinkcustomstrokes_count
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCustomStrokes.Count"]
+f1_keywords: 
+ - "msinkaut/IInkCustomStrokes.Count"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

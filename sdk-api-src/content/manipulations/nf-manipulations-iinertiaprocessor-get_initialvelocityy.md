@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityY property, IInertiaProcessor.InitialVelocityY, IInertiaProcessor.get_InitialVelocityY, IInertiaProcessor::InitialVelocityY, IInertiaProcessor::get_InitialVelocityY, IInertiaProcessor::put_InitialVelocityY, InitialVelocityY property [Windows Touch], InitialVelocityY property [Windows Touch],IInertiaProcessor interface, get_InitialVelocityY, manipulations/IInertiaProcessor::InitialVelocityY, manipulations/IInertiaProcessor::get_InitialVelocityY, manipulations/IInertiaProcessor::put_InitialVelocityY, wintouch.iinertiaprocessor_initialvelocityy
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.InitialVelocityY"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.InitialVelocityY"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

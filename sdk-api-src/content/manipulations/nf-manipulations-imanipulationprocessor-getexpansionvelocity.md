@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.GetExpansionVelocity"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.GetExpansionVelocity"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

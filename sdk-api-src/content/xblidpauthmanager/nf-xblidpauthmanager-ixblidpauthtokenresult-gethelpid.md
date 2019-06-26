@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHelpId, GetHelpId method, GetHelpId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetHelpId method, IXblIdpAuthTokenResult.GetHelpId, IXblIdpAuthTokenResult::GetHelpId, xblidp.ixblidpauthtokenresult_gethelpid, xblidpauthmanager/IXblIdpAuthTokenResult::GetHelpId
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetHelpId"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetHelpId"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

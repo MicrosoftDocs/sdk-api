@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
 ms.topic: function
-f1_keywords: ["compressapi/ResetCompressor"]
+f1_keywords: 
+ - "compressapi/ResetCompressor"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

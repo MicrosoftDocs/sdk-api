@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_NetworkProvider.PutTuningSpace, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_NetworkProvider.PutTuningSpace"]
+f1_keywords: 
+ - "bdaiface/IBDA_NetworkProvider.PutTuningSpace"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

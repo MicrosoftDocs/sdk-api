@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.GetServiceState"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.GetServiceState"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVDTextStringType, DVDTextStringType enumeration [Microsoft TV Technologies], dvdChannel_Audio, dvdGeneral_Comments, dvdGeneral_Name, dvdOther_Cut, dvdOther_Scene, dvdOther_Take, dvdStream_Angle, dvdStream_Audio, dvdStream_Subpicture, dvdStruct_Cell, dvdStruct_ParentalID, dvdStruct_PartOfTitle, dvdStruct_Title, dvdStruct_Volume, dvdTitle_Album, dvdTitle_Movie, dvdTitle_Orig_Album, dvdTitle_Orig_Movie, dvdTitle_Orig_Other, dvdTitle_Orig_Series, dvdTitle_Orig_Song, dvdTitle_Orig_Video, dvdTitle_Other, dvdTitle_Series, dvdTitle_Song, dvdTitle_Sub_Album, dvdTitle_Sub_Movie, dvdTitle_Sub_Other, dvdTitle_Sub_Series, dvdTitle_Sub_Song, dvdTitle_Sub_Video, dvdTitle_Video, mstv.dvdtextstringtype, segment/DVDTextStringType, segment/dvdChannel_Audio, segment/dvdGeneral_Comments, segment/dvdGeneral_Name, segment/dvdOther_Cut, segment/dvdOther_Scene, segment/dvdOther_Take, segment/dvdStream_Angle, segment/dvdStream_Audio, segment/dvdStream_Subpicture, segment/dvdStruct_Cell, segment/dvdStruct_ParentalID, segment/dvdStruct_PartOfTitle, segment/dvdStruct_Title, segment/dvdStruct_Volume, segment/dvdTitle_Album, segment/dvdTitle_Movie, segment/dvdTitle_Orig_Album, segment/dvdTitle_Orig_Movie, segment/dvdTitle_Orig_Other, segment/dvdTitle_Orig_Series, segment/dvdTitle_Orig_Song, segment/dvdTitle_Orig_Video, segment/dvdTitle_Other, segment/dvdTitle_Series, segment/dvdTitle_Song, segment/dvdTitle_Sub_Album, segment/dvdTitle_Sub_Movie, segment/dvdTitle_Sub_Other, segment/dvdTitle_Sub_Series, segment/dvdTitle_Sub_Song, segment/dvdTitle_Sub_Video, segment/dvdTitle_Video
 ms.topic: enum
-f1_keywords: ["segment/DVDTextStringType"]
+f1_keywords: 
+ - "segment/DVDTextStringType"
 req.header: segment.h
 req.include-header: DShow.h
 req.target-type: Windows

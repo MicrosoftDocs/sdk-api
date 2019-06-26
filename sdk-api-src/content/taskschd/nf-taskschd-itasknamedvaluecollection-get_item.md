@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Item property, ITaskNamedValueCollection.Item, ITaskNamedValueCollection.get_Item, ITaskNamedValueCollection::Item, ITaskNamedValueCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskNamedValueCollection interface, get_Item, taskschd.itasknamedvaluecollection_item, taskschd/ITaskNamedValueCollection::Item, taskschd/ITaskNamedValueCollection::get_Item
 ms.topic: method
-f1_keywords: ["taskschd/ITaskNamedValueCollection.Item"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValueCollection.Item"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

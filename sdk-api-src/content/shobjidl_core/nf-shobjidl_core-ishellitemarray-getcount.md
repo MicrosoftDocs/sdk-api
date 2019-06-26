@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetCount method, IShellItemArray.GetCount, IShellItemArray::GetCount, _shell_IShellItemArray_GetCount, shell.IShellItemArray_GetCount, shobjidl_core/IShellItemArray::GetCount
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemArray.GetCount"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemArray.GetCount"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

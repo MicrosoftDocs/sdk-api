@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Image property, ICategory.Image, ICategory.get_Image, ICategory::Image, ICategory::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],ICategory interface, get_Image, wua.icategory_image, wuapi/ICategory::Image, wuapi/ICategory::get_Image
 ms.topic: method
-f1_keywords: ["wuapi/ICategory.Image"]
+f1_keywords: 
+ - "wuapi/ICategory.Image"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

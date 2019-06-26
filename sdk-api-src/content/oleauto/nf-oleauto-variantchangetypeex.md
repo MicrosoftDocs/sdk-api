@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeTypeEx, VariantChangeTypeEx function [Automation], _oa96_VariantChangeTypeEx, automat.variantchangetypeex, oleauto/VariantChangeTypeEx
 ms.topic: function
-f1_keywords: ["oleauto/VariantChangeTypeEx"]
+f1_keywords: 
+ - "oleauto/VariantChangeTypeEx"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

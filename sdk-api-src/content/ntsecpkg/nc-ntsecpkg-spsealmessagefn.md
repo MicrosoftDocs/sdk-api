@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpSealMessage, SpSealMessageFn, SpSealMessageFn callback, SpSealMessageFn callback function [Security], TBD, _ssp_spsealmessage, ntsecpkg/SpSealMessageFn, security.spsealmessage
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpSealMessageFn"]
+f1_keywords: 
+ - "ntsecpkg/SpSealMessageFn"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

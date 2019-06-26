@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocDescriptor, SafeArrayAllocDescriptor function [Automation], _oa96_SafeArrayAllocDescriptor, automat.safearrayallocdescriptor, oleauto/SafeArrayAllocDescriptor
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayAllocDescriptor"]
+f1_keywords: 
+ - "oleauto/SafeArrayAllocDescriptor"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

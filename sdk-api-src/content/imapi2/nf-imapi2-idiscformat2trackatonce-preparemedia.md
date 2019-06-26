@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],PrepareMedia method, IDiscFormat2TrackAtOnce.PrepareMedia, IDiscFormat2TrackAtOnce::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_preparemedia, imapi2/IDiscFormat2TrackAtOnce::PrepareMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.PrepareMedia"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.PrepareMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

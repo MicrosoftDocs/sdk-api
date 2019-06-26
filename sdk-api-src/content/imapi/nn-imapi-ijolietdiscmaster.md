@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
 ms.topic: interface
-f1_keywords: ["imapi/IJolietDiscMaster"]
+f1_keywords: 
+ - "imapi/IJolietDiscMaster"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

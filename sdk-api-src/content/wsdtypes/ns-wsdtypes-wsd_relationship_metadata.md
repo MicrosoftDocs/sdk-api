@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
 ms.topic: struct
-f1_keywords: ["wsdtypes/WSD_RELATIONSHIP_METADATA"]
+f1_keywords: 
+ - "wsdtypes/WSD_RELATIONSHIP_METADATA"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

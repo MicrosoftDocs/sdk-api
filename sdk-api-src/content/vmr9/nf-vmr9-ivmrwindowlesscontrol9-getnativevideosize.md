@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl9.GetNativeVideoSize, IVMRWindowlessControl9::GetNativeVideoSize, IVMRWindowlessControl9GetNativeVideoSize, dshow.ivmrwindowlesscontrol9_getnativevideosize, vmr9/IVMRWindowlessControl9::GetNativeVideoSize
 ms.topic: method
-f1_keywords: ["vmr9/IVMRWindowlessControl9.GetNativeVideoSize"]
+f1_keywords: 
+ - "vmr9/IVMRWindowlessControl9.GetNativeVideoSize"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

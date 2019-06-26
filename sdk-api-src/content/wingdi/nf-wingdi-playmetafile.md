@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaFile, gdi.playmetafile, wingdi/PlayMetaFile
 ms.topic: function
-f1_keywords: ["wingdi/PlayMetaFile"]
+f1_keywords: 
+ - "wingdi/PlayMetaFile"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

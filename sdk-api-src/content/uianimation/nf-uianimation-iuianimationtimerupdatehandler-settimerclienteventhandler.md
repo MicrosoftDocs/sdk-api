@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],SetTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler, IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler, SetTimerClientEventHandler, SetTimerClientEventHandler method [Windows Animation], SetTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_settimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

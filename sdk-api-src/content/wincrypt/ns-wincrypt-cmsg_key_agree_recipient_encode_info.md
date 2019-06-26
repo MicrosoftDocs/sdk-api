@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"]
+f1_keywords: 
+ - "wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

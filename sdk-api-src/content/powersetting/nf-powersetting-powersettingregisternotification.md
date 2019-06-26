@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
 ms.topic: function
-f1_keywords: ["powersetting/PowerSettingRegisterNotification"]
+f1_keywords: 
+ - "powersetting/PowerSettingRegisterNotification"
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

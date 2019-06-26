@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, put_AllowOutboundDestinationUnreachable
 ms.topic: method
-f1_keywords: ["netfw/INetFwIcmpSettings.AllowOutboundDestinationUnreachable"]
+f1_keywords: 
+ - "netfw/INetFwIcmpSettings.AllowOutboundDestinationUnreachable"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

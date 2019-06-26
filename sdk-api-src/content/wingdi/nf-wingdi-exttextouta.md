@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
 ms.topic: function
-f1_keywords: ["wingdi/ExtTextOut"]
+f1_keywords: 
+ - "wingdi/ExtTextOut"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

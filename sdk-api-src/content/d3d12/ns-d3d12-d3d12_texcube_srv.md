@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXCUBE_SRV, D3D12_TEXCUBE_SRV structure, d3d12/D3D12_TEXCUBE_SRV, direct3d12.d3d12_texcube_srv
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_TEXCUBE_SRV"]
+f1_keywords: 
+ - "d3d12/D3D12_TEXCUBE_SRV"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

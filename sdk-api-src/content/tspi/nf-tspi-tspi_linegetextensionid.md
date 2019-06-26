@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetExtensionID, TSPI_lineGetExtensionID function [TAPI 2.2], _tspi_tspi_linegetextensionid, tspi.tspi_linegetextensionid, tspi/TSPI_lineGetExtensionID
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineGetExtensionID"]
+f1_keywords: 
+ - "tspi/TSPI_lineGetExtensionID"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

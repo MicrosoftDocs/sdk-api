@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncFullEnumerationChange.GetLearnedForgottenKnowledge, ISyncFullEnumerationChange::GetLearnedForgottenKnowledge, winsync.isyncfullenumerationchange_getlearnedforgottenknowledge, winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
 ms.topic: method
-f1_keywords: ["winsync/ISyncFullEnumerationChange.GetLearnedForgottenKnowledge"]
+f1_keywords: 
+ - "winsync/ISyncFullEnumerationChange.GetLearnedForgottenKnowledge"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStatus method, IRtwqAsyncResult.GetStatus, IRtwqAsyncResult::GetStatus, base.irtwqasyncresult_getstatus, rtworkq/IRtwqAsyncResult::GetStatus
 ms.topic: method
-f1_keywords: ["rtworkq/IRtwqAsyncResult.GetStatus"]
+f1_keywords: 
+ - "rtworkq/IRtwqAsyncResult.GetStatus"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

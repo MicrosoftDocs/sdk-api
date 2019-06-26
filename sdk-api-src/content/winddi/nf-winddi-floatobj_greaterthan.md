@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_GreaterThan, FLOATOBJ_GreaterThan function [Display Devices], display.floatobj_greaterthan, gdifncs_ac52408a-8df9-4fe2-bf33-35bdfb9fa5d8.xml, winddi/FLOATOBJ_GreaterThan
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_GreaterThan"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_GreaterThan"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
 ms.topic: function
-f1_keywords: ["dbghelp/SearchTreeForFile"]
+f1_keywords: 
+ - "dbghelp/SearchTreeForFile"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

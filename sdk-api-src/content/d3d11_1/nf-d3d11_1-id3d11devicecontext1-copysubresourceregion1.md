@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopySubresourceRegion1, CopySubresourceRegion1 method [Direct3D 11], CopySubresourceRegion1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],CopySubresourceRegion1 method, ID3D11DeviceContext1.CopySubresourceRegion1, ID3D11DeviceContext1::CopySubresourceRegion1, d3d11_1/ID3D11DeviceContext1::CopySubresourceRegion1, direct3d11.id3d11devicecontext1_copysubresourceregion1
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11DeviceContext1.CopySubresourceRegion1"]
+f1_keywords: 
+ - "d3d11_1/ID3D11DeviceContext1.CopySubresourceRegion1"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], IPropertyStoreCache interface [Windows Properties],described, properties.IPropertyStoreCache, propsys/IPropertyStoreCache, shell.IPropertyStoreCache, shell_IPropertyStoreCache
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyStoreCache"]
+f1_keywords: 
+ - "propsys/IPropertyStoreCache"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

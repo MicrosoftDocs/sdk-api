@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass
 ms.topic: function
-f1_keywords: ["mfapi/MFGetWorkQueueMMCSSClass"]
+f1_keywords: 
+ - "mfapi/MFGetWorkQueueMMCSSClass"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

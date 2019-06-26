@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
 ms.topic: method
-f1_keywords: ["comsvcs/ITransactionProxy.GetIsolationLevel"]
+f1_keywords: 
+ - "comsvcs/ITransactionProxy.GetIsolationLevel"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

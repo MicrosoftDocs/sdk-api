@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSessionWithPIN, CreateSessionWithPIN method [TAPI 2.2], CreateSessionWithPIN method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSessionWithPIN method, ITAgent.CreateSessionWithPIN, ITAgent::CreateSessionWithPIN, _tapi3_itagent_createsessionwithpin, tapi3.itagent_createsessionwithpin, tapi3cc/ITAgent::CreateSessionWithPIN
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.CreateSessionWithPIN"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.CreateSessionWithPIN"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

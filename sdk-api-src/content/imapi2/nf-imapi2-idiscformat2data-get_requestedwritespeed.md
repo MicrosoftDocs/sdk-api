@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2Data.get_RequestedWriteSpeed, IDiscFormat2Data::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_requestedwritespeed, imapi2/IDiscFormat2Data::get_RequestedWriteSpeed
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Data.get_RequestedWriteSpeed"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Data.get_RequestedWriteSpeed"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

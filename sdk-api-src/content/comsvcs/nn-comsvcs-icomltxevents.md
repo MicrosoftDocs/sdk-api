@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], IComLTxEvents interface [COM+],described, comsvcs/IComLTxEvents, cos.icomltxevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IComLTxEvents"]
+f1_keywords: 
+ - "comsvcs/IComLTxEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

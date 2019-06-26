@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], ItsPubPlugin2 interface [Remote Desktop Services],described, termserv.itspubplugin2, tspubplugin2com/ItsPubPlugin2
 ms.topic: interface
-f1_keywords: ["tspubplugin2com/ItsPubPlugin2"]
+f1_keywords: 
+ - "tspubplugin2com/ItsPubPlugin2"
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Italic method, IFont.get_Italic, IFont::get_Italic, _ctrl_ifont_get_italic, com.ifont_get_italic, get_Italic, get_Italic method [COM], get_Italic method [COM],IFont interface, ocidl/IFont::get_Italic
 ms.topic: method
-f1_keywords: ["ocidl/IFont.get_Italic"]
+f1_keywords: 
+ - "ocidl/IFont.get_Italic"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

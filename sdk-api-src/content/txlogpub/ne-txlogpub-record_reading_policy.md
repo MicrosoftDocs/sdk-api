@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RECORD_READING_POLICY, RECORD_READING_POLICY enumeration [COM], RECORD_READING_POLICY_BACKWARD, RECORD_READING_POLICY_FORWARD, RECORD_READING_POLICY_RANDOM, _com_RECORD_READING_POLICY, com.record_reading_policy, txlogpub/RECORD_READING_POLICY, txlogpub/RECORD_READING_POLICY_BACKWARD, txlogpub/RECORD_READING_POLICY_FORWARD, txlogpub/RECORD_READING_POLICY_RANDOM
 ms.topic: enum
-f1_keywords: ["txlogpub/RECORD_READING_POLICY"]
+f1_keywords: 
+ - "txlogpub/RECORD_READING_POLICY"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

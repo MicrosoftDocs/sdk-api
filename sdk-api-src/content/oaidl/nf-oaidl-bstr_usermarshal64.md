@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserMarshal64, BSTR_UserMarshal64 function [Automation], automat.bstr_usermarshal64, oaidl/BSTR_UserMarshal64
 ms.topic: function
-f1_keywords: ["oaidl/BSTR_UserMarshal64"]
+f1_keywords: 
+ - "oaidl/BSTR_UserMarshal64"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

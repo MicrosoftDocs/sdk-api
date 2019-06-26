@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_UPDATE_PRIMARY_CREDENTIALS, LSA_UPDATE_PRIMARY_CREDENTIALS callback, UpdateCredentials, UpdateCredentials callback function [Security], _ssp_updatecredentials, ntsecpkg/UpdateCredentials, security.updatecredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/UpdateCredentials"]
+f1_keywords: 
+ - "ntsecpkg/UpdateCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

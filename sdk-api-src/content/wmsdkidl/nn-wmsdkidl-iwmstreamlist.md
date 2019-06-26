@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMStreamList"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamList"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

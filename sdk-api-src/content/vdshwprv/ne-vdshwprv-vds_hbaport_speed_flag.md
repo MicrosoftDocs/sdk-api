@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_HBAPORT_SPEED_FLAG, VDS_HBAPORT_SPEED_FLAG enumeration [VDS], VDS_HSF_10GBIT, VDS_HSF_1GBIT, VDS_HSF_2GBIT, VDS_HSF_4GBIT, VDS_HSF_NOT_NEGOTIATED, VDS_HSF_UNKNOWN, base.vds_hbaport_speed_flag, vds/VDS_HBAPORT_SPEED_FLAG, vds/VDS_HSF_10GBIT, vds/VDS_HSF_1GBIT, vds/VDS_HSF_2GBIT, vds/VDS_HSF_4GBIT, vds/VDS_HSF_NOT_NEGOTIATED, vds/VDS_HSF_UNKNOWN, vdshwprv/VDS_HBAPORT_SPEED_FLAG, vdshwprv/VDS_HSF_10GBIT, vdshwprv/VDS_HSF_1GBIT, vdshwprv/VDS_HSF_2GBIT, vdshwprv/VDS_HSF_4GBIT, vdshwprv/VDS_HSF_NOT_NEGOTIATED, vdshwprv/VDS_HSF_UNKNOWN
 ms.topic: enum
-f1_keywords: ["vdshwprv/VDS_HBAPORT_SPEED_FLAG"]
+f1_keywords: 
+ - "vdshwprv/VDS_HBAPORT_SPEED_FLAG"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

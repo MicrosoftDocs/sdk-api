@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor.get_InitialOriginY, IInertiaProcessor::InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch],IInertiaProcessor interface, get_InitialOriginY, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.InitialOriginY"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.InitialOriginY"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

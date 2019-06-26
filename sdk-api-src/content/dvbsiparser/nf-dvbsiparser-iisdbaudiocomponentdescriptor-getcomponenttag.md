@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IIsdbAudioComponentDescriptor.GetComponentTag, IIsdbAudioComponentDescriptor::GetComponentTag, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentTag, mstv.iisdbaudiocomponentdescriptor_getcomponenttag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentTag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

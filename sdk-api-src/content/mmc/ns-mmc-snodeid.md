@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/SNodeID
 ms.topic: struct
-f1_keywords: ["mmc/SNodeID"]
+f1_keywords: 
+ - "mmc/SNodeID"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

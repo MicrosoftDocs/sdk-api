@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarFormatPercent, VarFormatPercent function [Automation], _oa96_VarFormatPercent, automat.varformatpercent, oleauto/VarFormatPercent
 ms.topic: function
-f1_keywords: ["oleauto/VarFormatPercent"]
+f1_keywords: 
+ - "oleauto/VarFormatPercent"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

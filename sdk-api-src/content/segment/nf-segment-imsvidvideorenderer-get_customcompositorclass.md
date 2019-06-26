@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_CustomCompositorClass method, IMSVidVideoRenderer.get_CustomCompositorClass, IMSVidVideoRenderer::get_CustomCompositorClass, IMSVidVideoRendererget_CustomCompositorClass, get_CustomCompositorClass, get_CustomCompositorClass method [Microsoft TV Technologies], get_CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_customcompositorclass, segment/IMSVidVideoRenderer::get_CustomCompositorClass
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.get_CustomCompositorClass"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.get_CustomCompositorClass"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

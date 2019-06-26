@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetManagerEventHandler method, IUIAnimationManager2.SetManagerEventHandler, IUIAnimationManager2::SetManagerEventHandler, SetManagerEventHandler, SetManagerEventHandler method [Windows Animation], SetManagerEventHandler method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setmanagereventhandler, uianimation/IUIAnimationManager2::SetManagerEventHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager2.SetManagerEventHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2.SetManagerEventHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

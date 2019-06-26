@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback, IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK], IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesBulkCallbackInterface, portabledeviceapi/IPortableDevicePropertiesBulkCallback, wpdsdk.iportabledevicepropertiesbulkcallback
 ms.topic: interface
-f1_keywords: ["portabledeviceapi/IPortableDevicePropertiesBulkCallback"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevicePropertiesBulkCallback"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

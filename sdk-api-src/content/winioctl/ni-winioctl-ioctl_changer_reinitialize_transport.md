@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT"]
+f1_keywords: 
+ - "winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

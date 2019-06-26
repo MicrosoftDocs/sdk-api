@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2.XMUSHORT2(const float), XMUSHORT2::XMUSHORT2, XMUSHORT2::XMUSHORT2(const float), dxmath.xmushort2_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMUSHORT2.XMUSHORT2"]
+f1_keywords: 
+ - "directxpackedvector/XMUSHORT2.XMUSHORT2"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

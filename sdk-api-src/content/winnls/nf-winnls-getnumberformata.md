@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
 ms.topic: function
-f1_keywords: ["winnls/GetNumberFormat"]
+f1_keywords: 
+ - "winnls/GetNumberFormat"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

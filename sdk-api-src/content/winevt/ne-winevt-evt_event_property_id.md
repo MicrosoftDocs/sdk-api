@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
 ms.topic: enum
-f1_keywords: ["winevt/EVT_EVENT_PROPERTY_ID"]
+f1_keywords: 
+ - "winevt/EVT_EVENT_PROPERTY_ID"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

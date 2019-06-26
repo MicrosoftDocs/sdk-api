@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEFILTER, ATTRIBUTEFILTER enumeration [Network Policy Server], ATTRIBUTE_FILTER_IEEE_802_1x, ATTRIBUTE_FILTER_NONE, ATTRIBUTE_FILTER_VPN_DIALUP, nps.SDO_attributefilter, sdo.attributefilter, sdoias/ATTRIBUTEFILTER, sdoias/ATTRIBUTE_FILTER_IEEE_802_1x, sdoias/ATTRIBUTE_FILTER_NONE, sdoias/ATTRIBUTE_FILTER_VPN_DIALUP
 ms.topic: enum
-f1_keywords: ["sdoias/ATTRIBUTEFILTER"]
+f1_keywords: 
+ - "sdoias/ATTRIBUTEFILTER"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

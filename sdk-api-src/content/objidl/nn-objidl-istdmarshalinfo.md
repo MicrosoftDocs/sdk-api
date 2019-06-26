@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 ms.topic: interface
-f1_keywords: ["objidl/IStdMarshalInfo"]
+f1_keywords: 
+ - "objidl/IStdMarshalInfo"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

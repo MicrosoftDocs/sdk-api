@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],FreeBuffer method, ISceSvcAttachmentData.FreeBuffer, ISceSvcAttachmentData::FreeBuffer, _config_iscesvcattachmentdata_freebuffer, scesvc/ISceSvcAttachmentData::FreeBuffer, security.iscesvcattachmentdata_freebuffer
 ms.topic: method
-f1_keywords: ["scesvc/ISceSvcAttachmentData.FreeBuffer"]
+f1_keywords: 
+ - "scesvc/ISceSvcAttachmentData.FreeBuffer"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

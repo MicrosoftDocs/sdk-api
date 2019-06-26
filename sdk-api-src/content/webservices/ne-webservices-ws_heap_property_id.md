@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HEAP_PROPERTY_ACTUAL_SIZE, WS_HEAP_PROPERTY_ID, WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows], WS_HEAP_PROPERTY_MAX_SIZE, WS_HEAP_PROPERTY_REQUESTED_SIZE, WS_HEAP_PROPERTY_TRIM_SIZE, webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE, webservices/WS_HEAP_PROPERTY_ID, webservices/WS_HEAP_PROPERTY_MAX_SIZE, webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE, webservices/WS_HEAP_PROPERTY_TRIM_SIZE, wsw.ws_heap_property_id
 ms.topic: enum
-f1_keywords: ["webservices/WS_HEAP_PROPERTY_ID"]
+f1_keywords: 
+ - "webservices/WS_HEAP_PROPERTY_ID"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

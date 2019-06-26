@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_NTFS_FILE_RECORD, FSCTL_GET_NTFS_FILE_RECORD control, FSCTL_GET_NTFS_FILE_RECORD control code [Files], _win32_fsctl_get_ntfs_file_record, base.fsctl_get_ntfs_file_record, fs.fsctl_get_ntfs_file_record, winioctl/FSCTL_GET_NTFS_FILE_RECORD
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_GET_NTFS_FILE_RECORD"]
+f1_keywords: 
+ - "winioctl/FSCTL_GET_NTFS_FILE_RECORD"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

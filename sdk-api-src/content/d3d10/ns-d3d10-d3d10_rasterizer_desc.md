@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_RASTERIZER_DESC, D3D10_RASTERIZER_DESC structure [Direct3D 10], c7cc2dab-949f-f064-3ae8-72b463253e0d, d3d10/D3D10_RASTERIZER_DESC, direct3d10.d3d10_rasterizer_desc
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_RASTERIZER_DESC"]
+f1_keywords: 
+ - "d3d10/D3D10_RASTERIZER_DESC"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

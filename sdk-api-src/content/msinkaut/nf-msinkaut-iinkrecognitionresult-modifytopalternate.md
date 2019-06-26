@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognitionResult.ModifyTopAlternate"]
+f1_keywords: 
+ - "msinkaut/IInkRecognitionResult.ModifyTopAlternate"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

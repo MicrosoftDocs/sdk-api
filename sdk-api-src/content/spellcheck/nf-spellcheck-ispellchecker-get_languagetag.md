@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LanguageTag property, ISpellChecker.LanguageTag, ISpellChecker.get_LanguageTag, ISpellChecker::LanguageTag, ISpellChecker::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellChecker interface, get_LanguageTag, intl.ispellchecker_languagetag, spellcheck/ISpellChecker::LanguageTag, spellcheck/ISpellChecker::get_LanguageTag
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.LanguageTag"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.LanguageTag"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

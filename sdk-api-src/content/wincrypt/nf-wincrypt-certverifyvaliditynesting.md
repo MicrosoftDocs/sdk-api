@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
 ms.topic: function
-f1_keywords: ["wincrypt/CertVerifyValidityNesting"]
+f1_keywords: 
+ - "wincrypt/CertVerifyValidityNesting"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

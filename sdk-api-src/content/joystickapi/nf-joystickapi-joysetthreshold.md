@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_joySetThreshold, joySetThreshold, joySetThreshold function [Windows Multimedia], joystickapi/joySetThreshold, multimedia.joysetthreshold"
 ms.topic: function
-f1_keywords: ["joystickapi/joySetThreshold"]
+f1_keywords: 
+ - "joystickapi/joySetThreshold"
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

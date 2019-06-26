@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsiPortalGroup.RemovePortal, IVdsIscsiPortalGroup::RemovePortal, RemovePortal, RemovePortal method [VDS], RemovePortal method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_removeportal, vds/IVdsIscsiPortalGroup::RemovePortal, vdshwprv/IVdsIscsiPortalGroup::RemovePortal
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiPortalGroup.RemovePortal"]
+f1_keywords: 
+ - "vds/IVdsIscsiPortalGroup.RemovePortal"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

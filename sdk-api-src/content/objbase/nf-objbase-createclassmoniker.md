@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateClassMoniker, com.createclassmoniker, objbase/CreateClassMoniker
 ms.topic: function
-f1_keywords: ["objbase/CreateClassMoniker"]
+f1_keywords: 
+ - "objbase/CreateClassMoniker"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

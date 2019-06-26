@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeDocumentationProperty, GetThemeDocumentationProperty function [Windows Controls], SZ_THDOCPROP_AUTHOR, SZ_THDOCPROP_CANONICALNAME, SZ_THDOCPROP_DISPLAYNAME, SZ_THDOCPROP_TOOLTIP, controls.GetThemeDocumentationProperty, controls.inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty_cpp, uxtheme/GetThemeDocumentationProperty
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeDocumentationProperty"]
+f1_keywords: 
+ - "uxtheme/GetThemeDocumentationProperty"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

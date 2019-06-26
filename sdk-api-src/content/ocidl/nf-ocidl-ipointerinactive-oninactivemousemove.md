@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPointerInactive.OnInactiveMouseMove, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
 ms.topic: method
-f1_keywords: ["ocidl/IPointerInactive.OnInactiveMouseMove"]
+f1_keywords: 
+ - "ocidl/IPointerInactive.OnInactiveMouseMove"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

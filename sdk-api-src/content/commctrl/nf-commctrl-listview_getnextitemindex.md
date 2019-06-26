@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetNextItemIndex"]
+f1_keywords: 
+ - "commctrl/ListView_GetNextItemIndex"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

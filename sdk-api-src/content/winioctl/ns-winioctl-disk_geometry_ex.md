@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX"
 ms.topic: struct
-f1_keywords: ["winioctl/DISK_GEOMETRY_EX"]
+f1_keywords: 
+ - "winioctl/DISK_GEOMETRY_EX"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

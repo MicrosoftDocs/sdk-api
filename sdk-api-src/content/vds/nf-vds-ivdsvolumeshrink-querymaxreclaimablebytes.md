@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeShrink.QueryMaxReclaimableBytes"]
+f1_keywords: 
+ - "vds/IVdsVolumeShrink.QueryMaxReclaimableBytes"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

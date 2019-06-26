@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0"
 ms.topic: struct
-f1_keywords: ["winwlx/WLX_PROFILE_V1_0"]
+f1_keywords: 
+ - "winwlx/WLX_PROFILE_V1_0"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

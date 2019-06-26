@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/LVTILEINFO"]
+f1_keywords: 
+ - "commctrl/LVTILEINFO"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

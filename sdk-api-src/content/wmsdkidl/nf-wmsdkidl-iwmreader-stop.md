@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Stop method, IWMReader.Stop, IWMReader::Stop, IWMReaderStop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMReader interface, wmformat.iwmreader_stop, wmsdkidl/IWMReader::Stop
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReader.Stop"]
+f1_keywords: 
+ - "wmsdkidl/IWMReader.Stop"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

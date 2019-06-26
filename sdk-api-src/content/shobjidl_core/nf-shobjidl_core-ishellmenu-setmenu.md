@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenu method, IShellMenu.SetMenu, IShellMenu::SetMenu, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenu, SetMenu method [Windows Shell], SetMenu method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenu, shell.IShellMenu_SetMenu, shobjidl_core/IShellMenu::SetMenu
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellMenu.SetMenu"]
+f1_keywords: 
+ - "shobjidl_core/IShellMenu.SetMenu"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

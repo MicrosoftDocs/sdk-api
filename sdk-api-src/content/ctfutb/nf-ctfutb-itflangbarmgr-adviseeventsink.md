@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdviseEventSink, AdviseEventSink method [Text Services Framework], AdviseEventSink method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],AdviseEventSink method, ITfLangBarMgr.AdviseEventSink, ITfLangBarMgr::AdviseEventSink, _tsf_itflangbarmgr_adviseeventsink_ref, ctfutb/ITfLangBarMgr::AdviseEventSink, tsf.itflangbarmgr_adviseeventsink
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarMgr.AdviseEventSink"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarMgr.AdviseEventSink"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
 ms.topic: function
-f1_keywords: ["dbghelp/SymUnDName64"]
+f1_keywords: 
+ - "dbghelp/SymUnDName64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

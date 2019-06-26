@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
 ms.topic: method
-f1_keywords: ["mediaobj/IDMOQualityControl.GetStatus"]
+f1_keywords: 
+ - "mediaobj/IDMOQualityControl.GetStatus"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

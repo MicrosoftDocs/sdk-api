@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlatSB_SetScrollPos, FlatSB_SetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollPos, _win32_FlatSB_SetScrollPos_cpp, commctrl/FlatSB_SetScrollPos, controls.FlatSB_SetScrollPos, controls._win32_FlatSB_SetScrollPos
 ms.topic: function
-f1_keywords: ["commctrl/FlatSB_SetScrollPos"]
+f1_keywords: 
+ - "commctrl/FlatSB_SetScrollPos"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

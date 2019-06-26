@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ALLOW_EXTENDED_DASD_IO, FSCTL_ALLOW_EXTENDED_DASD_IO control, FSCTL_ALLOW_EXTENDED_DASD_IO control code [Files], _win32_fsctl_allow_extended_dasd_io, base.fsctl_allow_extended_dasd_io, fs.fsctl_allow_extended_dasd_io, winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO"]
+f1_keywords: 
+ - "winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

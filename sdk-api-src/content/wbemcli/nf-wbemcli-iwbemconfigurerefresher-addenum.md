@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddEnum method, IWbemConfigureRefresher.AddEnum, IWbemConfigureRefresher::AddEnum, _hmm_iwbemconfigurerefresher_addenum, wbemcli/IWbemConfigureRefresher::AddEnum, wmi.iwbemconfigurerefresher_addenum
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemConfigureRefresher.AddEnum"]
+f1_keywords: 
+ - "wbemcli/IWbemConfigureRefresher.AddEnum"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

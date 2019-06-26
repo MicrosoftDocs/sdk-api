@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Next method, IEnumRangeExceptions.Next, IEnumRangeExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_next, winsync/IEnumRangeExceptions::Next
 ms.topic: method
-f1_keywords: ["winsync/IEnumRangeExceptions.Next"]
+f1_keywords: 
+ - "winsync/IEnumRangeExceptions.Next"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

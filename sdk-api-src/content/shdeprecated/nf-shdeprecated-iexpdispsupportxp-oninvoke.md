@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnInvoke method, IExpDispSupportXP.OnInvoke, IExpDispSupportXP::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnInvoke, shdeprecated/IExpDispSupportXP::OnInvoke, shell.IExpDispSupportXP_OnInvoke
 ms.topic: method
-f1_keywords: ["shdeprecated/IExpDispSupportXP.OnInvoke"]
+f1_keywords: 
+ - "shdeprecated/IExpDispSupportXP.OnInvoke"
 req.header: shdeprecated.h
 req.include-header: Shdeprecated.h
 req.target-type: Windows

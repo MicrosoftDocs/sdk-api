@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],UnregisterSyncProvider method, ISyncProviderRegistration.UnregisterSyncProvider, ISyncProviderRegistration::UnregisterSyncProvider, UnregisterSyncProvider, UnregisterSyncProvider method [Windows Sync], UnregisterSyncProvider method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::UnregisterSyncProvider, winsync.isyncproviderregistration_unregistersyncprovider
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderRegistration.UnregisterSyncProvider"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderRegistration.UnregisterSyncProvider"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

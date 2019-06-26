@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetSurfaceParameters method, IVPBaseConfig.SetSurfaceParameters, IVPBaseConfig::SetSurfaceParameters, IVPBaseConfigSetSurfaceParameters, SetSurfaceParameters, SetSurfaceParameters method [DirectShow], SetSurfaceParameters method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setsurfaceparameters, vpconfig/IVPBaseConfig::SetSurfaceParameters
 ms.topic: method
-f1_keywords: ["vpconfig/IVPBaseConfig.SetSurfaceParameters"]
+f1_keywords: 
+ - "vpconfig/IVPBaseConfig.SetSurfaceParameters"
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

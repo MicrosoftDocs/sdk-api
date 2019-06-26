@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVE
 ms.topic: language-reference
-f1_keywords: ["mswsock/LPFN_RIORECEIVE"]
+f1_keywords: 
+ - "mswsock/LPFN_RIORECEIVE"
 targetos: Windows
 product: Windows
 req.assembly: 

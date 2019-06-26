@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Files], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Files], _win32_volume_disk_extents_str, base.volume_disk_extents_str, fs.volume_disk_extents_str, winioctl/PVOLUME_DISK_EXTENTS, winioctl/VOLUME_DISK_EXTENTS"
 ms.topic: struct
-f1_keywords: ["winioctl/VOLUME_DISK_EXTENTS"]
+f1_keywords: 
+ - "winioctl/VOLUME_DISK_EXTENTS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

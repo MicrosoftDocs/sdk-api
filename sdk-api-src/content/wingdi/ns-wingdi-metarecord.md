@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMETARECORD, *PMETARECORD, METARECORD, METARECORD structure [Windows GDI], PMETARECORD, PMETARECORD structure pointer [Windows GDI], _win32_METARECORD_str, gdi.metarecord, wingdi/METARECORD, wingdi/PMETARECORD"
 ms.topic: struct
-f1_keywords: ["wingdi/METARECORD"]
+f1_keywords: 
+ - "wingdi/METARECORD"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_RECORD, *PDNS_RECORDA, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDA, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD"
 ms.topic: struct
-f1_keywords: ["windns/DNS_RECORD"]
+f1_keywords: 
+ - "windns/DNS_RECORD"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

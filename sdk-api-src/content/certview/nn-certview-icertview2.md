@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security],described, _certsrv_icertview2, certview/ICertView2, security.icertview2
 ms.topic: interface
-f1_keywords: ["certview/ICertView2"]
+f1_keywords: 
+ - "certview/ICertView2"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

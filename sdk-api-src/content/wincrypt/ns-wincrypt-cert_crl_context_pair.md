@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR structure [Security], PCERT_CRL_CONTEXT_PAIR, PCERT_CRL_CONTEXT_PAIR structure pointer [Security], _crypto2_cert_crl_context_pair, security.cert_crl_context_pair, wincrypt/CERT_CRL_CONTEXT_PAIR, wincrypt/PCERT_CRL_CONTEXT_PAIR"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_CRL_CONTEXT_PAIR"]
+f1_keywords: 
+ - "wincrypt/CERT_CRL_CONTEXT_PAIR"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

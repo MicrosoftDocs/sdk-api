@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMediaStreamFilter interface [DirectShow],described, IMediaStreamFilterInterface, amstream/IMediaStreamFilter, dshow.imediastreamfilter
 ms.topic: interface
-f1_keywords: ["amstream/IMediaStreamFilter"]
+f1_keywords: 
+ - "amstream/IMediaStreamFilter"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

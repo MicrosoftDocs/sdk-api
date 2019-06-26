@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteCredentials, DeleteCredentials method [windows Media Format], DeleteCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],DeleteCredentials method, IWMSInternalAdminNetSource.DeleteCredentials, IWMSInternalAdminNetSource::DeleteCredentials, IWMSInternalAdminNetSourceDeleteCredentials, wmformat.iwmsinternaladminnetsource_deletecredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::DeleteCredentials
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource.DeleteCredentials"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.DeleteCredentials"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

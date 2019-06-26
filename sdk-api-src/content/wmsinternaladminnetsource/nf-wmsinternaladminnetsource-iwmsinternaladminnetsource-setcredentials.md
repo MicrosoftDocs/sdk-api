@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentials method, IWMSInternalAdminNetSource.SetCredentials, IWMSInternalAdminNetSource::SetCredentials, IWMSInternalAdminNetSourceSetCredentials, SetCredentials, SetCredentials method [windows Media Format], SetCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentials
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource.SetCredentials"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.SetCredentials"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

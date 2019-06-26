@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallFrame::Invoke, Invoke, Invoke method [COM], Invoke method [COM],ICallFrame interface, _com_icallframe_invoke, callobj/ICallFrame::Invoke, com.icallframe_invoke
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.Invoke"]
+f1_keywords: 
+ - "callobj/ICallFrame.Invoke"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

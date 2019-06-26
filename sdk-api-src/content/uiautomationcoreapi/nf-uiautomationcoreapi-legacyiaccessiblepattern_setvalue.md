@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_SetValue, LegacyIAccessiblePattern_SetValue function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_SetValue, uiauto_LegacyIAccessiblePattern_SetValue, uiautomationcoreapi/LegacyIAccessiblePattern_SetValue, winauto.uiauto_LegacyIAccessiblePattern_SetValue
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/LegacyIAccessiblePattern_SetValue"]
+f1_keywords: 
+ - "uiautomationcoreapi/LegacyIAccessiblePattern_SetValue"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

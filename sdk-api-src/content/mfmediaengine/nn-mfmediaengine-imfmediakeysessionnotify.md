@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], IMFMediaKeySessionNotify interface [Media Foundation],described, mf.imfmediakeysessionnotify, mfmediaengine/IMFMediaKeySessionNotify
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFMediaKeySessionNotify"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaKeySessionNotify"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

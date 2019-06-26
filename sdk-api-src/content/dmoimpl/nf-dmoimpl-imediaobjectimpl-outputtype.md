@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
 ms.topic: method
-f1_keywords: ["dmoimpl/IMediaObjectImpl.OutputType"]
+f1_keywords: 
+ - "dmoimpl/IMediaObjectImpl.OutputType"
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

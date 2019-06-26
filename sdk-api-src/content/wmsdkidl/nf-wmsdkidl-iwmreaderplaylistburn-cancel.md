@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],Cancel method, IWMReaderPlaylistBurn.Cancel, IWMReaderPlaylistBurn::Cancel, IWMReaderPlaylistBurnCancel, wmformat.iwmreaderplaylistburn_cancel, wmsdkidl/IWMReaderPlaylistBurn::Cancel
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderPlaylistBurn.Cancel"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderPlaylistBurn.Cancel"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

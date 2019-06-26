@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromHandle, UiaNodeFromHandle function [Windows Accessibility], uiauto.uiauto_UiaNodeFromHandleFunction, uiauto_UiaNodeFromHandleFunction, uiautomationcoreapi/UiaNodeFromHandle, winauto.uiauto_UiaNodeFromHandleFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaNodeFromHandle"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaNodeFromHandle"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

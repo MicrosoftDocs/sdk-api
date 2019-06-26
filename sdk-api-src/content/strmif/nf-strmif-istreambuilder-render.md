@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
 ms.topic: method
-f1_keywords: ["strmif/IStreamBuilder.Render"]
+f1_keywords: 
+ - "strmif/IStreamBuilder.Render"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtClearLog, EvtClearLog function [EventLog], wes.evtclearlog, winevt/EvtClearLog
 ms.topic: function
-f1_keywords: ["winevt/EvtClearLog"]
+f1_keywords: 
+ - "winevt/EvtClearLog"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

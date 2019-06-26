@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetPoints method, IShellFolderView.SetPoints, IShellFolderView::SetPoints, SetPoints, SetPoints method [Windows Shell], SetPoints method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetPoints, shell.IShellFolderView_SetPoints, shlobj_core/IShellFolderView::SetPoints
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.SetPoints"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.SetPoints"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

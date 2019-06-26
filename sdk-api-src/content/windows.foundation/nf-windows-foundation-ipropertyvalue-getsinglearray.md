@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSingleArray, GetSingleArray method [Windows Runtime], GetSingleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingleArray method, IPropertyValue.GetSingleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSingleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingleArray, winrt.ipropertyvalue_getsinglearray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetSingleArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetSingleArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

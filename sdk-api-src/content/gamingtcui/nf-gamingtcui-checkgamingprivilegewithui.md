@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
 ms.topic: function
-f1_keywords: ["gamingtcui/CheckGamingPrivilegeWithUI"]
+f1_keywords: 
+ - "gamingtcui/CheckGamingPrivilegeWithUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

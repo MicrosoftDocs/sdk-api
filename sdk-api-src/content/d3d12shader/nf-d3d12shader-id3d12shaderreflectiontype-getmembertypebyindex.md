@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByIndex method, ID3D12ShaderReflectionType.GetMemberTypeByIndex, ID3D12ShaderReflectionType::GetMemberTypeByIndex, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex, direct3d12.id3d12shaderreflectiontype_getmembertypebyindex
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

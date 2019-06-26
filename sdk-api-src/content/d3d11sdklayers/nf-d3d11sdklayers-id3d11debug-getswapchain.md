@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSwapChain, GetSwapChain method [Direct3D 11], GetSwapChain method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetSwapChain method, ID3D11Debug.GetSwapChain, ID3D11Debug::GetSwapChain, c20306ae-8125-a9ff-0c0f-c8368ec1b294, d3d11sdklayers/ID3D11Debug::GetSwapChain, direct3d11.id3d11debug_getswapchain
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11Debug.GetSwapChain"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11Debug.GetSwapChain"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

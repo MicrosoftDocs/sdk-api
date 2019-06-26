@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriter, CreatePackageWriter method [App packaging and management], CreatePackageWriter method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageWriter method, IAppxFactory.CreatePackageWriter, IAppxFactory::CreatePackageWriter, appxpackaging/IAppxFactory::CreatePackageWriter, appxpkg.iappxfactory_createpackagewriter
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFactory.CreatePackageWriter"]
+f1_keywords: 
+ - "appxpackaging/IAppxFactory.CreatePackageWriter"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

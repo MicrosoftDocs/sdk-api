@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnError method, IFunctionDiscoveryNotification.OnError, IFunctionDiscoveryNotification::OnError, OnError, OnError method, OnError method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnError, ncd.ifunctiondiscoverynotification_onerror
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionDiscoveryNotification.OnError"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnError"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

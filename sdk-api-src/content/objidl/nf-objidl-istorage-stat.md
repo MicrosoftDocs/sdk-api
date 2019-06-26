@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat, IStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStorage interface, _stg_istorage_stat, objidl/IStorage::Stat, stg.istorage_stat
 ms.topic: method
-f1_keywords: ["objidl/IStorage.Stat"]
+f1_keywords: 
+ - "objidl/IStorage.Stat"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

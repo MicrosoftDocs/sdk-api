@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_ATCP_INFO, PPP_ATCP_INFO structure [RAS], _mpr_ppp_atcp_info, mprapi/PPP_ATCP_INFO, rras.ppp_atcp_info
 ms.topic: struct
-f1_keywords: ["mprapi/PPP_ATCP_INFO"]
+f1_keywords: 
+ - "mprapi/PPP_ATCP_INFO"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

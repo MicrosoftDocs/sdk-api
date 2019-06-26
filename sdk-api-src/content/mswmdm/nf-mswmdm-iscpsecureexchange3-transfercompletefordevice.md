@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferCompleteForDevice method, ISCPSecureExchange3.TransferCompleteForDevice, ISCPSecureExchange3::TransferCompleteForDevice, ISCPSecureExchange3TransferCompleteForDevice, TransferCompleteForDevice, TransferCompleteForDevice method [windows Media Device Manager], TransferCompleteForDevice method [windows Media Device Manager],ISCPSecureExchange3 interface, mswmdm/ISCPSecureExchange3::TransferCompleteForDevice, wmdm.iscpsecureexchange3__transfercompletefordevice
 ms.topic: method
-f1_keywords: ["mswmdm/ISCPSecureExchange3.TransferCompleteForDevice"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureExchange3.TransferCompleteForDevice"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

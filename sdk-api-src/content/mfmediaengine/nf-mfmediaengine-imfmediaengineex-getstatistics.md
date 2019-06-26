@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.GetStatistics"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.GetStatistics"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

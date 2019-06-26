@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_ACTIVATE_FN, PIBIO_STORAGE_ACTIVATE_FN callback, StorageAdapterActivate, StorageAdapterActivate callback function [Windows Biometric Framework API], secbiomet.storageadapteractivate, winbio_adapter/StorageAdapterActivate
 ms.topic: callback
-f1_keywords: ["winbio_adapter/StorageAdapterActivate"]
+f1_keywords: 
+ - "winbio_adapter/StorageAdapterActivate"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Commit method, IDataCollectorSet.Commit, IDataCollectorSet::Commit, base.idatacollectorset_commit, pla.idatacollectorset_commit, pla/IDataCollectorSet::Commit
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.Commit"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.Commit"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

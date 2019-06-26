@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_b33adc91-e83f-42dc-a56a-536bf99cdb7f.xml, DISPLAYCONFIG_PATH_TARGET_INFO, DISPLAYCONFIG_PATH_TARGET_INFO structure [Display Devices], display.displayconfig_path_target_info, wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_PATH_TARGET_INFO"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_PATH_TARGET_INFO"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

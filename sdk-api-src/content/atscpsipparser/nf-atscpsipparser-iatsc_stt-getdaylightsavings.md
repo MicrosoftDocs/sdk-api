@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDaylightSavings, GetDaylightSavings method [Microsoft TV Technologies], GetDaylightSavings method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetDaylightSavings method, IATSC_STT.GetDaylightSavings, IATSC_STT::GetDaylightSavings, IATSC_STTGetDaylightSavings, atscpsipparser/IATSC_STT::GetDaylightSavings, mstv.iatsc_stt_getdaylightsavings
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_STT.GetDaylightSavings"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_STT.GetDaylightSavings"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

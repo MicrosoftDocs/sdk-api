@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
 ms.topic: method
-f1_keywords: ["wmp/IWMPErrorItem.get_errorContext"]
+f1_keywords: 
+ - "wmp/IWMPErrorItem.get_errorContext"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

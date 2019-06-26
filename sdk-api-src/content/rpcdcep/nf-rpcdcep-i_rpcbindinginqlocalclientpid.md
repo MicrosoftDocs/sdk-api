@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
 ms.topic: function
-f1_keywords: ["rpcdcep/I_RpcBindingInqLocalClientPID"]
+f1_keywords: 
+ - "rpcdcep/I_RpcBindingInqLocalClientPID"
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows

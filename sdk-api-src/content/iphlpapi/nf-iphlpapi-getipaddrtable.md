@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipaddrtable, iphlp.getipaddrtable, iphlpapi/GetIpAddrTable
 ms.topic: function
-f1_keywords: ["iphlpapi/GetIpAddrTable"]
+f1_keywords: 
+ - "iphlpapi/GetIpAddrTable"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

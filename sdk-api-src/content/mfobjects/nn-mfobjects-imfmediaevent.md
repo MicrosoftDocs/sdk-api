@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEvent, IMFMediaEvent interface [Media Foundation], IMFMediaEvent interface [Media Foundation],described, b4f686be-9472-433c-b983-6c48dfd3ac76, mf.imfmediaevent, mfobjects/IMFMediaEvent
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFMediaEvent"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEvent"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

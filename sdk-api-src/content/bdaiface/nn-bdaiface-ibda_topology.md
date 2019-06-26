@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], IBDA_Topology interface [Microsoft TV Technologies],described, IBDA_TopologyInterface, bdaiface/IBDA_Topology, mstv.ibda_topology
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_Topology"]
+f1_keywords: 
+ - "bdaiface/IBDA_Topology"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

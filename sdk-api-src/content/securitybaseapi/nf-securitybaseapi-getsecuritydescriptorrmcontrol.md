@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorRMControl, GetSecurityDescriptorRMControl function [Security], _win32_getsecuritydescriptorrmcontrol, security.getsecuritydescriptorrmcontrol, securitybaseapi/GetSecurityDescriptorRMControl
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetSecurityDescriptorRMControl"]
+f1_keywords: 
+ - "securitybaseapi/GetSecurityDescriptorRMControl"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

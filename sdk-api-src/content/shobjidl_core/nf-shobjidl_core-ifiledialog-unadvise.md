@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],Unadvise method, IFileDialog.Unadvise, IFileDialog::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileDialog interface, shell.IFileDialog_Unadvise, shell_IFileDialog_Unadvise, shobjidl_core/IFileDialog::Unadvise
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.Unadvise"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.Unadvise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

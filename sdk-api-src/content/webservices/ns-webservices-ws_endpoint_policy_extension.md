@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION, WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION, wsw.ws_endpoint_policy_extension
 ms.topic: struct
-f1_keywords: ["webservices/WS_ENDPOINT_POLICY_EXTENSION"]
+f1_keywords: 
+ - "webservices/WS_ENDPOINT_POLICY_EXTENSION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge2.MergeEx"]
+f1_keywords: 
+ - "mergemod/IMsmMerge2.MergeEx"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

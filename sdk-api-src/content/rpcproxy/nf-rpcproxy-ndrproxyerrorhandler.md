@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrProxyErrorHandler, NdrProxyErrorHandler function [RPC], rpc.ndrproxyerrorhandler, rpcproxy/NdrProxyErrorHandler
 ms.topic: function
-f1_keywords: ["rpcproxy/NdrProxyErrorHandler"]
+f1_keywords: 
+ - "rpcproxy/NdrProxyErrorHandler"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

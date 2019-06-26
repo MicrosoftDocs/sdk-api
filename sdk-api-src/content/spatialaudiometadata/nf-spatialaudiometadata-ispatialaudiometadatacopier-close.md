@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],Close method, ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataCopier.Close"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataCopier.Close"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

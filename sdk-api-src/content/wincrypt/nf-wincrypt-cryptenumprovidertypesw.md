@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
 ms.topic: function
-f1_keywords: ["wincrypt/CryptEnumProviderTypes"]
+f1_keywords: 
+ - "wincrypt/CryptEnumProviderTypes"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

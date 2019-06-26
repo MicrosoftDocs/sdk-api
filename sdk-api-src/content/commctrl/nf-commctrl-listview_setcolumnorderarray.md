@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetColumnOrderArray, ListView_SetColumnOrderArray macro [Windows Controls], _win32_ListView_SetColumnOrderArray, _win32_ListView_SetColumnOrderArray_cpp, commctrl/ListView_SetColumnOrderArray, controls.ListView_SetColumnOrderArray, controls._win32_ListView_SetColumnOrderArray
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetColumnOrderArray"]
+f1_keywords: 
+ - "commctrl/ListView_SetColumnOrderArray"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

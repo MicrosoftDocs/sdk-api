@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],_NewEnum property, ITaskFolderCollection._NewEnum, ITaskFolderCollection.get__NewEnum, ITaskFolderCollection::_NewEnum, ITaskFolderCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskFolderCollection interface, get__NewEnum, taskschd.itaskfoldercollection__newenum, taskschd/ITaskFolderCollection::_NewEnum, taskschd/ITaskFolderCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["taskschd/ITaskFolderCollection._NewEnum"]
+f1_keywords: 
+ - "taskschd/ITaskFolderCollection._NewEnum"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

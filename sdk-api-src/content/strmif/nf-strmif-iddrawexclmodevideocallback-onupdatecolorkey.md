@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateColorKey method, IDDrawExclModeVideoCallback.OnUpdateColorKey, IDDrawExclModeVideoCallback::OnUpdateColorKey, IDDrawExclModeVideoCallbackOnUpdateColorKey, OnUpdateColorKey, OnUpdateColorKey method [DirectShow], OnUpdateColorKey method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdatecolorkey, strmif/IDDrawExclModeVideoCallback::OnUpdateColorKey
 ms.topic: method
-f1_keywords: ["strmif/IDDrawExclModeVideoCallback.OnUpdateColorKey"]
+f1_keywords: 
+ - "strmif/IDDrawExclModeVideoCallback.OnUpdateColorKey"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

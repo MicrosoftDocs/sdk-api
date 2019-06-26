@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspAlgorithm.MinLength"]
+f1_keywords: 
+ - "certenroll/ICspAlgorithm.MinLength"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

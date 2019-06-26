@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],SizeLow property, IFaxAccountIncomingArchive.SizeLow, IFaxAccountIncomingArchive.get_SizeLow, IFaxAccountIncomingArchive::SizeLow, IFaxAccountIncomingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxAccountIncomingArchive interface, _mfax_faxaccountincomingarchive.sizelow, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizelow_cpp, fax._mfax_faxaccountincomingarchive_sizelow, faxcomex/IFaxAccountIncomingArchive::SizeLow, faxcomex/IFaxAccountIncomingArchive::get_SizeLow, get_SizeLow
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxAccountIncomingArchive.SizeLow"]
+f1_keywords: 
+ - "faxcomex/IFaxAccountIncomingArchive.SizeLow"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

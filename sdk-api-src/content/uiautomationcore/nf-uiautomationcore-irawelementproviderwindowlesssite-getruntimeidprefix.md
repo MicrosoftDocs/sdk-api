@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeIdPrefix, GetRuntimeIdPrefix method [Windows Accessibility], GetRuntimeIdPrefix method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetRuntimeIdPrefix method, IRawElementProviderWindowlessSite.GetRuntimeIdPrefix, IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

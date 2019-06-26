@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern2 interface [Windows Accessibility],RangeFromAnnotation method, IUIAutomationTextPattern2.RangeFromAnnotation, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],IUIAutomationTextPattern2 interface, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextPattern2.RangeFromAnnotation"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextPattern2.RangeFromAnnotation"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

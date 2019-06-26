@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, IAudioSessionEvents.OnStateChanged, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionEvents.OnStateChanged"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionEvents.OnStateChanged"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

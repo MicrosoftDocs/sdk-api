@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandAuthDataForDomain, ExpandAuthDataForDomain callback function [Security], LSA_EXPAND_AUTH_DATA_FOR_DOMAIN, LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback, ntsecpkg/ExpandAuthDataForDomain, security.expandauthdatafordomain
 ms.topic: callback
-f1_keywords: ["ntsecpkg/ExpandAuthDataForDomain"]
+f1_keywords: 
+ - "ntsecpkg/ExpandAuthDataForDomain"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

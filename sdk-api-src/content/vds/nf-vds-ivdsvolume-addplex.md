@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],AddPlex method, IVdsVolume.AddPlex, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
 ms.topic: method
-f1_keywords: ["vds/IVdsVolume.AddPlex"]
+f1_keywords: 
+ - "vds/IVdsVolume.AddPlex"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

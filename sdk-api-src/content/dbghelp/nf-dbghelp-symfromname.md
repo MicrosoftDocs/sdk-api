@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname, base.symfromname, dbghelp/SymFromName, dbghelp/SymFromNameW
 ms.topic: function
-f1_keywords: ["dbghelp/SymFromName"]
+f1_keywords: 
+ - "dbghelp/SymFromName"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

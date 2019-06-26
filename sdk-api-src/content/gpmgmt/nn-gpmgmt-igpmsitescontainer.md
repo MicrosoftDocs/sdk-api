@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMSitesContainer"]
+f1_keywords: 
+ - "gpmgmt/IGPMSitesContainer"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

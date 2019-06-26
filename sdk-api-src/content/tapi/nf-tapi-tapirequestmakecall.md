@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW"
 ms.topic: function
-f1_keywords: ["tapi/tapiRequestMakeCall"]
+f1_keywords: 
+ - "tapi/tapiRequestMakeCall"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObject.get_SecurityDescriptor"]
+f1_keywords: 
+ - "rend/ITDirectoryObject.get_SecurityDescriptor"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

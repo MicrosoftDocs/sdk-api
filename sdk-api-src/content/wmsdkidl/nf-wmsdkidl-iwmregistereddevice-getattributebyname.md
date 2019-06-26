@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByName method, IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisteredDevice.GetAttributeByName"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisteredDevice.GetAttributeByName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

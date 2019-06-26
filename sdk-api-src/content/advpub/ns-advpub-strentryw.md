@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
 ms.topic: struct
-f1_keywords: ["advpub/STRENTRYW"]
+f1_keywords: 
+ - "advpub/STRENTRYW"
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

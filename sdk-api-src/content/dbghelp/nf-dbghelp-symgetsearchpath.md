@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSearchPath, SymGetSearchPath function, SymGetSearchPathW, _win32_symgetsearchpath, base.symgetsearchpath, dbghelp/SymGetSearchPath, dbghelp/SymGetSearchPathW
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetSearchPath"]
+f1_keywords: 
+ - "dbghelp/SymGetSearchPath"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

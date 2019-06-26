@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
 ms.topic: interface
-f1_keywords: ["mergemod/IMsmGetFiles"]
+f1_keywords: 
+ - "mergemod/IMsmGetFiles"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

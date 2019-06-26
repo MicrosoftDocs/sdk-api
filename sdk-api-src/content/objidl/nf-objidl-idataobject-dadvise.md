@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAdvise, DAdvise method [COM], DAdvise method [COM],IDataObject interface, IDataObject interface [COM],DAdvise method, IDataObject.DAdvise, IDataObject::DAdvise, _ole_idataobject_dadvise, com.idataobject_dadvise, objidl/IDataObject::DAdvise
 ms.topic: method
-f1_keywords: ["objidl/IDataObject.DAdvise"]
+f1_keywords: 
+ - "objidl/IDataObject.DAdvise"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

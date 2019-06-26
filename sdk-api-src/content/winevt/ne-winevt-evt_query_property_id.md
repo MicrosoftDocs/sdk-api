@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
 ms.topic: enum
-f1_keywords: ["winevt/EVT_QUERY_PROPERTY_ID"]
+f1_keywords: 
+ - "winevt/EVT_QUERY_PROPERTY_ID"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

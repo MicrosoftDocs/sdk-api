@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Reset method, IEnumOLEVERB.Reset, IEnumOLEVERB::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_reset, com.ienumoleverb_reset, oleidl/IEnumOLEVERB::Reset
 ms.topic: method
-f1_keywords: ["oleidl/IEnumOLEVERB.Reset"]
+f1_keywords: 
+ - "oleidl/IEnumOLEVERB.Reset"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

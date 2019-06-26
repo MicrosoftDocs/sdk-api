@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_PASS_SHADER_DESC, D3D10_PASS_SHADER_DESC structure [Direct3D 10], d3d10effect/D3D10_PASS_SHADER_DESC, d6701cbf-a851-873f-5e5e-7ef5dd77bdb1, direct3d10.d3d10_pass_shader_desc
 ms.topic: struct
-f1_keywords: ["d3d10effect/D3D10_PASS_SHADER_DESC"]
+f1_keywords: 
+ - "d3d10effect/D3D10_PASS_SHADER_DESC"
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

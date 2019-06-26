@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorRetryInterval, GetErrorRetryInterval method [Task Scheduler], GetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryInterval method, IScheduledWorkItem.GetErrorRetryInterval, IScheduledWorkItem::GetErrorRetryInterval, _msb_ischeduledworkitem_geterrorretryinterval, mstask/IScheduledWorkItem::GetErrorRetryInterval, taskschd.ischeduledworkitem_geterrorretryinterval
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.GetErrorRetryInterval"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.GetErrorRetryInterval"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

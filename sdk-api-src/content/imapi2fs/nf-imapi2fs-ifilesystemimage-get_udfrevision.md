@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevision method, IFileSystemImage.get_UDFRevision, IFileSystemImage::get_UDFRevision, get_UDFRevision, get_UDFRevision method [IMAPI], get_UDFRevision method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevision, imapi2fs/IFileSystemImage::get_UDFRevision
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_UDFRevision"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_UDFRevision"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

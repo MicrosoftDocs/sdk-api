@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
 ms.topic: function
-f1_keywords: ["gamingtcui/TryCancelPendingGameUI"]
+f1_keywords: 
+ - "gamingtcui/TryCancelPendingGameUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

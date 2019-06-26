@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitGenerationEvent.get_CallbackInstance, ITDigitGenerationEvent::get_CallbackInstance, _tapi3_itdigitgenerationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_callbackinstance, tapi3if/ITDigitGenerationEvent::get_CallbackInstance
 ms.topic: method
-f1_keywords: ["tapi3if/ITDigitGenerationEvent.get_CallbackInstance"]
+f1_keywords: 
+ - "tapi3if/ITDigitGenerationEvent.get_CallbackInstance"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

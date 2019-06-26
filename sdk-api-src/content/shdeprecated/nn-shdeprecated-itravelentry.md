@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITravelEntry, ITravelEntry interface [Windows Shell], ITravelEntry interface [Windows Shell],described, shdeprecated/ITravelEntry, shell.ITravelEntry, zone_ITravelEntry
 ms.topic: interface
-f1_keywords: ["shdeprecated/ITravelEntry"]
+f1_keywords: 
+ - "shdeprecated/ITravelEntry"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

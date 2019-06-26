@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
 ms.topic: interface
-f1_keywords: ["activationregistration/IExeServerRegistration"]
+f1_keywords: 
+ - "activationregistration/IExeServerRegistration"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager interface [COM],RedoTo method, IOleUndoManager.RedoTo, IOleUndoManager::RedoTo, RedoTo, RedoTo method [COM], RedoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.RedoTo"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.RedoTo"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumUnknown interface [COM],Skip method, IEnumUnknown.Skip, IEnumUnknown::Skip, Skip, Skip method [COM], Skip method [COM],IEnumUnknown interface, _com_ienumunknown_skip, com.ienumunknown_skip, objidlbase/IEnumUnknown::Skip
 ms.topic: method
-f1_keywords: ["objidlbase/IEnumUnknown.Skip"]
+f1_keywords: 
+ - "objidlbase/IEnumUnknown.Skip"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

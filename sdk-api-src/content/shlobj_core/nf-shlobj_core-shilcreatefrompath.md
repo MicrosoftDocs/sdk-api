@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
 ms.topic: function
-f1_keywords: ["shlobj_core/SHILCreateFromPath"]
+f1_keywords: 
+ - "shlobj_core/SHILCreateFromPath"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

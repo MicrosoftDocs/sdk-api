@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
 ms.topic: macro
-f1_keywords: ["commctrl/Header_GetFocusedItem"]
+f1_keywords: 
+ - "commctrl/Header_GetFocusedItem"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

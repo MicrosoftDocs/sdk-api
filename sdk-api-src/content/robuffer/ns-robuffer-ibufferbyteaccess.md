@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBufferByteAccess interface [Windows Runtime]
 ms.topic: method
-f1_keywords: ["robuffer/IBufferByteAccess"]
+f1_keywords: 
+ - "robuffer/IBufferByteAccess"
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

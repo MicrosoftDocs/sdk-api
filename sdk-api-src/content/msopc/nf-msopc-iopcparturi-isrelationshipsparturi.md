@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcPartUri interface [Open Packaging Conventions],IsRelationshipsPartUri method, IOpcPartUri.IsRelationshipsPartUri, IOpcPartUri::IsRelationshipsPartUri, IsRelationshipsPartUri, IsRelationshipsPartUri method [Open Packaging Conventions], IsRelationshipsPartUri method [Open Packaging Conventions],IOpcPartUri interface, msopc/IOpcPartUri::IsRelationshipsPartUri, opc.iopcparturi_isrelationshipsparturi
 ms.topic: method
-f1_keywords: ["msopc/IOpcPartUri.IsRelationshipsPartUri"]
+f1_keywords: 
+ - "msopc/IOpcPartUri.IsRelationshipsPartUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

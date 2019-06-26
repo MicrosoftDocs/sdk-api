@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
 ms.topic: function
-f1_keywords: ["wingdi/EnumFontFamiliesEx"]
+f1_keywords: 
+ - "wingdi/EnumFontFamiliesEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

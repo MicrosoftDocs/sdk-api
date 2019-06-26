@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTOPOLOGY_DXVA_DEFAULT, MFTOPOLOGY_DXVA_FULL, MFTOPOLOGY_DXVA_MODE, MFTOPOLOGY_DXVA_MODE enumeration [Media Foundation], MFTOPOLOGY_DXVA_NONE, mf.mftopology_dxva_mode, mfidl/MFTOPOLOGY_DXVA_DEFAULT, mfidl/MFTOPOLOGY_DXVA_FULL, mfidl/MFTOPOLOGY_DXVA_MODE, mfidl/MFTOPOLOGY_DXVA_NONE
 ms.topic: enum
-f1_keywords: ["mfidl/MFTOPOLOGY_DXVA_MODE"]
+f1_keywords: 
+ - "mfidl/MFTOPOLOGY_DXVA_MODE"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

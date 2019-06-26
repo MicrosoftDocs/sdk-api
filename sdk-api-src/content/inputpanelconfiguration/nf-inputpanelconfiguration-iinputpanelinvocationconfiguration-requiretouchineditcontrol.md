@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],RequireTouchInEditControl method, IInputPanelInvocationConfiguration.RequireTouchInEditControl, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell],IInputPanelInvocationConfiguration interface, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
 ms.topic: method
-f1_keywords: ["inputpanelconfiguration/IInputPanelInvocationConfiguration.RequireTouchInEditControl"]
+f1_keywords: 
+ - "inputpanelconfiguration/IInputPanelInvocationConfiguration.RequireTouchInEditControl"
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

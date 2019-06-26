@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.accLocation"]
+f1_keywords: 
+ - "oleacc/IAccessible.accLocation"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

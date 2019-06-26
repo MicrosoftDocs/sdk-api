@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTSCOPE, DBCONTENTSCOPE structure [Indexing Service], _idxs_DBCONTENTSCOPE, cmdtree/DBCONTENTSCOPE, indexsrv.dbcontentscope, tagDBCONTENTSCOPE
 ms.topic: struct
-f1_keywords: ["cmdtree/DBCONTENTSCOPE"]
+f1_keywords: 
+ - "cmdtree/DBCONTENTSCOPE"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

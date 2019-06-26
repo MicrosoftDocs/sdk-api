@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverEnumRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverEnumRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

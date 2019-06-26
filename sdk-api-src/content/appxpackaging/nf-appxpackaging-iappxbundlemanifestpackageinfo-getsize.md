@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetSize method, IAppxBundleManifestPackageInfo.GetSize, IAppxBundleManifestPackageInfo::GetSize, appxpackaging/IAppxBundleManifestPackageInfo::GetSize, appxpkg.iappxbundlemanifestpackageinfo_getsize
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo.GetSize"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestPackageInfo.GetSize"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

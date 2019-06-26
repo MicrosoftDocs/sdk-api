@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies
 ms.topic: function
-f1_keywords: ["slpublic/SLLoadApplicationPolicies"]
+f1_keywords: 
+ - "slpublic/SLLoadApplicationPolicies"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

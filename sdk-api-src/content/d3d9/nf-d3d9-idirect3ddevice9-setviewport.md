@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 69ed7b86-4dee-fd8c-4647-7e95842d559a, IDirect3DDevice9 interface [Direct3D 9],SetViewport method, IDirect3DDevice9.SetViewport, IDirect3DDevice9::SetViewport, SetViewport, SetViewport method [Direct3D 9], SetViewport method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetViewport, direct3d9.idirect3ddevice9__setviewport
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.SetViewport"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.SetViewport"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

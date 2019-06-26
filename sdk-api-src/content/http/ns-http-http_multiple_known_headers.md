@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_MULTIPLE_KNOWN_HEADERS, HTTP_MULTIPLE_KNOWN_HEADERS structure [HTTP], HTTP_RESPONSE_INFO_FLAGS_PRESERVE_ORDER, http.http_multiple_known_headers, http/*PHTTP_MULTIPLE_KNOWN_HEADERS, http/HTTP_MULTIPLE_KNOWN_HEADERS"
 ms.topic: struct
-f1_keywords: ["http/HTTP_MULTIPLE_KNOWN_HEADERS"]
+f1_keywords: 
+ - "http/HTTP_MULTIPLE_KNOWN_HEADERS"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

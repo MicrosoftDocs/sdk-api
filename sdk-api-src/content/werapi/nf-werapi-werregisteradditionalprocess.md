@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
 ms.topic: function
-f1_keywords: ["werapi/WerRegisterAdditionalProcess"]
+f1_keywords: 
+ - "werapi/WerRegisterAdditionalProcess"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Name property, IWdsTransportNamespace.Name, IWdsTransportNamespace.put_Name, IWdsTransportNamespace::Name, IWdsTransportNamespace::get_Name, IWdsTransportNamespace::put_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportNamespace interface, put_Name, wds.iwdstransportnamespace_name, wdstptmgmt/IWdsTransportNamespace::Name, wdstptmgmt/IWdsTransportNamespace::get_Name, wdstptmgmt/IWdsTransportNamespace::put_Name
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Name"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespace.Name"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

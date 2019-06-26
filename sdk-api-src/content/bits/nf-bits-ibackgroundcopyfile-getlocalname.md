@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyFile.GetLocalName"]
+f1_keywords: 
+ - "bits/IBackgroundCopyFile.GetLocalName"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

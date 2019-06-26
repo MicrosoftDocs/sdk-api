@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream interface [Media Foundation],SaveReference method, IMFObjectReferenceStream.SaveReference, IMFObjectReferenceStream::SaveReference, SaveReference, SaveReference method [Media Foundation], SaveReference method [Media Foundation],IMFObjectReferenceStream interface, mf.imfobjectreferencestream_savereference, mfidl/IMFObjectReferenceStream::SaveReference
 ms.topic: method
-f1_keywords: ["mfidl/IMFObjectReferenceStream.SaveReference"]
+f1_keywords: 
+ - "mfidl/IMFObjectReferenceStream.SaveReference"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

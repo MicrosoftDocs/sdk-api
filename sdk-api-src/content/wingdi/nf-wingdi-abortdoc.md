@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc
 ms.topic: function
-f1_keywords: ["wingdi/AbortDoc"]
+f1_keywords: 
+ - "wingdi/AbortDoc"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

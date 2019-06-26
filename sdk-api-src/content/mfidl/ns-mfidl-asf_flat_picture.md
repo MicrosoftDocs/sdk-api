@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2aa190bd-3431-4f37-bf2b-0801047793b3, ASF_FLAT_PICTURE, ASF_FLAT_PICTURE structure [Media Foundation], mf.asf_flat_picture, mfidl/ASF_FLAT_PICTURE
 ms.topic: struct
-f1_keywords: ["mfidl/ASF_FLAT_PICTURE"]
+f1_keywords: 
+ - "mfidl/ASF_FLAT_PICTURE"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

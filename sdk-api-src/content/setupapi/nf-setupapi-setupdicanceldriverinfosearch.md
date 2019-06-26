@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiCancelDriverInfoSearch, SetupDiCancelDriverInfoSearch function [Device and Driver Installation], devinst.setupdicanceldriverinfosearch, di-rtns_6cdb6cd3-5d8d-4af6-b747-b585d9c25df4.xml, setupapi/SetupDiCancelDriverInfoSearch
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiCancelDriverInfoSearch"]
+f1_keywords: 
+ - "setupapi/SetupDiCancelDriverInfoSearch"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

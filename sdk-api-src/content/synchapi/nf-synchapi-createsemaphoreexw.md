@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
 ms.topic: function
-f1_keywords: ["synchapi/CreateSemaphoreExW"]
+f1_keywords: 
+ - "synchapi/CreateSemaphoreExW"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

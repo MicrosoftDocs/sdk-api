@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsMgmtInqExpAge"]
+f1_keywords: 
+ - "rpcnsi/RpcNsMgmtInqExpAge"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

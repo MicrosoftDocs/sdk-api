@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetExclusive method, IWSDUdpAddress.SetExclusive, IWSDUdpAddress::SetExclusive, SetExclusive, SetExclusive method, SetExclusive method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setexclusive, wsdbase/IWSDUdpAddress::SetExclusive
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDUdpAddress.SetExclusive"]
+f1_keywords: 
+ - "wsdbase/IWSDUdpAddress.SetExclusive"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

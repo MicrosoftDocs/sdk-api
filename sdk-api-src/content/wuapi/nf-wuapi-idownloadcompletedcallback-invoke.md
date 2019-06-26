@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke method, IDownloadCompletedCallback.Invoke, IDownloadCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadCompletedCallback interface, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadCompletedCallback.Invoke"]
+f1_keywords: 
+ - "wuapi/IDownloadCompletedCallback.Invoke"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

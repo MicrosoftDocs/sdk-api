@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
 ms.topic: function
-f1_keywords: ["dsrole/DsRoleGetPrimaryDomainInformation"]
+f1_keywords: 
+ - "dsrole/DsRoleGetPrimaryDomainInformation"
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

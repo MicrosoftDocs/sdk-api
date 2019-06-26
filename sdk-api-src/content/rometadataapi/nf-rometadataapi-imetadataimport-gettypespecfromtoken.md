@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeSpecFromToken, GetTypeSpecFromToken method [Windows Runtime], GetTypeSpecFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeSpecFromToken method, IMetaDataImport.GetTypeSpecFromToken, IMetaDataImport::GetTypeSpecFromToken, rometadataapi/IMetaDataImport::GetTypeSpecFromToken, winrt.imetadataimport_gettypespecfromtoken
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetTypeSpecFromToken"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetTypeSpecFromToken"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

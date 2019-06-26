@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Windows Imaging Component], GetComponentType method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetComponentType method, IWICComponentInfo.GetComponentType, IWICComponentInfo::GetComponentType, _wic_codec_iwiccomponentinfo_getcomponenttype, wic._wic_codec_iwiccomponentinfo_getcomponenttype, wincodec/IWICComponentInfo::GetComponentType
 ms.topic: method
-f1_keywords: ["wincodec/IWICComponentInfo.GetComponentType"]
+f1_keywords: 
+ - "wincodec/IWICComponentInfo.GetComponentType"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

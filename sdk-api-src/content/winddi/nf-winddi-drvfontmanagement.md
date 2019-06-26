@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvFontManagement, DrvFontManagement function [Display Devices], ddifncs_d63b3833-8097-4fe0-b124-567aa07e917c.xml, display.drvfontmanagement, winddi/DrvFontManagement
 ms.topic: function
-f1_keywords: ["winddi/DrvFontManagement"]
+f1_keywords: 
+ - "winddi/DrvFontManagement"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

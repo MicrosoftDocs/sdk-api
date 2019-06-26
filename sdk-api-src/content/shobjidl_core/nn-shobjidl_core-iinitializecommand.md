@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IInitializeCommand"]
+f1_keywords: 
+ - "shobjidl_core/IInitializeCommand"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

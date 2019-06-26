@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.topic: method
-f1_keywords: ["medparam/IMediaParams.AddEnvelope"]
+f1_keywords: 
+ - "medparam/IMediaParams.AddEnvelope"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

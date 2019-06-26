@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.GetGuid"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.GetGuid"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

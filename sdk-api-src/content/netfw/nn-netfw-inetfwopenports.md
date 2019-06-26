@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], INetFwOpenPorts interface [ICS/ICF],described, ics.inetfwopenports, netfw/INetFwOpenPorts
 ms.topic: interface
-f1_keywords: ["netfw/INetFwOpenPorts"]
+f1_keywords: 
+ - "netfw/INetFwOpenPorts"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

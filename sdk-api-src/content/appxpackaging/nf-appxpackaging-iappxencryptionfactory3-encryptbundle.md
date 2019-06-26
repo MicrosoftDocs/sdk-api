@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory3.EncryptBundle"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory3.EncryptBundle"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

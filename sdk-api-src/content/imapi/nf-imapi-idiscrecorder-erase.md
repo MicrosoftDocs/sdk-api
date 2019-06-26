@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Erase, Erase method [IMAPI], Erase method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Erase method, IDiscRecorder.Erase, IDiscRecorder::Erase, _win32_idiscrecorder_erase, base.idiscrecorder_erase, imapi.idiscrecorder_erase, imapi/IDiscRecorder::Erase
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.Erase"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.Erase"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

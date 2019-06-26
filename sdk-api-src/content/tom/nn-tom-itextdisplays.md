@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDisplays, ITextDisplays interface [Windows Controls], ITextDisplays interface [Windows Controls],described, controls.itextdisplays, tom/ITextDisplays
 ms.topic: interface
-f1_keywords: ["tom/ITextDisplays"]
+f1_keywords: 
+ - "tom/ITextDisplays"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass, IEnumTerminalClass interface [TAPI 2.2], IEnumTerminalClass interface [TAPI 2.2],described, _tapi3_ienumterminalclass, tapi3.ienumterminalclass, tapi3if/IEnumTerminalClass
 ms.topic: interface
-f1_keywords: ["tapi3if/IEnumTerminalClass"]
+f1_keywords: 
+ - "tapi3if/IEnumTerminalClass"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

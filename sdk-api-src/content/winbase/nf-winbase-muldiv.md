@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
 ms.topic: function
-f1_keywords: ["winbase/MulDiv"]
+f1_keywords: 
+ - "winbase/MulDiv"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

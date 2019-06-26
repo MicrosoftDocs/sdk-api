@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntrySet, MprAdminMIBEntrySet function [RAS], _mpr_mpradminmibentryset, mprapi/MprAdminMIBEntrySet, rras.mpradminmibentryset
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBEntrySet"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBEntrySet"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1SinCos, D2D1SinCos function [Direct2D], d2d1_1/D2D1SinCos, direct2d.d2d1sincos
 ms.topic: function
-f1_keywords: ["d2d1_1/D2D1SinCos"]
+f1_keywords: 
+ - "d2d1_1/D2D1SinCos"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

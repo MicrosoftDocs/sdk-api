@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],IsPreroll method, IMediaSample.IsPreroll, IMediaSample::IsPreroll, IMediaSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_ispreroll, strmif/IMediaSample::IsPreroll
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.IsPreroll"]
+f1_keywords: 
+ - "strmif/IMediaSample.IsPreroll"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

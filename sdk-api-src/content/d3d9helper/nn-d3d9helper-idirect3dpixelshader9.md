@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1b9d322d-ffbe-622f-e100-b394c60f0d5d, IDirect3DPixelShader9, IDirect3DPixelShader9 interface [Direct3D 9], IDirect3DPixelShader9 interface [Direct3D 9],described, d3d9helper/IDirect3DPixelShader9, direct3d9.idirect3dpixelshader9
 ms.topic: interface
-f1_keywords: ["d3d9helper/IDirect3DPixelShader9"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DPixelShader9"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

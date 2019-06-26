@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterface.SetPreferredProviders"]
+f1_keywords: 
+ - "mbnapi/IMbnInterface.SetPreferredProviders"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

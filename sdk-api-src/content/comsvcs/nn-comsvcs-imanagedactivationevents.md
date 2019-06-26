@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IManagedActivationEvents"]
+f1_keywords: 
+ - "comsvcs/IManagedActivationEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

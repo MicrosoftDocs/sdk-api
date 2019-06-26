@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOPENFILENAME_NT4W, OPENFILENAME_NT4, OPENFILENAME_NT4 structure [Dialog Boxes], OPENFILENAME_NT4A, OPENFILENAME_NT4W, _win32_OPENFILENAME_NT4_str, _win32_openfilename_nt4_str_cpp, commdlg/OPENFILENAME_NT4, commdlg/OPENFILENAME_NT4A, commdlg/OPENFILENAME_NT4W, dlgbox.openfilename_nt4_str, winui._win32_openfilename_nt4_str"
 ms.topic: struct
-f1_keywords: ["commdlg/OPENFILENAME_NT4"]
+f1_keywords: 
+ - "commdlg/OPENFILENAME_NT4"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatZ, XMVectorSplatZ, XMVectorSplatZ method [DirectX Math Support APIs], dxmath.xmvectorsplatz
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSplatZ"]
+f1_keywords: 
+ - "directxmath/XMVectorSplatZ"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

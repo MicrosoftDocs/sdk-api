@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePageFromStream, CreatePageFromStream method [XPS Documents and Packaging], CreatePageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageFromStream method, IXpsOMObjectFactory.CreatePageFromStream, IXpsOMObjectFactory::CreatePageFromStream, TRUE, xps.ixpsomobjectfactory_createpagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePageFromStream
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMObjectFactory.CreatePageFromStream"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMObjectFactory.CreatePageFromStream"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

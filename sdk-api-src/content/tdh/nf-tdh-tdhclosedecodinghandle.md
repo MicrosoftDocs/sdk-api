@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
 ms.topic: function
-f1_keywords: ["tdh/TdhCloseDecodingHandle"]
+f1_keywords: 
+ - "tdh/TdhCloseDecodingHandle"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

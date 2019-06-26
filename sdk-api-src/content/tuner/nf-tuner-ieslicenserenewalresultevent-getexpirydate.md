@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [DirectShow], GetExpiryDate method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetExpiryDate method, IESLicenseRenewalResultEvent.GetExpiryDate, IESLicenseRenewalResultEvent::GetExpiryDate, mstv.ieslicenserenewalresultevent_getexpirydate, tuner/IESLicenseRenewalResultEvent::GetExpiryDate
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.GetExpiryDate"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.GetExpiryDate"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

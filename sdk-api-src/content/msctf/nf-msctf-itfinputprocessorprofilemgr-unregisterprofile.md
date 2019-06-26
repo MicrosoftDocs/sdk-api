@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],UnregisterProfile method, ITfInputProcessorProfileMgr.UnregisterProfile, ITfInputProcessorProfileMgr::UnregisterProfile, TF_URP_ALLPROFILES, TF_URP_LOCALPROCESS, TF_URP_LOCALTHREAD, UnregisterProfile, UnregisterProfile method [Text Services Framework], UnregisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, msctf/ITfInputProcessorProfileMgr::UnregisterProfile, tsf.itfinputprocessorprofilemgr_unregisterprofile
 ms.topic: method
-f1_keywords: ["msctf/ITfInputProcessorProfileMgr.UnregisterProfile"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfileMgr.UnregisterProfile"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

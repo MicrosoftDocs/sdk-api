@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRefActCtx, AddRefActCtx function [Side-by-side Assemblies], _win32_addrefactctx, setup.addrefactctx, winbase/AddRefActCtx
 ms.topic: function
-f1_keywords: ["winbase/AddRefActCtx"]
+f1_keywords: 
+ - "winbase/AddRefActCtx"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Install method, IUpdateInstaller.Install, IUpdateInstaller::Install, Install, Install method [Windows Update Agent], Install method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_install, wuapi/IUpdateInstaller::Install
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.Install"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.Install"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attributes, Attributes method [SMI], Attributes method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Attributes method, ISettingsItem.Attributes, ISettingsItem::Attributes, smi.isettingsitem_attributes, wcmconfig/ISettingsItem::Attributes
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.Attributes"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.Attributes"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

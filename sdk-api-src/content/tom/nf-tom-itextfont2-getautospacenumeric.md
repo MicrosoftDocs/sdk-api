@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAutospaceNumeric, GetAutospaceNumeric method [Windows Controls], GetAutospaceNumeric method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceNumeric method, ITextFont2.GetAutospaceNumeric, ITextFont2::GetAutospaceNumeric, controls.itextfont2_getautospacenumeric, tom/ITextFont2::GetAutospaceNumeric
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetAutospaceNumeric"]
+f1_keywords: 
+ - "tom/ITextFont2.GetAutospaceNumeric"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

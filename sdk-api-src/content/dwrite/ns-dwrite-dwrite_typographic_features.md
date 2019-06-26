@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TYPOGRAPHIC_FEATURES, DWRITE_TYPOGRAPHIC_FEATURES structure [Direct Write], directwrite.dwrite_typographic_features, dwrite/DWRITE_TYPOGRAPHIC_FEATURES
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_TYPOGRAPHIC_FEATURES"]
+f1_keywords: 
+ - "dwrite/DWRITE_TYPOGRAPHIC_FEATURES"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

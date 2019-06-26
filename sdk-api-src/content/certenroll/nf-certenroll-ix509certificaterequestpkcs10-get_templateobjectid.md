@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],TemplateObjectId property, IX509CertificateRequestPkcs10.TemplateObjectId, IX509CertificateRequestPkcs10.get_TemplateObjectId, IX509CertificateRequestPkcs10::TemplateObjectId, IX509CertificateRequestPkcs10::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::TemplateObjectId, certenroll/IX509CertificateRequestPkcs10::get_TemplateObjectId, get_TemplateObjectId, security.ix509certificaterequestpkcs10_templateobjectid_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs10.TemplateObjectId"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs10.TemplateObjectId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

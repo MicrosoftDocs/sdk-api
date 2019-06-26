@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalId, GetLocalId method [Core Audio], GetLocalId method [Core Audio],IPart interface, IPart interface [Core Audio],GetLocalId method, IPart.GetLocalId, IPart::GetLocalId, IPartGetLocalId, coreaudio.ipart_getlocalid, devicetopology/IPart::GetLocalId
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.GetLocalId"]
+f1_keywords: 
+ - "devicetopology/IPart.GetLocalId"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

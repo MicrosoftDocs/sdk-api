@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
 ms.topic: function
-f1_keywords: ["ntsecapi/RtlGenRandom"]
+f1_keywords: 
+ - "ntsecapi/RtlGenRandom"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

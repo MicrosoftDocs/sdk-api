@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceKind property [Tablet PC], DeviceKind property [Tablet PC],IInkTablet2 interface, DeviceKind property [Tablet PC],TBD object, IInkTablet2 interface [Tablet PC],DeviceKind property, IInkTablet2.DeviceKind, IInkTablet2.get_DeviceKind, IInkTablet2::DeviceKind, IInkTablet2::get_DeviceKind, TBD object [Tablet PC],DeviceKind property, get_DeviceKind, msinkaut/IInkTablet2::DeviceKind, msinkaut/IInkTablet2::get_DeviceKind, tablet.iinktablet2_devicekind
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTablet2.DeviceKind"]
+f1_keywords: 
+ - "msinkaut/IInkTablet2.DeviceKind"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

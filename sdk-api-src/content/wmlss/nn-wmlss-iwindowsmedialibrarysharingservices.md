@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
 ms.topic: interface
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

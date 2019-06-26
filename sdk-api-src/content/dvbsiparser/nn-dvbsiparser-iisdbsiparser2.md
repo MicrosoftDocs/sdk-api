@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], IIsdbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSiParser2, mstv.iisdbsiparser2
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbSiParser2"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbSiParser2"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

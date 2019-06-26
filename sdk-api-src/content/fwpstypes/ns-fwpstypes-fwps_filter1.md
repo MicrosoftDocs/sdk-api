@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER1, FWPS_FILTER1 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER1, netvista.fwps_filter1, wfp_ref_3_struct_3_fwps_F-O_4091c3ca-8d86-4a94-a138-01a6ce09cca8.xml
 ms.topic: struct
-f1_keywords: ["fwpstypes/FWPS_FILTER1"]
+f1_keywords: 
+ - "fwpstypes/FWPS_FILTER1"
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

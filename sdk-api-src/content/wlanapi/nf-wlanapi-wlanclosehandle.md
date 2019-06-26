@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle
 ms.topic: function
-f1_keywords: ["wlanapi/WlanCloseHandle"]
+f1_keywords: 
+ - "wlanapi/WlanCloseHandle"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

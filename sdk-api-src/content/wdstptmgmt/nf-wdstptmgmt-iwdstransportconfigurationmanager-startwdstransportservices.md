@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],StartWdsTransportServices method, IWdsTransportConfigurationManager.StartWdsTransportServices, IWdsTransportConfigurationManager::StartWdsTransportServices, StartWdsTransportServices, StartWdsTransportServices method [Windows Deployment Services], StartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_startwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.StartWdsTransportServices"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportConfigurationManager.StartWdsTransportServices"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

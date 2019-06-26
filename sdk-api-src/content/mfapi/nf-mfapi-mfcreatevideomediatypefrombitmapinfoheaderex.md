@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx, MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheaderex, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx"]
+f1_keywords: 
+ - "mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

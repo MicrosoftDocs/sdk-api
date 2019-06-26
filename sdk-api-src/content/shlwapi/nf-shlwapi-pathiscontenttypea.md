@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsContentType"]
+f1_keywords: 
+ - "shlwapi/PathIsContentType"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

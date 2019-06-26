@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcStringBindingCompose"]
+f1_keywords: 
+ - "rpcdce/RpcStringBindingCompose"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

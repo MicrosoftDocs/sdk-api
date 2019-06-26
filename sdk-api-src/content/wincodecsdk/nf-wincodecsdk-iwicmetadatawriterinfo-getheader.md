@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataWriterInfo.GetHeader"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataWriterInfo.GetHeader"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

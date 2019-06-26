@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], INetSharingPortMappingProps interface [ICS/ICF],described, _ics_inetsharingportmappingprops, ics.inetsharingportmappingprops, netcon/INetSharingPortMappingProps
 ms.topic: interface
-f1_keywords: ["netcon/INetSharingPortMappingProps"]
+f1_keywords: 
+ - "netcon/INetSharingPortMappingProps"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

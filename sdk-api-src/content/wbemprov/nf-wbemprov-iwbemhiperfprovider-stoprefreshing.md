@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],StopRefreshing method, IWbemHiPerfProvider.StopRefreshing, IWbemHiPerfProvider::StopRefreshing, StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemHiPerfProvider.StopRefreshing"]
+f1_keywords: 
+ - "wbemprov/IWbemHiPerfProvider.StopRefreshing"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

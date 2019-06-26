@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage
 ms.topic: function
-f1_keywords: ["propsys/PSCreatePropertyStoreFromPropertySetStorage"]
+f1_keywords: 
+ - "propsys/PSCreatePropertyStoreFromPropertySetStorage"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

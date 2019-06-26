@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6a517464-81db-3af7-335a-c1eefddd9385, ID3D11DeviceContext interface [Direct3D 11],RSSetState method, ID3D11DeviceContext.RSSetState, ID3D11DeviceContext::RSSetState, RSSetState, RSSetState method [Direct3D 11], RSSetState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetState, direct3d11.id3d11devicecontext_rssetstate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.RSSetState"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.RSSetState"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

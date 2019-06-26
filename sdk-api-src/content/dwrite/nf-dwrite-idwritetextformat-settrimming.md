@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTrimming method, IDWriteTextFormat.SetTrimming, IDWriteTextFormat::SetTrimming, SetTrimming, SetTrimming method [Direct Write], SetTrimming method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTrimming, dwrite/IDWriteTextFormat::SetTrimming
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextFormat.SetTrimming"]
+f1_keywords: 
+ - "dwrite/IDWriteTextFormat.SetTrimming"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextSiblingElement, GetNextSiblingElement method [Windows Accessibility], GetNextSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElement method, IUIAutomationTreeWalker.GetNextSiblingElement, IUIAutomationTreeWalker::GetNextSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSibling, uiauto_IUIAutomationTreeWalker_GetNextSibling, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetNextSibling
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElement"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElement"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

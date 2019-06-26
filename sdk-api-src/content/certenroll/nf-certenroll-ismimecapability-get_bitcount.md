@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property
 ms.topic: method
-f1_keywords: ["certenroll/ISmimeCapability.BitCount"]
+f1_keywords: 
+ - "certenroll/ISmimeCapability.BitCount"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

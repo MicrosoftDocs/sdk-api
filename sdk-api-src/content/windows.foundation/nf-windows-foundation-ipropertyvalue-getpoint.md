@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPoint, GetPoint method [Windows Runtime], GetPoint method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetPoint method, IPropertyValue.GetPoint, IPropertyValue.IPropertyValue, IPropertyValue::GetPoint, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetPoint, winrt.ipropertyvalue_getpoint
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetPoint"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetPoint"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

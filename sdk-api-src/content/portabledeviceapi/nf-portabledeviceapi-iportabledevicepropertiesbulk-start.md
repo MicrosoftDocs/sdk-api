@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Start method, IPortableDevicePropertiesBulk.Start, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDevicePropertiesBulk.Start"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevicePropertiesBulk.Start"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

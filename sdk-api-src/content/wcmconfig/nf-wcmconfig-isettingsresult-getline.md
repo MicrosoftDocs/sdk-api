@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsResult.GetLine"]
+f1_keywords: 
+ - "wcmconfig/ISettingsResult.GetLine"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

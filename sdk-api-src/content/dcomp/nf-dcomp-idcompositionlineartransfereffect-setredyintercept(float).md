@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(float), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(float), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionLinearTransferEffect.SetRedYIntercept"]
+f1_keywords: 
+ - "dcomp/IDCompositionLinearTransferEffect.SetRedYIntercept"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

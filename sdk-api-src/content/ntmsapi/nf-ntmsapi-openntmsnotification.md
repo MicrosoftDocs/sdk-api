@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsNotification, OpenNtmsNotification function [Files], _zaw_openntmsnotification, base.openntmsnotification, fs.openntmsnotification, ntmsapi/OpenNtmsNotification
 ms.topic: function
-f1_keywords: ["ntmsapi/OpenNtmsNotification"]
+f1_keywords: 
+ - "ntmsapi/OpenNtmsNotification"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

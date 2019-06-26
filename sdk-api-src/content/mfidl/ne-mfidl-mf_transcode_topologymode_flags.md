@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_TOPOLOGYMODE_FLAGS, MF_TRANSCODE_TOPOLOGYMODE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY, mf.mf_transcode_topologymode_flags, mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS, mfidl/MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, mfidl/MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY
 ms.topic: enum
-f1_keywords: ["mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS"]
+f1_keywords: 
+ - "mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

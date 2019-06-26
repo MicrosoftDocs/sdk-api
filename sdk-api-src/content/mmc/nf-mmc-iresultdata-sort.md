@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],Sort method, IResultData.Sort, IResultData2 interface [MMC],Sort method, IResultData2::Sort, IResultData::Sort, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, Sort, Sort method [MMC], Sort method [MMC],IResultData interface, Sort method [MMC],IResultData2 interface, _slate_iresultdata_sort, mmc.iresultdata_sort, mmc/IResultData2::Sort, mmc/IResultData::Sort
 ms.topic: method
-f1_keywords: ["mmc/IResultData.Sort"]
+f1_keywords: 
+ - "mmc/IResultData.Sort"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

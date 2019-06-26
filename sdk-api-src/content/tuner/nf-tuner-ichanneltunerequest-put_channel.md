@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],put_Channel method, IChannelTuneRequest.put_Channel, IChannelTuneRequest::put_Channel, IChannelTuneRequestput_Channel, mstv.ichanneltunerequest_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, tuner/IChannelTuneRequest::put_Channel
 ms.topic: method
-f1_keywords: ["tuner/IChannelTuneRequest.put_Channel"]
+f1_keywords: 
+ - "tuner/IChannelTuneRequest.put_Channel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

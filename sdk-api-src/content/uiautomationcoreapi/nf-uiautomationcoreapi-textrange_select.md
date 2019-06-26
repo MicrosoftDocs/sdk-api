@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_Select, TextRange_Select function [Windows Accessibility], uiauto.uiauto_TextRange_SelectConPat, uiauto_TextRange_SelectConPat, uiautomationcoreapi/TextRange_Select, winauto.uiauto_TextRange_SelectConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_Select"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_Select"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

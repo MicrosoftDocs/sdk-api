@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScopeCount, GetScopeCount method [Windows Management Instrumentation], GetScopeCount method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScopeCount method, IWbemPath.GetScopeCount, IWbemPath::GetScopeCount, _hmm_iwbempath_getscopecount, wmi.iwbempath_getscopecount, wmiutils/IWbemPath::GetScopeCount
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.GetScopeCount"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.GetScopeCount"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE function [Failover Cluster], ResUtilSetSzValue, ResUtilSetSzValue function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE, resapi/ResUtilSetSzValue
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetSzValue"]
+f1_keywords: 
+ - "resapi/ResUtilSetSzValue"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

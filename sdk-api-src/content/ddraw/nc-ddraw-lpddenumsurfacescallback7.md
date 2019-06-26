@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback7, EnumSurfacesCallback7 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK7, LPDDENUMSURFACESCALLBACK7 callback, ddraw/EnumSurfacesCallback7, directdraw.enumsurfacescallback7
 ms.topic: callback
-f1_keywords: ["ddraw/EnumSurfacesCallback7"]
+f1_keywords: 
+ - "ddraw/EnumSurfacesCallback7"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

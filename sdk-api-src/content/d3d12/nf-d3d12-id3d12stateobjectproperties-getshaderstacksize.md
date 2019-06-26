@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShaderStackSize, GetShaderStackSize method, GetShaderStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderStackSize method, ID3D12StateObjectProperties.GetShaderStackSize, ID3D12StateObjectProperties::GetShaderStackSize, d3d12/ID3D12StateObjectProperties::GetShaderStackSize, direct3d12.id3d12stateobjectproperties_getshaderstacksize
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12StateObjectProperties.GetShaderStackSize"]
+f1_keywords: 
+ - "d3d12/ID3D12StateObjectProperties.GetShaderStackSize"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

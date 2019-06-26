@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, IUIAutomationSelectionPattern::CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern.CachedCanSelectMultiple"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSelectionPattern.CachedCanSelectMultiple"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

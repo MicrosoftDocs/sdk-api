@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_RemoveFromSelection, SelectionItemPattern_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection, winauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection"]
+f1_keywords: 
+ - "uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

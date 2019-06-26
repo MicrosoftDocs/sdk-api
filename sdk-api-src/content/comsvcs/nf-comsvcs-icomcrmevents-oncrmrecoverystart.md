@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryStart method, IComCRMEvents.OnCRMRecoveryStart, IComCRMEvents::OnCRMRecoveryStart, OnCRMRecoveryStart, OnCRMRecoveryStart method [COM+], OnCRMRecoveryStart method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryStart, comsvcs/IComCRMEvents::OnCRMRecoveryStart, cos.icomcrmevents_oncrmrecoverystart
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMRecoveryStart"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMRecoveryStart"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzRole object, AddMember method [Security],IAzRole interface, AzRole object [Security],AddMember method, IAzRole interface [Security],AddMember method, IAzRole.AddMember, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.AddMember"]
+f1_keywords: 
+ - "azroles/IAzRole.AddMember"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

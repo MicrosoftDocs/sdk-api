@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
 ms.topic: ioctl
-f1_keywords: ["pwm/IOCTL_PWM_PIN_GET_POLARITY"]
+f1_keywords: 
+ - "pwm/IOCTL_PWM_PIN_GET_POLARITY"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataType, GetDataType method [Text Services Framework], GetDataType method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetDataType method, ITfPropertyStore.GetDataType, ITfPropertyStore::GetDataType, _tsf_itfpropertystore_getdatatype_ref, msctf/ITfPropertyStore::GetDataType, tsf.itfpropertystore_getdatatype
 ms.topic: method
-f1_keywords: ["msctf/ITfPropertyStore.GetDataType"]
+f1_keywords: 
+ - "msctf/ITfPropertyStore.GetDataType"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

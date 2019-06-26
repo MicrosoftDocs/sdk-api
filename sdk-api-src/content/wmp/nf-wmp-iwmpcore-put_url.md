@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_URL method, IWMPCore.put_URL, IWMPCore::put_URL, IWMPCoreput_URL, put_URL, put_URL method [Windows Media Player], put_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_url, wmp/IWMPCore::put_URL
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.put_URL"]
+f1_keywords: 
+ - "wmp/IWMPCore.put_URL"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

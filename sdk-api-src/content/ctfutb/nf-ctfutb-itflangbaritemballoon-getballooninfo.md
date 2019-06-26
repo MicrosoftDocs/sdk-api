@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemBalloon.GetBalloonInfo"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBalloon.GetBalloonInfo"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

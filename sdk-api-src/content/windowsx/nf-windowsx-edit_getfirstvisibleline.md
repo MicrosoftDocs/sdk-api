@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFirstVisibleLine, Edit_GetFirstVisibleLine macro [Windows Controls], _win32_Edit_GetFirstVisibleLine, _win32_Edit_GetFirstVisibleLine_cpp, controls.Edit_GetFirstVisibleLine, controls._win32_Edit_GetFirstVisibleLine, windowsx/Edit_GetFirstVisibleLine
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_GetFirstVisibleLine"]
+f1_keywords: 
+ - "windowsx/Edit_GetFirstVisibleLine"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

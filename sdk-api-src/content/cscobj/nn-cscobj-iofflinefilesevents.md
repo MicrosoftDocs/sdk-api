@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], IOfflineFilesEvents interface [Offline Files],described, cscobj/IOfflineFilesEvents, of.iofflinefilesevents
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesEvents"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

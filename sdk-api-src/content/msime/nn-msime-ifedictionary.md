@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.topic: interface
-f1_keywords: ["msime/IFEDictionary"]
+f1_keywords: 
+ - "msime/IFEDictionary"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

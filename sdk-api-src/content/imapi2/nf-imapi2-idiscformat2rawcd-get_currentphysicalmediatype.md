@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2RawCD.get_CurrentPhysicalMediaType, IDiscFormat2RawCD::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentphysicalmediatype, imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2RawCD.get_CurrentPhysicalMediaType"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2RawCD.get_CurrentPhysicalMediaType"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

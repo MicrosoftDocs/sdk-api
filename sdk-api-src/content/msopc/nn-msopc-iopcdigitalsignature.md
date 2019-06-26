@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
 ms.topic: interface
-f1_keywords: ["msopc/IOpcDigitalSignature"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

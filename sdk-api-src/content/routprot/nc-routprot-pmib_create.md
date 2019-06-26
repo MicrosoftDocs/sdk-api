@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, PMIB_CREATE callback, _mpr_mibcreate, routprot/MibCreate, rras.mibcreate
 ms.topic: callback
-f1_keywords: ["routprot/MibCreate"]
+f1_keywords: 
+ - "routprot/MibCreate"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

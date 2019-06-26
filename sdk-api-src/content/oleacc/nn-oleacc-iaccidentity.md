@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility],described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
 ms.topic: interface
-f1_keywords: ["oleacc/IAccIdentity"]
+f1_keywords: 
+ - "oleacc/IAccIdentity"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

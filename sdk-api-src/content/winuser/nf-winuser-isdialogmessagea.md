@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsDialogMessage, IsDialogMessage function [Dialog Boxes], IsDialogMessageA, IsDialogMessageW, _win32_IsDialogMessage, _win32_isdialogmessage_cpp, dlgbox.isdialogmessage, winui._win32_isdialogmessage, winuser/IsDialogMessage, winuser/IsDialogMessageA, winuser/IsDialogMessageW
 ms.topic: function
-f1_keywords: ["winuser/IsDialogMessage"]
+f1_keywords: 
+ - "winuser/IsDialogMessage"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

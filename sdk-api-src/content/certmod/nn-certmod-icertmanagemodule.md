@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.topic: interface
-f1_keywords: ["certmod/ICertManageModule"]
+f1_keywords: 
+ - "certmod/ICertManageModule"
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows

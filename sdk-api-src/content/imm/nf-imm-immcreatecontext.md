@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmCreateContext, ImmCreateContext function [Internationalization for Windows Applications], _win32_ImmCreateContext, imm/ImmCreateContext, intl.immcreatecontext
 ms.topic: function
-f1_keywords: ["imm/ImmCreateContext"]
+f1_keywords: 
+ - "imm/ImmCreateContext"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

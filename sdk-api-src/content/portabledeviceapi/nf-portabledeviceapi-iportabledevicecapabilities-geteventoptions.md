@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventOptions, GetEventOptions method [Windows Portable Devices SDK], GetEventOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities method, IPortableDeviceCapabilities method [Windows Portable Devices SDK],GetEventOptions method, IPortableDeviceCapabilities.GetEventOptions, IPortableDeviceCapabilities::GetEventOptions, IPortableDeviceCapabilitiesGetEventOptions, portabledeviceapi/IPortableDeviceCapabilities::GetEventOptions, wpdsdk.iportabledevicecapabilities_geteventoptions
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceCapabilities.GetEventOptions"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceCapabilities.GetEventOptions"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

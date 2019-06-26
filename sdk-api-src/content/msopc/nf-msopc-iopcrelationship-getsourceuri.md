@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetSourceUri method, IOpcRelationship.GetSourceUri, IOpcRelationship::GetSourceUri, msopc/IOpcRelationship::GetSourceUri, opc.iopcrelationship_getsourceuri
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationship.GetSourceUri"]
+f1_keywords: 
+ - "msopc/IOpcRelationship.GetSourceUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

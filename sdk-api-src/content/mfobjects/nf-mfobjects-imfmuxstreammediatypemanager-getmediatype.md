@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 structure pointer [DHCP], SCOPE_MIB_INFO_V5, SCOPE_MIB_INFO_V5 structure [DHCP], dhcp.scope_mib_info_v5, dhcpsapi/LPSCOPE_MIB_INFO_V5, dhcpsapi/SCOPE_MIB_INFO_V5"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/SCOPE_MIB_INFO_V5"]
+f1_keywords: 
+ - "dhcpsapi/SCOPE_MIB_INFO_V5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA structure [Human Input Devices], PKEYBOARD_INPUT_DATA, PKEYBOARD_INPUT_DATA structure pointer [Human Input Devices], hid.keyboard_input_data, kref_5fd34b1f-6ad2-4eaf-971a-8adedb3bada9.xml, ntddkbd/KEYBOARD_INPUT_DATA, ntddkbd/PKEYBOARD_INPUT_DATA"
 ms.topic: struct
-f1_keywords: ["ntddkbd/KEYBOARD_INPUT_DATA"]
+f1_keywords: 
+ - "ntddkbd/KEYBOARD_INPUT_DATA"
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

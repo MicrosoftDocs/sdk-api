@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Privilege method, ITPhone.get_Privilege, ITPhone::get_Privilege, _tapi3_itphone_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_privilege, tapi3if/ITPhone::get_Privilege
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.get_Privilege"]
+f1_keywords: 
+ - "tapi3if/ITPhone.get_Privilege"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

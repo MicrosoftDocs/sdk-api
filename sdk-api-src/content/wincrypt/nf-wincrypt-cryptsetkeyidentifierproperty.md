@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_KEYID_DELETE_FLAG, CRYPT_KEYID_MACHINE_FLAG, CRYPT_KEYID_SET_NEW_FLAG, CryptSetKeyIdentifierProperty, CryptSetKeyIdentifierProperty function [Security], _crypto2_cryptsetkeyidentifierproperty, security.cryptsetkeyidentifierproperty, wincrypt/CryptSetKeyIdentifierProperty
 ms.topic: function
-f1_keywords: ["wincrypt/CryptSetKeyIdentifierProperty"]
+f1_keywords: 
+ - "wincrypt/CryptSetKeyIdentifierProperty"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

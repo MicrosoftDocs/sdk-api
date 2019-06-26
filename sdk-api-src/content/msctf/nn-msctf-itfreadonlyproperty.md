@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
 ms.topic: interface
-f1_keywords: ["msctf/ITfReadOnlyProperty"]
+f1_keywords: 
+ - "msctf/ITfReadOnlyProperty"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

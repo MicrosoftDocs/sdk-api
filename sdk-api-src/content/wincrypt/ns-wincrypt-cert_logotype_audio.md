@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO structure [Security], PCERT_LOGOTYPE_AUDIO, PCERT_LOGOTYPE_AUDIO structure pointer [Security], security.cert_logotype_audio, wincrypt/CERT_LOGOTYPE_AUDIO, wincrypt/PCERT_LOGOTYPE_AUDIO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_LOGOTYPE_AUDIO"]
+f1_keywords: 
+ - "wincrypt/CERT_LOGOTYPE_AUDIO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

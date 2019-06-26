@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],ResumeCurrentScan method, IScanningTunerEx.ResumeCurrentScan, IScanningTunerEx::ResumeCurrentScan, IScanningTunerExResumeCurrentScan, ResumeCurrentScan, ResumeCurrentScan method [Microsoft TV Technologies], ResumeCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_resumecurrentscan, tuner/IScanningTunerEx::ResumeCurrentScan
 ms.topic: method
-f1_keywords: ["tuner/IScanningTunerEx.ResumeCurrentScan"]
+f1_keywords: 
+ - "tuner/IScanningTunerEx.ResumeCurrentScan"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

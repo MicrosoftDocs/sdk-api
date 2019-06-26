@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bitRate method, IWMPNetwork.get_bitRate, IWMPNetwork::get_bitRate, IWMPNetworkget_bitRate, get_bitRate, get_bitRate method [Windows Media Player], get_bitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bitrate, wmp/IWMPNetwork::get_bitRate
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.get_bitRate"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.get_bitRate"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

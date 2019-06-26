@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardDisconnect, SCardDisconnect function [Security], _smart_scarddisconnect, security.scarddisconnect, winscard/SCardDisconnect
 ms.topic: function
-f1_keywords: ["winscard/SCardDisconnect"]
+f1_keywords: 
+ - "winscard/SCardDisconnect"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

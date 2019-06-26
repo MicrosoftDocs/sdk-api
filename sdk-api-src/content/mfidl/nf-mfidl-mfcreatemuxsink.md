@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxSink, MFCreateMuxSink function [Media Foundation], mf.mfcreatemuxsink, mfidl/MFCreateMuxSink
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateMuxSink"]
+f1_keywords: 
+ - "mfidl/MFCreateMuxSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

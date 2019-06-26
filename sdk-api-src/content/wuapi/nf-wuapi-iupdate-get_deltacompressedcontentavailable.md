@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeltaCompressedContentAvailable property [Windows Update Agent], DeltaCompressedContentAvailable property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentAvailable property, IUpdate.DeltaCompressedContentAvailable, IUpdate.get_DeltaCompressedContentAvailable, IUpdate::DeltaCompressedContentAvailable, IUpdate::get_DeltaCompressedContentAvailable, get_DeltaCompressedContentAvailable, wua.iupdate_deltacompressedcontentavailable, wuapi/IUpdate::DeltaCompressedContentAvailable, wuapi/IUpdate::get_DeltaCompressedContentAvailable
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.DeltaCompressedContentAvailable"]
+f1_keywords: 
+ - "wuapi/IUpdate.DeltaCompressedContentAvailable"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

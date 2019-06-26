@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor, mstv.iisdbterrestrialdeliverysystemdescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

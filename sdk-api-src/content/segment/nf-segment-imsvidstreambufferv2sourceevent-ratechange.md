@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferV2SourceEvent.RateChange, IMSVidStreamBufferV2SourceEvent::RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratechange, segment/IMSVidStreamBufferV2SourceEvent::RateChange
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferV2SourceEvent.RateChange"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferV2SourceEvent.RateChange"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

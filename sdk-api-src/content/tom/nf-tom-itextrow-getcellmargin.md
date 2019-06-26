@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellMargin, GetCellMargin method [Windows Controls], GetCellMargin method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMargin method, ITextRow.GetCellMargin, ITextRow::GetCellMargin, controls.itextrow_getcellmargin, tom/ITextRow::GetCellMargin
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellMargin"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellMargin"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

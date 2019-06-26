@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetResolution method, IWICBitmapFrameEncode.SetResolution, IWICBitmapFrameEncode::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetResolution"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetResolution"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

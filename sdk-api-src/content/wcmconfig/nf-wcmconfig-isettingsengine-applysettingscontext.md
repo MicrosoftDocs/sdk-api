@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],ApplySettingsContext method, ISettingsEngine.ApplySettingsContext, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsEngine.ApplySettingsContext"]
+f1_keywords: 
+ - "wcmconfig/ISettingsEngine.ApplySettingsContext"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

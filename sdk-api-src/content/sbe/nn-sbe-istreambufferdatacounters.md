@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferDataCounters, IStreamBufferDataCounters interface [Microsoft TV Technologies], IStreamBufferDataCounters interface [Microsoft TV Technologies],described, IStreamBufferDataCountersInterface, mstv.istreambufferdatacounters, sbe/IStreamBufferDataCounters
 ms.topic: interface
-f1_keywords: ["sbe/IStreamBufferDataCounters"]
+f1_keywords: 
+ - "sbe/IStreamBufferDataCounters"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

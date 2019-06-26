@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFirst, GetFirst method [HTML Help Workshop], GetFirst method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetFirst method, IITPropList.GetFirst, IITPropList::GetFirst, htmlhelp.iitproplist_getfirst, infotech/IITPropList::GetFirst, refIITPropListGetFirst
 ms.topic: method
-f1_keywords: ["infotech/IITPropList.GetFirst"]
+f1_keywords: 
+ - "infotech/IITPropList.GetFirst"
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

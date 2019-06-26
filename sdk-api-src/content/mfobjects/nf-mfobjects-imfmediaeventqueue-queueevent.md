@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEvent method, IMFMediaEventQueue.QueueEvent, IMFMediaEventQueue::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventQueue interface, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaEventQueue.QueueEvent"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEventQueue.QueueEvent"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

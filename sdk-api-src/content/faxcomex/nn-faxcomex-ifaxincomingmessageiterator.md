@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxIncomingMessageIterator"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingMessageIterator"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray"
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

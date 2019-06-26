@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetItemObject method, ISyncMgrSynchronize.GetItemObject, ISyncMgrSynchronize::GetItemObject, mobsync/ISyncMgrSynchronize::GetItemObject, shell.syncmgr_isyncmgrsynchronize_getitemobject, syncmgr.isyncmgrsynchronize_getitemobject
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronize.GetItemObject"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronize.GetItemObject"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACTIVATEFLAGS, ACTIVATEFLAGS enumeration [COM], ACTIVATE_WINDOWLESS, _ole_ACTIVATEFLAGS, com.activateflags, ocidl/ACTIVATEFLAGS, ocidl/ACTIVATE_WINDOWLESS
 ms.topic: enum
-f1_keywords: ["ocidl/ACTIVATEFLAGS"]
+f1_keywords: 
+ - "ocidl/ACTIVATEFLAGS"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

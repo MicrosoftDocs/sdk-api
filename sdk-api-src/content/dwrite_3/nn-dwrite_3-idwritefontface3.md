@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace3, IDWriteFontFace3 interface [Direct Write], IDWriteFontFace3 interface [Direct Write],described, directwrite.idwritefontface3, dwrite_3/IDWriteFontFace3
 ms.topic: interface
-f1_keywords: ["dwrite_3/IDWriteFontFace3"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

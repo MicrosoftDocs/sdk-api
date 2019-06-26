@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method, BeginPrepareSnapshot method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,BeginPrepareSnapshot method, IVssSoftwareSnapshotProvider.BeginPrepareSnapshot, IVssSoftwareSnapshotProvider::BeginPrepareSnapshot, base.ivsssoftwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
 ms.topic: method
-f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider.BeginPrepareSnapshot"]
+f1_keywords: 
+ - "vsprov/IVssSoftwareSnapshotProvider.BeginPrepareSnapshot"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

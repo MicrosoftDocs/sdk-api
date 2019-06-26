@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], IEnumDirectory interface [TAPI 2.2],described, _tapi3_ienumdirectory, rend/IEnumDirectory, tapi3.ienumdirectory
 ms.topic: interface
-f1_keywords: ["rend/IEnumDirectory"]
+f1_keywords: 
+ - "rend/IEnumDirectory"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

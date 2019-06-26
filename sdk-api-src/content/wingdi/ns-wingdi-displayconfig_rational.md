@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_6b317b78-bbb5-4f49-9dee-2c9597c19957.xml, DISPLAYCONFIG_RATIONAL, DISPLAYCONFIG_RATIONAL structure [Display Devices], display.displayconfig_rational, wingdi/DISPLAYCONFIG_RATIONAL
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_RATIONAL"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_RATIONAL"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

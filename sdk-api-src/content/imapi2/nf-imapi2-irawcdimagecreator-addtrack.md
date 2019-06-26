@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.AddTrack"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.AddTrack"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

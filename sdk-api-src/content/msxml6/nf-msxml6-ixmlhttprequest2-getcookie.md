@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2.GetCookie"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2.GetCookie"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

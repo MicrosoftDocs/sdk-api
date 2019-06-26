@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (MI)], mi/MI_Server, wmi._mi_server, wmi_v2.mi_server
 ms.topic: struct
-f1_keywords: ["mi/MI_Server"]
+f1_keywords: 
+ - "mi/MI_Server"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

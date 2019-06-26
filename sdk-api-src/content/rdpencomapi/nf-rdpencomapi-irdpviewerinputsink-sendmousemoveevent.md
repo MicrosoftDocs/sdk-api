@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseMoveEvent method, IRDPViewerInputSink.SendMouseMoveEvent, IRDPViewerInputSink::SendMouseMoveEvent, SendMouseMoveEvent, SendMouseMoveEvent method [RDP], SendMouseMoveEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousemoveevent, rdpencomapi/IRDPViewerInputSink::SendMouseMoveEvent
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPViewerInputSink.SendMouseMoveEvent"]
+f1_keywords: 
+ - "rdpencomapi/IRDPViewerInputSink.SendMouseMoveEvent"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

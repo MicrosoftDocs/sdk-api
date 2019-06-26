@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob.get_IsCompleted, IDownloadJob::IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IDownloadJob interface, get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadJob.IsCompleted"]
+f1_keywords: 
+ - "wuapi/IDownloadJob.IsCompleted"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

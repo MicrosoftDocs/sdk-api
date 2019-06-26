@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSession, CreateSession method [TAPI 2.2], CreateSession method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSession method, ITAgent.CreateSession, ITAgent::CreateSession, _tapi3_itagent_createsession, tapi3.itagent_createsession, tapi3cc/ITAgent::CreateSession
 ms.topic: method
-f1_keywords: ["tapi3/ITAgent.CreateSession"]
+f1_keywords: 
+ - "tapi3/ITAgent.CreateSession"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

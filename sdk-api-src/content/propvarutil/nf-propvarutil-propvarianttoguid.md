@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToGUID, PropVariantToGUID function [Windows Properties], properties.PropVariantToGUID, propvarutil/PropVariantToGUID, shell.PropVariantToGUID, shell_PropVariantToGUID
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToGUID"]
+f1_keywords: 
+ - "propvarutil/PropVariantToGUID"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

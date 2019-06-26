@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
 ms.topic: function
-f1_keywords: ["wlanapi/WlanOpenHandle"]
+f1_keywords: 
+ - "wlanapi/WlanOpenHandle"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

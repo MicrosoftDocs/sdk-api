@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName
 ms.topic: function
-f1_keywords: ["windns/DnsFreeProxyName"]
+f1_keywords: 
+ - "windns/DnsFreeProxyName"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

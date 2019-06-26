@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
 ms.topic: function
-f1_keywords: ["werapi/WerRegisterRuntimeExceptionModule"]
+f1_keywords: 
+ - "werapi/WerRegisterRuntimeExceptionModule"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

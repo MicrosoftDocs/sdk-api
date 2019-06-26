@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_NCHITTEST_WPARAM, GET_NCHITTEST_WPARAM macro [Keyboard and Mouse Input], _win32_GET_NCHITTEST_WPARAM, _win32_get_nchittest_wparam_cpp, inputdev.get_nchittest_wparam, winui._win32_get_nchittest_wparam, winuser/GET_NCHITTEST_WPARAM
 ms.topic: macro
-f1_keywords: ["winuser/GET_NCHITTEST_WPARAM"]
+f1_keywords: 
+ - "winuser/GET_NCHITTEST_WPARAM"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayRedim"]
+f1_keywords: 
+ - "oleauto/SafeArrayRedim"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

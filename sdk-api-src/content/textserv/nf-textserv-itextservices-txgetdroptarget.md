@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetDropTarget method, ITextServices.TxGetDropTarget, ITextServices::TxGetDropTarget, TxGetDropTarget, TxGetDropTarget method [Windows Controls], TxGetDropTarget method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetDropTarget, _win32_ITextServices_TxGetDropTarget_cpp, controls.ITextServices_TxGetDropTarget, controls._win32_ITextServices_TxGetDropTarget, textserv/ITextServices::TxGetDropTarget
 ms.topic: method
-f1_keywords: ["textserv/ITextServices.TxGetDropTarget"]
+f1_keywords: 
+ - "textserv/ITextServices.TxGetDropTarget"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

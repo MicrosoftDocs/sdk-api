@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetContentRect method, IDirectManipulationContent.SetContentRect, IDirectManipulationContent::SetContentRect, SetContentRect, SetContentRect method [Direct Manipulation], SetContentRect method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_setcontentrect, directmanipulation/IDirectManipulationContent::SetContentRect
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationContent.SetContentRect"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationContent.SetContentRect"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

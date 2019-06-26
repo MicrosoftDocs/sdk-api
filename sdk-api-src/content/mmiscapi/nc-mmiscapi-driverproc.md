@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRIVERPROC, DRIVERPROC callback function [Windows Multimedia], DRV_CLOSE, DRV_CONFIGURE, DRV_DISABLE, DRV_ENABLE, DRV_FREE, DRV_INSTALL, DRV_LOAD, DRV_OPEN, DRV_POWER, DRV_QUERYCONFIGURE, DRV_REMOVE, DriverProc callback, _win32_DriverProc, mmsystem/DRIVERPROC, multimedia.driverproc
 ms.topic: callback
-f1_keywords: ["mmiscapi/DRIVERPROC"]
+f1_keywords: 
+ - "mmiscapi/DRIVERPROC"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

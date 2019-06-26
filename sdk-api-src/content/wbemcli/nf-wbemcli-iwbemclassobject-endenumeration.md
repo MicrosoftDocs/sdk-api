@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndEnumeration method, IWbemClassObject.EndEnumeration, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.EndEnumeration"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.EndEnumeration"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

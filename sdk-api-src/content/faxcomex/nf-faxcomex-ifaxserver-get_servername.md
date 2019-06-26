@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ServerName property, IFaxServer.ServerName, IFaxServer.get_ServerName, IFaxServer::ServerName, IFaxServer::get_ServerName, ServerName property [Fax Service], ServerName property [Fax Service],IFaxServer interface, _mfax_faxserver.servername, fax._mfax_faxserver_cpp_mfax_faxserver_servername_cpp, fax._mfax_faxserver_servername, faxcomex/IFaxServer::ServerName, faxcomex/IFaxServer::get_ServerName, get_ServerName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.ServerName"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.ServerName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

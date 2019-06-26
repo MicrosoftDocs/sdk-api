@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager interface [COM],Open method, IOleUndoManager.Open, IOleUndoManager::Open, Open, Open method [COM], Open method [COM],IOleUndoManager interface, _ole_ioleundomanager_open, com.ioleundomanager_open, ocidl/IOleUndoManager::Open
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.Open"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.Open"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator
 ms.topic: method
-f1_keywords: ["strmif/ICreateDevEnum.CreateClassEnumerator"]
+f1_keywords: 
+ - "strmif/ICreateDevEnum.CreateClassEnumerator"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

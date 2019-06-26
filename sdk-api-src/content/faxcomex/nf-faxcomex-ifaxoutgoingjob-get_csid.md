@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],CSID property, IFaxOutgoingJob.CSID, IFaxOutgoingJob.get_CSID, IFaxOutgoingJob::CSID, IFaxOutgoingJob::get_CSID, _mfax_faxoutgoingjob.csid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_csid_cpp, fax._mfax_faxoutgoingjob_csid, faxcomex/IFaxOutgoingJob::CSID, faxcomex/IFaxOutgoingJob::get_CSID, get_CSID
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.CSID"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.CSID"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

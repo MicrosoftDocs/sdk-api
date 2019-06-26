@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellView, IShellView interface [Windows Shell], IShellView interface [Windows Shell],described, _win32_IShellView, _win32_IShellView_cpp, shell.IShellView, shobjidl_core/IShellView
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellView"]
+f1_keywords: 
+ - "shobjidl_core/IShellView"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

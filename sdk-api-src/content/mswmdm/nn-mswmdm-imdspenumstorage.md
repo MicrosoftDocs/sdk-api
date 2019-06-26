@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPEnumStorage"]
+f1_keywords: 
+ - "mswmdm/IMDSPEnumStorage"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

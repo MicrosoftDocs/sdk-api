@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeUnaccessData, DdeUnaccessData function [Data Exchange], _win32_DdeUnaccessData, _win32_ddeunaccessdata_cpp, dataxchg.ddeunaccessdata, ddeml/DdeUnaccessData, winui._win32_ddeunaccessdata
 ms.topic: function
-f1_keywords: ["ddeml/DdeUnaccessData"]
+f1_keywords: 
+ - "ddeml/DdeUnaccessData"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

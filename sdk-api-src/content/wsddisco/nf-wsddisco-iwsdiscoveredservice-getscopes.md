@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScopes, GetScopes method, GetScopes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetScopes method, IWSDiscoveredService.GetScopes, IWSDiscoveredService::GetScopes, ncd.iwsdiscoveredservice_getscopes, wsddisco/IWSDiscoveredService::GetScopes
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveredService.GetScopes"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveredService.GetScopes"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

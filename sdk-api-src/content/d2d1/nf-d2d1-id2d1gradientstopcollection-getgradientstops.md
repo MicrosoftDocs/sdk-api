@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGradientStops, GetGradientStops method [Direct2D], GetGradientStops method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetGradientStops method, ID2D1GradientStopCollection.GetGradientStops, ID2D1GradientStopCollection::GetGradientStops, d2d1/ID2D1GradientStopCollection::GetGradientStops, direct2d.ID2D1GradientStopCollection_GetGradientStops
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GradientStopCollection.GetGradientStops"]
+f1_keywords: 
+ - "d2d1/ID2D1GradientStopCollection.GetGradientStops"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

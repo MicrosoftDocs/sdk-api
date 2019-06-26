@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientCallback, ClientCallback callback function [Security], LSA_CLIENT_CALLBACK, LSA_CLIENT_CALLBACK callback, _ssp_clientcallback, ntsecpkg/ClientCallback, security.clientcallback
 ms.topic: callback
-f1_keywords: ["ntsecpkg/ClientCallback"]
+f1_keywords: 
+ - "ntsecpkg/ClientCallback"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], IWMReaderNetworkConfig2 interface [windows Media Format],described, IWMReaderNetworkConfig2Interface, wmformat.iwmreadernetworkconfig2, wmsdkidl/IWMReaderNetworkConfig2
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig2"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig2"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLPageable, IDMLPageable interface, IDMLPageable interface,described, direct3d12.idmlpageable, directml/IDMLPageable
 ms.topic: interface
-f1_keywords: ["directml/IDMLPageable"]
+f1_keywords: 
+ - "directml/IDMLPageable"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

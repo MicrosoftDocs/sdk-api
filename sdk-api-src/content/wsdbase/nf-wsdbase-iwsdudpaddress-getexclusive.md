@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExclusive, GetExclusive method, GetExclusive method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetExclusive method, IWSDUdpAddress.GetExclusive, IWSDUdpAddress::GetExclusive, ncd.iwsdudpaddress_getexclusive, wsdbase/IWSDUdpAddress::GetExclusive
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDUdpAddress.GetExclusive"]
+f1_keywords: 
+ - "wsdbase/IWSDUdpAddress.GetExclusive"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

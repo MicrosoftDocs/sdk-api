@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enter, Enter method [Direct2D], Enter method [Direct2D],ID2D1Multithread interface, ID2D1Multithread interface [Direct2D],Enter method, ID2D1Multithread.Enter, ID2D1Multithread::Enter, d2d1_1/ID2D1Multithread::Enter, direct2d.id2d1multithread_enter
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Multithread.Enter"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Multithread.Enter"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

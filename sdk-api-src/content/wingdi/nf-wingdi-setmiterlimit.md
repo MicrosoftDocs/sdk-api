@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMiterLimit, SetMiterLimit function [Windows GDI], _win32_SetMiterLimit, gdi.setmiterlimit, wingdi/SetMiterLimit
 ms.topic: function
-f1_keywords: ["wingdi/SetMiterLimit"]
+f1_keywords: 
+ - "wingdi/SetMiterLimit"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamExtension method, ID3D11VideoContext.VideoProcessorGetStreamExtension, ID3D11VideoContext::VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension, VideoProcessorGetStreamExtension method [Media Foundation], VideoProcessorGetStreamExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamExtension, mf.id3d11videocontext_videoprocessorgetstreamextension
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetStreamExtension"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamExtension"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

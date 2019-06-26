@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, DeleteItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace2 interface [MMC],DeleteItem method, IConsoleNameSpace2::DeleteItem, IConsoleNameSpace::DeleteItem, _slate_iconsolenamespace2_deleteitem, mmc.iconsolenamespace2_deleteitem, mmc/IConsoleNameSpace2::DeleteItem, mmc/IConsoleNameSpace::DeleteItem
 ms.topic: method
-f1_keywords: ["mmc/IConsoleNameSpace.DeleteItem"]
+f1_keywords: 
+ - "mmc/IConsoleNameSpace.DeleteItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

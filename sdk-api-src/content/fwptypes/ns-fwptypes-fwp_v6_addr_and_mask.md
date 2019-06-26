@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_V6_ADDR_AND_MASK, FWP_V6_ADDR_AND_MASK structure [Filtering], fwp.fwp_v6_addr_and_mask_struct, fwptypes/FWP_V6_ADDR_AND_MASK
 ms.topic: struct
-f1_keywords: ["fwptypes/FWP_V6_ADDR_AND_MASK"]
+f1_keywords: 
+ - "fwptypes/FWP_V6_ADDR_AND_MASK"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

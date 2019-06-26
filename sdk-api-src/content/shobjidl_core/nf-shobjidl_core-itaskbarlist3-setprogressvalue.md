@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressValue method, ITaskbarList3.SetProgressValue, ITaskbarList3::SetProgressValue, SetProgressValue, SetProgressValue method [Windows Shell], SetProgressValue method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetProgressValue, shell.ITaskbarList3_SetProgressValue, shobjidl_core/ITaskbarList3::SetProgressValue
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList3.SetProgressValue"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList3.SetProgressValue"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

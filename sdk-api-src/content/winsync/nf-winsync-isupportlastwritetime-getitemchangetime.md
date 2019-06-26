@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetItemChangeTime method, ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
 ms.topic: method
-f1_keywords: ["winsync/ISupportLastWriteTime.GetItemChangeTime"]
+f1_keywords: 
+ - "winsync/ISupportLastWriteTime.GetItemChangeTime"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

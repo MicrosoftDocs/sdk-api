@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRESS_EVENT, MSP_ADDRESS_EVENT enumeration [TAPI 2.2], _tapi3_msp_address_event, msp/ADDRESS_TERMINAL_AVAILABLE, msp/ADDRESS_TERMINAL_UNAVAILABLE, msp/MSP_ADDRESS_EVENT, tapi3.msp_address_event
 ms.topic: enum
-f1_keywords: ["tapi3/MSP_ADDRESS_EVENT"]
+f1_keywords: 
+ - "tapi3/MSP_ADDRESS_EVENT"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

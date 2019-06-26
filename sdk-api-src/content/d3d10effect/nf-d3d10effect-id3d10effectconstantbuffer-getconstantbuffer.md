@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConstantBuffer, GetConstantBuffer method [Direct3D 10], GetConstantBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, ID3D10EffectConstantBuffer interface [Direct3D 10],GetConstantBuffer method, ID3D10EffectConstantBuffer.GetConstantBuffer, ID3D10EffectConstantBuffer::GetConstantBuffer, d3d10effect/ID3D10EffectConstantBuffer::GetConstantBuffer, dce18db8-3c7e-fd66-9353-140401d9be7d, direct3d10.id3d10effectconstantbuffer_getconstantbuffer
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectConstantBuffer.GetConstantBuffer"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectConstantBuffer.GetConstantBuffer"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

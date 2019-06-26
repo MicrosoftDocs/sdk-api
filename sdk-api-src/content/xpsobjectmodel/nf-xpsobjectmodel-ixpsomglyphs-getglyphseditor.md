@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphsEditor method, IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

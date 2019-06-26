@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyKey method, IPropertyDescription.GetPropertyKey, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescription.GetPropertyKey"]
+f1_keywords: 
+ - "propsys/IPropertyDescription.GetPropertyKey"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
 ms.topic: function
-f1_keywords: ["threadpoolapiset/SetThreadpoolThreadMaximum"]
+f1_keywords: 
+ - "threadpoolapiset/SetThreadpoolThreadMaximum"
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

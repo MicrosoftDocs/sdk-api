@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],StillOff method, IDvdControl2.StillOff, IDvdControl2::StillOff, IDvdControl2StillOff, StillOff, StillOff method [DirectShow], StillOff method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_stilloff, strmif/IDvdControl2::StillOff
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.StillOff"]
+f1_keywords: 
+ - "strmif/IDvdControl2.StillOff"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

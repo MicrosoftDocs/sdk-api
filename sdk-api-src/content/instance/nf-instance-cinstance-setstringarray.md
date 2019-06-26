@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z, CInstance interface [Windows Management Instrumentation],SetStringArray method, CInstance.SetStringArray, CInstance::SetStringArray, SetStringArray, SetStringArray method [Windows Management Instrumentation], SetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setstringarray, instance/CInstance::SetStringArray, wmi.cinstance_setstringarray"
 ms.topic: method
-f1_keywords: ["instance/CInstance.SetStringArray"]
+f1_keywords: 
+ - "instance/CInstance.SetStringArray"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

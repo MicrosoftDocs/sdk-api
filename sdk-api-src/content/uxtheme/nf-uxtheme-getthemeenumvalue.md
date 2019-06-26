@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeEnumValue, GetThemeEnumValue function [Windows Controls], controls.GetThemeEnumValue, controls.inet_GetThemeEnumValue, inet_GetThemeEnumValue, inet_GetThemeEnumValue_cpp, uxtheme/GetThemeEnumValue
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeEnumValue"]
+f1_keywords: 
+ - "uxtheme/GetThemeEnumValue"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

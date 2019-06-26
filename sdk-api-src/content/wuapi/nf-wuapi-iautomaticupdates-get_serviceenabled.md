@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates.get_ServiceEnabled, IAutomaticUpdates::ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent],IAutomaticUpdates interface, get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdates.ServiceEnabled"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdates.ServiceEnabled"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

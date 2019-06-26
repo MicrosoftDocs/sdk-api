@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Conventions], IOpcPartEnumerator interface [Open Packaging Conventions],described, msopc/IOpcPartEnumerator, opc.iopcpartenumerator
 ms.topic: interface
-f1_keywords: ["msopc/IOpcPartEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcPartEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

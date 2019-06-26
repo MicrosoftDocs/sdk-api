@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevInitialize, FaxDevInitialize function [Fax Service], _mfax_faxdevinitialize, fax._mfax_faxdevinitialize, faxdev/FaxDevInitialize
 ms.topic: function
-f1_keywords: ["faxdev/FaxDevInitialize"]
+f1_keywords: 
+ - "faxdev/FaxDevInitialize"
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

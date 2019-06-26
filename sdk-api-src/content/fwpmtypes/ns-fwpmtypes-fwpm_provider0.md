@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER0, FWPM_PROVIDER0 structure [Filtering], FWPM_PROVIDER_FLAG_DISABLED, FWPM_PROVIDER_FLAG_PERSISTENT, fwp.fwpm_provider0_struct, fwpmtypes/FWPM_PROVIDER0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_PROVIDER0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_PROVIDER0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

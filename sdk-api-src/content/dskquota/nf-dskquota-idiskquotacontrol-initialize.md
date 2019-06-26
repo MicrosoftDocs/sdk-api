@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],Initialize method, IDiskQuotaControl.Initialize, IDiskQuotaControl::Initialize, Initialize, Initialize method [Files], Initialize method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_initialize, base.idiskquotacontrol_initialize, dskquota/IDiskQuotaControl::Initialize, fs.idiskquotacontrol_initialize
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaControl.Initialize"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaControl.Initialize"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

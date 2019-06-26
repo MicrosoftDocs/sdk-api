@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMPath.SetFillBrushLocal, IXpsOMPath::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlocal, xpsobjectmodel/IXpsOMPath::SetFillBrushLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.SetFillBrushLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.SetFillBrushLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

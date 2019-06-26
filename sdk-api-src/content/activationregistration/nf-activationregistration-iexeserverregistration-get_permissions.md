@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Permissions method, IExeServerRegistration.get_Permissions, IExeServerRegistration::get_Permissions, activationregistration/IExeServerRegistration::get_Permissions, get_Permissions, get_Permissions method [Windows Runtime], get_Permissions method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_permissions
 ms.topic: method
-f1_keywords: ["activationregistration/IExeServerRegistration.get_Permissions"]
+f1_keywords: 
+ - "activationregistration/IExeServerRegistration.get_Permissions"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

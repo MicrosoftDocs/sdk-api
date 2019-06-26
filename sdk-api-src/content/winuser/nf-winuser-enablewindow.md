@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableWindow, EnableWindow function [Keyboard and Mouse Input], _win32_EnableWindow, _win32_enablewindow_cpp, inputdev.enablewindow, winui._win32_enablewindow, winuser/EnableWindow
 ms.topic: function
-f1_keywords: ["winuser/EnableWindow"]
+f1_keywords: 
+ - "winuser/EnableWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

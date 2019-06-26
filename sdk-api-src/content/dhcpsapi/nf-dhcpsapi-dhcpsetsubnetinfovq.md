@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpSetSubnetInfoVQ"]
+f1_keywords: 
+ - "dhcpsapi/DhcpSetSubnetInfoVQ"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

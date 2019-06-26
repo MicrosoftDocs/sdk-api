@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_ColorRGBToHLS, shell.ColorRGBToHLS, shlwapi/ColorRGBToHLS
 ms.topic: function
-f1_keywords: ["shlwapi/ColorRGBToHLS"]
+f1_keywords: 
+ - "shlwapi/ColorRGBToHLS"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

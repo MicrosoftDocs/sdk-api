@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesShareInfo.GetShareItem"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesShareInfo.GetShareItem"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

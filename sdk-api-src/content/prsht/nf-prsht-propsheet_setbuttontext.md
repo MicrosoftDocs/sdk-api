@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetButtonText, PropSheet_SetButtonText macro [Windows Controls], _win32_PropSheet_SetButtonText, _win32_PropSheet_SetButtonText_cpp, controls.PropSheet_SetButtonText, controls._win32_PropSheet_SetButtonText, prsht/PropSheet_SetButtonText
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_SetButtonText"]
+f1_keywords: 
+ - "prsht/PropSheet_SetButtonText"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

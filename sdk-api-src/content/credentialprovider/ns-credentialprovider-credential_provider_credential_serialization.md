@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell], _shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 ms.topic: struct
-f1_keywords: ["credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"]
+f1_keywords: 
+ - "credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

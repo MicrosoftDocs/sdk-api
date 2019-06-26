@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysAllocStringLen, SysAllocStringLen function [Automation], _oa96_SysAllocStringLen, automat.sysallocstringlen, oleauto/SysAllocStringLen
 ms.topic: function
-f1_keywords: ["oleauto/SysAllocStringLen"]
+f1_keywords: 
+ - "oleauto/SysAllocStringLen"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
 ms.topic: struct
-f1_keywords: ["winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"]
+f1_keywords: 
+ - "winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

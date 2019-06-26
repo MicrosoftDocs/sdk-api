@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,GetParameters method, IRtwqAsyncCallback.GetParameters, IRtwqAsyncCallback::GetParameters, Zero, base.irtwqasynccallback_getparameters, rtworkq/IRtwqAsyncCallback::GetParameters
 ms.topic: method
-f1_keywords: ["rtworkq/IRtwqAsyncCallback.GetParameters"]
+f1_keywords: 
+ - "rtworkq/IRtwqAsyncCallback.GetParameters"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

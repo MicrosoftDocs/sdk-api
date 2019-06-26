@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetCustomSink method, IMFCaptureRecordSink.SetCustomSink, IMFCaptureRecordSink::SetCustomSink, SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setcustomsink, mfcaptureengine/IMFCaptureRecordSink::SetCustomSink
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureRecordSink.SetCustomSink"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureRecordSink.SetCustomSink"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

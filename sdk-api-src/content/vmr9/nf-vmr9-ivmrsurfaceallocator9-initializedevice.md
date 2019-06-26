@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],InitializeDevice method, IVMRSurfaceAllocator9.InitializeDevice, IVMRSurfaceAllocator9::InitializeDevice, IVMRSurfaceAllocator9InitializeDevice, InitializeDevice, InitializeDevice method [DirectShow], InitializeDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_initializedevice, vmr9/IVMRSurfaceAllocator9::InitializeDevice
 ms.topic: method
-f1_keywords: ["vmr9/IVMRSurfaceAllocator9.InitializeDevice"]
+f1_keywords: 
+ - "vmr9/IVMRSurfaceAllocator9.InitializeDevice"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineaddtoconference, lineAddToConference, lineAddToConference function [TAPI 2.2], tapi/lineAddToConference, tapi2.lineaddtoconference"
 ms.topic: function
-f1_keywords: ["tapi/lineAddToConference"]
+f1_keywords: 
+ - "tapi/lineAddToConference"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

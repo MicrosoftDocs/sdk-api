@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetPresenceInfo, PeerCollabGetPresenceInfo function [Peer Networking], p2p.peercollabgetpresenceinfo, p2p/PeerCollabGetPresenceInfo
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabGetPresenceInfo"]
+f1_keywords: 
+ - "p2p/PeerCollabGetPresenceInfo"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

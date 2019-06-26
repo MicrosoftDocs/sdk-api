@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintf_lEx, StringCbPrintf_lEx function [Menus and Other Resources], StringCbPrintf_lExA, StringCbPrintf_lExW, menurc.stringcbprintf_lex, strsafe/StringCbPrintf_lEx, strsafe/StringCbPrintf_lExA, strsafe/StringCbPrintf_lExW
 ms.topic: function
-f1_keywords: ["strsafe/StringCbPrintf_lEx"]
+f1_keywords: 
+ - "strsafe/StringCbPrintf_lEx"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

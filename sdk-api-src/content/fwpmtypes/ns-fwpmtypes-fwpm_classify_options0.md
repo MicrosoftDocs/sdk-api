@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CLASSIFY_OPTIONS0, FWPM_CLASSIFY_OPTIONS0 structure [Filtering], FWPM_CLASSIFY_OPTIONS0_, fwp.fwpm_classify_options0, fwpmtypes/FWPM_CLASSIFY_OPTIONS0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_CLASSIFY_OPTIONS0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_CLASSIFY_OPTIONS0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

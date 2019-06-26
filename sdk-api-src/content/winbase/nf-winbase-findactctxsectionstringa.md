@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW
 ms.topic: function
-f1_keywords: ["winbase/FindActCtxSectionString"]
+f1_keywords: 
+ - "winbase/FindActCtxSectionString"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

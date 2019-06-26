@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer [Windows Ribbon], UI_EVENTPARAMS_COMMAND, UI_EVENTPARAMS_COMMAND , UI_EVENTPARAMS_COMMAND structure [Windows Ribbon], uiribbon/PUI_EVENTPARAMS_COMMAND, uiribbon/UI_EVENTPARAMS_COMMAND, windowsribbon.ui_eventparams_command_
 ms.topic: struct
-f1_keywords: ["uiribbon/UI_EVENTPARAMS_COMMAND"]
+f1_keywords: 
+ - "uiribbon/UI_EVENTPARAMS_COMMAND"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

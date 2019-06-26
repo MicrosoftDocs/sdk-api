@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters"]
+f1_keywords: 
+ - "strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

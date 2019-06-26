@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPStorage"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

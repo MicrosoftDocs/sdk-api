@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security],ICspStatus interface, ICspStatus interface [Security],CspInformation property, ICspStatus.CspInformation, ICspStatus.get_CspInformation, ICspStatus::CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation, security.icspstatus_cspinformation
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatus.CspInformation"]
+f1_keywords: 
+ - "certenroll/ICspStatus.CspInformation"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Direct2D], GetCommands method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetCommands method, ID2D1SvgPathData.GetCommands, ID2D1SvgPathData::GetCommands, d2d1svg/ID2D1SvgPathData::GetCommands, direct2d.id2d1svgpathdata_getcommands
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPathData.GetCommands"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPathData.GetCommands"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

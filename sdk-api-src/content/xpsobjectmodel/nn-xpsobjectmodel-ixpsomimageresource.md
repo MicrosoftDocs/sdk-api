@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMImageResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMImageResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

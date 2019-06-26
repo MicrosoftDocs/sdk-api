@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1fc9daa5-ee34-409b-b977-0d39b23d422e, IInkEdit interface [Tablet PC],SetGestureStatus method, IInkEdit.SetGestureStatus, IInkEdit::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkEdit interface, inked/IInkEdit::SetGestureStatus, tablet.inkedit_setgesturestatus
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.SetGestureStatus"]
+f1_keywords: 
+ - "inked/IInkEdit.SetGestureStatus"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

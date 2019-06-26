@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBurnVerification, IBurnVerification interface [IMAPI], IBurnVerification interface [IMAPI],described, imapi.iburnverification, imapi2/IBurnVerification
 ms.topic: interface
-f1_keywords: ["imapi2/IBurnVerification"]
+f1_keywords: 
+ - "imapi2/IBurnVerification"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

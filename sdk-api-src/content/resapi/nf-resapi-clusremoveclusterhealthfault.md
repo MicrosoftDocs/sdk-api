@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 ms.topic: function
-f1_keywords: ["resapi/ClusRemoveClusterHealthFault"]
+f1_keywords: 
+ - "resapi/ClusRemoveClusterHealthFault"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

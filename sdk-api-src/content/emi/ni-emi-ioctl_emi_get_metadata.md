@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_METADATA, IOCTL_EMI_GET_METADATA control, IOCTL_EMI_GET_METADATA control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA, powermeter.ioctl_emi_get_metadata
 ms.topic: ioctl
-f1_keywords: ["emi/IOCTL_EMI_GET_METADATA"]
+f1_keywords: 
+ - "emi/IOCTL_EMI_GET_METADATA"
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

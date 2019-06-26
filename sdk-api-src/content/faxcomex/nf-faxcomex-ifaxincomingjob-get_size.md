@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],Size property, IFaxIncomingJob.Size, IFaxIncomingJob.get_Size, IFaxIncomingJob::Size, IFaxIncomingJob::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.size, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_size_cpp, fax._mfax_faxincomingjob_size, faxcomex/IFaxIncomingJob::Size, faxcomex/IFaxIncomingJob::get_Size, get_Size
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingJob.Size"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingJob.Size"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

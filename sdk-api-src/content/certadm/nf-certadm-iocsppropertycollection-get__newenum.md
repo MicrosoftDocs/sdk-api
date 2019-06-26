@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],_NewEnum property, IOCSPPropertyCollection._NewEnum, IOCSPPropertyCollection.get__NewEnum, IOCSPPropertyCollection::_NewEnum, IOCSPPropertyCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::_NewEnum, certadm/IOCSPPropertyCollection::get__NewEnum, get__NewEnum, security.iocsppropertycollection__newenum_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPPropertyCollection._NewEnum"]
+f1_keywords: 
+ - "certadm/IOCSPPropertyCollection._NewEnum"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetBoundingRectangles method, IUIAutomationTextRange.GetBoundingRectangles, IUIAutomationTextRange::GetBoundingRectangles, uiauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiautomationclient/IUIAutomationTextRange::GetBoundingRectangles, winauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.GetBoundingRectangles"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.GetBoundingRectangles"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

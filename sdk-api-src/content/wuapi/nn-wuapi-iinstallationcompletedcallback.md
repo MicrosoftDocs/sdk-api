@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], IInstallationCompletedCallback interface [Windows Update Agent],described, wua.iinstallationcompletedcallback, wuapi/IInstallationCompletedCallback
 ms.topic: interface
-f1_keywords: ["wuapi/IInstallationCompletedCallback"]
+f1_keywords: 
+ - "wuapi/IInstallationCompletedCallback"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

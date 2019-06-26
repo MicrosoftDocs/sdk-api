@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
 ms.topic: interface
-f1_keywords: ["netcon/IEnumNetSharingPortMapping"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPortMapping"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

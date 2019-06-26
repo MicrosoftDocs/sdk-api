@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallback, IWMReaderCallback interface [windows Media Format], IWMReaderCallback interface [windows Media Format],described, IWMReaderCallbackInterface, wmformat.iwmreadercallback, wmsdkidl/IWMReaderCallback
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderCallback"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderCallback"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

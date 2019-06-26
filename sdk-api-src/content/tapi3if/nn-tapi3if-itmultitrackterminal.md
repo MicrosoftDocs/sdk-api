@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal, ITMultiTrackTerminal interface [TAPI 2.2], ITMultiTrackTerminal interface [TAPI 2.2],described, _tapi3_itmultitrackterminal, tapi3.itmultitrackterminal, tapi3if/ITMultiTrackTerminal
 ms.topic: interface
-f1_keywords: ["tapi3if/ITMultiTrackTerminal"]
+f1_keywords: 
+ - "tapi3if/ITMultiTrackTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

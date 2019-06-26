@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_NOTIFY_ACTION, EVT_SUBSCRIBE_NOTIFY_ACTION enumeration [EventLog], EvtSubscribeActionDeliver, EvtSubscribeActionError, wes.evt_subscribe_notify_action, winevt/EVT_SUBSCRIBE_NOTIFY_ACTION, winevt/EvtSubscribeActionDeliver, winevt/EvtSubscribeActionError
 ms.topic: enum
-f1_keywords: ["winevt/EVT_SUBSCRIBE_NOTIFY_ACTION"]
+f1_keywords: 
+ - "winevt/EVT_SUBSCRIBE_NOTIFY_ACTION"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

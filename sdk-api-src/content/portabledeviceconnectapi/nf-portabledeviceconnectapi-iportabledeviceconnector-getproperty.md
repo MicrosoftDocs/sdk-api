@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetProperty method, IPortableDeviceConnector.GetProperty, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
 ms.topic: method
-f1_keywords: ["portabledeviceconnectapi/IPortableDeviceConnector.GetProperty"]
+f1_keywords: 
+ - "portabledeviceconnectapi/IPortableDeviceConnector.GetProperty"
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

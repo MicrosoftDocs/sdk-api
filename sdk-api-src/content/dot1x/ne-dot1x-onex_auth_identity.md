@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_IDENTITY, ONEX_AUTH_IDENTITY enumeration [NativeWIFI], OneXAuthIdentityExplicitUser, OneXAuthIdentityGuest, OneXAuthIdentityInvalid, OneXAuthIdentityMachine, OneXAuthIdentityNone, OneXAuthIdentityUser, PONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_IDENTITY, dot1x/OneXAuthIdentityExplicitUser, dot1x/OneXAuthIdentityGuest, dot1x/OneXAuthIdentityInvalid, dot1x/OneXAuthIdentityMachine, dot1x/OneXAuthIdentityNone, dot1x/OneXAuthIdentityUser, dot1x/PONEX_AUTH_IDENTITY, nwifi.onex_auth_identity
 ms.topic: enum
-f1_keywords: ["dot1x/ONEX_AUTH_IDENTITY"]
+f1_keywords: 
+ - "dot1x/ONEX_AUTH_IDENTITY"
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

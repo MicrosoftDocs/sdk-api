@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationTransition2 interface, IUIAnimationTransition2 interface [Windows Animation],GetDimension method, IUIAnimationTransition2.GetDimension, IUIAnimationTransition2::GetDimension, uianimation.iuianimationtransition2_getdimension, uianimation/IUIAnimationTransition2::GetDimension
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransition2.GetDimension"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransition2.GetDimension"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

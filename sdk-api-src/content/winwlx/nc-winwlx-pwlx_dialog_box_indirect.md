@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT, PWLX_DIALOG_BOX_INDIRECT callback, WlxDialogBoxIndirect, WlxDialogBoxIndirect callback function [Security], _gina_wlxdialogboxindirect, security.wlxdialogboxindirect, winwlx/WlxDialogBoxIndirect
 ms.topic: callback
-f1_keywords: ["winwlx/WlxDialogBoxIndirect"]
+f1_keywords: 
+ - "winwlx/WlxDialogBoxIndirect"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

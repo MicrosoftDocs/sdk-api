@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
 ms.topic: struct
-f1_keywords: ["audioapotypes/APO_CONNECTION_PROPERTY"]
+f1_keywords: 
+ - "audioapotypes/APO_CONNECTION_PROPERTY"
 req.header: audioapotypes.h
 req.include-header: 
 req.target-type: Windows

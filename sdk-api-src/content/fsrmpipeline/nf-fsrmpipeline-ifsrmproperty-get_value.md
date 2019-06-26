@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Value property, IFsrmProperty.Value, IFsrmProperty.get_Value, IFsrmProperty::Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmProperty.Value"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmProperty.Value"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

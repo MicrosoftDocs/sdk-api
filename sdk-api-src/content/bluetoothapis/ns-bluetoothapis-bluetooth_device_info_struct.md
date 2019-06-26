@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_DEVICE_INFO, BLUETOOTH_DEVICE_INFO structure [Bluetooth], BLUETOOTH_DEVICE_INFO_STRUCT, _BLUETOOTH_DEVICE_INFO, _bth_bluetooth_device_info, bluetooth.bluetooth_device_info, bluetoothapis/BLUETOOTH_DEVICE_INFO
 ms.topic: struct
-f1_keywords: ["bluetoothapis/BLUETOOTH_DEVICE_INFO"]
+f1_keywords: 
+ - "bluetoothapis/BLUETOOTH_DEVICE_INFO"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

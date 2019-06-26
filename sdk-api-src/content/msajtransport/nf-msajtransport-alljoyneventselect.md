@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllJoynEventSelect, AllJoynEventSelect function [AllJoyn API], alljoyn.alljoyneventselect, msajtransport/AllJoynEventSelect
 ms.topic: function
-f1_keywords: ["msajtransport/AllJoynEventSelect"]
+f1_keywords: 
+ - "msajtransport/AllJoynEventSelect"
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

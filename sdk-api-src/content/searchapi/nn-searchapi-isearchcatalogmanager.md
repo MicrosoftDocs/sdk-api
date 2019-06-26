@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchCatalogManager"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

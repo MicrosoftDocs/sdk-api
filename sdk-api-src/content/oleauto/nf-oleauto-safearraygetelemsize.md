@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetElemsize, SafeArrayGetElemsize function [Automation], _oa96_SafeArrayGetElemsize, automat.safearraygetelemsize, oleauto/SafeArrayGetElemsize
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayGetElemsize"]
+f1_keywords: 
+ - "oleauto/SafeArrayGetElemsize"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

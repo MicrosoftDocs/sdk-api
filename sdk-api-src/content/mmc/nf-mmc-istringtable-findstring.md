@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindString, FindString method [MMC], FindString method [MMC],IStringTable interface, IStringTable interface [MMC],FindString method, IStringTable.FindString, IStringTable::FindString, _slate_istringtable_findstring, mmc.istringtable_findstring, mmc/IStringTable::FindString
 ms.topic: method
-f1_keywords: ["mmc/IStringTable.FindString"]
+f1_keywords: 
+ - "mmc/IStringTable.FindString"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

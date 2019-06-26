@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Category method, IMSVidDevice.get_Category, IMSVidDevice::get_Category, IMSVidDeviceget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_category, segment/IMSVidDevice::get_Category
 ms.topic: method
-f1_keywords: ["segment/IMSVidDevice.get_Category"]
+f1_keywords: 
+ - "segment/IMSVidDevice.get_Category"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

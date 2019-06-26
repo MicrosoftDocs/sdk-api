@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

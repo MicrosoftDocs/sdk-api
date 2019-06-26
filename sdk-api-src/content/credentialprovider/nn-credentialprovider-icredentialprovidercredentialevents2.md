@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], ICredentialProviderCredentialEvents2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents2, shell.ICredentialProviderCredentialEvents2
 ms.topic: interface
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialEvents2"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialEvents2"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

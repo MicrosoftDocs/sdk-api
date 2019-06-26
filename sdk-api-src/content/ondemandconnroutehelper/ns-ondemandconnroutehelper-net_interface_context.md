@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_INTERFACE_CONTEXT, NET_INTERFACE_CONTEXT structure [Network Awareness], PNET_INTERFACE_CONTEXT, PNET_INTERFACE_CONTEXT structure pointer [Network Awareness], nla.net_interface_context, ondemandconnroutehelper/NET_INTERFACE_CONTEXT, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT
 ms.topic: struct
-f1_keywords: ["ondemandconnroutehelper/NET_INTERFACE_CONTEXT"]
+f1_keywords: 
+ - "ondemandconnroutehelper/NET_INTERFACE_CONTEXT"
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

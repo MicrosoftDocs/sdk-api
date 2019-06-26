@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

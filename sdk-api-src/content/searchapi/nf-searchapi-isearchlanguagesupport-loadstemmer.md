@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
 ms.topic: method
-f1_keywords: ["searchapi/ISearchLanguageSupport.LoadStemmer"]
+f1_keywords: 
+ - "searchapi/ISearchLanguageSupport.LoadStemmer"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WdsTptSlowClientHandlingAutoDisconnect, WdsTptSlowClientHandlingMultistream, WdsTptSlowClientHandlingNone, WdsTptSlowClientHandlingUnknown, wds.wdstransport_slow_client_handling_type, wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, wdstptmgmt/WdsTptSlowClientHandlingAutoDisconnect, wdstptmgmt/WdsTptSlowClientHandlingMultistream, wdstptmgmt/WdsTptSlowClientHandlingNone, wdstptmgmt/WdsTptSlowClientHandlingUnknown"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

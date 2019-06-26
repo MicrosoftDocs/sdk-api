@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Next method, IEnumComponents.Next, IEnumComponents::Next, IEnumComponentsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_next, tuner/IEnumComponents::Next
 ms.topic: method
-f1_keywords: ["tuner/IEnumComponents.Next"]
+f1_keywords: 
+ - "tuner/IEnumComponents.Next"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetStatus method, IMixerOCX.GetStatus, IMixerOCX::GetStatus, IMixerOCXGetStatus, dshow.imixerocx_getstatus, mixerocx/IMixerOCX::GetStatus
 ms.topic: method
-f1_keywords: ["mixerocx/IMixerOCX.GetStatus"]
+f1_keywords: 
+ - "mixerocx/IMixerOCX.GetStatus"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

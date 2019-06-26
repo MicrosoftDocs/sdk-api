@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpening method, IUIManagerEventSink.OnWindowOpening, IUIManagerEventSink::OnWindowOpening, OnWindowOpening, OnWindowOpening method [Text Services Framework], OnWindowOpening method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpening, tsf.iuimanagereventsink_onwindowopening
 ms.topic: method
-f1_keywords: ["ctffunc/IUIManagerEventSink.OnWindowOpening"]
+f1_keywords: 
+ - "ctffunc/IUIManagerEventSink.OnWindowOpening"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

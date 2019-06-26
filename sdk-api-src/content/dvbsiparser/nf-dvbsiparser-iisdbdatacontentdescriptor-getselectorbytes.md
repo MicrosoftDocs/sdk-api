@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbDataContentDescriptor.GetSelectorBytes"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbDataContentDescriptor.GetSelectorBytes"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

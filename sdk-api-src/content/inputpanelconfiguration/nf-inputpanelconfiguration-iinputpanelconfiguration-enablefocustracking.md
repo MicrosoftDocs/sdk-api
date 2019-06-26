@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell],IInputPanelConfiguration interface, IInputPanelConfiguration interface [Windows Shell],EnableFocusTracking method, IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
 ms.topic: method
-f1_keywords: ["inputpanelconfiguration/IInputPanelConfiguration.EnableFocusTracking"]
+f1_keywords: 
+ - "inputpanelconfiguration/IInputPanelConfiguration.EnableFocusTracking"
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

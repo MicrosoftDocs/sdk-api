@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCABINET_INFO_W, CABINET_INFO, CABINET_INFO structure [Setup API], CABINET_INFO_W, PCABINET_INFO, PCABINET_INFO structure pointer [Setup API], _setupapi_cabinet_info_str, setup.cabinet_info_str, setupapi/CABINET_INFO, setupapi/PCABINET_INFO"
 ms.topic: struct
-f1_keywords: ["setupapi/CABINET_INFO"]
+f1_keywords: 
+ - "setupapi/CABINET_INFO"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],ISoftwareBitmapNative interface, ISoftwareBitmapNative interface [Windows Runtime],GetData method, ISoftwareBitmapNative.GetData, ISoftwareBitmapNative.imaging, ISoftwareBitmapNative::GetData, ISoftwareBitmapNative::imaging, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
 ms.topic: method
-f1_keywords: ["windows.graphics.imaging.interop/ISoftwareBitmapNative.GetData"]
+f1_keywords: 
+ - "windows.graphics.imaging.interop/ISoftwareBitmapNative.GetData"
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

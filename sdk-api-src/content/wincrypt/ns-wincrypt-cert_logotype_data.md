@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA structure [Security], PCERT_LOGOTYPE_DATA, PCERT_LOGOTYPE_DATA structure pointer [Security], security.cert_logotype_data, wincrypt/CERT_LOGOTYPE_DATA, wincrypt/PCERT_LOGOTYPE_DATA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_LOGOTYPE_DATA"]
+f1_keywords: 
+ - "wincrypt/CERT_LOGOTYPE_DATA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

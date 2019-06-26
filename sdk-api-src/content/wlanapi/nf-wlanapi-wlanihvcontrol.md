@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
 ms.topic: function
-f1_keywords: ["wlanapi/WlanIhvControl"]
+f1_keywords: 
+ - "wlanapi/WlanIhvControl"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

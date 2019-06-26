@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbLoadBalancing.GetMostSuitableTarget"]
+f1_keywords: 
+ - "sbtsv/ITsSbLoadBalancing.GetMostSuitableTarget"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

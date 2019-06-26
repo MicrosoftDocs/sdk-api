@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],Replace method, IImageList.Replace, IImageList::Replace, Replace, Replace method [Windows Controls], Replace method [Windows Controls],IImageList interface, comctl_IImageList_Replace, comctl_IImageList_Replace_cpp, commoncontrols/IImageList::Replace, controls.IImageList_Replace, controls.comctl_IImageList_Replace
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.Replace"]
+f1_keywords: 
+ - "commoncontrols/IImageList.Replace"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

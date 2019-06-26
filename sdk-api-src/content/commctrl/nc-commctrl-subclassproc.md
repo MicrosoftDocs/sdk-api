@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SUBCLASSPROC, SUBCLASSPROC callback, SUBCLASSPROC callback function [Windows Shell], commctrl/SUBCLASSPROC, inet_SUBCLASSPROC_Function, shell.SUBCLASSPROC_Function
 ms.topic: callback
-f1_keywords: ["commctrl/SUBCLASSPROC"]
+f1_keywords: 
+ - "commctrl/SUBCLASSPROC"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

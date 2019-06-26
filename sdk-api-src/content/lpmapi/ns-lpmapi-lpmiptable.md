@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPMIPTABLE, LPMIPTABLE structure [QOS], _gqos_lpmiptable, lpmapi/LPMIPTABLE, qos.lpmiptable
 ms.topic: struct
-f1_keywords: ["lpmapi/LPMIPTABLE"]
+f1_keywords: 
+ - "lpmapi/LPMIPTABLE"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

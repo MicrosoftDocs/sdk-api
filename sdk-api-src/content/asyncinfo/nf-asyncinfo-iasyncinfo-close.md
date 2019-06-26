@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
 ms.topic: method
-f1_keywords: ["asyncinfo/IAsyncInfo.Close"]
+f1_keywords: 
+ - "asyncinfo/IAsyncInfo.Close"
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

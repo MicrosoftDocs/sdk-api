@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetItem, TreeView_SetItem macro [Windows Controls], _win32_TreeView_SetItem, _win32_TreeView_SetItem_cpp, commctrl/TreeView_SetItem, controls.TreeView_SetItem, controls._win32_TreeView_SetItem
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SetItem"]
+f1_keywords: 
+ - "commctrl/TreeView_SetItem"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

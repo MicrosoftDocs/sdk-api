@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_CREATE_CONTEXT_PARA"]
+f1_keywords: 
+ - "wincrypt/CERT_CREATE_CONTEXT_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

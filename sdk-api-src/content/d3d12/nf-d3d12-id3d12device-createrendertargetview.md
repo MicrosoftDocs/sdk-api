@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateRenderTargetView"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateRenderTargetView"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

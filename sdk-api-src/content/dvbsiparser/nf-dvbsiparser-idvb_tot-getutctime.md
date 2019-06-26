@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTime method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetUTCTime method, IDVB_TOT.GetUTCTime, IDVB_TOT::GetUTCTime, IDVB_TOTGetUTCTime, dvbsiparser/IDVB_TOT::GetUTCTime, mstv.idvb_tot_getutctime
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_TOT.GetUTCTime"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_TOT.GetUTCTime"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

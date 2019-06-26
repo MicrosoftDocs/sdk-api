@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.CanPlayType"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.CanPlayType"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetSyncBatchParameters method, IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
 ms.topic: method
-f1_keywords: ["winsync/IKnowledgeSyncProvider.GetSyncBatchParameters"]
+f1_keywords: 
+ - "winsync/IKnowledgeSyncProvider.GetSyncBatchParameters"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

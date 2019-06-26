@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangID method, IWMPClosedCaption2.getSAMILangID, IWMPClosedCaption2::getSAMILangID, IWMPClosedCaption2getSAMILangID, getSAMILangID, getSAMILangID method [Windows Media Player], getSAMILangID method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangid, wmp/IWMPClosedCaption2::getSAMILangID
 ms.topic: method
-f1_keywords: ["wmp/IWMPClosedCaption2.getSAMILangID"]
+f1_keywords: 
+ - "wmp/IWMPClosedCaption2.getSAMILangID"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

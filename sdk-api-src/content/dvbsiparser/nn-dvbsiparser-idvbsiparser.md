@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], IDvbSiParser interface [Microsoft TV Technologies],described, IDvbSiParserInterface, dvbsiparser/IDvbSiParser, mstv.idvbsiparser
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IDvbSiParser"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

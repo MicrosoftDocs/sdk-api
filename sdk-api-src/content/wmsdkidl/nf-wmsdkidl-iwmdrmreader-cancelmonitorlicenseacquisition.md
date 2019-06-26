@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelMonitorLicenseAcquisition, CancelMonitorLicenseAcquisition method [windows Media Format], CancelMonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelMonitorLicenseAcquisition method, IWMDRMReader.CancelMonitorLicenseAcquisition, IWMDRMReader::CancelMonitorLicenseAcquisition, IWMDRMReaderCancelMonitorLicenseAcquisition, wmformat.iwmdrmreader_cancelmonitorlicenseacquisition, wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader.CancelMonitorLicenseAcquisition"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader.CancelMonitorLicenseAcquisition"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

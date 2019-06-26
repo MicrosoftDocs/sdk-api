@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiLoadClassIcon"]
+f1_keywords: 
+ - "setupapi/SetupDiLoadClassIcon"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

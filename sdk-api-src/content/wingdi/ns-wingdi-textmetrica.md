@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTEXTMETRICA, *NPTEXTMETRICA, *PTEXTMETRICA, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW"
 ms.topic: struct
-f1_keywords: ["wingdi/TEXTMETRIC"]
+f1_keywords: 
+ - "wingdi/TEXTMETRIC"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

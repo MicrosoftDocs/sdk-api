@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

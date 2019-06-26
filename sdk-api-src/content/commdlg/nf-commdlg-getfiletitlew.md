@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.topic: function
-f1_keywords: ["commdlg/GetFileTitle"]
+f1_keywords: 
+ - "commdlg/GetFileTitle"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

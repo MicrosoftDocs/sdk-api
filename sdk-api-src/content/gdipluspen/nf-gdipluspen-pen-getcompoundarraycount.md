@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompoundArrayCount, GetCompoundArrayCount method [GDI+], GetCompoundArrayCount method [GDI+],Pen class, Pen class [GDI+],GetCompoundArrayCount method, Pen.GetCompoundArrayCount, Pen::GetCompoundArrayCount, _gdiplus_CLASS_Pen_GetCompoundArrayCount_, gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.GetCompoundArrayCount"]
+f1_keywords: 
+ - "gdipluspen/Pen.GetCompoundArrayCount"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx function [Internationalization for Windows Applications], GetCPInfoExA, GetCPInfoExW, _win32_GetCPInfoEx, intl.getcpinfoex, winnls/GetCPInfoEx, winnls/GetCPInfoExA, winnls/GetCPInfoExW
 ms.topic: function
-f1_keywords: ["winnls/GetCPInfoEx"]
+f1_keywords: 
+ - "winnls/GetCPInfoEx"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

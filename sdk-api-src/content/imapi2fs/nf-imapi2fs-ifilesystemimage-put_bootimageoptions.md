@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_BootImageOptions method, IFileSystemImage.put_BootImageOptions, IFileSystemImage::put_BootImageOptions, imapi.ifilesystemimage_put_bootimageoptions, imapi2fs/IFileSystemImage::put_BootImageOptions, put_BootImageOptions, put_BootImageOptions method [IMAPI], put_BootImageOptions method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.put_BootImageOptions"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.put_BootImageOptions"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

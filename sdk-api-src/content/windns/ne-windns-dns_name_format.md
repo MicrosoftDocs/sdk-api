@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_NAME_FORMAT, DNS_NAME_FORMAT enumeration [DNS], DnsNameDomain, DnsNameDomainLabel, DnsNameHostnameFull, DnsNameHostnameLabel, DnsNameSrvRecord, DnsNameValidateTld, DnsNameWildcard, dns.dns_name_format, windns/DNS_NAME_FORMAT, windns/DnsNameDomain, windns/DnsNameDomainLabel, windns/DnsNameHostnameFull, windns/DnsNameHostnameLabel, windns/DnsNameSrvRecord, windns/DnsNameValidateTld, windns/DnsNameWildcard
 ms.topic: enum
-f1_keywords: ["windns/DNS_NAME_FORMAT"]
+f1_keywords: 
+ - "windns/DNS_NAME_FORMAT"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

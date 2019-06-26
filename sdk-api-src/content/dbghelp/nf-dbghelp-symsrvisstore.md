@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSrvIsStore, SymSrvIsStore function, SymSrvIsStoreW, base.symsrvisstore, dbghelp/SymSrvIsStore, dbghelp/SymSrvIsStoreW
 ms.topic: function
-f1_keywords: ["dbghelp/SymSrvIsStore"]
+f1_keywords: 
+ - "dbghelp/SymSrvIsStore"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetTag method, IDirectManipulationContent.GetTag, IDirectManipulationContent::GetTag, directmanipulation.idirectmanipulationcontent_gettag, directmanipulation/IDirectManipulationContent::GetTag
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationContent.GetTag"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationContent.GetTag"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

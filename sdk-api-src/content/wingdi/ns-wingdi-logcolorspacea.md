@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOGCOLORSPACEA, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEA, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE"
 ms.topic: struct
-f1_keywords: ["wingdi/LOGCOLORSPACE"]
+f1_keywords: 
+ - "wingdi/LOGCOLORSPACE"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

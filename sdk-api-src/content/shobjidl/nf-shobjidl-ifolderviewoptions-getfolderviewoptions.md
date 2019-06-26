@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFolderViewOptions, GetFolderViewOptions method [Windows Shell], GetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, IFolderViewOptions interface [Windows Shell],GetFolderViewOptions method, IFolderViewOptions.GetFolderViewOptions, IFolderViewOptions::GetFolderViewOptions, _shell_IFolderViewOptions_GetFolderViewOptions, shell.IFolderViewOptions_GetFolderViewOptions, shobjidl/IFolderViewOptions::GetFolderViewOptions
 ms.topic: method
-f1_keywords: ["shobjidl/IFolderViewOptions.GetFolderViewOptions"]
+f1_keywords: 
+ - "shobjidl/IFolderViewOptions.GetFolderViewOptions"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

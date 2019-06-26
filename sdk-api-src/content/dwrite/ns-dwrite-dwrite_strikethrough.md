@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_STRIKETHROUGH, DWRITE_STRIKETHROUGH structure [Direct Write], directwrite.dwrite_strikethrough, dwrite/DWRITE_STRIKETHROUGH
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_STRIKETHROUGH"]
+f1_keywords: 
+ - "dwrite/DWRITE_STRIKETHROUGH"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

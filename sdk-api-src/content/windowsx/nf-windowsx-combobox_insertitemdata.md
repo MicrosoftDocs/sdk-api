@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_InsertItemData, ComboBox_InsertItemData macro [Windows Controls], _win32_ComboBox_InsertItemData, _win32_ComboBox_InsertItemData_cpp, controls.ComboBox_InsertItemData, controls._win32_ComboBox_InsertItemData, windowsx/ComboBox_InsertItemData
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_InsertItemData"]
+f1_keywords: 
+ - "windowsx/ComboBox_InsertItemData"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

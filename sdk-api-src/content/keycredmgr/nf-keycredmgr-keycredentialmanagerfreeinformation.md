@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
 ms.topic: function
-f1_keywords: ["keycredmgr/KeyCredentialManagerFreeInformation"]
+f1_keywords: 
+ - "keycredmgr/KeyCredentialManagerFreeInformation"
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

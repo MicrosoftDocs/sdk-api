@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleDefinition method, IAzApplication3.CreateRoleDefinition, IAzApplication3::CreateRoleDefinition, azroles/IAzApplication3::CreateRoleDefinition, security.iazapplication3_createroledefinition
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication3.CreateRoleDefinition"]
+f1_keywords: 
+ - "azroles/IAzApplication3.CreateRoleDefinition"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

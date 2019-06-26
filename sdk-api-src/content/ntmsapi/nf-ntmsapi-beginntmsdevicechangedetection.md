@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginNtmsDeviceChangeDetection, BeginNtmsDeviceChangeDetection function [Files], _zaw_beginntmsdevicechangedetection, base.beginntmsdevicechangedetection, fs.beginntmsdevicechangedetection, ntmsapi/BeginNtmsDeviceChangeDetection
 ms.topic: function
-f1_keywords: ["ntmsapi/BeginNtmsDeviceChangeDetection"]
+f1_keywords: 
+ - "ntmsapi/BeginNtmsDeviceChangeDetection"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

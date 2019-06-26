@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32_MCIWndUseFrames, multimedia.mciwnduseframes, vfw/MCIWndUseFrames
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndUseFrames"]
+f1_keywords: 
+ - "vfw/MCIWndUseFrames"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

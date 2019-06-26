@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetFindNextFile, InternetFindNextFile function [WinINet], InternetFindNextFileA, InternetFindNextFileW, _inet_internetfindnextfile_function, wininet.internetfindnextfile, wininet/InternetFindNextFile, wininet/InternetFindNextFileA, wininet/InternetFindNextFileW
 ms.topic: function
-f1_keywords: ["wininet/InternetFindNextFile"]
+f1_keywords: 
+ - "wininet/InternetFindNextFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

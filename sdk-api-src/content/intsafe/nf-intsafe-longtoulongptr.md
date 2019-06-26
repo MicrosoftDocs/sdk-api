@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongToDWordPtr, LongToSIZET, LongToULongPtr, LongToULongPtr function [Windows Shell], PtrdiffTToDWordPtr, _shell_LongToULongPtr, intsafe/LongToULongPtr, shell.LongToULongPtr
 ms.topic: function
-f1_keywords: ["intsafe/LongToULongPtr"]
+f1_keywords: 
+ - "intsafe/LongToULongPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

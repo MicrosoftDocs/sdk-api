@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLogonSession, CreateLogonSession callback function [Security], LSA_CREATE_LOGON_SESSION, LSA_CREATE_LOGON_SESSION callback, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession
 ms.topic: callback
-f1_keywords: ["ntsecpkg/CreateLogonSession"]
+f1_keywords: 
+ - "ntsecpkg/CreateLogonSession"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

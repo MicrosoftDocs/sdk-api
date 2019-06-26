@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
 ms.topic: function
-f1_keywords: ["evntrace/EnumerateTraceGuids"]
+f1_keywords: 
+ - "evntrace/EnumerateTraceGuids"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

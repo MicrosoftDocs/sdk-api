@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumePlex.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsVolumePlex.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

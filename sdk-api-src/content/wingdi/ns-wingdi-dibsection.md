@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIBSECTION, *PDIBSECTION, DIBSECTION, DIBSECTION structure [Windows GDI], PDIBSECTION, PDIBSECTION structure pointer [Windows GDI], _win32_DIBSECTION_str, gdi.dibsection, wingdi/DIBSECTION, wingdi/PDIBSECTION"
 ms.topic: struct
-f1_keywords: ["wingdi/DIBSECTION"]
+f1_keywords: 
+ - "wingdi/DIBSECTION"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

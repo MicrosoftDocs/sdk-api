@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawEllipse, DrawEllipse method [Direct2D], DrawEllipse method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawEllipse method, ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget.DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawEllipse, ID2D1RenderTarget::DrawEllipse(const D2D1_ELLIPSE &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawEllipse, direct2d.ID2D1RenderTarget_DrawEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.DrawEllipse"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.DrawEllipse"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security], security.tokenbinding_key_types, tokenbinding/TOKENBINDING_KEY_TYPES
 ms.topic: struct
-f1_keywords: ["tokenbinding/TOKENBINDING_KEY_TYPES"]
+f1_keywords: 
+ - "tokenbinding/TOKENBINDING_KEY_TYPES"
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

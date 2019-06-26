@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 264cb8cf-4a76-a538-f9c5-5ae2e743f9ed, ID3D10EffectDepthStencilViewVariable, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10], ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectDepthStencilViewVariable, direct3d10.id3d10effectdepthstencilviewvariable
 ms.topic: interface
-f1_keywords: ["d3d10effect/ID3D10EffectDepthStencilViewVariable"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectDepthStencilViewVariable"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

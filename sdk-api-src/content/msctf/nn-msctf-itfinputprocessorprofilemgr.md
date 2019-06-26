@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], ITfInputProcessorProfileMgr interface [Text Services Framework],described, _tsf_itfinputprocessorprofilemgr_ref, msctf/ITfInputProcessorProfileMgr, tsf.itfinputprocessorprofilemgr
 ms.topic: interface
-f1_keywords: ["msctf/ITfInputProcessorProfileMgr"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfileMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

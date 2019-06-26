@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Streaming Media Devices], GetOutputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamAttributes method, IMFDeviceTransform.GetOutputStreamAttributes, IMFDeviceTransform::GetOutputStreamAttributes, mftransform/IMFDeviceTransform::GetOutputStreamAttributes, stream.imfdevicetransform_getoutputstreamattributes
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetOutputStreamAttributes"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetOutputStreamAttributes"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

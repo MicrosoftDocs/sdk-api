@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTagNameLength, GetTagNameLength method [Direct2D], GetTagNameLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetTagNameLength method, ID2D1SvgElement.GetTagNameLength, ID2D1SvgElement::GetTagNameLength, d2d1svg/ID2D1SvgElement::GetTagNameLength, direct2d.id2d1svgelement_gettagnamelength
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.GetTagNameLength"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.GetTagNameLength"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDot11AuthAlgorithm, GetDot11AuthAlgorithm method [NativeWIFI], GetDot11AuthAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11AuthAlgorithm method, IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm, IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11authalgorithm
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

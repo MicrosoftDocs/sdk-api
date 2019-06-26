@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCmpLogicalW"]
+f1_keywords: 
+ - "shlwapi/StrCmpLogicalW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

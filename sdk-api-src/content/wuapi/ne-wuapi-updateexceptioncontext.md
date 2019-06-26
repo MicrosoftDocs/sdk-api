@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateExceptionContext, UpdateExceptionContext enumeration [Windows Update Agent], uecGeneral, uecWindowsDriver, uecWindowsInstaller, wua.updateexceptioncontext, wuapi/UpdateExceptionContext, wuapi/uecGeneral, wuapi/uecWindowsDriver, wuapi/uecWindowsInstaller
 ms.topic: enum
-f1_keywords: ["wuapi/UpdateExceptionContext"]
+f1_keywords: 
+ - "wuapi/UpdateExceptionContext"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

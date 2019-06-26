@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Get method, IWbemClassObject.Get, IWbemClassObject::Get, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_get, wbemcli/IWbemClassObject::Get, wmi.iwbemclassobject_get
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.Get"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.Get"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

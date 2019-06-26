@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DFileSystemImageImportEvents interface [IMAPI],UpdateImport method, DFileSystemImageImportEvents.UpdateImport, DFileSystemImageImportEvents::UpdateImport, UpdateImport, UpdateImport method [IMAPI], UpdateImport method [IMAPI],DFileSystemImageImportEvents interface, imapi.dfilesystemimageimportevents_updateimport, imapi2fs/DFileSystemImageImportEvents::UpdateImport
 ms.topic: method
-f1_keywords: ["imapi2fs/DFileSystemImageImportEvents.UpdateImport"]
+f1_keywords: 
+ - "imapi2fs/DFileSystemImageImportEvents.UpdateImport"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Restart method, IFaxOutgoingJob.Restart, IFaxOutgoingJob::Restart, Restart, Restart method [Fax Service], Restart method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.restart, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_restart_cpp, fax._mfax_faxoutgoingjob_restart, faxcomex/IFaxOutgoingJob::Restart
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.Restart"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.Restart"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

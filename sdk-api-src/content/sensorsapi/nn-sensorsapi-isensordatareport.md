@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorDataReport, ISensorDataReport interface [WinSensors], ISensorDataReport interface [WinSensors],described, sensorsapi/ISensorDataReport, winsensors.isensordatareport
 ms.topic: interface
-f1_keywords: ["sensorsapi/ISensorDataReport"]
+f1_keywords: 
+ - "sensorsapi/ISensorDataReport"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

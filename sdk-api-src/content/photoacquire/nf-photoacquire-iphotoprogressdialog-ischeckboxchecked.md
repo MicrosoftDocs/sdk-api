@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCheckboxChecked method, IPhotoProgressDialog.IsCheckboxChecked, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.IsCheckboxChecked"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.IsCheckboxChecked"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

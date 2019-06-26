@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DOCMISC, DOCMISC enumeration [COM], DOCMISC_CANCREATEMULTIPLEVIEWS, DOCMISC_CANTOPENEDIT, DOCMISC_NOFILESUPPORT, DOCMISC_SUPPORTCOMPLEXRECTANGLES, _ole_DOCMISC, com.docmisc, docobj/DOCMISC, docobj/DOCMISC_CANCREATEMULTIPLEVIEWS, docobj/DOCMISC_CANTOPENEDIT, docobj/DOCMISC_NOFILESUPPORT, docobj/DOCMISC_SUPPORTCOMPLEXRECTANGLES
 ms.topic: enum
-f1_keywords: ["docobj/DOCMISC"]
+f1_keywords: 
+ - "docobj/DOCMISC"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

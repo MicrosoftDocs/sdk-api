@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],ICategoryCollection interface, ICategoryCollection interface [Windows Update Agent],Count property, ICategoryCollection.Count, ICategoryCollection.get_Count, ICategoryCollection::Count, ICategoryCollection::get_Count, get_Count, wua.icategorycollection_count, wuapi/ICategoryCollection::Count, wuapi/ICategoryCollection::get_Count
 ms.topic: method
-f1_keywords: ["wuapi/ICategoryCollection.Count"]
+f1_keywords: 
+ - "wuapi/ICategoryCollection.Count"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

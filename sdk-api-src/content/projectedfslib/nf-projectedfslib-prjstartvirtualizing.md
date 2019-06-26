@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstartvirtualizing, projectedfslib/PrjStartVirtualizing
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjStartVirtualizing"]
+f1_keywords: 
+ - "projectedfslib/PrjStartVirtualizing"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_CCEnable method, IAMAnalogVideoEncoder.get_CCEnable, IAMAnalogVideoEncoder::get_CCEnable, IAMAnalogVideoEncoderget_CCEnable, dshow.iamanalogvideoencoder_get_ccenable, get_CCEnable, get_CCEnable method [DirectShow], get_CCEnable method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_CCEnable
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoEncoder.get_CCEnable"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoEncoder.get_CCEnable"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

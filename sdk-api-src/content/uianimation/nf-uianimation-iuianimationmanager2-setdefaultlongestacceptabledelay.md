@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetDefaultLongestAcceptableDelay method, IUIAnimationManager2.SetDefaultLongestAcceptableDelay, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager2.SetDefaultLongestAcceptableDelay"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2.SetDefaultLongestAcceptableDelay"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

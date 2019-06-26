@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceEnumerator, opc.iopcsignaturerelationshipreferenceenumerator
 ms.topic: interface
-f1_keywords: ["msopc/IOpcSignatureRelationshipReferenceEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcSignatureRelationshipReferenceEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

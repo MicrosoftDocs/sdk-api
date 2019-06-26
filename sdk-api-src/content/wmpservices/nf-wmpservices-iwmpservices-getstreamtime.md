@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamTime method, IWMPServices.GetStreamTime, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPServices.GetStreamTime"]
+f1_keywords: 
+ - "wmpservices/IWMPServices.GetStreamTime"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

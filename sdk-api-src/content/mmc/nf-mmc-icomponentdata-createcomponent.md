@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateComponent, CreateComponent method [MMC], CreateComponent method [MMC],IComponentData interface, IComponentData interface [MMC],CreateComponent method, IComponentData.CreateComponent, IComponentData::CreateComponent, _slate_icomponentdata_createcomponent, mmc.icomponentdata_createcomponent, mmc/IComponentData::CreateComponent
 ms.topic: method
-f1_keywords: ["mmc/IComponentData.CreateComponent"]
+f1_keywords: 
+ - "mmc/IComponentData.CreateComponent"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
 ms.topic: function
-f1_keywords: ["oleauto/DispGetParam"]
+f1_keywords: 
+ - "oleauto/DispGetParam"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

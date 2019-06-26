@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
 ms.topic: function
-f1_keywords: ["lmaccess/NetEnumerateServiceAccounts"]
+f1_keywords: 
+ - "lmaccess/NetEnumerateServiceAccounts"
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

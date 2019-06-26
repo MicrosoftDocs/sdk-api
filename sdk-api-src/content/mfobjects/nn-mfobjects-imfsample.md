@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFSample"]
+f1_keywords: 
+ - "mfobjects/IMFSample"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

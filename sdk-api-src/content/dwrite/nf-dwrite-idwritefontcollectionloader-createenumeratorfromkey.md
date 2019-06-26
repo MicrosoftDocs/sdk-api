@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEnumeratorFromKey, CreateEnumeratorFromKey method [Direct Write], CreateEnumeratorFromKey method [Direct Write],IDWriteFontCollectionLoader interface, IDWriteFontCollectionLoader interface [Direct Write],CreateEnumeratorFromKey method, IDWriteFontCollectionLoader.CreateEnumeratorFromKey, IDWriteFontCollectionLoader::CreateEnumeratorFromKey, directwrite.IDWriteFontCollectionLoader_CreateEnumeratorFromKey, dwrite/IDWriteFontCollectionLoader::CreateEnumeratorFromKey
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontCollectionLoader.CreateEnumeratorFromKey"]
+f1_keywords: 
+ - "dwrite/IDWriteFontCollectionLoader.CreateEnumeratorFromKey"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

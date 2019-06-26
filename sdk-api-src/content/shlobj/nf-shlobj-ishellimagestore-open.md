@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore interface [Windows Shell],Open method, IShellImageStore.Open, IShellImageStore::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_Open, shell.IShellImageStore_Open, shlobj/IShellImageStore::Open
 ms.topic: method
-f1_keywords: ["shlobj/IShellImageStore.Open"]
+f1_keywords: 
+ - "shlobj/IShellImageStore.Open"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

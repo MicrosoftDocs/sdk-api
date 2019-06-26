@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
 ms.topic: function
-f1_keywords: ["perflib/PerfOpenQueryHandle"]
+f1_keywords: 
+ - "perflib/PerfOpenQueryHandle"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumerationEverything, avrfsdk/HeapEnumerationStop, avrfsdk/eHeapEnumerationLevel, base.eheapenumerationlevel, eHeapEnumerationLevel, eHeapEnumerationLevel enumeration [Windows API], winprog.eheapenumerationlevel
 ms.topic: enum
-f1_keywords: ["avrfsdk/eHeapEnumerationLevel"]
+f1_keywords: 
+ - "avrfsdk/eHeapEnumerationLevel"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

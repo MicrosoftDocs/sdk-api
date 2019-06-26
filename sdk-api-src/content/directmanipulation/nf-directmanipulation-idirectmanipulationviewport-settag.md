@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.SetTag"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.SetTag"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

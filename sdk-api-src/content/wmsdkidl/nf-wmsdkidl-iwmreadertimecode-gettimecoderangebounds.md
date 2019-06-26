@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimecodeRangeBounds, GetTimecodeRangeBounds method [windows Media Format], GetTimecodeRangeBounds method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeBounds method, IWMReaderTimecode.GetTimecodeRangeBounds, IWMReaderTimecode::GetTimecodeRangeBounds, IWMReaderTimecodeGetTimecodeRangeBounds, wmformat.iwmreadertimecode_gettimecoderangebounds, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeBounds
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderTimecode.GetTimecodeRangeBounds"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderTimecode.GetTimecodeRangeBounds"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

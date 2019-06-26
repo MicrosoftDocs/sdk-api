@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILCombine, ILCombine function [Windows Shell], _win32_ILCombine, shell.ILCombine, shlobj_core/ILCombine
 ms.topic: function
-f1_keywords: ["shlobj_core/ILCombine"]
+f1_keywords: 
+ - "shlobj_core/ILCombine"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

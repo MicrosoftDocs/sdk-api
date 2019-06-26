@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],JoinFilterGraph method, IBaseFilter.JoinFilterGraph, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IBaseFilter interface, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph
 ms.topic: method
-f1_keywords: ["strmif/IBaseFilter.JoinFilterGraph"]
+f1_keywords: 
+ - "strmif/IBaseFilter.JoinFilterGraph"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

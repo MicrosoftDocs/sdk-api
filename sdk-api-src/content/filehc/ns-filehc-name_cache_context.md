@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT structure [Windows API], PNAME_CACHE_CONTEXT, PNAME_CACHE_CONTEXT structure pointer [Windows API], filehc/NAME_CACHE_CONTEXT, filehc/PNAME_CACHE_CONTEXT, winprog.name_cache_context"
 ms.topic: struct
-f1_keywords: ["filehc/NAME_CACHE_CONTEXT"]
+f1_keywords: 
+ - "filehc/NAME_CACHE_CONTEXT"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

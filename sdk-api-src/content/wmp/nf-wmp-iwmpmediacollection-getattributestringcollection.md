@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAttributeStringCollection method, IWMPMediaCollection.getAttributeStringCollection, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
 ms.topic: method
-f1_keywords: ["wmp/IWMPMediaCollection.getAttributeStringCollection"]
+f1_keywords: 
+ - "wmp/IWMPMediaCollection.getAttributeStringCollection"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

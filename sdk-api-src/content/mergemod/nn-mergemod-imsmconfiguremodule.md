@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
 ms.topic: interface
-f1_keywords: ["mergemod/IMsmConfigureModule"]
+f1_keywords: 
+ - "mergemod/IMsmConfigureModule"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumConnections, PeerGraphEnumConnections function [Peer Networking], p2p.peergraphenumconnections, p2p/PeerGraphEnumConnections
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphEnumConnections"]
+f1_keywords: 
+ - "p2p/PeerGraphEnumConnections"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

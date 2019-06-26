@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist method, IWMPPlaylistCollection.newPlaylist, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylistCollection.newPlaylist"]
+f1_keywords: 
+ - "wmp/IWMPPlaylistCollection.newPlaylist"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

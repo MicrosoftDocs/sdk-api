@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachePath, GetCachePath method [Security], GetCachePath method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCachePath method, IX509EnrollmentPolicyServer.GetCachePath, IX509EnrollmentPolicyServer::GetCachePath, certenroll/IX509EnrollmentPolicyServer::GetCachePath, security.ix509enrollmentpolicyserver_getcachepath
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetCachePath"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetCachePath"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

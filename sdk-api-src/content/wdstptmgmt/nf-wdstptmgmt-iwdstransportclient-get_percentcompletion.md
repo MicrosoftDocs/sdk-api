@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],PercentCompletion property, IWdsTransportClient.PercentCompletion, IWdsTransportClient.get_PercentCompletion, IWdsTransportClient::PercentCompletion, IWdsTransportClient::get_PercentCompletion, PercentCompletion property [Windows Deployment Services], PercentCompletion property [Windows Deployment Services],IWdsTransportClient interface, get_PercentCompletion, wds.iwdstransportclient_percentcompletion, wdstptmgmt/IWdsTransportClient::PercentCompletion, wdstptmgmt/IWdsTransportClient::get_PercentCompletion
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportClient.PercentCompletion"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportClient.PercentCompletion"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

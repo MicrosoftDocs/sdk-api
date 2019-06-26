@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Data.Write"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Data.Write"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

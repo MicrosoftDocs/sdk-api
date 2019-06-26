@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
 ms.topic: function
-f1_keywords: ["msports/ComDBClose"]
+f1_keywords: 
+ - "msports/ComDBClose"
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

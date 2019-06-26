@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATM_ADDRESS, ATM_ADDRESS structure [Winsock], ATM_CALLED_PARTY_NUMBER_IE, ATM_CALLED_PARTY_SUBADDRESS_IE, ATM_CALLING_PARTY_SUBADDRESS_IE, _win32_atm_address_2, winsock.atm_address_2, ws2atm/ATM_ADDRESS
 ms.topic: struct
-f1_keywords: ["ws2atm/ATM_ADDRESS"]
+f1_keywords: 
+ - "ws2atm/ATM_ADDRESS"
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows

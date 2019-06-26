@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfo method, IWMPStringCollection2.getItemInfo, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
 ms.topic: method
-f1_keywords: ["wmp/IWMPStringCollection2.getItemInfo"]
+f1_keywords: 
+ - "wmp/IWMPStringCollection2.getItemInfo"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

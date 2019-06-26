@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransform, XMPlaneTransform, XMPlaneTransform method [DirectX Math Support APIs], dxmath.xmplanetransform
 ms.topic: function
-f1_keywords: ["directxmath/XMPlaneTransform"]
+f1_keywords: 
+ - "directxmath/XMPlaneTransform"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

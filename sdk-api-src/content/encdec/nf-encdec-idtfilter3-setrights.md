@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],SetRights method, IDTFilter3.SetRights, IDTFilter3::SetRights, IDTFilter3SetRights, SetRights, SetRights method [Microsoft TV Technologies], SetRights method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::SetRights, mstv.idtfilter3_setrights
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter3.SetRights"]
+f1_keywords: 
+ - "encdec/IDTFilter3.SetRights"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

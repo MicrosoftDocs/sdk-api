@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterConnectCommunicationPort function [Installable File System Drivers], FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml, fltuser/FilterConnectCommunicationPort, ifsk.filterconnectcommunicationport
 ms.topic: function
-f1_keywords: ["fltuser/FilterConnectCommunicationPort"]
+f1_keywords: 
+ - "fltuser/FilterConnectCommunicationPort"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

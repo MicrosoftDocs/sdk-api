@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
 ms.topic: function
-f1_keywords: ["evntrace/UnregisterTraceGuids"]
+f1_keywords: 
+ - "evntrace/UnregisterTraceGuids"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

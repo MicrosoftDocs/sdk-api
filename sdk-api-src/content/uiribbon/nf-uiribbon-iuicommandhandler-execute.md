@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [Windows Ribbon], Execute method [Windows Ribbon],IUICommandHandler interface, IUICommandHandler interface [Windows Ribbon],Execute method, IUICommandHandler.Execute, IUICommandHandler::Execute, scenicintent_IUICommandHandler_Execute, uiribbon/IUICommandHandler::Execute, windowsribbon.windowsribbon_iuicommandhandler_execute
 ms.topic: method
-f1_keywords: ["uiribbon/IUICommandHandler.Execute"]
+f1_keywords: 
+ - "uiribbon/IUICommandHandler.Execute"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

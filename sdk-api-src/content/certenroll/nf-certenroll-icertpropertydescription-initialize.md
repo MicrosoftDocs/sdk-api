@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyDescription.Initialize"]
+f1_keywords: 
+ - "certenroll/ICertPropertyDescription.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

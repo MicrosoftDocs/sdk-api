@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
 ms.topic: function
-f1_keywords: ["shlwapi/SetProcessReference"]
+f1_keywords: 
+ - "shlwapi/SetProcessReference"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

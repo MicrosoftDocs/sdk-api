@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],DeleteRoleDefinition method, IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleAssignment.DeleteRoleDefinition"]
+f1_keywords: 
+ - "azroles/IAzRoleAssignment.DeleteRoleDefinition"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

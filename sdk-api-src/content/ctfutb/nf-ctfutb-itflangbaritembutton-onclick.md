@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemButton.OnClick"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemButton.OnClick"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphGetItemCount"]
+f1_keywords: 
+ - "p2p/PeerGraphGetItemCount"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

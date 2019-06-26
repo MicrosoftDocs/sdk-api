@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9c08e40b-b454-48b6-c9b7-35fc68d81999, DrawIndexed, DrawIndexed method [Direct3D 10], DrawIndexed method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexed method, ID3D10Device.DrawIndexed, ID3D10Device::DrawIndexed, d3d10/ID3D10Device::DrawIndexed, direct3d10.id3d10device_drawindexed
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.DrawIndexed"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.DrawIndexed"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

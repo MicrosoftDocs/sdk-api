@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICColorTransform interface [Windows Imaging Component],Initialize method, IWICColorTransform.Initialize, IWICColorTransform::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICColorTransform interface, _wic_codec_iwiccolortransform_initialize, wic._wic_codec_iwiccolortransform_initialize, wincodec/IWICColorTransform::Initialize
 ms.topic: method
-f1_keywords: ["wincodec/IWICColorTransform.Initialize"]
+f1_keywords: 
+ - "wincodec/IWICColorTransform.Initialize"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

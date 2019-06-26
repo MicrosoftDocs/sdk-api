@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceTypeControlAsUser, ClusterResourceTypeControlAsUser function [Failover Cluster], clusapi/ClusterResourceTypeControlAsUser, mscs.clusterresourcetypecontrolasuser
 ms.topic: function
-f1_keywords: ["clusapi/ClusterResourceTypeControlAsUser"]
+f1_keywords: 
+ - "clusapi/ClusterResourceTypeControlAsUser"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

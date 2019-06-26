@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],OnReadyToConnect method, ITsSbOrchestrationNotifySink.OnReadyToConnect, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services],ITsSbOrchestrationNotifySink interface, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbOrchestrationNotifySink.OnReadyToConnect"]
+f1_keywords: 
+ - "sbtsv/ITsSbOrchestrationNotifySink.OnReadyToConnect"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

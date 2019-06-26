@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SBE2_STREAM_DESC, SBE2_STREAM_DESC structure [Microsoft TV Technologies], SBE2_STREAM_DESC_VERSION, mstv.sbe2_stream_desc, sbe/SBE2_STREAM_DESC
 ms.topic: struct
-f1_keywords: ["sbe/SBE2_STREAM_DESC"]
+f1_keywords: 
+ - "sbe/SBE2_STREAM_DESC"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

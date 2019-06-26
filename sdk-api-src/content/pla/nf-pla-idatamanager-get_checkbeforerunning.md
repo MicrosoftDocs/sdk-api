@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckBeforeRunning property [PLA], CheckBeforeRunning property [PLA],IDataManager interface, IDataManager interface [PLA],CheckBeforeRunning property, IDataManager.CheckBeforeRunning, IDataManager.get_CheckBeforeRunning, IDataManager::CheckBeforeRunning, IDataManager::get_CheckBeforeRunning, IDataManager::put_CheckBeforeRunning, base.idatamanager_checkbeforerunning, get_CheckBeforeRunning, pla.idatamanager_checkbeforerunning, pla/IDataManager::CheckBeforeRunning, pla/IDataManager::get_CheckBeforeRunning, pla/IDataManager::put_CheckBeforeRunning
 ms.topic: method
-f1_keywords: ["pla/IDataManager.CheckBeforeRunning"]
+f1_keywords: 
+ - "pla/IDataManager.CheckBeforeRunning"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

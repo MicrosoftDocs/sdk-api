@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmCalloutSubscribeChanges0"]
+f1_keywords: 
+ - "fwpmu/FwpmCalloutSubscribeChanges0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

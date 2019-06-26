@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOCALGROUP_INFO_1, *PLOCALGROUP_INFO_1, LOCALGROUP_INFO_1, LOCALGROUP_INFO_1 structure [Network Management], LPLOCALGROUP_INFO_1, LPLOCALGROUP_INFO_1 structure pointer [Network Management], PLOCALGROUP_INFO_1, PLOCALGROUP_INFO_1 structure pointer [Network Management], _win32_localgroup_info_1_str, lmaccess/LOCALGROUP_INFO_1, lmaccess/LPLOCALGROUP_INFO_1, lmaccess/PLOCALGROUP_INFO_1, netmgmt.localgroup_info_1_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/LOCALGROUP_INFO_1"]
+f1_keywords: 
+ - "lmaccess/LOCALGROUP_INFO_1"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

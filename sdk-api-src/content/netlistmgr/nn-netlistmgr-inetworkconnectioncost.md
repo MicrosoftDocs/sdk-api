@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness],described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
 ms.topic: interface
-f1_keywords: ["netlistmgr/INetworkConnectionCost"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnectionCost"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

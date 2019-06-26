@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupCreate"]
+f1_keywords: 
+ - "p2p/PeerGroupCreate"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

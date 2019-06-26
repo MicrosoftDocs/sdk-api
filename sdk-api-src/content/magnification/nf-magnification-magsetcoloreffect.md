@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagSetColorEffect, MagSetColorEffect function [Magnification API], magapi.magapi_MagSetColorEffect, magapi_MagSetColorEffect, magnification/MagSetColorEffect
 ms.topic: function
-f1_keywords: ["magnification/MagSetColorEffect"]
+f1_keywords: 
+ - "magnification/MagSetColorEffect"
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

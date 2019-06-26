@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageWriter3, IAppxPackageWriter3 interface [App packaging and management], IAppxPackageWriter3 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter3, appxpkg.iappxpackagewriter3
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxPackageWriter3"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageWriter3"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlayIndex, GetOverlayIndex method [Windows Shell], GetOverlayIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIndex method, IShellIconOverlay.GetOverlayIndex, IShellIconOverlay::GetOverlayIndex, _win32_IShellIconOverlay_GetOverlayIndex, shell.IShellIconOverlay_GetOverlayIndex, shlobj_core/IShellIconOverlay::GetOverlayIndex
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellIconOverlay.GetOverlayIndex"]
+f1_keywords: 
+ - "shlobj_core/IShellIconOverlay.GetOverlayIndex"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

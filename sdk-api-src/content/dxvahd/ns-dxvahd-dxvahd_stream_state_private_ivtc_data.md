@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA, mf.dxvahd_stream_state_private_ivtc_data
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

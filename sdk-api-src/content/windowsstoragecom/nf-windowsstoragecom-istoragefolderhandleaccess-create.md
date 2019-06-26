@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageFolderHandleAccess interface, IStorageFolderHandleAccess interface [Windows Runtime],Create method, IStorageFolderHandleAccess.Create, IStorageFolderHandleAccess::Create, windowsstoragecom/IStorageFolderHandleAccess::Create, winrt.istoragefolderhandleaccess_create
 ms.topic: method
-f1_keywords: ["windowsstoragecom/IStorageFolderHandleAccess.Create"]
+f1_keywords: 
+ - "windowsstoragecom/IStorageFolderHandleAccess.Create"
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

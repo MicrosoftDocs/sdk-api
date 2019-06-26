@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManagerEventHandler2 interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler2.OnManagerStatusChanged, IUIAnimationManagerEventHandler2::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler2 interface, uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManagerEventHandler2.OnManagerStatusChanged"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManagerEventHandler2.OnManagerStatusChanged"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMResult"]
+f1_keywords: 
+ - "gpmgmt/IGPMResult"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

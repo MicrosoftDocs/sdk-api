@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 721f9aa7-5588-d838-c466-ccde084bdae9, D3D10_BLEND_DESC, D3D10_BLEND_DESC structure [Direct3D 10], d3d10/D3D10_BLEND_DESC, direct3d10.d3d10_blend_desc
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_BLEND_DESC"]
+f1_keywords: 
+ - "d3d10/D3D10_BLEND_DESC"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
 ms.topic: method
-f1_keywords: ["mstask/ITask.GetPriority"]
+f1_keywords: 
+ - "mstask/ITask.GetPriority"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

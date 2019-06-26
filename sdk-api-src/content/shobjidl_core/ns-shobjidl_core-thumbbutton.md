@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON"
 ms.topic: struct
-f1_keywords: ["shobjidl_core/THUMBBUTTON"]
+f1_keywords: 
+ - "shobjidl_core/THUMBBUTTON"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

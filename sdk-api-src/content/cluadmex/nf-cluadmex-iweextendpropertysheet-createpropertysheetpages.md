@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
 ms.topic: method
-f1_keywords: ["cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages"]
+f1_keywords: 
+ - "cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

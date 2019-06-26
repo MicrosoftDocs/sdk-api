@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarACos, XMScalarACos, XMScalarACos method [DirectX Math Support APIs], dxmath.xmscalaracos
 ms.topic: function
-f1_keywords: ["directxmath/XMScalarACos"]
+f1_keywords: 
+ - "directxmath/XMScalarACos"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

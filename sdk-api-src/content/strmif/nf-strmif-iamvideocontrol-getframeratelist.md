@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrameRateList, GetFrameRateList method [DirectShow], GetFrameRateList method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetFrameRateList method, IAMVideoControl.GetFrameRateList, IAMVideoControl::GetFrameRateList, IAMVideoControlGetFrameRateList, dshow.iamvideocontrol_getframeratelist, strmif/IAMVideoControl::GetFrameRateList
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoControl.GetFrameRateList"]
+f1_keywords: 
+ - "strmif/IAMVideoControl.GetFrameRateList"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

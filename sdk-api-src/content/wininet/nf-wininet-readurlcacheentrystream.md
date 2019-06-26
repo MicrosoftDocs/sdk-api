@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.topic: function
-f1_keywords: ["wininet/ReadUrlCacheEntryStream"]
+f1_keywords: 
+ - "wininet/ReadUrlCacheEntryStream"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

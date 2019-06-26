@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthNone, X509AuthUsername, X509EnrollmentAuthFlags, X509EnrollmentAuthFlags enumeration [Security], certcli/X509AuthAnonymous, certcli/X509AuthCertificate, certcli/X509AuthKerberos, certcli/X509AuthNone, certcli/X509AuthUsername, certcli/X509EnrollmentAuthFlags, security.x509enrollmentauthflags
 ms.topic: enum
-f1_keywords: ["certcli/X509EnrollmentAuthFlags"]
+f1_keywords: 
+ - "certcli/X509EnrollmentAuthFlags"
 req.header: certcli.h
 req.include-header: 
 req.target-type: Windows

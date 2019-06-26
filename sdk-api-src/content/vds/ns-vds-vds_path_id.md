@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], base.vds_path_id, vds/VDS_PATH_ID, vdshwprv/VDS_PATH_ID
 ms.topic: struct
-f1_keywords: ["vds/VDS_PATH_ID"]
+f1_keywords: 
+ - "vds/VDS_PATH_ID"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

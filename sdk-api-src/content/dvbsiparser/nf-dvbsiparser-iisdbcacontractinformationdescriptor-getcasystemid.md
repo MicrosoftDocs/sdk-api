@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAContractInformationDescriptor.GetCASystemId, IIsdbCAContractInformationDescriptor::GetCASystemId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCASystemId, mstv.iisdbcacontractinformationdescriptor_getcasystemid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCAContractInformationDescriptor.GetCASystemId"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetCASystemId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

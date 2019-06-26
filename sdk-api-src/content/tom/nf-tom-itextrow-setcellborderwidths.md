@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderWidths method, ITextRow.SetCellBorderWidths, ITextRow::SetCellBorderWidths, SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls],ITextRow interface, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetCellBorderWidths"]
+f1_keywords: 
+ - "tom/ITextRow.SetCellBorderWidths"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

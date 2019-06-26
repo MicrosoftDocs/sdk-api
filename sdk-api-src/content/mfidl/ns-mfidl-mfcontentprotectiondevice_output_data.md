@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 ms.topic: struct
-f1_keywords: ["mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"]
+f1_keywords: 
+ - "mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

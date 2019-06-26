@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition], CreateSkewTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSkewTransform method, IDCompositionDevice2.CreateSkewTransform, IDCompositionDevice2::CreateSkewTransform, dcomp/IDCompositionDevice2::CreateSkewTransform, directcomp.idcompositiondevice2_createskewtransform
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice2.CreateSkewTransform"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice2.CreateSkewTransform"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

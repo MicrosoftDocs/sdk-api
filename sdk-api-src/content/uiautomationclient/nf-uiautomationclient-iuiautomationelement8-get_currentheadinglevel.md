@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentHeadingLevel property [Windows Accessibility], CurrentHeadingLevel property [Windows Accessibility],IUIAutomationElement8 interface, IUIAutomationElement8 interface [Windows Accessibility],CurrentHeadingLevel property, IUIAutomationElement8.CurrentHeadingLevel, IUIAutomationElement8.get_CurrentHeadingLevel, IUIAutomationElement8::CurrentHeadingLevel, IUIAutomationElement8::get_CurrentHeadingLevel, get_CurrentHeadingLevel, uiautomationclient/IUIAutomationElement8::CurrentHeadingLevel, uiautomationclient/IUIAutomationElement8::get_CurrentHeadingLevel, winauto.uiauto_IUIAutomationElement8_CurrentHeadingLevel
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement8.CurrentHeadingLevel"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement8.CurrentHeadingLevel"
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

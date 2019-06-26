@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
 ms.topic: callback
-f1_keywords: ["msacm/ACMFORMATENUMCB"]
+f1_keywords: 
+ - "msacm/ACMFORMATENUMCB"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

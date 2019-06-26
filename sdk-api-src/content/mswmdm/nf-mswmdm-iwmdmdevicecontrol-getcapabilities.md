@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMDeviceControl interface, IWMDMDeviceControl interface [windows Media Device Manager],GetCapabilities method, IWMDMDeviceControl.GetCapabilities, IWMDMDeviceControl::GetCapabilities, IWMDMDeviceControlGetCapabilities, mswmdm/IWMDMDeviceControl::GetCapabilities, wmdm.iwmdmdevicecontrol_getcapabilities
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDeviceControl.GetCapabilities"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceControl.GetCapabilities"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

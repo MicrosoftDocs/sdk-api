@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkListManager.GetConnectivity"]
+f1_keywords: 
+ - "netlistmgr/INetworkListManager.GetConnectivity"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

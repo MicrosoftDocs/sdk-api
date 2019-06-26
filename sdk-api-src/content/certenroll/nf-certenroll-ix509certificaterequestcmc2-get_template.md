@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],Template property, IX509CertificateRequestCmc2.Template, IX509CertificateRequestCmc2.get_Template, IX509CertificateRequestCmc2::Template, IX509CertificateRequestCmc2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::Template, certenroll/IX509CertificateRequestCmc2::get_Template, get_Template, security.ix509certificaterequestcmc2_template
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestCmc2.Template"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestCmc2.Template"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

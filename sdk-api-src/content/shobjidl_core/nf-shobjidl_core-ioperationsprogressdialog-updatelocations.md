@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateLocations method, IOperationsProgressDialog.UpdateLocations, IOperationsProgressDialog::UpdateLocations, UpdateLocations, UpdateLocations method [Windows Shell], UpdateLocations method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateLocations, shell.IOperationsProgressDialog_UpdateLocations, shobjidl_core/IOperationsProgressDialog::UpdateLocations
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.UpdateLocations"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.UpdateLocations"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.Initialize"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

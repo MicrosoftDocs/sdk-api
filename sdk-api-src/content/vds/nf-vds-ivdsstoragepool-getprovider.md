@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
 ms.topic: method
-f1_keywords: ["vds/IVdsStoragePool.GetProvider"]
+f1_keywords: 
+ - "vds/IVdsStoragePool.GetProvider"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

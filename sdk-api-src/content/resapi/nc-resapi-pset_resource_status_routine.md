@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
 ms.topic: callback
-f1_keywords: ["resapi/SetResourceStatus"]
+f1_keywords: 
+ - "resapi/SetResourceStatus"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

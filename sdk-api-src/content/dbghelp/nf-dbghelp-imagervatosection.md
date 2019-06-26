@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageRvaToSection, ImageRvaToSection function, _win32_imagervatosection, base.imagervatosection, dbghelp/ImageRvaToSection
 ms.topic: function
-f1_keywords: ["dbghelp/ImageRvaToSection"]
+f1_keywords: 
+ - "dbghelp/ImageRvaToSection"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

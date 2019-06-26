@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [PSAPI], K32InitializeProcessForWatch, K32InitializeProcessForWsWatch, _win32_initializeprocessforwswatch, base.initializeprocessforwswatch, psapi.initializeprocessforwswatch, psapi/InitializeProcessForWsWatch, psapi/K32InitializeProcessForWsWatch
 ms.topic: function
-f1_keywords: ["psapi/InitializeProcessForWsWatch"]
+f1_keywords: 
+ - "psapi/InitializeProcessForWsWatch"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

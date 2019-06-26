@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION, authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION, security.authz_security_attributes_information"
 ms.topic: struct
-f1_keywords: ["authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION"]
+f1_keywords: 
+ - "authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

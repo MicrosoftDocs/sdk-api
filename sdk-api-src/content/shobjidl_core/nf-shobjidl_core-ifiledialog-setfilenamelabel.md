@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileNameLabel method, IFileDialog.SetFileNameLabel, IFileDialog::SetFileNameLabel, SetFileNameLabel, SetFileNameLabel method [Windows Shell], SetFileNameLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileNameLabel, shell_IFileDialog_SetFileNameLabel, shobjidl_core/IFileDialog::SetFileNameLabel
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetFileNameLabel"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetFileNameLabel"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

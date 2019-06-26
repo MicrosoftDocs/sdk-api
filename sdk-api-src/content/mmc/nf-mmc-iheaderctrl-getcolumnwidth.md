@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnWidth, GetColumnWidth method [MMC], GetColumnWidth method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnWidth method, IHeaderCtrl.GetColumnWidth, IHeaderCtrl::GetColumnWidth, mmc.iheaderctrl_getcolumnwidth, mmc/IHeaderCtrl::GetColumnWidth
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl.GetColumnWidth"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl.GetColumnWidth"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
 ms.topic: interface
-f1_keywords: ["netfw/INetFwServiceRestriction"]
+f1_keywords: 
+ - "netfw/INetFwServiceRestriction"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

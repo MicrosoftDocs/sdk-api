@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnclosingElement, GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetEnclosingElement method, IUIAutomationTextRange.GetEnclosingElement, IUIAutomationTextRange::GetEnclosingElement, uiauto.uiauto_IUIAutomationTextRange_GetEnclosingElement, uiauto_IUIAutomationTextRange_GetEnclosingElement, uiautomationclient/IUIAutomationTextRange::GetEnclosingElement, winauto.uiauto_IUIAutomationTextRange_GetEnclosingElement
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.GetEnclosingElement"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.GetEnclosingElement"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

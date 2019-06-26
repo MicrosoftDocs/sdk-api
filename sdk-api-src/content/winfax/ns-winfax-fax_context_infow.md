@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFAX_CONTEXT_INFOW, FAX_CONTEXT_INFO, FAX_CONTEXT_INFO structure [Fax Service], FAX_CONTEXT_INFOA, FAX_CONTEXT_INFOW, PFAX_CONTEXT_INFO, PFAX_CONTEXT_INFO structure pointer [Fax Service], _mfax_fax_context_info_str, fax._mfax_fax_context_info_str, winfax/FAX_CONTEXT_INFO, winfax/FAX_CONTEXT_INFOA, winfax/FAX_CONTEXT_INFOW, winfax/PFAX_CONTEXT_INFO"
 ms.topic: struct
-f1_keywords: ["winfax/FAX_CONTEXT_INFO"]
+f1_keywords: 
+ - "winfax/FAX_CONTEXT_INFO"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

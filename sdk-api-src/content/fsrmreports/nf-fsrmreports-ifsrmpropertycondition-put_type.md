@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Type property, IFsrmPropertyCondition.Type, IFsrmPropertyCondition.put_Type, IFsrmPropertyCondition::Type, IFsrmPropertyCondition::get_Type, IFsrmPropertyCondition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_type, fsrm.ifsrmpropertycondition_type, fsrmreports/IFsrmPropertyCondition::Type, fsrmreports/IFsrmPropertyCondition::get_Type, fsrmreports/IFsrmPropertyCondition::put_Type, put_Type
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmPropertyCondition.Type"]
+f1_keywords: 
+ - "fsrmreports/IFsrmPropertyCondition.Type"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

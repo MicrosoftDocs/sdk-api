@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMWMIFilterCollection class, Count property [GPMC],IGPMWMIFilterCollection interface, GPMWMIFilterCollection class [GPMC],Count property, IGPMWMIFilterCollection interface [GPMC],Count property, IGPMWMIFilterCollection.Count, IGPMWMIFilterCollection.get_Count, IGPMWMIFilterCollection::Count, IGPMWMIFilterCollection::get_Count, _win32_igpmwmifiltercollection_get_count, get_Count, gpmc.igpmwmifiltercollection_get_count, gpmgmt/IGPMWMIFilterCollection::Count, gpmgmt/IGPMWMIFilterCollection::get_Count
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMWMIFilterCollection.Count"]
+f1_keywords: 
+ - "gpmgmt/IGPMWMIFilterCollection.Count"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

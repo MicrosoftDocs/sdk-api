@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],Reconvert method, ITfFnReconversion.Reconvert, ITfFnReconversion::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_reconvert_ref, ctffunc/ITfFnReconversion::Reconvert, tsf.itffnreconversion_reconvert
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnReconversion.Reconvert"]
+f1_keywords: 
+ - "ctffunc/ITfFnReconversion.Reconvert"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

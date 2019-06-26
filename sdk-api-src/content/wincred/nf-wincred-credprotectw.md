@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.topic: function
-f1_keywords: ["wincred/CredProtect"]
+f1_keywords: 
+ - "wincred/CredProtect"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

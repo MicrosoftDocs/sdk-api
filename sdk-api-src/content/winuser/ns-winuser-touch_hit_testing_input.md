@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT structure pointer, TOUCH_HIT_TESTING_INPUT, TOUCH_HIT_TESTING_INPUT structure, input_touchhittest.touch_hit_testing_input, tagTOUCH_HIT_TESTING_INPUT, touch_hittest.touch_hit_testing_input, winuser/PTOUCH_HIT_TESTING_INPUT, winuser/TOUCH_HIT_TESTING_INPUT"
 ms.topic: struct
-f1_keywords: ["winuser/TOUCH_HIT_TESTING_INPUT"]
+f1_keywords: 
+ - "winuser/TOUCH_HIT_TESTING_INPUT"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
 ms.topic: enum
-f1_keywords: ["msctf/TfAnchor"]
+f1_keywords: 
+ - "msctf/TfAnchor"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

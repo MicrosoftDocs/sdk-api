@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Bind method, ITDirectory.Bind, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
 ms.topic: method
-f1_keywords: ["rend/ITDirectory.Bind"]
+f1_keywords: 
+ - "rend/ITDirectory.Bind"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

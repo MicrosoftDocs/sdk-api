@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],SetEvaluateOutputLevelLicenses method, IWMDRMReader2.SetEvaluateOutputLevelLicenses, IWMDRMReader2::SetEvaluateOutputLevelLicenses, IWMDRMReader2SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses method [windows Media Format], SetEvaluateOutputLevelLicenses method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_setevaluateoutputlevellicenses, wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader2.SetEvaluateOutputLevelLicenses"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader2.SetEvaluateOutputLevelLicenses"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

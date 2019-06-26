@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnShutdown method, IMFSampleGrabberSinkCallback.OnShutdown, IMFSampleGrabberSinkCallback::OnShutdown, OnShutdown, OnShutdown method [Media Foundation], OnShutdown method [Media Foundation],IMFSampleGrabberSinkCallback interface, c6ab8ce3-fabb-4321-b90b-d9cdf03e7608, mf.imfsamplegrabbersinkcallback_onshutdown, mfidl/IMFSampleGrabberSinkCallback::OnShutdown
 ms.topic: method
-f1_keywords: ["mfidl/IMFSampleGrabberSinkCallback.OnShutdown"]
+f1_keywords: 
+ - "mfidl/IMFSampleGrabberSinkCallback.OnShutdown"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

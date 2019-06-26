@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateWinSockIncident"]
+f1_keywords: 
+ - "ndfapi/NdfCreateWinSockIncident"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

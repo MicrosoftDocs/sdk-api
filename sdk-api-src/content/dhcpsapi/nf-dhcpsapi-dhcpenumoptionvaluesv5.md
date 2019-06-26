@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionValuesV5, DhcpEnumOptionValuesV5 function [DHCP], dhcp.dhcpenumoptionvaluesv5, dhcpsapi/DhcpEnumOptionValuesV5
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumOptionValuesV5"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumOptionValuesV5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

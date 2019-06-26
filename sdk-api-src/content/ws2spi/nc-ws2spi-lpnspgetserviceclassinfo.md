@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPGetServiceClassInfo"]
+f1_keywords: 
+ - "ws2spi/NSPGetServiceClassInfo"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

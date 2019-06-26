@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
 ms.topic: interface
-f1_keywords: ["certpol/INDESPolicy"]
+f1_keywords: 
+ - "certpol/INDESPolicy"
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

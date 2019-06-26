@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],described, _com_isurrogate, com.isurrogate, objidlbase/ISurrogate
 ms.topic: interface
-f1_keywords: ["objidl/ISurrogate"]
+f1_keywords: 
+ - "objidl/ISurrogate"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

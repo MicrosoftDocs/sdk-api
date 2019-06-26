@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT, ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock], PASSOCIATE_NAMERES_CONTEXT_INPUT, PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock], mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT, mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT, winsock.associate_nameres_context_input"
 ms.topic: struct
-f1_keywords: ["mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT"]
+f1_keywords: 
+ - "mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

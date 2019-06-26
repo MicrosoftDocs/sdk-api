@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback, pCryptSIPGetCaps callback function [Security], security.pfncryptsipgetcaps
 ms.topic: callback
-f1_keywords: ["mssip/pCryptSIPGetCaps"]
+f1_keywords: 
+ - "mssip/pCryptSIPGetCaps"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

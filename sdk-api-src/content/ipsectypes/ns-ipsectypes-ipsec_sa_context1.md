@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT1, IPSEC_SA_CONTEXT1 structure [Filtering], fwp.ipsec_sa_context1, ipsectypes/IPSEC_SA_CONTEXT1
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_SA_CONTEXT1"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_SA_CONTEXT1"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

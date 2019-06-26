@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ICAT.GetTableDescriptorByTag, ICAT::GetTableDescriptorByTag, ICATGetTableDescriptorByTag, mpeg2psiparser/ICAT::GetTableDescriptorByTag, mstv.icat_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/ICAT.GetTableDescriptorByTag"]
+f1_keywords: 
+ - "mpeg2psiparser/ICAT.GetTableDescriptorByTag"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

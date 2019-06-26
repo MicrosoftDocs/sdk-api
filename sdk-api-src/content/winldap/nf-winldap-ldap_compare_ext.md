@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_compare_ext, ldap.ldap__compare__ext, ldap.ldap_compare_ext, ldap_compare_ext, ldap_compare_ext function [LDAP], ldap_compare_extA, ldap_compare_extW, winldap/ldap_compare_ext, winldap/ldap_compare_extA, winldap/ldap_compare_extW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_compare_ext"]
+f1_keywords: 
+ - "winldap/ldap_compare_ext"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

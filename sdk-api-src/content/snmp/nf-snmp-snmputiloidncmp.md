@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidNCmp, SnmpUtilOidNCmp function [SNMP], _snmp_snmputiloidncmp, snmp.snmputiloidncmp, snmp/SnmpUtilOidNCmp
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilOidNCmp"]
+f1_keywords: 
+ - "snmp/SnmpUtilOidNCmp"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetAspectRatioMode method, IMFPMediaPlayer.GetAspectRatioMode, IMFPMediaPlayer::GetAspectRatioMode, mf.imfpmediaplayer_getaspectratiomode, mfplay/IMFPMediaPlayer::GetAspectRatioMode
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetAspectRatioMode"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetAspectRatioMode"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsMgmtEntryInqIfIds"]
+f1_keywords: 
+ - "rpcnsi/RpcNsMgmtEntryInqIfIds"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjgetondiskfilestate, projectedfslib/PrjGetOnDiskFileState
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjGetOnDiskFileState"]
+f1_keywords: 
+ - "projectedfslib/PrjGetOnDiskFileState"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

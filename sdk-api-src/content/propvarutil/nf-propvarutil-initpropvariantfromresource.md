@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [Windows Properties], properties.InitPropVariantFromResource, propvarutil/InitPropVariantFromResource, shell.InitPropVariantFromResource, shell_InitPropVariantFromResource
 ms.topic: function
-f1_keywords: ["propvarutil/InitPropVariantFromResource"]
+f1_keywords: 
+ - "propvarutil/InitPropVariantFromResource"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

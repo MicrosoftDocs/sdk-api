@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUnicastIpAddressEntry, SetUnicastIpAddressEntry function [IP Helper], iphlp.setunicastipaddressentry, netioapi/SetUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: ["netioapi/SetUnicastIpAddressEntry"]
+f1_keywords: 
+ - "netioapi/SetUnicastIpAddressEntry"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileMUIInfo, GetFileMUIInfo function [Internationalization for Windows Applications], MUI_QUERY_CHECKSUM, MUI_QUERY_LANGUAGE_NAME, MUI_QUERY_RESOURCE_TYPES, MUI_QUERY_TYPE, _win32_GetFileMUIInfo, intl.getfilemuiinfo, winnls/GetFileMUIInfo
 ms.topic: function
-f1_keywords: ["winnls/GetFileMUIInfo"]
+f1_keywords: 
+ - "winnls/GetFileMUIInfo"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

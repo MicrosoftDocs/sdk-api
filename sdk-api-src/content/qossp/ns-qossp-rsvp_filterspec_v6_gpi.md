@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI structure [QOS], RSVP_FILTERSPEC_V6_GPI, RSVP_FILTERSPEC_V6_GPI structure [QOS], qos.rsvp_filterspec_v6_gpi, qossp/*LPRSVP_FILTERSPEC_V6_GPI, qossp/RSVP_FILTERSPEC_V6_GPI"
 ms.topic: struct
-f1_keywords: ["qossp/RSVP_FILTERSPEC_V6_GPI"]
+f1_keywords: 
+ - "qossp/RSVP_FILTERSPEC_V6_GPI"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
 ms.topic: function
-f1_keywords: ["evcoll/EcOpenSubscriptionEnum"]
+f1_keywords: 
+ - "evcoll/EcOpenSubscriptionEnum"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngWaitForSingleObject, EngWaitForSingleObject function [Display Devices], display.engwaitforsingleobject, gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml, winddi/EngWaitForSingleObject
 ms.topic: function
-f1_keywords: ["winddi/EngWaitForSingleObject"]
+f1_keywords: 
+ - "winddi/EngWaitForSingleObject"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

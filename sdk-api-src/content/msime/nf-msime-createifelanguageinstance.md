@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
 ms.topic: function
-f1_keywords: ["msime/CreateIFELanguageInstance"]
+f1_keywords: 
+ - "msime/CreateIFELanguageInstance"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

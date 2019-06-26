@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 43b4261f-2644-4897-99db-041ae06099f3, ID3D10EffectVariable interface [Direct3D 10],SetRawValue method, ID3D10EffectVariable.SetRawValue, ID3D10EffectVariable::SetRawValue, SetRawValue, SetRawValue method [Direct3D 10], SetRawValue method [Direct3D 10],ID3D10EffectVariable interface, d3d10effect/ID3D10EffectVariable::SetRawValue, direct3d10.id3d10effectvariable_setrawvalue
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectVariable.SetRawValue"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectVariable.SetRawValue"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

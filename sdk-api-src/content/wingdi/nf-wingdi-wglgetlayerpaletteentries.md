@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries"
 ms.topic: function
-f1_keywords: ["wingdi/wglGetLayerPaletteEntries"]
+f1_keywords: 
+ - "wingdi/wglGetLayerPaletteEntries"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

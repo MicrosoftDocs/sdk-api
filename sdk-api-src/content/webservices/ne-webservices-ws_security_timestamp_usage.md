@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_TIMESTAMP_USAGE, WS_SECURITY_TIMESTAMP_USAGE enumeration [Web Services for Windows], WS_SECURITY_TIMESTAMP_USAGE_ALWAYS, WS_SECURITY_TIMESTAMP_USAGE_NEVER, WS_SECURITY_TIMESTAMP_USAGE_REQUESTS_ONLY, webservices/WS_SECURITY_TIMESTAMP_USAGE, webservices/WS_SECURITY_TIMESTAMP_USAGE_ALWAYS, webservices/WS_SECURITY_TIMESTAMP_USAGE_NEVER, webservices/WS_SECURITY_TIMESTAMP_USAGE_REQUESTS_ONLY, wsw.ws_security_timestamp_usage
 ms.topic: enum
-f1_keywords: ["webservices/WS_SECURITY_TIMESTAMP_USAGE"]
+f1_keywords: 
+ - "webservices/WS_SECURITY_TIMESTAMP_USAGE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

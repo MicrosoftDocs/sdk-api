@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],RemoveVisual method, IDCompositionVisual.RemoveVisual, IDCompositionVisual::RemoveVisual, RemoveVisual, RemoveVisual method [DirectComposition], RemoveVisual method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::RemoveVisual, directcomp.idcompositionvisual_removevisual
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual.RemoveVisual"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual.RemoveVisual"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

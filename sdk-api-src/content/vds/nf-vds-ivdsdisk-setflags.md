@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk.SetFlags"]
+f1_keywords: 
+ - "vds/IVdsDisk.SetFlags"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

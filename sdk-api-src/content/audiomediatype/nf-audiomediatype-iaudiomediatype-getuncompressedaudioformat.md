@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audio Devices], GetUncompressedAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetUncompressedAudioFormat method, IAudioMediaType.GetUncompressedAudioFormat, IAudioMediaType::GetUncompressedAudioFormat, audio.iaudiomediatype_getuncompressedaudioformat, audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml, audiomediatype/IAudioMediaType::GetUncompressedAudioFormat
 ms.topic: method
-f1_keywords: ["audiomediatype/IAudioMediaType.GetUncompressedAudioFormat"]
+f1_keywords: 
+ - "audiomediatype/IAudioMediaType.GetUncompressedAudioFormat"
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

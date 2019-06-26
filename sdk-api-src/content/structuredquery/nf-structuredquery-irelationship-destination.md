@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Destination, Destination method [search], Destination method [search],IRelationship interface, IRelationship interface [search],Destination method, IRelationship.Destination, IRelationship::Destination, _search_IRelationship_Destination, search._search_IRelationship_Destination, structuredquery/IRelationship::Destination
 ms.topic: method
-f1_keywords: ["structuredquery/IRelationship.Destination"]
+f1_keywords: 
+ - "structuredquery/IRelationship.Destination"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

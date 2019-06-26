@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetName method, IXpsOMVisual.GetName, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.GetName"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.GetName"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLDispatchable, IDMLDispatchable interface, IDMLDispatchable interface,described, direct3d12.idmldispatchable, directml/IDMLDispatchable
 ms.topic: interface
-f1_keywords: ["directml/IDMLDispatchable"]
+f1_keywords: 
+ - "directml/IDMLDispatchable"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

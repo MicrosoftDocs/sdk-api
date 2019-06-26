@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EstablishConnection, EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EstablishConnection method, ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.EstablishConnection"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.EstablishConnection"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

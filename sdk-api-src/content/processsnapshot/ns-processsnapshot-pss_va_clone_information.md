@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_VA_CLONE_INFORMATION, PSS_VA_CLONE_INFORMATION structure, proc_snap.pss_va_clone_information, processsnapshot/PSS_VA_CLONE_INFORMATION
 ms.topic: struct
-f1_keywords: ["processsnapshot/PSS_VA_CLONE_INFORMATION"]
+f1_keywords: 
+ - "processsnapshot/PSS_VA_CLONE_INFORMATION"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

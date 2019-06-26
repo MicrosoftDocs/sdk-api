@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAS_CONNECTION_2, PRAS_CONNECTION_2, PRAS_CONNECTION_2 structure pointer [RAS], RAS_CONNECTION_2, RAS_CONNECTION_2 structure [RAS], _mpr_ras_connection_2, mprapi/PRAS_CONNECTION_2, mprapi/RAS_CONNECTION_2, rras.ras_connection_2"
 ms.topic: struct
-f1_keywords: ["mprapi/RAS_CONNECTION_2"]
+f1_keywords: 
+ - "mprapi/RAS_CONNECTION_2"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

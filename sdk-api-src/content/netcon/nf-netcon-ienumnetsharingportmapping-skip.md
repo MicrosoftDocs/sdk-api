@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Skip method, IEnumNetSharingPortMapping.Skip, IEnumNetSharingPortMapping::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_skip, ics.ienumnetsharingportmapping_skip, netcon/IEnumNetSharingPortMapping::Skip
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingPortMapping.Skip"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPortMapping.Skip"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

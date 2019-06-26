@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.topic: interface
-f1_keywords: ["certenc/ICertEncodeBitString"]
+f1_keywords: 
+ - "certenc/ICertEncodeBitString"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

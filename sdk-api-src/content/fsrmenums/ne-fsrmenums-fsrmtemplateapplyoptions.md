@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmTemplateApplyOptions, FsrmTemplateApplyOptions enumeration [File Server Resource Manager], FsrmTemplateApplyOptions_ApplyToDerivedAll, FsrmTemplateApplyOptions_ApplyToDerivedMatching, fs.fsrmtemplateapplyoptions, fsrm.fsrmtemplateapplyoptions, fsrmenums/FsrmTemplateApplyOptions, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmTemplateApplyOptions"]
+f1_keywords: 
+ - "fsrmenums/FsrmTemplateApplyOptions"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

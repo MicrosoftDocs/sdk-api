@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Char16AField, MI_Char16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_Char16AField, wmi._mi_char16afield, wmi_v2.mi_char16afield
 ms.topic: struct
-f1_keywords: ["mi/MI_Char16AField"]
+f1_keywords: 
+ - "mi/MI_Char16AField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

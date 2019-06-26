@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetClrCompat, AppPolicyGetClrCompat function [App packaging and management], appmodel/AppPolicyGetClrCompat, appxpkg.apppolicygetclrcompat
 ms.topic: function
-f1_keywords: ["appmodel/AppPolicyGetClrCompat"]
+f1_keywords: 
+ - "appmodel/AppPolicyGetClrCompat"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

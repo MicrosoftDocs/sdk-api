@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
 ms.topic: method
-f1_keywords: ["bits1_5/IBackgroundCopyJob2.SetNotifyCmdLine"]
+f1_keywords: 
+ - "bits1_5/IBackgroundCopyJob2.SetNotifyCmdLine"
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

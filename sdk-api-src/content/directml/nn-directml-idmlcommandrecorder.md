@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder, IDMLCommandRecorder interface, IDMLCommandRecorder interface,described, direct3d12.idmlcommandrecorder, directml/IDMLCommandRecorder
 ms.topic: interface
-f1_keywords: ["directml/IDMLCommandRecorder"]
+f1_keywords: 
+ - "directml/IDMLCommandRecorder"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

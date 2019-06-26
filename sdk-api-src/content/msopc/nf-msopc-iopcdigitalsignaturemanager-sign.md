@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignatureManager.Sign"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignatureManager.Sign"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

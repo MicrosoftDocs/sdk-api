@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO"
 ms.topic: struct
-f1_keywords: ["ocidl/CONTROLINFO"]
+f1_keywords: 
+ - "ocidl/CONTROLINFO"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitorRECT, GetMonitorRECT method [Windows Shell], GetMonitorRECT method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorRECT method, IDesktopWallpaper.GetMonitorRECT, IDesktopWallpaper::GetMonitorRECT, shell.IDesktopWallpaper_GetMonitorRECT, shobjidl_core/IDesktopWallpaper::GetMonitorRECT
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.GetMonitorRECT"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.GetMonitorRECT"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

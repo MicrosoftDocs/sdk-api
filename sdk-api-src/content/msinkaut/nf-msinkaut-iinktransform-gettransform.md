@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [Tablet PC], GetTransform method [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],GetTransform method, IInkTransform.GetTransform, IInkTransform::GetTransform, d6aec579-7fa4-4cfb-8f63-2810b0c40103, msinkaut/IInkTransform::GetTransform, tablet.inktransform_gettransform
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTransform.GetTransform"]
+f1_keywords: 
+ - "msinkaut/IInkTransform.GetTransform"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

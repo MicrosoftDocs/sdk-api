@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
 ms.topic: function
-f1_keywords: ["npapi/NPGetConnection"]
+f1_keywords: 
+ - "npapi/NPGetConnection"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

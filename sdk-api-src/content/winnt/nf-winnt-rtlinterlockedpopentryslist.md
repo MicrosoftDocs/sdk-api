@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedPopEntrySList, RtlInterlockedPopEntrySList function, base.rtlinterlockedpopentryslist, winnt/RtlInterlockedPopEntrySList
 ms.topic: function
-f1_keywords: ["winnt/RtlInterlockedPopEntrySList"]
+f1_keywords: 
+ - "winnt/RtlInterlockedPopEntrySList"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

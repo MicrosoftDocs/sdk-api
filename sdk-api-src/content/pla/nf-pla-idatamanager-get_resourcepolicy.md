@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager.get_ResourcePolicy, IDataManager::ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA],IDataManager interface, base.idatamanager_resourcepolicy, get_ResourcePolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy
 ms.topic: method
-f1_keywords: ["pla/IDataManager.ResourcePolicy"]
+f1_keywords: 
+ - "pla/IDataManager.ResourcePolicy"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

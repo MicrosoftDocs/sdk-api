@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],OutputLocation property, IDataCollectorSet.OutputLocation, IDataCollectorSet.get_OutputLocation, IDataCollectorSet::OutputLocation, IDataCollectorSet::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_outputlocation, get_OutputLocation, pla.idatacollectorset_get_outputlocation, pla/IDataCollectorSet::OutputLocation, pla/IDataCollectorSet::get_OutputLocation
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.OutputLocation"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.OutputLocation"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

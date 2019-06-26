@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
 ms.topic: function
-f1_keywords: ["secext/GetUserNameEx"]
+f1_keywords: 
+ - "secext/GetUserNameEx"
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

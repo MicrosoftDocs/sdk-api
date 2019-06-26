@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceDataStream.Cancel"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceDataStream.Cancel"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

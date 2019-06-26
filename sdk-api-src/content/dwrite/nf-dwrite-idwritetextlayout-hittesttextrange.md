@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HitTestTextRange, HitTestTextRange method [Direct Write], HitTestTextRange method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextRange method, IDWriteTextLayout.HitTestTextRange, IDWriteTextLayout::HitTestTextRange, directwrite.IDWriteTextLayout_HitTestTextRange, dwrite/IDWriteTextLayout::HitTestTextRange
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.HitTestTextRange"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.HitTestTextRange"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

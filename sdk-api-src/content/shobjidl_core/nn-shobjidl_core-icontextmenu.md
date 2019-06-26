@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextMenu, IContextMenu interface [Windows Shell], IContextMenu interface [Windows Shell],described, _win32_IContextMenu, _win32_icontextmenu_cpp, shell.IContextMenu, shobjidl_core/IContextMenu
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IContextMenu"]
+f1_keywords: 
+ - "shobjidl_core/IContextMenu"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

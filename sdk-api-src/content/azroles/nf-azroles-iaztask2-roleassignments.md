@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzTask2 interface [Security],RoleAssignments method, IAzTask2.RoleAssignments, IAzTask2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzTask2 interface, azroles/IAzTask2::RoleAssignments, security.iaztask2_roleassignments_method
 ms.topic: method
-f1_keywords: ["azroles/IAzTask2.RoleAssignments"]
+f1_keywords: 
+ - "azroles/IAzTask2.RoleAssignments"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

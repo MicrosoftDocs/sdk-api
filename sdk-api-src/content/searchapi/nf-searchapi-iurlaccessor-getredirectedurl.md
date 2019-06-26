@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRedirectedURL, GetRedirectedURL method [search], GetRedirectedURL method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetRedirectedURL method, IUrlAccessor.GetRedirectedURL, IUrlAccessor::GetRedirectedURL, _search_IUrlAccessor_GetRedirectedURL, search._search_IUrlAccessor_GetRedirectedURL, searchapi/IUrlAccessor::GetRedirectedURL
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.GetRedirectedURL"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.GetRedirectedURL"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

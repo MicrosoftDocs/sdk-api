@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_BAT.GetRecordTransportStreamId, IDVB_BAT::GetRecordTransportStreamId, IDVB_BATGetRecordTransportStreamId, dvbsiparser/IDVB_BAT::GetRecordTransportStreamId, mstv.idvb_bat_getrecordtransportstreamid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_BAT.GetRecordTransportStreamId"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_BAT.GetRecordTransportStreamId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

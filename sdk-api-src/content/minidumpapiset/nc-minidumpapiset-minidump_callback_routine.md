@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
 ms.topic: callback
-f1_keywords: ["minidumpapiset/MiniDumpCallback"]
+f1_keywords: 
+ - "minidumpapiset/MiniDumpCallback"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

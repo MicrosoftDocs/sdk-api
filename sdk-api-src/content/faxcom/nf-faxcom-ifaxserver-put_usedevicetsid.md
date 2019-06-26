@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],UseDeviceTsid property, IFaxServer.UseDeviceTsid, IFaxServer.get_UseDeviceTsid, IFaxServer.put_UseDeviceTsid, IFaxServer::UseDeviceTsid, IFaxServer::get_UseDeviceTsid, IFaxServer::put_UseDeviceTsid, UseDeviceTsid property [Fax Service], UseDeviceTsid property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_usedevicetsid, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_usedevicetsid_cpp, fax._mfax_ifaxserver_get_usedevicetsid, faxcom/IFaxServer::UseDeviceTsid, faxcom/IFaxServer::get_UseDeviceTsid, faxcom/IFaxServer::put_UseDeviceTsid, put_UseDeviceTsid
 ms.topic: method
-f1_keywords: ["faxcom/IFaxServer.UseDeviceTsid"]
+f1_keywords: 
+ - "faxcom/IFaxServer.UseDeviceTsid"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

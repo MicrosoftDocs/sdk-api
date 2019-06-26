@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PROTECT_STREAM_INFO, NCRYPT_PROTECT_STREAM_INFO structure [Security], PNCRYPT_PROTECT_STREAM_INFO, PNCRYPT_PROTECT_STREAM_INFO structure pointer [Security], ncryptprotect/NCRYPT_PROTECT_STREAM_INFO, ncryptprotect/PNCRYPT_PROTECT_STREAM_INFO, security.ncrypt_protect_stream_info
 ms.topic: struct
-f1_keywords: ["ncryptprotect/NCRYPT_PROTECT_STREAM_INFO"]
+f1_keywords: 
+ - "ncryptprotect/NCRYPT_PROTECT_STREAM_INFO"
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

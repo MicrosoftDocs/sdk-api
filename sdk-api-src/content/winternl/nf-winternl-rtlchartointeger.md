@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger
 ms.topic: function
-f1_keywords: ["winternl/RtlCharToInteger"]
+f1_keywords: 
+ - "winternl/RtlCharToInteger"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaItem.GetMetadata"]
+f1_keywords: 
+ - "mfplay/IMFPMediaItem.GetMetadata"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

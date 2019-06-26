@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
 ms.topic: interface
-f1_keywords: ["spatialaudiohrtf/ISpatialAudioObjectForHrtf"]
+f1_keywords: 
+ - "spatialaudiohrtf/ISpatialAudioObjectForHrtf"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICGetDefaultQuality, ICGetDefaultQuality macro [Windows Multimedia], _win32_ICGetDefaultQuality, multimedia.icgetdefaultquality, vfw/ICGetDefaultQuality
 ms.topic: macro
-f1_keywords: ["vfw/ICGetDefaultQuality"]
+f1_keywords: 
+ - "vfw/ICGetDefaultQuality"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

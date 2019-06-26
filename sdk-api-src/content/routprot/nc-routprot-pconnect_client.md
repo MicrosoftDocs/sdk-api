@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIENT, PCONNECT_CLIENT callback, _mpr_connectclient, routprot/ConnectClient, rras.connectclient
 ms.topic: callback
-f1_keywords: ["routprot/ConnectClient"]
+f1_keywords: 
+ - "routprot/ConnectClient"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

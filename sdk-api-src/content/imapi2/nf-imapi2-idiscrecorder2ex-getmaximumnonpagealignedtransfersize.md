@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaximumNonPageAlignedTransferSize, GetMaximumNonPageAlignedTransferSize method [IMAPI], GetMaximumNonPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumNonPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

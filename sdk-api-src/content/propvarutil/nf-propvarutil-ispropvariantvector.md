@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
 ms.topic: function
-f1_keywords: ["propvarutil/IsPropVariantVector"]
+f1_keywords: 
+ - "propvarutil/IsPropVariantVector"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

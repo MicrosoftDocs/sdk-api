@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linepickup, linePickup, linePickup function [TAPI 2.2], linePickupA, linePickupW, tapi/linePickup, tapi/linePickupA, tapi/linePickupW, tapi2.linepickup"
 ms.topic: function
-f1_keywords: ["tapi/linePickup"]
+f1_keywords: 
+ - "tapi/linePickup"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

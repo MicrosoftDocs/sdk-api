@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.InvokeCommand"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.InvokeCommand"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

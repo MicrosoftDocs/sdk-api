@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSIDL_FLAG_CREATE, CSIDL_FLAG_PFTI_TRACKTARGET, PERSIST_FOLDER_TARGET_INFO, PERSIST_FOLDER_TARGET_INFO structure [Windows Shell], _PERSIST_FOLDER_TARGET_INFO, _win32_PERSIST_FOLDER_TARGET_INFO_str, shell.PERSIST_FOLDER_TARGET_INFO_str, shobjidl_core/PERSIST_FOLDER_TARGET_INFO
 ms.topic: struct
-f1_keywords: ["shobjidl_core/PERSIST_FOLDER_TARGET_INFO"]
+f1_keywords: 
+ - "shobjidl_core/PERSIST_FOLDER_TARGET_INFO"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

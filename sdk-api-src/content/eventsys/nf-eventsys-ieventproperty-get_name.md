@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Name property, IEventProperty.Name, IEventProperty.get_Name, IEventProperty::Name, IEventProperty::get_Name, IEventProperty::put_Name, Name property [COM], Name property [COM],IEventProperty interface, _com_ieventproperty_name, com.ieventproperty_name, eventsys/IEventProperty::Name, eventsys/IEventProperty::get_Name, eventsys/IEventProperty::put_Name, get_Name
 ms.topic: method
-f1_keywords: ["eventsys/IEventProperty.Name"]
+f1_keywords: 
+ - "eventsys/IEventProperty.Name"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

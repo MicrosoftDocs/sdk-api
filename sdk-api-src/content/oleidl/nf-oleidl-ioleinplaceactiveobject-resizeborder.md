@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleInPlaceActiveObject.ResizeBorder, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceActiveObject.ResizeBorder"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceActiveObject.ResizeBorder"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

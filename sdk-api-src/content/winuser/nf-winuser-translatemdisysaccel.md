@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TranslateMDISysAccel, TranslateMDISysAccel function [Windows and Messages], _win32_TranslateMDISysAccel, _win32_translatemdisysaccel_cpp, winmsg.translatemdisysaccel, winui._win32_translatemdisysaccel, winuser/TranslateMDISysAccel
 ms.topic: function
-f1_keywords: ["winuser/TranslateMDISysAccel"]
+f1_keywords: 
+ - "winuser/TranslateMDISysAccel"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

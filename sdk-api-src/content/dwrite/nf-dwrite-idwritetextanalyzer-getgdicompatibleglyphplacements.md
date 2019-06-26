@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphPlacements, GetGdiCompatibleGlyphPlacements method [Direct Write], GetGdiCompatibleGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGdiCompatibleGlyphPlacements method, IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements, IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements, directwrite.idwritetextanalyzer_getgdicompatibleglyphplacements, dwrite/IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

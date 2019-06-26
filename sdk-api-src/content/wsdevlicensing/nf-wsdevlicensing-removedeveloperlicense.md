@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
 ms.topic: function
-f1_keywords: ["wsdevlicensing/RemoveDeveloperLicense"]
+f1_keywords: 
+ - "wsdevlicensing/RemoveDeveloperLicense"
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows

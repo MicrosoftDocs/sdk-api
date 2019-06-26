@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetTimeFormat method, IMediaSeeking.SetTimeFormat, IMediaSeeking::SetTimeFormat, IMediaSeekingSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_settimeformat, strmif/IMediaSeeking::SetTimeFormat
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.SetTimeFormat"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.SetTimeFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

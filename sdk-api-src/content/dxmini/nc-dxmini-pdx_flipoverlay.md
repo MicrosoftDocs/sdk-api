@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], PDX_FLIPOVERLAY, PDX_FLIPOVERLAY callback, VideoMiniPort_DxApiFunctions_67a8d728-6197-4111-9115-597ff4311331.xml, display.dxflipoverlay, dxmini/DxFlipOverlay
 ms.topic: callback
-f1_keywords: ["dxmini/DxFlipOverlay"]
+f1_keywords: 
+ - "dxmini/DxFlipOverlay"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefRawInputProc, DefRawInputProc function [Keyboard and Mouse Input], _win32_DefRawInputProc, _win32_defrawinputproc_cpp, inputdev.defrawinputproc, winui._win32_defrawinputproc, winuser/DefRawInputProc
 ms.topic: function
-f1_keywords: ["winuser/DefRawInputProc"]
+f1_keywords: 
+ - "winuser/DefRawInputProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

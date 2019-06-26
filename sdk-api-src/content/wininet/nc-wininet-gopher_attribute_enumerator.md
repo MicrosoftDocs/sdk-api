@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GOPHER_ATTRIBUTE_ENUMERATOR, GOPHER_ATTRIBUTE_ENUMERATOR callback, GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet], GopherAttributeEnumerator, _inet_gopher_attribute_enumerator_prototype, wininet.gopherattributeenumerator, wininet/GOPHER_ATTRIBUTE_ENUMERATOR
 ms.topic: callback
-f1_keywords: ["wininet/GOPHER_ATTRIBUTE_ENUMERATOR"]
+f1_keywords: 
+ - "wininet/GOPHER_ATTRIBUTE_ENUMERATOR"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
 ms.topic: macro
-f1_keywords: ["commctrl/TabCtrl_GetImageList"]
+f1_keywords: 
+ - "commctrl/TabCtrl_GetImageList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

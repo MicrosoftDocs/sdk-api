@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindTypeRef, FindTypeRef method [Windows Runtime], FindTypeRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindTypeRef method, IMetaDataImport.FindTypeRef, IMetaDataImport::FindTypeRef, rometadataapi/IMetaDataImport::FindTypeRef, winrt.imetadataimport_findtyperef
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.FindTypeRef"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.FindTypeRef"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

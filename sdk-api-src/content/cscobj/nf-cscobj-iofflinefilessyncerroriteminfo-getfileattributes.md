@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributes, GetFileAttributes method [Offline Files], GetFileAttributes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileAttributes method, IOfflineFilesSyncErrorItemInfo.GetFileAttributes, IOfflineFilesSyncErrorItemInfo::GetFileAttributes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileAttributes, of.iofflinefilessyncerroriteminfo_getfileattributes
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorItemInfo.GetFileAttributes"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorItemInfo.GetFileAttributes"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

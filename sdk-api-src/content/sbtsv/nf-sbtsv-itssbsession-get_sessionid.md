@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],SessionId property, ITsSbSession.SessionId, ITsSbSession.get_SessionId, ITsSbSession::SessionId, ITsSbSession::get_SessionId, SessionId property [Remote Desktop Services], SessionId property [Remote Desktop Services],ITsSbSession interface, get_SessionId, sbtsv/ITsSbSession::SessionId, sbtsv/ITsSbSession::get_SessionId, termserv.itssbsession_sessionid
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.SessionId"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.SessionId"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

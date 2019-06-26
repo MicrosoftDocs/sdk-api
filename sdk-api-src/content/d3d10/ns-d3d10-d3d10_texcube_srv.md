@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEXCUBE_SRV, D3D10_TEXCUBE_SRV structure [Direct3D 10], d3d10/D3D10_TEXCUBE_SRV, da9fa33a-8f0a-d5f0-db0c-b31a70335b19, direct3d10.d3d10_texcube_srv
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_TEXCUBE_SRV"]
+f1_keywords: 
+ - "d3d10/D3D10_TEXCUBE_SRV"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

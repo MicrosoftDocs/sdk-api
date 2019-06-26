@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
 ms.topic: method
-f1_keywords: ["ctffunc/IEnumTfLatticeElements.Reset"]
+f1_keywords: 
+ - "ctffunc/IEnumTfLatticeElements.Reset"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

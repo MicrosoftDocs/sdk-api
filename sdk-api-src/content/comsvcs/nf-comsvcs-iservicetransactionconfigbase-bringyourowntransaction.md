@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BringYourOwnTransaction, BringYourOwnTransaction method [COM+], BringYourOwnTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],BringYourOwnTransaction method, IServiceTransactionConfigBase.BringYourOwnTransaction, IServiceTransactionConfigBase::BringYourOwnTransaction, _cos_IServiceTransactionConfigBase_BringYourOwnTransaction, comsvcs/IServiceTransactionConfigBase::BringYourOwnTransaction, cos.iservicetransactionconfigbase_bringyourowntransaction
 ms.topic: method
-f1_keywords: ["comsvcs/IServiceTransactionConfigBase.BringYourOwnTransaction"]
+f1_keywords: 
+ - "comsvcs/IServiceTransactionConfigBase.BringYourOwnTransaction"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

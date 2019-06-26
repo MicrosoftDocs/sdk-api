@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
 ms.topic: function
-f1_keywords: ["peerdist/PeerDistServerPublishCompleteStream"]
+f1_keywords: 
+ - "peerdist/PeerDistServerPublishCompleteStream"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

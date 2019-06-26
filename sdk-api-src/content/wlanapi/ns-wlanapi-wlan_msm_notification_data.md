@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_MSM_NOTIFICATION_DATA"]
+f1_keywords: 
+ - "wlanapi/WLAN_MSM_NOTIFICATION_DATA"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

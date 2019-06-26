@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
 ms.topic: method
-f1_keywords: ["mfidl/IMFRemoteDesktopPlugin.UpdateTopology"]
+f1_keywords: 
+ - "mfidl/IMFRemoteDesktopPlugin.UpdateTopology"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

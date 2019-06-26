@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
 ms.topic: macro
-f1_keywords: ["shlwapi/MAKEDLLVERULL"]
+f1_keywords: 
+ - "shlwapi/MAKEDLLVERULL"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

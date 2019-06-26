@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],ItemByIndex property, ICertProperties.ItemByIndex, ICertProperties.get_ItemByIndex, ICertProperties::ItemByIndex, ICertProperties::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertProperties interface, certenroll/ICertProperties::ItemByIndex, certenroll/ICertProperties::get_ItemByIndex, get_ItemByIndex, security.icertproperties_itembyindex_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperties.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/ICertProperties.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

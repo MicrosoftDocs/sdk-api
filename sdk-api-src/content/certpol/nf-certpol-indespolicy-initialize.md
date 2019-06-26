@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
 ms.topic: method
-f1_keywords: ["certpol/INDESPolicy.Initialize"]
+f1_keywords: 
+ - "certpol/INDESPolicy.Initialize"
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

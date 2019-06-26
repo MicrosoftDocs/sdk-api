@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
 ms.topic: enum
-f1_keywords: ["d2d1/D2D1_FACTORY_TYPE"]
+f1_keywords: 
+ - "d2d1/D2D1_FACTORY_TYPE"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

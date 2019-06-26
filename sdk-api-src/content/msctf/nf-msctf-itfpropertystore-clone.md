@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Clone method, ITfPropertyStore.Clone, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
 ms.topic: method
-f1_keywords: ["msctf/ITfPropertyStore.Clone"]
+f1_keywords: 
+ - "msctf/ITfPropertyStore.Clone"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

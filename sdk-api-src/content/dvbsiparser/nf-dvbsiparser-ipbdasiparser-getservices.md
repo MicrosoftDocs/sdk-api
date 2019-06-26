@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IPBDASiParser interface, IPBDASiParser interface [Microsoft TV Technologies],GetServices method, IPBDASiParser.GetServices, IPBDASiParser::GetServices, dshow.ipbdasiparser_getservices, dvbsiparser/IPBDASiParser::GetServices, mstv.ipbdasiparser_getservices
 ms.topic: method
-f1_keywords: ["dvbsiparser/IPBDASiParser.GetServices"]
+f1_keywords: 
+ - "dvbsiparser/IPBDASiParser.GetServices"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

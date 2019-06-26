@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENLINK, ENLINK structure [Windows Controls], _win32_ENLINK_str, _win32_ENLINK_str_cpp, controls.ENLINK, controls._win32_ENLINK_str, richedit/ENLINK
 ms.topic: struct
-f1_keywords: ["richedit/ENLINK"]
+f1_keywords: 
+ - "richedit/ENLINK"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

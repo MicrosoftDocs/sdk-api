@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT"
 ms.topic: struct
-f1_keywords: ["wingdi/DRAWPATRECT"]
+f1_keywords: 
+ - "wingdi/DRAWPATRECT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

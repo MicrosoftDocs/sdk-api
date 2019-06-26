@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.dvextentinfo, ocidl/DVEXTENTINFO
 ms.topic: struct
-f1_keywords: ["ocidl/DVEXTENTINFO"]
+f1_keywords: 
+ - "ocidl/DVEXTENTINFO"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

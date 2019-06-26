@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVEXTENT_INTEGRAL, _ole_DVEXTENTMODE, com.dvextentmode, ocidl/DVEXTENTMODE, ocidl/DVEXTENT_CONTENT, ocidl/DVEXTENT_INTEGRAL
 ms.topic: enum
-f1_keywords: ["ocidl/DVEXTENTMODE"]
+f1_keywords: 
+ - "ocidl/DVEXTENTMODE"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellIndex method, ITextRow.SetCellIndex, ITextRow::SetCellIndex, SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls],ITextRow interface, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetCellIndex"]
+f1_keywords: 
+ - "tom/ITextRow.SetCellIndex"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

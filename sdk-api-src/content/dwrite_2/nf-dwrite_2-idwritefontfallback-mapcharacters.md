@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback interface [Direct Write],MapCharacters method, IDWriteFontFallback.MapCharacters, IDWriteFontFallback::MapCharacters, MapCharacters, MapCharacters method [Direct Write], MapCharacters method [Direct Write],IDWriteFontFallback interface, directwrite.idwritefontfallback_mapcharacters, dwrite_2/IDWriteFontFallback::MapCharacters
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteFontFallback.MapCharacters"]
+f1_keywords: 
+ - "dwrite_2/IDWriteFontFallback.MapCharacters"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

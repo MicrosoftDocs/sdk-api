@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SetQOS method, ITBasicCallControl.SetQOS, ITBasicCallControl::SetQOS, SetQOS, SetQOS method [TAPI 2.2], SetQOS method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_setqos, tapi3.itbasiccallcontrol_setqos, tapi3if/ITBasicCallControl::SetQOS
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl.SetQOS"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl.SetQOS"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

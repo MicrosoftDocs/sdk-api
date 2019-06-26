@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenClipboard, _win32_openclipboard_cpp, dataxchg.openclipboard, winui._win32_openclipboard, winuser/OpenClipboard
 ms.topic: function
-f1_keywords: ["winuser/OpenClipboard"]
+f1_keywords: 
+ - "winuser/OpenClipboard"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

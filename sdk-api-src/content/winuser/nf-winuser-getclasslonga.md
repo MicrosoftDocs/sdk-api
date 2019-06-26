@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_HBRBACKGROUND, GCL_HCURSOR, GCL_HICON, GCL_HICONSM, GCL_HMODULE, GCL_MENUNAME, GCL_STYLE, GCL_WNDPROC, GCW_ATOM, GetClassLong, GetClassLong function [Windows and Messages], GetClassLongA, GetClassLongW, _win32_GetClassLong, _win32_getclasslong_cpp, winmsg.getclasslong, winui._win32_getclasslong, winuser/GetClassLong, winuser/GetClassLongA, winuser/GetClassLongW
 ms.topic: function
-f1_keywords: ["winuser/GetClassLong"]
+f1_keywords: 
+ - "winuser/GetClassLong"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
 ms.topic: method
-f1_keywords: ["strmif/IMemInputPin.GetAllocatorRequirements"]
+f1_keywords: 
+ - "strmif/IMemInputPin.GetAllocatorRequirements"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

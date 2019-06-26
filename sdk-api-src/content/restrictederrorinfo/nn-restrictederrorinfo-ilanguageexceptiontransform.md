@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
 ms.topic: interface
-f1_keywords: ["restrictederrorinfo/ILanguageExceptionTransform"]
+f1_keywords: 
+ - "restrictederrorinfo/ILanguageExceptionTransform"
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

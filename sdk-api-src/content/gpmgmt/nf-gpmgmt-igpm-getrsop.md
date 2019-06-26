@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetRSOP method, GetRSOP, GetRSOP method [GPMC], GetRSOP method [GPMC],GPM object, GetRSOP method [GPMC],IGPM interface, IGPM interface [GPMC],GetRSOP method, IGPM.GetRSOP, IGPM::GetRSOP, _win32_igpm_getrsop, gpmc.igpm_getrsop, gpmgmt/IGPM::GetRSOP, rsopLogging, rsopPlanning, rsopUnknown
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPM.GetRSOP"]
+f1_keywords: 
+ - "gpmgmt/IGPM.GetRSOP"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

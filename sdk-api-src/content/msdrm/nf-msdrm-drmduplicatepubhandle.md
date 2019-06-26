@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMDuplicatePubHandle, DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicatePubHandle, rm.drmduplicatepubhandle
 ms.topic: function
-f1_keywords: ["msdrm/DRMDuplicatePubHandle"]
+f1_keywords: 
+ - "msdrm/DRMDuplicatePubHandle"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_playerApplication method, IWMPPlayer4.get_playerApplication, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayer4.get_playerApplication"]
+f1_keywords: 
+ - "wmp/IWMPPlayer4.get_playerApplication"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

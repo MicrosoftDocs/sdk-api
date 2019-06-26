@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindPersistentResource, BindPersistentResource method, BindPersistentResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindPersistentResource method, IDMLBindingTable.BindPersistentResource, IDMLBindingTable::BindPersistentResource, direct3d12.idmlbindingtable_bindpersistentresource, directml/IDMLBindingTable::BindPersistentResource
 ms.topic: method
-f1_keywords: ["directml/IDMLBindingTable.BindPersistentResource"]
+f1_keywords: 
+ - "directml/IDMLBindingTable.BindPersistentResource"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

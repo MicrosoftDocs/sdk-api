@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdQueryDisplaySettingsUniqueness, DdQueryDisplaySettingsUniqueness function [Windows API], GdiEntry13, _dxgkernel_ddquerydisplaysettingsuniqueness, ddrawgdi/DdQueryDisplaySettingsUniqueness, ddrawgdi/GdiEntry13, winprog._dxgkernel_ddquerydisplaysettingsuniqueness, winui._dxgkernel_ddquerydisplaysettingsuniqueness
 ms.topic: function
-f1_keywords: ["ddrawgdi/DdQueryDisplaySettingsUniqueness"]
+f1_keywords: 
+ - "ddrawgdi/DdQueryDisplaySettingsUniqueness"
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

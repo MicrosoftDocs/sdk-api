@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth], bluetooth.pfn_bluetooth_enum_attributes_callback, bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 ms.topic: callback
-f1_keywords: ["bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK"]
+f1_keywords: 
+ - "bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

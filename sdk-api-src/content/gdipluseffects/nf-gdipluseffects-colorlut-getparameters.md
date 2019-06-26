@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorLUT class [GDI+],GetParameters method, ColorLUT.GetParameters, ColorLUT::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_GetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_GetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/ColorLUT.GetParameters"]
+f1_keywords: 
+ - "gdipluseffects/ColorLUT.GetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

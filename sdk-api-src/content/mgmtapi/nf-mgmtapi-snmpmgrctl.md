@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
 ms.topic: function
-f1_keywords: ["mgmtapi/SnmpMgrCtl"]
+f1_keywords: 
+ - "mgmtapi/SnmpMgrCtl"
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

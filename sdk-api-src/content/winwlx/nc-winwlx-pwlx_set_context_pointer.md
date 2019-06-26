@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_CONTEXT_POINTER, PWLX_SET_CONTEXT_POINTER callback, WlxSetContextPointer, WlxSetContextPointer callback function [Security], _gina_wlxsetcontextpointer, security.wlxsetcontextpointer, winwlx/WlxSetContextPointer
 ms.topic: callback
-f1_keywords: ["winwlx/WlxSetContextPointer"]
+f1_keywords: 
+ - "winwlx/WlxSetContextPointer"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

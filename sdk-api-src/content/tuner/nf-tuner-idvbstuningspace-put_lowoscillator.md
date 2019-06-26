@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_LowOscillator method, IDVBSTuningSpace.put_LowOscillator, IDVBSTuningSpace::put_LowOscillator, IDVBSTuningSpaceput_LowOscillator, mstv.idvbstuningspace_put_lowoscillator, put_LowOscillator, put_LowOscillator method [Microsoft TV Technologies], put_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_LowOscillator
 ms.topic: method
-f1_keywords: ["tuner/IDVBSTuningSpace.put_LowOscillator"]
+f1_keywords: 
+ - "tuner/IDVBSTuningSpace.put_LowOscillator"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

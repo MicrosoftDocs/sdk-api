@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup method, IWMVideoDecoderHurryup.SetHurryup, IWMVideoDecoderHurryup::SetHurryup, SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/IWMVideoDecoderHurryup::SetHurryup
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMVideoDecoderHurryup.SetHurryup"]
+f1_keywords: 
+ - "wmcodecdsp/IWMVideoDecoderHurryup.SetHurryup"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

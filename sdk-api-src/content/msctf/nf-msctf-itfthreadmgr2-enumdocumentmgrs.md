@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr2.EnumDocumentMgrs, ITfThreadMgr2::EnumDocumentMgrs, msctf/ITfThreadMgr2::EnumDocumentMgrs, tsf.itfthreadmgr2_enumdocumentmgrs
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.EnumDocumentMgrs"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.EnumDocumentMgrs"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

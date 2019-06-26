@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreACPSink interface [Text Services Framework],OnTextChange method, ITextStoreACPSink.OnTextChange, ITextStoreACPSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreACPSink interface, TS_ST_CORRECTION, _tsf_itextstoreacpsink_ontextchange_ref, textstor/ITextStoreACPSink::OnTextChange, tsf.itextstoreacpsink_ontextchange
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACPSink.OnTextChange"]
+f1_keywords: 
+ - "textstor/ITextStoreACPSink.OnTextChange"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

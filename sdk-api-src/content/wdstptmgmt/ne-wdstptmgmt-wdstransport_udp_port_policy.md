@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY enumeration [Windows Deployment Services], WDSTRANSPORT_UDP_PORT_POLICY,*PWDSTRANSPORT_UDP_PORT_POLICY, WDSTRANSPORT_UDP_PORT_POLICY,*PWDSTRANSPORT_UDP_PORT_POLICY enumeration [Windows Deployment Services], WdsTptUdpPortPolicyDynamic, WdsTptUdpPortPolicyFixed, wds.wdstransport_udp_port_policy, wdstptmgmt/WDSTRANSPORT_UDP_PORT_POLICY, wdstptmgmt/WdsTptUdpPortPolicyDynamic, wdstptmgmt/WdsTptUdpPortPolicyFixed"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

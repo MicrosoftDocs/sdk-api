@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_REGISTRATION_INFO, MFT_REGISTRATION_INFO structure [Media Foundation], mf.mft_registration_info, mfidl/MFT_REGISTRATION_INFO
 ms.topic: struct
-f1_keywords: ["mfidl/MFT_REGISTRATION_INFO"]
+f1_keywords: 
+ - "mfidl/MFT_REGISTRATION_INFO"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

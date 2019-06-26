@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInheritedServices, GetInheritedServices method [Windows Portable Devices SDK], GetInheritedServices method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetInheritedServices method, IPortableDeviceServiceCapabilities.GetInheritedServices, IPortableDeviceServiceCapabilities::GetInheritedServices, portabledeviceapi/IPortableDeviceServiceCapabilities::GetInheritedServices, wpdsdk.iportabledeviceservicecapabilities_getinheritedservices
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceCapabilities.GetInheritedServices"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetInheritedServices"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

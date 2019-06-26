@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppShutdown method, IComAppEvents.OnAppShutdown, IComAppEvents::OnAppShutdown, OnAppShutdown, OnAppShutdown method [COM+], OnAppShutdown method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppShutdown, comsvcs/IComAppEvents::OnAppShutdown, cos.icomappevents_onappshutdown
 ms.topic: method
-f1_keywords: ["comsvcs/IComAppEvents.OnAppShutdown"]
+f1_keywords: 
+ - "comsvcs/IComAppEvents.OnAppShutdown"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

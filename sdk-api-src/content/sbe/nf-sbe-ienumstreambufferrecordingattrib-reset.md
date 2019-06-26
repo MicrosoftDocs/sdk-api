@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Reset method, IEnumStreamBufferRecordingAttrib.Reset, IEnumStreamBufferRecordingAttrib::Reset, IEnumStreamBufferRecordingAttribReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_reset, sbe/IEnumStreamBufferRecordingAttrib::Reset
 ms.topic: method
-f1_keywords: ["sbe/IEnumStreamBufferRecordingAttrib.Reset"]
+f1_keywords: 
+ - "sbe/IEnumStreamBufferRecordingAttrib.Reset"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

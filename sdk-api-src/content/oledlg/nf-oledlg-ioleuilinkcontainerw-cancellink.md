@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelLink, CancelLink method [COM], CancelLink method [COM],IOleUILinkContainer interface, CancelLink method [COM],IOleUILinkContainerA interface, CancelLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],CancelLink method, IOleUILinkContainer::CancelLink, IOleUILinkContainerA interface [COM],CancelLink method, IOleUILinkContainerA::CancelLink, IOleUILinkContainerW interface [COM],CancelLink method, IOleUILinkContainerW.CancelLink, IOleUILinkContainerW::CancelLink, _ole_IOleUILinkContainer_CancelLink, com.ioleuilinkcontainer_cancellink, oledlg/IOleUILinkContainer::CancelLink, oledlg/IOleUILinkContainerA::CancelLink, oledlg/IOleUILinkContainerW::CancelLink
 ms.topic: method
-f1_keywords: ["oledlg/IOleUILinkContainer.CancelLink"]
+f1_keywords: 
+ - "oledlg/IOleUILinkContainer.CancelLink"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

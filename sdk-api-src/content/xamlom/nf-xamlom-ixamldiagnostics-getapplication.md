@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetApplication method, IXamlDiagnostics.GetApplication, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
 ms.topic: method
-f1_keywords: ["xamlom/IXamlDiagnostics.GetApplication"]
+f1_keywords: 
+ - "xamlom/IXamlDiagnostics.GetApplication"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLAssociationDialog, URLAssociationDialog function [Windows Shell], URLAssociationDialogA, URLAssociationDialogW, _win32_URLAssociationDialog, intshcut/URLAssociationDialog, intshcut/URLAssociationDialogA, intshcut/URLAssociationDialogW, shell.URLAssociationDialog
 ms.topic: function
-f1_keywords: ["intshcut/URLAssociationDialog"]
+f1_keywords: 
+ - "intshcut/URLAssociationDialog"
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

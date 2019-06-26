@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
 ms.topic: method
-f1_keywords: ["netfw/INetFwRules.Remove"]
+f1_keywords: 
+ - "netfw/INetFwRules.Remove"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

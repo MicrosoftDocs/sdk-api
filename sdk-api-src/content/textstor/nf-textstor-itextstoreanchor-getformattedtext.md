@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetFormattedText method, ITextStoreAnchor.GetFormattedText, ITextStoreAnchor::GetFormattedText, textstor/ITextStoreAnchor::GetFormattedText, tsf.itextstoreanchor_getformattedtext
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.GetFormattedText"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.GetFormattedText"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

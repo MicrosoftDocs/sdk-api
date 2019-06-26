@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
 ms.topic: function
-f1_keywords: ["mmc/MMCPropPageCallback"]
+f1_keywords: 
+ - "mmc/MMCPropPageCallback"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager
 ms.topic: interface
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureManager"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureManager"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

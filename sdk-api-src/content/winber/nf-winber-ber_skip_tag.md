@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag"
 ms.topic: function
-f1_keywords: ["winber/ber_skip_tag"]
+f1_keywords: 
+ - "winber/ber_skip_tag"
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

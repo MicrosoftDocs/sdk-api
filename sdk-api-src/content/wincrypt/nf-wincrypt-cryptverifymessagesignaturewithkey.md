@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageSignatureWithKey, CryptVerifyMessageSignatureWithKey function [Security], security.cryptverifymessagesignaturewithkey, wincrypt/CryptVerifyMessageSignatureWithKey
 ms.topic: function
-f1_keywords: ["wincrypt/CryptVerifyMessageSignatureWithKey"]
+f1_keywords: 
+ - "wincrypt/CryptVerifyMessageSignatureWithKey"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

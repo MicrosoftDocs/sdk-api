@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
 ms.topic: interface
-f1_keywords: ["wcndevice/IWCNConnectNotify"]
+f1_keywords: 
+ - "wcndevice/IWCNConnectNotify"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

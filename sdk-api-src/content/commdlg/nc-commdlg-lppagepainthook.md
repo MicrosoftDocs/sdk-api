@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPPAGEPAINTHOOK, LPPAGEPAINTHOOK callback, LPPAGEPAINTHOOK callback function [Dialog Boxes], _win32_PagePaintHook, _win32_pagepainthook_cpp, commdlg/LPPAGEPAINTHOOK, dlgbox.pagepainthook, winui._win32_pagepainthook
 ms.topic: callback
-f1_keywords: ["commdlg/LPPAGEPAINTHOOK"]
+f1_keywords: 
+ - "commdlg/LPPAGEPAINTHOOK"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncodedKey property [Security], EncodedKey property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedKey property, IX509PublicKey.EncodedKey, IX509PublicKey.get_EncodedKey, IX509PublicKey::EncodedKey, IX509PublicKey::get_EncodedKey, certenroll/IX509PublicKey::EncodedKey, certenroll/IX509PublicKey::get_EncodedKey, get_EncodedKey, security.ix509publickey_encodedkey_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509PublicKey.EncodedKey"]
+f1_keywords: 
+ - "certenroll/IX509PublicKey.EncodedKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

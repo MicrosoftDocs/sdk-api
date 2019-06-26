@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
 ms.topic: function
-f1_keywords: ["hrtfapoapi/CreateHrtfApo"]
+f1_keywords: 
+ - "hrtfapoapi/CreateHrtfApo"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

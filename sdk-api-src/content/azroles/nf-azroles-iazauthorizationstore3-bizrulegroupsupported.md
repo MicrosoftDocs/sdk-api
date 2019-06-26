@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BizruleGroupSupported, BizruleGroupSupported method [Security], BizruleGroupSupported method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],BizruleGroupSupported method, IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method
 ms.topic: method
-f1_keywords: ["azroles/IAzAuthorizationStore3.BizruleGroupSupported"]
+f1_keywords: 
+ - "azroles/IAzAuthorizationStore3.BizruleGroupSupported"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

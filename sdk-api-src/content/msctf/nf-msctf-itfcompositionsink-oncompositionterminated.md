@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionSink interface [Text Services Framework],OnCompositionTerminated method, ITfCompositionSink.OnCompositionTerminated, ITfCompositionSink::OnCompositionTerminated, OnCompositionTerminated, OnCompositionTerminated method [Text Services Framework], OnCompositionTerminated method [Text Services Framework],ITfCompositionSink interface, _tsf_itfcompositionsink_oncompositionterminated_ref, msctf/ITfCompositionSink::OnCompositionTerminated, tsf.itfcompositionsink_oncompositionterminated
 ms.topic: method
-f1_keywords: ["msctf/ITfCompositionSink.OnCompositionTerminated"]
+f1_keywords: 
+ - "msctf/ITfCompositionSink.OnCompositionTerminated"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

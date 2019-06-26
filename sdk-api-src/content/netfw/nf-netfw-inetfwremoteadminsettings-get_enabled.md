@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings interface [ICS/ICF],Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings.get_Enabled, INetFwRemoteAdminSettings::Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, get_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled
 ms.topic: method
-f1_keywords: ["netfw/INetFwRemoteAdminSettings.Enabled"]
+f1_keywords: 
+ - "netfw/INetFwRemoteAdminSettings.Enabled"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

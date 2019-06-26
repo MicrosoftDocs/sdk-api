@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ErrorCode property [Security], ErrorCode property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],ErrorCode property, IOCSPCAConfiguration.ErrorCode, IOCSPCAConfiguration.get_ErrorCode, IOCSPCAConfiguration::ErrorCode, IOCSPCAConfiguration::get_ErrorCode, certadm/IOCSPCAConfiguration::ErrorCode, certadm/IOCSPCAConfiguration::get_ErrorCode, get_ErrorCode, security.iocspcaconfiguration_errorcode_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfiguration.ErrorCode"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfiguration.ErrorCode"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

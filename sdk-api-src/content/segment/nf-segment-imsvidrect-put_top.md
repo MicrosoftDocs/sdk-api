@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Top method, IMSVidRect.put_Top, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Top
 ms.topic: method
-f1_keywords: ["segment/IMSVidRect.put_Top"]
+f1_keywords: 
+ - "segment/IMSVidRect.put_Top"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

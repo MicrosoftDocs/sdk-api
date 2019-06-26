@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8f442969-657a-a5ab-1aa3-ff227fe2f705, GetFrontBufferData, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetFrontBufferData method, IDirect3DSwapChain9.GetFrontBufferData, IDirect3DSwapChain9::GetFrontBufferData, d3d9helper/IDirect3DSwapChain9::GetFrontBufferData, direct3d9.idirect3dswapchain9__getfrontbufferdata
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DSwapChain9.GetFrontBufferData"]
+f1_keywords: 
+ - "d3d9/IDirect3DSwapChain9.GetFrontBufferData"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

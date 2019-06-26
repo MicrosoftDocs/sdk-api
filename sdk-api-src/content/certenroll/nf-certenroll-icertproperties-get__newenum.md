@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],_NewEnum property, ICertProperties._NewEnum, ICertProperties.get__NewEnum, ICertProperties::_NewEnum, ICertProperties::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertProperties interface, certenroll/ICertProperties::_NewEnum, certenroll/ICertProperties::get__NewEnum, get__NewEnum, security.icertproperties__newenum_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperties._NewEnum"]
+f1_keywords: 
+ - "certenroll/ICertProperties._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

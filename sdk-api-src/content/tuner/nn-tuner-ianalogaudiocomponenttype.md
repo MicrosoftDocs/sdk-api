@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], IAnalogAudioComponentType interface [Microsoft TV Technologies],described, IAnalogAudioComponentTypeInterface, mstv.ianalogaudiocomponenttype, tuner/IAnalogAudioComponentType
 ms.topic: interface
-f1_keywords: ["tuner/IAnalogAudioComponentType"]
+f1_keywords: 
+ - "tuner/IAnalogAudioComponentType"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

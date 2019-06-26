@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 ms.topic: function
-f1_keywords: ["securitybaseapi/CheckTokenMembershipEx"]
+f1_keywords: 
+ - "securitybaseapi/CheckTokenMembershipEx"
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

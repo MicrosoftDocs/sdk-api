@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalHandle, LocalHandle function, _win32_localhandle, base.localhandle, winbase/LocalHandle
 ms.topic: function
-f1_keywords: ["winbase/LocalHandle"]
+f1_keywords: 
+ - "winbase/LocalHandle"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

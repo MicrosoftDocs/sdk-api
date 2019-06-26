@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_MATRIX_3X2_F, DXGI_MATRIX_3X2_F structure [DXGI], direct3ddxgi.dxgi_matrix_3x2_f, dxgi1_3/DXGI_MATRIX_3X2_F
 ms.topic: struct
-f1_keywords: ["dxgi1_3/DXGI_MATRIX_3X2_F"]
+f1_keywords: 
+ - "dxgi1_3/DXGI_MATRIX_3X2_F"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

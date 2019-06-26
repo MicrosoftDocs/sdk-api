@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnvironmentPropertySet property [Remote Desktop Services], EnvironmentPropertySet property [Remote Desktop Services],ITsSbEnvironment interface, ITsSbEnvironment interface [Remote Desktop Services],EnvironmentPropertySet property, ITsSbEnvironment.EnvironmentPropertySet, ITsSbEnvironment.get_EnvironmentPropertySet, ITsSbEnvironment::EnvironmentPropertySet, ITsSbEnvironment::get_EnvironmentPropertySet, ITsSbEnvironment::put_EnvironmentPropertySet, get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::EnvironmentPropertySet, sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet, termserv.itssbenvironment_environmentpropertyset
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbEnvironment.EnvironmentPropertySet"]
+f1_keywords: 
+ - "sbtsv/ITsSbEnvironment.EnvironmentPropertySet"
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

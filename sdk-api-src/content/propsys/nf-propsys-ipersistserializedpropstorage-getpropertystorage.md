@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, IPersistSerializedPropStorage interface [Windows Shell],GetPropertyStorage method, IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
 ms.topic: method
-f1_keywords: ["propsys/IPersistSerializedPropStorage.GetPropertyStorage"]
+f1_keywords: 
+ - "propsys/IPersistSerializedPropStorage.GetPropertyStorage"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

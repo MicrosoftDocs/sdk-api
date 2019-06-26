@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMirrorState, GetMirrorState method [Media Foundation], GetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetMirrorState method, IMFCapturePreviewSink.GetMirrorState, IMFCapturePreviewSink::GetMirrorState, mf.imfcapturepreviewsink_getmirrorstate, mfcaptureengine/IMFCapturePreviewSink::GetMirrorState
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCapturePreviewSink.GetMirrorState"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCapturePreviewSink.GetMirrorState"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

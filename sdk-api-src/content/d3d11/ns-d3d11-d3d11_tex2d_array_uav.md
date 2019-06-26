@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 26d8bf40-b7ed-fcb8-08bc-a6c774d2441d, D3D11_TEX2D_ARRAY_UAV, D3D11_TEX2D_ARRAY_UAV structure [Direct3D 11], d3d11/D3D11_TEX2D_ARRAY_UAV, direct3d11.d3d11_tex2d_array_uav
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_TEX2D_ARRAY_UAV"]
+f1_keywords: 
+ - "d3d11/D3D11_TEX2D_ARRAY_UAV"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

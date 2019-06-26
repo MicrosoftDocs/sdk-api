@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_INTERFACE_0, MPR_INTERFACE_0, MPR_INTERFACE_0 structure [RAS], PMPR_INTERFACE_0, PMPR_INTERFACE_0 structure pointer [RAS], _mpr_mpr_interface_0, mprapi/MPR_INTERFACE_0, mprapi/PMPR_INTERFACE_0, rras.mpr_interface_0"
 ms.topic: struct
-f1_keywords: ["mprapi/MPR_INTERFACE_0"]
+f1_keywords: 
+ - "mprapi/MPR_INTERFACE_0"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

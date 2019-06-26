@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetAt method, IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
 ms.topic: method
-f1_keywords: ["propsys/IPropertyEnumTypeList.GetAt"]
+f1_keywords: 
+ - "propsys/IPropertyEnumTypeList.GetAt"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

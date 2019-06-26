@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
 ms.topic: function
-f1_keywords: ["rpcasync/RpcBindingUnbind"]
+f1_keywords: 
+ - "rpcasync/RpcBindingUnbind"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

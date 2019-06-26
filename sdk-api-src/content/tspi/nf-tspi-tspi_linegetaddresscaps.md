@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetAddressCaps, TSPI_lineGetAddressCaps function [TAPI 2.2], _tspi_tspi_linegetaddresscaps, tspi.tspi_linegetaddresscaps, tspi/TSPI_lineGetAddressCaps
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineGetAddressCaps"]
+f1_keywords: 
+ - "tspi/TSPI_lineGetAddressCaps"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

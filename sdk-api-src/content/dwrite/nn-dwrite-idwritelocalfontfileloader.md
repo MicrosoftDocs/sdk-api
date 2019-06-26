@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalFontFileLoader, IDWriteLocalFontFileLoader interface [Direct Write], IDWriteLocalFontFileLoader interface [Direct Write],described, directwrite.idwritelocalfontfileloader, dwrite/IDWriteLocalFontFileLoader
 ms.topic: interface
-f1_keywords: ["dwrite/IDWriteLocalFontFileLoader"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalFontFileLoader"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

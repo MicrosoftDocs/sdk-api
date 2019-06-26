@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtDeleteDnsBootstrapResolver, p2p.drtdeletednsbootstrapresolver
 ms.topic: function
-f1_keywords: ["drt/DrtDeleteDnsBootstrapResolver"]
+f1_keywords: 
+ - "drt/DrtDeleteDnsBootstrapResolver"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

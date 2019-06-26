@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectIds interface [Security],ItemByIndex property, IObjectIds.ItemByIndex, IObjectIds.get_ItemByIndex, IObjectIds::ItemByIndex, IObjectIds::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IObjectIds interface, certenroll/IObjectIds::ItemByIndex, certenroll/IObjectIds::get_ItemByIndex, get_ItemByIndex, security.iobjectids_itembyindex_property
 ms.topic: method
-f1_keywords: ["certenroll/IObjectIds.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/IObjectIds.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

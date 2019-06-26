@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOUTLINETEXTMETRICA, *NPOUTLINETEXTMETRICA, *POUTLINETEXTMETRICA, OUTLINETEXTMETRIC, OUTLINETEXTMETRIC structure [Windows GDI], OUTLINETEXTMETRICA, OUTLINETEXTMETRICW, POUTLINETEXTMETRIC, POUTLINETEXTMETRIC structure pointer [Windows GDI], _win32_OUTLINETEXTMETRIC_str, gdi.outlinetextmetric, wingdi/OUTLINETEXTMETRIC, wingdi/OUTLINETEXTMETRICA, wingdi/OUTLINETEXTMETRICW, wingdi/POUTLINETEXTMETRIC"
 ms.topic: struct
-f1_keywords: ["wingdi/OUTLINETEXTMETRIC"]
+f1_keywords: 
+ - "wingdi/OUTLINETEXTMETRIC"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

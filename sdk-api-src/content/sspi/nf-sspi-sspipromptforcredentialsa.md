@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCredentials, SspiPromptForCredentials function [Security], SspiPromptForCredentialsA, SspiPromptForCredentialsW, security.sspipromptforcredentials, sspi/SspiPromptForCredentials, sspi/SspiPromptForCredentialsA, sspi/SspiPromptForCredentialsW
 ms.topic: function
-f1_keywords: ["sspi/SspiPromptForCredentials"]
+f1_keywords: 
+ - "sspi/SspiPromptForCredentials"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

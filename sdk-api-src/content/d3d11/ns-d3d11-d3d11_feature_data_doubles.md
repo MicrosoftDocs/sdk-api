@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_DOUBLES, D3D11_FEATURE_DATA_DOUBLES structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_DOUBLES, dde276ab-cd61-a449-9965-674c9221da9c, direct3d11.d3d11_feature_data_doubles
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_FEATURE_DATA_DOUBLES"]
+f1_keywords: 
+ - "d3d11/D3D11_FEATURE_DATA_DOUBLES"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

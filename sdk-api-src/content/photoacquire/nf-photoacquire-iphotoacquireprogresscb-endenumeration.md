@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndEnumeration method, IPhotoAcquireProgressCB.EndEnumeration, IPhotoAcquireProgressCB::EndEnumeration, IPhotoAcquireProgressCBEndEnumeration, photoacquire/IPhotoAcquireProgressCB::EndEnumeration, picacq.iphotoacquireprogresscb_endenumeration
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.EndEnumeration"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.EndEnumeration"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

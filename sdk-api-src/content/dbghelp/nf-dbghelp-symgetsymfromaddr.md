@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetSymFromAddr64"]
+f1_keywords: 
+ - "dbghelp/SymGetSymFromAddr64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

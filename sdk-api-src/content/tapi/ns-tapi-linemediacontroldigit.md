@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT structure [TAPI 2.2], LPLINEMEDIACONTROLDIGIT, LPLINEMEDIACONTROLDIGIT structure pointer [TAPI 2.2], _tapi2_linemediacontroldigit_str, tapi/LINEMEDIACONTROLDIGIT, tapi/LPLINEMEDIACONTROLDIGIT, tapi2.linemediacontroldigit_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEMEDIACONTROLDIGIT"]
+f1_keywords: 
+ - "tapi/LINEMEDIACONTROLDIGIT"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

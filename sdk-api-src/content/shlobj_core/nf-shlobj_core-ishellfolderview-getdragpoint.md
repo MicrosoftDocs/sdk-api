@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDragPoint method, IShellFolderView.GetDragPoint, IShellFolderView::GetDragPoint, _shell_IShellFolderView_GetDragPoint, shell.IShellFolderView_GetDragPoint, shlobj_core/IShellFolderView::GetDragPoint
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetDragPoint"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetDragPoint"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

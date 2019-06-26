@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB219, IDVRGB219::SetRGB219, IDVRGB219SetRGB219, SetRGB219, SetRGB219 method [DirectShow], SetRGB219 method [DirectShow],IDVRGB219 interface, dshow.idvrgb219_setrgb219, strmif/IDVRGB219::SetRGB219
 ms.topic: method
-f1_keywords: ["strmif/IDVRGB219.SetRGB219"]
+f1_keywords: 
+ - "strmif/IDVRGB219.SetRGB219"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

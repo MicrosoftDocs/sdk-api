@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperty.RemoveFromCertificate"]
+f1_keywords: 
+ - "certenroll/ICertProperty.RemoveFromCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

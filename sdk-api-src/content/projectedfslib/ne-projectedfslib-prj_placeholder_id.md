@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_PLACEHOLDER_ID, PRJ_PLACEHOLDER_ID enumeration, PRJ_PLACEHOLDER_ID_LENGTH, ProjFS.prj_placeholder_id, projectedfslib/PRJ_PLACEHOLDER_ID, projectedfslib/PRJ_PLACEHOLDER_ID_LENGTH
 ms.topic: enum
-f1_keywords: ["projectedfslib/PRJ_PLACEHOLDER_ID"]
+f1_keywords: 
+ - "projectedfslib/PRJ_PLACEHOLDER_ID"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

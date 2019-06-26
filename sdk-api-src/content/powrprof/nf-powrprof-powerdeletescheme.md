@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
 ms.topic: function
-f1_keywords: ["powrprof/PowerDeleteScheme"]
+f1_keywords: 
+ - "powrprof/PowerDeleteScheme"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

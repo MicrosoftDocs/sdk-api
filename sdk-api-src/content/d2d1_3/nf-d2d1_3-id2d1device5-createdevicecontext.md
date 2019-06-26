@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device5 interface, ID2D1Device5 interface [Direct2D],CreateDeviceContext method, ID2D1Device5.CreateDeviceContext, ID2D1Device5::CreateDeviceContext, d2d1_3/ID2D1Device5::CreateDeviceContext, direct2d.id2d1device5_createdevicecontext
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1Device5.CreateDeviceContext"]
+f1_keywords: 
+ - "d2d1_3/ID2D1Device5.CreateDeviceContext"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

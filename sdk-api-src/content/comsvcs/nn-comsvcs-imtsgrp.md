@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp, IMtsGrp interface [COM+], IMtsGrp interface [COM+],described, _dtc_IMtsGrp_Interface, comsvcs/IMtsGrp, cos.imtsgrp
 ms.topic: interface
-f1_keywords: ["comsvcs/IMtsGrp"]
+f1_keywords: 
+ - "comsvcs/IMtsGrp"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

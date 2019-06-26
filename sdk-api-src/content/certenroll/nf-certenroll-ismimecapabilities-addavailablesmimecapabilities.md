@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAvailableSmimeCapabilities, AddAvailableSmimeCapabilities method [Security], AddAvailableSmimeCapabilities method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddAvailableSmimeCapabilities method, ISmimeCapabilities.AddAvailableSmimeCapabilities, ISmimeCapabilities::AddAvailableSmimeCapabilities, certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities, security.ismimecapabilities_addavailablesmimecapabilities_method
 ms.topic: method
-f1_keywords: ["certenroll/ISmimeCapabilities.AddAvailableSmimeCapabilities"]
+f1_keywords: 
+ - "certenroll/ISmimeCapabilities.AddAvailableSmimeCapabilities"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

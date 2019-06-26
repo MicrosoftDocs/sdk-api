@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure [Security], PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST structure pointer [Security], ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, security.kerb_query_domain_extended_policies_request"
 ms.topic: struct
-f1_keywords: ["ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST"]
+f1_keywords: 
+ - "ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

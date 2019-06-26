@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForNextTable method, ICAT.RegisterForNextTable, ICAT::RegisterForNextTable, ICATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForNextTable, mstv.icat_registerfornexttable
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/ICAT.RegisterForNextTable"]
+f1_keywords: 
+ - "mpeg2psiparser/ICAT.RegisterForNextTable"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

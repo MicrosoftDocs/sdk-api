@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptEnumKeys"]
+f1_keywords: 
+ - "ncrypt/NCryptEnumKeys"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

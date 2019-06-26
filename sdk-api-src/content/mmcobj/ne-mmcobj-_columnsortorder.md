@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [Legacy Windows Environment Features], DescItems, _ColumnSortOrder, lwef.search_2x_columnsortorder, mmcobj/AscItems, mmcobj/ColumnSortOrder, mmcobj/DescItems, search.search_2x_columnsortorder, search_2x_ColumnSortOrder
 ms.topic: enum
-f1_keywords: ["mmcobj/ColumnSortOrder"]
+f1_keywords: 
+ - "mmcobj/ColumnSortOrder"
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

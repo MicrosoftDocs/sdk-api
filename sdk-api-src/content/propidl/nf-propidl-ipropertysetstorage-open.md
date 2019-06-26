@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
 ms.topic: method
-f1_keywords: ["propidl/IPropertySetStorage.Open"]
+f1_keywords: 
+ - "propidl/IPropertySetStorage.Open"
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows

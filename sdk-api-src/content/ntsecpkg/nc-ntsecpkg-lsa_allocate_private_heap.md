@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap callback function [Security], LSA_ALLOCATE_PRIVATE_HEAP, LSA_ALLOCATE_PRIVATE_HEAP callback, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
 ms.topic: callback
-f1_keywords: ["ntsecpkg/AllocatePrivateHeap"]
+f1_keywords: 
+ - "ntsecpkg/AllocatePrivateHeap"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

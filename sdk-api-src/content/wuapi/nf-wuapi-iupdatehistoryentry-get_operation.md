@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Operation property, IUpdateHistoryEntry.Operation, IUpdateHistoryEntry.get_Operation, IUpdateHistoryEntry::Operation, IUpdateHistoryEntry::get_Operation, Operation property [Windows Update Agent], Operation property [Windows Update Agent],IUpdateHistoryEntry interface, get_Operation, wua.iupdatehistoryentry_operation, wuapi/IUpdateHistoryEntry::Operation, wuapi/IUpdateHistoryEntry::get_Operation
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateHistoryEntry.Operation"]
+f1_keywords: 
+ - "wuapi/IUpdateHistoryEntry.Operation"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

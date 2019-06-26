@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDynamicObjectCount, GetAvailableDynamicObjectCount method [Core Audio], GetAvailableDynamicObjectCount method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetAvailableDynamicObjectCount method, ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount, ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount, coreaudio.ispatialaudioobjectrenderstream_getavailabledynamicobjectcount, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

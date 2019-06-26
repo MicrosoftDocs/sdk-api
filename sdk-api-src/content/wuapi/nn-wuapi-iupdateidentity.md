@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], IUpdateIdentity interface [Windows Update Agent],described, wua.iupdateidentity, wuapi/IUpdateIdentity
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateIdentity"]
+f1_keywords: 
+ - "wuapi/IUpdateIdentity"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

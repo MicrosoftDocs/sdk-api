@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.Disable"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.Disable"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

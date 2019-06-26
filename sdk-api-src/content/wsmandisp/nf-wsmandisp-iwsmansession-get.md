@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Get method, IWSManSession.Get, IWSManSession::Get, winrm.iwsmansession_get, wsmandisp/IWSManSession::Get
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManSession.Get"]
+f1_keywords: 
+ - "wsmandisp/IWSManSession.Get"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

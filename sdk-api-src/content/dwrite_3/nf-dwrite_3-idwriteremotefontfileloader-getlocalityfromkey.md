@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLocalityFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],GetLocalityFromKey method, IDWriteRemoteFontFileLoader.GetLocalityFromKey, IDWriteRemoteFontFileLoader::GetLocalityFromKey, directwrite.idwriteremotefontfileloader_getlocalityfromkey, dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteRemoteFontFileLoader.GetLocalityFromKey"]
+f1_keywords: 
+ - "dwrite_3/IDWriteRemoteFontFileLoader.GetLocalityFromKey"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

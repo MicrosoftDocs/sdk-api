@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
 ms.topic: function
-f1_keywords: ["traffic/TcDeleteFilter"]
+f1_keywords: 
+ - "traffic/TcDeleteFilter"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

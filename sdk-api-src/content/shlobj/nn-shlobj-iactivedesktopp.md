@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktopP, IActiveDesktopP interface [Legacy Windows Environment Features], IActiveDesktopP interface [Legacy Windows Environment Features],described, _win32_IActiveDesktopP, lwef.iactivedesktopp, shell.iactivedesktopp, shlobj/IActiveDesktopP
 ms.topic: interface
-f1_keywords: ["shlobj/IActiveDesktopP"]
+f1_keywords: 
+ - "shlobj/IActiveDesktopP"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

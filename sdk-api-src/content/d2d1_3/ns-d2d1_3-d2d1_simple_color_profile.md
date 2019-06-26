@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SIMPLE_COLOR_PROFILE, D2D1_SIMPLE_COLOR_PROFILE structure [Direct2D], d2d1_3/D2D1_SIMPLE_COLOR_PROFILE, direct2d.d2d1_simple_color_profile
 ms.topic: struct
-f1_keywords: ["d2d1_3/D2D1_SIMPLE_COLOR_PROFILE"]
+f1_keywords: 
+ - "d2d1_3/D2D1_SIMPLE_COLOR_PROFILE"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

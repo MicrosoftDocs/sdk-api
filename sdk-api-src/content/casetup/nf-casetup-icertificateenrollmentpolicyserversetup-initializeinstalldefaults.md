@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
 ms.topic: method
-f1_keywords: ["casetup/ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults"]
+f1_keywords: 
+ - "casetup/ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

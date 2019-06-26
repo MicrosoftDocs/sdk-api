@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSVP_MSG_OBJS, RSVP_MSG_OBJS structure [QOS], lpmapi/RSVP_MSG_OBJS, qos.rsvp_msg_objs
 ms.topic: struct
-f1_keywords: ["lpmapi/RSVP_MSG_OBJS"]
+f1_keywords: 
+ - "lpmapi/RSVP_MSG_OBJS"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

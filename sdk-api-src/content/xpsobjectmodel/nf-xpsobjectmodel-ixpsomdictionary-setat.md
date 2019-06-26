@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],SetAt method, IXpsOMDictionary.SetAt, IXpsOMDictionary::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_setat, xpsobjectmodel/IXpsOMDictionary::SetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDictionary.SetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDictionary.SetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

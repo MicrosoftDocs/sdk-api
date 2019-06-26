@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Foundation], fe9aa287-33e9-4413-8bc5-0e7b2da1112e, mf.mfvideocompressedinfo, mfobjects/MFVideoCompressedInfo
 ms.topic: struct
-f1_keywords: ["mfobjects/MFVideoCompressedInfo"]
+f1_keywords: 
+ - "mfobjects/MFVideoCompressedInfo"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

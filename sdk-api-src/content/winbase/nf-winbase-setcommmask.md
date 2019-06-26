@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, SetCommMask, SetCommMask function, _win32_setcommmask, base.setcommmask, winbase/SetCommMask
 ms.topic: function
-f1_keywords: ["winbase/SetCommMask"]
+f1_keywords: 
+ - "winbase/SetCommMask"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

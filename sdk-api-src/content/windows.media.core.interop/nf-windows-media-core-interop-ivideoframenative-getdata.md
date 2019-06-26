@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetData method, IVideoFrameNative.GetData, IVideoFrameNative.core, IVideoFrameNative::GetData, IVideoFrameNative::core, windows/IVideoFrameNative::GetData, winrt.ivideoframenative_getdata
 ms.topic: method
-f1_keywords: ["windows.media.core.interop/IVideoFrameNative.GetData"]
+f1_keywords: 
+ - "windows.media.core.interop/IVideoFrameNative.GetData"
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

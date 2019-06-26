@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableTVAudioModes, GetAvailableTVAudioModes method [DirectShow], GetAvailableTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetAvailableTVAudioModes method, IAMTVAudio.GetAvailableTVAudioModes, IAMTVAudio::GetAvailableTVAudioModes, IAMTVAudioGetAvailableTVAudioModes, dshow.iamtvaudio_getavailabletvaudiomodes, strmif/IAMTVAudio::GetAvailableTVAudioModes
 ms.topic: method
-f1_keywords: ["strmif/IAMTVAudio.GetAvailableTVAudioModes"]
+f1_keywords: 
+ - "strmif/IAMTVAudio.GetAvailableTVAudioModes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

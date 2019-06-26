@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Account property, IFsrmActionCommand.Account, IFsrmActionCommand.get_Account, IFsrmActionCommand::Account, IFsrmActionCommand::get_Account, IFsrmActionCommand::put_Account, fs.ifsrmactioncommand_account, fsrm.ifsrmactioncommand_account, fsrm/IFsrmActionCommand::Account, fsrm/IFsrmActionCommand::get_Account, fsrm/IFsrmActionCommand::put_Account, get_Account
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmActionCommand.Account"]
+f1_keywords: 
+ - "fsrm/IFsrmActionCommand.Account"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortColorControl, DdVideoPortColorControl callback function [Display Devices], PDD_VPORTCB_COLORCONTROL, PDD_VPORTCB_COLORCONTROL callback, ddfncs_42f1c569-d463-4c22-af43-fb4d829843ab.xml, ddrawint/DdVideoPortColorControl, display.ddvideoportcolorcontrol
 ms.topic: callback
-f1_keywords: ["ddrawint/DdVideoPortColorControl"]
+f1_keywords: 
+ - "ddrawint/DdVideoPortColorControl"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

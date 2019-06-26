@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteRemoteFontFileLoader, IDWriteRemoteFontFileLoader interface [Direct Write], IDWriteRemoteFontFileLoader interface [Direct Write],described, directwrite.idwriteremotefontfileloader, dwrite_3/IDWriteRemoteFontFileLoader
 ms.topic: interface
-f1_keywords: ["dwrite_3/IDWriteRemoteFontFileLoader"]
+f1_keywords: 
+ - "dwrite_3/IDWriteRemoteFontFileLoader"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

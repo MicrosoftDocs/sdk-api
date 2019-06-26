@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostRealloc method, IMallocSpy.PostRealloc, IMallocSpy::PostRealloc, PostRealloc, PostRealloc method [COM], PostRealloc method [COM],IMallocSpy interface, _com_imallocspy_postrealloc, com.imallocspy_postrealloc, objidl/IMallocSpy::PostRealloc
 ms.topic: method
-f1_keywords: ["objidl/IMallocSpy.PostRealloc"]
+f1_keywords: 
+ - "objidl/IMallocSpy.PostRealloc"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsDrive"]
+f1_keywords: 
+ - "vdshwprv/IVdsDrive"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

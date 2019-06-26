@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormatCount method, IWMSyncReader.GetOutputFormatCount, IWMSyncReader::GetOutputFormatCount, IWMSyncReaderGetOutputFormatCount, wmformat.iwmsyncreader_getoutputformatcount, wmsdkidl/IWMSyncReader::GetOutputFormatCount
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.GetOutputFormatCount"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.GetOutputFormatCount"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

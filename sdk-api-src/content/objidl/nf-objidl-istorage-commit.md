@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],Commit method, IStorage.Commit, IStorage::Commit, _stg_istorage_commit, objidl/IStorage::Commit, stg.istorage_commit
 ms.topic: method
-f1_keywords: ["objidl/IStorage.Commit"]
+f1_keywords: 
+ - "objidl/IStorage.Commit"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

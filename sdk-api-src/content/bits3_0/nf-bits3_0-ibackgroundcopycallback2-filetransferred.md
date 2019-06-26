@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred method [BITS],IBackgroundCopyCallback2 interface, IBackgroundCopyCallback2 interface [BITS],FileTransferred method, IBackgroundCopyCallback2.FileTransferred, IBackgroundCopyCallback2::FileTransferred, bits.ibackgroundcopycallback2_filetransferred, bits3_0/IBackgroundCopyCallback2::FileTransferred
 ms.topic: method
-f1_keywords: ["bits3_0/IBackgroundCopyCallback2.FileTransferred"]
+f1_keywords: 
+ - "bits3_0/IBackgroundCopyCallback2.FileTransferred"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindCIE4ConnectionPoint, FindCIE4ConnectionPoint method [Windows Shell], FindCIE4ConnectionPoint method [Windows Shell],IExpDispSupportXP interface, IExpDispSupportXP interface [Windows Shell],FindCIE4ConnectionPoint method, IExpDispSupportXP.FindCIE4ConnectionPoint, IExpDispSupportXP::FindCIE4ConnectionPoint, _shell_IExpDispSupportXP_FindCIE4ConnectionPoint, shdeprecated/IExpDispSupportXP::FindCIE4ConnectionPoint, shell.IExpDispSupportXP_FindCIE4ConnectionPoint
 ms.topic: method
-f1_keywords: ["shdeprecated/IExpDispSupportXP.FindCIE4ConnectionPoint"]
+f1_keywords: 
+ - "shdeprecated/IExpDispSupportXP.FindCIE4ConnectionPoint"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

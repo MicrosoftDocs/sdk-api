@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
 ms.topic: struct
-f1_keywords: ["d2d1/D2D1_GRADIENT_STOP"]
+f1_keywords: 
+ - "d2d1/D2D1_GRADIENT_STOP"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

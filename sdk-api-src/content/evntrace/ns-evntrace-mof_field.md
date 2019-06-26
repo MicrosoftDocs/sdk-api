@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMOF_FIELD, MOF_FIELD, MOF_FIELD structure [ETW], PMOF_FIELD, PMOF_FIELD structure pointer [ETW], _MOF_FIELD, _evt_mof_field, base.mof_field, etw.mof_field, evntrace/MOF_FIELD, evntrace/PMOF_FIELD"
 ms.topic: struct
-f1_keywords: ["evntrace/MOF_FIELD"]
+f1_keywords: 
+ - "evntrace/MOF_FIELD"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

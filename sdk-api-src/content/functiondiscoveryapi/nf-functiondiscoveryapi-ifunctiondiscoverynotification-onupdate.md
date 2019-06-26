@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnUpdate method, IFunctionDiscoveryNotification.OnUpdate, IFunctionDiscoveryNotification::OnUpdate, OnUpdate, OnUpdate method, OnUpdate method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnUpdate, ncd.ifunctiondiscoverynotification_onupdate_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionDiscoveryNotification.OnUpdate"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnUpdate"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

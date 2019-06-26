@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device interface,MakeResident method, ID3D12Device.MakeResident, ID3D12Device::MakeResident, MakeResident, MakeResident method, MakeResident method,ID3D12Device interface, d3d12/ID3D12Device::MakeResident, direct3d12.id3d12device_makeresident
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.MakeResident"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.MakeResident"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

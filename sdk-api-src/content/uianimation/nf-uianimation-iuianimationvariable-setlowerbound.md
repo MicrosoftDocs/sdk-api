@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetLowerBound method, IUIAnimationVariable.SetLowerBound, IUIAnimationVariable::SetLowerBound, SetLowerBound, SetLowerBound method [Windows Animation], SetLowerBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setlowerbound, uianimation/IUIAnimationVariable::SetLowerBound
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable.SetLowerBound"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable.SetLowerBound"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

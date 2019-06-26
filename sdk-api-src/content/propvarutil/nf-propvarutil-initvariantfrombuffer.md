@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBuffer, InitVariantFromBuffer function [Windows Properties], _shell_InitVariantFromBuffer, properties.InitVariantFromBuffer, propvarutil/InitVariantFromBuffer, shell.InitVariantFromBuffer
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromBuffer"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromBuffer"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

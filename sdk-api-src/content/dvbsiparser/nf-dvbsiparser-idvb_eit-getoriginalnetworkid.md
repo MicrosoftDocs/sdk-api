@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IDVB_EIT.GetOriginalNetworkId, IDVB_EIT::GetOriginalNetworkId, IDVB_EITGetOriginalNetworkId, dvbsiparser/IDVB_EIT::GetOriginalNetworkId, mstv.idvb_eit_getoriginalnetworkid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT.GetOriginalNetworkId"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT.GetOriginalNetworkId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

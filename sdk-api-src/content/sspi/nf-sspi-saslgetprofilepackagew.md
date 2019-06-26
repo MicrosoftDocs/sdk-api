@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
 ms.topic: function
-f1_keywords: ["sspi/SaslGetProfilePackage"]
+f1_keywords: 
+ - "sspi/SaslGetProfilePackage"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

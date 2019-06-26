@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Reset method, IEnumExtraSearch.Reset, IEnumExtraSearch::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Reset, shell.IEnumExtraSearch_Reset, shobjidl_core/IEnumExtraSearch::Reset
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumExtraSearch.Reset"]
+f1_keywords: 
+ - "shobjidl_core/IEnumExtraSearch.Reset"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

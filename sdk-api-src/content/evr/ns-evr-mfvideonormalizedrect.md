@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 ms.topic: struct
-f1_keywords: ["evr/MFVideoNormalizedRect"]
+f1_keywords: 
+ - "evr/MFVideoNormalizedRect"
 req.header: evr.h
 req.include-header: Mfcaptureengine.h, Mfmediaengine.h
 req.target-type: Windows

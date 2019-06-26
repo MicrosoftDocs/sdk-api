@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsert method, ITextStoreACP.QueryInsert, ITextStoreACP::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsert_ref, textstor/ITextStoreACP::QueryInsert, tsf.itextstoreacp_queryinsert
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.QueryInsert"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.QueryInsert"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

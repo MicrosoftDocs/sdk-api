@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertToRadians, XMConvertToRadians, XMConvertToRadians method [DirectX Math Support APIs], dxmath.xmconverttoradians
 ms.topic: function
-f1_keywords: ["directxmath/XMConvertToRadians"]
+f1_keywords: 
+ - "directxmath/XMConvertToRadians"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

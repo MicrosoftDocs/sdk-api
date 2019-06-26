@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4, XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4, XMFLOAT4.XMFLOAT4(), XMFLOAT4::XMFLOAT4, dxmath.xmfloat4_ctor_1
 ms.topic: method
-f1_keywords: ["directxmath/XMFLOAT4.XMFLOAT4"]
+f1_keywords: 
+ - "directxmath/XMFLOAT4.XMFLOAT4"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

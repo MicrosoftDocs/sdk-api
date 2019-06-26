@@ -11,7 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
 ms.topic: interface
-f1_keywords: ["mediaobj/IMediaObjectInPlace"]
+f1_keywords: 
+ - "mediaobj/IMediaObjectInPlace"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

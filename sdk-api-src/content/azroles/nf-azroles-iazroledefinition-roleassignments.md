@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleAssignments property, IAzRoleDefinition.RoleAssignments, IAzRoleDefinition::RoleAssignments, IAzRoleDefinition::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleAssignments, azroles/IAzRoleDefinition::get_RoleAssignments, security.iazroledefinition_roleassignments
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleDefinition.RoleAssignments"]
+f1_keywords: 
+ - "azroles/IAzRoleDefinition.RoleAssignments"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

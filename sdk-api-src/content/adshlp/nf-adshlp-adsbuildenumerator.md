@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuildenumerator, adshlp/ADsBuildEnumerator, adsi.adsbuildenumerator
 ms.topic: function
-f1_keywords: ["adshlp/ADsBuildEnumerator"]
+f1_keywords: 
+ - "adshlp/ADsBuildEnumerator"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

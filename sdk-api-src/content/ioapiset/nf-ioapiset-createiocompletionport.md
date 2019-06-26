@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIoCompletionPort, CreateIoCompletionPort function [Files], _win32_createiocompletionport, base.createiocompletionport, fs.createiocompletionport, ioapiset/CreateIoCompletionPort, winbase/CreateIoCompletionPort
 ms.topic: function
-f1_keywords: ["ioapiset/CreateIoCompletionPort"]
+f1_keywords: 
+ - "ioapiset/CreateIoCompletionPort"
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

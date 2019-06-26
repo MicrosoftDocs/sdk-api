@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getCertFromResponse method, ICEnroll4 interface [Security],getCertFromResponse method, ICEnroll4.getCertFromResponse, ICEnroll4::getCertFromResponse, _xen_icenroll4_getcertfromresponse, getCertFromResponse, getCertFromResponse method [Security], getCertFromResponse method [Security],CEnroll object, getCertFromResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromresponse, xenroll/ICEnroll4::getCertFromResponse
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.getCertFromResponse"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.getCertFromResponse"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

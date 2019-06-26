@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_CoRevokeInitializeSpy, com.corevokeinitializespy, objbase/CoRevokeInitializeSpy
 ms.topic: function
-f1_keywords: ["objbase/CoRevokeInitializeSpy"]
+f1_keywords: 
+ - "objbase/CoRevokeInitializeSpy"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

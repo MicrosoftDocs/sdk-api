@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildFromXMLFile, BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow],IXMLGraphBuilder interface, IXMLGraphBuilder interface [DirectShow],BuildFromXMLFile method, IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
 ms.topic: method
-f1_keywords: ["amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile"]
+f1_keywords: 
+ - "amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile"
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows

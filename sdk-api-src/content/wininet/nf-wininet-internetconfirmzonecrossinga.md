@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetConfirmZoneCrossing, InternetConfirmZoneCrossing function [WinINet], InternetConfirmZoneCrossingA, InternetConfirmZoneCrossingW, _inet_internetconfirmzonecrossing_function, wininet.internetconfirmzonecrossing, wininet/InternetConfirmZoneCrossing, wininet/InternetConfirmZoneCrossingA, wininet/InternetConfirmZoneCrossingW
 ms.topic: function
-f1_keywords: ["wininet/InternetConfirmZoneCrossing"]
+f1_keywords: 
+ - "wininet/InternetConfirmZoneCrossing"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

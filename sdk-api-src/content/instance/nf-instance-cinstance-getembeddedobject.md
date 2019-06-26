@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance interface [Windows Management Instrumentation],GetEmbeddedObject method, CInstance.GetEmbeddedObject, CInstance::GetEmbeddedObject, GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject"
 ms.topic: method
-f1_keywords: ["instance/CInstance.GetEmbeddedObject"]
+f1_keywords: 
+ - "instance/CInstance.GetEmbeddedObject"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

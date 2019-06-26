@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
 ms.topic: function
-f1_keywords: ["winnls/GetCurrencyFormatEx"]
+f1_keywords: 
+ - "winnls/GetCurrencyFormatEx"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

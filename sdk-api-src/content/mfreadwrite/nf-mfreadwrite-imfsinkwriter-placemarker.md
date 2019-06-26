@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.PlaceMarker"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.PlaceMarker"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

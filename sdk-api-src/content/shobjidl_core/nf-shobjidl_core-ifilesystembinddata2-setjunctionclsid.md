@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetJunctionCLSID method, IFileSystemBindData2.SetJunctionCLSID, IFileSystemBindData2::SetJunctionCLSID, SetJunctionCLSID, SetJunctionCLSID method [Windows Shell], SetJunctionCLSID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetJunctionCLSID, shell.IFileSystemBindData2_SetJunctionCLSID, shobjidl_core/IFileSystemBindData2::SetJunctionCLSID
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileSystemBindData2.SetJunctionCLSID"]
+f1_keywords: 
+ - "shobjidl_core/IFileSystemBindData2.SetJunctionCLSID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

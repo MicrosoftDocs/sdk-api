@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
 ms.topic: function
-f1_keywords: ["winnt/RtlAddGrowableFunctionTable"]
+f1_keywords: 
+ - "winnt/RtlAddGrowableFunctionTable"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

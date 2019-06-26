@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IOpenSearchSource interface, IOpenSearchSource interface [Windows Shell],GetResults method, IOpenSearchSource.GetResults, IOpenSearchSource::GetResults, _shell_IOpenSearchSource_GetResults, shell.IOpenSearchSource_GetResults, shobjidl_core/IOpenSearchSource::GetResults
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOpenSearchSource.GetResults"]
+f1_keywords: 
+ - "shobjidl_core/IOpenSearchSource.GetResults"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

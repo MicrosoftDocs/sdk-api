@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], IMixerPinConfig2 interface [DirectShow],described, IMixerPinConfig2Interface, dshow.imixerpinconfig2, mpconfig/IMixerPinConfig2
 ms.topic: interface
-f1_keywords: ["mpconfig/IMixerPinConfig2"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig2"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

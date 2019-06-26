@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttendeeLimit property [RDP], AttendeeLimit property [RDP],IRDPSRAPIInvitation interface, AttendeeLimit property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],AttendeeLimit property, IRDPSRAPIInvitation.AttendeeLimit, IRDPSRAPIInvitation.put_AttendeeLimit, IRDPSRAPIInvitation::AttendeeLimit, IRDPSRAPIInvitation::get_AttendeeLimit, IRDPSRAPIInvitation::put_AttendeeLimit, RDPSRAPIInvitation object [RDP],AttendeeLimit property, put_AttendeeLimit, rdp.irdpsrapiinvitation_attendeelimit, rdpencomapi/IRDPSRAPIInvitation::AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::get_AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::put_AttendeeLimit
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIInvitation.AttendeeLimit"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIInvitation.AttendeeLimit"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

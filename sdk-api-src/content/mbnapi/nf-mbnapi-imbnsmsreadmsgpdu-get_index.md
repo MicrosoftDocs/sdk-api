@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSmsReadMsgPdu.Index"]
+f1_keywords: 
+ - "mbnapi/IMbnSmsReadMsgPdu.Index"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

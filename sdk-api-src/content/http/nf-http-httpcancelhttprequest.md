@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.httpcancelhttprequest, http/HttpCancelHttpRequest
 ms.topic: function
-f1_keywords: ["http/HttpCancelHttpRequest"]
+f1_keywords: 
+ - "http/HttpCancelHttpRequest"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

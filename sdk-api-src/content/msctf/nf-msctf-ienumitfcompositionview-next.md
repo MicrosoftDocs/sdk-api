@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Next method, IEnumITfCompositionView.Next, IEnumITfCompositionView::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_next_ref, msctf/IEnumITfCompositionView::Next, tsf.ienumitfcompositionview_next
 ms.topic: method
-f1_keywords: ["msctf/IEnumITfCompositionView.Next"]
+f1_keywords: 
+ - "msctf/IEnumITfCompositionView.Next"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

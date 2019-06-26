@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, IFolderBandPriv.SetAccelerators, IFolderBandPriv::SetAccelerators, SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
 ms.topic: method
-f1_keywords: ["shobjidl/IFolderBandPriv.SetAccelerators"]
+f1_keywords: 
+ - "shobjidl/IFolderBandPriv.SetAccelerators"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

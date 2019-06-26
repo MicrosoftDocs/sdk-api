@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
 ms.topic: function
-f1_keywords: ["usp10/ScriptStringValidate"]
+f1_keywords: 
+ - "usp10/ScriptStringValidate"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

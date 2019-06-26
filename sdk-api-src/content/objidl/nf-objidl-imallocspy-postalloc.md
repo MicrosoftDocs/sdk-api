@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostAlloc method, IMallocSpy.PostAlloc, IMallocSpy::PostAlloc, PostAlloc, PostAlloc method [COM], PostAlloc method [COM],IMallocSpy interface, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
 ms.topic: method
-f1_keywords: ["objidl/IMallocSpy.PostAlloc"]
+f1_keywords: 
+ - "objidl/IMallocSpy.PostAlloc"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

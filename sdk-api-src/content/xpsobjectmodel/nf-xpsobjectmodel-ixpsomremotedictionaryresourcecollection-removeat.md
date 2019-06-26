@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMRemoteDictionaryResourceCollection.RemoveAt, IXpsOMRemoteDictionaryResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_removeat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

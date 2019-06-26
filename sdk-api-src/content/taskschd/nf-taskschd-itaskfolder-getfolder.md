@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
 ms.topic: method
-f1_keywords: ["taskschd/ITaskFolder.GetFolder"]
+f1_keywords: 
+ - "taskschd/ITaskFolder.GetFolder"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW
 ms.topic: function
-f1_keywords: ["winbase/EncryptFile"]
+f1_keywords: 
+ - "winbase/EncryptFile"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

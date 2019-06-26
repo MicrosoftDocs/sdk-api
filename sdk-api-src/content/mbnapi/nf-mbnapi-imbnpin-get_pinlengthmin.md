@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMin property, IMbnPin.PinLengthMin, IMbnPin.get_PinLengthMin, IMbnPin::PinLengthMin, IMbnPin::get_PinLengthMin, PinLengthMin property [Microsoft Broadband Networks], PinLengthMin property [Microsoft Broadband Networks],IMbnPin interface, get_PinLengthMin, mbn.imbnpin_pinlengthmin, mbnapi/IMbnPin::PinLengthMin, mbnapi/IMbnPin::get_PinLengthMin
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.PinLengthMin"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.PinLengthMin"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

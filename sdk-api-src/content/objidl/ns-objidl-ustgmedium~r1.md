@@ -4,7 +4,8 @@ title: uSTGMEDIUM
 ms.date: 01/30/19
 ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
 ms.topic: language-reference
-f1_keywords: ["objidl/tagSTGMEDIUM"]
+f1_keywords: 
+ - "objidl/tagSTGMEDIUM"
 targetos: Windows
 product: Windows
 req.construct-type: structure

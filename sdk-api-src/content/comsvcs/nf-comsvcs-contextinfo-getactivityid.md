@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetActivityId method, ContextInfo.GetActivityId, ContextInfo::GetActivityId, GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],ContextInfo interface, _cos_ContextInfo_GetActivityId, comsvcs/ContextInfo::GetActivityId, cos.contextinfo_getactivityid
 ms.topic: method
-f1_keywords: ["comsvcs/ContextInfo.GetActivityId"]
+f1_keywords: 
+ - "comsvcs/ContextInfo.GetActivityId"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

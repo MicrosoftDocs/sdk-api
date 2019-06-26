@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.ErrorAdvise"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.ErrorAdvise"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

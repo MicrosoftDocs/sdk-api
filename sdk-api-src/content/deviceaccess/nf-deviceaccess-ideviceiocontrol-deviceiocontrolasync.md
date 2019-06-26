@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControlAsync, DeviceIoControlAsync method [Device Access Broker API], DeviceIoControlAsync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlAsync method, IDeviceIoControl.DeviceIoControlAsync, IDeviceIoControl::DeviceIoControlAsync, deviceaccess.ideviceiocontrol_deviceiocontrolasync, deviceaccess/IDeviceIoControl::DeviceIoControlAsync
 ms.topic: method
-f1_keywords: ["deviceaccess/IDeviceIoControl.DeviceIoControlAsync"]
+f1_keywords: 
+ - "deviceaccess/IDeviceIoControl.DeviceIoControlAsync"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

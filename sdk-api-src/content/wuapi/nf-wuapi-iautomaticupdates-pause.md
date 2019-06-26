@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdates.Pause"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdates.Pause"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetItemHeight, TreeView_GetItemHeight macro [Windows Controls], _win32_TreeView_GetItemHeight, _win32_TreeView_GetItemHeight_cpp, commctrl/TreeView_GetItemHeight, controls.TreeView_GetItemHeight, controls._win32_TreeView_GetItemHeight
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetItemHeight"]
+f1_keywords: 
+ - "commctrl/TreeView_GetItemHeight"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

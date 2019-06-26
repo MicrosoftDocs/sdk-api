@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveRecord method, IWMMutualExclusion2.RemoveRecord, IWMMutualExclusion2::RemoveRecord, IWMMutualExclusion2RemoveRecord, RemoveRecord, RemoveRecord method [windows Media Format], RemoveRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removerecord, wmsdkidl/IWMMutualExclusion2::RemoveRecord
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion2.RemoveRecord"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion2.RemoveRecord"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

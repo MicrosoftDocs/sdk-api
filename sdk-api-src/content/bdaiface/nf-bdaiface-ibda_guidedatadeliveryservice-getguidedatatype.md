@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideDataType method, IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType"]
+f1_keywords: 
+ - "bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

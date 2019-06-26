@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDDeviceHost.SetServiceDiscoverable"]
+f1_keywords: 
+ - "wsdhost/IWSDDeviceHost.SetServiceDiscoverable"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

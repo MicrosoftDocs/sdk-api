@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
 ms.topic: function
-f1_keywords: ["winbase/GetProcessIoCounters"]
+f1_keywords: 
+ - "winbase/GetProcessIoCounters"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

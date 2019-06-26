@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfEnum, IWbemHiPerfEnum interface [Windows Management Instrumentation], IWbemHiPerfEnum interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfenum, wbemcli/IWbemHiPerfEnum, wmi.iwbemhiperfenum
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemHiPerfEnum"]
+f1_keywords: 
+ - "wbemcli/IWbemHiPerfEnum"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

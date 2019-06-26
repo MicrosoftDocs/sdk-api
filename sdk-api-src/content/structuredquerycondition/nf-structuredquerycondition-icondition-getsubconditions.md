@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubConditions, GetSubConditions method [search], GetSubConditions method [search],ICondition interface, ICondition interface [search],GetSubConditions method, ICondition.GetSubConditions, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
 ms.topic: method
-f1_keywords: ["structuredquerycondition/ICondition.GetSubConditions"]
+f1_keywords: 
+ - "structuredquerycondition/ICondition.GetSubConditions"
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

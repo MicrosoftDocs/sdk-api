@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientConnectionPropertySet property [Remote Desktop Services], ClientConnectionPropertySet property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ClientConnectionPropertySet property, ITsSbClientConnection.ClientConnectionPropertySet, ITsSbClientConnection.get_ClientConnectionPropertySet, ITsSbClientConnection::ClientConnectionPropertySet, ITsSbClientConnection::get_ClientConnectionPropertySet, get_ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::get_ClientConnectionPropertySet, termserv.itssbclientconnection_clientconnectionpropertyset
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbClientConnection.ClientConnectionPropertySet"]
+f1_keywords: 
+ - "sbtsv/ITsSbClientConnection.ClientConnectionPropertySet"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

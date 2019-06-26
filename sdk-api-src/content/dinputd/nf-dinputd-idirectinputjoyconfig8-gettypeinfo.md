@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Human Input Devices], GetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetTypeInfo method, IDirectInputJoyConfig8.GetTypeInfo, IDirectInputJoyConfig8::GetTypeInfo, di_ref_9e378bd2-ae1a-4a66-b934-d9d5ad46cf5d.xml, dinputd/IDirectInputJoyConfig8::GetTypeInfo, hid.idirectinputjoyconfig8_gettypeinfo
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputJoyConfig8.GetTypeInfo"]
+f1_keywords: 
+ - "dinputd/IDirectInputJoyConfig8.GetTypeInfo"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

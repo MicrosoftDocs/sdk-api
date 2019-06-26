@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspilocalfree, sspi/SspiLocalFree
 ms.topic: function
-f1_keywords: ["sspi/SspiLocalFree"]
+f1_keywords: 
+ - "sspi/SspiLocalFree"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

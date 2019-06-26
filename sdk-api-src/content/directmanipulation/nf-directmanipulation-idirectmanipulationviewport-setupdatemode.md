@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpdateMode method, IDirectManipulationViewport.SetUpdateMode, IDirectManipulationViewport::SetUpdateMode, SetUpdateMode, SetUpdateMode method [Direct Manipulation], SetUpdateMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setupdatemode, directmanipulation/IDirectManipulationViewport::SetUpdateMode
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.SetUpdateMode"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.SetUpdateMode"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

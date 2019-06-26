@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT structure [Windows GDI], PEMRCREATEBRUSHINDIRECT, PEMRCREATEBRUSHINDIRECT structure pointer [Windows GDI], _win32_EMRCREATEBRUSHINDIRECT_str, gdi.emrcreatebrushindirect, wingdi/EMRCREATEBRUSHINDIRECT, wingdi/PEMRCREATEBRUSHINDIRECT"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRCREATEBRUSHINDIRECT"]
+f1_keywords: 
+ - "wingdi/EMRCREATEBRUSHINDIRECT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

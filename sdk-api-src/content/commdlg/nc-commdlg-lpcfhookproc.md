@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CFHookProc, LPCFHOOKPROC, LPCFHOOKPROC callback, LPCFHOOKPROC callback function [Dialog Boxes], _win32_CFHookProc, _win32_cfhookproc_cpp, commdlg/LPCFHOOKPROC, dlgbox.cfhookproc, winui._win32_cfhookproc
 ms.topic: callback
-f1_keywords: ["commdlg/LPCFHOOKPROC"]
+f1_keywords: 
+ - "commdlg/LPCFHOOKPROC"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

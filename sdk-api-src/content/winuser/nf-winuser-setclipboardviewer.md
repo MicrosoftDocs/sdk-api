@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetClipboardViewer, SetClipboardViewer function [Data Exchange], _win32_SetClipboardViewer, _win32_setclipboardviewer_cpp, dataxchg.setclipboardviewer, winui._win32_setclipboardviewer, winuser/SetClipboardViewer
 ms.topic: function
-f1_keywords: ["winuser/SetClipboardViewer"]
+f1_keywords: 
+ - "winuser/SetClipboardViewer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

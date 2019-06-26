@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSSetShader, CSSetShader method [Direct3D 11], CSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetShader method, ID3D11DeviceContext.CSSetShader, ID3D11DeviceContext::CSSetShader, cd24a33e-1a95-4033-49fc-875e68702c5b, d3d11/ID3D11DeviceContext::CSSetShader, direct3d11.id3d11devicecontext_cssetshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.CSSetShader"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.CSSetShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

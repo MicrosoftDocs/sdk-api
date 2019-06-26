@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],ResetTimer method, IOperationsProgressDialog.ResetTimer, IOperationsProgressDialog::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_ResetTimer, shell.IOperationsProgressDialog_ResetTimer, shobjidl_core/IOperationsProgressDialog::ResetTimer
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.ResetTimer"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.ResetTimer"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

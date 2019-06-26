@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetTransform method, Pen.SetTransform, Pen::SetTransform, SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_SetTransform_matrix_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.SetTransform"]
+f1_keywords: 
+ - "gdipluspen/Pen.SetTransform"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

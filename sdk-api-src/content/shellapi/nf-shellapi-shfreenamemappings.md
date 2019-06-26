@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFreeNameMappings, SHFreeNameMappings function [Windows Shell], _win32_SHFreeNameMappings, shell.SHFreeNameMappings, shellapi/SHFreeNameMappings
 ms.topic: function
-f1_keywords: ["shellapi/SHFreeNameMappings"]
+f1_keywords: 
+ - "shellapi/SHFreeNameMappings"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

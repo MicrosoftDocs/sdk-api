@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFormatProperties, GetSupportedFormatProperties method [Windows Portable Devices SDK], GetSupportedFormatProperties method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormatProperties method, IPortableDeviceServiceCapabilities.GetSupportedFormatProperties, IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormatProperties, wpdsdk.iportabledeviceservicecapabilities_getsupportedformatproperties
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedFormatProperties"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedFormatProperties"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

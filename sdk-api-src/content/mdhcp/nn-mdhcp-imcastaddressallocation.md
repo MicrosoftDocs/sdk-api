@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastAddressAllocation, IMcastAddressAllocation interface [TAPI 2.2], IMcastAddressAllocation interface [TAPI 2.2],described, _tapi3_imcastaddressallocation, mdhcp/IMcastAddressAllocation, tapi3.imcastaddressallocation
 ms.topic: interface
-f1_keywords: ["mdhcp/IMcastAddressAllocation"]
+f1_keywords: 
+ - "mdhcp/IMcastAddressAllocation"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

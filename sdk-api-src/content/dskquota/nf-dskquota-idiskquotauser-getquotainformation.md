@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaUser.GetQuotaInformation"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaUser.GetQuotaInformation"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

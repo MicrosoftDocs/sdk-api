@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetObject method, IMFAsyncResult.GetObject, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
 ms.topic: method
-f1_keywords: ["mfobjects/IMFAsyncResult.GetObject"]
+f1_keywords: 
+ - "mfobjects/IMFAsyncResult.GetObject"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

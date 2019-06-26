@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax Service], _mfax_faxextunregisterforevents, fax._mfax_faxextunregisterforevents, faxext/FaxExtUnregisterForEvents
 ms.topic: function
-f1_keywords: ["faxext/FaxExtUnregisterForEvents"]
+f1_keywords: 
+ - "faxext/FaxExtUnregisterForEvents"
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

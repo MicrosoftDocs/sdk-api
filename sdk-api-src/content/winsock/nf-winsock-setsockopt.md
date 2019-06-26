@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt"
 ms.topic: function
-f1_keywords: ["winsock/setsockopt"]
+f1_keywords: 
+ - "winsock/setsockopt"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

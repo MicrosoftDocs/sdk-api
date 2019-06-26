@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetLineCount, SetupGetLineCount function [Setup API], SetupGetLineCountA, SetupGetLineCountW, _setupapi_setupgetlinecount, setup.setupgetlinecount, setupapi/SetupGetLineCount, setupapi/SetupGetLineCountA, setupapi/SetupGetLineCountW
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetLineCount"]
+f1_keywords: 
+ - "setupapi/SetupGetLineCount"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

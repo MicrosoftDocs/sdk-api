@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetRecordInfo, SafeArrayGetRecordInfo function [Automation], _oa96_SafeArrayGetRecordInfo, automat.safearraygetrecordinfo, oleauto/SafeArrayGetRecordInfo
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayGetRecordInfo"]
+f1_keywords: 
+ - "oleauto/SafeArrayGetRecordInfo"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

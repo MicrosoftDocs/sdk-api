@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
 ms.topic: method
-f1_keywords: ["bits3_0/IBitsPeer.IsAvailable"]
+f1_keywords: 
+ - "bits3_0/IBitsPeer.IsAvailable"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

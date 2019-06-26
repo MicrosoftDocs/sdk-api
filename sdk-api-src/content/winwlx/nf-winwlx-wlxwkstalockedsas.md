@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS
 ms.topic: function
-f1_keywords: ["winwlx/WlxWkstaLockedSAS"]
+f1_keywords: 
+ - "winwlx/WlxWkstaLockedSAS"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

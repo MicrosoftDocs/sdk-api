@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
 ms.topic: function
-f1_keywords: ["immdev/ImmGetDefaultIMEWnd"]
+f1_keywords: 
+ - "immdev/ImmGetDefaultIMEWnd"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

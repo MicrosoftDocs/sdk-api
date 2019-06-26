@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolderBandPriv interface [Windows Shell],described, _win32_IFolderBandPriv, shell.IFolderBandPriv, shobjidl/IFolderBandPriv
 ms.topic: interface
-f1_keywords: ["shobjidl/IFolderBandPriv"]
+f1_keywords: 
+ - "shobjidl/IFolderBandPriv"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

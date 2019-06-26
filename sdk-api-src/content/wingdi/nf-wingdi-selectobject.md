@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
 ms.topic: function
-f1_keywords: ["wingdi/SelectObject"]
+f1_keywords: 
+ - "wingdi/SelectObject"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

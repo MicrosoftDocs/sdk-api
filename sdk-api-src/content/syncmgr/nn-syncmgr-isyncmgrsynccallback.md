@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

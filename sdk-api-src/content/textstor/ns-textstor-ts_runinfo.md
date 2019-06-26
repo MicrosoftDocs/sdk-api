@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_RUNINFO, TS_RUNINFO structure [Text Services Framework], _tsf_ts_runinfo_ref, textstor/TS_RUNINFO, tsf.ts_runinfo
 ms.topic: struct
-f1_keywords: ["textstor/TS_RUNINFO"]
+f1_keywords: 
+ - "textstor/TS_RUNINFO"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

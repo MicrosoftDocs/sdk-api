@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM structure pointer [Failover Cluster], RESUTIL_PROPERTY_ITEM, RESUTIL_PROPERTY_ITEM structure [Failover Cluster], RESUTIL_PROPITEM_READ_ONLY, RESUTIL_PROPITEM_REQUIRED, RESUTIL_PROPITEM_SIGNED, _wolf_resutil_property_item, mscs.resutil_property_item, resapi/PRESUTIL_PROPERTY_ITEM, resapi/RESUTIL_PROPERTY_ITEM"
 ms.topic: struct
-f1_keywords: ["resapi/RESUTIL_PROPERTY_ITEM"]
+f1_keywords: 
+ - "resapi/RESUTIL_PROPERTY_ITEM"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

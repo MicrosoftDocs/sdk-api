@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageId, GetCurrentPackageId function [App packaging and management], appmodel/GetCurrentPackageId, appxpkg.getcurrentpackageid
 ms.topic: function
-f1_keywords: ["appmodel/GetCurrentPackageId"]
+f1_keywords: 
+ - "appmodel/GetCurrentPackageId"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

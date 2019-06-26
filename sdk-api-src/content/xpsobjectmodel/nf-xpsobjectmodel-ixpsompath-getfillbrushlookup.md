@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMPath.GetFillBrushLookup, IXpsOMPath::GetFillBrushLookup, xps.ixpsompath_getfillbrushlookup, xpsobjectmodel/IXpsOMPath::GetFillBrushLookup
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.GetFillBrushLookup"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.GetFillBrushLookup"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

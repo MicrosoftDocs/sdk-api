@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage method, IMFVideoPresenter.ProcessMessage, IMFVideoPresenter::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFVideoPresenter interface, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
 ms.topic: method
-f1_keywords: ["evr/IMFVideoPresenter.ProcessMessage"]
+f1_keywords: 
+ - "evr/IMFVideoPresenter.ProcessMessage"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

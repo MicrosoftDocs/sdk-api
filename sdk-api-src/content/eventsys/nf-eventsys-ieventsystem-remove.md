@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Remove method, IEventSystem.Remove, IEventSystem::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventSystem interface, _cos_IEventSystem_Remove, cos.ieventsystem_remove, eventsys/IEventSystem::Remove
 ms.topic: method
-f1_keywords: ["eventsys/IEventSystem.Remove"]
+f1_keywords: 
+ - "eventsys/IEventSystem.Remove"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

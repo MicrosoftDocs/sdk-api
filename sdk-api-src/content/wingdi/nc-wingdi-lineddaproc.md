@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [Windows GDI], _win32_LineDDAProc, gdi.lineddaproc, wingdi/LineDDAProc
 ms.topic: callback
-f1_keywords: ["wingdi/LineDDAProc"]
+f1_keywords: 
+ - "wingdi/LineDDAProc"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

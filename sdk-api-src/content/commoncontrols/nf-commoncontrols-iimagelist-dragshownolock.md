@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragShowNolock, DragShowNolock method [Windows Controls], DragShowNolock method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragShowNolock method, IImageList.DragShowNolock, IImageList::DragShowNolock, comctl_IImageList_DragShowNolock, comctl_IImageList_DragShowNolock_cpp, commoncontrols/IImageList::DragShowNolock, controls.IImageList_DragShowNolock, controls.comctl_IImageList_DragShowNolock
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.DragShowNolock"]
+f1_keywords: 
+ - "commoncontrols/IImageList.DragShowNolock"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

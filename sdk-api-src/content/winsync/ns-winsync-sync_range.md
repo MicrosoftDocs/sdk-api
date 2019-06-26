@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], winsync.sync_range, winsync/SYNC_RANGE
 ms.topic: struct
-f1_keywords: ["winsync/SYNC_RANGE"]
+f1_keywords: 
+ - "winsync/SYNC_RANGE"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
 ms.topic: interface
-f1_keywords: ["msaatext/IVersionInfo"]
+f1_keywords: 
+ - "msaatext/IVersionInfo"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

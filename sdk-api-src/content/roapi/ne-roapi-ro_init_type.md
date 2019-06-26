@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RO_INIT_MULTITHREADED, RO_INIT_TYPE, RO_INIT_TYPE enumeration [Windows Runtime], roapi/RO_INIT_MULTITHREADED, roapi/RO_INIT_TYPE, winrt.ro_init_type, winrt.winrt_init_type
 ms.topic: enum
-f1_keywords: ["roapi/RO_INIT_TYPE"]
+f1_keywords: 
+ - "roapi/RO_INIT_TYPE"
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

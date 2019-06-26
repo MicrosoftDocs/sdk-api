@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [windows Media Device Manager], GetTotalLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetTotalLength method, IWMDMObjectInfo.GetTotalLength, IWMDMObjectInfo::GetTotalLength, IWMDMObjectInfoGetTotalLength, mswmdm/IWMDMObjectInfo::GetTotalLength, wmdm.iwmdmobjectinfo_gettotallength
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMObjectInfo.GetTotalLength"]
+f1_keywords: 
+ - "mswmdm/IWMDMObjectInfo.GetTotalLength"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

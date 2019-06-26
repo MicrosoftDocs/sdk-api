@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpRemoveSubnetElement"]
+f1_keywords: 
+ - "dhcpsapi/DhcpRemoveSubnetElement"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

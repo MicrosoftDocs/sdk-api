@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],Initialize method, ICAT.Initialize, ICAT::Initialize, ICATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::Initialize, mstv.icat_initialize
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/ICAT.Initialize"]
+f1_keywords: 
+ - "mpeg2psiparser/ICAT.Initialize"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

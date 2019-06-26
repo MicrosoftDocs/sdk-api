@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlobalInfo, GetGlobalInfo callback function [RAS], PGET_GLOBAL_INFO, PGET_GLOBAL_INFO callback, _mpr_getglobalinfo, routprot/GetGlobalInfo, rras.getglobalinfo
 ms.topic: callback
-f1_keywords: ["routprot/GetGlobalInfo"]
+f1_keywords: 
+ - "routprot/GetGlobalInfo"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

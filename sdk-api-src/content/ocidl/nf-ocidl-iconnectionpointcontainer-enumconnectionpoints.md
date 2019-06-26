@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
 ms.topic: method
-f1_keywords: ["ocidl/IConnectionPointContainer.EnumConnectionPoints"]
+f1_keywords: 
+ - "ocidl/IConnectionPointContainer.EnumConnectionPoints"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

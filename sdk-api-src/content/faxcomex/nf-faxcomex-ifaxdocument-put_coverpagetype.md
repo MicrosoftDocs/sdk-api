@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPageType property, IFaxDocument.CoverPageType, IFaxDocument.put_CoverPageType, IFaxDocument::CoverPageType, IFaxDocument::get_CoverPageType, IFaxDocument::put_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp, faxcomex/IFaxDocument::CoverPageType, faxcomex/IFaxDocument::get_CoverPageType, faxcomex/IFaxDocument::put_CoverPageType, put_CoverPageType
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.CoverPageType"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.CoverPageType"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT3, FWPM_NET_EVENT3 structure [Filtering], fwp.fwpm_net_event3, fwpmtypes/FWPM_NET_EVENT3
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_NET_EVENT3"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_NET_EVENT3"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

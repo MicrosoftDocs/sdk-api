@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
 ms.topic: function
-f1_keywords: ["userenv/CreateProfile"]
+f1_keywords: 
+ - "userenv/CreateProfile"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzScope object, DeleteTask method [Security],IAzScope interface, IAzScope interface [Security],DeleteTask method, IAzScope.DeleteTask, IAzScope::DeleteTask, azroles/IAzScope::DeleteTask, security.iazscope_deletetask
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.DeleteTask"]
+f1_keywords: 
+ - "azroles/IAzScope.DeleteTask"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

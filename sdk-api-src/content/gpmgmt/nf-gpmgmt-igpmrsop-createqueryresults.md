@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateQueryResults, CreateQueryResults method [GPMC], CreateQueryResults method [GPMC],GPMRSOP object, CreateQueryResults method [GPMC],IGPMRSOP interface, GPMRSOP object [GPMC],CreateQueryResults method, IGPMRSOP interface [GPMC],CreateQueryResults method, IGPMRSOP.CreateQueryResults, IGPMRSOP::CreateQueryResults, _win32_igpmrsop_createqueryresults, gpmc.igpmrsop_createqueryresults, gpmgmt/IGPMRSOP::CreateQueryResults
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMRSOP.CreateQueryResults"]
+f1_keywords: 
+ - "gpmgmt/IGPMRSOP.CreateQueryResults"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

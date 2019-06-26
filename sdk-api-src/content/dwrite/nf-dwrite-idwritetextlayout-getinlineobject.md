@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Direct Write], GetInlineObject method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetInlineObject method, IDWriteTextLayout.GetInlineObject, IDWriteTextLayout::GetInlineObject, directwrite.IDWriteTextLayout_GetInlineObject, dwrite/IDWriteTextLayout::GetInlineObject
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetInlineObject"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetInlineObject"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

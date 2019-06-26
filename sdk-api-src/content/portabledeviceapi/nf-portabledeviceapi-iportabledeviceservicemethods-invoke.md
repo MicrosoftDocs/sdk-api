@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceMethods.Invoke"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceMethods.Invoke"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

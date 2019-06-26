@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette method [Windows Imaging Component], CreatePalette method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreatePalette method, IWICImagingFactory.CreatePalette, IWICImagingFactory::CreatePalette, _wic_codec_iwicimagingfactory_createpalette, wic._wic_codec_iwicimagingfactory_createpalette, wincodec/IWICImagingFactory::CreatePalette
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreatePalette"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreatePalette"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMNotificationClient.OnDeviceStateChanged"]
+f1_keywords: 
+ - "mmdeviceapi/IMMNotificationClient.OnDeviceStateChanged"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

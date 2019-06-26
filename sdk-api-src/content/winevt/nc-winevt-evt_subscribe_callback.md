@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_CALLBACK, EVT_SUBSCRIBE_CALLBACK callback, EVT_SUBSCRIBE_CALLBACK callback function [EventLog], wes.evt_subscribe_callback, winevt/EVT_SUBSCRIBE_CALLBACK
 ms.topic: callback
-f1_keywords: ["winevt/EVT_SUBSCRIBE_CALLBACK"]
+f1_keywords: 
+ - "winevt/EVT_SUBSCRIBE_CALLBACK"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

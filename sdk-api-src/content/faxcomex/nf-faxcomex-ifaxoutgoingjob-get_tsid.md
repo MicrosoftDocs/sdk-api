@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TSID property, IFaxOutgoingJob.TSID, IFaxOutgoingJob.get_TSID, IFaxOutgoingJob::TSID, IFaxOutgoingJob::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.tsid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_tsid_cpp, fax._mfax_faxoutgoingjob_tsid, faxcomex/IFaxOutgoingJob::TSID, faxcomex/IFaxOutgoingJob::get_TSID, get_TSID
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.TSID"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.TSID"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

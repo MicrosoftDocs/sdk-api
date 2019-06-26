@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IBrowserService2 interface [Windows Shell],OnFrameWindowActivateBS method, IBrowserService2.OnFrameWindowActivateBS, IBrowserService2::OnFrameWindowActivateBS, OnFrameWindowActivateBS, OnFrameWindowActivateBS method [Windows Shell], OnFrameWindowActivateBS method [Windows Shell],IBrowserService2 interface, TRUE, shdeprecated/IBrowserService2::OnFrameWindowActivateBS, shell.IBrowserService2_OnFrameWindowActivateBS, zone_IBrowserService2_OnFrameWindowActivateBS
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.OnFrameWindowActivateBS"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.OnFrameWindowActivateBS"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],IsTapingPermitted method, IBPCSatelliteTuner.IsTapingPermitted, IBPCSatelliteTuner::IsTapingPermitted, IBPCSatelliteTunerIsTapingPermitted, IsTapingPermitted, IsTapingPermitted method [DirectShow], IsTapingPermitted method [DirectShow],IBPCSatelliteTuner interface, dshow.ibpcsatellitetuner_istapingpermitted, strmif/IBPCSatelliteTuner::IsTapingPermitted
 ms.topic: method
-f1_keywords: ["strmif/IBPCSatelliteTuner.IsTapingPermitted"]
+f1_keywords: 
+ - "strmif/IBPCSatelliteTuner.IsTapingPermitted"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

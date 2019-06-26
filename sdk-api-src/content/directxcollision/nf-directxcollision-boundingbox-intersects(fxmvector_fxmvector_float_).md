@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Intersects method, BoundingBox.Intersects, BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,float &), BoundingBox.Intersects(XMVECTOR,XMVECTOR,float&), BoundingBox::Intersects, BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,float &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_intersects_2
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingBox.Intersects"]
+f1_keywords: 
+ - "directxcollision/BoundingBox.Intersects"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

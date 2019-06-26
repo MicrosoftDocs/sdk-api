@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_UNKNOWN_PROPERTIES, PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilSetUnknownProperties, ResUtilSetUnknownProperties function [Failover Cluster], _wolf_resutilsetunknownproperties, mscs.resutilsetunknownproperties, resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES, resapi/ResUtilSetUnknownProperties
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetUnknownProperties"]
+f1_keywords: 
+ - "resapi/ResUtilSetUnknownProperties"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

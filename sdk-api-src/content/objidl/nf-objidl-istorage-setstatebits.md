@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetStateBits method, IStorage.SetStateBits, IStorage::SetStateBits, SetStateBits, SetStateBits method [Structured Storage], SetStateBits method [Structured Storage],IStorage interface, _stg_istorage_setstatebits, objidl/IStorage::SetStateBits, stg.istorage_setstatebits
 ms.topic: method
-f1_keywords: ["objidl/IStorage.SetStateBits"]
+f1_keywords: 
+ - "objidl/IStorage.SetStateBits"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

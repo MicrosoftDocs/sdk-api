@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferSize, NetApiBufferSize function [Network Management], _win32_netapibuffersize, lmapibuf/NetApiBufferSize, netmgmt.netapibuffersize
 ms.topic: function
-f1_keywords: ["lmapibuf/NetApiBufferSize"]
+f1_keywords: 
+ - "lmapibuf/NetApiBufferSize"
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows

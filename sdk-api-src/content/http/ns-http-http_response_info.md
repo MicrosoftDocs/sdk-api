@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_RESPONSE_INFO"]
+f1_keywords: 
+ - "http/HTTP_RESPONSE_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

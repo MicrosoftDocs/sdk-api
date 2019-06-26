@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],SendMessage method, IWMPContentPartner.SendMessage, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.SendMessage"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.SendMessage"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

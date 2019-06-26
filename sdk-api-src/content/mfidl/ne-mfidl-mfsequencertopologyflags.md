@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSequencerTopologyFlags, MFSequencerTopologyFlags enumeration [Media Foundation], SequencerTopologyFlags_Last, d52bac8c-e490-417c-ac00-e4cf57fd151c, mf.mfsequencertopologyflags, mfidl/MFSequencerTopologyFlags, mfidl/SequencerTopologyFlags_Last
 ms.topic: enum
-f1_keywords: ["mfidl/MFSequencerTopologyFlags"]
+f1_keywords: 
+ - "mfidl/MFSequencerTopologyFlags"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

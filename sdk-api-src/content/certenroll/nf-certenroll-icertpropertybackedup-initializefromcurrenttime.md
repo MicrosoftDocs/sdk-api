@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTime method, ICertPropertyBackedUp.InitializeFromCurrentTime, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyBackedUp.InitializeFromCurrentTime"]
+f1_keywords: 
+ - "certenroll/ICertPropertyBackedUp.InitializeFromCurrentTime"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

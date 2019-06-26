@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
 ms.topic: method
-f1_keywords: ["strmif/IDistributorNotify.Stop"]
+f1_keywords: 
+ - "strmif/IDistributorNotify.Stop"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

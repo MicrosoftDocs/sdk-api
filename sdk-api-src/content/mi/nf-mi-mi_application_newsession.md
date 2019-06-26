@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewSession, MI_Application_NewSession function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSession, wmi_v2.mi_application_newsession
 ms.topic: function
-f1_keywords: ["mi/MI_Application_NewSession"]
+f1_keywords: 
+ - "mi/MI_Application_NewSession"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

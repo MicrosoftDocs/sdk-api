@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeStateImageChange method, INameSpaceTreeControlEvents.OnBeforeStateImageChange, INameSpaceTreeControlEvents::OnBeforeStateImageChange, OnBeforeStateImageChange, OnBeforeStateImageChange method [Windows Shell], OnBeforeStateImageChange method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeStateImageChange, shell.INameSpaceTreeControlEvents_OnBeforeStateImageChange, shobjidl/INameSpaceTreeControlEvents::OnBeforeStateImageChange
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnBeforeStateImageChange"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnBeforeStateImageChange"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

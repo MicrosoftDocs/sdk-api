@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Windows Controls], ImageList_LoadImageA, ImageList_LoadImageW, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, OBM_ for OEM bitmaps, OCR_ for OEM cursors, OIC_ for OEM icons, _win32_ImageList_LoadImage, _win32_ImageList_LoadImage_cpp, commctrl/ImageList_LoadImage, commctrl/ImageList_LoadImageA, commctrl/ImageList_LoadImageW, controls.ImageList_LoadImage, controls._win32_ImageList_LoadImage
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_LoadImage"]
+f1_keywords: 
+ - "commctrl/ImageList_LoadImage"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

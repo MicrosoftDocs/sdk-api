@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.get_TotalACDCallTime"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.get_TotalACDCallTime"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureCustomObjectEnumerator.MovePrevious"]
+f1_keywords: 
+ - "msopc/IOpcSignatureCustomObjectEnumerator.MovePrevious"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathSetDlgItemPath, PathSetDlgItemPath function [Windows Shell], PathSetDlgItemPathA, PathSetDlgItemPathW, _win32_PathSetDlgItemPath, shell.PathSetDlgItemPath, shlwapi/PathSetDlgItemPath, shlwapi/PathSetDlgItemPathA, shlwapi/PathSetDlgItemPathW
 ms.topic: function
-f1_keywords: ["shlwapi/PathSetDlgItemPath"]
+f1_keywords: 
+ - "shlwapi/PathSetDlgItemPath"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockAdd, MprInfoBlockAdd function [RAS], _mpr_mprinfoblockadd, mprapi/MprInfoBlockAdd, rras.mprinfoblockadd
 ms.topic: function
-f1_keywords: ["mprapi/MprInfoBlockAdd"]
+f1_keywords: 
+ - "mprapi/MprInfoBlockAdd"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

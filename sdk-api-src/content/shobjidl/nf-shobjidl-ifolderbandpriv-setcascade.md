@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
 ms.topic: method
-f1_keywords: ["shobjidl/IFolderBandPriv.SetCascade"]
+f1_keywords: 
+ - "shobjidl/IFolderBandPriv.SetCascade"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.RepaintVideo"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.RepaintVideo"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

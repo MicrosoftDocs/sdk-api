@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharNext, CharNext function [Menus and Other Resources], CharNextA, CharNextW, _win32_CharNext, _win32_charnext_cpp, menurc.charnext, winui._win32_charnext, winuser/CharNext, winuser/CharNextA, winuser/CharNextW
 ms.topic: function
-f1_keywords: ["winuser/CharNext"]
+f1_keywords: 
+ - "winuser/CharNext"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

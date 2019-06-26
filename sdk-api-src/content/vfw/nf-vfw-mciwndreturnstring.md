@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndReturnString, MCIWndReturnString macro [Windows Multimedia], _win32_MCIWndReturnString, multimedia.mciwndreturnstring, vfw/MCIWndReturnString
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndReturnString"]
+f1_keywords: 
+ - "vfw/MCIWndReturnString"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartStopPosition, GetStartStopPosition method [Media Foundation], GetStartStopPosition method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStartStopPosition method, IMFPMediaItem.GetStartStopPosition, IMFPMediaItem::GetStartStopPosition, mf.imfpmediaitem_getstartstopposition, mfplay/IMFPMediaItem::GetStartStopPosition
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaItem.GetStartStopPosition"]
+f1_keywords: 
+ - "mfplay/IMFPMediaItem.GetStartStopPosition"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

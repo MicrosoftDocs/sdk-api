@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableNonClientDpiScaling, EnableNonClientDpiScaling function [High DPI], hidpi.enablenonclientdpiscaling, winuser/EnableNonClientDpiScaling
 ms.topic: function
-f1_keywords: ["winuser/EnableNonClientDpiScaling"]
+f1_keywords: 
+ - "winuser/EnableNonClientDpiScaling"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

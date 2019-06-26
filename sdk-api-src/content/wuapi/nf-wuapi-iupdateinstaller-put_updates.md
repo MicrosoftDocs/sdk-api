@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Updates property, IUpdateInstaller.Updates, IUpdateInstaller.put_Updates, IUpdateInstaller::Updates, IUpdateInstaller::get_Updates, IUpdateInstaller::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateInstaller interface, put_Updates, wua.iupdateinstaller_updates, wuapi/IUpdateInstaller::Updates, wuapi/IUpdateInstaller::get_Updates, wuapi/IUpdateInstaller::put_Updates
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.Updates"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.Updates"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

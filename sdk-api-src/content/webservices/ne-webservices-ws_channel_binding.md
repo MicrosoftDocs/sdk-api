@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_BINDING, WS_CHANNEL_BINDING enumeration [Web Services for Windows], WS_CUSTOM_CHANNEL_BINDING, WS_HTTP_CHANNEL_BINDING, WS_NAMEDPIPE_CHANNEL_BINDING, WS_TCP_CHANNEL_BINDING, WS_UDP_CHANNEL_BINDING, webservices/WS_CHANNEL_BINDING, webservices/WS_CUSTOM_CHANNEL_BINDING, webservices/WS_HTTP_CHANNEL_BINDING, webservices/WS_NAMEDPIPE_CHANNEL_BINDING, webservices/WS_TCP_CHANNEL_BINDING, webservices/WS_UDP_CHANNEL_BINDING, wsw.ws_channel_binding
 ms.topic: enum
-f1_keywords: ["webservices/WS_CHANNEL_BINDING"]
+f1_keywords: 
+ - "webservices/WS_CHANNEL_BINDING"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

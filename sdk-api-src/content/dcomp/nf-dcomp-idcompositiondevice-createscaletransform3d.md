@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice.CreateScaleTransform3D, IDCompositionDevice::CreateScaleTransform3D, dcomp/IDCompositionDevice::CreateScaleTransform3D, directcomp.idcompositiondevice_createscaletransform3d
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateScaleTransform3D"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateScaleTransform3D"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

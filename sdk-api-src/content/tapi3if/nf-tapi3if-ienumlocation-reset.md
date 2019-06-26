@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumLocation interface [TAPI 2.2],Reset method, IEnumLocation.Reset, IEnumLocation::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumLocation interface, _tapi3_ienumlocation_reset, tapi3.ienumlocation_reset, tapi3if/IEnumLocation::Reset
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumLocation.Reset"]
+f1_keywords: 
+ - "tapi3if/IEnumLocation.Reset"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

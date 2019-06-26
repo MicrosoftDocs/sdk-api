@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrection class [GDI+],SetParameters method, RedEyeCorrection.SetParameters, RedEyeCorrection::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],RedEyeCorrection class, _gdiplus_CLASS_RedEyeCorrection_SetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/RedEyeCorrection.SetParameters"]
+f1_keywords: 
+ - "gdipluseffects/RedEyeCorrection.SetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

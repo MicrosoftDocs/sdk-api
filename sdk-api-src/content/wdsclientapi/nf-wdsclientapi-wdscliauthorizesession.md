@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliAuthorizeSession, WdsCliAuthorizeSession function [Windows Deployment Services], wds.wdscliauthorizesession, wdsclientapi/WdsCliAuthorizeSession
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliAuthorizeSession"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliAuthorizeSession"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

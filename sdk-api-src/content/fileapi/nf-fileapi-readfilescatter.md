@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter
 ms.topic: function
-f1_keywords: ["fileapi/ReadFileScatter"]
+f1_keywords: 
+ - "fileapi/ReadFileScatter"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

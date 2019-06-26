@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_NumberOfLines method, IAMAnalogVideoDecoder.get_NumberOfLines, IAMAnalogVideoDecoder::get_NumberOfLines, IAMAnalogVideoDecoderget_NumberOfLines, dshow.iamanalogvideodecoder_get_numberoflines, get_NumberOfLines, get_NumberOfLines method [DirectShow], get_NumberOfLines method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_NumberOfLines
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoDecoder.get_NumberOfLines"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoDecoder.get_NumberOfLines"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayText, GetDisplayText method [Windows Properties], GetDisplayText method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetDisplayText method, IPropertyEnumType.GetDisplayText, IPropertyEnumType::GetDisplayText, _shell_IPropertyEnumType_GetDisplayText, properties.IPropertyEnumType_GetDisplayText, propsys/IPropertyEnumType::GetDisplayText, shell.IPropertyEnumType_GetDisplayText
 ms.topic: method
-f1_keywords: ["propsys/IPropertyEnumType.GetDisplayText"]
+f1_keywords: 
+ - "propsys/IPropertyEnumType.GetDisplayText"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

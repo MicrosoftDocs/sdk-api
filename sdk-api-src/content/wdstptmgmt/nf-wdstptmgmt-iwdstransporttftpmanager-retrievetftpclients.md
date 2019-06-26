@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpManager interface [Windows Deployment Services],RetrieveTftpClients method, IWdsTransportTftpManager.RetrieveTftpClients, IWdsTransportTftpManager::RetrieveTftpClients, RetrieveTftpClients, RetrieveTftpClients method [Windows Deployment Services], RetrieveTftpClients method [Windows Deployment Services],IWdsTransportTftpManager interface, wds.iwdstransporttftpclient_retrievetftpclients, wdstptmgmt/IWdsTransportTftpManager::RetrieveTftpClients
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportTftpManager.RetrieveTftpClients"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportTftpManager.RetrieveTftpClients"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

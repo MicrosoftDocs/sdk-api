@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMethodProps, GetMethodProps method [Windows Runtime], GetMethodProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodProps method, IMetaDataImport.GetMethodProps, IMetaDataImport::GetMethodProps, rometadataapi/IMetaDataImport::GetMethodProps, winrt.imetadataimport_getmethodprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetMethodProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetMethodProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

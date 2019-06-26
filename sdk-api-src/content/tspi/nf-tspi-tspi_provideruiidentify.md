@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerUIIdentify, TSPI_providerUIIdentify function [TAPI 2.2], _tspi_tspi_provideruiidentify, tspi.tspi_provideruiidentify, tspi/TSPI_providerUIIdentify
 ms.topic: function
-f1_keywords: ["tspi/TSPI_providerUIIdentify"]
+f1_keywords: 
+ - "tspi/TSPI_providerUIIdentify"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

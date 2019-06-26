@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWeeklyTrigger interface [Task Scheduler],RandomDelay property, IWeeklyTrigger.RandomDelay, IWeeklyTrigger.get_RandomDelay, IWeeklyTrigger::RandomDelay, IWeeklyTrigger::get_RandomDelay, IWeeklyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IWeeklyTrigger interface, get_RandomDelay, taskschd.iweeklytrigger_randomdelay, taskschd/IWeeklyTrigger::RandomDelay, taskschd/IWeeklyTrigger::get_RandomDelay, taskschd/IWeeklyTrigger::put_RandomDelay
 ms.topic: method
-f1_keywords: ["taskschd/IWeeklyTrigger.RandomDelay"]
+f1_keywords: 
+ - "taskschd/IWeeklyTrigger.RandomDelay"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

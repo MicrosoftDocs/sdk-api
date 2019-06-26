@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_1005, *PUSER_INFO_1005, LPUSER_INFO_1005, LPUSER_INFO_1005 structure pointer [Network Management], PUSER_INFO_1005, PUSER_INFO_1005 structure pointer [Network Management], USER_INFO_1005, USER_INFO_1005 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_1005_str, lmaccess/LPUSER_INFO_1005, lmaccess/PUSER_INFO_1005, lmaccess/USER_INFO_1005, netmgmt.user_info_1005_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/USER_INFO_1005"]
+f1_keywords: 
+ - "lmaccess/USER_INFO_1005"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

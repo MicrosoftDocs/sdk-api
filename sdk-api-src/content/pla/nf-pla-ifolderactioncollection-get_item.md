@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActionCollection.Item, IFolderActionCollection.get_Item, IFolderActionCollection::Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA],IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.Item"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.Item"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

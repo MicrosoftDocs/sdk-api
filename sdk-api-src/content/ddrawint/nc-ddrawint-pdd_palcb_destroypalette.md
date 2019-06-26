@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdDestroyPalette, DdDestroyPalette callback function [Display Devices], PDD_PALCB_DESTROYPALETTE, PDD_PALCB_DESTROYPALETTE callback, ddfncs_a0c991ff-d3b8-4793-a6b3-a72dc5f5d700.xml, ddrawint/DdDestroyPalette, display.dddestroypalette
 ms.topic: callback
-f1_keywords: ["ddrawint/DdDestroyPalette"]
+f1_keywords: 
+ - "ddrawint/DdDestroyPalette"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],Receive method, IMemInputPin.Receive, IMemInputPin::Receive, IMemInputPinReceive, Receive, Receive method [DirectShow], Receive method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receive, strmif/IMemInputPin::Receive
 ms.topic: method
-f1_keywords: ["strmif/IMemInputPin.Receive"]
+f1_keywords: 
+ - "strmif/IMemInputPin.Receive"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
 ms.topic: function
-f1_keywords: ["processthreadsapi/FlushInstructionCache"]
+f1_keywords: 
+ - "processthreadsapi/FlushInstructionCache"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

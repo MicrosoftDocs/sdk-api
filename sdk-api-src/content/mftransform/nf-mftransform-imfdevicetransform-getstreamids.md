@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStreamIDs method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamIDs method, IMFDeviceTransform.GetStreamIDs, IMFDeviceTransform::GetStreamIDs, mftransform/IMFDeviceTransform::GetStreamIDs, stream.imfdevicetransform_getstreamids
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetStreamIDs"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetStreamIDs"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

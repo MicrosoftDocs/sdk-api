@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
 ms.topic: callback
-f1_keywords: ["evr/MFCreateVideoSampleFromSurface"]
+f1_keywords: 
+ - "evr/MFCreateVideoSampleFromSurface"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

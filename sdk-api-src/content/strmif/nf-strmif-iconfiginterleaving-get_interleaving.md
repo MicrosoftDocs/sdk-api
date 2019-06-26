@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
 ms.topic: method
-f1_keywords: ["strmif/IConfigInterleaving.get_Interleaving"]
+f1_keywords: 
+ - "strmif/IConfigInterleaving.get_Interleaving"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

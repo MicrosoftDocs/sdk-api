@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PROTOCOL_TYPE, WSD_PROTOCOL_TYPE enumeration, WSD_PT_ALL, WSD_PT_HTTP, WSD_PT_HTTPS, WSD_PT_NONE, WSD_PT_UDP, ncd.wsd_protocol_type, wsdtypes/WSD_PROTOCOL_TYPE, wsdtypes/WSD_PT_ALL, wsdtypes/WSD_PT_HTTP, wsdtypes/WSD_PT_HTTPS, wsdtypes/WSD_PT_NONE, wsdtypes/WSD_PT_UDP
 ms.topic: enum
-f1_keywords: ["wsdtypes/WSD_PROTOCOL_TYPE"]
+f1_keywords: 
+ - "wsdtypes/WSD_PROTOCOL_TYPE"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

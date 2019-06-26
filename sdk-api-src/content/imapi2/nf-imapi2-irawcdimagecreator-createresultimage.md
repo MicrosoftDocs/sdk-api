@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],CreateResultImage method, IRawCDImageCreator.CreateResultImage, IRawCDImageCreator::CreateResultImage, imapi.irawcdimagecreator_createresultimage, imapi2/IRawCDImageCreator::CreateResultImage
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.CreateResultImage"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.CreateResultImage"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

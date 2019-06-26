@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],RenameElement method, IStorage.RenameElement, IStorage::RenameElement, RenameElement, RenameElement method [Structured Storage], RenameElement method [Structured Storage],IStorage interface, _stg_istorage_renameelement, objidl/IStorage::RenameElement, stg.istorage_renameelement
 ms.topic: method
-f1_keywords: ["objidl/IStorage.RenameElement"]
+f1_keywords: 
+ - "objidl/IStorage.RenameElement"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 41da430b-9cdd-4ab0-873d-f6d94f48d401, GetMinimumGRLVersion, GetMinimumGRLVersion method [Media Foundation], GetMinimumGRLVersion method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetMinimumGRLVersion method, IMFOutputPolicy.GetMinimumGRLVersion, IMFOutputPolicy::GetMinimumGRLVersion, mf.imfoutputpolicy_getminimumgrlversion, mfidl/IMFOutputPolicy::GetMinimumGRLVersion
 ms.topic: method
-f1_keywords: ["mfidl/IMFOutputPolicy.GetMinimumGRLVersion"]
+f1_keywords: 
+ - "mfidl/IMFOutputPolicy.GetMinimumGRLVersion"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

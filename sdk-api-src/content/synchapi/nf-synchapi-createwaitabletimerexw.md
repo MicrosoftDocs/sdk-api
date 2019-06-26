@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
 ms.topic: function
-f1_keywords: ["synchapi/CreateWaitableTimerEx"]
+f1_keywords: 
+ - "synchapi/CreateWaitableTimerEx"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

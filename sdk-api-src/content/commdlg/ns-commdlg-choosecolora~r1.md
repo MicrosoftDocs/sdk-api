@@ -4,7 +4,8 @@ title: CHOOSECOLORA
 ms.date: 01/30/19
 ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
 ms.topic: language-reference
-f1_keywords: ["commdlg/tagCHOOSECOLORA"]
+f1_keywords: 
+ - "commdlg/tagCHOOSECOLORA"
 targetos: Windows
 product: Windows
 req.construct-type: structure

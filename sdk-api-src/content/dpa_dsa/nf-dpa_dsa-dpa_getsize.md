@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
 ms.topic: function
-f1_keywords: ["dpa_dsa/DPA_GetSize"]
+f1_keywords: 
+ - "dpa_dsa/DPA_GetSize"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

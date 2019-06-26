@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry"
 ms.topic: struct
-f1_keywords: ["netsh/CMD_ENTRY"]
+f1_keywords: 
+ - "netsh/CMD_ENTRY"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

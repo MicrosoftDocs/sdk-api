@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsUNC, PathIsUNC function [Windows Shell], PathIsUNCA, PathIsUNCW, _win32_PathIsUNC, shell.PathIsUNC, shlwapi/PathIsUNC, shlwapi/PathIsUNCA, shlwapi/PathIsUNCW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsUNC"]
+f1_keywords: 
+ - "shlwapi/PathIsUNC"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

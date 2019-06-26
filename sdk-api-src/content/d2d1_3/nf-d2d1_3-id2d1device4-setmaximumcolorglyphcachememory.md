@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device4 interface [Direct2D],SetMaximumColorGlyphCacheMemory method, ID2D1Device4.SetMaximumColorGlyphCacheMemory, ID2D1Device4::SetMaximumColorGlyphCacheMemory, SetMaximumColorGlyphCacheMemory, SetMaximumColorGlyphCacheMemory method [Direct2D], SetMaximumColorGlyphCacheMemory method [Direct2D],ID2D1Device4 interface, d2d1_3/ID2D1Device4::SetMaximumColorGlyphCacheMemory, direct2d.id2d1device4_setmaximumcolorglyphcachememory
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1Device4.SetMaximumColorGlyphCacheMemory"]
+f1_keywords: 
+ - "d2d1_3/ID2D1Device4.SetMaximumColorGlyphCacheMemory"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

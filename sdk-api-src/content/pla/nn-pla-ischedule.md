@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchedule, ISchedule interface [PLA], ISchedule interface [PLA],described, base.ischedule, pla.ischedule, pla/ISchedule
 ms.topic: interface
-f1_keywords: ["pla/ISchedule"]
+f1_keywords: 
+ - "pla/ISchedule"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

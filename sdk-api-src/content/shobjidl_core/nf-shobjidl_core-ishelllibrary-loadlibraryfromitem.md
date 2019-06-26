@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromItem method, IShellLibrary.LoadLibraryFromItem, IShellLibrary::LoadLibraryFromItem, LoadLibraryFromItem, LoadLibraryFromItem method [Windows Shell], LoadLibraryFromItem method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromItem, shell.IShellLibrary_LoadLibraryFromItem, shobjidl_core/IShellLibrary::LoadLibraryFromItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.LoadLibraryFromItem"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.LoadLibraryFromItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

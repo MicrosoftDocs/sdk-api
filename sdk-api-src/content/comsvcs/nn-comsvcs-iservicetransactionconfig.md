@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfig, IServiceTransactionConfig interface [COM+], IServiceTransactionConfig interface [COM+],described, _cos_IServiceTransactionConfig, comsvcs/IServiceTransactionConfig, cos.iservicetransactionconfig
 ms.topic: interface
-f1_keywords: ["comsvcs/IServiceTransactionConfig"]
+f1_keywords: 
+ - "comsvcs/IServiceTransactionConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Applications], _win32_MAKELANGID, intl.makelangid, winnt/MAKELANGID
 ms.topic: macro
-f1_keywords: ["winnt/MAKELANGID"]
+f1_keywords: 
+ - "winnt/MAKELANGID"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

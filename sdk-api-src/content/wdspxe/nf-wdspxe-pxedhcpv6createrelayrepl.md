@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6CreateRelayRepl, PxeDhcpv6CreateRelayRepl function [Windows Deployment Services], wds.pxedhcpv6createrelayrepl, wdspxe/PxeDhcpv6CreateRelayRepl
 ms.topic: function
-f1_keywords: ["wdspxe/PxeDhcpv6CreateRelayRepl"]
+f1_keywords: 
+ - "wdspxe/PxeDhcpv6CreateRelayRepl"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

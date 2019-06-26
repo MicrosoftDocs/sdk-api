@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],Domain property, ITsSbSession.Domain, ITsSbSession.get_Domain, ITsSbSession::Domain, ITsSbSession::get_Domain, get_Domain, sbtsv/ITsSbSession::Domain, sbtsv/ITsSbSession::get_Domain, termserv.itssbsession_domain
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.Domain"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.Domain"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

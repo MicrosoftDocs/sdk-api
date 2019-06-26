@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageACT.GetUniqueIdentity"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageACT.GetUniqueIdentity"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

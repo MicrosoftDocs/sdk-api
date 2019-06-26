@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectedDomain property [Task Scheduler], ConnectedDomain property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedDomain property, ITaskService.ConnectedDomain, ITaskService.get_ConnectedDomain, ITaskService::ConnectedDomain, ITaskService::get_ConnectedDomain, get_ConnectedDomain, taskschd.itaskservice_connecteddomain, taskschd/ITaskService::ConnectedDomain, taskschd/ITaskService::get_ConnectedDomain
 ms.topic: method
-f1_keywords: ["taskschd/ITaskService.ConnectedDomain"]
+f1_keywords: 
+ - "taskschd/ITaskService.ConnectedDomain"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

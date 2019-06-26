@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangedPublisher, ChangedPublisher method [COM+], ChangedPublisher method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedPublisher method, IEventObjectChange.ChangedPublisher, IEventObjectChange::ChangedPublisher, _cos_ieventobjectchange_changedpublisher, cos.ieventobjectchange_changedpublisher, eventsys/IEventObjectChange::ChangedPublisher
 ms.topic: method
-f1_keywords: ["eventsys/IEventObjectChange.ChangedPublisher"]
+f1_keywords: 
+ - "eventsys/IEventObjectChange.ChangedPublisher"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

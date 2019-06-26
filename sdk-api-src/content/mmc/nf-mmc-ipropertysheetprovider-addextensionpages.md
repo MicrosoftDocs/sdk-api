@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddExtensionPages, AddExtensionPages method [MMC], AddExtensionPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddExtensionPages method, IPropertySheetProvider.AddExtensionPages, IPropertySheetProvider::AddExtensionPages, _slate_ipropertysheetprovider_addextensionpages, mmc.ipropertysheetprovider_addextensionpages, mmc/IPropertySheetProvider::AddExtensionPages
 ms.topic: method
-f1_keywords: ["mmc/IPropertySheetProvider.AddExtensionPages"]
+f1_keywords: 
+ - "mmc/IPropertySheetProvider.AddExtensionPages"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

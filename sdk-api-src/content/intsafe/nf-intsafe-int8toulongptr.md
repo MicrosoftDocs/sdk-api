@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int8ToULongPtr, Int8ToULongPtr function [Windows Shell], intsafe/Int8ToULongPtr, shell.Int8ToULongPtr
 ms.topic: function
-f1_keywords: ["intsafe/Int8ToULongPtr"]
+f1_keywords: 
+ - "intsafe/Int8ToULongPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

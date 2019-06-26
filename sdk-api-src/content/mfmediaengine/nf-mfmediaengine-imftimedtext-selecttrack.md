@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTimedText.SelectTrack, IMFTimedText::SelectTrack, SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedText.SelectTrack"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText.SelectTrack"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

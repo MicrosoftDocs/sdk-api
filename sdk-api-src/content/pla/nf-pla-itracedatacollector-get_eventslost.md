@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventsLost property [PLA], EventsLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],EventsLost property, ITraceDataCollector.EventsLost, ITraceDataCollector.get_EventsLost, ITraceDataCollector::EventsLost, ITraceDataCollector::get_EventsLost, base.itracedatacollector_eventslost, get_EventsLost, pla.itracedatacollector_eventslost, pla/ITraceDataCollector::EventsLost, pla/ITraceDataCollector::get_EventsLost
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.EventsLost"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.EventsLost"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

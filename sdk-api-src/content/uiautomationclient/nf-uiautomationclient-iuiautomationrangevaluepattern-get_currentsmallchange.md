@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentSmallChange property [Windows Accessibility], CurrentSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentSmallChange property, IUIAutomationRangeValuePattern.CurrentSmallChange, IUIAutomationRangeValuePattern.get_CurrentSmallChange, IUIAutomationRangeValuePattern::CurrentSmallChange, IUIAutomationRangeValuePattern::get_CurrentSmallChange, get_CurrentSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange, uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CurrentSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CurrentSmallChange"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationRangeValuePattern.CurrentSmallChange"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

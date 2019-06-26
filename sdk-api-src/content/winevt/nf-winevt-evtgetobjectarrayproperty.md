@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
 ms.topic: function
-f1_keywords: ["winevt/EvtGetObjectArrayProperty"]
+f1_keywords: 
+ - "winevt/EvtGetObjectArrayProperty"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

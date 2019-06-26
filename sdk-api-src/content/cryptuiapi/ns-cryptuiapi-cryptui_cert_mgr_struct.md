@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct"
 ms.topic: struct
-f1_keywords: ["cryptuiapi/CRYPTUI_CERT_MGR_STRUCT"]
+f1_keywords: 
+ - "cryptuiapi/CRYPTUI_CERT_MGR_STRUCT"
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeInvoke.UpdateItems"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeInvoke.UpdateItems"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
 ms.topic: function
-f1_keywords: ["npapi/NPFMXEditPerm"]
+f1_keywords: 
+ - "npapi/NPFMXEditPerm"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

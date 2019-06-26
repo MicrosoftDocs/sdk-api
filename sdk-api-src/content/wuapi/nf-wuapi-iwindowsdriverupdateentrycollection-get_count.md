@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Count property, IWindowsDriverUpdateEntryCollection.Count, IWindowsDriverUpdateEntryCollection.get_Count, IWindowsDriverUpdateEntryCollection::Count, IWindowsDriverUpdateEntryCollection::get_Count, get_Count, wua.iwindowsdriverupdateentrycollection_count, wuapi/IWindowsDriverUpdateEntryCollection::Count, wuapi/IWindowsDriverUpdateEntryCollection::get_Count
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdateEntryCollection.Count"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdateEntryCollection.Count"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

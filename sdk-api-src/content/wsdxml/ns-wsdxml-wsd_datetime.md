@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_datetime_struct, wsdxml/WSD_DATETIME
 ms.topic: struct
-f1_keywords: ["wsdxml/WSD_DATETIME"]
+f1_keywords: 
+ - "wsdxml/WSD_DATETIME"
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

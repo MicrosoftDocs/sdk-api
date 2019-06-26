@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/25/2019
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.topic: interface
-f1_keywords: ["spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop"]
+f1_keywords: 
+ - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop"
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

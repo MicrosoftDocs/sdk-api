@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetDesc method, ID3D12LibraryReflection.GetDesc, ID3D12LibraryReflection::GetDesc, d3d12shader/ID3D12LibraryReflection::GetDesc, direct3d12.id3d12libraryreflection_getdesc
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12LibraryReflection.GetDesc"]
+f1_keywords: 
+ - "d3d12shader/ID3D12LibraryReflection.GetDesc"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

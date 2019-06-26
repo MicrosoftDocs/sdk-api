@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_VideoFrequency method, IMSVidAnalogTuner.get_VideoFrequency, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
 ms.topic: method
-f1_keywords: ["segment/IMSVidAnalogTuner.get_VideoFrequency"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner.get_VideoFrequency"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

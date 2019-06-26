@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Skip method, IEnumMediaTypes.Skip, IEnumMediaTypes::Skip, IEnumMediaTypesSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_skip, strmif/IEnumMediaTypes::Skip
 ms.topic: method
-f1_keywords: ["strmif/IEnumMediaTypes.Skip"]
+f1_keywords: 
+ - "strmif/IEnumMediaTypes.Skip"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,SetMessageCountLimit method, ID3D12InfoQueue.SetMessageCountLimit, ID3D12InfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method, SetMessageCountLimit method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetMessageCountLimit, direct3d12.id3d12infoqueue_setmessagecountlimit
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.SetMessageCountLimit"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.SetMessageCountLimit"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

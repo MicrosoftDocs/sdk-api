@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSendUserUserInfo, TSPI_lineSendUserUserInfo function [TAPI 2.2], _tspi_tspi_linesenduseruserinfo, tspi.tspi_linesenduseruserinfo, tspi/TSPI_lineSendUserUserInfo
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSendUserUserInfo"]
+f1_keywords: 
+ - "tspi/TSPI_lineSendUserUserInfo"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

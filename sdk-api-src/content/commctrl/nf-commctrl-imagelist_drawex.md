@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLR_DEFAULT, CLR_NONE, ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_DrawEx, ImageList_DrawEx function [Windows Controls], _win32_ImageList_DrawEx, _win32_ImageList_DrawEx_cpp, commctrl/ImageList_DrawEx, controls.ImageList_DrawEx, controls._win32_ImageList_DrawEx
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_DrawEx"]
+f1_keywords: 
+ - "commctrl/ImageList_DrawEx"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],OwnerSid property, IFsrmPropertyBag.OwnerSid, IFsrmPropertyBag.get_OwnerSid, IFsrmPropertyBag::OwnerSid, IFsrmPropertyBag::get_OwnerSid, OwnerSid property [File Server Resource Manager], OwnerSid property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_ownersid, fsrm.ifsrmpropertybag_ownersid, fsrmpipeline/IFsrmPropertyBag::OwnerSid, fsrmpipeline/IFsrmPropertyBag::get_OwnerSid, get_OwnerSid
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.OwnerSid"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.OwnerSid"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

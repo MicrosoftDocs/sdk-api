@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflection.GetRequiresFlags"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflection.GetRequiresFlags"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

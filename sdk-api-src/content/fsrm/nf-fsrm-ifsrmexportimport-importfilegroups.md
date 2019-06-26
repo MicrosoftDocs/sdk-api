@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportFileGroups method, IFsrmExportImport interface [File Server Resource Manager],ImportFileGroups method, IFsrmExportImport.ImportFileGroups, IFsrmExportImport::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmExportImport class, ImportFileGroups method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importfilegroups, fsrm.ifsrmexportimport_importfilegroups, fsrm/IFsrmExportImport::ImportFileGroups
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmExportImport.ImportFileGroups"]
+f1_keywords: 
+ - "fsrm/IFsrmExportImport.ImportFileGroups"
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

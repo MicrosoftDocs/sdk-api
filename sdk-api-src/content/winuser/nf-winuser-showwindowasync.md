@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowWindowAsync, ShowWindowAsync function [Windows and Messages], _win32_ShowWindowAsync, _win32_showwindowasync_cpp, winmsg.showwindowasync, winui._win32_showwindowasync, winuser/ShowWindowAsync
 ms.topic: function
-f1_keywords: ["winuser/ShowWindowAsync"]
+f1_keywords: 
+ - "winuser/ShowWindowAsync"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

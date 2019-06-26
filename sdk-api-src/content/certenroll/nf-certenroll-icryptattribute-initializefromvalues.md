@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromValues method, ICryptAttribute.InitializeFromValues, ICryptAttribute::InitializeFromValues, InitializeFromValues, InitializeFromValues method [Security], InitializeFromValues method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromValues, security.icryptattribute_initializefromvalues_method
 ms.topic: method
-f1_keywords: ["certenroll/ICryptAttribute.InitializeFromValues"]
+f1_keywords: 
+ - "certenroll/ICryptAttribute.InitializeFromValues"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

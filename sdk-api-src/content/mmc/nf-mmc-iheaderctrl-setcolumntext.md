@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnText method, IHeaderCtrl.SetColumnText, IHeaderCtrl::SetColumnText, SetColumnText, SetColumnText method [MMC], SetColumnText method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumntext, mmc/IHeaderCtrl::SetColumnText
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl.SetColumnText"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl.SetColumnText"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

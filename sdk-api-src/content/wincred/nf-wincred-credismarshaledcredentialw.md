@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
 ms.topic: function
-f1_keywords: ["wincred/CredIsMarshaledCredential"]
+f1_keywords: 
+ - "wincred/CredIsMarshaledCredential"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

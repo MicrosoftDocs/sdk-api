@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorder method, IBrowserService2._ResizeNextBorder, IBrowserService2::_ResizeNextBorder, _ResizeNextBorder, _ResizeNextBorder method [Windows Shell], _ResizeNextBorder method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorder, shell.IBrowserService2__ResizeNextBorder, zone_IBrowserService2__ResizeNextBorder
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._ResizeNextBorder"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._ResizeNextBorder"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

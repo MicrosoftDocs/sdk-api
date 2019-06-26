@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackgroundSyncEnd, BackgroundSyncEnd method [Offline Files], BackgroundSyncEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncEnd method, IOfflineFilesEvents2.BackgroundSyncEnd, IOfflineFilesEvents2::BackgroundSyncEnd, cscobj/IOfflineFilesEvents2::BackgroundSyncEnd, of.iofflinefilesevents2_backgroundsyncend
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents2.BackgroundSyncEnd"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents2.BackgroundSyncEnd"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

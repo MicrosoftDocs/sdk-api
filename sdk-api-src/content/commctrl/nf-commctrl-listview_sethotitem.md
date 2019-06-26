@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetHotItem"]
+f1_keywords: 
+ - "commctrl/ListView_SetHotItem"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

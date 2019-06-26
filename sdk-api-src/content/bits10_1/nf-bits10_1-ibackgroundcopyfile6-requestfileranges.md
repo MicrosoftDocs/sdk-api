@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
 ms.topic: method
-f1_keywords: ["bits10_1/IBackgroundCopyFile6.RequestFileRanges"]
+f1_keywords: 
+ - "bits10_1/IBackgroundCopyFile6.RequestFileRanges"
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

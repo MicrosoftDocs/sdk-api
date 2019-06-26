@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapabilitiesKey, GetCapabilitiesKey method [DirectShow], GetCapabilitiesKey method [DirectShow],IGetCapabilitiesKey interface, IGetCapabilitiesKey interface [DirectShow],GetCapabilitiesKey method, IGetCapabilitiesKey.GetCapabilitiesKey, IGetCapabilitiesKey::GetCapabilitiesKey, IGetCapabilitiesKeyGetCapabiltitiesKey, dshow.igetcapabilitieskey_getcapabilitieskey, strmif/IGetCapabilitiesKey::GetCapabilitiesKey
 ms.topic: method
-f1_keywords: ["strmif/IGetCapabilitiesKey.GetCapabilitiesKey"]
+f1_keywords: 
+ - "strmif/IGetCapabilitiesKey.GetCapabilitiesKey"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

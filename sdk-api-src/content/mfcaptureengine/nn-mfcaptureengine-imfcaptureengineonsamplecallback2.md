@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2, IMFCaptureEngineOnSampleCallback2 interface [Media Foundation], IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback2, mfcaptureengine/IMFCaptureEngineOnSampleCallback2
 ms.topic: interface
-f1_keywords: ["mfcaptureengine/IMFCaptureEngineOnSampleCallback2"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureEngineOnSampleCallback2"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

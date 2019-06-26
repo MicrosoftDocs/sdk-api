@@ -9,7 +9,8 @@ ms.author: windowssdkdev
 ms.date: 02/08/2019
 ms.keywords: SetWatsonDumpEnablement, SetWatsonDumpEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setwatsondumpenablement
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement"]
+f1_keywords: 
+ - "d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement"
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

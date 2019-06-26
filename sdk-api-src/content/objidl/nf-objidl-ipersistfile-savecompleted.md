@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],SaveCompleted method, IPersistFile.SaveCompleted, IPersistFile::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistFile interface, _com_ipersistfile_savecompleted, com.ipersistfile_savecompleted, objidl/IPersistFile::SaveCompleted
 ms.topic: method
-f1_keywords: ["objidl/IPersistFile.SaveCompleted"]
+f1_keywords: 
+ - "objidl/IPersistFile.SaveCompleted"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

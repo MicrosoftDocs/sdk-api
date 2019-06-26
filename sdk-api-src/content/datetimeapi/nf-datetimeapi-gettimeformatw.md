@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormat, GetTimeFormat function [Internationalization for Windows Applications], GetTimeFormatA, GetTimeFormatW, _win32_GetTimeFormat, datetimeapi/GetTimeFormat, datetimeapi/GetTimeFormatA, datetimeapi/GetTimeFormatW, intl.gettimeformat
 ms.topic: function
-f1_keywords: ["datetimeapi/GetTimeFormat"]
+f1_keywords: 
+ - "datetimeapi/GetTimeFormat"
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows

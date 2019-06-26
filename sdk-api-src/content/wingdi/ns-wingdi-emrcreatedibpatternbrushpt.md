@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], EMRCREATEDIBPATTERNBRUSHPT, EMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], _win32_EMRCREATEDIBPATTERNBRUSHPT_str, gdi.emrcreatedibpatternbrushpt, wingdi/*PEMRCREATEDIBPATTERNBRUSHPT, wingdi/EMRCREATEDIBPATTERNBRUSHPT"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRCREATEDIBPATTERNBRUSHPT"]
+f1_keywords: 
+ - "wingdi/EMRCREATEDIBPATTERNBRUSHPT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

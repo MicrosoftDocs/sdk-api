@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGradientStopCollection, GetGradientStopCollection method [Direct2D], GetGradientStopCollection method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetGradientStopCollection method, ID2D1RadialGradientBrush.GetGradientStopCollection, ID2D1RadialGradientBrush::GetGradientStopCollection, d2d1/ID2D1RadialGradientBrush::GetGradientStopCollection, direct2d.ID2D1RadialGradientBrush_GetGradientStopCollection
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RadialGradientBrush.GetGradientStopCollection"]
+f1_keywords: 
+ - "d2d1/ID2D1RadialGradientBrush.GetGradientStopCollection"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

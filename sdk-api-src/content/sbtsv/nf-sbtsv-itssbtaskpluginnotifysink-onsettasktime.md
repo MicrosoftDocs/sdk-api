@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskPluginNotifySink.OnSetTaskTime"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskPluginNotifySink.OnSetTaskTime"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

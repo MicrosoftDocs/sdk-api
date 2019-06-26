@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfACDCalls method, ITAgent.get_NumberOfACDCalls, ITAgent::get_NumberOfACDCalls, _tapi3_itagent_get_numberofacdcalls, get_NumberOfACDCalls, get_NumberOfACDCalls method [TAPI 2.2], get_NumberOfACDCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofacdcalls, tapi3cc/ITAgent::get_NumberOfACDCalls
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.get_NumberOfACDCalls"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.get_NumberOfACDCalls"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

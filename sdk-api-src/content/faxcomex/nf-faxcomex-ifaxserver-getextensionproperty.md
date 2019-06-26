@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtensionProperty, GetExtensionProperty method [Fax Service], GetExtensionProperty method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetExtensionProperty method, IFaxServer.GetExtensionProperty, IFaxServer::GetExtensionProperty, _mfax_faxserver.getextensionproperty, fax._mfax_faxserver_cpp_mfax_faxserver_getextensionproperty_cpp, fax._mfax_faxserver_getextensionproperty, faxcomex/IFaxServer::GetExtensionProperty
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.GetExtensionProperty"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.GetExtensionProperty"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

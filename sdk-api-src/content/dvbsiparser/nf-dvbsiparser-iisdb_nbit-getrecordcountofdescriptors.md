@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_NBIT.GetRecordCountOfDescriptors, IISDB_NBIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_NBIT::GetRecordCountOfDescriptors, mstv.iisdb_nbit_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_NBIT.GetRecordCountOfDescriptors"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_NBIT.GetRecordCountOfDescriptors"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

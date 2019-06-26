@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Volume method, IBasicAudio.put_Volume, IBasicAudio::put_Volume, IBasicAudioput_Volume, control/IBasicAudio::put_Volume, dshow.ibasicaudio_put_volume, put_Volume, put_Volume method [DirectShow], put_Volume method [DirectShow],IBasicAudio interface
 ms.topic: method
-f1_keywords: ["control/IBasicAudio.put_Volume"]
+f1_keywords: 
+ - "control/IBasicAudio.put_Volume"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

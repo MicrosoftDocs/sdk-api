@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetInfo method, ISpatialAudioMetadataItems.GetInfo, ISpatialAudioMetadataItems::GetInfo, coreaudio.ispatialaudiometadataitems_getinfo, spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataItems.GetInfo"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataItems.GetInfo"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

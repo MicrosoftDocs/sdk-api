@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
 ms.topic: function
-f1_keywords: ["winbase/WritePrivateProfileString"]
+f1_keywords: 
+ - "winbase/WritePrivateProfileString"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

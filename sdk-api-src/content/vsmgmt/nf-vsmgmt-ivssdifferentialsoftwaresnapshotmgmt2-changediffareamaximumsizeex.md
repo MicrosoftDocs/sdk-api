@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeDiffAreaMaximumSizeEx, ChangeDiffAreaMaximumSizeEx method, ChangeDiffAreaMaximumSizeEx method,IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx, IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx, base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 ms.topic: method
-f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx"]
+f1_keywords: 
+ - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

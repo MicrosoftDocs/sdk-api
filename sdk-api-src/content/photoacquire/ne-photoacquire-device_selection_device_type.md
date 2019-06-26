@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_SELECTION_DEVICE_TYPE, DEVICE_SELECTION_DEVICE_TYPE enumeration [Picture Acquisition], DSF_TWAIN_DEVICE, DST_FS_DEVICE, DST_STI_DEVICE, DST_UNKNOWN_DEVICE, DST_WIA_DEVICE, DST_WPD_DEVICE, enumeration [Picture Acquisition], photoacquire/DEVICE_SELECTION_DEVICE_TYPE, photoacquire/DSF_TWAIN_DEVICE, photoacquire/DST_FS_DEVICE, photoacquire/DST_STI_DEVICE, photoacquire/DST_UNKNOWN_DEVICE, photoacquire/DST_WIA_DEVICE, photoacquire/DST_WPD_DEVICE, picacq.device_selection_device_type
 ms.topic: enum
-f1_keywords: ["photoacquire/DEVICE_SELECTION_DEVICE_TYPE"]
+f1_keywords: 
+ - "photoacquire/DEVICE_SELECTION_DEVICE_TYPE"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

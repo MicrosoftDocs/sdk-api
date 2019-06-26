@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetDpi method, ID2D1EffectContext.GetDpi, ID2D1EffectContext::GetDpi, d2d1effectauthor/ID2D1EffectContext::GetDpi, direct2d.id2d1contextinternal_getdpi
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.GetDpi"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1EffectContext.GetDpi"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

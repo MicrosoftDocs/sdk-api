@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIsOptionalPackage, GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestOptionalPackageInfo.GetIsOptionalPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestOptionalPackageInfo.GetIsOptionalPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

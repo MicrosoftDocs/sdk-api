@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
 ms.topic: method
-f1_keywords: ["segment/IMSVidDevice.IsEqualDevice"]
+f1_keywords: 
+ - "segment/IMSVidDevice.IsEqualDevice"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

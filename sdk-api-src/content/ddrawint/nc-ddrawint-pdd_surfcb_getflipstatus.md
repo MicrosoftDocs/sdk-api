@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, PDD_SURFCB_GETFLIPSTATUS callback, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
 ms.topic: callback
-f1_keywords: ["ddrawint/DdGetFlipStatus"]
+f1_keywords: 
+ - "ddrawint/DdGetFlipStatus"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

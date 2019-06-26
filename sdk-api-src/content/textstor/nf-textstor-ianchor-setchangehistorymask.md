@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
 ms.topic: method
-f1_keywords: ["textstor/IAnchor.SetChangeHistoryMask"]
+f1_keywords: 
+ - "textstor/IAnchor.SetChangeHistoryMask"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

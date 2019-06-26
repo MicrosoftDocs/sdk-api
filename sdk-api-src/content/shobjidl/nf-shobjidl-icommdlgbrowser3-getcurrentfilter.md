@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentFilter, GetCurrentFilter method [Windows Shell], GetCurrentFilter method [Windows Shell],ICommDlgBrowser3 interface, ICommDlgBrowser3 interface [Windows Shell],GetCurrentFilter method, ICommDlgBrowser3.GetCurrentFilter, ICommDlgBrowser3::GetCurrentFilter, _shell_ICommDlgBrowser3_GetCurrentFilter, shell.ICommDlgBrowser3_GetCurrentFilter, shobjidl/ICommDlgBrowser3::GetCurrentFilter
 ms.topic: method
-f1_keywords: ["shobjidl/ICommDlgBrowser3.GetCurrentFilter"]
+f1_keywords: 
+ - "shobjidl/ICommDlgBrowser3.GetCurrentFilter"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

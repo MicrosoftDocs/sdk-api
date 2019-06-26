@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], IConnectedIdentityProvider interface [Security],described, identityprovider/IConnectedIdentityProvider, security.iconnectedidentityprovider
 ms.topic: interface
-f1_keywords: ["identityprovider/IConnectedIdentityProvider"]
+f1_keywords: 
+ - "identityprovider/IConnectedIdentityProvider"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

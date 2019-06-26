@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSignatureBlockResource, CreateSignatureBlockResource method [XPS Documents and Packaging], CreateSignatureBlockResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSignatureBlockResource method, IXpsOMObjectFactory.CreateSignatureBlockResource, IXpsOMObjectFactory::CreateSignatureBlockResource, xps.ixpsomobjectfactory_createsignatureblockresource, xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMObjectFactory.CreateSignatureBlockResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMObjectFactory.CreateSignatureBlockResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

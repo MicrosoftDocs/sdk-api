@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 80c402d4-8246-42ee-a981-69c8d605cb0f, IMFByteStreamHandler, IMFByteStreamHandler interface [Media Foundation], IMFByteStreamHandler interface [Media Foundation],described, mf.imfbytestreamhandler, mfidl/IMFByteStreamHandler
 ms.topic: interface
-f1_keywords: ["mfidl/IMFByteStreamHandler"]
+f1_keywords: 
+ - "mfidl/IMFByteStreamHandler"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

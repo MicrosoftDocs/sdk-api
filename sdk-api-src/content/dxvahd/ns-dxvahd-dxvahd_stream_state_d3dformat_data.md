@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_D3DFORMAT_DATA, DXVAHD_STREAM_STATE_D3DFORMAT_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA, mf.dxvahd_stream_state_d3dformat_data
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

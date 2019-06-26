@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToVariant, PropVariantToVariant function [Windows Properties], properties.PropVariantToVariant, propvarutil/PropVariantToVariant, shell.PropVariantToVariant, shell_PropVariantToVariant
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToVariant"]
+f1_keywords: 
+ - "propvarutil/PropVariantToVariant"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

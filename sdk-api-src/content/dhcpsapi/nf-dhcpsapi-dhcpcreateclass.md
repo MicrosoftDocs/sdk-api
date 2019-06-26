@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpCreateClass"]
+f1_keywords: 
+ - "dhcpsapi/DhcpCreateClass"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

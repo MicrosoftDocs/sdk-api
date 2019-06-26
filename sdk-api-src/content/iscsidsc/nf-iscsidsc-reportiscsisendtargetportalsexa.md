@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsEx, ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsExW, iscsidisc.reportiscsisendtargetportalsex, iscsidsc/ReportIscsiSendTargetPortalsEx, iscsidsc/ReportIscsiSendTargetPortalsExA, iscsidsc/ReportIscsiSendTargetPortalsExW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportIscsiSendTargetPortalsEx"]
+f1_keywords: 
+ - "iscsidsc/ReportIscsiSendTargetPortalsEx"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

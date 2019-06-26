@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRow, GetRow method [Windows Runtime], GetRow method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetRow method, IMetaDataTables.GetRow, IMetaDataTables::GetRow, rometadataapi/IMetaDataTables::GetRow, winrt.imetadatatables_getrow
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetRow"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetRow"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

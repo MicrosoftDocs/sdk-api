@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF function [Direct2D], d2d1helper/RectF, direct2d.rectf
 ms.topic: function
-f1_keywords: ["d2d1helper/RectF"]
+f1_keywords: 
+ - "d2d1helper/RectF"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

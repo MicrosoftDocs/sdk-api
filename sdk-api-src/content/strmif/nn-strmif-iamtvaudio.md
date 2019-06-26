@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio, IAMTVAudio interface [DirectShow], IAMTVAudio interface [DirectShow],described, IAMTVAudioInterface, dshow.iamtvaudio, strmif/IAMTVAudio
 ms.topic: interface
-f1_keywords: ["strmif/IAMTVAudio"]
+f1_keywords: 
+ - "strmif/IAMTVAudio"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

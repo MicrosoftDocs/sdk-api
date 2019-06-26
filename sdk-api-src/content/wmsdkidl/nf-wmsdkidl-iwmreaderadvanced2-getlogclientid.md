@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetLogClientID method, IWMReaderAdvanced2.GetLogClientID, IWMReaderAdvanced2::GetLogClientID, IWMReaderAdvanced2GetLogClientID, wmformat.iwmreaderadvanced2_getlogclientid, wmsdkidl/IWMReaderAdvanced2::GetLogClientID
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced2.GetLogClientID"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced2.GetLogClientID"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetOperationErrorStates, KeyCredentialManagerGetOperationErrorStates function [Security], keycredmgr/KeyCredentialManagerGetOperationErrorStates, security.keycredentialmanagergetoperationerrorstates
 ms.topic: function
-f1_keywords: ["keycredmgr/KeyCredentialManagerGetOperationErrorStates"]
+f1_keywords: 
+ - "keycredmgr/KeyCredentialManagerGetOperationErrorStates"
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

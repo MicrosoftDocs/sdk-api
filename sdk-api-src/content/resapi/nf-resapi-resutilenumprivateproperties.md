@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilEnumPrivateProperties, ResUtilEnumPrivateProperties function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES, resapi/ResUtilEnumPrivateProperties
 ms.topic: function
-f1_keywords: ["resapi/ResUtilEnumPrivateProperties"]
+f1_keywords: 
+ - "resapi/ResUtilEnumPrivateProperties"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

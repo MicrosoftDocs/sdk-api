@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Remove method, ITraceDataProviderCollection.Remove, ITraceDataProviderCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.Remove"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.Remove"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

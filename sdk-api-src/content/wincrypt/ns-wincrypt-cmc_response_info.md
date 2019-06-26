@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMC_RESPONSE_INFO, CMC_RESPONSE_INFO, CMC_RESPONSE_INFO structure [Security], PCMC_RESPONSE_INFO, PCMC_RESPONSE_INFO structure pointer [Security], _crypto2_cmc_response_info, security.cmc_response_info, wincrypt/CMC_RESPONSE_INFO, wincrypt/PCMC_RESPONSE_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMC_RESPONSE_INFO"]
+f1_keywords: 
+ - "wincrypt/CMC_RESPONSE_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

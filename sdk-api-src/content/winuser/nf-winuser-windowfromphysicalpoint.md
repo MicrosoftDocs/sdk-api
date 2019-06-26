@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowFromPhysicalPoint, WindowFromPhysicalPoint function [Windows and Messages], _win32_WindowFromPhysicalPoint, _win32_windowfromphysicalpoint_cpp, winmsg.windowfromphysicalpoint, winui._win32_windowfromphysicalpoint, winuser/WindowFromPhysicalPoint
 ms.topic: function
-f1_keywords: ["winuser/WindowFromPhysicalPoint"]
+f1_keywords: 
+ - "winuser/WindowFromPhysicalPoint"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

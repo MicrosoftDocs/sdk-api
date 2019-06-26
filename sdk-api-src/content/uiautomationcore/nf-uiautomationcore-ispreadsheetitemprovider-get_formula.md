@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Formula property [Windows Accessibility], Formula property [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],Formula property, ISpreadsheetItemProvider.Formula, ISpreadsheetItemProvider.get_Formula, ISpreadsheetItemProvider::Formula, ISpreadsheetItemProvider::get_Formula, get_Formula, uiautomationcore/ISpreadsheetItemProvider::Formula, uiautomationcore/ISpreadsheetItemProvider::get_Formula, winauto.uiauto_ISpreadsheetItemProvider_Formula
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISpreadsheetItemProvider.Formula"]
+f1_keywords: 
+ - "uiautomationcore/ISpreadsheetItemProvider.Formula"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

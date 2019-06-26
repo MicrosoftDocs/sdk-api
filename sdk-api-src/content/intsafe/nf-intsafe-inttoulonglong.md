@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong, _shell_IntToUIntPtr, intsafe/IntToUIntPtr, shell.IntToUIntPtr
 ms.topic: function
-f1_keywords: ["intsafe/IntToUIntPtr"]
+f1_keywords: 
+ - "intsafe/IntToUIntPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

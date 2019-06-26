@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange2 interface [Windows Accessibility],ShowContextMenu method, IUIAutomationTextRange2.ShowContextMenu, IUIAutomationTextRange2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IUIAutomationTextRange2 interface, uiautomationclient/IUIAutomationTextRange2::ShowContextMenu, winauto.uiauto_IUIAutomationTextRange2_ShowContextMenu
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange2.ShowContextMenu"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange2.ShowContextMenu"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

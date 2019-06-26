@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
 ms.topic: function
-f1_keywords: ["clfsmgmtw32/SetLogFileSizeWithPolicy"]
+f1_keywords: 
+ - "clfsmgmtw32/SetLogFileSizeWithPolicy"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

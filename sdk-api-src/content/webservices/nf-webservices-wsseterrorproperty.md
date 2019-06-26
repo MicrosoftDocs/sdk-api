@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetErrorProperty, WsSetErrorProperty function [Web Services for Windows], webservices/WsSetErrorProperty, wsw.wsseterrorproperty
 ms.topic: function
-f1_keywords: ["webservices/WsSetErrorProperty"]
+f1_keywords: 
+ - "webservices/WsSetErrorProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

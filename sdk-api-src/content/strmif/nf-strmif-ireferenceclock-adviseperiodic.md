@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
 ms.topic: method
-f1_keywords: ["strmif/IReferenceClock.AdvisePeriodic"]
+f1_keywords: 
+ - "strmif/IReferenceClock.AdvisePeriodic"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

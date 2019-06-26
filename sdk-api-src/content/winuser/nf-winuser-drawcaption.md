@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
 ms.topic: function
-f1_keywords: ["winuser/DrawCaption"]
+f1_keywords: 
+ - "winuser/DrawCaption"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

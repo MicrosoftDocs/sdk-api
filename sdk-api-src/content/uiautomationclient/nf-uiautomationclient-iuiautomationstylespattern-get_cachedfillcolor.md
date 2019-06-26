@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedFillColor property [Windows Accessibility], CachedFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedFillColor property, IUIAutomationStylesPattern.CachedFillColor, IUIAutomationStylesPattern.get_CachedFillColor, IUIAutomationStylesPattern::CachedFillColor, IUIAutomationStylesPattern::get_CachedFillColor, get_CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillColor
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CachedFillColor"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationStylesPattern.CachedFillColor"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

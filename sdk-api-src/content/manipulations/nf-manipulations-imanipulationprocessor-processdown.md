@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDown method, IManipulationProcessor.ProcessDown, IManipulationProcessor::ProcessDown, ProcessDown, ProcessDown method [Windows Touch], ProcessDown method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDown, wintouch.imanipulationprocessor_processdown
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.ProcessDown"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.ProcessDown"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

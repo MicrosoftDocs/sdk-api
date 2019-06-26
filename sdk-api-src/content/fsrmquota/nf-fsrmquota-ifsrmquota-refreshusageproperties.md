@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],RefreshUsageProperties method, IFsrmQuota.RefreshUsageProperties, IFsrmQuota::RefreshUsageProperties, RefreshUsageProperties, RefreshUsageProperties method [File Server Resource Manager], RefreshUsageProperties method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_refreshusageproperties, fsrm.ifsrmquota_refreshusageproperties, fsrmquota/IFsrmQuota::RefreshUsageProperties
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuota.RefreshUsageProperties"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuota.RefreshUsageProperties"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

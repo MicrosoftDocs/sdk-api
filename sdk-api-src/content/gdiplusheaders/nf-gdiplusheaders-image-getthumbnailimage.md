@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailImage, GetThumbnailImage method [GDI+], GetThumbnailImage method [GDI+],Image class, Image class [GDI+],GetThumbnailImage method, Image.GetThumbnailImage, Image::GetThumbnailImage, _gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_, gdiplus._gdiplus_CLASS_Image_GetThumbnailImage_thumbWidth_thumbHeight_callback_callbackData_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetThumbnailImage"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetThumbnailImage"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

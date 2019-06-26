@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_ENDOFLINE, EC_ENDOFLINE enumeration [Windows Controls], EC_ENDOFLINE_CR, EC_ENDOFLINE_CRLF, EC_ENDOFLINE_DETECTFROMCONTENT, EC_ENDOFLINE_LF, commctrl/EC_ENDOFLINE, commctrl/EC_ENDOFLINE_CR, commctrl/EC_ENDOFLINE_CRLF, commctrl/EC_ENDOFLINE_DETECTFROMCONTENT, commctrl/EC_ENDOFLINE_LF, controls.ec_endofline
 ms.topic: enum
-f1_keywords: ["commctrl/EC_ENDOFLINE"]
+f1_keywords: 
+ - "commctrl/EC_ENDOFLINE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

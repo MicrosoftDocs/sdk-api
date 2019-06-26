@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA, UrlIsFileUrlW, _win32_UrlIsFileUrl, shell.UrlIsFileUrl, shlwapi/UrlIsFileUrl, shlwapi/UrlIsFileUrlA, shlwapi/UrlIsFileUrlW
 ms.topic: macro
-f1_keywords: ["shlwapi/UrlIsFileUrl"]
+f1_keywords: 
+ - "shlwapi/UrlIsFileUrl"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendARP, SendARP function [IP Helper], _iphlp_sendarp, iphlp.sendarp, iphlpapi/SendARP
 ms.topic: function
-f1_keywords: ["iphlpapi/SendARP"]
+f1_keywords: 
+ - "iphlpapi/SendARP"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

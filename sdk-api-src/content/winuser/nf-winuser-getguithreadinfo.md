@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGUIThreadInfo, GetGUIThreadInfo function [Windows and Messages], _win32_GetGUIThreadInfo, _win32_getguithreadinfo_cpp, winmsg.getguithreadinfo, winui._win32_getguithreadinfo, winuser/GetGUIThreadInfo
 ms.topic: function
-f1_keywords: ["winuser/GetGUIThreadInfo"]
+f1_keywords: 
+ - "winuser/GetGUIThreadInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

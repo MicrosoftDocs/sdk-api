@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnail method, IThumbnailCache.GetThumbnail, IThumbnailCache::GetThumbnail, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnail, shell.IThumbnailCache_GetThumbnail, thumbcache/IThumbnailCache::GetThumbnail
 ms.topic: method
-f1_keywords: ["thumbcache/IThumbnailCache.GetThumbnail"]
+f1_keywords: 
+ - "thumbcache/IThumbnailCache.GetThumbnail"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

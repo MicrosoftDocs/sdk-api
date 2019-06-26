@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4RefractV, XMVector4RefractV, XMVector4RefractV method [DirectX Math Support APIs], dxmath.xmvector4refractv
 ms.topic: function
-f1_keywords: ["directxmath/XMVector4RefractV"]
+f1_keywords: 
+ - "directxmath/XMVector4RefractV"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

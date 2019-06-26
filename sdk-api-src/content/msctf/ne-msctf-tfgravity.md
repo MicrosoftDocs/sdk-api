@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
 ms.topic: enum
-f1_keywords: ["msctf/TfGravity"]
+f1_keywords: 
+ - "msctf/TfGravity"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationObjectModelPattern, IUIAutomationObjectModelPattern interface [Windows Accessibility], IUIAutomationObjectModelPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationObjectModelPattern, winauto.uiauto_IUIAutomationObjectModelPattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationObjectModelPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationObjectModelPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

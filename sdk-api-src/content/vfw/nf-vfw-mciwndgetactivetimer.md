@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndGetActiveTimer"]
+f1_keywords: 
+ - "vfw/MCIWndGetActiveTimer"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

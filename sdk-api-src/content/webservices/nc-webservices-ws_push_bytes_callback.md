@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_PUSH_BYTES_CALLBACK, WS_PUSH_BYTES_CALLBACK callback, WS_PUSH_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PUSH_BYTES_CALLBACK, wsw.ws_push_bytes_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_PUSH_BYTES_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_PUSH_BYTES_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

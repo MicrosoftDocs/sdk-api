@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTSDT, GetTSDT method [Microsoft TV Technologies], GetTSDT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetTSDT method, IAtscPsipParser.GetTSDT, IAtscPsipParser::GetTSDT, IAtscPsipParserGetTSDT, atscpsipparser/IAtscPsipParser::GetTSDT, mstv.iatscpsipparser_gettsdt
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscPsipParser.GetTSDT"]
+f1_keywords: 
+ - "atscpsipparser/IAtscPsipParser.GetTSDT"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

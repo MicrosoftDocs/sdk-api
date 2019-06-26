@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_KeyFrameRate method, IAMVideoCompression.get_KeyFrameRate, IAMVideoCompression::get_KeyFrameRate, IAMVideoCompressionget_KeyFrameRate, dshow.iamvideocompression_get_keyframerate, get_KeyFrameRate, get_KeyFrameRate method [DirectShow], get_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_KeyFrameRate
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoCompression.get_KeyFrameRate"]
+f1_keywords: 
+ - "strmif/IAMVideoCompression.get_KeyFrameRate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

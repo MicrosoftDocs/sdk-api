@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnNewItem method, IRowsetEvents.OnNewItem, IRowsetEvents::OnNewItem, OnNewItem, OnNewItem method [search], OnNewItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnNewItem, search._search_IRowsetEvents_OnNewItem, searchapi/IRowsetEvents::OnNewItem
 ms.topic: method
-f1_keywords: ["searchapi/IRowsetEvents.OnNewItem"]
+f1_keywords: 
+ - "searchapi/IRowsetEvents.OnNewItem"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

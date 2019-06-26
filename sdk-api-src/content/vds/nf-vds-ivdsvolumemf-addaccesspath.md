@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeMF.AddAccessPath"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF.AddAccessPath"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

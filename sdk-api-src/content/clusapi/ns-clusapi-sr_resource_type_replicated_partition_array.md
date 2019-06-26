@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, mscs.sr_resource_type_replicated_partition_array"
 ms.topic: struct
-f1_keywords: ["clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY"]
+f1_keywords: 
+ - "clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

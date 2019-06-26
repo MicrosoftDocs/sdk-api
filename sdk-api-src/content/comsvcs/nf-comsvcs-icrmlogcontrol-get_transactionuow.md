@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],get_TransactionUOW method, ICrmLogControl.get_TransactionUOW, ICrmLogControl::get_TransactionUOW, _dtc_ICrmLogControl_TransactionUOW, comsvcs/ICrmLogControl::get_TransactionUOW, cos.icrmlogcontrol_get_transactionuow, get_TransactionUOW, get_TransactionUOW method [COM+], get_TransactionUOW method [COM+],ICrmLogControl interface
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmLogControl.get_TransactionUOW"]
+f1_keywords: 
+ - "comsvcs/ICrmLogControl.get_TransactionUOW"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

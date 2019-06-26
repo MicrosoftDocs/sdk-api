@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsIndexedPixelFormat, IsIndexedPixelFormat function [GDI+], _gdiplus_FUNC_IsIndexedPixelFormat_, gdiplus._gdiplus_FUNC_IsIndexedPixelFormat_, gdipluspixelformats/IsIndexedPixelFormat
 ms.topic: function
-f1_keywords: ["gdipluspixelformats/IsIndexedPixelFormat"]
+f1_keywords: 
+ - "gdipluspixelformats/IsIndexedPixelFormat"
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

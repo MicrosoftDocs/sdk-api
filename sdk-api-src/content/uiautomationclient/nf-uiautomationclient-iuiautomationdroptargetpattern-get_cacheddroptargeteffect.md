@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedDropTargetEffect property [Windows Accessibility], CachedDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffect property, IUIAutomationDropTargetPattern.CachedDropTargetEffect, IUIAutomationDropTargetPattern.get_CachedDropTargetEffect, IUIAutomationDropTargetPattern::CachedDropTargetEffect, IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, get_CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffect
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffect"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffect"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

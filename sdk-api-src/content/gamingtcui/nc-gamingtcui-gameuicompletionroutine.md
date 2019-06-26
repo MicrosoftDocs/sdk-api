@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
 ms.topic: callback
-f1_keywords: ["gamingtcui/GameUICompletionRoutine"]
+f1_keywords: 
+ - "gamingtcui/GameUICompletionRoutine"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

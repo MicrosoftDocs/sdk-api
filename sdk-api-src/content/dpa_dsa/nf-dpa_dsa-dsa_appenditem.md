@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DSA_AppendItem"]
+f1_keywords: 
+ - "dpa_dsa/DSA_AppendItem"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

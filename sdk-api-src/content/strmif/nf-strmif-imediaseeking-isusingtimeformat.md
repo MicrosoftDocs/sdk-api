@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.IsUsingTimeFormat"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.IsUsingTimeFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

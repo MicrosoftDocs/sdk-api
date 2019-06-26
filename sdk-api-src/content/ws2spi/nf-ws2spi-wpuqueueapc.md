@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
 ms.topic: function
-f1_keywords: ["ws2spi/WPUQueueApc"]
+f1_keywords: 
+ - "ws2spi/WPUQueueApc"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

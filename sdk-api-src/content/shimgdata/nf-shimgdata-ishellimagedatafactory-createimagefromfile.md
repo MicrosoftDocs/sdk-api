@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateImageFromFile, CreateImageFromFile method [Windows Shell], CreateImageFromFile method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromFile method, IShellImageDataFactory.CreateImageFromFile, IShellImageDataFactory::CreateImageFromFile, _shell_IShellImageDataFactory_CreateImageFromFile, shell.IShellImageDataFactory_CreateImageFromFile, shimgdata/IShellImageDataFactory::CreateImageFromFile
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageDataFactory.CreateImageFromFile"]
+f1_keywords: 
+ - "shimgdata/IShellImageDataFactory.CreateImageFromFile"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawingStateBlock interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock.SetDescription, ID2D1DrawingStateBlock.SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), ID2D1DrawingStateBlock::SetDescription, ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &), SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock interface, d2d1/ID2D1DrawingStateBlock::SetDescription, direct2d.ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1DrawingStateBlock.SetDescription"]
+f1_keywords: 
+ - "d2d1/ID2D1DrawingStateBlock.SetDescription"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],FireInParallel property, IEventClass2.FireInParallel, IEventClass2.get_FireInParallel, IEventClass2::FireInParallel, IEventClass2::get_FireInParallel, IEventClass2::put_FireInParallel, _cos_IEventClass2_get_FireInParallel, _cos_IEventClass2_put_FireInParallel, cos.ieventclass2_fireinparallel, eventsys/IEventClass2::FireInParallel, eventsys/IEventClass2::get_FireInParallel, eventsys/IEventClass2::put_FireInParallel, get_FireInParallel
 ms.topic: method
-f1_keywords: ["eventsys/IEventClass2.FireInParallel"]
+f1_keywords: 
+ - "eventsys/IEventClass2.FireInParallel"
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
 ms.topic: interface
-f1_keywords: ["spellcheck/IOptionDescription"]
+f1_keywords: 
+ - "spellcheck/IOptionDescription"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

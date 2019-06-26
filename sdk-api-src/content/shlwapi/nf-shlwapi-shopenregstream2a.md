@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpenRegStream2A, SHOpenRegStream2W, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream2, shell.SHOpenRegStream2, shlwapi/SHOpenRegStream2, shlwapi/SHOpenRegStream2A, shlwapi/SHOpenRegStream2W
 ms.topic: function
-f1_keywords: ["shlwapi/SHOpenRegStream2"]
+f1_keywords: 
+ - "shlwapi/SHOpenRegStream2"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

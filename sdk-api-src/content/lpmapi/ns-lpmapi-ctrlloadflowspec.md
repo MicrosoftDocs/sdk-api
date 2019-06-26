@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CtrlLoadFlowspec, CtrlLoadFlowspec structure [QOS], lpmapi/CtrlLoadFlowspec, qos.ctrlloadflowspec
 ms.topic: struct
-f1_keywords: ["lpmapi/CtrlLoadFlowspec"]
+f1_keywords: 
+ - "lpmapi/CtrlLoadFlowspec"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

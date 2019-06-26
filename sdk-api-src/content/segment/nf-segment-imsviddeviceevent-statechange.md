@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
 ms.topic: method
-f1_keywords: ["segment/IMSVidDeviceEvent.StateChange"]
+f1_keywords: 
+ - "segment/IMSVidDeviceEvent.StateChange"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

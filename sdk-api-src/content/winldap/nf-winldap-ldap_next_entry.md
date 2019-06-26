@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entry, ldap_next_entry, ldap_next_entry function [LDAP], winldap/ldap_next_entry"
 ms.topic: function
-f1_keywords: ["winldap/ldap_next_entry"]
+f1_keywords: 
+ - "winldap/ldap_next_entry"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

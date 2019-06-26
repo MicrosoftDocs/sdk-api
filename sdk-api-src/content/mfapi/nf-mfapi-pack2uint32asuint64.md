@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pack2UINT32AsUINT64, Pack2UINT32AsUINT64 function [Media Foundation], mf.pack2uint32asuint64, mfapi/Pack2UINT32AsUINT64
 ms.topic: function
-f1_keywords: ["mfapi/Pack2UINT32AsUINT64"]
+f1_keywords: 
+ - "mfapi/Pack2UINT32AsUINT64"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

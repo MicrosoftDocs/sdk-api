@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetServiceId method, IISDB_SDTT.GetServiceId, IISDB_SDTT::GetServiceId, dvbsiparser/IISDB_SDTT::GetServiceId, mstv.iisdb_sdtt_getserviceid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_SDTT.GetServiceId"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_SDTT.GetServiceId"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

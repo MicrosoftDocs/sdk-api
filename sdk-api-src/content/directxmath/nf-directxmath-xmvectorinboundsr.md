@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorInBoundsR, XMVectorInBoundsR, XMVectorInBoundsR method [DirectX Math Support APIs], dxmath.xmvectorinboundsr
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorInBoundsR"]
+f1_keywords: 
+ - "directxmath/XMVectorInBoundsR"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Name property, IAzApplicationGroup interface [Security],Name property, IAzApplicationGroup.Name, IAzApplicationGroup.get_Name, IAzApplicationGroup::Name, IAzApplicationGroup::get_Name, IAzApplicationGroup::put_Name, Name property [Security], Name property [Security],AzApplicationGroup object, Name property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Name, azroles/IAzApplicationGroup::get_Name, azroles/IAzApplicationGroup::put_Name, get_Name, security.iazapplicationgroup_name
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup.Name"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup.Name"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

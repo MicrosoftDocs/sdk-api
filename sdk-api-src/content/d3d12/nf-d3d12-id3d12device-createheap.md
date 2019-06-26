@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device interface, ID3D12Device interface,CreateHeap method, ID3D12Device.CreateHeap, ID3D12Device::CreateHeap, d3d12/ID3D12Device::CreateHeap, direct3d12.id3d12device_createheap
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateHeap"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateHeap"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

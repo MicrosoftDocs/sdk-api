@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelConfig, GetChannelConfig method [Core Audio], GetChannelConfig method [Core Audio],IAudioChannelConfig interface, IAudioChannelConfig interface [Core Audio],GetChannelConfig method, IAudioChannelConfig.GetChannelConfig, IAudioChannelConfig::GetChannelConfig, IAudioChannelConfigGetChannelConfig, coreaudio.iaudiochannelconfig_getchannelconfig, devicetopology/IAudioChannelConfig::GetChannelConfig
 ms.topic: method
-f1_keywords: ["devicetopology/IAudioChannelConfig.GetChannelConfig"]
+f1_keywords: 
+ - "devicetopology/IAudioChannelConfig.GetChannelConfig"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

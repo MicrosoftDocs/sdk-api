@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
 ms.topic: function
-f1_keywords: ["ole2/OleCreateLinkFromDataEx"]
+f1_keywords: 
+ - "ole2/OleCreateLinkFromDataEx"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

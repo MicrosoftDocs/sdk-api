@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Transfer method, IPortableDeviceContent.Transfer, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceContent.Transfer"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceContent.Transfer"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

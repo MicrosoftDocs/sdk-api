@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], IPortableDeviceService interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceService, wpdsdk.iportabledeviceservice
 ms.topic: interface
-f1_keywords: ["portabledeviceapi/IPortableDeviceService"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceService"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

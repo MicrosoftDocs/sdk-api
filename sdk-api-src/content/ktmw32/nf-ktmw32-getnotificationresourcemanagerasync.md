@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
 ms.topic: function
-f1_keywords: ["ktmw32/GetNotificationResourceManagerAsync"]
+f1_keywords: 
+ - "ktmw32/GetNotificationResourceManagerAsync"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

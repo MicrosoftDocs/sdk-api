@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME structure [Failover Cluster], PCLUSTER_VALIDATE_NETNAME, PCLUSTER_VALIDATE_NETNAME structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_NETNAME, clusapi/PCLUSTER_VALIDATE_NETNAME, mscs.cluster_validate_netname"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSTER_VALIDATE_NETNAME"]
+f1_keywords: 
+ - "clusapi/CLUSTER_VALIDATE_NETNAME"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

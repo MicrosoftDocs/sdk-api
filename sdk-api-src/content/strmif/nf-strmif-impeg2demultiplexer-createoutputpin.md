@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateOutputPin, CreateOutputPin method [DirectShow], CreateOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],CreateOutputPin method, IMpeg2Demultiplexer.CreateOutputPin, IMpeg2Demultiplexer::CreateOutputPin, IMpeg2DemultiplexerCreateOutputPin, dshow.impeg2demultiplexer_createoutputpin, strmif/IMpeg2Demultiplexer::CreateOutputPin
 ms.topic: method
-f1_keywords: ["strmif/IMpeg2Demultiplexer.CreateOutputPin"]
+f1_keywords: 
+ - "strmif/IMpeg2Demultiplexer.CreateOutputPin"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

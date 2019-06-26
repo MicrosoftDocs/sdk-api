@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDoubleArray, CreateDoubleArray method [Windows Runtime], CreateDoubleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDoubleArray method, IPropertyValueStatics.CreateDoubleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDoubleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDoubleArray, winrt.ipropertyvaluefactory_createdoublearray, winrt.ipropertyvaluestatics_createdoublearray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateDoubleArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateDoubleArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

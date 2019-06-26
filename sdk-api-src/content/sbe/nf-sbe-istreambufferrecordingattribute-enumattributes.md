@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],EnumAttributes method, IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferRecordingAttribute.EnumAttributes"]
+f1_keywords: 
+ - "sbe/IStreamBufferRecordingAttribute.EnumAttributes"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputMutexSelection method, IMFASFStreamSelector.SetOutputMutexSelection, IMFASFStreamSelector::SetOutputMutexSelection, SetOutputMutexSelection, SetOutputMutexSelection method [Media Foundation], SetOutputMutexSelection method [Media Foundation],IMFASFStreamSelector interface, eebaf4a4-fcd5-4438-82ec-e9da2de6b0fd, mf.imfasfstreamselector_setoutputmutexselection, wmcontainer/IMFASFStreamSelector::SetOutputMutexSelection
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamSelector.SetOutputMutexSelection"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamSelector.SetOutputMutexSelection"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

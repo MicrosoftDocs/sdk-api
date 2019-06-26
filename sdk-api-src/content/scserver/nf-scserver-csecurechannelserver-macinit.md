@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACInit method, CSecureChannelServer.MACInit, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
 ms.topic: method
-f1_keywords: ["scserver/CSecureChannelServer.MACInit"]
+f1_keywords: 
+ - "scserver/CSecureChannelServer.MACInit"
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],SetWorkQueueEx method, IMFRealTimeClientEx.SetWorkQueueEx, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx
 ms.topic: method
-f1_keywords: ["mfidl/IMFRealTimeClientEx.SetWorkQueueEx"]
+f1_keywords: 
+ - "mfidl/IMFRealTimeClientEx.SetWorkQueueEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

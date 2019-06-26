@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhCloseQuery, PdhCloseQuery function [Perf], _win32_pdhclosequery, base.pdhclosequery, pdh/PdhCloseQuery, perf.pdhclosequery
 ms.topic: function
-f1_keywords: ["pdh/PdhCloseQuery"]
+f1_keywords: 
+ - "pdh/PdhCloseQuery"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCaptionText method, IMathInputControl.SetCaptionText, IMathInputControl::SetCaptionText, SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.SetCaptionText"]
+f1_keywords: 
+ - "micaut/IMathInputControl.SetCaptionText"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

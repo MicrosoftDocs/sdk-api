@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerTime method, IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
 ms.topic: method
-f1_keywords: ["qnetwork/IAMExtendedSeeking.GetMarkerTime"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedSeeking.GetMarkerTime"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeDragList, MakeDragList function [Windows Controls], _win32_MakeDragList, _win32_MakeDragList_cpp, commctrl/MakeDragList, controls.MakeDragList, controls._win32_MakeDragList
 ms.topic: function
-f1_keywords: ["commctrl/MakeDragList"]
+f1_keywords: 
+ - "commctrl/MakeDragList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

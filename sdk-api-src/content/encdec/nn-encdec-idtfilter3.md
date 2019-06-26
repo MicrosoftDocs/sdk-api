@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
 ms.topic: interface
-f1_keywords: ["encdec/IDTFilter3"]
+f1_keywords: 
+ - "encdec/IDTFilter3"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Mode method, IAMExtTransport.get_Mode, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Mode
 ms.topic: method
-f1_keywords: ["strmif/IAMExtTransport.get_Mode"]
+f1_keywords: 
+ - "strmif/IAMExtTransport.get_Mode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.topic: interface
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

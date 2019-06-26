@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdCreatePalette, DdCreatePalette callback function [Display Devices], PDD_CREATEPALETTE, PDD_CREATEPALETTE callback, ddfncs_5930e0e6-1029-4c6d-aa6b-b8050e2f9d9d.xml, ddrawint/DdCreatePalette, display.ddcreatepalette
 ms.topic: callback
-f1_keywords: ["ddrawint/DdCreatePalette"]
+f1_keywords: 
+ - "ddrawint/DdCreatePalette"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

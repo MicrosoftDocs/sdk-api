@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvictClusterNode, EvictClusterNode function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE, PCLUSAPI_EVICT_CLUSTER_NODE function [Failover Cluster], _wolf_evictclusternode, clusapi/EvictClusterNode, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE, mscs.evictclusternode
 ms.topic: function
-f1_keywords: ["clusapi/EvictClusterNode"]
+f1_keywords: 
+ - "clusapi/EvictClusterNode"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

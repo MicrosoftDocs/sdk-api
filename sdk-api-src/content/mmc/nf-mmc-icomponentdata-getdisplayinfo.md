@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponentData interface, IComponentData interface [MMC],GetDisplayInfo method, IComponentData.GetDisplayInfo, IComponentData::GetDisplayInfo, _slate_icomponentdata_getdisplayinfo, mmc.icomponentdata_getdisplayinfo, mmc/IComponentData::GetDisplayInfo
 ms.topic: method
-f1_keywords: ["mmc/IComponentData.GetDisplayInfo"]
+f1_keywords: 
+ - "mmc/IComponentData.GetDisplayInfo"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

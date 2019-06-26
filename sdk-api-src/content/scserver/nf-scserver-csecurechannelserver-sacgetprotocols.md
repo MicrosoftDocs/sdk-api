@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SACGetProtocols method, CSecureChannelServer.SACGetProtocols, CSecureChannelServer::SACGetProtocols, CSecureChannelServerSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SACGetProtocols, wmdm.csecurechannelserver_sacgetprotocols
 ms.topic: method
-f1_keywords: ["scserver/CSecureChannelServer.SACGetProtocols"]
+f1_keywords: 
+ - "scserver/CSecureChannelServer.SACGetProtocols"
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

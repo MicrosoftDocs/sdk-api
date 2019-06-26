@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaRecord.get_FileName, ITMediaRecord::get_FileName, _tapi3_itmediarecord_get_filename, get_FileName, get_FileName method [TAPI 2.2], get_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_get_filename, tapi3if/ITMediaRecord::get_FileName
 ms.topic: method
-f1_keywords: ["tapi3if/ITMediaRecord.get_FileName"]
+f1_keywords: 
+ - "tapi3if/ITMediaRecord.get_FileName"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.authz_security_attribute_octet_string_value"
 ms.topic: struct
-f1_keywords: ["authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"]
+f1_keywords: 
+ - "authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

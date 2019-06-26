@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
 ms.topic: enum
-f1_keywords: ["certenroll/EnrollmentPolicyServerPropertyFlags"]
+f1_keywords: 
+ - "certenroll/EnrollmentPolicyServerPropertyFlags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

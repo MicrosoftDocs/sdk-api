@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICMetadataHandlerInfo.GetDeviceManufacturer, IWICMetadataHandlerInfo::GetDeviceManufacturer, _wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceManufacturer
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataHandlerInfo.GetDeviceManufacturer"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataHandlerInfo.GetDeviceManufacturer"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

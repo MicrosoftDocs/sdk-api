@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str"
 ms.topic: struct
-f1_keywords: ["pdh/PDH_COUNTER_INFO"]
+f1_keywords: 
+ - "pdh/PDH_COUNTER_INFO"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

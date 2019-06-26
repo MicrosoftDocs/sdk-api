@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],IsEqual method, ITextRange.IsEqual, ITextRange::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRange interface, _win32_ITextRange_IsEqual, _win32_ITextRange_IsEqual_cpp, controls.ITextRange_IsEqual, controls._win32_ITextRange_IsEqual, tom/ITextRange::IsEqual
 ms.topic: method
-f1_keywords: ["tom/ITextRange.IsEqual"]
+f1_keywords: 
+ - "tom/ITextRange.IsEqual"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

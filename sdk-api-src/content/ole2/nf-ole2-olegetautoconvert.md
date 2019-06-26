@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleGetAutoConvert, OleGetAutoConvert function [COM], _com_OleGetAutoConvert, com.olegetautoconvert, ole2/OleGetAutoConvert
 ms.topic: function
-f1_keywords: ["ole2/OleGetAutoConvert"]
+f1_keywords: 
+ - "ole2/OleGetAutoConvert"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

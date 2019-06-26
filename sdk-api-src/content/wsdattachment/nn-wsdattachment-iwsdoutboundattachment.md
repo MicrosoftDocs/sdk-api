@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,described, ncd.iwsdoutboundattachment, wsdattachment/IWSDOutboundAttachment
 ms.topic: interface
-f1_keywords: ["wsdattachment/IWSDOutboundAttachment"]
+f1_keywords: 
+ - "wsdattachment/IWSDOutboundAttachment"
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_PREF_INFO, PRTM_PREF_INFO, PRTM_PREF_INFO structure pointer [RAS], RTM_PREF_INFO, RTM_PREF_INFO structure [RAS], _rtmv2ref_rtm_pref_info, rras.rtm_pref_info, rtmv2/PRTM_PREF_INFO, rtmv2/RTM_PREF_INFO"
 ms.topic: struct
-f1_keywords: ["rtmv2/RTM_PREF_INFO"]
+f1_keywords: 
+ - "rtmv2/RTM_PREF_INFO"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

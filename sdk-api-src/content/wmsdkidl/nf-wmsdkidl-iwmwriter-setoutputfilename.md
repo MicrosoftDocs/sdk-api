@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetOutputFilename method, IWMWriter.SetOutputFilename, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriter.SetOutputFilename"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriter.SetOutputFilename"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

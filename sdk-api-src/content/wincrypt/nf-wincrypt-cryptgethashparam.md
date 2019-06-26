@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGetHashParam"]
+f1_keywords: 
+ - "wincrypt/CryptGetHashParam"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

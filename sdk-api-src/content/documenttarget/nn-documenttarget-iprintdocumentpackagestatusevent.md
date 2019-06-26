@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent, IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging], IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageStatusEvent, xps.iprintdocumentpackagestatusevent
 ms.topic: interface
-f1_keywords: ["documenttarget/IPrintDocumentPackageStatusEvent"]
+f1_keywords: 
+ - "documenttarget/IPrintDocumentPackageStatusEvent"
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

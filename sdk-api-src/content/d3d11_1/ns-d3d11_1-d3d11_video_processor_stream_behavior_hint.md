@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT structure [Media Foundation], d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, mf.d3d11_video_processor_stream_behavior_hint
 ms.topic: struct
-f1_keywords: ["d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT"]
+f1_keywords: 
+ - "d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

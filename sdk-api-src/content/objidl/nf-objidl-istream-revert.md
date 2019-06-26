@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],Revert method, IStream.Revert, IStream::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStream interface, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
 ms.topic: method
-f1_keywords: ["objidl/IStream.Revert"]
+f1_keywords: 
+ - "objidl/IStream.Revert"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

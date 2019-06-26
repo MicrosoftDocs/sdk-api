@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamOutputRate method, ID3D11VideoContext.VideoProcessorGetStreamOutputRate, ID3D11VideoContext::VideoProcessorGetStreamOutputRate, TRUE, VideoProcessorGetStreamOutputRate, VideoProcessorGetStreamOutputRate method [Media Foundation], VideoProcessorGetStreamOutputRate method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamOutputRate, mf.id3d11videocontext_videoprocessorgetstreamoutputrate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetStreamOutputRate"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamOutputRate"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

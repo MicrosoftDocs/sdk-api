@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin2 interface [Remote Desktop Services],ResolvePersonalDesktop method, ItsPubPlugin2.ResolvePersonalDesktop, ItsPubPlugin2::ResolvePersonalDesktop, ResolvePersonalDesktop, ResolvePersonalDesktop method [Remote Desktop Services], ResolvePersonalDesktop method [Remote Desktop Services],ItsPubPlugin2 interface, termserv.itspubplugin2_resolvepersonaldesktop, tspubplugin2com/ItsPubPlugin2::ResolvePersonalDesktop
 ms.topic: method
-f1_keywords: ["tspubplugin2com/ItsPubPlugin2.ResolvePersonalDesktop"]
+f1_keywords: 
+ - "tspubplugin2com/ItsPubPlugin2.ResolvePersonalDesktop"
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

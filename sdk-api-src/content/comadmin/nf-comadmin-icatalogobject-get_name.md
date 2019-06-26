@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],Name property, ICatalogObject.Name, ICatalogObject.get_Name, ICatalogObject::Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogObject.Name"]
+f1_keywords: 
+ - "comadmin/ICatalogObject.Name"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

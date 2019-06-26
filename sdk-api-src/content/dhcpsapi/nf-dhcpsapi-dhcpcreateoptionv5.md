@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV5, DhcpCreateOptionV5 function [DHCP], dhcp.dhcpcreateoptionv5, dhcpsapi/DhcpCreateOptionV5
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpCreateOptionV5"]
+f1_keywords: 
+ - "dhcpsapi/DhcpCreateOptionV5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

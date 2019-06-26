@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromPoint method, ITextProvider.RangeFromPoint, ITextProvider::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromPoint, uiauto_ITextProvider_RangeFromPoint, uiautomationcore/ITextProvider::RangeFromPoint, winauto.uiauto_ITextProvider_RangeFromPoint
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextProvider.RangeFromPoint"]
+f1_keywords: 
+ - "uiautomationcore/ITextProvider.RangeFromPoint"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_HighOscillator method, IDVBSTuningSpace.put_HighOscillator, IDVBSTuningSpace::put_HighOscillator, IDVBSTuningSpaceput_HighOscillator, mstv.idvbstuningspace_put_highoscillator, put_HighOscillator, put_HighOscillator method [Microsoft TV Technologies], put_HighOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_HighOscillator
 ms.topic: method
-f1_keywords: ["tuner/IDVBSTuningSpace.put_HighOscillator"]
+f1_keywords: 
+ - "tuner/IDVBSTuningSpace.put_HighOscillator"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

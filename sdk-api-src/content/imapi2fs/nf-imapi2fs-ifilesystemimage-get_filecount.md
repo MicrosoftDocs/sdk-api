@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileCount method, IFileSystemImage.get_FileCount, IFileSystemImage::get_FileCount, get_FileCount, get_FileCount method [IMAPI], get_FileCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filecount, imapi2fs/IFileSystemImage::get_FileCount
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_FileCount"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_FileCount"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource
 ms.topic: function
-f1_keywords: ["pdh/PdhSetDefaultRealTimeDataSource"]
+f1_keywords: 
+ - "pdh/PdhSetDefaultRealTimeDataSource"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

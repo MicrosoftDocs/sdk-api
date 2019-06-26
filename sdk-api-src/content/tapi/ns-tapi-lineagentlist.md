@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2], LPLINEAGENTLIST, LPLINEAGENTLIST structure pointer [TAPI 2.2], _tapi2_lineagentlist, tapi/LINEAGENTLIST, tapi/LPLINEAGENTLIST, tapi2.lineagentlist"
 ms.topic: struct
-f1_keywords: ["tapi/LINEAGENTLIST"]
+f1_keywords: 
+ - "tapi/LINEAGENTLIST"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

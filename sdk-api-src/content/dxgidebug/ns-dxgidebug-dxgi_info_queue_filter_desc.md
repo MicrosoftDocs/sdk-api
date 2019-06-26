@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_INFO_QUEUE_FILTER_DESC, DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI], direct3ddxgi.dxgi_info_queue_filter_desc, dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC
 ms.topic: struct
-f1_keywords: ["dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC"]
+f1_keywords: 
+ - "dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

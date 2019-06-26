@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback, PD2D1_EFFECT_FACTORY callback function [Direct2D], d2d1_1/PD2D1_EFFECT_FACTORY, direct2d.pd2d1_effect_factory
 ms.topic: callback
-f1_keywords: ["d2d1_1/PD2D1_EFFECT_FACTORY"]
+f1_keywords: 
+ - "d2d1_1/PD2D1_EFFECT_FACTORY"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

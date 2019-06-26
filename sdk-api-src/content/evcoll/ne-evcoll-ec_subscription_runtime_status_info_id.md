@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration, EcSubscriptionRunTimeStatusActive, EcSubscriptionRunTimeStatusEventSources, EcSubscriptionRunTimeStatusLastError, EcSubscriptionRunTimeStatusLastErrorMessage, EcSubscriptionRunTimeStatusLastErrorTime, EcSubscriptionRunTimeStatusLastHeartbeatTime, EcSubscriptionRunTimeStatusNextRetryTime, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, evcoll/EcSubscriptionRunTimeStatusActive, evcoll/EcSubscriptionRunTimeStatusEventSources, evcoll/EcSubscriptionRunTimeStatusLastError, evcoll/EcSubscriptionRunTimeStatusLastErrorMessage, evcoll/EcSubscriptionRunTimeStatusLastErrorTime, evcoll/EcSubscriptionRunTimeStatusLastHeartbeatTime, evcoll/EcSubscriptionRunTimeStatusNextRetryTime, wec.ec_subscription_runtime_status_info_id, wes.ec_subscription_runtime_status_info_id
 ms.topic: enum
-f1_keywords: ["evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"]
+f1_keywords: 
+ - "evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

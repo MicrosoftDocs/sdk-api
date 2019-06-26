@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveWindow, GetActiveWindow function [Keyboard and Mouse Input], _win32_GetActiveWindow, _win32_getactivewindow_cpp, inputdev.getactivewindow, winui._win32_getactivewindow, winuser/GetActiveWindow
 ms.topic: function
-f1_keywords: ["winuser/GetActiveWindow"]
+f1_keywords: 
+ - "winuser/GetActiveWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

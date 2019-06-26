@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, cfapi/CF_REVERT_FLAGS, cfapi/CF_REVERT_FLAG_NONE, cloudApi.cf_revert_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_REVERT_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_REVERT_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

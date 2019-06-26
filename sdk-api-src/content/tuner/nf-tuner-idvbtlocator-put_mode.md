@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Mode method, IDVBTLocator.put_Mode, IDVBTLocator::put_Mode, IDVBTLocatorput_Mode, mstv.idvbtlocator_put_mode, put_Mode, put_Mode method [Microsoft TV Technologies], put_Mode method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Mode
 ms.topic: method
-f1_keywords: ["tuner/IDVBTLocator.put_Mode"]
+f1_keywords: 
+ - "tuner/IDVBTLocator.put_Mode"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

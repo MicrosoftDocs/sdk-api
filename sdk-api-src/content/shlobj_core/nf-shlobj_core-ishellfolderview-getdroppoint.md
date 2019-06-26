@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDropPoint, GetDropPoint method [Windows Shell], GetDropPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDropPoint method, IShellFolderView.GetDropPoint, IShellFolderView::GetDropPoint, _shell_IShellFolderView_GetDropPoint, shell.IShellFolderView_GetDropPoint, shlobj_core/IShellFolderView::GetDropPoint
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetDropPoint"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetDropPoint"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

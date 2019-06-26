@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtendControlbar interface [MMC],SetControlbar method, IExtendControlbar.SetControlbar, IExtendControlbar::SetControlbar, SetControlbar, SetControlbar method [MMC], SetControlbar method [MMC],IExtendControlbar interface, _slate_iextendcontrolbar_setcontrolbar, mmc.iextendcontrolbar_setcontrolbar, mmc/IExtendControlbar::SetControlbar
 ms.topic: method
-f1_keywords: ["mmc/IExtendControlbar.SetControlbar"]
+f1_keywords: 
+ - "mmc/IExtendControlbar.SetControlbar"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

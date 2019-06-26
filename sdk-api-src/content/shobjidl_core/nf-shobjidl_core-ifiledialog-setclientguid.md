@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetClientGuid"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetClientGuid"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

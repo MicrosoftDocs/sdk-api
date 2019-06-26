@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str"
 ms.topic: struct
-f1_keywords: ["tlhelp32/HEAPLIST32"]
+f1_keywords: 
+ - "tlhelp32/HEAPLIST32"
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

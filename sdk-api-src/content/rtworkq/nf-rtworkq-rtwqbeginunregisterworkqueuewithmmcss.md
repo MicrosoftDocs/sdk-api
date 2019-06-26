@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"]
+f1_keywords: 
+ - "rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

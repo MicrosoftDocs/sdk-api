@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESHORTCUTFLAGS, IESHORTCUTFLAGS enumeration [Windows Shell], IESHORTCUT_BACKGROUNDTAB, IESHORTCUT_FORCENAVIGATE, IESHORTCUT_NEWBROWSER, IESHORTCUT_OPENNEWTAB, _shell_IESHORTCUTFLAGS, shell.IESHORTCUTFLAGS, shlobj_core/IESHORTCUTFLAGS, shlobj_core/IESHORTCUT_BACKGROUNDTAB, shlobj_core/IESHORTCUT_FORCENAVIGATE, shlobj_core/IESHORTCUT_NEWBROWSER, shlobj_core/IESHORTCUT_OPENNEWTAB
 ms.topic: enum
-f1_keywords: ["shlobj_core/IESHORTCUTFLAGS"]
+f1_keywords: 
+ - "shlobj_core/IESHORTCUTFLAGS"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

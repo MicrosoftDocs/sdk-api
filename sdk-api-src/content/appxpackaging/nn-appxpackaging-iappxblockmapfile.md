@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFile, IAppxBlockMapFile interface [App packaging and management], IAppxBlockMapFile interface [App packaging and management],described, appxpackaging/IAppxBlockMapFile, appxpkg.iappxblockmapfile
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxBlockMapFile"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapFile"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

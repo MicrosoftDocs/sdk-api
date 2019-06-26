@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Skip method, IEnumNetSharingEveryConnection.Skip, IEnumNetSharingEveryConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingEveryConnection.Skip"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingEveryConnection.Skip"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

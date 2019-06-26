@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IComQCEvents"]
+f1_keywords: 
+ - "comsvcs/IComQCEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

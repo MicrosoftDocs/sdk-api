@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Configuration property [Windows Deployment Services], Configuration property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Configuration property, IWdsTransportNamespace.Configuration, IWdsTransportNamespace.get_Configuration, IWdsTransportNamespace::Configuration, IWdsTransportNamespace::get_Configuration, IWdsTransportNamespace::put_Configuration, get_Configuration, wds.iwdstransportnamespace_configuration, wdstptmgmt/IWdsTransportNamespace::Configuration, wdstptmgmt/IWdsTransportNamespace::get_Configuration, wdstptmgmt/IWdsTransportNamespace::put_Configuration
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Configuration"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespace.Configuration"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

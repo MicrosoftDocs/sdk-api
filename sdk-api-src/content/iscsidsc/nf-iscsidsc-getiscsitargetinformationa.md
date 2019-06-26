@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIScsiTargetInformationA, GetIscsiTargetInformation, GetIscsiTargetInformation function [iSCSI Discovery Library API], GetIscsiTargetInformationA, GetIscsiTargetInformationW, iscsidisc.getiscsitargetinformation, iscsidsc/GetIscsiTargetInformation, iscsidsc/GetIscsiTargetInformationA, iscsidsc/GetIscsiTargetInformationW
 ms.topic: function
-f1_keywords: ["iscsidsc/GetIscsiTargetInformation"]
+f1_keywords: 
+ - "iscsidsc/GetIscsiTargetInformation"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

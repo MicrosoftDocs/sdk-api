@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation5 interface [Windows Accessibility],RemoveNotificationEventHandler method, IUIAutomation5.RemoveNotificationEventHandler, IUIAutomation5::RemoveNotificationEventHandler, RemoveNotificationEventHandler, RemoveNotificationEventHandler method [Windows Accessibility], RemoveNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, uiautomationclient/IUIAutomation5::RemoveNotificationEventHandler, winauto.uiauto_IUIAutomation5_RemoveNotificationEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation5.RemoveNotificationEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation5.RemoveNotificationEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

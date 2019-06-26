@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceManager interface [Windows Portable Devices SDK],RefreshDeviceList method, IPortableDeviceManager.RefreshDeviceList, IPortableDeviceManager::RefreshDeviceList, IPortableDeviceManagerRefreshDeviceList, RefreshDeviceList, RefreshDeviceList method [Windows Portable Devices SDK], RefreshDeviceList method [Windows Portable Devices SDK],IPortableDeviceManager interface, portabledeviceapi/IPortableDeviceManager::RefreshDeviceList, wpdsdk.iportabledevicemanager_refreshdevicelist
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceManager.RefreshDeviceList"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceManager.RefreshDeviceList"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

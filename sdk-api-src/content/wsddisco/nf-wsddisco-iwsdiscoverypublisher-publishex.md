@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,PublishEx method, IWSDiscoveryPublisher.PublishEx, IWSDiscoveryPublisher::PublishEx, PublishEx, PublishEx method, PublishEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publishex_method, wsddisco/IWSDiscoveryPublisher::PublishEx
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher.PublishEx"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher.PublishEx"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

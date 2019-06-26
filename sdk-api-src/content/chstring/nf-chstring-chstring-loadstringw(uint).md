@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LoadStringW method, CHString.LoadStringW, CHString.LoadStringW(UINT), CHString::LoadStringW, CHString::LoadStringW(UINT), LoadStringW, LoadStringW method [Windows Management Instrumentation], LoadStringW method [Windows Management Instrumentation],CHString interface, _hmm_chstring_loadstringw, chstring/CHString::LoadStringW, wmi.chstring_loadstringw
 ms.topic: method
-f1_keywords: ["chstring/CHString.LoadStringW"]
+f1_keywords: 
+ - "chstring/CHString.LoadStringW"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

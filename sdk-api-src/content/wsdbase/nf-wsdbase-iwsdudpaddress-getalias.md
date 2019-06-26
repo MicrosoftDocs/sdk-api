@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDUdpAddress.GetAlias"]
+f1_keywords: 
+ - "wsdbase/IWSDUdpAddress.GetAlias"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

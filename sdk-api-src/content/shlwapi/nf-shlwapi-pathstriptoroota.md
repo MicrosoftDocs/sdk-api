@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathStripToRoot, PathStripToRoot function [Windows Shell], PathStripToRootA, PathStripToRootW, _win32_PathStripToRoot, shell.PathStripToRoot, shlwapi/PathStripToRoot, shlwapi/PathStripToRootA, shlwapi/PathStripToRootW
 ms.topic: function
-f1_keywords: ["shlwapi/PathStripToRoot"]
+f1_keywords: 
+ - "shlwapi/PathStripToRoot"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

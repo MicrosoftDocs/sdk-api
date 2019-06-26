@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 545fe23c-2bcc-cecf-736c-9a42dd10ee2f, CreateVertexShader, CreateVertexShader method [Direct3D 11], CreateVertexShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateVertexShader method, ID3D11Device.CreateVertexShader, ID3D11Device::CreateVertexShader, d3d11/ID3D11Device::CreateVertexShader, direct3d11.id3d11device_createvertexshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateVertexShader"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateVertexShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

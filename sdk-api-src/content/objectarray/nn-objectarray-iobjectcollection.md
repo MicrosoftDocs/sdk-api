@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
 ms.topic: interface
-f1_keywords: ["objectarray/IObjectCollection"]
+f1_keywords: 
+ - "objectarray/IObjectCollection"
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
 ms.topic: method
-f1_keywords: ["certif/ICertServerExit.GetRequestProperty"]
+f1_keywords: 
+ - "certif/ICertServerExit.GetRequestProperty"
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

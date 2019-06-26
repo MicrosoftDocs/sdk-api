@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NameValueService interface [Microsoft TV Technologies],SetValue method, IBDA_NameValueService.SetValue, IBDA_NameValueService::SetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IBDA_NameValueService interface, bdaiface/IBDA_NameValueService::SetValue, mstv.ibda_namevalueservice_setvalue
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_NameValueService.SetValue"]
+f1_keywords: 
+ - "bdaiface/IBDA_NameValueService.SetValue"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

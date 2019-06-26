@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.topic: function
-f1_keywords: ["certpoleng/PstGetUserNameForCertificate"]
+f1_keywords: 
+ - "certpoleng/PstGetUserNameForCertificate"
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

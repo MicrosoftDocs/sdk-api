@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetBooleanElem, PropVariantGetBooleanElem function [Windows Properties], _shell_PropVariantGetBooleanElem, properties.PropVariantGetBooleanElem, propvarutil/PropVariantGetBooleanElem, shell.PropVariantGetBooleanElem
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantGetBooleanElem"]
+f1_keywords: 
+ - "propvarutil/PropVariantGetBooleanElem"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

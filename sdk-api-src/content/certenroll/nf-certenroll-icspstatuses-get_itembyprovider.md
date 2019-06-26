@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByProvider property, ICspStatuses.ItemByProvider, ICspStatuses.get_ItemByProvider, ICspStatuses::ItemByProvider, ICspStatuses::get_ItemByProvider, ItemByProvider property [Security], ItemByProvider property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByProvider, certenroll/ICspStatuses::get_ItemByProvider, get_ItemByProvider, security.icspstatuses_itembyprovider_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatuses.ItemByProvider"]
+f1_keywords: 
+ - "certenroll/ICspStatuses.ItemByProvider"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

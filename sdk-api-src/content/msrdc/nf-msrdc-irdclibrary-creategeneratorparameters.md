@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGeneratorParameters, CreateGeneratorParameters method [Remote Differential Compression], CreateGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGeneratorParameters method, IRdcLibrary.CreateGeneratorParameters, IRdcLibrary::CreateGeneratorParameters, fs.irdclibrary_creategeneratorparameters, msrdc/IRdcLibrary::CreateGeneratorParameters, rdc.irdclibrary_creategeneratorparameters
 ms.topic: method
-f1_keywords: ["msrdc/IRdcLibrary.CreateGeneratorParameters"]
+f1_keywords: 
+ - "msrdc/IRdcLibrary.CreateGeneratorParameters"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Azimuth method, IDVBSLocator.get_Azimuth, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
 ms.topic: method
-f1_keywords: ["tuner/IDVBSLocator.get_Azimuth"]
+f1_keywords: 
+ - "tuner/IDVBSLocator.get_Azimuth"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

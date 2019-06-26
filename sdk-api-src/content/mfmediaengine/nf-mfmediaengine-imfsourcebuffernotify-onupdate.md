@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFSourceBufferNotify.OnUpdate"]
+f1_keywords: 
+ - "mfmediaengine/IMFSourceBufferNotify.OnUpdate"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

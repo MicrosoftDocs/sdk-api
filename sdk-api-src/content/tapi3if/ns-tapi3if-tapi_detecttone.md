@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTAPI_DETECTTONE, TAPI_DETECTTONE, TAPI_DETECTTONE structure [TAPI 2.2], _tapi3_tapi_detecttone_str, tapi3.tapi_detecttone_str, tapi3if/TAPI_DETECTTONE"
 ms.topic: struct
-f1_keywords: ["tapi3if/TAPI_DETECTTONE"]
+f1_keywords: 
+ - "tapi3if/TAPI_DETECTTONE"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

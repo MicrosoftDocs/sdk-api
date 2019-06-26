@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA"
 ms.topic: struct
-f1_keywords: ["wingdi/RGNDATA"]
+f1_keywords: 
+ - "wingdi/RGNDATA"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

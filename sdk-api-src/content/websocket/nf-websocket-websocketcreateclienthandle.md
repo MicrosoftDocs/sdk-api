@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
 ms.topic: function
-f1_keywords: ["websocket/WebSocketCreateClientHandle"]
+f1_keywords: 
+ - "websocket/WebSocketCreateClientHandle"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

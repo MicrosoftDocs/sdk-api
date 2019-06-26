@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_PARAMETERS, PRJ_NOTIFICATION_PARAMETERS union, ProjFS.prj_notification_parameters, projectedfslib/PRJ_NOTIFICATION_PARAMETERS
 ms.topic: struct
-f1_keywords: ["projectedfslib/PRJ_NOTIFICATION_PARAMETERS"]
+f1_keywords: 
+ - "projectedfslib/PRJ_NOTIFICATION_PARAMETERS"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

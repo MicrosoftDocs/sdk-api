@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Cause method, ITFileTerminalEvent.get_Cause, ITFileTerminalEvent::get_Cause, _tapi3_itfileterminalevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_cause, tapi3if/ITFileTerminalEvent::get_Cause
 ms.topic: method
-f1_keywords: ["tapi3if/ITFileTerminalEvent.get_Cause"]
+f1_keywords: 
+ - "tapi3if/ITFileTerminalEvent.get_Cause"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

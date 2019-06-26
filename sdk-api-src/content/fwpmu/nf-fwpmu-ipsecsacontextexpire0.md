@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecSaContextExpire0"]
+f1_keywords: 
+ - "fwpmu/IPsecSaContextExpire0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

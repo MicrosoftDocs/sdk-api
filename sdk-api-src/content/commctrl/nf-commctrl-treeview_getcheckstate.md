@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetCheckState, TreeView_GetCheckState macro [Windows Controls], _win32_TreeView_GetCheckState, _win32_TreeView_GetCheckState_cpp, commctrl/TreeView_GetCheckState, controls.TreeView_GetCheckState, controls._win32_TreeView_GetCheckState
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetCheckState"]
+f1_keywords: 
+ - "commctrl/TreeView_GetCheckState"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

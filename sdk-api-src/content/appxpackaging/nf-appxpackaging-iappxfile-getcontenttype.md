@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFile.GetContentType"]
+f1_keywords: 
+ - "appxpackaging/IAppxFile.GetContentType"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

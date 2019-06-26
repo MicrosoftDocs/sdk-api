@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.topic: method
-f1_keywords: ["tuner/ILanguageComponentType.get_LangID"]
+f1_keywords: 
+ - "tuner/ILanguageComponentType.get_LangID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

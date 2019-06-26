@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
 ms.topic: method
-f1_keywords: ["wmp/IWMPDVD.get_isAvailable"]
+f1_keywords: 
+ - "wmp/IWMPDVD.get_isAvailable"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

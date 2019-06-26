@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_ST interface [Microsoft TV Technologies],Initialize method, IDVB_ST.Initialize, IDVB_ST::Initialize, IDVB_STInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_ST interface, dvbsiparser/IDVB_ST::Initialize, mstv.idvb_st_initialize
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_ST.Initialize"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_ST.Initialize"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

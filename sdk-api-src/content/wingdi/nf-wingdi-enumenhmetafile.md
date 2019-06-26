@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumEnhMetaFile, EnumEnhMetaFile function [Windows GDI], _win32_EnumEnhMetaFile, gdi.enumenhmetafile, wingdi/EnumEnhMetaFile
 ms.topic: function
-f1_keywords: ["wingdi/EnumEnhMetaFile"]
+f1_keywords: 
+ - "wingdi/EnumEnhMetaFile"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

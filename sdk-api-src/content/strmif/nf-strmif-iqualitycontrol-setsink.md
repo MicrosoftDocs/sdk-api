@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
 ms.topic: method
-f1_keywords: ["strmif/IQualityControl.SetSink"]
+f1_keywords: 
+ - "strmif/IQualityControl.SetSink"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetInput, WsSetInput function [Web Services for Windows], webservices/WsSetInput, wsw.wssetinput
 ms.topic: function
-f1_keywords: ["webservices/WsSetInput"]
+f1_keywords: 
+ - "webservices/WsSetInput"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

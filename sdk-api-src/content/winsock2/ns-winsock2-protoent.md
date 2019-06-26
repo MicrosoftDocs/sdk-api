@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.topic: struct
-f1_keywords: ["winsock2/protoent"]
+f1_keywords: 
+ - "winsock2/protoent"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

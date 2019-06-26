@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WbemTextFlagEnum, WbemTextFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemtextflagenum, wbemTextFlagNoFlavors, wbemdisp/WbemTextFlagEnum, wbemdisp/wbemTextFlagNoFlavors, wmi.wbemtextflagenum
 ms.topic: enum
-f1_keywords: ["wbemdisp/WbemTextFlagEnum"]
+f1_keywords: 
+ - "wbemdisp/WbemTextFlagEnum"
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

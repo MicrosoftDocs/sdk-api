@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpMessageParameters.GetID"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpMessageParameters.GetID"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

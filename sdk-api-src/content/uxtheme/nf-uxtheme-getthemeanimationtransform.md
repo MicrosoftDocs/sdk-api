@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeAnimationTransform"]
+f1_keywords: 
+ - "uxtheme/GetThemeAnimationTransform"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

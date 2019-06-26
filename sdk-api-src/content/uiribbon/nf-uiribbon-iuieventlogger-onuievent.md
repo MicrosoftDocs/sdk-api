@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIEventLogger interface [Windows Ribbon],OnUIEvent method, IUIEventLogger.OnUIEvent, IUIEventLogger::OnUIEvent, OnUIEvent, OnUIEvent method [Windows Ribbon], OnUIEvent method [Windows Ribbon],IUIEventLogger interface, uiribbon/IUIEventLogger::OnUIEvent, windowsribbon.onuievent
 ms.topic: method
-f1_keywords: ["uiribbon/IUIEventLogger.OnUIEvent"]
+f1_keywords: 
+ - "uiribbon/IUIEventLogger.OnUIEvent"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

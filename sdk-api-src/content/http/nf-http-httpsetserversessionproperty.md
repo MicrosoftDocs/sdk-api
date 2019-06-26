@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
 ms.topic: function
-f1_keywords: ["http/HttpSetServerSessionProperty"]
+f1_keywords: 
+ - "http/HttpSetServerSessionProperty"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

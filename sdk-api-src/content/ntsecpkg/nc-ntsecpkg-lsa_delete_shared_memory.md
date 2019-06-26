@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSharedMemory, DeleteSharedMemory callback function [Security], LSA_DELETE_SHARED_MEMORY, LSA_DELETE_SHARED_MEMORY callback, _ssp_deletesharedmemory, ntsecpkg/DeleteSharedMemory, security.deletesharedmemory
 ms.topic: callback
-f1_keywords: ["ntsecpkg/DeleteSharedMemory"]
+f1_keywords: 
+ - "ntsecpkg/DeleteSharedMemory"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

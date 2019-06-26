@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaultsForMediaType, ChooseImageDefaultsForMediaType method [IMAPI], ChooseImageDefaultsForMediaType method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaultsForMediaType method, IFileSystemImage.ChooseImageDefaultsForMediaType, IFileSystemImage::ChooseImageDefaultsForMediaType, imapi.ifilesystemimage_chooseimagedefaultsformediatype, imapi2fs/IFileSystemImage::ChooseImageDefaultsForMediaType
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.ChooseImageDefaultsForMediaType"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.ChooseImageDefaultsForMediaType"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

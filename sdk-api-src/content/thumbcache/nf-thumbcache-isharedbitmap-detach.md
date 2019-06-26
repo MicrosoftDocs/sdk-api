@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method [Windows Shell], Detach method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],Detach method, ISharedBitmap.Detach, ISharedBitmap::Detach, _shell__Detach, shell.ISharedBitmap_Detach, thumbcache/ISharedBitmap::Detach
 ms.topic: method
-f1_keywords: ["thumbcache/ISharedBitmap.Detach"]
+f1_keywords: 
+ - "thumbcache/ISharedBitmap.Detach"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

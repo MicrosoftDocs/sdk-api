@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 ms.topic: function
-f1_keywords: ["wincrypt/CertCreateCTLEntryFromCertificateContextProperties"]
+f1_keywords: 
+ - "wincrypt/CertCreateCTLEntryFromCertificateContextProperties"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

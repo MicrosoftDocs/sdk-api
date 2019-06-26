@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABContainer interface [Windows Address Book],described, _wab_IABContainer, wab._wab_IABContainer, wabdefs/IABContainer
 ms.topic: interface
-f1_keywords: ["wabdefs/IABContainer"]
+f1_keywords: 
+ - "wabdefs/IABContainer"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

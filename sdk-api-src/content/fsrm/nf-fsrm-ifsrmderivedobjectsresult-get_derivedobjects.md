@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DerivedObjects property [File Server Resource Manager], DerivedObjects property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, IFsrmDerivedObjectsResult interface [File Server Resource Manager],DerivedObjects property, IFsrmDerivedObjectsResult.DerivedObjects, IFsrmDerivedObjectsResult.get_DerivedObjects, IFsrmDerivedObjectsResult::DerivedObjects, IFsrmDerivedObjectsResult::get_DerivedObjects, fs.ifsrmderivedobjectsresult_derivedobjects, fsrm.ifsrmderivedobjectsresult_derivedobjects, fsrm/IFsrmDerivedObjectsResult::DerivedObjects, fsrm/IFsrmDerivedObjectsResult::get_DerivedObjects, get_DerivedObjects
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmDerivedObjectsResult.DerivedObjects"]
+f1_keywords: 
+ - "fsrm/IFsrmDerivedObjectsResult.DerivedObjects"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

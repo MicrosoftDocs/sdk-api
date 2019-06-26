@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Attributes method, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_get_attributes_function, get_Attributes, get_Attributes method, get_Attributes method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Attributes, setup.imsmconfigurableitem_get_attributes
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigurableItem.get_Attributes"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem.get_Attributes"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

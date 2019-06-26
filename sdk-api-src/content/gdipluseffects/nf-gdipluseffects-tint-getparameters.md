@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Tint class, Tint class [GDI+],GetParameters method, Tint.GetParameters, Tint::GetParameters, _gdiplus_CLASS_Tint_GetParameters_, gdiplus._gdiplus_CLASS_Tint_GetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/Tint.GetParameters"]
+f1_keywords: 
+ - "gdipluseffects/Tint.GetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

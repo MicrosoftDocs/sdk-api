@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],put_IsRealTime method, IFsiFileItem2.put_IsRealTime, IFsiFileItem2::put_IsRealTime, imapi.ifsifileitem2_put_isrealtime, imapi2fs/IFsiFileItem2::put_IsRealTime, put_IsRealTime, put_IsRealTime method [IMAPI], put_IsRealTime method [IMAPI],IFsiFileItem2 interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiFileItem2.put_IsRealTime"]
+f1_keywords: 
+ - "imapi2fs/IFsiFileItem2.put_IsRealTime"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

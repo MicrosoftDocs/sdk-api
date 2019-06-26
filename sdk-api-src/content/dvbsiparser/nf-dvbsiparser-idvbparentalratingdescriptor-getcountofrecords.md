@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbParentalRatingDescriptor.GetCountOfRecords, IDvbParentalRatingDescriptor::GetCountOfRecords, dvbsiparser/IDvbParentalRatingDescriptor::GetCountOfRecords, mstv.idvbparentalratingdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbParentalRatingDescriptor.GetCountOfRecords"]
+f1_keywords: 
+ - "dvbsiparser/IDvbParentalRatingDescriptor.GetCountOfRecords"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

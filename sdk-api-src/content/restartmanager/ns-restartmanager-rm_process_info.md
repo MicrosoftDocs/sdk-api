@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info"
 ms.topic: struct
-f1_keywords: ["restartmanager/RM_PROCESS_INFO"]
+f1_keywords: 
+ - "restartmanager/RM_PROCESS_INFO"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

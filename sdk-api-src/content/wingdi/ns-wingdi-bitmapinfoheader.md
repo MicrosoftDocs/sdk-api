@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPINFOHEADER structure [DirectShow], BITMAPINFOHEADERStructure, BI_BITFIELDS, BI_RGB, dshow.bitmapinfoheader, tagBITMAPINFOHEADER, wingdi/BITMAPINFOHEADER"
 ms.topic: struct
-f1_keywords: ["wingdi/BITMAPINFOHEADER"]
+f1_keywords: 
+ - "wingdi/BITMAPINFOHEADER"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

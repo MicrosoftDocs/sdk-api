@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
 ms.topic: function
-f1_keywords: ["imm/ImmGetIMEFileName"]
+f1_keywords: 
+ - "imm/ImmGetIMEFileName"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStore method, IShellItem2.GetPropertyStore, IShellItem2::GetPropertyStore, _shell_IShellItem2_GetPropertyStore, shell.IShellItem2_GetPropertyStore, shobjidl_core/IShellItem2::GetPropertyStore
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItem2.GetPropertyStore"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2.GetPropertyStore"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

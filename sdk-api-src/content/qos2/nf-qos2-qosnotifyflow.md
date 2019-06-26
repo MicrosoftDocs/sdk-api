@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
 ms.topic: function
-f1_keywords: ["qos2/QOSNotifyFlow"]
+f1_keywords: 
+ - "qos2/QOSNotifyFlow"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

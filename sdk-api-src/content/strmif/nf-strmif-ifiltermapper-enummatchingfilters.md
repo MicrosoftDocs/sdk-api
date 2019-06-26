@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper.EnumMatchingFilters"]
+f1_keywords: 
+ - "strmif/IFilterMapper.EnumMatchingFilters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

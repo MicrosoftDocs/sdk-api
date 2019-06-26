@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS"
 ms.topic: struct
-f1_keywords: ["dsquery/DSQUERYPARAMS"]
+f1_keywords: 
+ - "dsquery/DSQUERYPARAMS"
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureCustomObjectSet.Create"]
+f1_keywords: 
+ - "msopc/IOpcSignatureCustomObjectSet.Create"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

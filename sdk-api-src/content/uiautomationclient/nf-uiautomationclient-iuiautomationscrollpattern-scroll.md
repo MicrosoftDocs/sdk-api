@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],Scroll method, IUIAutomationScrollPattern.Scroll, IUIAutomationScrollPattern::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.Scroll"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollPattern.Scroll"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

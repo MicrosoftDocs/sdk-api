@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS
 ms.topic: struct
-f1_keywords: ["strmif/AUDIO_STREAM_CONFIG_CAPS"]
+f1_keywords: 
+ - "strmif/AUDIO_STREAM_CONFIG_CAPS"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

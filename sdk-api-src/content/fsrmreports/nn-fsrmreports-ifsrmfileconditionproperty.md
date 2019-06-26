@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
 ms.topic: interface
-f1_keywords: ["fsrmreports/IFsrmFileConditionProperty"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileConditionProperty"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
 ms.topic: method
-f1_keywords: ["certenroll/IObjectId.GetAlgorithmName"]
+f1_keywords: 
+ - "certenroll/IObjectId.GetAlgorithmName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

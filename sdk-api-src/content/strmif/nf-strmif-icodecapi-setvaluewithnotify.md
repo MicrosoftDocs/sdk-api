@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecAPI.SetValueWithNotify, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.SetValueWithNotify"]
+f1_keywords: 
+ - "strmif/ICodecAPI.SetValueWithNotify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

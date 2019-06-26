@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetItemId method, ISingleItemException.GetItemId, ISingleItemException::GetItemId, winsync.isingleitemexception_getitemid, winsync/ISingleItemException::GetItemId
 ms.topic: method
-f1_keywords: ["winsync/ISingleItemException.GetItemId"]
+f1_keywords: 
+ - "winsync/ISingleItemException.GetItemId"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

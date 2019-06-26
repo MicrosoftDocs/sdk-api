@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetName method, ITextFont.GetName, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
 ms.topic: method
-f1_keywords: ["tom/ITextFont.GetName"]
+f1_keywords: 
+ - "tom/ITextFont.GetName"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

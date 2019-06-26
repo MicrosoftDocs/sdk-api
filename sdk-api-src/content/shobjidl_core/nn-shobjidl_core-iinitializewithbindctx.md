@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithBindCtx, IInitializeWithBindCtx interface [Windows Shell], IInitializeWithBindCtx interface [Windows Shell],described, _shell_IInitializeWithBindCtx, shell.IInitializeWithBindCtx, shobjidl_core/IInitializeWithBindCtx
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IInitializeWithBindCtx"]
+f1_keywords: 
+ - "shobjidl_core/IInitializeWithBindCtx"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

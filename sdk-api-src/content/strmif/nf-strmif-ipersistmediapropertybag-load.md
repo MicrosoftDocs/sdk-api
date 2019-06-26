@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load
 ms.topic: method
-f1_keywords: ["strmif/IPersistMediaPropertyBag.Load"]
+f1_keywords: 
+ - "strmif/IPersistMediaPropertyBag.Load"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

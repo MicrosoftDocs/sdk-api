@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetFileVersion, MsiGetFileVersion function, MsiGetFileVersionA, MsiGetFileVersionW, _msi_msigetfileversion, msi/MsiGetFileVersion, msi/MsiGetFileVersionA, msi/MsiGetFileVersionW, setup.msigetfileversion
 ms.topic: function
-f1_keywords: ["msi/MsiGetFileVersion"]
+f1_keywords: 
+ - "msi/MsiGetFileVersion"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.prjwriteplaceholderinfo, projectedfslib/PrjWritePlaceholderInfo
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjWritePlaceholderInfo"]
+f1_keywords: 
+ - "projectedfslib/PrjWritePlaceholderInfo"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSettingObject, GetSettingObject method [Offline Files], GetSettingObject method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetSettingObject method, IOfflineFilesCache.GetSettingObject, IOfflineFilesCache::GetSettingObject, cscobj/IOfflineFilesCache::GetSettingObject, of.iofflinefilescache_getsettingobject
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.GetSettingObject"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.GetSettingObject"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

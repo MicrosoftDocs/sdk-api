@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EffectsGoFullscreen, GoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GoFullscreen method, IWMPEffects.GoFullscreen, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
 ms.topic: method
-f1_keywords: ["effects/IWMPEffects.GoFullscreen"]
+f1_keywords: 
+ - "effects/IWMPEffects.GoFullscreen"
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

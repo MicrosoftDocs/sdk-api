@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSessionStatus, GetSessionStatus method, GetSessionStatus method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetSessionStatus method, ID3D12ProtectedSession.GetSessionStatus, ID3D12ProtectedSession::GetSessionStatus, d3d12/ID3D12ProtectedSession::GetSessionStatus, direct3d12.id3d12protectedsession_getsessionstatus
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12ProtectedSession.GetSessionStatus"]
+f1_keywords: 
+ - "d3d12/ID3D12ProtectedSession.GetSessionStatus"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

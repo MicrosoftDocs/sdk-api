@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SyncUsingStreamOffset method, IAMGraphStreams.SyncUsingStreamOffset, IAMGraphStreams::SyncUsingStreamOffset, IAMGraphStreamsSyncUsingStreamOffset, SyncUsingStreamOffset, SyncUsingStreamOffset method [DirectShow], SyncUsingStreamOffset method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_syncusingstreamoffset, strmif/IAMGraphStreams::SyncUsingStreamOffset
 ms.topic: method
-f1_keywords: ["strmif/IAMGraphStreams.SyncUsingStreamOffset"]
+f1_keywords: 
+ - "strmif/IAMGraphStreams.SyncUsingStreamOffset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

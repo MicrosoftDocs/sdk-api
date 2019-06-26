@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_EVENT_TYPE, PRTM_EVENT_TYPE, PRTM_EVENT_TYPE enumeration pointer [RAS], RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_TYPE, RTM_EVENT_TYPE enumeration [RAS], RTM_ROUTE_EXPIRED, _rtmv2ref_rtm_event_type, rras.rtm_event_type, rtmv2/PRTM_EVENT_TYPE, rtmv2/RTM_CHANGE_NOTIFICATION, rtmv2/RTM_ENTITY_DEREGISTERED, rtmv2/RTM_ENTITY_REGISTERED, rtmv2/RTM_EVENT_TYPE, rtmv2/RTM_ROUTE_EXPIRED"
 ms.topic: enum
-f1_keywords: ["rtmv2/RTM_EVENT_TYPE"]
+f1_keywords: 
+ - "rtmv2/RTM_EVENT_TYPE"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

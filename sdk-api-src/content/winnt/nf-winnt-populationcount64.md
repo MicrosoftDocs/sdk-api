@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PopulationCount64, PopulationCount64 function [Windows API], winnt/PopulationCount64, winprog.populationcount64
 ms.topic: function
-f1_keywords: ["winnt/PopulationCount64"]
+f1_keywords: 
+ - "winnt/PopulationCount64"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

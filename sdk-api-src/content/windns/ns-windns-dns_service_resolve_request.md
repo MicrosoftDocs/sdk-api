@@ -5,7 +5,8 @@ description: Contains the query parameters used in a call to [DnsServiceResolve]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_RESOLVE_REQUEST, DNS_SERVICE_RESOLVE_REQUEST
 ms.topic: language-reference
-f1_keywords: ["windns/_DNS_SERVICE_RESOLVE_REQUEST"]
+f1_keywords: 
+ - "windns/_DNS_SERVICE_RESOLVE_REQUEST"
 targetos: Windows
 product: Windows
 req.assembly: 

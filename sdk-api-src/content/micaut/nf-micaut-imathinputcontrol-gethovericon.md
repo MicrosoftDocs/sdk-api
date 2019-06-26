@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.GetHoverIcon"]
+f1_keywords: 
+ - "micaut/IMathInputControl.GetHoverIcon"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.SetPriority"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.SetPriority"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

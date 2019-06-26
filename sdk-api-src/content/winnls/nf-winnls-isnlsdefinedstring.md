@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsNLSDefinedString, IsNLSDefinedString function [Internationalization for Windows Applications], _win32_IsNLSDefinedString, intl.isnlsdefinedstring, winnls/IsNLSDefinedString
 ms.topic: function
-f1_keywords: ["winnls/IsNLSDefinedString"]
+f1_keywords: 
+ - "winnls/IsNLSDefinedString"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

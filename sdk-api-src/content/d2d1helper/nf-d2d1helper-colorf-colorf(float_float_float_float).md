@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorF, ColorF interface [Direct2D],ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor, ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D], ColorF(FLOAT,FLOAT,FLOAT,FLOAT) constructor [Direct2D],ColorF interface, ColorF.ColorF, ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF, ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)(FLOAT,FLOAT,FLOAT,FLOAT), D2D1.ColorF.ColorF(FLOAT,FLOAT,FLOAT,FLOAT), D2D1::ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT), direct2d.colorf_colorf_float__float__float__float_
 ms.topic: method
-f1_keywords: ["d2d1helper/ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)"]
+f1_keywords: 
+ - "d2d1helper/ColorF.ColorF(FLOAT, FLOAT, FLOAT, FLOAT)"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

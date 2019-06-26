@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Item method, IFaxJobs.get_Item, IFaxJobs::get_Item, _mfax_ifaxjobs_get_item, fax._mfax_ifaxjobs_get_item, faxcom/IFaxJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxJobs interface
 ms.topic: method
-f1_keywords: ["faxcom/IFaxJobs.get_Item"]
+f1_keywords: 
+ - "faxcom/IFaxJobs.get_Item"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

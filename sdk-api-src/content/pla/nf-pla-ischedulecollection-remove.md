@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],Remove method, IScheduleCollection.Remove, IScheduleCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IScheduleCollection interface, base.ischedulecollection_remove, pla.ischedulecollection_remove, pla/IScheduleCollection::Remove
 ms.topic: method
-f1_keywords: ["pla/IScheduleCollection.Remove"]
+f1_keywords: 
+ - "pla/IScheduleCollection.Remove"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

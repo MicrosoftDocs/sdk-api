@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO structure pointer, PROCESS_LEAP_SECOND_INFO, PROCESS_LEAP_SECOND_INFO structure, PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND, base.process_leap_second_info, processthreadsapi/PPROCESS_LEAP_SECOND_INFO, processthreadsapi/PROCESS_LEAP_SECOND_INFO"
 ms.topic: struct
-f1_keywords: ["processthreadsapi/PROCESS_LEAP_SECOND_INFO"]
+f1_keywords: 
+ - "processthreadsapi/PROCESS_LEAP_SECOND_INFO"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

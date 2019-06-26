@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoSampleAllocator.UninitializeSampleAllocator"]
+f1_keywords: 
+ - "mfidl/IMFVideoSampleAllocator.UninitializeSampleAllocator"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler], TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, taskschd.task_compatibility, taskschd/TASK_COMPATIBILITY, taskschd/TASK_COMPATIBILITY_AT, taskschd/TASK_COMPATIBILITY_V1, taskschd/TASK_COMPATIBILITY_V2
 ms.topic: enum
-f1_keywords: ["taskschd/TASK_COMPATIBILITY"]
+f1_keywords: 
+ - "taskschd/TASK_COMPATIBILITY"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

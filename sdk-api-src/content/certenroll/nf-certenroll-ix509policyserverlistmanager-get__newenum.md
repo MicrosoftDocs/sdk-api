@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],_NewEnum property, IX509PolicyServerListManager._NewEnum, IX509PolicyServerListManager.get__NewEnum, IX509PolicyServerListManager::_NewEnum, IX509PolicyServerListManager::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::_NewEnum, certenroll/IX509PolicyServerListManager::get__NewEnum, get__NewEnum, security.ix509policyserverlistmanager__newenum
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerListManager._NewEnum"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerListManager._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

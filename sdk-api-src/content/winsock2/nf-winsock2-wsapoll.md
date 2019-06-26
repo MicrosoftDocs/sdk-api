@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
 ms.topic: function
-f1_keywords: ["winsock2/WSAPoll"]
+f1_keywords: 
+ - "winsock2/WSAPoll"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC_TYPE, IPSEC_TRAFFIC_TYPE enumeration [Filtering], IPSEC_TRAFFIC_TYPE_MAX, IPSEC_TRAFFIC_TYPE_TRANSPORT, IPSEC_TRAFFIC_TYPE_TUNNEL, fwp.ipsec_traffic_type_enum, ipsectypes/IPSEC_TRAFFIC_TYPE, ipsectypes/IPSEC_TRAFFIC_TYPE_MAX, ipsectypes/IPSEC_TRAFFIC_TYPE_TRANSPORT, ipsectypes/IPSEC_TRAFFIC_TYPE_TUNNEL
 ms.topic: enum
-f1_keywords: ["ipsectypes/IPSEC_TRAFFIC_TYPE"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_TRAFFIC_TYPE"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

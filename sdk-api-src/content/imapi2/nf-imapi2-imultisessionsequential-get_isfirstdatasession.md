@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_IsFirstDataSession method, IMultisessionSequential.get_IsFirstDataSession, IMultisessionSequential::get_IsFirstDataSession, get_IsFirstDataSession, get_IsFirstDataSession method [IMAPI], get_IsFirstDataSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_isfirstdatasession, imapi2/IMultisessionSequential::get_IsFirstDataSession
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionSequential.get_IsFirstDataSession"]
+f1_keywords: 
+ - "imapi2/IMultisessionSequential.get_IsFirstDataSession"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes), TextureBrush.TextureBrush(Image*,Rect&,ImageAttributes*), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const Rect &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_Rect_dstRect_ImageAttributes_imageAttributes_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_Rect_dstRect_ImageAttributes_imageAttributes_
 ms.topic: method
-f1_keywords: ["gdiplusbrush/TextureBrush.TextureBrush"]
+f1_keywords: 
+ - "gdiplusbrush/TextureBrush.TextureBrush"
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

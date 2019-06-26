@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
 ms.topic: method
-f1_keywords: ["msctf/ITfInputProcessorProfileMgr.EnumProfiles"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfileMgr.EnumProfiles"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

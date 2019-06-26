@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo
 ms.topic: function
-f1_keywords: ["p2p/PeerPnrpGetCloudInfo"]
+f1_keywords: 
+ - "p2p/PeerPnrpGetCloudInfo"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

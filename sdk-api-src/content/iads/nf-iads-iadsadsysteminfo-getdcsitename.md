@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
 ms.topic: method
-f1_keywords: ["iads/IADsADSystemInfo.GetDCSiteName"]
+f1_keywords: 
+ - "iads/IADsADSystemInfo.GetDCSiteName"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

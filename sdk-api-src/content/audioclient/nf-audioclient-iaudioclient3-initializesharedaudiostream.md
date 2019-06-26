@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClient3 interface [Core Audio],InitializeSharedAudioStream method, IAudioClient3.InitializeSharedAudioStream, IAudioClient3::InitializeSharedAudioStream, InitializeSharedAudioStream, InitializeSharedAudioStream method [Core Audio], InitializeSharedAudioStream method [Core Audio],IAudioClient3 interface, audioclient/IAudioClient3::InitializeSharedAudioStream, coreaudio.iaudioclient3_initializesharedaudiostream
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClient3.InitializeSharedAudioStream"]
+f1_keywords: 
+ - "audioclient/IAudioClient3.InitializeSharedAudioStream"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

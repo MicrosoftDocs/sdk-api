@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices], ddrawint/DD_GETAVAILDRIVERMEMORYDATA, ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml, display.dd_getavaildrivermemorydata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_GETAVAILDRIVERMEMORYDATA"]
+f1_keywords: 
+ - "ddrawint/DD_GETAVAILDRIVERMEMORYDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

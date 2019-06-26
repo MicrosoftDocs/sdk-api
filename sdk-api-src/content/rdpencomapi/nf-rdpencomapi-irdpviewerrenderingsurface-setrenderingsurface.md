@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface method, IRDPViewerRenderingSurface.SetRenderingSurface, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP],IRDPViewerRenderingSurface interface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPViewerRenderingSurface.SetRenderingSurface"]
+f1_keywords: 
+ - "rdpencomapi/IRDPViewerRenderingSurface.SetRenderingSurface"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

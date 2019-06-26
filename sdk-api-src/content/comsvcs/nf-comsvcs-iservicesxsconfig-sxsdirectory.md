@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsDirectory method, IServiceSxsConfig.SxsDirectory, IServiceSxsConfig::SxsDirectory, SxsDirectory, SxsDirectory method [COM+], SxsDirectory method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsDirectory, comsvcs/IServiceSxsConfig::SxsDirectory, cos.iservicesxsconfig_sxsdirectory
 ms.topic: method
-f1_keywords: ["comsvcs/IServiceSxsConfig.SxsDirectory"]
+f1_keywords: 
+ - "comsvcs/IServiceSxsConfig.SxsDirectory"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

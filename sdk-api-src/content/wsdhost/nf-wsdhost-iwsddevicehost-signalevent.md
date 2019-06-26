@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDDeviceHost.SignalEvent"]
+f1_keywords: 
+ - "wsdhost/IWSDDeviceHost.SignalEvent"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

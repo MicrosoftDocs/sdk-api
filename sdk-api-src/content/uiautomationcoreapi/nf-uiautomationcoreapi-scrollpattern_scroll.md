@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollPattern_Scroll, ScrollPattern_Scroll function [Windows Accessibility], uiauto.uiauto_ScrollPattern_ScrollConPat, uiauto_ScrollPattern_ScrollConPat, uiautomationcoreapi/ScrollPattern_Scroll, winauto.uiauto_ScrollPattern_ScrollConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/ScrollPattern_Scroll"]
+f1_keywords: 
+ - "uiautomationcoreapi/ScrollPattern_Scroll"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

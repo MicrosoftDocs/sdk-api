@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],LoadModule method, ITargetInfo.LoadModule, ITargetInfo::LoadModule, LoadModule, LoadModule method [SMI], LoadModule method [SMI],ITargetInfo interface, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.LoadModule"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.LoadModule"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

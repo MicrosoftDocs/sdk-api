@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureAuthenticate2, ISCPSecureAuthenticate2 interface [windows Media Device Manager], ISCPSecureAuthenticate2 interface [windows Media Device Manager],described, ISCPSecureAuthenticate2Interface, mswmdm/ISCPSecureAuthenticate2, wmdm.iscpsecureauthenticate2
 ms.topic: interface
-f1_keywords: ["mswmdm/ISCPSecureAuthenticate2"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureAuthenticate2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

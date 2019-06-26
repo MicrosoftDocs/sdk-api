@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFILEGROUPDESCRIPTORW, FILEGROUPDESCRIPTOR, FILEGROUPDESCRIPTOR structure [Windows Shell], FILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTORW, LPFILEGROUPDESCRIPTOR, LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell], _FILEGROUPDESCRIPTORA, _FILEGROUPDESCRIPTORW, _win32_FILEGROUPDESCRIPTOR, shell.FILEGROUPDESCRIPTOR, shlobj_core/FILEGROUPDESCRIPTOR, shlobj_core/LPFILEGROUPDESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["shlobj_core/FILEGROUPDESCRIPTOR"]
+f1_keywords: 
+ - "shlobj_core/FILEGROUPDESCRIPTOR"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

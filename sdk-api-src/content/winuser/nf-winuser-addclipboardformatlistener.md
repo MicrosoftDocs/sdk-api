@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddClipboardFormatListener, AddClipboardFormatListener function [Data Exchange], _win32_AddClipboardFormatListener, _win32_addclipboardformatlistener_cpp, dataxchg.addclipboardformatlistener, winui._win32_addclipboardformatlistener, winuser/AddClipboardFormatListener
 ms.topic: function
-f1_keywords: ["winuser/AddClipboardFormatListener"]
+f1_keywords: 
+ - "winuser/AddClipboardFormatListener"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

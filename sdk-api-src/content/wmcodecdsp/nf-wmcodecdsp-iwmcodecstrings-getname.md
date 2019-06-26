@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/IWMCodecStrings::GetName
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMCodecStrings.GetName"]
+f1_keywords: 
+ - "wmcodecdsp/IWMCodecStrings.GetName"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MajorVersion property, IFaxInboundRoutingExtension.MajorVersion, IFaxInboundRoutingExtension.get_MajorVersion, IFaxInboundRoutingExtension::MajorVersion, IFaxInboundRoutingExtension::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.majorversion, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorversion_cpp, fax._mfax_faxinboundroutingextension_majorversion, faxcomex/IFaxInboundRoutingExtension::MajorVersion, faxcomex/IFaxInboundRoutingExtension::get_MajorVersion, get_MajorVersion
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxInboundRoutingExtension.MajorVersion"]
+f1_keywords: 
+ - "faxcomex/IFaxInboundRoutingExtension.MajorVersion"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmStartSession, RmStartSession function [Restart Mgr], restartmanager/RmStartSession, rstmgr.rmstartsession
 ms.topic: function
-f1_keywords: ["restartmanager/RmStartSession"]
+f1_keywords: 
+ - "restartmanager/RmStartSession"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

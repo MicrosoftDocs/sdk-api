@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
 ms.topic: method
-f1_keywords: ["strmif/IFilterChain.StartChain"]
+f1_keywords: 
+ - "strmif/IFilterChain.StartChain"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

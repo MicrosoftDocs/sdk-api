@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_LastUsedUserSectorInImage method, IRawCDImageCreator.get_LastUsedUserSectorInImage, IRawCDImageCreator::get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage, get_LastUsedUserSectorInImage method [IMAPI], get_LastUsedUserSectorInImage method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_lastusedusersectorinimage, imapi2/IRawCDImageCreator::get_LastUsedUserSectorInImage
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.get_LastUsedUserSectorInImage"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.get_LastUsedUserSectorInImage"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, IFolderView interface [Windows Shell],SetCurrentViewMode method, IFolderView.SetCurrentViewMode, IFolderView::SetCurrentViewMode, SetCurrentViewMode, SetCurrentViewMode method [Windows Shell], SetCurrentViewMode method [Windows Shell],IFolderView interface, _shell_IFolderView_SetCurrentViewMode, shell.IFolderView_SetCurrentViewMode, shobjidl_core/IFolderView::SetCurrentViewMode
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView.SetCurrentViewMode"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView.SetCurrentViewMode"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
 ms.topic: interface
-f1_keywords: ["restrictederrorinfo/ILanguageExceptionStackBackTrace"]
+f1_keywords: 
+ - "restrictederrorinfo/ILanguageExceptionStackBackTrace"
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

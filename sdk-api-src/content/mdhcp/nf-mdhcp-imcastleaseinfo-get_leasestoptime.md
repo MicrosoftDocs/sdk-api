@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStopTime method, IMcastLeaseInfo.get_LeaseStopTime, IMcastLeaseInfo::get_LeaseStopTime, _tapi3_imcastleaseinfo_get_leasestoptime, get_LeaseStopTime, get_LeaseStopTime method [TAPI 2.2], get_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStopTime, tapi3.imcastleaseinfo_get_leasestoptime
 ms.topic: method
-f1_keywords: ["mdhcp/IMcastLeaseInfo.get_LeaseStopTime"]
+f1_keywords: 
+ - "mdhcp/IMcastLeaseInfo.get_LeaseStopTime"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

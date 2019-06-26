@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketClose, WinHttpWebSocketClose function [WinHTTP], http.winhttpwebsocketclose, winhttp/WinHttpWebSocketClose
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpWebSocketClose"]
+f1_keywords: 
+ - "winhttp/WinHttpWebSocketClose"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

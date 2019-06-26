@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChange, GetChange method [Windows Sync], GetChange method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetChange method, ISyncProviderRegistration.GetChange, ISyncProviderRegistration::GetChange, syncregistration/ISyncProviderRegistration::GetChange, winsync.isyncproviderregistration_getchange
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderRegistration.GetChange"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderRegistration.GetChange"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

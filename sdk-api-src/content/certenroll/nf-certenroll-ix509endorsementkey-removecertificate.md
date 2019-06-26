@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey interface [Security],RemoveCertificate method, IX509EndorsementKey.RemoveCertificate, IX509EndorsementKey::RemoveCertificate, RemoveCertificate, RemoveCertificate method [Security], RemoveCertificate method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::RemoveCertificate, security.ix509endorsementkey_removecertificate
 ms.topic: method
-f1_keywords: ["certenroll/IX509EndorsementKey.RemoveCertificate"]
+f1_keywords: 
+ - "certenroll/IX509EndorsementKey.RemoveCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

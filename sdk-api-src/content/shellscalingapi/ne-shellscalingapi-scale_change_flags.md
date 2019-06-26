@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCALE_CHANGE_FLAGS, SCALE_CHANGE_FLAGS enumeration [Windows Shell], SCF_PHYSICAL, SCF_SCALE, SCF_VALUE_NONE, shell.scale_change_flags, shellscalingapi/SCALE_CHANGE_FLAGS, shellscalingapi/SCF_PHYSICAL, shellscalingapi/SCF_SCALE, shellscalingapi/SCF_VALUE_NONE
 ms.topic: enum
-f1_keywords: ["shellscalingapi/SCALE_CHANGE_FLAGS"]
+f1_keywords: 
+ - "shellscalingapi/SCALE_CHANGE_FLAGS"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

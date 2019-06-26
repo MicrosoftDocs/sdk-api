@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
 ms.topic: function
-f1_keywords: ["processsnapshot/PssQuerySnapshot"]
+f1_keywords: 
+ - "processsnapshot/PssQuerySnapshot"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

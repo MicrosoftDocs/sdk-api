@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBlobHeapSize, GetBlobHeapSize method [Windows Runtime], GetBlobHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlobHeapSize method, IMetaDataTables.GetBlobHeapSize, IMetaDataTables::GetBlobHeapSize, rometadataapi/IMetaDataTables::GetBlobHeapSize, winrt.imetadatatables_getblobheapsize
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetBlobHeapSize"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetBlobHeapSize"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

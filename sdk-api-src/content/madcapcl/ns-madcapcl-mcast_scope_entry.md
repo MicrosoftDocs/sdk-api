@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structure [MADCAP], PMCAST_SCOPE_ENTRY, PMCAST_SCOPE_ENTRY structure pointer [MADCAP], _mdhcp_mcast_scope_entry, madcap.mcast_scope_entry, madcapcl/MCAST_SCOPE_ENTRY, madcapcl/PMCAST_SCOPE_ENTRY"
 ms.topic: struct
-f1_keywords: ["madcapcl/MCAST_SCOPE_ENTRY"]
+f1_keywords: 
+ - "madcapcl/MCAST_SCOPE_ENTRY"
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

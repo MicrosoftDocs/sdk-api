@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarItemMgr.GetItemFloatingRect, ITfLangBarItemMgr::GetItemFloatingRect, _tsf_itflangbaritemmgr_getitemfloatingrect_ref, ctfutb/ITfLangBarItemMgr::GetItemFloatingRect, tsf.itflangbaritemmgr_getitemfloatingrect
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemMgr.GetItemFloatingRect"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemMgr.GetItemFloatingRect"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

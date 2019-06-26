@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDragImage, GetDragImage method [Windows Controls], GetDragImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetDragImage method, IImageList.GetDragImage, IImageList::GetDragImage, comctl_IImageList_GetDragImage, comctl_IImageList_GetDragImage_cpp, commoncontrols/IImageList::GetDragImage, controls.IImageList_GetDragImage, controls.comctl_IImageList_GetDragImage
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.GetDragImage"]
+f1_keywords: 
+ - "commoncontrols/IImageList.GetDragImage"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

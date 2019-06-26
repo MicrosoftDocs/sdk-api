@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbOrchestration"]
+f1_keywords: 
+ - "sbtsv/ITsSbOrchestration"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

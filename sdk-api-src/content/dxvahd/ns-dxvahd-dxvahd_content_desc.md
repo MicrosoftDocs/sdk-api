@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_CONTENT_DESC"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_CONTENT_DESC"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

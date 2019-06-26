@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClassPart, CreateClassPart method [Windows Management Instrumentation], CreateClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],CreateClassPart method, IWbemPath.CreateClassPart, IWbemPath::CreateClassPart, _hmm_iwbempath_createclasspart, wmi.iwbempath_createclasspart, wmiutils/IWbemPath::CreateClassPart
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.CreateClassPart"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.CreateClassPart"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

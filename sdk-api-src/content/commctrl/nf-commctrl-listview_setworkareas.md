@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetWorkAreas"]
+f1_keywords: 
+ - "commctrl/ListView_SetWorkAreas"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

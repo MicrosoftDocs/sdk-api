@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],Timeout property, IWdsTransportTftpClient.Timeout, IWdsTransportTftpClient.get_Timeout, IWdsTransportTftpClient::Timeout, IWdsTransportTftpClient::get_Timeout, Timeout property [Windows Deployment Services], Timeout property [Windows Deployment Services],IWdsTransportTftpClient interface, get_Timeout, wds.iwdstransporttftpclient_timeout, wdstptmgmt/IWdsTransportTftpClient::Timeout, wdstptmgmt/IWdsTransportTftpClient::get_Timeout
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportTftpClient.Timeout"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportTftpClient.Timeout"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

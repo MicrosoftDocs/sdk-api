@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerName method, IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
 ms.topic: method
-f1_keywords: ["qnetwork/IAMExtendedSeeking.GetMarkerName"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedSeeking.GetMarkerName"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

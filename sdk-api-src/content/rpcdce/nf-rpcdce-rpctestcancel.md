@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
 ms.topic: function
-f1_keywords: ["rpcdce/RpcTestCancel"]
+f1_keywords: 
+ - "rpcdce/RpcTestCancel"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

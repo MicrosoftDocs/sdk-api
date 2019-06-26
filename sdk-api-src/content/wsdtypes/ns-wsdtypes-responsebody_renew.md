@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_renew_struct, wsdtypes/RESPONSEBODY_Renew
 ms.topic: struct
-f1_keywords: ["wsdtypes/RESPONSEBODY_Renew"]
+f1_keywords: 
+ - "wsdtypes/RESPONSEBODY_Renew"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

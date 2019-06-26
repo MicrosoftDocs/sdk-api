@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollItemPattern interface [Windows Accessibility],ScrollIntoView method, IUIAutomationScrollItemPattern.ScrollIntoView, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationScrollItemPattern interface, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollItemPattern.ScrollIntoView"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollItemPattern.ScrollIntoView"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

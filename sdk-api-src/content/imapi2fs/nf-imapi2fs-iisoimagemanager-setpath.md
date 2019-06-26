@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetPath method, IIsoImageManager.SetPath, IIsoImageManager::SetPath, SetPath, SetPath method [IMAPI], SetPath method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setpath, imapi2fs/IIsoImageManager::SetPath
 ms.topic: method
-f1_keywords: ["imapi2fs/IIsoImageManager.SetPath"]
+f1_keywords: 
+ - "imapi2fs/IIsoImageManager.SetPath"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

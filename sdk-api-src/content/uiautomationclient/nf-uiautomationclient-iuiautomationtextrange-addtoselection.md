@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],AddToSelection method, IUIAutomationTextRange.AddToSelection, IUIAutomationTextRange::AddToSelection, uiauto.uiauto_IUIAutomationTextRange_AddToSelection, uiauto_IUIAutomationTextRange_AddToSelection, uiautomationclient/IUIAutomationTextRange::AddToSelection, winauto.uiauto_IUIAutomationTextRange_AddToSelection
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.AddToSelection"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.AddToSelection"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

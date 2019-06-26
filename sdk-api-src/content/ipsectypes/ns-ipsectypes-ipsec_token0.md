@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN0, IPSEC_TOKEN0 structure [Filtering], fwp.ipsec_token0, ipsectypes/IPSEC_TOKEN0
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_TOKEN0"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_TOKEN0"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

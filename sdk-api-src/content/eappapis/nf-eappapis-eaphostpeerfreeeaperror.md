@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerFreeEapError"]
+f1_keywords: 
+ - "eappapis/EapHostPeerFreeEapError"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

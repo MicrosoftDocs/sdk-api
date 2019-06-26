@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
 ms.topic: struct
-f1_keywords: ["winsock2/SERVENT"]
+f1_keywords: 
+ - "winsock2/SERVENT"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

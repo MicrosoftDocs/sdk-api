@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorInputFormats, PDXVAHDSW_GetVideoProcessorInputFormats callback, PDXVAHDSW_GetVideoProcessorInputFormats callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats, mf.pdxvahdsw_getvideoprocessorinputformats
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_GetVideoProcessorInputFormats"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

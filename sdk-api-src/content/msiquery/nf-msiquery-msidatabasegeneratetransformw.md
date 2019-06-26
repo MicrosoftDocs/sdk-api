@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform
 ms.topic: function
-f1_keywords: ["msiquery/MsiDatabaseGenerateTransform"]
+f1_keywords: 
+ - "msiquery/MsiDatabaseGenerateTransform"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

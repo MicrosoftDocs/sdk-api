@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],SetFormattedText method, ITextStrings.SetFormattedText, ITextStrings::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStrings interface, controls.itextstrings_setformattedtext, tom/ITextStrings::SetFormattedText
 ms.topic: method
-f1_keywords: ["tom/ITextStrings.SetFormattedText"]
+f1_keywords: 
+ - "tom/ITextStrings.SetFormattedText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

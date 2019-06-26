@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_A_DATA, DNS_A_DATA, DNS_A_DATA structure [DNS], PDNS_A_DATA, PDNS_A_DATA structure pointer [DNS], _dns_dns_a_data, dns.dns_a_data, windns/DNS_A_DATA, windns/PDNS_A_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_A_DATA"]
+f1_keywords: 
+ - "windns/DNS_A_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

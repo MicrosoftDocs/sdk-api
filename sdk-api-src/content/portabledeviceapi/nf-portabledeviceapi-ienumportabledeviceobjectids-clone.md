@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceObjectIDs.Clone, IEnumPortableDeviceObjectIDs::Clone, IEnumPortableDeviceObjectIDsClone, portabledeviceapi/IEnumPortableDeviceObjectIDs::Clone, wpdsdk.ienumportabledeviceobjectids_clone
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IEnumPortableDeviceObjectIDs.Clone"]
+f1_keywords: 
+ - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Clone"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

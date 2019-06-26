@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method, EndDraw method,ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,EndDraw method, ICompositionDrawingSurfaceInterop.EndDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::EndDraw, ICompositionDrawingSurfaceInterop::composition, w_ui_comp.icompositiondrawingsurfaceinterop_enddraw, windows/ICompositionDrawingSurfaceInterop::EndDraw
 ms.topic: method
-f1_keywords: ["windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.EndDraw"]
+f1_keywords: 
+ - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.EndDraw"
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

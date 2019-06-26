@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],GetAppSec method, CSecureChannelClient.GetAppSec, CSecureChannelClient::GetAppSec, CSecureChannelClientGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::GetAppSec, wmdm.csecurechannelclient_getappsec
 ms.topic: method
-f1_keywords: ["scclient/CSecureChannelClient.GetAppSec"]
+f1_keywords: 
+ - "scclient/CSecureChannelClient.GetAppSec"
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDecompressor, CloseDecompressor function [Compression API], cmpapi.closedecompressor, compressapi/CloseDecompressor
 ms.topic: function
-f1_keywords: ["compressapi/CloseDecompressor"]
+f1_keywords: 
+ - "compressapi/CloseDecompressor"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

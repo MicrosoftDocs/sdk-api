@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceMetadata, GetServiceMetadata method, GetServiceMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetServiceMetadata method, IWSDServiceProxy.GetServiceMetadata, IWSDServiceProxy::GetServiceMetadata, ncd.iwsdserviceproxy_getservicemetadata_method, wsdclient/IWSDServiceProxy::GetServiceMetadata
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxy.GetServiceMetadata"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxy.GetServiceMetadata"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryProperties method, IGuideData.GetScheduleEntryProperties, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
 ms.topic: method
-f1_keywords: ["bdatif/IGuideData.GetScheduleEntryProperties"]
+f1_keywords: 
+ - "bdatif/IGuideData.GetScheduleEntryProperties"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

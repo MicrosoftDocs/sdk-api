@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.CloneFrame"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.CloneFrame"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

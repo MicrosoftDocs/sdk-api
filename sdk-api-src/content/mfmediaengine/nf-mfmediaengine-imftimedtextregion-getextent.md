@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Media Foundation], GetExtent method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetExtent method, IMFTimedTextRegion.GetExtent, IMFTimedTextRegion::GetExtent, mf.imftimedtextregion_getextent, mfmediaengine/IMFTimedTextRegion::GetExtent
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextRegion.GetExtent"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextRegion.GetExtent"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

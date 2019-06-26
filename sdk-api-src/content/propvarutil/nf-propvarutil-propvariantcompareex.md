@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PVCF_DEFAULT, PVCF_TREATEMPTYASGREATERTHAN, PVCF_USESTRCMP, PVCF_USESTRCMPC, PVCF_USESTRCMPI, PVCF_USESTRCMPIC, PropVariantCompareEx, PropVariantCompareEx function [Windows Properties], _shell_PropVariantCompareEx, properties.PropVariantCompareEx, propvarutil/PropVariantCompareEx, shell.PropVariantCompareEx
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantCompareEx"]
+f1_keywords: 
+ - "propvarutil/PropVariantCompareEx"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

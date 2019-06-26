@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessGroupAffinity, GetProcessGroupAffinity function, base.getprocessgroupaffinity, processtopologyapi/GetProcessGroupAffinity, winbase/GetProcessGroupAffinity
 ms.topic: function
-f1_keywords: ["processtopologyapi/GetProcessGroupAffinity"]
+f1_keywords: 
+ - "processtopologyapi/GetProcessGroupAffinity"
 req.header: processtopologyapi.h
 req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

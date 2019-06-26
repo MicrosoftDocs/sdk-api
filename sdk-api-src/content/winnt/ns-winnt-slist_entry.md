@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
 ms.topic: struct
-f1_keywords: ["winnt/SLIST_ENTRY"]
+f1_keywords: 
+ - "winnt/SLIST_ENTRY"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],GetProfileId method, IMFSensorProfile.GetProfileId, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorProfile.GetProfileId"]
+f1_keywords: 
+ - "mfidl/IMFSensorProfile.GetProfileId"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

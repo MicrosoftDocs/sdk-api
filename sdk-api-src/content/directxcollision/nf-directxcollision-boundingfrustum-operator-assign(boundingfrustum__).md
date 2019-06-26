@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],op_Assignment method, BoundingFrustum.op_Assignment, BoundingFrustum.operator-assign(BoundingFrustum &&), BoundingFrustum.operator=, BoundingFrustum::operator-assign(BoundingFrustum &&), BoundingFrustum::operator=, dxmath.boundingfrustum_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingFrustum interface, operator=
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingFrustum.op_Assignment"]
+f1_keywords: 
+ - "directxcollision/BoundingFrustum.op_Assignment"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

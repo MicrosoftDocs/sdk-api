@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline
 ms.topic: interface
-f1_keywords: ["vds/IVdsDiskOnline"]
+f1_keywords: 
+ - "vds/IVdsDiskOnline"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

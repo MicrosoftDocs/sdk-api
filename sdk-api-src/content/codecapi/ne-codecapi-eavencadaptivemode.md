@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncAdaptiveMode, codecapi/eAVEncAdaptiveMode_FrameRate, codecapi/eAVEncAdaptiveMode_None, codecapi/eAVEncAdaptiveMode_Resolution, eAVEncAdaptiveMode, eAVEncAdaptiveMode enumeration [Media Foundation], eAVEncAdaptiveMode_FrameRate, eAVEncAdaptiveMode_None, eAVEncAdaptiveMode_Resolution, mf.eavencadaptivemode
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncAdaptiveMode"]
+f1_keywords: 
+ - "codecapi/eAVEncAdaptiveMode"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

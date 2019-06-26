@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Reset, IIdentityStore::Reset, Reset, Reset method [Security], Reset method [Security],IIdentityStore interface, identitystore/IIdentityStore::Reset, security.iidentitystore_reset
 ms.topic: method
-f1_keywords: ["identitystore/IIdentityStore.Reset"]
+f1_keywords: 
+ - "identitystore/IIdentityStore.Reset"
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordTitleText, GetRecordTitleText method [Microsoft TV Technologies], GetRecordTitleText method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordTitleText method, IATSC_EIT.GetRecordTitleText, IATSC_EIT::GetRecordTitleText, IATSC_EITGetRecordTitleText, atscpsipparser/IATSC_EIT::GetRecordTitleText, mstv.iatsc_eit_getrecordtitletext
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_EIT.GetRecordTitleText"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_EIT.GetRecordTitleText"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

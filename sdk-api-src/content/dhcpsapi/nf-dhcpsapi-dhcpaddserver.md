@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpAddServer, DhcpAddServer function [DHCP], dhcp.dhcpaddserver, dhcpsapi/DhcpAddServer
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpAddServer"]
+f1_keywords: 
+ - "dhcpsapi/DhcpAddServer"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

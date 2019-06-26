@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.UpdateVideo"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.UpdateVideo"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

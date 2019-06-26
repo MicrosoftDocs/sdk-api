@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion interface [windows Media Format],SetType method, IWMMutualExclusion.SetType, IWMMutualExclusion::SetType, IWMMutualExclusionSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMMutualExclusion interface, wmformat.iwmmutualexclusion_settype, wmsdkidl/IWMMutualExclusion::SetType
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion.SetType"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion.SetType"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

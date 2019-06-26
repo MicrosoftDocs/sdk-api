@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectorCount, GetConnectorCount method [Core Audio], GetConnectorCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnectorCount method, IDeviceTopology.GetConnectorCount, IDeviceTopology::GetConnectorCount, IDeviceTopologyGetConnectorCount, coreaudio.idevicetopology_getconnectorcount, devicetopology/IDeviceTopology::GetConnectorCount
 ms.topic: method
-f1_keywords: ["devicetopology/IDeviceTopology.GetConnectorCount"]
+f1_keywords: 
+ - "devicetopology/IDeviceTopology.GetConnectorCount"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

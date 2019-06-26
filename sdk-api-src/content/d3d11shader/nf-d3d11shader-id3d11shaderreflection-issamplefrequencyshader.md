@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 55289906-bcde-3c18-a7a9-103b6e0d4c54, ID3D11ShaderReflection interface [Direct3D 11],IsSampleFrequencyShader method, ID3D11ShaderReflection.IsSampleFrequencyShader, ID3D11ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method [Direct3D 11], IsSampleFrequencyShader method [Direct3D 11],ID3D11ShaderReflection interface, d3d11shader/ID3D11ShaderReflection::IsSampleFrequencyShader, direct3d11.id3d11shaderreflection_issamplefrequencyshader
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ShaderReflection.IsSampleFrequencyShader"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ShaderReflection.IsSampleFrequencyShader"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

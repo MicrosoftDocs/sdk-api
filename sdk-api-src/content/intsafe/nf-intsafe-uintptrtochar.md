@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToChar, UIntPtrToChar function [Windows Shell], intsafe/UIntPtrToChar, shell.UIntPtrToChar
 ms.topic: function
-f1_keywords: ["intsafe/UIntPtrToChar"]
+f1_keywords: 
+ - "intsafe/UIntPtrToChar"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

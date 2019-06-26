@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolManager.Uninitialize"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolManager.Uninitialize"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

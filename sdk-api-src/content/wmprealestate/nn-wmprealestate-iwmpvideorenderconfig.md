@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPVideoRenderConfig, IWMPVideoRenderConfig interface [Windows Media Player], IWMPVideoRenderConfig interface [Windows Media Player],described, IWMPVideoRenderConfigInterface, wmp.iwmpvideorenderconfig, wmprealestate/IWMPVideoRenderConfig
 ms.topic: interface
-f1_keywords: ["wmprealestate/IWMPVideoRenderConfig"]
+f1_keywords: 
+ - "wmprealestate/IWMPVideoRenderConfig"
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

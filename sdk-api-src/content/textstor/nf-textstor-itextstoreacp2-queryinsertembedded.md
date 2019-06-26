@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP2.QueryInsertEmbedded, ITextStoreACP2::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::QueryInsertEmbedded, tsf.itextstoreacp2_queryinsertembedded
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP2.QueryInsertEmbedded"]
+f1_keywords: 
+ - "textstor/ITextStoreACP2.QueryInsertEmbedded"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

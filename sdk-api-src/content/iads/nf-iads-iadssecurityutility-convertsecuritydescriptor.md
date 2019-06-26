@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, ConvertSecurityDescriptor, ConvertSecurityDescriptor method [ADSI], ConvertSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],ConvertSecurityDescriptor method, IADsSecurityUtility.ConvertSecurityDescriptor, IADsSecurityUtility::ConvertSecurityDescriptor, _ds_iadssecurityutility_convertsecuritydescriptor, adsi.iadssecurityutility__convertsecuritydescriptor, adsi.iadssecurityutility_convertsecuritydescriptor, iads/IADsSecurityUtility::ConvertSecurityDescriptor
 ms.topic: method
-f1_keywords: ["iads/IADsSecurityUtility.ConvertSecurityDescriptor"]
+f1_keywords: 
+ - "iads/IADsSecurityUtility.ConvertSecurityDescriptor"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

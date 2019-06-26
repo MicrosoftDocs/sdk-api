@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
 ms.topic: method
-f1_keywords: ["iads/IADsNameTranslate.SetEx"]
+f1_keywords: 
+ - "iads/IADsNameTranslate.SetEx"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ModeChange method, IWMPEvents.ModeChange, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.ModeChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.ModeChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

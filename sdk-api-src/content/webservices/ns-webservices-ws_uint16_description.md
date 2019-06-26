@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_UINT16_DESCRIPTION, WS_UINT16_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT16_DESCRIPTION, wsw.ws_uint16_description
 ms.topic: struct
-f1_keywords: ["webservices/WS_UINT16_DESCRIPTION"]
+f1_keywords: 
+ - "webservices/WS_UINT16_DESCRIPTION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

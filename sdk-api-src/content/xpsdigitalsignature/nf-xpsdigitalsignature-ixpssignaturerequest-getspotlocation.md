@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureRequest.GetSpotLocation"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureRequest.GetSpotLocation"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

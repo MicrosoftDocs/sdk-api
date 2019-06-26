@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardFrom, DiscardFrom method [COM], DiscardFrom method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],DiscardFrom method, IOleUndoManager.DiscardFrom, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.DiscardFrom"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.DiscardFrom"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

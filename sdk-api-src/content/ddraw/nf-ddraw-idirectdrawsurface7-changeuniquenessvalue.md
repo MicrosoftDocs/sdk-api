@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeUniquenessValue, ChangeUniquenessValue method [DirectDraw], ChangeUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],ChangeUniquenessValue method, IDirectDrawSurface7.ChangeUniquenessValue, IDirectDrawSurface7::ChangeUniquenessValue, ddraw/IDirectDrawSurface7::ChangeUniquenessValue, directdraw.idirectdrawsurface7_changeuniquenessvalue
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.ChangeUniquenessValue"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.ChangeUniquenessValue"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

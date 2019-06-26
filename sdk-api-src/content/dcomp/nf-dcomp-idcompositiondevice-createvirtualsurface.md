@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice.CreateVirtualSurface, IDCompositionDevice::CreateVirtualSurface, dcomp/IDCompositionDevice::CreateVirtualSurface, directcomp.idcompositiondevice_createvirtualsurface
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateVirtualSurface"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateVirtualSurface"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

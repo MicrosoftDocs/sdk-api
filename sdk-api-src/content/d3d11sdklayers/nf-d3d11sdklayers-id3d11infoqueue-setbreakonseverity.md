@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1dc10d17-30bc-4151-6e43-5c1c7fbd518c, ID3D11InfoQueue interface [Direct3D 11],SetBreakOnSeverity method, ID3D11InfoQueue.SetBreakOnSeverity, ID3D11InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method [Direct3D 11], SetBreakOnSeverity method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetBreakOnSeverity, direct3d11.id3d11infoqueue_setbreakonseverity
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.SetBreakOnSeverity"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.SetBreakOnSeverity"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

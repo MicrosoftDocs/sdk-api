@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],IpAddress property, IWdsTransportClient.IpAddress, IWdsTransportClient.get_IpAddress, IWdsTransportClient::IpAddress, IWdsTransportClient::get_IpAddress, IpAddress property [Windows Deployment Services], IpAddress property [Windows Deployment Services],IWdsTransportClient interface, get_IpAddress, wds.iwdstransportclient_ipaddress, wdstptmgmt/IWdsTransportClient::IpAddress, wdstptmgmt/IWdsTransportClient::get_IpAddress
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportClient.IpAddress"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportClient.IpAddress"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

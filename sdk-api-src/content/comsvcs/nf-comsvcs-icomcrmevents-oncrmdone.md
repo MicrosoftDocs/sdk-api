@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDone method, IComCRMEvents.OnCRMDone, IComCRMEvents::OnCRMDone, OnCRMDone, OnCRMDone method [COM+], OnCRMDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDone, comsvcs/IComCRMEvents::OnCRMDone, cos.icomcrmevents_oncrmdone
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMDone"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMDone"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

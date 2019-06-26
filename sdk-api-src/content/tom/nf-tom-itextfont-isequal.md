@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.IsEqual, ITextFont::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextFont interface, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
 ms.topic: method
-f1_keywords: ["tom/ITextFont.IsEqual"]
+f1_keywords: 
+ - "tom/ITextFont.IsEqual"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

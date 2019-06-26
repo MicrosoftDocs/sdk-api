@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDepthStencilArray, GetDepthStencilArray method [Direct3D 10], GetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],GetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray, c70b6288-bffb-443b-6afe-0fe1168b1cf6, d3d10effect/ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_getdepthstencilarray
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray"
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

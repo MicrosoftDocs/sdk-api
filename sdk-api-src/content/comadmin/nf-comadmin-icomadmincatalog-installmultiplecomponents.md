@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleComponents method, ICOMAdminCatalog.InstallMultipleComponents, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.InstallMultipleComponents"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.InstallMultipleComponents"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

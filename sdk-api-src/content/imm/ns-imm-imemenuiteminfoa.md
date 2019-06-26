@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *PIMEMENUITEMINFOA, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW"
 ms.topic: struct
-f1_keywords: ["imm/IMEMENUITEMINFO"]
+f1_keywords: 
+ - "imm/IMEMENUITEMINFO"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

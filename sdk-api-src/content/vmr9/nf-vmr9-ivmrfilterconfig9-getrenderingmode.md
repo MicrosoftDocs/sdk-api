@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingMode method, IVMRFilterConfig9.GetRenderingMode, IVMRFilterConfig9::GetRenderingMode, IVMRFilterConfig9GetRenderingMode, dshow.ivmrfilterconfig9_getrenderingmode, vmr9/IVMRFilterConfig9::GetRenderingMode
 ms.topic: method
-f1_keywords: ["vmr9/IVMRFilterConfig9.GetRenderingMode"]
+f1_keywords: 
+ - "vmr9/IVMRFilterConfig9.GetRenderingMode"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
 ms.topic: method
-f1_keywords: ["tuner/IPersistTuneXml.InitNew"]
+f1_keywords: 
+ - "tuner/IPersistTuneXml.InitNew"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

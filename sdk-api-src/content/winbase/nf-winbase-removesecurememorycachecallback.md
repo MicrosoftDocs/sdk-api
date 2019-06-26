@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveSecureMemoryCacheCallback, RemoveSecureMemoryCacheCallback function, base.removesecurememorycachecallback, winbase/RemoveSecureMemoryCacheCallback
 ms.topic: function
-f1_keywords: ["winbase/RemoveSecureMemoryCacheCallback"]
+f1_keywords: 
+ - "winbase/RemoveSecureMemoryCacheCallback"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

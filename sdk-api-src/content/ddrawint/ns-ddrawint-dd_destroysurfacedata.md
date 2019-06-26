@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA structure [Display Devices], ddrawint/DD_DESTROYSURFACEDATA, ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml, display.dd_destroysurfacedata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_DESTROYSURFACEDATA"]
+f1_keywords: 
+ - "ddrawint/DD_DESTROYSURFACEDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

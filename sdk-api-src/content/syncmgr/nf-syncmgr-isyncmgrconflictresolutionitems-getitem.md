@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],ISyncMgrConflictResolutionItems interface, ISyncMgrConflictResolutionItems interface [Windows Shell],GetItem method, ISyncMgrConflictResolutionItems.GetItem, ISyncMgrConflictResolutionItems::GetItem, _shell_ISyncMgrConflictResolutionItems_GetItem, shell.ISyncMgrConflictResolutionItems_GetItem, syncmgr/ISyncMgrConflictResolutionItems::GetItem
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictResolutionItems.GetItem"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictResolutionItems.GetItem"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

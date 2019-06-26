@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerGetSecurityInfoByKey0, IPsecKeyManagerGetSecurityInfoByKey0 function [Filtering], fwp.ipseckeymanagergetsecurityinfobykey0, fwpmu/IPsecKeyManagerGetSecurityInfoByKey0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecKeyManagerGetSecurityInfoByKey0"]
+f1_keywords: 
+ - "fwpmu/IPsecKeyManagerGetSecurityInfoByKey0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

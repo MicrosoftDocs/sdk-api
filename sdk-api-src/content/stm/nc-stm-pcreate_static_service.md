@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.topic: callback
-f1_keywords: ["stm/CreateStaticService"]
+f1_keywords: 
+ - "stm/CreateStaticService"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

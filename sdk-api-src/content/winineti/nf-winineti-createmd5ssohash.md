@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMD5SSOHash, CreateMD5SSOHash function [WinINet], wininet.createmd5ssohash, winineti/CreateMD5SSOHash
 ms.topic: function
-f1_keywords: ["winineti/CreateMD5SSOHash"]
+f1_keywords: 
+ - "winineti/CreateMD5SSOHash"
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

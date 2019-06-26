@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD"
 ms.topic: struct
-f1_keywords: ["winsock2/WSAPOLLFD"]
+f1_keywords: 
+ - "winsock2/WSAPOLLFD"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

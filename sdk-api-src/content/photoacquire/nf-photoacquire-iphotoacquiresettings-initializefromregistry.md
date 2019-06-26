@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],InitializeFromRegistry method, IPhotoAcquireSettings.InitializeFromRegistry, IPhotoAcquireSettings::InitializeFromRegistry, IPhotoAcquireSettingsInitializeFromRegistry, InitializeFromRegistry, InitializeFromRegistry method [Picture Acquisition], InitializeFromRegistry method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::InitializeFromRegistry, picacq.iphotoacquiresettings_initializefromregistry
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSettings.InitializeFromRegistry"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSettings.InitializeFromRegistry"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], IVdsSubSystemIscsi interface [VDS],described, base.ivdssubsystemiscsi, vds/IVdsSubSystemIscsi, vdshwprv/IVdsSubSystemIscsi
 ms.topic: interface
-f1_keywords: ["vds/IVdsSubSystemIscsi"]
+f1_keywords: 
+ - "vds/IVdsSubSystemIscsi"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
 ms.topic: function
-f1_keywords: ["iphlpapi/DeleteProxyArpEntry"]
+f1_keywords: 
+ - "iphlpapi/DeleteProxyArpEntry"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

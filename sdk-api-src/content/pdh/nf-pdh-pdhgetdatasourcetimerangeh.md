@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
 ms.topic: function
-f1_keywords: ["pdh/PdhGetDataSourceTimeRangeH"]
+f1_keywords: 
+ - "pdh/PdhGetDataSourceTimeRangeH"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

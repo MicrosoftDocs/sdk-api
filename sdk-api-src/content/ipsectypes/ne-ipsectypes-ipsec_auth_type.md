@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_AES_128, IPSEC_AUTH_AES_192, IPSEC_AUTH_AES_256, IPSEC_AUTH_MAX, IPSEC_AUTH_MD5, IPSEC_AUTH_SHA_1, IPSEC_AUTH_SHA_256, IPSEC_AUTH_TYPE, IPSEC_AUTH_TYPE enumeration [Filtering], fwp.ipsec_auth_type_enum, ipsectypes/IPSEC_AUTH_AES_128, ipsectypes/IPSEC_AUTH_AES_192, ipsectypes/IPSEC_AUTH_AES_256, ipsectypes/IPSEC_AUTH_MAX, ipsectypes/IPSEC_AUTH_MD5, ipsectypes/IPSEC_AUTH_SHA_1, ipsectypes/IPSEC_AUTH_SHA_256, ipsectypes/IPSEC_AUTH_TYPE
 ms.topic: enum
-f1_keywords: ["ipsectypes/IPSEC_AUTH_TYPE"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_AUTH_TYPE"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

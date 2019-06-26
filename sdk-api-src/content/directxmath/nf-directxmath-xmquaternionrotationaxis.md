@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationAxis, XMQuaternionRotationAxis, XMQuaternionRotationAxis method [DirectX Math Support APIs], dxmath.xmquaternionrotationaxis
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionRotationAxis"]
+f1_keywords: 
+ - "directxmath/XMQuaternionRotationAxis"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

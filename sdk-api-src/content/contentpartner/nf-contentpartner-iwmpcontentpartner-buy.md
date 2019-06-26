@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Buy, Buy method [Windows Media Player], Buy method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Buy method, IWMPContentPartner.Buy, IWMPContentPartner::Buy, IWMPContentPartnerBuy, contentpartner/IWMPContentPartner::Buy, wmp.iwmpcontentpartner_buy
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.Buy"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.Buy"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

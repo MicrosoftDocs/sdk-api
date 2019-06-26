@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], IDeviceController interface [Media Streaming API],described, mediastreaming.idevicecontroller, windows/IDeviceController
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/IDeviceController"]
+f1_keywords: 
+ - "windows.media.streaming/IDeviceController"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

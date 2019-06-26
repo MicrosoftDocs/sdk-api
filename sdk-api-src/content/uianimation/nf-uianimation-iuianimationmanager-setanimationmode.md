@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.SetAnimationMode"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.SetAnimationMode"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

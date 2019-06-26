@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAppVisibility.IsLauncherVisible"]
+f1_keywords: 
+ - "shobjidl_core/IAppVisibility.IsLauncherVisible"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

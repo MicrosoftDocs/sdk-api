@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, IDCompositionAnimation.Reset, IDCompositionAnimation::Reset, Reset, Reset method [DirectComposition], Reset method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
 ms.topic: method
-f1_keywords: ["dcompanimation/IDCompositionAnimation.Reset"]
+f1_keywords: 
+ - "dcompanimation/IDCompositionAnimation.Reset"
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

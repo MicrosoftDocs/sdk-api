@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
 ms.topic: method
-f1_keywords: ["msctf/ITfRange.GetText"]
+f1_keywords: 
+ - "msctf/ITfRange.GetText"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

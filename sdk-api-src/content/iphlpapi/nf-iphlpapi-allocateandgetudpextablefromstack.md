@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
 ms.topic: function
-f1_keywords: ["iphlpapi/AllocateAndGetUdpExTableFromStack"]
+f1_keywords: 
+ - "iphlpapi/AllocateAndGetUdpExTableFromStack"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

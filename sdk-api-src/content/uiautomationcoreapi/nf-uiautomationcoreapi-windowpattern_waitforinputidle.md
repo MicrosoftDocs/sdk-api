@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/WindowPattern_WaitForInputIdle"]
+f1_keywords: 
+ - "uiautomationcoreapi/WindowPattern_WaitForInputIdle"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

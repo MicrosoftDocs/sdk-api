@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleEventWithContent, HandleEventWithContent method [Windows Shell], HandleEventWithContent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEventWithContent method, IHWEventHandler.HandleEventWithContent, IHWEventHandler::HandleEventWithContent, inet_IHWEventHandler_HandleEventWithContent, shell.IHWEventHandler_HandleEventWithContent, shobjidl/IHWEventHandler::HandleEventWithContent
 ms.topic: method
-f1_keywords: ["shobjidl/IHWEventHandler.HandleEventWithContent"]
+f1_keywords: 
+ - "shobjidl/IHWEventHandler.HandleEventWithContent"
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

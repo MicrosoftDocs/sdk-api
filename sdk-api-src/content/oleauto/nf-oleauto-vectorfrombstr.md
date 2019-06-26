@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VectorFromBstr, VectorFromBstr function [Automation], _oa96_VectorFromBstr, automat.vectorfrombstr, oleauto/VectorFromBstr
 ms.topic: function
-f1_keywords: ["oleauto/VectorFromBstr"]
+f1_keywords: 
+ - "oleauto/VectorFromBstr"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

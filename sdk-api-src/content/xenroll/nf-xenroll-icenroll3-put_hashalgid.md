@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],HashAlgID property, HashAlgID property [Security], HashAlgID property [Security],CEnroll object, HashAlgID property [Security],ICEnroll3 interface, HashAlgID property [Security],ICEnroll4 interface, ICEnroll3 interface [Security],HashAlgID property, ICEnroll3.HashAlgID, ICEnroll3.put_HashAlgID, ICEnroll3::get_HashAlgID, ICEnroll3::put_HashAlgID, ICEnroll4 interface [Security],HashAlgID property, ICEnroll4.HashAlgID, ICEnroll4::HashAlgID, ICEnroll4::get_HashAlgID, ICEnroll4::put_HashAlgID, put_HashAlgID, security.icenroll4_hashalgid, xenroll/ICEnroll3::HashAlgID, xenroll/ICEnroll3::get_HashAlgID, xenroll/ICEnroll3::put_HashAlgID, xenroll/ICEnroll4::HashAlgID, xenroll/ICEnroll4::get_HashAlgID, xenroll/ICEnroll4::put_HashAlgID
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.HashAlgID"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.HashAlgID"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

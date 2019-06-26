@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetSelection method, ITextStoreACP.SetSelection, ITextStoreACP::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_setselection_ref, textstor/ITextStoreACP::SetSelection, tsf.itextstoreacp_setselection
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.SetSelection"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.SetSelection"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

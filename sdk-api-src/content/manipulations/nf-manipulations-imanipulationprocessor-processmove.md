@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.ProcessMove"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.ProcessMove"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

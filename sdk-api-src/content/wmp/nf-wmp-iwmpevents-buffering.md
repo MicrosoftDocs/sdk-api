@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Buffering, Buffering method [Windows Media Player], Buffering method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Buffering method, IWMPEvents.Buffering, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.Buffering"]
+f1_keywords: 
+ - "wmp/IWMPEvents.Buffering"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE enumeration, MemExtendedParameterAddressRequirements, MemExtendedParameterAttributeFlags, MemExtendedParameterInvalidType, MemExtendedParameterMax, MemExtendedParameterNumaNode, MemExtendedParameterPartitionHandle, MemExtendedParameterUserPhysicalHandle, base.mem_extended_parameter_type, winnt/MEM_EXTENDED_PARAMETER_TYPE, winnt/MemExtendedParameterAddressRequirements, winnt/MemExtendedParameterAttributeFlags, winnt/MemExtendedParameterInvalidType, winnt/MemExtendedParameterMax, winnt/MemExtendedParameterNumaNode, winnt/MemExtendedParameterPartitionHandle, winnt/MemExtendedParameterUserPhysicalHandle"
 ms.topic: enum
-f1_keywords: ["winnt/MEM_EXTENDED_PARAMETER_TYPE"]
+f1_keywords: 
+ - "winnt/MEM_EXTENDED_PARAMETER_TYPE"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

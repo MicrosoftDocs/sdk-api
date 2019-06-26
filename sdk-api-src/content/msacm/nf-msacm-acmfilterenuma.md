@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmFilterEnum, acmFilterEnum, acmFilterEnum function [Windows Multimedia], acmFilterEnumA, acmFilterEnumW, msacm/acmFilterEnum, msacm/acmFilterEnumA, msacm/acmFilterEnumW, multimedia.acmfilterenum"
 ms.topic: function
-f1_keywords: ["msacm/acmFilterEnum"]
+f1_keywords: 
+ - "msacm/acmFilterEnum"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

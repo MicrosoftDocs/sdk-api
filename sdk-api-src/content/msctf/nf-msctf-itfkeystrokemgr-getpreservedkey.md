@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKey method, ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
 ms.topic: method
-f1_keywords: ["msctf/ITfKeystrokeMgr.GetPreservedKey"]
+f1_keywords: 
+ - "msctf/ITfKeystrokeMgr.GetPreservedKey"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

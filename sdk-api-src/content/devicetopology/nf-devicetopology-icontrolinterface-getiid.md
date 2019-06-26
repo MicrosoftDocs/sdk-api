@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
 ms.topic: method
-f1_keywords: ["devicetopology/IControlInterface.GetIID"]
+f1_keywords: 
+ - "devicetopology/IControlInterface.GetIID"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

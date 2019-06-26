@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceCreate"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceCreate"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

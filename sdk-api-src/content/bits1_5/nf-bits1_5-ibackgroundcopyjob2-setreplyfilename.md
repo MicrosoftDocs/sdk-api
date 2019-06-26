@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
 ms.topic: method
-f1_keywords: ["bits1_5/IBackgroundCopyJob2.SetReplyFileName"]
+f1_keywords: 
+ - "bits1_5/IBackgroundCopyJob2.SetReplyFileName"
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

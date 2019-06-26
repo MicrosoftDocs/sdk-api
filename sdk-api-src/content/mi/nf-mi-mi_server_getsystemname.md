@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Server_GetSystemName, MI_Server_GetSystemName callback, MI_Server_GetSystemName callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetSystemName, wmi_v2.mi_server_getsystemname
 ms.topic: function
-f1_keywords: ["mi/MI_Server_GetSystemName"]
+f1_keywords: 
+ - "mi/MI_Server_GetSystemName"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

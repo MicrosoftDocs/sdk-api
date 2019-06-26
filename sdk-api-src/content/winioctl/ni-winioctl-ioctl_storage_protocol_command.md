@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files], fs.ioctl_storage_protocol_command, winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_QUERY_PROPERTY"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_QUERY_PROPERTY"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

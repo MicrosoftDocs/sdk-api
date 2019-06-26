@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
 ms.topic: function
-f1_keywords: ["lzexpand/GetExpandedName"]
+f1_keywords: 
+ - "lzexpand/GetExpandedName"
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

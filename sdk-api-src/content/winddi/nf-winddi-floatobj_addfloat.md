@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_AddFloat, FLOATOBJ_AddFloat function [Display Devices], display.floatobj_addfloat, gdifncs_2e5305b6-571f-4ae2-bfd7-2305c006b6da.xml, winddi/FLOATOBJ_AddFloat
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_AddFloat"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_AddFloat"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

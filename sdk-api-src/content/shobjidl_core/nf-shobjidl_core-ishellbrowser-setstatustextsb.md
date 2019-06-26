@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetStatusTextSB method, IShellBrowser.SetStatusTextSB, IShellBrowser::SetStatusTextSB, SetStatusTextSB, SetStatusTextSB method [Windows Shell], SetStatusTextSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetStatusTextSB, shell.IShellBrowser_SetStatusTextSB, shobjidl_core/IShellBrowser::SetStatusTextSB
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellBrowser.SetStatusTextSB"]
+f1_keywords: 
+ - "shobjidl_core/IShellBrowser.SetStatusTextSB"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

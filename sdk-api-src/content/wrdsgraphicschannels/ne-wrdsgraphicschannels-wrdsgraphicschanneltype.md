@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRdsGraphicsChannelType, WRdsGraphicsChannelType enumeration [Remote Desktop Services], WRdsGraphicsChannelType_BestEffortDelivery, WRdsGraphicsChannelType_GuaranteedDelivery, termserv.wrdsgraphicschanneltype, wrdsgraphicschannels/WRdsGraphicsChannelType, wrdsgraphicschannels/WRdsGraphicsChannelType_BestEffortDelivery, wrdsgraphicschannels/WRdsGraphicsChannelType_GuaranteedDelivery
 ms.topic: enum
-f1_keywords: ["wrdsgraphicschannels/WRdsGraphicsChannelType"]
+f1_keywords: 
+ - "wrdsgraphicschannels/WRdsGraphicsChannelType"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

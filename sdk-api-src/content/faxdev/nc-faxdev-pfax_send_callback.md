@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
 ms.topic: callback
-f1_keywords: ["faxdev/FaxSendCallback"]
+f1_keywords: 
+ - "faxdev/FaxSendCallback"
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

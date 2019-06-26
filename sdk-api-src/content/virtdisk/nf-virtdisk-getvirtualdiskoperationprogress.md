@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vdssys/GetVirtualDiskOperationProgress, vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
 ms.topic: function
-f1_keywords: ["virtdisk/GetVirtualDiskOperationProgress"]
+f1_keywords: 
+ - "virtdisk/GetVirtualDiskOperationProgress"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdleWait, GetIdleWait method [Task Scheduler], GetIdleWait method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetIdleWait method, IScheduledWorkItem.GetIdleWait, IScheduledWorkItem::GetIdleWait, _msb_ischeduledworkitem_getidlewait, mstask/IScheduledWorkItem::GetIdleWait, taskschd.ischeduledworkitem_getidlewait
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.GetIdleWait"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.GetIdleWait"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

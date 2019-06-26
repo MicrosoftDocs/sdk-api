@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarModAngle, XMScalarModAngle, XMScalarModAngle method [DirectX Math Support APIs], dxmath.xmscalarmodangle
 ms.topic: function
-f1_keywords: ["directxmath/XMScalarModAngle"]
+f1_keywords: 
+ - "directxmath/XMScalarModAngle"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

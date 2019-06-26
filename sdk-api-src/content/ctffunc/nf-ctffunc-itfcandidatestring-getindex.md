@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
 ms.topic: method
-f1_keywords: ["ctffunc/ITfCandidateString.GetIndex"]
+f1_keywords: 
+ - "ctffunc/ITfCandidateString.GetIndex"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

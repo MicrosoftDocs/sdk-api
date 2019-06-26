@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Count method, ISecurityIdentityColl.get_Count, ISecurityIdentityColl::get_Count, _cos_ISecurityIdentityColl_get_Count, comsvcs/ISecurityIdentityColl::get_Count, cos.isecurityidentitycoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityIdentityColl interface
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityIdentityColl.get_Count"]
+f1_keywords: 
+ - "comsvcs/ISecurityIdentityColl.get_Count"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

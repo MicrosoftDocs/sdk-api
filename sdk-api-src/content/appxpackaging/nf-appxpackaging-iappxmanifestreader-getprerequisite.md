@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisite, GetPrerequisite method [App packaging and management], GetPrerequisite method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPrerequisite method, IAppxManifestReader.GetPrerequisite, IAppxManifestReader::GetPrerequisite, appxpackaging/IAppxManifestReader::GetPrerequisite, appxpkg.iappxmanifestreader_getprerequisite
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestReader.GetPrerequisite"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader.GetPrerequisite"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], ITunerCapEx interface [Microsoft TV Technologies],described, mstv.itunercapex, tuner/ITunerCapEx
 ms.topic: interface
-f1_keywords: ["tuner/ITunerCapEx"]
+f1_keywords: 
+ - "tuner/ITunerCapEx"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

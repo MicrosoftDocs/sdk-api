@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Files], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Files], _win32_disk_ex_int13_info_str, base.disk_ex_int13_info_str, fs.disk_ex_int13_info_str, winioctl/DISK_EX_INT13_INFO, winioctl/PDISK_EX_INT13_INFO"
 ms.topic: struct
-f1_keywords: ["winioctl/DISK_EX_INT13_INFO"]
+f1_keywords: 
+ - "winioctl/DISK_EX_INT13_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

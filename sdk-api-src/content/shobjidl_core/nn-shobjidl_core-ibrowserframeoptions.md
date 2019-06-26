@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IBrowserFrameOptions"]
+f1_keywords: 
+ - "shobjidl_core/IBrowserFrameOptions"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

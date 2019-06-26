@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWSManSession.Put, IWSManSession::Put, Put, Put method [Windows Remote Management], Put method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_put, wsmandisp/IWSManSession::Put
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManSession.Put"]
+f1_keywords: 
+ - "wsmandisp/IWSManSession.Put"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],RecordDisc method, IDiscMaster.RecordDisc, IDiscMaster::RecordDisc, RecordDisc, RecordDisc method [IMAPI], RecordDisc method [IMAPI],IDiscMaster interface, _win32_idiscmaster_recorddisc, base.idiscmaster_recorddisc, imapi.idiscmaster_recorddisc, imapi/IDiscMaster::RecordDisc
 ms.topic: method
-f1_keywords: ["imapi/IDiscMaster.RecordDisc"]
+f1_keywords: 
+ - "imapi/IDiscMaster.RecordDisc"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

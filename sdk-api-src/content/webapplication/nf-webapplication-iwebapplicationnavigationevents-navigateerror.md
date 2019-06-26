@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationNavigationEvents.NavigateError"]
+f1_keywords: 
+ - "webapplication/IWebApplicationNavigationEvents.NavigateError"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

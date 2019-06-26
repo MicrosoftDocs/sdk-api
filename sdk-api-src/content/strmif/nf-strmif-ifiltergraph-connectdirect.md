@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],ConnectDirect method, IFilterGraph.ConnectDirect, IFilterGraph::ConnectDirect, IFilterGraphConnectDirect, dshow.ifiltergraph_connectdirect, strmif/IFilterGraph::ConnectDirect
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph.ConnectDirect"]
+f1_keywords: 
+ - "strmif/IFilterGraph.ConnectDirect"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

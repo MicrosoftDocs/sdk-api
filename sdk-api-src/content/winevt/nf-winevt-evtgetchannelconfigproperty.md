@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetChannelConfigProperty, EvtGetChannelConfigProperty function [EventLog], wes.evtgetchannelconfigproperty, winevt/EvtGetChannelConfigProperty
 ms.topic: function
-f1_keywords: ["winevt/EvtGetChannelConfigProperty"]
+f1_keywords: 
+ - "winevt/EvtGetChannelConfigProperty"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
 ms.topic: method
-f1_keywords: ["strmif/IMemInputPin.ReceiveMultiple"]
+f1_keywords: 
+ - "strmif/IMemInputPin.ReceiveMultiple"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

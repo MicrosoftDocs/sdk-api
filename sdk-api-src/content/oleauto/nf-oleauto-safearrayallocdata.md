@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocData, SafeArrayAllocData function [Automation], _oa96_SafeArrayAllocData, automat.safearrayallocdata, oleauto/SafeArrayAllocData
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayAllocData"]
+f1_keywords: 
+ - "oleauto/SafeArrayAllocData"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Direct2D], GetId method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetId method, ID2D1SvgPaint.GetId, ID2D1SvgPaint::GetId, d2d1svg/ID2D1SvgPaint::GetId, direct2d.id2d1svgpaint_getid
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPaint.GetId"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPaint.GetId"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

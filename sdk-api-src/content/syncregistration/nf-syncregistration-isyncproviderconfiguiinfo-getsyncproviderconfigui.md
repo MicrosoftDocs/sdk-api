@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderConfigUIInfo.GetSyncProviderConfigUI"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUIInfo.GetSyncProviderConfigUI"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

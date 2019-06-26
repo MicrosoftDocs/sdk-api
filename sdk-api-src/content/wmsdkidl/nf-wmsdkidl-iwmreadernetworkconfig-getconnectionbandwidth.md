@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetConnectionBandwidth"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetConnectionBandwidth"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

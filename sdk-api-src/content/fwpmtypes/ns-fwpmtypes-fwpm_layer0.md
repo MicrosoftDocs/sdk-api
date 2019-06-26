@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER0, FWPM_LAYER0 structure [Filtering], FWPM_LAYER_FLAG_BUFFERED, FWPM_LAYER_FLAG_BUILTIN, FWPM_LAYER_FLAG_CLASSIFY_MOSTLY, FWPM_LAYER_FLAG_KERNEL, fwp.fwpm_layer0_struct, fwpmtypes/FWPM_LAYER0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_LAYER0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_LAYER0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

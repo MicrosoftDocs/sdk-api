@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COOKIE_STATE_ACCEPT, COOKIE_STATE_DOWNGRADE, COOKIE_STATE_LEASH, COOKIE_STATE_MAX, COOKIE_STATE_PROMPT, COOKIE_STATE_REJECT, COOKIE_STATE_UNKNOWN, InternetCookieState, InternetCookieState enumeration [WinINet], wininet.internetcookiestate, wininet/COOKIE_STATE_ACCEPT, wininet/COOKIE_STATE_DOWNGRADE, wininet/COOKIE_STATE_LEASH, wininet/COOKIE_STATE_MAX, wininet/COOKIE_STATE_PROMPT, wininet/COOKIE_STATE_REJECT, wininet/COOKIE_STATE_UNKNOWN, wininet/InternetCookieState
 ms.topic: enum
-f1_keywords: ["wininet/InternetCookieState"]
+f1_keywords: 
+ - "wininet/InternetCookieState"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

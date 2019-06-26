@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
 ms.topic: interface
-f1_keywords: ["segment/IMSVidEVREvent"]
+f1_keywords: 
+ - "segment/IMSVidEVREvent"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

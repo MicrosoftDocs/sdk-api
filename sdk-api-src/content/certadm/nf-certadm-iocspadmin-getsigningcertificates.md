@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.topic: method
-f1_keywords: ["certadm/IOCSPAdmin.GetSigningCertificates"]
+f1_keywords: 
+ - "certadm/IOCSPAdmin.GetSigningCertificates"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

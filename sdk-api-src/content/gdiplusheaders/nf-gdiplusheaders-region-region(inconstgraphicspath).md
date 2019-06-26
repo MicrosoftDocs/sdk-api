@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const GraphicsPath), Region.Region(const GraphicsPath*), Region::Region, Region::Region(IN const GraphicsPath), _gdiplus_CLASS_Region_Region_path_, gdiplus._gdiplus_CLASS_Region_Region_path_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Region.Region"]
+f1_keywords: 
+ - "gdiplusheaders/Region.Region"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

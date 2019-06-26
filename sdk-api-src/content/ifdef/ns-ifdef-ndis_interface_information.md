@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
 ms.topic: struct
-f1_keywords: ["ifdef/NDIS_INTERFACE_INFORMATION"]
+f1_keywords: 
+ - "ifdef/NDIS_INTERFACE_INFORMATION"
 req.header: ifdef.h
 req.include-header: Ndis.h
 req.target-type: Windows

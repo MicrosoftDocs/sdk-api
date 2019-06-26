@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IObjectIds interface, IObjectIds interface [Security],Count property, IObjectIds.Count, IObjectIds.get_Count, IObjectIds::Count, IObjectIds::get_Count, certenroll/IObjectIds::Count, certenroll/IObjectIds::get_Count, get_Count, security.iobjectids_count_property
 ms.topic: method
-f1_keywords: ["certenroll/IObjectIds.Count"]
+f1_keywords: 
+ - "certenroll/IObjectIds.Count"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

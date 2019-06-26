@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_LAYER_STATISTICS0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_LAYER_STATISTICS0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

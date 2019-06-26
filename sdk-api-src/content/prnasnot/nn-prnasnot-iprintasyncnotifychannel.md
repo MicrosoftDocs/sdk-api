@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
 ms.topic: interface
-f1_keywords: ["prnasnot/IPrintAsyncNotifyChannel"]
+f1_keywords: 
+ - "prnasnot/IPrintAsyncNotifyChannel"
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

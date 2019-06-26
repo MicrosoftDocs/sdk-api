@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetSize method, IAMMediaTypeSample.GetSize, IAMMediaTypeSample::GetSize, IAMMediaTypeSampleGetSize, amstream/IAMMediaTypeSample::GetSize, dshow.iammediatypesample_getsize
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeSample.GetSize"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample.GetSize"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

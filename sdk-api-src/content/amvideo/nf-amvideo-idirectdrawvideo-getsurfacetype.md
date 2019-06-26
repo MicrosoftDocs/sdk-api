@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceType method, IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.GetSurfaceType"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.GetSurfaceType"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

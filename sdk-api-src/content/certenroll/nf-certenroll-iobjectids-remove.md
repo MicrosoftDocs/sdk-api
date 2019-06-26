@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
 ms.topic: method
-f1_keywords: ["certenroll/IObjectIds.Remove"]
+f1_keywords: 
+ - "certenroll/IObjectIds.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

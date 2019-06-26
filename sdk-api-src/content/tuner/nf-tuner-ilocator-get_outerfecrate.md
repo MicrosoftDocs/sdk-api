@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator interface [Microsoft TV Technologies],get_OuterFECRate method, ILocator.get_OuterFECRate, ILocator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfecrate, tuner/ILocator::get_OuterFECRate
 ms.topic: method
-f1_keywords: ["tuner/ILocator.get_OuterFECRate"]
+f1_keywords: 
+ - "tuner/ILocator.get_OuterFECRate"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

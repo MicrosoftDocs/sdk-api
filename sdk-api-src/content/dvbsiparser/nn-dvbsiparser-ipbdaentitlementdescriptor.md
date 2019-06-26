@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAEntitlementDescriptor, mstv.ipbdaentitlementdescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IPBDAEntitlementDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IPBDAEntitlementDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

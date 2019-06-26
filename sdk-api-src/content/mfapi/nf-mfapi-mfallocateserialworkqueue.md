@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
 ms.topic: function
-f1_keywords: ["mfapi/MFAllocateSerialWorkQueue"]
+f1_keywords: 
+ - "mfapi/MFAllocateSerialWorkQueue"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

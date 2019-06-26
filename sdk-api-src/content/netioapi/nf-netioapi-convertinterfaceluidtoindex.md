@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
 ms.topic: function
-f1_keywords: ["netioapi/ConvertInterfaceLuidToIndex"]
+f1_keywords: 
+ - "netioapi/ConvertInterfaceLuidToIndex"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

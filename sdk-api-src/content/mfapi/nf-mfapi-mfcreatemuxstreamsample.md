@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateMuxStreamSample"]
+f1_keywords: 
+ - "mfapi/MFCreateMuxStreamSample"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

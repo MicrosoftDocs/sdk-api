@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback1 interface [BITS],OnStatus method, IBackgroundCopyCallback1.OnStatus, IBackgroundCopyCallback1::OnStatus, OnStatus, OnStatus method [BITS], OnStatus method [BITS],IBackgroundCopyCallback1 interface, bits.ibackgroundcopycallback1_onstatus, qmgr/IBackgroundCopyCallback1::OnStatus
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyCallback1.OnStatus"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyCallback1.OnStatus"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

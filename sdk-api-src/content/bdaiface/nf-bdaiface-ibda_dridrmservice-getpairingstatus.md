@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ""Green", "Orange", "Red", GetPairingStatus, GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DRIDRMService.GetPairingStatus"]
+f1_keywords: 
+ - "bdaiface/IBDA_DRIDRMService.GetPairingStatus"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

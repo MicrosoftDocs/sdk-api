@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableRedrawRegions, DisableRedrawRegions method [DirectComposition], DisableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableRedrawRegions method, IDCompositionVisualDebug.DisableRedrawRegions, IDCompositionVisualDebug::DisableRedrawRegions, dcomp/IDCompositionVisualDebug::DisableRedrawRegions, directcomp.idcompositionvisualdebug_disableredrawregions
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisualDebug.DisableRedrawRegions"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisualDebug.DisableRedrawRegions"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Destroy method, IPhotoProgressDialog.Destroy, IPhotoProgressDialog::Destroy, IPhotoProgressDialogDestroy, photoacquire/IPhotoProgressDialog::Destroy, picacq.iphotoprogressdialog_destroy
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.Destroy"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.Destroy"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

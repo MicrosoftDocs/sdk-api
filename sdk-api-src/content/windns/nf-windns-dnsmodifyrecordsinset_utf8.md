@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
 ms.topic: function
-f1_keywords: ["windns/DnsModifyRecordsInSet"]
+f1_keywords: 
+ - "windns/DnsModifyRecordsInSet"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

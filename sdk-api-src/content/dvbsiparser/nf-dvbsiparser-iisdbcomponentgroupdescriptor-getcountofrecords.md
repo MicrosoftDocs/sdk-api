@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbComponentGroupDescriptor.GetCountOfRecords, IIsdbComponentGroupDescriptor::GetCountOfRecords, dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords, mstv.iisdbcomponentgroupdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbComponentGroupDescriptor.GetCountOfRecords"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbComponentGroupDescriptor.GetCountOfRecords"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

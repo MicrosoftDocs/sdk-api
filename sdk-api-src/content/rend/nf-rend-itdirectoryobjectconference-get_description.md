@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Description method, ITDirectoryObjectConference.get_Description, ITDirectoryObjectConference::get_Description, _tapi3_itdirectoryobjectconference_get_description, get_Description, get_Description method [TAPI 2.2], get_Description method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Description, tapi3.itdirectoryobjectconference_get_description
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.get_Description"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.get_Description"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetConcludePriorityComparison method, IUIAnimationManager.SetConcludePriorityComparison, IUIAnimationManager::SetConcludePriorityComparison, SetConcludePriorityComparison, SetConcludePriorityComparison method [Windows Animation], SetConcludePriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setconcludeprioritycomparison, uianimation/IUIAnimationManager::SetConcludePriorityComparison
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.SetConcludePriorityComparison"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.SetConcludePriorityComparison"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

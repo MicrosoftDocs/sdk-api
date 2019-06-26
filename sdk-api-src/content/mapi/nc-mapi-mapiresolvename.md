@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback function, MAPI_AB_NOMODIFY, MAPI_DIALOG, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiresolvename, mapi/MAPIResolveName
 ms.topic: callback
-f1_keywords: ["mapi/MAPIResolveName"]
+f1_keywords: 
+ - "mapi/MAPIResolveName"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

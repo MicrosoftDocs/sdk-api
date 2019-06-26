@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBouquetId, GetBouquetId method [Microsoft TV Technologies], GetBouquetId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetBouquetId method, IDVB_BAT.GetBouquetId, IDVB_BAT::GetBouquetId, IDVB_BATGetBouquetId, dvbsiparser/IDVB_BAT::GetBouquetId, mstv.idvb_bat_getbouquetid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_BAT.GetBouquetId"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_BAT.GetBouquetId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

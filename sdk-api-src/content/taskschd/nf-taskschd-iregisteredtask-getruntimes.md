@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetRunTimes method, IRegisteredTask.GetRunTimes, IRegisteredTask::GetRunTimes, taskschd.iregisteredtask_getruntimes, taskschd/IRegisteredTask::GetRunTimes
 ms.topic: method
-f1_keywords: ["taskschd/IRegisteredTask.GetRunTimes"]
+f1_keywords: 
+ - "taskschd/IRegisteredTask.GetRunTimes"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

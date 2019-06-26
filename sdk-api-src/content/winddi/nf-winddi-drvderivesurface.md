@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDeriveSurface, DrvDeriveSurface function [Display Devices], ddifncs_b38de767-eeaf-4120-8711-6f3319a53058.xml, display.drvderivesurface, winddi/DrvDeriveSurface
 ms.topic: function
-f1_keywords: ["winddi/DrvDeriveSurface"]
+f1_keywords: 
+ - "winddi/DrvDeriveSurface"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

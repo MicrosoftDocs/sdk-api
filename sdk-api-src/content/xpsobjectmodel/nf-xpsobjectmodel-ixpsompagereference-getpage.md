@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPage, GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPage method, IXpsOMPageReference.GetPage, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.GetPage"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.GetPage"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

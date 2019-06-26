@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_DisplayName method, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName, get_DisplayName method, get_DisplayName method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigurableItem.get_DisplayName"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem.get_DisplayName"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

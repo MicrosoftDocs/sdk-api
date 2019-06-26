@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
 ms.topic: function
-f1_keywords: ["mfapi/MFUnregisterPlatformFromMMCSS"]
+f1_keywords: 
+ - "mfapi/MFUnregisterPlatformFromMMCSS"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager interface [COM],UndoTo method, IOleUndoManager.UndoTo, IOleUndoManager::UndoTo, UndoTo, UndoTo method [COM], UndoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_undoto, com.ioleundomanager_undoto, ocidl/IOleUndoManager::UndoTo
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.UndoTo"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.UndoTo"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

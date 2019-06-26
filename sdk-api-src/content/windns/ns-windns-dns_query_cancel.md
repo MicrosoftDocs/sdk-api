@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL"
 ms.topic: struct
-f1_keywords: ["windns/DNS_QUERY_CANCEL"]
+f1_keywords: 
+ - "windns/DNS_QUERY_CANCEL"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

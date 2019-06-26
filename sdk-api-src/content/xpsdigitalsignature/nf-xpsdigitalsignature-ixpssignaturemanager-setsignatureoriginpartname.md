@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SetSignatureOriginPartName method, IXpsSignatureManager.SetSignatureOriginPartName, IXpsSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [XPS Documents and Packaging], SetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_setsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureManager.SetSignatureOriginPartName"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureManager.SetSignatureOriginPartName"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

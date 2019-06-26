@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
 ms.topic: callback
-f1_keywords: ["winldap/VERIFYSERVERCERT"]
+f1_keywords: 
+ - "winldap/VERIFYSERVERCERT"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

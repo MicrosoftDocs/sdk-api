@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp interface [Tablet PC],Rotate method, IInkStrokeDisp.Rotate, IInkStrokeDisp::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.Rotate"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.Rotate"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

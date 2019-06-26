@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.topic: method
-f1_keywords: ["searchapi/ISearchProtocol.ShutDown"]
+f1_keywords: 
+ - "searchapi/ISearchProtocol.ShutDown"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

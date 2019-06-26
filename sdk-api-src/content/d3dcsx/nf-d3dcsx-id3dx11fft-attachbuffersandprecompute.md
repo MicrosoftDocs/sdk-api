@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachBuffersAndPrecompute, AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],AttachBuffersAndPrecompute method, ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
 ms.topic: method
-f1_keywords: ["d3dcsx/ID3DX11FFT.AttachBuffersAndPrecompute"]
+f1_keywords: 
+ - "d3dcsx/ID3DX11FFT.AttachBuffersAndPrecompute"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
 ms.topic: function
-f1_keywords: ["evcoll/EcRetrySubscription"]
+f1_keywords: 
+ - "evcoll/EcRetrySubscription"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

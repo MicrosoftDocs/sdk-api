@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDesc method, ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo2.DeleteFuncDesc"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo2.DeleteFuncDesc"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

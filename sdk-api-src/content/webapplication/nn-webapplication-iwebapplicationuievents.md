@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUIEvents, IWebApplicationUIEvents interface [Debugging Windows Store apps], IWebApplicationUIEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationuievents, webapplication/IWebApplicationUIEvents
 ms.topic: interface
-f1_keywords: ["webapplication/IWebApplicationUIEvents"]
+f1_keywords: 
+ - "webapplication/IWebApplicationUIEvents"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SetAttributes method, IWMDMStorage.SetAttributes, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage.SetAttributes"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage.SetAttributes"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaNtStatusToWinError"]
+f1_keywords: 
+ - "ntsecapi/LsaNtStatusToWinError"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

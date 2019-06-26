@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBlockRangeList interface [IMAPI],get_BlockRanges method, IBlockRangeList.get_BlockRanges, IBlockRangeList::get_BlockRanges, get_BlockRanges, get_BlockRanges method [IMAPI], get_BlockRanges method [IMAPI],IBlockRangeList interface, imapi.iblockrangelist_get_blockranges, imapi2/IBlockRangeList::get_BlockRanges
 ms.topic: method
-f1_keywords: ["imapi2/IBlockRangeList.get_BlockRanges"]
+f1_keywords: 
+ - "imapi2/IBlockRangeList.get_BlockRanges"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

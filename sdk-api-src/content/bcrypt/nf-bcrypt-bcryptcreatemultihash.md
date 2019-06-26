@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptCreateMultiHash"]
+f1_keywords: 
+ - "bcrypt/BCryptCreateMultiHash"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

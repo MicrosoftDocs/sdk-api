@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamUnbufferedInfo, IStreamUnbufferedInfo interface [Windows Shell], IStreamUnbufferedInfo interface [Windows Shell],described, _shell_IStreamUnbufferedInfo, shell.IStreamUnbufferedInfo, shobjidl/IStreamUnbufferedInfo
 ms.topic: interface
-f1_keywords: ["shobjidl/IStreamUnbufferedInfo"]
+f1_keywords: 
+ - "shobjidl/IStreamUnbufferedInfo"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessPriorityBoost, GetProcessPriorityBoost function, _win32_getprocesspriorityboost, base.getprocesspriorityboost, processthreadsapi/GetProcessPriorityBoost
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetProcessPriorityBoost"]
+f1_keywords: 
+ - "processthreadsapi/GetProcessPriorityBoost"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

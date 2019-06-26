@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRenderersAvailable method, IMSVidCtl.get_AudioRenderersAvailable, IMSVidCtl::get_AudioRenderersAvailable, IMSVidCtlget_AudioRenderersAvailable, get_AudioRenderersAvailable, get_AudioRenderersAvailable method [Microsoft TV Technologies], get_AudioRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorenderersavailable, msvidctl/IMSVidCtl::get_AudioRenderersAvailable
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.get_AudioRenderersAvailable"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.get_AudioRenderersAvailable"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

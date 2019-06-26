@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
 ms.topic: method
-f1_keywords: ["chstrarr/CHStringArray.Add"]
+f1_keywords: 
+ - "chstrarr/CHStringArray.Add"
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

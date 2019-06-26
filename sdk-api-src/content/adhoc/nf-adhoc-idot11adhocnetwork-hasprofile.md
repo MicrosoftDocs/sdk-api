@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasProfile, HasProfile method [NativeWIFI], HasProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],HasProfile method, IDot11AdHocNetwork.HasProfile, IDot11AdHocNetwork::HasProfile, adhoc/IDot11AdHocNetwork::HasProfile, nwifi.idot11adhocnetwork_hasprofile
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocNetwork.HasProfile"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocNetwork.HasProfile"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

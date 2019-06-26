@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDevice.CreateSurfaceFromHandle, IDCompositionDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDevice::CreateSurfaceFromHandle, directcomp.idcompositiondevice_createsurfacefromhandle
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateSurfaceFromHandle"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateSurfaceFromHandle"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

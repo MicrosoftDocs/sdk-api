@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Abandon method, IDirectManipulationViewport.Abandon, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.Abandon"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.Abandon"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

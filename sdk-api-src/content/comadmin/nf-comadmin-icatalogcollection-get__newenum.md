@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],_NewEnum property, ICatalogCollection._NewEnum, ICatalogCollection.get__NewEnum, ICatalogCollection::_NewEnum, ICatalogCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get__NewEnum, comadmin/ICatalogCollection::_NewEnum, comadmin/ICatalogCollection::get__NewEnum, cos.icatalogcollection__newenum, get__NewEnum
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogCollection._NewEnum"]
+f1_keywords: 
+ - "comadmin/ICatalogCollection._NewEnum"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

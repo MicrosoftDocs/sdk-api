@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API],described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
 ms.topic: interface
-f1_keywords: ["deviceaccess/IDeviceIoControl"]
+f1_keywords: 
+ - "deviceaccess/IDeviceIoControl"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMDashCollection.InsertAt, IXpsOMDashCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_insertat, xpsobjectmodel/IXpsOMDashCollection::InsertAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDashCollection.InsertAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDashCollection.InsertAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

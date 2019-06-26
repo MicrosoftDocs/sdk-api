@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDeviceManager3.SetDeviceEnumPreference"]
+f1_keywords: 
+ - "mswmdm/IWMDeviceManager3.SetDeviceEnumPreference"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

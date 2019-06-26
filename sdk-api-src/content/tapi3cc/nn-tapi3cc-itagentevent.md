@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentEvent, ITAgentEvent interface [TAPI 2.2], ITAgentEvent interface [TAPI 2.2],described, _tapi3_itagentevent, tapi3.itagentevent, tapi3cc/ITAgentEvent
 ms.topic: interface
-f1_keywords: ["tapi3cc/ITAgentEvent"]
+f1_keywords: 
+ - "tapi3cc/ITAgentEvent"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

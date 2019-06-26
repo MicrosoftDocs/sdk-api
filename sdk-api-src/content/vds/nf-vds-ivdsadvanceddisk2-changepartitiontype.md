@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangePartitionType, ChangePartitionType method, ChangePartitionType method,IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,ChangePartitionType method, IVdsAdvancedDisk2.ChangePartitionType, IVdsAdvancedDisk2::ChangePartitionType, base.ivdsadvanceddisk2_changepartitiontype, vds/IVdsAdvancedDisk2::ChangePartitionType
 ms.topic: method
-f1_keywords: ["vds/IVdsAdvancedDisk2.ChangePartitionType"]
+f1_keywords: 
+ - "vds/IVdsAdvancedDisk2.ChangePartitionType"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

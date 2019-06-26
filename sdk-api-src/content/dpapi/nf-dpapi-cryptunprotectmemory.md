@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
 ms.topic: function
-f1_keywords: ["dpapi/CryptUnprotectMemory"]
+f1_keywords: 
+ - "dpapi/CryptUnprotectMemory"
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB, OLEVERB structure [COM], _ole_OLEVERB, com.oleverb, oleidl/LPOLEVERB, oleidl/OLEVERB"
 ms.topic: struct
-f1_keywords: ["oleidl/OLEVERB"]
+f1_keywords: 
+ - "oleidl/OLEVERB"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

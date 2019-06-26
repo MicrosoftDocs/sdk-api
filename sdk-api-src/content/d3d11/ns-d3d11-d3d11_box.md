@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_BOX, D3D11_BOX structure [Direct3D 11], b76b0218-be11-7108-701a-e9002dd6f441, d3d11/D3D11_BOX, direct3d11.d3d11_box
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_BOX"]
+f1_keywords: 
+ - "d3d11/D3D11_BOX"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

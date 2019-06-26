@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetSyncTime method, IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
 ms.topic: method
-f1_keywords: ["winsync/IFeedClockVectorElement.GetSyncTime"]
+f1_keywords: 
+ - "winsync/IFeedClockVectorElement.GetSyncTime"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

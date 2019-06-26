@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateDetectToneObject method, ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject"]
+f1_keywords: 
+ - "tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

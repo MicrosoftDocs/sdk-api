@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxActivate method, ITextHost.TxActivate, ITextHost::TxActivate, TxActivate, TxActivate method [Windows Controls], TxActivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxActivate, _win32_ITextHost_TxActivate_cpp, controls.ITextHost_TxActivate, controls._win32_ITextHost_TxActivate, textserv/ITextHost::TxActivate
 ms.topic: method
-f1_keywords: ["textserv/ITextHost.TxActivate"]
+f1_keywords: 
+ - "textserv/ITextHost.TxActivate"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

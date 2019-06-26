@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceReleased"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceReleased"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

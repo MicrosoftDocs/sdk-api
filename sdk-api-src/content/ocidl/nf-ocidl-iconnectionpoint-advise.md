@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],Advise method, IConnectionPoint.Advise, IConnectionPoint::Advise, _com_iconnectionpoint_advise, com.iconnectionpoint_advise, ocidl/IConnectionPoint::Advise
 ms.topic: method
-f1_keywords: ["ocidl/IConnectionPoint.Advise"]
+f1_keywords: 
+ - "ocidl/IConnectionPoint.Advise"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

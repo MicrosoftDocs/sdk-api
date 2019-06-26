@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServiceEnum, NetServiceEnum function [Network Management], _win32_netserviceenum, lmsvc/NetServiceEnum, netmgmt.netserviceenum
 ms.topic: function
-f1_keywords: ["lmsvc/NetServiceEnum"]
+f1_keywords: 
+ - "lmsvc/NetServiceEnum"
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillRectangles
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::FillRectangles"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::FillRectangles"
 targetos: Windows
 product: Windows
 req.assembly: 

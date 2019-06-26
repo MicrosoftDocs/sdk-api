@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeLib.SetLibFlags"]
+f1_keywords: 
+ - "oaidl/ICreateTypeLib.SetLibFlags"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

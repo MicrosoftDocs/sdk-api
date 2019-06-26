@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
 ms.topic: method
-f1_keywords: ["oaidl/IEnumVARIANT.Clone"]
+f1_keywords: 
+ - "oaidl/IEnumVARIANT.Clone"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

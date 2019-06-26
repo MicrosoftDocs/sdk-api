@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILESYSTEM_GET_STATISTICS_EX, FSCTL_FILESYSTEM_GET_STATISTICS_EX control, FSCTL_FILESYSTEM_GET_STATISTICS_EX control code [Files], fs.fsctl_filesystem_get_statistics_ex, winioctl/FSCTL_FILESYSTEM_GET_STATISTICS_EX
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_FILESYSTEM_GET_STATISTICS_EX"]
+f1_keywords: 
+ - "winioctl/FSCTL_FILESYSTEM_GET_STATISTICS_EX"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

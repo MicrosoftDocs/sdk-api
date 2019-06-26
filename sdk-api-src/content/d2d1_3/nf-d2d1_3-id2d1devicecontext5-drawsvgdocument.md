@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawSvgDocument, DrawSvgDocument method [Direct2D], DrawSvgDocument method [Direct2D],ID2D1DeviceContext5 interface, ID2D1DeviceContext5 interface [Direct2D],DrawSvgDocument method, ID2D1DeviceContext5.DrawSvgDocument, ID2D1DeviceContext5::DrawSvgDocument, d2d1_3/ID2D1DeviceContext5::DrawSvgDocument, direct2d.id2d1devicecontext5_drawsvgdocument
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1DeviceContext5.DrawSvgDocument"]
+f1_keywords: 
+ - "d2d1_3/ID2D1DeviceContext5.DrawSvgDocument"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

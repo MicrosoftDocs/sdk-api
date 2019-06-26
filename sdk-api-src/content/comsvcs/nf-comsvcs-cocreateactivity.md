@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
 ms.topic: function
-f1_keywords: ["comsvcs/CoCreateActivity"]
+f1_keywords: 
+ - "comsvcs/CoCreateActivity"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

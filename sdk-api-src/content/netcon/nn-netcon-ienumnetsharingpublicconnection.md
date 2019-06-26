@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection interface [ICS/ICF], IEnumNetSharingPublicConnection interface [ICS/ICF],described, _ics_ienumnetsharingpublicconnection, ics.ienumnetsharingpublicconnection, netcon/IEnumNetSharingPublicConnection
 ms.topic: interface
-f1_keywords: ["netcon/IEnumNetSharingPublicConnection"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPublicConnection"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Files], PCREATE_DISK, PCREATE_DISK structure pointer [Files], _win32_create_disk_str, base.create_disk_str, fs.create_disk_str, winioctl/CREATE_DISK, winioctl/PCREATE_DISK"
 ms.topic: struct
-f1_keywords: ["winioctl/CREATE_DISK"]
+f1_keywords: 
+ - "winioctl/CREATE_DISK"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

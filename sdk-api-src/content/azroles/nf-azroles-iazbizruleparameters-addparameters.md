@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddParameters, AddParameters method [Security], AddParameters method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameters method, IAzBizRuleParameters.AddParameters, IAzBizRuleParameters::AddParameters, azroles/IAzBizRuleParameters::AddParameters, security.iazbizruleparameters_addparameters_method
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleParameters.AddParameters"]
+f1_keywords: 
+ - "azroles/IAzBizRuleParameters.AddParameters"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

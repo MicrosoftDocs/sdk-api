@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetLineFromInlineContext"]
+f1_keywords: 
+ - "dbghelp/SymGetLineFromInlineContext"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

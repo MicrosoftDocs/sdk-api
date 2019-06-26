@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromIdAsync"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

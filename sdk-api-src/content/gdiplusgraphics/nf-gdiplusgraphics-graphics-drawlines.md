@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLines
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawLines"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawLines"
 targetos: Windows
 product: Windows
 req.assembly: 

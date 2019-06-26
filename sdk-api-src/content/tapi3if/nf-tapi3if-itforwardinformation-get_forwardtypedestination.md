@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeDestination method, ITForwardInformation.get_ForwardTypeDestination, ITForwardInformation::get_ForwardTypeDestination, _tapi3_itforwardinformation_get_forwardtypedestination, get_ForwardTypeDestination, get_ForwardTypeDestination method [TAPI 2.2], get_ForwardTypeDestination method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypedestination, tapi3if/ITForwardInformation::get_ForwardTypeDestination
 ms.topic: method
-f1_keywords: ["tapi3if/ITForwardInformation.get_ForwardTypeDestination"]
+f1_keywords: 
+ - "tapi3if/ITForwardInformation.get_ForwardTypeDestination"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

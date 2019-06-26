@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, SubmitNtmsOperatorRequest, SubmitNtmsOperatorRequest function [Files], SubmitNtmsOperatorRequestA, SubmitNtmsOperatorRequestW, _zaw_submitntmsoperatorrequest, base.submitntmsoperatorrequest, fs.submitntmsoperatorrequest, ntmsapi/SubmitNtmsOperatorRequest, ntmsapi/SubmitNtmsOperatorRequestA, ntmsapi/SubmitNtmsOperatorRequestW
 ms.topic: function
-f1_keywords: ["ntmsapi/SubmitNtmsOperatorRequest"]
+f1_keywords: 
+ - "ntmsapi/SubmitNtmsOperatorRequest"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

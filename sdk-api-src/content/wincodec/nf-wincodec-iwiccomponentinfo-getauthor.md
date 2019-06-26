@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuthor, GetAuthor method [Windows Imaging Component], GetAuthor method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetAuthor method, IWICComponentInfo.GetAuthor, IWICComponentInfo::GetAuthor, _wic_codec_iwiccomponentinfo_getauthor, wic._wic_codec_iwiccomponentinfo_getauthor, wincodec/IWICComponentInfo::GetAuthor
 ms.topic: method
-f1_keywords: ["wincodec/IWICComponentInfo.GetAuthor"]
+f1_keywords: 
+ - "wincodec/IWICComponentInfo.GetAuthor"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

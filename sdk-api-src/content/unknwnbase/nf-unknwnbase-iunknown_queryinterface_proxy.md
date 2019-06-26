@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
 ms.topic: function
-f1_keywords: ["unknwnbase/IUnknown_QueryInterface_Proxy"]
+f1_keywords: 
+ - "unknwnbase/IUnknown_QueryInterface_Proxy"
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],AgeLimit property, IFaxIncomingArchive.AgeLimit, IFaxIncomingArchive.put_AgeLimit, IFaxIncomingArchive::AgeLimit, IFaxIncomingArchive::get_AgeLimit, IFaxIncomingArchive::put_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_agelimit_cpp, faxcomex/IFaxIncomingArchive::AgeLimit, faxcomex/IFaxIncomingArchive::get_AgeLimit, faxcomex/IFaxIncomingArchive::put_AgeLimit, put_AgeLimit
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingArchive.AgeLimit"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingArchive.AgeLimit"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

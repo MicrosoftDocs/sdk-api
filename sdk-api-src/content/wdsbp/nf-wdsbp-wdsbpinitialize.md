@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpInitialize, WdsBpInitialize function [Windows Deployment Services], wds.wdsbpinitialize, wdsbp/WdsBpInitialize
 ms.topic: function
-f1_keywords: ["wdsbp/WdsBpInitialize"]
+f1_keywords: 
+ - "wdsbp/WdsBpInitialize"
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqIfIds, RpcMgmtInqIfIds function [RPC], _rpc_rpcmgmtinqifids, rpc.rpcmgmtinqifids, rpcdce/RpcMgmtInqIfIds
 ms.topic: function
-f1_keywords: ["rpcdce/RpcMgmtInqIfIds"]
+f1_keywords: 
+ - "rpcdce/RpcMgmtInqIfIds"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

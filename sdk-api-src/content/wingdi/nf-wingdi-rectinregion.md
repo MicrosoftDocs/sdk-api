@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
 ms.topic: function
-f1_keywords: ["wingdi/RectInRegion"]
+f1_keywords: 
+ - "wingdi/RectInRegion"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

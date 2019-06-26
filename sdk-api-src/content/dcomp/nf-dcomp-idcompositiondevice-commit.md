@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],Commit method, IDCompositionDevice.Commit, IDCompositionDevice::Commit, dcomp/IDCompositionDevice::Commit, directcomp.idcompositiondevice_commit
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.Commit"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.Commit"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

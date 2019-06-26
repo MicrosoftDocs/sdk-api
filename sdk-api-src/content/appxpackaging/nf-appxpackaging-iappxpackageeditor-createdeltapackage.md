@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackage method, IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageEditor.CreateDeltaPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageEditor.CreateDeltaPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

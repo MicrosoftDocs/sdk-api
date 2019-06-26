@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10ShaderReflectionConstantBuffer, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10], ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionConstantBuffer, direct3d10.id3d10shaderreflectionconstantbuffer, fdeec4a2-cda3-d87b-9d10-c899b8675fd1
 ms.topic: interface
-f1_keywords: ["d3d10shader/ID3D10ShaderReflectionConstantBuffer"]
+f1_keywords: 
+ - "d3d10shader/ID3D10ShaderReflectionConstantBuffer"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaKeys.get_KeySystem"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaKeys.get_KeySystem"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

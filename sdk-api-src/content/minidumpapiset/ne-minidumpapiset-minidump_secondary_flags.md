@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_SECONDARY_FLAGS, MINIDUMP_SECONDARY_FLAGS enumeration, MiniSecondaryWithoutPowerInfo, base.minidump_secondary_flags, minidumpapiset/MINIDUMP_SECONDARY_FLAGS, minidumpapiset/MiniSecondaryWithoutPowerInfo
 ms.topic: enum
-f1_keywords: ["minidumpapiset/MINIDUMP_SECONDARY_FLAGS"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_SECONDARY_FLAGS"
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

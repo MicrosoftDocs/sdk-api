@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
 ms.topic: interface
-f1_keywords: ["txlogpub/IFileBasedLogInit"]
+f1_keywords: 
+ - "txlogpub/IFileBasedLogInit"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

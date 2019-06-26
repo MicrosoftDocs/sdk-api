@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueTimer, DeleteTimerQueueTimer function, _win32_deletetimerqueuetimer, base.deletetimerqueuetimer, threadpoollegacyapiset/DeleteTimerQueueTimer, winbase/DeleteTimerQueueTimer
 ms.topic: function
-f1_keywords: ["threadpoollegacyapiset/DeleteTimerQueueTimer"]
+f1_keywords: 
+ - "threadpoollegacyapiset/DeleteTimerQueueTimer"
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

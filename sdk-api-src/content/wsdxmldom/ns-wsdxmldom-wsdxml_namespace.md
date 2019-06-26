@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, ncd.wsdxml_namespace_struct, wsdxmldom/WSDXML_NAMESPACE
 ms.topic: struct
-f1_keywords: ["wsdxmldom/WSDXML_NAMESPACE"]
+f1_keywords: 
+ - "wsdxmldom/WSDXML_NAMESPACE"
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

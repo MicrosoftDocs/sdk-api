@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromRelativeName, SHCreateItemFromRelativeName function [Windows Shell], _shell_SHCreateItemFromRelativeName, shell.SHCreateItemFromRelativeName, shobjidl_core/SHCreateItemFromRelativeName
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHCreateItemFromRelativeName"]
+f1_keywords: 
+ - "shobjidl_core/SHCreateItemFromRelativeName"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

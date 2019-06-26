@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingInqOption"]
+f1_keywords: 
+ - "rpcdce/RpcBindingInqOption"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

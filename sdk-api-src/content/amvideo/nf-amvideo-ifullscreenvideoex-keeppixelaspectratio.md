@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],KeepPixelAspectRatio method, IFullScreenVideoEx.KeepPixelAspectRatio, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.KeepPixelAspectRatio"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.KeepPixelAspectRatio"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_IsHierarchical method, ISearchRoot.put_IsHierarchical, ISearchRoot::put_IsHierarchical, _search_ISearchRoot_put_IsHierarchical, put_IsHierarchical, put_IsHierarchical method [search], put_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_put_IsHierarchical, searchapi/ISearchRoot::put_IsHierarchical
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_IsHierarchical"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_IsHierarchical"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

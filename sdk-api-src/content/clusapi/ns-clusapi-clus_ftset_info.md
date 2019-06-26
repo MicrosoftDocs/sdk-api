@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_FTSET_INFO, CLUS_FTSET_INFO, CLUS_FTSET_INFO structure [Failover Cluster], PCLUS_FTSET_INFO, PCLUS_FTSET_INFO structure pointer [Failover Cluster], clusapi/CLUS_FTSET_INFO, clusapi/PCLUS_FTSET_INFO, mscs.clus_ftset_info"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_FTSET_INFO"]
+f1_keywords: 
+ - "clusapi/CLUS_FTSET_INFO"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

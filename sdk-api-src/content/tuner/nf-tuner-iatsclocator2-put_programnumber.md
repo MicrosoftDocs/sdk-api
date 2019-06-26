@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],put_ProgramNumber method, IATSCLocator2.put_ProgramNumber, IATSCLocator2::put_ProgramNumber, IATSCLocator2put_ProgramNumber, mstv.iatsclocator2_put_programnumber, put_ProgramNumber, put_ProgramNumber method [Microsoft TV Technologies], put_ProgramNumber method [Microsoft TV Technologies],IATSCLocator2 interface, tuner/IATSCLocator2::put_ProgramNumber
 ms.topic: method
-f1_keywords: ["tuner/IATSCLocator2.put_ProgramNumber"]
+f1_keywords: 
+ - "tuner/IATSCLocator2.put_ProgramNumber"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

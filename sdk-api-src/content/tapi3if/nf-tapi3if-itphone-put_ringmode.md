@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingMode method, ITPhone.put_RingMode, ITPhone::put_RingMode, _tapi3_itphone_put_ringmode, put_RingMode, put_RingMode method [TAPI 2.2], put_RingMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringmode, tapi3if/ITPhone::put_RingMode
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.put_RingMode"]
+f1_keywords: 
+ - "tapi3if/ITPhone.put_RingMode"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

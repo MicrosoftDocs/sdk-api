@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptionChanged, EncryptionChanged method [Offline Files], EncryptionChanged method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],EncryptionChanged method, IOfflineFilesEvents.EncryptionChanged, IOfflineFilesEvents::EncryptionChanged, cscobj/IOfflineFilesEvents::EncryptionChanged, of.iofflinefilesevents_encryptionchanged
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.EncryptionChanged"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.EncryptionChanged"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

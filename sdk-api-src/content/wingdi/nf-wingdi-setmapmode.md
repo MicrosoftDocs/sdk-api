@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MM_ANISOTROPIC, MM_HIENGLISH, MM_HIMETRIC, MM_ISOTROPIC, MM_LOENGLISH, MM_LOMETRIC, MM_TEXT, MM_TWIPS, SetMapMode, SetMapMode function [Windows GDI], _win32_SetMapMode, gdi.setmapmode, wingdi/SetMapMode
 ms.topic: function
-f1_keywords: ["wingdi/SetMapMode"]
+f1_keywords: 
+ - "wingdi/SetMapMode"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

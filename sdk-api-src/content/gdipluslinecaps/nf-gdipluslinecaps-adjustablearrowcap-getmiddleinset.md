@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetMiddleInset method, AdjustableArrowCap.GetMiddleInset, AdjustableArrowCap::GetMiddleInset, GetMiddleInset, GetMiddleInset method [GDI+], GetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_
 ms.topic: method
-f1_keywords: ["gdipluslinecaps/AdjustableArrowCap.GetMiddleInset"]
+f1_keywords: 
+ - "gdipluslinecaps/AdjustableArrowCap.GetMiddleInset"
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesShareInfo, IOfflineFilesShareInfo interface [Offline Files], IOfflineFilesShareInfo interface [Offline Files],described, cscobj/IOfflineFilesShareInfo, of.iofflinefilesshareinfo
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesShareInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesShareInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

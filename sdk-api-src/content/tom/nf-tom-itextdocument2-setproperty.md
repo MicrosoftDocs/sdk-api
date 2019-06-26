@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetProperty method, ITextDocument2.SetProperty, ITextDocument2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setproperty, tom/ITextDocument2::SetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.SetProperty"]
+f1_keywords: 
+ - "tom/ITextDocument2.SetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

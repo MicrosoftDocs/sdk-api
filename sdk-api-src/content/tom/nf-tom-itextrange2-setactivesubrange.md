@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetActiveSubrange method, ITextRange2.SetActiveSubrange, ITextRange2::SetActiveSubrange, SetActiveSubrange, SetActiveSubrange method [Windows Controls], SetActiveSubrange method [Windows Controls],ITextRange2 interface, controls.itextrange2_setactivesubrange, tom/ITextRange2::SetActiveSubrange
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.SetActiveSubrange"]
+f1_keywords: 
+ - "tom/ITextRange2.SetActiveSubrange"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

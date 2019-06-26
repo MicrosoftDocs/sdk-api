@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries"
 ms.topic: function
-f1_keywords: ["winldap/ldap_count_entries"]
+f1_keywords: 
+ - "winldap/ldap_count_entries"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

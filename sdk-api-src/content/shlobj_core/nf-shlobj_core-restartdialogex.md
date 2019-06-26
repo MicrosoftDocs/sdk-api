@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialogEx, RestartDialogEx function [Windows Shell], _win32_RestartDialogEx, shell.RestartDialogEx, shlobj_core/RestartDialogEx
 ms.topic: function
-f1_keywords: ["shlobj_core/RestartDialogEx"]
+f1_keywords: 
+ - "shlobj_core/RestartDialogEx"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowHandle, GetWindowHandle method [DirectShow], GetWindowHandle method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetWindowHandle method, IOverlay.GetWindowHandle, IOverlay::GetWindowHandle, IOverlayGetWindowHandle, dshow.ioverlay_getwindowhandle, strmif/IOverlay::GetWindowHandle
 ms.topic: method
-f1_keywords: ["strmif/IOverlay.GetWindowHandle"]
+f1_keywords: 
+ - "strmif/IOverlay.GetWindowHandle"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

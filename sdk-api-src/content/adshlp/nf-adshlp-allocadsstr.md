@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
 ms.topic: function
-f1_keywords: ["adshlp/AllocADsStr"]
+f1_keywords: 
+ - "adshlp/AllocADsStr"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

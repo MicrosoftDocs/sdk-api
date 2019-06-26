@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWCM_PROFILE_INFO, PWCM_PROFILE_INFO, PWCM_PROFILE_INFO structure pointer [Windows Connection Manager], WCM_PROFILE_INFO, WCM_PROFILE_INFO structure [Windows Connection Manager], wcm.wcm_profile_info, wcmapi/PWCM_PROFILE_INFO, wcmapi/WCM_PROFILE_INFO"
 ms.topic: struct
-f1_keywords: ["wcmapi/WCM_PROFILE_INFO"]
+f1_keywords: 
+ - "wcmapi/WCM_PROFILE_INFO"
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

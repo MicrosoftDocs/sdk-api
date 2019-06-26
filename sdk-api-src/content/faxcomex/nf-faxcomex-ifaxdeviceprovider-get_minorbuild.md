@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MinorBuild property, IFaxDeviceProvider.MinorBuild, IFaxDeviceProvider.get_MinorBuild, IFaxDeviceProvider::MinorBuild, IFaxDeviceProvider::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.minorbuild, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorbuild_cpp, fax._mfax_faxdeviceprovider_minorbuild, faxcomex/IFaxDeviceProvider::MinorBuild, faxcomex/IFaxDeviceProvider::get_MinorBuild, get_MinorBuild
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceProvider.MinorBuild"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceProvider.MinorBuild"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

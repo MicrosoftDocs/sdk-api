@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files],IOfflineFilesTransparentCacheInfo interface, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesTransparentCacheInfo.IsTransparentlyCached"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesTransparentCacheInfo.IsTransparentlyCached"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

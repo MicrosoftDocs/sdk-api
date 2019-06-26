@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Management Instrumentation], CreateRefreshableObject method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableObject method, IWbemHiPerfProvider.CreateRefreshableObject, IWbemHiPerfProvider::CreateRefreshableObject, _hmm_iwbemhiperfprovider_createrefreshableobject, wbemprov/IWbemHiPerfProvider::CreateRefreshableObject, wmi.iwbemhiperfprovider_createrefreshableobject
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemHiPerfProvider.CreateRefreshableObject"]
+f1_keywords: 
+ - "wbemprov/IWbemHiPerfProvider.CreateRefreshableObject"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

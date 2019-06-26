@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataCopier, ActivateSpatialAudioMetadataCopier method [Core Audio], ActivateSpatialAudioMetadataCopier method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataCopier method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataCopier
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataCopier"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

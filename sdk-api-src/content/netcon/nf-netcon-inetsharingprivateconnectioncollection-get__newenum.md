@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPrivateConnectionCollection.get__NewEnum, INetSharingPrivateConnectionCollection::get__NewEnum, _ics_inetsharingprivateconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get__newenum, netcon/INetSharingPrivateConnectionCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["netcon/INetSharingPrivateConnectionCollection.get__NewEnum"]
+f1_keywords: 
+ - "netcon/INetSharingPrivateConnectionCollection.get__NewEnum"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

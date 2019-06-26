@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesignGlyphMetrics, GetDesignGlyphMetrics method [Direct Write], GetDesignGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetDesignGlyphMetrics method, IDWriteFontFace.GetDesignGlyphMetrics, IDWriteFontFace::GetDesignGlyphMetrics, directwrite.IDWriteFontFace_GetDesignGlyphMetrics, dwrite/IDWriteFontFace::GetDesignGlyphMetrics
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetDesignGlyphMetrics"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetDesignGlyphMetrics"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

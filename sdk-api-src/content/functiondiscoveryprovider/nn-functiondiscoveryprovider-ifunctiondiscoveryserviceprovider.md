@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryServiceProvider, IFunctionDiscoveryServiceProvider interface, IFunctionDiscoveryServiceProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider, ncd.ifunctiondiscoveryserviceprovider
 ms.topic: interface
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryServiceProvider"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryServiceProvider"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

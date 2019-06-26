@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PermanentLocationID method, ITLocationInfo.get_PermanentLocationID, ITLocationInfo::get_PermanentLocationID, _tapi3_itlocationinfo_get_permanentlocationid, get_PermanentLocationID, get_PermanentLocationID method [TAPI 2.2], get_PermanentLocationID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_permanentlocationid, tapi3if/ITLocationInfo::get_PermanentLocationID
 ms.topic: method
-f1_keywords: ["tapi3if/ITLocationInfo.get_PermanentLocationID"]
+f1_keywords: 
+ - "tapi3if/ITLocationInfo.get_PermanentLocationID"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

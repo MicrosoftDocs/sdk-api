@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
 ms.topic: interface
-f1_keywords: ["wmpservices/IWMPMediaPluginRegistrar"]
+f1_keywords: 
+ - "wmpservices/IWMPMediaPluginRegistrar"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

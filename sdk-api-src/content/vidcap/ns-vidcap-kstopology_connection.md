@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [DirectShow], KSTOPOLOGY_CONNECTIONStructure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [DirectShow], dshow.kstopology_connection, vidcap/KSTOPOLOGY_CONNECTION, vidcap/PKSTOPOLOGY_CONNECTION"
 ms.topic: struct
-f1_keywords: ["vidcap/KSTOPOLOGY_CONNECTION"]
+f1_keywords: 
+ - "vidcap/KSTOPOLOGY_CONNECTION"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

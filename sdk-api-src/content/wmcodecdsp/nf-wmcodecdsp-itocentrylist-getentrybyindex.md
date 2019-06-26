@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocEntryList.GetEntryByIndex"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntryList.GetEntryByIndex"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

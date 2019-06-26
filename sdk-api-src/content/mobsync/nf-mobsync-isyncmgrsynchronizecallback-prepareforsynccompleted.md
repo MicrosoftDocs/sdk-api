@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],PrepareForSyncCompleted method, ISyncMgrSynchronizeCallback.PrepareForSyncCompleted, ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, PrepareForSyncCompleted, PrepareForSyncCompleted method [Windows Shell], PrepareForSyncCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted, syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.PrepareForSyncCompleted"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.PrepareForSyncCompleted"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

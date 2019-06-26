@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalanceResult, ITsSbLoadBalanceResult interface [Remote Desktop Services], ITsSbLoadBalanceResult interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalanceResult, termserv.itssbloadbalanceresult
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbLoadBalanceResult"]
+f1_keywords: 
+ - "sbtsv/ITsSbLoadBalanceResult"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

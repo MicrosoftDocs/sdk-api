@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGORY_INFO, shell.CATEGORY_INFO, shobjidl_core/CATEGORY_INFO
 ms.topic: struct
-f1_keywords: ["shobjidl_core/CATEGORY_INFO"]
+f1_keywords: 
+ - "shobjidl_core/CATEGORY_INFO"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

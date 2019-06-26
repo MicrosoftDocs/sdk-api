@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL
 ms.topic: function
-f1_keywords: ["wincrypt/CertEnumSubjectInSortedCTL"]
+f1_keywords: 
+ - "wincrypt/CertEnumSubjectInSortedCTL"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

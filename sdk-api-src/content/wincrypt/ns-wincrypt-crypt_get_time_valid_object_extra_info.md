@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security], PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security], security.crypt_get_time_valid_object_extra_info, wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"]
+f1_keywords: 
+ - "wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Sharpen, Sharpen class [GDI+], Sharpen class [GDI+],described, _gdiplus_CLASS_Sharpen_Class, gdiplus._gdiplus_CLASS_Sharpen_Class, gdipluseffects/Sharpen
 ms.topic: class
-f1_keywords: ["gdipluseffects/Sharpen"]
+f1_keywords: 
+ - "gdipluseffects/Sharpen"
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

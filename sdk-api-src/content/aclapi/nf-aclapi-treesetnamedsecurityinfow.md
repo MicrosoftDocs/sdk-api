@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_INFO_SET, TreeSetNamedSecurityInfo, TreeSetNamedSecurityInfo function [Security], TreeSetNamedSecurityInfoA, TreeSetNamedSecurityInfoW, aclapi/TreeSetNamedSecurityInfo, aclapi/TreeSetNamedSecurityInfoA, aclapi/TreeSetNamedSecurityInfoW, security.treesetnamedsecurityinfo
 ms.topic: function
-f1_keywords: ["aclapi/TreeSetNamedSecurityInfo"]
+f1_keywords: 
+ - "aclapi/TreeSetNamedSecurityInfo"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

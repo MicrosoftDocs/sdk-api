@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
 ms.topic: function
-f1_keywords: ["http/HttpSetRequestQueueProperty"]
+f1_keywords: 
+ - "http/HttpSetRequestQueueProperty"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Compare method, ITextRangeProvider.Compare, ITextRangeProvider::Compare, uiauto.uiauto_ITextRangeProvider_Compare, uiauto_ITextRangeProvider_Compare, uiautomationcore/ITextRangeProvider::Compare, winauto.uiauto_ITextRangeProvider_Compare
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextRangeProvider.Compare"]
+f1_keywords: 
+ - "uiautomationcore/ITextRangeProvider.Compare"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

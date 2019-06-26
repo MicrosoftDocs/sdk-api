@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellPalette, SHCreateShellPalette function [Windows Shell], _win32_SHCreateShellPalette, shell.SHCreateShellPalette, shlwapi/SHCreateShellPalette
 ms.topic: function
-f1_keywords: ["shlwapi/SHCreateShellPalette"]
+f1_keywords: 
+ - "shlwapi/SHCreateShellPalette"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

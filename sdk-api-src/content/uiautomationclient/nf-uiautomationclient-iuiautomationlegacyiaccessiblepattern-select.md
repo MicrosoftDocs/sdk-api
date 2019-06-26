@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],Select method, IUIAutomationLegacyIAccessiblePattern.Select, IUIAutomationLegacyIAccessiblePattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.Select"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.Select"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

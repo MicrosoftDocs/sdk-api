@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Media Foundation], GetText method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetText method, IMFTimedTextFormattedText.GetText, IMFTimedTextFormattedText::GetText, mf.imftimedtextformattedtext_gettext, mfmediaengine/IMFTimedTextFormattedText::GetText
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextFormattedText.GetText"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextFormattedText.GetText"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

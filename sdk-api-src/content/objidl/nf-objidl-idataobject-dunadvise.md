@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObject interface, IDataObject interface [COM],DUnadvise method, IDataObject.DUnadvise, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
 ms.topic: method
-f1_keywords: ["objidl/IDataObject.DUnadvise"]
+f1_keywords: 
+ - "objidl/IDataObject.DUnadvise"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

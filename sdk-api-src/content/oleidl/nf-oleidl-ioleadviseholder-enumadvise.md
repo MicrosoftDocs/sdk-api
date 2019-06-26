@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],EnumAdvise method, IOleAdviseHolder.EnumAdvise, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
 ms.topic: method
-f1_keywords: ["oleidl/IOleAdviseHolder.EnumAdvise"]
+f1_keywords: 
+ - "oleidl/IOleAdviseHolder.EnumAdvise"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

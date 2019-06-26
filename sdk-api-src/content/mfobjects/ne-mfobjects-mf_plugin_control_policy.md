@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_PLUGIN_CONTROL_POLICY, MF_PLUGIN_CONTROL_POLICY enumeration [Media Foundation], MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS, mf.mf_plugin_control_policy, mfobjects/MF_PLUGIN_CONTROL_POLICY, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS
 ms.topic: enum
-f1_keywords: ["mfobjects/MF_PLUGIN_CONTROL_POLICY"]
+f1_keywords: 
+ - "mfobjects/MF_PLUGIN_CONTROL_POLICY"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

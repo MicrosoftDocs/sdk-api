@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains method, BoundingFrustum.Contains, BoundingFrustum.Contains(const BoundingBox &), BoundingFrustum.Contains(const BoundingBox&), BoundingFrustum::Contains, BoundingFrustum::Contains(const BoundingBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_contains_3
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingFrustum.Contains"]
+f1_keywords: 
+ - "directxcollision/BoundingFrustum.Contains"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

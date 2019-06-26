@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles, IEnumTfLanguageProfiles interface [Text Services Framework], IEnumTfLanguageProfiles interface [Text Services Framework],described, _tsf_ienumtflanguageprofiles_ref, msctf/IEnumTfLanguageProfiles, tsf.ienumtflanguageprofiles
 ms.topic: interface
-f1_keywords: ["msctf/IEnumTfLanguageProfiles"]
+f1_keywords: 
+ - "msctf/IEnumTfLanguageProfiles"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

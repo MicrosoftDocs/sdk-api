@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
 ms.topic: function
-f1_keywords: ["coml2api/StgIsStorageILockBytes"]
+f1_keywords: 
+ - "coml2api/StgIsStorageILockBytes"
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

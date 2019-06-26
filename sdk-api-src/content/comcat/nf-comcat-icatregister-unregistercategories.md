@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterCategories method, ICatRegister.UnRegisterCategories, ICatRegister::UnRegisterCategories, UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM],ICatRegister interface, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
 ms.topic: method
-f1_keywords: ["comcat/ICatRegister.UnRegisterCategories"]
+f1_keywords: 
+ - "comcat/ICatRegister.UnRegisterCategories"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

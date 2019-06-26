@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES structure [Peer Networking], PPEER_GROUP_PROPERTIES, PPEER_GROUP_PROPERTIES structure pointer [Peer Networking], p2p.peer_group_properties, p2p/PPEER_GROUP_PROPERTIES, p2p/peer_group_properties_tag"
 ms.topic: struct
-f1_keywords: ["p2p/PEER_GROUP_PROPERTIES"]
+f1_keywords: 
+ - "p2p/PEER_GROUP_PROPERTIES"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
 ms.topic: function
-f1_keywords: ["rpcdce/RpcServerInterfaceGroupActivate"]
+f1_keywords: 
+ - "rpcdce/RpcServerInterfaceGroupActivate"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

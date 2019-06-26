@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSavedCredentials, DeleteSavedCredentials method [Remote Desktop Services], DeleteSavedCredentials method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],DeleteSavedCredentials method, IRemoteDesktopClient.DeleteSavedCredentials, IRemoteDesktopClient::DeleteSavedCredentials, rdpappcontainerclient/IRemoteDesktopClient::DeleteSavedCredentials, termserv.iremotedesktopclient_deletesavedcredentials
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.DeleteSavedCredentials"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClient.DeleteSavedCredentials"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

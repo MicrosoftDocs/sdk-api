@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Documents and Packaging], GetColorProfileResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetColorProfileResources method, IXpsOMPartResources.GetColorProfileResources, IXpsOMPartResources::GetColorProfileResources, xps.ixpsompartresources_getcolorprofileresources, xpsobjectmodel/IXpsOMPartResources::GetColorProfileResources
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPartResources.GetColorProfileResources"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPartResources.GetColorProfileResources"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get__NewEnum method, ISecurityCallersColl.get__NewEnum, ISecurityCallersColl::get__NewEnum, _cos_ISecurityCallersColl_get__NewEnum, comsvcs/ISecurityCallersColl::get__NewEnum, cos.isecuritycallerscoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityCallersColl interface
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityCallersColl.get__NewEnum"]
+f1_keywords: 
+ - "comsvcs/ISecurityCallersColl.get__NewEnum"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

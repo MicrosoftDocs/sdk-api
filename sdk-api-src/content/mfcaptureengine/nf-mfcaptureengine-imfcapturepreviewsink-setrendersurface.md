@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderSurface method, IMFCapturePreviewSink.SetRenderSurface, IMFCapturePreviewSink::SetRenderSurface, SetRenderSurface, SetRenderSurface method [Media Foundation], SetRenderSurface method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrendersurface, mfcaptureengine/IMFCapturePreviewSink::SetRenderSurface
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCapturePreviewSink.SetRenderSurface"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCapturePreviewSink.SetRenderSurface"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEditInvitation method, IPropertyDescription.GetEditInvitation, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescription.GetEditInvitation"]
+f1_keywords: 
+ - "propsys/IPropertyDescription.GetEditInvitation"
 req.header: propsys.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

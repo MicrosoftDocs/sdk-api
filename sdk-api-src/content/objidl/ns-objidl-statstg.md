@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storage], _stg_statstg, objidl/STATSTG, stg.statstg, tagSTATSTG
 ms.topic: struct
-f1_keywords: ["objidl/STATSTG"]
+f1_keywords: 
+ - "objidl/STATSTG"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

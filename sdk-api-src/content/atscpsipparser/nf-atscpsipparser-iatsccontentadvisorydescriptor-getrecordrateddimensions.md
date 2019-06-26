@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatedDimensions, GetRecordRatedDimensions method [Microsoft TV Technologies], GetRecordRatedDimensions method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatedDimensions method, IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions, IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, IAtscContentAdvisoryDescriptorGetRecordRatedDimensions, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, mstv.iatsccontentadvisorydescriptor_getrecordrateddimensions
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions"]
+f1_keywords: 
+ - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

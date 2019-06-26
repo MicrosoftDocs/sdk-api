@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowExProps.get_CodecCount"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowExProps.get_CodecCount"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

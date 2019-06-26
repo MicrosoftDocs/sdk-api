@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Schedules property, IDataCollectorSet.Schedules, IDataCollectorSet.get_Schedules, IDataCollectorSet::Schedules, IDataCollectorSet::get_Schedules, Schedules property [PLA], Schedules property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedules, get_Schedules, pla.idatacollectorset_get_schedules, pla/IDataCollectorSet::Schedules, pla/IDataCollectorSet::get_Schedules
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.Schedules"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.Schedules"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

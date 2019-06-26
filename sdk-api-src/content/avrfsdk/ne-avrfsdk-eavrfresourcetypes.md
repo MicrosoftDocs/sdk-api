@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMax, avrfsdk/AvrfResourceHandleTrace, avrfsdk/AvrfResourceHeapAllocation, avrfsdk/AvrfResourceMax, avrfsdk/eAvrfResourceTypes, base.eavrfresourcetypes, eAvrfResourceTypes, eAvrfResourceTypes enumeration [Windows API], winprog.eavrfresourcetypes
 ms.topic: enum
-f1_keywords: ["avrfsdk/eAvrfResourceTypes"]
+f1_keywords: 
+ - "avrfsdk/eAvrfResourceTypes"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

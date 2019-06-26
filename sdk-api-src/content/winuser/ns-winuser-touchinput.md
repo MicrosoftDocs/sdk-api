@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT"
 ms.topic: struct
-f1_keywords: ["winuser/TOUCHINPUT"]
+f1_keywords: 
+ - "winuser/TOUCHINPUT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

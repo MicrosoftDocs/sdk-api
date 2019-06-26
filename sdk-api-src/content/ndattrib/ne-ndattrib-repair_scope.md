@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope"
 ms.topic: enum
-f1_keywords: ["ndattrib/REPAIR_SCOPE"]
+f1_keywords: 
+ - "ndattrib/REPAIR_SCOPE"
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

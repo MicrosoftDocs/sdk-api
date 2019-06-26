@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
 ms.topic: function
-f1_keywords: ["oleauto/VarDecFromDisp"]
+f1_keywords: 
+ - "oleauto/VarDecFromDisp"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

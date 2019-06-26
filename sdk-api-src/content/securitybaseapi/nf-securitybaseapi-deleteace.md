@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce
 ms.topic: function
-f1_keywords: ["securitybaseapi/DeleteAce"]
+f1_keywords: 
+ - "securitybaseapi/DeleteAce"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

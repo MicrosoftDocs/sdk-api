@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterVideoMemoryBudgetChangeNotification method, IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification, IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification, UnregisterVideoMemoryBudgetChangeNotification method [DXGI], UnregisterVideoMemoryBudgetChangeNotification method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification, dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
 ms.topic: method
-f1_keywords: ["dxgi1_4/IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification"]
+f1_keywords: 
+ - "dxgi1_4/IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification"
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER"
 ms.topic: struct
-f1_keywords: ["mediaobj/DMO_OUTPUT_DATA_BUFFER"]
+f1_keywords: 
+ - "mediaobj/DMO_OUTPUT_DATA_BUFFER"
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

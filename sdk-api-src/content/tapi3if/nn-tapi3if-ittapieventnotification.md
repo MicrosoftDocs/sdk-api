@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPIEventNotification, ITTAPIEventNotification interface [TAPI 2.2], ITTAPIEventNotification interface [TAPI 2.2],described, _tapi3_ittapieventnotification, tapi3.ittapieventnotification, tapi3if/ITTAPIEventNotification
 ms.topic: interface
-f1_keywords: ["tapi3if/ITTAPIEventNotification"]
+f1_keywords: 
+ - "tapi3if/ITTAPIEventNotification"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

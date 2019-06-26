@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroup, GetGroup method [BITS], GetGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],GetGroup method, IBackgroundCopyQMgr.GetGroup, IBackgroundCopyQMgr::GetGroup, bits.ibackgroundcopyqmgr_getgroup, qmgr/IBackgroundCopyQMgr::GetGroup
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyQMgr.GetGroup"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyQMgr.GetGroup"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_IP_VERSION, WS_IP_VERSION enumeration [Web Services for Windows], WS_IP_VERSION_4, WS_IP_VERSION_6, webservices/WS_IP_VERSION, webservices/WS_IP_VERSION_4, webservices/WS_IP_VERSION_6, wsw.ws_ip_version
 ms.topic: enum
-f1_keywords: ["webservices/WS_IP_VERSION"]
+f1_keywords: 
+ - "webservices/WS_IP_VERSION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

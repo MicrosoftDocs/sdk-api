@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeReturnBuffer, FreeReturnBuffer callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _ssp_freereturnbuffer, ntsecpkg/FreeReturnBuffer, security.freereturnbuffer
 ms.topic: callback
-f1_keywords: ["ntsecpkg/FreeReturnBuffer"]
+f1_keywords: 
+ - "ntsecpkg/FreeReturnBuffer"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

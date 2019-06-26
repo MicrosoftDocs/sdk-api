@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixelFormat method, IWICBitmapFrameEncode.SetPixelFormat, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetPixelFormat"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetPixelFormat"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

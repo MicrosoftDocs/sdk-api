@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ONE, MKRREDUCE_THROUGHUSER, MKRREDUCE_TOUSER, _com_MKRREDUCE, com.mkrreduce, objidl/MKRREDUCE, objidl/MKRREDUCE_ALL, objidl/MKRREDUCE_ONE, objidl/MKRREDUCE_THROUGHUSER, objidl/MKRREDUCE_TOUSER
 ms.topic: enum
-f1_keywords: ["objidl/MKRREDUCE"]
+f1_keywords: 
+ - "objidl/MKRREDUCE"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

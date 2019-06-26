@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
 ms.topic: method
-f1_keywords: ["msctf/ITextStoreACPServices.Unserialize"]
+f1_keywords: 
+ - "msctf/ITextStoreACPServices.Unserialize"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetBandwidth method, IWMBandwidthSharing.SetBandwidth, IWMBandwidthSharing::SetBandwidth, IWMBandwidthSharingSetBandwidth, SetBandwidth, SetBandwidth method [windows Media Format], SetBandwidth method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_setbandwidth, wmsdkidl/IWMBandwidthSharing::SetBandwidth
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMBandwidthSharing.SetBandwidth"]
+f1_keywords: 
+ - "wmsdkidl/IWMBandwidthSharing.SetBandwidth"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

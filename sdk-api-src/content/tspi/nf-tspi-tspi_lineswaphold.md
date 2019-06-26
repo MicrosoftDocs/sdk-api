@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSwapHold, TSPI_lineSwapHold function [TAPI 2.2], _tspi_tspi_lineswaphold, tspi.tspi_lineswaphold, tspi/TSPI_lineSwapHold
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSwapHold"]
+f1_keywords: 
+ - "tspi/TSPI_lineSwapHold"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

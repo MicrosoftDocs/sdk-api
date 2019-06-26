@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_InputType method, IAMTVTuner.put_InputType, IAMTVTuner::put_InputType, IAMTVTunerput_InputType, dshow.iamtvtuner_put_inputtype, put_InputType, put_InputType method [DirectShow], put_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_InputType
 ms.topic: method
-f1_keywords: ["strmif/IAMTVTuner.put_InputType"]
+f1_keywords: 
+ - "strmif/IAMTVTuner.put_InputType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

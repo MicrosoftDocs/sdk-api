@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig
 ms.topic: interface
-f1_keywords: ["mfidl/IMFNetSchemeHandlerConfig"]
+f1_keywords: 
+ - "mfidl/IMFNetSchemeHandlerConfig"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

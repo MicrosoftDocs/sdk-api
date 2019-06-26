@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
 ms.topic: function
-f1_keywords: ["wingdi/AddFontResourceEx"]
+f1_keywords: 
+ - "wingdi/AddFontResourceEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

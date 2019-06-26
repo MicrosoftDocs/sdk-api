@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfToolTipUIElement, ITfToolTipUIElement interface [Text Services Framework], ITfToolTipUIElement interface [Text Services Framework],described, _tsf_itftooltipuielement_ref, msctf/ITfToolTipUIElement, tsf.itftooltipuielement
 ms.topic: interface
-f1_keywords: ["msctf/ITfToolTipUIElement"]
+f1_keywords: 
+ - "msctf/ITfToolTipUIElement"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

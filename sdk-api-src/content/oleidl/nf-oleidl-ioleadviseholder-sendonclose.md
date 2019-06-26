@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnClose method, IOleAdviseHolder.SendOnClose, IOleAdviseHolder::SendOnClose, SendOnClose, SendOnClose method [COM], SendOnClose method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonclose, com.ioleadviseholder_sendonclose, oleidl/IOleAdviseHolder::SendOnClose
 ms.topic: method
-f1_keywords: ["oleidl/IOleAdviseHolder.SendOnClose"]
+f1_keywords: 
+ - "oleidl/IOleAdviseHolder.SendOnClose"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

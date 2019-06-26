@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
 ms.topic: macro
-f1_keywords: ["amvideo/BITMASKS"]
+f1_keywords: 
+ - "amvideo/BITMASKS"
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

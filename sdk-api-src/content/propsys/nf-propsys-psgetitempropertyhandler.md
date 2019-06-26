@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.topic: function
-f1_keywords: ["propsys/PSGetItemPropertyHandler"]
+f1_keywords: 
+ - "propsys/PSGetItemPropertyHandler"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

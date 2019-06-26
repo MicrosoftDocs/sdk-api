@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartSessionRedirection method, IPackageDebugSettings.StartSessionRedirection, IPackageDebugSettings::StartSessionRedirection, StartSessionRedirection, StartSessionRedirection method [Windows Shell], StartSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartSessionRedirection, shobjidl_core/IPackageDebugSettings::StartSessionRedirection
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPackageDebugSettings.StartSessionRedirection"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings.StartSessionRedirection"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

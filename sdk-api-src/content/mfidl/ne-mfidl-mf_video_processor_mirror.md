@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation], MIRROR_HORIZONTAL, MIRROR_NONE, MIRROR_VERTICAL, mf.mf_video_processor_mirror, mfidl/MF_VIDEO_PROCESSOR_MIRROR, mfidl/MIRROR_HORIZONTAL, mfidl/MIRROR_NONE, mfidl/MIRROR_VERTICAL
 ms.topic: enum
-f1_keywords: ["mfidl/MF_VIDEO_PROCESSOR_MIRROR"]
+f1_keywords: 
+ - "mfidl/MF_VIDEO_PROCESSOR_MIRROR"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

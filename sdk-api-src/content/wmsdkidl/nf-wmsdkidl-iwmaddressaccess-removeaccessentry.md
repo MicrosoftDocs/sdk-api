@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry method, IWMAddressAccess.RemoveAccessEntry, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format],IWMAddressAccess interface, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMAddressAccess.RemoveAccessEntry"]
+f1_keywords: 
+ - "wmsdkidl/IWMAddressAccess.RemoveAccessEntry"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
 ms.topic: function
-f1_keywords: ["winuser/DeregisterShellHookWindow"]
+f1_keywords: 
+ - "winuser/DeregisterShellHookWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndInstall, EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndInstall method, IUpdateInstaller.EndInstall, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.EndInstall"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.EndInstall"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

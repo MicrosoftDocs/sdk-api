@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2.Send"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2.Send"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

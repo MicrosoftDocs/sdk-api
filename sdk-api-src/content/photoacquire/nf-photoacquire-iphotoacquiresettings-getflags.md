@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Picture Acquisition], GetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetFlags method, IPhotoAcquireSettings.GetFlags, IPhotoAcquireSettings::GetFlags, IPhotoAcquireSettingsGetFlags, photoacquire/IPhotoAcquireSettings::GetFlags, picacq.iphotoacquiresettings_getflags
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSettings.GetFlags"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSettings.GetFlags"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

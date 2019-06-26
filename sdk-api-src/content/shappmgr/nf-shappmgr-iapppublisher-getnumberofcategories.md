@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell], GetNumberOfCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfCategories method, IAppPublisher.GetNumberOfCategories, IAppPublisher::GetNumberOfCategories, inet_IAppPublisher_GetNumberOfCategories, shappmgr/IAppPublisher::GetNumberOfCategories, shell.IAppPublisher_GetNumberOfCategories
 ms.topic: method
-f1_keywords: ["shappmgr/IAppPublisher.GetNumberOfCategories"]
+f1_keywords: 
+ - "shappmgr/IAppPublisher.GetNumberOfCategories"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

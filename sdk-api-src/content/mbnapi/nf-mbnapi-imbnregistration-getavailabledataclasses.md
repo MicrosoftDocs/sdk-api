@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDataClasses, GetAvailableDataClasses method [Microsoft Broadband Networks], GetAvailableDataClasses method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetAvailableDataClasses method, IMbnRegistration.GetAvailableDataClasses, IMbnRegistration::GetAvailableDataClasses, mbn.imbnregistration_getavailabledataclasses, mbnapi/IMbnRegistration::GetAvailableDataClasses
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnRegistration.GetAvailableDataClasses"]
+f1_keywords: 
+ - "mbnapi/IMbnRegistration.GetAvailableDataClasses"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

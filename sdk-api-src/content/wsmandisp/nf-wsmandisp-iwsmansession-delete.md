@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Remote Management], Delete method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Delete method, IWSManSession.Delete, IWSManSession::Delete, winrm.iwsmansession_delete, wsmandisp/IWSManSession::Delete
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManSession.Delete"]
+f1_keywords: 
+ - "wsmandisp/IWSManSession.Delete"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

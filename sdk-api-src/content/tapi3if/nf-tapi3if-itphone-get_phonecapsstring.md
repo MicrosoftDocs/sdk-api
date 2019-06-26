@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsString method, ITPhone.get_PhoneCapsString, ITPhone::get_PhoneCapsString, _tapi3_itphone_get_phonecapsstring, get_PhoneCapsString, get_PhoneCapsString method [TAPI 2.2], get_PhoneCapsString method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsstring, tapi3if/ITPhone::get_PhoneCapsString
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.get_PhoneCapsString"]
+f1_keywords: 
+ - "tapi3if/ITPhone.get_PhoneCapsString"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

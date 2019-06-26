@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
 ms.topic: function
-f1_keywords: ["http/HttpSetUrlGroupProperty"]
+f1_keywords: 
+ - "http/HttpSetUrlGroupProperty"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

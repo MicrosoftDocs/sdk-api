@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBatchBase.GetIsLastBatch"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchBase.GetIsLastBatch"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

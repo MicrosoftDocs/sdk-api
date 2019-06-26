@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_joyGetPosEx, joyGetPosEx, joyGetPosEx function [Windows Multimedia], joystickapi/joyGetPosEx, multimedia.joygetposex"
 ms.topic: function
-f1_keywords: ["joystickapi/joyGetPosEx"]
+f1_keywords: 
+ - "joystickapi/joyGetPosEx"
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

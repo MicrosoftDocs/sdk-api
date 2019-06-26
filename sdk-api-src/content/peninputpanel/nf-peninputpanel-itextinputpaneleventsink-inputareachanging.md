@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InputAreaChanging method, ITextInputPanelEventSink.InputAreaChanging, ITextInputPanelEventSink::InputAreaChanging, InputAreaChanging, InputAreaChanging method [Tablet PC], InputAreaChanging method [Tablet PC],ITextInputPanelEventSink interface, e5f96798-2428-4acd-9d9a-addfdf14bb84, peninputpanel/ITextInputPanelEventSink::InputAreaChanging, tablet.itextinputpaneleventsink_inputareachanging
 ms.topic: method
-f1_keywords: ["peninputpanel/ITextInputPanelEventSink.InputAreaChanging"]
+f1_keywords: 
+ - "peninputpanel/ITextInputPanelEventSink.InputAreaChanging"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

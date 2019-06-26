@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Count method, IMILBitmapEffects.get_Count, IMILBitmapEffects::get_Count, _wibe_imilbitmapeffects_count, get_Count, get_Count method [WPF Bitmap Effects], get_Count method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Count, wibe._wibe_imilbitmapeffects_count
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffects.get_Count"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffects.get_Count"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

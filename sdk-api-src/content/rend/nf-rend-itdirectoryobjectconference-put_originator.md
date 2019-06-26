@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Originator method, ITDirectoryObjectConference.put_Originator, ITDirectoryObjectConference::put_Originator, _tapi3_itdirectoryobjectconference_put_originator, put_Originator, put_Originator method [TAPI 2.2], put_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Originator, tapi3.itdirectoryobjectconference_put_originator
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.put_Originator"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.put_Originator"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

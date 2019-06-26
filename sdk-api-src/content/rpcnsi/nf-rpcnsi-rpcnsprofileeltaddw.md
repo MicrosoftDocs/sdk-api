@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltAdd, RpcNsProfileEltAdd function [RPC], RpcNsProfileEltAddA, RpcNsProfileEltAddW, _rpc_rpcnsprofileeltadd, rpc.rpcnsprofileeltadd, rpcnsi/RpcNsProfileEltAdd, rpcnsi/RpcNsProfileEltAddA, rpcnsi/RpcNsProfileEltAddW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsProfileEltAdd"]
+f1_keywords: 
+ - "rpcnsi/RpcNsProfileEltAdd"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

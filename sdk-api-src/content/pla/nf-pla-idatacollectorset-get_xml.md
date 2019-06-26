@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Xml property, IDataCollectorSet.Xml, IDataCollectorSet.get_Xml, IDataCollectorSet::Xml, IDataCollectorSet::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_xml, get_Xml, pla.idatacollectorset_get_xml, pla/IDataCollectorSet::Xml, pla/IDataCollectorSet::get_Xml
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.Xml"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.Xml"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

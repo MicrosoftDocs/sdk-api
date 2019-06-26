@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
 ms.topic: function
-f1_keywords: ["schannel/SslCrackCertificate"]
+f1_keywords: 
+ - "schannel/SslCrackCertificate"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

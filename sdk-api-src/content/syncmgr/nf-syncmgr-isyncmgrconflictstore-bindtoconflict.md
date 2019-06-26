@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindToConflict, BindToConflict method [Windows Shell], BindToConflict method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],BindToConflict method, ISyncMgrConflictStore.BindToConflict, ISyncMgrConflictStore::BindToConflict, _shell_ISyncMgrConflictStore_BindToConflict, shell.ISyncMgrConflictStore_BindToConflict, syncmgr/ISyncMgrConflictStore::BindToConflict
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictStore.BindToConflict"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictStore.BindToConflict"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

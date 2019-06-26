@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION"
 ms.topic: struct
-f1_keywords: ["winnt/TOKEN_ELEVATION"]
+f1_keywords: 
+ - "winnt/TOKEN_ELEVATION"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

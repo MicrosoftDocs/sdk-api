@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnapshotMgmt interface [Files], IVssDifferentialSoftwareSnapshotMgmt interface [Files],described, base.ivssdifferentialsoftwaresnapshotmgmt, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt
 ms.topic: interface
-f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt"]
+f1_keywords: 
+ - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

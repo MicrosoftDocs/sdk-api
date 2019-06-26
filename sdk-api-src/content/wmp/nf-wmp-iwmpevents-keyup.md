@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.KeyUp"]
+f1_keywords: 
+ - "wmp/IWMPEvents.KeyUp"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

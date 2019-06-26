@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAccelerator.EndFrame"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator.EndFrame"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

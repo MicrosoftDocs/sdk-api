@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Tablet property, IInkOverlay.Tablet, IInkOverlay.get_Tablet, IInkOverlay::Tablet, IInkOverlay::get_Tablet, InkOverlay.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkOverlay interface, get_Tablet, msinkaut/IInkOverlay::Tablet, msinkaut/IInkOverlay::get_Tablet, put_Tablet, tablet.inkoverlay_tablet
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.Tablet"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.Tablet"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

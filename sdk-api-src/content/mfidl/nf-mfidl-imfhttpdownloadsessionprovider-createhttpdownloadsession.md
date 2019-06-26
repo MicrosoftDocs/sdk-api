@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateHttpDownloadSession, CreateHttpDownloadSession method [Media Foundation], CreateHttpDownloadSession method [Media Foundation],IMFHttpDownloadSessionProvider interface, IMFHttpDownloadSessionProvider interface [Media Foundation],CreateHttpDownloadSession method, IMFHttpDownloadSessionProvider.CreateHttpDownloadSession, IMFHttpDownloadSessionProvider::CreateHttpDownloadSession, mf.imfhttpdownloadsessionprovider_createhttpdownloadsession, mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadSessionProvider.CreateHttpDownloadSession"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadSessionProvider.CreateHttpDownloadSession"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

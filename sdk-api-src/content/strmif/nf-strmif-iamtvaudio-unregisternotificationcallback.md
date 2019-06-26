@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],UnRegisterNotificationCallBack method, IAMTVAudio.UnRegisterNotificationCallBack, IAMTVAudio::UnRegisterNotificationCallBack, IAMTVAudioUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTVAudio interface, dshow.iamtvaudio_unregisternotificationcallback, strmif/IAMTVAudio::UnRegisterNotificationCallBack
 ms.topic: method
-f1_keywords: ["strmif/IAMTVAudio.UnRegisterNotificationCallBack"]
+f1_keywords: 
+ - "strmif/IAMTVAudio.UnRegisterNotificationCallBack"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

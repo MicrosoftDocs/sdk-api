@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Queue method, ITQueueEvent.get_Queue, ITQueueEvent::get_Queue, _tapi3_itqueueevent_get_queue, get_Queue, get_Queue method [TAPI 2.2], get_Queue method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_queue, tapi3cc/ITQueueEvent::get_Queue
 ms.topic: method
-f1_keywords: ["tapi3/ITQueueEvent.get_Queue"]
+f1_keywords: 
+ - "tapi3/ITQueueEvent.get_Queue"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

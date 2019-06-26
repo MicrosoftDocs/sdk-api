@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],OnLanguageChange method, ITfLanguageProfileNotifySink.OnLanguageChange, ITfLanguageProfileNotifySink::OnLanguageChange, OnLanguageChange, OnLanguageChange method [Text Services Framework], OnLanguageChange method [Text Services Framework],ITfLanguageProfileNotifySink interface, _tsf_itflanguageprofilenotifysink_onlanguagechange_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChange, tsf.itflanguageprofilenotifysink_onlanguagechange
 ms.topic: method
-f1_keywords: ["msctf/ITfLanguageProfileNotifySink.OnLanguageChange"]
+f1_keywords: 
+ - "msctf/ITfLanguageProfileNotifySink.OnLanguageChange"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

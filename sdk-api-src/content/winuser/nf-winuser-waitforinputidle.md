@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForInputIdle, WaitForInputIdle function, _win32_waitforinputidle, base.waitforinputidle, winuser/WaitForInputIdle
 ms.topic: function
-f1_keywords: ["winuser/WaitForInputIdle"]
+f1_keywords: 
+ - "winuser/WaitForInputIdle"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

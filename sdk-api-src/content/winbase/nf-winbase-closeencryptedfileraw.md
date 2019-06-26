@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
 ms.topic: function
-f1_keywords: ["winbase/CloseEncryptedFileRaw"]
+f1_keywords: 
+ - "winbase/CloseEncryptedFileRaw"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

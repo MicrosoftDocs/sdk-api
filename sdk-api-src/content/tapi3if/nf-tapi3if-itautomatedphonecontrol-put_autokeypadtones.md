@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoKeypadTones method, ITAutomatedPhoneControl.put_AutoKeypadTones, ITAutomatedPhoneControl::put_AutoKeypadTones, _tapi3_itautomatedphonecontrol_put_autokeypadtones, put_AutoKeypadTones, put_AutoKeypadTones method [TAPI 2.2], put_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autokeypadtones, tapi3if/ITAutomatedPhoneControl::put_AutoKeypadTones
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.put_AutoKeypadTones"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.put_AutoKeypadTones"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

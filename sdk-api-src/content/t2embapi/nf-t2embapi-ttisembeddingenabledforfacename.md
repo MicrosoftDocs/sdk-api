@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTIsEmbeddingEnabledForFacename, TTIsEmbeddingEnabledForFacename function [Windows GDI], _win32_TTIsEmbeddingEnabledForFacename, gdi.ttisembeddingenabledforfacename, t2embapi/TTIsEmbeddingEnabledForFacename
 ms.topic: function
-f1_keywords: ["t2embapi/TTIsEmbeddingEnabledForFacename"]
+f1_keywords: 
+ - "t2embapi/TTIsEmbeddingEnabledForFacename"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

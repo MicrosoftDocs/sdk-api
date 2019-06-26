@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypography, GetTypography method [Direct Write], GetTypography method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetTypography method, IDWriteTextLayout.GetTypography, IDWriteTextLayout::GetTypography, directwrite.IDWriteTextLayout_GetTypography, dwrite/IDWriteTextLayout::GetTypography
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetTypography"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetTypography"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

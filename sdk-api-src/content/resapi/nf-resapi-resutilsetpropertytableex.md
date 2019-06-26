@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetPropertyTableEx"]
+f1_keywords: 
+ - "resapi/ResUtilSetPropertyTableEx"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

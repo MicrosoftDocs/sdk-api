@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetContainerAttributes method, IMFTranscodeProfile.SetContainerAttributes, IMFTranscodeProfile::SetContainerAttributes, SetContainerAttributes, SetContainerAttributes method [Media Foundation], SetContainerAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setcontainerattributes, mfidl/IMFTranscodeProfile::SetContainerAttributes
 ms.topic: method
-f1_keywords: ["mfidl/IMFTranscodeProfile.SetContainerAttributes"]
+f1_keywords: 
+ - "mfidl/IMFTranscodeProfile.SetContainerAttributes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

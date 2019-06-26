@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
 ms.topic: function
-f1_keywords: ["shellapi/SHEvaluateSystemCommandTemplate"]
+f1_keywords: 
+ - "shellapi/SHEvaluateSystemCommandTemplate"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

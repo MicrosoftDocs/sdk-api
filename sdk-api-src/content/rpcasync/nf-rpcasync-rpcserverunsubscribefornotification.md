@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnsubscribeForNotification, RpcServerUnsubscribeForNotification function [RPC], rpc.rpcserverunsubscribefornotification, rpcasync/RpcServerUnsubscribeForNotification
 ms.topic: function
-f1_keywords: ["rpcasync/RpcServerUnsubscribeForNotification"]
+f1_keywords: 
+ - "rpcasync/RpcServerUnsubscribeForNotification"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetElements, DhcpEnumSubnetElements function [DHCP], dhcp.dhcpenumsubnetelements, dhcpsapi/DhcpEnumSubnetElements
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumSubnetElements"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumSubnetElements"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

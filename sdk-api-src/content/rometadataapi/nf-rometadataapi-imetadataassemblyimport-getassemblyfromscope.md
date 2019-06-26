@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyFromScope, GetAssemblyFromScope method [Windows Runtime], GetAssemblyFromScope method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyFromScope method, IMetaDataAssemblyImport.GetAssemblyFromScope, IMetaDataAssemblyImport::GetAssemblyFromScope, rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope, winrt.imetadataassemblyimport_getassemblyfromscope
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.GetAssemblyFromScope"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.GetAssemblyFromScope"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

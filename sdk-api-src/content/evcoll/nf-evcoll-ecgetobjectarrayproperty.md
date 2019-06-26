@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
 ms.topic: function
-f1_keywords: ["evcoll/EcGetObjectArrayProperty"]
+f1_keywords: 
+ - "evcoll/EcGetObjectArrayProperty"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

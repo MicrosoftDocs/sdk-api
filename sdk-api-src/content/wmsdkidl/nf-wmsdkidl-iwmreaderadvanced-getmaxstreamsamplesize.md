@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxStreamSampleSize method, IWMReaderAdvanced.GetMaxStreamSampleSize, IWMReaderAdvanced::GetMaxStreamSampleSize, IWMReaderAdvancedGetMaxStreamSampleSize, wmformat.iwmreaderadvanced_getmaxstreamsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxStreamSampleSize
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced.GetMaxStreamSampleSize"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced.GetMaxStreamSampleSize"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

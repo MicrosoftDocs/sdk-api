@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
 ms.topic: interface
-f1_keywords: ["imapi2/IWriteEngine2EventArgs"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2EventArgs"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

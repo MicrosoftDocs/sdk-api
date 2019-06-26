@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_RESULT_LIST, TOKENBINDING_RESULT_LIST structure [Security], security.tokenbinding_result_list, tokenbinding/TOKENBINDING_RESULT_LIST
 ms.topic: struct
-f1_keywords: ["tokenbinding/TOKENBINDING_RESULT_LIST"]
+f1_keywords: 
+ - "tokenbinding/TOKENBINDING_RESULT_LIST"
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], IWRdsGraphicsChannel interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannel, wrdsgraphicschannels/IWRdsGraphicsChannel
 ms.topic: interface
-f1_keywords: ["wrdsgraphicschannels/IWRdsGraphicsChannel"]
+f1_keywords: 
+ - "wrdsgraphicschannels/IWRdsGraphicsChannel"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

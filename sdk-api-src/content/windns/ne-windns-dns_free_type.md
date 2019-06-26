@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFreeParsedMessageFields, DnsFreeRecordList, dns.dns_free_type, windns/DNS_FREE_TYPE, windns/DnsFreeFlat, windns/DnsFreeParsedMessageFields, windns/DnsFreeRecordList
 ms.topic: enum
-f1_keywords: ["windns/DNS_FREE_TYPE"]
+f1_keywords: 
+ - "windns/DNS_FREE_TYPE"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

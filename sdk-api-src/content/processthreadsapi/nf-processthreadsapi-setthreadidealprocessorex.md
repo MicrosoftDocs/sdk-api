@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
 ms.topic: function
-f1_keywords: ["processthreadsapi/SetThreadIdealProcessorEx"]
+f1_keywords: 
+ - "processthreadsapi/SetThreadIdealProcessorEx"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

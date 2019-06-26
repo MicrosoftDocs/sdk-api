@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocBuffer, AllocBuffer method [RDP], AllocBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],AllocBuffer method, IRDPSRAPITransportStream.AllocBuffer, IRDPSRAPITransportStream::AllocBuffer, rdp.irdpsrapitransportstream_allocbuffer, rdpencomapi/IRDPSRAPITransportStream::AllocBuffer
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStream.AllocBuffer"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStream.AllocBuffer"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

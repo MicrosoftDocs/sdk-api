@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster],IGetClusterNetworkInfo interface, IGetClusterNetworkInfo interface [Failover Cluster],GetNetworkHandle method, IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
 ms.topic: method
-f1_keywords: ["cluadmex/IGetClusterNetworkInfo.GetNetworkHandle"]
+f1_keywords: 
+ - "cluadmex/IGetClusterNetworkInfo.GetNetworkHandle"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeUnit.GetItemChange"]
+f1_keywords: 
+ - "winsync/ISyncChangeUnit.GetItemChange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

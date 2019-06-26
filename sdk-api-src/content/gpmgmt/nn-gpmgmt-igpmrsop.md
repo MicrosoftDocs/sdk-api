@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMRSOP, IGPMRSOP, IGPMRSOP interface [GPMC], IGPMRSOP interface [GPMC],described, _win32_igpmrsop, gpmc.igpmrsop, gpmgmt/IGPMRSOP
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMRSOP"]
+f1_keywords: 
+ - "gpmgmt/IGPMRSOP"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

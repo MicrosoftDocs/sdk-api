@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDAV_CALLBACK_CRED, DAV_CALLBACK_CRED, DAV_CALLBACK_CRED structure [WebDAV], PDAV_CALLBACK_CRED, PDAV_CALLBACK_CRED structure pointer [WebDAV], davclnt/DAV_CALLBACK_CRED, davclnt/PDAV_CALLBACK_CRED, webdav.dav_callback_cred"
 ms.topic: struct
-f1_keywords: ["davclnt/DAV_CALLBACK_CRED"]
+f1_keywords: 
+ - "davclnt/DAV_CALLBACK_CRED"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

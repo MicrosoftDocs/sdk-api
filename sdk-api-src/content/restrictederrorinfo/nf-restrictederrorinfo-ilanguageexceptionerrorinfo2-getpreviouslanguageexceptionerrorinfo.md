@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
 ms.topic: method
-f1_keywords: ["restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo"]
+f1_keywords: 
+ - "restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo"
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

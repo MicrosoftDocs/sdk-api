@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
 ms.topic: function
-f1_keywords: ["wincrypt/CryptSetProvider"]
+f1_keywords: 
+ - "wincrypt/CryptSetProvider"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

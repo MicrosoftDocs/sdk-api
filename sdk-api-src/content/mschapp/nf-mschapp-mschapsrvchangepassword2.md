@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
 ms.topic: function
-f1_keywords: ["mschapp/MSChapSrvChangePassword2"]
+f1_keywords: 
+ - "mschapp/MSChapSrvChangePassword2"
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

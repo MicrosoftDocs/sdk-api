@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
 ms.topic: function
-f1_keywords: ["fileapi/GetFileTime"]
+f1_keywords: 
+ - "fileapi/GetFileTime"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

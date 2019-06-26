@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [Web Services for Windows], WS_MANUAL_COOKIE_MODE, webservices/WS_AUTO_COOKIE_MODE, webservices/WS_COOKIE_MODE, webservices/WS_MANUAL_COOKIE_MODE, wsw.ws_cookie_mode
 ms.topic: enum
-f1_keywords: ["webservices/WS_COOKIE_MODE"]
+f1_keywords: 
+ - "webservices/WS_COOKIE_MODE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

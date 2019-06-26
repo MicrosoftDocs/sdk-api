@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerCursorId, GetPointerCursorId function [Input Messages and Notifications], inputmsg.getpointercursorid, winuser/GetPointerCursorId
 ms.topic: function
-f1_keywords: ["winuser/GetPointerCursorId"]
+f1_keywords: 
+ - "winuser/GetPointerCursorId"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

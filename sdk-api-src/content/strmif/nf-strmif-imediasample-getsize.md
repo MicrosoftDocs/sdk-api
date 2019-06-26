@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetSize method, IMediaSample.GetSize, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.GetSize"]
+f1_keywords: 
+ - "strmif/IMediaSample.GetSize"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

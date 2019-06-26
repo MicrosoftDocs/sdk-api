@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
 ms.topic: interface
-f1_keywords: ["objidl/IExternalConnection"]
+f1_keywords: 
+ - "objidl/IExternalConnection"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

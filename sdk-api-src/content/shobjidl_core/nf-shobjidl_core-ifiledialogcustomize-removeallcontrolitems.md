@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveAllControlItems method, IFileDialogCustomize.RemoveAllControlItems, IFileDialogCustomize::RemoveAllControlItems, RemoveAllControlItems, RemoveAllControlItems method [Windows Shell], RemoveAllControlItems method [Windows Shell],IFileDialogCustomize interface, _shell_IFileDialogCustomize_RemoveAllControlItems, shell.IFileDialogCustomize_RemoveAllControlItems, shobjidl_core/IFileDialogCustomize::RemoveAllControlItems
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.RemoveAllControlItems"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.RemoveAllControlItems"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

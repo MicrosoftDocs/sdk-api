@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 ms.topic: interface
-f1_keywords: ["propidlbase/IEnumSTATPROPSTG"]
+f1_keywords: 
+ - "propidlbase/IEnumSTATPROPSTG"
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

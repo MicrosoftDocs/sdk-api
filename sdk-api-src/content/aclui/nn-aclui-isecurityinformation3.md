@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation3, ISecurityInformation3 interface [Security], ISecurityInformation3 interface [Security],described, aclui/ISecurityInformation3, security.isecurityinformation3
 ms.topic: interface
-f1_keywords: ["aclui/ISecurityInformation3"]
+f1_keywords: 
+ - "aclui/ISecurityInformation3"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

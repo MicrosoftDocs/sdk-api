@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4AngleBetweenVectors, XMVector4AngleBetweenVectors, XMVector4AngleBetweenVectors method [DirectX Math Support APIs], dxmath.xmvector4anglebetweenvectors
 ms.topic: function
-f1_keywords: ["directxmath/XMVector4AngleBetweenVectors"]
+f1_keywords: 
+ - "directxmath/XMVector4AngleBetweenVectors"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

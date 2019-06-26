@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTAbortReliableWrite, BluetoothGATTAbortReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattabortreliablewrite, bluetoothleapis/BluetoothGATTAbortReliableWrite
 ms.topic: function
-f1_keywords: ["bluetoothleapis/BluetoothGATTAbortReliableWrite"]
+f1_keywords: 
+ - "bluetoothleapis/BluetoothGATTAbortReliableWrite"
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

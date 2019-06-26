@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_REGISTER_MODE, MBN_REGISTER_MODE enumeration [Microsoft Broadband Networks], MBN_REGISTER_MODE_AUTOMATIC, MBN_REGISTER_MODE_MANUAL, MBN_REGISTER_MODE_NONE, mbn.mbn_register_mode, mbnapi/MBN_REGISTER_MODE, mbnapi/MBN_REGISTER_MODE_AUTOMATIC, mbnapi/MBN_REGISTER_MODE_MANUAL, mbnapi/MBN_REGISTER_MODE_NONE
 ms.topic: enum
-f1_keywords: ["mbnapi/MBN_REGISTER_MODE"]
+f1_keywords: 
+ - "mbnapi/MBN_REGISTER_MODE"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror method, IMFVideoProcessorControl.SetMirror, IMFVideoProcessorControl::SetMirror, SetMirror, SetMirror method [Media Foundation], SetMirror method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setmirror, mfidl/IMFVideoProcessorControl::SetMirror
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoProcessorControl.SetMirror"]
+f1_keywords: 
+ - "mfidl/IMFVideoProcessorControl.SetMirror"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

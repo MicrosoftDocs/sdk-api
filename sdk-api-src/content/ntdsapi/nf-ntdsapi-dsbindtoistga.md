@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBindToISTG, DsBindToISTG function [Active Directory], DsBindToISTGA, DsBindToISTGW, ad.dsbindtoistg, ntdsapi/DsBindToISTG, ntdsapi/DsBindToISTGA, ntdsapi/DsBindToISTGW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsBindToISTG"]
+f1_keywords: 
+ - "ntdsapi/DsBindToISTG"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_TYPE, DML_BINDING_TYPE enumeration, DML_BINDING_TYPE_BUFFER, DML_BINDING_TYPE_BUFFER_ARRAY, DML_BINDING_TYPE_NONE, direct3d12.dml_binding_type, directml/DML_BINDING_TYPE, directml/DML_BINDING_TYPE_BUFFER, directml/DML_BINDING_TYPE_BUFFER_ARRAY, directml/DML_BINDING_TYPE_NONE
 ms.topic: enum
-f1_keywords: ["directml/DML_BINDING_TYPE"]
+f1_keywords: 
+ - "directml/DML_BINDING_TYPE"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

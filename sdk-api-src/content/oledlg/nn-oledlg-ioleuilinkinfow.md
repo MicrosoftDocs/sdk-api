@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkInfo, IOleUILinkInfo interface [COM], IOleUILinkInfo interface [COM],described, IOleUILinkInfoA, IOleUILinkInfoW, _ole_IOleUILinkInfo, com.ioleuilinkinfo, oledlg/IOleUILinkInfo
 ms.topic: interface
-f1_keywords: ["oledlg/IOleUILinkInfo"]
+f1_keywords: 
+ - "oledlg/IOleUILinkInfo"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

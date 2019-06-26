@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_WARNING, DVD_WARNING , DVD_WARNING enumeration [DirectShow], DVD_WARNINGEnumeration, DVD_WARNING_FormatNotSupported, DVD_WARNING_IllegalNavCommand, DVD_WARNING_InvalidDVD1_0Disc, DVD_WARNING_Open, DVD_WARNING_Read, DVD_WARNING_Seek, dshow.dvd_warning, dvdevcod/DVD_WARNING, dvdevcod/DVD_WARNING_FormatNotSupported, dvdevcod/DVD_WARNING_IllegalNavCommand, dvdevcod/DVD_WARNING_InvalidDVD1_0Disc, dvdevcod/DVD_WARNING_Open, dvdevcod/DVD_WARNING_Read, dvdevcod/DVD_WARNING_Seek
 ms.topic: enum
-f1_keywords: ["dvdevcod/DVD_WARNING"]
+f1_keywords: 
+ - "dvdevcod/DVD_WARNING"
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

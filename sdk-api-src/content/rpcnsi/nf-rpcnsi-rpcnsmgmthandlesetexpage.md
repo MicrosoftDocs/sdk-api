@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsMgmtHandleSetExpAge"]
+f1_keywords: 
+ - "rpcnsi/RpcNsMgmtHandleSetExpAge"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

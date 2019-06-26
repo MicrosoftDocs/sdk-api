@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure [Active Directory], LPDSQUERYCLASSLIST, LPDSQUERYCLASSLIST structure pointer [Active Directory], _glines_dsqueryclasslist, ad.dsqueryclasslist, dsquery/DSQUERYCLASSLIST, dsquery/LPDSQUERYCLASSLIST"
 ms.topic: struct
-f1_keywords: ["dsquery/DSQUERYCLASSLIST"]
+f1_keywords: 
+ - "dsquery/DSQUERYCLASSLIST"
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

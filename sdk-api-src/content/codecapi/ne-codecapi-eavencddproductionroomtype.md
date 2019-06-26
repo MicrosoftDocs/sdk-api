@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDProductionRoomType, codecapi/eAVEncDDProductionRoomType_Large, codecapi/eAVEncDDProductionRoomType_NotIndicated, codecapi/eAVEncDDProductionRoomType_Small, dshow.eavencddproductionroomtype, eAVEncDDProductionRoomType, eAVEncDDProductionRoomType enumeration [DirectShow], eAVEncDDProductionRoomTypeEnumeration, eAVEncDDProductionRoomType_Large, eAVEncDDProductionRoomType_NotIndicated, eAVEncDDProductionRoomType_Small
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncDDProductionRoomType"]
+f1_keywords: 
+ - "codecapi/eAVEncDDProductionRoomType"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

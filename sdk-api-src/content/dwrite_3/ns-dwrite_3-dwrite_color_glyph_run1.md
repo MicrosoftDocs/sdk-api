@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_COLOR_GLYPH_RUN1, DWRITE_COLOR_GLYPH_RUN1 structure [Direct Write], directwrite.dwrite_color_glyph_run1, dwrite_3/DWRITE_COLOR_GLYPH_RUN1
 ms.topic: struct
-f1_keywords: ["dwrite_3/DWRITE_COLOR_GLYPH_RUN1"]
+f1_keywords: 
+ - "dwrite_3/DWRITE_COLOR_GLYPH_RUN1"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

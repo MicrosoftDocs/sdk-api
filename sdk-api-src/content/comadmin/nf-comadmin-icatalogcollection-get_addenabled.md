@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEnabled property [COM+], AddEnabled property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],AddEnabled property, ICatalogCollection.AddEnabled, ICatalogCollection.get_AddEnabled, ICatalogCollection::AddEnabled, ICatalogCollection::get_AddEnabled, _cos_ICatalogCollection_get_AddEnabled, comadmin/ICatalogCollection::AddEnabled, comadmin/ICatalogCollection::get_AddEnabled, cos.icatalogcollection_addenabled, get_AddEnabled
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogCollection.AddEnabled"]
+f1_keywords: 
+ - "comadmin/ICatalogCollection.AddEnabled"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

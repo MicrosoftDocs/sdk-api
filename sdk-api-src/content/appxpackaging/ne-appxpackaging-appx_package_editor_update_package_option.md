@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION enumeration [App packaging and management], APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpkg.appx_package_editor_update_package_option
 ms.topic: enum
-f1_keywords: ["appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION"]
+f1_keywords: 
+ - "appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

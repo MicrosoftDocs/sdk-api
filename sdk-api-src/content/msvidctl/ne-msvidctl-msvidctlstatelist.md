@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSVidCtlStateList, MSVidCtlStateList enumeration [Microsoft TV Technologies], MSVidCtlStateListEnumeration, STATE_PAUSE, STATE_PLAY, STATE_STOP, STATE_UNBUILT, enumeration [Microsoft TV Technologies], mstv.msvidctlstatelist, msvidctl/MSVidCtlStateList, msvidctl/STATE_PAUSE, msvidctl/STATE_PLAY, msvidctl/STATE_STOP, msvidctl/STATE_UNBUILT
 ms.topic: enum
-f1_keywords: ["msvidctl/MSVidCtlStateList"]
+f1_keywords: 
+ - "msvidctl/MSVidCtlStateList"
 req.header: msvidctl.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
 ms.topic: function
-f1_keywords: ["vfw/ICCompress"]
+f1_keywords: 
+ - "vfw/ICCompress"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], IWMReaderAccelerator interface [windows Media Format],described, IWMReaderAcceleratorInterface, wmformat.iwmreaderaccelerator, wmsdkidl/IWMReaderAccelerator
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderAccelerator"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAccelerator"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotBefore property, IX509CertificateRequestCertificate.NotBefore, IX509CertificateRequestCertificate.get_NotBefore, IX509CertificateRequestCertificate::NotBefore, IX509CertificateRequestCertificate::get_NotBefore, IX509CertificateRequestCertificate::put_NotBefore, NotBefore property [Security], NotBefore property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotBefore, certenroll/IX509CertificateRequestCertificate::get_NotBefore, certenroll/IX509CertificateRequestCertificate::put_NotBefore, get_NotBefore, security.ix509certificaterequestcertificate_notbefore_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestCertificate.NotBefore"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestCertificate.NotBefore"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

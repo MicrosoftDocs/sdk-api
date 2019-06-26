@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderOpenContent, WdsTransportProviderOpenContent callback, WdsTransportProviderOpenContent callback function [Windows Deployment Services], wds.wdstransportprovideropencontent, wdstpdi/WdsTransportProviderOpenContent
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderOpenContent"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderOpenContent"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

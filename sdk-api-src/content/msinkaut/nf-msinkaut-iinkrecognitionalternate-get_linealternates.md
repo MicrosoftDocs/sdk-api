@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineAlternates property, IInkRecognitionAlternate.LineAlternates, IInkRecognitionAlternate.get_LineAlternates, IInkRecognitionAlternate::LineAlternates, IInkRecognitionAlternate::get_LineAlternates, LineAlternates property [Tablet PC], LineAlternates property [Tablet PC],IInkRecognitionAlternate interface, ccdf3092-b0a0-4626-b614-164548b1ca72, get_LineAlternates, msinkaut/IInkRecognitionAlternate::LineAlternates, msinkaut/IInkRecognitionAlternate::get_LineAlternates, tablet.iinkrecognitionalternate_linealternates
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognitionAlternate.LineAlternates"]
+f1_keywords: 
+ - "msinkaut/IInkRecognitionAlternate.LineAlternates"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

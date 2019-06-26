@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeW, StrFormatByteSizeW function [Windows Shell], _win32_StrFormatByteSizeW, shell.StrFormatByteSizeW, shlwapi/StrFormatByteSizeW
 ms.topic: function
-f1_keywords: ["shlwapi/StrFormatByteSizeW"]
+f1_keywords: 
+ - "shlwapi/StrFormatByteSizeW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

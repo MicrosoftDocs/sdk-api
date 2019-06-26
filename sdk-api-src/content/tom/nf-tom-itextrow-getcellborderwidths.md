@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellBorderWidths, GetCellBorderWidths method [Windows Controls], GetCellBorderWidths method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderWidths method, ITextRow.GetCellBorderWidths, ITextRow::GetCellBorderWidths, controls.itextrow_getcellborderwidths, tom/ITextRow::GetCellBorderWidths
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetCellBorderWidths"]
+f1_keywords: 
+ - "tom/ITextRow.GetCellBorderWidths"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

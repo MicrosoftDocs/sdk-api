@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUdpStatistics, GetUdpStatistics function [IP Helper], _iphlp_getudpstatistics, iphlp.getudpstatistics, iphlpapi/GetUdpStatistics
 ms.topic: function
-f1_keywords: ["iphlpapi/GetUdpStatistics"]
+f1_keywords: 
+ - "iphlpapi/GetUdpStatistics"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

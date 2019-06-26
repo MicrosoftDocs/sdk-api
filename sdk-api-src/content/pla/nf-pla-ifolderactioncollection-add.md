@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Add method, IFolderActionCollection.Add, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.Add"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.Add"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

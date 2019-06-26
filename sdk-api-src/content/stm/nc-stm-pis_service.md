@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsService, IsService callback function [RAS], PIS_SERVICE, PIS_SERVICE callback, _mpr_isservice, rras.isservice, stm/IsService
 ms.topic: callback
-f1_keywords: ["stm/IsService"]
+f1_keywords: 
+ - "stm/IsService"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

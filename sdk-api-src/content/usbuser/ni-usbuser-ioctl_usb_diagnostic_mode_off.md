@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_OFF, IOCTL_USB_DIAGNOSTIC_MODE_OFF control, IOCTL_USB_DIAGNOSTIC_MODE_OFF control code [Buses], buses.ioctl_usb_diagnostic_mode_off, usbirp_7b761254-b350-4ac8-820f-04426139f6bb.xml, usbuser/IOCTL_USB_DIAGNOSTIC_MODE_OFF
 ms.topic: ioctl
-f1_keywords: ["usbuser/IOCTL_USB_DIAGNOSTIC_MODE_OFF"]
+f1_keywords: 
+ - "usbuser/IOCTL_USB_DIAGNOSTIC_MODE_OFF"
 req.header: usbuser.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

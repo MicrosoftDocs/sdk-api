@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSourceContentGroupMapReader, CreateSourceContentGroupMapReader method [App packaging and management], CreateSourceContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateSourceContentGroupMapReader method, IAppxFactory2.CreateSourceContentGroupMapReader, IAppxFactory2::CreateSourceContentGroupMapReader, appxpackaging/IAppxFactory2::CreateSourceContentGroupMapReader, appxpkg.iappxfactory2_createsourcecontentgroupmapreader
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFactory2.CreateSourceContentGroupMapReader"]
+f1_keywords: 
+ - "appxpackaging/IAppxFactory2.CreateSourceContentGroupMapReader"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

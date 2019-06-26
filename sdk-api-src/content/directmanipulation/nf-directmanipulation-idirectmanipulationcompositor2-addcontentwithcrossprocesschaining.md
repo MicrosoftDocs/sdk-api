@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChaining method [Direct Manipulation], AddContentWithCrossProcessChaining method [Direct Manipulation],IDirectManipulationCompositor2 interface, IDirectManipulationCompositor2 interface [Direct Manipulation],AddContentWithCrossProcessChaining method, IDirectManipulationCompositor2.AddContentWithCrossProcessChaining, IDirectManipulationCompositor2::AddContentWithCrossProcessChaining, directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining, directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationCompositor2.AddContentWithCrossProcessChaining"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

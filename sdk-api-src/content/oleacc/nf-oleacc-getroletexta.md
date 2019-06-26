@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
 ms.topic: function
-f1_keywords: ["oleacc/GetRoleText"]
+f1_keywords: 
+ - "oleacc/GetRoleText"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

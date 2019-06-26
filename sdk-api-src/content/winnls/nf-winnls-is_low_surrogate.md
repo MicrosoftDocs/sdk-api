@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_LOW_SURROGATE, intl.is_low_surrogate, winnls/IS_LOW_SURROGATE
 ms.topic: macro
-f1_keywords: ["winnls/IS_LOW_SURROGATE"]
+f1_keywords: 
+ - "winnls/IS_LOW_SURROGATE"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPSTATEINFO, COMPSTATEINFO, COMPSTATEINFO structure [Windows Shell], IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPSTATEINFO, LPCOMPSTATEINFO structure pointer [Windows Shell], _tagCOMPSTATEINFO, _win32_COMPSTATEINFO, shell.COMPSTATEINFO, shlobj_core/COMPSTATEINFO, shlobj_core/LPCOMPSTATEINFO"
 ms.topic: struct
-f1_keywords: ["shlobj_core/COMPSTATEINFO"]
+f1_keywords: 
+ - "shlobj_core/COMPSTATEINFO"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

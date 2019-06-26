@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Security], GetMaxLength method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetMaxLength method, IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWCOLUMN.GetMaxLength"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWCOLUMN.GetMaxLength"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

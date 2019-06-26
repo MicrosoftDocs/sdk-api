@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverSetRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverSetRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

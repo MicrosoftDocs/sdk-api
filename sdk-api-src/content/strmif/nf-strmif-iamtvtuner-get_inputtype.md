@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_InputType method, IAMTVTuner.get_InputType, IAMTVTuner::get_InputType, IAMTVTunerget_InputType, dshow.iamtvtuner_get_inputtype, get_InputType, get_InputType method [DirectShow], get_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_InputType
 ms.topic: method
-f1_keywords: ["strmif/IAMTVTuner.get_InputType"]
+f1_keywords: 
+ - "strmif/IAMTVTuner.get_InputType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

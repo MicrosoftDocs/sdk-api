@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
 ms.topic: function
-f1_keywords: ["wingdi/Polygon"]
+f1_keywords: 
+ - "wingdi/Polygon"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

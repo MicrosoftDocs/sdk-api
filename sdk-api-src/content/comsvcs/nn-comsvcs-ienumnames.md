@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
 ms.topic: interface
-f1_keywords: ["comsvcs/IEnumNames"]
+f1_keywords: 
+ - "comsvcs/IEnumNames"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

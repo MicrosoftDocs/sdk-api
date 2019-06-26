@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_NBIT.GetRecordDescriptorByIndex, IISDB_NBIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByIndex, mstv.iisdb_nbit_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_NBIT.GetRecordDescriptorByIndex"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_NBIT.GetRecordDescriptorByIndex"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

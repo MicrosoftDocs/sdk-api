@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo.get_PeerPort, IRDPSRAPITcpConnectionInfo::PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP],IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],PeerPort property, get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITcpConnectionInfo.PeerPort"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITcpConnectionInfo.PeerPort"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

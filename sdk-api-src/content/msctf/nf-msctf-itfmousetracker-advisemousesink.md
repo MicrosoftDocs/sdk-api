@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdviseMouseSink, AdviseMouseSink method [Text Services Framework], AdviseMouseSink method [Text Services Framework],ITfMouseTracker interface, ITfMouseTracker interface [Text Services Framework],AdviseMouseSink method, ITfMouseTracker.AdviseMouseSink, ITfMouseTracker::AdviseMouseSink, _tsf_itfmousetracker_advisemousesink_ref, msctf/ITfMouseTracker::AdviseMouseSink, tsf.itfmousetracker_advisemousesink
 ms.topic: method
-f1_keywords: ["msctf/ITfMouseTracker.AdviseMouseSink"]
+f1_keywords: 
+ - "msctf/ITfMouseTracker.AdviseMouseSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

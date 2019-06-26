@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetArchivedKey method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CV_OUT_BINARY, GetArchivedKey, GetArchivedKey method [Security], GetArchivedKey method [Security],CCertAdmin object, GetArchivedKey method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetArchivedKey method, ICertAdmin2.GetArchivedKey, ICertAdmin2::GetArchivedKey, _certsrv_icertadmin2_getarchivedkey, certadm/ICertAdmin2::GetArchivedKey, security.icertadmin2_getarchivedkey
 ms.topic: method
-f1_keywords: ["certadm/ICertAdmin2.GetArchivedKey"]
+f1_keywords: 
+ - "certadm/ICertAdmin2.GetArchivedKey"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],Schedule method, IUIAnimationStoryboard.Schedule, IUIAnimationStoryboard::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.Schedule"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.Schedule"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

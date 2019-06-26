@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITokenCollection, ITokenCollection interface [search], ITokenCollection interface [search],described, _search_ITokenCollection, search._search_ITokenCollection, structuredquery/ITokenCollection
 ms.topic: interface
-f1_keywords: ["structuredquery/ITokenCollection"]
+f1_keywords: 
+ - "structuredquery/ITokenCollection"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

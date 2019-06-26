@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUDEC4, XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(), XMUDEC4::XMUDEC4, dxmath.xmudec4_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMUDEC4.XMUDEC4"]
+f1_keywords: 
+ - "directxpackedvector/XMUDEC4.XMUDEC4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

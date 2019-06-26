@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], IEmailAction interface [Task Scheduler],described, taskschd.iemailaction, taskschd/IEmailAction
 ms.topic: interface
-f1_keywords: ["taskschd/IEmailAction"]
+f1_keywords: 
+ - "taskschd/IEmailAction"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

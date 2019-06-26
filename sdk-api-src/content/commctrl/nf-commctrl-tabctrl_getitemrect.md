@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
 ms.topic: macro
-f1_keywords: ["commctrl/TabCtrl_GetItemRect"]
+f1_keywords: 
+ - "commctrl/TabCtrl_GetItemRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

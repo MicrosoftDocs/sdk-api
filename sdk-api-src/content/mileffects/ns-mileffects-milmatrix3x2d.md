@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap Effects], _wibe_mil_matrix3x2d, mileffects/MilMatrix3x2D, wibe._wibe_mil_matrix3x2d
 ms.topic: struct
-f1_keywords: ["mileffects/MilMatrix3x2D"]
+f1_keywords: 
+ - "mileffects/MilMatrix3x2D"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

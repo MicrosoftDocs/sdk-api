@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCopyData, SafeArrayCopyData function [Automation], _oa96_SafeArrayCopyData, automat.safearraycopydata, oleauto/SafeArrayCopyData
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayCopyData"]
+f1_keywords: 
+ - "oleauto/SafeArrayCopyData"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

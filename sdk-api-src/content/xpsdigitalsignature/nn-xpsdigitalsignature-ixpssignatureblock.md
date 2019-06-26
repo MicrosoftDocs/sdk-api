@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlock, IXpsSignatureBlock interface [XPS Documents and Packaging], IXpsSignatureBlock interface [XPS Documents and Packaging],described, xps.ixpssignatureblock, xpsdigitalsignature/IXpsSignatureBlock
 ms.topic: interface
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureBlock"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureBlock"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

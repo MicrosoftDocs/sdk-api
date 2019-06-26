@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwDeviceCreate, SwDeviceCreate function, swdevice.swdevicecreate, swdevice/SwDeviceCreate
 ms.topic: function
-f1_keywords: ["swdevice/SwDeviceCreate"]
+f1_keywords: 
+ - "swdevice/SwDeviceCreate"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

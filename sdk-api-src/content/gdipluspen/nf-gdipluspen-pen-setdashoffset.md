@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashOffset method, Pen.SetDashOffset, Pen::SetDashOffset, SetDashOffset, SetDashOffset method [GDI+], SetDashOffset method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashOffset_dashOffset_, gdiplus._gdiplus_CLASS_Pen_SetDashOffset_dashOffset_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.SetDashOffset"]
+f1_keywords: 
+ - "gdipluspen/Pen.SetDashOffset"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

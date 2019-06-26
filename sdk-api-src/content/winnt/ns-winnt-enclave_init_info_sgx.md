@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX"
 ms.topic: struct
-f1_keywords: ["winnt/ENCLAVE_INIT_INFO_SGX"]
+f1_keywords: 
+ - "winnt/ENCLAVE_INIT_INFO_SGX"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

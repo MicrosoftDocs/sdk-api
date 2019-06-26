@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, MMC_SORT_SET_DATA, MMC_SORT_SET_DATA structure [MMC], _slate_mmc_sort_set_data, mmc.mmc_sort_set_data, mmc/MMC_SORT_SET_DATA
 ms.topic: struct
-f1_keywords: ["mmc/MMC_SORT_SET_DATA"]
+f1_keywords: 
+ - "mmc/MMC_SORT_SET_DATA"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

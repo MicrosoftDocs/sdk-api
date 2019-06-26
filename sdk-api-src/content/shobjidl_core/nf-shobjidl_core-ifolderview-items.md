@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],Items method, IFolderView.Items, IFolderView::Items, Items, Items method [Windows Shell], Items method [Windows Shell],IFolderView interface, _shell_IFolderView_Items, shell.IFolderView_Items, shobjidl_core/IFolderView::Items
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView.Items"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView.Items"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

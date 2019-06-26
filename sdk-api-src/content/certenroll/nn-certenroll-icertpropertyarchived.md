@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], ICertPropertyArchived interface [Security],described, certenroll/ICertPropertyArchived, security.icertpropertyarchived
 ms.topic: interface
-f1_keywords: ["certenroll/ICertPropertyArchived"]
+f1_keywords: 
+ - "certenroll/ICertPropertyArchived"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

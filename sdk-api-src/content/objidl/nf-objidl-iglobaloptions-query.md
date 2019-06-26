@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, IGlobalOptions::Query, Query, Query method [COM], Query method [COM],IGlobalOptions interface, _com_iglobaloptions_query, com.iglobaloptions_query, objidlbase/IGlobalOptions::Query
 ms.topic: method
-f1_keywords: ["objidl/IGlobalOptions.Query"]
+f1_keywords: 
+ - "objidl/IGlobalOptions.Query"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

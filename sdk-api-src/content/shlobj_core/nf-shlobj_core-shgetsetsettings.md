@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.topic: function
-f1_keywords: ["shlobj_core/SHGetSetSettings"]
+f1_keywords: 
+ - "shlobj_core/SHGetSetSettings"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Unregister method, IAMovieSetup.Unregister, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister, Unregister method [DirectShow], Unregister method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
 ms.topic: method
-f1_keywords: ["strmif/IAMovieSetup.Unregister"]
+f1_keywords: 
+ - "strmif/IAMovieSetup.Unregister"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

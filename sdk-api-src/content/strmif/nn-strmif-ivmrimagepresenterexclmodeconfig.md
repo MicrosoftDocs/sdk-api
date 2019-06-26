@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow],described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig
 ms.topic: interface
-f1_keywords: ["strmif/IVMRImagePresenterExclModeConfig"]
+f1_keywords: 
+ - "strmif/IVMRImagePresenterExclModeConfig"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

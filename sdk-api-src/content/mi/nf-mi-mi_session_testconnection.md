@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_TestConnection, MI_Session_TestConnection function [Windows Management Infrastructure (MI)], mi/MI_Session_TestConnection, wmi_v2.mi_session_testconnection
 ms.topic: function
-f1_keywords: ["mi/MI_Session_TestConnection"]
+f1_keywords: 
+ - "mi/MI_Session_TestConnection"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

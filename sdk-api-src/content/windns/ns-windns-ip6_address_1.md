@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS"
 ms.topic: struct
-f1_keywords: ["windns/IP6_ADDRESS"]
+f1_keywords: 
+ - "windns/IP6_ADDRESS"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

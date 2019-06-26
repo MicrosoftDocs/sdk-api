@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaTextRangeRelease, UiaTextRangeRelease function [Windows Accessibility], uiauto.uiauto_UiaTextRangeReleaseMemManMeth, uiauto_UiaTextRangeReleaseMemManMeth, uiautomationcoreapi/UiaTextRangeRelease, winauto.uiauto_UiaTextRangeReleaseMemManMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaTextRangeRelease"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaTextRangeRelease"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

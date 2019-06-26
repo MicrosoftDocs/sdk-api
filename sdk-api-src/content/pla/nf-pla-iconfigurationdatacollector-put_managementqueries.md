@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],ManagementQueries property, IConfigurationDataCollector.ManagementQueries, IConfigurationDataCollector.put_ManagementQueries, IConfigurationDataCollector::ManagementQueries, IConfigurationDataCollector::get_ManagementQueries, IConfigurationDataCollector::put_ManagementQueries, ManagementQueries property [PLA], ManagementQueries property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_managementqueries, pla.iconfigurationdatacollector_managementqueries, pla/IConfigurationDataCollector::ManagementQueries, pla/IConfigurationDataCollector::get_ManagementQueries, pla/IConfigurationDataCollector::put_ManagementQueries, put_ManagementQueries
 ms.topic: method
-f1_keywords: ["pla/IConfigurationDataCollector.ManagementQueries"]
+f1_keywords: 
+ - "pla/IConfigurationDataCollector.ManagementQueries"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

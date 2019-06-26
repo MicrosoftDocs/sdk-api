@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM"
 ms.topic: struct
-f1_keywords: ["wabapi/WAB_PARAM"]
+f1_keywords: 
+ - "wabapi/WAB_PARAM"
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

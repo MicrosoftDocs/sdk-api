@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method [MMC], Attach method [MMC],IControlbar interface, IControlbar interface [MMC],Attach method, IControlbar.Attach, IControlbar::Attach, _slate_icontrolbar_attach, mmc.icontrolbar_attach, mmc/IControlbar::Attach
 ms.topic: method
-f1_keywords: ["mmc/IControlbar.Attach"]
+f1_keywords: 
+ - "mmc/IControlbar.Attach"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTUI_DeviceColorAdjustment, HTUI_DeviceColorAdjustment function [Display Devices], display.htui_devicecoloradjustment, gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml, winddi/HTUI_DeviceColorAdjustment
 ms.topic: function
-f1_keywords: ["winddi/HTUI_DeviceColorAdjustment"]
+f1_keywords: 
+ - "winddi/HTUI_DeviceColorAdjustment"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

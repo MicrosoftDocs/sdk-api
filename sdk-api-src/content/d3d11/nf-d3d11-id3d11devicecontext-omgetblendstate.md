@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetBlendState method, ID3D11DeviceContext.OMGetBlendState, ID3D11DeviceContext::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 11], OMGetBlendState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetBlendState, db30eb26-ca10-d827-172b-7c7a6fe1ff83, direct3d11.id3d11devicecontext_omgetblendstate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.OMGetBlendState"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.OMGetBlendState"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

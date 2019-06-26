@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
 ms.topic: method
-f1_keywords: ["msinkaut15/IInkDivisionUnits.Item"]
+f1_keywords: 
+ - "msinkaut15/IInkDivisionUnits.Item"
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
 ms.topic: method
-f1_keywords: ["manipulations/_IManipulationEvents.ManipulationDelta"]
+f1_keywords: 
+ - "manipulations/_IManipulationEvents.ManipulationDelta"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

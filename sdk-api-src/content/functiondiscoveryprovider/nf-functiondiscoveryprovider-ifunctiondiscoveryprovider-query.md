@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProvider.Query"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProvider.Query"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

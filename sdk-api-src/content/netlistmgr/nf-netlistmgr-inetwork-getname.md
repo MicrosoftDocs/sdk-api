@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
 ms.topic: method
-f1_keywords: ["netlistmgr/INetwork.GetName"]
+f1_keywords: 
+ - "netlistmgr/INetwork.GetName"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

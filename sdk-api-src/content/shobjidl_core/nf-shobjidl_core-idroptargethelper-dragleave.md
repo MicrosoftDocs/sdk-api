@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragLeave method, IDropTargetHelper.DragLeave, IDropTargetHelper::DragLeave, _win32_IDropTargetHelper_DragLeave, shell.IDropTargetHelper_DragLeave, shobjidl_core/IDropTargetHelper::DragLeave
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDropTargetHelper.DragLeave"]
+f1_keywords: 
+ - "shobjidl_core/IDropTargetHelper.DragLeave"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetCurrentMediaType method, IMFMediaTypeHandler.GetCurrentMediaType, IMFMediaTypeHandler::GetCurrentMediaType, b1676e40-81a2-4311-bba6-528bfa45a708, mf.imfmediatypehandler_getcurrentmediatype, mfidl/IMFMediaTypeHandler::GetCurrentMediaType
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaTypeHandler.GetCurrentMediaType"]
+f1_keywords: 
+ - "mfidl/IMFMediaTypeHandler.GetCurrentMediaType"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

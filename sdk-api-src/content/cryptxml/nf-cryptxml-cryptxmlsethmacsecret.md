@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], cryptxml/CryptXmlSetHMACSecret, security.cryptxmlsethmacsecret
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlSetHMACSecret"]
+f1_keywords: 
+ - "cryptxml/CryptXmlSetHMACSecret"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLUID, LUID, LUID structure [Kernel-Mode Driver Architecture], PLUID, PLUID structure pointer [Kernel-Mode Driver Architecture], kernel.luid, kstruct_c_0aa22a8e-19fe-40b3-96b1-9aed87ac58c3.xml, ntdef/PLUID, ntdef/SINGLE_LIST_ENTRY"
 ms.topic: struct
-f1_keywords: ["ntdef/LUID"]
+f1_keywords: 
+ - "ntdef/LUID"
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPQOS_DESTADDR, LPQOS_DESTADDR, LPQOS_DESTADDR structure pointer [QOS], QOS_DESTADDR, QOS_DESTADDR structure [QOS], _gqos_qos_destaddr, qos.qos_destaddr, qossp/LPQOS_DESTADDR, qossp/QOS_DESTADDR"
 ms.topic: struct
-f1_keywords: ["qossp/QOS_DESTADDR"]
+f1_keywords: 
+ - "qossp/QOS_DESTADDR"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

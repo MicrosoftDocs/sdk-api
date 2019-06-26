@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RefreshObject method, IShellFolderView.RefreshObject, IShellFolderView::RefreshObject, RefreshObject, RefreshObject method [Windows Shell], RefreshObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RefreshObject, shell.IShellFolderView_RefreshObject, shlobj_core/IShellFolderView::RefreshObject
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.RefreshObject"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.RefreshObject"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDepthStencilSurfaceEx, CreateDepthStencilSurfaceEx method [Direct3D 9], CreateDepthStencilSurfaceEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CreateDepthStencilSurfaceEx method, IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx, IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx, cba58342-5f61-5670-e0b8-8fe6a23a5130, d3d9/IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx, direct3d9.idirect3ddevice9ex_createdepthstencilsurfaceex
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

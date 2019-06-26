@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetCustomDeviceProperty, SetupDiGetCustomDeviceProperty function [Device and Driver Installation], SetupDiGetCustomDevicePropertyA, SetupDiGetCustomDevicePropertyW, devinst.setupdigetcustomdeviceproperty, di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml, setupapi/SetupDiGetCustomDeviceProperty, setupapi/SetupDiGetCustomDevicePropertyA, setupapi/SetupDiGetCustomDevicePropertyW
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetCustomDeviceProperty"]
+f1_keywords: 
+ - "setupapi/SetupDiGetCustomDeviceProperty"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

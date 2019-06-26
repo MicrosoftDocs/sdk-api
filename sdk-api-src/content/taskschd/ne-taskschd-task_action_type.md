@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, TASK_ACTION_TYPE, TASK_ACTION_TYPE enumeration [Task Scheduler], taskschd.actiontype, taskschd.task_action_type, taskschd/TASK_ACTION_COM_HANDLER, taskschd/TASK_ACTION_EXEC, taskschd/TASK_ACTION_SEND_EMAIL, taskschd/TASK_ACTION_SHOW_MESSAGE, taskschd/TASK_ACTION_TYPE
 ms.topic: enum
-f1_keywords: ["taskschd/TASK_ACTION_TYPE"]
+f1_keywords: 
+ - "taskschd/TASK_ACTION_TYPE"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

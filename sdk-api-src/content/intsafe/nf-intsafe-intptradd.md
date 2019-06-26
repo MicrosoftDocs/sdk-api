@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, shell.IntPtrAdd
 ms.topic: function
-f1_keywords: ["intsafe/IntPtrAdd"]
+f1_keywords: 
+ - "intsafe/IntPtrAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

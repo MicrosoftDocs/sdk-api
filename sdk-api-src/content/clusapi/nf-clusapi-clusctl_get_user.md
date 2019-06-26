@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusapi/CLUSCTL_GET_USER, mscs.clusctl_get_user
 ms.topic: macro
-f1_keywords: ["clusapi/CLUSCTL_GET_USER"]
+f1_keywords: 
+ - "clusapi/CLUSCTL_GET_USER"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

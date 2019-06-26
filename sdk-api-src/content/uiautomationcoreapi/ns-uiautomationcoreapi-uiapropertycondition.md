@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaPropertyCondition, UiaPropertyCondition structure [Windows Accessibility], uiauto.uiauto_UiaPropertyConditionStruct, uiauto_UiaPropertyConditionStruct, uiautomationcoreapi/UiaPropertyCondition, winauto.uiauto_UiaPropertyConditionStruct
 ms.topic: struct
-f1_keywords: ["uiautomationcoreapi/UiaPropertyCondition"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaPropertyCondition"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

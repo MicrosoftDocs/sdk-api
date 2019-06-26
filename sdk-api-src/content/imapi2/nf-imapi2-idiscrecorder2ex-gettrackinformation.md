@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2Ex.GetTrackInformation"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2Ex.GetTrackInformation"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

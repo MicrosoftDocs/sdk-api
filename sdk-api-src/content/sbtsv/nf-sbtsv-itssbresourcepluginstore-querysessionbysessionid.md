@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbResourcePluginStore.QuerySessionBySessionId, ITsSbResourcePluginStore::QuerySessionBySessionId, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbResourcePluginStoreEx::QuerySessionBySessionId, QuerySessionBySessionId, QuerySessionBySessionId method [Remote Desktop Services], QuerySessionBySessionId method [Remote Desktop Services],ITsSbResourcePluginStore interface, QuerySessionBySessionId method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QuerySessionBySessionId, sbtsv/ITsSbResourcePluginStoreEx::QuerySessionBySessionId, termserv.itssbresourcepluginstore_querysessionbysessionid
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.QuerySessionBySessionId"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.QuerySessionBySessionId"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

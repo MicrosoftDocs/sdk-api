@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8dbd883e-4ae3-422d-bb2e-087a9e311558, GetRecordCount, GetRecordCount method [Media Foundation], GetRecordCount method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetRecordCount method, IMFASFMutualExclusion.GetRecordCount, IMFASFMutualExclusion::GetRecordCount, mf.imfasfmutualexclusion_getrecordcount, wmcontainer/IMFASFMutualExclusion::GetRecordCount
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFMutualExclusion.GetRecordCount"]
+f1_keywords: 
+ - "wmcontainer/IMFASFMutualExclusion.GetRecordCount"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

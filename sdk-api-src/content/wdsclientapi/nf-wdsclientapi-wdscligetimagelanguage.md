@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageLanguage, WdsCliGetImageLanguage function [Windows Deployment Services], wds.wdscligetimagelanguage, wdsclientapi/WdsCliGetImageLanguage
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetImageLanguage"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetImageLanguage"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

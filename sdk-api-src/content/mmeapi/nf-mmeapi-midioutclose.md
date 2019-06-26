@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutClose, midiOutClose, midiOutClose function [Windows Multimedia], mmeapi/midiOutClose, multimedia.midioutclose"
 ms.topic: function
-f1_keywords: ["mmeapi/midiOutClose"]
+f1_keywords: 
+ - "mmeapi/midiOutClose"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

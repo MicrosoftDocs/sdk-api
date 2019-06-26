@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
 ms.topic: struct
-f1_keywords: ["shobjidl_core/SHELL_ITEM_RESOURCE"]
+f1_keywords: 
+ - "shobjidl_core/SHELL_ITEM_RESOURCE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

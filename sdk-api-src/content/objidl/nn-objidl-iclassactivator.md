@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM],described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
 ms.topic: interface
-f1_keywords: ["objidl/IClassActivator"]
+f1_keywords: 
+ - "objidl/IClassActivator"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

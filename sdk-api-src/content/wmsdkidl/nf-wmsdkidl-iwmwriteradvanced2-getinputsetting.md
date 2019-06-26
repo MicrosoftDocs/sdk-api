@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputSetting, GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, IWMWriterAdvanced2 interface [windows Media Format],GetInputSetting method, IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced2.GetInputSetting"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced2.GetInputSetting"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

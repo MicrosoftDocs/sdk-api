@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevel method, IPerChannelDbLevel.GetLevel, IPerChannelDbLevel::GetLevel, IPerChannelDbLevelGetLevel, coreaudio.iperchanneldblevel_getlevel, devicetopology/IPerChannelDbLevel::GetLevel
 ms.topic: method
-f1_keywords: ["devicetopology/IPerChannelDbLevel.GetLevel"]
+f1_keywords: 
+ - "devicetopology/IPerChannelDbLevel.GetLevel"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

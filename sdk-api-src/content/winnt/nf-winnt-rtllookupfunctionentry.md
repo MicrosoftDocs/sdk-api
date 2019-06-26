@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
 ms.topic: function
-f1_keywords: ["winnt/RtlLookupFunctionEntry"]
+f1_keywords: 
+ - "winnt/RtlLookupFunctionEntry"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

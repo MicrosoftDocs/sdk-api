@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLanguageGroups, EnumSystemLanguageGroups function [Internationalization for Windows Applications], EnumSystemLanguageGroupsA, EnumSystemLanguageGroupsW, LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_EnumSystemLanguageGroups, intl.enumsystemlanguagegroups, winnls/EnumSystemLanguageGroups, winnls/EnumSystemLanguageGroupsA, winnls/EnumSystemLanguageGroupsW
 ms.topic: function
-f1_keywords: ["winnls/EnumSystemLanguageGroups"]
+f1_keywords: 
+ - "winnls/EnumSystemLanguageGroups"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

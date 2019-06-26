@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC],described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMWMIFilter"]
+f1_keywords: 
+ - "gpmgmt/IGPMWMIFilter"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],SuspendDraw method, IDCompositionSurface.SuspendDraw, IDCompositionSurface::SuspendDraw, SuspendDraw, SuspendDraw method [DirectComposition], SuspendDraw method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::SuspendDraw, directcomp.idcompositionsurface_suspenddraw
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSurface.SuspendDraw"]
+f1_keywords: 
+ - "dcomp/IDCompositionSurface.SuspendDraw"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

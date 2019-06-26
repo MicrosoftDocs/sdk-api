@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionIsIdentity, XMQuaternionIsIdentity, XMQuaternionIsIdentity method [DirectX Math Support APIs], dxmath.xmquaternionisidentity
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionIsIdentity"]
+f1_keywords: 
+ - "directxmath/XMQuaternionIsIdentity"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

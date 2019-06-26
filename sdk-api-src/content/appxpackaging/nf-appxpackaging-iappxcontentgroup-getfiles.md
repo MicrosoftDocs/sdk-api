@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetFiles method, IAppxContentGroup.GetFiles, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxContentGroup.GetFiles"]
+f1_keywords: 
+ - "appxpackaging/IAppxContentGroup.GetFiles"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

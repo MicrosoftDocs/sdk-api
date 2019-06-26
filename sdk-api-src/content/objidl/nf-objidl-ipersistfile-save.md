@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
 ms.topic: method
-f1_keywords: ["objidl/IPersistFile.Save"]
+f1_keywords: 
+ - "objidl/IPersistFile.Save"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

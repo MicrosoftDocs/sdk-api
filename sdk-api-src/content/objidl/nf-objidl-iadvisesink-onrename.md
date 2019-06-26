@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnRename method, IAdviseSink.OnRename, IAdviseSink::OnRename, OnRename, OnRename method [COM], OnRename method [COM],IAdviseSink interface, _ole_iadvisesink_onrename, com.iadvisesink_onrename, objidl/IAdviseSink::OnRename
 ms.topic: method
-f1_keywords: ["objidl/IAdviseSink.OnRename"]
+f1_keywords: 
+ - "objidl/IAdviseSink.OnRename"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

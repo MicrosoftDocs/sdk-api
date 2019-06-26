@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
 ms.topic: function
-f1_keywords: ["sspi/SspiEncodeStringsAsAuthIdentity"]
+f1_keywords: 
+ - "sspi/SspiEncodeStringsAsAuthIdentity"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

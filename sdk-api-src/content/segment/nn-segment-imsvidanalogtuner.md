@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], IMSVidAnalogTuner interface [Microsoft TV Technologies],described, IMSVidAnalogTunerInterface, mstv.imsvidanalogtuner, segment/IMSVidAnalogTuner
 ms.topic: interface
-f1_keywords: ["segment/IMSVidAnalogTuner"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

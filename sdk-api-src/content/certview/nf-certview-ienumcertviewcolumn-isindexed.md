@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWCOLUMN.IsIndexed"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWCOLUMN.IsIndexed"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

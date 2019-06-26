@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginSubscribeToEvents, BeginSubscribeToEvents method [UPnP APIs], BeginSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSubscribeToEvents method, IUPnPServiceAsync.BeginSubscribeToEvents, IUPnPServiceAsync::BeginSubscribeToEvents, upnp.iupnpserviceasync_beginsubscribetoevents, upnp/IUPnPServiceAsync::BeginSubscribeToEvents
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceAsync.BeginSubscribeToEvents"]
+f1_keywords: 
+ - "upnp/IUPnPServiceAsync.BeginSubscribeToEvents"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareExact, CompareExact method [Microsoft TV Technologies], CompareExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareExact method, IBDAComparable.CompareExact, IBDAComparable::CompareExact, IBDAComparableCompareExact, mstv.ibdacomparable_compareexact, tuner/IBDAComparable::CompareExact
 ms.topic: method
-f1_keywords: ["tuner/IBDAComparable.CompareExact"]
+f1_keywords: 
+ - "tuner/IBDAComparable.CompareExact"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

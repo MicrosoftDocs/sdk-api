@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreFree method, IMallocSpy.PreFree, IMallocSpy::PreFree, PreFree, PreFree method [COM], PreFree method [COM],IMallocSpy interface, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
 ms.topic: method
-f1_keywords: ["objidl/IMallocSpy.PreFree"]
+f1_keywords: 
+ - "objidl/IMallocSpy.PreFree"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

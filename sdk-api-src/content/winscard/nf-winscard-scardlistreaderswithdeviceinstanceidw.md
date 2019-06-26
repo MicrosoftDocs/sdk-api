@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
 ms.topic: function
-f1_keywords: ["winscard/SCardListReadersWithDeviceInstanceId"]
+f1_keywords: 
+ - "winscard/SCardListReadersWithDeviceInstanceId"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

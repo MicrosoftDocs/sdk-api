@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLogError, SetupWriteTextLogError function [Device and Driver Installation], devinst.setupwritetextlogerror, setupapi/SetupWriteTextLogError, setupapilog-ref_886f507a-408e-4745-b9d2-ea0cf1bf7250.xml
 ms.topic: function
-f1_keywords: ["setupapi/SetupWriteTextLogError"]
+f1_keywords: 
+ - "setupapi/SetupWriteTextLogError"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

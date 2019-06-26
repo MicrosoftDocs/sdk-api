@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeProviderEnumClose, PxeProviderEnumClose function [Windows Deployment Services], wds.pxeproviderenumclose, wdspxe/PxeProviderEnumClose
 ms.topic: function
-f1_keywords: ["wdspxe/PxeProviderEnumClose"]
+f1_keywords: 
+ - "wdspxe/PxeProviderEnumClose"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

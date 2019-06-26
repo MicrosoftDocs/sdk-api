@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
 ms.topic: method
-f1_keywords: ["vds/IVdsControllerPort.GetController"]
+f1_keywords: 
+ - "vds/IVdsControllerPort.GetController"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

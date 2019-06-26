@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Locate_DevNode_Ex, CM_Locate_DevNode_Ex function [Device and Driver Installation], CM_Locate_DevNode_ExW, cfgmgr32/CM_Locate_DevNode_Ex, cfgmgr32/CM_Locate_DevNode_ExW, cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml, devinst.cm_locate_devnode_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Locate_DevNode_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Locate_DevNode_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

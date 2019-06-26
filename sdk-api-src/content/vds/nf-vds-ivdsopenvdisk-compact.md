@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compact, Compact method, Compact method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Compact method, IVdsOpenVDisk.Compact, IVdsOpenVDisk::Compact, base.ivdsopenvdisk_compact, vds/IVdsOpenVDisk::Compact
 ms.topic: method
-f1_keywords: ["vds/IVdsOpenVDisk.Compact"]
+f1_keywords: 
+ - "vds/IVdsOpenVDisk.Compact"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

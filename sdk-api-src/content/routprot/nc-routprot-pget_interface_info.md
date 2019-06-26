@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback, PGET_INTERFACE_INFO callback function [RAS], _mpr_getinterfaceinfo, routprot/PGET_INTERFACE_INFO, rras.getinterfaceinfo
 ms.topic: callback
-f1_keywords: ["routprot/PGET_INTERFACE_INFO"]
+f1_keywords: 
+ - "routprot/PGET_INTERFACE_INFO"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

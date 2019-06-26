@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxPackageEditor"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageEditor"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless.GetCapture"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless.GetCapture"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

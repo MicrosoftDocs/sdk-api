@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
 ms.topic: method
-f1_keywords: ["mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy"]
+f1_keywords: 
+ - "mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldState, GetFieldState method [Windows Shell], GetFieldState method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetFieldState method, ICredentialProviderCredential.GetFieldState, ICredentialProviderCredential::GetFieldState, _shell_ICredentialProviderCredential_GetFieldState, credentialprovider/ICredentialProviderCredential::GetFieldState, shell.ICredentialProviderCredential_GetFieldState
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredential.GetFieldState"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredential.GetFieldState"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHelpContext, GetHelpContext method [Automation], GetHelpContext method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpContext method, IErrorInfo.GetHelpContext, IErrorInfo::GetHelpContext, _oa96_IErrorInfo_GetHelpContext, automat.ierrorinfo_gethelpcontext, oaidl/IErrorInfo::GetHelpContext
 ms.topic: method
-f1_keywords: ["oaidl/IErrorInfo.GetHelpContext"]
+f1_keywords: 
+ - "oaidl/IErrorInfo.GetHelpContext"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

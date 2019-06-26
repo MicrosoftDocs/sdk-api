@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetPrinterDataFileName, EngGetPrinterDataFileName function [Display Devices], display.enggetprinterdatafilename, gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml, winddi/EngGetPrinterDataFileName
 ms.topic: function
-f1_keywords: ["winddi/EngGetPrinterDataFileName"]
+f1_keywords: 
+ - "winddi/EngGetPrinterDataFileName"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

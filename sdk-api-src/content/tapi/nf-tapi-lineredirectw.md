@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineredirect, lineRedirect, lineRedirect function [TAPI 2.2], lineRedirectA, lineRedirectW, tapi/lineRedirect, tapi/lineRedirectA, tapi/lineRedirectW, tapi2.lineredirect"
 ms.topic: function
-f1_keywords: ["tapi/lineRedirect"]
+f1_keywords: 
+ - "tapi/lineRedirect"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

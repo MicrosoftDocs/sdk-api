@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBufferAndLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetBufferAndLength method, IMediaBuffer.GetBufferAndLength, IMediaBuffer::GetBufferAndLength, IMediaBufferGetBufferAndLength, dshow.imediabuffer_getbufferandlength, mediaobj/IMediaBuffer::GetBufferAndLength
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaBuffer.GetBufferAndLength"]
+f1_keywords: 
+ - "mediaobj/IMediaBuffer.GetBufferAndLength"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

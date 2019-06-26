@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadFocusSink interface [Text Services Framework],OnKillThreadFocus method, ITfThreadFocusSink.OnKillThreadFocus, ITfThreadFocusSink::OnKillThreadFocus, OnKillThreadFocus, OnKillThreadFocus method [Text Services Framework], OnKillThreadFocus method [Text Services Framework],ITfThreadFocusSink interface, _tsf_itfthreadfocussink_onkillthreadfocus_ref, msctf/ITfThreadFocusSink::OnKillThreadFocus, tsf.itfthreadfocussink_onkillthreadfocus
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadFocusSink.OnKillThreadFocus"]
+f1_keywords: 
+ - "msctf/ITfThreadFocusSink.OnKillThreadFocus"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

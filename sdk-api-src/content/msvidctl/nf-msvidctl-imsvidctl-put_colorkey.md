@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_ColorKey method, IMSVidCtl.put_ColorKey, IMSVidCtl::put_ColorKey, IMSVidCtlput_ColorKey, mstv.imsvidctl_put_colorkey, msvidctl/IMSVidCtl::put_ColorKey, put_ColorKey, put_ColorKey method [Microsoft TV Technologies], put_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.put_ColorKey"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.put_ColorKey"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

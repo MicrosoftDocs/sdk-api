@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentVolumeArray method, CVssWriter.GetCurrentVolumeArray, CVssWriter::GetCurrentVolumeArray, GetCurrentVolumeArray, GetCurrentVolumeArray method [VSS], GetCurrentVolumeArray method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentvolumearray, base.cvsswriter_getcurrentvolumearray, vswriter/CVssWriter::GetCurrentVolumeArray
 ms.topic: method
-f1_keywords: ["vswriter/CVssWriter.GetCurrentVolumeArray"]
+f1_keywords: 
+ - "vswriter/CVssWriter.GetCurrentVolumeArray"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

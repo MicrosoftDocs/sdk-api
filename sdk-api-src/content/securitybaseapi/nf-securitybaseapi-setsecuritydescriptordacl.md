@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Security], _win32_setsecuritydescriptordacl, security.setsecuritydescriptordacl, securitybaseapi/SetSecurityDescriptorDacl
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetSecurityDescriptorDacl"]
+f1_keywords: 
+ - "securitybaseapi/SetSecurityDescriptorDacl"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSConnectSession, WTSConnectSession function [Remote Desktop Services], WTSConnectSessionA, WTSConnectSessionW, termserv.wtsconnectsession, wtsapi32/WTSConnectSession, wtsapi32/WTSConnectSessionA, wtsapi32/WTSConnectSessionW
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSConnectSession"]
+f1_keywords: 
+ - "wtsapi32/WTSConnectSession"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

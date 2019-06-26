@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl"]
+f1_keywords: 
+ - "certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

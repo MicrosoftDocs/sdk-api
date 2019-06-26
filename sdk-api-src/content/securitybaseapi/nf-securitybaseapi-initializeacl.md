@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
 ms.topic: function
-f1_keywords: ["securitybaseapi/InitializeAcl"]
+f1_keywords: 
+ - "securitybaseapi/InitializeAcl"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetPlayerNotify method, IWMCodecAMVideoAccelerator.SetPlayerNotify, IWMCodecAMVideoAccelerator::SetPlayerNotify, IWMCodecAMVideoAcceleratorSetPlayerNotify, SetPlayerNotify, SetPlayerNotify method [windows Media Format], SetPlayerNotify method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetPlayerNotify, wmformat.iwmcodecamvideoaccelerator_setplayernotify
 ms.topic: method
-f1_keywords: ["wmdxva/IWMCodecAMVideoAccelerator.SetPlayerNotify"]
+f1_keywords: 
+ - "wmdxva/IWMCodecAMVideoAccelerator.SetPlayerNotify"
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

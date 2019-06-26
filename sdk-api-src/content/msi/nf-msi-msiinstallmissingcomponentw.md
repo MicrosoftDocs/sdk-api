@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiInstallMissingComponent, MsiInstallMissingComponent function, MsiInstallMissingComponentA, MsiInstallMissingComponentW, _msi_msiinstallmissingcomponent, msi/MsiInstallMissingComponent, msi/MsiInstallMissingComponentA, msi/MsiInstallMissingComponentW, setup.msiinstallmissingcomponent
 ms.topic: function
-f1_keywords: ["msi/MsiInstallMissingComponent"]
+f1_keywords: 
+ - "msi/MsiInstallMissingComponent"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

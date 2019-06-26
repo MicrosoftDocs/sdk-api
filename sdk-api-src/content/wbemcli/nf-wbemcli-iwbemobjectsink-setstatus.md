@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSink.SetStatus, IWbemObjectSink::SetStatus, IWbemObjectSinkEx interface [Windows Management Instrumentation],SetStatus method, IWbemObjectSinkEx::SetStatus, SetStatus, SetStatus method [Windows Management Instrumentation], SetStatus method [Windows Management Instrumentation],IWbemObjectSink interface, SetStatus method [Windows Management Instrumentation],IWbemObjectSinkEx interface, WBEM_STATUS_COMPLETE, WBEM_STATUS_PROGRESS, WBEM_STATUS_REQUIREMENTS, _hmm_iwbemobjectsink_setstatus, wbemcli/IWbemObjectSink::SetStatus, wbemcli/IWbemObjectSinkEx::SetStatus, wmi.iwbemobjectsink_setstatus
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemObjectSink.SetStatus"]
+f1_keywords: 
+ - "wbemcli/IWbemObjectSink.SetStatus"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

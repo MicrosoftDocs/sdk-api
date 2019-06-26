@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
 ms.topic: function
-f1_keywords: ["recapis/DestroyWordList"]
+f1_keywords: 
+ - "recapis/DestroyWordList"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

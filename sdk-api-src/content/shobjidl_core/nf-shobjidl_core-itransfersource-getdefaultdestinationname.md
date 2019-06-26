@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITransferSource.GetDefaultDestinationName"]
+f1_keywords: 
+ - "shobjidl_core/ITransferSource.GetDefaultDestinationName"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

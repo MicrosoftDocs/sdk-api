@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptDeriveKey"]
+f1_keywords: 
+ - "ncrypt/NCryptDeriveKey"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL"
 ms.topic: struct
-f1_keywords: ["windef/RECTL"]
+f1_keywords: 
+ - "windef/RECTL"
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

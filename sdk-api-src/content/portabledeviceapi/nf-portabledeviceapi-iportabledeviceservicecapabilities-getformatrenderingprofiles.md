@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatRenderingProfiles, GetFormatRenderingProfiles method [Windows Portable Devices SDK], GetFormatRenderingProfiles method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatRenderingProfiles method, IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles, IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, wpdsdk.iportabledeviceservicecapabilities_getformatrenderingprofiles
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

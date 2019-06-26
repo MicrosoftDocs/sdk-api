@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGroupAddUser, NetGroupAddUser function [Network Management], _win32_netgroupadduser, lmaccess/NetGroupAddUser, netmgmt.netgroupadduser
 ms.topic: function
-f1_keywords: ["lmaccess/NetGroupAddUser"]
+f1_keywords: 
+ - "lmaccess/NetGroupAddUser"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

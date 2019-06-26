@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointKelvin method, IWICDevelopRaw.SetWhitePointKelvin, IWICDevelopRaw::SetWhitePointKelvin, SetWhitePointKelvin, SetWhitePointKelvin method [Windows Imaging Component], SetWhitePointKelvin method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointkelvin, wic._wic_codec_iwicdevelopraw_setwhitepointkelvin, wincodec/IWICDevelopRaw::SetWhitePointKelvin
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.SetWhitePointKelvin"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.SetWhitePointKelvin"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

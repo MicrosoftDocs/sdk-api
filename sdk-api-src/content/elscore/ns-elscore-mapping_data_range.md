@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange"
 ms.topic: struct
-f1_keywords: ["elscore/MAPPING_DATA_RANGE"]
+f1_keywords: 
+ - "elscore/MAPPING_DATA_RANGE"
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

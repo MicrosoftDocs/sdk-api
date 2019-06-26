@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.GetInPlaceSite"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.GetInPlaceSite"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

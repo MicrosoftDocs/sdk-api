@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopHandlerSync method, ISyncMgrControl.StopHandlerSync, ISyncMgrControl::StopHandlerSync, StopHandlerSync, StopHandlerSync method [Windows Shell], StopHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopHandlerSync, shell.ISyncMgrControl_StopHandlerSync, syncmgr/ISyncMgrControl::StopHandlerSync
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrControl.StopHandlerSync"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrControl.StopHandlerSync"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

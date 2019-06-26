@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POCSP_CERT_ID, OCSP_CERT_ID, OCSP_CERT_ID structure [Security], POCSP_CERT_ID, POCSP_CERT_ID structure pointer [Security], security.ocsp_cert_id, wincrypt/OCSP_CERT_ID, wincrypt/POCSP_CERT_ID"
 ms.topic: struct
-f1_keywords: ["wincrypt/OCSP_CERT_ID"]
+f1_keywords: 
+ - "wincrypt/OCSP_CERT_ID"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], CreateAnimation method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateAnimation method, IDCompositionDevice.CreateAnimation, IDCompositionDevice::CreateAnimation, dcomp/IDCompositionDevice::CreateAnimation, directcomp.idcompositiondevice_createanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateAnimation"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateAnimation"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

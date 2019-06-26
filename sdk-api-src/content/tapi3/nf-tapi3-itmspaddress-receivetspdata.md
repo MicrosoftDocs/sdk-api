@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
 ms.topic: method
-f1_keywords: ["tapi3/ITMSPAddress.ReceiveTSPData"]
+f1_keywords: 
+ - "tapi3/ITMSPAddress.ReceiveTSPData"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

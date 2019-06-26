@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputExtension method, ID3D11VideoContext.VideoProcessorSetOutputExtension, ID3D11VideoContext::VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension, VideoProcessorSetOutputExtension method [Media Foundation], VideoProcessorSetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension, mf.id3d11videocontext_videoprocessorsetoutputextension
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorSetOutputExtension"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputExtension"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

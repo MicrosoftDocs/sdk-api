@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStretch, GetStretch method [Direct Write], GetStretch method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStretch method, IDWriteFontFace3.GetStretch, IDWriteFontFace3::GetStretch, directwrite.idwritefontface3_getstretch, dwrite_3/IDWriteFontFace3::GetStretch
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.GetStretch"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.GetStretch"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

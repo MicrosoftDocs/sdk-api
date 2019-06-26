@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_AppUserModelId method, IExeServerRegistration.get_AppUserModelId, IExeServerRegistration::get_AppUserModelId, activationregistration/IExeServerRegistration::get_AppUserModelId, get_AppUserModeId, get_AppUserModelId, get_AppUserModelId method [Windows Runtime], get_AppUserModelId method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_appusermodelid
 ms.topic: method
-f1_keywords: ["activationregistration/IExeServerRegistration.get_AppUserModelId"]
+f1_keywords: 
+ - "activationregistration/IExeServerRegistration.get_AppUserModelId"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

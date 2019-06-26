@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsDirectory, PathIsDirectory function [Windows Shell], PathIsDirectoryA, PathIsDirectoryW, _win32_PathIsDirectory, shell.PathIsDirectory, shlwapi/PathIsDirectory, shlwapi/PathIsDirectoryA, shlwapi/PathIsDirectoryW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsDirectory"]
+f1_keywords: 
+ - "shlwapi/PathIsDirectory"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

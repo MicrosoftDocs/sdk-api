@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILEPATHS_SIGNERINFO_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_A, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO"
 ms.topic: struct
-f1_keywords: ["setupapi/FILEPATHS_SIGNERINFO"]
+f1_keywords: 
+ - "setupapi/FILEPATHS_SIGNERINFO"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

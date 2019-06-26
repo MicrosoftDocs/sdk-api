@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetImageList"]
+f1_keywords: 
+ - "commctrl/TreeView_GetImageList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

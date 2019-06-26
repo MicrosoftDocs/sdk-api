@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension
 ms.topic: function
-f1_keywords: ["wmsdkvalidate/WMCheckURLExtension"]
+f1_keywords: 
+ - "wmsdkvalidate/WMCheckURLExtension"
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

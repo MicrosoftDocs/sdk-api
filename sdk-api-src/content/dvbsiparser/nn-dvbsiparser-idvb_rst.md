@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], IDVB_RST interface [Microsoft TV Technologies],described, IDVB_RSTInterface, dvbsiparser/IDVB_RST, mstv.idvb_rst
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IDVB_RST"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_RST"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

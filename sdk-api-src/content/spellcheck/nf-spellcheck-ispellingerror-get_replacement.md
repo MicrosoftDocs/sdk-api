@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Replacement property, ISpellingError.Replacement, ISpellingError.get_Replacement, ISpellingError::Replacement, ISpellingError::get_Replacement, Replacement property [Internationalization for Windows Applications], Replacement property [Internationalization for Windows Applications],ISpellingError interface, get_Replacement, intl.ispellingerror_replacement, spellcheck/ISpellingError::Replacement, spellcheck/ISpellingError::get_Replacement
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellingError.Replacement"]
+f1_keywords: 
+ - "spellcheck/ISpellingError.Replacement"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

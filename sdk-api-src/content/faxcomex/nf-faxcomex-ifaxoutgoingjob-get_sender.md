@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Sender property, IFaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.sender_cpp, fax._mfax_faxoutgoingjob_sender_cpp, faxcomex/IFaxOutgoingJob::Sender, faxcomex/IFaxOutgoingJob::get_Sender, get_Sender
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.Sender"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.Sender"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

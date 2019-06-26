@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderWordSize method, IMpegAudioDecoder.get_DecoderWordSize, IMpegAudioDecoder::get_DecoderWordSize, IMpegAudioDecodergetDecoderWordSize, dshow.impegaudiodecoder_get_decoderwordsize, get_DecoderWordSize, get_DecoderWordSize method [DirectShow], get_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderWordSize
 ms.topic: method
-f1_keywords: ["mpegtype/IMpegAudioDecoder.get_DecoderWordSize"]
+f1_keywords: 
+ - "mpegtype/IMpegAudioDecoder.get_DecoderWordSize"
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

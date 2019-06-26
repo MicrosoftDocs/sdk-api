@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetBufferSize method, ITAllocatorProperties.SetBufferSize, ITAllocatorProperties::SetBufferSize, SetBufferSize, SetBufferSize method [TAPI 2.2], SetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setbuffersize, tapi3.itallocatorproperties_setbuffersize, tapi3ds/ITAllocatorProperties::SetBufferSize
 ms.topic: method
-f1_keywords: ["tapi3/ITAllocatorProperties.SetBufferSize"]
+f1_keywords: 
+ - "tapi3/ITAllocatorProperties.SetBufferSize"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

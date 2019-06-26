@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 ms.topic: method
-f1_keywords: ["tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard"]
+f1_keywords: 
+ - "tpmvscmgr/ITpmVirtualSmartCardManager.DestroyVirtualSmartCard"
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

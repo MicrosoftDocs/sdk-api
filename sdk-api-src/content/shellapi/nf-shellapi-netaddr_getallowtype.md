@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAddr_GetAllowType, NetAddr_GetAllowType macro [Windows Shell], _shell_NetAddr_GetAllowType, shell.NetAddr_GetAllowType, shellapi/NetAddr_GetAllowType
 ms.topic: macro
-f1_keywords: ["shellapi/NetAddr_GetAllowType"]
+f1_keywords: 
+ - "shellapi/NetAddr_GetAllowType"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

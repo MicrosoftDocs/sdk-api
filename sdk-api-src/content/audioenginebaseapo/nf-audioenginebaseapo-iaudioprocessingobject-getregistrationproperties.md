@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

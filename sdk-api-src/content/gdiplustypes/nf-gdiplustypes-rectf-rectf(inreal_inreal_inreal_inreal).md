@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF.RectF(REAL,REAL,REAL,REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_x_y_width_height_, gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.RectF"]
+f1_keywords: 
+ - "gdiplustypes/RectF.RectF"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

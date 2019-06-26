@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], IEnumTfRanges interface [Text Services Framework],described, _tsf_ienumtfranges_ref, msctf/IEnumTfRanges, tsf.ienumtfranges
 ms.topic: interface
-f1_keywords: ["msctf/IEnumTfRanges"]
+f1_keywords: 
+ - "msctf/IEnumTfRanges"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

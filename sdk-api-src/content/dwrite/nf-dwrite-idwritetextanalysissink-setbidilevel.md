@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetBidiLevel method, IDWriteTextAnalysisSink.SetBidiLevel, IDWriteTextAnalysisSink::SetBidiLevel, SetBidiLevel, SetBidiLevel method [Direct Write], SetBidiLevel method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setbidilevel, dwrite/IDWriteTextAnalysisSink::SetBidiLevel
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalysisSink.SetBidiLevel"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSink.SetBidiLevel"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

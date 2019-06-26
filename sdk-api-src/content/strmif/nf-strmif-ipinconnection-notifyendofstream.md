@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
 ms.topic: method
-f1_keywords: ["strmif/IPinConnection.NotifyEndOfStream"]
+f1_keywords: 
+ - "strmif/IPinConnection.NotifyEndOfStream"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

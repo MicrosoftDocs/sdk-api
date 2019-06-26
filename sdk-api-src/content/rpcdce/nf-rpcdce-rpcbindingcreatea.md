@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreateA, RpcBindingCreateW, rpc.rpcbindingcreate, rpcdce/RpcBindingCreate, rpcdce/RpcBindingCreateA, rpcdce/RpcBindingCreateW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingCreate"]
+f1_keywords: 
+ - "rpcdce/RpcBindingCreate"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

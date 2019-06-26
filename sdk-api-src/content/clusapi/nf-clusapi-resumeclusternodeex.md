@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE_EX, PCLUSAPI_RESUME_CLUSTER_NODE_EX function [Failover Cluster], ResumeClusterNodeEx, ResumeClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX, clusapi/ResumeClusterNodeEx, mscs.resumeclusternodeex
 ms.topic: function
-f1_keywords: ["clusapi/ResumeClusterNodeEx"]
+f1_keywords: 
+ - "clusapi/ResumeClusterNodeEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

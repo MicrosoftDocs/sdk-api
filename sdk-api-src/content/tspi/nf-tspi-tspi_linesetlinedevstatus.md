@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI 2.2], _tspi_tspi_linesetlinedevstatus, tspi.tspi_linesetlinedevstatus, tspi/TSPI_lineSetLineDevStatus
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSetLineDevStatus"]
+f1_keywords: 
+ - "tspi/TSPI_lineSetLineDevStatus"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

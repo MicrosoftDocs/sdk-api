@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
 ms.topic: function
-f1_keywords: ["securitybaseapi/CveEventWrite"]
+f1_keywords: 
+ - "securitybaseapi/CveEventWrite"
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

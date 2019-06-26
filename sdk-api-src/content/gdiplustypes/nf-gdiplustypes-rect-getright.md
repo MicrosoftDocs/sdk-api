@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],Rect class, Rect class [GDI+],GetRight method, Rect.GetRight, Rect::GetRight, _gdiplus_CLASS_Rect_GetRight_, gdiplus._gdiplus_CLASS_Rect_GetRight_
 ms.topic: method
-f1_keywords: ["gdiplustypes/Rect.GetRight"]
+f1_keywords: 
+ - "gdiplustypes/Rect.GetRight"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

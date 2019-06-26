@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, oleidl/OLECLOSE, oleidl/OLECLOSE_NOSAVE, oleidl/OLECLOSE_PROMPTSAVE, oleidl/OLECLOSE_SAVEIFDIRTY
 ms.topic: enum
-f1_keywords: ["oleidl/OLECLOSE"]
+f1_keywords: 
+ - "oleidl/OLECLOSE"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

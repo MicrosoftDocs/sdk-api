@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetST, GetST method [Microsoft TV Technologies], GetST method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetST method, IDvbSiParser.GetST, IDvbSiParser::GetST, IDvbSiParserGetST, dvbsiparser/IDvbSiParser::GetST, mstv.idvbsiparser_getst
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSiParser.GetST"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser.GetST"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

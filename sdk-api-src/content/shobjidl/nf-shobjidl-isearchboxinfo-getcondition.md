@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
 ms.topic: method
-f1_keywords: ["shobjidl/ISearchBoxInfo.GetCondition"]
+f1_keywords: 
+ - "shobjidl/ISearchBoxInfo.GetCondition"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

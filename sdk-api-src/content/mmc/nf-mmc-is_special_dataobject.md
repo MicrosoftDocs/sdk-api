@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_SPECIAL_DATAOBJECT, IS_SPECIAL_DATAOBJECT macro [MMC], _slate_is_special_dataobject, mmc.is_special_dataobject, mmc/IS_SPECIAL_DATAOBJECT
 ms.topic: macro
-f1_keywords: ["mmc/IS_SPECIAL_DATAOBJECT"]
+f1_keywords: 
+ - "mmc/IS_SPECIAL_DATAOBJECT"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

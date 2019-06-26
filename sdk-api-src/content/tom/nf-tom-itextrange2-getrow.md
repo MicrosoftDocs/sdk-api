@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRow, GetRow method [Windows Controls], GetRow method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRow method, ITextRange2.GetRow, ITextRange2::GetRow, controls.itextrange2_getrow, tom/ITextRange2::GetRow
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetRow"]
+f1_keywords: 
+ - "tom/ITextRange2.GetRow"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

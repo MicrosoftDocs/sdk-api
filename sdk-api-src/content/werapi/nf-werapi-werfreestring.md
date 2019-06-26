@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
 ms.topic: function
-f1_keywords: ["werapi/WerFreeString"]
+f1_keywords: 
+ - "werapi/WerFreeString"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

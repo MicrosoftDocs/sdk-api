@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod method [COM],ICallFrame interface, ICallFrame interface [COM],GetIIDAndMethod method, ICallFrame.GetIIDAndMethod, ICallFrame::GetIIDAndMethod, _com_icallframe_getiidandmethod, callobj/ICallFrame::GetIIDAndMethod, com.icallframe_getiidandmethod
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.GetIIDAndMethod"]
+f1_keywords: 
+ - "callobj/ICallFrame.GetIIDAndMethod"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

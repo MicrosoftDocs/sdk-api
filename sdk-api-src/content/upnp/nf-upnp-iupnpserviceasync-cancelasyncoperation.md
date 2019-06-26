@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceAsync.CancelAsyncOperation"]
+f1_keywords: 
+ - "upnp/IUPnPServiceAsync.CancelAsyncOperation"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

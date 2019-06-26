@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreroll, GetPreroll method [DirectShow], GetPreroll method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPreroll method, IMediaSeeking.GetPreroll, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.GetPreroll"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.GetPreroll"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

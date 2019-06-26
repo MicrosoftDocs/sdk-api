@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderUserArray.GetAt"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderUserArray.GetAt"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

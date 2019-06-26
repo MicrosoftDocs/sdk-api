@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetDuration"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetDuration"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

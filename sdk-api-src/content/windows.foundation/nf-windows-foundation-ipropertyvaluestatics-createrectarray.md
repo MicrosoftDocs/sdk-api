@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRectArray, CreateRectArray method [Windows Runtime], CreateRectArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateRectArray method, IPropertyValueStatics.CreateRectArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateRectArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateRectArray, winrt.ipropertyvaluefactory_createrectarray, winrt.ipropertyvaluestatics_createrectarray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateRectArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateRectArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

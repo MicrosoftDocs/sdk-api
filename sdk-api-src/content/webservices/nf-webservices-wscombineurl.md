@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
 ms.topic: function
-f1_keywords: ["webservices/WsCombineUrl"]
+f1_keywords: 
+ - "webservices/WsCombineUrl"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

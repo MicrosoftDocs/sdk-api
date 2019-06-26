@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfSetCounterRefValue, PerfSetCounterRefValue function [Perf], base.perfsetcounterrefvalue, perf.perfsetcounterrefvalue, perflib/PerfSetCounterRefValue
 ms.topic: function
-f1_keywords: ["perflib/PerfSetCounterRefValue"]
+f1_keywords: 
+ - "perflib/PerfSetCounterRefValue"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

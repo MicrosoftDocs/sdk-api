@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
 ms.topic: method
-f1_keywords: ["oleidl/IViewObject.SetAdvise"]
+f1_keywords: 
+ - "oleidl/IViewObject.SetAdvise"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

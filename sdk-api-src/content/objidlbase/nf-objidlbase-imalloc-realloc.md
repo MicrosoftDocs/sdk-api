@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMalloc interface [COM],Realloc method, IMalloc.Realloc, IMalloc::Realloc, Realloc, Realloc method [COM], Realloc method [COM],IMalloc interface, _com_imalloc_realloc, com.imalloc_realloc, objidlbase/IMalloc::Realloc
 ms.topic: method
-f1_keywords: ["objidlbase/IMalloc.Realloc"]
+f1_keywords: 
+ - "objidlbase/IMalloc.Realloc"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

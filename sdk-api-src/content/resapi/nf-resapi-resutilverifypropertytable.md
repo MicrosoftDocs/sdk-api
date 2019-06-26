@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE function [Failover Cluster], ResUtilVerifyPropertyTable, ResUtilVerifyPropertyTable function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE, resapi/ResUtilVerifyPropertyTable
 ms.topic: function
-f1_keywords: ["resapi/ResUtilVerifyPropertyTable"]
+f1_keywords: 
+ - "resapi/ResUtilVerifyPropertyTable"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

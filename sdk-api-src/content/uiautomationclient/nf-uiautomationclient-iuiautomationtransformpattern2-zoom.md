@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.Zoom"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern2.Zoom"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

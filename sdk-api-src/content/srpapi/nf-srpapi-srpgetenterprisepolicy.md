@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
 ms.topic: function
-f1_keywords: ["srpapi/SrpGetEnterprisePolicy"]
+f1_keywords: 
+ - "srpapi/SrpGetEnterprisePolicy"
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

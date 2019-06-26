@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
 ms.topic: function
-f1_keywords: ["ndfapi/NdfGetTraceFile"]
+f1_keywords: 
+ - "ndfapi/NdfGetTraceFile"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

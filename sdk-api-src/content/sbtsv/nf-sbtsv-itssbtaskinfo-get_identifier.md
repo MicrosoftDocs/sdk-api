@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Identifier property, ITsSbTaskInfo.Identifier, ITsSbTaskInfo.get_Identifier, ITsSbTaskInfo::Identifier, ITsSbTaskInfo::get_Identifier, Identifier property [Remote Desktop Services], Identifier property [Remote Desktop Services],ITsSbTaskInfo interface, get_Identifier, sbtsv/ITsSbTaskInfo::Identifier, sbtsv/ITsSbTaskInfo::get_Identifier, termserv.itssbtaskinfo_identifier
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskInfo.Identifier"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskInfo.Identifier"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

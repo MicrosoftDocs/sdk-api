@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
 ms.topic: function
-f1_keywords: ["magnification/MagSetImageScalingCallback"]
+f1_keywords: 
+ - "magnification/MagSetImageScalingCallback"
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

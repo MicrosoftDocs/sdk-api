@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegisterMode, GetRegisterMode method [Microsoft Broadband Networks], GetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterMode method, IMbnRegistration.GetRegisterMode, IMbnRegistration::GetRegisterMode, mbn.imbnregistration_getregistermode, mbnapi/IMbnRegistration::GetRegisterMode
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnRegistration.GetRegisterMode"]
+f1_keywords: 
+ - "mbnapi/IMbnRegistration.GetRegisterMode"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

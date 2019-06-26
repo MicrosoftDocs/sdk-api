@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
 ms.topic: method
-f1_keywords: ["mspaddr/CMSPAddress.UpdateTerminalList"]
+f1_keywords: 
+ - "mspaddr/CMSPAddress.UpdateTerminalList"
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

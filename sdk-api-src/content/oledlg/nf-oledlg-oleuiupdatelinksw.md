@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIUpdateLinks, OleUIUpdateLinks function [COM], OleUIUpdateLinksA, OleUIUpdateLinksW, _ole_OleUIUpdateLinks, com.oleuiupdatelinks, oledlg/OleUIUpdateLinks, oledlg/OleUIUpdateLinksA, oledlg/OleUIUpdateLinksW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIUpdateLinks"]
+f1_keywords: 
+ - "oledlg/OleUIUpdateLinks"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

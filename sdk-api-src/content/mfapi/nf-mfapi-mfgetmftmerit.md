@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
 ms.topic: function
-f1_keywords: ["mfapi/MFGetMFTMerit"]
+f1_keywords: 
+ - "mfapi/MFGetMFTMerit"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

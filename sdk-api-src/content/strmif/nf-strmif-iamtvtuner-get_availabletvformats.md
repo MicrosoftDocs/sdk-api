@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_AvailableTVFormats method, IAMTVTuner.get_AvailableTVFormats, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AvailableTVFormats
 ms.topic: method
-f1_keywords: ["strmif/IAMTVTuner.get_AvailableTVFormats"]
+f1_keywords: 
+ - "strmif/IAMTVTuner.get_AvailableTVFormats"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
 ms.topic: interface
-f1_keywords: ["syncmgr/IEnumSyncMgrSyncItems"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrSyncItems"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

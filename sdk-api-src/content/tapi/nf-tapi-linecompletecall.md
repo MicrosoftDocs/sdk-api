@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall"
 ms.topic: function
-f1_keywords: ["tapi/lineCompleteCall"]
+f1_keywords: 
+ - "tapi/lineCompleteCall"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

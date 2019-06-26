@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream interface [DirectShow],SetFormat method, IAudioMediaStream.SetFormat, IAudioMediaStream::SetFormat, IAudioMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioMediaStream interface, austream/IAudioMediaStream::SetFormat, dshow.iaudiomediastream_setformat
 ms.topic: method
-f1_keywords: ["austream/IAudioMediaStream.SetFormat"]
+f1_keywords: 
+ - "austream/IAudioMediaStream.SetFormat"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

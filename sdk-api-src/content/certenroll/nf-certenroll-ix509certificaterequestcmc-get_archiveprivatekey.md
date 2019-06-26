@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArchivePrivateKey property [Security], ArchivePrivateKey property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],ArchivePrivateKey property, IX509CertificateRequestCmc.ArchivePrivateKey, IX509CertificateRequestCmc.get_ArchivePrivateKey, IX509CertificateRequestCmc::ArchivePrivateKey, IX509CertificateRequestCmc::get_ArchivePrivateKey, IX509CertificateRequestCmc::put_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::get_ArchivePrivateKey, certenroll/IX509CertificateRequestCmc::put_ArchivePrivateKey, get_ArchivePrivateKey, security.ix509certificaterequestcmc_archiveprivatekey_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestCmc.ArchivePrivateKey"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestCmc.ArchivePrivateKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0 structure pointer [Buses], USB_BUS_STATISTICS_0, USB_BUS_STATISTICS_0 structure [Buses], buses.usb_bus_statistics_0, usbstrct_673e06da-582e-4496-9f33-b0c8b915ef0f.xml, usbuser/PUSB_BUS_STATISTICS_0, usbuser/USB_BUS_STATISTICS_0"
 ms.topic: struct
-f1_keywords: ["usbuser/USB_BUS_STATISTICS_0"]
+f1_keywords: 
+ - "usbuser/USB_BUS_STATISTICS_0"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

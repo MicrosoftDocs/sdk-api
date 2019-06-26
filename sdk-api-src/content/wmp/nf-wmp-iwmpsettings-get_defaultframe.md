@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_defaultFrame method, IWMPSettings.get_defaultFrame, IWMPSettings::get_defaultFrame, IWMPSettingsget_defaultFrame, get_defaultFrame, get_defaultFrame method [Windows Media Player], get_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_defaultframe, wmp/IWMPSettings::get_defaultFrame
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.get_defaultFrame"]
+f1_keywords: 
+ - "wmp/IWMPSettings.get_defaultFrame"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

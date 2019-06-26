@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorGroup"]
+f1_keywords: 
+ - "mfidl/IMFSensorGroup"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

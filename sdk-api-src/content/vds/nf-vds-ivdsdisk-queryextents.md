@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],QueryExtents method, IVdsDisk.QueryExtents, IVdsDisk::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDisk interface, base.ivdsdisk_queryextents, vds/IVdsDisk::QueryExtents
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk.QueryExtents"]
+f1_keywords: 
+ - "vds/IVdsDisk.QueryExtents"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

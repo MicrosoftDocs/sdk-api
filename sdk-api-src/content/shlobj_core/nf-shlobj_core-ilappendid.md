@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILAppendID, ILAppendID function [Windows Shell], _win32_ILAppendID, shell.ILAppendID, shlobj_core/ILAppendID
 ms.topic: function
-f1_keywords: ["shlobj_core/ILAppendID"]
+f1_keywords: 
+ - "shlobj_core/ILAppendID"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

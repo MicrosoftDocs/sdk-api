@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method, IWMPSyncDevice.isIdentical, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.isIdentical"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.isIdentical"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

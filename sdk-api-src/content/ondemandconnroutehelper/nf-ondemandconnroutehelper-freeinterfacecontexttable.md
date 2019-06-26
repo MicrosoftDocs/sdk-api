@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
 ms.topic: function
-f1_keywords: ["ondemandconnroutehelper/FreeInterfaceContextTable"]
+f1_keywords: 
+ - "ondemandconnroutehelper/FreeInterfaceContextTable"
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

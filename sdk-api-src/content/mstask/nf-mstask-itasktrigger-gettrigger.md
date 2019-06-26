@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTrigger method, ITaskTrigger.GetTrigger, ITaskTrigger::GetTrigger, _msb_itasktrigger_gettrigger, mstask/ITaskTrigger::GetTrigger, taskschd.itasktrigger_gettrigger
 ms.topic: method
-f1_keywords: ["mstask/ITaskTrigger.GetTrigger"]
+f1_keywords: 
+ - "mstask/ITaskTrigger.GetTrigger"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

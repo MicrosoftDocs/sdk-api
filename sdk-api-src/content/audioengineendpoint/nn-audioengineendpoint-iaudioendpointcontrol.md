@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desktop Services], IAudioEndpointControl interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointControl, termserv.iaudioendpointcontrol
 ms.topic: interface
-f1_keywords: ["audioengineendpoint/IAudioEndpointControl"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointControl"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],UdpPortPolicy property, IWdsTransportServicePolicy2.UdpPortPolicy, IWdsTransportServicePolicy2.put_UdpPortPolicy, IWdsTransportServicePolicy2::UdpPortPolicy, IWdsTransportServicePolicy2::get_UdpPortPolicy, IWdsTransportServicePolicy2::put_UdpPortPolicy, UdpPortPolicy property [Windows Deployment Services], UdpPortPolicy property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, put_UdpPortPolicy, wds.iwdstransportservicepolicy2_udpportpolicy, wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy, wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy2.UdpPortPolicy"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServicePolicy2.UdpPortPolicy"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

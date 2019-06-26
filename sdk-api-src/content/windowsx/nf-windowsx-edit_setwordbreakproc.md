@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetWordBreakProc, Edit_SetWordBreakProc macro [Windows Controls], _win32_Edit_SetWordBreakProc, _win32_Edit_SetWordBreakProc_cpp, controls.Edit_SetWordBreakProc, controls._win32_Edit_SetWordBreakProc, windowsx/Edit_SetWordBreakProc
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_SetWordBreakProc"]
+f1_keywords: 
+ - "windowsx/Edit_SetWordBreakProc"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

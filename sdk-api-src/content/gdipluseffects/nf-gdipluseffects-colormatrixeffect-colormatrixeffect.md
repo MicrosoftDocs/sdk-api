@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect, ColorMatrixEffect class [GDI+],ColorMatrixEffect constructor, ColorMatrixEffect constructor [GDI+], ColorMatrixEffect constructor [GDI+],ColorMatrixEffect class, ColorMatrixEffect.ColorMatrixEffect, ColorMatrixEffect::ColorMatrixEffect, _gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_
 ms.topic: method
-f1_keywords: ["gdipluseffects/ColorMatrixEffect.ColorMatrixEffect"]
+f1_keywords: 
+ - "gdipluseffects/ColorMatrixEffect.ColorMatrixEffect"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

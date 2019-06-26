@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetDrive2 method, IVdsSubSystem2.GetDrive2, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsSubSystem2.GetDrive2"]
+f1_keywords: 
+ - "vdshwprv/IVdsSubSystem2.GetDrive2"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

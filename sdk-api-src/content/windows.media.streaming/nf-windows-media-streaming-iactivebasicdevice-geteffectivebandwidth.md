@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveBandwidth, GetEffectiveBandwidth method [Media Streaming API], GetEffectiveBandwidth method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetEffectiveBandwidth method, IActiveBasicDevice.GetEffectiveBandwidth, IActiveBasicDevice.streaming, IActiveBasicDevice::GetEffectiveBandwidth, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_geteffectivebandwidth, windows/IActiveBasicDevice::GetEffectiveBandwidth
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth"]
+f1_keywords: 
+ - "windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

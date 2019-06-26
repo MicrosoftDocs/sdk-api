@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_Property, CM_Get_Device_Interface_Property function [Device and Driver Installation], CM_Get_Device_Interface_PropertyA, CM_Get_Device_Interface_PropertyW, cfgmgr32/CM_Get_Device_Interface_Property, cfgmgr32/CM_Get_Device_Interface_PropertyA, cfgmgr32/CM_Get_Device_Interface_PropertyW, devinst.cm_get_device_interface_property
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Device_Interface_Property"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Device_Interface_Property"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

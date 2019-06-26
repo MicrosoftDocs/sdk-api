@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
 ms.topic: method
-f1_keywords: ["identitystore/IIdentityStore.GetAt"]
+f1_keywords: 
+ - "identitystore/IIdentityStore.GetAt"
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

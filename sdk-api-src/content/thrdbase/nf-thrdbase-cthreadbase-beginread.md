@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?BeginRead@CThreadBase@@QAEHK@Z, BeginRead, BeginRead method [Windows Management Instrumentation], BeginRead method [Windows Management Instrumentation],CThreadBase interface, CThreadBase interface [Windows Management Instrumentation],BeginRead method, CThreadBase.BeginRead, CThreadBase::BeginRead, thrdbase/CThreadBase::BeginRead, wmi.cthreadbase_beginread"
 ms.topic: method
-f1_keywords: ["thrdbase/CThreadBase.BeginRead"]
+f1_keywords: 
+ - "thrdbase/CThreadBase.BeginRead"
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

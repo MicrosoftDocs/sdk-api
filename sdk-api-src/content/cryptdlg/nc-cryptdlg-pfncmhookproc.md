@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.topic: callback
-f1_keywords: ["cryptdlg/PFNCMHOOKPROC"]
+f1_keywords: 
+ - "cryptdlg/PFNCMHOOKPROC"
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

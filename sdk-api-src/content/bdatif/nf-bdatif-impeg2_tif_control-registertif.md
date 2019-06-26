@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
 ms.topic: method
-f1_keywords: ["bdatif/IMPEG2_TIF_CONTROL.RegisterTIF"]
+f1_keywords: 
+ - "bdatif/IMPEG2_TIF_CONTROL.RegisterTIF"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

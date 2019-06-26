@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERBANDINFO, PERBANDINFO, PERBANDINFO structure [Display Devices], PPERBANDINFO, PPERBANDINFO structure pointer [Display Devices], display.perbandinfo, grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml, winddi/PERBANDINFO, winddi/PPERBANDINFO"
 ms.topic: struct
-f1_keywords: ["winddi/PERBANDINFO"]
+f1_keywords: 
+ - "winddi/PERBANDINFO"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

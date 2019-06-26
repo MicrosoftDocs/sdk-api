@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryProvider, WSDCreateDiscoveryProvider function, ncd.wsdcreatediscoveryprovider_func, wsddisco/WSDCreateDiscoveryProvider
 ms.topic: function
-f1_keywords: ["wsddisco/WSDCreateDiscoveryProvider"]
+f1_keywords: 
+ - "wsddisco/WSDCreateDiscoveryProvider"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

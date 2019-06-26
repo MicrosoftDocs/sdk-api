@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPackage.SetDocumentSequence"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPackage.SetDocumentSequence"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

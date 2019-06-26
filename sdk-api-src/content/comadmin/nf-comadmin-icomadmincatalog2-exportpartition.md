@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.ExportPartition"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.ExportPartition"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],QueryFocus method, IPreviewHandler.QueryFocus, IPreviewHandler::QueryFocus, QueryFocus, QueryFocus method [Windows Shell], QueryFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_QueryFocus, shell.IPreviewHandler_QueryFocus, shobjidl_core/IPreviewHandler::QueryFocus
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandler.QueryFocus"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandler.QueryFocus"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

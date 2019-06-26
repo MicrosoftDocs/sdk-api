@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemDeleted method, ICameraUIControlEventCallback.OnItemDeleted, ICameraUIControlEventCallback::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows API], OnItemDeleted method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemDeleted, winprog.icamerauicontroleventcallback_onitemdeleted
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControlEventCallback.OnItemDeleted"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControlEventCallback.OnItemDeleted"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

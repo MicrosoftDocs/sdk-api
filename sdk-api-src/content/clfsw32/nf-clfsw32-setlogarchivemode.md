@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
 ms.topic: function
-f1_keywords: ["clfsw32/SetLogArchiveMode"]
+f1_keywords: 
+ - "clfsw32/SetLogArchiveMode"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

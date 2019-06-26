@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongLongToShort, LongLongToShort function [Windows Shell], intsafe/LongLongToShort, shell.LongLongToShort
 ms.topic: function
-f1_keywords: ["intsafe/LongLongToShort"]
+f1_keywords: 
+ - "intsafe/LongLongToShort"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

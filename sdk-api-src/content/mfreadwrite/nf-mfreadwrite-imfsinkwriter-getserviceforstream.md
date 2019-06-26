@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetServiceForStream method, IMFSinkWriter.GetServiceForStream, IMFSinkWriter::GetServiceForStream, mf.imfsinkwriter_getserviceforstream, mfreadwrite/IMFSinkWriter::GetServiceForStream
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.GetServiceForStream"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.GetServiceForStream"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

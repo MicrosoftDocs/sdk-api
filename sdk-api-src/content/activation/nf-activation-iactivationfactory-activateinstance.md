@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime],IActivationFactory interface, IActivationFactory interface [Windows Runtime],ActivateInstance method, IActivationFactory.ActivateInstance, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
 ms.topic: method
-f1_keywords: ["activation/IActivationFactory.ActivateInstance"]
+f1_keywords: 
+ - "activation/IActivationFactory.ActivateInstance"
 req.header: activation.h
 req.include-header: 
 req.target-type: Windows

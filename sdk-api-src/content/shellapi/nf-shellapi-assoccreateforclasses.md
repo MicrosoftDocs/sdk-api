@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
 ms.topic: function
-f1_keywords: ["shellapi/AssocCreateForClasses"]
+f1_keywords: 
+ - "shellapi/AssocCreateForClasses"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],SetTCRMode method, IAMTimecodeReader.SetTCRMode, IAMTimecodeReader::SetTCRMode, IAMTimecodeReaderSetTCRMode, SetTCRMode, SetTCRMode method [DirectShow], SetTCRMode method [DirectShow],IAMTimecodeReader interface, dshow.iamtimecodereader_settcrmode, strmif/IAMTimecodeReader::SetTCRMode
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeReader.SetTCRMode"]
+f1_keywords: 
+ - "strmif/IAMTimecodeReader.SetTCRMode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

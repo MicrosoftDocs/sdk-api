@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS, PUSB_CLOSE_RAW_DEVICE_PARAMETERS structure pointer [Buses], USB_CLOSE_RAW_DEVICE_PARAMETERS, USB_CLOSE_RAW_DEVICE_PARAMETERS structure [Buses], buses.usb_close_raw_device_parameters, usbstrct_aad6430d-1587-4aca-827a-15e391dc0361.xml, usbuser/PUSB_CLOSE_RAW_DEVICE_PARAMETERS, usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"
 ms.topic: struct
-f1_keywords: ["usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"]
+f1_keywords: 
+ - "usbuser/USB_CLOSE_RAW_DEVICE_PARAMETERS"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

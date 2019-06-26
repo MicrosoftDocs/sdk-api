@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsSupported method, IFileSystemImage.get_FileSystemsSupported, IFileSystemImage::get_FileSystemsSupported, get_FileSystemsSupported, get_FileSystemsSupported method [IMAPI], get_FileSystemsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemssupported, imapi2fs/IFileSystemImage::get_FileSystemsSupported
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_FileSystemsSupported"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_FileSystemsSupported"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

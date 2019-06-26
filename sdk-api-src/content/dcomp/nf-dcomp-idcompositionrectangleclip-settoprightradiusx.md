@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX, SetTopRightRadiusX, SetTopRightRadiusX methods [DirectComposition], dcomp/SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionRectangleClip::SetTopRightRadiusX"]
+f1_keywords: 
+ - "dcomp/IDCompositionRectangleClip::SetTopRightRadiusX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnums, GetEnums method, GetEnums method,IVisualTreeService interface, IVisualTreeService interface,GetEnums method, IVisualTreeService.GetEnums, IVisualTreeService::GetEnums, xaml_diagnostics.ivisualtreeservice_getenums, xamlom/IVisualTreeService::GetEnums
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService.GetEnums"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService.GetEnums"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

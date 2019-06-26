@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
 ms.topic: method
-f1_keywords: ["vpnotify/IVPNotify.GetDeinterlaceMode"]
+f1_keywords: 
+ - "vpnotify/IVPNotify.GetDeinterlaceMode"
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IOpenSearchSource"]
+f1_keywords: 
+ - "shobjidl_core/IOpenSearchSource"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

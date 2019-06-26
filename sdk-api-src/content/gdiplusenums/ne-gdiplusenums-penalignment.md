@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PenAlignment, PenAlignment enumeration [GDI+], PenAlignmentCenter, PenAlignmentInset, _gdiplus_ENUM_PenAlignment, gdiplus._gdiplus_ENUM_PenAlignment, gdiplusenums/PenAlignment, gdiplusenums/PenAlignmentCenter, gdiplusenums/PenAlignmentInset
 ms.topic: enum
-f1_keywords: ["gdiplusenums/PenAlignment"]
+f1_keywords: 
+ - "gdiplusenums/PenAlignment"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

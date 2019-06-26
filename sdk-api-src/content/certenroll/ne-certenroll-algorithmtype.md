@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlgorithmType, AlgorithmType enumeration [Security], XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/AlgorithmType, certenroll/XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, certenroll/XCN_BCRYPT_CIPHER_INTERFACE, certenroll/XCN_BCRYPT_HASH_INTERFACE, certenroll/XCN_BCRYPT_RNG_INTERFACE, certenroll/XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, certenroll/XCN_BCRYPT_SIGNATURE_INTERFACE, certenroll/XCN_BCRYPT_UNKNOWN_INTERFACE, security.algorithmtype_enum
 ms.topic: enum
-f1_keywords: ["certenroll/AlgorithmType"]
+f1_keywords: 
+ - "certenroll/AlgorithmType"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

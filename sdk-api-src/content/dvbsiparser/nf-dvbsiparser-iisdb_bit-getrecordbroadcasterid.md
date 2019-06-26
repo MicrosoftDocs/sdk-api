@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordBroadcasterId, GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordBroadcasterId method, IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_BIT.GetRecordBroadcasterId"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_BIT.GetRecordBroadcasterId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

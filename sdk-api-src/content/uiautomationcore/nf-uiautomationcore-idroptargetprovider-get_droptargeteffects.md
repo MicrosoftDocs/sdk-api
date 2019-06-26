@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffects property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffects property, IDropTargetProvider.DropTargetEffects, IDropTargetProvider.get_DropTargetEffects, IDropTargetProvider::DropTargetEffects, IDropTargetProvider::get_DropTargetEffects, get_DropTargetEffects, uiautomationcore/IDropTargetProvider::DropTargetEffects, uiautomationcore/IDropTargetProvider::get_DropTargetEffects, winauto.uiauto_idroptargetprovider_droptargeteffects
 ms.topic: method
-f1_keywords: ["uiautomationcore/IDropTargetProvider.DropTargetEffects"]
+f1_keywords: 
+ - "uiautomationcore/IDropTargetProvider.DropTargetEffects"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

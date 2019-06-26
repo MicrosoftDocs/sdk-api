@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, base.raiseexception, errhandlingapi/RaiseException
 ms.topic: function
-f1_keywords: ["errhandlingapi/RaiseException"]
+f1_keywords: 
+ - "errhandlingapi/RaiseException"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

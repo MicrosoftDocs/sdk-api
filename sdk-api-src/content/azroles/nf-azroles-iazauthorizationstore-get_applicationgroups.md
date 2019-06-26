@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzAuthorizationStore object, ApplicationGroups property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationGroups property, IAzAuthorizationStore interface [Security],ApplicationGroups property, IAzAuthorizationStore.ApplicationGroups, IAzAuthorizationStore.get_ApplicationGroups, IAzAuthorizationStore::ApplicationGroups, IAzAuthorizationStore::get_ApplicationGroups, azroles/IAzAuthorizationStore::ApplicationGroups, azroles/IAzAuthorizationStore::get_ApplicationGroups, get_ApplicationGroups, security.azauthorizationstore_applicationgroups
 ms.topic: method
-f1_keywords: ["azroles/IAzAuthorizationStore.ApplicationGroups"]
+f1_keywords: 
+ - "azroles/IAzAuthorizationStore.ApplicationGroups"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
 ms.topic: function
-f1_keywords: ["callobj/CoGetInterceptor"]
+f1_keywords: 
+ - "callobj/CoGetInterceptor"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

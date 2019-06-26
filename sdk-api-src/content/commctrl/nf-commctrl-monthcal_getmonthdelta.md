@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetMonthDelta, MonthCal_GetMonthDelta macro [Windows Controls], _win32_MonthCal_GetMonthDelta, _win32_MonthCal_GetMonthDelta_cpp, commctrl/MonthCal_GetMonthDelta, controls.MonthCal_GetMonthDelta, controls._win32_MonthCal_GetMonthDelta
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_GetMonthDelta"]
+f1_keywords: 
+ - "commctrl/MonthCal_GetMonthDelta"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

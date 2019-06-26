@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetText, ComboBox_GetText macro [Windows Controls], _win32_ComboBox_GetText, _win32_ComboBox_GetText_cpp, controls.ComboBox_GetText, controls._win32_ComboBox_GetText, windowsx/ComboBox_GetText
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_GetText"]
+f1_keywords: 
+ - "windowsx/ComboBox_GetText"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

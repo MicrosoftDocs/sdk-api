@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioAutoGainControl interface [Core Audio],SetEnabled method, IAudioAutoGainControl.SetEnabled, IAudioAutoGainControl::SetEnabled, IAudioAutoGainControlSetEnabled, SetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio],IAudioAutoGainControl interface, coreaudio.iaudioautogaincontrol_setenabled, devicetopology/IAudioAutoGainControl::SetEnabled
 ms.topic: method
-f1_keywords: ["devicetopology/IAudioAutoGainControl.SetEnabled"]
+f1_keywords: 
+ - "devicetopology/IAudioAutoGainControl.SetEnabled"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

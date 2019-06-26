@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TKBLT_CLASSIC, TKBLT_OPTIMIZED, TKBLT_UNDEFINED, TKBLayoutType, TKBLayoutType enumeration [Text Services Framework], ctffunc/TKBLT_CLASSIC, ctffunc/TKBLT_OPTIMIZED, ctffunc/TKBLT_UNDEFINED, ctffunc/TKBLayoutType, tsf.tkblayouttype
 ms.topic: enum
-f1_keywords: ["ctffunc/TKBLayoutType"]
+f1_keywords: 
+ - "ctffunc/TKBLayoutType"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

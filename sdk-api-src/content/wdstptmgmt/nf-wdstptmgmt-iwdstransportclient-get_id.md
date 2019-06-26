@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Id property, IWdsTransportClient.Id, IWdsTransportClient.get_Id, IWdsTransportClient::Id, IWdsTransportClient::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportClient interface, get_Id, wds.iwdstransportclient_id, wdstptmgmt/IWdsTransportClient::Id, wdstptmgmt/IWdsTransportClient::get_Id
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportClient.Id"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportClient.Id"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

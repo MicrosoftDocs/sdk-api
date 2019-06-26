@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASM_CMPF_ALL, ASM_CMPF_BUILD_NUMBER, ASM_CMPF_CULTURE, ASM_CMPF_CUSTOM, ASM_CMPF_DEFAULT, ASM_CMPF_MAJOR_VERSION, ASM_CMPF_MINOR_VERSION, ASM_CMPF_NAME, ASM_CMPF_PUBLIC_KEY_TOKEN, ASM_CMPF_REVISION_NUMBER, ASM_CMP_FLAGS, ASM_CMP_FLAGS , ASM_CMP_FLAGS enumeration [Side-by-side Assemblies], setup.asm_cmp_flags_, winsxs/ASM_CMPF_ALL, winsxs/ASM_CMPF_BUILD_NUMBER, winsxs/ASM_CMPF_CULTURE, winsxs/ASM_CMPF_CUSTOM, winsxs/ASM_CMPF_DEFAULT, winsxs/ASM_CMPF_MAJOR_VERSION, winsxs/ASM_CMPF_MINOR_VERSION, winsxs/ASM_CMPF_NAME, winsxs/ASM_CMPF_PUBLIC_KEY_TOKEN, winsxs/ASM_CMPF_REVISION_NUMBER, winsxs/ASM_CMP_FLAGS
 ms.topic: enum
-f1_keywords: ["winsxs/ASM_CMP_FLAGS"]
+f1_keywords: 
+ - "winsxs/ASM_CMP_FLAGS"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

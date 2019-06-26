@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters function, ncd.wsdcreateudpmessageparameters, wsdbase/WSDCreateUdpMessageParameters
 ms.topic: function
-f1_keywords: ["wsdbase/WSDCreateUdpMessageParameters"]
+f1_keywords: 
+ - "wsdbase/WSDCreateUdpMessageParameters"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

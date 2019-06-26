@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_ReferenceInstances, MI_Session_ReferenceInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_ReferenceInstances, wmi_v2.mi_session_referenceinstances
 ms.topic: function
-f1_keywords: ["mi/MI_Session_ReferenceInstances"]
+f1_keywords: 
+ - "mi/MI_Session_ReferenceInstances"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHMultiFileProperties, SHMultiFileProperties function [Windows Shell], _win32_SHMultiFileProperties, shell.SHMultiFileProperties, shlobj/SHMultiFileProperties
 ms.topic: function
-f1_keywords: ["shlobj/SHMultiFileProperties"]
+f1_keywords: 
+ - "shlobj/SHMultiFileProperties"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

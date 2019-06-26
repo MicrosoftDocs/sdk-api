@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method [DXGI], AddRetrievalFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddRetrievalFilterEntries method, IDXGIInfoQueue.AddRetrievalFilterEntries, IDXGIInfoQueue::AddRetrievalFilterEntries, direct3ddxgi.idxgiinfoqueue_addretrievalfilterentries, dxgidebug/IDXGIInfoQueue::AddRetrievalFilterEntries
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.AddRetrievalFilterEntries"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.AddRetrievalFilterEntries"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

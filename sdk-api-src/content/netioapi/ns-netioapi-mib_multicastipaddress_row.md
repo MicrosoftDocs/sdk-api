@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW structure [MIB], PMIB_MULTICASTIPADDRESS_ROW, PMIB_MULTICASTIPADDRESS_ROW structure pointer [MIB], mib.mib_multicastipaddress_row, netioapi/MIB_MULTICASTIPADDRESS_ROW, netioapi/PMIB_MULTICASTIPADDRESS_ROW"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_MULTICASTIPADDRESS_ROW"]
+f1_keywords: 
+ - "netioapi/MIB_MULTICASTIPADDRESS_ROW"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

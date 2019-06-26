@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_SessionChangeNotification method, IWTSSBPlugin.WTSSBX_SessionChangeNotification, IWTSSBPlugin::WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification method [Remote Desktop Services], WTSSBX_SessionChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_sessionchangenotification, tssbx/IWTSSBPlugin::WTSSBX_SessionChangeNotification
 ms.topic: method
-f1_keywords: ["tssbx/IWTSSBPlugin.WTSSBX_SessionChangeNotification"]
+f1_keywords: 
+ - "tssbx/IWTSSBPlugin.WTSSBX_SessionChangeNotification"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

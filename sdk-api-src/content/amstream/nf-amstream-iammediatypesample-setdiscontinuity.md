@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetDiscontinuity method, IAMMediaTypeSample.SetDiscontinuity, IAMMediaTypeSample::SetDiscontinuity, IAMMediaTypeSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetDiscontinuity, dshow.iammediatypesample_setdiscontinuity
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeSample.SetDiscontinuity"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample.SetDiscontinuity"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

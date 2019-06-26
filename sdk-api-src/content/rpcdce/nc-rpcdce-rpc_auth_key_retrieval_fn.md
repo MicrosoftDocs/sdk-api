@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC], RpcAuthKeyRetrievalFn, _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN
 ms.topic: callback
-f1_keywords: ["rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"]
+f1_keywords: 
+ - "rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

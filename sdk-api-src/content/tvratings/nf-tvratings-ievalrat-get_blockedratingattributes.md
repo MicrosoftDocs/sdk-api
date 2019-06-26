@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IEvalRat.get_BlockedRatingAttributes, IEvalRat::get_BlockedRatingAttributes, IEvalRatget_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_get_blockedratingattributes, tvratings/IEvalRat::get_BlockedRatingAttributes
 ms.topic: method
-f1_keywords: ["tvratings/IEvalRat.get_BlockedRatingAttributes"]
+f1_keywords: 
+ - "tvratings/IEvalRat.get_BlockedRatingAttributes"
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

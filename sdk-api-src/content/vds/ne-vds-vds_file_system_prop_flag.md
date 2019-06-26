@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_PROP_FLAG, VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS], VDS_FPF_COMPRESSED, base.vds_file_system_prop_flag, vds/VDS_FILE_SYSTEM_PROP_FLAG, vds/VDS_FPF_COMPRESSED
 ms.topic: enum
-f1_keywords: ["vds/VDS_FILE_SYSTEM_PROP_FLAG"]
+f1_keywords: 
+ - "vds/VDS_FILE_SYSTEM_PROP_FLAG"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

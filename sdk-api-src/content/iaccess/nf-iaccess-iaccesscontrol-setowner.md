@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],SetOwner method, IAccessControl.SetOwner, IAccessControl::SetOwner, SetOwner, SetOwner method [COM], SetOwner method [COM],IAccessControl interface, _com_iaccesscontrol_setowner, com.iaccesscontrol_setowner, iaccess/IAccessControl::SetOwner
 ms.topic: method
-f1_keywords: ["iaccess/IAccessControl.SetOwner"]
+f1_keywords: 
+ - "iaccess/IAccessControl.SetOwner"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

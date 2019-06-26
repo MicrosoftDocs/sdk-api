@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 03894bfe-020a-4478-af6f-88521d4bbb6d, GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpRange method, IMFVideoProcessor.GetProcAmpRange, IMFVideoProcessor::GetProcAmpRange, evr9/IMFVideoProcessor::GetProcAmpRange, mf.imfvideoprocessor_getprocamprange
 ms.topic: method
-f1_keywords: ["evr9/IMFVideoProcessor.GetProcAmpRange"]
+f1_keywords: 
+ - "evr9/IMFVideoProcessor.GetProcAmpRange"
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

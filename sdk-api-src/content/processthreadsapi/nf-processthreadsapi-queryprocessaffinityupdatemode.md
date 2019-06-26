@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, QueryProcessAffinityUpdateMode, QueryProcessAffinityUpdateMode function, base.queryprocessaffinityupdatemode, processthreadsapi/QueryProcessAffinityUpdateMode, winbase/QueryProcessAffinityUpdateMode
 ms.topic: function
-f1_keywords: ["processthreadsapi/QueryProcessAffinityUpdateMode"]
+f1_keywords: 
+ - "processthreadsapi/QueryProcessAffinityUpdateMode"
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

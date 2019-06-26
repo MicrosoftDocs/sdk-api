@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], IWICProgressCallback interface [Windows Imaging Component],described, _wic_codec_iwicprogresscallback, wic._wic_codec_iwicprogresscallback, wincodec/IWICProgressCallback
 ms.topic: interface
-f1_keywords: ["wincodec/IWICProgressCallback"]
+f1_keywords: 
+ - "wincodec/IWICProgressCallback"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

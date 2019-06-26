@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE"
 ms.topic: struct
-f1_keywords: ["resapi/MONITOR_STATE"]
+f1_keywords: 
+ - "resapi/MONITOR_STATE"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

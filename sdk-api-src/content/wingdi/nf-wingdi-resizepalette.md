@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizePalette, gdi.resizepalette, wingdi/ResizePalette
 ms.topic: function
-f1_keywords: ["wingdi/ResizePalette"]
+f1_keywords: 
+ - "wingdi/ResizePalette"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

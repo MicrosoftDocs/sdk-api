@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.topic: function
-f1_keywords: ["sspi/FreeContextBuffer"]
+f1_keywords: 
+ - "sspi/FreeContextBuffer"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

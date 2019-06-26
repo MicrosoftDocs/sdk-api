@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
 ms.topic: interface
-f1_keywords: ["wmpservices/IWMPConvert"]
+f1_keywords: 
+ - "wmpservices/IWMPConvert"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

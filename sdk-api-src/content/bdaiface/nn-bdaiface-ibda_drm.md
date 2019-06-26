@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM interface [Microsoft TV Technologies],described, IBDA_DRMInterface, bdaiface/IBDA_DRM, mstv.ibda_drm
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_DRM"]
+f1_keywords: 
+ - "bdaiface/IBDA_DRM"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

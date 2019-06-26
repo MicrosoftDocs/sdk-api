@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
 ms.topic: method
-f1_keywords: ["relogger/ITraceEvent.SetProcessId"]
+f1_keywords: 
+ - "relogger/ITraceEvent.SetProcessId"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

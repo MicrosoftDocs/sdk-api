@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],IParseAndCreateItem interface, IParseAndCreateItem interface [Windows Shell],GetItem method, IParseAndCreateItem.GetItem, IParseAndCreateItem::GetItem, _shell_IParseAndCreateItem_GetItem, shell.IParseAndCreateItem_GetItem, shobjidl_core/IParseAndCreateItem::GetItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IParseAndCreateItem.GetItem"]
+f1_keywords: 
+ - "shobjidl_core/IParseAndCreateItem.GetItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

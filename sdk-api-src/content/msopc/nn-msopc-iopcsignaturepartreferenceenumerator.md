@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceEnumerator, opc.iopcsignaturepartreferenceenumerator
 ms.topic: interface
-f1_keywords: ["msopc/IOpcSignaturePartReferenceEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcSignaturePartReferenceEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
 ms.topic: struct
-f1_keywords: ["eaptypes/EapCertificateCredential"]
+f1_keywords: 
+ - "eaptypes/EapCertificateCredential"
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

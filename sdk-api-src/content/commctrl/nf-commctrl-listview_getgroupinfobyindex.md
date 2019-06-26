@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetGroupInfoByIndex"]
+f1_keywords: 
+ - "commctrl/ListView_GetGroupInfoByIndex"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

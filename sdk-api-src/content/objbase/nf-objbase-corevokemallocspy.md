@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
 ms.topic: function
-f1_keywords: ["objbase/CoRevokeMallocSpy"]
+f1_keywords: 
+ - "objbase/CoRevokeMallocSpy"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

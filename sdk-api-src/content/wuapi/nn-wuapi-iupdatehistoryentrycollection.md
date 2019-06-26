@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent],described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateHistoryEntryCollection"]
+f1_keywords: 
+ - "wuapi/IUpdateHistoryEntryCollection"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

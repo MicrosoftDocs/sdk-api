@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug interface [DXGI],ReportLiveObjects method, IDXGIDebug.ReportLiveObjects, IDXGIDebug::ReportLiveObjects, ReportLiveObjects, ReportLiveObjects method [DXGI], ReportLiveObjects method [DXGI],IDXGIDebug interface, direct3ddxgi.idxgidebug_reportliveobjects, dxgidebug/IDXGIDebug::ReportLiveObjects
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIDebug.ReportLiveObjects"]
+f1_keywords: 
+ - "dxgidebug/IDXGIDebug.ReportLiveObjects"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

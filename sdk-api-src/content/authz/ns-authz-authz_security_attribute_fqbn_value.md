@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, security.authz_security_attribute_fqbn_value"
 ms.topic: struct
-f1_keywords: ["authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE"]
+f1_keywords: 
+ - "authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable property [Fax Service], Enable property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],Enable property, IFaxRoutingMethod.Enable, IFaxRoutingMethod.put_Enable, IFaxRoutingMethod::Enable, IFaxRoutingMethod::get_Enable, IFaxRoutingMethod::put_Enable, _mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_get_enable, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp, faxcom/IFaxRoutingMethod::Enable, faxcom/IFaxRoutingMethod::get_Enable, faxcom/IFaxRoutingMethod::put_Enable, put_Enable
 ms.topic: method
-f1_keywords: ["faxcom/IFaxRoutingMethod.Enable"]
+f1_keywords: 
+ - "faxcom/IFaxRoutingMethod.Enable"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream
 ms.topic: method
-f1_keywords: ["tapi3if/ITSubStream.StopSubStream"]
+f1_keywords: 
+ - "tapi3if/ITSubStream.StopSubStream"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

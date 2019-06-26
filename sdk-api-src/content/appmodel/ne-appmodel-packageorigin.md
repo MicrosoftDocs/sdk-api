@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackageOrigin, PackageOrigin enumeration [App packaging and management], PackageOrigin_DeveloperSigned, PackageOrigin_DeveloperUnsigned, PackageOrigin_Inbox, PackageOrigin_LineOfBusiness, PackageOrigin_Store, PackageOrigin_Unknown, PackageOrigin_Unsigned, appmodel/PackageOrigin, appmodel/PackageOrigin_DeveloperSigned, appmodel/PackageOrigin_DeveloperUnsigned, appmodel/PackageOrigin_Inbox, appmodel/PackageOrigin_LineOfBusiness, appmodel/PackageOrigin_Store, appmodel/PackageOrigin_Unknown, appmodel/PackageOrigin_Unsigned, appxpkg.packageorigin
 ms.topic: enum
-f1_keywords: ["appmodel/PackageOrigin"]
+f1_keywords: 
+ - "appmodel/PackageOrigin"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

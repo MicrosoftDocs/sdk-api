@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONFIRM_CONFLICT_RESULT_INFO, CONFIRM_CONFLICT_RESULT_INFO structure [Windows Shell], _shell_CONFIRM_CONFLICT_RESULT_INFO, shell.CONFIRM_CONFLICT_RESULT_INFO, syncmgr/CONFIRM_CONFLICT_RESULT_INFO
 ms.topic: struct
-f1_keywords: ["syncmgr/CONFIRM_CONFLICT_RESULT_INFO"]
+f1_keywords: 
+ - "syncmgr/CONFIRM_CONFLICT_RESULT_INFO"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

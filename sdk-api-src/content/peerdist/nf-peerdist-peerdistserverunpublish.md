@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish
 ms.topic: function
-f1_keywords: ["peerdist/PeerDistServerUnpublish"]
+f1_keywords: 
+ - "peerdist/PeerDistServerUnpublish"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

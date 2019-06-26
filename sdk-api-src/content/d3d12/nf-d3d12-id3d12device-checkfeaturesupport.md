@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CheckFeatureSupport"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CheckFeatureSupport"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

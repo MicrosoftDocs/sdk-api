@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDlgItemInt, SetDlgItemInt function [Dialog Boxes], _win32_SetDlgItemInt, _win32_setdlgitemint_cpp, dlgbox.setdlgitemint, winui._win32_setdlgitemint, winuser/SetDlgItemInt
 ms.topic: function
-f1_keywords: ["winuser/SetDlgItemInt"]
+f1_keywords: 
+ - "winuser/SetDlgItemInt"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

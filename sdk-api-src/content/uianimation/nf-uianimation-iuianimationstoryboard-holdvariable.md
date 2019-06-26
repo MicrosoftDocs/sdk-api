@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard.HoldVariable, IUIAnimationStoryboard::HoldVariable, uianimation.iuianimationstoryboard_holdvariable, uianimation/IUIAnimationStoryboard::HoldVariable
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.HoldVariable"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.HoldVariable"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

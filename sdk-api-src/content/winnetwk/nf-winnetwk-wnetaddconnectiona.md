@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
 ms.topic: function
-f1_keywords: ["winnetwk/WNetAddConnection"]
+f1_keywords: 
+ - "winnetwk/WNetAddConnection"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

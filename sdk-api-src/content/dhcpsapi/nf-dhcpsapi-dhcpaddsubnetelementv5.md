@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV5, DhcpAddSubnetElementV5 function [DHCP], dhcp.dhcpaddsubnetelementv5, dhcpsapi/DhcpAddSubnetElementV5
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpAddSubnetElementV5"]
+f1_keywords: 
+ - "dhcpsapi/DhcpAddSubnetElementV5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

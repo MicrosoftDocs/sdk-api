@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceCapability, GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetInterfaceCapability method, IMbnInterface.GetInterfaceCapability, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterface.GetInterfaceCapability"]
+f1_keywords: 
+ - "mbnapi/IMbnInterface.GetInterfaceCapability"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

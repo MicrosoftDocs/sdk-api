@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingArchiveConfigChange method, IFaxServerNotify2.OnIncomingArchiveConfigChange, IFaxServerNotify2::OnIncomingArchiveConfigChange, OnIncomingArchiveConfigChange, OnIncomingArchiveConfigChange method [Fax Service], OnIncomingArchiveConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingArchiveConfigChange, _IFaxServerNotify2::OnIncomingArchiveConfigChange, _mfax_ifaxservernotify2_onincomingarchiveconfigchange, fax._mfax_ifaxservernotify2_onincomingarchiveconfigchange, faxcomex/IFaxServerNotify2::OnIncomingArchiveConfigChange
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnIncomingArchiveConfigChange"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnIncomingArchiveConfigChange"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

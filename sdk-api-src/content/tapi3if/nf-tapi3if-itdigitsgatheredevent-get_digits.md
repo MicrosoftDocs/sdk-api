@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Digits method, ITDigitsGatheredEvent.get_Digits, ITDigitsGatheredEvent::get_Digits, _tapi3_itdigitsgatheredevent_get_digits, get_Digits, get_Digits method [TAPI 2.2], get_Digits method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_digits, tapi3if/ITDigitsGatheredEvent::get_Digits
 ms.topic: method
-f1_keywords: ["tapi3if/ITDigitsGatheredEvent.get_Digits"]
+f1_keywords: 
+ - "tapi3if/ITDigitsGatheredEvent.get_Digits"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

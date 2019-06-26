@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsInstanceQuery method, IFunctionDiscoveryProviderQuery.IsInstanceQuery, IFunctionDiscoveryProviderQuery::IsInstanceQuery, IsInstanceQuery, IsInstanceQuery method, IsInstanceQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsInstanceQuery, ncd.ifunctiondiscoveryproviderquery_isinstancequery
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.IsInstanceQuery"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.IsInstanceQuery"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

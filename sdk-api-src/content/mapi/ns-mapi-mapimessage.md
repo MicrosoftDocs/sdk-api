@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessage structure, lpMapiMessage, lpMapiMessage structure pointer, mapi.mapimessage, mapi/MapiMessage, mapi/lpMapiMessage"
 ms.topic: struct
-f1_keywords: ["mapi/MapiMessage"]
+f1_keywords: 
+ - "mapi/MapiMessage"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

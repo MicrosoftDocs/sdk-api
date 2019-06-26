@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeNumber, IsVarTypeNumber function [Windows Properties], _shell_IsVarTypeNumber, properties.IsVarTypeNumber, propvarutil/IsVarTypeNumber, shell.IsVarTypeNumber
 ms.topic: function
-f1_keywords: ["propvarutil/IsVarTypeNumber"]
+f1_keywords: 
+ - "propvarutil/IsVarTypeNumber"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

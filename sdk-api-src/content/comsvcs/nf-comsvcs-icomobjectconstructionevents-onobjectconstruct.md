@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents interface [COM+],OnObjectConstruct method, IComObjectConstructionEvents.OnObjectConstruct, IComObjectConstructionEvents::OnObjectConstruct, OnObjectConstruct, OnObjectConstruct method [COM+], OnObjectConstruct method [COM+],IComObjectConstructionEvents interface, _dtc_IComObjectConstructionEvents_OnObjectConstruct, comsvcs/IComObjectConstructionEvents::OnObjectConstruct, cos.icomobjectconstructionevents_onobjectconstruct
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectConstructionEvents.OnObjectConstruct"]
+f1_keywords: 
+ - "comsvcs/IComObjectConstructionEvents.OnObjectConstruct"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMSPIdentify, TSPI_lineMSPIdentify function [TAPI 2.2], _tspi_tspi_linemspidentify, tspi.tspi_linemspidentify, tspi/TSPI_lineMSPIdentify
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineMSPIdentify"]
+f1_keywords: 
+ - "tspi/TSPI_lineMSPIdentify"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

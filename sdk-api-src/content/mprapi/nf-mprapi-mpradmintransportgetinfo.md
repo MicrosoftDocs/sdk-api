@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportGetInfo, MprAdminTransportGetInfo function [RAS], _mpr_mpradmintransportgetinfo, mprapi/MprAdminTransportGetInfo, rras.mpradmintransportgetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminTransportGetInfo"]
+f1_keywords: 
+ - "mprapi/MprAdminTransportGetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

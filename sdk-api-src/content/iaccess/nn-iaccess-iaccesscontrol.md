@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.topic: interface
-f1_keywords: ["iaccess/IAccessControl"]
+f1_keywords: 
+ - "iaccess/IAccessControl"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

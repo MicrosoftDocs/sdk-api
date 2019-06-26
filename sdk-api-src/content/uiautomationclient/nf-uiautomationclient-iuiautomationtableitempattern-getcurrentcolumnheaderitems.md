@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentColumnHeaderItems, GetCurrentColumnHeaderItems method [Windows Accessibility], GetCurrentColumnHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCurrentColumnHeaderItems method, IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems, IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

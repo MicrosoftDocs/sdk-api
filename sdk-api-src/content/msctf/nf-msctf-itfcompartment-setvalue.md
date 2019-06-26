@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
 ms.topic: method
-f1_keywords: ["msctf/ITfCompartment.SetValue"]
+f1_keywords: 
+ - "msctf/ITfCompartment.SetValue"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SystemParametersInfoForDpi, SystemParametersInfoForDpi function [High DPI], hidpi.systemparametersinfofordpi, winuser/SystemParametersInfoForDpi
 ms.topic: function
-f1_keywords: ["winuser/SystemParametersInfoForDpi"]
+f1_keywords: 
+ - "winuser/SystemParametersInfoForDpi"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

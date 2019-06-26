@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
 ms.topic: function
-f1_keywords: ["fhsvcctl/FhServiceStopBackup"]
+f1_keywords: 
+ - "fhsvcctl/FhServiceStopBackup"
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

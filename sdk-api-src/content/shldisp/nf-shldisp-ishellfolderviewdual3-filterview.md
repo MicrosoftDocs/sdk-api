@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [Windows Shell],IShellFolderViewDual3 interface, IShellFolderViewDual3 interface [Windows Shell],FilterView method, IShellFolderViewDual3.FilterView, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
 ms.topic: method
-f1_keywords: ["shldisp/IShellFolderViewDual3.FilterView"]
+f1_keywords: 
+ - "shldisp/IShellFolderViewDual3.FilterView"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

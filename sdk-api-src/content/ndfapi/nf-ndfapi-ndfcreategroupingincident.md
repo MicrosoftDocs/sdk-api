@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF], ndf.ndfcreategroupingincident, ndfapi/NdfCreateGroupingIncident
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateGroupingIncident"]
+f1_keywords: 
+ - "ndfapi/NdfCreateGroupingIncident"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

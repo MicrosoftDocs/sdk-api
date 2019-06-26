@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerFreeRuntimeMemory"]
+f1_keywords: 
+ - "eappapis/EapHostPeerFreeRuntimeMemory"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterRuntimeExceptionModule, WerUnregisterRuntimeExceptionModule function [Windows Error Reporting], wer.werunregisterruntimeexceptionmodule, werapi/WerUnregisterRuntimeExceptionModule
 ms.topic: function
-f1_keywords: ["werapi/WerUnregisterRuntimeExceptionModule"]
+f1_keywords: 
+ - "werapi/WerUnregisterRuntimeExceptionModule"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
 ms.topic: struct
-f1_keywords: ["subauth/OLD_LARGE_INTEGER"]
+f1_keywords: 
+ - "subauth/OLD_LARGE_INTEGER"
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

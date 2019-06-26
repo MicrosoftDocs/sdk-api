@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlsAlloc, FlsAlloc function, _win32_flsalloc, base.flsalloc, fibersapi/FlsAlloc, winbase/FlsAlloc
 ms.topic: function
-f1_keywords: ["fibersapi/FlsAlloc"]
+f1_keywords: 
+ - "fibersapi/FlsAlloc"
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

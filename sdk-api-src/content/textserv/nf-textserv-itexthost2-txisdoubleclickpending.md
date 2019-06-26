@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxIsDoubleClickPending method, ITextHost2.TxIsDoubleClickPending, ITextHost2::TxIsDoubleClickPending, TxIsDoubleClickPending, TxIsDoubleClickPending method [Windows Controls], TxIsDoubleClickPending method [Windows Controls],ITextHost2 interface, controls.itexthost2_txisdoubleclickpending, textserv/ITextHost2::TxIsDoubleClickPending
 ms.topic: method
-f1_keywords: ["textserv/ITextHost2.TxIsDoubleClickPending"]
+f1_keywords: 
+ - "textserv/ITextHost2.TxIsDoubleClickPending"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

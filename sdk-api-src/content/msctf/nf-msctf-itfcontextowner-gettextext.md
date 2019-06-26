@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwner.GetTextExt"]
+f1_keywords: 
+ - "msctf/ITfContextOwner.GetTextExt"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

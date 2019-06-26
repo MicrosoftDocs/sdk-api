@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetMaxStreamOffset method, IAMPushSource.SetMaxStreamOffset, IAMPushSource::SetMaxStreamOffset, IAMPushSourceSetMaxStreamOffset, SetMaxStreamOffset, SetMaxStreamOffset method [DirectShow], SetMaxStreamOffset method [DirectShow],IAMPushSource interface, dshow.iampushsource_setmaxstreamoffset, strmif/IAMPushSource::SetMaxStreamOffset
 ms.topic: method
-f1_keywords: ["strmif/IAMPushSource.SetMaxStreamOffset"]
+f1_keywords: 
+ - "strmif/IAMPushSource.SetMaxStreamOffset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

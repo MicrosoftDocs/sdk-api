@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _shell_ITEMSPACING, shell.ITEMSPACING, shlobj_core/ITEMSPACING
 ms.topic: struct
-f1_keywords: ["shlobj_core/ITEMSPACING"]
+f1_keywords: 
+ - "shlobj_core/ITEMSPACING"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

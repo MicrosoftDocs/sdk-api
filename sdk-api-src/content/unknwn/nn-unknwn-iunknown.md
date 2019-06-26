@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 06/05/2019
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],described, _com_iunknown, com.iunknown, unknwn/IUnknown
 ms.topic: interface
-f1_keywords: ["unknwn/IUnknown"]
+f1_keywords: 
+ - "unknwn/IUnknown"
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

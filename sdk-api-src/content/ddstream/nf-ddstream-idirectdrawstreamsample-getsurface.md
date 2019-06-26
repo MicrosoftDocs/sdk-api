@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IDirectDrawStreamSample interface, IDirectDrawStreamSample interface [DirectShow],GetSurface method, IDirectDrawStreamSample.GetSurface, IDirectDrawStreamSample::GetSurface, IDirectDrawStreamSampleGetSurface, ddstream/IDirectDrawStreamSample::GetSurface, dshow.idirectdrawstreamsample_getsurface
 ms.topic: method
-f1_keywords: ["ddstream/IDirectDrawStreamSample.GetSurface"]
+f1_keywords: 
+ - "ddstream/IDirectDrawStreamSample.GetSurface"
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.topic: method
-f1_keywords: ["tuner/IChannelTuneRequest.get_Channel"]
+f1_keywords: 
+ - "tuner/IChannelTuneRequest.get_Channel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

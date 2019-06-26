@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellExtInit"]
+f1_keywords: 
+ - "shobjidl_core/IShellExtInit"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

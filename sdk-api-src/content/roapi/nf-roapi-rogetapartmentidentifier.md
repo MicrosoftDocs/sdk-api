@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoGetApartmentIdentifier, RoGetApartmentIdentifier function [Windows Runtime], roapi/RoGetApartmentIdentifier, winrt.rogetapartmentidentifier
 ms.topic: function
-f1_keywords: ["roapi/RoGetApartmentIdentifier"]
+f1_keywords: 
+ - "roapi/RoGetApartmentIdentifier"
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
 ms.topic: function
-f1_keywords: ["msi/MsiEnumClients"]
+f1_keywords: 
+ - "msi/MsiEnumClients"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

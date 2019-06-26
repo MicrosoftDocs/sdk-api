@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_out, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
 ms.topic: ioctl
-f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT"]
+f1_keywords: 
+ - "genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT"
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

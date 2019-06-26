@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN"
 ms.topic: struct
-f1_keywords: ["commctrl/NMUPDOWN"]
+f1_keywords: 
+ - "commctrl/NMUPDOWN"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

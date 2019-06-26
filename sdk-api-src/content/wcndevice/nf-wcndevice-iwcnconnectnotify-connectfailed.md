@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectFailed, ConnectFailed method [Windows Connect Now], ConnectFailed method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectFailed method, IWCNConnectNotify.ConnectFailed, IWCNConnectNotify::ConnectFailed, wcn.iwcnconnectnotify_connectfailed, wcndevice/IWCNConnectNotify::ConnectFailed
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNConnectNotify.ConnectFailed"]
+f1_keywords: 
+ - "wcndevice/IWCNConnectNotify.ConnectFailed"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDllServer, ISurrogate::LoadDllServer, LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM],ISurrogate interface, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
 ms.topic: method
-f1_keywords: ["objidl/ISurrogate.LoadDllServer"]
+f1_keywords: 
+ - "objidl/ISurrogate.LoadDllServer"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

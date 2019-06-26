@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY structure, PGLOBAL_USER_POWER_POLICY, PGLOBAL_USER_POWER_POLICY structure pointer, _win32_global_user_power_policy_str, base.global_user_power_policy_str, powrprof/GLOBAL_USER_POWER_POLICY, powrprof/PGLOBAL_USER_POWER_POLICY"
 ms.topic: struct
-f1_keywords: ["powrprof/GLOBAL_USER_POWER_POLICY"]
+f1_keywords: 
+ - "powrprof/GLOBAL_USER_POWER_POLICY"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

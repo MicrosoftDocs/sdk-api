@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREDUI_INFOW, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOW, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO"
 ms.topic: struct
-f1_keywords: ["wincred/CREDUI_INFO"]
+f1_keywords: 
+ - "wincred/CREDUI_INFO"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

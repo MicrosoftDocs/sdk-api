@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvRestorePrepare"]
+f1_keywords: 
+ - "certbcli/CertSrvRestorePrepare"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

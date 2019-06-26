@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE structure pointer, PROCESS_POWER_THROTTLING_CURRENT_VERSION, PROCESS_POWER_THROTTLING_EXECUTION_SPEED, PROCESS_POWER_THROTTLING_STATE, PROCESS_POWER_THROTTLING_STATE structure, base.process_power_throttling_state, processthreadsapi/PPROCESS_POWER_THROTTLING_STATE, processthreadsapi/PROCESS_POWER_THROTTLING_STATE"
 ms.topic: struct
-f1_keywords: ["processthreadsapi/PROCESS_POWER_THROTTLING_STATE"]
+f1_keywords: 
+ - "processthreadsapi/PROCESS_POWER_THROTTLING_STATE"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

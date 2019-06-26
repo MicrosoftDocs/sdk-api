@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetRemoteAddress method, IWSDMessageParameters.GetRemoteAddress, IWSDMessageParameters::GetRemoteAddress, ncd.iwsdmessageparameters_getremoteaddress, wsdbase/IWSDMessageParameters::GetRemoteAddress
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDMessageParameters.GetRemoteAddress"]
+f1_keywords: 
+ - "wsdbase/IWSDMessageParameters.GetRemoteAddress"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

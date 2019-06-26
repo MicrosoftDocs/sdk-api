@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue2 interface [ADSI],PutObjectProperty method, IADsPropertyValue2.PutObjectProperty, IADsPropertyValue2::PutObjectProperty, PutObjectProperty, PutObjectProperty method [ADSI], PutObjectProperty method [ADSI],IADsPropertyValue2 interface, _ds_iadspropertyvalue2_putobjectproperty, adsi.iadspropertyvalue2__putobjectproperty, adsi.iadspropertyvalue2_putobjectproperty, iads/IADsPropertyValue2::PutObjectProperty
 ms.topic: method
-f1_keywords: ["iads/IADsPropertyValue2.PutObjectProperty"]
+f1_keywords: 
+ - "iads/IADsPropertyValue2.PutObjectProperty"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

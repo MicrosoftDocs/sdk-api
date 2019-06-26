@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_WRITE_BACKUP_INFORMATION, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_write_backup_information, winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION"]
+f1_keywords: 
+ - "winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

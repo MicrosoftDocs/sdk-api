@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
 ms.topic: interface
-f1_keywords: ["wpcapi/IWPCProviderState"]
+f1_keywords: 
+ - "wpcapi/IWPCProviderState"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

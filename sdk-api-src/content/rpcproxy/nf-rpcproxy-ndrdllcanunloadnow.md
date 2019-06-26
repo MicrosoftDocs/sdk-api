@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrDllCanUnloadNow, NdrDllCanUnloadNow function [RPC], rpc.ndrdllcanunloadnow, rpcproxy/NdrDllCanUnloadNow
 ms.topic: function
-f1_keywords: ["rpcproxy/NdrDllCanUnloadNow"]
+f1_keywords: 
+ - "rpcproxy/NdrDllCanUnloadNow"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

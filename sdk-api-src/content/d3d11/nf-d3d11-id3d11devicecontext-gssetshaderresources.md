@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 337f877b-2bd2-d15c-fe32-3f3bf0ef072a, GSSetShaderResources, GSSetShaderResources method [Direct3D 11], GSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetShaderResources method, ID3D11DeviceContext.GSSetShaderResources, ID3D11DeviceContext::GSSetShaderResources, d3d11/ID3D11DeviceContext::GSSetShaderResources, direct3d11.id3d11devicecontext_gssetshaderresources
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.GSSetShaderResources"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.GSSetShaderResources"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemFirmwareTable, GetSystemFirmwareTable function, base.getsystemfirmwaretable, sysinfoapi/GetSystemFirmwareTable
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetSystemFirmwareTable"]
+f1_keywords: 
+ - "sysinfoapi/GetSystemFirmwareTable"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

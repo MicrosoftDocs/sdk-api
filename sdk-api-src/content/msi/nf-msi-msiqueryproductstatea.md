@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiQueryProductState, MsiQueryProductState function, MsiQueryProductStateA, MsiQueryProductStateW, _msi_msiqueryproductstate, msi/MsiQueryProductState, msi/MsiQueryProductStateA, msi/MsiQueryProductStateW, setup.msiqueryproductstate
 ms.topic: function
-f1_keywords: ["msi/MsiQueryProductState"]
+f1_keywords: 
+ - "msi/MsiQueryProductState"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

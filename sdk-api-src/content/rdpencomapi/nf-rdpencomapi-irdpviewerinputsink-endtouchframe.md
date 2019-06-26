@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndTouchFrame, EndTouchFrame method [RDP], EndTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],EndTouchFrame method, IRDPViewerInputSink.EndTouchFrame, IRDPViewerInputSink::EndTouchFrame, rdp.irdpviewerinputsink_endtouchframe, rdpencomapi/IRDPViewerInputSink::EndTouchFrame
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPViewerInputSink.EndTouchFrame"]
+f1_keywords: 
+ - "rdpencomapi/IRDPViewerInputSink.EndTouchFrame"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

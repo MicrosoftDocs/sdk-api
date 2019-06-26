@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBundleWriter, CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleWriter method, IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleFactory.CreateBundleWriter"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleFactory.CreateBundleWriter"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

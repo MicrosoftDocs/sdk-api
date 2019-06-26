@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.topic: interface
-f1_keywords: ["imessagedispatcher/IMessageDispatcher"]
+f1_keywords: 
+ - "imessagedispatcher/IMessageDispatcher"
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows

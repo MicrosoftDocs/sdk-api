@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
 ms.topic: interface
-f1_keywords: ["strmif/IAMGraphStreams"]
+f1_keywords: 
+ - "strmif/IAMGraphStreams"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

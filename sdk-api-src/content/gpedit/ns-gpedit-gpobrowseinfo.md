@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPGPOBROWSEINFO, GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, GPHintUnknown, GPOBROWSEINFO, GPOBROWSEINFO structure [Group Policy], GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GPO_BROWSE_DISABLE_NEW, GPO_BROWSE_INITTOALL, GPO_BROWSE_NOCOMPUTERS, GPO_BROWSE_NODSGPOS, GPO_BROWSE_OPENBUTTON, LPGPOBROWSEINFO, LPGPOBROWSEINFO structure pointer [Group Policy], _win32_gpobrowseinfo_str, gpedit/GPOBROWSEINFO, gpedit/LPGPOBROWSEINFO, policy.gpobrowseinfo_str"
 ms.topic: struct
-f1_keywords: ["gpedit/GPOBROWSEINFO"]
+f1_keywords: 
+ - "gpedit/GPOBROWSEINFO"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

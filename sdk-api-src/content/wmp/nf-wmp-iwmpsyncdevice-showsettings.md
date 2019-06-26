@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],showSettings method, IWMPSyncDevice.showSettings, IWMPSyncDevice::showSettings, IWMPSyncDeviceshowSettings, showSettings, showSettings method [Windows Media Player], showSettings method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_showsettings, wmp/IWMPSyncDevice::showSettings
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.showSettings"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.showSettings"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

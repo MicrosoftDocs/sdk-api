@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaPatternRelease, UiaPatternRelease function [Windows Accessibility], uiauto.uiauto_UiaPatternReleaseMemManMeth, uiauto_UiaPatternReleaseMemManMeth, uiautomationcoreapi/UiaPatternRelease, winauto.uiauto_UiaPatternReleaseMemManMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaPatternRelease"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaPatternRelease"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

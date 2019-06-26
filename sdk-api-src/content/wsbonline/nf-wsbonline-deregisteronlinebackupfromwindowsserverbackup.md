@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
 ms.topic: function
-f1_keywords: ["wsbonline/DeregisterOnlineBackupFromWindowsServerBackup"]
+f1_keywords: 
+ - "wsbonline/DeregisterOnlineBackupFromWindowsServerBackup"
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

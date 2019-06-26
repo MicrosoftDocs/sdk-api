@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPVIDEOMEMORY, LPVIDEOMEMORY, LPVIDEOMEMORY structure pointer [Display Devices], VIDEOMEMORY, VIDEOMEMORY structure [Display Devices], ddrawint/LPVIDEOMEMORY, ddrawint/VIDEOMEMORY, ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml, display.videomemory"
 ms.topic: struct
-f1_keywords: ["ddrawint/VIDEOMEMORY"]
+f1_keywords: 
+ - "ddrawint/VIDEOMEMORY"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

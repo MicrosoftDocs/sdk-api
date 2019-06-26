@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportServerRegisterCallback"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportServerRegisterCallback"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

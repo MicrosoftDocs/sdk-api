@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE, D3D12_ROOT_DESCRIPTOR_TABLE structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE, direct3d12.d3d12_descriptor_table_layout, direct3d12.d3d12_root_descriptor_table
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_ROOT_DESCRIPTOR_TABLE"]
+f1_keywords: 
+ - "d3d12/D3D12_ROOT_DESCRIPTOR_TABLE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor interface, IVMRImageCompositor interface [DirectShow],CompositeImage method, IVMRImageCompositor.CompositeImage, IVMRImageCompositor::CompositeImage, IVMRImageCompositorCompositeImage, dshow.ivmrimagecompositor_compositeimage, strmif/IVMRImageCompositor::CompositeImage
 ms.topic: method
-f1_keywords: ["strmif/IVMRImageCompositor.CompositeImage"]
+f1_keywords: 
+ - "strmif/IVMRImageCompositor.CompositeImage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

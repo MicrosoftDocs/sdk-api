@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanceA, DsBindByInstanceW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FORCE_KERBEROS, adam.dsbindbyinstance, ntdsapi/DsBindByInstance, ntdsapi/DsBindByInstanceA, ntdsapi/DsBindByInstanceW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsBindByInstance"]
+f1_keywords: 
+ - "ntdsapi/DsBindByInstance"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

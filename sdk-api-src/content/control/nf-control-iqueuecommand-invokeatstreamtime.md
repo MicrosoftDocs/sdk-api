@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
 ms.topic: method
-f1_keywords: ["control/IQueueCommand.InvokeAtStreamTime"]
+f1_keywords: 
+ - "control/IQueueCommand.InvokeAtStreamTime"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

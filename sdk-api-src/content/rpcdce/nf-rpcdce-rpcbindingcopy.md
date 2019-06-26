@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy, rpc.rpcbindingcopy, rpcdce/RpcBindingCopy
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingCopy"]
+f1_keywords: 
+ - "rpcdce/RpcBindingCopy"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

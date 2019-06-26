@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaults, ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaults method, IFileSystemImage.ChooseImageDefaults, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.ChooseImageDefaults"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.ChooseImageDefaults"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

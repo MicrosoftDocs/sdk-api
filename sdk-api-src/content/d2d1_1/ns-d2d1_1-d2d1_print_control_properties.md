@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
 ms.topic: struct
-f1_keywords: ["d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES"]
+f1_keywords: 
+ - "d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

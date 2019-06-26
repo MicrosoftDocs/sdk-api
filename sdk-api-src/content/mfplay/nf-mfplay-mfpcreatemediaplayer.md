@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
 ms.topic: function
-f1_keywords: ["mfplay/MFPCreateMediaPlayer"]
+f1_keywords: 
+ - "mfplay/MFPCreateMediaPlayer"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

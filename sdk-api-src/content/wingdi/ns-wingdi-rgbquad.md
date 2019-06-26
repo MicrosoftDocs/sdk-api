@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRGBQUAD, RGBQUAD, RGBQUAD structure [Windows GDI], _win32_RGBQUAD_str, gdi.rgbquad, tagRGBQUAD, wingdi/RGBQUAD"
 ms.topic: struct
-f1_keywords: ["wingdi/RGBQUAD"]
+f1_keywords: 
+ - "wingdi/RGBQUAD"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

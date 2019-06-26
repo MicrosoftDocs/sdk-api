@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA, PWLX_TERMINAL_SERVICES_DATA structure pointer [Security], WLX_TERMINAL_SERVICES_DATA, WLX_TERMINAL_SERVICES_DATA structure [Security], _gina_wlx_terminal_services_data, security.wlx_terminal_services_data, winwlx/PWLX_TERMINAL_SERVICES_DATA, winwlx/WLX_TERMINAL_SERVICES_DATA"
 ms.topic: struct
-f1_keywords: ["winwlx/WLX_TERMINAL_SERVICES_DATA"]
+f1_keywords: 
+ - "winwlx/WLX_TERMINAL_SERVICES_DATA"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

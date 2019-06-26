@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPostRestoreFailureMsg, GetPostRestoreFailureMsg method [VSS], GetPostRestoreFailureMsg method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPostRestoreFailureMsg method, IVssComponent.GetPostRestoreFailureMsg, IVssComponent::GetPostRestoreFailureMsg, _win32_ivsscomponent_getpostrestorefailuremsg, base.ivsscomponent_getpostrestorefailuremsg, vswriter/IVssComponent::GetPostRestoreFailureMsg
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.GetPostRestoreFailureMsg"]
+f1_keywords: 
+ - "vswriter/IVssComponent.GetPostRestoreFailureMsg"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

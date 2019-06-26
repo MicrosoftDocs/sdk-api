@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],put_VITCLine method, IAMTimecodeReader.put_VITCLine, IAMTimecodeReader::put_VITCLine, IAMTimecodeReaderput_VITCLine, dshow.iamtimecodereader_put_vitcline, put_VITCLine, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow],IAMTimecodeReader interface, strmif/IAMTimecodeReader::put_VITCLine
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeReader.put_VITCLine"]
+f1_keywords: 
+ - "strmif/IAMTimecodeReader.put_VITCLine"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

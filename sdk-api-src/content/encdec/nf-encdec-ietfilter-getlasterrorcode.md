@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
 ms.topic: method
-f1_keywords: ["encdec/IETFilter.GetLastErrorCode"]
+f1_keywords: 
+ - "encdec/IETFilter.GetLastErrorCode"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

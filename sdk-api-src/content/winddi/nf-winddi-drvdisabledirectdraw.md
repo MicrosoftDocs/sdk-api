@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDisableDirectDraw, DrvDisableDirectDraw function [Display Devices], ddfncs_7abbe471-0671-4e98-8eba-ceb25216d961.xml, display.drvdisabledirectdraw, winddi/DrvDisableDirectDraw
 ms.topic: function
-f1_keywords: ["winddi/DrvDisableDirectDraw"]
+f1_keywords: 
+ - "winddi/DrvDisableDirectDraw"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

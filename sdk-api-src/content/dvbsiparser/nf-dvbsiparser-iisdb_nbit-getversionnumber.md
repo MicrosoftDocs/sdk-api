@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_NBIT.GetVersionNumber, IISDB_NBIT::GetVersionNumber, dvbsiparser/IISDB_NBIT::GetVersionNumber, mstv.iisdb_nbit_getversionnumber
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_NBIT.GetVersionNumber"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_NBIT.GetVersionNumber"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

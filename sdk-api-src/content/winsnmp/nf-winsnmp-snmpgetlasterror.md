@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpGetLastError, SnmpGetLastError function [SNMP], _snmp_snmpgetlasterror, snmp.snmpgetlasterror, winsnmp/SnmpGetLastError
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpGetLastError"]
+f1_keywords: 
+ - "winsnmp/SnmpGetLastError"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumContexts, EnumContexts method [Text Services Framework], EnumContexts method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],EnumContexts method, ITfDocumentMgr.EnumContexts, ITfDocumentMgr::EnumContexts, _tsf_itfdocumentmgr_enumcontexts_ref, msctf/ITfDocumentMgr::EnumContexts, tsf.itfdocumentmgr_enumcontexts
 ms.topic: method
-f1_keywords: ["msctf/ITfDocumentMgr.EnumContexts"]
+f1_keywords: 
+ - "msctf/ITfDocumentMgr.EnumContexts"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

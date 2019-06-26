@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetComputeShaderConstantBuffer method, ID2D1ComputeInfo.SetComputeShaderConstantBuffer, ID2D1ComputeInfo::SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer method [Direct2D], SetComputeShaderConstantBuffer method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetComputeShaderConstantBuffer, direct2d.id2d1computeinfo_setcomputeshaderconstantbuffer
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1ComputeInfo.SetComputeShaderConstantBuffer"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1ComputeInfo.SetComputeShaderConstantBuffer"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

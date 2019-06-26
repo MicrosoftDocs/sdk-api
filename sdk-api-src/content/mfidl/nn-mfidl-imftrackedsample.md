@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4ad4b14c-94af-4314-8a16-163579dec67f, IMFTrackedSample, IMFTrackedSample interface [Media Foundation], IMFTrackedSample interface [Media Foundation],described, mf.imftrackedsample, mfidl/IMFTrackedSample
 ms.topic: interface
-f1_keywords: ["mfidl/IMFTrackedSample"]
+f1_keywords: 
+ - "mfidl/IMFTrackedSample"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

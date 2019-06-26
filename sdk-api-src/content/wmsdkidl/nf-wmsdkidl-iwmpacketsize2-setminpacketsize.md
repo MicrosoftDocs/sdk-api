@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize method, IWMPacketSize2.SetMinPacketSize, IWMPacketSize2::SetMinPacketSize, IWMPacketSize2SetMinPacketSize, SetMinPacketSize, SetMinPacketSize method [windows Media Format], SetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize2_setminpacketsize, wmsdkidl/IWMPacketSize2::SetMinPacketSize
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMPacketSize2.SetMinPacketSize"]
+f1_keywords: 
+ - "wmsdkidl/IWMPacketSize2.SetMinPacketSize"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

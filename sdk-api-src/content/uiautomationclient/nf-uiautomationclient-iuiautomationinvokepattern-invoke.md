@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationInvokePattern interface [Windows Accessibility],Invoke method, IUIAutomationInvokePattern.Invoke, IUIAutomationInvokePattern::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IUIAutomationInvokePattern interface, uiauto.uiauto_IUIAutomationInvokePattern_Invoke, uiauto_IUIAutomationInvokePattern_Invoke, uiautomationclient/IUIAutomationInvokePattern::Invoke, winauto.uiauto_IUIAutomationInvokePattern_Invoke
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationInvokePattern.Invoke"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationInvokePattern.Invoke"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

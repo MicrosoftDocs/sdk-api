@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [Security], Description property [Security],ICertPropertyDescription interface, ICertPropertyDescription interface [Security],Description property, ICertPropertyDescription.Description, ICertPropertyDescription.get_Description, ICertPropertyDescription::Description, ICertPropertyDescription::get_Description, certenroll/ICertPropertyDescription::Description, certenroll/ICertPropertyDescription::get_Description, get_Description, security.icertpropertydescription_description_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyDescription.Description"]
+f1_keywords: 
+ - "certenroll/ICertPropertyDescription.Description"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

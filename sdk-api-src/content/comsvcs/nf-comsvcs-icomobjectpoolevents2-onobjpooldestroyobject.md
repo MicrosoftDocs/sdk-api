@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolDestroyObject method, IComObjectPoolEvents2.OnObjPoolDestroyObject, IComObjectPoolEvents2::OnObjPoolDestroyObject, OnObjPoolDestroyObject, OnObjPoolDestroyObject method [COM+], OnObjPoolDestroyObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolDestroyObject, comsvcs/IComObjectPoolEvents2::OnObjPoolDestroyObject, cos.icomobjectpoolevents2_onobjpooldestroyobject
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectPoolEvents2.OnObjPoolDestroyObject"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents2.OnObjPoolDestroyObject"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClearTypeLevel, GetClearTypeLevel method [Direct Write], GetClearTypeLevel method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetClearTypeLevel method, IDWriteRenderingParams.GetClearTypeLevel, IDWriteRenderingParams::GetClearTypeLevel, directwrite.IDWriteRenderingParams_GetClearTypeLevel, dwrite/IDWriteRenderingParams::GetClearTypeLevel
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteRenderingParams.GetClearTypeLevel"]
+f1_keywords: 
+ - "dwrite/IDWriteRenderingParams.GetClearTypeLevel"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

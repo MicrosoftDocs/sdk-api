@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], commctrl/Edit_GetEndOfLine, controls.edit_getendofline
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_GetEndOfLine"]
+f1_keywords: 
+ - "commctrl/Edit_GetEndOfLine"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

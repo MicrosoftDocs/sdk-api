@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
 ms.topic: function
-f1_keywords: ["lmaccess/NetUserDel"]
+f1_keywords: 
+ - "lmaccess/NetUserDel"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

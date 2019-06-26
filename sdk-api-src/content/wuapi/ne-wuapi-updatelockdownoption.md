@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateLockdownOption, UpdateLockdownOption enumeration [Windows Update Agent], uloForWebsiteAccess, wua.updatelockdownoption, wuapi/UpdateLockdownOption, wuapi/uloForWebsiteAccess
 ms.topic: enum
-f1_keywords: ["wuapi/UpdateLockdownOption"]
+f1_keywords: 
+ - "wuapi/UpdateLockdownOption"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

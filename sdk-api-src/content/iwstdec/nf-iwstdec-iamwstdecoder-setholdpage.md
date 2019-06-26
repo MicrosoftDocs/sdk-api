@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetHoldPage method, IAMWstDecoder.SetHoldPage, IAMWstDecoder::SetHoldPage, IAMWstDecoderSetHoldPage, SetHoldPage, SetHoldPage method [DirectShow], SetHoldPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setholdpage, iwstdec/IAMWstDecoder::SetHoldPage
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.SetHoldPage"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.SetHoldPage"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

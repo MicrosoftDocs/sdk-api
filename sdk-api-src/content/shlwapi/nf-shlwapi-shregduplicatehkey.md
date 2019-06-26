@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegDuplicateHKey"]
+f1_keywords: 
+ - "shlwapi/SHRegDuplicateHKey"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_Enable, ComboBox_Enable macro [Windows Controls], _win32_ComboBox_Enable, _win32_ComboBox_Enable_cpp, controls.ComboBox_Enable, controls._win32_ComboBox_Enable, windowsx/ComboBox_Enable
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_Enable"]
+f1_keywords: 
+ - "windowsx/ComboBox_Enable"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

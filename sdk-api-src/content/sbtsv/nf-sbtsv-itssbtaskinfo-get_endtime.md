@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],EndTime property, ITsSbTaskInfo.EndTime, ITsSbTaskInfo.get_EndTime, ITsSbTaskInfo::EndTime, ITsSbTaskInfo::get_EndTime, get_EndTime, sbtsv/ITsSbTaskInfo::EndTime, sbtsv/ITsSbTaskInfo::get_EndTime, termserv.itssbtaskinfo_endtime
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskInfo.EndTime"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskInfo.EndTime"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 07a493a7-4ffc-403e-8f61-1bb8233c973e, IInkRecognizer2, IInkRecognizer2 interface [Tablet PC], IInkRecognizer2 interface [Tablet PC],described, msinkaut/IInkRecognizer2, tablet.iinkrecognizer2
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkRecognizer2"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizer2"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,7 +12,8 @@ ms.keywords: SetRestrictedErrorInfo, SetRestrictedErrorInfo function [Windows Ru
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/SetRestrictedErrorInfo"]
+f1_keywords: 
+ - "roerrorapi/SetRestrictedErrorInfo"
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

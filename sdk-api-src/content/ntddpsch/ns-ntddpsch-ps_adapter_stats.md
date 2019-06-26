@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPS_ADAPTER_STATS, PPS_ADAPTER_STATS, PPS_ADAPTER_STATS structure pointer [QOS], PS_ADAPTER_STATS, PS_ADAPTER_STATS structure [QOS], _gqos_ps_adapter_stats, ntddpsch/PPS_ADAPTER_STATS, ntddpsch/PS_ADAPTER_STATS, qos.ps_adapter_stats"
 ms.topic: struct
-f1_keywords: ["ntddpsch/PS_ADAPTER_STATS"]
+f1_keywords: 
+ - "ntddpsch/PS_ADAPTER_STATS"
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

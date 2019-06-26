@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARecvDisconnect, WSARecvDisconnect function [Winsock], _win32_wsarecvdisconnect_2, winsock.wsarecvdisconnect_2, winsock2/WSARecvDisconnect
 ms.topic: function
-f1_keywords: ["winsock2/WSARecvDisconnect"]
+f1_keywords: 
+ - "winsock2/WSARecvDisconnect"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

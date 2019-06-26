@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceViewSizePreference, GetSourceViewSizePreference method [Windows Shell], GetSourceViewSizePreference method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewSizePreference method, ILaunchSourceViewSizePreference.GetSourceViewSizePreference, ILaunchSourceViewSizePreference::GetSourceViewSizePreference, shell.ILaunchSourceViewSizePreference_GetSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewSizePreference
 ms.topic: method
-f1_keywords: ["shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewSizePreference"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewSizePreference"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

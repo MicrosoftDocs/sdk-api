@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LineCap, LineCap enumeration [GDI+], LineCapArrowAnchor, LineCapCustom, LineCapDiamondAnchor, LineCapFlat, LineCapNoAnchor, LineCapRound, LineCapRoundAnchor, LineCapSquare, LineCapSquareAnchor, LineCapTriangle, _gdiplus_ENUM_LineCap, gdiplus._gdiplus_ENUM_LineCap, gdiplusenums/LineCap, gdiplusenums/LineCapArrowAnchor, gdiplusenums/LineCapCustom, gdiplusenums/LineCapDiamondAnchor, gdiplusenums/LineCapFlat, gdiplusenums/LineCapNoAnchor, gdiplusenums/LineCapRound, gdiplusenums/LineCapRoundAnchor, gdiplusenums/LineCapSquare, gdiplusenums/LineCapSquareAnchor, gdiplusenums/LineCapTriangle
 ms.topic: enum
-f1_keywords: ["gdiplusenums/LineCap"]
+f1_keywords: 
+ - "gdiplusenums/LineCap"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

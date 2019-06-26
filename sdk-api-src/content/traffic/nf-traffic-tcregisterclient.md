@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcRegisterClient, TcRegisterClient function [QOS], _gqos_tcregisterclient, qos.tcregisterclient, traffic/TcRegisterClient
 ms.topic: function
-f1_keywords: ["traffic/TcRegisterClient"]
+f1_keywords: 
+ - "traffic/TcRegisterClient"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

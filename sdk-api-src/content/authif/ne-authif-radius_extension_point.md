@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RADIUS_EXTENSION_POINT, RADIUS_EXTENSION_POINT enumeration [Network Policy Server], _ias_radius_extension_point, authif/RADIUS_EXTENSION_POINT, authif/repAuthentication, authif/repAuthorization, ias.radius_extension_point, nps.IAS_radius_extension_point, repAuthentication, repAuthorization
 ms.topic: enum
-f1_keywords: ["authif/RADIUS_EXTENSION_POINT"]
+f1_keywords: 
+ - "authif/RADIUS_EXTENSION_POINT"
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

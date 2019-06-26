@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE enumeration [Windows Deployment Services], WdsTptNetworkProfile100Mbps, WdsTptNetworkProfile10Mbps, WdsTptNetworkProfile1Gbps, WdsTptNetworkProfileCustom, WdsTptNetworkProfileUnknown, wds.wdstransport_network_profile_type, wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE, wdstptmgmt/WdsTptNetworkProfile100Mbps, wdstptmgmt/WdsTptNetworkProfile10Mbps, wdstptmgmt/WdsTptNetworkProfile1Gbps, wdstptmgmt/WdsTptNetworkProfileCustom, wdstptmgmt/WdsTptNetworkProfileUnknown"
 ms.topic: enum
-f1_keywords: ["wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE"]
+f1_keywords: 
+ - "wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

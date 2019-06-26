@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumFilterV4, DhcpEnumFilterV4 function [DHCP], dhcp.dhcpenumfilterv4, dhcpsapi/DhcpEnumFilterV4
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumFilterV4"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumFilterV4"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

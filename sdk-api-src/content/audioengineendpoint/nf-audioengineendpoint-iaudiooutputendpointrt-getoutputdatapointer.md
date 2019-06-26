@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, IAudioOutputEndpointRT interface [Remote Desktop Services],GetOutputDataPointer method, IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioOutputEndpointRT.GetOutputDataPointer"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioOutputEndpointRT.GetOutputDataPointer"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

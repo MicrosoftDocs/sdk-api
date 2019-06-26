@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initialize
 ms.topic: function
-f1_keywords: ["roapi/Initialize"]
+f1_keywords: 
+ - "roapi/Initialize"
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

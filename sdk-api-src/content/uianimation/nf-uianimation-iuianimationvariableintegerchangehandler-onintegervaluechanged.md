@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

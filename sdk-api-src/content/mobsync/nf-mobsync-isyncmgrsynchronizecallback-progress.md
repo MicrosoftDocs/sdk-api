@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.Progress"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.Progress"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

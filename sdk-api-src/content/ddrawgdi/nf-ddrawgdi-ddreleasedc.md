@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdReleaseDC, DdReleaseDC function [Windows API], GdiEntry8, _dxgkernel_ddreleasedc, ddrawgdi/DdReleaseDC, ddrawgdi/GdiEntry8, winprog._dxgkernel_ddreleasedc, winui._dxgkernel_ddreleasedc
 ms.topic: function
-f1_keywords: ["ddrawgdi/DdReleaseDC"]
+f1_keywords: 
+ - "ddrawgdi/DdReleaseDC"
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

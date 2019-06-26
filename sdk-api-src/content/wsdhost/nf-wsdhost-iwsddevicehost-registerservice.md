@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDDeviceHost.RegisterService"]
+f1_keywords: 
+ - "wsdhost/IWSDDeviceHost.RegisterService"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

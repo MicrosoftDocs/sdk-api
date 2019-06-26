@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocManager.GetIEnumDot11AdHocNetworks, IDot11AdHocManager::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocmanager_getienumdot11adhocnetworks
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocManager.GetIEnumDot11AdHocNetworks"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocManager.GetIEnumDot11AdHocNetworks"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

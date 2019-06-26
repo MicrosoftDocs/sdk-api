@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChange interface [Windows Sync],SetWorkEstimate method, ISyncChange.SetWorkEstimate, ISyncChange::SetWorkEstimate, SetWorkEstimate, SetWorkEstimate method [Windows Sync], SetWorkEstimate method [Windows Sync],ISyncChange interface, winsync.isyncchange_setworkestimate, winsync/ISyncChange::SetWorkEstimate
 ms.topic: method
-f1_keywords: ["winsync/ISyncChange.SetWorkEstimate"]
+f1_keywords: 
+ - "winsync/ISyncChange.SetWorkEstimate"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

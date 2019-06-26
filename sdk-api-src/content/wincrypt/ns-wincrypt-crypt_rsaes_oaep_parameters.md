@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_RSAES_OAEP_PARAMETERS"]
+f1_keywords: 
+ - "wincrypt/CRYPT_RSAES_OAEP_PARAMETERS"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

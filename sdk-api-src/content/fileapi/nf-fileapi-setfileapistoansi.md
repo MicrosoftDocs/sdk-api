@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
 ms.topic: function
-f1_keywords: ["fileapi/SetFileApisToANSI"]
+f1_keywords: 
+ - "fileapi/SetFileApisToANSI"
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

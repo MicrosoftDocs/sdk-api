@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLun.QueryActiveControllers"]
+f1_keywords: 
+ - "vdshwprv/IVdsLun.QueryActiveControllers"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

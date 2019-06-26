@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindClosestCategory, FindClosestCategory method [Text Services Framework], FindClosestCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],FindClosestCategory method, ITfCategoryMgr.FindClosestCategory, ITfCategoryMgr::FindClosestCategory, _tsf_itfcategorymgr_findclosestcategory_ref, msctf/ITfCategoryMgr::FindClosestCategory, tsf.itfcategorymgr_findclosestcategory
 ms.topic: method
-f1_keywords: ["msctf/ITfCategoryMgr.FindClosestCategory"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr.FindClosestCategory"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

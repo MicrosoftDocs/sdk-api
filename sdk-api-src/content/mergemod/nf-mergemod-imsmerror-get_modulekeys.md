@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleKeys method, IMsmError.get_ModuleKeys, IMsmError::get_ModuleKeys, _msi_get_modulekeys_function, get_ModuleKeys, get_ModuleKeys method, get_ModuleKeys method,IMsmError interface, mergemod/IMsmError::get_ModuleKeys, setup.imsmerror_get_modulekeys
 ms.topic: method
-f1_keywords: ["mergemod/IMsmError.get_ModuleKeys"]
+f1_keywords: 
+ - "mergemod/IMsmError.get_ModuleKeys"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

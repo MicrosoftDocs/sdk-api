@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW
 ms.topic: function
-f1_keywords: ["userenv/GetAppliedGPOList"]
+f1_keywords: 
+ - "userenv/GetAppliedGPOList"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewCondition property, IUIAutomation.RawViewCondition, IUIAutomation.get_RawViewCondition, IUIAutomation::RawViewCondition, IUIAutomation::get_RawViewCondition, RawViewCondition property [Windows Accessibility], RawViewCondition property [Windows Accessibility],IUIAutomation interface, get_RawViewCondition, uiauto.uiauto_IUIAutomation_RawViewCondition, uiauto_IUIAutomation_RawViewCondition, uiautomationclient/IUIAutomation::RawViewCondition, uiautomationclient/IUIAutomation::get_RawViewCondition, winauto.uiauto_IUIAutomation_RawViewCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.RawViewCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.RawViewCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

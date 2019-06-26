@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
 ms.topic: function
-f1_keywords: ["mfapi/UnpackSize"]
+f1_keywords: 
+ - "mfapi/UnpackSize"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

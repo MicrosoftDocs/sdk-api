@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RP_FORCE, RefreshPolicyEx, RefreshPolicyEx function [Group Policy], _win32_refreshpolicyex, policy.refreshpolicyex, userenv/RefreshPolicyEx
 ms.topic: function
-f1_keywords: ["userenv/RefreshPolicyEx"]
+f1_keywords: 
+ - "userenv/RefreshPolicyEx"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Count method, ITuningSpaceContainer.get_Count, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaceContainer.get_Count"]
+f1_keywords: 
+ - "tuner/ITuningSpaceContainer.get_Count"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

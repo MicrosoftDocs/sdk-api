@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTerrestrialDeliverySystemDescriptor.GetTag, IIsdbTerrestrialDeliverySystemDescriptor::GetTag, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTag, mstv.iisdbterrestrialdeliverysystemdescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

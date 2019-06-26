@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapDecoderInfo.CreateInstance"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoderInfo.CreateInstance"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerConnect, MprAdminMIBServerConnect function [RAS], _mpr_mpradminmibserverconnect, mprapi/MprAdminMIBServerConnect, rras.mpradminmibserverconnect
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBServerConnect"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBServerConnect"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

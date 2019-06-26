@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancingNotifySink interface, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget"]
+f1_keywords: 
+ - "sbtsv/ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

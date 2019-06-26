@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpenControlPanel, IOpenControlPanel interface [Windows Shell], IOpenControlPanel interface [Windows Shell],described, _shell_IOpenControlPanel, shell.IOpenControlPanel, shobjidl_core/IOpenControlPanel
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IOpenControlPanel"]
+f1_keywords: 
+ - "shobjidl_core/IOpenControlPanel"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

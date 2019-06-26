@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioVolumeDuckNotification.OnVolumeDuckNotification"]
+f1_keywords: 
+ - "audiopolicy/IAudioVolumeDuckNotification.OnVolumeDuckNotification"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

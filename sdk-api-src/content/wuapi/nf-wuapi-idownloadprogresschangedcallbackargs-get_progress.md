@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IDownloadProgressChangedCallbackArgs.Progress, IDownloadProgressChangedCallbackArgs.get_Progress, IDownloadProgressChangedCallbackArgs::Progress, IDownloadProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IDownloadProgressChangedCallbackArgs interface, get_Progress, wua.idownloadprogresschangedcallbackargs_progress, wuapi/IDownloadProgressChangedCallbackArgs::Progress, wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadProgressChangedCallbackArgs.Progress"]
+f1_keywords: 
+ - "wuapi/IDownloadProgressChangedCallbackArgs.Progress"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

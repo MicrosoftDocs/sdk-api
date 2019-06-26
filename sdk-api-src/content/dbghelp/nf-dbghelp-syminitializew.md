@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_syminitialize, base.syminitialize, dbghelp/SymInitialize, dbghelp/SymInitializeW
 ms.topic: function
-f1_keywords: ["dbghelp/SymInitialize"]
+f1_keywords: 
+ - "dbghelp/SymInitialize"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

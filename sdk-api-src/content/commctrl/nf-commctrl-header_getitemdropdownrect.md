@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
 ms.topic: macro
-f1_keywords: ["commctrl/Header_GetItemDropDownRect"]
+f1_keywords: 
+ - "commctrl/Header_GetItemDropDownRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

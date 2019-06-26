@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDeviceDlg, AddDeviceDlg method [WIA], AddDeviceDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],AddDeviceDlg method, IWiaDevMgr.AddDeviceDlg, IWiaDevMgr::AddDeviceDlg, _wia_IWiaDevMgr_AddDeviceDlg, wia._wia_IWiaDevMgr_AddDeviceDlg, wia_xp/IWiaDevMgr::AddDeviceDlg
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaDevMgr.AddDeviceDlg"]
+f1_keywords: 
+ - "wia_xp/IWiaDevMgr.AddDeviceDlg"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

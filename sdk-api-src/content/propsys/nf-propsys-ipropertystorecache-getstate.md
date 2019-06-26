@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Windows Properties], GetState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetState method, IPropertyStoreCache.GetState, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
 ms.topic: method
-f1_keywords: ["propsys/IPropertyStoreCache.GetState"]
+f1_keywords: 
+ - "propsys/IPropertyStoreCache.GetState"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

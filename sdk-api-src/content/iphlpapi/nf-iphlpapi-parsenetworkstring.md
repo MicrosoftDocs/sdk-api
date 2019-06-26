@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING_ANY_SERVICE, NET_STRING_ANY_SERVICE_NO_SCOPE, NET_STRING_IPV4_ADDRESS, NET_STRING_IPV4_NETWORK, NET_STRING_IPV4_SERVICE, NET_STRING_IPV6_ADDRESS, NET_STRING_IPV6_ADDRESS_NO_SCOPE, NET_STRING_IPV6_NETWORK, NET_STRING_IPV6_SERVICE, NET_STRING_IPV6_SERVICE_NO_SCOPE, NET_STRING_IP_ADDRESS, NET_STRING_IP_ADDRESS_NO_SCOPE, NET_STRING_IP_NETWORK, NET_STRING_IP_SERVICE, NET_STRING_IP_SERVICE_NO_SCOPE, NET_STRING_NAMED_ADDRESS, NET_STRING_NAMED_SERVICE, ParseNetworkString, ParseNetworkString function [IP Helper], iphlp.parsenetworkstring, iphlpapi/ParseNetworkString
 ms.topic: function
-f1_keywords: ["iphlpapi/ParseNetworkString"]
+f1_keywords: 
+ - "iphlpapi/ParseNetworkString"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

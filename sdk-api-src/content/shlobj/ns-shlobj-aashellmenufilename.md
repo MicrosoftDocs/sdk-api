@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAASHELLMENUFILENAME, AASHELLMENUFILENAME, AASHELLMENUFILENAME structure [Windows Shell], LPAASHELLMENUFILENAME, LPAASHELLMENUFILENAME structure pointer [Windows Shell], _win32_AASHELLMENUFILENAME_str, shell.AASHELLMENUFILENAME_str, shlobj/AASHELLMENUFILENAME, shlobj/LPAASHELLMENUFILENAME"
 ms.topic: struct
-f1_keywords: ["shlobj/AASHELLMENUFILENAME"]
+f1_keywords: 
+ - "shlobj/AASHELLMENUFILENAME"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

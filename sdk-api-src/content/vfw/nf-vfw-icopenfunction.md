@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOpenFunction, ICOpenFunction function [Windows Multimedia], _win32_ICOpenFunction, multimedia.icopenfunction, vfw/ICOpenFunction
 ms.topic: function
-f1_keywords: ["vfw/ICOpenFunction"]
+f1_keywords: 
+ - "vfw/ICOpenFunction"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

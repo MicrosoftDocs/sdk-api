@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo2.GetTypeFlags"]
+f1_keywords: 
+ - "oaidl/ITypeInfo2.GetTypeFlags"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

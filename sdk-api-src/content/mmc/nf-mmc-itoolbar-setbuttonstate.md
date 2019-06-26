@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, IToolbar interface [MMC],SetButtonState method, IToolbar.SetButtonState, IToolbar::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IToolbar interface, _slate_itoolbar_setbuttonstate, mmc.itoolbar_setbuttonstate, mmc/IToolbar::SetButtonState
 ms.topic: method
-f1_keywords: ["mmc/IToolbar.SetButtonState"]
+f1_keywords: 
+ - "mmc/IToolbar.SetButtonState"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderProperty, WsGetReaderProperty function [Web Services for Windows], webservices/WsGetReaderProperty, wsw.wsgetreaderproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetReaderProperty"]
+f1_keywords: 
+ - "webservices/WsGetReaderProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 68cda090-9f5e-c349-40c7-a6e3b2bd2960, D3DX11_FFT_DESC, D3DX11_FFT_DESC structure [Direct3D 11], d3dcsx/D3DX11_FFT_DESC, direct3d11.d3dx11_fft_desc
 ms.topic: struct
-f1_keywords: ["d3dcsx/D3DX11_FFT_DESC"]
+f1_keywords: 
+ - "d3dcsx/D3DX11_FFT_DESC"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

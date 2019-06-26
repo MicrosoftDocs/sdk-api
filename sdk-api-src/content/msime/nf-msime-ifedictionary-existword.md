@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
 ms.topic: method
-f1_keywords: ["msime/IFEDictionary.ExistWord"]
+f1_keywords: 
+ - "msime/IFEDictionary.ExistWord"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedText.SetCueTimeOffset"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText.SetCueTimeOffset"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

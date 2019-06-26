@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectSubpictureStream method, IDvdControl2.SelectSubpictureStream, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.SelectSubpictureStream"]
+f1_keywords: 
+ - "strmif/IDvdControl2.SelectSubpictureStream"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

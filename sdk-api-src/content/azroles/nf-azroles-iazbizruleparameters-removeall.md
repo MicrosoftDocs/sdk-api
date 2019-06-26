@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleParameters.RemoveAll"]
+f1_keywords: 
+ - "azroles/IAzBizRuleParameters.RemoveAll"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_CACHE, D3D11_FEATURE_DATA_SHADER_CACHE structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_CACHE, direct3d11.d3d11_feature_data_shader_cache
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_FEATURE_DATA_SHADER_CACHE"]
+f1_keywords: 
+ - "d3d11/D3D11_FEATURE_DATA_SHADER_CACHE"
 req.header: d3d11.h
 req.include-header: D3d11_3.h
 req.target-type: Windows

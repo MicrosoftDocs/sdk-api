@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StopWatchFlush, StopWatchFlush function [Windows Shell], _win32_StopWatchFlush, shell.StopWatchFlush, shlwapi/StopWatchFlush
 ms.topic: function
-f1_keywords: ["shlwapi/StopWatchFlush"]
+f1_keywords: 
+ - "shlwapi/StopWatchFlush"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

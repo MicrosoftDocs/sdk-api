@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Move method, IUIAutomationTransformPattern.Move, IUIAutomationTransformPattern::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Move, uiauto_IUIAutomationTransformPattern_Move, uiautomationclient/IUIAutomationTransformPattern::Move, winauto.uiauto_IUIAutomationTransformPattern_Move
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.Move"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.Move"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

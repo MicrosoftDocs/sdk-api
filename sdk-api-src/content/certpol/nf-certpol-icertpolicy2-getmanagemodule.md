@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
 ms.topic: method
-f1_keywords: ["certpol/ICertPolicy2.GetManageModule"]
+f1_keywords: 
+ - "certpol/ICertPolicy2.GetManageModule"
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

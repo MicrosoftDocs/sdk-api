@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?ValidateDeletionFlags@Provider@@MAEJJ@Z, ?ValidateDeletionFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateDeletionFlags method, Provider.ValidateDeletionFlags, Provider::ValidateDeletionFlags, ValidateDeletionFlags, ValidateDeletionFlags method [Windows Management Instrumentation], ValidateDeletionFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatedeletionflags, provider/Provider::ValidateDeletionFlags, wmi.provider_validatedeletionflags"
 ms.topic: method
-f1_keywords: ["provider/Provider.ValidateDeletionFlags"]
+f1_keywords: 
+ - "provider/Provider.ValidateDeletionFlags"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

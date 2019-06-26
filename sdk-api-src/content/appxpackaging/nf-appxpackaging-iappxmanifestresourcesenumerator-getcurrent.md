@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestResourcesEnumerator interface, IAppxManifestResourcesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestResourcesEnumerator.GetCurrent, IAppxManifestResourcesEnumerator::GetCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetCurrent, appxpkg.iappxmanifestresourcesenumerator_getcurrent
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestResourcesEnumerator.GetCurrent"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestResourcesEnumerator.GetCurrent"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperationProgressSink.StartOperations"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperationProgressSink.StartOperations"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

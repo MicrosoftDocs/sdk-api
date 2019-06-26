@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],SetUserData method, ISettingsContext.SetUserData, ISettingsContext::SetUserData, SetUserData, SetUserData method [SMI], SetUserData method [SMI],ISettingsContext interface, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsContext.SetUserData"]
+f1_keywords: 
+ - "wcmconfig/ISettingsContext.SetUserData"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

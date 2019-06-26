@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCount method, ITextRange2.GetCount, ITextRange2::GetCount, controls.itextrange2_getcount, tom/ITextRange2::GetCount
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetCount"]
+f1_keywords: 
+ - "tom/ITextRange2.GetCount"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

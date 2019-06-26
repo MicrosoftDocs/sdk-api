@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASK_RUNLEVEL_HIGHEST, TASK_RUNLEVEL_LUA, TASK_RUNLEVEL_TYPE, TASK_RUNLEVEL_TYPE enumeration [Task Scheduler], taskschd.task_runlevel_type, taskschd/TASK_RUNLEVEL_HIGHEST, taskschd/TASK_RUNLEVEL_LUA, taskschd/TASK_RUNLEVEL_TYPE
 ms.topic: enum
-f1_keywords: ["taskschd/TASK_RUNLEVEL_TYPE"]
+f1_keywords: 
+ - "taskschd/TASK_RUNLEVEL_TYPE"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

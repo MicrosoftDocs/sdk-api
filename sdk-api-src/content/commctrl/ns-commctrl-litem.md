@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/LITEM"]
+f1_keywords: 
+ - "commctrl/LITEM"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetColorContexts"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetColorContexts"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

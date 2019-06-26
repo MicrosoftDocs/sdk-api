@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
 ms.topic: interface
-f1_keywords: ["taskschd/IDailyTrigger"]
+f1_keywords: 
+ - "taskschd/IDailyTrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

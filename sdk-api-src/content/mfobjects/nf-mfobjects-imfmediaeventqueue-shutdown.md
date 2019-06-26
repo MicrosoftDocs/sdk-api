@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface [Media Foundation],Shutdown method, IMFMediaEventQueue.Shutdown, IMFMediaEventQueue::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEventQueue interface, mf.imfmediaeventqueue_shutdown, mfobjects/IMFMediaEventQueue::Shutdown
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaEventQueue.Shutdown"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEventQueue.Shutdown"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetName method, IAssocHandler.GetName, IAssocHandler::GetName, _shell_IAssocHandler_GetName, shell.IAssocHandler_GetName, shobjidl_core/IAssocHandler::GetName
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAssocHandler.GetName"]
+f1_keywords: 
+ - "shobjidl_core/IAssocHandler.GetName"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

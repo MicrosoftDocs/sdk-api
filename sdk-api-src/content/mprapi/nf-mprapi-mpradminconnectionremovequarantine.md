@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminConnectionRemoveQuarantine"]
+f1_keywords: 
+ - "mprapi/MprAdminConnectionRemoveQuarantine"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

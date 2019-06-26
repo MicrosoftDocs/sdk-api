@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDVDVolumeInfo, GetDVDVolumeInfo method [DirectShow], GetDVDVolumeInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDVolumeInfo method, IDvdInfo2.GetDVDVolumeInfo, IDvdInfo2::GetDVDVolumeInfo, IDvdInfo2GetDVDVolumeInfo, dshow.idvdinfo2_getdvdvolumeinfo, strmif/IDvdInfo2::GetDVDVolumeInfo
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDVDVolumeInfo"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDVDVolumeInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

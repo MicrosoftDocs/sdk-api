@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityTimeout method, IComActivityEvents.OnActivityTimeout, IComActivityEvents::OnActivityTimeout, OnActivityTimeout, OnActivityTimeout method [COM+], OnActivityTimeout method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityTimeout, comsvcs/IComActivityEvents::OnActivityTimeout, cos.icomactivityevents_onactivitytimeout
 ms.topic: method
-f1_keywords: ["comsvcs/IComActivityEvents.OnActivityTimeout"]
+f1_keywords: 
+ - "comsvcs/IComActivityEvents.OnActivityTimeout"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_NumberOfEntriesCallback method, INATEventManager.put_NumberOfEntriesCallback, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF],INATEventManager interface
 ms.topic: method
-f1_keywords: ["natupnp/INATEventManager.put_NumberOfEntriesCallback"]
+f1_keywords: 
+ - "natupnp/INATEventManager.put_NumberOfEntriesCallback"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

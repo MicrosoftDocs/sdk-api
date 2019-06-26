@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetsV6, DhcpEnumSubnetsV6 function [DHCP], dhcp.dhcpenumsubnetsv6, dhcpsapi/DhcpEnumSubnetsV6
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpEnumSubnetsV6"]
+f1_keywords: 
+ - "dhcpsapi/DhcpEnumSubnetsV6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

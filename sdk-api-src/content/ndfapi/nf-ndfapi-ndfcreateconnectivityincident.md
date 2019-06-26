@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateConnectivityIncident"]
+f1_keywords: 
+ - "ndfapi/NdfCreateConnectivityIncident"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

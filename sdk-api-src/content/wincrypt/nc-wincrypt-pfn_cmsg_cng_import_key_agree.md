@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_AGREE, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_cng_import_key_agree, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE"]
+f1_keywords: 
+ - "wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

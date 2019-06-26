@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl.SetDeinterlacePrefs, IVMRDeinterlaceControl::SetDeinterlacePrefs, IVMRDeinterlaceControlSetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlaceprefs, strmif/IVMRDeinterlaceControl::SetDeinterlacePrefs
 ms.topic: method
-f1_keywords: ["strmif/IVMRDeinterlaceControl.SetDeinterlacePrefs"]
+f1_keywords: 
+ - "strmif/IVMRDeinterlaceControl.SetDeinterlacePrefs"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

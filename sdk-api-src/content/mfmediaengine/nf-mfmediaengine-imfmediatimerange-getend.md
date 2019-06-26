@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Media Foundation], GetEnd method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetEnd method, IMFMediaTimeRange.GetEnd, IMFMediaTimeRange::GetEnd, mf.imfmediatimerange_getend, mfmediaengine/IMFMediaTimeRange::GetEnd
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaTimeRange.GetEnd"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaTimeRange.GetEnd"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
 ms.topic: function
-f1_keywords: ["cfapi/CfReportSyncStatus"]
+f1_keywords: 
+ - "cfapi/CfReportSyncStatus"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

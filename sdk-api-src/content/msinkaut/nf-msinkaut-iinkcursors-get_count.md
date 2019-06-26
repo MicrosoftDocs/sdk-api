@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkCursors interface, IInkCursors interface [Tablet PC],Count property, IInkCursors.Count, IInkCursors.get_Count, IInkCursors::Count, IInkCursors::get_Count, get_Count, msinkaut/IInkCursors::Count, msinkaut/IInkCursors::get_Count, tablet.iinkcursors_count
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCursors.Count"]
+f1_keywords: 
+ - "msinkaut/IInkCursors.Count"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

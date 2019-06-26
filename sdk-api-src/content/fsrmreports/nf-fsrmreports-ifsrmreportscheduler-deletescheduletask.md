@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteScheduleTask, DeleteScheduleTask method [File Server Resource Manager], DeleteScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, DeleteScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler.DeleteScheduleTask, IFsrmReportScheduler::DeleteScheduleTask, fs.ifsrmreportscheduler_deletescheduletask, fsrm.ifsrmreportscheduler_deletescheduletask, fsrmreports/IFsrmReportScheduler::DeleteScheduleTask
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportScheduler.DeleteScheduleTask"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportScheduler.DeleteScheduleTask"
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

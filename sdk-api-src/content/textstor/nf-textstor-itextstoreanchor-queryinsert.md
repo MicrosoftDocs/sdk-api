@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsert method, ITextStoreAnchor.QueryInsert, ITextStoreAnchor::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::QueryInsert, tsf.itextstoreanchor_queryinsert
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.QueryInsert"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.QueryInsert"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

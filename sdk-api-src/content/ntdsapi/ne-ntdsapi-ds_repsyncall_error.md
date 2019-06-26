@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPSYNCALL_ERROR, DS_REPSYNCALL_ERROR enumeration [Active Directory], DS_REPSYNCALL_SERVER_UNREACHABLE, DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, DS_REPSYNCALL_WIN32_ERROR_REPLICATING, ad.ds_repsyncall_error, ntdsapi/DS_REPSYNCALL_ERROR, ntdsapi/DS_REPSYNCALL_SERVER_UNREACHABLE, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER, ntdsapi/DS_REPSYNCALL_WIN32_ERROR_REPLICATING
 ms.topic: enum
-f1_keywords: ["ntdsapi/DS_REPSYNCALL_ERROR"]
+f1_keywords: 
+ - "ntdsapi/DS_REPSYNCALL_ERROR"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

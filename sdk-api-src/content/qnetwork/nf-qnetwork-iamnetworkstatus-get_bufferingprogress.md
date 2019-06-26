@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingProgress method, IAMNetworkStatus.get_BufferingProgress, IAMNetworkStatus::get_BufferingProgress, IAMNetworkStatusget_BufferingProgress, dshow.iamnetworkstatus_get_bufferingprogress, get_BufferingProgress, get_BufferingProgress method [DirectShow], get_BufferingProgress method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingProgress
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetworkStatus.get_BufferingProgress"]
+f1_keywords: 
+ - "qnetwork/IAMNetworkStatus.get_BufferingProgress"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharPrev, CharPrev function [Menus and Other Resources], CharPrevA, CharPrevW, _win32_CharPrev, _win32_charprev_cpp, menurc.charprev, winui._win32_charprev, winuser/CharPrev, winuser/CharPrevA, winuser/CharPrevW
 ms.topic: function
-f1_keywords: ["winuser/CharPrev"]
+f1_keywords: 
+ - "winuser/CharPrev"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaType.GetMajorType"]
+f1_keywords: 
+ - "mfobjects/IMFMediaType.GetMajorType"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

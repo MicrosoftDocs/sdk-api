@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
 ms.topic: function
-f1_keywords: ["authz/AuthzReportSecurityEvent"]
+f1_keywords: 
+ - "authz/AuthzReportSecurityEvent"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

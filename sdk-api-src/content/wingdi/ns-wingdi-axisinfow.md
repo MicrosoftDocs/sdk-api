@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAXISINFOW, *PAXISINFOW, AXISINFO, AXISINFO structure [Windows GDI], AXISINFOA, AXISINFOW, PAXISINFO, PAXISINFO structure pointer [Windows GDI], _win32_AXISINFO_str, gdi.axisinfo, wingdi/AXISINFO, wingdi/AXISINFOA, wingdi/AXISINFOW, wingdi/PAXISINFO"
 ms.topic: struct
-f1_keywords: ["wingdi/AXISINFO"]
+f1_keywords: 
+ - "wingdi/AXISINFO"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

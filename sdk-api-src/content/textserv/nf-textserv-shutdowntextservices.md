@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
 ms.topic: function
-f1_keywords: ["textserv/ShutdownTextServices"]
+f1_keywords: 
+ - "textserv/ShutdownTextServices"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_LineIndex, Edit_LineIndex macro [Windows Controls], _win32_Edit_LineIndex, _win32_Edit_LineIndex_cpp, controls.Edit_LineIndex, controls._win32_Edit_LineIndex, windowsx/Edit_LineIndex
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_LineIndex"]
+f1_keywords: 
+ - "windowsx/Edit_LineIndex"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

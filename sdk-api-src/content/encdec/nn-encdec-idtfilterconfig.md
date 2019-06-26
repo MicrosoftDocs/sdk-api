@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], IDTFilterConfig interface [Microsoft TV Technologies],described, IDTFilterConfigInterface, encdec/IDTFilterConfig, mstv.idtfilterconfig
 ms.topic: interface
-f1_keywords: ["encdec/IDTFilterConfig"]
+f1_keywords: 
+ - "encdec/IDTFilterConfig"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

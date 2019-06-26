@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
 ms.topic: interface
-f1_keywords: ["strmif/IAMDevMemoryControl"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryControl"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
 ms.topic: method
-f1_keywords: ["vds/IVdsService.Advise"]
+f1_keywords: 
+ - "vds/IVdsService.Advise"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelNotification, CancelNotification callback function [Security], LSA_CANCEL_NOTIFICATION, LSA_CANCEL_NOTIFICATION callback, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
 ms.topic: callback
-f1_keywords: ["ntsecpkg/CancelNotification"]
+f1_keywords: 
+ - "ntsecpkg/CancelNotification"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

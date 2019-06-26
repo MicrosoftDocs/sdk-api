@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_SBESource method, IMSVidStreamBufferSource.get_SBESource, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSource.get_SBESource"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource.get_SBESource"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

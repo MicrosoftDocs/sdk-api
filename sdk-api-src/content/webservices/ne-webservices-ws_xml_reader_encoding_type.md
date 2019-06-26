@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_ENCODING_TYPE, WS_XML_READER_ENCODING_TYPE enumeration [Web Services for Windows], WS_XML_READER_ENCODING_TYPE_BINARY, WS_XML_READER_ENCODING_TYPE_MTOM, WS_XML_READER_ENCODING_TYPE_TEXT, webservices/WS_XML_READER_ENCODING_TYPE, webservices/WS_XML_READER_ENCODING_TYPE_BINARY, webservices/WS_XML_READER_ENCODING_TYPE_MTOM, webservices/WS_XML_READER_ENCODING_TYPE_TEXT, wsw.ws_xml_reader_encoding_type
 ms.topic: enum
-f1_keywords: ["webservices/WS_XML_READER_ENCODING_TYPE"]
+f1_keywords: 
+ - "webservices/WS_XML_READER_ENCODING_TYPE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

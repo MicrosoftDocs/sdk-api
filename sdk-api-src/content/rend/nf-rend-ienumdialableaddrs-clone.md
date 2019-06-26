@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
 ms.topic: method
-f1_keywords: ["rend/IEnumDialableAddrs.Clone"]
+f1_keywords: 
+ - "rend/IEnumDialableAddrs.Clone"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

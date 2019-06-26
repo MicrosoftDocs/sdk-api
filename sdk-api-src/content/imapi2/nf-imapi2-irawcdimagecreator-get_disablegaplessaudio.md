@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_DisableGaplessAudio method, IRawCDImageCreator.get_DisableGaplessAudio, IRawCDImageCreator::get_DisableGaplessAudio, get_DisableGaplessAudio, get_DisableGaplessAudio method [IMAPI], get_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_disablegaplessaudio, imapi2/IRawCDImageCreator::get_DisableGaplessAudio
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.get_DisableGaplessAudio"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.get_DisableGaplessAudio"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

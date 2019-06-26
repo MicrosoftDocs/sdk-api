@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Packed, MFVideo3DSampleFormat, MFVideo3DSampleFormat enumeration [Media Foundation], mf.mfvideo3dsampleformat, mfapi/MFSampleExtension_3DVideo_MultiView, mfapi/MFSampleExtension_3DVideo_Packed, mfapi/MFVideo3DSampleFormat
 ms.topic: enum
-f1_keywords: ["mfapi/MFVideo3DSampleFormat"]
+f1_keywords: 
+ - "mfapi/MFVideo3DSampleFormat"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

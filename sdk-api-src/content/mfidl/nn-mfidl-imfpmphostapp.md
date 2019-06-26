@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp, IMFPMPHostApp interface [Media Foundation], IMFPMPHostApp interface [Media Foundation],described, mf.imfpmphostapp, mfidl/IMFPMPHostApp
 ms.topic: interface
-f1_keywords: ["mfidl/IMFPMPHostApp"]
+f1_keywords: 
+ - "mfidl/IMFPMPHostApp"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

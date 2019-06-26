@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO, IEnumWIA_FORMAT_INFO interface [WIA], IEnumWIA_FORMAT_INFO interface [WIA],described, _wia_IEnumWIA_FORMAT_INFO, wia._wia_IEnumWIA_FORMAT_INFO, wia_xp/IEnumWIA_FORMAT_INFO
 ms.topic: interface
-f1_keywords: ["wia_xp/IEnumWIA_FORMAT_INFO"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_FORMAT_INFO"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

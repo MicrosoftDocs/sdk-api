@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IDTFilter2.GetCurrLicenseExpDate, IDTFilter2::GetCurrLicenseExpDate, IDTFilter2GetCurrLicenseExpDate, encdec/IDTFilter2::GetCurrLicenseExpDate, mstv.idtfilter2_getcurrlicenseexpdate
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter2.GetCurrLicenseExpDate"]
+f1_keywords: 
+ - "encdec/IDTFilter2.GetCurrLicenseExpDate"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetTileInfo, ListView_SetTileInfo macro [Windows Controls], _win32_ListView_SetTileInfo, _win32_ListView_SetTileInfo_cpp, commctrl/ListView_SetTileInfo, controls.ListView_SetTileInfo, controls._win32_ListView_SetTileInfo
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetTileInfo"]
+f1_keywords: 
+ - "commctrl/ListView_SetTileInfo"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverLoad method, IWRdsWddmIddProps.OnDriverLoad, IWRdsWddmIddProps::OnDriverLoad, OnDriverLoad, OnDriverLoad method [Remote Desktop Services], OnDriverLoad method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverload, wtsprotocol/IWRdsWddmIddProps::OnDriverLoad
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsWddmIddProps.OnDriverLoad"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsWddmIddProps.OnDriverLoad"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

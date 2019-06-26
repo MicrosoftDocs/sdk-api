@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentInputMessageSource, GetCurrentInputMessageSource function, input_sourceid.getcurrentinputmessagesource, inputsourceid.getcurrentinputmessagesource, winuser/GetCurrentInputMessageSource
 ms.topic: function
-f1_keywords: ["winuser/GetCurrentInputMessageSource"]
+f1_keywords: 
+ - "winuser/GetCurrentInputMessageSource"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2ac7b82f-b5a5-ec94-1506-33b758455dd2, IDXGIAdapter1, IDXGIAdapter1 interface [DXGI], IDXGIAdapter1 interface [DXGI],described, direct3ddxgi.idxgiadapter1, dxgi/IDXGIAdapter1
 ms.topic: interface
-f1_keywords: ["dxgi/IDXGIAdapter1"]
+f1_keywords: 
+ - "dxgi/IDXGIAdapter1"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

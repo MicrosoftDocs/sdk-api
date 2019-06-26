@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.topic: struct
-f1_keywords: ["richedit/ENOLEOPFAILED"]
+f1_keywords: 
+ - "richedit/ENOLEOPFAILED"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

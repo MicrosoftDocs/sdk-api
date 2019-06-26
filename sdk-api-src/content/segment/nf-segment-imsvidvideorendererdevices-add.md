@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRendererDevices.Add"]
+f1_keywords: 
+ - "segment/IMSVidVideoRendererDevices.Add"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

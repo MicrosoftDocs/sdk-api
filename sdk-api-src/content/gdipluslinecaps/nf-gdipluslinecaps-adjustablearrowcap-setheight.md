@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetHeight method, AdjustableArrowCap.SetHeight, AdjustableArrowCap::SetHeight, SetHeight, SetHeight method [GDI+], SetHeight method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_
 ms.topic: method
-f1_keywords: ["gdipluslinecaps/AdjustableArrowCap.SetHeight"]
+f1_keywords: 
+ - "gdipluslinecaps/AdjustableArrowCap.SetHeight"
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

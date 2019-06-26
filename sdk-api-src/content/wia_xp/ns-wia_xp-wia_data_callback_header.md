@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER, PWIA_DATA_CALLBACK_HEADER structure pointer [WIA], WIA_DATA_CALLBACK_HEADER, WIA_DATA_CALLBACK_HEADER structure [WIA], _wia_WIA_DATA_CALLBACK_HEADER, wia._wia_WIA_DATA_CALLBACK_HEADER, wia_xp/PWIA_DATA_CALLBACK_HEADER, wia_xp/WIA_DATA_CALLBACK_HEADER"
 ms.topic: struct
-f1_keywords: ["wia_xp/WIA_DATA_CALLBACK_HEADER"]
+f1_keywords: 
+ - "wia_xp/WIA_DATA_CALLBACK_HEADER"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

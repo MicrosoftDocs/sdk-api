@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetAnchorFromPoint, GetAnchorFromPoint method [Text Services Framework], GetAnchorFromPoint method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetAnchorFromPoint method, ITextStoreAnchor.GetAnchorFromPoint, ITextStoreAnchor::GetAnchorFromPoint, textstor/ITextStoreAnchor::GetAnchorFromPoint, tsf.itextstoreanchor_getanchorfrompoint
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.GetAnchorFromPoint"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.GetAnchorFromPoint"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

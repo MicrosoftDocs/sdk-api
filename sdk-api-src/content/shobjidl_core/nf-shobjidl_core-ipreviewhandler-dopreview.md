@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandler.DoPreview"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandler.DoPreview"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

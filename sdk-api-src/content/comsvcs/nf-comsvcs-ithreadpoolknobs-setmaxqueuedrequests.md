@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThreadPoolKnobs.SetMaxQueuedRequests, IThreadPoolKnobs::SetMaxQueuedRequests, SetMaxQueuedRequests, SetMaxQueuedRequests method [COM+], SetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests, cos.ithreadpoolknobs_setmaxqueuedrequests
 ms.topic: method
-f1_keywords: ["comsvcs/IThreadPoolKnobs.SetMaxQueuedRequests"]
+f1_keywords: 
+ - "comsvcs/IThreadPoolKnobs.SetMaxQueuedRequests"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

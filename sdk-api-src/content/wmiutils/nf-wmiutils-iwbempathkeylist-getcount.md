@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Management Instrumentation], GetCount method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetCount method, IWbemPathKeyList.GetCount, IWbemPathKeyList::GetCount, _hmm_iwbempathkeylist_getcount, wmi.iwbempathkeylist_getcount, wmiutils/IWbemPathKeyList::GetCount
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPathKeyList.GetCount"]
+f1_keywords: 
+ - "wmiutils/IWbemPathKeyList.GetCount"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

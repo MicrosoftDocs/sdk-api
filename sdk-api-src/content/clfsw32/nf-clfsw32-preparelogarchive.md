@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
 ms.topic: function
-f1_keywords: ["clfsw32/PrepareLogArchive"]
+f1_keywords: 
+ - "clfsw32/PrepareLogArchive"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

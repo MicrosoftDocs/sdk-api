@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_IsSupportedEnvironment method, IDiscMaster2.get_IsSupportedEnvironment, IDiscMaster2::get_IsSupportedEnvironment, get_IsSupportedEnvironment, get_IsSupportedEnvironment method [IMAPI], get_IsSupportedEnvironment method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_issupportedenvironment, imapi2/IDiscMaster2::get_IsSupportedEnvironment
 ms.topic: method
-f1_keywords: ["imapi2/IDiscMaster2.get_IsSupportedEnvironment"]
+f1_keywords: 
+ - "imapi2/IDiscMaster2.get_IsSupportedEnvironment"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

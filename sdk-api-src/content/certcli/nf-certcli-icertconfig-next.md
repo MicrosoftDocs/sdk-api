@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertConfig object [Security],Next method, ICertConfig interface [Security],Next method, ICertConfig.Next, ICertConfig2 interface [Security],Next method, ICertConfig2::Next, ICertConfig::Next, Next, Next method [Security], Next method [Security],CCertConfig object, Next method [Security],ICertConfig interface, Next method [Security],ICertConfig2 interface, _certsrv_icertconfig_next, certcli/ICertConfig2::Next, certcli/ICertConfig::Next, security.icertconfig2_next
 ms.topic: method
-f1_keywords: ["certcli/ICertConfig2.Next"]
+f1_keywords: 
+ - "certcli/ICertConfig2.Next"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

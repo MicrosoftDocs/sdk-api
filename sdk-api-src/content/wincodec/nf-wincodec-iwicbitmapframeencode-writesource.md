@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICBitmapFrameEncode.WriteSource, IWICBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writesource, wic._wic_codec_iwicbitmapframeencode_writesource, wincodec/IWICBitmapFrameEncode::WriteSource
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.WriteSource"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.WriteSource"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

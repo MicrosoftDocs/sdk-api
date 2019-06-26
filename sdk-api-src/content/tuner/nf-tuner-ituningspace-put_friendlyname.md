@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FriendlyName method, ITuningSpace.put_FriendlyName, ITuningSpace::put_FriendlyName, ITuningSpaceput_FriendlyName, mstv.ituningspace_put_friendlyname, put_FriendlyName, put_FriendlyName method [Microsoft TV Technologies], put_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FriendlyName
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.put_FriendlyName"]
+f1_keywords: 
+ - "tuner/ITuningSpace.put_FriendlyName"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

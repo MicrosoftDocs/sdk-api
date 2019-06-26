@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 615c7678-59c9-07b2-5960-4a5b881f779d, IDXGISwapChain interface [DXGI],ResizeBuffers method, IDXGISwapChain.ResizeBuffers, IDXGISwapChain::ResizeBuffers, ResizeBuffers, ResizeBuffers method [DXGI], ResizeBuffers method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizebuffers, dxgi/IDXGISwapChain::ResizeBuffers
 ms.topic: method
-f1_keywords: ["dxgi/IDXGISwapChain.ResizeBuffers"]
+f1_keywords: 
+ - "dxgi/IDXGISwapChain.ResizeBuffers"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.SetRect"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.SetRect"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

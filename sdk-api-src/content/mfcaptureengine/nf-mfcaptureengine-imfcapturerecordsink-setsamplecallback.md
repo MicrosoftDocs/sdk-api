@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback method, IMFCaptureRecordSink.SetSampleCallback, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureRecordSink.SetSampleCallback"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureRecordSink.SetSampleCallback"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_settings method, IWMPCore.get_settings, IWMPCore::get_settings, IWMPCoreget_settings, get_settings, get_settings method [Windows Media Player], get_settings method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_settings, wmp/IWMPCore::get_settings
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_settings"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_settings"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

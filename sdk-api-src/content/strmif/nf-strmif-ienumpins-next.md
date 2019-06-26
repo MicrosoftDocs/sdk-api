@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Next method, IEnumPins.Next, IEnumPins::Next, IEnumPinsNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPins interface, dshow.ienumpins_next, strmif/IEnumPins::Next
 ms.topic: method
-f1_keywords: ["strmif/IEnumPins.Next"]
+f1_keywords: 
+ - "strmif/IEnumPins.Next"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

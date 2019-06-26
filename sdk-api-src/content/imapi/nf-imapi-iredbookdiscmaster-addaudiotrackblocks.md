@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAudioTrackBlocks, AddAudioTrackBlocks method [IMAPI], AddAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],AddAudioTrackBlocks method, IRedbookDiscMaster.AddAudioTrackBlocks, IRedbookDiscMaster::AddAudioTrackBlocks, _win32_iredbookdiscmaster_addaudiotrackblocks, base.iredbookdiscmaster_addaudiotrackblocks, imapi.iredbookdiscmaster_addaudiotrackblocks, imapi/IRedbookDiscMaster::AddAudioTrackBlocks
 ms.topic: method
-f1_keywords: ["imapi/IRedbookDiscMaster.AddAudioTrackBlocks"]
+f1_keywords: 
+ - "imapi/IRedbookDiscMaster.AddAudioTrackBlocks"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

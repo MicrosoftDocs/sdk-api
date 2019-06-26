@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENHMETARECORD, *PENHMETARECORD, ENHMETARECORD, ENHMETARECORD structure [Windows GDI], PENHMETARECORD, PENHMETARECORD structure pointer [Windows GDI], _win32_ENHMETARECORD_str, gdi.enhmetarecord, wingdi/ENHMETARECORD, wingdi/PENHMETARECORD"
 ms.topic: struct
-f1_keywords: ["wingdi/ENHMETARECORD"]
+f1_keywords: 
+ - "wingdi/ENHMETARECORD"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

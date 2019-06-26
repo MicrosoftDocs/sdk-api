@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataTransferManagerInterop, IDataTransferManagerInterop interface [Windows Shell], IDataTransferManagerInterop interface [Windows Shell],described, shell.idatatransfermanagerinterop, shobjidl_core/IDataTransferManagerInterop
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IDataTransferManagerInterop"]
+f1_keywords: 
+ - "shobjidl_core/IDataTransferManagerInterop"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

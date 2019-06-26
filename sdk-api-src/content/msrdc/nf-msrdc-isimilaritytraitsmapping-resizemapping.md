@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],ResizeMapping method, ISimilarityTraitsMapping.ResizeMapping, ISimilarityTraitsMapping::ResizeMapping, ResizeMapping, ResizeMapping method [Remote Differential Compression], ResizeMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_resizemapping, msrdc/ISimilarityTraitsMapping::ResizeMapping, rdc.isimilaritytraitsmapping_resizemapping
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsMapping.ResizeMapping"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsMapping.ResizeMapping"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

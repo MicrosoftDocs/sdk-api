@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: ["amvideo/IQualProp.get_FramesDroppedInRenderer"]
+f1_keywords: 
+ - "amvideo/IQualProp.get_FramesDroppedInRenderer"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

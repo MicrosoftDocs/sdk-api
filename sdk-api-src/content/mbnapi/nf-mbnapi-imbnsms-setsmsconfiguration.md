@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SetSmsConfiguration method, IMbnSms.SetSmsConfiguration, IMbnSms::SetSmsConfiguration, SetSmsConfiguration, SetSmsConfiguration method [Microsoft Broadband Networks], SetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_setsmsconfiguration, mbnapi/IMbnSms::SetSmsConfiguration
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSms.SetSmsConfiguration"]
+f1_keywords: 
+ - "mbnapi/IMbnSms.SetSmsConfiguration"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

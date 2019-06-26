@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl, ICrmLogControl interface [COM+], ICrmLogControl interface [COM+],described, _dtc_ICrmLogControl_Interface, comsvcs/ICrmLogControl, cos.icrmlogcontrol
 ms.topic: interface
-f1_keywords: ["comsvcs/ICrmLogControl"]
+f1_keywords: 
+ - "comsvcs/ICrmLogControl"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

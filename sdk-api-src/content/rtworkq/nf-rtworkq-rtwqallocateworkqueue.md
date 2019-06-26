@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqAllocateWorkQueue"]
+f1_keywords: 
+ - "rtworkq/RtwqAllocateWorkQueue"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering
 ms.topic: interface
-f1_keywords: ["mfidl/IMFByteStreamBuffering"]
+f1_keywords: 
+ - "mfidl/IMFByteStreamBuffering"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

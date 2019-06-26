@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaces.get__NewEnum, ITuningSpaces::get__NewEnum, ITuningSpacesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get__newenum, tuner/ITuningSpaces::get__NewEnum
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaces.get__NewEnum"]
+f1_keywords: 
+ - "tuner/ITuningSpaces.get__NewEnum"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

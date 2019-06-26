@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Resume method, IPackageDebugSettings.Resume, IPackageDebugSettings::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Resume, shobjidl_core/IPackageDebugSettings::Resume
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPackageDebugSettings.Resume"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings.Resume"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

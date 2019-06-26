@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListClearMediaDisk, MsiSourceListClearMediaDisk function, MsiSourceListClearMediaDiskA, MsiSourceListClearMediaDiskW, NULL, User SID, msi/MsiSourceListClearMediaDisk, msi/MsiSourceListClearMediaDiskA, msi/MsiSourceListClearMediaDiskW, setup.msisourcelistclearmediadisks
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListClearMediaDisk"]
+f1_keywords: 
+ - "msi/MsiSourceListClearMediaDisk"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

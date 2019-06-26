@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],Type property, IFsrmReport.Type, IFsrmReport.get_Type, IFsrmReport::Type, IFsrmReport::get_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_type, fsrm.ifsrmreport_type, fsrmreports/IFsrmReport::Type, fsrmreports/IFsrmReport::get_Type, get_Type
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReport.Type"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReport.Type"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

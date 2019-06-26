@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1PrintControl interface, ID2D1PrintControl interface [Direct2D],Close method, ID2D1PrintControl.Close, ID2D1PrintControl::Close, d2d1_1/ID2D1PrintControl::Close, direct2d.id2d1printcontrol_close
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1PrintControl.Close"]
+f1_keywords: 
+ - "d2d1_1/ID2D1PrintControl.Close"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

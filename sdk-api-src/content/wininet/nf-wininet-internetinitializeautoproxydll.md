@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
 ms.topic: function
-f1_keywords: ["wininet/InternetInitializeAutoProxyDll"]
+f1_keywords: 
+ - "wininet/InternetInitializeAutoProxyDll"
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

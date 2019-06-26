@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetDDrawDevice method, IVMRSurfaceAllocatorNotify.SetDDrawDevice, IVMRSurfaceAllocatorNotify::SetDDrawDevice, IVMRSurfaceAllocatorNotifySetDDrawDevice, SetDDrawDevice, SetDDrawDevice method [DirectShow], SetDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setddrawdevice, strmif/IVMRSurfaceAllocatorNotify::SetDDrawDevice
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify.SetDDrawDevice"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify.SetDDrawDevice"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

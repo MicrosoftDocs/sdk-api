@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAndCondition, CreateAndCondition method [Windows Accessibility], CreateAndCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndCondition method, IUIAutomation.CreateAndCondition, IUIAutomation::CreateAndCondition, uiauto.uiauto_IUIAutomation_CreateAndCondition, uiauto_IUIAutomation_CreateAndCondition, uiautomationclient/IUIAutomation::CreateAndCondition, winauto.uiauto_IUIAutomation_CreateAndCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateAndCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateAndCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

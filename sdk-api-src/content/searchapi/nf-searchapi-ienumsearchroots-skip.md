@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.Skip, IEnumSearchRoots::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
 ms.topic: method
-f1_keywords: ["searchapi/IEnumSearchRoots.Skip"]
+f1_keywords: 
+ - "searchapi/IEnumSearchRoots.Skip"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

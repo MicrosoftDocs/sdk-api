@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Windows Controls], GetURL method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetURL method, ITextRange2.GetURL, ITextRange2::GetURL, controls.itextrange2_geturl, tom/ITextRange2::GetURL
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetURL"]
+f1_keywords: 
+ - "tom/ITextRange2.GetURL"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

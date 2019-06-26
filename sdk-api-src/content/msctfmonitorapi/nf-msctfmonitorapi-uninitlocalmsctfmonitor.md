@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UninitLocalMsCtfMonitor, UninitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/UninitLocalMsCtfMonitor, tsf.UninitLocalMsCtfMonitor
 ms.topic: function
-f1_keywords: ["msctfmonitorapi/UninitLocalMsCtfMonitor"]
+f1_keywords: 
+ - "msctfmonitorapi/UninitLocalMsCtfMonitor"
 req.header: msctfmonitorapi.h
 req.include-header: 
 req.target-type: Windows

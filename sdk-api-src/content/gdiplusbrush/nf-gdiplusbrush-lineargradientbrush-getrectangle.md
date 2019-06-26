@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], LinearGradientBrush.GetRectangle, LinearGradientBrush::GetRectangle, _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplusbrush/GetRectangle
 ms.topic: method
-f1_keywords: ["gdiplusbrush/LinearGradientBrush.GetRectangle"]
+f1_keywords: 
+ - "gdiplusbrush/LinearGradientBrush.GetRectangle"
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

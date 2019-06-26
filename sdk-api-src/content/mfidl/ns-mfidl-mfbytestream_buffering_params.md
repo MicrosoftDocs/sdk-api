@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS, MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation], mf.mfbytestream_buffering_params, mfidl/MFBYTESTREAM_BUFFERING_PARAMS
 ms.topic: struct
-f1_keywords: ["mfidl/MFBYTESTREAM_BUFFERING_PARAMS"]
+f1_keywords: 
+ - "mfidl/MFBYTESTREAM_BUFFERING_PARAMS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

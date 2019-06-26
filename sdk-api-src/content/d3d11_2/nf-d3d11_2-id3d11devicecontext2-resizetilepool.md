@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],ResizeTilePool method, ID3D11DeviceContext2.ResizeTilePool, ID3D11DeviceContext2::ResizeTilePool, ResizeTilePool, ResizeTilePool method [Direct3D 11], ResizeTilePool method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::ResizeTilePool, direct3d11.id3d11devicecontext2_resizetilepool
 ms.topic: method
-f1_keywords: ["d3d11_2/ID3D11DeviceContext2.ResizeTilePool"]
+f1_keywords: 
+ - "d3d11_2/ID3D11DeviceContext2.ResizeTilePool"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

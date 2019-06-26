@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphRunOutline, GetGlyphRunOutline method [Direct Write], GetGlyphRunOutline method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphRunOutline method, IDWriteFontFace.GetGlyphRunOutline, IDWriteFontFace::GetGlyphRunOutline, directwrite.IDWriteFontFace_GetGlyphRunOutline, dwrite/IDWriteFontFace::GetGlyphRunOutline
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetGlyphRunOutline"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetGlyphRunOutline"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Disconnect method, IRpcStubBuffer.Disconnect, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcStubBuffer.Disconnect"]
+f1_keywords: 
+ - "objidlbase/IRpcStubBuffer.Disconnect"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

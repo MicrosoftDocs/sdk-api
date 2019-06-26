@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetUnit method, Font.GetUnit, Font::GetUnit, GetUnit, GetUnit method [GDI+], GetUnit method [GDI+],Font class, _gdiplus_CLASS_Font_GetUnit_, gdiplus._gdiplus_CLASS_Font_GetUnit_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Font.GetUnit"]
+f1_keywords: 
+ - "gdiplusheaders/Font.GetUnit"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

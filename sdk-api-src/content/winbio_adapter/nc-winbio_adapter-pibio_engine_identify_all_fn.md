@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterIdentifyAll, EngineAdapterIdentifyAll callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_ALL_FN, PIBIO_ENGINE_IDENTIFY_ALL_FN callback, secbiomet.engineadapteridentifyall, winbio_adapter/EngineAdapterIdentifyAll
 ms.topic: callback
-f1_keywords: ["winbio_adapter/EngineAdapterIdentifyAll"]
+f1_keywords: 
+ - "winbio_adapter/EngineAdapterIdentifyAll"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

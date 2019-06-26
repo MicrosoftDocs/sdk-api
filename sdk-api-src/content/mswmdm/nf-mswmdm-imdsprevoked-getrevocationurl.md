@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRevocationURL, GetRevocationURL method [windows Media Device Manager], GetRevocationURL method [windows Media Device Manager],IMDSPRevoked interface, IMDSPRevoked interface [windows Media Device Manager],GetRevocationURL method, IMDSPRevoked.GetRevocationURL, IMDSPRevoked::GetRevocationURL, IMDSPRevokedGetRevocationURL, mswmdm/IMDSPRevoked::GetRevocationURL, wmdm.imdsprevoked_getrevocationurl
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPRevoked.GetRevocationURL"]
+f1_keywords: 
+ - "mswmdm/IMDSPRevoked.GetRevocationURL"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

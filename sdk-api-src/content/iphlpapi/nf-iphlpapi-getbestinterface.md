@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBestInterface, GetBestInterface function [IP Helper], _iphlp_getbestinterface, iphlp.getbestinterface, iphlpapi/GetBestInterface
 ms.topic: function
-f1_keywords: ["iphlpapi/GetBestInterface"]
+f1_keywords: 
+ - "iphlpapi/GetBestInterface"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

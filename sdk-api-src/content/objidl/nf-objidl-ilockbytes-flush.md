@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
 ms.topic: method
-f1_keywords: ["objidl/ILockBytes.Flush"]
+f1_keywords: 
+ - "objidl/ILockBytes.Flush"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivity, PSpatialAudioHrtfDirectivity structure pointer [Core Audio], SpatialAudioHrtfDirectivity, SpatialAudioHrtfDirectivity structure [Core Audio], coreaudio.spatialaudiohrtfdirectivity, spatialaudiohrtf/PSpatialAudioHrtfDirectivity, spatialaudiohrtf/SpatialAudioHrtfDirectivity
 ms.topic: struct
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfDirectivity"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfDirectivity"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortOperation, AbortOperation method [DirectShow], AbortOperation method [DirectShow],IAMOpenProgress interface, IAMOpenProgress interface [DirectShow],AbortOperation method, IAMOpenProgress.AbortOperation, IAMOpenProgress::AbortOperation, IAMOpenProgressAbortOperation, dshow.iamopenprogress_abortoperation, strmif/IAMOpenProgress::AbortOperation
 ms.topic: method
-f1_keywords: ["strmif/IAMOpenProgress.AbortOperation"]
+f1_keywords: 
+ - "strmif/IAMOpenProgress.AbortOperation"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

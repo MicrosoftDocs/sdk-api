@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MaxDownloadSize property, IUpdate.MaxDownloadSize, IUpdate.get_MaxDownloadSize, IUpdate::MaxDownloadSize, IUpdate::get_MaxDownloadSize, MaxDownloadSize property [Windows Update Agent], MaxDownloadSize property [Windows Update Agent],IUpdate interface, get_MaxDownloadSize, wua.iupdate_maxdownloadsize, wuapi/IUpdate::MaxDownloadSize, wuapi/IUpdate::get_MaxDownloadSize
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.MaxDownloadSize"]
+f1_keywords: 
+ - "wuapi/IUpdate.MaxDownloadSize"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

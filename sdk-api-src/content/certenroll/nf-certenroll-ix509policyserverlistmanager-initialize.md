@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerListManager.Initialize"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerListManager.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

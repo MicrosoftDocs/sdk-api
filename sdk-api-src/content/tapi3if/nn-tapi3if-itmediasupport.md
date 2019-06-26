@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaSupport, ITMediaSupport interface [TAPI 2.2], ITMediaSupport interface [TAPI 2.2],described, _tapi3_itmediasupport, tapi3.itmediasupport, tapi3if/ITMediaSupport
 ms.topic: interface
-f1_keywords: ["tapi3if/ITMediaSupport"]
+f1_keywords: 
+ - "tapi3if/ITMediaSupport"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

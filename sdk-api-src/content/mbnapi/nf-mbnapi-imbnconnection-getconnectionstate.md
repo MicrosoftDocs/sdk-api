@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetConnectionState method, IMbnConnection.GetConnectionState, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnection.GetConnectionState"]
+f1_keywords: 
+ - "mbnapi/IMbnConnection.GetConnectionState"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

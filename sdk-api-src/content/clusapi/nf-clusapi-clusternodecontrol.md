@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeControl, ClusterNodeControl function [Failover Cluster], _wolf_clusternodecontrol, clusapi/ClusterNodeControl, mscs.clusternodecontrol
 ms.topic: function
-f1_keywords: ["clusapi/ClusterNodeControl"]
+f1_keywords: 
+ - "clusapi/ClusterNodeControl"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

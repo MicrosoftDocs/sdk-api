@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equalrgn, wingdi/EqualRgn
 ms.topic: function
-f1_keywords: ["wingdi/EqualRgn"]
+f1_keywords: 
+ - "wingdi/EqualRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

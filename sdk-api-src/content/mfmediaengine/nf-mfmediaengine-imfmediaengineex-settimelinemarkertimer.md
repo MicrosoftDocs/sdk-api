@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

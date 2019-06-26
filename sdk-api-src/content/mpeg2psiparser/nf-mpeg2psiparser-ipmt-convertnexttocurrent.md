@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPMT.ConvertNextToCurrent, IPMT::ConvertNextToCurrent, IPMTConvertNextToCurrent, mpeg2psiparser/IPMT::ConvertNextToCurrent, mstv.ipmt_convertnexttocurrent
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPMT.ConvertNextToCurrent"]
+f1_keywords: 
+ - "mpeg2psiparser/IPMT.ConvertNextToCurrent"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

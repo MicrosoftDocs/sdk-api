@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],WaitForInputIdle method, IUIAutomationWindowPattern.WaitForInputIdle, IUIAutomationWindowPattern::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiautomationclient/IUIAutomationWindowPattern::WaitForInputIdle, winauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.WaitForInputIdle"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationWindowPattern.WaitForInputIdle"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

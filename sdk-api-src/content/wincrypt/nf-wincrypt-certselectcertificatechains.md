@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELECT_DISALLOW_SELFSIGNED, CERT_SELECT_HARDWARE_ONLY, CERT_SELECT_HAS_KEY_FOR_KEY_EXCHANGE, CERT_SELECT_HAS_KEY_FOR_SIGNATURE, CERT_SELECT_HAS_PRIVATE_KEY, CERT_SELECT_TRUSTED_ROOT, CertSelectCertificateChains, CertSelectCertificateChains function [Security], security.certselectcertificatechains, wincrypt/CertSelectCertificateChains
 ms.topic: function
-f1_keywords: ["wincrypt/CertSelectCertificateChains"]
+f1_keywords: 
+ - "wincrypt/CertSelectCertificateChains"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPropertyInteractionContext, SetPropertyInteractionContext function, input_intcontext.setpropertyinteractioncontext, interactioncontext.setpropertyinteractioncontext, interactioncontext/SetPropertyInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/SetPropertyInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/SetPropertyInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

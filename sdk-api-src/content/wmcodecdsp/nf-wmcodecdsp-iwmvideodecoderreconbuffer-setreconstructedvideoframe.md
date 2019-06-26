@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame"]
+f1_keywords: 
+ - "wmcodecdsp/IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInterfaceProperty, SetupDiGetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiGetDeviceInterfacePropertyW, devinst.setupdigetdeviceinterfaceproperty, di-rtns_7a7e0730-650f-4deb-a724-8f90385c762a.xml, setupapi/SetupDiGetDeviceInterfaceProperty
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetDeviceInterfaceProperty"]
+f1_keywords: 
+ - "setupapi/SetupDiGetDeviceInterfaceProperty"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Device_Interface_Property

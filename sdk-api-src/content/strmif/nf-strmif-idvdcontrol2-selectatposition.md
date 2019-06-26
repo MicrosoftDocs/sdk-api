@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.SelectAtPosition"]
+f1_keywords: 
+ - "strmif/IDvdControl2.SelectAtPosition"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

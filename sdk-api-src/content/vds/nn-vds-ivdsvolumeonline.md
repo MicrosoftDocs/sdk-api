@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline interface,described, base.ivdsvolumeonline, vds/IVdsVolumeOnline
 ms.topic: interface
-f1_keywords: ["vds/IVdsVolumeOnline"]
+f1_keywords: 
+ - "vds/IVdsVolumeOnline"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

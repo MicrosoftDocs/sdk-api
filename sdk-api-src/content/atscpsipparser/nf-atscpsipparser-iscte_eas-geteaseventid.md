@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], GetEASEventID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventID method, ISCTE_EAS.GetEASEventID, ISCTE_EAS::GetEASEventID, ISCTE_EASGetEASEventID, atscpsipparser/ISCTE_EAS::GetEASEventID, mstv.iscte_eas_geteaseventid
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetEASEventID"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetEASEventID"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

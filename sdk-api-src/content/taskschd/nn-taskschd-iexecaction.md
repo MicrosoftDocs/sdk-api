@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
 ms.topic: interface
-f1_keywords: ["taskschd/IExecAction"]
+f1_keywords: 
+ - "taskschd/IExecAction"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pager_GetBorder, Pager_GetBorder macro [Windows Controls], _win32_Pager_GetBorder, _win32_Pager_GetBorder_cpp, commctrl/Pager_GetBorder, controls.Pager_GetBorder, controls._win32_Pager_GetBorder
 ms.topic: macro
-f1_keywords: ["commctrl/Pager_GetBorder"]
+f1_keywords: 
+ - "commctrl/Pager_GetBorder"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

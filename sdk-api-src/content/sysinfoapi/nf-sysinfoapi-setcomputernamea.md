@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetComputerName, SetComputerName function, SetComputerNameA, SetComputerNameW, _win32_setcomputername, base.setcomputername, sysinfoapi/SetComputerName, sysinfoapi/SetComputerNameA, sysinfoapi/SetComputerNameW
 ms.topic: function
-f1_keywords: ["sysinfoapi/SetComputerName"]
+f1_keywords: 
+ - "sysinfoapi/SetComputerName"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

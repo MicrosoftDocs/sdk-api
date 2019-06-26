@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
 ms.topic: function
-f1_keywords: ["wdstci/WdsTransportClientCloseSession"]
+f1_keywords: 
+ - "wdstci/WdsTransportClientCloseSession"
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

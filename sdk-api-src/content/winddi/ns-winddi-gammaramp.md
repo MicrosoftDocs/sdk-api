@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGAMMARAMP, GAMMARAMP, GAMMARAMP structure [Display Devices], PGAMMARAMP, PGAMMARAMP structure pointer [Display Devices], display.gammaramp, grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml, winddi/GAMMARAMP, winddi/PGAMMARAMP"
 ms.topic: struct
-f1_keywords: ["winddi/GAMMARAMP"]
+f1_keywords: 
+ - "winddi/GAMMARAMP"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

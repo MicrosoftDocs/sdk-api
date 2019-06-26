@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
 ms.topic: method
-f1_keywords: ["wincodec/IWICMetadataQueryWriter.SetMetadataByName"]
+f1_keywords: 
+ - "wincodec/IWICMetadataQueryWriter.SetMetadataByName"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

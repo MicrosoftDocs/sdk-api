@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW
 ms.topic: function
-f1_keywords: ["vfw/AVISave"]
+f1_keywords: 
+ - "vfw/AVISave"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

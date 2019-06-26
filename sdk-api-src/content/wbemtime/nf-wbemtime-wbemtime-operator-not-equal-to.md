@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator!= method, WBEMTime.operator!=, WBEMTime.operator-not-equal-to, WBEMTime::operator!=, WBEMTime::operator-not-equal-to, operator!=, operator!= method [Windows Management Instrumentation], operator!= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator!=, wmi.wbemtime_comparison_operators_notequal
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTime.operator!="]
+f1_keywords: 
+ - "wbemtime/WBEMTime.operator!="
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

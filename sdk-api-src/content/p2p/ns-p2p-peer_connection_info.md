@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTION_INFO, PEER_CONNECTION_INFO structure [Peer Networking], p2p.peer_connection_info, p2p/peer_connection_info_tag
 ms.topic: struct
-f1_keywords: ["p2p/PEER_CONNECTION_INFO"]
+f1_keywords: 
+ - "p2p/PEER_CONNECTION_INFO"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

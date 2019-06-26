@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RAS_QUARANTINE_STATE, RAS_QUARANTINE_STATE enumeration [RAS], RAS_QUAR_STATE_NORMAL, RAS_QUAR_STATE_NOT_CAPABLE, RAS_QUAR_STATE_PROBATION, RAS_QUAR_STATE_QUARANTINE, mprapi/RAS_QUARANTINE_STATE, mprapi/RAS_QUAR_STATE_NORMAL, mprapi/RAS_QUAR_STATE_NOT_CAPABLE, mprapi/RAS_QUAR_STATE_PROBATION, mprapi/RAS_QUAR_STATE_QUARANTINE, rras.ras_quarantine_state
 ms.topic: enum
-f1_keywords: ["mprapi/RAS_QUARANTINE_STATE"]
+f1_keywords: 
+ - "mprapi/RAS_QUARANTINE_STATE"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

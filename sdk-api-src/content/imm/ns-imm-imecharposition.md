@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHARPOSITION, IMECHARPOSITION structure [Internationalization for Windows Applications], PIMECHARPOSITION, PIMECHARPOSITION structure pointer [Internationalization for Windows Applications], _win32_IMECHARPOSITION_str, imm/IMECHARPOSITION, imm/PIMECHARPOSITION, intl.imecharposition, tagIMECHARPOSITION"
 ms.topic: struct
-f1_keywords: ["imm/IMECHARPOSITION"]
+f1_keywords: 
+ - "imm/IMECHARPOSITION"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDashesCount, GetDashesCount method [Direct2D], GetDashesCount method [Direct2D],ID2D1SvgStrokeDashArray interface, ID2D1SvgStrokeDashArray interface [Direct2D],GetDashesCount method, ID2D1SvgStrokeDashArray.GetDashesCount, ID2D1SvgStrokeDashArray::GetDashesCount, d2d1svg/ID2D1SvgStrokeDashArray::GetDashesCount, direct2d.id2d1svgstrokedasharray_getdashescount
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgStrokeDashArray.GetDashesCount"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgStrokeDashArray.GetDashesCount"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

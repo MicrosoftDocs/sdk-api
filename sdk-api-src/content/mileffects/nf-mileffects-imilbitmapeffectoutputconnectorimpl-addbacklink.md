@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],AddBackLink method, IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectOutputConnectorImpl.AddBackLink"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectOutputConnectorImpl.AddBackLink"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

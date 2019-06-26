@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], IMFTimedTextRegion interface [Media Foundation],described, mf.imftimedtextregion, mfmediaengine/IMFTimedTextRegion
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFTimedTextRegion"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextRegion"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

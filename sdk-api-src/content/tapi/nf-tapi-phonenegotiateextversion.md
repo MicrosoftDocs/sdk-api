@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonenegotiateextversion, phoneNegotiateExtVersion, phoneNegotiateExtVersion function [TAPI 2.2], tapi/phoneNegotiateExtVersion, tapi2.phonenegotiateextversion"
 ms.topic: function
-f1_keywords: ["tapi/phoneNegotiateExtVersion"]
+f1_keywords: 
+ - "tapi/phoneNegotiateExtVersion"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

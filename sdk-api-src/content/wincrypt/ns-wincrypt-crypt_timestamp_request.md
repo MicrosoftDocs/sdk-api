@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST, CRYPT_TIMESTAMP_REQUEST structure [Security], PCRYPT_TIMESTAMP_REQUEST, PCRYPT_TIMESTAMP_REQUEST structure pointer [Security], TIMESTAMP_VERSION, security.crypt_timestamp_request, wincrypt/CRYPT_TIMESTAMP_REQUEST, wincrypt/PCRYPT_TIMESTAMP_REQUEST"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_TIMESTAMP_REQUEST"]
+f1_keywords: 
+ - "wincrypt/CRYPT_TIMESTAMP_REQUEST"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

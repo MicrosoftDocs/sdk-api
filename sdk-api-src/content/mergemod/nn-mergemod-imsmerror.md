@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, mergemod/IMsmError, setup.imsmerror_interface
 ms.topic: interface
-f1_keywords: ["mergemod/IMsmError"]
+f1_keywords: 
+ - "mergemod/IMsmError"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

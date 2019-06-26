@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
 ms.topic: callback
-f1_keywords: ["winfax/PFAXINITIALIZEEVENTQUEUE"]
+f1_keywords: 
+ - "winfax/PFAXINITIALIZEEVENTQUEUE"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

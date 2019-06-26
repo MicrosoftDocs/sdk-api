@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],IpVersion property, INetFwOpenPort.IpVersion, INetFwOpenPort.get_IpVersion, INetFwOpenPort::IpVersion, INetFwOpenPort::get_IpVersion, INetFwOpenPort::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwOpenPort interface, get_IpVersion, ics.inetfwopenport_ipversion, netfw/INetFwOpenPort::IpVersion, netfw/INetFwOpenPort::get_IpVersion, netfw/INetFwOpenPort::put_IpVersion
 ms.topic: method
-f1_keywords: ["netfw/INetFwOpenPort.IpVersion"]
+f1_keywords: 
+ - "netfw/INetFwOpenPort.IpVersion"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

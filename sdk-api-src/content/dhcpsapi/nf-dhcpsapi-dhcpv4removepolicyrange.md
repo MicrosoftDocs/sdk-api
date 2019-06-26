@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4RemovePolicyRange, DhcpV4RemovePolicyRange function [DHCP], dhcp.dhcpv4removepolicyrange, dhcpsapi/DhcpV4RemovePolicyRange
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4RemovePolicyRange"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4RemovePolicyRange"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

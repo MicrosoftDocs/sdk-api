@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast class [GDI+],SetParameters method, BrightnessContrast.SetParameters, BrightnessContrast::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_SetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/BrightnessContrast.SetParameters"]
+f1_keywords: 
+ - "gdipluseffects/BrightnessContrast.SetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

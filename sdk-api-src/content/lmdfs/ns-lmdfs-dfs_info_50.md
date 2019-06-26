@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_50, *PDFS_INFO_50, DFS_INFO_50, DFS_INFO_50 structure [Distributed File System], DFS_NAMESPACE_CAPABILITY_ABDE, PDFS_INFO_50, PDFS_INFO_50 structure pointer [Distributed File System], dfs.dfs_info_50, fs.dfs_info_50, lmdfs/DFS_INFO_50, lmdfs/PDFS_INFO_50"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_INFO_50"]
+f1_keywords: 
+ - "lmdfs/DFS_INFO_50"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

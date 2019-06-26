@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCloseServiceProxy, WsCloseServiceProxy function [Web Services for Windows], webservices/WsCloseServiceProxy, wsw.wscloseserviceproxy
 ms.topic: function
-f1_keywords: ["webservices/WsCloseServiceProxy"]
+f1_keywords: 
+ - "webservices/WsCloseServiceProxy"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

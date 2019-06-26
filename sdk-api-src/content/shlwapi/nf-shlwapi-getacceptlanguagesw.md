@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
 ms.topic: function
-f1_keywords: ["shlwapi/GetAcceptLanguages"]
+f1_keywords: 
+ - "shlwapi/GetAcceptLanguages"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

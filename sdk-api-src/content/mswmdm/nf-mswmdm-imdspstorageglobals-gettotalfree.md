@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IMDSPStorageGlobals.GetTotalFree, IMDSPStorageGlobals::GetTotalFree, IMDSPStorageGlobalsGetTotalFree, mswmdm/IMDSPStorageGlobals::GetTotalFree, wmdm.imdspstorageglobals_gettotalfree
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorageGlobals.GetTotalFree"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorageGlobals.GetTotalFree"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

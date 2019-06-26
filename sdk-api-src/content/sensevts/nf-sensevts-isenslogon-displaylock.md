@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
 ms.topic: method
-f1_keywords: ["sensevts/ISensLogon.DisplayLock"]
+f1_keywords: 
+ - "sensevts/ISensLogon.DisplayLock"
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

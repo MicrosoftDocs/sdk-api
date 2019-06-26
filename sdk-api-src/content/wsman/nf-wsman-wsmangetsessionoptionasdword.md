@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
 ms.topic: function
-f1_keywords: ["wsman/WSManGetSessionOptionAsDword"]
+f1_keywords: 
+ - "wsman/WSManGetSessionOptionAsDword"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

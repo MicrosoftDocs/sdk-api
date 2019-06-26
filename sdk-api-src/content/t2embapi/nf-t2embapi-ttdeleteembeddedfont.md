@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont
 ms.topic: function
-f1_keywords: ["t2embapi/TTDeleteEmbeddedFont"]
+f1_keywords: 
+ - "t2embapi/TTDeleteEmbeddedFont"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

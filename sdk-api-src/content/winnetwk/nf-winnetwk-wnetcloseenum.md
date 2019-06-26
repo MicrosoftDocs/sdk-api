@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetCloseEnum, WNetCloseEnum function [Windows Networking (WNet)], _win32_wnetcloseenum, winnetwk/WNetCloseEnum, wnet.wnetcloseenum
 ms.topic: function
-f1_keywords: ["winnetwk/WNetCloseEnum"]
+f1_keywords: 
+ - "winnetwk/WNetCloseEnum"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

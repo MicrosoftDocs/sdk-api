@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary.CreateDiscreteTransition, IUIAnimationTransitionLibrary::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateDiscreteTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateDiscreteTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

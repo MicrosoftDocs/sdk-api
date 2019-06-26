@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CERTIFICATE_VALIDATION_CALLBACK, WS_CERTIFICATE_VALIDATION_CALLBACK callback, WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERTIFICATE_VALIDATION_CALLBACK, wsw.ws_certificate_validation_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_CERTIFICATE_VALIDATION_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_CERTIFICATE_VALIDATION_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

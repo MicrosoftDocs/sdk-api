@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetConnection method, IMbnInterface.GetConnection, IMbnInterface::GetConnection, mbn.imbninterface_getconnection, mbnapi/IMbnInterface::GetConnection
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterface.GetConnection"]
+f1_keywords: 
+ - "mbnapi/IMbnInterface.GetConnection"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

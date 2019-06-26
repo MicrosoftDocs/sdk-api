@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER structure [DNS], PDNS_MESSAGE_BUFFER, PDNS_MESSAGE_BUFFER structure pointer [DNS], _dns_dns_message_buffer, dns.dns_message_buffer, windns/DNS_MESSAGE_BUFFER, windns/PDNS_MESSAGE_BUFFER"
 ms.topic: struct
-f1_keywords: ["windns/DNS_MESSAGE_BUFFER"]
+f1_keywords: 
+ - "windns/DNS_MESSAGE_BUFFER"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

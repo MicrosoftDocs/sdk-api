@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusEvent method, IDXGIFactory2.RegisterOcclusionStatusEvent, IDXGIFactory2::RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent, RegisterOcclusionStatusEvent method [DXGI], RegisterOcclusionStatusEvent method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatusevent, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusEvent
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIFactory2.RegisterOcclusionStatusEvent"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIFactory2.RegisterOcclusionStatusEvent"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

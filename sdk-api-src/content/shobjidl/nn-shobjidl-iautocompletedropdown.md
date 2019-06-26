@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
 ms.topic: interface
-f1_keywords: ["shobjidl/IAutoCompleteDropDown"]
+f1_keywords: 
+ - "shobjidl/IAutoCompleteDropDown"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

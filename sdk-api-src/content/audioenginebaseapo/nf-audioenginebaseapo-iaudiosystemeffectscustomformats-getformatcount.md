@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatCount, GetFormatCount method [Audio Devices], GetFormatCount method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatCount method, IAudioSystemEffectsCustomFormats.GetFormatCount, IAudioSystemEffectsCustomFormats::GetFormatCount, audio.iaudiosystemeffectscustomformats_getformatcount, audio_syseffects_r_1f186185-3eb9-4683-a2e1-bbcc9598943d.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatCount
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatCount"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatCount"
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop

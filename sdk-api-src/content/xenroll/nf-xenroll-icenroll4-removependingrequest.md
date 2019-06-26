@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 interface [Security],removePendingRequest method, ICEnroll4.removePendingRequest, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest, removePendingRequest method [Security], removePendingRequest method [Security],CEnroll object, removePendingRequest method [Security],ICEnroll4 interface, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.removePendingRequest"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.removePendingRequest"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

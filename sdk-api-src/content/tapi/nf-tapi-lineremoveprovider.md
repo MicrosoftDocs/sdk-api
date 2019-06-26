@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineremoveprovider, lineRemoveProvider, lineRemoveProvider function [TAPI 2.2], tapi/lineRemoveProvider, tapi2.lineremoveprovider"
 ms.topic: function
-f1_keywords: ["tapi/lineRemoveProvider"]
+f1_keywords: 
+ - "tapi/lineRemoveProvider"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.topic: function
-f1_keywords: ["winbase/LookupAccountSid"]
+f1_keywords: 
+ - "winbase/LookupAccountSid"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

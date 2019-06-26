@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
 ms.topic: function
-f1_keywords: ["msi/MsiUseFeature"]
+f1_keywords: 
+ - "msi/MsiUseFeature"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

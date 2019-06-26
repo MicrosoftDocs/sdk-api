@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBlendState method, ID3D11Device.CreateBlendState, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateBlendState"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateBlendState"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

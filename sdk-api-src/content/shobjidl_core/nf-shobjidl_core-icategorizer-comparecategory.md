@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICategorizer.CompareCategory"]
+f1_keywords: 
+ - "shobjidl_core/ICategorizer.CompareCategory"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

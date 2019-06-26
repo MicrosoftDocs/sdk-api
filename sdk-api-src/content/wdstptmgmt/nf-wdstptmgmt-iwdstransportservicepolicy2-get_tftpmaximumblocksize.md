@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],TftpMaximumBlockSize property, IWdsTransportServicePolicy2.TftpMaximumBlockSize, IWdsTransportServicePolicy2.get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::TftpMaximumBlockSize, IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::put_TftpMaximumBlockSize, TftpMaximumBlockSize property [Windows Deployment Services], TftpMaximumBlockSize property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, get_TftpMaximumBlockSize, wds.iwdstransportservicepolicy2_tftpmaximumblocksize, wdstptmgmt/IWdsTransportServicePolicy2::TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy2.TftpMaximumBlockSize"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServicePolicy2.TftpMaximumBlockSize"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

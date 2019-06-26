@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
 ms.topic: interface
-f1_keywords: ["strmif/IAMExtTransport"]
+f1_keywords: 
+ - "strmif/IAMExtTransport"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

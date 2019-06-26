@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_playlistCollection"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_playlistCollection"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

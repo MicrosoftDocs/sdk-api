@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamAttributesManager, IMFMuxStreamAttributesManager interface [Media Foundation], IMFMuxStreamAttributesManager interface [Media Foundation],described, mf.imfmuxstreamattributesmanager, mfobjects/IMFMuxStreamAttributesManager
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFMuxStreamAttributesManager"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamAttributesManager"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

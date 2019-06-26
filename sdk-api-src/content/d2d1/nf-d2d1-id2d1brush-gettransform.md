@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [Direct2D], GetTransform method [Direct2D],ID2D1Brush interface, ID2D1Brush interface [Direct2D],GetTransform method, ID2D1Brush.GetTransform, ID2D1Brush::GetTransform, d2d1/ID2D1Brush::GetTransform, direct2d.ID2D1Brush_GetTransform
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Brush.GetTransform"]
+f1_keywords: 
+ - "d2d1/ID2D1Brush.GetTransform"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

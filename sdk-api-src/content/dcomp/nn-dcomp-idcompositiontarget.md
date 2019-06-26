@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget, IDCompositionTarget interface [DirectComposition], IDCompositionTarget interface [DirectComposition],described, dcomp/IDCompositionTarget, directcomp.idcompositiontarget
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionTarget"]
+f1_keywords: 
+ - "dcomp/IDCompositionTarget"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

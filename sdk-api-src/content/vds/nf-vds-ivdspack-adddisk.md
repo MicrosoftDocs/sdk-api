@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.AddDisk"]
+f1_keywords: 
+ - "vds/IVdsPack.AddDisk"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

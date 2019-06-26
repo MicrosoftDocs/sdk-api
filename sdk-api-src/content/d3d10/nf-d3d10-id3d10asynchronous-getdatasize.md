@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 18babc8a-b4ee-3a1f-77f3-2020431b0222, GetDataSize, GetDataSize method [Direct3D 10], GetDataSize method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetDataSize method, ID3D10Asynchronous.GetDataSize, ID3D10Asynchronous::GetDataSize, d3d10/ID3D10Asynchronous::GetDataSize, direct3d10.id3d10asynchronous_getdatasize
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Asynchronous.GetDataSize"]
+f1_keywords: 
+ - "d3d10/ID3D10Asynchronous.GetDataSize"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

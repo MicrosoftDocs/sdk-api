@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf], PdhGetDefaultPerfCounterHA, PdhGetDefaultPerfCounterHW, _win32_pdhgetdefaultperfcounterh, base.pdhgetdefaultperfcounterh, pdh/PdhGetDefaultPerfCounterH, pdh/PdhGetDefaultPerfCounterHA, pdh/PdhGetDefaultPerfCounterHW, perf.pdhgetdefaultperfcounterh
 ms.topic: function
-f1_keywords: ["pdh/PdhGetDefaultPerfCounterH"]
+f1_keywords: 
+ - "pdh/PdhGetDefaultPerfCounterH"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

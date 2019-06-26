@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_IPS_FAILED, VDS_IPS_NOT_READY, VDS_IPS_OFFLINE, VDS_IPS_ONLINE, VDS_IPS_UNKNOWN, VDS_ISCSI_PORTAL_STATUS, VDS_ISCSI_PORTAL_STATUS enumeration [VDS], base.vds_iscsi_portal_status, vds/VDS_IPS_FAILED, vds/VDS_IPS_NOT_READY, vds/VDS_IPS_OFFLINE, vds/VDS_IPS_ONLINE, vds/VDS_IPS_UNKNOWN, vds/VDS_ISCSI_PORTAL_STATUS, vdshwprv/VDS_IPS_FAILED, vdshwprv/VDS_IPS_NOT_READY, vdshwprv/VDS_IPS_OFFLINE, vdshwprv/VDS_IPS_ONLINE, vdshwprv/VDS_IPS_UNKNOWN, vdshwprv/VDS_ISCSI_PORTAL_STATUS
 ms.topic: enum
-f1_keywords: ["vds/VDS_ISCSI_PORTAL_STATUS"]
+f1_keywords: 
+ - "vds/VDS_ISCSI_PORTAL_STATUS"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

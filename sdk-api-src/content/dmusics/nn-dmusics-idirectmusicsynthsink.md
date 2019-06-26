@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
 ms.topic: interface
-f1_keywords: ["dmusics/IDirectMusicSynthSink"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynthSink"
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

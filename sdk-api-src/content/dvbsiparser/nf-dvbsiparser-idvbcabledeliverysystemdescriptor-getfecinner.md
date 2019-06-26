@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbCableDeliverySystemDescriptor.GetFECInner, IDvbCableDeliverySystemDescriptor::GetFECInner, IDvbCableDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFECInner, mstv.idvbcabledeliverysystemdescriptor_getfecinner
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFECInner"]
+f1_keywords: 
+ - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFECInner"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
 ms.topic: interface
-f1_keywords: ["sensorsapi/ILocationPermissions"]
+f1_keywords: 
+ - "sensorsapi/ILocationPermissions"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

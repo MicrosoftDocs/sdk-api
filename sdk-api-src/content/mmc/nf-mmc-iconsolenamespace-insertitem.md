@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace interface [MMC],InsertItem method, IConsoleNameSpace.InsertItem, IConsoleNameSpace2 interface [MMC],InsertItem method, IConsoleNameSpace2::InsertItem, IConsoleNameSpace::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IConsoleNameSpace interface, InsertItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_insertitem, mmc.iconsolenamespace2_insertitem, mmc/IConsoleNameSpace2::InsertItem, mmc/IConsoleNameSpace::InsertItem
 ms.topic: method
-f1_keywords: ["mmc/IConsoleNameSpace.InsertItem"]
+f1_keywords: 
+ - "mmc/IConsoleNameSpace.InsertItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

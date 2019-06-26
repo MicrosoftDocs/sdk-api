@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
 ms.topic: function
-f1_keywords: ["wincrypt/CryptCreateKeyIdentifierFromCSP"]
+f1_keywords: 
+ - "wincrypt/CryptCreateKeyIdentifierFromCSP"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

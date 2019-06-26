@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Commit method, IFsrmObject.Commit, IFsrmObject::Commit, fs.ifsrmobject_commit, fsrm.ifsrmobject_commit, fsrm/IFsrmObject::Commit
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmObject.Commit"]
+f1_keywords: 
+ - "fsrm/IFsrmObject.Commit"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

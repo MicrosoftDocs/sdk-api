@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UalStop, UalStop function [User Access Logging], ual.ualstop, ual/UalStop
 ms.topic: function
-f1_keywords: ["ual/UalStop"]
+f1_keywords: 
+ - "ual/UalStop"
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

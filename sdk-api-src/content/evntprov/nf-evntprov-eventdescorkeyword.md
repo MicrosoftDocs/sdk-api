@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
 ms.topic: function
-f1_keywords: ["evntprov/EventDescOrKeyword"]
+f1_keywords: 
+ - "evntprov/EventDescOrKeyword"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

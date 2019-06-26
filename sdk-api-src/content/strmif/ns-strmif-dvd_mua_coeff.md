@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff
 ms.topic: struct
-f1_keywords: ["strmif/DVD_MUA_Coeff"]
+f1_keywords: 
+ - "strmif/DVD_MUA_Coeff"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

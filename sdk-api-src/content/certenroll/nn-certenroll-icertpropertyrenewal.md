@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal
 ms.topic: interface
-f1_keywords: ["certenroll/ICertPropertyRenewal"]
+f1_keywords: 
+ - "certenroll/ICertPropertyRenewal"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

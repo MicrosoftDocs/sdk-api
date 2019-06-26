@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsValidateSubnetName"]
+f1_keywords: 
+ - "dsgetdc/DsValidateSubnetName"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

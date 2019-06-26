@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
 ms.topic: method
-f1_keywords: ["control/IAMStats.GetIndex"]
+f1_keywords: 
+ - "control/IAMStats.GetIndex"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

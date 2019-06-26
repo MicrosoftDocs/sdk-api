@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
 ms.topic: function
-f1_keywords: ["shlobj_core/SHCreateDirectoryEx"]
+f1_keywords: 
+ - "shlobj_core/SHCreateDirectoryEx"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

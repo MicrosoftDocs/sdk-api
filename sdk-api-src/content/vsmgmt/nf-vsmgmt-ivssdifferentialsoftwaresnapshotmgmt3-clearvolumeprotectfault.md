@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 ms.topic: method
-f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault"]
+f1_keywords: 
+ - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

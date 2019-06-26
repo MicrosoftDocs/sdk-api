@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_SOCKADDR, NLM_SOCKADDR structure [Network Awareness], PNLM_SOCKADDR, PNLM_SOCKADDR structure pointer [Network Awareness], netlistmgr/NLM_SOCKADDR, netlistmgr/PNLM_SOCKADDR, nla.nlm_sockaddr
 ms.topic: struct
-f1_keywords: ["netlistmgr/NLM_SOCKADDR"]
+f1_keywords: 
+ - "netlistmgr/NLM_SOCKADDR"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

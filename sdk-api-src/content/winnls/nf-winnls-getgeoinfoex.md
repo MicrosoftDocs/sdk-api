@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
 ms.topic: function
-f1_keywords: ["winnls/GetGeoInfoEx"]
+f1_keywords: 
+ - "winnls/GetGeoInfoEx"
 req.header: winnls.h
 req.include-header: 
 req.target-type: Windows

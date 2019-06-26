@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRevision, GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetRevision method, IWMDeviceManager.GetRevision, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDeviceManager.GetRevision"]
+f1_keywords: 
+ - "mswmdm/IWMDeviceManager.GetRevision"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

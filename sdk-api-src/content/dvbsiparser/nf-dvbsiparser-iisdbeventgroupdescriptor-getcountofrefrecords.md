@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRefRecords, GetCountOfRefRecords method [Microsoft TV Technologies], GetCountOfRefRecords method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRefRecords method, IIsdbEventGroupDescriptor.GetCountOfRefRecords, IIsdbEventGroupDescriptor::GetCountOfRefRecords, dvbsiparser/IIsdbEventGroupDescriptor::GetCountOfRefRecords, mstv.iisdbeventgroupdescriptor_getcountofrefrecords
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbEventGroupDescriptor.GetCountOfRefRecords"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEventGroupDescriptor.GetCountOfRefRecords"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

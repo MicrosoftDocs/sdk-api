@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelInit, VirtualChannelInit callback, VirtualChannelInit callback function [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
 ms.topic: callback
-f1_keywords: ["cchannel/VirtualChannelInit"]
+f1_keywords: 
+ - "cchannel/VirtualChannelInit"
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

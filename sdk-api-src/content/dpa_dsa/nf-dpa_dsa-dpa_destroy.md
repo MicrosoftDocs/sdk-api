@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_Destroy, DPA_Destroy function [Windows Controls], _win32_DPA_Destroy, _win32_DPA_Destroy_cpp, controls.DPA_Destroy, controls._win32_DPA_Destroy, dpa_dsa/DPA_Destroy
 ms.topic: function
-f1_keywords: ["dpa_dsa/DPA_Destroy"]
+f1_keywords: 
+ - "dpa_dsa/DPA_Destroy"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

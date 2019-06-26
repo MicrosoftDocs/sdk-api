@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.topic: function
-f1_keywords: ["winbase/CopyContext"]
+f1_keywords: 
+ - "winbase/CopyContext"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

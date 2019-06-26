@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfEnvironmentType, SpatialAudioHrtfEnvironmentType enumeration [Core Audio], SpatialAudioHrtfEnvironment_Average, SpatialAudioHrtfEnvironment_Large, SpatialAudioHrtfEnvironment_Medium, SpatialAudioHrtfEnvironment_Outdoors, SpatialAudioHrtfEnvironment_Small, coreaudio.spatialaudiohrtfenvironmenttype, spatialaudiohrtf/SpatialAudioHrtfEnvironmentType, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors, spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small
 ms.topic: enum
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfEnvironmentType"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfEnvironmentType"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

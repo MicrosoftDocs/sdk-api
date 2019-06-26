@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_BYTE_VECTOR"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_BYTE_VECTOR"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

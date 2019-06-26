@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetStreamFlags method, IAudioEndpoint.SetStreamFlags, IAudioEndpoint::SetStreamFlags, SetStreamFlags, SetStreamFlags method [Remote Desktop Services], SetStreamFlags method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetStreamFlags, termserv.iaudioendpoint_setstreamflags
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpoint.SetStreamFlags"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpoint.SetStreamFlags"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

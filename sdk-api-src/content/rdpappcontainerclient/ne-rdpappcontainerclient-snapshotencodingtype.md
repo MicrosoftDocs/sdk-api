@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnapshotEncodingDataUri, SnapshotEncodingType, SnapshotEncodingType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotEncodingDataUri, rdpappcontainerclient/SnapshotEncodingType, termserv.snapshotencodingtype
 ms.topic: enum
-f1_keywords: ["rdpappcontainerclient/SnapshotEncodingType"]
+f1_keywords: 
+ - "rdpappcontainerclient/SnapshotEncodingType"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

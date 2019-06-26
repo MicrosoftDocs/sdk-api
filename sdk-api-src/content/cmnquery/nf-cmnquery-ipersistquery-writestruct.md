@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteStruct method, IPersistQuery.WriteStruct, IPersistQuery::WriteStruct, WriteStruct, WriteStruct method [Active Directory], WriteStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestruct, ad.ipersistquery__writestruct, ad.ipersistquery_writestruct, cmnquery/IPersistQuery::WriteStruct
 ms.topic: method
-f1_keywords: ["cmnquery/IPersistQuery.WriteStruct"]
+f1_keywords: 
+ - "cmnquery/IPersistQuery.WriteStruct"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

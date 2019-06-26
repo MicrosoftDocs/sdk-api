@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
 ms.topic: method
-f1_keywords: ["effects/IWMPEffects.Render"]
+f1_keywords: 
+ - "effects/IWMPEffects.Render"
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

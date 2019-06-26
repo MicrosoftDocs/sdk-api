@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateImageEncoder, CreateImageEncoder method [Windows Imaging Component], CreateImageEncoder method [Windows Imaging Component],IWICImagingFactory2 interface, IWICImagingFactory2 interface [Windows Imaging Component],CreateImageEncoder method, IWICImagingFactory2.CreateImageEncoder, IWICImagingFactory2::CreateImageEncoder, wic.iwicimagingfactory2_createimageencoder, wincodec/IWICImagingFactory2::CreateImageEncoder
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory2.CreateImageEncoder"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory2.CreateImageEncoder"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

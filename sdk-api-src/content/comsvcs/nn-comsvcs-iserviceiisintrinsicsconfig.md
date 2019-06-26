@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IServiceIISIntrinsicsConfig interface [COM+],described, _cos_IServiceIISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig
 ms.topic: interface
-f1_keywords: ["comsvcs/IServiceIISIntrinsicsConfig"]
+f1_keywords: 
+ - "comsvcs/IServiceIISIntrinsicsConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

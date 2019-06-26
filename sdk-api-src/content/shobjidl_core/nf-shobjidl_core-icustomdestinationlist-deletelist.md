@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],DeleteList method, ICustomDestinationList.DeleteList, ICustomDestinationList::DeleteList, _shell_ICustomDestinationList_DeleteList, shell.ICustomDestinationList_DeleteList, shobjidl_core/ICustomDestinationList::DeleteList
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICustomDestinationList.DeleteList"]
+f1_keywords: 
+ - "shobjidl_core/ICustomDestinationList.DeleteList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

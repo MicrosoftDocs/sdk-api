@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADDRESS_PREFIX, IP_ADDRESS_PREFIX, IP_ADDRESS_PREFIX structure [IP Helper], PIP_ADDRESS_PREFIX, PIP_ADDRESS_PREFIX structure pointer [IP Helper], _IP_ADDRESS_PREFIX, iphlp.ip_address_prefix, netioapi/IP_ADDRESS_PREFIX, netioapi/PIP_ADDRESS_PREFIX"
 ms.topic: struct
-f1_keywords: ["netioapi/IP_ADDRESS_PREFIX"]
+f1_keywords: 
+ - "netioapi/IP_ADDRESS_PREFIX"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

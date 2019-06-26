@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],DeviceId property, IFaxOutboundRoutingRule.DeviceId, IFaxOutboundRoutingRule.get_DeviceId, IFaxOutboundRoutingRule.put_DeviceId, IFaxOutboundRoutingRule::DeviceId, IFaxOutboundRoutingRule::get_DeviceId, IFaxOutboundRoutingRule::put_DeviceId, _mfax_faxoutboundroutingrule.deviceid, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_deviceid_cpp, fax._mfax_faxoutboundroutingrule_deviceid, faxcomex/IFaxOutboundRoutingRule::DeviceId, faxcomex/IFaxOutboundRoutingRule::get_DeviceId, faxcomex/IFaxOutboundRoutingRule::put_DeviceId, get_DeviceId
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingRule.DeviceId"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingRule.DeviceId"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

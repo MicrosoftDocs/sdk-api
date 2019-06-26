@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainers function [ICS/ICF], ics.networkisolationfreeappcontainers, networkisolation/NetworkIsolationFreeAppContainers
 ms.topic: function
-f1_keywords: ["netfw/NetworkIsolationFreeAppContainers"]
+f1_keywords: 
+ - "netfw/NetworkIsolationFreeAppContainers"
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

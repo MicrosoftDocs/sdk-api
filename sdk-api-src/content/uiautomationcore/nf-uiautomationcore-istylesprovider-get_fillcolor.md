@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillColor property [Windows Accessibility], FillColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillColor property, IStylesProvider.FillColor, IStylesProvider.get_FillColor, IStylesProvider::FillColor, IStylesProvider::get_FillColor, get_FillColor, uiautomationcore/IStylesProvider::FillColor, uiautomationcore/IStylesProvider::get_FillColor, winauto.uiauto_istylesprovider_fillcolor
 ms.topic: method
-f1_keywords: ["uiautomationcore/IStylesProvider.FillColor"]
+f1_keywords: 
+ - "uiautomationcore/IStylesProvider.FillColor"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

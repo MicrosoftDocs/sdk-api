@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetCount method, ISyncMgrConflictItems.GetCount, ISyncMgrConflictItems::GetCount, _shell_ISyncMgrConflictItems_GetCount, shell.ISyncMgrConflictItems_GetCount, syncmgr/ISyncMgrConflictItems::GetCount
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictItems.GetCount"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictItems.GetCount"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

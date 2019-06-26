@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveNamespaceAt method, IWbemPath.RemoveNamespaceAt, IWbemPath::RemoveNamespaceAt, RemoveNamespaceAt, RemoveNamespaceAt method [Windows Management Instrumentation], RemoveNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removenamespaceat, wmi.iwbempath_removenamespaceat, wmiutils/IWbemPath::RemoveNamespaceAt
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.RemoveNamespaceAt"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.RemoveNamespaceAt"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],UnselectTerminalOnCall method, ITBasicCallControl2.UnselectTerminalOnCall, ITBasicCallControl2::UnselectTerminalOnCall, UnselectTerminalOnCall, UnselectTerminalOnCall method [TAPI 2.2], UnselectTerminalOnCall method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_unselectterminaloncall, tapi3.itbasiccallcontrol2_unselectterminaloncall, tapi3if/ITBasicCallControl2::UnselectTerminalOnCall
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl2.UnselectTerminalOnCall"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl2.UnselectTerminalOnCall"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

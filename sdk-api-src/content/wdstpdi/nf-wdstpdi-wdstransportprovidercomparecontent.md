@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCompareContent, WdsTransportProviderCompareContent callback, WdsTransportProviderCompareContent callback function [Windows Deployment Services], wds.wdstransportprovidercomparecontent, wdstpdi/WdsTransportProviderCompareContent
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderCompareContent"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderCompareContent"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

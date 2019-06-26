@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopDpi, GetDesktopDpi method [Direct2D], GetDesktopDpi method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],GetDesktopDpi method, ID2D1Factory.GetDesktopDpi, ID2D1Factory::GetDesktopDpi, d2d1/ID2D1Factory::GetDesktopDpi, direct2d.ID2D1Factory_GetDesktopDpi
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Factory.GetDesktopDpi"]
+f1_keywords: 
+ - "d2d1/ID2D1Factory.GetDesktopDpi"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

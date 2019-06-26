@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION structure, base.win32_memory_region_information, memoryapi/WIN32_MEMORY_REGION_INFORMATION
 ms.topic: struct
-f1_keywords: ["memoryapi/WIN32_MEMORY_REGION_INFORMATION"]
+f1_keywords: 
+ - "memoryapi/WIN32_MEMORY_REGION_INFORMATION"
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

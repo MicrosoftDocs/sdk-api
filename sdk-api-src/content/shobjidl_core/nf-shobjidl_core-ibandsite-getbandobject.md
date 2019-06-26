@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBandObject, GetBandObject method [Windows Shell], GetBandObject method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],GetBandObject method, IBandSite.GetBandObject, IBandSite::GetBandObject, _win32_IBandSite_GetBandObject, shell.IBandSite_GetBandObject, shobjidl_core/IBandSite::GetBandObject
 ms.topic: method
-f1_keywords: ["shobjidl_core/IBandSite.GetBandObject"]
+f1_keywords: 
+ - "shobjidl_core/IBandSite.GetBandObject"
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

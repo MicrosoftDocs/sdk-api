@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"]
+f1_keywords: 
+ - "wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

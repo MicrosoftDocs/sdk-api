@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
 ms.topic: function
-f1_keywords: ["physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"]
+f1_keywords: 
+ - "physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

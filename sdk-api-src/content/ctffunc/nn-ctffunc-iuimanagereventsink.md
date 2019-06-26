@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], IUIManagerEventSink interface [Text Services Framework],described, ctffunc/IUIManagerEventSink, tsf.iuimanagereventsink
 ms.topic: interface
-f1_keywords: ["ctffunc/IUIManagerEventSink"]
+f1_keywords: 
+ - "ctffunc/IUIManagerEventSink"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

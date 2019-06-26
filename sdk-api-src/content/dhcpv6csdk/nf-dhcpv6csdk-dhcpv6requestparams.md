@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestParams, Dhcpv6RequestParams function [DHCP], dhcp.dhcpv6requestparams, dhcpv6csdk/Dhcpv6RequestParams
 ms.topic: function
-f1_keywords: ["dhcpv6csdk/Dhcpv6RequestParams"]
+f1_keywords: 
+ - "dhcpv6csdk/Dhcpv6RequestParams"
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

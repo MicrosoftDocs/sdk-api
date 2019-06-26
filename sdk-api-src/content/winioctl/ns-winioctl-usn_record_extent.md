@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT, PUSN_RECORD_EXTENT structure pointer [Files], USN_RECORD_EXTENT, USN_RECORD_EXTENT structure [Files], fs.usn_record_extent, winioctl/PUSN_RECORD_EXTENT, winioctl/USN_RECORD_EXTENT"
 ms.topic: struct
-f1_keywords: ["winioctl/USN_RECORD_EXTENT"]
+f1_keywords: 
+ - "winioctl/USN_RECORD_EXTENT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

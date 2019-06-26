@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA structure [Display Devices], ddrawint/DD_GETFLIPSTATUSDATA, ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml, display.dd_getflipstatusdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_GETFLIPSTATUSDATA"]
+f1_keywords: 
+ - "ddrawint/DD_GETFLIPSTATUSDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

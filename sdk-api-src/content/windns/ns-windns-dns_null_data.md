@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_NULL_DATA"]
+f1_keywords: 
+ - "windns/DNS_NULL_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

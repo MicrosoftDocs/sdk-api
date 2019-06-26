@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets function [HLSL], d3dcompiler/D3DGetTraceInstructionOffsets, direct3dhlsl.d3dgettraceinstructionoffsets
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DGetTraceInstructionOffsets"]
+f1_keywords: 
+ - "d3dcompiler/D3DGetTraceInstructionOffsets"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

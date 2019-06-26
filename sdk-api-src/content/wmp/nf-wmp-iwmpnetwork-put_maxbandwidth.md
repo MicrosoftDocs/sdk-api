@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],put_maxBandwidth method, IWMPNetwork.put_maxBandwidth, IWMPNetwork::put_maxBandwidth, IWMPNetworkput_maxBandwidth, put_maxBandwidth, put_maxBandwidth method [Windows Media Player], put_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_put_maxbandwidth, wmp/IWMPNetwork::put_maxBandwidth
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.put_maxBandwidth"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.put_maxBandwidth"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

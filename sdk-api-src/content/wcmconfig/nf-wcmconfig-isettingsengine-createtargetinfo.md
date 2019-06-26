@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTargetInfo, CreateTargetInfo method [SMI], CreateTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateTargetInfo method, ISettingsEngine.CreateTargetInfo, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsEngine.CreateTargetInfo"]
+f1_keywords: 
+ - "wcmconfig/ISettingsEngine.CreateTargetInfo"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

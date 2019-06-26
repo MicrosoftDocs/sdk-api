@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime
 ms.topic: function
-f1_keywords: ["fileapi/LocalFileTimeToFileTime"]
+f1_keywords: 
+ - "fileapi/LocalFileTimeToFileTime"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

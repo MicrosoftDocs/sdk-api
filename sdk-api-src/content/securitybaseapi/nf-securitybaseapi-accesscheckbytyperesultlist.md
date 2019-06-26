@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [Security], _win32_accesscheckbytyperesultlist, security.accesscheckbytyperesultlist, securitybaseapi/AccessCheckByTypeResultList
 ms.topic: function
-f1_keywords: ["securitybaseapi/AccessCheckByTypeResultList"]
+f1_keywords: 
+ - "securitybaseapi/AccessCheckByTypeResultList"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

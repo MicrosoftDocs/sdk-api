@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartOfLeadoutLimit method, IRawCDImageCreator.put_StartOfLeadoutLimit, IRawCDImageCreator::put_StartOfLeadoutLimit, imapi.irawcdimagecreator_put_startofleadoutlimit, imapi2/IRawCDImageCreator::put_StartOfLeadoutLimit, put_StartOfLeadoutLimit, put_StartOfLeadoutLimit method [IMAPI], put_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.put_StartOfLeadoutLimit"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.put_StartOfLeadoutLimit"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

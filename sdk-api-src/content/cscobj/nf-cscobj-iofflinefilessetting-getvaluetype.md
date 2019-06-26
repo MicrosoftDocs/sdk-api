@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueType, GetValueType method [Offline Files], GetValueType method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValueType method, IOfflineFilesSetting.GetValueType, IOfflineFilesSetting::GetValueType, cscobj/IOfflineFilesSetting::GetValueType, of.iofflinefilessetting_getvaluetype
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSetting.GetValueType"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting.GetValueType"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

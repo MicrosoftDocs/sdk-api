@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneFromPoints, XMPlaneFromPoints, XMPlaneFromPoints method [DirectX Math Support APIs], dxmath.xmplanefrompoints
 ms.topic: function
-f1_keywords: ["directxmath/XMPlaneFromPoints"]
+f1_keywords: 
+ - "directxmath/XMPlaneFromPoints"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

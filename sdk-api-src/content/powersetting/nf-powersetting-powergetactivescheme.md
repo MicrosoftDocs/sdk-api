@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme
 ms.topic: function
-f1_keywords: ["powersetting/PowerGetActiveScheme"]
+f1_keywords: 
+ - "powersetting/PowerGetActiveScheme"
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

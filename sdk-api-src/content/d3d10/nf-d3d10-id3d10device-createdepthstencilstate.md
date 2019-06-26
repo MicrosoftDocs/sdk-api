@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState method [Direct3D 10], CreateDepthStencilState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateDepthStencilState method, ID3D10Device.CreateDepthStencilState, ID3D10Device::CreateDepthStencilState, a3a47d35-efaa-1c5f-3cb4-492e0e20a0b0, d3d10/ID3D10Device::CreateDepthStencilState, direct3d10.id3d10device_createdepthstencilstate
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CreateDepthStencilState"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CreateDepthStencilState"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

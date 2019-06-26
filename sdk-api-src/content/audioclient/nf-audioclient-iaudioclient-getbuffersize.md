@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Core Audio], GetBufferSize method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetBufferSize method, IAudioClient.GetBufferSize, IAudioClient::GetBufferSize, IAudioClientGetBufferSize, audioclient/IAudioClient::GetBufferSize, coreaudio.iaudioclient_getbuffersize
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClient.GetBufferSize"]
+f1_keywords: 
+ - "audioclient/IAudioClient.GetBufferSize"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

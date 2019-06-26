@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX method, IDCompositionSkewTransform.SetCenterX, IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX, IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterX, directcomp.idcompositionskewtransform_setcenterx_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSkewTransform.SetCenterX"]
+f1_keywords: 
+ - "dcomp/IDCompositionSkewTransform.SetCenterX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

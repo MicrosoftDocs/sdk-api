@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPropertyBrowsing interface [COM],described, _ctrl_iperpropertybrowsing, com.iperpropertybrowsing, ocidl/IPerPropertyBrowsing
 ms.topic: interface
-f1_keywords: ["ocidl/IPerPropertyBrowsing"]
+f1_keywords: 
+ - "ocidl/IPerPropertyBrowsing"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

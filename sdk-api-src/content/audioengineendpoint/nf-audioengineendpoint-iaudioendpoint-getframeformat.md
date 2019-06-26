@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrameFormat, GetFrameFormat method [Remote Desktop Services], GetFrameFormat method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFrameFormat method, IAudioEndpoint.GetFrameFormat, IAudioEndpoint::GetFrameFormat, audioengineendpoint/IAudioEndpoint::GetFrameFormat, termserv.iaudioendpoint_getframeformat
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpoint.GetFrameFormat"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpoint.GetFrameFormat"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

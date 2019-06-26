@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MERGE_VIRTUAL_DISK_FLAG, MERGE_VIRTUAL_DISK_FLAG enumeration [VHD], MERGE_VIRTUAL_DISK_FLAG_NONE, vdssys/MERGE_VIRTUAL_DISK_FLAG, vdssys/MERGE_VIRTUAL_DISK_FLAG_NONE, vhd.merge_virtual_disk_flag, virtdisk/MERGE_VIRTUAL_DISK_FLAG, virtdisk/MERGE_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
-f1_keywords: ["virtdisk/MERGE_VIRTUAL_DISK_FLAG"]
+f1_keywords: 
+ - "virtdisk/MERGE_VIRTUAL_DISK_FLAG"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

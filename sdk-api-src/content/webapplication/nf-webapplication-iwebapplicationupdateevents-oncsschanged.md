@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnCssChanged method, IWebApplicationUpdateEvents.OnCssChanged, IWebApplicationUpdateEvents::OnCssChanged, OnCssChanged, OnCssChanged method [Debugging Windows Store apps], OnCssChanged method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_oncsschanged, webapplication/IWebApplicationUpdateEvents::OnCssChanged
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationUpdateEvents.OnCssChanged"]
+f1_keywords: 
+ - "webapplication/IWebApplicationUpdateEvents.OnCssChanged"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

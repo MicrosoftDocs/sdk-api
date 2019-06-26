@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
 ms.topic: interface
-f1_keywords: ["comadmin/ICatalogCollection"]
+f1_keywords: 
+ - "comadmin/ICatalogCollection"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

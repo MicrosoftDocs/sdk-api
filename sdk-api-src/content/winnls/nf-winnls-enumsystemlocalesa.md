@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
 ms.topic: function
-f1_keywords: ["winnls/EnumSystemLocales"]
+f1_keywords: 
+ - "winnls/EnumSystemLocales"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

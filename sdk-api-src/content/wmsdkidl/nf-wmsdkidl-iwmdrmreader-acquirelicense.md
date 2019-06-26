@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcquireLicense, AcquireLicense method [windows Media Format], AcquireLicense method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],AcquireLicense method, IWMDRMReader.AcquireLicense, IWMDRMReader::AcquireLicense, IWMDRMReaderAcquireLicense, wmformat.iwmdrmreader_acquirelicense, wmsdkidl/IWMDRMReader::AcquireLicense
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader.AcquireLicense"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader.AcquireLicense"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

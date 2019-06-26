@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], ITextStrings interface [Windows Controls],described, controls.itextstrings, tom/ITextStrings
 ms.topic: interface
-f1_keywords: ["tom/ITextStrings"]
+f1_keywords: 
+ - "tom/ITextStrings"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

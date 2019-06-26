@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetDataBroadcastID method, IDvbDataBroadcastIDDescriptor.GetDataBroadcastID, IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbDataBroadcastIDDescriptor.GetDataBroadcastID"]
+f1_keywords: 
+ - "dvbsiparser/IDvbDataBroadcastIDDescriptor.GetDataBroadcastID"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

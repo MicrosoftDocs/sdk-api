@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_MediaType method, ITStream.get_MediaType, ITStream::get_MediaType, _tapi3_itstream_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITStream interface, tapi3.itstream_get_mediatype, tapi3if/ITStream::get_MediaType
 ms.topic: method
-f1_keywords: ["tapi3if/ITStream.get_MediaType"]
+f1_keywords: 
+ - "tapi3if/ITStream.get_MediaType"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

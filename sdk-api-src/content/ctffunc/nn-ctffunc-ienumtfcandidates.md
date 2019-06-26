@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates, IEnumTfCandidates interface [Text Services Framework], IEnumTfCandidates interface [Text Services Framework],described, _tsf_ienumtfcandidates_ref, ctffunc/IEnumTfCandidates, tsf.ienumtfcandidates
 ms.topic: interface
-f1_keywords: ["ctffunc/IEnumTfCandidates"]
+f1_keywords: 
+ - "ctffunc/IEnumTfCandidates"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

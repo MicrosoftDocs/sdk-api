@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
 ms.topic: function
-f1_keywords: ["winbase/SetProcessDEPPolicy"]
+f1_keywords: 
+ - "winbase/SetProcessDEPPolicy"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

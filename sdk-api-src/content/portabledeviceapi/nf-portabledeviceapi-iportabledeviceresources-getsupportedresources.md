@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedResources, GetSupportedResources method [Windows Portable Devices SDK], GetSupportedResources method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetSupportedResources method, IPortableDeviceResources.GetSupportedResources, IPortableDeviceResources::GetSupportedResources, IPortableDeviceResourcesGetSupportedResources, portabledeviceapi/IPortableDeviceResources::GetSupportedResources, wpdsdk.iportabledeviceresources_getsupportedresources
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceResources.GetSupportedResources"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceResources.GetSupportedResources"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

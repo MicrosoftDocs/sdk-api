@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.topic: interface
-f1_keywords: ["netfw/INetFwRemoteAdminSettings"]
+f1_keywords: 
+ - "netfw/INetFwRemoteAdminSettings"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

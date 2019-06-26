@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], EndPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],EndPlaylistBurn method, IWMReaderPlaylistBurn.EndPlaylistBurn, IWMReaderPlaylistBurn::EndPlaylistBurn, IWMReaderPlaylistBurnEndPlaylistBurn, wmformat.iwmreaderplaylistburn_endplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

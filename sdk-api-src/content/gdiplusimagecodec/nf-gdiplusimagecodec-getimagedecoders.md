@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageDecoders, GetImageDecoders function [GDI+], _gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplus._gdiplus_FUNC_GetImageDecoders_numDecoders_size_decoders_, gdiplusimagecodec/GetImageDecoders
 ms.topic: function
-f1_keywords: ["gdiplusimagecodec/GetImageDecoders"]
+f1_keywords: 
+ - "gdiplusimagecodec/GetImageDecoders"
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

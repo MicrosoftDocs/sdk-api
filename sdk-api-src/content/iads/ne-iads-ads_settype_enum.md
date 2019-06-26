@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADSI], ADS_SETTYPE_FULL, ADS_SETTYPE_PROVIDER, ADS_SETTYPE_SERVER, _ds_ads_settype_enum, adsi.ads__settype__enum, adsi.ads_settype_enum, iads/ADS_SETTYPE_DN, iads/ADS_SETTYPE_ENUM, iads/ADS_SETTYPE_FULL, iads/ADS_SETTYPE_PROVIDER, iads/ADS_SETTYPE_SERVER
 ms.topic: enum
-f1_keywords: ["iads/ADS_SETTYPE_ENUM"]
+f1_keywords: 
+ - "iads/ADS_SETTYPE_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

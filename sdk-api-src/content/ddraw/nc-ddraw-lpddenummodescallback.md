@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumModesCallback, EnumModesCallback callback function [DirectDraw], LPDDENUMMODESCALLBACK, LPDDENUMMODESCALLBACK callback, ddraw/EnumModesCallback, directdraw.enummodescallback
 ms.topic: callback
-f1_keywords: ["ddraw/EnumModesCallback"]
+f1_keywords: 
+ - "ddraw/EnumModesCallback"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

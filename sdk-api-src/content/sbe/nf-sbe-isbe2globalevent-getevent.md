@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2GlobalEvent interface, ISBE2GlobalEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2GlobalEvent.GetEvent, ISBE2GlobalEvent::GetEvent, mstv.isbe2globalevent_getevent, sbe/ISBE2GlobalEvent::GetEvent
 ms.topic: method
-f1_keywords: ["sbe/ISBE2GlobalEvent.GetEvent"]
+f1_keywords: 
+ - "sbe/ISBE2GlobalEvent.GetEvent"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

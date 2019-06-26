@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireIssuanceLicenseTemplate, DRMAcquireIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], DRM_AILT_CANCEL, DRM_AILT_NONSILENT, DRM_AILT_OBTAIN_ALL, msdrm/DRMAcquireIssuanceLicenseTemplate, rm.drmacquireissuancelicensetemplate
 ms.topic: function
-f1_keywords: ["msdrm/DRMAcquireIssuanceLicenseTemplate"]
+f1_keywords: 
+ - "msdrm/DRMAcquireIssuanceLicenseTemplate"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

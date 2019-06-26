@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_EnableDiseqCommands method, IBDA_DiseqCommand.put_EnableDiseqCommands, IBDA_DiseqCommand::put_EnableDiseqCommands, bdaiface/IBDA_DiseqCommand::put_EnableDiseqCommands, mstv.ibda_diseqcommand_put_enablediseqcommands, put_EnableDiseqCommands, put_EnableDiseqCommands method [Microsoft TV Technologies], put_EnableDiseqCommands method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DiseqCommand.put_EnableDiseqCommands"]
+f1_keywords: 
+ - "bdaiface/IBDA_DiseqCommand.put_EnableDiseqCommands"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

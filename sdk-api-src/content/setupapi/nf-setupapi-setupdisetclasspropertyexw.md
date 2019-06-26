@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiSetClassPropertyEx"]
+f1_keywords: 
+ - "setupapi/SetupDiSetClassPropertyEx"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

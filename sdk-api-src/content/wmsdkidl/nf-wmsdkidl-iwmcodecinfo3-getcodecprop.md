@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMCodecInfo3.GetCodecProp"]
+f1_keywords: 
+ - "wmsdkidl/IWMCodecInfo3.GetCodecProp"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

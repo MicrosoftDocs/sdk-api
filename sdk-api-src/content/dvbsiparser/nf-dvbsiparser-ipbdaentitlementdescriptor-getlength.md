@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAEntitlementDescriptor.GetLength, IPBDAEntitlementDescriptor::GetLength, dvbsiparser/IPBDAEntitlementDescriptor::GetLength, mstv.ipbdaentitlementdescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IPBDAEntitlementDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IPBDAEntitlementDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

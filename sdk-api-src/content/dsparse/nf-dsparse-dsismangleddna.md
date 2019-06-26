@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
 ms.topic: function
-f1_keywords: ["dsparse/DsIsMangledDn"]
+f1_keywords: 
+ - "dsparse/DsIsMangledDn"
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

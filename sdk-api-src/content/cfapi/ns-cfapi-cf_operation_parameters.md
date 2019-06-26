@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_PARAMETERS, CF_OPERATION_PARAMETERS structure, cfapi/CF_OPERATION_PARAMETERS, cloudApi.cf_operation_parameters
 ms.topic: struct
-f1_keywords: ["cfapi/CF_OPERATION_PARAMETERS"]
+f1_keywords: 
+ - "cfapi/CF_OPERATION_PARAMETERS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

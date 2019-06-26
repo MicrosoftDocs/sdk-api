@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPairKerning, GetPairKerning method [Direct Write], GetPairKerning method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetPairKerning method, IDWriteTextLayout1.GetPairKerning, IDWriteTextLayout1::GetPairKerning, directwrite.idwritetextlayout1_getpairkerning, dwrite_1/IDWriteTextLayout1::GetPairKerning
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextLayout1.GetPairKerning"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextLayout1.GetPairKerning"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

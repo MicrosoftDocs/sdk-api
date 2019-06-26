@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
 ms.topic: enum
-f1_keywords: ["wbemcli/WBEM_TIMEOUT_TYPE"]
+f1_keywords: 
+ - "wbemcli/WBEM_TIMEOUT_TYPE"
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

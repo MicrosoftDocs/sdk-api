@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents"
 ms.topic: interface
-f1_keywords: ["rdpencomapi/_IRDPSessionEvents"]
+f1_keywords: 
+ - "rdpencomapi/_IRDPSessionEvents"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

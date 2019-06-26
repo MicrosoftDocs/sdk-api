@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPrimaryExtensionItems, AddPrimaryExtensionItems method [MMC], AddPrimaryExtensionItems method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],AddPrimaryExtensionItems method, IContextMenuProvider.AddPrimaryExtensionItems, IContextMenuProvider::AddPrimaryExtensionItems, _slate_icontextmenuprovider_addprimaryextensionitems, mmc.icontextmenuprovider_addprimaryextensionitems, mmc/IContextMenuProvider::AddPrimaryExtensionItems
 ms.topic: method
-f1_keywords: ["mmc/IContextMenuProvider.AddPrimaryExtensionItems"]
+f1_keywords: 
+ - "mmc/IContextMenuProvider.AddPrimaryExtensionItems"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

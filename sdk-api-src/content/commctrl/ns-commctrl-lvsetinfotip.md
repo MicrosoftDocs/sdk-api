@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/LVSETINFOTIP"]
+f1_keywords: 
+ - "commctrl/LVSETINFOTIP"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

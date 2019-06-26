@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
 ms.topic: struct
-f1_keywords: ["richedit/FORMATRANGE"]
+f1_keywords: 
+ - "richedit/FORMATRANGE"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge.OpenModule"]
+f1_keywords: 
+ - "mergemod/IMsmMerge.OpenModule"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

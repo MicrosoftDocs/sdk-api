@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],SetupPrefix property, IUpdateService.SetupPrefix, IUpdateService.get_SetupPrefix, IUpdateService::SetupPrefix, IUpdateService::get_SetupPrefix, SetupPrefix property [Windows Update Agent], SetupPrefix property [Windows Update Agent],IUpdateService interface, get_SetupPrefix, wua.iupdateservice_setupprefix, wuapi/IUpdateService::SetupPrefix, wuapi/IUpdateService::get_SetupPrefix
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateService.SetupPrefix"]
+f1_keywords: 
+ - "wuapi/IUpdateService.SetupPrefix"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

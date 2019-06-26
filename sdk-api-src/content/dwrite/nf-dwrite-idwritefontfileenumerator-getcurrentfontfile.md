@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentFontFile, GetCurrentFontFile method [Direct Write], GetCurrentFontFile method [Direct Write],IDWriteFontFileEnumerator interface, IDWriteFontFileEnumerator interface [Direct Write],GetCurrentFontFile method, IDWriteFontFileEnumerator.GetCurrentFontFile, IDWriteFontFileEnumerator::GetCurrentFontFile, directwrite.IDWriteFontFileEnumerator_GetCurrentFontFile, dwrite/IDWriteFontFileEnumerator::GetCurrentFontFile
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFileEnumerator.GetCurrentFontFile"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFileEnumerator.GetCurrentFontFile"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

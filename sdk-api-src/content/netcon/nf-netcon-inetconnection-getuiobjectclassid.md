@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.topic: method
-f1_keywords: ["netcon/INetConnection.GetUiObjectClassId"]
+f1_keywords: 
+ - "netcon/INetConnection.GetUiObjectClassId"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

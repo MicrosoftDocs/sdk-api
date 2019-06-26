@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceRemoved, DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceRemoved method, IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceFinderCallback.DeviceRemoved"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceFinderCallback.DeviceRemoved"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo interface [Windows Imaging Component],MatchesMimeType method, IWICBitmapCodecInfo.MatchesMimeType, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component],IWICBitmapCodecInfo interface, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapCodecInfo.MatchesMimeType"]
+f1_keywords: 
+ - "wincodec/IWICBitmapCodecInfo.MatchesMimeType"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

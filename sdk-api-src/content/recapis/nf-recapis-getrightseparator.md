@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/GetRightSeparator, tablet.getrightseparator
 ms.topic: function
-f1_keywords: ["recapis/GetRightSeparator"]
+f1_keywords: 
+ - "recapis/GetRightSeparator"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

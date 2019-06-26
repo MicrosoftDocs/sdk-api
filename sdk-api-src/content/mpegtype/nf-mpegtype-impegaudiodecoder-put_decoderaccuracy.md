@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderAccuracy method, IMpegAudioDecoder.put_DecoderAccuracy, IMpegAudioDecoder::put_DecoderAccuracy, IMpegAudioDecoderputDecoderAccuracy, dshow.impegaudiodecoder_put_decoderaccuracy, mpegtype/IMpegAudioDecoder::put_DecoderAccuracy, put_DecoderAccuracy, put_DecoderAccuracy method [DirectShow], put_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: ["mpegtype/IMpegAudioDecoder.put_DecoderAccuracy"]
+f1_keywords: 
+ - "mpegtype/IMpegAudioDecoder.put_DecoderAccuracy"
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

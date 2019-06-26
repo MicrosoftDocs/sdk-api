@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreACP2.RequestAttrsAtPosition, ITextStoreACP2::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsAtPosition, tsf.itextstoreacp2_requestattrsatposition
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP2.RequestAttrsAtPosition"]
+f1_keywords: 
+ - "textstor/ITextStoreACP2.RequestAttrsAtPosition"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

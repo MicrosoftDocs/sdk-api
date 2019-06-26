@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
 ms.topic: function
-f1_keywords: ["prntvpt/PTGetPrintCapabilities"]
+f1_keywords: 
+ - "prntvpt/PTGetPrintCapabilities"
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

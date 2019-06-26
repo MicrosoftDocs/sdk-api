@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], INameSpaceTreeControlCustomDraw interface [Windows Shell],described, _shell_INameSpaceTreeControlCustomDraw, shell.INameSpaceTreeControlCustomDraw, shobjidl/INameSpaceTreeControlCustomDraw
 ms.topic: interface
-f1_keywords: ["shobjidl/INameSpaceTreeControlCustomDraw"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlCustomDraw"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

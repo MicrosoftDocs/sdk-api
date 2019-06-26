@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextSiblingElementBuildCache, GetNextSiblingElementBuildCache method [Windows Accessibility], GetNextSiblingElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElementBuildCache method, IUIAutomationTreeWalker.GetNextSiblingElementBuildCache, IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElementBuildCache"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElementBuildCache"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

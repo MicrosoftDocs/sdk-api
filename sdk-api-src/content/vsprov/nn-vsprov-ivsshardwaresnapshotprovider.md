@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS],described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
 ms.topic: interface
-f1_keywords: ["vsprov/IVssHardwareSnapshotProvider"]
+f1_keywords: 
+ - "vsprov/IVssHardwareSnapshotProvider"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

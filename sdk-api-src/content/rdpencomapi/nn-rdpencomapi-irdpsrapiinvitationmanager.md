@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPIInvitationManager"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIInvitationManager"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -4,7 +4,8 @@ title: DOT11_RADIO_STATE
 ms.date: 01/30/19
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
 ms.topic: language-reference
-f1_keywords: ["wlanapi/_DOT11_RADIO_STATE"]
+f1_keywords: 
+ - "wlanapi/_DOT11_RADIO_STATE"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

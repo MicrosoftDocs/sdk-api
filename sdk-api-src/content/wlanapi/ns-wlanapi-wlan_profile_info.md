@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO structure pointer [NativeWIFI], WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_INFO, WLAN_PROFILE_INFO structure [NativeWIFI], WLAN_PROFILE_USER, nwifi.wlan_profile_info, wlanapi/PWLAN_PROFILE_INFO, wlanapi/WLAN_PROFILE_INFO"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_PROFILE_INFO"]
+f1_keywords: 
+ - "wlanapi/WLAN_PROFILE_INFO"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

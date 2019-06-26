@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateIndexEntries, GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GenerateIndexEntries method, IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFIndexer.GenerateIndexEntries"]
+f1_keywords: 
+ - "wmcontainer/IMFASFIndexer.GenerateIndexEntries"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentPartition property [COM+], CurrentPartition property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartition property, ICOMAdminCatalog2.CurrentPartition, ICOMAdminCatalog2.put_CurrentPartition, ICOMAdminCatalog2::CurrentPartition, ICOMAdminCatalog2::put_CurrentPartition, _cos_IComAdminCatalog2_put_CurrentPartition, comadmin/ICOMAdminCatalog2::CurrentPartition, comadmin/ICOMAdminCatalog2::put_CurrentPartition, cos.icomadmincatalog2_currentpartition, put_CurrentPartition
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.CurrentPartition"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.CurrentPartition"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

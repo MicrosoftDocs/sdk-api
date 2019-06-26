@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_EVENT_DATA, DRT_EVENT_DATA, DRT_EVENT_DATA structure [Peer Networking], PDRT_EVENT_DATA, PDRT_EVENT_DATA structure pointer [Peer Networking], drt/DRT_EVENT_DATA, drt/PDRT_EVENT_DATA, p2p.drt_event_data"
 ms.topic: struct
-f1_keywords: ["drt/DRT_EVENT_DATA"]
+f1_keywords: 
+ - "drt/DRT_EVENT_DATA"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartingTrackNumber method, IRawCDImageCreator.get_StartingTrackNumber, IRawCDImageCreator::get_StartingTrackNumber, get_StartingTrackNumber, get_StartingTrackNumber method [IMAPI], get_StartingTrackNumber method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startingtracknumber, imapi2/IRawCDImageCreator::get_StartingTrackNumber
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.get_StartingTrackNumber"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.get_StartingTrackNumber"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

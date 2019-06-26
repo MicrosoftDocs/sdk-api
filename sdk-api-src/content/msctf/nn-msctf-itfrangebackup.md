@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
 ms.topic: interface
-f1_keywords: ["msctf/ITfRangeBackup"]
+f1_keywords: 
+ - "msctf/ITfRangeBackup"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

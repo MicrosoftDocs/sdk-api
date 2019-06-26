@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
 ms.topic: function
-f1_keywords: ["ncryptprotect/NCryptCreateProtectionDescriptor"]
+f1_keywords: 
+ - "ncryptprotect/NCryptCreateProtectionDescriptor"
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

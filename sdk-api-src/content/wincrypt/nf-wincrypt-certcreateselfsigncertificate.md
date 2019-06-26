@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_SELFSIGN_NO_KEY_INFO, CERT_CREATE_SELFSIGN_NO_SIGN, CertCreateSelfSignCertificate, CertCreateSelfSignCertificate function [Security], _crypto2_certcreateselfsigncertificate, security.certcreateselfsigncertificate, wincrypt/CertCreateSelfSignCertificate
 ms.topic: function
-f1_keywords: ["wincrypt/CertCreateSelfSignCertificate"]
+f1_keywords: 
+ - "wincrypt/CertCreateSelfSignCertificate"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

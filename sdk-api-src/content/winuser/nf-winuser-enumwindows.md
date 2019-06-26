@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumWindows, EnumWindows function [Windows and Messages], _win32_EnumWindows, _win32_enumwindows_cpp, winmsg.enumwindows, winui._win32_enumwindows, winuser/EnumWindows
 ms.topic: function
-f1_keywords: ["winuser/EnumWindows"]
+f1_keywords: 
+ - "winuser/EnumWindows"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

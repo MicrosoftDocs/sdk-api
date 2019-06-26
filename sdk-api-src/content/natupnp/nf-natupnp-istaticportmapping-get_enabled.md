@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Enabled method, IStaticPortMapping.get_Enabled, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
 ms.topic: method
-f1_keywords: ["natupnp/IStaticPortMapping.get_Enabled"]
+f1_keywords: 
+ - "natupnp/IStaticPortMapping.get_Enabled"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

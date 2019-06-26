@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
 ms.topic: enum
-f1_keywords: ["mprapi/RAS_HARDWARE_CONDITION"]
+f1_keywords: 
+ - "mprapi/RAS_HARDWARE_CONDITION"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

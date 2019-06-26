@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_DIRECTDRAW_LOCAL"]
+f1_keywords: 
+ - "ddrawint/DD_DIRECTDRAW_LOCAL"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

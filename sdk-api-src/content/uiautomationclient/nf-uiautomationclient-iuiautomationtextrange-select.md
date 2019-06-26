@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Select method, IUIAutomationTextRange.Select, IUIAutomationTextRange::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Select, uiauto_IUIAutomationTextRange_Select, uiautomationclient/IUIAutomationTextRange::Select, winauto.uiauto_IUIAutomationTextRange_Select
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.Select"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.Select"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

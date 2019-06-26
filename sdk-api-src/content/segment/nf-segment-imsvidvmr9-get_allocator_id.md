@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVMR9.get_Allocator_ID, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
 ms.topic: method
-f1_keywords: ["segment/IMSVidVMR9.get_Allocator_ID"]
+f1_keywords: 
+ - "segment/IMSVidVMR9.get_Allocator_ID"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

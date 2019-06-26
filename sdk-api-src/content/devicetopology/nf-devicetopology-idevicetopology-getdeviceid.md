@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Core Audio], GetDeviceId method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetDeviceId method, IDeviceTopology.GetDeviceId, IDeviceTopology::GetDeviceId, IDeviceTopologyGetDeviceId, coreaudio.idevicetopology_getdeviceid, devicetopology/IDeviceTopology::GetDeviceId
 ms.topic: method
-f1_keywords: ["devicetopology/IDeviceTopology.GetDeviceId"]
+f1_keywords: 
+ - "devicetopology/IDeviceTopology.GetDeviceId"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

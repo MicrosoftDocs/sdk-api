@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginInstall method, IUpdateInstaller.BeginInstall, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.BeginInstall"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.BeginInstall"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

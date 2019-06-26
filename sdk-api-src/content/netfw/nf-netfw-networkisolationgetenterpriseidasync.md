@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
 ms.topic: function
-f1_keywords: ["netfw/NetworkIsolationGetEnterpriseIdAsync"]
+f1_keywords: 
+ - "netfw/NetworkIsolationGetEnterpriseIdAsync"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupFindNextLine, SetupFindNextLine function [Setup API], _setupapi_setupfindnextline, setup.setupfindnextline, setupapi/SetupFindNextLine
 ms.topic: function
-f1_keywords: ["setupapi/SetupFindNextLine"]
+f1_keywords: 
+ - "setupapi/SetupFindNextLine"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

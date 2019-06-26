@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],RegistrationState property, IUpdateServiceRegistration.RegistrationState, IUpdateServiceRegistration.get_RegistrationState, IUpdateServiceRegistration::RegistrationState, IUpdateServiceRegistration::get_RegistrationState, RegistrationState property [Windows Update Agent], RegistrationState property [Windows Update Agent],IUpdateServiceRegistration interface, get_RegistrationState, wua.iupdateserviceregistration_registrationstate, wuapi/IUpdateServiceRegistration::RegistrationState, wuapi/IUpdateServiceRegistration::get_RegistrationState
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceRegistration.RegistrationState"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceRegistration.RegistrationState"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

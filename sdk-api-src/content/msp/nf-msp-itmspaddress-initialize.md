@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
 ms.topic: method
-f1_keywords: ["msp/ITMSPAddress.Initialize"]
+f1_keywords: 
+ - "msp/ITMSPAddress.Initialize"
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWorkspace2 interface [Remote Desktop Services],described, termserv.iworkspace2, workspaceruntime/IWorkspace2
 ms.topic: interface
-f1_keywords: ["workspaceruntime/IWorkspace2"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspace2"
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

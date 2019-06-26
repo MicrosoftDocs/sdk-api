@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualModelsSection, SetupDiGetActualModelsSection function [Device and Driver Installation], SetupDiGetActualModelsSectionA, SetupDiGetActualModelsSectionW, devinst.setupdigetactualmodelssection, di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml, setupapi/SetupDiGetActualModelsSection
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetActualModelsSection"]
+f1_keywords: 
+ - "setupapi/SetupDiGetActualModelsSection"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

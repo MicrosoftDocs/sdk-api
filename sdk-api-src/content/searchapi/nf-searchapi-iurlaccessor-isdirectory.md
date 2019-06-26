@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.IsDirectory"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.IsDirectory"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
 ms.topic: function
-f1_keywords: ["virtdisk/EnumerateVirtualDiskMetadata"]
+f1_keywords: 
+ - "virtdisk/EnumerateVirtualDiskMetadata"
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

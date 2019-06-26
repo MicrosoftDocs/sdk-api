@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structure [Display Devices], ddrawint/DD_SETPALETTEDATA, ddstrcts_254301f1-b163-4402-92b2-70a2632f5ebc.xml, display.dd_setpalettedata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_SETPALETTEDATA"]
+f1_keywords: 
+ - "ddrawint/DD_SETPALETTEDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

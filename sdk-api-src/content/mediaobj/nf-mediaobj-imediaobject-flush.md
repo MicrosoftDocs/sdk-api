@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Flush method, IMediaObject.Flush, IMediaObject::Flush, IMediaObjectFlush, dshow.imediaobject_flush, mediaobj/IMediaObject::Flush
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObject.Flush"]
+f1_keywords: 
+ - "mediaobj/IMediaObject.Flush"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

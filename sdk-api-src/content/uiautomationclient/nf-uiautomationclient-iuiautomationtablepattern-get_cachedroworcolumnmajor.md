@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedRowOrColumnMajor property [Windows Accessibility], CachedRowOrColumnMajor property [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],CachedRowOrColumnMajor property, IUIAutomationTablePattern.CachedRowOrColumnMajor, IUIAutomationTablePattern.get_CachedRowOrColumnMajor, IUIAutomationTablePattern::CachedRowOrColumnMajor, IUIAutomationTablePattern::get_CachedRowOrColumnMajor, get_CachedRowOrColumnMajor, uiauto.uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor, uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::CachedRowOrColumnMajor, uiautomationclient/IUIAutomationTablePattern::get_CachedRowOrColumnMajor, winauto.uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTablePattern.CachedRowOrColumnMajor"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTablePattern.CachedRowOrColumnMajor"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

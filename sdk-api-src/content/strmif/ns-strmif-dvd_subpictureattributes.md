@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [DirectShow], DVD_SubpictureAttributesStructure, dshow.dvd_subpictureattributes, strmif/DVD_SubpictureAttributes
 ms.topic: struct
-f1_keywords: ["strmif/DVD_SubpictureAttributes"]
+f1_keywords: 
+ - "strmif/DVD_SubpictureAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

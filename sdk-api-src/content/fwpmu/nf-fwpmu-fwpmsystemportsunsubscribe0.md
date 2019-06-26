@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsUnsubscribe0, FwpmSystemPortsUnsubscribe0 function [Filtering], fwp.fwpmsystemportsunsubscribe0, fwpmu/FwpmSystemPortsUnsubscribe0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmSystemPortsUnsubscribe0"]
+f1_keywords: 
+ - "fwpmu/FwpmSystemPortsUnsubscribe0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SColumnSetID, SColumnSetID structure [MMC], _slate_scolumnsetid, mmc.scolumnsetid, mmc/SColumnSetID
 ms.topic: struct
-f1_keywords: ["mmc/SColumnSetID"]
+f1_keywords: 
+ - "mmc/SColumnSetID"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

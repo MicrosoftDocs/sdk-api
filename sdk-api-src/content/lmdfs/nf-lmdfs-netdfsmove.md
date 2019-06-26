@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [Distributed File System], dfs.netdfsmove, fs.netdfsmove, lmdfs/NetDfsMove, netmgmt.netdfsmove
 ms.topic: function
-f1_keywords: ["lmdfs/NetDfsMove"]
+f1_keywords: 
+ - "lmdfs/NetDfsMove"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

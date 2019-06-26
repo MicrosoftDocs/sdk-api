@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputState, GetInputState function [Windows and Messages], _win32_GetInputState, _win32_getinputstate_cpp, winmsg.getinputstate, winui._win32_getinputstate, winuser/GetInputState
 ms.topic: function
-f1_keywords: ["winuser/GetInputState"]
+f1_keywords: 
+ - "winuser/GetInputState"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

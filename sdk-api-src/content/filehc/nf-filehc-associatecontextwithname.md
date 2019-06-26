@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
 ms.topic: function
-f1_keywords: ["filehc/AssociateContextWithName"]
+f1_keywords: 
+ - "filehc/AssociateContextWithName"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

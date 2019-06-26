@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
 ms.topic: function
-f1_keywords: ["dbghelp/SymFromToken"]
+f1_keywords: 
+ - "dbghelp/SymFromToken"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

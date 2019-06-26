@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompartment, GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],GetCompartment method, ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
 ms.topic: method
-f1_keywords: ["msctf/ITfCompartmentMgr.GetCompartment"]
+f1_keywords: 
+ - "msctf/ITfCompartmentMgr.GetCompartment"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

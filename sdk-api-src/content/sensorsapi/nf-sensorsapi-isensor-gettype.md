@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetType"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetType"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

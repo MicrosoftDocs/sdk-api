@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSubrange, AddSubrange method [Windows Controls], AddSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],AddSubrange method, ITextRange2.AddSubrange, ITextRange2::AddSubrange, controls.itextrange2_addsubrange, tom/ITextRange2::AddSubrange
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.AddSubrange"]
+f1_keywords: 
+ - "tom/ITextRange2.AddSubrange"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

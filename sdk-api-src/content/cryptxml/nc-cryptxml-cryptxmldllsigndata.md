@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignData callback function [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
 ms.topic: callback
-f1_keywords: ["cryptxml/CryptXmlDllSignData"]
+f1_keywords: 
+ - "cryptxml/CryptXmlDllSignData"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

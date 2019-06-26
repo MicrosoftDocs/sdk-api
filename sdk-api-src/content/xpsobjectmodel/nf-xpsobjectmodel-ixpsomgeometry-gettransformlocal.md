@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGeometry.GetTransformLocal, IXpsOMGeometry::GetTransformLocal, xps.ixpsomgeometry_gettransformlocal, xpsobjectmodel/IXpsOMGeometry::GetTransformLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometry.GetTransformLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometry.GetTransformLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

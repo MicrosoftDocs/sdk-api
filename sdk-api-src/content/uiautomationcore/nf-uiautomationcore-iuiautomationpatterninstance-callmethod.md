@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallMethod, CallMethod method [Windows Accessibility], CallMethod method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],CallMethod method, IUIAutomationPatternInstance.CallMethod, IUIAutomationPatternInstance::CallMethod, uiauto.uiauto_IUIAutomationPatternInstance_CallMethod, uiauto_IUIAutomationPatternInstance_CallMethod, uiautomationcore/IUIAutomationPatternInstance::CallMethod, winauto.uiauto_IUIAutomationPatternInstance_CallMethod
 ms.topic: method
-f1_keywords: ["uiautomationcore/IUIAutomationPatternInstance.CallMethod"]
+f1_keywords: 
+ - "uiautomationcore/IUIAutomationPatternInstance.CallMethod"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

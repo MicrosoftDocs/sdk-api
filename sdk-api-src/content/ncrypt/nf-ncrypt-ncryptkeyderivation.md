@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptKeyDerivation"]
+f1_keywords: 
+ - "ncrypt/NCryptKeyDerivation"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

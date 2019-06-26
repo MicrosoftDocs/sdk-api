@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTitle method, IBrowserService.GetTitle, IBrowserService::GetTitle, shdeprecated/IBrowserService::GetTitle, shell.IBrowserService_GetTitle, zone_IBrowserService_GetTitle
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetTitle"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetTitle"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

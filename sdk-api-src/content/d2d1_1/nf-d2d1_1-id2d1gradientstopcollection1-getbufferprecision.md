@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferPrecision, GetBufferPrecision method [Direct2D], GetBufferPrecision method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetBufferPrecision method, ID2D1GradientStopCollection1.GetBufferPrecision, ID2D1GradientStopCollection1::GetBufferPrecision, d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision, direct2d.id2d1gradientstopcollection1_getbufferprecision
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1GradientStopCollection1.GetBufferPrecision"]
+f1_keywords: 
+ - "d2d1_1/ID2D1GradientStopCollection1.GetBufferPrecision"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

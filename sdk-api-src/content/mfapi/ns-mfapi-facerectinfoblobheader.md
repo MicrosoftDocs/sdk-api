@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaceRectInfoBlobHeader, FaceRectInfoBlobHeader structure [Streaming Media Devices], mfapi/FaceRectInfoBlobHeader, stream.facerectinfoblobheader
 ms.topic: struct
-f1_keywords: ["mfapi/FaceRectInfoBlobHeader"]
+f1_keywords: 
+ - "mfapi/FaceRectInfoBlobHeader"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

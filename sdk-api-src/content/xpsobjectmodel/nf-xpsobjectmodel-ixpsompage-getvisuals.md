@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPage.GetVisuals"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPage.GetVisuals"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

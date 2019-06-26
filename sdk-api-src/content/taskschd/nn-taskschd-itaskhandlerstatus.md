@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
 ms.topic: interface
-f1_keywords: ["taskschd/ITaskHandlerStatus"]
+f1_keywords: 
+ - "taskschd/ITaskHandlerStatus"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

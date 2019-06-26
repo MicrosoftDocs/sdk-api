@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteRelationship, DeleteRelationship method [Open Packaging Conventions], DeleteRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],DeleteRelationship method, IOpcRelationshipSet.DeleteRelationship, IOpcRelationshipSet::DeleteRelationship, msopc/IOpcRelationshipSet::DeleteRelationship, opc.iopcrelationshipset_deleterelationship
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationshipSet.DeleteRelationship"]
+f1_keywords: 
+ - "msopc/IOpcRelationshipSet.DeleteRelationship"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

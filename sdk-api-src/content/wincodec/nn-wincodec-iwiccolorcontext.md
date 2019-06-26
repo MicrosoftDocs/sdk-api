@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
 ms.topic: interface
-f1_keywords: ["wincodec/IWICColorContext"]
+f1_keywords: 
+ - "wincodec/IWICColorContext"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

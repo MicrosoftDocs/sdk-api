@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIsNaN, XMPlaneIsNaN, XMPlaneIsNaN method [DirectX Math Support APIs], dxmath.xmplaneisnan
 ms.topic: function
-f1_keywords: ["directxmath/XMPlaneIsNaN"]
+f1_keywords: 
+ - "directxmath/XMPlaneIsNaN"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

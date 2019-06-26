@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG, CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_CACHE_FLAG, CRYPT_ACQUIRE_COMPARE_KEY_FLAG, CRYPT_ACQUIRE_NO_HEALING, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_SILENT_FLAG, CRYPT_ACQUIRE_USE_PROV_INFO_FLAG, CryptAcquireCertificatePrivateKey, CryptAcquireCertificatePrivateKey function [Security], _crypto2_cryptacquirecertificateprivatekey, security.cryptacquirecertificateprivatekey, wincrypt/CryptAcquireCertificatePrivateKey
 ms.topic: function
-f1_keywords: ["wincrypt/CryptAcquireCertificatePrivateKey"]
+f1_keywords: 
+ - "wincrypt/CryptAcquireCertificatePrivateKey"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

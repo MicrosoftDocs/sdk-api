@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedDecrement16, InterlockedDecrement16 function, base.interlockeddecrement16, winnt/InterlockedDecrement16
 ms.topic: function
-f1_keywords: ["winnt/InterlockedDecrement16"]
+f1_keywords: 
+ - "winnt/InterlockedDecrement16"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

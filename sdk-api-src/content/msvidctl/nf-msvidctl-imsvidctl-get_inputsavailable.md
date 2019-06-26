@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputsAvailable method, IMSVidCtl.get_InputsAvailable, IMSVidCtl::get_InputsAvailable, IMSVidCtlget_InputsAvailable, get_InputsAvailable, get_InputsAvailable method [Microsoft TV Technologies], get_InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputsavailable, msvidctl/IMSVidCtl::get_InputsAvailable
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.get_InputsAvailable"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.get_InputsAvailable"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

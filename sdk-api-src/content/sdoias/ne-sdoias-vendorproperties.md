@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_NAS_VENDOR_ID, VENDORPROPERTIES, VENDORPROPERTIES enumeration [Network Policy Server], _sdo_vendorproperties, nps.SDO_vendorproperties, sdo.vendorproperties, sdoias/PROPERTY_NAS_VENDOR_ID, sdoias/VENDORPROPERTIES
 ms.topic: enum
-f1_keywords: ["sdoias/VENDORPROPERTIES"]
+f1_keywords: 
+ - "sdoias/VENDORPROPERTIES"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

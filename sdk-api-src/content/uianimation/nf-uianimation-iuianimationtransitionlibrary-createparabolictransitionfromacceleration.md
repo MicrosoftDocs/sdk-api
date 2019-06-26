@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6153eaad-32d7-c087-4631-725183e63035, ID3D11ClassLinkage, ID3D11ClassLinkage interface [Direct3D 11], ID3D11ClassLinkage interface [Direct3D 11],described, d3d11/ID3D11ClassLinkage, direct3d11.id3d11classlinkage
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11ClassLinkage"]
+f1_keywords: 
+ - "d3d11/ID3D11ClassLinkage"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

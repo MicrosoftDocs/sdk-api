@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 71a948e7-b358-d717-cbee-71a3647b9ce1, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 11], IASetPrimitiveTopology method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetPrimitiveTopology method, ID3D11DeviceContext.IASetPrimitiveTopology, ID3D11DeviceContext::IASetPrimitiveTopology, d3d11/ID3D11DeviceContext::IASetPrimitiveTopology, direct3d11.id3d11devicecontext_iasetprimitivetopology
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.IASetPrimitiveTopology"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.IASetPrimitiveTopology"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

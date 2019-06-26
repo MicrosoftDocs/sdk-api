@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IISDB_LDT"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_LDT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

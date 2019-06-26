@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCASetupProperty method, ICertSrvSetup.SetCASetupProperty, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.SetCASetupProperty"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.SetCASetupProperty"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

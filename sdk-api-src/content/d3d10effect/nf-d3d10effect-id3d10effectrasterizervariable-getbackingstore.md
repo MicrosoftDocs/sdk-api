@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectRasterizerVariable.GetBackingStore, ID3D10EffectRasterizerVariable::GetBackingStore, cf2a79ce-7906-f134-2fb4-112e8a4d0de6, d3d10effect/ID3D10EffectRasterizerVariable::GetBackingStore, direct3d10.id3d10effectrasterizervariable_getbackingstore
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectRasterizerVariable.GetBackingStore"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectRasterizerVariable.GetBackingStore"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

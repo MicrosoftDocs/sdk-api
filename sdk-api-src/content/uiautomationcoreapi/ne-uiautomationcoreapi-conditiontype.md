@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConditionType, ConditionType enumeration [Windows Accessibility], ConditionType_And, ConditionType_False, ConditionType_Not, ConditionType_Or, ConditionType_Property, ConditionType_True, uiauto.uiauto_ConditionTypeEnum, uiauto_ConditionTypeEnum, uiautomationcoreapi/ConditionType, uiautomationcoreapi/ConditionType_And, uiautomationcoreapi/ConditionType_False, uiautomationcoreapi/ConditionType_Not, uiautomationcoreapi/ConditionType_Or, uiautomationcoreapi/ConditionType_Property, uiautomationcoreapi/ConditionType_True, winauto.uiauto_ConditionTypeEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcoreapi/ConditionType"]
+f1_keywords: 
+ - "uiautomationcoreapi/ConditionType"
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

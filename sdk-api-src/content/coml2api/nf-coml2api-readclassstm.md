@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadClassStm, ReadClassStm function [Structured Storage], _stg_readclassstm, coml2api/ReadClassStm, stg.readclassstm
 ms.topic: function
-f1_keywords: ["coml2api/ReadClassStm"]
+f1_keywords: 
+ - "coml2api/ReadClassStm"
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

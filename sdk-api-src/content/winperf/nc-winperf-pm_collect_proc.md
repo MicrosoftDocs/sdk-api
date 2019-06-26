@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
 ms.topic: callback
-f1_keywords: ["winperf/CollectPerformanceData"]
+f1_keywords: 
+ - "winperf/CollectPerformanceData"
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows

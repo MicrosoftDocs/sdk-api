@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpclosehandle, icmpapi/IcmpCloseHandle, iphlp.icmpclosehandle
 ms.topic: function
-f1_keywords: ["icmpapi/IcmpCloseHandle"]
+f1_keywords: 
+ - "icmpapi/IcmpCloseHandle"
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

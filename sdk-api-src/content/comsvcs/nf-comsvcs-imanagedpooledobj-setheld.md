@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj interface [COM+],SetHeld method, IManagedPooledObj.SetHeld, IManagedPooledObj::SetHeld, SetHeld, SetHeld method [COM+], SetHeld method [COM+],IManagedPooledObj interface, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld
 ms.topic: method
-f1_keywords: ["comsvcs/IManagedPooledObj.SetHeld"]
+f1_keywords: 
+ - "comsvcs/IManagedPooledObj.SetHeld"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

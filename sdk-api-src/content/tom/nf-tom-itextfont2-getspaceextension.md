@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpaceExtension, GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetSpaceExtension method, ITextFont2.GetSpaceExtension, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetSpaceExtension"]
+f1_keywords: 
+ - "tom/ITextFont2.GetSpaceExtension"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

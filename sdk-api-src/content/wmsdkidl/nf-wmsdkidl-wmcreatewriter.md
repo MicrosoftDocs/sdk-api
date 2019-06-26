@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
 ms.topic: function
-f1_keywords: ["wmsdkidl/WMCreateWriter"]
+f1_keywords: 
+ - "wmsdkidl/WMCreateWriter"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

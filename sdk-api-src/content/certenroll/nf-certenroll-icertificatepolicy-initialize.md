@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertificatePolicy.Initialize"]
+f1_keywords: 
+ - "certenroll/ICertificatePolicy.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0750128e-f3f0-444a-abe0-2dc360a3685b, CorrectionPosition, CorrectionPosition enumeration [Tablet PC], CorrectionPosition_Auto, CorrectionPosition_Bottom, CorrectionPosition_Top, peninputpanel/CorrectionPosition, peninputpanel/CorrectionPosition_Auto, peninputpanel/CorrectionPosition_Bottom, peninputpanel/CorrectionPosition_Top, tablet.correctionposition
 ms.topic: enum
-f1_keywords: ["peninputpanel/CorrectionPosition"]
+f1_keywords: 
+ - "peninputpanel/CorrectionPosition"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

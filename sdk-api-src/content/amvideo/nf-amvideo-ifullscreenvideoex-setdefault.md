@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.SetDefault"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.SetDefault"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

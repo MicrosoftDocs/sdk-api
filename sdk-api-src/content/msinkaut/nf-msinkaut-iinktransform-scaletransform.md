@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],ScaleTransform method, IInkTransform.ScaleTransform, IInkTransform::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkTransform interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkTransform::ScaleTransform, tablet.inktransform_scaletransform
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTransform.ScaleTransform"]
+f1_keywords: 
+ - "msinkaut/IInkTransform.ScaleTransform"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

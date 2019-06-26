@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX, PWINUSB_PIPE_INFORMATION_EX structure pointer [Buses], WINUSB_PIPE_INFORMATION_EX, WINUSB_PIPE_INFORMATION_EX structure [Buses], buses.win_usb_pipe_information_ex, winusbio/PWINUSB_PIPE_INFORMATION_EX, winusbio/WINUSB_PIPE_INFORMATION_EX"
 ms.topic: struct
-f1_keywords: ["winusbio/WINUSB_PIPE_INFORMATION_EX"]
+f1_keywords: 
+ - "winusbio/WINUSB_PIPE_INFORMATION_EX"
 req.header: winusbio.h
 req.include-header: Winusbio.h
 req.target-type: Windows

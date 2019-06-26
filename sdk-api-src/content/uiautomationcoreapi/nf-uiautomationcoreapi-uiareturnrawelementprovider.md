@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaReturnRawElementProvider, UiaReturnRawElementProvider function [Windows Accessibility], uiauto.uiauto_UiaReturnRawElementProviderFunction, uiauto_UiaReturnRawElementProviderFunction, uiautomationcoreapi/UiaReturnRawElementProvider, winauto.uiauto_UiaReturnRawElementProviderFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaReturnRawElementProvider"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaReturnRawElementProvider"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

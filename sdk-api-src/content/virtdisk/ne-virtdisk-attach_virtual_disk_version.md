@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_VERSION, ATTACH_VIRTUAL_DISK_VERSION enumeration [VHD], ATTACH_VIRTUAL_DISK_VERSION_1, ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/ATTACH_VIRTUAL_DISK_VERSION, vdssys/ATTACH_VIRTUAL_DISK_VERSION_1, vdssys/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.attach_virtual_disk_version, vhd.surface_virtual_disk_version, virtdisk/ATTACH_VIRTUAL_DISK_VERSION, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_1, virtdisk/ATTACH_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
-f1_keywords: ["virtdisk/ATTACH_VIRTUAL_DISK_VERSION"]
+f1_keywords: 
+ - "virtdisk/ATTACH_VIRTUAL_DISK_VERSION"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

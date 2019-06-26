@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetLoad property, ITsSbTarget.TargetLoad, ITsSbTarget.get_TargetLoad, ITsSbTarget::TargetLoad, ITsSbTarget::get_TargetLoad, ITsSbTargetEx interface [Remote Desktop Services],TargetLoad property, ITsSbTargetEx.TargetLoad, ITsSbTargetEx::get_TargetLoad, TargetLoad property [Remote Desktop Services], TargetLoad property [Remote Desktop Services],ITsSbTarget interface, TargetLoad property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetLoad, sbtsv/ITsSbTarget::TargetLoad, sbtsv/ITsSbTarget::get_TargetLoad, sbtsv/ITsSbTargetEx::TargetLoad, sbtsv/ITsSbTargetEx::get_TargetLoad, termserv.itssbtarget_targetload
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTarget.TargetLoad"]
+f1_keywords: 
+ - "sbtsv/ITsSbTarget.TargetLoad"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

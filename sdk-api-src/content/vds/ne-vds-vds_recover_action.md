@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
 ms.topic: enum
-f1_keywords: ["vds/VDS_RECOVER_ACTION"]
+f1_keywords: 
+ - "vds/VDS_RECOVER_ACTION"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoverpageName property [Fax Service], CoverpageName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageName property, IFaxDoc.CoverpageName, IFaxDoc.get_CoverpageName, IFaxDoc::CoverpageName, IFaxDoc::get_CoverpageName, IFaxDoc::put_CoverpageName, _mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagename_cpp, faxcom/IFaxDoc::CoverpageName, faxcom/IFaxDoc::get_CoverpageName, faxcom/IFaxDoc::put_CoverpageName, get_CoverpageName
 ms.topic: method
-f1_keywords: ["faxcom/IFaxDoc.CoverpageName"]
+f1_keywords: 
+ - "faxcom/IFaxDoc.CoverpageName"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

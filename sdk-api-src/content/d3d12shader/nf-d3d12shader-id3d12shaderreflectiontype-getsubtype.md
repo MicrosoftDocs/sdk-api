@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubType, GetSubType method, GetSubType method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetSubType method, ID3D12ShaderReflectionType.GetSubType, ID3D12ShaderReflectionType::GetSubType, d3d12shader/ID3D12ShaderReflectionType::GetSubType, direct3d12.id3d12shaderreflectiontype_getsubtype
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.GetSubType"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflectionType.GetSubType"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

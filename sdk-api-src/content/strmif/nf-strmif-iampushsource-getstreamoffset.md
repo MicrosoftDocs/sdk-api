@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamOffset, GetStreamOffset method [DirectShow], GetStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetStreamOffset method, IAMPushSource.GetStreamOffset, IAMPushSource::GetStreamOffset, IAMPushSourceGetStreamOffset, dshow.iampushsource_getstreamoffset, strmif/IAMPushSource::GetStreamOffset
 ms.topic: method
-f1_keywords: ["strmif/IAMPushSource.GetStreamOffset"]
+f1_keywords: 
+ - "strmif/IAMPushSource.GetStreamOffset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

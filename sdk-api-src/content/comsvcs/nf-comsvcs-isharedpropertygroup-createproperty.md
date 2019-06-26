@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProperty, CreateProperty method [COM+], CreateProperty method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreateProperty method, ISharedPropertyGroup.CreateProperty, ISharedPropertyGroup::CreateProperty, _cos_ISharedPropertyGroup_CreateProperty, comsvcs/ISharedPropertyGroup::CreateProperty, cos.isharedpropertygroup_createproperty
 ms.topic: method
-f1_keywords: ["comsvcs/ISharedPropertyGroup.CreateProperty"]
+f1_keywords: 
+ - "comsvcs/ISharedPropertyGroup.CreateProperty"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

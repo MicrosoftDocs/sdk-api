@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
 ms.topic: method
-f1_keywords: ["aclui/ISecurityInformation.GetObjectInformation"]
+f1_keywords: 
+ - "aclui/ISecurityInformation.GetObjectInformation"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

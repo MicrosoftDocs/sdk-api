@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
 ms.topic: enum
-f1_keywords: ["uianimation/UI_ANIMATION_SLOPE"]
+f1_keywords: 
+ - "uianimation/UI_ANIMATION_SLOPE"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

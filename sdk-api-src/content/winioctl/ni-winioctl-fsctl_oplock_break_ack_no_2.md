@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACK_NO_2, FSCTL_OPLOCK_BREAK_ACK_NO_2 control, FSCTL_OPLOCK_BREAK_ACK_NO_2 control code [Files], _win32_fsctl_oplock_break_ack_no_2, base.fsctl_oplock_break_ack_no_2, fs.fsctl_oplock_break_ack_no_2, winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2"]
+f1_keywords: 
+ - "winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

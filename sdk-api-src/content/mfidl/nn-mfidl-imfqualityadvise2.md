@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
 ms.topic: interface
-f1_keywords: ["mfidl/IMFQualityAdvise2"]
+f1_keywords: 
+ - "mfidl/IMFQualityAdvise2"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

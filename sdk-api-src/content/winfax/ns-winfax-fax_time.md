@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFAX_TIME, FAX_TIME, FAX_TIME structure [Fax Service], FAX_TIMEA, FAX_TIMEW, PFAX_TIME, PFAX_TIME structure pointer [Fax Service], _mfax_fax_time_str, fax._mfax_fax_time_str, winfax/FAX_TIME, winfax/FAX_TIMEA, winfax/FAX_TIMEW, winfax/PFAX_TIME"
 ms.topic: struct
-f1_keywords: ["winfax/FAX_TIME"]
+f1_keywords: 
+ - "winfax/FAX_TIME"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

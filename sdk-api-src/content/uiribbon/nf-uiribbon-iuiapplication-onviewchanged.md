@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
 ms.topic: method
-f1_keywords: ["uiribbon/IUIApplication.OnViewChanged"]
+f1_keywords: 
+ - "uiribbon/IUIApplication.OnViewChanged"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

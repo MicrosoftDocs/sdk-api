@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetRequestIdString method, GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],CCertRequest object, GetRequestIdString method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRequestIdString method, ICertRequest3.GetRequestIdString, ICertRequest3::GetRequestIdString, certcli/ICertRequest3::GetRequestIdString, security.icertrequest3_getrequestidstring
 ms.topic: method
-f1_keywords: ["certcli/ICertRequest3.GetRequestIdString"]
+f1_keywords: 
+ - "certcli/ICertRequest3.GetRequestIdString"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

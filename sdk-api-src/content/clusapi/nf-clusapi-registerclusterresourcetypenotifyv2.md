@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
 ms.topic: function
-f1_keywords: ["clusapi/RegisterClusterResourceTypeNotifyV2"]
+f1_keywords: 
+ - "clusapi/RegisterClusterResourceTypeNotifyV2"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

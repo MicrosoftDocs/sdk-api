@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RAS], TBD, _mpr_mibset, routprot/PMIB_SET, rras.mibset
 ms.topic: callback
-f1_keywords: ["routprot/PMIB_SET"]
+f1_keywords: 
+ - "routprot/PMIB_SET"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

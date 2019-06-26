@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT"
 ms.topic: struct
-f1_keywords: ["vds/VDS_DISK_EXTENT"]
+f1_keywords: 
+ - "vds/VDS_DISK_EXTENT"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

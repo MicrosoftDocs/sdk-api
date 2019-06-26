@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenu, GetMenu method [Windows Shell], GetMenu method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenu method, IShellMenu.GetMenu, IShellMenu::GetMenu, _shell_IShellMenu_GetMenu, shell.IShellMenu_GetMenu, shobjidl_core/IShellMenu::GetMenu
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellMenu.GetMenu"]
+f1_keywords: 
+ - "shobjidl_core/IShellMenu.GetMenu"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

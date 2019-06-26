@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
 ms.topic: function
-f1_keywords: ["lmapibuf/NetApiBufferAllocate"]
+f1_keywords: 
+ - "lmapibuf/NetApiBufferAllocate"
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows

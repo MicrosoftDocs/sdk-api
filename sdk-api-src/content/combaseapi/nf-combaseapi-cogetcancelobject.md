@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetCancelObject, CoGetCancelObject function [COM], _com_CoGetCancelObject, com.cogetcancelobject, combaseapi/CoGetCancelObject
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetCancelObject"]
+f1_keywords: 
+ - "combaseapi/CoGetCancelObject"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

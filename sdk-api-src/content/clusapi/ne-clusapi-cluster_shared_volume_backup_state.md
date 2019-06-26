@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster], PCLUSTER_SHARED_VOLUME_BACKUP_STATE, PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/VolumeBackupInProgress, clusapi/VolumeBackupNone, mscs.cluster_shared_volume_backup_state"
 ms.topic: enum
-f1_keywords: ["clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE"]
+f1_keywords: 
+ - "clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

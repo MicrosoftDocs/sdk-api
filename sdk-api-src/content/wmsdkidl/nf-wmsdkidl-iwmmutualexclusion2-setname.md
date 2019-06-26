@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetName method, IWMMutualExclusion2.SetName, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion2.SetName"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion2.SetName"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Resume method, IUIAnimationManager2.Resume, IUIAnimationManager2::Resume, Resume, Resume method [Windows Animation], Resume method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_resume, uianimation/IUIAnimationManager2::Resume
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager2.Resume"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2.Resume"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

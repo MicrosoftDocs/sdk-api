@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordStreamType, GetRecordStreamType method [Microsoft TV Technologies], GetRecordStreamType method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordStreamType method, IPMT.GetRecordStreamType, IPMT::GetRecordStreamType, IPMTGetRecordStreamType, mpeg2psiparser/IPMT::GetRecordStreamType, mstv.ipmt_getrecordstreamtype
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPMT.GetRecordStreamType"]
+f1_keywords: 
+ - "mpeg2psiparser/IPMT.GetRecordStreamType"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

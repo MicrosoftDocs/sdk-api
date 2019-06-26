@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_OUTLINE_THRESHOLD, DWRITE_OUTLINE_THRESHOLD enumeration [Direct Write], DWRITE_OUTLINE_THRESHOLD_ALIASED, DWRITE_OUTLINE_THRESHOLD_ANTIALIASED, directwrite.dwrite_outline_threshold, dwrite_1/DWRITE_OUTLINE_THRESHOLD, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ALIASED, dwrite_1/DWRITE_OUTLINE_THRESHOLD_ANTIALIASED
 ms.topic: enum
-f1_keywords: ["dwrite_1/DWRITE_OUTLINE_THRESHOLD"]
+f1_keywords: 
+ - "dwrite_1/DWRITE_OUTLINE_THRESHOLD"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

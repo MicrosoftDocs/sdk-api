@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], IOplockBreakingHandler interface [Windows Runtime],described, windowsstoragecom/IOplockBreakingHandler, winrt.ioplockbreakinghandler
 ms.topic: interface
-f1_keywords: ["windowsstoragecom/IOplockBreakingHandler"]
+f1_keywords: 
+ - "windowsstoragecom/IOplockBreakingHandler"
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

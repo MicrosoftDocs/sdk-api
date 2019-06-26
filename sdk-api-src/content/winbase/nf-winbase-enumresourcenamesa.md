@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.topic: function
-f1_keywords: ["winbase/EnumResourceNames"]
+f1_keywords: 
+ - "winbase/EnumResourceNames"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

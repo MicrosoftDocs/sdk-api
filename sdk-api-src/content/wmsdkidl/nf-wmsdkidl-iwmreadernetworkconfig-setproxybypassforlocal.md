@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyBypassForLocal method, IWMReaderNetworkConfig.SetProxyBypassForLocal, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.SetProxyBypassForLocal"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.SetProxyBypassForLocal"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

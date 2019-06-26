@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, ADMIN_OTHER_INFO, ADMIN_OTHER_INFO structure [Network Management], LPADMIN_OTHER_INFO, LPADMIN_OTHER_INFO structure pointer [Network Management], PADMIN_OTHER_INFO, PADMIN_OTHER_INFO structure pointer [Network Management], _win32_admin_other_info_str, lmalert/ADMIN_OTHER_INFO, lmalert/LPADMIN_OTHER_INFO, lmalert/PADMIN_OTHER_INFO, netmgmt.admin_other_info_str"
 ms.topic: struct
-f1_keywords: ["lmalert/ADMIN_OTHER_INFO"]
+f1_keywords: 
+ - "lmalert/ADMIN_OTHER_INFO"
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

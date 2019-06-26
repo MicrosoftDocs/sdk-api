@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1fa1a739-3ba0-3b6b-7587-a11f859e0693, ID3D10Device interface [Direct3D 10],VSGetShader method, ID3D10Device.VSGetShader, ID3D10Device::VSGetShader, VSGetShader, VSGetShader method [Direct3D 10], VSGetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetShader, direct3d10.id3d10device_vsgetshader
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.VSGetShader"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.VSGetShader"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

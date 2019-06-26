@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetTrackId"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue.GetTrackId"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

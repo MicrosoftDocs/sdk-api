@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWebIncidentEx, NdfCreateWebIncidentEx function [NDF], ndf.ndfcreatewebincidentex, ndfapi/NdfCreateWebIncidentEx
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateWebIncidentEx"]
+f1_keywords: 
+ - "ndfapi/NdfCreateWebIncidentEx"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

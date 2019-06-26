@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMUBYTE2.operator =, DirectX::PackedVector::XMUBYTE2::operator =, XMUBYTE2 structure [DirectX Math Support APIs],operator = method, XMUBYTE2.operator =, XMUBYTE2.operator-assign, XMUBYTE2.operator=, XMUBYTE2::operator-assign, XMUBYTE2::operator=, dxmath.xmubyte2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUBYTE2 structure, operator=
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMUBYTE2.operator ="]
+f1_keywords: 
+ - "directxpackedvector/XMUBYTE2.operator ="
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

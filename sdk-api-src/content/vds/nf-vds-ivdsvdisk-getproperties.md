@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsVDisk.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsVDisk.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

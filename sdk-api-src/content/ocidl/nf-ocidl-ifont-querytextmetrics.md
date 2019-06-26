@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],QueryTextMetrics method, IFont.QueryTextMetrics, IFont::QueryTextMetrics, QueryTextMetrics, QueryTextMetrics method [COM], QueryTextMetrics method [COM],IFont interface, _ctrl_ifont_querytextmetrics, com.ifont_querytextmetrics, ocidl/IFont::QueryTextMetrics
 ms.topic: method
-f1_keywords: ["ocidl/IFont.QueryTextMetrics"]
+f1_keywords: 
+ - "ocidl/IFont.QueryTextMetrics"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetSourceRect method, IDXGIDecodeSwapChain.GetSourceRect, IDXGIDecodeSwapChain::GetSourceRect, direct3ddxgi.idxgidecodeswapchain_getsourcerect, dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIDecodeSwapChain.GetSourceRect"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIDecodeSwapChain.GetSourceRect"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

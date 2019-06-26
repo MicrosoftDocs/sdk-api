@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILED_RESOURCE_COORDINATE, D3D12_TILED_RESOURCE_COORDINATE structure, d3d12/D3D12_TILED_RESOURCE_COORDINATE, direct3d12.d3d12_tiled_resource_coordinate
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_TILED_RESOURCE_COORDINATE"]
+f1_keywords: 
+ - "d3d12/D3D12_TILED_RESOURCE_COORDINATE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

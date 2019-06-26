@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetCustomOption, MI_OperationOptions_SetCustomOption function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetCustomOption, wmi_v2.mi_operationoptions_setcustomoption
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_SetCustomOption"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_SetCustomOption"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

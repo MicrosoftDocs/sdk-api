@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackageIdFromFullName, PackageIdFromFullName function [App packaging and management], appmodel/PackageIdFromFullName, appxpkg.packageidfromfullname
 ms.topic: function
-f1_keywords: ["appmodel/PackageIdFromFullName"]
+f1_keywords: 
+ - "appmodel/PackageIdFromFullName"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedLabeledBy property [Windows Accessibility], CachedLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLabeledBy property, IUIAutomationElement.CachedLabeledBy, IUIAutomationElement.get_CachedLabeledBy, IUIAutomationElement::CachedLabeledBy, IUIAutomationElement::get_CachedLabeledBy, get_CachedLabeledBy, uiauto.uiauto_IUIAutomationElement_CachedLabeledBy, uiauto_IUIAutomationElement_CachedLabeledBy, uiautomationclient/IUIAutomationElement::CachedLabeledBy, uiautomationclient/IUIAutomationElement::get_CachedLabeledBy, winauto.uiauto_IUIAutomationElement_CachedLabeledBy
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedLabeledBy"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CachedLabeledBy"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

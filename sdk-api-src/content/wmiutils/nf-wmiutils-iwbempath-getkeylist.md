@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeyList, GetKeyList method [Windows Management Instrumentation], GetKeyList method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetKeyList method, IWbemPath.GetKeyList, IWbemPath::GetKeyList, _hmm_iwbempath_getkeylist, wmi.iwbempath_getkeylist, wmiutils/IWbemPath::GetKeyList
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.GetKeyList"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.GetKeyList"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

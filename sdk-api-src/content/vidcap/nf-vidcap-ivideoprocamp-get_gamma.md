@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Gamma method, IVideoProcAmp.get_Gamma, IVideoProcAmp::get_Gamma, IVideoProcAmpget_Gamma, dshow.ivideoprocamp_get_gamma, get_Gamma, get_Gamma method [DirectShow], get_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Gamma
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.get_Gamma"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.get_Gamma"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
 ms.topic: method
-f1_keywords: ["vds/IVdsVolume.Extend"]
+f1_keywords: 
+ - "vds/IVdsVolume.Extend"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

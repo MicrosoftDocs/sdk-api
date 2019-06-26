@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO
 ms.topic: struct
-f1_keywords: ["ocidl/DVASPECTINFO"]
+f1_keywords: 
+ - "ocidl/DVASPECTINFO"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

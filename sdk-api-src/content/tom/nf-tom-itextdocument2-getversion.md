@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Controls], GetVersion method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetVersion method, ITextDocument2.GetVersion, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetVersion"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetVersion"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

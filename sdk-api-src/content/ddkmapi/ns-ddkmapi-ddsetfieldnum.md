@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDSETFIELDNUM, DDSETFIELDNUM, DDSETFIELDNUM structure [Display Devices], LPDDSETFIELDNUM, LPDDSETFIELDNUM structure pointer [Display Devices], ddkmapi/DDSETFIELDNUM, ddkmapi/LPDDSETFIELDNUM, ddstrcts_d8753497-b27b-4bd5-adcd-5b76e2169535.xml, display.ddsetfieldnum"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDSETFIELDNUM"]
+f1_keywords: 
+ - "ddkmapi/DDSETFIELDNUM"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

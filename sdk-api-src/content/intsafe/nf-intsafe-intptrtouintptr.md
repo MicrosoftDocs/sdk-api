@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows Shell], PtrdiffTToSizeT, PtrdiffTToUIntPtr, _shell_IntPtrToUIntPtr, intsafe/IntPtrToUIntPtr, shell.IntPtrToUIntPtr
 ms.topic: function
-f1_keywords: ["intsafe/IntPtrToUIntPtr"]
+f1_keywords: 
+ - "intsafe/IntPtrToUIntPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

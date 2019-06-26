@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.RemoveByID, ISensorCollection::RemoveByID, RemoveByID, RemoveByID method, RemoveByID method,ISensorCollection interface, sensorsapi/ISensorCollection::RemoveByID, winsensors_com_ref.isensorcollection_removebyid
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorCollection.RemoveByID"]
+f1_keywords: 
+ - "sensorsapi/ISensorCollection.RemoveByID"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

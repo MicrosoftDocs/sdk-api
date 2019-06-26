@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_TYPE, DML_TENSOR_TYPE enumeration, DML_TENSOR_TYPE_BUFFER, DML_TENSOR_TYPE_INVALID, direct3d12.dml_tensor_type, directml/DML_TENSOR_TYPE, directml/DML_TENSOR_TYPE_BUFFER, directml/DML_TENSOR_TYPE_INVALID
 ms.topic: enum
-f1_keywords: ["directml/DML_TENSOR_TYPE"]
+f1_keywords: 
+ - "directml/DML_TENSOR_TYPE"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

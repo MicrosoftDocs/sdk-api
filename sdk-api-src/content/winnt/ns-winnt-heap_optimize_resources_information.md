@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION structure, PHEAP_OPTIMIZE_RESOURCES_INFORMATION, PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer, base.heap_optimize_resources_information, winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION, winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION"]
+f1_keywords: 
+ - "winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

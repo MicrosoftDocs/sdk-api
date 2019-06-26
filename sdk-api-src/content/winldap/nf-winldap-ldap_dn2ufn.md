@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_dn2ufn"]
+f1_keywords: 
+ - "winldap/ldap_dn2ufn"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

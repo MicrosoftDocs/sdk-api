@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFIndexer, MFCreateASFIndexer function [Media Foundation], df141f8e-10b4-4ac4-8a83-c25764b8f0c6, mf.mfcreateasfindexer, wmcontainer/MFCreateASFIndexer
 ms.topic: function
-f1_keywords: ["wmcontainer/MFCreateASFIndexer"]
+f1_keywords: 
+ - "wmcontainer/MFCreateASFIndexer"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

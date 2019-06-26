@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites
 ms.topic: function
-f1_keywords: ["filehc/SetDotStuffingOnWrites"]
+f1_keywords: 
+ - "filehc/SetDotStuffingOnWrites"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.SetRedrawAlways"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.SetRedrawAlways"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

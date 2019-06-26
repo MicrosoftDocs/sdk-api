@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CPFT_CHECKBOX, CPFT_COMBOBOX, CPFT_COMMAND_LINK, CPFT_EDIT_TEXT, CPFT_INVALID, CPFT_LARGE_TEXT, CPFT_PASSWORD_TEXT, CPFT_SMALL_TEXT, CPFT_SUBMIT_BUTTON, CPFT_TILE_IMAGE, CREDENTIAL_PROVIDER_FIELD_TYPE, CREDENTIAL_PROVIDER_FIELD_TYPE enumeration [Windows Shell], credentialprovider/CPFT_CHECKBOX, credentialprovider/CPFT_COMBOBOX, credentialprovider/CPFT_COMMAND_LINK, credentialprovider/CPFT_EDIT_TEXT, credentialprovider/CPFT_INVALID, credentialprovider/CPFT_LARGE_TEXT, credentialprovider/CPFT_PASSWORD_TEXT, credentialprovider/CPFT_SMALL_TEXT, credentialprovider/CPFT_SUBMIT_BUTTON, credentialprovider/CPFT_TILE_IMAGE, credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE, shell.CREDENTIAL_PROVIDER_FIELD_TYPE, shell_CREDENTIAL_PROVIDER_FIELD_TYPE
 ms.topic: enum
-f1_keywords: ["credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE"]
+f1_keywords: 
+ - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

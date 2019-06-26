@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internationalization for Windows Applications], Thread ID, _win32_ImmEnumInputContext, imm/ImmEnumInputContext, intl.immenuminputcontext
 ms.topic: function
-f1_keywords: ["imm/ImmEnumInputContext"]
+f1_keywords: 
+ - "imm/ImmEnumInputContext"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

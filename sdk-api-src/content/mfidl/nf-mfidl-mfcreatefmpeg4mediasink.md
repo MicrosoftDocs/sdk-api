@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateFMPEG4MediaSink, MFCreateFMPEG4MediaSink function [Media Foundation], mf.mfcreatefmpeg4mediasink, mfidl/MFCreateFMPEG4MediaSink
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateFMPEG4MediaSink"]
+f1_keywords: 
+ - "mfidl/MFCreateFMPEG4MediaSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

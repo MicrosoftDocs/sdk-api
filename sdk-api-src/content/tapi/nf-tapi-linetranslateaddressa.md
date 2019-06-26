@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress"
 ms.topic: function
-f1_keywords: ["tapi/lineTranslateAddress"]
+f1_keywords: 
+ - "tapi/lineTranslateAddress"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

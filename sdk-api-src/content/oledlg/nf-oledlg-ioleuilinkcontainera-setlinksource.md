@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkSource method, IOleUILinkContainer::SetLinkSource, IOleUILinkContainerA interface [COM],SetLinkSource method, IOleUILinkContainerA.SetLinkSource, IOleUILinkContainerA::SetLinkSource, IOleUILinkContainerW interface [COM],SetLinkSource method, IOleUILinkContainerW::SetLinkSource, SetLinkSource, SetLinkSource method [COM], SetLinkSource method [COM],IOleUILinkContainer interface, SetLinkSource method [COM],IOleUILinkContainerA interface, SetLinkSource method [COM],IOleUILinkContainerW interface, com.ioleuilinkcontainer_setlinksource, ole_IOleUILinkContainer_SetLinkSource, oledlg/IOleUILinkContainer::SetLinkSource, oledlg/IOleUILinkContainerA::SetLinkSource, oledlg/IOleUILinkContainerW::SetLinkSource
 ms.topic: method
-f1_keywords: ["oledlg/IOleUILinkContainer.SetLinkSource"]
+f1_keywords: 
+ - "oledlg/IOleUILinkContainer.SetLinkSource"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

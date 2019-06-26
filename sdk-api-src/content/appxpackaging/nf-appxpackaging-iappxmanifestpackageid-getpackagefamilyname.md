@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFamilyName method, IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestPackageId.GetPackageFamilyName"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestPackageId.GetPackageFamilyName"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

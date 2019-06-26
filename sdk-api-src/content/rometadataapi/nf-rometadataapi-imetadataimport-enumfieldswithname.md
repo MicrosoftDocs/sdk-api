@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.EnumFieldsWithName"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.EnumFieldsWithName"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

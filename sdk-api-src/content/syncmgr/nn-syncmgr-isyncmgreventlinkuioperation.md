@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], ISyncMgrEventLinkUIOperation interface [Windows Shell],described, _shell_ISyncMgrEventLinkUIOperation, shell.ISyncMgrEventLinkUIOperation, syncmgr/ISyncMgrEventLinkUIOperation
 ms.topic: interface
-f1_keywords: ["syncmgr/ISyncMgrEventLinkUIOperation"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEventLinkUIOperation"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

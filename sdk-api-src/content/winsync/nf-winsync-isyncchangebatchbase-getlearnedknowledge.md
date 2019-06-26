@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetLearnedKnowledge method, ISyncChangeBatchBase.GetLearnedKnowledge, ISyncChangeBatchBase::GetLearnedKnowledge, winsync.isyncchangebatchbase_getlearnedknowledge, winsync/ISyncChangeBatchBase::GetLearnedKnowledge
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBatchBase.GetLearnedKnowledge"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchBase.GetLearnedKnowledge"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

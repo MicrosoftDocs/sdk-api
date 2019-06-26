@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP],IRDPSRAPIInvitation interface, ConnectionString property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],ConnectionString property, IRDPSRAPIInvitation.ConnectionString, IRDPSRAPIInvitation.get_ConnectionString, IRDPSRAPIInvitation::ConnectionString, IRDPSRAPIInvitation::get_ConnectionString, RDPSRAPIInvitation object [RDP],ConnectionString property, get_ConnectionString, rdp.irdpsrapiinvitation_connectionstring, rdpencomapi/IRDPSRAPIInvitation::ConnectionString, rdpencomapi/IRDPSRAPIInvitation::get_ConnectionString
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIInvitation.ConnectionString"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIInvitation.ConnectionString"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

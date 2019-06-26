@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
 ms.topic: struct
-f1_keywords: ["mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0"]
+f1_keywords: 
+ - "mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

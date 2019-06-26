@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsItem.RemoveListElement, ISettingsItem::RemoveListElement, RemoveListElement, RemoveListElement method [SMI], RemoveListElement method [SMI],ISettingsItem interface, smi.isettingsitem_removelistelement, wcmconfig/ISettingsItem::RemoveListElement
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.RemoveListElement"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.RemoveListElement"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

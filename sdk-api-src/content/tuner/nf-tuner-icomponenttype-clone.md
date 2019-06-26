@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponentType interface, IComponentType interface [Microsoft TV Technologies],Clone method, IComponentType.Clone, IComponentType::Clone, IComponentTypeClone, mstv.icomponenttype_clone, tuner/IComponentType::Clone
 ms.topic: method
-f1_keywords: ["tuner/IComponentType.Clone"]
+f1_keywords: 
+ - "tuner/IComponentType.Clone"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

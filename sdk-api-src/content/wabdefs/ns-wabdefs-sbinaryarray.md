@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST"
 ms.topic: struct
-f1_keywords: ["wabdefs/ENTRYLIST"]
+f1_keywords: 
+ - "wabdefs/ENTRYLIST"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

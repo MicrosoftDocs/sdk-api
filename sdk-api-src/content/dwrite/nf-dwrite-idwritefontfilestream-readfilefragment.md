@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileStream interface [Direct Write],ReadFileFragment method, IDWriteFontFileStream.ReadFileFragment, IDWriteFontFileStream::ReadFileFragment, ReadFileFragment, ReadFileFragment method [Direct Write], ReadFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReadFileFragment, dwrite/IDWriteFontFileStream::ReadFileFragment
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFileStream.ReadFileFragment"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFileStream.ReadFileFragment"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

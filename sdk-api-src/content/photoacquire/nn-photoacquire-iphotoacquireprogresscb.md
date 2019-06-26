@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], IPhotoAcquireProgressCB interface [Picture Acquisition],described, IPhotoAcquireProgressCBInterface, photoacquire/IPhotoAcquireProgressCB, picacq.iphotoacquireprogresscb
 ms.topic: interface
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

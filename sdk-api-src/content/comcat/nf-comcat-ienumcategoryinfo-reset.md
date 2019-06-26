@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Reset method, IEnumCATEGORYINFO.Reset, IEnumCATEGORYINFO::Reset, Reset, Reset method [COM], Reset method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_reset, com.ienumcategoryinfo_reset, comcat/IEnumCATEGORYINFO::Reset
 ms.topic: method
-f1_keywords: ["comcat/IEnumCATEGORYINFO.Reset"]
+f1_keywords: 
+ - "comcat/IEnumCATEGORYINFO.Reset"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumGroups, EnumGroups method [BITS], EnumGroups method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],EnumGroups method, IBackgroundCopyQMgr.EnumGroups, IBackgroundCopyQMgr::EnumGroups, bits.ibackgroundcopyqmgr_enumgroups, qmgr/IBackgroundCopyQMgr::EnumGroups
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyQMgr.EnumGroups"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyQMgr.EnumGroups"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

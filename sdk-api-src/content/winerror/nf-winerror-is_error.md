@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_ERROR, IS_ERROR macro [COM], _com_IS_ERROR, com.is_error, com.is_error_macro, winerror/IS_ERROR
 ms.topic: macro
-f1_keywords: ["winerror/IS_ERROR"]
+f1_keywords: 
+ - "winerror/IS_ERROR"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],KBArticleIDs property, IUpdate.KBArticleIDs, IUpdate.get_KBArticleIDs, IUpdate::KBArticleIDs, IUpdate::get_KBArticleIDs, KBArticleIDs property [Windows Update Agent], KBArticleIDs property [Windows Update Agent],IUpdate interface, get_KBArticleIDs, wua.iupdate_kbarticleids, wuapi/IUpdate::KBArticleIDs, wuapi/IUpdate::get_KBArticleIDs
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.KBArticleIDs"]
+f1_keywords: 
+ - "wuapi/IUpdate.KBArticleIDs"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Roles property, IAzScope interface [Security],Roles property, IAzScope.Roles, IAzScope.get_Roles, IAzScope::Roles, IAzScope::get_Roles, Roles property [Security], Roles property [Security],AzScope object, Roles property [Security],IAzScope interface, azroles/IAzScope::Roles, azroles/IAzScope::get_Roles, get_Roles, security.iazscope_roles
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.Roles"]
+f1_keywords: 
+ - "azroles/IAzScope.Roles"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

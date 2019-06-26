@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Unload method, IDirectMusicSynth.Unload, IDirectMusicSynth::Unload, Unload, Unload method [Audio Devices], Unload method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_unload, audmp-routines_7a0213c4-3cd1-4c6f-ab4a-064d08782629.xml, dmusics/IDirectMusicSynth::Unload
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth.Unload"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth.Unload"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

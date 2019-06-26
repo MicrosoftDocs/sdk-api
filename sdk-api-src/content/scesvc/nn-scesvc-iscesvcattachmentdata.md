@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
 ms.topic: interface
-f1_keywords: ["scesvc/ISceSvcAttachmentData"]
+f1_keywords: 
+ - "scesvc/ISceSvcAttachmentData"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

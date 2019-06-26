@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
 ms.topic: interface
-f1_keywords: ["comsvcs/IObjectContextTip"]
+f1_keywords: 
+ - "comsvcs/IObjectContextTip"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

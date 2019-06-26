@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
 ms.topic: interface
-f1_keywords: ["strmif/IAMStreamSelect"]
+f1_keywords: 
+ - "strmif/IAMStreamSelect"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

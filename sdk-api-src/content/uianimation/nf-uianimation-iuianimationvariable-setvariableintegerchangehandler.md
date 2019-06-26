@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable.SetVariableIntegerChangeHandler, IUIAnimationVariable::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariableintegerchangehandler, uianimation/IUIAnimationVariable::SetVariableIntegerChangeHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable.SetVariableIntegerChangeHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable.SetVariableIntegerChangeHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER_CONDITION0, FWPS_FILTER_CONDITION0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_FILTER_CONDITION0, netvista.fwps_filter_condition0, wfp_ref_3_struct_3_fwps_F-O_93287819-7faf-41d5-a128-946293c1eb73.xml
 ms.topic: struct
-f1_keywords: ["fwpstypes/FWPS_FILTER_CONDITION0"]
+f1_keywords: 
+ - "fwpstypes/FWPS_FILTER_CONDITION0"
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

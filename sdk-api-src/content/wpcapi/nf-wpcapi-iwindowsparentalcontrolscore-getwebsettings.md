@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebSettings method, IWindowsParentalControlsCore.GetWebSettings, IWindowsParentalControlsCore::GetWebSettings, parcon.iwindowsparentalcontrols_getwebsettings, wpcapi/IWindowsParentalControlsCore::GetWebSettings
 ms.topic: method
-f1_keywords: ["wpcapi/IWindowsParentalControlsCore.GetWebSettings"]
+f1_keywords: 
+ - "wpcapi/IWindowsParentalControlsCore.GetWebSettings"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

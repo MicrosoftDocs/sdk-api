@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.GetCLSID"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.GetCLSID"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

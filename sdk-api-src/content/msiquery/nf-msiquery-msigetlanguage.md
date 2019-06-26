@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetLanguage, MsiGetLanguage function, _msi_msigetlanguage, msiquery/MsiGetLanguage, setup.msigetlanguage
 ms.topic: function
-f1_keywords: ["msiquery/MsiGetLanguage"]
+f1_keywords: 
+ - "msiquery/MsiGetLanguage"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

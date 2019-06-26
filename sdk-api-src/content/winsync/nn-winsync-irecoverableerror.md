@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
 ms.topic: interface
-f1_keywords: ["winsync/IRecoverableError"]
+f1_keywords: 
+ - "winsync/IRecoverableError"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

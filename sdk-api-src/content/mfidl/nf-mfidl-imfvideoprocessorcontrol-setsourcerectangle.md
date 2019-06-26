@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetSourceRectangle method, IMFVideoProcessorControl.SetSourceRectangle, IMFVideoProcessorControl::SetSourceRectangle, SetSourceRectangle, SetSourceRectangle method [Media Foundation], SetSourceRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setsourcerectangle, mfidl/IMFVideoProcessorControl::SetSourceRectangle
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoProcessorControl.SetSourceRectangle"]
+f1_keywords: 
+ - "mfidl/IMFVideoProcessorControl.SetSourceRectangle"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

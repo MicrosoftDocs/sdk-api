@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_WriteSpeed method, IWriteSpeedDescriptor.get_WriteSpeed, IWriteSpeedDescriptor::get_WriteSpeed, get_WriteSpeed, get_WriteSpeed method [IMAPI], get_WriteSpeed method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_writespeed, imapi2/IWriteSpeedDescriptor::get_WriteSpeed
 ms.topic: method
-f1_keywords: ["imapi2/IWriteSpeedDescriptor.get_WriteSpeed"]
+f1_keywords: 
+ - "imapi2/IWriteSpeedDescriptor.get_WriteSpeed"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

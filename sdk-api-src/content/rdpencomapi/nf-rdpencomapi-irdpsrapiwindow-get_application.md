@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Application property [RDP], Application property [RDP],IRDPSRAPIWindow interface, Application property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Application property, IRDPSRAPIWindow.Application, IRDPSRAPIWindow.get_Application, IRDPSRAPIWindow::Application, IRDPSRAPIWindow::get_Application, RDPSRAPIWindow object [RDP],Application property, get_Application, rdp.irdpsrapiwindow_application, rdpencomapi/IRDPSRAPIWindow::Application, rdpencomapi/IRDPSRAPIWindow::get_Application
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIWindow.Application"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIWindow.Application"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

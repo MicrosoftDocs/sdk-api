@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 32601f2e-ab91-4a65-bcf4-8e063e90fbb0, ContiguousCopyTo, ContiguousCopyTo method [Media Foundation], ContiguousCopyTo method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyTo method, IMF2DBuffer.ContiguousCopyTo, IMF2DBuffer::ContiguousCopyTo, mf.imf2dbuffer_contiguouscopyto, mfobjects/IMF2DBuffer::ContiguousCopyTo
 ms.topic: method
-f1_keywords: ["mfobjects/IMF2DBuffer.ContiguousCopyTo"]
+f1_keywords: 
+ - "mfobjects/IMF2DBuffer.ContiguousCopyTo"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

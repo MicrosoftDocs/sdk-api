@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRMService interface [Microsoft TV Technologies],SetDRM method, IBDA_DRMService.SetDRM, IBDA_DRMService::SetDRM, SetDRM, SetDRM method [Microsoft TV Technologies], SetDRM method [Microsoft TV Technologies],IBDA_DRMService interface, bdaiface/IBDA_DRMService::SetDRM, mstv.ibda_drmservice_setdrm
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DRMService.SetDRM"]
+f1_keywords: 
+ - "bdaiface/IBDA_DRMService.SetDRM"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

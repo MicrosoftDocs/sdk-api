@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager interface [search],SetOption method, IQueryParserManager.SetOption, IQueryParserManager::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParserManager interface, _search_IQueryParserManager_SetOption, search._search_IQueryParserManager_SetOption, structuredquery/IQueryParserManager::SetOption
 ms.topic: method
-f1_keywords: ["structuredquery/IQueryParserManager.SetOption"]
+f1_keywords: 
+ - "structuredquery/IQueryParserManager.SetOption"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

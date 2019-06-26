@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectDestroy method, IComInstanceEvents.OnObjectDestroy, IComInstanceEvents::OnObjectDestroy, OnObjectDestroy, OnObjectDestroy method [COM+], OnObjectDestroy method [COM+],IComInstanceEvents interface, _dtc_IComInstanceEvents_OnObjectDestroy, comsvcs/IComInstanceEvents::OnObjectDestroy, cos.icominstanceevents_onobjectdestroy
 ms.topic: method
-f1_keywords: ["comsvcs/IComInstanceEvents.OnObjectDestroy"]
+f1_keywords: 
+ - "comsvcs/IComInstanceEvents.OnObjectDestroy"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_REPL_OPW_BLOB"]
+f1_keywords: 
+ - "ntdsapi/DS_REPL_OPW_BLOB"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

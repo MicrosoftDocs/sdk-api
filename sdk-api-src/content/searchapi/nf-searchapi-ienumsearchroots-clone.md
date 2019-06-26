@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchRoots interface, IEnumSearchRoots interface [search],Clone method, IEnumSearchRoots.Clone, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
 ms.topic: method
-f1_keywords: ["searchapi/IEnumSearchRoots.Clone"]
+f1_keywords: 
+ - "searchapi/IEnumSearchRoots.Clone"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

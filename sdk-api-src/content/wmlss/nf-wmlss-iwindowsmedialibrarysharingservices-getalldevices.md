@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],getAllDevices method, IWindowsMediaLibrarySharingServices.getAllDevices, IWindowsMediaLibrarySharingServices::getAllDevices, getAllDevices, getAllDevices method [Windows Media Library Sharing Services], getAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSgetAllDevices, wmlss/IWindowsMediaLibrarySharingServices::getAllDevices
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.getAllDevices"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.getAllDevices"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation2 interface [windows Media Device Manager],SetObjectAttributes2 method, IWMDMOperation2.SetObjectAttributes2, IWMDMOperation2::SetObjectAttributes2, IWMDMOperation2SetObjectAttributes2, SetObjectAttributes2, SetObjectAttributes2 method [windows Media Device Manager], SetObjectAttributes2 method [windows Media Device Manager],IWMDMOperation2 interface, mswmdm/IWMDMOperation2::SetObjectAttributes2, wmdm.iwmdmoperation2_setobjectattributes2
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMOperation2.SetObjectAttributes2"]
+f1_keywords: 
+ - "mswmdm/IWMDMOperation2.SetObjectAttributes2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

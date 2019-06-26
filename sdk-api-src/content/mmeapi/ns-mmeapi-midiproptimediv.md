@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIPROPTIMEDIV, MIDIPROPTIMEDIV, MIDIPROPTIMEDIV structure [Windows Multimedia], _win32_MIDIPROPTIMEDIV_str, midiproptimediv_tag, mmeapi/MIDIPROPTIMEDIV, multimedia.midiproptimediv"
 ms.topic: struct
-f1_keywords: ["mmeapi/MIDIPROPTIMEDIV"]
+f1_keywords: 
+ - "mmeapi/MIDIPROPTIMEDIV"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

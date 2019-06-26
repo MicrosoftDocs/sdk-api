@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateArrayNode, CreateArrayNode method [Windows Contacts], CreateArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],CreateArrayNode method, IContactProperties.CreateArrayNode, IContactProperties::CreateArrayNode, _wincontacts_IContactProperties_CreateArrayNode, icontact/IContactProperties::CreateArrayNode, wincontacts._wincontacts_IContactProperties_CreateArrayNode
 ms.topic: method
-f1_keywords: ["icontact/IContactProperties.CreateArrayNode"]
+f1_keywords: 
+ - "icontact/IContactProperties.CreateArrayNode"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

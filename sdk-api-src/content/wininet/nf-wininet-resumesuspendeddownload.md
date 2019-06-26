@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
 ms.topic: function
-f1_keywords: ["wininet/ResumeSuspendedDownload"]
+f1_keywords: 
+ - "wininet/ResumeSuspendedDownload"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

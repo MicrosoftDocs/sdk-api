@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
 ms.topic: function
-f1_keywords: ["dsparse/DsCrackSpn"]
+f1_keywords: 
+ - "dsparse/DsCrackSpn"
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
 ms.topic: interface
-f1_keywords: ["ocidl/IEnumOleUndoUnits"]
+f1_keywords: 
+ - "ocidl/IEnumOleUndoUnits"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmReportLimit, FsrmReportLimit enumeration [File Server Resource Manager], FsrmReportLimit_MaxDuplicateGroups, FsrmReportLimit_MaxFileGroups, FsrmReportLimit_MaxFileScreenEvents, FsrmReportLimit_MaxFiles, FsrmReportLimit_MaxFilesPerDuplGroup, FsrmReportLimit_MaxFilesPerFileGroup, FsrmReportLimit_MaxFilesPerOwner, FsrmReportLimit_MaxFilesPerPropertyValue, FsrmReportLimit_MaxFolders, FsrmReportLimit_MaxOwners, FsrmReportLimit_MaxPropertyValues, FsrmReportLimit_MaxQuotas, fs.fsrmreportlimit, fsrm.fsrmreportlimit, fsrmenums/FsrmReportLimit, fsrmenums/FsrmReportLimit_MaxDuplicateGroups, fsrmenums/FsrmReportLimit_MaxFileGroups, fsrmenums/FsrmReportLimit_MaxFileScreenEvents, fsrmenums/FsrmReportLimit_MaxFiles, fsrmenums/FsrmReportLimit_MaxFilesPerDuplGroup, fsrmenums/FsrmReportLimit_MaxFilesPerFileGroup, fsrmenums/FsrmReportLimit_MaxFilesPerOwner, fsrmenums/FsrmReportLimit_MaxFilesPerPropertyValue, fsrmenums/FsrmReportLimit_MaxFolders, fsrmenums/FsrmReportLimit_MaxOwners, fsrmenums/FsrmReportLimit_MaxPropertyValues, fsrmenums/FsrmReportLimit_MaxQuotas
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmReportLimit"]
+f1_keywords: 
+ - "fsrmenums/FsrmReportLimit"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

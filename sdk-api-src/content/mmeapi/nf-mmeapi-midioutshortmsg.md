@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutShortMsg, midiOutShortMsg, midiOutShortMsg function [Windows Multimedia], mmeapi/midiOutShortMsg, multimedia.midioutshortmsg"
 ms.topic: function
-f1_keywords: ["mmeapi/midiOutShortMsg"]
+f1_keywords: 
+ - "mmeapi/midiOutShortMsg"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

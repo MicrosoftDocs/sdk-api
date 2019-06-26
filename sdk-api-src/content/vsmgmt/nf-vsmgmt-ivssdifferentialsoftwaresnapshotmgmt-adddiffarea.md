@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 ms.topic: method
-f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea"]
+f1_keywords: 
+ - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

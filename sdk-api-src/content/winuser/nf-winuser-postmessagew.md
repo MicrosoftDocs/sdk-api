@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HWND_BROADCAST, PostMessage, PostMessage function [Windows and Messages], PostMessageA, PostMessageW, _win32_PostMessage, _win32_postmessage_cpp, winmsg.postmessage, winui._win32_postmessage, winuser/PostMessage, winuser/PostMessageA, winuser/PostMessageW
 ms.topic: function
-f1_keywords: ["winuser/PostMessage"]
+f1_keywords: 
+ - "winuser/PostMessage"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

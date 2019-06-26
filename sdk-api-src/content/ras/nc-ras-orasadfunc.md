@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS], _ras_orasadfunc, ras/ORASADFunc, rras.orasadfunc
 ms.topic: callback
-f1_keywords: ["ras/ORASADFunc"]
+f1_keywords: 
+ - "ras/ORASADFunc"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

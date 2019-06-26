@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_MAP_OPTIONS, D2D1_MAP_OPTIONS enumeration [Direct2D], D2D1_MAP_OPTIONS_DISCARD, D2D1_MAP_OPTIONS_READ, D2D1_MAP_OPTIONS_WRITE, d2d1_1/D2D1_MAP_OPTIONS, d2d1_1/D2D1_MAP_OPTIONS_DISCARD, d2d1_1/D2D1_MAP_OPTIONS_READ, d2d1_1/D2D1_MAP_OPTIONS_WRITE, direct2d.__d2d1_map_options
 ms.topic: enum
-f1_keywords: ["d2d1_1/D2D1_MAP_OPTIONS"]
+f1_keywords: 
+ - "d2d1_1/D2D1_MAP_OPTIONS"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SAMPLER_DESC, D3D11_SAMPLER_DESC structure [Direct3D 11], bb0f20c3-8e57-c2fb-f34c-640d23b254ab, d3d11/D3D11_SAMPLER_DESC, direct3d11.d3d11_sampler_desc
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_SAMPLER_DESC"]
+f1_keywords: 
+ - "d3d11/D3D11_SAMPLER_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

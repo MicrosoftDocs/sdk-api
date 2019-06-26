@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastructure (MI)], mi/MI_SessionFT, wmi_v2.mi_sessionft
 ms.topic: struct
-f1_keywords: ["mi/MI_SessionFT"]
+f1_keywords: 
+ - "mi/MI_SessionFT"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

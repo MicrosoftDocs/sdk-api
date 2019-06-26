@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.topic: struct
-f1_keywords: ["textstor/TS_ATTRVAL"]
+f1_keywords: 
+ - "textstor/TS_ATTRVAL"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

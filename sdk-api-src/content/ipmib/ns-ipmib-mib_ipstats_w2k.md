@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_W2K, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats"
 ms.topic: struct
-f1_keywords: ["ipmib/MIB_IPSTATS"]
+f1_keywords: 
+ - "ipmib/MIB_IPSTATS"
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

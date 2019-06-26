@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_LUN_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_LUN_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

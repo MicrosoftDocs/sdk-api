@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32_internetclosehandle, wininet.internetclosehandle, wininet/InternetCloseHandle
 ms.topic: function
-f1_keywords: ["wininet/InternetCloseHandle"]
+f1_keywords: 
+ - "wininet/InternetCloseHandle"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

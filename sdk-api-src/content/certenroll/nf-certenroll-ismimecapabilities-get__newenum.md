@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapabilities interface [Security],_NewEnum property, ISmimeCapabilities._NewEnum, ISmimeCapabilities.get__NewEnum, ISmimeCapabilities::_NewEnum, ISmimeCapabilities::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::_NewEnum, certenroll/ISmimeCapabilities::get__NewEnum, get__NewEnum, security.ismimecapabilities__newenum_property
 ms.topic: method
-f1_keywords: ["certenroll/ISmimeCapabilities._NewEnum"]
+f1_keywords: 
+ - "certenroll/ISmimeCapabilities._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

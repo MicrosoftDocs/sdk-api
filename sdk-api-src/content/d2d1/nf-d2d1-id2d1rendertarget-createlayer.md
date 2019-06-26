@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLayer, CreateLayer methods [Direct2D], ID2D1RenderTarget.CreateLayer, ID2D1RenderTarget::CreateLayer, d2d1/CreateLayer, direct2d.id2d1rendertarget_createlayer
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget::CreateLayer"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget::CreateLayer"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

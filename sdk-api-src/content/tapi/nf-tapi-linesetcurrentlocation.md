@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetcurrentlocation, lineSetCurrentLocation, lineSetCurrentLocation function [TAPI 2.2], tapi/lineSetCurrentLocation, tapi2.linesetcurrentlocation"
 ms.topic: function
-f1_keywords: ["tapi/lineSetCurrentLocation"]
+f1_keywords: 
+ - "tapi/lineSetCurrentLocation"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

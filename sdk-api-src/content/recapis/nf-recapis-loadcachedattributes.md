@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadCachedAttributes, LoadCachedAttributes function [Tablet PC], recapis/LoadCachedAttributes, tablet.loadcachedattributes
 ms.topic: function
-f1_keywords: ["recapis/LoadCachedAttributes"]
+f1_keywords: 
+ - "recapis/LoadCachedAttributes"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

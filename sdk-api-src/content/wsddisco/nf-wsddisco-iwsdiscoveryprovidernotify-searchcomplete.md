@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchComplete method, IWSDiscoveryProviderNotify.SearchComplete, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete, SearchComplete method, SearchComplete method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryProviderNotify.SearchComplete"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryProviderNotify.SearchComplete"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

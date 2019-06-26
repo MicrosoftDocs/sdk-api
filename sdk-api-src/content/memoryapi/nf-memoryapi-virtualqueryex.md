@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, base.virtualqueryex, winbase/VirtualQueryEx
 ms.topic: function
-f1_keywords: ["memoryapi/VirtualQueryEx"]
+f1_keywords: 
+ - "memoryapi/VirtualQueryEx"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

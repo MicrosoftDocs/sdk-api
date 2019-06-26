@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
 ms.topic: function
-f1_keywords: ["iphlpapi/IpRenewAddress"]
+f1_keywords: 
+ - "iphlpapi/IpRenewAddress"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

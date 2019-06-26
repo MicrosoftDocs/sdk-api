@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFMediaEngineSupportsSourceTransfer"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineSupportsSourceTransfer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

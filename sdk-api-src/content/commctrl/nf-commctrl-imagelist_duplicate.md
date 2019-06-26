@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Duplicate, ImageList_Duplicate function [Windows Controls], _win32_ImageList_Duplicate, _win32_ImageList_Duplicate_cpp, commctrl/ImageList_Duplicate, controls.ImageList_Duplicate, controls._win32_ImageList_Duplicate
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_Duplicate"]
+f1_keywords: 
+ - "commctrl/ImageList_Duplicate"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

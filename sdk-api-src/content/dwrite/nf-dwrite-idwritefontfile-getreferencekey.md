@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReferenceKey, GetReferenceKey method [Direct Write], GetReferenceKey method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetReferenceKey method, IDWriteFontFile.GetReferenceKey, IDWriteFontFile::GetReferenceKey, directwrite.IDWriteFontFile_GetReferenceKey, dwrite/IDWriteFontFile::GetReferenceKey
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFile.GetReferenceKey"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFile.GetReferenceKey"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

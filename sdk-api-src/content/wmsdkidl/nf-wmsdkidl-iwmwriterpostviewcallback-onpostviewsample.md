@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPostViewCallback.OnPostViewSample"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPostViewCallback.OnPostViewSample"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

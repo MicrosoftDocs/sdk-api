@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function [Files], _zaw_endntmsdevicechangedetection, base.endntmsdevicechangedetection, fs.endntmsdevicechangedetection, ntmsapi/EndNtmsDeviceChangeDetection
 ms.topic: function
-f1_keywords: ["ntmsapi/EndNtmsDeviceChangeDetection"]
+f1_keywords: 
+ - "ntmsapi/EndNtmsDeviceChangeDetection"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

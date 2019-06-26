@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, mmc.iconsole_queryresultview, mmc/IConsole::QueryResultView
 ms.topic: method
-f1_keywords: ["mmc/IConsole.QueryResultView"]
+f1_keywords: 
+ - "mmc/IConsole.QueryResultView"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

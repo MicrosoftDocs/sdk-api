@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUsage, GetUsage method [Windows Shell], GetUsage method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetUsage method, IFileIsInUse.GetUsage, IFileIsInUse::GetUsage, _shell_IFileIsInUse_GetUsage, shell.IFileIsInUse_GetUsage, shobjidl_core/IFileIsInUse::GetUsage
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileIsInUse.GetUsage"]
+f1_keywords: 
+ - "shobjidl_core/IFileIsInUse.GetUsage"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EMI_METADATA_V2, EMI_METADATA_V2 structure [Power Metering and Budgeting Devices], emi/EMI_METADATA_V2, powermeter.emi_metadata_v2
 ms.topic: struct
-f1_keywords: ["emi/EMI_METADATA_V2"]
+f1_keywords: 
+ - "emi/EMI_METADATA_V2"
 req.header: emi.h
 req.include-header: 
 req.target-type: Windows

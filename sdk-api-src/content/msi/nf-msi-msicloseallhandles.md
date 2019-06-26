@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiCloseAllHandles, MsiCloseAllHandles function, _msi_msicloseallhandles, msi/MsiCloseAllHandles, setup.msicloseallhandles
 ms.topic: function
-f1_keywords: ["msi/MsiCloseAllHandles"]
+f1_keywords: 
+ - "msi/MsiCloseAllHandles"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

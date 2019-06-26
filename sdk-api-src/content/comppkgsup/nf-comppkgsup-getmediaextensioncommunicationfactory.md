@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
 ms.topic: function
-f1_keywords: ["comppkgsup/GetMediaExtensionCommunicationFactory"]
+f1_keywords: 
+ - "comppkgsup/GetMediaExtensionCommunicationFactory"
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

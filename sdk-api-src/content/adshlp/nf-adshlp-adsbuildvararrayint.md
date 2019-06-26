@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayInt, ADsBuildVarArrayInt function [ADSI], _ds_adsbuildvararrayint, adshlp/ADsBuildVarArrayInt, adsi.adsbuildvararrayint
 ms.topic: function
-f1_keywords: ["adshlp/ADsBuildVarArrayInt"]
+f1_keywords: 
+ - "adshlp/ADsBuildVarArrayInt"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

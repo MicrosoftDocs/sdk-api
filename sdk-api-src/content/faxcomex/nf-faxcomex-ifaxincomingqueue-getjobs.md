@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetJobs, GetJobs method [Fax Service], GetJobs method [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],GetJobs method, IFaxIncomingQueue.GetJobs, IFaxIncomingQueue::GetJobs, _mfax_faxincomingqueue.getjobs, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp, fax._mfax_faxincomingqueue_getjobs, faxcomex/IFaxIncomingQueue::GetJobs
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingQueue.GetJobs"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingQueue.GetJobs"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

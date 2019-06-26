@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAPControlA, LDAPControl, LDAPControl structure [LDAP], LDAPControlA, LDAPControlW, PLDAPControl, PLDAPControl structure pointer [LDAP], _ldap_ldapcontrol, ldap.ldapcontrol, winldap/LDAPControl, winldap/LDAPControlA, winldap/LDAPControlW, winldap/PLDAPControl"
 ms.topic: struct
-f1_keywords: ["winldap/LDAPControl"]
+f1_keywords: 
+ - "winldap/LDAPControl"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

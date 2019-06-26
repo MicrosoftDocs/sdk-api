@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationPriorityComparison.HasPriority"]
+f1_keywords: 
+ - "uianimation/IUIAnimationPriorityComparison.HasPriority"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

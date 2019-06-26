@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamEndTime, AVIStreamEndTime macro [Windows Multimedia], _win32_AVIStreamEndTime, multimedia.avistreamendtime, vfw/AVIStreamEndTime
 ms.topic: macro
-f1_keywords: ["vfw/AVIStreamEndTime"]
+f1_keywords: 
+ - "vfw/AVIStreamEndTime"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

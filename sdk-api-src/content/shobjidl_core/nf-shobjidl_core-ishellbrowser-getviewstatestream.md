@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewStateStream, GetViewStateStream method [Windows Shell], GetViewStateStream method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetViewStateStream method, IShellBrowser.GetViewStateStream, IShellBrowser::GetViewStateStream, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_IShellBrowser_GetViewStateStream, shell.IShellBrowser_GetViewStateStream, shobjidl_core/IShellBrowser::GetViewStateStream
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellBrowser.GetViewStateStream"]
+f1_keywords: 
+ - "shobjidl_core/IShellBrowser.GetViewStateStream"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

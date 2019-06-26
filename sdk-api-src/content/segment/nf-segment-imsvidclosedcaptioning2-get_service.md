@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],get_Service method, IMSVidClosedCaptioning2.get_Service, IMSVidClosedCaptioning2::get_Service, IMSVidClosedCaptioning2get_Service, get_Service, get_Service method [Microsoft TV Technologies], get_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, mstv.imsvidclosedcaptioning2_get_service, segment/IMSVidClosedCaptioning2::get_Service
 ms.topic: method
-f1_keywords: ["segment/IMSVidClosedCaptioning2.get_Service"]
+f1_keywords: 
+ - "segment/IMSVidClosedCaptioning2.get_Service"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

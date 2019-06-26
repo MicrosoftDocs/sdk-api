@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
 ms.topic: interface
-f1_keywords: ["objidl/IGlobalInterfaceTable"]
+f1_keywords: 
+ - "objidl/IGlobalInterfaceTable"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

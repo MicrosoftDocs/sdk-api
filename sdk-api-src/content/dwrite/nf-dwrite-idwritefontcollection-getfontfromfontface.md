@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFromFontFace, GetFontFromFontFace method [Direct Write], GetFontFromFontFace method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFromFontFace method, IDWriteFontCollection.GetFontFromFontFace, IDWriteFontCollection::GetFontFromFontFace, directwrite.IDWriteFontCollection_GetFontFromFontFace, dwrite/IDWriteFontCollection::GetFontFromFontFace
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontCollection.GetFontFromFontFace"]
+f1_keywords: 
+ - "dwrite/IDWriteFontCollection.GetFontFromFontFace"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

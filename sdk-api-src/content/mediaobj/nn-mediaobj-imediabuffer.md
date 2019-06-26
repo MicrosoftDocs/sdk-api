@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
 ms.topic: interface
-f1_keywords: ["mediaobj/IMediaBuffer"]
+f1_keywords: 
+ - "mediaobj/IMediaBuffer"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

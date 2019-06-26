@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Rotate method, ITransformProvider.Rotate, ITransformProvider::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider.Rotate"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider.Rotate"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

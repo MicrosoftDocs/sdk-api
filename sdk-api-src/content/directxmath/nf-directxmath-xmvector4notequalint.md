@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NotEqualInt, XMVector4NotEqualInt, XMVector4NotEqualInt method [DirectX Math Support APIs], dxmath.xmvector4notequalint
 ms.topic: function
-f1_keywords: ["directxmath/XMVector4NotEqualInt"]
+f1_keywords: 
+ - "directxmath/XMVector4NotEqualInt"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

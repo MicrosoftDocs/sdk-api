@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.topic: function
-f1_keywords: ["wincrypt/CryptSignHash"]
+f1_keywords: 
+ - "wincrypt/CryptSignHash"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA],described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
 ms.topic: interface
-f1_keywords: ["pla/IAlertDataCollector"]
+f1_keywords: 
+ - "pla/IAlertDataCollector"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

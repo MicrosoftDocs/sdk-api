@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDiscID method, IDvdInfo2.GetDiscID, IDvdInfo2::GetDiscID, IDvdInfo2GetDiscID, dshow.idvdinfo2_getdiscid, strmif/IDvdInfo2::GetDiscID
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDiscID"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDiscID"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

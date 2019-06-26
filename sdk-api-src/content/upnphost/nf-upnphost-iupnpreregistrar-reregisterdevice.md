@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterDevice method, IUPnPReregistrar.ReregisterDevice, IUPnPReregistrar::ReregisterDevice, ReregisterDevice, ReregisterDevice method [UPnP APIs], ReregisterDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterdevice, upnp.iupnpreregistrar_reregisterdevice, upnphost/IUPnPReregistrar::ReregisterDevice
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPReregistrar.ReregisterDevice"]
+f1_keywords: 
+ - "upnphost/IUPnPReregistrar.ReregisterDevice"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

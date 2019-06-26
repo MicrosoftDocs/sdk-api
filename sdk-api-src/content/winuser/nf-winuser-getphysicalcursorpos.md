@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalCursorPos, GetPhysicalCursorPos function [Menus and Other Resources], _win32_GetPhysicalCursorPos, _win32_getphysicalcursorpos_cpp, menurc.getphysicalcursorpos, winui._win32_getphysicalcursorpos, winuser/GetPhysicalCursorPos
 ms.topic: function
-f1_keywords: ["winuser/GetPhysicalCursorPos"]
+f1_keywords: 
+ - "winuser/GetPhysicalCursorPos"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

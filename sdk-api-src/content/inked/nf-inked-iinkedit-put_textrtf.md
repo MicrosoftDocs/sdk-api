@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],TextRTF property, IInkEdit.TextRTF, IInkEdit.put_TextRTF, IInkEdit::TextRTF, IInkEdit::get_TextRTF, IInkEdit::put_TextRTF, InkEdit.get_TextRTF, InkEdit.put_TextRTF, TextRTF property [Tablet PC], TextRTF property [Tablet PC],IInkEdit interface, get_TextRTF, inked/IInkEdit::TextRTF, inked/IInkEdit::get_TextRTF, inked/IInkEdit::put_TextRTF, put_TextRTF, tablet.inkedit_textrtf
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.TextRTF"]
+f1_keywords: 
+ - "inked/IInkEdit.TextRTF"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

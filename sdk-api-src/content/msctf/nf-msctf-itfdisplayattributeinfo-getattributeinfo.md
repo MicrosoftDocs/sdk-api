@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [Text Services Framework], GetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetAttributeInfo method, ITfDisplayAttributeInfo.GetAttributeInfo, ITfDisplayAttributeInfo::GetAttributeInfo, _tsf_itfdisplayattributeinfo_getattributeinfo_ref, msctf/ITfDisplayAttributeInfo::GetAttributeInfo, tsf.itfdisplayattributeinfo_getattributeinfo
 ms.topic: method
-f1_keywords: ["msctf/ITfDisplayAttributeInfo.GetAttributeInfo"]
+f1_keywords: 
+ - "msctf/ITfDisplayAttributeInfo.GetAttributeInfo"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

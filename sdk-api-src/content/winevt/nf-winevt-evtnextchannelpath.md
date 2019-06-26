@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtNextChannelPath, EvtNextChannelPath function [EventLog], wes.evtnextchannelpath, winevt/EvtNextChannelPath
 ms.topic: function
-f1_keywords: ["winevt/EvtNextChannelPath"]
+f1_keywords: 
+ - "winevt/EvtNextChannelPath"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

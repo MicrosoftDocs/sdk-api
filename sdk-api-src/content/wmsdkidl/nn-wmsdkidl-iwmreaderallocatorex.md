@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], IWMReaderAllocatorEx interface [windows Media Format],described, IWMReaderAllocatorExInterface, wmformat.iwmreaderallocatorex, wmsdkidl/IWMReaderAllocatorEx
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderAllocatorEx"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAllocatorEx"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

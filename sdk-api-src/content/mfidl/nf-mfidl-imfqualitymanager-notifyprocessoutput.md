@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [Media Foundation],NotifyProcessOutput method, IMFQualityManager.NotifyProcessOutput, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput
 ms.topic: method
-f1_keywords: ["mfidl/IMFQualityManager.NotifyProcessOutput"]
+f1_keywords: 
+ - "mfidl/IMFQualityManager.NotifyProcessOutput"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

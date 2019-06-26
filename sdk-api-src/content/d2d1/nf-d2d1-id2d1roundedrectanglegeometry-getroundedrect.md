@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRoundedRect, GetRoundedRect method [Direct2D], GetRoundedRect method [Direct2D],ID2D1RoundedRectangleGeometry interface, ID2D1RoundedRectangleGeometry interface [Direct2D],GetRoundedRect method, ID2D1RoundedRectangleGeometry.GetRoundedRect, ID2D1RoundedRectangleGeometry::GetRoundedRect, d2d1/ID2D1RoundedRectangleGeometry::GetRoundedRect, direct2d.ID2D1RoundedRectangleGeometry_GetRoundedRect
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RoundedRectangleGeometry.GetRoundedRect"]
+f1_keywords: 
+ - "d2d1/ID2D1RoundedRectangleGeometry.GetRoundedRect"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

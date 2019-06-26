@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.topic: function
-f1_keywords: ["wofapi/WofEnumEntries"]
+f1_keywords: 
+ - "wofapi/WofEnumEntries"
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

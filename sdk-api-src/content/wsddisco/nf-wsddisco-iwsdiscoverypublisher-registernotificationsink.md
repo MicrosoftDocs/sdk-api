@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher.RegisterNotificationSink"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher.RegisterNotificationSink"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

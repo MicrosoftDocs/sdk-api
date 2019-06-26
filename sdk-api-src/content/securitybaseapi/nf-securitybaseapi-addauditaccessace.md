@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAuditAccessAce, AddAuditAccessAce function [Security], _win32_addauditaccessace, security.addauditaccessace, securitybaseapi/AddAuditAccessAce
 ms.topic: function
-f1_keywords: ["securitybaseapi/AddAuditAccessAce"]
+f1_keywords: 
+ - "securitybaseapi/AddAuditAccessAce"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

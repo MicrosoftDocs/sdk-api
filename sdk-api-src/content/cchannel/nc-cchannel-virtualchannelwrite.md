@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelWrite, VirtualChannelWrite callback, VirtualChannelWrite callback function [Remote Desktop Services], _win32_virtualchannelwrite, cchannel/VirtualChannelWrite, termserv.virtualchannelwrite
 ms.topic: callback
-f1_keywords: ["cchannel/VirtualChannelWrite"]
+f1_keywords: 
+ - "cchannel/VirtualChannelWrite"
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

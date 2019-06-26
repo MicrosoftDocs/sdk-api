@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IDirectDrawSurface7*), Bitmap.Bitmap(IN IDirectDrawSurface7), Bitmap::Bitmap, Bitmap::Bitmap(IN IDirectDrawSurface7), _gdiplus_CLASS_Bitmap_Bitmap_surface_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_surface_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.Bitmap"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.Bitmap"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

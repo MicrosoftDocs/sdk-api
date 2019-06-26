@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrackingCompleted method, IReferenceTrackerManager.ReferenceTrackingCompleted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::ReferenceTrackingCompleted, IReferenceTrackerManager::xaml, ReferenceTrackingCompleted, ReferenceTrackingCompleted method [Windows Runtime], ReferenceTrackingCompleted method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::ReferenceTrackingCompleted, winrt.ireferencetrackermanager_referencetrackingcompleted
 ms.topic: method
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.ReferenceTrackingCompleted"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.ReferenceTrackingCompleted"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

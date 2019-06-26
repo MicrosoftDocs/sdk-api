@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_CONTROL, PXE_CALLBACK_SHUTDOWN, PxeRegisterCallback, PxeRegisterCallback function [Windows Deployment Services], wds.pxeregistercallback, wdspxe/PxeRegisterCallback
 ms.topic: function
-f1_keywords: ["wdspxe/PxeRegisterCallback"]
+f1_keywords: 
+ - "wdspxe/PxeRegisterCallback"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

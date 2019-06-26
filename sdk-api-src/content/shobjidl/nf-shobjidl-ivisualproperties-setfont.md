@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetFont method, IVisualProperties.SetFont, IVisualProperties::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
 ms.topic: method
-f1_keywords: ["shobjidl/IVisualProperties.SetFont"]
+f1_keywords: 
+ - "shobjidl/IVisualProperties.SetFont"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

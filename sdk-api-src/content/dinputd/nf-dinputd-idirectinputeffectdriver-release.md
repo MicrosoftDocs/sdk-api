@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],Release method, IDirectInputEffectDriver.Release, IDirectInputEffectDriver::Release, Release, Release method [Human Input Devices], Release method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_1363e951-bfbc-4918-9c35-3178d2670990.xml, dinputd/IDirectInputEffectDriver::Release, hid.idirectinputeffectdriver_release
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.Release"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.Release"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

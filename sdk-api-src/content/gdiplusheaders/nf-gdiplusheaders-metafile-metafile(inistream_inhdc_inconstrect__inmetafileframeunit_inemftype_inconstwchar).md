@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN IStream,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), Metafile.Metafile(IStream*,HDC,const Rect&,MetafileFrameUnit,EmfType,const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN IStream,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr, gdiplus._gdiplus_CLASS_Metafile_Metafile_IStream_stream_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Metafile.Metafile"]
+f1_keywords: 
+ - "gdiplusheaders/Metafile.Metafile"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

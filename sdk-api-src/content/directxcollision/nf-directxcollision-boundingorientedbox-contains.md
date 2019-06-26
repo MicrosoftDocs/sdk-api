@@ -6,7 +6,8 @@ description: Tests whether the BoundingOrientedBox contains a specified point.
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Contains
 ms.topic: language-reference
-f1_keywords: ["directxcollision/BoundingOrientedBox::Contains"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox::Contains"
 targetos: Windows
 product: Windows
 req.assembly: 

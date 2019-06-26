@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_GETSPI0, IPSEC_GETSPI0 structure [Filtering], fwp.ipsec_getspi0, ipsectypes/IPSEC_GETSPI0
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_GETSPI0"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_GETSPI0"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
 ms.topic: function
-f1_keywords: ["avrt/AvRtCreateThreadOrderingGroupEx"]
+f1_keywords: 
+ - "avrt/AvRtCreateThreadOrderingGroupEx"
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

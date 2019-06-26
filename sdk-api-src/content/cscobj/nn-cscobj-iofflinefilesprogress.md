@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesProgress"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesProgress"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

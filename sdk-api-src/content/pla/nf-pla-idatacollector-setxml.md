@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],SetXml method, IDataCollector.SetXml, IDataCollector::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollector interface, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
 ms.topic: method
-f1_keywords: ["pla/IDataCollector.SetXml"]
+f1_keywords: 
+ - "pla/IDataCollector.SetXml"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.SetSyncTolerance"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.SetSyncTolerance"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

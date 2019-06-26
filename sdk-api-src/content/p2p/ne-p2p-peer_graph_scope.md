@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE, PEER_GRAPH_SCOPE enumeration [Peer Networking], PEER_GRAPH_SCOPE_ANY, PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_LOOPBACK, PEER_GRAPH_SCOPE_SITELOCAL, p2p.peer_graph_scope, p2p/PEER_GRAPH_SCOPE, p2p/PEER_GRAPH_SCOPE_ANY, p2p/PEER_GRAPH_SCOPE_GLOBAL, p2p/PEER_GRAPH_SCOPE_LINKLOCAL, p2p/PEER_GRAPH_SCOPE_LOOPBACK, p2p/PEER_GRAPH_SCOPE_SITELOCAL
 ms.topic: enum
-f1_keywords: ["p2p/PEER_GRAPH_SCOPE"]
+f1_keywords: 
+ - "p2p/PEER_GRAPH_SCOPE"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

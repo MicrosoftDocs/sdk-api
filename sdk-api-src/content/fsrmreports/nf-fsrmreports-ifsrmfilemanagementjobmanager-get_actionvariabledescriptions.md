@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager.ActionVariableDescriptions, IFsrmFileManagementJobManager.get_ActionVariableDescriptions, IFsrmFileManagementJobManager::ActionVariableDescriptions, IFsrmFileManagementJobManager::get_ActionVariableDescriptions, fs.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrm.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrmreports/IFsrmFileManagementJobManager::ActionVariableDescriptions, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJobManager.ActionVariableDescriptions"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJobManager.ActionVariableDescriptions"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
 ms.topic: function
-f1_keywords: ["netioapi/NotifyTeredoPortChange"]
+f1_keywords: 
+ - "netioapi/NotifyTeredoPortChange"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

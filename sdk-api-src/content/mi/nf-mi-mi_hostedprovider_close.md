@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider_Close, MI_HostedProvider_Close function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_Close, wmi_v2.mi_hostedprovider_close
 ms.topic: function
-f1_keywords: ["mi/MI_HostedProvider_Close"]
+f1_keywords: 
+ - "mi/MI_HostedProvider_Close"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParamForMethodIndex, GetParamForMethodIndex method [Windows Runtime], GetParamForMethodIndex method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamForMethodIndex method, IMetaDataImport.GetParamForMethodIndex, IMetaDataImport::GetParamForMethodIndex, rometadataapi/IMetaDataImport::GetParamForMethodIndex, winrt.imetadataimport_getparamformethodindex
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetParamForMethodIndex"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetParamForMethodIndex"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

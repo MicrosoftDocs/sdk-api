@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceConnect, DeviceConnect method [Windows Media Player], DeviceConnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceConnect method, IWMPEvents2.DeviceConnect, IWMPEvents2::DeviceConnect, IWMPEvents2DeviceConnect, wmp.iwmpevents2_iwmpevents2__deviceconnect, wmp/IWMPEvents2::DeviceConnect
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents2.DeviceConnect"]
+f1_keywords: 
+ - "wmp/IWMPEvents2.DeviceConnect"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCHARSETINFO, *NPCHARSETINFO, *PCHARSETINFO, CHARSETINFO, CHARSETINFO structure [Internationalization for Windows Applications], PCHARSETINFO, PCHARSETINFO structure pointer [Internationalization for Windows Applications], _win32_CHARSETINFO_str, intl.charsetinfo, wingdi/CHARSETINFO, wingdi/PCHARSETINFO"
 ms.topic: struct
-f1_keywords: ["wingdi/CHARSETINFO"]
+f1_keywords: 
+ - "wingdi/CHARSETINFO"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

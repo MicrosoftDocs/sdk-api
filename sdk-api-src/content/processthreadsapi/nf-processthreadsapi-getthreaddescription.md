@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetThreadDescription"]
+f1_keywords: 
+ - "processthreadsapi/GetThreadDescription"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

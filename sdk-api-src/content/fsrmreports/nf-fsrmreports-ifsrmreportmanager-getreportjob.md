@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportJob method, GetReportJob, GetReportJob method [File Server Resource Manager], GetReportJob method [File Server Resource Manager],FsrmReportManager class, GetReportJob method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportJob method, IFsrmReportManager.GetReportJob, IFsrmReportManager::GetReportJob, fs.ifsrmreportmanager_getreportjob, fsrm.ifsrmreportmanager_getreportjob, fsrmreports/IFsrmReportManager::GetReportJob
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportManager.GetReportJob"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportManager.GetReportJob"
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

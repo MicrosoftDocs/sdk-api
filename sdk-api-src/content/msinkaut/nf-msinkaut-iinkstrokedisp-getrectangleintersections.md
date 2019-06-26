@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRectangleIntersections, GetRectangleIntersections method [Tablet PC], GetRectangleIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetRectangleIntersections method, IInkStrokeDisp.GetRectangleIntersections, IInkStrokeDisp::GetRectangleIntersections, fe042e12-21fa-4dae-988c-d082aa867520, msinkaut/IInkStrokeDisp::GetRectangleIntersections, tablet.iinkstrokedisp_getrectangleintersections
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.GetRectangleIntersections"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.GetRectangleIntersections"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

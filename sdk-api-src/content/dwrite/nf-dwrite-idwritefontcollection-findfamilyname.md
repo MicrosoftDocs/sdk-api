@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFamilyName, FindFamilyName method [Direct Write], FindFamilyName method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],FindFamilyName method, IDWriteFontCollection.FindFamilyName, IDWriteFontCollection::FindFamilyName, directwrite.IDWriteFontCollection_FindFamilyName, dwrite/IDWriteFontCollection::FindFamilyName
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontCollection.FindFamilyName"]
+f1_keywords: 
+ - "dwrite/IDWriteFontCollection.FindFamilyName"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

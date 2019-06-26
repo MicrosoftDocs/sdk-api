@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromInt64, InitPropVariantFromInt64 function [Windows Properties], properties.InitPropVariantFromInt64, propvarutil/InitPropVariantFromInt64, shell.InitPropVariantFromInt64, shell_InitPropVariantFromInt64
 ms.topic: function
-f1_keywords: ["propvarutil/InitPropVariantFromInt64"]
+f1_keywords: 
+ - "propvarutil/InitPropVariantFromInt64"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

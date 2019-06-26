@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeConnectionSink, ITSGAuthorizeConnectionSink interface [Remote Desktop Services], ITSGAuthorizeConnectionSink interface [Remote Desktop Services],described, termserv.itsgauthorizeconnectionsink, tsgpolicyengine/ITSGAuthorizeConnectionSink
 ms.topic: interface
-f1_keywords: ["tsgpolicyengine/ITSGAuthorizeConnectionSink"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGAuthorizeConnectionSink"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

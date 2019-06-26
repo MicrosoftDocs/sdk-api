@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], ITextStoreACPServices interface [Text Services Framework],described, _tsf_itextstoreacpservices_ref, msctf/ITextStoreACPServices, tsf.itextstoreacpservices
 ms.topic: interface
-f1_keywords: ["msctf/ITextStoreACPServices"]
+f1_keywords: 
+ - "msctf/ITextStoreACPServices"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

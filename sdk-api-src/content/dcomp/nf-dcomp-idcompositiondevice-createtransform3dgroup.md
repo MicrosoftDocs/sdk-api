@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransform3DGroup, CreateTransform3DGroup method [DirectComposition], CreateTransform3DGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTransform3DGroup method, IDCompositionDevice.CreateTransform3DGroup, IDCompositionDevice::CreateTransform3DGroup, dcomp/IDCompositionDevice::CreateTransform3DGroup, directcomp.idcompositiondevice_createtransform3dgroup
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateTransform3DGroup"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateTransform3DGroup"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

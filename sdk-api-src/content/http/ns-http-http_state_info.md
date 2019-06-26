@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_STATE_INFO, *PHTTP_STATE_INFO structure [HTTP], HTTP_STATE_INFO, HTTP_STATE_INFO structure [HTTP], http.http_state_info, http/*PHTTP_STATE_INFO, http/HTTP_STATE_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_STATE_INFO"]
+f1_keywords: 
+ - "http/HTTP_STATE_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TRIMMING_GRANULARITY, DWRITE_TRIMMING_GRANULARITY enumeration [Direct Write], DWRITE_TRIMMING_GRANULARITY_CHARACTER, DWRITE_TRIMMING_GRANULARITY_NONE, DWRITE_TRIMMING_GRANULARITY_WORD, directwrite.dwrite_trimming_granularity, dwrite/DWRITE_TRIMMING_GRANULARITY, dwrite/DWRITE_TRIMMING_GRANULARITY_CHARACTER, dwrite/DWRITE_TRIMMING_GRANULARITY_NONE, dwrite/DWRITE_TRIMMING_GRANULARITY_WORD
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_TRIMMING_GRANULARITY"]
+f1_keywords: 
+ - "dwrite/DWRITE_TRIMMING_GRANULARITY"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidVideoRendererDevices.get__NewEnum, IMSVidVideoRendererDevices::get__NewEnum, IMSVidVideoRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get__newenum, segment/IMSVidVideoRendererDevices::get__NewEnum
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRendererDevices.get__NewEnum"]
+f1_keywords: 
+ - "segment/IMSVidVideoRendererDevices.get__NewEnum"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

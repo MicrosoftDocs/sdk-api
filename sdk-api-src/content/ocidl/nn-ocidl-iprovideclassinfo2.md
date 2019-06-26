@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProvideClassInfo2, IProvideClassInfo2 interface [COM], IProvideClassInfo2 interface [COM],described, _com_iprovideclassinfo2, com.iprovideclassinfo2, ocidl/IProvideClassInfo2
 ms.topic: interface
-f1_keywords: ["ocidl/IProvideClassInfo2"]
+f1_keywords: 
+ - "ocidl/IProvideClassInfo2"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

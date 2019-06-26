@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetPeerCachingFlags method, IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
 ms.topic: method
-f1_keywords: ["bits3_0/IBackgroundCopyJob4.GetPeerCachingFlags"]
+f1_keywords: 
+ - "bits3_0/IBackgroundCopyJob4.GetPeerCachingFlags"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

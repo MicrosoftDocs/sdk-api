@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern.get_CurrentFillPatternColor, IUIAutomationStylesPattern::CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CurrentFillPatternColor"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationStylesPattern.CurrentFillPatternColor"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

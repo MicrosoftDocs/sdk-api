@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumClockVector, IEnumClockVector interface [Windows Sync], IEnumClockVector interface [Windows Sync],described, winsync.ienumclockvector, winsync/IEnumClockVector
 ms.topic: interface
-f1_keywords: ["winsync/IEnumClockVector"]
+f1_keywords: 
+ - "winsync/IEnumClockVector"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

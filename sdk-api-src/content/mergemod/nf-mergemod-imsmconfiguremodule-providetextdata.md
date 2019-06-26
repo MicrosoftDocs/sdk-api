@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule interface,ProvideTextData method, IMsmConfigureModule.ProvideTextData, IMsmConfigureModule::ProvideTextData, ProvideTextData, ProvideTextData method, ProvideTextData method,IMsmConfigureModule interface, _msi_providetextdata_function, mergemod/IMsmConfigureModule::ProvideTextData, setup.imsmconfiguremodule_providetextdata
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigureModule.ProvideTextData"]
+f1_keywords: 
+ - "mergemod/IMsmConfigureModule.ProvideTextData"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
 ms.topic: struct
-f1_keywords: ["mbnapi/MBN_PROVIDER"]
+f1_keywords: 
+ - "mbnapi/MBN_PROVIDER"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

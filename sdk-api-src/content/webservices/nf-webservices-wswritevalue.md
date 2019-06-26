@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteValue, WsWriteValue function [Web Services for Windows], webservices/WsWriteValue, wsw.wswritevalue
 ms.topic: function
-f1_keywords: ["webservices/WsWriteValue"]
+f1_keywords: 
+ - "webservices/WsWriteValue"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

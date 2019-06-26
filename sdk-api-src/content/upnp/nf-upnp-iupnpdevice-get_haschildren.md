@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_HasChildren method, IUPnPDevice.get_HasChildren, IUPnPDevice::get_HasChildren, _upnp_iupnpdevice_haschildren, get_HasChildren, get_HasChildren method [UPnP APIs], get_HasChildren method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_haschildren, upnp/IUPnPDevice::get_HasChildren
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevice.get_HasChildren"]
+f1_keywords: 
+ - "upnp/IUPnPDevice.get_HasChildren"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

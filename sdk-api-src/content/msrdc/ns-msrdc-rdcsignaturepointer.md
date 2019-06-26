@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differential Compression], fs.rdcsignaturepointer, msrdc/RdcSignaturePointer, rdc.rdcsignaturepointer
 ms.topic: struct
-f1_keywords: ["msrdc/RdcSignaturePointer"]
+f1_keywords: 
+ - "msrdc/RdcSignaturePointer"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

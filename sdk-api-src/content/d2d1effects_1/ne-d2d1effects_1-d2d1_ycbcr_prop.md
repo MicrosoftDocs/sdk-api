@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_YCBCR_PROP, D2D1_YCBCR_PROP enumeration [Direct2D], D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, D2D1_YCBCR_PROP_INTERPOLATION_MODE, D2D1_YCBCR_PROP_TRANSFORM_MATRIX, d2d1effects_1/D2D1_YCBCR_PROP, d2d1effects_1/D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, d2d1effects_1/D2D1_YCBCR_PROP_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_PROP_TRANSFORM_MATRIX, direct2d.d2d1_ycbcr_prop
 ms.topic: enum
-f1_keywords: ["d2d1effects_1/D2D1_YCBCR_PROP"]
+f1_keywords: 
+ - "d2d1effects_1/D2D1_YCBCR_PROP"
 req.header: d2d1effects_1.h
 req.include-header: 
 req.target-type: Windows

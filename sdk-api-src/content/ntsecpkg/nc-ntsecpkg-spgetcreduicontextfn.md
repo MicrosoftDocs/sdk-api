@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpGetCredUIContextFn, SpGetCredUIContextFn callback, SpGetCredUIContextFn callback function [Security], ntsecpkg/SpGetCredUIContextFn, security.spgetcreduicontextfn
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpGetCredUIContextFn"]
+f1_keywords: 
+ - "ntsecpkg/SpGetCredUIContextFn"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

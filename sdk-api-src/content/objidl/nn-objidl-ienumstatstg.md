@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.topic: interface
-f1_keywords: ["objidl/IEnumSTATSTG"]
+f1_keywords: 
+ - "objidl/IEnumSTATSTG"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
 ms.topic: function
-f1_keywords: ["websocket/WebSocketGetGlobalProperty"]
+f1_keywords: 
+ - "websocket/WebSocketGetGlobalProperty"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetInfDriverStoreLocation"]
+f1_keywords: 
+ - "setupapi/SetupGetInfDriverStoreLocation"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

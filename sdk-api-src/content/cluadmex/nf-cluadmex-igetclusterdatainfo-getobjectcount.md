@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetObjectCount method, IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
 ms.topic: method
-f1_keywords: ["cluadmex/IGetClusterDataInfo.GetObjectCount"]
+f1_keywords: 
+ - "cluadmex/IGetClusterDataInfo.GetObjectCount"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

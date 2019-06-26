@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
 ms.topic: struct
-f1_keywords: ["eventtoken/EventRegistrationToken"]
+f1_keywords: 
+ - "eventtoken/EventRegistrationToken"
 req.header: eventtoken.h
 req.include-header: 
 req.target-type: Windows

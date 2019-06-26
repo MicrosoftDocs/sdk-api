@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
 ms.topic: function
-f1_keywords: ["xaudio2fx/ReverbConvertI3DL2ToNative"]
+f1_keywords: 
+ - "xaudio2fx/ReverbConvertI3DL2ToNative"
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

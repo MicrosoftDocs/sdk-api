@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReconfirmLowHealth method, INetDiagHelperEx.ReconfirmLowHealth, INetDiagHelperEx::ReconfirmLowHealth, ReconfirmLowHealth, ReconfirmLowHealth method [NDF], ReconfirmLowHealth method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reconfirmlowhealth, ndhelper/INetDiagHelperEx::ReconfirmLowHealth
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelperEx.ReconfirmLowHealth"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelperEx.ReconfirmLowHealth"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

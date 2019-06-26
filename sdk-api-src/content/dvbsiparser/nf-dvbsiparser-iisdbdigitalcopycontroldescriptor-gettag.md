@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbDigitalCopyControlDescriptor.GetTag, IIsdbDigitalCopyControlDescriptor::GetTag, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetTag, mstv.iisdbdigitalcopycontroldescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

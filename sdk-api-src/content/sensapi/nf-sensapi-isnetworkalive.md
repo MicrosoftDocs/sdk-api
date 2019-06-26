@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive, sens.isnetworkalive, sensapi/IsNetworkAlive, syncmgr.isnetworkalive
 ms.topic: function
-f1_keywords: ["sensapi/IsNetworkAlive"]
+f1_keywords: 
+ - "sensapi/IsNetworkAlive"
 req.header: sensapi.h
 req.include-header: 
 req.target-type: Windows

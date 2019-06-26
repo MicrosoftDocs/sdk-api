@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqAddPeriodicCallback, RtwqAddPeriodicCallback function, base.rtwqaddperiodiccallback, rtworkq/RtwqAddPeriodicCallback
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqAddPeriodicCallback"]
+f1_keywords: 
+ - "rtworkq/RtwqAddPeriodicCallback"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

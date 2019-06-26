@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUsedAudioBlocks, GetUsedAudioBlocks method [IMAPI], GetUsedAudioBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetUsedAudioBlocks method, IRedbookDiscMaster.GetUsedAudioBlocks, IRedbookDiscMaster::GetUsedAudioBlocks, _win32_iredbookdiscmaster_getusedaudioblocks, base.iredbookdiscmaster_getusedaudioblocks, imapi.iredbookdiscmaster_getusedaudioblocks, imapi/IRedbookDiscMaster::GetUsedAudioBlocks
 ms.topic: method
-f1_keywords: ["imapi/IRedbookDiscMaster.GetUsedAudioBlocks"]
+f1_keywords: 
+ - "imapi/IRedbookDiscMaster.GetUsedAudioBlocks"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

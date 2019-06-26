@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtendedControl, GetExtendedControl method [COM], GetExtendedControl method [COM],IOleControlSite interface, IOleControlSite interface [COM],GetExtendedControl method, IOleControlSite.GetExtendedControl, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
 ms.topic: method
-f1_keywords: ["ocidl/IOleControlSite.GetExtendedControl"]
+f1_keywords: 
+ - "ocidl/IOleControlSite.GetExtendedControl"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

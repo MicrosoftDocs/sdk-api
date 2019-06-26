@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
 ms.topic: function
-f1_keywords: ["t2embapi/TTRunValidationTestsEx"]
+f1_keywords: 
+ - "t2embapi/TTRunValidationTestsEx"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

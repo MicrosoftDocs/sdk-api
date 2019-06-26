@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIGEST_FUNCTION, DigestFunction, DigestFunction callback, DigestFunction callback function, _win32_digestfunction, base.digestfunction, imagehlp/DigestFunction
 ms.topic: callback
-f1_keywords: ["imagehlp/DigestFunction"]
+f1_keywords: 
+ - "imagehlp/DigestFunction"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

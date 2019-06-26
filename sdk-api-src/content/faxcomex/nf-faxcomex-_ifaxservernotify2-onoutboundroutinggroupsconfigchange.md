@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutboundRoutingGroupsConfigChange method, IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange, IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange, OnOutboundRoutingGroupsConfigChange, OnOutboundRoutingGroupsConfigChange method [Fax Service], OnOutboundRoutingGroupsConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange, _IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange, _mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange, fax._mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange, faxcomex/IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

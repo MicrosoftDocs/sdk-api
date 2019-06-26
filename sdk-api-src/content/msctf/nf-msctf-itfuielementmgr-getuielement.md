@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
 ms.topic: method
-f1_keywords: ["msctf/ITfUIElementMgr.GetUIElement"]
+f1_keywords: 
+ - "msctf/ITfUIElementMgr.GetUIElement"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

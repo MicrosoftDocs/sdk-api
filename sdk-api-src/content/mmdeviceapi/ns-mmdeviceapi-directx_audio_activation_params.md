@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS"
 ms.topic: struct
-f1_keywords: ["mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS"]
+f1_keywords: 
+ - "mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

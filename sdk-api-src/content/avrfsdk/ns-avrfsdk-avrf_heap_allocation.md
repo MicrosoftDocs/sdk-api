@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
 ms.topic: struct
-f1_keywords: ["avrfsdk/AVRF_HEAP_ALLOCATION"]
+f1_keywords: 
+ - "avrfsdk/AVRF_HEAP_ALLOCATION"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

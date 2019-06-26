@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated method, ITfPropertyStore.OnTextUpdated, ITfPropertyStore::OnTextUpdated, OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework],ITfPropertyStore interface, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
 ms.topic: method
-f1_keywords: ["msctf/ITfPropertyStore.OnTextUpdated"]
+f1_keywords: 
+ - "msctf/ITfPropertyStore.OnTextUpdated"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

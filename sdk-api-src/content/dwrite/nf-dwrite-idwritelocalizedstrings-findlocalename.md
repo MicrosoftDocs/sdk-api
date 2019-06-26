@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindLocaleName, FindLocaleName method [Direct Write], FindLocaleName method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],FindLocaleName method, IDWriteLocalizedStrings.FindLocaleName, IDWriteLocalizedStrings::FindLocaleName, directwrite.IDWriteLocalizedStrings_FindLocaleName, dwrite/IDWriteLocalizedStrings::FindLocaleName
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteLocalizedStrings.FindLocaleName"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalizedStrings.FindLocaleName"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

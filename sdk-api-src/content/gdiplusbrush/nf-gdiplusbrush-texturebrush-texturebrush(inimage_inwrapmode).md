@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN WrapMode), TextureBrush.TextureBrush(Image*,WrapMode), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN WrapMode), _gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_
 ms.topic: method
-f1_keywords: ["gdiplusbrush/TextureBrush.TextureBrush"]
+f1_keywords: 
+ - "gdiplusbrush/TextureBrush.TextureBrush"
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

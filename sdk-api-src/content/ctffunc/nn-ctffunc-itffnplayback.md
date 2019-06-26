@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnPlayBack"]
+f1_keywords: 
+ - "ctffunc/ITfFnPlayBack"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

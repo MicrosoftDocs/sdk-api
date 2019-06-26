@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComUserEvent, IComUserEvent interface [COM+], IComUserEvent interface [COM+],described, _dtc_IComUserEvent, comsvcs/IComUserEvent, cos.icomuserevent
 ms.topic: interface
-f1_keywords: ["comsvcs/IComUserEvent"]
+f1_keywords: 
+ - "comsvcs/IComUserEvent"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

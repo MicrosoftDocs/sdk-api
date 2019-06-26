@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask
 ms.topic: function
-f1_keywords: ["winbase/GetProcessAffinityMask"]
+f1_keywords: 
+ - "winbase/GetProcessAffinityMask"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.SetValue, IProviderProperties::SetValue, SetValue, SetValue method, SetValue method,IProviderProperties interface, functiondiscoveryprovider/IProviderProperties::SetValue, ncd.iproviderproperties_setvalue
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderProperties.SetValue"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderProperties.SetValue"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

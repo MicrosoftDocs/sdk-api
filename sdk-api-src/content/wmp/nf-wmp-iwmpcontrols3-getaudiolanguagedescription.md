@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],getAudioLanguageDescription method, IWMPControls3.getAudioLanguageDescription, IWMPControls3::getAudioLanguageDescription, IWMPControls3getAudioLanguageDescription, getAudioLanguageDescription, getAudioLanguageDescription method [Windows Media Player], getAudioLanguageDescription method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getaudiolanguagedescription, wmp/IWMPControls3::getAudioLanguageDescription
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls3.getAudioLanguageDescription"]
+f1_keywords: 
+ - "wmp/IWMPControls3.getAudioLanguageDescription"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

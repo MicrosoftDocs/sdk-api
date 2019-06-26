@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextComplexity, GetTextComplexity method [Direct Write], GetTextComplexity method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetTextComplexity method, IDWriteTextAnalyzer1.GetTextComplexity, IDWriteTextAnalyzer1::GetTextComplexity, directwrite.idwritetextanalyzer1_gettextcomplexity, dwrite_1/IDWriteTextAnalyzer1::GetTextComplexity
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.GetTextComplexity"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.GetTextComplexity"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

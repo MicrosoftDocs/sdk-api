@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
 ms.topic: interface
-f1_keywords: ["wiavideo/IWiaVideo"]
+f1_keywords: 
+ - "wiavideo/IWiaVideo"
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

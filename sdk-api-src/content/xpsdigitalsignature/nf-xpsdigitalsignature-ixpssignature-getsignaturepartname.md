@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSignature.GetSignaturePartName, IXpsSignature::GetSignaturePartName, xps.ixpssignature_getsignaturepartname, xpsdigitalsignature/IXpsSignature::GetSignaturePartName
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.GetSignaturePartName"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.GetSignaturePartName"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

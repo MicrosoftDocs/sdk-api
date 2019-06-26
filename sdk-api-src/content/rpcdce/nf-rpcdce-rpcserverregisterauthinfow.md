@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterAuthInfo, RpcServerRegisterAuthInfo function [RPC], RpcServerRegisterAuthInfoA, RpcServerRegisterAuthInfoW, _rpc_rpcserverregisterauthinfo, rpc.rpcserverregisterauthinfo, rpcdce/RpcServerRegisterAuthInfo, rpcdce/RpcServerRegisterAuthInfoA, rpcdce/RpcServerRegisterAuthInfoW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcServerRegisterAuthInfo"]
+f1_keywords: 
+ - "rpcdce/RpcServerRegisterAuthInfo"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

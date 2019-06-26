@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function [Windows Controls], _win32_PFNDPASTREAM_Function, _win32_PFNDPASTREAM_Function_cpp, controls.PFNDPASTREAM, controls._win32_PFNDPASTREAM_Function, dpa_dsa/PFNDPASTREAM
 ms.topic: callback
-f1_keywords: ["dpa_dsa/PFNDPASTREAM"]
+f1_keywords: 
+ - "dpa_dsa/PFNDPASTREAM"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

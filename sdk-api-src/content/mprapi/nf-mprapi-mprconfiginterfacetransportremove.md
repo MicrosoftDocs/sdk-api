@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceTransportRemove"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceTransportRemove"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

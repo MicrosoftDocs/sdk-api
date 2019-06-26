@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POWER_PLATFORM_ROLE_V1, POWER_PLATFORM_ROLE_V2, POWER_PLATFORM_ROLE_VERSION, PowerDeterminePlatformRoleEx, PowerDeterminePlatformRoleEx function, base.powerdetermineplatformroleex, powerbase/PowerDeterminePlatformRoleEx
 ms.topic: function
-f1_keywords: ["powerbase/PowerDeterminePlatformRoleEx"]
+f1_keywords: 
+ - "powerbase/PowerDeterminePlatformRoleEx"
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

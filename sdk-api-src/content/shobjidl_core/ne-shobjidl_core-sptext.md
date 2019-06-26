@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPTEXT, SPTEXT enumeration [Windows Shell], SPTEXT_ACTIONDESCRIPTION, SPTEXT_ACTIONDETAIL, shell.SPTEXT, shell_SPTEXT, shobjidl_core/SPTEXT, shobjidl_core/SPTEXT_ACTIONDESCRIPTION, shobjidl_core/SPTEXT_ACTIONDETAIL
 ms.topic: enum
-f1_keywords: ["shobjidl_core/SPTEXT"]
+f1_keywords: 
+ - "shobjidl_core/SPTEXT"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

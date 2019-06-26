@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],SetSecurityInfo method, IGPMGPO interface [GPMC],SetSecurityInfo method, IGPMGPO.SetSecurityInfo, IGPMGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMGPO class, SetSecurityInfo method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecurityinfo, gpmc.igpmgpo_setsecurityinfo, gpmgmt/IGPMGPO::SetSecurityInfo
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.SetSecurityInfo"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.SetSecurityInfo"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

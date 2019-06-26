@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_COMPONENT_TYPE, VSS_COMPONENT_TYPE enumeration [VSS], VSS_CT_DATABASE, VSS_CT_FILEGROUP, VSS_CT_UNDEFINED, _win32_vss_component_type, base.vss_component_type, enumeration [VSS], vswriter/VSS_COMPONENT_TYPE, vswriter/VSS_CT_DATABASE, vswriter/VSS_CT_FILEGROUP, vswriter/VSS_CT_UNDEFINED
 ms.topic: enum
-f1_keywords: ["vswriter/VSS_COMPONENT_TYPE"]
+f1_keywords: 
+ - "vswriter/VSS_COMPONENT_TYPE"
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

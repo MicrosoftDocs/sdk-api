@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeError, WsFreeError function [Web Services for Windows], webservices/WsFreeError, wsw.wsfreeerror
 ms.topic: function
-f1_keywords: ["webservices/WsFreeError"]
+f1_keywords: 
+ - "webservices/WsFreeError"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
 ms.topic: interface
-f1_keywords: ["msctf/ITfCandidateListUIElement"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElement"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

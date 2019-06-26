@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Enable method, IOleUndoManager.Enable, IOleUndoManager::Enable, _ole_ioleundomanager_enable, com.ioleundomanager_enable, ocidl/IOleUndoManager::Enable
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.Enable"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.Enable"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

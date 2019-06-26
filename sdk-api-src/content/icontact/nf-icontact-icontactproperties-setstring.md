@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetString method, IContactProperties.SetString, IContactProperties::SetString, SetString, SetString method [Windows Contacts], SetString method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetString, icontact/IContactProperties::SetString, wincontacts._wincontacts_IContactProperties_SetString
 ms.topic: method
-f1_keywords: ["icontact/IContactProperties.SetString"]
+f1_keywords: 
+ - "icontact/IContactProperties.SetString"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

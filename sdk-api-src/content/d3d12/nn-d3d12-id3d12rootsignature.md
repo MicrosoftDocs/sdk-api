@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12RootSignature, ID3D12RootSignature interface, ID3D12RootSignature interface,described, d3d12/ID3D12RootSignature, direct3d12.id3d12rootsignature
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12RootSignature"]
+f1_keywords: 
+ - "d3d12/ID3D12RootSignature"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

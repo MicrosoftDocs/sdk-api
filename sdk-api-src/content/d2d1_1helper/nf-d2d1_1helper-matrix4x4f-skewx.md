@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SkewX method, Matrix4x4F.SkewX, Matrix4x4F::SkewX, SkewX, SkewX method [Direct2D], SkewX method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SkewX, direct2d.matrix4x4f_skewx
 ms.topic: method
-f1_keywords: ["d2d1_1helper/Matrix4x4F.SkewX"]
+f1_keywords: 
+ - "d2d1_1helper/Matrix4x4F.SkewX"
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

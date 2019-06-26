@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetNamespaces method, ISettingsContext.GetNamespaces, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsContext.GetNamespaces"]
+f1_keywords: 
+ - "wcmconfig/ISettingsContext.GetNamespaces"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

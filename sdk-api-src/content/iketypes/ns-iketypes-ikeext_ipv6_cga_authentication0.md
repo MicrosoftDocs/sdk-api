@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IPV6_CGA_AUTHENTICATION0, IKEEXT_IPV6_CGA_AUTHENTICATION0 structure [Filtering], fwp.ikeext_ipv6_cga_authentication0, iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0"]
+f1_keywords: 
+ - "iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

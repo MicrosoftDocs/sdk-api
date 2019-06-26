@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronizedInputProvider interface [Windows Accessibility],StartListening method, ISynchronizedInputProvider.StartListening, ISynchronizedInputProvider::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],ISynchronizedInputProvider interface, uiauto.uiauto_ISynchronizedInputProvider_StartListening, uiauto_ISynchronizedInputProvider_StartListening, uiautomationcore/ISynchronizedInputProvider::StartListening, winauto.uiauto_ISynchronizedInputProvider_StartListening
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISynchronizedInputProvider.StartListening"]
+f1_keywords: 
+ - "uiautomationcore/ISynchronizedInputProvider.StartListening"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

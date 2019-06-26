@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PBM_CALL, PBM_DISPLAY, PBM_DUMMY, PBM_FEATURE, PBM_KEYPAD, PBM_LOCAL, PHONE_BUTTON_MODE, PHONE_BUTTON_MODE enumeration [TAPI 2.2], _tapi3_phone_button_mode, tapi3.phone_button_mode, tapi3if/PBM_CALL, tapi3if/PBM_DISPLAY, tapi3if/PBM_DUMMY, tapi3if/PBM_FEATURE, tapi3if/PBM_KEYPAD, tapi3if/PBM_LOCAL, tapi3if/PHONE_BUTTON_MODE
 ms.topic: enum
-f1_keywords: ["tapi3if/PHONE_BUTTON_MODE"]
+f1_keywords: 
+ - "tapi3if/PHONE_BUTTON_MODE"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

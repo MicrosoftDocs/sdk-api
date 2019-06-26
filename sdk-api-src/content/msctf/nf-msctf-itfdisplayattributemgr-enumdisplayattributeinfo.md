@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeMgr.EnumDisplayAttributeInfo, ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, _tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, tsf.itfdisplayattributemgr_enumdisplayattributeinfo
 ms.topic: method
-f1_keywords: ["msctf/ITfDisplayAttributeMgr.EnumDisplayAttributeInfo"]
+f1_keywords: 
+ - "msctf/ITfDisplayAttributeMgr.EnumDisplayAttributeInfo"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

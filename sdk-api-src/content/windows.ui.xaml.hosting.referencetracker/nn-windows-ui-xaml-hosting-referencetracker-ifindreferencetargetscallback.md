@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFindReferenceTargetsCallback, IFindReferenceTargetsCallback interface [Windows Runtime], IFindReferenceTargetsCallback interface [Windows Runtime],described, windows/IFindReferenceTargetsCallback, winrt.ifindreferencetargetscallback
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

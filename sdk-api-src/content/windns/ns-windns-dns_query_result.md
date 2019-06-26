@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_QUERY_RESULT, DNS_QUERY_REQUEST_VERSION1, DNS_QUERY_RESULT, DNS_QUERY_RESULT structure [DNS], PDNS_QUERY_RESULT, PDNS_QUERY_RESULT structure pointer [DNS], dns.dns_query_result, windns/DNS_QUERY_RESULT, windns/PDNS_QUERY_RESULT"
 ms.topic: struct
-f1_keywords: ["windns/DNS_QUERY_RESULT"]
+f1_keywords: 
+ - "windns/DNS_QUERY_RESULT"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

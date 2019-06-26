@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
 ms.topic: function
-f1_keywords: ["wincrypt/CryptHashData"]
+f1_keywords: 
+ - "wincrypt/CryptHashData"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

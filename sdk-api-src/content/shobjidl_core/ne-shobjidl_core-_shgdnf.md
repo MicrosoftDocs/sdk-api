@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGDNF, SHGDNF enumeration [Windows Shell], SHGDN_FORADDRESSBAR, SHGDN_FOREDITING, SHGDN_FORPARSING, SHGDN_INFOLDER, SHGDN_NORMAL, _SHGDNF, _win32_SHGNO, shell.SHGNO, shobjidl_core/SHGDNF, shobjidl_core/SHGDN_FORADDRESSBAR, shobjidl_core/SHGDN_FOREDITING, shobjidl_core/SHGDN_FORPARSING, shobjidl_core/SHGDN_INFOLDER, shobjidl_core/SHGDN_NORMAL
 ms.topic: enum
-f1_keywords: ["shobjidl_core/SHGDNF"]
+f1_keywords: 
+ - "shobjidl_core/SHGDNF"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

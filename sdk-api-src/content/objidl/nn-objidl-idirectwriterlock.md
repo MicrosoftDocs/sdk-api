@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
 ms.topic: interface
-f1_keywords: ["objidl/IDirectWriterLock"]
+f1_keywords: 
+ - "objidl/IDirectWriterLock"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

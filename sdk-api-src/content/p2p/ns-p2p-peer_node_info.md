@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag"
 ms.topic: struct
-f1_keywords: ["p2p/PEER_NODE_INFO"]
+f1_keywords: 
+ - "p2p/PEER_NODE_INFO"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

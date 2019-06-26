@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRAWINPUTDEVICE, *PRAWINPUTDEVICE, LPRAWINPUTDEVICE, LPRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], PRAWINPUTDEVICE, PRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICE, RAWINPUTDEVICE structure [Keyboard and Mouse Input], RIDEV_APPKEYS, RIDEV_CAPTUREMOUSE, RIDEV_DEVNOTIFY, RIDEV_EXCLUDE, RIDEV_EXINPUTSINK, RIDEV_INPUTSINK, RIDEV_NOHOTKEYS, RIDEV_NOLEGACY, RIDEV_PAGEONLY, RIDEV_REMOVE, _win32_RAWINPUTDEVICE_str, _win32_rawinputdevice_str_cpp, inputdev.rawinputdevice, winui._win32_rawinputdevice_str, winuser/LPRAWINPUTDEVICE, winuser/PRAWINPUTDEVICE, winuser/RAWINPUTDEVICE"
 ms.topic: struct
-f1_keywords: ["winuser/RAWINPUTDEVICE"]
+f1_keywords: 
+ - "winuser/RAWINPUTDEVICE"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

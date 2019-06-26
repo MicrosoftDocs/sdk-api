@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl, ITLegacyCallMediaControl interface [TAPI 2.2], ITLegacyCallMediaControl interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol, tapi3.itlegacycallmediacontrol, tapi3if/ITLegacyCallMediaControl
 ms.topic: interface
-f1_keywords: ["tapi3if/ITLegacyCallMediaControl"]
+f1_keywords: 
+ - "tapi3if/ITLegacyCallMediaControl"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

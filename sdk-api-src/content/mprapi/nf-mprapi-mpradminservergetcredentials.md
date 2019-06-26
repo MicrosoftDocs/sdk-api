@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerGetCredentials, MprAdminServerGetCredentials function [RAS], _mpr_mpradminservergetcredentials, mprapi/MprAdminServerGetCredentials, rras.mpradminservergetcredentials
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminServerGetCredentials"]
+f1_keywords: 
+ - "mprapi/MprAdminServerGetCredentials"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

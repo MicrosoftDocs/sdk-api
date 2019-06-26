@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: XMFLOAT3, XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3, XMFLOAT3.XMFLOAT3(), XMFLOAT3.XMFLOAT3(const XMFLOAT3 &), XMFLOAT3::XMFLOAT3, XMFLOAT3::XMFLOAT3(const XMFLOAT3 &), dxmath.xmfloat3_ctor_1
 ms.topic: method
-f1_keywords: ["directxmath/XMFLOAT3.XMFLOAT3"]
+f1_keywords: 
+ - "directxmath/XMFLOAT3.XMFLOAT3"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

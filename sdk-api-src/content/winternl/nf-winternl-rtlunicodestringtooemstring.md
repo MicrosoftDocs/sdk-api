@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
 ms.topic: function
-f1_keywords: ["winternl/RtlUnicodeStringToOemString"]
+f1_keywords: 
+ - "winternl/RtlUnicodeStringToOemString"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

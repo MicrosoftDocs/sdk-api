@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces interface [ADSI],described, _ds_iadsnamespaces, adsi.iadsnamespaces, iads/IADsNamespaces
 ms.topic: interface
-f1_keywords: ["iads/IADsNamespaces"]
+f1_keywords: 
+ - "iads/IADsNamespaces"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

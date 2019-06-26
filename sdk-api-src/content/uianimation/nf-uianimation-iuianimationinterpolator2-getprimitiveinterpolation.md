@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrimitiveInterpolation, GetPrimitiveInterpolation method [Windows Animation], GetPrimitiveInterpolation method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetPrimitiveInterpolation method, IUIAnimationInterpolator2.GetPrimitiveInterpolation, IUIAnimationInterpolator2::GetPrimitiveInterpolation, uianimation.iuianimationinterpolator2_getprimitiveinterpolation, uianimation/IUIAnimationInterpolator2::GetPrimitiveInterpolation
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationInterpolator2.GetPrimitiveInterpolation"]
+f1_keywords: 
+ - "uianimation/IUIAnimationInterpolator2.GetPrimitiveInterpolation"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellChecker.GetOptionDescription, ISpellChecker::GetOptionDescription, intl.ispellchecker_getoptiondescription, spellcheck/ISpellChecker::GetOptionDescription
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.GetOptionDescription"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.GetOptionDescription"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

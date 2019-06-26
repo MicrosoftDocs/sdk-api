@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalAddAtom, GlobalAddAtom function [Data Exchange], GlobalAddAtomA, GlobalAddAtomW, _win32_GlobalAddAtom, _win32_globaladdatom_cpp, dataxchg.globaladdatom, winbase/GlobalAddAtom, winbase/GlobalAddAtomA, winbase/GlobalAddAtomW, winui._win32_globaladdatom
 ms.topic: function
-f1_keywords: ["winbase/GlobalAddAtom"]
+f1_keywords: 
+ - "winbase/GlobalAddAtom"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

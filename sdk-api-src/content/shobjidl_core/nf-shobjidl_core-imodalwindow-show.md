@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
 ms.topic: method
-f1_keywords: ["shobjidl_core/IModalWindow.Show"]
+f1_keywords: 
+ - "shobjidl_core/IModalWindow.Show"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCreate method, IBrowserService2.OnCreate, IBrowserService2::OnCreate, OnCreate, OnCreate method [Windows Shell], OnCreate method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCreate, shell.IBrowserService2_OnCreate, zone_IBrowserService2_OnCreate
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.OnCreate"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.OnCreate"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

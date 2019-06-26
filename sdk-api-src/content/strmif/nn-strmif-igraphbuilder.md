@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder
 ms.topic: interface
-f1_keywords: ["strmif/IGraphBuilder"]
+f1_keywords: 
+ - "strmif/IGraphBuilder"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

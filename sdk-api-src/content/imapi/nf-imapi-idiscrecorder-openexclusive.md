@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.OpenExclusive"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.OpenExclusive"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

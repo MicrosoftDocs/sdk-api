@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSBUSER_REQUEST_HEADER, PUSBUSER_REQUEST_HEADER, PUSBUSER_REQUEST_HEADER structure pointer [Buses], USBUSER_REQUEST_HEADER, USBUSER_REQUEST_HEADER structure [Buses], buses.usbuser_request_header, usbstrct_04ac2f33-ce32-4697-89d0-5f2c1516c3b6.xml, usbuser/PUSBUSER_REQUEST_HEADER, usbuser/USBUSER_REQUEST_HEADER"
 ms.topic: struct
-f1_keywords: ["usbuser/USBUSER_REQUEST_HEADER"]
+f1_keywords: 
+ - "usbuser/USBUSER_REQUEST_HEADER"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

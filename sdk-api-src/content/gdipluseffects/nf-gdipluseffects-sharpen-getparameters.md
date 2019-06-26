@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Sharpen class, Sharpen class [GDI+],GetParameters method, Sharpen.GetParameters, Sharpen::GetParameters, _gdiplus_CLASS_Sharpen_GetParameters_, gdiplus._gdiplus_CLASS_Sharpen_GetParameters_
 ms.topic: method
-f1_keywords: ["gdipluseffects/Sharpen.GetParameters"]
+f1_keywords: 
+ - "gdipluseffects/Sharpen.GetParameters"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

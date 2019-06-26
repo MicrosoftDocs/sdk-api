@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumRedoable, EnumRedoable method [COM], EnumRedoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumRedoable method, IOleUndoManager.EnumRedoable, IOleUndoManager::EnumRedoable, _ole_ioleundomanager_enumredoable, com.ioleundomanager_enumredoable, ocidl/IOleUndoManager::EnumRedoable
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.EnumRedoable"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.EnumRedoable"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

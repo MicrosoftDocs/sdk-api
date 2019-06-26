@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentHandler.get_ACDGroups"]
+f1_keywords: 
+ - "tapi3cc/ITAgentHandler.get_ACDGroups"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

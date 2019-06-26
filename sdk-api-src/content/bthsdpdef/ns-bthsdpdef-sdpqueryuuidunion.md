@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
 ms.topic: struct
-f1_keywords: ["bthsdpdef/SdpQueryUuidUnion"]
+f1_keywords: 
+ - "bthsdpdef/SdpQueryUuidUnion"
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateTrackTerminals, EnumerateTrackTerminals method [TAPI 2.2], EnumerateTrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],EnumerateTrackTerminals method, ITMultiTrackTerminal.EnumerateTrackTerminals, ITMultiTrackTerminal::EnumerateTrackTerminals, _tapi3_itmultitrackterminal_enumeratetrackterminals, tapi3.itmultitrackterminal_enumeratetrackterminals, tapi3if/ITMultiTrackTerminal::EnumerateTrackTerminals
 ms.topic: method
-f1_keywords: ["tapi3if/ITMultiTrackTerminal.EnumerateTrackTerminals"]
+f1_keywords: 
+ - "tapi3if/ITMultiTrackTerminal.EnumerateTrackTerminals"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

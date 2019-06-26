@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButton interface, IMenuButton interface [MMC],AddButton method, IMenuButton.AddButton, IMenuButton::AddButton, _slate_imenubutton_addbutton, mmc.imenubutton_addbutton, mmc/IMenuButton::AddButton
 ms.topic: method
-f1_keywords: ["mmc/IMenuButton.AddButton"]
+f1_keywords: 
+ - "mmc/IMenuButton.AddButton"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

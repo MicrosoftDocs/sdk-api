@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOkButtonLabel method, IFileDialog.SetOkButtonLabel, IFileDialog::SetOkButtonLabel, SetOkButtonLabel, SetOkButtonLabel method [Windows Shell], SetOkButtonLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOkButtonLabel, shell_IFileDialog_SetOkButtonLabel, shobjidl_core/IFileDialog::SetOkButtonLabel
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetOkButtonLabel"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetOkButtonLabel"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

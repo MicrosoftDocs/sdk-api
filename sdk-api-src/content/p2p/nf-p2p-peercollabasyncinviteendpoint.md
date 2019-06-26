@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAsyncInviteEndpoint, PeerCollabAsyncInviteEndpoint function [Peer Networking], p2p.peercollabasyncinviteendpoint, p2p/PeerCollabAsyncInviteEndpoint
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabAsyncInviteEndpoint"]
+f1_keywords: 
+ - "p2p/PeerCollabAsyncInviteEndpoint"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

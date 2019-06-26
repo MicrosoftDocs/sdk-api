@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_RULE_CATEGORY, NET_FW_RULE_CATEGORY enumeration [ICS/ICF], NET_FW_RULE_CATEGORY_BOOT, NET_FW_RULE_CATEGORY_CONSEC, NET_FW_RULE_CATEGORY_FIREWALL, NET_FW_RULE_CATEGORY_MAX, NET_FW_RULE_CATEGORY_STEALTH, icftypes/NET_FW_RULE_CATEGORY, icftypes/NET_FW_RULE_CATEGORY_BOOT, icftypes/NET_FW_RULE_CATEGORY_CONSEC, icftypes/NET_FW_RULE_CATEGORY_FIREWALL, icftypes/NET_FW_RULE_CATEGORY_MAX, icftypes/NET_FW_RULE_CATEGORY_STEALTH, ics.net_fw_rule_category
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_RULE_CATEGORY"]
+f1_keywords: 
+ - "icftypes/NET_FW_RULE_CATEGORY"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecondaryBufferInterface, GetSecondaryBufferInterface method [DirectShow], GetSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetSecondaryBufferInterface method, IAMDirectSound.GetSecondaryBufferInterface, IAMDirectSound::GetSecondaryBufferInterface, IAMDirectSoundGetSecondaryBufferInterface, amaudio/IAMDirectSound::GetSecondaryBufferInterface, dshow.iamdirectsound_getsecondarybufferinterface
 ms.topic: method
-f1_keywords: ["amaudio/IAMDirectSound.GetSecondaryBufferInterface"]
+f1_keywords: 
+ - "amaudio/IAMDirectSound.GetSecondaryBufferInterface"
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

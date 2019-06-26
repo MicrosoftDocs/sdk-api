@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthName, automat.varmonthname, oleauto/VarMonthName
 ms.topic: function
-f1_keywords: ["oleauto/VarMonthName"]
+f1_keywords: 
+ - "oleauto/VarMonthName"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

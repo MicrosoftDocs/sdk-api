@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IFullScreenVideoEx interface [DirectShow],described, IFullScreenVideoInterface, amvideo/IFullScreenVideoEx, dshow.ifullscreenvideoex
 ms.topic: interface
-f1_keywords: ["amvideo/IFullScreenVideoEx"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

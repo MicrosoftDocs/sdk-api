@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API],described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.topic: interface
-f1_keywords: ["msxml/IXMLElementCollection"]
+f1_keywords: 
+ - "msxml/IXMLElementCollection"
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows

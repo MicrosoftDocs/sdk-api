@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IControlChangeNotify.OnNotify, IControlChangeNotify::OnNotify, IControlChangeNotifyOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IControlChangeNotify interface, coreaudio.icontrolchangenotify_onnotify, devicetopology/IControlChangeNotify::OnNotify
 ms.topic: method
-f1_keywords: ["devicetopology/IControlChangeNotify.OnNotify"]
+f1_keywords: 
+ - "devicetopology/IControlChangeNotify.OnNotify"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

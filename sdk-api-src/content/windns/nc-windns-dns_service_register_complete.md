@@ -5,7 +5,8 @@ description: Used to notify your application that service registration has compl
 ms.date: 02/19/2019
 ms.keywords: DNS_SERVICE_REGISTER_COMPLETE
 ms.topic: language-reference
-f1_keywords: ["windns/DNS_SERVICE_REGISTER_COMPLETE"]
+f1_keywords: 
+ - "windns/DNS_SERVICE_REGISTER_COMPLETE"
 targetos: Windows
 product: Windows
 req.assembly: 

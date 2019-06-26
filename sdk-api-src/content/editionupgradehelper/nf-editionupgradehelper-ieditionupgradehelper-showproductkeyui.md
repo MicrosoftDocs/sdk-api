@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],ShowProductKeyUI method, IEditionUpgradeHelper.ShowProductKeyUI, IEditionUpgradeHelper::ShowProductKeyUI, ShowProductKeyUI, ShowProductKeyUI method [Windows API], ShowProductKeyUI method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI, winprog.ieditionupgradehelper_showproductkeyui
 ms.topic: method
-f1_keywords: ["editionupgradehelper/IEditionUpgradeHelper.ShowProductKeyUI"]
+f1_keywords: 
+ - "editionupgradehelper/IEditionUpgradeHelper.ShowProductKeyUI"
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

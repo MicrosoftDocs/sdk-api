@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetProviderArchitecture, MI_OperationOptions_SetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_SetProviderArchitecture, wmi_v2.mi_operationoptions_setproviderarchitecture
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_SetProviderArchitecture"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_SetProviderArchitecture"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

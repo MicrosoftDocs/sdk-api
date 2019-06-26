@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1777027a-85bb-47d2-baf8-6f420282b01a, MFCreateVideoMixerAndPresenter, MFCreateVideoMixerAndPresenter callback, MFCreateVideoMixerAndPresenter callback function [Media Foundation], evr/MFCreateVideoMixerAndPresenter, mf.mfcreatevideomixerandpresenter
 ms.topic: callback
-f1_keywords: ["evr/MFCreateVideoMixerAndPresenter"]
+f1_keywords: 
+ - "evr/MFCreateVideoMixerAndPresenter"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

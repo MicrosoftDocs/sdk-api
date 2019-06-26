@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
 ms.topic: function
-f1_keywords: ["sddl/ConvertSidToStringSid"]
+f1_keywords: 
+ - "sddl/ConvertSidToStringSid"
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows

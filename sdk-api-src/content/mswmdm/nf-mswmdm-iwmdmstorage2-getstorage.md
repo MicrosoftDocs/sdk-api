@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage2.GetStorage"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage2.GetStorage"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateBackForwardState method, IBrowserService.UpdateBackForwardState, IBrowserService::UpdateBackForwardState, UpdateBackForwardState, UpdateBackForwardState method [Windows Shell], UpdateBackForwardState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateBackForwardState, shell.IBrowserService_UpdateBackForwardState, zone_IBrowserService_UpdateBackForwardState
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.UpdateBackForwardState"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.UpdateBackForwardState"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

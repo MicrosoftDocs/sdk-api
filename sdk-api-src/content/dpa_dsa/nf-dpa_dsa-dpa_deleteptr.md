@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
 ms.topic: function
-f1_keywords: ["dpa_dsa/DPA_DeletePtr"]
+f1_keywords: 
+ - "dpa_dsa/DPA_DeletePtr"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

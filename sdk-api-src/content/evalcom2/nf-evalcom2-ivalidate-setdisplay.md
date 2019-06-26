@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,SetDisplay method, IValidate.SetDisplay, IValidate::SetDisplay, SetDisplay, SetDisplay method, SetDisplay method,IValidate interface, evalcom2/IValidate::SetDisplay, setup.ivalidate_setdisplay
 ms.topic: method
-f1_keywords: ["evalcom2/IValidate.SetDisplay"]
+f1_keywords: 
+ - "evalcom2/IValidate.SetDisplay"
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

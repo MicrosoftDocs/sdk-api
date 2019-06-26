@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
 ms.topic: function
-f1_keywords: ["winternl/NtQueryObject"]
+f1_keywords: 
+ - "winternl/NtQueryObject"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

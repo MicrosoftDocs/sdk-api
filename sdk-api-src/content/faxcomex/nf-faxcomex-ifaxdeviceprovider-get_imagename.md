@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],ImageName property, IFaxDeviceProvider.ImageName, IFaxDeviceProvider.get_ImageName, IFaxDeviceProvider::ImageName, IFaxDeviceProvider::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.imagename, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp, fax._mfax_faxdeviceprovider_imagename, faxcomex/IFaxDeviceProvider::ImageName, faxcomex/IFaxDeviceProvider::get_ImageName, get_ImageName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceProvider.ImageName"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceProvider.ImageName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

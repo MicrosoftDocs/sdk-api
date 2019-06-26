@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetImageList"]
+f1_keywords: 
+ - "commctrl/ListView_SetImageList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

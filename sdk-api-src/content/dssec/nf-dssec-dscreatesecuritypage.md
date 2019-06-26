@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSCreateSecurityPage, DSCreateSecurityPage function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateSecurityPage, security.dscreatesecuritypage
 ms.topic: function
-f1_keywords: ["dssec/DSCreateSecurityPage"]
+f1_keywords: 
+ - "dssec/DSCreateSecurityPage"
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows

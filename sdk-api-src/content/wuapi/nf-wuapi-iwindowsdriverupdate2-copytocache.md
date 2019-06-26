@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CopyToCache method, IWindowsDriverUpdate2.CopyToCache, IWindowsDriverUpdate2::CopyToCache, wua.iwindowsdriverupdate2_copytocache, wuapi/IWindowsDriverUpdate2::CopyToCache
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdate2.CopyToCache"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdate2.CopyToCache"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

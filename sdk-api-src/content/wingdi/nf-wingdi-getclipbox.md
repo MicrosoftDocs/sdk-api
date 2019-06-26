@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipBox, GetClipBox function [Windows GDI], _win32_GetClipBox, gdi.getclipbox, wingdi/GetClipBox
 ms.topic: function
-f1_keywords: ["wingdi/GetClipBox"]
+f1_keywords: 
+ - "wingdi/GetClipBox"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

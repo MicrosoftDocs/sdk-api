@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssemblyLocator, IAssemblyLocator interface [COM+], IAssemblyLocator interface [COM+],described, _cos_IAssemblyLocator, comsvcs/IAssemblyLocator, cos.iassemblylocator
 ms.topic: interface
-f1_keywords: ["comsvcs/IAssemblyLocator"]
+f1_keywords: 
+ - "comsvcs/IAssemblyLocator"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

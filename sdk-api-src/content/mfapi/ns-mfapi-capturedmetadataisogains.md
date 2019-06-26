@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataISOGains, CapturedMetadataISOGains structure [Streaming Media Devices], mfapi/CapturedMetadataISOGains, stream.capturedmetadataisogains
 ms.topic: struct
-f1_keywords: ["mfapi/CapturedMetadataISOGains"]
+f1_keywords: 
+ - "mfapi/CapturedMetadataISOGains"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

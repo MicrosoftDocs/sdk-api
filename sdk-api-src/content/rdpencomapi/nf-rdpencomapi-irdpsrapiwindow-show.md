@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIWindow.Show"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIWindow.Show"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

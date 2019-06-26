@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.GetInstanceOfGlobalStore"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.GetInstanceOfGlobalStore"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

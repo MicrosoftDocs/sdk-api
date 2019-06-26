@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumQueue interface [TAPI 2.2],Next method, IEnumQueue.Next, IEnumQueue::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumQueue interface, _tapi3_ienumqueue_next, tapi3.ienumqueue_next, tapi3cc/IEnumQueue::Next
 ms.topic: method
-f1_keywords: ["tapi3cc/IEnumQueue.Next"]
+f1_keywords: 
+ - "tapi3cc/IEnumQueue.Next"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

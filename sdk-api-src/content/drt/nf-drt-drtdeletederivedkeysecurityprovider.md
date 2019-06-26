@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
 ms.topic: function
-f1_keywords: ["drt/DrtDeleteDerivedKeySecurityProvider"]
+f1_keywords: 
+ - "drt/DrtDeleteDerivedKeySecurityProvider"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

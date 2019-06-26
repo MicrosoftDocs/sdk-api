@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAnyFalse, XMComparisonAnyFalse, XMComparisonAnyFalse method [DirectX Math Support APIs], dxmath.xmcomparisonanyfalse
 ms.topic: function
-f1_keywords: ["directxmath/XMComparisonAnyFalse"]
+f1_keywords: 
+ - "directxmath/XMComparisonAnyFalse"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

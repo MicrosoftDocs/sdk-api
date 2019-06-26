@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],Logon method, IAMTuner.Logon, IAMTuner::Logon, IAMTunerLogon, Logon, Logon method [DirectShow], Logon method [DirectShow],IAMTuner interface, dshow.iamtuner_logon, strmif/IAMTuner::Logon
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.Logon"]
+f1_keywords: 
+ - "strmif/IAMTuner.Logon"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

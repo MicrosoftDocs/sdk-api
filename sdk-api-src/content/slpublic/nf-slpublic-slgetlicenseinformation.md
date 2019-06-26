@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_LICENSE_TYPE, SL_INFO_KEY_VERSION, security.slgetlicenseinformation, slpublic/SLGetLicenseInformation
 ms.topic: function
-f1_keywords: ["slpublic/SLGetLicenseInformation"]
+f1_keywords: 
+ - "slpublic/SLGetLicenseInformation"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

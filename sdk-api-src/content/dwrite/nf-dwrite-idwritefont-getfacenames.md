@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFaceNames, GetFaceNames method [Direct Write], GetFaceNames method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetFaceNames method, IDWriteFont.GetFaceNames, IDWriteFont::GetFaceNames, directwrite.IDWriteFont_GetFaceNames, dwrite/IDWriteFont::GetFaceNames
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFont.GetFaceNames"]
+f1_keywords: 
+ - "dwrite/IDWriteFont.GetFaceNames"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMDomain2 interface [GPMC],LoadStarterGPO method, IGPMDomain2.LoadStarterGPO, IGPMDomain2::LoadStarterGPO, LoadStarterGPO, LoadStarterGPO method [GPMC], LoadStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_loadstartergpo, gpmgmt/IGPMDomain2::LoadStarterGPO
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain2.LoadStarterGPO"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain2.LoadStarterGPO"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

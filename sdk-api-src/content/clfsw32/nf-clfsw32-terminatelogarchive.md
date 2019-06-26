@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TerminateLogArchive, TerminateLogArchive function [Files], clfsw32/TerminateLogArchive, fs.terminatelogarchive
 ms.topic: function
-f1_keywords: ["clfsw32/TerminateLogArchive"]
+f1_keywords: 
+ - "clfsw32/TerminateLogArchive"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

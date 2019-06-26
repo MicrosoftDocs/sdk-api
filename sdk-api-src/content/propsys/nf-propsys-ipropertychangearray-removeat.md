@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],RemoveAt method, IPropertyChangeArray.RemoveAt, IPropertyChangeArray::RemoveAt, RemoveAt, RemoveAt method [Windows Properties], RemoveAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_RemoveAt, properties.IPropertyChangeArray_RemoveAt, propsys/IPropertyChangeArray::RemoveAt, shell.IPropertyChangeArray_RemoveAt
 ms.topic: method
-f1_keywords: ["propsys/IPropertyChangeArray.RemoveAt"]
+f1_keywords: 
+ - "propsys/IPropertyChangeArray.RemoveAt"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

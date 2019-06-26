@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/DMA_DES"]
+f1_keywords: 
+ - "cfgmgr32/DMA_DES"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

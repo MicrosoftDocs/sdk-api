@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationActivationManager.ActivateForFile"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationActivationManager.ActivateForFile"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

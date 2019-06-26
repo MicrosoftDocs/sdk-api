@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC],InkInsertMode property, IInkEdit.InkInsertMode, IInkEdit.put_InkInsertMode, IInkEdit::InkInsertMode, IInkEdit::get_InkInsertMode, IInkEdit::put_InkInsertMode, InkEdit.get_InkInsertMode, InkEdit.put_InkInsertMode, InkInsertMode property [Tablet PC], InkInsertMode property [Tablet PC],IInkEdit interface, InsertAsInk, InsertAsText, get_InkInsertMode, inked/IInkEdit::InkInsertMode, inked/IInkEdit::get_InkInsertMode, inked/IInkEdit::put_InkInsertMode, put_InkInsertMode, tablet.inkedit_inkinsertmode
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.InkInsertMode"]
+f1_keywords: 
+ - "inked/IInkEdit.InkInsertMode"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

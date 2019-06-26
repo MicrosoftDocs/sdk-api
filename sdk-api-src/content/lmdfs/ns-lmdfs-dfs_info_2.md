@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_2, *PDFS_INFO_2, DFS_INFO_2, DFS_INFO_2 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_2, LPDFS_INFO_2 structure pointer [Distributed File System], PDFS_INFO_2, PDFS_INFO_2 structure pointer [Distributed File System], _win32_dfs_info_2_str, dfs.dfs_info_2_str, fs.dfs_info_2_str, lmdfs/DFS_INFO_2, lmdfs/LPDFS_INFO_2, lmdfs/PDFS_INFO_2, netmgmt.dfs_info_2_str"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_INFO_2"]
+f1_keywords: 
+ - "lmdfs/DFS_INFO_2"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

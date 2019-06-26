@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
 ms.topic: function
-f1_keywords: ["jobapi2/AssignProcessToJobObject"]
+f1_keywords: 
+ - "jobapi2/AssignProcessToJobObject"
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows

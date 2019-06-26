@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
 ms.topic: function
-f1_keywords: ["mgmtapi/SnmpMgrTrapListen"]
+f1_keywords: 
+ - "mgmtapi/SnmpMgrTrapListen"
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

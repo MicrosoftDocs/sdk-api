@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
 ms.topic: function
-f1_keywords: ["wsdbase/WSDCreateHttpMessageParameters"]
+f1_keywords: 
+ - "wsdbase/WSDCreateHttpMessageParameters"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

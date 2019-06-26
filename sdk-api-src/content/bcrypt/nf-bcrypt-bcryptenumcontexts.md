@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptEnumContexts"]
+f1_keywords: 
+ - "bcrypt/BCryptEnumContexts"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

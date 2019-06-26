@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTBeginReliableWrite, BluetoothGATTBeginReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattbeginreliablewrite, bluetoothleapis/BluetoothGATTBeginReliableWrite
 ms.topic: function
-f1_keywords: ["bluetoothleapis/BluetoothGATTBeginReliableWrite"]
+f1_keywords: 
+ - "bluetoothleapis/BluetoothGATTBeginReliableWrite"
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

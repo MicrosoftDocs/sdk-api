@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.GetCreated"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.GetCreated"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurrentDirectoryA, GetCurrentDirectoryW, _win32_getcurrentdirectory, base.getcurrentdirectory, fs.getcurrentdirectory, winbase/GetCurrentDirectory, winbase/GetCurrentDirectoryA, winbase/GetCurrentDirectoryW
 ms.topic: function
-f1_keywords: ["winbase/GetCurrentDirectory"]
+f1_keywords: 
+ - "winbase/GetCurrentDirectory"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

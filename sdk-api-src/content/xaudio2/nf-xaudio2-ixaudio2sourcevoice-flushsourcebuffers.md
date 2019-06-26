@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushSourceBuffers, FlushSourceBuffers method [XAudio2 Audio Mixing APIs], FlushSourceBuffers method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],FlushSourceBuffers method, IXAudio2SourceVoice.FlushSourceBuffers, IXAudio2SourceVoice::FlushSourceBuffers, xaudio2.ixaudio2sourcevoice_interface_flushsourcebuffers, xaudio2/IXAudio2SourceVoice::FlushSourceBuffers
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2SourceVoice.FlushSourceBuffers"]
+f1_keywords: 
+ - "xaudio2/IXAudio2SourceVoice.FlushSourceBuffers"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

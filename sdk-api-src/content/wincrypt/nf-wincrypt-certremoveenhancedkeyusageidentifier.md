@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 ms.topic: function
-f1_keywords: ["wincrypt/CertRemoveEnhancedKeyUsageIdentifier"]
+f1_keywords: 
+ - "wincrypt/CertRemoveEnhancedKeyUsageIdentifier"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

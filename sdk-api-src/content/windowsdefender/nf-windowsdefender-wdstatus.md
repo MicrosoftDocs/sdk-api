@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
 ms.topic: function
-f1_keywords: ["windowsdefender/WDStatus"]
+f1_keywords: 
+ - "windowsdefender/WDStatus"
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows

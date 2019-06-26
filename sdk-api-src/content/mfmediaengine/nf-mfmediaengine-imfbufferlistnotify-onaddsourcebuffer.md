@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnAddSourceBuffer method, IMFBufferListNotify.OnAddSourceBuffer, IMFBufferListNotify::OnAddSourceBuffer, OnAddSourceBuffer, OnAddSourceBuffer method [Media Foundation], OnAddSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onaddsourcebuffer, mfmediaengine/IMFBufferListNotify::OnAddSourceBuffer
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFBufferListNotify.OnAddSourceBuffer"]
+f1_keywords: 
+ - "mfmediaengine/IMFBufferListNotify.OnAddSourceBuffer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

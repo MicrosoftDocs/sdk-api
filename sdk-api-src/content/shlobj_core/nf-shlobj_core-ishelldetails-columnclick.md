@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColumnClick, ColumnClick method [Windows Shell], ColumnClick method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],ColumnClick method, IShellDetails.ColumnClick, IShellDetails::ColumnClick, _win32_IShellDetails_ColumnClick, shell.IShellDetails_ColumnClick, shlobj_core/IShellDetails::ColumnClick
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellDetails.ColumnClick"]
+f1_keywords: 
+ - "shlobj_core/IShellDetails.ColumnClick"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

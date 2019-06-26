@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12StateObjectProperties, ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,described, d3d12/ID3D12StateObjectProperties, direct3d12.id3d12stateobjectproperties
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12StateObjectProperties"]
+f1_keywords: 
+ - "d3d12/ID3D12StateObjectProperties"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

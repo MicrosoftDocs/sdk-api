@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
 ms.topic: function
-f1_keywords: ["winreg/RegOverridePredefKey"]
+f1_keywords: 
+ - "winreg/RegOverridePredefKey"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

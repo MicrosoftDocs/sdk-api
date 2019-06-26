@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
 ms.topic: struct
-f1_keywords: ["shobjidl_core/KNOWNFOLDER_DEFINITION"]
+f1_keywords: 
+ - "shobjidl_core/KNOWNFOLDER_DEFINITION"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

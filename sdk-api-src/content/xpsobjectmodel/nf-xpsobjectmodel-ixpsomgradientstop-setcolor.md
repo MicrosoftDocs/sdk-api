@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetColor method, IXpsOMGradientStop.SetColor, IXpsOMGradientStop::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setcolor, xpsobjectmodel/IXpsOMGradientStop::SetColor
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientStop.SetColor"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientStop.SetColor"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

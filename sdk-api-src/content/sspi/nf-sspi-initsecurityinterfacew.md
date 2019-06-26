@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
 ms.topic: function
-f1_keywords: ["sspi/InitSecurityInterface"]
+f1_keywords: 
+ - "sspi/InitSecurityInterface"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

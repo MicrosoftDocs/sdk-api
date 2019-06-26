@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
 ms.topic: function
-f1_keywords: ["lmuse/NetUseEnum"]
+f1_keywords: 
+ - "lmuse/NetUseEnum"
 req.header: lmuse.h
 req.include-header: Lm.h, Lmcons.h
 req.target-type: Windows

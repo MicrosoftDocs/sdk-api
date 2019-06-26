@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnumaprocessornodeex, winbase/GetNumaProcessorNodeEx
 ms.topic: function
-f1_keywords: ["winbase/GetNumaProcessorNodeEx"]
+f1_keywords: 
+ - "winbase/GetNumaProcessorNodeEx"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICSETSTATUSPROC, ICSETSTATUSPROC structure [Windows Multimedia], multimedia.icsetstatusproc_COLLISION563, multimedia.icsetstatusproc_struct, vfw/ICSETSTATUSPROC
 ms.topic: struct
-f1_keywords: ["vfw/ICSETSTATUSPROC"]
+f1_keywords: 
+ - "vfw/ICSETSTATUSPROC"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

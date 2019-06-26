@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxFilesEnumerator"]
+f1_keywords: 
+ - "appxpackaging/IAppxFilesEnumerator"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const GraphicsPath), Region.Union(const GraphicsPath*), Region::Union, Region::Union(IN const GraphicsPath), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_path_, gdiplus._gdiplus_CLASS_Region_Union_path_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Region.Union"]
+f1_keywords: 
+ - "gdiplusheaders/Region.Union"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

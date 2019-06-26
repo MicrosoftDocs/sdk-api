@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
 ms.topic: function
-f1_keywords: ["pdh/PdhBindInputDataSource"]
+f1_keywords: 
+ - "pdh/PdhBindInputDataSource"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

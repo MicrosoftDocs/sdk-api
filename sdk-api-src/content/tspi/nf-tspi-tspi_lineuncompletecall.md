@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUncompleteCall, TSPI_lineUncompleteCall function [TAPI 2.2], _tspi_tspi_lineuncompletecall, tspi.tspi_lineuncompletecall, tspi/TSPI_lineUncompleteCall
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineUncompleteCall"]
+f1_keywords: 
+ - "tspi/TSPI_lineUncompleteCall"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

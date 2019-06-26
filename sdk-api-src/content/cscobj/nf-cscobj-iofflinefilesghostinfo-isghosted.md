@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesGhostInfo.IsGhosted"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesGhostInfo.IsGhosted"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelQuery, CancelQuery method [Windows Management Instrumentation], CancelQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, IWbemEventProviderQuerySink interface [Windows Management Instrumentation],CancelQuery method, IWbemEventProviderQuerySink.CancelQuery, IWbemEventProviderQuerySink::CancelQuery, _hmm_iwbemeventproviderquerysink_cancelquery, wbemprov/IWbemEventProviderQuerySink::CancelQuery, wmi.iwbemeventproviderquerysink_cancelquery
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemEventProviderQuerySink.CancelQuery"]
+f1_keywords: 
+ - "wbemprov/IWbemEventProviderQuerySink.CancelQuery"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRangeArray, IUIAutomationTextRangeArray interface [Windows Accessibility], IUIAutomationTextRangeArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRangeArray, uiauto_IUIAutomationTextRangeArray, uiautomationclient/IUIAutomationTextRangeArray, winauto.uiauto_IUIAutomationTextRangeArray
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationTextRangeArray"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRangeArray"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

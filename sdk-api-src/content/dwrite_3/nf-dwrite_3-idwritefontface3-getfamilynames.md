@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyNames method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetFamilyNames method, IDWriteFontFace3.GetFamilyNames, IDWriteFontFace3::GetFamilyNames, directwrite.idwritefontface3_getfamilynames, dwrite_3/IDWriteFontFace3::GetFamilyNames
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.GetFamilyNames"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.GetFamilyNames"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

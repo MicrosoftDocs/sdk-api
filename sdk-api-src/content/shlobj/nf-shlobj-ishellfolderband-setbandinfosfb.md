@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
 ms.topic: method
-f1_keywords: ["shlobj/IShellFolderBand.SetBandInfoSFB"]
+f1_keywords: 
+ - "shlobj/IShellFolderBand.SetBandInfoSFB"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
 ms.topic: interface
-f1_keywords: ["objidl/IAgileReference"]
+f1_keywords: 
+ - "objidl/IAgileReference"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

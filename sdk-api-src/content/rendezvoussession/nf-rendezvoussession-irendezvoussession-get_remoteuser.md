@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],RemoteUser property, IRendezvousSession.RemoteUser, IRendezvousSession.get_RemoteUser, IRendezvousSession::RemoteUser, IRendezvousSession::get_RemoteUser, RemoteUser property [Remote Assistance], RemoteUser property [Remote Assistance],IRendezvousSession interface, get_RemoteUser, remoteassist.remoteassist_IRendezvousSession_RemoteUser, remoteassist_IRendezvousSession_RemoteUser, rendezvoussession/IRendezvousSession::RemoteUser, rendezvoussession/IRendezvousSession::get_RemoteUser
 ms.topic: method
-f1_keywords: ["rendezvoussession/IRendezvousSession.RemoteUser"]
+f1_keywords: 
+ - "rendezvoussession/IRendezvousSession.RemoteUser"
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

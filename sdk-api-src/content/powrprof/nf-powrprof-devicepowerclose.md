@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
 ms.topic: function
-f1_keywords: ["powrprof/DevicePowerClose"]
+f1_keywords: 
+ - "powrprof/DevicePowerClose"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

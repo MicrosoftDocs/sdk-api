@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERIALKEYSA, LPSERIALKEYS, LPSERIALKEYS structure pointer [Windows Accessibility], SERIALKEYS, SERIALKEYS structure [Windows Accessibility], SERIALKEYSA, SERKF_AVAILABLE, SERKF_INDICATOR, SERKF_SERIALKEYSON, _win32_SERIALKEYS_str, msaa.serialkeys, tagSERIALKEYSA, tagSERIALKEYSW, winauto.serialkeys, winuser/LPSERIALKEYS, winuser/SERIALKEYS"
 ms.topic: struct
-f1_keywords: ["winuser/SERIALKEYS"]
+f1_keywords: 
+ - "winuser/SERIALKEYS"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

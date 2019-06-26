@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.SetRectComplex"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.SetRectComplex"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

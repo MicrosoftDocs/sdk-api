@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentLocation method, IDvdInfo.GetCurrentLocation, IDvdInfo::GetCurrentLocation, IDvdInfoGetCurrentLocation, dshow.idvdinfo_getcurrentlocation, strmif/IDvdInfo::GetCurrentLocation
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetCurrentLocation"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetCurrentLocation"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

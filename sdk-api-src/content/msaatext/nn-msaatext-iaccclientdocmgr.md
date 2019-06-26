@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr, IAccClientDocMgr interface [Windows Accessibility], IAccClientDocMgr interface [Windows Accessibility],described, msaa.iaccclientdocmgr, msaatext/IAccClientDocMgr, winauto.iaccclientdocmgr
 ms.topic: interface
-f1_keywords: ["msaatext/IAccClientDocMgr"]
+f1_keywords: 
+ - "msaatext/IAccClientDocMgr"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

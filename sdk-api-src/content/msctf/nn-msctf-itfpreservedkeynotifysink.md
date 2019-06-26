@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
 ms.topic: interface
-f1_keywords: ["msctf/ITfPreservedKeyNotifySink"]
+f1_keywords: 
+ - "msctf/ITfPreservedKeyNotifySink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

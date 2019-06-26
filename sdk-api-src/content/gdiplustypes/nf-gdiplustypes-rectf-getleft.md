@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],RectF class, RectF class [GDI+],GetLeft method, RectF.GetLeft, RectF::GetLeft, _gdiplus_CLASS_RectF_GetLeft_, gdiplus._gdiplus_CLASS_RectF_GetLeft_
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.GetLeft"]
+f1_keywords: 
+ - "gdiplustypes/RectF.GetLeft"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

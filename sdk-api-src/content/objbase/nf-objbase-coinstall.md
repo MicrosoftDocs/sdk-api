@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
 ms.topic: function
-f1_keywords: ["objbase/CoInstall"]
+f1_keywords: 
+ - "objbase/CoInstall"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

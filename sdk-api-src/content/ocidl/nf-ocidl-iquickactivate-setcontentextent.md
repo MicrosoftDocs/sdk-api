@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
 ms.topic: method
-f1_keywords: ["ocidl/IQuickActivate.SetContentExtent"]
+f1_keywords: 
+ - "ocidl/IQuickActivate.SetContentExtent"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

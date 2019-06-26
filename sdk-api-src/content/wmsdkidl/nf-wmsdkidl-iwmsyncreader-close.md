@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],Close method, IWMSyncReader.Close, IWMSyncReader::Close, IWMSyncReaderClose, wmformat.iwmsyncreader_close, wmsdkidl/IWMSyncReader::Close
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.Close"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.Close"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

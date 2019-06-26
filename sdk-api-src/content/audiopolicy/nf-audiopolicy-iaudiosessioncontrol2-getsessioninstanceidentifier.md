@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSessionInstanceIdentifier, GetSessionInstanceIdentifier method [Core Audio], GetSessionInstanceIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionInstanceIdentifier method, IAudioSessionControl2.GetSessionInstanceIdentifier, IAudioSessionControl2::GetSessionInstanceIdentifier, audiopolicy/IAudioSessionControl2::GetSessionInstanceIdentifier, coreaudio.iaudiosessioncontrol2_getsessioninstanceidentifier
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionControl2.GetSessionInstanceIdentifier"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionControl2.GetSessionInstanceIdentifier"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

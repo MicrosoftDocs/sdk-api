@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_InputActive method, IMSVidCtl.put_InputActive, IMSVidCtl::put_InputActive, IMSVidCtlput_InputActive, mstv.imsvidctl_put_inputactive, msvidctl/IMSVidCtl::put_InputActive, put_InputActive, put_InputActive method [Microsoft TV Technologies], put_InputActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.put_InputActive"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.put_InputActive"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

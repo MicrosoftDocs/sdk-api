@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLowestUncontainedId, GetLowestUncontainedId method [Windows Sync], GetLowestUncontainedId method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetLowestUncontainedId method, ISyncKnowledge2.GetLowestUncontainedId, ISyncKnowledge2::GetLowestUncontainedId, winsync.isyncknowledge2_getlowestuncontainedid, winsync/ISyncKnowledge2::GetLowestUncontainedId
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.GetLowestUncontainedId"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.GetLowestUncontainedId"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

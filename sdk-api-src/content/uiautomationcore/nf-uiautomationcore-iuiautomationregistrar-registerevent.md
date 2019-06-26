@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterEvent method, IUIAutomationRegistrar.RegisterEvent, IUIAutomationRegistrar::RegisterEvent, RegisterEvent, RegisterEvent method [Windows Accessibility], RegisterEvent method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterEvent, uiauto_IUIAutomationRegistrar_RegisterEvent, uiautomationcore/IUIAutomationRegistrar::RegisterEvent, winauto.uiauto_IUIAutomationRegistrar_RegisterEvent
 ms.topic: method
-f1_keywords: ["uiautomationcore/IUIAutomationRegistrar.RegisterEvent"]
+f1_keywords: 
+ - "uiautomationcore/IUIAutomationRegistrar.RegisterEvent"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

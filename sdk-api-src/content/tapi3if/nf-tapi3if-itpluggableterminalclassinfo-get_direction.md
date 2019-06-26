@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassInfo.get_Direction, ITPluggableTerminalClassInfo::get_Direction, _tapi3_itpluggableterminalclassinfo_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_direction, tapi3if/ITPluggableTerminalClassInfo::get_Direction
 ms.topic: method
-f1_keywords: ["tapi3if/ITPluggableTerminalClassInfo.get_Direction"]
+f1_keywords: 
+ - "tapi3if/ITPluggableTerminalClassInfo.get_Direction"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

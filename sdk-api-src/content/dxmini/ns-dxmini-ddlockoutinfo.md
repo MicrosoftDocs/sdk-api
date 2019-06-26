@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDLOCKOUTINFO, DDLOCKOUTINFO, DDLOCKOUTINFO structure [Display Devices], PDDLOCKOUTINFO, PDDLOCKOUTINFO structure pointer [Display Devices], Video_Structs_7e32e28f-c3c0-48cc-85e7-341bed0382e5.xml, display.ddlockoutinfo, dxmini/DDLOCKOUTINFO, dxmini/PDDLOCKOUTINFO"
 ms.topic: struct
-f1_keywords: ["dxmini/DDLOCKOUTINFO"]
+f1_keywords: 
+ - "dxmini/DDLOCKOUTINFO"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

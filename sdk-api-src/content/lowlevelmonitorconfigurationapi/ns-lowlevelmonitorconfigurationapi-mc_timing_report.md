@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMC_TIMING_REPORT, LPMC_TIMING_REPORT, LPMC_TIMING_REPORT structure pointer [Monitor Configuration], MC_TIMING_REPORT, MC_TIMING_REPORT structure [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_TIMING_REPORT, lowlevelmonitorconfigurationapi/MC_TIMING_REPORT, monitor.mc_timing_report"
 ms.topic: struct
-f1_keywords: ["lowlevelmonitorconfigurationapi/MC_TIMING_REPORT"]
+f1_keywords: 
+ - "lowlevelmonitorconfigurationapi/MC_TIMING_REPORT"
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

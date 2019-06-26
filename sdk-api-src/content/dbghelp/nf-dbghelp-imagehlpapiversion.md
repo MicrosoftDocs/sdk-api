@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImagehlpApiVersion, ImagehlpApiVersion function, _win32_imagehlpapiversion, base.imagehlpapiversion, dbghelp/ImagehlpApiVersion
 ms.topic: function
-f1_keywords: ["dbghelp/ImagehlpApiVersion"]
+f1_keywords: 
+ - "dbghelp/ImagehlpApiVersion"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY"
 ms.topic: struct
-f1_keywords: ["qos2/QOS_PACKET_PRIORITY"]
+f1_keywords: 
+ - "qos2/QOS_PACKET_PRIORITY"
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

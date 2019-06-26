@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateSemaphore, EngCreateSemaphore function [Display Devices], display.engcreatesemaphore, gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml, winddi/EngCreateSemaphore
 ms.topic: function
-f1_keywords: ["winddi/EngCreateSemaphore"]
+f1_keywords: 
+ - "winddi/EngCreateSemaphore"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

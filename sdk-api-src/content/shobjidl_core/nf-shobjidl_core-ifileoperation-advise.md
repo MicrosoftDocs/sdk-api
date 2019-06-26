@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],Advise method, IFileOperation.Advise, IFileOperation::Advise, _shell_IFileOperation_Advise, shell.IFileOperation_Advise, shobjidl_core/IFileOperation::Advise
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperation.Advise"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperation.Advise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

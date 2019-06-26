@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
 ms.topic: interface
-f1_keywords: ["objidlbase/IRpcStubBuffer"]
+f1_keywords: 
+ - "objidlbase/IRpcStubBuffer"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

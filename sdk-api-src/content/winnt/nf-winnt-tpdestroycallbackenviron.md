@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpDestroyCallbackEnviron, TpDestroyCallbackEnviron function, base.tpdestroycallbackenviron, winnt/TpDestroyCallbackEnviron
 ms.topic: function
-f1_keywords: ["winnt/TpDestroyCallbackEnviron"]
+f1_keywords: 
+ - "winnt/TpDestroyCallbackEnviron"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 81aac302-c89a-42ca-9c90-170611a8995a, IM_Disabled, IM_Ink, IM_InkAndGesture, InkMode, InkMode enumeration [Tablet PC], inked/IM_Disabled, inked/IM_Ink, inked/IM_InkAndGesture, inked/InkMode, tablet.inkmode
 ms.topic: enum
-f1_keywords: ["inked/InkMode"]
+f1_keywords: 
+ - "inked/InkMode"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTimeSpan, CreateTimeSpan method [Windows Runtime], CreateTimeSpan method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpan method, IPropertyValueStatics.CreateTimeSpan, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpan, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpan, winrt.ipropertyvaluefactory_createtimespan, winrt.ipropertyvaluestatics_createtimespan
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateTimeSpan"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateTimeSpan"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

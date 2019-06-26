@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALLHUB_EVENT, CALLHUB_EVENT enumeration [TAPI 2.2], CHE_CALLHUBIDLE, CHE_CALLHUBNEW, CHE_CALLJOIN, CHE_CALLLEAVE, _tapi3_callhub_event, tapi3.callhub_event, tapi3if/CALLHUB_EVENT, tapi3if/CHE_CALLHUBIDLE, tapi3if/CHE_CALLHUBNEW, tapi3if/CHE_CALLJOIN, tapi3if/CHE_CALLLEAVE
 ms.topic: enum
-f1_keywords: ["tapi3if/CALLHUB_EVENT"]
+f1_keywords: 
+ - "tapi3if/CALLHUB_EVENT"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

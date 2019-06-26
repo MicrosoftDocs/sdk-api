@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PolyPolyline, PolyPolyline function [Windows GDI], _win32_PolyPolyline, gdi.polypolyline, wingdi/PolyPolyline
 ms.topic: function
-f1_keywords: ["wingdi/PolyPolyline"]
+f1_keywords: 
+ - "wingdi/PolyPolyline"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

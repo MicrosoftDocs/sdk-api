@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGaussianBlurEffect, CreateGaussianBlurEffect method [DirectComposition], CreateGaussianBlurEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateGaussianBlurEffect method, IDCompositionDevice3.CreateGaussianBlurEffect, IDCompositionDevice3::CreateGaussianBlurEffect, dcomp/IDCompositionDevice3::CreateGaussianBlurEffect, directcomp.idcompositiondevice3_creategaussianblureffect
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice3.CreateGaussianBlurEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice3.CreateGaussianBlurEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE, WS_SAML_AUTHENTICATOR_TYPE, WS_SAML_AUTHENTICATOR_TYPE enumeration [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE, webservices/WS_SAML_AUTHENTICATOR_TYPE, wsw.ws_saml_authenticator_type
 ms.topic: enum
-f1_keywords: ["webservices/WS_SAML_AUTHENTICATOR_TYPE"]
+f1_keywords: 
+ - "webservices/WS_SAML_AUTHENTICATOR_TYPE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

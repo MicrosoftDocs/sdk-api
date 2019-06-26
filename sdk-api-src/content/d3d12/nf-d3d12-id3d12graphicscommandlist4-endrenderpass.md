@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndRenderPass, EndRenderPass method, EndRenderPass method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,EndRenderPass method, ID3D12GraphicsCommandList4.EndRenderPass, ID3D12GraphicsCommandList4::EndRenderPass, d3d12/ID3D12GraphicsCommandList4::EndRenderPass, direct3d12.id3d12graphicscommandlist4_endrenderpass
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList4.EndRenderPass"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList4.EndRenderPass"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

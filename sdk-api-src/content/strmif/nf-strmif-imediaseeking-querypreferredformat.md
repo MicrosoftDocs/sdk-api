@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.QueryPreferredFormat"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.QueryPreferredFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

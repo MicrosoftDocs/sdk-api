@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
 ms.topic: method
-f1_keywords: ["strmif/IAMOverlayFX.QueryOverlayFXCaps"]
+f1_keywords: 
+ - "strmif/IAMOverlayFX.QueryOverlayFXCaps"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

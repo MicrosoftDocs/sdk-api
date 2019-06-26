@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
 ms.topic: function
-f1_keywords: ["expandedresources/ReleaseExclusiveCpuSets"]
+f1_keywords: 
+ - "expandedresources/ReleaseExclusiveCpuSets"
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows

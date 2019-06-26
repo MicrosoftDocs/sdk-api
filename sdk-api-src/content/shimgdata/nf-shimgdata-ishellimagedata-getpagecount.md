@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPageCount, GetPageCount method [Windows Shell], GetPageCount method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPageCount method, IShellImageData.GetPageCount, IShellImageData::GetPageCount, _shell_IShellImageData_GetPageCount, shell.IShellImageData_GetPageCount, shimgdata/IShellImageData::GetPageCount
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.GetPageCount"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.GetPageCount"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

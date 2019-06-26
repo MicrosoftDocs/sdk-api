@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES"
 ms.topic: struct
-f1_keywords: ["winioctl/SET_DISK_ATTRIBUTES"]
+f1_keywords: 
+ - "winioctl/SET_DISK_ATTRIBUTES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

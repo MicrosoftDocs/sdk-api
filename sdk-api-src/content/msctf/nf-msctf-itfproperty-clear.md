@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
 ms.topic: method
-f1_keywords: ["msctf/ITfProperty.Clear"]
+f1_keywords: 
+ - "msctf/ITfProperty.Clear"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

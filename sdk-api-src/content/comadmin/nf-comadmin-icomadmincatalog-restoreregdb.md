@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RestoreREGDB method, ICOMAdminCatalog.RestoreREGDB, ICOMAdminCatalog::RestoreREGDB, RestoreREGDB, RestoreREGDB method [COM+], RestoreREGDB method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RestoreREGDB, comadmin/ICOMAdminCatalog::RestoreREGDB, cos.icomadmincatalog_restoreregdb
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.RestoreREGDB"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.RestoreREGDB"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

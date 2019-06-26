@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [XPS Documents and Packaging], GetSegmentDataCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentDataCount method, IXpsOMGeometryFigure.GetSegmentDataCount, IXpsOMGeometryFigure::GetSegmentDataCount, xps.ixpsomgeometryfigure_getsegmentdatacount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentDataCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentDataCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.topic: function
-f1_keywords: ["http/HttpAddFragmentToCache"]
+f1_keywords: 
+ - "http/HttpAddFragmentToCache"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

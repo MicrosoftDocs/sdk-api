@@ -5,7 +5,8 @@ description: Defines constants that specify the shading rate (for variable-rate 
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE
 ms.topic: language-reference
-f1_keywords: ["d3d12/D3D12_SHADING_RATE"]
+f1_keywords: 
+ - "d3d12/D3D12_SHADING_RATE"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

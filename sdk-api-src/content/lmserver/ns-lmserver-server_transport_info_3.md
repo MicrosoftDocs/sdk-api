@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, LPSERVER_TRANSPORT_INFO_3, LPSERVER_TRANSPORT_INFO_3 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_3, PSERVER_TRANSPORT_INFO_3 structure pointer [Network Management], SERVER_TRANSPORT_INFO_3, SERVER_TRANSPORT_INFO_3 structure [Network Management], SVTI2_REMAP_PIPE_NAMES, SVTI2_SCOPED_NAME, _win32_server_transport_info_3_str, lmserver/LPSERVER_TRANSPORT_INFO_3, lmserver/PSERVER_TRANSPORT_INFO_3, lmserver/SERVER_TRANSPORT_INFO_3, netmgmt.server_transport_info_3_str"
 ms.topic: struct
-f1_keywords: ["lmserver/SERVER_TRANSPORT_INFO_3"]
+f1_keywords: 
+ - "lmserver/SERVER_TRANSPORT_INFO_3"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

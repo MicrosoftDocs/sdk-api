@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetOpticalAlignment method, IDWriteTextFormat1.SetOpticalAlignment, IDWriteTextFormat1::SetOpticalAlignment, SetOpticalAlignment, SetOpticalAlignment method [Direct Write], SetOpticalAlignment method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setopticalalignment, dwrite_2/IDWriteTextFormat1::SetOpticalAlignment
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteTextFormat1.SetOpticalAlignment"]
+f1_keywords: 
+ - "dwrite_2/IDWriteTextFormat1.SetOpticalAlignment"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

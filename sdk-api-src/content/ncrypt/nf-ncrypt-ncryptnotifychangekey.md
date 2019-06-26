@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptNotifyChangeKey"]
+f1_keywords: 
+ - "ncrypt/NCryptNotifyChangeKey"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

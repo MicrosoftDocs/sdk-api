@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastTableId, GetLastTableId method [Microsoft TV Technologies], GetLastTableId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetLastTableId method, IDVB_EIT.GetLastTableId, IDVB_EIT::GetLastTableId, IDVB_EITGetLastTableId, dvbsiparser/IDVB_EIT::GetLastTableId, mstv.idvb_eit_getlasttableid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT.GetLastTableId"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT.GetLastTableId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

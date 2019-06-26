@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_TIER, D3D12_RAYTRACING_TIER enumeration, D3D12_RAYTRACING_TIER_1_0, D3D12_RAYTRACING_TIER_NOT_SUPPORTED, d3d12/D3D12_RAYTRACING_TIER, d3d12/D3D12_RAYTRACING_TIER_1_0, d3d12/D3D12_RAYTRACING_TIER_NOT_SUPPORTED, direct3d12.d3d12_raytracing_tier
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_RAYTRACING_TIER"]
+f1_keywords: 
+ - "d3d12/D3D12_RAYTRACING_TIER"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

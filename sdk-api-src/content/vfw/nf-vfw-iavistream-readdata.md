@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadData method, IAVIStream.ReadData, IAVIStream::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadData, multimedia.iavistream_readdata, vfw/IAVIStream::ReadData
 ms.topic: method
-f1_keywords: ["vfw/IAVIStream.ReadData"]
+f1_keywords: 
+ - "vfw/IAVIStream.ReadData"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

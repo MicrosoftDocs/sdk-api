@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSPriority, RtwqGetWorkQueueMMCSSPriority function, base.rtwqgetworkqueuemmcsspriority, rtworkq/RtwqGetWorkQueueMMCSSPriority
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqGetWorkQueueMMCSSPriority"]
+f1_keywords: 
+ - "rtworkq/RtwqGetWorkQueueMMCSSPriority"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

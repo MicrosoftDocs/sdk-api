@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PINSPECT_HSTRING_CALLBACK, PINSPECT_HSTRING_CALLBACK function, PINSPECT_HSTRING_CALLBACK function pointer [Windows Runtime], winrt.pinspect_hstring_callback, winstring/PINSPECT_HSTRING_CALLBACK
 ms.topic: callback
-f1_keywords: ["winstring/PINSPECT_HSTRING_CALLBACK"]
+f1_keywords: 
+ - "winstring/PINSPECT_HSTRING_CALLBACK"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

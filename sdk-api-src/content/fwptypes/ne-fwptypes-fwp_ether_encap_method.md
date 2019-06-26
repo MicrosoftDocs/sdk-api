@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_ETHER_ENCAP_METHOD, FWP_ETHER_ENCAP_METHOD enumeration [Filtering], FWP_ETHER_ENCAP_METHOD_ETHER_V2, FWP_ETHER_ENCAP_METHOD_SNAP, FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO, fwp.fwp_ether_encap_method, fwptypes/FWP_ETHER_ENCAP_METHOD, fwptypes/FWP_ETHER_ENCAP_METHOD_ETHER_V2, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO
 ms.topic: enum
-f1_keywords: ["fwptypes/FWP_ETHER_ENCAP_METHOD"]
+f1_keywords: 
+ - "fwptypes/FWP_ETHER_ENCAP_METHOD"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

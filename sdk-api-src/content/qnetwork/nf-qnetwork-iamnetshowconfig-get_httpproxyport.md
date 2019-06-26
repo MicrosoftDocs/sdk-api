@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyPort method, IAMNetShowConfig.get_HTTPProxyPort, IAMNetShowConfig::get_HTTPProxyPort, IAMNetShowConfigget_HTTPProxyPort, dshow.iamnetshowconfig_get_httpproxyport, get_HTTPProxyPort, get_HTTPProxyPort method [DirectShow], get_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyPort
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.get_HTTPProxyPort"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.get_HTTPProxyPort"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterTraceGuids, RegisterTraceGuids function [ETW], RegisterTraceGuidsA, RegisterTraceGuidsW, _evt_registertraceguids, base.registertraceguids, etw.registertraceguids, evntrace/RegisterTraceGuids, evntrace/RegisterTraceGuidsA, evntrace/RegisterTraceGuidsW
 ms.topic: function
-f1_keywords: ["evntrace/RegisterTraceGuids"]
+f1_keywords: 
+ - "evntrace/RegisterTraceGuids"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

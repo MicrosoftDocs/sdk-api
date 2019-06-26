@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsEncrypted method, IOfflineFilesFileItem.IsEncrypted, IOfflineFilesFileItem::IsEncrypted, IsEncrypted, IsEncrypted method [Offline Files], IsEncrypted method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsEncrypted, of.iofflinefilesfileitem_isencrypted
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesFileItem.IsEncrypted"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesFileItem.IsEncrypted"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

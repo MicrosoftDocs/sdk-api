@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCharacterSpacing, GetCharacterSpacing method [Direct Write], GetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetCharacterSpacing method, IDWriteTextLayout1.GetCharacterSpacing, IDWriteTextLayout1::GetCharacterSpacing, directwrite.idwritetextlayout1_getcharacterspacing, dwrite_1/IDWriteTextLayout1::GetCharacterSpacing
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextLayout1.GetCharacterSpacing"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextLayout1.GetCharacterSpacing"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

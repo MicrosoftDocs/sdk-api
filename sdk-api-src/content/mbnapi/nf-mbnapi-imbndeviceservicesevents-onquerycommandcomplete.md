@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQueryCommandComplete method, IMbnDeviceServicesEvents.OnQueryCommandComplete, IMbnDeviceServicesEvents::OnQueryCommandComplete, OnQueryCommandComplete, OnQueryCommandComplete method [Microsoft Broadband Networks], OnQueryCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerycommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnQueryCommandComplete
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesEvents.OnQueryCommandComplete"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesEvents.OnQueryCommandComplete"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

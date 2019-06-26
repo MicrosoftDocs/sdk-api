@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
 ms.topic: method
-f1_keywords: ["msrdc/IRdcComparator.Process"]
+f1_keywords: 
+ - "msrdc/IRdcComparator.Process"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

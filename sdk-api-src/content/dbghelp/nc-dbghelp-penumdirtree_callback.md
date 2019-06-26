@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
 ms.topic: callback
-f1_keywords: ["dbghelp/EnumDirTreeProc"]
+f1_keywords: 
+ - "dbghelp/EnumDirTreeProc"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

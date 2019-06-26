@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyMetadataForFrames, CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],CopyMetadataForFrames method, ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataCopier.CopyMetadataForFrames"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataCopier.CopyMetadataForFrames"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

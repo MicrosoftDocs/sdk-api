@@ -4,7 +4,8 @@ title: ID3D11On12Device1::GetD3D12Device (d3d11on12.h)
 ms.date: 02/25/2019
 ms.keywords: ID3D11On12Device1::GetD3D12Device
 ms.topic: language-reference
-f1_keywords: ["d3d11on12/ID3D11On12Device1::GetD3D12Device"]
+f1_keywords: 
+ - "d3d11on12/ID3D11On12Device1::GetD3D12Device"
 targetos: Windows
 product: Windows
 req.assembly: 

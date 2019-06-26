@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCreateSocketHandle, WPUCreateSocketHandle function [Winsock], _win32_wpucreatesockethandle_2, winsock.wpucreatesockethandle_2, ws2spi/WPUCreateSocketHandle
 ms.topic: function
-f1_keywords: ["ws2spi/WPUCreateSocketHandle"]
+f1_keywords: 
+ - "ws2spi/WPUCreateSocketHandle"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

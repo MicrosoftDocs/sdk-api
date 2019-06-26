@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
 ms.topic: interface
-f1_keywords: ["mfsharingengine/IPlayToControl"]
+f1_keywords: 
+ - "mfsharingengine/IPlayToControl"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

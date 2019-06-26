@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
 ms.topic: function
-f1_keywords: ["shlwapi/PathMatchSpecEx"]
+f1_keywords: 
+ - "shlwapi/PathMatchSpecEx"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

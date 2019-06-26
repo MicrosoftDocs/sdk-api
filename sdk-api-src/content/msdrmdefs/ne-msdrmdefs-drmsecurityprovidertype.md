@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, msdrmdefs/DRMSECURITYPROVIDERTYPE, msdrmdefs/DRMSECURITYPROVIDERTYPE_SOFTWARESECREP, rm.drmsecurityprovidertype
 ms.topic: enum
-f1_keywords: ["msdrmdefs/DRMSECURITYPROVIDERTYPE"]
+f1_keywords: 
+ - "msdrmdefs/DRMSECURITYPROVIDERTYPE"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

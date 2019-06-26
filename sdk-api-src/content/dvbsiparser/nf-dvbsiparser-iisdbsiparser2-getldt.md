@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbSiParser2.GetLDT"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbSiParser2.GetLDT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

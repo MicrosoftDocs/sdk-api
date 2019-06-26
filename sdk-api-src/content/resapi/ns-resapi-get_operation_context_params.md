@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGET_OPERATION_CONTEXT_PARAMS, GET_OPERATION_CONTEXT_PARAMS, GET_OPERATION_CONTEXT_PARAMS structure [Failover Cluster], PGET_OPERATION_CONTEXT_PARAMS, PGET_OPERATION_CONTEXT_PARAMS structure pointer [Failover Cluster], mscs.get_operation_context_params, resapi/GET_OPERATION_CONTEXT_PARAMS, resapi/PGET_OPERATION_CONTEXT_PARAMS"
 ms.topic: struct
-f1_keywords: ["resapi/GET_OPERATION_CONTEXT_PARAMS"]
+f1_keywords: 
+ - "resapi/GET_OPERATION_CONTEXT_PARAMS"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

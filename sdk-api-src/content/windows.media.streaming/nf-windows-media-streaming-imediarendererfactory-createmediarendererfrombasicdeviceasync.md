@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMediaRendererFromBasicDeviceAsync, CreateMediaRendererFromBasicDeviceAsync method [Media Streaming API], CreateMediaRendererFromBasicDeviceAsync method [Media Streaming API],IMediaRendererFactory interface, IMediaRendererFactory interface [Media Streaming API],CreateMediaRendererFromBasicDeviceAsync method, IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync, IMediaRendererFactory.streaming, IMediaRendererFactory::CreateMediaRendererFromBasicDeviceAsync, IMediaRendererFactory::streaming, mediastreaming.imediarendererfactory_createmediarendererfrombasicdeviceasync, windows/IMediaRendererFactory::CreateMediaRendererFromBasicDeviceAsync
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

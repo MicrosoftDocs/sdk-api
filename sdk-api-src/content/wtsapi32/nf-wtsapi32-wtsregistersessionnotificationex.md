@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotificationEx, WTSRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsregistersessionnotificationex, wtsapi32/WTSRegisterSessionNotificationEx
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSRegisterSessionNotificationEx"]
+f1_keywords: 
+ - "wtsapi32/WTSRegisterSessionNotificationEx"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

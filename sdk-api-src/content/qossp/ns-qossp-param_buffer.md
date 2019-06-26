@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER"
 ms.topic: struct
-f1_keywords: ["qossp/PARAM_BUFFER"]
+f1_keywords: 
+ - "qossp/PARAM_BUFFER"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

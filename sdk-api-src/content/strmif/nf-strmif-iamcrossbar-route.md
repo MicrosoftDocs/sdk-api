@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route
 ms.topic: method
-f1_keywords: ["strmif/IAMCrossbar.Route"]
+f1_keywords: 
+ - "strmif/IAMCrossbar.Route"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

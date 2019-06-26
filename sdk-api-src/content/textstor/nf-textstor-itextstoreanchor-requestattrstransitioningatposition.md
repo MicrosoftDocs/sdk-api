@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreAnchor.RequestAttrsTransitioningAtPosition, ITextStoreAnchor::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreAnchor interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreAnchor::RequestAttrsTransitioningAtPosition, tsf.itextstoreanchor_requestattrstransitioningatposition
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.RequestAttrsTransitioningAtPosition"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.RequestAttrsTransitioningAtPosition"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

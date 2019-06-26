@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptSecretAgreement"]
+f1_keywords: 
+ - "bcrypt/BCryptSecretAgreement"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

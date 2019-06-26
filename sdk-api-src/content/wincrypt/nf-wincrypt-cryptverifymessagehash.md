@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.topic: function
-f1_keywords: ["wincrypt/CryptVerifyMessageHash"]
+f1_keywords: 
+ - "wincrypt/CryptVerifyMessageHash"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

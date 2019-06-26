@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReceiveSelectionCallbacks, GetReceiveSelectionCallbacks method [windows Media Format], GetReceiveSelectionCallbacks method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetReceiveSelectionCallbacks method, IWMReaderAdvanced.GetReceiveSelectionCallbacks, IWMReaderAdvanced::GetReceiveSelectionCallbacks, IWMReaderAdvancedGetReceiveSelectionCallbacks, wmformat.iwmreaderadvanced_getreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::GetReceiveSelectionCallbacks
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced.GetReceiveSelectionCallbacks"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced.GetReceiveSelectionCallbacks"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

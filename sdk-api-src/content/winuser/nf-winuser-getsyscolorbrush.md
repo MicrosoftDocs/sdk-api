@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
 ms.topic: function
-f1_keywords: ["winuser/GetSysColorBrush"]
+f1_keywords: 
+ - "winuser/GetSysColorBrush"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

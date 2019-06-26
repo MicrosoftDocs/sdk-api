@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT"
 ms.topic: struct
-f1_keywords: ["winnetwk/NETCONNECTINFOSTRUCT"]
+f1_keywords: 
+ - "winnetwk/NETCONNECTINFOSTRUCT"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

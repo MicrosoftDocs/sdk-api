@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], FaxConnectFaxServerA, FaxConnectFaxServerW, _mfax_faxconnectfaxserver, fax._mfax_faxconnectfaxserver, winfax/FaxConnectFaxServer, winfax/FaxConnectFaxServerA, winfax/FaxConnectFaxServerW
 ms.topic: function
-f1_keywords: ["winfax/FaxConnectFaxServer"]
+f1_keywords: 
+ - "winfax/FaxConnectFaxServer"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

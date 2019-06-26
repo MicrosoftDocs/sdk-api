@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetMibInfoV5, DhcpGetMibInfoV5 function [DHCP], dhcp.dhcpgetmibinfov5, dhcpsapi/DhcpGetMibInfoV5
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetMibInfoV5"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetMibInfoV5"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

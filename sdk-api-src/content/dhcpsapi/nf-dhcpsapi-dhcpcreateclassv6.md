@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateClassV6, DhcpCreateClassV6 function [DHCP], dhcp.dhcpcreateclassv6, dhcpsapi/DhcpCreateClassV6
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpCreateClassV6"]
+f1_keywords: 
+ - "dhcpsapi/DhcpCreateClassV6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

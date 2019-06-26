@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl_core/IVirtualDesktopManager
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IVirtualDesktopManager"]
+f1_keywords: 
+ - "shobjidl_core/IVirtualDesktopManager"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

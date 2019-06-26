@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSCSIVirtualDisk, vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
 ms.topic: function
-f1_keywords: ["virtdisk/RawSCSIVirtualDisk"]
+f1_keywords: 
+ - "virtdisk/RawSCSIVirtualDisk"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

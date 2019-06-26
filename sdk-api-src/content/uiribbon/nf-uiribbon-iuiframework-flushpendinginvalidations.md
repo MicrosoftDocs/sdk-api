@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],FlushPendingInvalidations method, IUIFramework.FlushPendingInvalidations, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
 ms.topic: method
-f1_keywords: ["uiribbon/IUIFramework.FlushPendingInvalidations"]
+f1_keywords: 
+ - "uiribbon/IUIFramework.FlushPendingInvalidations"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

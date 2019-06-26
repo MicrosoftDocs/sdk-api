@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
 ms.topic: function
-f1_keywords: ["wofapi/WofSetFileDataLocation"]
+f1_keywords: 
+ - "wofapi/WofSetFileDataLocation"
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

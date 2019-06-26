@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Close method, IDiscRecorder.Close, IDiscRecorder::Close, _win32_idiscrecorder_close, base.idiscrecorder_close, imapi.idiscrecorder_close, imapi/IDiscRecorder::Close
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.Close"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.Close"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

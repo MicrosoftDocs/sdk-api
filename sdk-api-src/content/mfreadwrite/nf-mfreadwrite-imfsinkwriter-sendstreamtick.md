@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, IMFSinkWriter.SendStreamTick, IMFSinkWriter::SendStreamTick, SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.SendStreamTick"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.SendStreamTick"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

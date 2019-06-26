@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Multimedia], AVIStreamOpenFromFileA, AVIStreamOpenFromFileW, _win32_AVIStreamOpenFromFile, multimedia.avistreamopenfromfile, vfw/AVIStreamOpenFromFile, vfw/AVIStreamOpenFromFileA, vfw/AVIStreamOpenFromFileW
 ms.topic: function
-f1_keywords: ["vfw/AVIStreamOpenFromFile"]
+f1_keywords: 
+ - "vfw/AVIStreamOpenFromFile"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

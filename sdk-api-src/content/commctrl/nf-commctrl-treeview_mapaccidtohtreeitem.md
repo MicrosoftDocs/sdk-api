@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [Windows Controls], _win32_TreeView_MapAccIDToHTREEITEM, _win32_TreeView_MapAccIDToHTREEITEM_cpp, commctrl/TreeView_MapAccIDToHTREEITEM, controls.TreeView_MapAccIDToHTREEITEM, controls._win32_TreeView_MapAccIDToHTREEITEM
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_MapAccIDToHTREEITEM"]
+f1_keywords: 
+ - "commctrl/TreeView_MapAccIDToHTREEITEM"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_MAPPING, XPS_GLYPH_MAPPING structure [XPS Documents and Packaging], xps.xps_glyph_mapping, xpsobjectmodel/XPS_GLYPH_MAPPING
 ms.topic: struct
-f1_keywords: ["xpsobjectmodel/XPS_GLYPH_MAPPING"]
+f1_keywords: 
+ - "xpsobjectmodel/XPS_GLYPH_MAPPING"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

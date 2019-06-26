@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 670956b7-c83d-77ff-bc7b-f0c5ef8d9986, ID3D11DeviceContext interface [Direct3D 11],PSGetShader method, ID3D11DeviceContext.PSGetShader, ID3D11DeviceContext::PSGetShader, PSGetShader, PSGetShader method [Direct3D 11], PSGetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetShader, direct3d11.id3d11devicecontext_psgetshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.PSGetShader"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.PSGetShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.get_StopTime"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.get_StopTime"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

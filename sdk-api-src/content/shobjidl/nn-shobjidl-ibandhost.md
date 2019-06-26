@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
 ms.topic: interface
-f1_keywords: ["shobjidl/IBandHost"]
+f1_keywords: 
+ - "shobjidl/IBandHost"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

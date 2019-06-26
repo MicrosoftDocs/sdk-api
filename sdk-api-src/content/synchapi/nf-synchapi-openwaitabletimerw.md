@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, synchapi/OpenWaitableTimer, synchapi/OpenWaitableTimerA, synchapi/OpenWaitableTimerW
 ms.topic: function
-f1_keywords: ["synchapi/OpenWaitableTimer"]
+f1_keywords: 
+ - "synchapi/OpenWaitableTimer"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

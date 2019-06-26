@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],AddRange method, ITraceDataProviderCollection.AddRange, ITraceDataProviderCollection::AddRange, base.itracedataprovidercollection_addrange, pla.itracedataprovidercollection_addrange, pla/ITraceDataProviderCollection::AddRange
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProviderCollection.AddRange"]
+f1_keywords: 
+ - "pla/ITraceDataProviderCollection.AddRange"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

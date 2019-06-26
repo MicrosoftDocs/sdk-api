@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
 ms.topic: method
-f1_keywords: ["austream/IMemoryData.SetActual"]
+f1_keywords: 
+ - "austream/IMemoryData.SetActual"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

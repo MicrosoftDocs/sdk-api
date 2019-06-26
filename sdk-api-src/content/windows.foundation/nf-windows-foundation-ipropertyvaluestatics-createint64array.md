@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInt64Array, CreateInt64Array method [Windows Runtime], CreateInt64Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt64Array method, IPropertyValueStatics.CreateInt64Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt64Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt64Array, winrt.ipropertyvaluefactory_createint64array, winrt.ipropertyvaluestatics_createint64array
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateInt64Array"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateInt64Array"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

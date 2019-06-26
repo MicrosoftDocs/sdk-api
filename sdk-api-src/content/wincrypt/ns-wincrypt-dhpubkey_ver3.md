@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHPUBKEY_VER3, DHPUBKEY_VER3 structure [Security], DSSPUBKEY_VER3, _PUBKEYVER3, _crypto2_dhpubkey_ver3, security.dhpubkey_ver3, wincrypt/DHPUBKEY_VER3
 ms.topic: struct
-f1_keywords: ["wincrypt/DHPUBKEY_VER3"]
+f1_keywords: 
+ - "wincrypt/DHPUBKEY_VER3"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

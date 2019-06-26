@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
 ms.topic: interface
-f1_keywords: ["photoacquire/IPhotoProgressDialog"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

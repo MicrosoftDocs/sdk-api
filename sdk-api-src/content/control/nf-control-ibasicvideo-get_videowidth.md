@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoWidth method, IBasicVideo.get_VideoWidth, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.get_VideoWidth"]
+f1_keywords: 
+ - "control/IBasicVideo.get_VideoWidth"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

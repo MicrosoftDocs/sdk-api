@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_SetPos, ScrollBar_SetPos macro [Windows Controls], _win32_ScrollBar_SetPos, _win32_ScrollBar_SetPos_cpp, controls.ScrollBar_SetPos, controls._win32_ScrollBar_SetPos, windowsx/ScrollBar_SetPos
 ms.topic: macro
-f1_keywords: ["windowsx/ScrollBar_SetPos"]
+f1_keywords: 
+ - "windowsx/ScrollBar_SetPos"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

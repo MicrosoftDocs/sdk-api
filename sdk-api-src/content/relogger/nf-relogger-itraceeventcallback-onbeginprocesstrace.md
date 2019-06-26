@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnBeginProcessTrace method, ITraceEventCallback.OnBeginProcessTrace, ITraceEventCallback::OnBeginProcessTrace, OnBeginProcessTrace, OnBeginProcessTrace method [ETW], OnBeginProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onbeginprocesstrace, relogger/ITraceEventCallback::OnBeginProcessTrace
 ms.topic: method
-f1_keywords: ["relogger/ITraceEventCallback.OnBeginProcessTrace"]
+f1_keywords: 
+ - "relogger/ITraceEventCallback.OnBeginProcessTrace"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

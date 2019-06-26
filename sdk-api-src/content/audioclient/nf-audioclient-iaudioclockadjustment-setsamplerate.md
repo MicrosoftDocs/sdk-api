@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, IAudioClockAdjustment.SetSampleRate, IAudioClockAdjustment::SetSampleRate, SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio],IAudioClockAdjustment interface, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClockAdjustment.SetSampleRate"]
+f1_keywords: 
+ - "audioclient/IAudioClockAdjustment.SetSampleRate"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

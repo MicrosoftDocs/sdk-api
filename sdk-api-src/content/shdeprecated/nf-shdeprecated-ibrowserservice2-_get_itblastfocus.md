@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_get_itbLastFocus method, IBrowserService2._get_itbLastFocus, IBrowserService2::_get_itbLastFocus, _get_itbLastFocus, _get_itbLastFocus method [Windows Shell], _get_itbLastFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_get_itbLastFocus, shell.IBrowserService2__get_itbLastFocus, zone_IBrowserService2__get_itbLastFocus
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._get_itbLastFocus"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._get_itbLastFocus"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_Clone, MI_OperationOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Clone, wmi_v2.mi_operationoptions_clone
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_Clone"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_Clone"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

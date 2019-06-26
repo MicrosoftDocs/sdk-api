@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9e0ba97c-c960-4e26-a89c-ea1a4e91e907, GetStreamZOrder, GetStreamZOrder method [Media Foundation], GetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamZOrder method, IMFVideoMixerControl.GetStreamZOrder, IMFVideoMixerControl::GetStreamZOrder, evr/IMFVideoMixerControl::GetStreamZOrder, mf.imfvideomixercontrol_getstreamzorder
 ms.topic: method
-f1_keywords: ["evr/IMFVideoMixerControl.GetStreamZOrder"]
+f1_keywords: 
+ - "evr/IMFVideoMixerControl.GetStreamZOrder"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

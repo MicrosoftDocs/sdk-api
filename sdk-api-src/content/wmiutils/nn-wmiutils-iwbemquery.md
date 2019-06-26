@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
 ms.topic: interface
-f1_keywords: ["wmiutils/IWbemQuery"]
+f1_keywords: 
+ - "wmiutils/IWbemQuery"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

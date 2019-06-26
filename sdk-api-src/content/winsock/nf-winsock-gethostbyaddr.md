@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.topic: function
-f1_keywords: ["winsock/gethostbyaddr"]
+f1_keywords: 
+ - "winsock/gethostbyaddr"
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

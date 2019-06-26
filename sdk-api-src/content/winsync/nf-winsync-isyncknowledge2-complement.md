@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Complement, Complement method [Windows Sync], Complement method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],Complement method, ISyncKnowledge2.Complement, ISyncKnowledge2::Complement, winsync.isyncknowledge2_complement, winsync/ISyncKnowledge2::Complement
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.Complement"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.Complement"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Reset method, IEnumSingleItemExceptions.Reset, IEnumSingleItemExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_reset, winsync/IEnumSingleItemExceptions::Reset
 ms.topic: method
-f1_keywords: ["winsync/IEnumSingleItemExceptions.Reset"]
+f1_keywords: 
+ - "winsync/IEnumSingleItemExceptions.Reset"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

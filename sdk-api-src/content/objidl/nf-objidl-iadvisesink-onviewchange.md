@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnViewChange method, IAdviseSink.OnViewChange, IAdviseSink::OnViewChange, OnViewChange, OnViewChange method [COM], OnViewChange method [COM],IAdviseSink interface, _ole_iadvisesink_onviewchange, com.iadvisesink_onviewchange, objidl/IAdviseSink::OnViewChange
 ms.topic: method
-f1_keywords: ["objidl/IAdviseSink.OnViewChange"]
+f1_keywords: 
+ - "objidl/IAdviseSink.OnViewChange"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

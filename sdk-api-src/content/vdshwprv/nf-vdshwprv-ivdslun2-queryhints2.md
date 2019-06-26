@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLun2::QueryHints2, QueryHints2, QueryHints2 method, QueryHints2 method,IVdsLun2 interface, base.ivdslun2_queryhints2, vds/IVdsLun2::QueryHints2, vdshwprv/IVdsLun2::QueryHints2
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLun2.QueryHints2"]
+f1_keywords: 
+ - "vdshwprv/IVdsLun2.QueryHints2"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

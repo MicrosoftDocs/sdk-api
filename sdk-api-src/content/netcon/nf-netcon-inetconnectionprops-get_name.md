@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Name method, INetConnectionProps.get_Name, INetConnectionProps::get_Name, _ics_inetconnectionprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_name, netcon/INetConnectionProps::get_Name
 ms.topic: method
-f1_keywords: ["netcon/INetConnectionProps.get_Name"]
+f1_keywords: 
+ - "netcon/INetConnectionProps.get_Name"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

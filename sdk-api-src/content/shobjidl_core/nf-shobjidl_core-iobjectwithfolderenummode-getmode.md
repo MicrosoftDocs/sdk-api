@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
 ms.topic: method
-f1_keywords: ["shobjidl_core/IObjectWithFolderEnumMode.GetMode"]
+f1_keywords: 
+ - "shobjidl_core/IObjectWithFolderEnumMode.GetMode"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

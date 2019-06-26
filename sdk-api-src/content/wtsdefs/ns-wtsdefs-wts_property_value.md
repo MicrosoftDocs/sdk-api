@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services], PWTS_PROPERTY_VALUE, PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services], VALUE_TYPE_BINARY, VALUE_TYPE_GUID, VALUE_TYPE_STRING, VALUE_TYPE_ULONG, WRDS_PROPERTY_VALUE, WRDS_PROPERTY_VALUE structure [Remote Desktop Services], WTS_PROPERTY_VALUE, WTS_PROPERTY_VALUE structure [Remote Desktop Services], termserv.wts_property_value, wtsdefs/PWRDS_PROPERTY_VALUE, wtsdefs/PWTS_PROPERTY_VALUE, wtsdefs/WRDS_PROPERTY_VALUE, wtsdefs/WTS_PROPERTY_VALUE"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WTS_PROPERTY_VALUE"]
+f1_keywords: 
+ - "wtsdefs/WTS_PROPERTY_VALUE"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

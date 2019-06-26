@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY1, IPSEC_TRANSPORT_POLICY1 structure [Filtering], fwp.ipsec_transport_policy1_struct, ipsectypes/IPSEC_TRANSPORT_POLICY1
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_TRANSPORT_POLICY1"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_TRANSPORT_POLICY1"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

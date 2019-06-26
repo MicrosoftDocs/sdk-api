@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpCompleteAuthToken, SpCompleteAuthToken callback function [Security], SpCompleteAuthTokenFn, SpCompleteAuthTokenFn callback, _ssp_spcompleteauthtoken, ntsecpkg/SpCompleteAuthToken, security.spcompleteauthtoken
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpCompleteAuthToken"]
+f1_keywords: 
+ - "ntsecpkg/SpCompleteAuthToken"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget methods [Direct2D], ID2D1Factory.CreateDxgiSurfaceRenderTarget, ID2D1Factory::CreateDxgiSurfaceRenderTarget, d2d1/CreateDxgiSurfaceRenderTarget, direct2d.id2d1factory_createdxgisurfacerendertarget
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget"]
+f1_keywords: 
+ - "d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

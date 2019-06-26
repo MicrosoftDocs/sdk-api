@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBandwidthSharing, GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharing method, IWMProfile3.GetBandwidthSharing, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfile3.GetBandwidthSharing"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfile3.GetBandwidthSharing"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

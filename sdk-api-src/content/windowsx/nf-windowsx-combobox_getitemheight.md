@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetItemHeight, ComboBox_GetItemHeight macro [Windows Controls], _win32_ComboBox_GetItemHeight, _win32_ComboBox_GetItemHeight_cpp, controls.ComboBox_GetItemHeight, controls._win32_ComboBox_GetItemHeight, windowsx/ComboBox_GetItemHeight
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_GetItemHeight"]
+f1_keywords: 
+ - "windowsx/ComboBox_GetItemHeight"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

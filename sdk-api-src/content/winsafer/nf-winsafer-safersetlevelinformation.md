@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferSetLevelInformation, SaferSetLevelInformation function [Security], security.safersetlevelinformation, winsafer/SaferSetLevelInformation
 ms.topic: function
-f1_keywords: ["winsafer/SaferSetLevelInformation"]
+f1_keywords: 
+ - "winsafer/SaferSetLevelInformation"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

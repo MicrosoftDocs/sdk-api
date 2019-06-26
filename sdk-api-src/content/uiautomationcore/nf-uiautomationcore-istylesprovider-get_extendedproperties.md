@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperties property [Windows Accessibility], ExtendedProperties property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],ExtendedProperties property, IStylesProvider.ExtendedProperties, IStylesProvider.get_ExtendedProperties, IStylesProvider::ExtendedProperties, IStylesProvider::get_ExtendedProperties, get_ExtendedProperties, uiautomationcore/IStylesProvider::ExtendedProperties, uiautomationcore/IStylesProvider::get_ExtendedProperties, winauto.uiauto_IStylesProvider_ExtendedProperties
 ms.topic: method
-f1_keywords: ["uiautomationcore/IStylesProvider.ExtendedProperties"]
+f1_keywords: 
+ - "uiautomationcore/IStylesProvider.ExtendedProperties"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

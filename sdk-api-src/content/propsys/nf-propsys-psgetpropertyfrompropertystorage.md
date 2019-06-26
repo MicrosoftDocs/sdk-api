@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyFromPropertyStorage, PSGetPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetPropertyFromPropertyStorage, properties.PSGetPropertyFromPropertyStorage, propsys/PSGetPropertyFromPropertyStorage, shell.PSGetPropertyFromPropertyStorage
 ms.topic: function
-f1_keywords: ["propsys/PSGetPropertyFromPropertyStorage"]
+f1_keywords: 
+ - "propsys/PSGetPropertyFromPropertyStorage"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Media Foundation], GetFontStyle method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontStyle method, IMFTimedTextStyle.GetFontStyle, IMFTimedTextStyle::GetFontStyle, mf.imftimedtextstyle_getfontstyle, mfmediaengine/IMFTimedTextStyle::GetFontStyle
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetFontStyle"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetFontStyle"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

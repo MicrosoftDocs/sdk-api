@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_AE_END, TS_AE_NONE, TS_AE_START, TsActiveSelEnd, TsActiveSelEnd enumeration [Text Services Framework], _tsf_tsactiveselend_ref, textstor/TS_AE_END, textstor/TS_AE_NONE, textstor/TS_AE_START, textstor/TsActiveSelEnd, tsf.tsactiveselend
 ms.topic: enum
-f1_keywords: ["textstor/TsActiveSelEnd"]
+f1_keywords: 
+ - "textstor/TsActiveSelEnd"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

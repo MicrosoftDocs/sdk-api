@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUniquenessValue, GetUniquenessValue method [DirectDraw], GetUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetUniquenessValue method, IDirectDrawSurface7.GetUniquenessValue, IDirectDrawSurface7::GetUniquenessValue, ddraw/IDirectDrawSurface7::GetUniquenessValue, directdraw.idirectdrawsurface7_getuniquenessvalue
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.GetUniquenessValue"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.GetUniquenessValue"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

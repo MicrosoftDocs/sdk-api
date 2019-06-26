@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_SESSION0, FWPM_SESSION0 structure [Filtering], FWPM_SESSION_FLAG_DYNAMIC, FWPM_SESSION_FLAG_RESERVED, fwp.fwpm_session0_struct, fwpmtypes/FWPM_SESSION0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_SESSION0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_SESSION0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

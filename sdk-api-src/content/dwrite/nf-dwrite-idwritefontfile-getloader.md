@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLoader, GetLoader method [Direct Write], GetLoader method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetLoader method, IDWriteFontFile.GetLoader, IDWriteFontFile::GetLoader, directwrite.IDWriteFontFile_GetLoader, dwrite/IDWriteFontFile::GetLoader
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFile.GetLoader"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFile.GetLoader"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

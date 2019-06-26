@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyUp method, ITfKeystrokeMgr.KeyUp, ITfKeystrokeMgr::KeyUp, KeyUp, KeyUp method [Text Services Framework], KeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keyup_ref, msctf/ITfKeystrokeMgr::KeyUp, tsf.itfkeystrokemgr_keyup
 ms.topic: method
-f1_keywords: ["msctf/ITfKeystrokeMgr.KeyUp"]
+f1_keywords: 
+ - "msctf/ITfKeystrokeMgr.KeyUp"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

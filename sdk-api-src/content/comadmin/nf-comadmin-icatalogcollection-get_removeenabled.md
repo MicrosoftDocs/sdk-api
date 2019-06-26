@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalogCollection.RemoveEnabled, ICatalogCollection.get_RemoveEnabled, ICatalogCollection::RemoveEnabled, ICatalogCollection::get_RemoveEnabled, RemoveEnabled property [COM+], RemoveEnabled property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_RemoveEnabled, comadmin/ICatalogCollection::RemoveEnabled, comadmin/ICatalogCollection::get_RemoveEnabled, cos.icatalogcollection_removeenabled, get_RemoveEnabled
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogCollection.RemoveEnabled"]
+f1_keywords: 
+ - "comadmin/ICatalogCollection.RemoveEnabled"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

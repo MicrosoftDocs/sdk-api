@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage2, IWMDMStorage2 interface [windows Media Device Manager], IWMDMStorage2 interface [windows Media Device Manager],described, IWMDMStorage2Interface, mswmdm/IWMDMStorage2, wmdm.iwmdmstorage2
 ms.topic: interface
-f1_keywords: ["mswmdm/IWMDMStorage2"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

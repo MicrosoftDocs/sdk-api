@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
 ms.topic: method
-f1_keywords: ["vds/IVdsDrive2.GetProperties2"]
+f1_keywords: 
+ - "vds/IVdsDrive2.GetProperties2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

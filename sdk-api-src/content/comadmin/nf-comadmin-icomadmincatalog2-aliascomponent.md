@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AliasComponent method, ICOMAdminCatalog2.AliasComponent, ICOMAdminCatalog2::AliasComponent, _cos_icomadmincatalog2_AliasComponent, comadmin/ICOMAdminCatalog2::AliasComponent, cos.icomadmincatalog2_aliascomponent
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.AliasComponent"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.AliasComponent"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

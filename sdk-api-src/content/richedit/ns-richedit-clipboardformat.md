@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], controls.clipboardformat, richedit/CLIPBOARDFORMAT
 ms.topic: struct
-f1_keywords: ["richedit/CLIPBOARDFORMAT"]
+f1_keywords: 
+ - "richedit/CLIPBOARDFORMAT"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

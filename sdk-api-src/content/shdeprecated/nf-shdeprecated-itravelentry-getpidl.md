@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],ITravelEntry interface, ITravelEntry interface [Windows Shell],GetPidl method, ITravelEntry.GetPidl, ITravelEntry::GetPidl, shdeprecated/ITravelEntry::GetPidl, shell.ITravelEntry_GetPidl, zone_ITravelEntry_GetPidl
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelEntry.GetPidl"]
+f1_keywords: 
+ - "shdeprecated/ITravelEntry.GetPidl"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

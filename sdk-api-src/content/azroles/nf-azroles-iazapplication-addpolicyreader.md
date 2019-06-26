@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzApplication object, AddPolicyReader method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReader method, IAzApplication interface [Security],AddPolicyReader method, IAzApplication.AddPolicyReader, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.AddPolicyReader"]
+f1_keywords: 
+ - "azroles/IAzApplication.AddPolicyReader"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

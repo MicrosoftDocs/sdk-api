@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APOInitBaseStruct, APOInitBaseStruct structure [Audio Devices], PAPOInitBaseStruct, PAPOInitBaseStruct structure pointer [Audio Devices], audio.apoinitbasestruct, audioenginebaseapo/APOInitBaseStruct, audioenginebaseapo/PAPOInitBaseStruct
 ms.topic: struct
-f1_keywords: ["audioenginebaseapo/APOInitBaseStruct"]
+f1_keywords: 
+ - "audioenginebaseapo/APOInitBaseStruct"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

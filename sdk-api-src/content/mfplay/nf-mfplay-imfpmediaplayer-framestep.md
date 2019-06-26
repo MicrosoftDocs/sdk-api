@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.FrameStep"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.FrameStep"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

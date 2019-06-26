@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_MULTI_SZ_VALUE, PRESUTIL_SET_MULTI_SZ_VALUE function [Failover Cluster], ResUtilSetMultiSzValue, ResUtilSetMultiSzValue function [Failover Cluster], _wolf_resutilsetmultiszvalue, mscs.resutilsetmultiszvalue, resapi/PRESUTIL_SET_MULTI_SZ_VALUE, resapi/ResUtilSetMultiSzValue
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetMultiSzValue"]
+f1_keywords: 
+ - "resapi/ResUtilSetMultiSzValue"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

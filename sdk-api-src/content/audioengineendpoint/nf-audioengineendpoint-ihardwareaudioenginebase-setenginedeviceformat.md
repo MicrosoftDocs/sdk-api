@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetEngineDeviceFormat method, IHardwareAudioEngineBase.SetEngineDeviceFormat, IHardwareAudioEngineBase::SetEngineDeviceFormat, SetEngineDeviceFormat, SetEngineDeviceFormat method [Core Audio], SetEngineDeviceFormat method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat, coreaudio.ihardwareaudioenginebase_setenginedeviceformat
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IHardwareAudioEngineBase.SetEngineDeviceFormat"]
+f1_keywords: 
+ - "audioengineendpoint/IHardwareAudioEngineBase.SetEngineDeviceFormat"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

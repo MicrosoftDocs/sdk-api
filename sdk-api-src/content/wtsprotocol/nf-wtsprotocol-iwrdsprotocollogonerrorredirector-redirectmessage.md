@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWRdsProtocolLogonErrorRedirector.RedirectMessage, IWRdsProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolLogonErrorRedirector.RedirectMessage"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolLogonErrorRedirector.RedirectMessage"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

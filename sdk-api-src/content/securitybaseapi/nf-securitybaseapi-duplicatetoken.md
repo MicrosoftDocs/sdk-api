@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DuplicateToken, DuplicateToken function [Security], _win32_duplicatetoken, security.duplicatetoken, securitybaseapi/DuplicateToken
 ms.topic: function
-f1_keywords: ["securitybaseapi/DuplicateToken"]
+f1_keywords: 
+ - "securitybaseapi/DuplicateToken"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToVariantTime, SystemTimeToVariantTime function [Automation], _oa96_SystemTimeToVariantTime, automat.systemtimetovarianttime, oleauto/SystemTimeToVariantTime
 ms.topic: function
-f1_keywords: ["oleauto/SystemTimeToVariantTime"]
+f1_keywords: 
+ - "oleauto/SystemTimeToVariantTime"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

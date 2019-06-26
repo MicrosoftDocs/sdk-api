@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientSettings.RetrieveSettings"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClientSettings.RetrieveSettings"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

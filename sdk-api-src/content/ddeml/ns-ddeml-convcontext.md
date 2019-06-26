@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, winui._win32_convcontext_str"
 ms.topic: struct
-f1_keywords: ["ddeml/CONVCONTEXT"]
+f1_keywords: 
+ - "ddeml/CONVCONTEXT"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

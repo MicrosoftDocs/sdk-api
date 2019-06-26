@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetUserInfo, DRMGetUserInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserInfo, rm.drmgetuserinfo
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetUserInfo"]
+f1_keywords: 
+ - "msdrm/DRMGetUserInfo"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

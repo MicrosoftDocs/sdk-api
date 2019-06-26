@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICJpegLuminanceProperties, WICJpegLuminanceProperties enumeration [Windows Imaging Component], WICJpegLuminanceTable, _wic_codec_wicjpegluminanceproperties, wic._wic_codec_wicjpegluminanceproperties, wincodec/WICJpegLuminanceProperties, wincodec/WICJpegLuminanceTable
 ms.topic: enum
-f1_keywords: ["wincodec/WICJpegLuminanceProperties"]
+f1_keywords: 
+ - "wincodec/WICJpegLuminanceProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

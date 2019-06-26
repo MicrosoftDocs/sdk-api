@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Present method, IDirect3DDevice9.Present, IDirect3DDevice9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::Present, dec6b9d2-0577-093b-3855-599ed58adc87, direct3d9.idirect3ddevice9__present
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.Present"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.Present"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

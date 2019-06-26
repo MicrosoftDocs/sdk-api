@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_BufferUnderrunFreeDisabled method, IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled, IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled method [IMAPI], get_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_bufferunderrunfreedisabled, imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

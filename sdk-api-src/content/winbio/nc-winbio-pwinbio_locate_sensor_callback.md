@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_LOCATE_SENSOR_CALLBACK, PWINBIO_LOCATE_SENSOR_CALLBACK callback, PWINBIO_LOCATE_SENSOR_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_locate_sensor_callback, winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
 ms.topic: callback
-f1_keywords: ["winbio/PWINBIO_LOCATE_SENSOR_CALLBACK"]
+f1_keywords: 
+ - "winbio/PWINBIO_LOCATE_SENSOR_CALLBACK"
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

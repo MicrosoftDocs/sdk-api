@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 ms.topic: macro
-f1_keywords: ["winnt/MAKELCID"]
+f1_keywords: 
+ - "winnt/MAKELCID"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

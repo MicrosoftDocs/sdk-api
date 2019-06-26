@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
 ms.topic: function
-f1_keywords: ["iphlpapi/SetIpStatisticsEx"]
+f1_keywords: 
+ - "iphlpapi/SetIpStatisticsEx"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

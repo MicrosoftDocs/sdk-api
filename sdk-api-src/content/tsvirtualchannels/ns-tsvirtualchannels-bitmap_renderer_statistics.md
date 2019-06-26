@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS structure [Remote Desktop Services], PBITMAP_RENDERER_STATISTICS, PBITMAP_RENDERER_STATISTICS structure pointer [Remote Desktop Services], termserv.bitmap_renderer_statistics, tsvirtualchannels/BITMAP_RENDERER_STATISTICS, tsvirtualchannels/PBITMAP_RENDERER_STATISTICS"
 ms.topic: struct
-f1_keywords: ["tsvirtualchannels/BITMAP_RENDERER_STATISTICS"]
+f1_keywords: 
+ - "tsvirtualchannels/BITMAP_RENDERER_STATISTICS"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

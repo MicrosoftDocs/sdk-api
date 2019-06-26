@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnhancedContrast, GetEnhancedContrast method [Direct Write], GetEnhancedContrast method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetEnhancedContrast method, IDWriteRenderingParams.GetEnhancedContrast, IDWriteRenderingParams::GetEnhancedContrast, directwrite.IDWriteRenderingParams_GetEnhancedContrast, dwrite/IDWriteRenderingParams::GetEnhancedContrast
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteRenderingParams.GetEnhancedContrast"]
+f1_keywords: 
+ - "dwrite/IDWriteRenderingParams.GetEnhancedContrast"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

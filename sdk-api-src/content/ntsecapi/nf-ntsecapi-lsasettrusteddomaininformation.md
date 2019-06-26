@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaSetTrustedDomainInformation"]
+f1_keywords: 
+ - "ntsecapi/LsaSetTrustedDomainInformation"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

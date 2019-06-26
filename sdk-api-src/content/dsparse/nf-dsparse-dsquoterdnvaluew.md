@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
 ms.topic: function
-f1_keywords: ["dsparse/DsQuoteRdnValue"]
+f1_keywords: 
+ - "dsparse/DsQuoteRdnValue"
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

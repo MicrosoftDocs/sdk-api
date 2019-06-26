@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveConflict method, IOfflineFilesSyncConflictHandler.ResolveConflict, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files],IOfflineFilesSyncConflictHandler interface, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncConflictHandler.ResolveConflict"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncConflictHandler.ResolveConflict"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

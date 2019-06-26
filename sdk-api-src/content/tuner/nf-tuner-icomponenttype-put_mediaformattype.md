@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaFormatType method, IComponentType.put_MediaFormatType, IComponentType::put_MediaFormatType, IComponentTypeput_MediaFormatType, mstv.icomponenttype_put_mediaformattype, put_MediaFormatType, put_MediaFormatType method [Microsoft TV Technologies], put_MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaFormatType
 ms.topic: method
-f1_keywords: ["tuner/IComponentType.put_MediaFormatType"]
+f1_keywords: 
+ - "tuner/IComponentType.put_MediaFormatType"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Shutdown method, ITTAPI.Shutdown, ITTAPI::Shutdown, Shutdown, Shutdown method [TAPI 2.2], Shutdown method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_shutdown, tapi3.ittapi_shutdown, tapi3if/ITTAPI::Shutdown
 ms.topic: method
-f1_keywords: ["tapi3if/ITTAPI.Shutdown"]
+f1_keywords: 
+ - "tapi3if/ITTAPI.Shutdown"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

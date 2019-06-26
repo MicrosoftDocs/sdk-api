@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArraySetIID, SafeArraySetIID function [Automation], _oa96_SafeArraySetIID, automat.safearraysetiid, oleauto/SafeArraySetIID
 ms.topic: function
-f1_keywords: ["oleauto/SafeArraySetIID"]
+f1_keywords: 
+ - "oleauto/SafeArraySetIID"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateForProtocol, ActivateForProtocol method [Windows Shell], ActivateForProtocol method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForProtocol method, IApplicationActivationManager.ActivateForProtocol, IApplicationActivationManager::ActivateForProtocol, shell.IApplicationActivationManager_ActivateForProtocol, shobjidl_core/IApplicationActivationManager::ActivateForProtocol
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationActivationManager.ActivateForProtocol"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationActivationManager.ActivateForProtocol"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

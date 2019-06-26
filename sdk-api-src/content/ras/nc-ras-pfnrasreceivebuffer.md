@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNRASRECEIVEBUFFER, PFNRASRECEIVEBUFFER callback, RasReceiveBuffer, RasReceiveBuffer callback function [RAS], _ras_rasreceivebuffer, ras/RasReceiveBuffer, rras.rasreceivebuffer
 ms.topic: callback
-f1_keywords: ["ras/RasReceiveBuffer"]
+f1_keywords: 
+ - "ras/RasReceiveBuffer"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

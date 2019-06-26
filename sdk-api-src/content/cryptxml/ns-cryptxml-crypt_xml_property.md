@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY structure [Security], PCRYPT_XML_PROPERTY, PCRYPT_XML_PROPERTY structure pointer [Security], cryptxml/CRYPT_XML_PROPERTY, cryptxml/PCRYPT_XML_PROPERTY, security.crypt_xml_property"
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_PROPERTY"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_PROPERTY"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

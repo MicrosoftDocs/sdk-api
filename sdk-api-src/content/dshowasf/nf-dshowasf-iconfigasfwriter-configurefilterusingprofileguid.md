@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfileGuid, ConfigureFilterUsingProfileGuid method [DirectShow], ConfigureFilterUsingProfileGuid method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileGuid method, IConfigAsfWriter.ConfigureFilterUsingProfileGuid, IConfigAsfWriter::ConfigureFilterUsingProfileGuid, IConfigAsfWriterConfigureFilterUsingProfileGuid, dshow.iconfigasfwriter_configurefilterusingprofileguid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid
 ms.topic: method
-f1_keywords: ["dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfileGuid"]
+f1_keywords: 
+ - "dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfileGuid"
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

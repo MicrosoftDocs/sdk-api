@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress interface,SetTransportAddress method, IWSDTransportAddress.SetTransportAddress, IWSDTransportAddress::SetTransportAddress, SetTransportAddress, SetTransportAddress method, SetTransportAddress method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_settransportaddress, wsdbase/IWSDTransportAddress::SetTransportAddress
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDTransportAddress.SetTransportAddress"]
+f1_keywords: 
+ - "wsdbase/IWSDTransportAddress.SetTransportAddress"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

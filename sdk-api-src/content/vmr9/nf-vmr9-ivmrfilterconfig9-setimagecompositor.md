@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetImageCompositor method, IVMRFilterConfig9.SetImageCompositor, IVMRFilterConfig9::SetImageCompositor, IVMRFilterConfig9SetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setimagecompositor, vmr9/IVMRFilterConfig9::SetImageCompositor
 ms.topic: method
-f1_keywords: ["vmr9/IVMRFilterConfig9.SetImageCompositor"]
+f1_keywords: 
+ - "vmr9/IVMRFilterConfig9.SetImageCompositor"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

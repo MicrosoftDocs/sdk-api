@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability, IDataObjectAsyncCapability interface [Windows Shell], IDataObjectAsyncCapability interface [Windows Shell],described, shell.IDataObjectAsyncCapability, shldisp/IDataObjectAsyncCapability
 ms.topic: interface
-f1_keywords: ["shldisp/IDataObjectAsyncCapability"]
+f1_keywords: 
+ - "shldisp/IDataObjectAsyncCapability"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

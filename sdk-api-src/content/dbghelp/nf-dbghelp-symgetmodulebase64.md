@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetModuleBase64"]
+f1_keywords: 
+ - "dbghelp/SymGetModuleBase64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

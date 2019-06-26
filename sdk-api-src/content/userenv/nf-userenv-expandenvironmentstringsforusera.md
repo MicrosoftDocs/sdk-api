@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
 ms.topic: function
-f1_keywords: ["userenv/ExpandEnvironmentStringsForUser"]
+f1_keywords: 
+ - "userenv/ExpandEnvironmentStringsForUser"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

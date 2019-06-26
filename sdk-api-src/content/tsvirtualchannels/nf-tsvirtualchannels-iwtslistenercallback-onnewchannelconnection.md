@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChannelConnection method, IWTSListenerCallback.OnNewChannelConnection, IWTSListenerCallback::OnNewChannelConnection, OnNewChannelConnection, OnNewChannelConnection method [Remote Desktop Services], OnNewChannelConnection method [Remote Desktop Services],IWTSListenerCallback interface, termserv.iwtslistenercallback_onnewchannelconnection, tsvirtualchannels/IWTSListenerCallback::OnNewChannelConnection
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSListenerCallback.OnNewChannelConnection"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSListenerCallback.OnNewChannelConnection"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

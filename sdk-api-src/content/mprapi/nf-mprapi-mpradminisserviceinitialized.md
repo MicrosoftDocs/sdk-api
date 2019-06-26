@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, MprAdminIsServiceInitialized, MprAdminIsServiceInitialized function [RAS], TRUE, mprapi/MprAdminIsServiceInitialized, rras.mpradminisserviceinitialized
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminIsServiceInitialized"]
+f1_keywords: 
+ - "mprapi/MprAdminIsServiceInitialized"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndOpenDialog, MCIWndOpenDialog macro [Windows Multimedia], _win32_MCIWndOpenDialog, multimedia.mciwndopendialog, vfw/MCIWndOpenDialog
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndOpenDialog"]
+f1_keywords: 
+ - "vfw/MCIWndOpenDialog"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

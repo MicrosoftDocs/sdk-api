@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HorizontalViewSize property [Windows Accessibility], HorizontalViewSize property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalViewSize property, IScrollProvider.HorizontalViewSize, IScrollProvider.get_HorizontalViewSize, IScrollProvider::HorizontalViewSize, IScrollProvider::get_HorizontalViewSize, get_HorizontalViewSize, uiauto.uiauto_IScrollProvider_HorizontalViewSize, uiauto_IScrollProvider_HorizontalViewSize, uiautomationcore/IScrollProvider::HorizontalViewSize, uiautomationcore/IScrollProvider::get_HorizontalViewSize, winauto.uiauto_IScrollProvider_HorizontalViewSize
 ms.topic: method
-f1_keywords: ["uiautomationcore/IScrollProvider.HorizontalViewSize"]
+f1_keywords: 
+ - "uiautomationcore/IScrollProvider.HorizontalViewSize"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

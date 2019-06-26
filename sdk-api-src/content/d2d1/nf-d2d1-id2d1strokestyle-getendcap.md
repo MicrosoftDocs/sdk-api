@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndCap, GetEndCap method [Direct2D], GetEndCap method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetEndCap method, ID2D1StrokeStyle.GetEndCap, ID2D1StrokeStyle::GetEndCap, d2d1/ID2D1StrokeStyle::GetEndCap, direct2d.ID2D1StrokeStyle_GetEndCap
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1StrokeStyle.GetEndCap"]
+f1_keywords: 
+ - "d2d1/ID2D1StrokeStyle.GetEndCap"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper], PINTERFACE_HARDWARE_CROSSTIMESTAMP, PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper], iphlp.interface_hardware_crosstimestamp, iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP, iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"
 ms.topic: struct
-f1_keywords: ["iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP"]
+f1_keywords: 
+ - "iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

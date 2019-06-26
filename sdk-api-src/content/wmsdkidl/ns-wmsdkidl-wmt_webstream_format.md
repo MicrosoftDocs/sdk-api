@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_WEBSTREAM_FORMAT, WMT_WEBSTREAM_FORMAT structure [windows Media Format], wmformat.wmt_webstream_format, wmsdkidl/WMT_WEBSTREAM_FORMAT
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WMT_WEBSTREAM_FORMAT"]
+f1_keywords: 
+ - "wmsdkidl/WMT_WEBSTREAM_FORMAT"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

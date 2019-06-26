@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetActiveView method, ITextStoreACP.GetActiveView, ITextStoreACP::GetActiveView, _tsf_itextstoreacp_getactiveview_ref, textstor/ITextStoreACP::GetActiveView, tsf.itextstoreacp_getactiveview
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.GetActiveView"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.GetActiveView"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

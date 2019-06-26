@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyEnrollmentPolicyServer.GetRequestIdString"]
+f1_keywords: 
+ - "certenroll/ICertPropertyEnrollmentPolicyServer.GetRequestIdString"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

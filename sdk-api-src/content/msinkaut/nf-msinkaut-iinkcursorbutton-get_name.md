@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkCursorButton interface [Tablet PC],Name property, IInkCursorButton.Name, IInkCursorButton.get_Name, IInkCursorButton::Name, IInkCursorButton::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursorButton interface, get_Name, msinkaut/IInkCursorButton::Name, msinkaut/IInkCursorButton::get_Name, tablet.iinkcursorbutton_name
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCursorButton.Name"]
+f1_keywords: 
+ - "msinkaut/IInkCursorButton.Name"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

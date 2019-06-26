@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextRange method, ICoreFragment.NextRange, ICoreFragment::NextRange, NextRange, NextRange method [Windows Sync], NextRange method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextrange, winsync/ICoreFragment::NextRange
 ms.topic: method
-f1_keywords: ["winsync/ICoreFragment.NextRange"]
+f1_keywords: 
+ - "winsync/ICoreFragment.NextRange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation], PIO_DES, PIO_DES structure pointer [Device and Driver Installation], cfgmgr32/IO_DES, cfgmgr32/PIO_DES, cfgmgrst_027e9190-0074-48e2-89cd-aa86e8a08165.xml, devinst.io_des"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/IO_DES"]
+f1_keywords: 
+ - "cfgmgr32/IO_DES"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

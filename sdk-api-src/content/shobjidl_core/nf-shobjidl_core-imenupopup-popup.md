@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup interface [Windows Shell],Popup method, IMenuPopup.Popup, IMenuPopup::Popup, MPPF_ALIGN_LEFT, MPPF_ALIGN_RIGHT, MPPF_BOTTOM, MPPF_FINALSELECT, MPPF_FORCEZORDER, MPPF_INITIALSELECT, MPPF_KEYBOARD, MPPF_LEFT, MPPF_NOANIMATE, MPPF_POS_MASK, MPPF_REPOSITION, MPPF_RIGHT, MPPF_SETFOCUS, MPPF_TOP, Popup, Popup method [Windows Shell], Popup method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_Popup, shell.IMenuPopup_Popup, shobjidl_core/IMenuPopup::Popup
 ms.topic: method
-f1_keywords: ["shobjidl_core/IMenuPopup.Popup"]
+f1_keywords: 
+ - "shobjidl_core/IMenuPopup.Popup"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

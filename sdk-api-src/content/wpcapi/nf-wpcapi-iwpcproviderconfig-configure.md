@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
 ms.topic: method
-f1_keywords: ["wpcapi/IWPCProviderConfig.Configure"]
+f1_keywords: 
+ - "wpcapi/IWPCProviderConfig.Configure"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

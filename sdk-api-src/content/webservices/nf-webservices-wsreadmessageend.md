@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
 ms.topic: function
-f1_keywords: ["webservices/WsReadMessageEnd"]
+f1_keywords: 
+ - "webservices/WsReadMessageEnd"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

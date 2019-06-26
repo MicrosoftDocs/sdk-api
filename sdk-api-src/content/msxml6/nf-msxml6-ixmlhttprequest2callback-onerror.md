@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2Callback.OnError"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2Callback.OnError"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

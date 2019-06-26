@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnBalloon"]
+f1_keywords: 
+ - "ctffunc/ITfFnBalloon"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCACHE_DESCRIPTOR, CACHE_DESCRIPTOR, CACHE_DESCRIPTOR structure, PCACHE_DESCRIPTOR, PCACHE_DESCRIPTOR structure pointer, _CACHE_DESCRIPTOR, base.cache_descriptor, winnt/CACHE_DESCRIPTOR, winnt/PCACHE_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winnt/CACHE_DESCRIPTOR"]
+f1_keywords: 
+ - "winnt/CACHE_DESCRIPTOR"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

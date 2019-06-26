@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32_ListBox_GetCount, _win32_ListBox_GetCount_cpp, controls.ListBox_GetCount, controls._win32_ListBox_GetCount, windowsx/ListBox_GetCount
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_GetCount"]
+f1_keywords: 
+ - "windowsx/ListBox_GetCount"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

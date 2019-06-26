@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum, fs.netfileenum, lmshare/NetFileEnum, netmgmt.netfileenum
 ms.topic: function
-f1_keywords: ["lmshare/NetFileEnum"]
+f1_keywords: 
+ - "lmshare/NetFileEnum"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

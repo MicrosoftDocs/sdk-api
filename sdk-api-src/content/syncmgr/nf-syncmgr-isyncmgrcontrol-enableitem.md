@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrControl.EnableItem"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrControl.EnableItem"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

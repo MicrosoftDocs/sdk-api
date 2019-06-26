@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetStreamSelectorFlags method, IMFASFStreamSelector.SetStreamSelectorFlags, IMFASFStreamSelector::SetStreamSelectorFlags, SetStreamSelectorFlags, SetStreamSelectorFlags method [Media Foundation], SetStreamSelectorFlags method [Media Foundation],IMFASFStreamSelector interface, a2a0f318-0de2-49e0-b8f2-847ab1371752, mf.imfasfstreamselector_setstreamselectorflags, wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamSelector.SetStreamSelectorFlags"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamSelector.SetStreamSelectorFlags"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

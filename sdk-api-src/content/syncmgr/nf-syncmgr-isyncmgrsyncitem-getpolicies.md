@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetPolicies method, ISyncMgrSyncItem.GetPolicies, ISyncMgrSyncItem::GetPolicies, _shell_ISyncMgrSyncItem_GetPolicies, shell.ISyncMgrSyncItem_GetPolicies, syncmgr/ISyncMgrSyncItem::GetPolicies
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncItem.GetPolicies"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncItem.GetPolicies"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

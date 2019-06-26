@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryInteractiveUIInputFields, EapHostPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eaphostpeerqueryinteractiveuiinputfields, eaphostpeerconfigapis/EapHostPeerQueryInteractiveUIInputFields
 ms.topic: function
-f1_keywords: ["eaphostpeerconfigapis/EapHostPeerQueryInteractiveUIInputFields"]
+f1_keywords: 
+ - "eaphostpeerconfigapis/EapHostPeerQueryInteractiveUIInputFields"
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

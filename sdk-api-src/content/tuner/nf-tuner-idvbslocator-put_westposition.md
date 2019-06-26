@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_WestPosition method, IDVBSLocator.put_WestPosition, IDVBSLocator::put_WestPosition, IDVBSLocatorput_WestPosition, mstv.idvbslocator_put_westposition, put_WestPosition, put_WestPosition method [Microsoft TV Technologies], put_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_WestPosition
 ms.topic: method
-f1_keywords: ["tuner/IDVBSLocator.put_WestPosition"]
+f1_keywords: 
+ - "tuner/IDVBSLocator.put_WestPosition"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnableMulticast, GetEnableMulticast method [windows Media Format], GetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableMulticast method, IWMReaderNetworkConfig.GetEnableMulticast, IWMReaderNetworkConfig::GetEnableMulticast, IWMReaderNetworkConfigGetEnableMulticast, wmformat.iwmreadernetworkconfig_getenablemulticast, wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetEnableMulticast"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetEnableMulticast"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

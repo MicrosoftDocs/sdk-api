@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Res_Des_Data_Ex, CM_Get_Res_Des_Data_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Ex, cfgmgrfn_58308b51-6217-4e1e-80ac-b4d3b431cdfb.xml, devinst.cm_get_res_des_data_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Res_Des_Data_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Res_Des_Data_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

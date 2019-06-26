@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanAutomaticallyUpgradeService property [Windows Update Agent], CanAutomaticallyUpgradeService property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],CanAutomaticallyUpgradeService property, IUpdateSearcher.CanAutomaticallyUpgradeService, IUpdateSearcher.get_CanAutomaticallyUpgradeService, IUpdateSearcher::CanAutomaticallyUpgradeService, IUpdateSearcher::get_CanAutomaticallyUpgradeService, IUpdateSearcher::put_CanAutomaticallyUpgradeService, get_CanAutomaticallyUpgradeService, wua.iupdatesearchercanautomaticallyupgradeservice, wuapi/IUpdateSearcher::CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::get_CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::put_CanAutomaticallyUpgradeService
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSearcher.CanAutomaticallyUpgradeService"]
+f1_keywords: 
+ - "wuapi/IUpdateSearcher.CanAutomaticallyUpgradeService"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

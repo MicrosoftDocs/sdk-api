@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesResults, IAutomaticUpdatesResults interface [Windows Update Agent], IAutomaticUpdatesResults interface [Windows Update Agent],described, wua.iautomaticupdatesresults, wuapi/IAutomaticUpdatesResults
 ms.topic: interface
-f1_keywords: ["wuapi/IAutomaticUpdatesResults"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdatesResults"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

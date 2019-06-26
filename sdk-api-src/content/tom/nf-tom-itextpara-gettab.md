@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTab method, ITextPara.GetTab, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
 ms.topic: method
-f1_keywords: ["tom/ITextPara.GetTab"]
+f1_keywords: 
+ - "tom/ITextPara.GetTab"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

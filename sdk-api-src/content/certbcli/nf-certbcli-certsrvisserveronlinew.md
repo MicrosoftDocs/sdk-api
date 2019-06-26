@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvIsServerOnline"]
+f1_keywords: 
+ - "certbcli/CertSrvIsServerOnline"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

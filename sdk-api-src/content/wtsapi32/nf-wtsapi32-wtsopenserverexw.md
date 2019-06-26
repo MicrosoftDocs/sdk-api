@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSOpenServerEx, WTSOpenServerEx function [Remote Desktop Services], WTSOpenServerExA, WTSOpenServerExW, termserv.wtsopenserverex, wtsapi32/WTSOpenServerEx, wtsapi32/WTSOpenServerExA, wtsapi32/WTSOpenServerExW
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSOpenServerEx"]
+f1_keywords: 
+ - "wtsapi32/WTSOpenServerEx"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

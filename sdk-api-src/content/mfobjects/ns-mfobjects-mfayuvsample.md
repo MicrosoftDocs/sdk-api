@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample structure [Media Foundation], mf.mfayuvsample, mfobjects/MFAYUVSample
 ms.topic: struct
-f1_keywords: ["mfobjects/MFAYUVSample"]
+f1_keywords: 
+ - "mfobjects/MFAYUVSample"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

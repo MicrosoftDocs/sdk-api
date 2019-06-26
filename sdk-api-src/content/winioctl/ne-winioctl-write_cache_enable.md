@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_ENABLE, WRITE_CACHE_ENABLE enumeration [Files], WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, fs.write_cache_enable, winioctl/WRITE_CACHE_ENABLE, winioctl/WriteCacheDisabled, winioctl/WriteCacheEnableUnknown, winioctl/WriteCacheEnabled
 ms.topic: enum
-f1_keywords: ["winioctl/WRITE_CACHE_ENABLE"]
+f1_keywords: 
+ - "winioctl/WRITE_CACHE_ENABLE"
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

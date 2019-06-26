@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Suspend method, IBackgroundCopyJob.Suspend, IBackgroundCopyJob::Suspend, Suspend, Suspend method [BITS], Suspend method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_suspend, bits.ibackgroundcopyjob_suspend, bits/IBackgroundCopyJob::Suspend
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.Suspend"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.Suspend"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

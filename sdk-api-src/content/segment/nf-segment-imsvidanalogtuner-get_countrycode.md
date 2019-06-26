@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_CountryCode method, IMSVidAnalogTuner.get_CountryCode, IMSVidAnalogTuner::get_CountryCode, IMSVidAnalogTunerget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_countrycode, segment/IMSVidAnalogTuner::get_CountryCode
 ms.topic: method
-f1_keywords: ["segment/IMSVidAnalogTuner.get_CountryCode"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner.get_CountryCode"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

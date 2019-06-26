@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorIsNaN, XMVectorIsNaN, XMVectorIsNaN method [DirectX Math Support APIs], dxmath.xmvectorisnan
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorIsNaN"]
+f1_keywords: 
+ - "directxmath/XMVectorIsNaN"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

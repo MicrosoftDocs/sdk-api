@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamLength, AVIStreamLength function [Windows Multimedia], _win32_AVIStreamLength, multimedia.avistreamlength, vfw/AVIStreamLength
 ms.topic: function
-f1_keywords: ["vfw/AVIStreamLength"]
+f1_keywords: 
+ - "vfw/AVIStreamLength"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCOMMANDTREE, DBCOMMANDTREE structure [Indexing Service], _idxs_DBCOMMANDTREE, cmdtree/, indexsrv.dbcommandtree, tagDBCOMMANDTREE
 ms.topic: struct
-f1_keywords: ["cmdtree/DBCOMMANDTREE"]
+f1_keywords: 
+ - "cmdtree/DBCOMMANDTREE"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

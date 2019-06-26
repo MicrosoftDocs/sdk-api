@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFastMetadataEncoderFromDecoder, CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component], CreateFastMetadataEncoderFromDecoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFastMetadataEncoderFromDecoder method, IWICImagingFactory.CreateFastMetadataEncoderFromDecoder, IWICImagingFactory::CreateFastMetadataEncoderFromDecoder, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromdecoder, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromDecoder
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateFastMetadataEncoderFromDecoder"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateFastMetadataEncoderFromDecoder"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

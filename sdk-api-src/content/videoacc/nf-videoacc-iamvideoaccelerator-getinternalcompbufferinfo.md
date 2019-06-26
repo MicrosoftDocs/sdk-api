@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInternalCompBufferInfo, GetInternalCompBufferInfo method [DirectShow], GetInternalCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalCompBufferInfo method, IAMVideoAccelerator.GetInternalCompBufferInfo, IAMVideoAccelerator::GetInternalCompBufferInfo, IAMVideoAcceleratorGetInternalCompBufferInfo, dshow.iamvideoaccelerator_getinternalcompbufferinfo, videoacc/IAMVideoAccelerator::GetInternalCompBufferInfo
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAccelerator.GetInternalCompBufferInfo"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator.GetInternalCompBufferInfo"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

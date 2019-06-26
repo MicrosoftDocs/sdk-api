@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
 ms.topic: method
-f1_keywords: ["propsys/IPropertyDescription.GetDisplayName"]
+f1_keywords: 
+ - "propsys/IPropertyDescription.GetDisplayName"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

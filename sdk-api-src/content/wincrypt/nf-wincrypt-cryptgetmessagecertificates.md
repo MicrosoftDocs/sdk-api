@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetMessageCertificates, CryptGetMessageCertificates function [Security], _crypto2_cryptgetmessagecertificates, security.cryptgetmessagecertificates, wincrypt/CryptGetMessageCertificates
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGetMessageCertificates"]
+f1_keywords: 
+ - "wincrypt/CryptGetMessageCertificates"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

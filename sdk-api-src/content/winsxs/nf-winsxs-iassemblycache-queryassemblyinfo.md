@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInfo method, IAssemblyCache.QueryAssemblyInfo, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
 ms.topic: method
-f1_keywords: ["winsxs/IAssemblyCache.QueryAssemblyInfo"]
+f1_keywords: 
+ - "winsxs/IAssemblyCache.QueryAssemblyInfo"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

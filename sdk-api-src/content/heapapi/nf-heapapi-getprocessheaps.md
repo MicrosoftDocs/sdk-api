@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
 ms.topic: function
-f1_keywords: ["heapapi/GetProcessHeaps"]
+f1_keywords: 
+ - "heapapi/GetProcessHeaps"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

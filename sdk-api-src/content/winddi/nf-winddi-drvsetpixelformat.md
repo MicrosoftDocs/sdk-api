@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSetPixelFormat, DrvSetPixelFormat function [Display Devices], ddifncs_095cf66c-832a-49c2-9bf2-f97ef74665b2.xml, display.drvsetpixelformat, winddi/DrvSetPixelFormat
 ms.topic: function
-f1_keywords: ["winddi/DrvSetPixelFormat"]
+f1_keywords: 
+ - "winddi/DrvSetPixelFormat"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

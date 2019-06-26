@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusStartupInput, GdiplusStartupInput structure [GDI+], _gdiplus_STRUC_GdiplusStartupInput, gdiplus._gdiplus_STRUC_GdiplusStartupInput, gdiplusinit/GdiplusStartupInput
 ms.topic: struct
-f1_keywords: ["gdiplusinit/GdiplusStartupInput"]
+f1_keywords: 
+ - "gdiplusinit/GdiplusStartupInput"
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

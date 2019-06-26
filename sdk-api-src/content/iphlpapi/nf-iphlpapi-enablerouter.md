@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableRouter, EnableRouter function [IP Helper], _iphlp_enablerouter, iphlp.enablerouter, iphlpapi/EnableRouter
 ms.topic: function
-f1_keywords: ["iphlpapi/EnableRouter"]
+f1_keywords: 
+ - "iphlpapi/EnableRouter"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

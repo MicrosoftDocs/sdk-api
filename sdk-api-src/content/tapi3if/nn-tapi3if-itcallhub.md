@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAPI 2.2],described, _tapi3_itcallhub, tapi3.itcallhub, tapi3if/ITCallHub
 ms.topic: interface
-f1_keywords: ["tapi3if/ITCallHub"]
+f1_keywords: 
+ - "tapi3if/ITCallHub"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

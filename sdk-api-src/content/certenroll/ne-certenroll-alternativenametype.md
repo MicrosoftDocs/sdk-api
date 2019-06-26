@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlternativeNameType, AlternativeNameType enumeration [Security], XCN_CERT_ALT_NAME_DIRECTORY_NAME, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_GUID, XCN_CERT_ALT_NAME_IP_ADDRESS, XCN_CERT_ALT_NAME_OTHER_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_UNKNOWN, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/AlternativeNameType, certenroll/XCN_CERT_ALT_NAME_DIRECTORY_NAME, certenroll/XCN_CERT_ALT_NAME_DNS_NAME, certenroll/XCN_CERT_ALT_NAME_GUID, certenroll/XCN_CERT_ALT_NAME_IP_ADDRESS, certenroll/XCN_CERT_ALT_NAME_OTHER_NAME, certenroll/XCN_CERT_ALT_NAME_REGISTERED_ID, certenroll/XCN_CERT_ALT_NAME_RFC822_NAME, certenroll/XCN_CERT_ALT_NAME_UNKNOWN, certenroll/XCN_CERT_ALT_NAME_URL, certenroll/XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, security.alternativenametype_enum
 ms.topic: enum
-f1_keywords: ["certenroll/AlternativeNameType"]
+f1_keywords: 
+ - "certenroll/AlternativeNameType"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

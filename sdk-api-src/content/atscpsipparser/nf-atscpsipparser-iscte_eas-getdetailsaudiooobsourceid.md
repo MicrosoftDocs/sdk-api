@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsAudioOOBSourceID method, ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetDetailsAudioOOBSourceID"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetDetailsAudioOOBSourceID"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

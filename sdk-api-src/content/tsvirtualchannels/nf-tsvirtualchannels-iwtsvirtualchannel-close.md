@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSVirtualChannel interface, IWTSVirtualChannel interface [Remote Desktop Services],Close method, IWTSVirtualChannel.Close, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSVirtualChannel.Close"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSVirtualChannel.Close"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

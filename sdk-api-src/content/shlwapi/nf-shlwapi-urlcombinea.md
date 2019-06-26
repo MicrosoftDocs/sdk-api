@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCombine, UrlCombine function [Windows Shell], UrlCombineA, UrlCombineW, _win32_UrlCombine, shell.UrlCombine, shlwapi/UrlCombine, shlwapi/UrlCombineA, shlwapi/UrlCombineW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlCombine"]
+f1_keywords: 
+ - "shlwapi/UrlCombine"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

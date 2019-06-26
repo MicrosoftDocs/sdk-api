@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_MediaType method, IWriteSpeedDescriptor.get_MediaType, IWriteSpeedDescriptor::get_MediaType, get_MediaType, get_MediaType method [IMAPI], get_MediaType method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_mediatype, imapi2/IWriteSpeedDescriptor::get_MediaType
 ms.topic: method
-f1_keywords: ["imapi2/IWriteSpeedDescriptor.get_MediaType"]
+f1_keywords: 
+ - "imapi2/IWriteSpeedDescriptor.get_MediaType"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

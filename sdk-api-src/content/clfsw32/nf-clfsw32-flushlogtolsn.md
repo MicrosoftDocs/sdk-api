@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushLogToLsn, FlushLogToLsn function [Files], clfsw32/FlushLogToLsn, fs.flushlogtolsn
 ms.topic: function
-f1_keywords: ["clfsw32/FlushLogToLsn"]
+f1_keywords: 
+ - "clfsw32/FlushLogToLsn"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUsersToEncryptedFile, AddUsersToEncryptedFile function [Files], _win32_adduserstoencryptedfile, base.adduserstoencryptedfile, fs.adduserstoencryptedfile, winefs/AddUsersToEncryptedFile
 ms.topic: function
-f1_keywords: ["winefs/AddUsersToEncryptedFile"]
+f1_keywords: 
+ - "winefs/AddUsersToEncryptedFile"
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

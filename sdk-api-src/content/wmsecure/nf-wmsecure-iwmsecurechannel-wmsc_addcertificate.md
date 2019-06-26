@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddCertificate method, IWMSecureChannel.WMSC_AddCertificate, IWMSecureChannel::WMSC_AddCertificate, WMSC_AddCertificate, WMSC_AddCertificate method [windows Media Format], WMSC_AddCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addcertificate, wmsecure/IWMSecureChannel::WMSC_AddCertificate
 ms.topic: method
-f1_keywords: ["wmsecure/IWMSecureChannel.WMSC_AddCertificate"]
+f1_keywords: 
+ - "wmsecure/IWMSecureChannel.WMSC_AddCertificate"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

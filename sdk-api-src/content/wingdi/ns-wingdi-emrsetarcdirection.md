@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSETARCDIRECTION"]
+f1_keywords: 
+ - "wingdi/EMRSETARCDIRECTION"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

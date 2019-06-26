@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNET_IF_OPER_STATUS, NET_IF_OPER_STATUS, NET_IF_OPER_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_OPER_STATUS_DORMANT, NET_IF_OPER_STATUS_DOWN, NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, NET_IF_OPER_STATUS_NOT_PRESENT, NET_IF_OPER_STATUS_TESTING, NET_IF_OPER_STATUS_UNKNOWN, NET_IF_OPER_STATUS_UP, PNET_IF_OPER_STATUS, PNET_IF_OPER_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/NET_IF_OPER_STATUS, ifdef/NET_IF_OPER_STATUS_DORMANT, ifdef/NET_IF_OPER_STATUS_DOWN, ifdef/NET_IF_OPER_STATUS_LOWER_LAYER_DOWN, ifdef/NET_IF_OPER_STATUS_NOT_PRESENT, ifdef/NET_IF_OPER_STATUS_TESTING, ifdef/NET_IF_OPER_STATUS_UNKNOWN, ifdef/NET_IF_OPER_STATUS_UP, ifdef/PNET_IF_OPER_STATUS, net_if_enums_ref_c9b9e5f0-12cc-4499-8d9a-e40b088470b8.xml, netvista.net_if_oper_status"
 ms.topic: enum
-f1_keywords: ["ifdef/NET_IF_OPER_STATUS"]
+f1_keywords: 
+ - "ifdef/NET_IF_OPER_STATUS"
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

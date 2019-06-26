@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Finish method, IUIAnimationStoryboard2.Finish, IUIAnimationStoryboard2::Finish, uianimation.iuianimationstoryboard2_finish, uianimation/IUIAnimationStoryboard2::Finish
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard2.Finish"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard2.Finish"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

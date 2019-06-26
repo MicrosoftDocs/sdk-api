@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Orthogonal, XMVector4Orthogonal, XMVector4Orthogonal method [DirectX Math Support APIs], dxmath.xmvector4orthogonal
 ms.topic: function
-f1_keywords: ["directxmath/XMVector4Orthogonal"]
+f1_keywords: 
+ - "directxmath/XMVector4Orthogonal"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

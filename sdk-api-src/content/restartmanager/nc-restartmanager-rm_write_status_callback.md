@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_WRITE_STATUS_CALLBACK, RM_WRITE_STATUS_CALLBACK callback, RM_WRITE_STATUS_CALLBACK callback function [Restart Mgr], restartmanager/RM_WRITE_STATUS_CALLBACK, rstmgr.rm_write_status_callback
 ms.topic: callback
-f1_keywords: ["restartmanager/RM_WRITE_STATUS_CALLBACK"]
+f1_keywords: 
+ - "restartmanager/RM_WRITE_STATUS_CALLBACK"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

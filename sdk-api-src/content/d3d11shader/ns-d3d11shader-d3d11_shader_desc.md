@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 60a58f35-71f5-ec69-15ed-a355dd62d5f7, D3D11_SHADER_DESC, D3D11_SHADER_DESC structure [Direct3D 11], d3d11shader/D3D11_SHADER_DESC, direct3d11.d3d11_shader_desc
 ms.topic: struct
-f1_keywords: ["d3d11shader/D3D11_SHADER_DESC"]
+f1_keywords: 
+ - "d3d11shader/D3D11_SHADER_DESC"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

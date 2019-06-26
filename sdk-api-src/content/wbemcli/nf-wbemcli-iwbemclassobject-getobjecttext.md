@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectText, GetObjectText method [Windows Management Instrumentation], GetObjectText method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetObjectText method, IWbemClassObject.GetObjectText, IWbemClassObject::GetObjectText, _hmm_iwbemclassobject_getobjecttext, wbemcli/IWbemClassObject::GetObjectText, wmi.iwbemclassobject_getobjecttext
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.GetObjectText"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.GetObjectText"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

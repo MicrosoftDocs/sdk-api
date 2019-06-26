@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTransactionInformation, SetTransactionInformation function [Files], fs.settransactioninformation, ktmw32/SetTransactionInformation
 ms.topic: function
-f1_keywords: ["ktmw32/SetTransactionInformation"]
+f1_keywords: 
+ - "ktmw32/SetTransactionInformation"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

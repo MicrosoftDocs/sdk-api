@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFolderFromIDList, FindFolderFromIDList method [Windows Shell], FindFolderFromIDList method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromIDList method, IKnownFolderManager.FindFolderFromIDList, IKnownFolderManager::FindFolderFromIDList, _shell_IKnownFolderManager_FindFolderFromIDList, shell.IKnownFolderManager_FindFolderFromIDList, shobjidl_core/IKnownFolderManager::FindFolderFromIDList
 ms.topic: method
-f1_keywords: ["shobjidl_core/IKnownFolderManager.FindFolderFromIDList"]
+f1_keywords: 
+ - "shobjidl_core/IKnownFolderManager.FindFolderFromIDList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

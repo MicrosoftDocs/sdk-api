@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, ITSDT.RegisterForWhenCurrent, ITSDT::RegisterForWhenCurrent, ITSDTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::RegisterForWhenCurrent, mstv.itsdt_registerforwhencurrent
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/ITSDT.RegisterForWhenCurrent"]
+f1_keywords: 
+ - "mpeg2psiparser/ITSDT.RegisterForWhenCurrent"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation], devinst.setupdigetdeviceinterfacealias, di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml, setupapi/SetupDiGetDeviceInterfaceAlias
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetDeviceInterfaceAlias"]
+f1_keywords: 
+ - "setupapi/SetupDiGetDeviceInterfaceAlias"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCANCEL_ROUTINE, PCANCEL_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCANCEL_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/Cancel"]
+f1_keywords: 
+ - "resapi/Cancel"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

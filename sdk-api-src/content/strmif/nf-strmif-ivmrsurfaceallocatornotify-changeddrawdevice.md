@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeDDrawDevice, ChangeDDrawDevice method [DirectShow], ChangeDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],ChangeDDrawDevice method, IVMRSurfaceAllocatorNotify.ChangeDDrawDevice, IVMRSurfaceAllocatorNotify::ChangeDDrawDevice, IVMRSurfaceAllocatorNotifyChangeDDrawDevice, dshow.ivmrsurfaceallocatornotify_changeddrawdevice, strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify.ChangeDDrawDevice"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify.ChangeDDrawDevice"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

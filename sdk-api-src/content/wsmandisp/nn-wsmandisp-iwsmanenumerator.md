@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
 ms.topic: interface
-f1_keywords: ["wsmandisp/IWSManEnumerator"]
+f1_keywords: 
+ - "wsmandisp/IWSManEnumerator"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_SHUTDOWN_TYPE, RmForceShutdown, RmShutdownOnlyRegistered, _RM_SHUTDOWN_TYPE, _RM_SHUTDOWN_TYPE enumeration [Restart Mgr], restartmanager/RmForceShutdown, restartmanager/RmShutdownOnlyRegistered, restartmanager/_RM_SHUTDOWN_TYPE, rstmgr.rm_shutdown_type
 ms.topic: enum
-f1_keywords: ["restartmanager/RM_SHUTDOWN_TYPE"]
+f1_keywords: 
+ - "restartmanager/RM_SHUTDOWN_TYPE"
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

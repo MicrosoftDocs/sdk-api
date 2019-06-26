@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata
 ms.topic: method
-f1_keywords: ["chstring/CHString.GetData"]
+f1_keywords: 
+ - "chstring/CHString.GetData"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

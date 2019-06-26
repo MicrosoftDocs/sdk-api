@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
 ms.topic: ioctl
-f1_keywords: ["pwm/IOCTL_PWM_PIN_IS_STARTED"]
+f1_keywords: 
+ - "pwm/IOCTL_PWM_PIN_IS_STARTED"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

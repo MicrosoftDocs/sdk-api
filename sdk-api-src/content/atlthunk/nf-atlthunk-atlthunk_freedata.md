@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_FreeData, AtlThunk_FreeData function, atlthunk/AtlThunk_FreeData, base.atlthunk_freedata
 ms.topic: function
-f1_keywords: ["atlthunk/AtlThunk_FreeData"]
+f1_keywords: 
+ - "atlthunk/AtlThunk_FreeData"
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

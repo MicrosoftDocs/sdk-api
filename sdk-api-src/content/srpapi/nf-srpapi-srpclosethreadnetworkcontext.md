@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.srpclosethreadnetworkcontext, SrpCloseThreadNetworkContext, SrpCloseThreadNetworkContext function, srpapi/SrpCloseThreadNetworkContext
 ms.topic: function
-f1_keywords: ["srpapi/SrpCloseThreadNetworkContext"]
+f1_keywords: 
+ - "srpapi/SrpCloseThreadNetworkContext"
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

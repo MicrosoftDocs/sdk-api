@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CREATE_DATABASE_FN, PIBIO_STORAGE_CREATE_DATABASE_FN callback, StorageAdapterCreateDatabase, StorageAdapterCreateDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptercreatedatabase, winbio_adapter/StorageAdapterCreateDatabase
 ms.topic: callback
-f1_keywords: ["winbio_adapter/StorageAdapterCreateDatabase"]
+f1_keywords: 
+ - "winbio_adapter/StorageAdapterCreateDatabase"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

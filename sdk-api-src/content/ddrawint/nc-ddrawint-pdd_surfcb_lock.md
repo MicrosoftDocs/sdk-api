@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
 ms.topic: callback
-f1_keywords: ["ddrawint/DdLock"]
+f1_keywords: 
+ - "ddrawint/DdLock"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

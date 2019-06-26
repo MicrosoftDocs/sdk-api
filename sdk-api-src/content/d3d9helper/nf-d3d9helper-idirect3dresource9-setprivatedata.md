@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9 interface [Direct3D 9],SetPrivateData method, IDirect3DResource9.SetPrivateData, IDirect3DResource9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPrivateData, direct3d9.idirect3dresource9__setprivatedata
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DResource9.SetPrivateData"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DResource9.SetPrivateData"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

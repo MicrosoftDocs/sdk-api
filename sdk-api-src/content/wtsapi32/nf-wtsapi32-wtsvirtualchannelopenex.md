@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpenEx, WTSVirtualChannelOpenEx function [Remote Desktop Services], WTS_CHANNEL_OPTION_DYNAMIC_NO_COMPRESS, WTS_CHANNEL_OPTION_DYNAMIC_PRI_HIGH, WTS_CHANNEL_OPTION_DYNAMIC_PRI_LOW (default), WTS_CHANNEL_OPTION_DYNAMIC_PRI_MED, WTS_CHANNEL_OPTION_DYNAMIC_PRI_REAL, termserv.wtsvirtualchannelopenex, wtsapi32/WTSVirtualChannelOpenEx
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSVirtualChannelOpenEx"]
+f1_keywords: 
+ - "wtsapi32/WTSVirtualChannelOpenEx"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

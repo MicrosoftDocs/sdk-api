@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChange method, IChangeConflict.SetResolveActionForChange, IChangeConflict::SetResolveActionForChange, SetResolveActionForChange, SetResolveActionForChange method [Windows Sync], SetResolveActionForChange method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchange, winsync/IChangeConflict::SetResolveActionForChange
 ms.topic: method
-f1_keywords: ["winsync/IChangeConflict.SetResolveActionForChange"]
+f1_keywords: 
+ - "winsync/IChangeConflict.SetResolveActionForChange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

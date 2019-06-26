@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_linePickup, TSPI_linePickup function [TAPI 2.2], _tspi_tspi_linepickup, tspi.tspi_linepickup, tspi/TSPI_linePickup
 ms.topic: function
-f1_keywords: ["tspi/TSPI_linePickup"]
+f1_keywords: 
+ - "tspi/TSPI_linePickup"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

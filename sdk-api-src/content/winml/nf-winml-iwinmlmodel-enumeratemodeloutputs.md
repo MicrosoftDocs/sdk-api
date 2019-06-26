@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
 ms.topic: method
-f1_keywords: ["winml/IWinMLModel.EnumerateModelOutputs"]
+f1_keywords: 
+ - "winml/IWinMLModel.EnumerateModelOutputs"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

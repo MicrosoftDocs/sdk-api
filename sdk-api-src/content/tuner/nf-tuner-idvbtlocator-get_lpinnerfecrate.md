@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFECRate method, IDVBTLocator.get_LPInnerFECRate, IDVBTLocator::get_LPInnerFECRate, IDVBTLocatorget_LPInnerFECRate, get_LPInnerFECRate, get_LPInnerFECRate method [Microsoft TV Technologies], get_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfecrate, tuner/IDVBTLocator::get_LPInnerFECRate
 ms.topic: method
-f1_keywords: ["tuner/IDVBTLocator.get_LPInnerFECRate"]
+f1_keywords: 
+ - "tuner/IDVBTLocator.get_LPInnerFECRate"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationRestartSettings, GetApplicationRestartSettings function [Recovery], recovery.getapplicationrestartsettings, winbase/GetApplicationRestartSettings
 ms.topic: function
-f1_keywords: ["winbase/GetApplicationRestartSettings"]
+f1_keywords: 
+ - "winbase/GetApplicationRestartSettings"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

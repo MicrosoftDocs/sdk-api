@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11LibraryReflection interface, ID3D11LibraryReflection interface [Direct3D 11],GetDesc method, ID3D11LibraryReflection.GetDesc, ID3D11LibraryReflection::GetDesc, d3d11shader/ID3D11LibraryReflection::GetDesc, direct3d11.id3d11libraryreflection_getdesc
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11LibraryReflection.GetDesc"]
+f1_keywords: 
+ - "d3d11shader/ID3D11LibraryReflection.GetDesc"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

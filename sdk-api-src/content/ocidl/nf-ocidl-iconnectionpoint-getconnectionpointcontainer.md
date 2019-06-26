@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectionPointContainer, GetConnectionPointContainer method [COM], GetConnectionPointContainer method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionPointContainer method, IConnectionPoint.GetConnectionPointContainer, IConnectionPoint::GetConnectionPointContainer, _com_iconnectionpoint_getconnectionpointcontainer, com.iconnectionpoint_getconnectionpointcontainer, ocidl/IConnectionPoint::GetConnectionPointContainer
 ms.topic: method
-f1_keywords: ["ocidl/IConnectionPoint.GetConnectionPointContainer"]
+f1_keywords: 
+ - "ocidl/IConnectionPoint.GetConnectionPointContainer"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

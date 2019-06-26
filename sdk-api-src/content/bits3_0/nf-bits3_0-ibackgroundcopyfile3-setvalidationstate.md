@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IBackgroundCopyFile3.SetValidationState, IBackgroundCopyFile3::SetValidationState, SetValidationState, SetValidationState method [BITS], SetValidationState method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_setvalidationstate, bits3_0/IBackgroundCopyFile3::SetValidationState
 ms.topic: method
-f1_keywords: ["bits3_0/IBackgroundCopyFile3.SetValidationState"]
+f1_keywords: 
+ - "bits3_0/IBackgroundCopyFile3.SetValidationState"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

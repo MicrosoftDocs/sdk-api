@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],RawDataToBeSigned property, IX509CertificateRequestPkcs10.RawDataToBeSigned, IX509CertificateRequestPkcs10.get_RawDataToBeSigned, IX509CertificateRequestPkcs10::RawDataToBeSigned, IX509CertificateRequestPkcs10::get_RawDataToBeSigned, RawDataToBeSigned property [Security], RawDataToBeSigned property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::RawDataToBeSigned, certenroll/IX509CertificateRequestPkcs10::get_RawDataToBeSigned, get_RawDataToBeSigned, security.ix509certificaterequestpkcs10_rawdatatobesigned_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs10.RawDataToBeSigned"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs10.RawDataToBeSigned"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCode enumeration [Text Services Framework], _tsf_tflayoutcode_ref, msctf/TF_LC_CHANGE, msctf/TF_LC_CREATE, msctf/TF_LC_DESTROY, msctf/TfLayoutCode, tsf.tflayoutcode
 ms.topic: enum
-f1_keywords: ["msctf/TfLayoutCode"]
+f1_keywords: 
+ - "msctf/TfLayoutCode"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

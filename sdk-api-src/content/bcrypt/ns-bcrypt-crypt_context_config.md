@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config"
 ms.topic: struct
-f1_keywords: ["bcrypt/CRYPT_CONTEXT_CONFIG"]
+f1_keywords: 
+ - "bcrypt/CRYPT_CONTEXT_CONFIG"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

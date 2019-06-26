@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_baseURL method, IWMPSettings.get_baseURL, IWMPSettings::get_baseURL, IWMPSettingsget_baseURL, get_baseURL, get_baseURL method [Windows Media Player], get_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_baseurl, wmp/IWMPSettings::get_baseURL
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.get_baseURL"]
+f1_keywords: 
+ - "wmp/IWMPSettings.get_baseURL"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

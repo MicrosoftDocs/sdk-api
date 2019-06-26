@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProvider.Query"]
+f1_keywords: 
+ - "pla/ITraceDataProvider.Query"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

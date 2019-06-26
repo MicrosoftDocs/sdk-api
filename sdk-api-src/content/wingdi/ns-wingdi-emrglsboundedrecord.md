@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD, EMRGLSBOUNDEDRECORD structure [Windows GDI], PEMRGLSBOUNDEDRECORD, PEMRGLSBOUNDEDRECORD structure pointer [Windows GDI], _win32_EMRGLSBOUNDEDRECORD_str, gdi.emrglsboundedrecord, wingdi/EMRGLSBOUNDEDRECORD, wingdi/PEMRGLSBOUNDEDRECORD"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRGLSBOUNDEDRECORD"]
+f1_keywords: 
+ - "wingdi/EMRGLSBOUNDEDRECORD"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreACP.RequestAttrsAtPosition, ITextStoreACP::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestattrsatposition_ref, textstor/ITextStoreACP::RequestAttrsAtPosition, tsf.itextstoreacp_requestattrsatposition
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.RequestAttrsAtPosition"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.RequestAttrsAtPosition"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LOCALITY, DWRITE_LOCALITY enumeration [Direct Write], DWRITE_LOCALITY_LOCAL, DWRITE_LOCALITY_PARTIAL, DWRITE_LOCALITY_REMOTE, directwrite.dwrite_locality, dwrite_3/DWRITE_LOCALITY, dwrite_3/DWRITE_LOCALITY_LOCAL, dwrite_3/DWRITE_LOCALITY_PARTIAL, dwrite_3/DWRITE_LOCALITY_REMOTE
 ms.topic: enum
-f1_keywords: ["dwrite_3/DWRITE_LOCALITY"]
+f1_keywords: 
+ - "dwrite_3/DWRITE_LOCALITY"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

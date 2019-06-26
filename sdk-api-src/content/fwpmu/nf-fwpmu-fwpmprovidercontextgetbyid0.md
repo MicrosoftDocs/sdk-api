@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetById0, FwpmProviderContextGetById0 function [Filtering], fwp.fwpmprovidercontextgetbyid0_func, fwpmu/FwpmProviderContextGetById0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmProviderContextGetById0"]
+f1_keywords: 
+ - "fwpmu/FwpmProviderContextGetById0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

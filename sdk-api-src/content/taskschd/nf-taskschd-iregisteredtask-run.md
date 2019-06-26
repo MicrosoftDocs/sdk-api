@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.topic: method
-f1_keywords: ["taskschd/IRegisteredTask.Run"]
+f1_keywords: 
+ - "taskschd/IRegisteredTask.Run"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

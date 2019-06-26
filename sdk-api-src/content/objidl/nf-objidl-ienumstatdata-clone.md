@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumSTATDATA interface, IEnumSTATDATA interface [COM],Clone method, IEnumSTATDATA.Clone, IEnumSTATDATA::Clone, _ole_ienumstatdata_clone, com.ienumstatdata_clone, objidl/IEnumSTATDATA::Clone
 ms.topic: method
-f1_keywords: ["objidl/IEnumSTATDATA.Clone"]
+f1_keywords: 
+ - "objidl/IEnumSTATDATA.Clone"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

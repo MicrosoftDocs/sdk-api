@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
 ms.topic: method
-f1_keywords: ["exdisp/IShellWindows.OnCreated"]
+f1_keywords: 
+ - "exdisp/IShellWindows.OnCreated"
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

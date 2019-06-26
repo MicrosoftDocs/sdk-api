@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptEnumStorageProviders"]
+f1_keywords: 
+ - "ncrypt/NCryptEnumStorageProviders"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

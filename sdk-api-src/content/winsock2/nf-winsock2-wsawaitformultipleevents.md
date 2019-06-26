@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
 ms.topic: function
-f1_keywords: ["winsock2/WSAWaitForMultipleEvents"]
+f1_keywords: 
+ - "winsock2/WSAWaitForMultipleEvents"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDiskSpaceList function [Setup API], SetupAddInstallSectionToDiskSpaceListA, SetupAddInstallSectionToDiskSpaceListW, _setupapi_setupaddinstallsectiontodiskspacelist, setup.setupaddinstallsectiontodiskspacelist, setupapi/SetupAddInstallSectionToDiskSpaceList, setupapi/SetupAddInstallSectionToDiskSpaceListA, setupapi/SetupAddInstallSectionToDiskSpaceListW
 ms.topic: function
-f1_keywords: ["setupapi/SetupAddInstallSectionToDiskSpaceList"]
+f1_keywords: 
+ - "setupapi/SetupAddInstallSectionToDiskSpaceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],CreateStorage2 method, IMDSPStorage2.CreateStorage2, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage2.CreateStorage2"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage2.CreateStorage2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

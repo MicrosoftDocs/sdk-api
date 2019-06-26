@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetrics method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineMetrics method, IDWriteTextLayout3.GetLineMetrics, IDWriteTextLayout3::GetLineMetrics, directwrite.idwritetextlayout3_getlinemetrics, dwrite_3/IDWriteTextLayout3::GetLineMetrics
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteTextLayout3.GetLineMetrics"]
+f1_keywords: 
+ - "dwrite_3/IDWriteTextLayout3.GetLineMetrics"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

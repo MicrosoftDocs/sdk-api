@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CFP_ALLOCPROC, CFP_ALLOCPROC callback, CFP_ALLOCPROC callback function [Windows GDI], _win32_CFP_ALLOCPROC, fontsub/CFP_ALLOCPROC, gdi.cfp_allocproc
 ms.topic: callback
-f1_keywords: ["fontsub/CFP_ALLOCPROC"]
+f1_keywords: 
+ - "fontsub/CFP_ALLOCPROC"
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

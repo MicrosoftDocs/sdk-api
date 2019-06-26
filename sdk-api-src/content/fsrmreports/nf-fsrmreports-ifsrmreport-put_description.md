@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.put_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, put_Description
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReport.Description"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReport.Description"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_encode_sort_control"]
+f1_keywords: 
+ - "winldap/ldap_encode_sort_control"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
 ms.topic: function
-f1_keywords: ["ws2tcpip/WSASetSocketSecurity"]
+f1_keywords: 
+ - "ws2tcpip/WSASetSocketSecurity"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetCallerTID"]
+f1_keywords: 
+ - "combaseapi/CoGetCallerTID"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentColumnHeaders, GetCurrentColumnHeaders method [Windows Accessibility], GetCurrentColumnHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentColumnHeaders method, IUIAutomationTablePattern.GetCurrentColumnHeaders, IUIAutomationTablePattern::GetCurrentColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTablePattern.GetCurrentColumnHeaders"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTablePattern.GetCurrentColumnHeaders"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

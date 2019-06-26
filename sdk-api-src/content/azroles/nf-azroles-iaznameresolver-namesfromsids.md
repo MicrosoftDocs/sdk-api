@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver interface [Security],NamesFromSids method, IAzNameResolver.NamesFromSids, IAzNameResolver::NamesFromSids, NamesFromSids, NamesFromSids method [Security], NamesFromSids method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NamesFromSids, security.iaznameresolver_namesfromsids_method
 ms.topic: method
-f1_keywords: ["azroles/IAzNameResolver.NamesFromSids"]
+f1_keywords: 
+ - "azroles/IAzNameResolver.NamesFromSids"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

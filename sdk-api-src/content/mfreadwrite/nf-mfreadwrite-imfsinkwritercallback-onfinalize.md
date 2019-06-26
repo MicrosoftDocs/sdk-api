@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnFinalize method, IMFSinkWriterCallback.OnFinalize, IMFSinkWriterCallback::OnFinalize, OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriterCallback.OnFinalize"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriterCallback.OnFinalize"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

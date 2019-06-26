@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,ProcessFault method, IWSDEndpointProxy.ProcessFault, IWSDEndpointProxy::ProcessFault, ProcessFault, ProcessFault method, ProcessFault method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_processfault, wsdclient/IWSDEndpointProxy::ProcessFault
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.ProcessFault"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.ProcessFault"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetSnapToGrid method, ITextPara2.SetSnapToGrid, ITextPara2::SetSnapToGrid, SetSnapToGrid, SetSnapToGrid method [Windows Controls], SetSnapToGrid method [Windows Controls],ITextPara2 interface, controls.itextpara2_setsnaptogrid, tom/ITextPara2::SetSnapToGrid
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.SetSnapToGrid"]
+f1_keywords: 
+ - "tom/ITextPara2.SetSnapToGrid"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindowList interface [RDP],_NewEnum property, IRDPSRAPIWindowList._NewEnum, IRDPSRAPIWindowList.get__NewEnum, IRDPSRAPIWindowList::_NewEnum, IRDPSRAPIWindowList::get__NewEnum, RDPSRAPIWindowList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIWindowList interface, _NewEnum property [RDP],RDPSRAPIWindowList object, get__NewEnum, rdp.irdpsrapiwindowlist__newenum, rdpencomapi/IRDPSRAPIWindowList::_NewEnum, rdpencomapi/IRDPSRAPIWindowList::get__NewEnum
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIWindowList._NewEnum"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIWindowList._NewEnum"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

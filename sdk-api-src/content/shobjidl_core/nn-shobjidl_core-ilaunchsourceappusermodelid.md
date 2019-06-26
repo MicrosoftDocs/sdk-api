@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ILaunchSourceAppUserModelId"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchSourceAppUserModelId"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanRotate property [Windows Accessibility], CanRotate property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanRotate property, ITransformProvider.CanRotate, ITransformProvider.get_CanRotate, ITransformProvider::CanRotate, ITransformProvider::get_CanRotate, get_CanRotate, uiauto.uiauto_ITransformProvider_CanRotate, uiauto_ITransformProvider_CanRotate, uiautomationcore/ITransformProvider::CanRotate, uiautomationcore/ITransformProvider::get_CanRotate, winauto.uiauto_ITransformProvider_CanRotate
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider.CanRotate"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider.CanRotate"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

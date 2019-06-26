@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], IWsbApplicationAsync interface [Windows Server Backup],described, wsb.iwsbapplicationasync, wsbapp/IWsbApplicationAsync
 ms.topic: interface
-f1_keywords: ["wsbapp/IWsbApplicationAsync"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationAsync"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

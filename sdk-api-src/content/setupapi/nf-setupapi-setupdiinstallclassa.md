@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallClass, SetupDiInstallClass function [Device and Driver Installation], SetupDiInstallClassA, SetupDiInstallClassW, devinst.setupdiinstallclass, di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml, setupapi/SetupDiInstallClass
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiInstallClass"]
+f1_keywords: 
+ - "setupapi/SetupDiInstallClass"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

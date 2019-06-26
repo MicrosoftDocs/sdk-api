@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetUnknown method, IMFAttributes.SetUnknown, IMFAttributes::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFAttributes interface, da0c3d59-07c4-4431-a137-8655ddbf6258, mf.imfattributes_setunknown, mfobjects/IMFAttributes::SetUnknown
 ms.topic: method
-f1_keywords: ["mfobjects/IMFAttributes.SetUnknown"]
+f1_keywords: 
+ - "mfobjects/IMFAttributes.SetUnknown"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

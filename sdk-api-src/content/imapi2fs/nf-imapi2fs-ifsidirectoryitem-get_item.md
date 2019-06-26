@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Item method, IFsiDirectoryItem.get_Item, IFsiDirectoryItem::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_item, imapi2fs/IFsiDirectoryItem::get_Item
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiDirectoryItem.get_Item"]
+f1_keywords: 
+ - "imapi2fs/IFsiDirectoryItem.get_Item"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

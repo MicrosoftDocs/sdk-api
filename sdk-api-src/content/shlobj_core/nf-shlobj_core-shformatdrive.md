@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFMT_ID_DEFAULT, SHFMT_OPT_FULL, SHFMT_OPT_SYSONLY, SHFormatDrive, SHFormatDrive function [Windows Shell], shell.SHFormatDrive, shell_SHFormatDrive, shlobj_core/SHFormatDrive
 ms.topic: function
-f1_keywords: ["shlobj_core/SHFormatDrive"]
+f1_keywords: 
+ - "shlobj_core/SHFormatDrive"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

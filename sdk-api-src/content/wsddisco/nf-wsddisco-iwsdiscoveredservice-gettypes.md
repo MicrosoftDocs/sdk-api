@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypes, GetTypes method, GetTypes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetTypes method, IWSDiscoveredService.GetTypes, IWSDiscoveredService::GetTypes, ncd.iwsdiscoveredservice_gettypes, wsddisco/IWSDiscoveredService::GetTypes
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveredService.GetTypes"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveredService.GetTypes"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

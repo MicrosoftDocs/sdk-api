@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNotify interface [COM],described, _ole_idropsourcenotify, com.idropsourcenotify, oleidl/IDropSourceNotify
 ms.topic: interface
-f1_keywords: ["oleidl/IDropSourceNotify"]
+f1_keywords: 
+ - "oleidl/IDropSourceNotify"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

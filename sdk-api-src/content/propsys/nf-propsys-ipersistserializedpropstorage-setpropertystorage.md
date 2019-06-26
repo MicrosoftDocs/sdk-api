@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage interface [Windows Shell],SetPropertyStorage method, IPersistSerializedPropStorage.SetPropertyStorage, IPersistSerializedPropStorage::SetPropertyStorage, SetPropertyStorage, SetPropertyStorage method [Windows Shell], SetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetPropertyStorage, propsys/IPersistSerializedPropStorage::SetPropertyStorage, shell.IPersistSerializedPropStorage_SetPropertyStorage
 ms.topic: method
-f1_keywords: ["propsys/IPersistSerializedPropStorage.SetPropertyStorage"]
+f1_keywords: 
+ - "propsys/IPersistSerializedPropStorage.SetPropertyStorage"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_CANCEL_COMMAND_CB, PRJ_CANCEL_COMMAND_CB callback, PRJ_CANCEL_COMMAND_CB callback function, ProjFS.prj_cancel_command_cb, projectedfslib/PRJ_CANCEL_COMMAND_CB
 ms.topic: callback
-f1_keywords: ["projectedfslib/PRJ_CANCEL_COMMAND_CB"]
+f1_keywords: 
+ - "projectedfslib/PRJ_CANCEL_COMMAND_CB"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamTransparent, GetStreamTransparent method [DirectShow], GetStreamTransparent method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetStreamTransparent method, IMixerPinConfig.GetStreamTransparent, IMixerPinConfig::GetStreamTransparent, IMixerPinConfigGetStreamTransparent, dshow.imixerpinconfig_getstreamtransparent, mpconfig/IMixerPinConfig::GetStreamTransparent
 ms.topic: method
-f1_keywords: ["mpconfig/IMixerPinConfig.GetStreamTransparent"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig.GetStreamTransparent"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

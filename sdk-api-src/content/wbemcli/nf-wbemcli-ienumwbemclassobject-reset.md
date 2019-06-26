@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
 ms.topic: method
-f1_keywords: ["wbemcli/IEnumWbemClassObject.Reset"]
+f1_keywords: 
+ - "wbemcli/IEnumWbemClassObject.Reset"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
 ms.topic: function
-f1_keywords: ["rpcdce/UuidToString"]
+f1_keywords: 
+ - "rpcdce/UuidToString"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProfileSection, GetProfileSection function, GetProfileSectionA, GetProfileSectionW, _win32_getprofilesection, base.getprofilesection, winbase/GetProfileSection, winbase/GetProfileSectionA, winbase/GetProfileSectionW
 ms.topic: function
-f1_keywords: ["winbase/GetProfileSection"]
+f1_keywords: 
+ - "winbase/GetProfileSection"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

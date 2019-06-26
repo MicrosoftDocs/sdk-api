@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary
 ms.topic: struct
-f1_keywords: ["comsvcs/ApplicationProcessSummary"]
+f1_keywords: 
+ - "comsvcs/ApplicationProcessSummary"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_LocalBypass method, ISearchManager.get_LocalBypass, ISearchManager::get_LocalBypass, _search_ISearchManager_get_LocalBypass, get_LocalBypass, get_LocalBypass method [search], get_LocalBypass method [search],ISearchManager interface, search._search_ISearchManager_get_LocalBypass, searchapi/ISearchManager::get_LocalBypass
 ms.topic: method
-f1_keywords: ["searchapi/ISearchManager.get_LocalBypass"]
+f1_keywords: 
+ - "searchapi/ISearchManager.get_LocalBypass"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

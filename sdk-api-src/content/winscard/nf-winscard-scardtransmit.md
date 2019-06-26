@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
 ms.topic: function
-f1_keywords: ["winscard/SCardTransmit"]
+f1_keywords: 
+ - "winscard/SCardTransmit"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethods method, IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethods"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethods"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

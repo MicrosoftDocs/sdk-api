@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeSample.GetActualDataLength"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample.GetActualDataLength"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

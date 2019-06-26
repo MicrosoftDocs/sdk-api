@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISKQUOTA_FILESTATE_INCOMPLETE, DISKQUOTA_FILESTATE_REBUILDING, DISKQUOTA_STATE_DISABLED, DISKQUOTA_STATE_ENFORCE, DISKQUOTA_STATE_TRACK, GetQuotaState, GetQuotaState method [Files], GetQuotaState method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetQuotaState method, IDiskQuotaControl.GetQuotaState, IDiskQuotaControl::GetQuotaState, _win32_idiskquotacontrol_getquotastate, base.idiskquotacontrol_getquotastate, dskquota/IDiskQuotaControl::GetQuotaState, fs.idiskquotacontrol_getquotastate
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaControl.GetQuotaState"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaControl.GetQuotaState"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

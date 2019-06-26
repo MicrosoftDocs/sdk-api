@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
 ms.topic: macro
-f1_keywords: ["rpc/RpcExcept"]
+f1_keywords: 
+ - "rpc/RpcExcept"
 req.header: rpc.h
 req.include-header: 
 req.target-type: Windows

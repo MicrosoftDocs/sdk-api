@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
 ms.topic: method
-f1_keywords: ["wcsplugin/IDeviceModelPlugIn.GetPrimarySamples"]
+f1_keywords: 
+ - "wcsplugin/IDeviceModelPlugIn.GetPrimarySamples"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

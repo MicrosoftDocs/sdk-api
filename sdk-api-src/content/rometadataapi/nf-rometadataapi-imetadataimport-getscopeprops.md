@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScopeProps, GetScopeProps method [Windows Runtime], GetScopeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetScopeProps method, IMetaDataImport.GetScopeProps, IMetaDataImport::GetScopeProps, rometadataapi/IMetaDataImport::GetScopeProps, winrt.imetadataimport_getscopeprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetScopeProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetScopeProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

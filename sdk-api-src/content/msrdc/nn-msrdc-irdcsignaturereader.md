@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differential Compression], IRdcSignatureReader interface [Remote Differential Compression],described, fs.irdcsignaturereader, msrdc/IRdcSignatureReader, rdc.irdcsignaturereader
 ms.topic: interface
-f1_keywords: ["msrdc/IRdcSignatureReader"]
+f1_keywords: 
+ - "msrdc/IRdcSignatureReader"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

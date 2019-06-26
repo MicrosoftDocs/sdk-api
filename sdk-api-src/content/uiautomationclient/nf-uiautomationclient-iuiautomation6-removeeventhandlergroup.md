@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveEventHandlerGroup method, IUIAutomation6.RemoveEventHandlerGroup, IUIAutomation6::RemoveEventHandlerGroup, RemoveEventHandlerGroup, RemoveEventHandlerGroup method [Windows Accessibility], RemoveEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup, winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation6.RemoveEventHandlerGroup"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation6.RemoveEventHandlerGroup"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

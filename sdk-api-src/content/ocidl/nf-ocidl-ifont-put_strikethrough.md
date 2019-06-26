@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Strikethrough method, IFont.put_Strikethrough, IFont::put_Strikethrough, _ctrl_ifont_put_strikethrough, com.ifont_put_strikethrough, ocidl/IFont::put_Strikethrough, put_Strikethrough, put_Strikethrough method [COM], put_Strikethrough method [COM],IFont interface
 ms.topic: method
-f1_keywords: ["ocidl/IFont.put_Strikethrough"]
+f1_keywords: 
+ - "ocidl/IFont.put_Strikethrough"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

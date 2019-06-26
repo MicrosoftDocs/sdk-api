@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndTransfer, EndTransfer method [Picture Acquisition], EndTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndTransfer method, IPhotoAcquireProgressCB.EndTransfer, IPhotoAcquireProgressCB::EndTransfer, IPhotoAcquireProgressCBEndTransfer, photoacquire/IPhotoAcquireProgressCB::EndTransfer, picacq.iphotoacquireprogresscb_endtransfer
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.EndTransfer"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.EndTransfer"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

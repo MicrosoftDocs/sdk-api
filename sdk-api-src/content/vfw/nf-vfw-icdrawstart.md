@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawStart, ICDrawStart macro [Windows Multimedia], _win32_ICDrawStart, multimedia.icdrawstart, vfw/ICDrawStart
 ms.topic: macro
-f1_keywords: ["vfw/ICDrawStart"]
+f1_keywords: 
+ - "vfw/ICDrawStart"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

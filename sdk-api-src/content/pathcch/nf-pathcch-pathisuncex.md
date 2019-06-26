@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsUNCEx, PathIsUNCEx function [Windows Shell], pathcch/PathIsUNCEx, shell.PathIsUNCEx
 ms.topic: function
-f1_keywords: ["pathcch/PathIsUNCEx"]
+f1_keywords: 
+ - "pathcch/PathIsUNCEx"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

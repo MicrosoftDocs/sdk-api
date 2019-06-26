@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager, ISharingConfigurationManager interface [Windows Shell], ISharingConfigurationManager interface [Windows Shell],described, _shell_ISharingConfigurationManager, shell.ISharingConfigurationManager, shobjidl_core/ISharingConfigurationManager
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ISharingConfigurationManager"]
+f1_keywords: 
+ - "shobjidl_core/ISharingConfigurationManager"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

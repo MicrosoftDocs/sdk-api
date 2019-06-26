@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], GetSymbolRate method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetSymbolRate method, IDvbCableDeliverySystemDescriptor.GetSymbolRate, IDvbCableDeliverySystemDescriptor::GetSymbolRate, IDvbCableDeliverySystemDescriptorGetSymbolRate, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetSymbolRate, mstv.idvbcabledeliverysystemdescriptor_getsymbolrate
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbCableDeliverySystemDescriptor.GetSymbolRate"]
+f1_keywords: 
+ - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetSymbolRate"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

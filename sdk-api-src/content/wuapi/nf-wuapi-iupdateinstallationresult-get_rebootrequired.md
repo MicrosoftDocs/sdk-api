@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],RebootRequired property, IUpdateInstallationResult.RebootRequired, IUpdateInstallationResult.get_RebootRequired, IUpdateInstallationResult::RebootRequired, IUpdateInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdateInstallationResult interface, get_RebootRequired, wua.iupdateinstallationresult_rebootrequired, wuapi/IUpdateInstallationResult::RebootRequired, wuapi/IUpdateInstallationResult::get_RebootRequired
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstallationResult.RebootRequired"]
+f1_keywords: 
+ - "wuapi/IUpdateInstallationResult.RebootRequired"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

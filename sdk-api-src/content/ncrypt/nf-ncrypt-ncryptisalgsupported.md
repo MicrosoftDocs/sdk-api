@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptIsAlgSupported"]
+f1_keywords: 
+ - "ncrypt/NCryptIsAlgSupported"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

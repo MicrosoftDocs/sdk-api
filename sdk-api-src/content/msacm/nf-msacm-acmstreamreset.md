@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset"
 ms.topic: function
-f1_keywords: ["msacm/acmStreamReset"]
+f1_keywords: 
+ - "msacm/acmStreamReset"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

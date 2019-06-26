@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
 ms.topic: callback
-f1_keywords: ["ddkmapi/NotifyCallback"]
+f1_keywords: 
+ - "ddkmapi/NotifyCallback"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Desktop

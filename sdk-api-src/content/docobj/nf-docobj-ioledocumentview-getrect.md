@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.GetRect"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.GetRect"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

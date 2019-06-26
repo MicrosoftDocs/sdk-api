@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
 ms.topic: interface
-f1_keywords: ["winsync/IRangeException"]
+f1_keywords: 
+ - "winsync/IRangeException"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

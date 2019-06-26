@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
 ms.topic: method
-f1_keywords: ["d2d1helper/Matrix3x2F.Skew"]
+f1_keywords: 
+ - "d2d1helper/Matrix3x2F.Skew"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

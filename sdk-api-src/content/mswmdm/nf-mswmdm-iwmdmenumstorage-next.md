@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Next method, IWMDMEnumStorage.Next, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMEnumStorage.Next"]
+f1_keywords: 
+ - "mswmdm/IWMDMEnumStorage.Next"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterNetworkGetEnumCount, ClusterNetworkGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusternetworkgetenumcount, clusapi/ClusterNetworkGetEnumCount, clusapi/PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, mscs.clusternetworkgetenumcount
 ms.topic: function
-f1_keywords: ["clusapi/ClusterNetworkGetEnumCount"]
+f1_keywords: 
+ - "clusapi/ClusterNetworkGetEnumCount"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

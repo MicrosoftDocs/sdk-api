@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINECALLLIST, LINECALLLIST, LINECALLLIST structure [TAPI 2.2], LPLINECALLLIST, LPLINECALLLIST structure pointer [TAPI 2.2], _tapi2_linecalllist_str, tapi/LINECALLLIST, tapi/LPLINECALLLIST, tapi2.linecalllist_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINECALLLIST"]
+f1_keywords: 
+ - "tapi/LINECALLLIST"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGIGetDebugInterface1, DXGIGetDebugInterface1 function [DXGI], direct3ddxgi.dxgigetdebuginterface1, dxgi1_3/DXGIGetDebugInterface1
 ms.topic: function
-f1_keywords: ["dxgi1_3/DXGIGetDebugInterface1"]
+f1_keywords: 
+ - "dxgi1_3/DXGIGetDebugInterface1"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

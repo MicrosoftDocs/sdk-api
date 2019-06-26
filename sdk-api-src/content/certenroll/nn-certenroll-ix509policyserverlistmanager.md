@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], IX509PolicyServerListManager interface [Security],described, certenroll/IX509PolicyServerListManager, security.ix509policyserverlistmanager
 ms.topic: interface
-f1_keywords: ["certenroll/IX509PolicyServerListManager"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerListManager"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

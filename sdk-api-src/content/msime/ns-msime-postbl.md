@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], intl.postbl, msime/POSTBL, msime/PPOSTBL
 ms.topic: struct
-f1_keywords: ["msime/POSTBL"]
+f1_keywords: 
+ - "msime/POSTBL"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTargetPropertySetObject, CreateTargetPropertySetObject method [Remote Desktop Services], CreateTargetPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetPropertySetObject method, ITsSbProvider.CreateTargetPropertySetObject, ITsSbProvider::CreateTargetPropertySetObject, sbtsv/ITsSbProvider::CreateTargetPropertySetObject, termserv.itssbprovider_createtargetpropertysetobject
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreateTargetPropertySetObject"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreateTargetPropertySetObject"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

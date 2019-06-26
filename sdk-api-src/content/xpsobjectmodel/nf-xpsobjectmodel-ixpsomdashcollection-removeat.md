@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDashCollection.RemoveAt, IXpsOMDashCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDashCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDashCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceServiceCapabilities.GetSupportedCommands, IPortableDeviceServiceCapabilities::GetSupportedCommands, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands, wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedCommands"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedCommands"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

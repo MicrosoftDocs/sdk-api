@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBand interface [Windows Shell],described, _shell_ITrayDeskBand, shell.ITrayDeskBand, shobjidl/ITrayDeskBand
 ms.topic: interface
-f1_keywords: ["shobjidl/ITrayDeskBand"]
+f1_keywords: 
+ - "shobjidl/ITrayDeskBand"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

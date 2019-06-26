@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsAdviseSink.OnNotify"]
+f1_keywords: 
+ - "vdshwprv/IVdsAdviseSink.OnNotify"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

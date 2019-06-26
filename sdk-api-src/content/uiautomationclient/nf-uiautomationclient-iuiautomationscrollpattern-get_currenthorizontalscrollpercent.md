@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentHorizontalScrollPercent property [Windows Accessibility], CurrentHorizontalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontalScrollPercent property, IUIAutomationScrollPattern.CurrentHorizontalScrollPercent, IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent, IUIAutomationScrollPattern::CurrentHorizontalScrollPercent, IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, get_CurrentHorizontalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontalScrollPercent"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontalScrollPercent"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

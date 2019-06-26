@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawGlyphRun method, IDWriteTextRenderer.DrawGlyphRun, IDWriteTextRenderer::DrawGlyphRun, directwrite.IDWriteTextRenderer_DrawGlyphRun, dwrite/IDWriteTextRenderer::DrawGlyphRun
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextRenderer.DrawGlyphRun"]
+f1_keywords: 
+ - "dwrite/IDWriteTextRenderer.DrawGlyphRun"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

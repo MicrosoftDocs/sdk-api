@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2 interface [Security],PolicyServer property, IX509Enrollment2.PolicyServer, IX509Enrollment2.get_PolicyServer, IX509Enrollment2::PolicyServer, IX509Enrollment2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::PolicyServer, certenroll/IX509Enrollment2::get_PolicyServer, get_PolicyServer, security.ix509enrollment2_policyserver
 ms.topic: method
-f1_keywords: ["certenroll/IX509Enrollment2.PolicyServer"]
+f1_keywords: 
+ - "certenroll/IX509Enrollment2.PolicyServer"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

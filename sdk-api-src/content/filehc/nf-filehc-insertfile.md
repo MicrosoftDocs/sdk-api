@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
 ms.topic: function
-f1_keywords: ["filehc/InsertFile"]
+f1_keywords: 
+ - "filehc/InsertFile"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

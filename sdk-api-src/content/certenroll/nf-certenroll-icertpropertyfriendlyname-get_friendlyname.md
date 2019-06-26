@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyFriendlyName interface, ICertPropertyFriendlyName interface [Security],FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName.get_FriendlyName, ICertPropertyFriendlyName::FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyFriendlyName.FriendlyName"]
+f1_keywords: 
+ - "certenroll/ICertPropertyFriendlyName.FriendlyName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

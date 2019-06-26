@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLogInfLine, SetupWriteTextLogInfLine function [Device and Driver Installation], devinst.setupwritetextloginfline, setupapi/SetupWriteTextLogInfLine, setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml
 ms.topic: function
-f1_keywords: ["setupapi/SetupWriteTextLogInfLine"]
+f1_keywords: 
+ - "setupapi/SetupWriteTextLogInfLine"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

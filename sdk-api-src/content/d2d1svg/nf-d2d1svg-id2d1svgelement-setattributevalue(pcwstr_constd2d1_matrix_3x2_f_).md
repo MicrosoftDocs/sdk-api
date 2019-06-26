@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],SetAttributeValue method, ID2D1SvgElement.SetAttributeValue, ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &), ID2D1SvgElement::SetAttributeValue, ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_MATRIX_3X2_F &), SetAttributeValue, SetAttributeValue method [Direct2D], SetAttributeValue method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_12
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.SetAttributeValue"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.SetAttributeValue"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

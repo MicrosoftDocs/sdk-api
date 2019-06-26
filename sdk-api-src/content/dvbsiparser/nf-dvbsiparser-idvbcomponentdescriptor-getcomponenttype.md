@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IDvbComponentDescriptor.GetComponentType, IDvbComponentDescriptor::GetComponentType, dvbsiparser/IDvbComponentDescriptor::GetComponentType, mstv.idvbcomponentdescriptor_getcomponenttype
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbComponentDescriptor.GetComponentType"]
+f1_keywords: 
+ - "dvbsiparser/IDvbComponentDescriptor.GetComponentType"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

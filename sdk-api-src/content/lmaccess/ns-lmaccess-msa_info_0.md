@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0"
 ms.topic: struct
-f1_keywords: ["lmaccess/MSA_INFO_0"]
+f1_keywords: 
+ - "lmaccess/MSA_INFO_0"
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

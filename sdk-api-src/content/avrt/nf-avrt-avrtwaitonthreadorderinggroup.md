@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
 ms.topic: function
-f1_keywords: ["avrt/AvRtWaitOnThreadOrderingGroup"]
+f1_keywords: 
+ - "avrt/AvRtWaitOnThreadOrderingGroup"
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

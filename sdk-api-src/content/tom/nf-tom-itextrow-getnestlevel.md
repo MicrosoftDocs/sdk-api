@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetNestLevel method, ITextRow.GetNestLevel, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetNestLevel"]
+f1_keywords: 
+ - "tom/ITextRow.GetNestLevel"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

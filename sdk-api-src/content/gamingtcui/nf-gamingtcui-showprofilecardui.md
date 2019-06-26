@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowProfileCardUI, ShowProfileCardUI function, gamingtcui/ShowProfileCardUI, tcui.showprofilecardui
 ms.topic: function
-f1_keywords: ["gamingtcui/ShowProfileCardUI"]
+f1_keywords: 
+ - "gamingtcui/ShowProfileCardUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

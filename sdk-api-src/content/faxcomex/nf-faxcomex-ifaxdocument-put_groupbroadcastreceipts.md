@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GroupBroadcastReceipts property [Fax Service], GroupBroadcastReceipts property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],GroupBroadcastReceipts property, IFaxDocument.GroupBroadcastReceipts, IFaxDocument.get_GroupBroadcastReceipts, IFaxDocument.put_GroupBroadcastReceipts, IFaxDocument::GroupBroadcastReceipts, IFaxDocument::get_GroupBroadcastReceipts, IFaxDocument::put_GroupBroadcastReceipts, _mfax_faxdocument.groupbroadcastreceipts, fax._mfax_faxdocument_cpp_mfax_faxdocument_groupbroadcastreceipts_cpp, fax._mfax_faxdocument_groupbroadcastreceipts, faxcomex/IFaxDocument::GroupBroadcastReceipts, faxcomex/IFaxDocument::get_GroupBroadcastReceipts, faxcomex/IFaxDocument::put_GroupBroadcastReceipts, put_GroupBroadcastReceipts
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.GroupBroadcastReceipts"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.GroupBroadcastReceipts"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

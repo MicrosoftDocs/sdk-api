@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSET_POWER, PSET_POWER callback, SetPower, SetPower callback function [RAS], _mpr_setpower, routprot/SetPower, rras.setpower
 ms.topic: callback
-f1_keywords: ["routprot/SetPower"]
+f1_keywords: 
+ - "routprot/SetPower"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

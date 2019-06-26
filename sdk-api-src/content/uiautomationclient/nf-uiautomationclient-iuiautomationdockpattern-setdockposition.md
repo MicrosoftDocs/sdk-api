@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDockPattern interface [Windows Accessibility],SetDockPosition method, IUIAutomationDockPattern.SetDockPosition, IUIAutomationDockPattern::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IUIAutomationDockPattern interface, uiauto.uiauto_IUIAutomationDockPattern_SetDockPosition, uiauto_IUIAutomationDockPattern_SetDockPosition, uiautomationclient/IUIAutomationDockPattern::SetDockPosition, winauto.uiauto_IUIAutomationDockPattern_SetDockPosition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDockPattern.SetDockPosition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDockPattern.SetDockPosition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

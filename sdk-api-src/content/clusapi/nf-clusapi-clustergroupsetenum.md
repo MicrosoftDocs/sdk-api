@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
 ms.topic: function
-f1_keywords: ["clusapi/ClusterGroupCollectionEnum"]
+f1_keywords: 
+ - "clusapi/ClusterGroupCollectionEnum"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

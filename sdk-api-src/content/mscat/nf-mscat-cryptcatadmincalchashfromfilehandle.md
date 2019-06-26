@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle, CryptCATAdminCalcHashFromFileHandle function [Security], mscat/CryptCATAdminCalcHashFromFileHandle, security.cryptcatadmincalchashfromfilehandle
 ms.topic: function
-f1_keywords: ["mscat/CryptCATAdminCalcHashFromFileHandle"]
+f1_keywords: 
+ - "mscat/CryptCATAdminCalcHashFromFileHandle"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

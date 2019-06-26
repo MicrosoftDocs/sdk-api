@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
 ms.topic: function
-f1_keywords: ["fontsub/MergeFontPackage"]
+f1_keywords: 
+ - "fontsub/MergeFontPackage"
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

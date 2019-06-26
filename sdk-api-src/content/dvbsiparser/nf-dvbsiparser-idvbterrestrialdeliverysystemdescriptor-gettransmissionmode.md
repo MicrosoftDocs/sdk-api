@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptorGetTransmissionMode, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.idvbterrestrialdeliverysystemdescriptor_gettransmissionmode
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode"]
+f1_keywords: 
+ - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

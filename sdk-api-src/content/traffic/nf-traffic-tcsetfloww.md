@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
 ms.topic: function
-f1_keywords: ["traffic/TcSetFlow"]
+f1_keywords: 
+ - "traffic/TcSetFlow"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

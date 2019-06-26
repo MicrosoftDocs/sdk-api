@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA, DD_GETVPORTOUTPUTFORMATDATA structure [Display Devices], ddrawint/DD_GETVPORTOUTPUTFORMATDATA, ddstrcts_c8b41b3c-cb15-46d2-aa72-f59301276ffe.xml, display.dd_getvportoutputformatdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_GETVPORTOUTPUTFORMATDATA"]
+f1_keywords: 
+ - "ddrawint/DD_GETVPORTOUTPUTFORMATDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetManifest method, IAppxPackageReader.GetManifest, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageReader.GetManifest"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageReader.GetManifest"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

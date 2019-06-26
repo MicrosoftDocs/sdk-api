@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfoItems, GetPackageInfoItems method [App packaging and management], GetPackageInfoItems method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageInfoItems method, IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems, IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

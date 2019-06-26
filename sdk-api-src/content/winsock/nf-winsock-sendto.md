@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto"
 ms.topic: function
-f1_keywords: ["winsock/sendto"]
+f1_keywords: 
+ - "winsock/sendto"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

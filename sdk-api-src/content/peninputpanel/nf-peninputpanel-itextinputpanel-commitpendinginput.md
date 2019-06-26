@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
 ms.topic: method
-f1_keywords: ["peninputpanel/ITextInputPanel.CommitPendingInput"]
+f1_keywords: 
+ - "peninputpanel/ITextInputPanel.CommitPendingInput"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

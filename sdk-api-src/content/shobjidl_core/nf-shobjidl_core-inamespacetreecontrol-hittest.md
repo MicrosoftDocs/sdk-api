@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HitTest, HitTest method [Windows Shell], HitTest method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],HitTest method, INameSpaceTreeControl.HitTest, INameSpaceTreeControl::HitTest, _shell_INameSpaceTreeControl_HitTest, shell.INameSpaceTreeControl_HitTest, shobjidl_core/INameSpaceTreeControl::HitTest
 ms.topic: method
-f1_keywords: ["shobjidl_core/INameSpaceTreeControl.HitTest"]
+f1_keywords: 
+ - "shobjidl_core/INameSpaceTreeControl.HitTest"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

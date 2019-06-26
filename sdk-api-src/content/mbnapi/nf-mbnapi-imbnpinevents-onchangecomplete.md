@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_DISABLED, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnChangeComplete method, IMbnPinEvents.OnChangeComplete, IMbnPinEvents::OnChangeComplete, OnChangeComplete, OnChangeComplete method [Microsoft Broadband Networks], OnChangeComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onchangecomplete, mbnapi/IMbnPinEvents::OnChangeComplete
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPinEvents.OnChangeComplete"]
+f1_keywords: 
+ - "mbnapi/IMbnPinEvents.OnChangeComplete"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

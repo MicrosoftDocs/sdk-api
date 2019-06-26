@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetcallqualityofservice, lineSetCallQualityOfService, lineSetCallQualityOfService function [TAPI 2.2], tapi/lineSetCallQualityOfService, tapi2.linesetcallqualityofservice"
 ms.topic: function
-f1_keywords: ["tapi/lineSetCallQualityOfService"]
+f1_keywords: 
+ - "tapi/lineSetCallQualityOfService"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

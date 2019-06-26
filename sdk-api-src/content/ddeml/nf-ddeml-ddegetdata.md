@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeGetData, DdeGetData function [Data Exchange], _win32_DdeGetData, _win32_ddegetdata_cpp, dataxchg.ddegetdata, ddeml/DdeGetData, winui._win32_ddegetdata
 ms.topic: function
-f1_keywords: ["ddeml/DdeGetData"]
+f1_keywords: 
+ - "ddeml/DdeGetData"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

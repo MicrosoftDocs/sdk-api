@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValue method, IWICMetadataWriter.SetValue, IWICMetadataWriter::SetValue, SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataWriter.SetValue"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataWriter.SetValue"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

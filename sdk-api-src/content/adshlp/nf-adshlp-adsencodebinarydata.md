@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
 ms.topic: function
-f1_keywords: ["adshlp/ADsEncodeBinaryData"]
+f1_keywords: 
+ - "adshlp/ADsEncodeBinaryData"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

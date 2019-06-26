@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFSourceBuffer.GetAppendWindowEnd"]
+f1_keywords: 
+ - "mfmediaengine/IMFSourceBuffer.GetAppendWindowEnd"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

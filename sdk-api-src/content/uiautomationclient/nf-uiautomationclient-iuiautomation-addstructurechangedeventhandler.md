@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomation.AddStructureChangedEventHandler, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.AddStructureChangedEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.AddStructureChangedEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

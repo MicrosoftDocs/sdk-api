@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
 ms.topic: function
-f1_keywords: ["winbase/DosDateTimeToFileTime"]
+f1_keywords: 
+ - "winbase/DosDateTimeToFileTime"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHCP], DhcpDatabaseFix, DhcpRegistryFix, LPDHCP_SCAN_FLAG, LPDHCP_SCAN_FLAG enumeration pointer [DHCP], dhcp.dhcp_scan_flag, dhcpsapi/DHCP_SCAN_FLAG, dhcpsapi/DhcpDatabaseFix, dhcpsapi/DhcpRegistryFix, dhcpsapi/LPDHCP_SCAN_FLAG"
 ms.topic: enum
-f1_keywords: ["dhcpsapi/DHCP_SCAN_FLAG"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_SCAN_FLAG"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferMediumItem, ITransferMediumItem interface [Windows Shell], ITransferMediumItem interface [Windows Shell],described, _shell_ITransferMediumItem, shell.ITransferMediumItem, shobjidl_core/ITransferMediumItem
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ITransferMediumItem"]
+f1_keywords: 
+ - "shobjidl_core/ITransferMediumItem"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

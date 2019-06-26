@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfTextEditSink, ITfTextEditSink interface [Text Services Framework], ITfTextEditSink interface [Text Services Framework],described, _tsf_itftexteditsink_ref, msctf/ITfTextEditSink, tsf.itftexteditsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfTextEditSink"]
+f1_keywords: 
+ - "msctf/ITfTextEditSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

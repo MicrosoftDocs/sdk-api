@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHostAdvanced, WSDCreateDeviceHostAdvanced function, ncd.wsdcreatedevicehostadvanced, wsdhost/WSDCreateDeviceHostAdvanced
 ms.topic: function
-f1_keywords: ["wsdhost/WSDCreateDeviceHostAdvanced"]
+f1_keywords: 
+ - "wsdhost/WSDCreateDeviceHostAdvanced"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

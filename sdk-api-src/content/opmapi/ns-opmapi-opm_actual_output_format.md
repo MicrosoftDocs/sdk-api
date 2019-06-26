@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_ACTUAL_OUTPUT_FORMAT"]
+f1_keywords: 
+ - "opmapi/OPM_ACTUAL_OUTPUT_FORMAT"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

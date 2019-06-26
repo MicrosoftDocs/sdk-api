@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntersectsWith, IntersectsWith method [GDI+], IntersectsWith method [GDI+],Rect class, Rect class [GDI+],IntersectsWith method, Rect.IntersectsWith, Rect::IntersectsWith, _gdiplus_CLASS_Rect_IntersectsWith_rect_, gdiplus._gdiplus_CLASS_Rect_IntersectsWith_rect_
 ms.topic: method
-f1_keywords: ["gdiplustypes/Rect.IntersectsWith"]
+f1_keywords: 
+ - "gdiplustypes/Rect.IntersectsWith"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

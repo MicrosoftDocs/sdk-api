@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnPreservedKey method, ITfKeyEventSink.OnPreservedKey, ITfKeyEventSink::OnPreservedKey, OnPreservedKey, OnPreservedKey method [Text Services Framework], OnPreservedKey method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onpreservedkey_ref, msctf/ITfKeyEventSink::OnPreservedKey, tsf.itfkeyeventsink_onpreservedkey
 ms.topic: method
-f1_keywords: ["msctf/ITfKeyEventSink.OnPreservedKey"]
+f1_keywords: 
+ - "msctf/ITfKeyEventSink.OnPreservedKey"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

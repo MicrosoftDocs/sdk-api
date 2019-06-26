@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSurfaceFactory.CreateSurface"]
+f1_keywords: 
+ - "dcomp/IDCompositionSurfaceFactory.CreateSurface"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

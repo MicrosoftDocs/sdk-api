@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],FinalRelease method, CMSPStream.FinalRelease, CMSPStream::FinalRelease, FinalRelease, FinalRelease method [TAPI 2.2], FinalRelease method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_finalrelease, mspstrm/CMSPStream::FinalRelease, tapi3.cmspstream_finalrelease
 ms.topic: method
-f1_keywords: ["mspstrm/CMSPStream.FinalRelease"]
+f1_keywords: 
+ - "mspstrm/CMSPStream.FinalRelease"
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

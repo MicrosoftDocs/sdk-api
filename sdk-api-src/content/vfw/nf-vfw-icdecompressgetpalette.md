@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDecompressGetPalette, ICDecompressGetPalette macro [Windows Multimedia], _win32_ICDecompressGetPalette, multimedia.icdecompressgetpalette, vfw/ICDecompressGetPalette
 ms.topic: macro
-f1_keywords: ["vfw/ICDecompressGetPalette"]
+f1_keywords: 
+ - "vfw/ICDecompressGetPalette"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

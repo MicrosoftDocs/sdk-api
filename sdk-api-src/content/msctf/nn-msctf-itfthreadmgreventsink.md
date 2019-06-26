@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], ITfThreadMgrEventSink interface [Text Services Framework],described, _tsf_itfthreadmgreventsink_ref, msctf/ITfThreadMgrEventSink, tsf.itfthreadmgreventsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfThreadMgrEventSink"]
+f1_keywords: 
+ - "msctf/ITfThreadMgrEventSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

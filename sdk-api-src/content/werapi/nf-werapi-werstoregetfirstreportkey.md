@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
 ms.topic: function
-f1_keywords: ["werapi/WerStoreGetFirstReportKey"]
+f1_keywords: 
+ - "werapi/WerStoreGetFirstReportKey"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

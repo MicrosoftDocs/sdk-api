@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1ComputeMaximumScaleFactor, D2D1ComputeMaximumScaleFactor function [Direct2D], d2d1_2/D2D1ComputeMaximumScaleFactor, direct2d.d2d1computemaximumscalefactor
 ms.topic: function
-f1_keywords: ["d2d1_2/D2D1ComputeMaximumScaleFactor"]
+f1_keywords: 
+ - "d2d1_2/D2D1ComputeMaximumScaleFactor"
 req.header: d2d1_2.h
 req.include-header: D2d1_1.h
 req.target-type: Windows

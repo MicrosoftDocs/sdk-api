@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 ms.topic: function
-f1_keywords: ["powersetting/PowerUnregisterFromEffectivePowerModeNotifications"]
+f1_keywords: 
+ - "powersetting/PowerUnregisterFromEffectivePowerModeNotifications"
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

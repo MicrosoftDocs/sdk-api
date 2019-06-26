@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_CALLBACK_INPUT"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_CALLBACK_INPUT"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

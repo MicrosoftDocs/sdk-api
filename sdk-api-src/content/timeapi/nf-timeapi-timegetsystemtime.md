@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
 ms.topic: function
-f1_keywords: ["timeapi/timeGetSystemTime"]
+f1_keywords: 
+ - "timeapi/timeGetSystemTime"
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

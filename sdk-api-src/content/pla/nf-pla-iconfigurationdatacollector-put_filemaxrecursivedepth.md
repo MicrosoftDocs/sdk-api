@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileMaxRecursiveDepth property [PLA], FileMaxRecursiveDepth property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxRecursiveDepth property, IConfigurationDataCollector.FileMaxRecursiveDepth, IConfigurationDataCollector.put_FileMaxRecursiveDepth, IConfigurationDataCollector::FileMaxRecursiveDepth, IConfigurationDataCollector::get_FileMaxRecursiveDepth, IConfigurationDataCollector::put_FileMaxRecursiveDepth, base.iconfigurationdatacollector_filemaxrecursivedepth, pla.iconfigurationdatacollector_filemaxrecursivedepth, pla/IConfigurationDataCollector::FileMaxRecursiveDepth, pla/IConfigurationDataCollector::get_FileMaxRecursiveDepth, pla/IConfigurationDataCollector::put_FileMaxRecursiveDepth, put_FileMaxRecursiveDepth
 ms.topic: method
-f1_keywords: ["pla/IConfigurationDataCollector.FileMaxRecursiveDepth"]
+f1_keywords: 
+ - "pla/IConfigurationDataCollector.FileMaxRecursiveDepth"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelMask, GetChannelMask method [Windows Imaging Component], GetChannelMask method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelMask method, IWICPixelFormatInfo.GetChannelMask, IWICPixelFormatInfo::GetChannelMask, _wic_codec_iwicpixelformatinfo_getchannelmask, wic._wic_codec_iwicpixelformatinfo_getchannelmask, wincodec/IWICPixelFormatInfo::GetChannelMask
 ms.topic: method
-f1_keywords: ["wincodec/IWICPixelFormatInfo.GetChannelMask"]
+f1_keywords: 
+ - "wincodec/IWICPixelFormatInfo.GetChannelMask"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

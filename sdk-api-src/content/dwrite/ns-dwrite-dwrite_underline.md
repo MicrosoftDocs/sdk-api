@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_UNDERLINE, DWRITE_UNDERLINE structure [Direct Write], directwrite.dwrite_underline, dwrite/DWRITE_UNDERLINE
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_UNDERLINE"]
+f1_keywords: 
+ - "dwrite/DWRITE_UNDERLINE"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

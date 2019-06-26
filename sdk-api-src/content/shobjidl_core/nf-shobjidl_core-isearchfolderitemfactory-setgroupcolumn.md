@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetGroupColumn method, ISearchFolderItemFactory.SetGroupColumn, ISearchFolderItemFactory::SetGroupColumn, SetGroupColumn, SetGroupColumn method [Windows Shell], SetGroupColumn method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetGroupColumn, shell.ISearchFolderItemFactory_SetGroupColumn, shobjidl_core/ISearchFolderItemFactory::SetGroupColumn
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISearchFolderItemFactory.SetGroupColumn"]
+f1_keywords: 
+ - "shobjidl_core/ISearchFolderItemFactory.SetGroupColumn"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

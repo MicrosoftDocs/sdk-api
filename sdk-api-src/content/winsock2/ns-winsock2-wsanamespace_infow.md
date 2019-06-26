@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFO, PWSANAMESPACE_INFO structure pointer [Winsock], WSANAMESPACE_INFO, WSANAMESPACE_INFO structure [Winsock], WSANAMESPACE_INFOA, WSANAMESPACE_INFOW, _win32_wsanamespace_info_2, winsock.wsanamespace_info_2, winsock2/PWSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFOA, winsock2/WSANAMESPACE_INFOW"
 ms.topic: struct
-f1_keywords: ["winsock2/WSANAMESPACE_INFO"]
+f1_keywords: 
+ - "winsock2/WSANAMESPACE_INFO"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

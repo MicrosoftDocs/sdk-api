@@ -8,7 +8,8 @@ ms.assetid: abdf4c6d-00f6-4cc8-8fe3-ce0adbb2e076
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
-f1_keywords: ["tuner/IDigitalCableLocator"]
+f1_keywords: 
+ - "tuner/IDigitalCableLocator"
 req.header: tuner.h
 req.include-header:
 req.redist:

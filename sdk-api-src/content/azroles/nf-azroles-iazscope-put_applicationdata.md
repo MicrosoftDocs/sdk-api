@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzScope object, ApplicationData property [Security],IAzScope interface, AzScope object [Security],ApplicationData property, IAzScope interface [Security],ApplicationData property, IAzScope.ApplicationData, IAzScope.put_ApplicationData, IAzScope::ApplicationData, IAzScope::get_ApplicationData, IAzScope::put_ApplicationData, azroles/IAzScope::ApplicationData, azroles/IAzScope::get_ApplicationData, azroles/IAzScope::put_ApplicationData, put_ApplicationData, security.iazscope_applicationdata
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.ApplicationData"]
+f1_keywords: 
+ - "azroles/IAzScope.ApplicationData"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

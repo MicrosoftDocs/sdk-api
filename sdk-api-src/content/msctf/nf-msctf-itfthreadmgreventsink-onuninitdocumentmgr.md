@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnUninitDocumentMgr method, ITfThreadMgrEventSink.OnUninitDocumentMgr, ITfThreadMgrEventSink::OnUninitDocumentMgr, OnUninitDocumentMgr, OnUninitDocumentMgr method [Text Services Framework], OnUninitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onuninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnUninitDocumentMgr, tsf.itfthreadmgreventsink_onuninitdocumentmgr
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgrEventSink.OnUninitDocumentMgr"]
+f1_keywords: 
+ - "msctf/ITfThreadMgrEventSink.OnUninitDocumentMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

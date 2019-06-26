@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerGuide, IInkRecognizerGuide interface [Tablet PC], IInkRecognizerGuide interface [Tablet PC],described, msinkaut/IInkRecognizerGuide, tablet.iinkrecognizerguide
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkRecognizerGuide"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerGuide"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

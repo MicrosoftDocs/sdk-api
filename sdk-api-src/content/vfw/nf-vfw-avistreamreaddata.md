@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamReadData, AVIStreamReadData function [Windows Multimedia], _win32_AVIStreamReadData, multimedia.avistreamreaddata, vfw/AVIStreamReadData
 ms.topic: function
-f1_keywords: ["vfw/AVIStreamReadData"]
+f1_keywords: 
+ - "vfw/AVIStreamReadData"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

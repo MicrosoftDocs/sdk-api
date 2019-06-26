@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Reset method, IEnumAddress.Reset, IEnumAddress::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_reset, tapi3.ienumaddress_reset, tapi3if/IEnumAddress::Reset
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumAddress.Reset"]
+f1_keywords: 
+ - "tapi3if/IEnumAddress.Reset"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

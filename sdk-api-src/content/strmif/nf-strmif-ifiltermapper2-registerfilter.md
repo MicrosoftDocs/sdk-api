@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],RegisterFilter method, IFilterMapper2.RegisterFilter, IFilterMapper2::RegisterFilter, IFilterMapper2RegisterFilter, RegisterFilter, RegisterFilter method [DirectShow], RegisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_registerfilter, strmif/IFilterMapper2::RegisterFilter
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper2.RegisterFilter"]
+f1_keywords: 
+ - "strmif/IFilterMapper2.RegisterFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

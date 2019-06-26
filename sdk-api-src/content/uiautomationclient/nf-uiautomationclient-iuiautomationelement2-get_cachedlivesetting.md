@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedLiveSetting property [Windows Accessibility], CachedLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedLiveSetting property, IUIAutomationElement2.CachedLiveSetting, IUIAutomationElement2.get_CachedLiveSetting, IUIAutomationElement2::CachedLiveSetting, IUIAutomationElement2::get_CachedLiveSetting, get_CachedLiveSetting, uiautomationclient/IUIAutomationElement2::CachedLiveSetting, uiautomationclient/IUIAutomationElement2::get_CachedLiveSetting, winauto.uiauto_iuiautomationelement2_cachedlivesetting
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement2.CachedLiveSetting"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement2.CachedLiveSetting"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

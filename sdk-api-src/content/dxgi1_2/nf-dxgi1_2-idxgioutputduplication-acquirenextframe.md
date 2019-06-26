@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcquireNextFrame, AcquireNextFrame method [DXGI], AcquireNextFrame method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],AcquireNextFrame method, IDXGIOutputDuplication.AcquireNextFrame, IDXGIOutputDuplication::AcquireNextFrame, direct3ddxgi.idxgioutputduplication_acquirenextframe, dxgi1_2/IDXGIOutputDuplication::AcquireNextFrame
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIOutputDuplication.AcquireNextFrame"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIOutputDuplication.AcquireNextFrame"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

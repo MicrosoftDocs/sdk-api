@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSPROP_ULARGE_INTEGER"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_ULARGE_INTEGER"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

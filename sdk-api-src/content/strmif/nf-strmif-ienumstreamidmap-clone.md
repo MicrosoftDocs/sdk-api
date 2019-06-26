@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumStreamIdMap interface, IEnumStreamIdMap interface [DirectShow],Clone method, IEnumStreamIdMap.Clone, IEnumStreamIdMap::Clone, IEnumStreamIdMapClone, dshow.ienumstreamidmap_clone, strmif/IEnumStreamIdMap::Clone
 ms.topic: method
-f1_keywords: ["strmif/IEnumStreamIdMap.Clone"]
+f1_keywords: 
+ - "strmif/IEnumStreamIdMap.Clone"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IAMVfwCompressDialogs interface, IAMVfwCompressDialogs interface [DirectShow],GetState method, IAMVfwCompressDialogs.GetState, IAMVfwCompressDialogs::GetState, IAMVfwCompressDialogsGetState, dshow.iamvfwcompressdialogs_getstate, strmif/IAMVfwCompressDialogs::GetState
 ms.topic: method
-f1_keywords: ["strmif/IAMVfwCompressDialogs.GetState"]
+f1_keywords: 
+ - "strmif/IAMVfwCompressDialogs.GetState"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

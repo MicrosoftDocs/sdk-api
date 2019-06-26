@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet, MI_ParameterSet structure [Windows Management Infrastructure (MI)], mi/MI_ParameterSet, wmi_v2.mi_parameterset
 ms.topic: struct
-f1_keywords: ["mi/MI_ParameterSet"]
+f1_keywords: 
+ - "mi/MI_ParameterSet"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

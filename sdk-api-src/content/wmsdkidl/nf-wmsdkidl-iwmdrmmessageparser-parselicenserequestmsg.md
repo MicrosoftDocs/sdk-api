@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseLicenseRequestMsg method, IWMDRMMessageParser.ParseLicenseRequestMsg, IWMDRMMessageParser::ParseLicenseRequestMsg, IWMDRMMessageParserParseLicenseRequestMsg, ParseLicenseRequestMsg, ParseLicenseRequestMsg method [windows Media Format], ParseLicenseRequestMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parselicenserequestmsg, wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMMessageParser.ParseLicenseRequestMsg"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMMessageParser.ParseLicenseRequestMsg"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies],described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
 ms.topic: interface
-f1_keywords: ["encdec/IXDSCodec"]
+f1_keywords: 
+ - "encdec/IXDSCodec"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

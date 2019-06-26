@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlCallback, ControlCallback callback function [ETW], WMIDPREQUEST, WMIDPREQUEST callback, WMI_DISABLE_EVENTS, WMI_ENABLE_EVENTS, _evt_controlcallback, base.controlcallback, etw.controlcallback, evntrace/ControlCallback
 ms.topic: callback
-f1_keywords: ["evntrace/ControlCallback"]
+f1_keywords: 
+ - "evntrace/ControlCallback"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

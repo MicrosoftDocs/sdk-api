@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateScaleTransform, CreateScaleTransform method [DirectComposition], CreateScaleTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateScaleTransform method, IDCompositionDevice2.CreateScaleTransform, IDCompositionDevice2::CreateScaleTransform, dcomp/IDCompositionDevice2::CreateScaleTransform, directcomp.idcompositiondevice2_createscaletransform
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice2.CreateScaleTransform"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice2.CreateScaleTransform"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputNumberForStream, GetOutputNumberForStream method [windows Media Format], GetOutputNumberForStream method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputNumberForStream method, IWMSyncReader.GetOutputNumberForStream, IWMSyncReader::GetOutputNumberForStream, IWMSyncReaderGetOutputNumberForStream, wmformat.iwmsyncreader_getoutputnumberforstream, wmsdkidl/IWMSyncReader::GetOutputNumberForStream
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.GetOutputNumberForStream"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.GetOutputNumberForStream"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

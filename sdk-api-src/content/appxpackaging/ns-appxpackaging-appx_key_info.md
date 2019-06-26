@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_KEY_INFO, APPX_KEY_INFO structure [App packaging and management], PAPPX_KEY_INFO, PAPPX_KEY_INFO structure pointer [App packaging and management], appxpackaging/APPX_KEY_INFO, appxpackaging/PAPPX_KEY_INFO, appxpkg.appx_key_info
 ms.topic: struct
-f1_keywords: ["appxpackaging/APPX_KEY_INFO"]
+f1_keywords: 
+ - "appxpackaging/APPX_KEY_INFO"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

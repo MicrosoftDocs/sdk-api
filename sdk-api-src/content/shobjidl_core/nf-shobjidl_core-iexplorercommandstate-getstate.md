@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IExplorerCommandState interface, IExplorerCommandState interface [Windows Shell],GetState method, IExplorerCommandState.GetState, IExplorerCommandState::GetState, _shell_IExplorerCommandState_GetState, shell.IExplorerCommandState_GetState, shobjidl_core/IExplorerCommandState::GetState
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerCommandState.GetState"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerCommandState.GetState"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

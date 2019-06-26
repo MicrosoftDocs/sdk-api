@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
 ms.topic: struct
-f1_keywords: ["resourceindexer/IndexedResourceQualifier"]
+f1_keywords: 
+ - "resourceindexer/IndexedResourceQualifier"
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

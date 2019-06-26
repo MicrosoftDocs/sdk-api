@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GroupChildWithParent, GroupChildWithParent method [Windows Shell], GroupChildWithParent method [Windows Shell],ISuspensionDependencyManager interface, ISuspensionDependencyManager interface [Windows Shell],GroupChildWithParent method, ISuspensionDependencyManager.GroupChildWithParent, ISuspensionDependencyManager::GroupChildWithParent, shell.ISuspensionDependencyManager_GroupChildWithParent, shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISuspensionDependencyManager.GroupChildWithParent"]
+f1_keywords: 
+ - "shobjidl_core/ISuspensionDependencyManager.GroupChildWithParent"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

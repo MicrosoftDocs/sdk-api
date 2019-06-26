@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationWidth method, IBasicVideo.get_DestinationWidth, IBasicVideo::get_DestinationWidth, IBasicVideoget_DestinationWidth, control/IBasicVideo::get_DestinationWidth, dshow.ibasicvideo_get_destinationwidth, get_DestinationWidth, get_DestinationWidth method [DirectShow], get_DestinationWidth method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.get_DestinationWidth"]
+f1_keywords: 
+ - "control/IBasicVideo.get_DestinationWidth"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

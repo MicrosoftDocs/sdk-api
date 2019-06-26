@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidFeatures interface, IMSVidFeatures interface [Microsoft TV Technologies],Add method, IMSVidFeatures.Add, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
 ms.topic: method
-f1_keywords: ["segment/IMSVidFeatures.Add"]
+f1_keywords: 
+ - "segment/IMSVidFeatures.Add"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging],described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

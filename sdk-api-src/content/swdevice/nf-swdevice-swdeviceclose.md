@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
 ms.topic: function
-f1_keywords: ["swdevice/SwDeviceClose"]
+f1_keywords: 
+ - "swdevice/SwDeviceClose"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

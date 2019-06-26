@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1TransformNode interface, ID2D1TransformNode interface [Direct2D],GetInputCount method, ID2D1TransformNode.GetInputCount, ID2D1TransformNode::GetInputCount, d2d1effectauthor/ID2D1TransformNode::GetInputCount, direct2d.id2d1transformnode_getinputcount
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1TransformNode.GetInputCount"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1TransformNode.GetInputCount"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

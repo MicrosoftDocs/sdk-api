@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
 ms.topic: interface
-f1_keywords: ["mswmdm/IComponentAuthenticate"]
+f1_keywords: 
+ - "mswmdm/IComponentAuthenticate"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

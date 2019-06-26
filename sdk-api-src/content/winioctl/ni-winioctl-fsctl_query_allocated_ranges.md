@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_ALLOCATED_RANGES, FSCTL_QUERY_ALLOCATED_RANGES control, FSCTL_QUERY_ALLOCATED_RANGES control code [Files], _win32_fsctl_query_allocated_ranges, base.fsctl_query_allocated_ranges, fs.fsctl_query_allocated_ranges, winioctl/FSCTL_QUERY_ALLOCATED_RANGES
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_QUERY_ALLOCATED_RANGES"]
+f1_keywords: 
+ - "winioctl/FSCTL_QUERY_ALLOCATED_RANGES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

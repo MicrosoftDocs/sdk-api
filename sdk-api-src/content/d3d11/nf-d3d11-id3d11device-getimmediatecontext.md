@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2f9e01b9-f7a8-4cdb-2811-bbd0a44df05f, GetImmediateContext, GetImmediateContext method [Direct3D 11], GetImmediateContext method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetImmediateContext method, ID3D11Device.GetImmediateContext, ID3D11Device::GetImmediateContext, d3d11/ID3D11Device::GetImmediateContext, direct3d11.id3d11device_getimmediatecontext
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.GetImmediateContext"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.GetImmediateContext"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

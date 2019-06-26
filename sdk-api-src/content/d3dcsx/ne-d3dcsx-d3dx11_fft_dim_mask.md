@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DX11_FFT_DIM_MASK, D3DX11_FFT_DIM_MASK enumeration [Direct3D 11], D3DX11_FFT_DIM_MASK_1D, D3DX11_FFT_DIM_MASK_2D, D3DX11_FFT_DIM_MASK_3D, a5485d2c-5c50-03ed-1572-51ff17e92a30, d3dcsx/D3DX11_FFT_DIM_MASK, d3dcsx/D3DX11_FFT_DIM_MASK_1D, d3dcsx/D3DX11_FFT_DIM_MASK_2D, d3dcsx/D3DX11_FFT_DIM_MASK_3D, direct3d11.d3dx11_fft_dim_mask
 ms.topic: enum
-f1_keywords: ["d3dcsx/D3DX11_FFT_DIM_MASK"]
+f1_keywords: 
+ - "d3dcsx/D3DX11_FFT_DIM_MASK"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

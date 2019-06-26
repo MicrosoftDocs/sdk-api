@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_parse_vlv_control, ldap.ldap__parse__vlv__control, ldap.ldap_parse_vlv_control, ldap_parse_vlv_control, ldap_parse_vlv_control function [LDAP], ldap_parse_vlv_controlA, ldap_parse_vlv_controlW, winldap/ldap_parse_vlv_control, winldap/ldap_parse_vlv_controlA, winldap/ldap_parse_vlv_controlW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_parse_vlv_control"]
+f1_keywords: 
+ - "winldap/ldap_parse_vlv_control"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

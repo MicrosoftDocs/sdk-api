@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_SUCCESS, EVENTLOG_WARNING_TYPE, ReportEvent, ReportEvent function, ReportEventA, ReportEventW, _win32_reportevent, base.reportevent, winbase/ReportEvent, winbase/ReportEventA, winbase/ReportEventW
 ms.topic: function
-f1_keywords: ["winbase/ReportEvent"]
+f1_keywords: 
+ - "winbase/ReportEvent"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

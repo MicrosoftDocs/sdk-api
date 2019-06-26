@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [COM], GetWindow method [COM],IOleWindow interface, IOleWindow interface [COM],GetWindow method, IOleWindow.GetWindow, IOleWindow::GetWindow, _ole_iolewindow_getwindow, com.iolewindow_getwindow, oleidl/IOleWindow::GetWindow
 ms.topic: method
-f1_keywords: ["oleidl/IOleWindow.GetWindow"]
+f1_keywords: 
+ - "oleidl/IOleWindow.GetWindow"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

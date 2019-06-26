@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnRequestEdit method, IPropertyNotifySink.OnRequestEdit, IPropertyNotifySink::OnRequestEdit, OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyNotifySink.OnRequestEdit"]
+f1_keywords: 
+ - "ocidl/IPropertyNotifySink.OnRequestEdit"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

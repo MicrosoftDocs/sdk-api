@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
 ms.topic: method
-f1_keywords: ["strmif/IAMResourceControl.Reserve"]
+f1_keywords: 
+ - "strmif/IAMResourceControl.Reserve"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

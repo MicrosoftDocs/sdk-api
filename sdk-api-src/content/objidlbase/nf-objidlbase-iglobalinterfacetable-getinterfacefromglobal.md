@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, IGlobalInterfaceTable interface [COM],GetInterfaceFromGlobal method, IGlobalInterfaceTable.GetInterfaceFromGlobal, IGlobalInterfaceTable::GetInterfaceFromGlobal, _com_iglobalinterfacetable_getinterfacefromglobal, com.iglobalinterfacetable_getinterfacefromglobal, objidlbase/IGlobalInterfaceTable::GetInterfaceFromGlobal
 ms.topic: method
-f1_keywords: ["objidlbase/IGlobalInterfaceTable.GetInterfaceFromGlobal"]
+f1_keywords: 
+ - "objidlbase/IGlobalInterfaceTable.GetInterfaceFromGlobal"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

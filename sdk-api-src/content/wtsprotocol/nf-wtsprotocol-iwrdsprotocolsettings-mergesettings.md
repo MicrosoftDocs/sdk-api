@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolSettings interface [Remote Desktop Services],MergeSettings method, IWRdsProtocolSettings.MergeSettings, IWRdsProtocolSettings::MergeSettings, MergeSettings, MergeSettings method [Remote Desktop Services], MergeSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, termserv.iwrdsprotocolsettings_mergesettings, wtsprotocol/IWRdsProtocolSettings::MergeSettings
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolSettings.MergeSettings"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolSettings.MergeSettings"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

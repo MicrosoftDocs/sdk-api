@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
 ms.topic: function
-f1_keywords: ["winternl/NtRenameKey"]
+f1_keywords: 
+ - "winternl/NtRenameKey"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

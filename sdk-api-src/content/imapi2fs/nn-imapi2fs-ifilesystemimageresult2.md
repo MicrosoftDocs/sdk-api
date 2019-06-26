@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult2, IFileSystemImageResult2 interface [IMAPI], IFileSystemImageResult2 interface [IMAPI],described, imapi.ifilesystemimageresult2, imapi2fs/IFileSystemImageResult2
 ms.topic: interface
-f1_keywords: ["imapi2fs/IFileSystemImageResult2"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImageResult2"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

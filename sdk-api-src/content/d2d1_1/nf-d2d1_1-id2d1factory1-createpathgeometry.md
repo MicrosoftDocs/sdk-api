@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreatePathGeometry method, ID2D1Factory1.CreatePathGeometry, ID2D1Factory1::CreatePathGeometry, d2d1_1/ID2D1Factory1::CreatePathGeometry, direct2d.id2d1factory1_createpathgeometry
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Factory1.CreatePathGeometry"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Factory1.CreatePathGeometry"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

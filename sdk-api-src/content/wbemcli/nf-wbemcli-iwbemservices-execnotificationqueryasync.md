@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemServices.ExecNotificationQueryAsync"]
+f1_keywords: 
+ - "wbemcli/IWbemServices.ExecNotificationQueryAsync"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

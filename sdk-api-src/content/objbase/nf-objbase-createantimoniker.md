@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
 ms.topic: function
-f1_keywords: ["objbase/CreateAntiMoniker"]
+f1_keywords: 
+ - "objbase/CreateAntiMoniker"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

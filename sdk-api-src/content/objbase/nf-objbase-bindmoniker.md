@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.topic: function
-f1_keywords: ["objbase/BindMoniker"]
+f1_keywords: 
+ - "objbase/BindMoniker"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

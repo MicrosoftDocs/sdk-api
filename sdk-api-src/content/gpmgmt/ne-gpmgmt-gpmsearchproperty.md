@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSearchProperty, GPMSearchProperty enumeration [GPMC], backupMostRecent, gpmc.gpmsearchproperty, gpmgmt/GPMSearchProperty, gpmgmt/backupMostRecent, gpmgmt/gpoComputerExtensions, gpmgmt/gpoDisplayName, gpmgmt/gpoDomain, gpmgmt/gpoEffectivePermissions, gpmgmt/gpoID, gpmgmt/gpoPermissions, gpmgmt/gpoUserExtensions, gpmgmt/gpoWMIFilter, gpmgmt/somLinks, gpmgmt/starterGPODisplayName, gpmgmt/starterGPODomain, gpmgmt/starterGPOEffectivePermissions, gpmgmt/starterGPOID, gpmgmt/starterGPOPermissions, gpoComputerExtensions, gpoDisplayName, gpoDomain, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter, somLinks, starterGPODisplayName, starterGPODomain, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
 ms.topic: enum
-f1_keywords: ["gpmgmt/GPMSearchProperty"]
+f1_keywords: 
+ - "gpmgmt/GPMSearchProperty"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

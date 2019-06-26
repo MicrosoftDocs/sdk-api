@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
 ms.topic: function
-f1_keywords: ["memoryapi/DiscardVirtualMemory"]
+f1_keywords: 
+ - "memoryapi/DiscardVirtualMemory"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

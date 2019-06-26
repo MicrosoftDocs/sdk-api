@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminTerminateDll"]
+f1_keywords: 
+ - "mprapi/MprAdminTerminateDll"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

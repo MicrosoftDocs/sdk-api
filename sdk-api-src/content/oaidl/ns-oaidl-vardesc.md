@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC"
 ms.topic: struct
-f1_keywords: ["oaidl/VARDESC"]
+f1_keywords: 
+ - "oaidl/VARDESC"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

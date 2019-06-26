@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],RegisterDevice method, IWMDeviceRegistration.RegisterDevice, IWMDeviceRegistration::RegisterDevice, IWMDeviceRegistrationRegisterDevice, RegisterDevice, RegisterDevice method [windows Media Format], RegisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_registerdevice, wmsdkidl/IWMDeviceRegistration::RegisterDevice
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDeviceRegistration.RegisterDevice"]
+f1_keywords: 
+ - "wmsdkidl/IWMDeviceRegistration.RegisterDevice"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

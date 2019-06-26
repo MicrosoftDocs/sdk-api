@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], CreateStoryboard method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateStoryboard method, IUIAnimationManager2.CreateStoryboard, IUIAnimationManager2::CreateStoryboard, uianimation.iuianimationmanager2_createstoryboard, uianimation/IUIAnimationManager2::CreateStoryboard
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager2.CreateStoryboard"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager2.CreateStoryboard"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

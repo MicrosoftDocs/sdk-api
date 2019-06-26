@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.GetSignatureValue"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.GetSignatureValue"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

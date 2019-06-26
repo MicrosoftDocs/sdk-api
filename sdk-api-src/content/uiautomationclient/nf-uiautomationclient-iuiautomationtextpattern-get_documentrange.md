@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DocumentRange property [Windows Accessibility], DocumentRange property [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],DocumentRange property, IUIAutomationTextPattern.DocumentRange, IUIAutomationTextPattern.get_DocumentRange, IUIAutomationTextPattern::DocumentRange, IUIAutomationTextPattern::get_DocumentRange, get_DocumentRange, uiauto.uiauto_IUIAutomationTextPattern_DocumentRange, uiauto_IUIAutomationTextPattern_DocumentRange, uiautomationclient/IUIAutomationTextPattern::DocumentRange, uiautomationclient/IUIAutomationTextPattern::get_DocumentRange, winauto.uiauto_IUIAutomationTextPattern_DocumentRange
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextPattern.DocumentRange"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextPattern.DocumentRange"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

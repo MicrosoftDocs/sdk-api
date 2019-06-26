@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PARAGRAPH_ALIGNMENT, DWRITE_PARAGRAPH_ALIGNMENT enumeration [Direct Write], DWRITE_PARAGRAPH_ALIGNMENT_CENTER, DWRITE_PARAGRAPH_ALIGNMENT_FAR, DWRITE_PARAGRAPH_ALIGNMENT_NEAR, directwrite.dwrite_paragraph_alignment, dwrite/DWRITE_PARAGRAPH_ALIGNMENT, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_CENTER, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_FAR, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_NEAR
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_PARAGRAPH_ALIGNMENT"]
+f1_keywords: 
+ - "dwrite/DWRITE_PARAGRAPH_ALIGNMENT"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContentStream, GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentStream method, IOpcPart.GetContentStream, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
 ms.topic: method
-f1_keywords: ["msopc/IOpcPart.GetContentStream"]
+f1_keywords: 
+ - "msopc/IOpcPart.GetContentStream"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

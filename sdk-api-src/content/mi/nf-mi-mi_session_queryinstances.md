@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_QueryInstances, MI_Session_QueryInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_QueryInstances, wmi_v2.mi_session_queryinstances
 ms.topic: function
-f1_keywords: ["mi/MI_Session_QueryInstances"]
+f1_keywords: 
+ - "mi/MI_Session_QueryInstances"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

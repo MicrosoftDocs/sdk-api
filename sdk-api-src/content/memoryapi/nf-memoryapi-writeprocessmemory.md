@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteProcessMemory, WriteProcessMemory function, _win32_writeprocessmemory, base.writeprocessmemory, memoryapi/WriteProcessMemory
 ms.topic: function
-f1_keywords: ["memoryapi/WriteProcessMemory"]
+f1_keywords: 
+ - "memoryapi/WriteProcessMemory"
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

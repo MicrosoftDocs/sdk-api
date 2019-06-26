@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_NOCR, CRYPT_STRING_NOCRLF, CRYPT_STRING_STRICT, CryptBinaryToString, CryptBinaryToString function [Security], CryptBinaryToStringA, CryptBinaryToStringW, _crypto2_cryptbinarytostring, security.cryptbinarytostring, wincrypt/CryptBinaryToString, wincrypt/CryptBinaryToStringA, wincrypt/CryptBinaryToStringW
 ms.topic: function
-f1_keywords: ["wincrypt/CryptBinaryToString"]
+f1_keywords: 
+ - "wincrypt/CryptBinaryToString"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

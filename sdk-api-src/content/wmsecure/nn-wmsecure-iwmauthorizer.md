@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
 ms.topic: interface
-f1_keywords: ["wmsecure/IWMAuthorizer"]
+f1_keywords: 
+ - "wmsecure/IWMAuthorizer"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

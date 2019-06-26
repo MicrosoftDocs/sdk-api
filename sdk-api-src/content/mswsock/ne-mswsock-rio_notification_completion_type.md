@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRIO_NOTIFICATION_COMPLETION_TYPE, RIO_EVENT_COMPLETION, RIO_IOCP_COMPLETION, RIO_NOTIFICATION_COMPLETION_TYPE, RIO_NOTIFICATION_COMPLETION_TYPE enumeration [Winsock], mswsock/RIO_EVENT_COMPLETION, mswsock/RIO_IOCP_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION_TYPE, winsock.rio_notification_completion_type"
 ms.topic: enum
-f1_keywords: ["mswsock/RIO_NOTIFICATION_COMPLETION_TYPE"]
+f1_keywords: 
+ - "mswsock/RIO_NOTIFICATION_COMPLETION_TYPE"
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

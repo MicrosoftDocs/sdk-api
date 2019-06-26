@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.topic: function
-f1_keywords: ["adsprop/ADsPropGetInitInfo"]
+f1_keywords: 
+ - "adsprop/ADsPropGetInitInfo"
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

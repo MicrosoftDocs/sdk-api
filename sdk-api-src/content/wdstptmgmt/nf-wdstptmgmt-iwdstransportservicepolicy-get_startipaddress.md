@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartIpAddress property, IWdsTransportServicePolicy.StartIpAddress, IWdsTransportServicePolicy.get_StartIpAddress, IWdsTransportServicePolicy::StartIpAddress, IWdsTransportServicePolicy::get_StartIpAddress, IWdsTransportServicePolicy::put_StartIpAddress, StartIpAddress property [Windows Deployment Services], StartIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_StartIpAddress, wds.iwdstransportservicepolicy_startipaddress, wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy.StartIpAddress"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServicePolicy.StartIpAddress"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO structure [RAS], PIPV6_ADAPTER_BINDING_INFO, PIPV6_ADAPTER_BINDING_INFO structure pointer [RAS], routprot/IPV6_ADAPTER_BINDING_INFO, routprot/PIPV6_ADAPTER_BINDING_INFO, rras.ipv6_adapter_binding_info"
 ms.topic: struct
-f1_keywords: ["routprot/IPV6_ADAPTER_BINDING_INFO"]
+f1_keywords: 
+ - "routprot/IPV6_ADAPTER_BINDING_INFO"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

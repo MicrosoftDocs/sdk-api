@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromUI8, VarBstrFromUI8 function [Automation], _oa96_VarBstrFromUI8, automat.varbstrfromui8, oleauto/VarBstrFromUI8
 ms.topic: function
-f1_keywords: ["oleauto/VarBstrFromUI8"]
+f1_keywords: 
+ - "oleauto/VarBstrFromUI8"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

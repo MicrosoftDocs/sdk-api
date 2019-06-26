@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscPsipParser.GetMGT"]
+f1_keywords: 
+ - "atscpsipparser/IAtscPsipParser.GetMGT"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

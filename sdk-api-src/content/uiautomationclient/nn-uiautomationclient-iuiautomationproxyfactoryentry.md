@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], IUIAutomationProxyFactoryEntry interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryEntry, uiauto_IUIAutomationProxyFactoryEntry, uiautomationclient/IUIAutomationProxyFactoryEntry, winauto.uiauto_IUIAutomationProxyFactoryEntry
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryEntry"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationProxyFactoryEntry"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

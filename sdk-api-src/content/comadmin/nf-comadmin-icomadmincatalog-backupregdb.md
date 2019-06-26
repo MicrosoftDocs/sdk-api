@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.BackupREGDB"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.BackupREGDB"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

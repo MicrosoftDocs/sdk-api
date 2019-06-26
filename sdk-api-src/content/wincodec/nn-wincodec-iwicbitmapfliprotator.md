@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFlipRotator, IWICBitmapFlipRotator interface [Windows Imaging Component], IWICBitmapFlipRotator interface [Windows Imaging Component],described, _wic_codec_iwicbitmapfliprotator, wic._wic_codec_iwicbitmapfliprotator, wincodec/IWICBitmapFlipRotator
 ms.topic: interface
-f1_keywords: ["wincodec/IWICBitmapFlipRotator"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFlipRotator"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

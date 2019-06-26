@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

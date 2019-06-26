@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],CreateFontFace method, IDWriteFont.CreateFontFace, IDWriteFont::CreateFontFace, directwrite.IDWriteFont_CreateFontFace, dwrite/IDWriteFont::CreateFontFace
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFont.CreateFontFace"]
+f1_keywords: 
+ - "dwrite/IDWriteFont.CreateFontFace"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyError, IBackgroundCopyError interface [BITS], IBackgroundCopyError interface [BITS],described, _drz_ibackgroundcopyerror, bits.ibackgroundcopyerror, bits/IBackgroundCopyError
 ms.topic: interface
-f1_keywords: ["bits/IBackgroundCopyError"]
+f1_keywords: 
+ - "bits/IBackgroundCopyError"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

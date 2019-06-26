@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_SetPtrCount, DPA_SetPtrCount macro [Windows Controls], _shell_DPA_SetPtrCount, _shell_DPA_SetPtrCount_cpp, controls.DPA_SetPtrCount, controls._shell_DPA_SetPtrCount, dpa_dsa/DPA_SetPtrCount
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DPA_SetPtrCount"]
+f1_keywords: 
+ - "dpa_dsa/DPA_SetPtrCount"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

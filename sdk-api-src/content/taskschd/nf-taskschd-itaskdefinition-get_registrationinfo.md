@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],RegistrationInfo property, ITaskDefinition.RegistrationInfo, ITaskDefinition.get_RegistrationInfo, ITaskDefinition::RegistrationInfo, ITaskDefinition::get_RegistrationInfo, ITaskDefinition::put_RegistrationInfo, RegistrationInfo property [Task Scheduler], RegistrationInfo property [Task Scheduler],ITaskDefinition interface, get_RegistrationInfo, taskschd.itaskdefinition_registrationinfo, taskschd/ITaskDefinition::RegistrationInfo, taskschd/ITaskDefinition::get_RegistrationInfo, taskschd/ITaskDefinition::put_RegistrationInfo
 ms.topic: method
-f1_keywords: ["taskschd/ITaskDefinition.RegistrationInfo"]
+f1_keywords: 
+ - "taskschd/ITaskDefinition.RegistrationInfo"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

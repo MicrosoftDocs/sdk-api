@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetRelativePosition method, IMixerPinConfig.SetRelativePosition, IMixerPinConfig::SetRelativePosition, IMixerPinConfigSetRelativePosition, SetRelativePosition, SetRelativePosition method [DirectShow], SetRelativePosition method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setrelativeposition, mpconfig/IMixerPinConfig::SetRelativePosition
 ms.topic: method
-f1_keywords: ["mpconfig/IMixerPinConfig.SetRelativePosition"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig.SetRelativePosition"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

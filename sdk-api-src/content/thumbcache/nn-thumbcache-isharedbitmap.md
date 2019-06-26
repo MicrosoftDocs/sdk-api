@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], ISharedBitmap interface [Windows Shell],described, _shell_ISharedBitmap, shell.ISharedBitmap, thumbcache/ISharedBitmap
 ms.topic: interface
-f1_keywords: ["thumbcache/ISharedBitmap"]
+f1_keywords: 
+ - "thumbcache/ISharedBitmap"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

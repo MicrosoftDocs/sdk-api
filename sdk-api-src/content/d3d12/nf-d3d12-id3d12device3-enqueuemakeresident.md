@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnqueueMakeResident, EnqueueMakeResident method, EnqueueMakeResident method,ID3D12Device3 interface, ID3D12Device3 interface,EnqueueMakeResident method, ID3D12Device3.EnqueueMakeResident, ID3D12Device3::EnqueueMakeResident, d3d12/ID3D12Device3::EnqueueMakeResident, direct3d12.id3d12device3_enqueuemakeresident
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device3.EnqueueMakeResident"]
+f1_keywords: 
+ - "d3d12/ID3D12Device3.EnqueueMakeResident"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

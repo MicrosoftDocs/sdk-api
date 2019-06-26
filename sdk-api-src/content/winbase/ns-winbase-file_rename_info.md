@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_RENAME_INFO, FILE_RENAME_INFO, FILE_RENAME_INFO structure [Files], PFILE_RENAME_INFO, PFILE_RENAME_INFO structure pointer [Files], fileextd/FILE_RENAME_INFO, fileextd/PFILE_RENAME_INFO, fs.file_rename_info, winbase/FILE_RENAME_INFO, winbase/PFILE_RENAME_INFO"
 ms.topic: struct
-f1_keywords: ["winbase/FILE_RENAME_INFO"]
+f1_keywords: 
+ - "winbase/FILE_RENAME_INFO"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

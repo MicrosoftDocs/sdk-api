@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFRegisterPlatformWithMMCSS, MFRegisterPlatformWithMMCSS function [Media Foundation], mf.mfregisterplatformwithmmcss, mfapi/MFRegisterPlatformWithMMCSS, mfplat/MFRegisterPlatformWithMMCSS
 ms.topic: function
-f1_keywords: ["mfapi/MFRegisterPlatformWithMMCSS"]
+f1_keywords: 
+ - "mfapi/MFRegisterPlatformWithMMCSS"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

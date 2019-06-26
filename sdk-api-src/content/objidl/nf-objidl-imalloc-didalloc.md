@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
 ms.topic: method
-f1_keywords: ["objidl/IMalloc.DidAlloc"]
+f1_keywords: 
+ - "objidl/IMalloc.DidAlloc"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

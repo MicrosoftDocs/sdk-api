@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetLocalizedName, SHSetLocalizedName function [Windows Shell], _shell_SHSetLocalizedName, _shell_SHSetLocalizedName_cpp, shell.SHSetLocalizedName, shellapi/SHSetLocalizedName
 ms.topic: function
-f1_keywords: ["shellapi/SHSetLocalizedName"]
+f1_keywords: 
+ - "shellapi/SHSetLocalizedName"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

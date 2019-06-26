@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], IPrintManagerInterop interface [Windows Runtime],described, printmanagerinterop/IPrintManagerInterop, winrt.iprintmanagerinterop
 ms.topic: interface
-f1_keywords: ["printmanagerinterop/IPrintManagerInterop"]
+f1_keywords: 
+ - "printmanagerinterop/IPrintManagerInterop"
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

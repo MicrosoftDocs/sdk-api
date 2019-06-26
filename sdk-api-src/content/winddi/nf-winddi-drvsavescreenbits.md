@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSaveScreenBits, DrvSaveScreenBits function [Display Devices], ddifncs_36f63073-3525-4300-941f-709aba9204c7.xml, display.drvsavescreenbits, winddi/DrvSaveScreenBits
 ms.topic: function
-f1_keywords: ["winddi/DrvSaveScreenBits"]
+f1_keywords: 
+ - "winddi/DrvSaveScreenBits"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

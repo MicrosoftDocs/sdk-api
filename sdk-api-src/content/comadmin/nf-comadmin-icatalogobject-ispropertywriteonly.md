@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyWriteOnly method, ICatalogObject.IsPropertyWriteOnly, ICatalogObject::IsPropertyWriteOnly, IsPropertyWriteOnly, IsPropertyWriteOnly method [COM+], IsPropertyWriteOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyWriteOnly, comadmin/ICatalogObject::IsPropertyWriteOnly, cos.icatalogobject_ispropertywriteonly
 ms.topic: method
-f1_keywords: ["comadmin/ICatalogObject.IsPropertyWriteOnly"]
+f1_keywords: 
+ - "comadmin/ICatalogObject.IsPropertyWriteOnly"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

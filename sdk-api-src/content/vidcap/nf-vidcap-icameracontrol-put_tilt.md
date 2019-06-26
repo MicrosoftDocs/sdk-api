@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Tilt method, ICameraControl.put_Tilt, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Tilt
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_Tilt"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_Tilt"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

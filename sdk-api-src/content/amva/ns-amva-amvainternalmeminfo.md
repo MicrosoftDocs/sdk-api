@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
 ms.topic: struct
-f1_keywords: ["amva/AMVAInternalMemInfo"]
+f1_keywords: 
+ - "amva/AMVAInternalMemInfo"
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

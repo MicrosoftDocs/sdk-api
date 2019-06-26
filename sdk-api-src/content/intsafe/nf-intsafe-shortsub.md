@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
 ms.topic: function
-f1_keywords: ["intsafe/ShortSub"]
+f1_keywords: 
+ - "intsafe/ShortSub"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

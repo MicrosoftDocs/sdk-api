@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.topic: function
-f1_keywords: ["resapi/FreeClusterCrypt"]
+f1_keywords: 
+ - "resapi/FreeClusterCrypt"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

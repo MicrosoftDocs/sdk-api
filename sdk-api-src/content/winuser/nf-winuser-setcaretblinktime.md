@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCaretBlinkTime, SetCaretBlinkTime function [Menus and Other Resources], _win32_SetCaretBlinkTime, _win32_setcaretblinktime_cpp, menurc.setcaretblinktime, winui._win32_setcaretblinktime, winuser/SetCaretBlinkTime
 ms.topic: function
-f1_keywords: ["winuser/SetCaretBlinkTime"]
+f1_keywords: 
+ - "winuser/SetCaretBlinkTime"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

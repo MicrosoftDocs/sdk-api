@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
 ms.topic: callback
-f1_keywords: ["routprot/SetInterfaceInfo"]
+f1_keywords: 
+ - "routprot/SetInterfaceInfo"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

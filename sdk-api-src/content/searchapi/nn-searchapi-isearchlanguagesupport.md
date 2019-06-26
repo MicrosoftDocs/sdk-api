@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], ISearchLanguageSupport interface [search],described, _search_ISearchLanguageSupport, search._search_ISearchLanguageSupport, searchapi/ISearchLanguageSupport
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchLanguageSupport"]
+f1_keywords: 
+ - "searchapi/ISearchLanguageSupport"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

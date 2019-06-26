@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, LPDHCP_BIND_ELEMENT, LPDHCP_BIND_ELEMENT structure pointer [DHCP], dhcp.dhcp_bind_element, dhcpsapi/LPDHCP_BIND_ELEMENT, dhcpsapi/_DHCP_BIND_ELEMENT"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_BIND_ELEMENT"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_BIND_ELEMENT"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

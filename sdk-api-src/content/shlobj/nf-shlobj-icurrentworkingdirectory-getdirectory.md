@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, ICurrentWorkingDirectory interface [Windows Shell],GetDirectory method, ICurrentWorkingDirectory.GetDirectory, ICurrentWorkingDirectory::GetDirectory, _win32_ICurrentWorkingDirectory_GetDirectory, shell.ICurrentWorkingDirectory_GetDirectory, shlobj/ICurrentWorkingDirectory::GetDirectory
 ms.topic: method
-f1_keywords: ["shlobj/ICurrentWorkingDirectory.GetDirectory"]
+f1_keywords: 
+ - "shlobj/ICurrentWorkingDirectory.GetDirectory"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

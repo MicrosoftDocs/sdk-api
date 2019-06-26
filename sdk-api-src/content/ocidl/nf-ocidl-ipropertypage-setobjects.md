@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyPage.SetObjects"]
+f1_keywords: 
+ - "ocidl/IPropertyPage.SetObjects"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

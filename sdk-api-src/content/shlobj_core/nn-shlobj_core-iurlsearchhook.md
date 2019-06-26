@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook, IURLSearchHook interface [Windows Shell], IURLSearchHook interface [Windows Shell],described, _win32_IURLSearchHook, shell.IURLSearchHook, shlobj_core/IURLSearchHook
 ms.topic: interface
-f1_keywords: ["shlobj_core/IURLSearchHook"]
+f1_keywords: 
+ - "shlobj_core/IURLSearchHook"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

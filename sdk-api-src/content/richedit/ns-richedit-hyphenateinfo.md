@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HYPHENATEINFO, HYPHENATEINFO structure [Windows Controls], _win32_HYPHENATEINFO_str, _win32_HYPHENATEINFO_str_cpp, controls.HYPHENATEINFO, controls._win32_HYPHENATEINFO_str, richedit/HYPHENATEINFO
 ms.topic: struct
-f1_keywords: ["richedit/HYPHENATEINFO"]
+f1_keywords: 
+ - "richedit/HYPHENATEINFO"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

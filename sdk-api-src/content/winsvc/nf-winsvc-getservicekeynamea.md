@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
 ms.topic: function
-f1_keywords: ["winsvc/GetServiceKeyName"]
+f1_keywords: 
+ - "winsvc/GetServiceKeyName"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

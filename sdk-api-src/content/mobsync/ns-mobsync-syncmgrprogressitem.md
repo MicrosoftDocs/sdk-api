@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
 ms.topic: struct
-f1_keywords: ["mobsync/SYNCMGRPROGRESSITEM"]
+f1_keywords: 
+ - "mobsync/SYNCMGRPROGRESSITEM"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

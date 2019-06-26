@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestore, IWbemBackupRestore interface [Windows Management Instrumentation], IWbemBackupRestore interface [Windows Management Instrumentation],described, WbemBackupRestore, _hmm_iwbembackuprestore, wbemcli/IWbemBackupRestore, wmi.iwbembackuprestore
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemBackupRestore"]
+f1_keywords: 
+ - "wbemcli/IWbemBackupRestore"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

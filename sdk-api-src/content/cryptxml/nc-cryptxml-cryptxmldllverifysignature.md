@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, CryptXmlDllVerifySignature callback function [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
 ms.topic: callback
-f1_keywords: ["cryptxml/CryptXmlDllVerifySignature"]
+f1_keywords: 
+ - "cryptxml/CryptXmlDllVerifySignature"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

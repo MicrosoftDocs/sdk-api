@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate
 ms.topic: interface
-f1_keywords: ["certenroll/IX509AttributeRenewalCertificate"]
+f1_keywords: 
+ - "certenroll/IX509AttributeRenewalCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

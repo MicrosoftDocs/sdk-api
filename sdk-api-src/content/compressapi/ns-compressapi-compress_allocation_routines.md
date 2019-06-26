@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCOMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES structure [Compression API], PCOMPRESS_ALLOCATION_ROUTINES, PCOMPRESS_ALLOCATION_ROUTINES structure pointer [Compression API], cmpapi.compress_allocation_routines, compressapi/COMPRESS_ALLOCATION_ROUTINES, compressapi/PCOMPRESS_ALLOCATION_ROUTINES"
 ms.topic: struct
-f1_keywords: ["compressapi/COMPRESS_ALLOCATION_ROUTINES"]
+f1_keywords: 
+ - "compressapi/COMPRESS_ALLOCATION_ROUTINES"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

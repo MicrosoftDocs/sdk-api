@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
 ms.topic: method
-f1_keywords: ["objidlbase/IMultiQI.QueryMultipleInterfaces"]
+f1_keywords: 
+ - "objidlbase/IMultiQI.QueryMultipleInterfaces"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

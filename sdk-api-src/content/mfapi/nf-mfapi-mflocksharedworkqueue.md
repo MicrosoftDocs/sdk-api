@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFLockSharedWorkQueue, MFLockSharedWorkQueue function [Media Foundation], mf.mflocksharedworkqueue, mfapi/MFLockSharedWorkQueue
 ms.topic: function
-f1_keywords: ["mfapi/MFLockSharedWorkQueue"]
+f1_keywords: 
+ - "mfapi/MFLockSharedWorkQueue"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

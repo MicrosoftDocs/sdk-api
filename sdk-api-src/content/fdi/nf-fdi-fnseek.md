@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.topic: macro
-f1_keywords: ["fdi/FNSEEK"]
+f1_keywords: 
+ - "fdi/FNSEEK"
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

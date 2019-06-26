@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNotifyFlags, GetNotifyFlags method [DirectShow], GetNotifyFlags method [DirectShow],IMediaEventEx interface, IMediaEventEx interface [DirectShow],GetNotifyFlags method, IMediaEventEx.GetNotifyFlags, IMediaEventEx::GetNotifyFlags, IMediaEventExGetNotifyFlags, control/IMediaEventEx::GetNotifyFlags, dshow.imediaeventex_getnotifyflags
 ms.topic: method
-f1_keywords: ["control/IMediaEventEx.GetNotifyFlags"]
+f1_keywords: 
+ - "control/IMediaEventEx.GetNotifyFlags"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

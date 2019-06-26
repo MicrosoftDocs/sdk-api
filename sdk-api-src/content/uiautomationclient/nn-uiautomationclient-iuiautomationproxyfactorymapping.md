@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], IUIAutomationProxyFactoryMapping interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryMapping, uiauto_IUIAutomationProxyFactoryMapping, uiautomationclient/IUIAutomationProxyFactoryMapping, winauto.uiauto_IUIAutomationProxyFactoryMapping
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryMapping"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationProxyFactoryMapping"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

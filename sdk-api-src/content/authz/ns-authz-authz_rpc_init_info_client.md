@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client"
 ms.topic: struct
-f1_keywords: ["authz/AUTHZ_RPC_INIT_INFO_CLIENT"]
+f1_keywords: 
+ - "authz/AUTHZ_RPC_INIT_INFO_CLIENT"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

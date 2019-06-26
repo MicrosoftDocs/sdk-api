@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
 ms.topic: struct
-f1_keywords: ["webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR"]
+f1_keywords: 
+ - "webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

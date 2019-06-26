@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfileManagerLanguage.GetUserLanguageID"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfileManagerLanguage.GetUserLanguageID"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

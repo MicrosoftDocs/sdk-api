@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetAt method, IXpsOMDictionary.GetAt, IXpsOMDictionary::GetAt, xps.ixpsomdictionary_getat, xpsobjectmodel/IXpsOMDictionary::GetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDictionary.GetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDictionary.GetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Store method, IEventSystem.Store, IEventSystem::Store, Store, Store method [COM+], Store method [COM+],IEventSystem interface, _cos_IEventSystem_Store, cos.ieventsystem_store, eventsys/IEventSystem::Store
 ms.topic: method
-f1_keywords: ["eventsys/IEventSystem.Store"]
+f1_keywords: 
+ - "eventsys/IEventSystem.Store"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

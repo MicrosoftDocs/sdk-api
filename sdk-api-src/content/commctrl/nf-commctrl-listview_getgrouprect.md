@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetGroupRect"]
+f1_keywords: 
+ - "commctrl/ListView_GetGroupRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

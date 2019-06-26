@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseButtonEvent method, IRDPViewerInputSink.SendMouseButtonEvent, IRDPViewerInputSink::SendMouseButtonEvent, SendMouseButtonEvent, SendMouseButtonEvent method [RDP], SendMouseButtonEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousebuttonevent, rdpencomapi/IRDPViewerInputSink::SendMouseButtonEvent
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPViewerInputSink.SendMouseButtonEvent"]
+f1_keywords: 
+ - "rdpencomapi/IRDPViewerInputSink.SendMouseButtonEvent"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

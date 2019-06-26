@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],SetCurrentTransform method, IDWriteBitmapRenderTarget.SetCurrentTransform, IDWriteBitmapRenderTarget::SetCurrentTransform, SetCurrentTransform, SetCurrentTransform method [Direct Write], SetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_SetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::SetCurrentTransform
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteBitmapRenderTarget.SetCurrentTransform"]
+f1_keywords: 
+ - "dwrite/IDWriteBitmapRenderTarget.SetCurrentTransform"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

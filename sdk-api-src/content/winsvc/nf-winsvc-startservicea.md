@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, _win32_startservice, base.startservice, winsvc/StartService, winsvc/StartServiceA, winsvc/StartServiceW
 ms.topic: function
-f1_keywords: ["winsvc/StartService"]
+f1_keywords: 
+ - "winsvc/StartService"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
 ms.topic: function
-f1_keywords: ["ntquery/SetCatalogState"]
+f1_keywords: 
+ - "ntquery/SetCatalogState"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

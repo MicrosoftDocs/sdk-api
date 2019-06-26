@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
 ms.topic: function
-f1_keywords: ["wingdi/GetViewportOrgEx"]
+f1_keywords: 
+ - "wingdi/GetViewportOrgEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

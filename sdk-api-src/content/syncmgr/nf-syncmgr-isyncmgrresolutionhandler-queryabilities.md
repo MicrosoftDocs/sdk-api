@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],QueryAbilities method, ISyncMgrResolutionHandler.QueryAbilities, ISyncMgrResolutionHandler::QueryAbilities, QueryAbilities, QueryAbilities method [Windows Shell], QueryAbilities method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_QueryAbilities, shell.ISyncMgrResolutionHandler_QueryAbilities, syncmgr/ISyncMgrResolutionHandler::QueryAbilities
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrResolutionHandler.QueryAbilities"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrResolutionHandler.QueryAbilities"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

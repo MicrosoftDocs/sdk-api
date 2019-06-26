@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt, XMStoreInt, XMStoreInt method [DirectX Math Support APIs], dxmath.xmstoreint
 ms.topic: function
-f1_keywords: ["directxmath/XMStoreInt"]
+f1_keywords: 
+ - "directxmath/XMStoreInt"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

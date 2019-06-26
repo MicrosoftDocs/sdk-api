@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
 ms.topic: function
-f1_keywords: ["memoryapi/SetProcessValidCallTargets"]
+f1_keywords: 
+ - "memoryapi/SetProcessValidCallTargets"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

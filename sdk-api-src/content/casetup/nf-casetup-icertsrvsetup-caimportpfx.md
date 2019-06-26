@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.CAImportPFX"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.CAImportPFX"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

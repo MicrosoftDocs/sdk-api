@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCompositionCreateDevice, DCompositionCreateDevice function [DirectComposition], dcomp/DCompositionCreateDevice, directcomp.dcompositioncreatedevice
 ms.topic: function
-f1_keywords: ["dcomp/DCompositionCreateDevice"]
+f1_keywords: 
+ - "dcomp/DCompositionCreateDevice"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

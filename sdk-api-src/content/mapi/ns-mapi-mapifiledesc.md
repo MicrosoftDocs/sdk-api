@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*lpMapiFileDesc, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDesc, MapiFileDesc structure, lpMapiFileDesc, lpMapiFileDesc structure pointer, mapi.mapifiledesc, mapi/MapiFileDesc, mapi/lpMapiFileDesc"
 ms.topic: struct
-f1_keywords: ["mapi/MapiFileDesc"]
+f1_keywords: 
+ - "mapi/MapiFileDesc"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

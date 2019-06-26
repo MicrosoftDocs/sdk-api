@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetNativeDisplayOrientation method, IApplicationDesignModeSettings2.SetNativeDisplayOrientation, IApplicationDesignModeSettings2::SetNativeDisplayOrientation, NDO_LANDSCAPE, NDO_PORTRAIT, SetNativeDisplayOrientation, SetNativeDisplayOrientation method [Windows Shell], SetNativeDisplayOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetNativeDisplayOrientation, shobjidl_core/IApplicationDesignModeSettings2::SetNativeDisplayOrientation
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings2.SetNativeDisplayOrientation"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDesignModeSettings2.SetNativeDisplayOrientation"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

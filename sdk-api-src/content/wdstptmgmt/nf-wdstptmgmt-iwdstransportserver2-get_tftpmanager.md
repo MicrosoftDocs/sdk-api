@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer2 interface [Windows Deployment Services],TftpManager property, IWdsTransportServer2.TftpManager, IWdsTransportServer2.get_TftpManager, IWdsTransportServer2::TftpManager, IWdsTransportServer2::get_TftpManager, TftpManager property [Windows Deployment Services], TftpManager property [Windows Deployment Services],IWdsTransportServer2 interface, get_TftpManager, wds.iwdstransportserver2_tftpmanager, wdstptmgmt/IWdsTransportServer2::TftpManager, wdstptmgmt/IWdsTransportServer2::get_TftpManager
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServer2.TftpManager"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServer2.TftpManager"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

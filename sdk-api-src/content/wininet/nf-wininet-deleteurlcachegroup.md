@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_deleteurlcachegroup_function, wininet.deleteurlcachegroup, wininet/DeleteUrlCacheGroup
 ms.topic: function
-f1_keywords: ["wininet/DeleteUrlCacheGroup"]
+f1_keywords: 
+ - "wininet/DeleteUrlCacheGroup"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

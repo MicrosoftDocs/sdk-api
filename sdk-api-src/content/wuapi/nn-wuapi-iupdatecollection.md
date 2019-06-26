@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], IUpdateCollection interface [Windows Update Agent],described, wua.iupdatecollection, wuapi/IUpdateCollection
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateCollection"]
+f1_keywords: 
+ - "wuapi/IUpdateCollection"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

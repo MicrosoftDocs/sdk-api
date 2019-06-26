@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_Dir, ComboBox_Dir macro [Windows Controls], _win32_ComboBox_Dir, _win32_ComboBox_Dir_cpp, controls.ComboBox_Dir, controls._win32_ComboBox_Dir, windowsx/ComboBox_Dir
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_Dir"]
+f1_keywords: 
+ - "windowsx/ComboBox_Dir"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

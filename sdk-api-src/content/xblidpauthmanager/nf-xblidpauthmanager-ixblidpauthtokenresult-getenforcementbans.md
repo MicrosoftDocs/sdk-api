@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnforcementBans method, IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetEnforcementBans"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetEnforcementBans"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

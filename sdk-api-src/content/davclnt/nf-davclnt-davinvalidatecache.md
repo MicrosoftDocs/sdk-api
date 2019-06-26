@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/DavInvalidateCache, webdav.davinvalidatecache
 ms.topic: function
-f1_keywords: ["davclnt/DavInvalidateCache"]
+f1_keywords: 
+ - "davclnt/DavInvalidateCache"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

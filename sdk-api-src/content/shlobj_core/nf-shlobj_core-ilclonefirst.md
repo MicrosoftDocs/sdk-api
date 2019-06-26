@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILCloneFirst, ILCloneFirst function [Windows Shell], _win32_ILCloneFirst, shell.ILCloneFirst, shlobj_core/ILCloneFirst
 ms.topic: function
-f1_keywords: ["shlobj_core/ILCloneFirst"]
+f1_keywords: 
+ - "shlobj_core/ILCloneFirst"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

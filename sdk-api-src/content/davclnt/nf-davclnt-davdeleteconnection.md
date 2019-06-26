@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavDeleteConnection, DavDeleteConnection function [WebDAV], davclnt/DavDeleteConnection, webdav.davdeleteconnection
 ms.topic: function
-f1_keywords: ["davclnt/DavDeleteConnection"]
+f1_keywords: 
+ - "davclnt/DavDeleteConnection"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

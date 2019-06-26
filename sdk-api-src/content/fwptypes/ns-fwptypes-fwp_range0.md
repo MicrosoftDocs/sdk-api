@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_RANGE0, FWP_RANGE0 structure [Filtering], fwp.fwp_range0, fwptypes/FWP_RANGE0
 ms.topic: struct
-f1_keywords: ["fwptypes/FWP_RANGE0"]
+f1_keywords: 
+ - "fwptypes/FWP_RANGE0"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

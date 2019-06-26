@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS
 ms.topic: macro
-f1_keywords: ["combaseapi/IID_PPV_ARGS"]
+f1_keywords: 
+ - "combaseapi/IID_PPV_ARGS"
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

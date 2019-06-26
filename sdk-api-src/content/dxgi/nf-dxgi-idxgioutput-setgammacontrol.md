@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1363de75-ecbe-4dfc-a09c-6cb809f2a5cf, IDXGIOutput interface [DXGI],SetGammaControl method, IDXGIOutput.SetGammaControl, IDXGIOutput::SetGammaControl, SetGammaControl, SetGammaControl method [DXGI], SetGammaControl method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_setgammacontrol, dxgi/IDXGIOutput::SetGammaControl
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIOutput.SetGammaControl"]
+f1_keywords: 
+ - "dxgi/IDXGIOutput.SetGammaControl"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

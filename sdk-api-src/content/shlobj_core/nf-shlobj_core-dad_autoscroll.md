@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
 ms.topic: function
-f1_keywords: ["shlobj_core/DAD_AutoScroll"]
+f1_keywords: 
+ - "shlobj_core/DAD_AutoScroll"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

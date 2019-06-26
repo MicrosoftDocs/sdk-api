@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.AddressOfMember"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.AddressOfMember"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

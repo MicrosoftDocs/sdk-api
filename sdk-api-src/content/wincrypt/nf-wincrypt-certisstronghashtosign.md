@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertIsStrongHashToSign, CertIsStrongHashToSign function [Security], security.certisstronghashtosign, wincrypt/CertIsStrongHashToSign
 ms.topic: function
-f1_keywords: ["wincrypt/CertIsStrongHashToSign"]
+f1_keywords: 
+ - "wincrypt/CertIsStrongHashToSign"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

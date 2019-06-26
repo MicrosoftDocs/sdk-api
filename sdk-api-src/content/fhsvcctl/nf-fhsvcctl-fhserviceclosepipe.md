@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsvcctl/FhServiceClosePipe, winprog.fhserviceclosepipe
 ms.topic: function
-f1_keywords: ["fhsvcctl/FhServiceClosePipe"]
+f1_keywords: 
+ - "fhsvcctl/FhServiceClosePipe"
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

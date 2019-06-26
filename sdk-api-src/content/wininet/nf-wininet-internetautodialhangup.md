@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], _inet_internetautodialhangup_function, wininet.internetautodialhangup, winineti/InternetAutodialHangup
 ms.topic: function
-f1_keywords: ["wininet/InternetAutodialHangup"]
+f1_keywords: 
+ - "wininet/InternetAutodialHangup"
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

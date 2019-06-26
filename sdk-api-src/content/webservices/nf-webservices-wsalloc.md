@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
 ms.topic: function
-f1_keywords: ["webservices/WsAlloc"]
+f1_keywords: 
+ - "webservices/WsAlloc"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

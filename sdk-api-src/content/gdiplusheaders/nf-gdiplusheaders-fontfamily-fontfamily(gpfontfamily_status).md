@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(GpFontFamily,Status), FontFamily::FontFamily, FontFamily::FontFamily(GpFontFamily,Status), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
 ms.topic: method
-f1_keywords: ["gdiplusheaders/FontFamily.FontFamily"]
+f1_keywords: 
+ - "gdiplusheaders/FontFamily.FontFamily"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

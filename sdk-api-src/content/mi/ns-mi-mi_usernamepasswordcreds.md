@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_UsernamePasswordCreds, MI_UsernamePasswordCreds structure [Windows Management Infrastructure (MI)], mi/MI_UsernamePasswordCreds, wmi._mi_usernamepasswordcreds, wmi_v2.mi_usernamepasswordcreds
 ms.topic: struct
-f1_keywords: ["mi/MI_UsernamePasswordCreds"]
+f1_keywords: 
+ - "mi/MI_UsernamePasswordCreds"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

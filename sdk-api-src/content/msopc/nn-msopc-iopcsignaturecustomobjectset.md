@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectSet, opc.iopcsignaturecustomobjectset
 ms.topic: interface
-f1_keywords: ["msopc/IOpcSignatureCustomObjectSet"]
+f1_keywords: 
+ - "msopc/IOpcSignatureCustomObjectSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

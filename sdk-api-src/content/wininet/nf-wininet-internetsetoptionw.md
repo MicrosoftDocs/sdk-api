@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetSetOption, InternetSetOption function [WinINet], InternetSetOptionA, InternetSetOptionW, _inet_internetsetoption_function, wininet.internetsetoption, wininet/InternetSetOption, wininet/InternetSetOptionA, wininet/InternetSetOptionW
 ms.topic: function
-f1_keywords: ["wininet/InternetSetOption"]
+f1_keywords: 
+ - "wininet/InternetSetOption"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

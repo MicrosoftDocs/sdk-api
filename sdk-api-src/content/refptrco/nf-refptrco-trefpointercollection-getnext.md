@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
 ms.topic: method
-f1_keywords: ["refptrco/TRefPointerCollection.GetNext"]
+f1_keywords: 
+ - "refptrco/TRefPointerCollection.GetNext"
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct3D 9], GetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPaletteEntries method, IDirect3DDevice9.GetPaletteEntries, IDirect3DDevice9::GetPaletteEntries, c99163c4-eea0-1af6-c7fd-c8d1cfd3d969, d3d9helper/IDirect3DDevice9::GetPaletteEntries, direct3d9.idirect3ddevice9__getpaletteentries
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.GetPaletteEntries"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.GetPaletteEntries"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

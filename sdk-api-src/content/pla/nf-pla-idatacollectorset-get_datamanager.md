@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataManager property, IDataCollectorSet.DataManager, IDataCollectorSet.get_DataManager, IDataCollectorSet::DataManager, IDataCollectorSet::get_DataManager, base.idatacollectorset_get_datamanager, get_DataManager, pla.idatacollectorset_get_datamanager, pla/IDataCollectorSet::DataManager, pla/IDataCollectorSet::get_DataManager
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.DataManager"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.DataManager"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

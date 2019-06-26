@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_VARIABLE_DESC, D3D11_SHADER_VARIABLE_DESC structure [Direct3D 11], cfce73ab-af25-fa7f-0d0a-e49af39dc5d8, d3d11shader/D3D11_SHADER_VARIABLE_DESC, direct3d11.d3d11_shader_variable_desc
 ms.topic: struct
-f1_keywords: ["d3d11shader/D3D11_SHADER_VARIABLE_DESC"]
+f1_keywords: 
+ - "d3d11shader/D3D11_SHADER_VARIABLE_DESC"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

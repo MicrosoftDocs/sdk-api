@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_FEATURE, DWRITE_FONT_FEATURE structure [Direct Write], directwrite.dwrite_font_feature, dwrite/DWRITE_FONT_FEATURE
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_FONT_FEATURE"]
+f1_keywords: 
+ - "dwrite/DWRITE_FONT_FEATURE"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

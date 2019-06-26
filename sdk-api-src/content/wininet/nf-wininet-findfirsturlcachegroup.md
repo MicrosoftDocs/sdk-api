@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
 ms.topic: function
-f1_keywords: ["wininet/FindFirstUrlCacheGroup"]
+f1_keywords: 
+ - "wininet/FindFirstUrlCacheGroup"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

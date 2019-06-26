@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.get_Height"]
+f1_keywords: 
+ - "control/IVideoWindow.get_Height"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

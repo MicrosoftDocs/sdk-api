@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATORY, PT_ROAMING, PT_ROAMING_PREEXISTING, PT_TEMPORARY, _shell_GetProfileType, shell.GetProfileType, userenv/GetProfileType
 ms.topic: function
-f1_keywords: ["userenv/GetProfileType"]
+f1_keywords: 
+ - "userenv/GetProfileType"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

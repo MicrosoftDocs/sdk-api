@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
 ms.topic: method
-f1_keywords: ["rendezvoussession/IRendezvousSession.SendContextData"]
+f1_keywords: 
+ - "rendezvoussession/IRendezvousSession.SendContextData"
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

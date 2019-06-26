@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
 ms.topic: method
-f1_keywords: ["objidl/IAdviseSink.OnDataChange"]
+f1_keywords: 
+ - "objidl/IAdviseSink.OnDataChange"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

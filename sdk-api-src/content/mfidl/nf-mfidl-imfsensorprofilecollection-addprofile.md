@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddProfile, AddProfile method [Media Foundation], AddProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],AddProfile method, IMFSensorProfileCollection.AddProfile, IMFSensorProfileCollection::AddProfile, mf.imfsensorprofilecollection_addprofile, mfidl/IMFSensorProfileCollection::AddProfile
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorProfileCollection.AddProfile"]
+f1_keywords: 
+ - "mfidl/IMFSensorProfileCollection.AddProfile"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

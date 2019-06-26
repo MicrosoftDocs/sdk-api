@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientInfo, DhcpDeleteClientInfo function [DHCP], dhcp.dhcpdeleteclientinfo, dhcpsapi/DhcpDeleteClientInfo
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpDeleteClientInfo"]
+f1_keywords: 
+ - "dhcpsapi/DhcpDeleteClientInfo"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

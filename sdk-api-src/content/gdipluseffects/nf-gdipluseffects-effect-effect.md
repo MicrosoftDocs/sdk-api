@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Effect, Effect class [GDI+],Effect constructor, Effect constructor [GDI+], Effect constructor [GDI+],Effect class, Effect.Effect, Effect::Effect, _gdiplus_CLASS_Effect_Effect_, gdiplus._gdiplus_CLASS_Effect_Effect_
 ms.topic: method
-f1_keywords: ["gdipluseffects/Effect.Effect"]
+f1_keywords: 
+ - "gdipluseffects/Effect.Effect"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

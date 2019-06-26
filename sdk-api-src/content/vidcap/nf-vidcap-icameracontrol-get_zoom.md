@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Zoom method, ICameraControl.get_Zoom, ICameraControl::get_Zoom, ICameraControlget_Zoom, dshow.icameracontrol_get_zoom, get_Zoom, get_Zoom method [DirectShow], get_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Zoom
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_Zoom"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_Zoom"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

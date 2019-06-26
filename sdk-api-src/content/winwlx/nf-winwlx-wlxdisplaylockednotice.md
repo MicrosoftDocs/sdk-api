@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security], _gina_wlxdisplaylockednotice, security.wlxdisplaylockednotice, winwlx/WlxDisplayLockedNotice
 ms.topic: function
-f1_keywords: ["winwlx/WlxDisplayLockedNotice"]
+f1_keywords: 
+ - "winwlx/WlxDisplayLockedNotice"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],SetSource method, IMFImageSharingEngine.SetSource, IMFImageSharingEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_setsource, mfsharingengine/IMFImageSharingEngine::SetSource
 ms.topic: method
-f1_keywords: ["mfsharingengine/IMFImageSharingEngine.SetSource"]
+f1_keywords: 
+ - "mfsharingengine/IMFImageSharingEngine.SetSource"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

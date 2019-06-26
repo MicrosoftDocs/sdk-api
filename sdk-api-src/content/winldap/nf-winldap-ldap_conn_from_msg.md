@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_conn_from_msg, ldap.ldap__conn__from__msg, ldap.ldap_conn_from_msg, ldap_conn_from_msg, ldap_conn_from_msg function [LDAP], winldap/ldap_conn_from_msg"
 ms.topic: function
-f1_keywords: ["winldap/ldap_conn_from_msg"]
+f1_keywords: 
+ - "winldap/ldap_conn_from_msg"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

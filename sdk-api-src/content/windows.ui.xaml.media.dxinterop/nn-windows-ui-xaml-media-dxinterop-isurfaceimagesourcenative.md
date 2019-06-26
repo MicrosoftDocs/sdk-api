@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], ISurfaceImageSourceNative interface [Windows Runtime],described, windows/ISurfaceImageSourceNative, winrt.isurfaceimagesourcenative
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative"]
+f1_keywords: 
+ - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative"
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetAt method, IObjectArray.GetAt, IObjectArray::GetAt, _shell_IObjectArray_GetAt, objectarray/IObjectArray::GetAt, shell.IObjectArray_GetAt
 ms.topic: method
-f1_keywords: ["objectarray/IObjectArray.GetAt"]
+f1_keywords: 
+ - "objectarray/IObjectArray.GetAt"
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

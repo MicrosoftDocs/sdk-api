@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_EAS interface [Microsoft TV Technologies],described, ISCTE_EASInterface, atscpsipparser/ISCTE_EAS, mstv.iscte_eas
 ms.topic: interface
-f1_keywords: ["atscpsipparser/ISCTE_EAS"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

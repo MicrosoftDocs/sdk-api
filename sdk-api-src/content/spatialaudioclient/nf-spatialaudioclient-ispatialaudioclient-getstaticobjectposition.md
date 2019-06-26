@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStaticObjectPosition, GetStaticObjectPosition method [Core Audio], GetStaticObjectPosition method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetStaticObjectPosition method, ISpatialAudioClient.GetStaticObjectPosition, ISpatialAudioClient::GetStaticObjectPosition, coreaudio.ispatialaudioclient_getstaticobjectposition, spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioClient.GetStaticObjectPosition"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioClient.GetStaticObjectPosition"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

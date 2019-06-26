@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceProperties.Cancel, IPortableDeviceProperties::Cancel, IPortableDevicePropertiesCancel, portabledeviceapi/IPortableDeviceProperties::Cancel, wpdsdk.iportabledeviceproperties_cancel
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceProperties.Cancel"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceProperties.Cancel"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

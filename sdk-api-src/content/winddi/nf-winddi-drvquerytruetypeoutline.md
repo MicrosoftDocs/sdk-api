@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryTrueTypeOutline, DrvQueryTrueTypeOutline function [Display Devices], ddifncs_77215092-0dde-45d4-93f2-11a7b9e69360.xml, display.drvquerytruetypeoutline, winddi/DrvQueryTrueTypeOutline
 ms.topic: function
-f1_keywords: ["winddi/DrvQueryTrueTypeOutline"]
+f1_keywords: 
+ - "winddi/DrvQueryTrueTypeOutline"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
 ms.topic: function
-f1_keywords: ["msctf/TF_GetThreadMgr"]
+f1_keywords: 
+ - "msctf/TF_GetThreadMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

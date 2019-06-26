@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetMaxPixelRate method, IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
 ms.topic: method
-f1_keywords: ["vpconfig/IVPBaseConfig.GetMaxPixelRate"]
+f1_keywords: 
+ - "vpconfig/IVPBaseConfig.GetMaxPixelRate"
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

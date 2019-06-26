@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState, put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

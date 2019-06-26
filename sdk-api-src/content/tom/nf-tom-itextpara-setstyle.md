@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetStyle method, ITextPara.SetStyle, ITextPara::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextPara interface, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
 ms.topic: method
-f1_keywords: ["tom/ITextPara.SetStyle"]
+f1_keywords: 
+ - "tom/ITextPara.SetStyle"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

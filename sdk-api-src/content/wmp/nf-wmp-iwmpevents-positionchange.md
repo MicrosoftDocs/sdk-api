@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PositionChange method, IWMPEvents.PositionChange, IWMPEvents::PositionChange, IWMPEventsPositionChange, PositionChange, PositionChange method [Windows Media Player], PositionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__positionchange, wmp/IWMPEvents::PositionChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.PositionChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.PositionChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

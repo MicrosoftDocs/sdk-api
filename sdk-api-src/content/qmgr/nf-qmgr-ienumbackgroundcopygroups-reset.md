@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Reset method, IEnumBackgroundCopyGroups.Reset, IEnumBackgroundCopyGroups::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_reset, qmgr/IEnumBackgroundCopyGroups::Reset
 ms.topic: method
-f1_keywords: ["qmgr/IEnumBackgroundCopyGroups.Reset"]
+f1_keywords: 
+ - "qmgr/IEnumBackgroundCopyGroups.Reset"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

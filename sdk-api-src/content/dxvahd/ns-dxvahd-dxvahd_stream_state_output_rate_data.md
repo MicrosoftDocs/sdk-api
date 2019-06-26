@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, mf.dxvahd_stream_state_output_rate_data
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

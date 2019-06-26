@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.widenpath, wingdi/WidenPath
 ms.topic: function
-f1_keywords: ["wingdi/WidenPath"]
+f1_keywords: 
+ - "wingdi/WidenPath"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

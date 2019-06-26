@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SolidColorBrush interface [Direct2D],SetColor method, ID2D1SolidColorBrush.SetColor, ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F), ID2D1SolidColorBrush::SetColor, ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SolidColorBrush interface, d2d1/ID2D1SolidColorBrush::SetColor, direct2d.ID2D1SolidColorBrush_SetColor_ptr_COLOR_F
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1SolidColorBrush.SetColor"]
+f1_keywords: 
+ - "d2d1/ID2D1SolidColorBrush.SetColor"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

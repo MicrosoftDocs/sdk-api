@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDIAG_SOCK_ADDR, DIAG_SOCKADDR, DIAG_SOCKADDR structure [NDF], PDIAG_SOCKADDR, PDIAG_SOCKADDR structure pointer [NDF], ndattrib/DIAG_SOCKADDR, ndattrib/PDIAG_SOCKADDR, ndf.diag_sockaddr, tagSOCK_ADDR"
 ms.topic: struct
-f1_keywords: ["ndattrib/DIAG_SOCKADDR"]
+f1_keywords: 
+ - "ndattrib/DIAG_SOCKADDR"
 req.header: ndattrib.h
 req.include-header: NDHelper.h
 req.target-type: Windows

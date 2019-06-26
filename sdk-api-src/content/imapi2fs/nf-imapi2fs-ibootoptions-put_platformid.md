@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],put_PlatformId method, IBootOptions.put_PlatformId, IBootOptions::put_PlatformId, imapi.ibootoptions_put_platformid, imapi2fs/IBootOptions::put_PlatformId, put_PlatformId, put_PlatformId method [IMAPI], put_PlatformId method [IMAPI],IBootOptions interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IBootOptions.put_PlatformId"]
+f1_keywords: 
+ - "imapi2fs/IBootOptions.put_PlatformId"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

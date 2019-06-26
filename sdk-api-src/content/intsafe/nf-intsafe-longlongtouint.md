@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int64ToSizeT, Int64ToUInt, Int64ToUIntPtr, Int64ToULongPtr, LongLongToUInt, LongLongToUInt function [Windows Shell], intsafe/LongLongToUInt, shell.LongLongToUInt
 ms.topic: function
-f1_keywords: ["intsafe/LongLongToUInt"]
+f1_keywords: 
+ - "intsafe/LongLongToUInt"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

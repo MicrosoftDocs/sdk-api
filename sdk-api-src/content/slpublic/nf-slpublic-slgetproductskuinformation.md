@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_AUTHOR, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_NAME, security.slgetproductskuinformation, slpublic/SLGetProductSkuInformation
 ms.topic: function
-f1_keywords: ["slpublic/SLGetProductSkuInformation"]
+f1_keywords: 
+ - "slpublic/SLGetProductSkuInformation"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKDHELP64, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64"
 ms.topic: struct
-f1_keywords: ["dbghelp/KDHELP64"]
+f1_keywords: 
+ - "dbghelp/KDHELP64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

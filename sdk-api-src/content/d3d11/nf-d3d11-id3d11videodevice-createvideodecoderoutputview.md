@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView method [Media Foundation], CreateVideoDecoderOutputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoderOutputView method, ID3D11VideoDevice.CreateVideoDecoderOutputView, ID3D11VideoDevice::CreateVideoDecoderOutputView, d3d11/ID3D11VideoDevice::CreateVideoDecoderOutputView, mf.id3d11videodevice_createvideodecoderoutputview
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoDevice.CreateVideoDecoderOutputView"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoDevice.CreateVideoDecoderOutputView"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

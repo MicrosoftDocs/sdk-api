@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFullCropRegion, GetFullCropRegion method [Media Foundation], GetFullCropRegion method [Media Foundation],IWMResizerProps interface, IWMResizerProps interface [Media Foundation],GetFullCropRegion method, IWMResizerProps.GetFullCropRegion, IWMResizerProps::GetFullCropRegion, codecapi.iwmresizerpropsgetfullcropregion, mf.iwmresizerpropsgetfullcropregion, wmcodecdsp/IWMResizerProps::GetFullCropRegion
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMResizerProps.GetFullCropRegion"]
+f1_keywords: 
+ - "wmcodecdsp/IWMResizerProps.GetFullCropRegion"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

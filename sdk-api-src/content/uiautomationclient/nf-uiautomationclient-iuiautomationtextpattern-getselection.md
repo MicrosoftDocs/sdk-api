@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetSelection method, IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextPattern.GetSelection"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextPattern.GetSelection"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

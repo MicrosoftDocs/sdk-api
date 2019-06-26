@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPersistentIScsiDeviceA, AddPersistentIscsiDevice, AddPersistentIscsiDevice function [iSCSI Discovery Library API], AddPersistentIscsiDeviceA, AddPersistentIscsiDeviceW, AddPersistentiScsiDevice, iscsidisc.addpersistentiscsidevice, iscsidsc/AddPersistentIscsiDevice, iscsidsc/AddPersistentIscsiDeviceA, iscsidsc/AddPersistentIscsiDeviceW
 ms.topic: function
-f1_keywords: ["iscsidsc/AddPersistentIscsiDevice"]
+f1_keywords: 
+ - "iscsidsc/AddPersistentIscsiDevice"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

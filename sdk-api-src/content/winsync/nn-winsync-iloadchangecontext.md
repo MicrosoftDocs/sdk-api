@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
 ms.topic: interface
-f1_keywords: ["winsync/ILoadChangeContext"]
+f1_keywords: 
+ - "winsync/ILoadChangeContext"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

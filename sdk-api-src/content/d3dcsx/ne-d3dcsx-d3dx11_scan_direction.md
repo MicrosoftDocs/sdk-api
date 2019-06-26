@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DX11_SCAN_DIRECTION, D3DX11_SCAN_DIRECTION enumeration [Direct3D 11], D3DX11_SCAN_DIRECTION_BACKWARD, D3DX11_SCAN_DIRECTION_FORWARD, d15d15a2-7d9f-af63-6396-dc4819d59098, d3dcsx/D3DX11_SCAN_DIRECTION, d3dcsx/D3DX11_SCAN_DIRECTION_BACKWARD, d3dcsx/D3DX11_SCAN_DIRECTION_FORWARD, direct3d11.d3dx11_scan_direction
 ms.topic: enum
-f1_keywords: ["d3dcsx/D3DX11_SCAN_DIRECTION"]
+f1_keywords: 
+ - "d3dcsx/D3DX11_SCAN_DIRECTION"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

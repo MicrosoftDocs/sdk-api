@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE, DS_REPSYNCALL_CROSS_SITE_BOUNDARIES, DS_REPSYNCALL_DO_NOT_SYNC, DS_REPSYNCALL_ID_SERVERS_BY_DN, DS_REPSYNCALL_NO_OPTIONS, DS_REPSYNCALL_PUSH_CHANGES_OUTWARD, DS_REPSYNCALL_SKIP_INITIAL_CHECK, DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY, DsReplicaSyncAll, DsReplicaSyncAll function [Active Directory], DsReplicaSyncAllA, DsReplicaSyncAllW, ad.dsreplicasyncall, ntdsapi/DsReplicaSyncAll, ntdsapi/DsReplicaSyncAllA, ntdsapi/DsReplicaSyncAllW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsReplicaSyncAll"]
+f1_keywords: 
+ - "ntdsapi/DsReplicaSyncAll"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

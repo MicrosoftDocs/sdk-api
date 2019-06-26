@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Skip method, IEnumComponents.Skip, IEnumComponents::Skip, IEnumComponentsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_skip, tuner/IEnumComponents::Skip
 ms.topic: method
-f1_keywords: ["tuner/IEnumComponents.Skip"]
+f1_keywords: 
+ - "tuner/IEnumComponents.Skip"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

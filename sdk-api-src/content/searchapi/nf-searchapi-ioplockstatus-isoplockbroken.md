@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockBroken method, IOpLockStatus.IsOplockBroken, IOpLockStatus::IsOplockBroken, IsOplockBroken, IsOplockBroken method [search], IsOplockBroken method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockBroken, search._search_IOpLockStatus_IsOplockBroken, searchapi/IOpLockStatus::IsOplockBroken
 ms.topic: method
-f1_keywords: ["searchapi/IOpLockStatus.IsOplockBroken"]
+f1_keywords: 
+ - "searchapi/IOpLockStatus.IsOplockBroken"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

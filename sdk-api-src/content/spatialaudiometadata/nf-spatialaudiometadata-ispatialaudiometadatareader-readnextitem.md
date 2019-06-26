@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItem method, ISpatialAudioMetadataReader.ReadNextItem, ISpatialAudioMetadataReader::ReadNextItem, ReadNextItem, ReadNextItem method [Core Audio], ReadNextItem method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitem, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItem
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItem"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataReader.ReadNextItem"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster], ResUtilEnumResourcesEx, ResUtilEnumResourcesEx function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX, resapi/ResUtilEnumResourcesEx
 ms.topic: function
-f1_keywords: ["resapi/ResUtilEnumResourcesEx"]
+f1_keywords: 
+ - "resapi/ResUtilEnumResourcesEx"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpSetVb"]
+f1_keywords: 
+ - "winsnmp/SnmpSetVb"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],Remove method, ICertProperties.Remove, ICertProperties::Remove, Remove, Remove method [Security], Remove method [Security],ICertProperties interface, certenroll/ICertProperties::Remove, security.icertproperties_remove_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperties.Remove"]
+f1_keywords: 
+ - "certenroll/ICertProperties.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewConnection2, MprAdminAcceptNewConnection2 callback, MprAdminAcceptNewConnection2 callback function [RAS], _mpr_mpradminacceptnewconnection2, mprapi/MprAdminAcceptNewConnection2, rras.mpradminacceptnewconnection2
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminAcceptNewConnection2"]
+f1_keywords: 
+ - "mprapi/MprAdminAcceptNewConnection2"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNameA, GetShortPathNameW, _win32_getshortpathname, base.getshortpathname, fileapi/GetShortPathName, fileapi/GetShortPathNameA, fileapi/GetShortPathNameW, fs.getshortpathname, winbase/GetShortPathName, winbase/GetShortPathNameA, winbase/GetShortPathNameW
 ms.topic: function
-f1_keywords: ["fileapi/GetShortPathName"]
+f1_keywords: 
+ - "fileapi/GetShortPathName"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

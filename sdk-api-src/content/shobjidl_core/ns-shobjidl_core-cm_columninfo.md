@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_COLUMNINFO, CM_COLUMNINFO structure [Windows Shell], shell.CM_COLUMNINFO, shell_CM_COLUMNINFO, shobjidl_core/CM_COLUMNINFO
 ms.topic: struct
-f1_keywords: ["shobjidl_core/CM_COLUMNINFO"]
+f1_keywords: 
+ - "shobjidl_core/CM_COLUMNINFO"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

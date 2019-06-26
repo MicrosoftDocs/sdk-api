@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4ae96918-c884-060a-690a-7632d7df6622, ID3DX11Scan interface [Direct3D 11],Scan method, ID3DX11Scan.Scan, ID3DX11Scan::Scan, Scan, Scan method [Direct3D 11], Scan method [Direct3D 11],ID3DX11Scan interface, d3dcsx/ID3DX11Scan::Scan, direct3d11.id3dx11scan_scan
 ms.topic: method
-f1_keywords: ["d3dcsx/ID3DX11Scan.Scan"]
+f1_keywords: 
+ - "d3dcsx/ID3DX11Scan.Scan"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

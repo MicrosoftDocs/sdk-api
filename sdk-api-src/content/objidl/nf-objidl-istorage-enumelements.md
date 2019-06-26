@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
 ms.topic: method
-f1_keywords: ["objidl/IStorage.EnumElements"]
+f1_keywords: 
+ - "objidl/IStorage.EnumElements"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

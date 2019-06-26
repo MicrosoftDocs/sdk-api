@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedBoundingRectangle property [Windows Accessibility], CachedBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedBoundingRectangle property, IUIAutomationElement.CachedBoundingRectangle, IUIAutomationElement.get_CachedBoundingRectangle, IUIAutomationElement::CachedBoundingRectangle, IUIAutomationElement::get_CachedBoundingRectangle, get_CachedBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CachedBoundingRectangle, uiauto_IUIAutomationElement_CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CachedBoundingRectangle, winauto.uiauto_IUIAutomationElement_CachedBoundingRectangle
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedBoundingRectangle"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CachedBoundingRectangle"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

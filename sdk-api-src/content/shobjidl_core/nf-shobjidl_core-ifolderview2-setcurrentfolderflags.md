@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetCurrentFolderFlags method, IFolderView2.SetCurrentFolderFlags, IFolderView2::SetCurrentFolderFlags, SetCurrentFolderFlags, SetCurrentFolderFlags method [Windows Shell], SetCurrentFolderFlags method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetCurrentFolderFlags, shell.IFolderView2_SetCurrentFolderFlags, shobjidl_core/IFolderView2::SetCurrentFolderFlags
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.SetCurrentFolderFlags"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.SetCurrentFolderFlags"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

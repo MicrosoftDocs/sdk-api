@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcedureAddress, GetProcedureAddress method [Media Foundation], GetProcedureAddress method [Media Foundation],IMFSignedLibrary interface, IMFSignedLibrary interface [Media Foundation],GetProcedureAddress method, IMFSignedLibrary.GetProcedureAddress, IMFSignedLibrary::GetProcedureAddress, mf.imfsignedlibrary_getprocedureaddress, mfidl/IMFSignedLibrary::GetProcedureAddress
 ms.topic: method
-f1_keywords: ["mfidl/IMFSignedLibrary.GetProcedureAddress"]
+f1_keywords: 
+ - "mfidl/IMFSignedLibrary.GetProcedureAddress"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

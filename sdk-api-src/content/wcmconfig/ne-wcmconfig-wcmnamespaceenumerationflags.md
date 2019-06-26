@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnumerationFlags, WcmNamespaceEnumerationFlags enumeration [SMI], smi.wcmnamespaceenumerationflags, wcmconfig/AllEnumeration, wcmconfig/SharedEnumeration, wcmconfig/UserEnumeration, wcmconfig/WcmNamespaceEnumerationFlags
 ms.topic: enum
-f1_keywords: ["wcmconfig/WcmNamespaceEnumerationFlags"]
+f1_keywords: 
+ - "wcmconfig/WcmNamespaceEnumerationFlags"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

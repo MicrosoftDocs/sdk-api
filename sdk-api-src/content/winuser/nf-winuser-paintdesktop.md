@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PaintDesktop, PaintDesktop function [Windows GDI], _win32_PaintDesktop, gdi.paintdesktop, winuser/PaintDesktop
 ms.topic: function
-f1_keywords: ["winuser/PaintDesktop"]
+f1_keywords: 
+ - "winuser/PaintDesktop"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

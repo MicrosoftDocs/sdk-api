@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _win32_ENDROPFILES_str, _win32_ENDROPFILES_str_cpp, controls.ENDROPFILES, controls._win32_ENDROPFILES_str, richedit/ENDROPFILES
 ms.topic: struct
-f1_keywords: ["richedit/ENDROPFILES"]
+f1_keywords: 
+ - "richedit/ENDROPFILES"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

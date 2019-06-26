@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwn/IUnknown::Release
 ms.topic: method
-f1_keywords: ["unknwn/IUnknown.Release"]
+f1_keywords: 
+ - "unknwn/IUnknown.Release"
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

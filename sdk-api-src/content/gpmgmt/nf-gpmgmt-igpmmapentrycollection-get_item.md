@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntryCollection class [GPMC],Item property, IGPMMapEntryCollection interface [GPMC],Item property, IGPMMapEntryCollection.Item, IGPMMapEntryCollection.get_Item, IGPMMapEntryCollection::Item, IGPMMapEntryCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMMapEntryCollection class, Item property [GPMC],IGPMMapEntryCollection interface, get_Item, gpmc.igpmmapentrycollection_get_item, gpmgmt/IGPMMapEntryCollection::Item, gpmgmt/IGPMMapEntryCollection::get_Item
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMMapEntryCollection.Item"]
+f1_keywords: 
+ - "gpmgmt/IGPMMapEntryCollection.Item"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

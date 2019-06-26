@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetTag method, IUIAnimationStoryboard.GetTag, IUIAnimationStoryboard::GetTag, uianimation.iuianimationstoryboard_gettag, uianimation/IUIAnimationStoryboard::GetTag
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.GetTag"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.GetTag"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

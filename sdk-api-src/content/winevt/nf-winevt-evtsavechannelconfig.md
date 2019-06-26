@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
 ms.topic: function
-f1_keywords: ["winevt/EvtSaveChannelConfig"]
+f1_keywords: 
+ - "winevt/EvtSaveChannelConfig"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

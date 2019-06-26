@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_TotalTalkTime method, ITAgentSession.get_TotalTalkTime, ITAgentSession::get_TotalTalkTime, _tapi3_itagentsession_get_totaltalktime, get_TotalTalkTime, get_TotalTalkTime method [TAPI 2.2], get_TotalTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_totaltalktime, tapi3cc/ITAgentSession::get_TotalTalkTime
 ms.topic: method
-f1_keywords: ["tapi3/ITAgentSession.get_TotalTalkTime"]
+f1_keywords: 
+ - "tapi3/ITAgentSession.get_TotalTalkTime"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

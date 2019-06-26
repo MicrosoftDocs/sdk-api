@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write], CreateFontFromLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],CreateFontFromLOGFONT method, IDWriteGdiInterop1.CreateFontFromLOGFONT, IDWriteGdiInterop1::CreateFontFromLOGFONT, directwrite.idwritegdiinterop1_createfontfromlogfont, dwrite_3/IDWriteGdiInterop1::CreateFontFromLOGFONT
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteGdiInterop1.CreateFontFromLOGFONT"]
+f1_keywords: 
+ - "dwrite_3/IDWriteGdiInterop1.CreateFontFromLOGFONT"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARITHMETICCOMPOSITE_PROP, D2D1_ARITHMETICCOMPOSITE_PROP enumeration [Direct2D], D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP_COEFFICIENTS, direct2d.d2d1_arithmeticcomposite_prop
 ms.topic: enum
-f1_keywords: ["d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP"]
+f1_keywords: 
+ - "d2d1effects/D2D1_ARITHMETICCOMPOSITE_PROP"
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

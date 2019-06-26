@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectBound method, IBindCtx.RevokeObjectBound, IBindCtx::RevokeObjectBound, RevokeObjectBound, RevokeObjectBound method [COM], RevokeObjectBound method [COM],IBindCtx interface, _com_ibindctx_revokeobjectbound, com.ibindctx_revokeobjectbound, objidl/IBindCtx::RevokeObjectBound
 ms.topic: method
-f1_keywords: ["objidl/IBindCtx.RevokeObjectBound"]
+f1_keywords: 
+ - "objidl/IBindCtx.RevokeObjectBound"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
 ms.topic: method
-f1_keywords: ["netfw/INetFwOpenPorts.Remove"]
+f1_keywords: 
+ - "netfw/INetFwOpenPorts.Remove"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetGammaCorrection method, PathGradientBrush.GetGammaCorrection, PathGradientBrush::GetGammaCorrection, _gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetGammaCorrection_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.GetGammaCorrection"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.GetGammaCorrection"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

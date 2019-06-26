@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendInput, SendInput function [Keyboard and Mouse Input], _win32_SendInput, _win32_sendinput_cpp, inputdev.sendinput, winui._win32_sendinput, winuser/SendInput
 ms.topic: function
-f1_keywords: ["winuser/SendInput"]
+f1_keywords: 
+ - "winuser/SendInput"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

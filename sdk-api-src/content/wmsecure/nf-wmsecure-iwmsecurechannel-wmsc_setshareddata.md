@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_SetSharedData method, IWMSecureChannel.WMSC_SetSharedData, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
 ms.topic: method
-f1_keywords: ["wmsecure/IWMSecureChannel.WMSC_SetSharedData"]
+f1_keywords: 
+ - "wmsecure/IWMSecureChannel.WMSC_SetSharedData"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

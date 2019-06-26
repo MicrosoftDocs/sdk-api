@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP], LPDHCP_DELETE_CLIENT, LPDHCP_DELETE_CLIENT callback, _dhcp_dhcpdeleteclienthook, dhcp.dhcpdeleteclienthook, dhcpssdk/DhcpDeleteClientHook
 ms.topic: callback
-f1_keywords: ["dhcpssdk/DhcpDeleteClientHook"]
+f1_keywords: 
+ - "dhcpssdk/DhcpDeleteClientHook"
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

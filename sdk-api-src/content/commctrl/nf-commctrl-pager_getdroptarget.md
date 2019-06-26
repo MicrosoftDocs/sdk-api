@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], _win32_Pager_GetDropTarget, _win32_Pager_GetDropTarget_cpp, commctrl/Pager_GetDropTarget, controls.Pager_GetDropTarget, controls._win32_Pager_GetDropTarget
 ms.topic: macro
-f1_keywords: ["commctrl/Pager_GetDropTarget"]
+f1_keywords: 
+ - "commctrl/Pager_GetDropTarget"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

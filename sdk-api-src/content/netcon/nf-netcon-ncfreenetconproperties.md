@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
 ms.topic: function
-f1_keywords: ["netcon/NcFreeNetconProperties"]
+f1_keywords: 
+ - "netcon/NcFreeNetconProperties"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

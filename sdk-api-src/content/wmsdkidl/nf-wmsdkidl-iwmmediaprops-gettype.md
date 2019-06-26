@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMediaProps.GetType"]
+f1_keywords: 
+ - "wmsdkidl/IWMMediaProps.GetType"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

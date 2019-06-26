@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
 ms.topic: function
-f1_keywords: ["iscsidsc/SetIscsiInitiatorCHAPSharedSecret"]
+f1_keywords: 
+ - "iscsidsc/SetIscsiInitiatorCHAPSharedSecret"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

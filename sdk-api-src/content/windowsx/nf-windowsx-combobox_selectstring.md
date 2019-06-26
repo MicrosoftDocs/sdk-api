@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Controls], _win32_ComboBox_SelectString, _win32_ComboBox_SelectString_cpp, controls.ComboBox_SelectString, controls._win32_ComboBox_SelectString, windowsx/ComboBox_SelectString
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_SelectString"]
+f1_keywords: 
+ - "windowsx/ComboBox_SelectString"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

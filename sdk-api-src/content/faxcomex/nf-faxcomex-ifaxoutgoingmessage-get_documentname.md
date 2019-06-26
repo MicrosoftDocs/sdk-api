@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DocumentName property, IFaxOutgoingMessage.DocumentName, IFaxOutgoingMessage.get_DocumentName, IFaxOutgoingMessage::DocumentName, IFaxOutgoingMessage::get_DocumentName, _mfax_faxoutgoingmessage.documentname, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentname_cpp, fax._mfax_faxoutgoingmessage_documentname, faxcomex/IFaxOutgoingMessage::DocumentName, faxcomex/IFaxOutgoingMessage::get_DocumentName, get_DocumentName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingMessage.DocumentName"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingMessage.DocumentName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

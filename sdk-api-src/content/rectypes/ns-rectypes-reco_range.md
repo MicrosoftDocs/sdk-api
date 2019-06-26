@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range
 ms.topic: struct
-f1_keywords: ["rectypes/RECO_RANGE"]
+f1_keywords: 
+ - "rectypes/RECO_RANGE"
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

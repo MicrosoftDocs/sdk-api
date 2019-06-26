@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddInstance, AddInstance method, AddInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,AddInstance method, IFunctionDiscovery.AddInstance, IFunctionDiscovery::AddInstance, functiondiscoveryapi/IFunctionDiscovery::AddInstance, ncd.ifunctiondiscovery_addinstance_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionDiscovery.AddInstance"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionDiscovery.AddInstance"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

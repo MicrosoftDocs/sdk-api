@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PATH_INFO"]
+f1_keywords: 
+ - "vdshwprv/VDS_PATH_INFO"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

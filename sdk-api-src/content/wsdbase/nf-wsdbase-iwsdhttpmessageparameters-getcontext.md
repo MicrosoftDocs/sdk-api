@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpMessageParameters.GetContext"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpMessageParameters.GetContext"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

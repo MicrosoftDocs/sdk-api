@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioTreble, IAudioTreble interface [Core Audio], IAudioTreble interface [Core Audio],described, coreaudio.iaudiotreble, devicetopology/IAudioTreble
 ms.topic: interface
-f1_keywords: ["devicetopology/IAudioTreble"]
+f1_keywords: 
+ - "devicetopology/IAudioTreble"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

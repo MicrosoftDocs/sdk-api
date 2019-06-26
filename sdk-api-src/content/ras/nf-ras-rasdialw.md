@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
 ms.topic: function
-f1_keywords: ["ras/RasDial"]
+f1_keywords: 
+ - "ras/RasDial"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
 ms.topic: function
-f1_keywords: ["http/HttpReceiveRequestEntityBody"]
+f1_keywords: 
+ - "http/HttpReceiveRequestEntityBody"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

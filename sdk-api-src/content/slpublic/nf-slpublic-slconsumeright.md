@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
 ms.topic: function
-f1_keywords: ["slpublic/SLConsumeRight"]
+f1_keywords: 
+ - "slpublic/SLConsumeRight"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

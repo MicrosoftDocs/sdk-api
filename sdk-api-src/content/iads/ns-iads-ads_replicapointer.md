@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_REPLICAPOINTER, ADS_REPLICAPOINTER, ADS_REPLICAPOINTER structure [ADSI], PADS_REPLICAPOINTER, PADS_REPLICAPOINTER structure pointer [ADSI], _ds_ads_replicapointer, adsi.ads__replicapointer, adsi.ads_replicapointer, iads/ADS_REPLICAPOINTER, iads/PADS_REPLICAPOINTER"
 ms.topic: struct
-f1_keywords: ["iads/ADS_REPLICAPOINTER"]
+f1_keywords: 
+ - "iads/ADS_REPLICAPOINTER"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

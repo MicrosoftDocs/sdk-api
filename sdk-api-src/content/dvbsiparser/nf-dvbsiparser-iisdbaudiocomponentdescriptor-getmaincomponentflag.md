@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMainComponentFlag, GetMainComponentFlag method [Microsoft TV Technologies], GetMainComponentFlag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetMainComponentFlag method, IIsdbAudioComponentDescriptor.GetMainComponentFlag, IIsdbAudioComponentDescriptor::GetMainComponentFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetMainComponentFlag, mstv.iisdbaudiocomponentdescriptor_getmaincomponentflag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbAudioComponentDescriptor.GetMainComponentFlag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbAudioComponentDescriptor.GetMainComponentFlag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

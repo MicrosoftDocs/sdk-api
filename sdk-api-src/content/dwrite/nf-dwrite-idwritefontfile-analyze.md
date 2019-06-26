@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Analyze, Analyze method [Direct Write], Analyze method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],Analyze method, IDWriteFontFile.Analyze, IDWriteFontFile::Analyze, directwrite.IDWriteFontFile_Analyze, dwrite/IDWriteFontFile::Analyze
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFile.Analyze"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFile.Analyze"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

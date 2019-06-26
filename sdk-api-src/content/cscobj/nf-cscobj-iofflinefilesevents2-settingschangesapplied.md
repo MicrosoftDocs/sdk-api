@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],SettingsChangesApplied method, IOfflineFilesEvents2.SettingsChangesApplied, IOfflineFilesEvents2::SettingsChangesApplied, SettingsChangesApplied, SettingsChangesApplied method [Offline Files], SettingsChangesApplied method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::SettingsChangesApplied, of.iofflinefilesevents2_settingschangesapplied
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents2.SettingsChangesApplied"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents2.SettingsChangesApplied"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

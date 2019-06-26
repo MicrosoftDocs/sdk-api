@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCommitRequestHandler.OnCommitRequested, IInkCommitRequestHandler::OnCommitRequested, InkPresenterDesktop.iinkcommitrequesthandler_oncommitrequested, OnCommitRequested, OnCommitRequested method, OnCommitRequested method,IInkCommitRequestHandler interface, inkpresenterdesktop/IInkCommitRequestHandler::OnCommitRequested, input_ink.iinkcommitrequesthandler_oncommitrequested
 ms.topic: method
-f1_keywords: ["inkpresenterdesktop/IInkCommitRequestHandler.OnCommitRequested"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkCommitRequestHandler.OnCommitRequested"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

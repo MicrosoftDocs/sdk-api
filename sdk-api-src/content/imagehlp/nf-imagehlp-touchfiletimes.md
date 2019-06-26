@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
 ms.topic: function
-f1_keywords: ["imagehlp/TouchFileTimes"]
+f1_keywords: 
+ - "imagehlp/TouchFileTimes"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

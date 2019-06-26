@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface
 ms.topic: method
-f1_keywords: ["comsvcs/IMessageMover.get_CommitBatchSize"]
+f1_keywords: 
+ - "comsvcs/IMessageMover.get_CommitBatchSize"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

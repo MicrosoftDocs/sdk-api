@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationPublisher, GetApplicationPublisher method [Windows Shell], GetApplicationPublisher method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationPublisher method, IHandlerInfo.GetApplicationPublisher, IHandlerInfo::GetApplicationPublisher, shell.IHandlerInfo_GetApplicationPublisher, shobjidl_core/IHandlerInfo::GetApplicationPublisher
 ms.topic: method
-f1_keywords: ["shobjidl_core/IHandlerInfo.GetApplicationPublisher"]
+f1_keywords: 
+ - "shobjidl_core/IHandlerInfo.GetApplicationPublisher"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

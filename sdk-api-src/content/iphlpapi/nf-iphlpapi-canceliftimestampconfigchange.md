@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange function [IP Helper], iphlp.canceliftimestampconfigchange, iphlpapi/CancelIfTimestampConfigChange
 ms.topic: function
-f1_keywords: ["iphlpapi/CancelIfTimestampConfigChange"]
+f1_keywords: 
+ - "iphlpapi/CancelIfTimestampConfigChange"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

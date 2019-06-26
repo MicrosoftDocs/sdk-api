@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STYLE_ACTIVE_SELECTION, STYLE_IMPLIED_SELECTION, TfIntegratableCandidateListSelectionStyle, TfIntegratableCandidateListSelectionStyle enumeration [Text Services Framework], ctffunc/STYLE_ACTIVE_SELECTION, ctffunc/STYLE_IMPLIED_SELECTION, ctffunc/TfIntegratableCandidateListSelectionStyle, tsf.tfintegratablecandidatelistselectionstyle
 ms.topic: enum
-f1_keywords: ["ctffunc/TfIntegratableCandidateListSelectionStyle"]
+f1_keywords: 
+ - "ctffunc/TfIntegratableCandidateListSelectionStyle"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectEvents.OnDisableCommit"]
+f1_keywords: 
+ - "comsvcs/IComObjectEvents.OnDisableCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

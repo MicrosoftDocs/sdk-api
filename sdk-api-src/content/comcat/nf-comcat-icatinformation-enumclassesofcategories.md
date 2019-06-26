@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumClassesOfCategories, EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumClassesOfCategories method, ICatInformation.EnumClassesOfCategories, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
 ms.topic: method
-f1_keywords: ["comcat/ICatInformation.EnumClassesOfCategories"]
+f1_keywords: 
+ - "comcat/ICatInformation.EnumClassesOfCategories"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

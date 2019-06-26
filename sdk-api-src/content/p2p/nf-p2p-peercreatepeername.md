@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCreatePeerName, PeerCreatePeerName function [Peer Networking], p2p.peercreatepeername, p2p/PeerCreatePeerName
 ms.topic: function
-f1_keywords: ["p2p/PeerCreatePeerName"]
+f1_keywords: 
+ - "p2p/PeerCreatePeerName"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], IBDA_FrequencyFilter interface [Microsoft TV Technologies],described, IBDA_FrequencyFilterInterface, bdaiface/IBDA_FrequencyFilter, mstv.ibda_frequencyfilter
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_FrequencyFilter"]
+f1_keywords: 
+ - "bdaiface/IBDA_FrequencyFilter"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

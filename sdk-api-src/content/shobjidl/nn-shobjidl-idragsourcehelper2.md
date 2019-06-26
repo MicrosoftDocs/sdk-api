@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper2, IDragSourceHelper2 interface [Windows Shell], IDragSourceHelper2 interface [Windows Shell],described, _shell_IDragSourceHelper2, shell.IDragSourceHelper2, shobjidl/IDragSourceHelper2
 ms.topic: interface
-f1_keywords: ["shobjidl/IDragSourceHelper2"]
+f1_keywords: 
+ - "shobjidl/IDragSourceHelper2"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

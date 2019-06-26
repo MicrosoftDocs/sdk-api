@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions"
 ms.topic: struct
-f1_keywords: ["elscore/MAPPING_ENUM_OPTIONS"]
+f1_keywords: 
+ - "elscore/MAPPING_ENUM_OPTIONS"
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

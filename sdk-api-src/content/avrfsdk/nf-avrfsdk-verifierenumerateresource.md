@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, AvrfResourceHandleTrace, AvrfResourceHeapAllocation, VerifierEnumerateResource, VerifierEnumerateResource function [Windows API], avrfsdk/VerifierEnumerateResource, base.verifierenumerateresource, winprog.verifierenumerateresource
 ms.topic: function
-f1_keywords: ["avrfsdk/VerifierEnumerateResource"]
+f1_keywords: 
+ - "avrfsdk/VerifierEnumerateResource"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

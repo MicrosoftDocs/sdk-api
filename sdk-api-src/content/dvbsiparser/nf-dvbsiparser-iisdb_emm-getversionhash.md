@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionHash method, IISDB_EMM.GetVersionHash, IISDB_EMM::GetVersionHash, dvbsiparser/IISDB_EMM::GetVersionHash, mstv.iisdb_emm_getversionhash
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_EMM.GetVersionHash"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_EMM.GetVersionHash"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

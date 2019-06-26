@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
 ms.topic: method
-f1_keywords: ["netfw/INetFwPolicy2.IsRuleGroupEnabled"]
+f1_keywords: 
+ - "netfw/INetFwPolicy2.IsRuleGroupEnabled"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_X509DATA, CRYPT_XML_X509DATA structure [Security], PCRYPT_XML_X509DATA, PCRYPT_XML_X509DATA structure pointer [Security], cryptxml/CRYPT_XML_X509DATA, cryptxml/PCRYPT_XML_X509DATA, security.crypt_xml_x509data
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_X509DATA"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_X509DATA"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
