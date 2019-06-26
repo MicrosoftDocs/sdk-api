@@ -41,6 +41,7 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [webauthenticationcoremanagerinterop.h](../webauthenticationcoremanagerinterop/index.md)
  * [windows.data.pdf.interop.h](../windows.data.pdf.interop/index.md)
  * [windows.foundation.h](../windows.foundation/index.md)
+ * [windows.graphics.capture.interop.h](../windows.graphics.capture.interop/index.md)
  * [windows.graphics.effects.interop.h](../windows.graphics.effects.interop/index.md)
  * [windows.graphics.imaging.interop.h](../windows.graphics.imaging.interop/index.md)
  * [windows.media.core.interop.h](../windows.media.core.interop/index.md)

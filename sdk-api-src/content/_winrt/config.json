@@ -37,6 +37,7 @@
     "windows.foundation.collections.h",
     "windows.foundation.h",
     "windows.foundation.idl",
+    "windows.graphics.capture.interop.h",
     "windows.graphics.directx.direct3d11.interop.h",
     "windows.graphics.effects.interop.h",
     "windows.graphics.imaging.interop.h",
